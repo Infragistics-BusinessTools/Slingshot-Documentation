@@ -1,0 +1,55 @@
+- name: GETTING STARTED
+  header: true
+- name: Welcome to Slingshot
+  href: welcome-slingshot.md
+  new: false
+- name: Logging in for the first time
+  href: logging-in-first-time.md
+  new: false
+- name: THE SLINGSHOT APP
+  header: true
+- name: Roles & Permissions
+  href: roles-permissions.md
+  new: false
+- name: Teams
+  href: teams.md
+  new: false
+  items:
+    - name: More on Teams
+      href: teams-starting.md
+      new: false
+- name: Projects
+  href: projects.md
+  new: false
+  items:
+    - name: More on Projects
+      href: projects-starting.md
+      new: false
+- name: Tasks
+  href: tasks.md
+  new: false
+  items:
+    - name: More on Tasks
+      href: tasks-starting.md
+      new: false
+- name: Discussions
+  href: discussions.md
+  new: false
+- name: Overviews
+  href: overviews.md
+  new: false
+- name: Notifications
+  href: notifications.md
+  new: false
+- name: Content & Boards
+  href: content-boards.md
+  new: false
+  items:
+    - name: More on Content
+      href: content-starting.md
+      new: false
+- name: USE CASES & WALKTHROUGHS
+  header: true
+  new: false
+- name: Coming soon...
+  new: false

@@ -1,0 +1,11 @@
+- name: General
+  header: true
+- name: Getting Started
+  href: general-getting-started.md
+  new: false
+- name: Gauges
+  header: true
+  new: false
+- name: Bullet Graph
+  href: bullet-graph.md
+  new: false

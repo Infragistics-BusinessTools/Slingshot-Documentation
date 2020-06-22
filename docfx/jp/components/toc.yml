@@ -1,0 +1,11 @@
+﻿- name: 概要
+  header: true
+- name: 作業の開始
+  href: general-getting-started.md
+  new: false
+- name: Gauges
+  header: true
+  new: false
+- name: Bullet Graph
+  href: bullet-graph.md
+  new: false
