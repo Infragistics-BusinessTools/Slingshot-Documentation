@@ -7,11 +7,10 @@ Read on to get answers to most of your questions about teams.
 
 In Slingshot, people can join an organization, one or more teams, and also one or more projects.  
 The purpose of having an organization team is for company leaders to have the ability to communicate key goals, metrics, strategies, and important announcements throughout their organization.   
-The organization team is named after your organization (e.g. your company's name). Members need to log in with their organization’s email to be associated with the organization team.
 
 ![An Organization team](../images/main-organization-team.png)
 
-The Organization team has only three available tabs on the right: *Discussions, Content*, and *Dashboards*.
+The organization team is named after your organization (e.g. your company's name). Members need to log in with their organization’s email to be associated with the organization team.
 
 Teams can be associated with the organization team or not. They can include members from within and out of the main Organization team. Team members share not only *Content, Dashboards*, and *Discussions*, but also *Projects* and *Tasks*.
 
@@ -27,7 +26,7 @@ You can access your teams on the very left of the screen as shown below.
 
 ![The Teams navigation menu opened with a list of teams in it](../images/teams-list.png)
 
-By scrolling down you are able to navigate all your teams and their projects. If you bookmarked a team to keep it at hand, you can select bookmarks here to find that team faster. This also goes for the projects. Under each project's name you will find the team it is part of (see below).
+By scrolling down you are able to navigate all your teams and their projects. If you bookmarked a team or project to keep it at hand, you can select bookmarks to find it faster.   Under each project's name you will find the team it belongs to (see below).
 
 ![Teams navigation menu opened and Bookmarks selected](../images/teams-bookmarks.png)
 
@@ -35,21 +34,22 @@ To **navigate to any team**, just click/tap over it.
 
 ### How can I discover and join other teams?
 
-To become a team member you first need to discover your new team. Select the _Join or Create a Team_ button at the bottom of your teams' list to open a dialog with the available teams to join:
+To become a team member you first need to discover your new team.   Select the _Join or Create a Team_ button at the end of your teams' list to open a dialog with the available teams to join.
 
 ![Join or Create a Team blue button](../images/join-create-button.png)
 
-In this dialog, you will find **only public teams, which are part of your Organization**. You can join these teams by yourself, receiving the role of a Member.
+In this dialog, you will find **only public teams, part of your Organization**. You can join these teams on the spot, getting the Member role.
 
-To become part of **teams, which are outside of your organization**, you need to be invited by their Owner via email.
+To become part of **private teams or teams outside of your organization**, you need to be invited by their Owner.
 
 ### How can I create a new team?
 
 Every user in Slingshot can create teams.  
-**Access the team creation menu** by selecting the *Join or Create a Team button* (see screenshot below) > *+ Create Team*. In this dialog, configure the following:
+**Access the team creation menu** by selecting the *Join or Create a Team button* (see screenshot below) > *+ Create Team*.
 
 ![The Create Team menu](../images/create-team-dialog.png)
 
+In this dialog, configure the following:
 * ***Team Name*** - giving your team a descriptive and meaningful name is always worth the effort.
 * *(Optional)* ***Description*** - descriptions are helpful and nice to have, but absolutely optional in Slingshot.
 * ***Organization*** - choose whether your team will be part of the main Organization or will exist as your *Personal* team. How to choose and what is the difference?  
@@ -74,7 +74,7 @@ After selecting **Send Invites** button your new team is created. You will find 
 
 ### How can I get visibility over a team?
 
-Every team has its central place where the most important information is visible at first look. This is the Teams **Overview**.  
+Every team has a place where the most important information is visible at first look. This is the Teams **Overview**.  
 Upon accessing a team, you will have its *Overview* opened.  
 
 <img src="../images/team-overview.png" alt="A team's overview screen" width="800"/>
