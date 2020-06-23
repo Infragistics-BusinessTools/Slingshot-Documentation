@@ -1,0 +1,34 @@
+# Starter pipeline
+# Start with a minimal pipeline that you can customize to build and deploy your code.
+# Add steps that build, run tests, deploy, and more:
+# https://aka.ms/yaml
+
+#trigger:
+#- master
+
+pool:
+  name: "BusinessTools On-Prem Documentation"
+
+steps:
+- checkout: self
+  clean: true
+  submodules: true
+  
+- task: DeleteFiles@1
+  inputs:
+    SourceFolder: 
+    Contents: |
+      package-lock.json
+      yarn.lock
+
+- task: CmdLine@2
+  inputs:
+    script: 'npm install'
+
+- task: PublishBuildArtifacts@1
+  inputs:
+    PathtoPublish: 'dist/Slingshot'
+    ArtifactName: 'docs'
+    publishLocation: 'FilePath'
+    TargetPath: '\\igbgsofsmb2\builds\Slingshot\Docs\$(Build.DefinitionName)\$(Build.BuildNumber)'
+    Parallel: true
