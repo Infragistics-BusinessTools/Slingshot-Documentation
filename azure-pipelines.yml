@@ -20,11 +20,16 @@ steps:
     Contents: |
       package-lock.json
       yarn.lock
-
+- task: Yarn@3
+  inputs:
+    arguments: 'install'
 - task: CmdLine@2
   inputs:
     script: 'npm install'
 
+- task: Yarn@3
+  inputs:
+    arguments: 'build build-docfx-Slingshot'
 - task: PublishBuildArtifacts@1
   inputs:
     PathtoPublish: 'dist/Slingshot'
