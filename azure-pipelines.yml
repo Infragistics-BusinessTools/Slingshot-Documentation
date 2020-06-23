@@ -23,7 +23,7 @@ steps:
 
 - task: YarnInstaller@3
   inputs:
-    versionSpec: '2.7.1003'
+    versionSpec: '1.21.1'
 - task: Yarn@3
   inputs:
     arguments: 'install'
