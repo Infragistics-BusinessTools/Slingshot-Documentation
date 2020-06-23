@@ -20,6 +20,10 @@ steps:
     Contents: |
       package-lock.json
       yarn.lock
+
+- task: YarnInstaller@3
+  inputs:
+    versionSpec: '2.7.1003'
 - task: Yarn@3
   inputs:
     arguments: 'install'
