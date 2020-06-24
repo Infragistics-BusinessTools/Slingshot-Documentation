@@ -63,7 +63,7 @@ In this dialog, configure the following:
 >[!NOTE]
 >Be aware that your team can be deleted by an Owner of the main organization anytime (even if you are an Owner too).
 
-Click *Create* and proceed to **inviting team members** by adding their emails to the list:
+Click *Create* and proceed to **invite team members** by adding their emails to the list:
 
 ![Inviting team members](../images/invite-members.png)
 
@@ -79,13 +79,13 @@ Upon accessing a team, you will have its *Overview* opened.
 
 <img src="../images/team-overview.png" alt="A team's overview screen" width="800"/>
 
-You can find three widgets in every team's overview: **_Details_**, ***Your Mentions*** and ***Task Status*/*Activity*** the following elements in every team's overview:
+You can find the following elements in every team's overview:
 
 1. **Settings** of the team - select the gear icon to view or [change](#how-can-i-change-the-teams-privacy-name-or-description) the team's name, description, organization, and privacy settings. You can also [delete](#deleting-vs-leaving-a-team) the team.
 2. **Team members** - click on the profile images (or initial) icons on the left board to view or [manage members](#how-can-i-manage-team-members).
 3. **Content** - click the overflow menu to pin content, weblinks and dashboards that are essential for your team's work. To do this, select the overflow menu on the right of *CONTENT*. Use the team's *Content* tab on the left to store and organize more content.
 
-    >[!NOTE] If your teammates don't have the file (folder) in their cloud storage or shared cloud storage, they **will not be able to access the content** pinned in the Team *Overview*. In this case, pin the file (folder) in *Content* (in the left tab) to share it with them.
+    >[!NOTE] If your teammates don't have the file (folder) in their cloud storage or shared cloud storage, they **will not be able to access the content** pinned in the Team *Overview*. In this case, you can pin the file (folder) in *Content* (in the left tab) to share it with them.
 
 4. **Mentions** - when other team members mention you, a team, or a project of yours (by using the _@ sign_) in a *Topic* in the *Teams' Discussions* or in the _Activity_ chat (see in *number 6* below), you will see a notification on this board. Upon clicking on it, you will be navigated to where the message is located.
 5. **Task Status** - here you will find a list of all members. Under each name, you will see the number of all current tasks for each user. The circle on the right uses colors to show what part of all tasks  is complete (blue), not started (grey), in progress (green), in review (purple), blocked (yellow).
@@ -94,7 +94,7 @@ You can find three widgets in every team's overview: **_Details_**, ***Your Ment
 
 ### How can I manage team members?
 
-Team members are an essential part of the concept for a team. As an owner of a team, you may want to have more control over the members and their permissions.
+Team members are an essential part of the concept of a team. As an owner of a team, you may want to have more control over the members and their permissions.
 
 **Only team owners can**:
 - invite new members;
@@ -143,7 +143,7 @@ To do this:
 
 You can also go directly to a project's *Tasks* tab and **assign a task to an external member**.
 
->[!NOTE] **External members** you can work with are any other Slingshot users. They don't need to be part of the same main Organization as you.
+>[!NOTE] **External members** you can work with any other Slingshot users. They don't need to be part of the same main Organization as you.
 
 External members, who are added to a project, will receive **notifications** about the project and its state. They will also be notified when the project is mentioned (by using the *@ sign* + the project's name).
 
