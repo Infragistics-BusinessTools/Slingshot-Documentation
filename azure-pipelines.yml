@@ -34,11 +34,13 @@ steps:
 - task: CmdLine@2
   inputs:
     script: 'git submodule update --init --recursive'
-# copy Reveal files (md, toc, images) to Slingshot files folder
+# copy Reveal files (md, toc) to Slingshot files folder
 - task: CopyFiles@2
   inputs:
     sourceFolder: reveal-docs\en
-    contents: '**' 
+    Contents: |
+      **\*
+      !**\images\**
     targetFolder: docfx\en\components\Reveal
     overWrite: true
 - task: Yarn@3
