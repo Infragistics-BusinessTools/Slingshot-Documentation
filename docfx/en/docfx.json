@@ -13,6 +13,7 @@
             {
                 "files": [
                     "components/**.md",
+                    "components/**/**.png",
                     "components/**/toc.yml",
                     "components/themes/**.md",
                     "toc.yml",
