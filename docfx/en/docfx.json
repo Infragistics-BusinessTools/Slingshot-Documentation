@@ -13,7 +13,6 @@
             {
                 "files": [
                     "components/**.md",
-                    "components/**/**.png",
                     "components/**/toc.yml",
                     "components/themes/**.md",
                     "toc.yml",
@@ -23,7 +22,7 @@
             }
         ],
         "resource": [{
-            "files": ["images/**"],
+            "files": ["images/**", "components/**/images/**"],
             "exclude": ["obj/**", "_site/**"]
         }],
         "overwrite": [{
