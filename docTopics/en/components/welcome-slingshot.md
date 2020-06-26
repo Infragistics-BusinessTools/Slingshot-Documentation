@@ -9,7 +9,7 @@ So, how can Slingshot do all that for you? Take a look below...
 
 ### Slingshot Highlights
 
-<h4 style="color:#2328B0;">Get quick access to your status and prioritize work across all projects</h4>
+<h4 style="color:#2328B0;">Get Quick Access to your Status and Prioritize Work Across All Projects</h4>
 
 <img src="../images/welcome-overview-personal.png" alt="A Personal Overview within Slingshot" width="800"/>
 
@@ -17,14 +17,14 @@ Above you can see that one place where you can visualize your work and organize 
 All your tasks can be found here and also bookmarks, which are very useful to keep at hand links relevant to you.  
 With bookmarks you can quickly navigate to your teams, projects, discussions, among others.
 
-<h4 style="color:#2328B0;">Keep everyone in the know and make working with others easier</h4>
+<h4 style="color:#2328B0;">Keep Everyone In The Know and Make Working with Others Easier</h4>
 
 <img src="../images/welcome-overview-project.png" alt="Project Overview within Slingshot" width="800"/>
 
 Encourage transparency and trust by making it easy for others to find information. Working together, with strong collaboration and support to each other is possible, even with external clients.
 
 
-<h4 style="color:#2328B0;">Run higher performing Teams and successful Projects</h4>
+<h4 style="color:#2328B0;">Run Higher Performing Teams and Successful Projects</h4>
 
 <img src="../images/welcome-team.png" alt="A Slingshot team" width="800"/>
 
@@ -34,20 +34,20 @@ Slingshot empowers your teams to achieve greater success by keeping everyone ali
 
 Projects are undertaken by people with expertise in many different areas, often from different teams and sometimes even from outside your organization. To ensure a high success rate, Slingshot makes sure all those people work together. They can collaborate and communicate with each other, and everyone gets good visibility over the project and all its resources.
 
-<h4 style="color:#2328B0;">Get more work done with Tasks and leverage their functionality and flexibility</h4>
+<h4 style="color:#2328B0;">Get More Work Done with Tasks and Leverage their Functionality and Flexibility</h4>
 
 <img src="../images/welcome-tasks.png" alt="Team tasks within Slingshot" width="800"/>
 
 Use tasks to your advantage to create a healthy work environment that embraces transparency while driving individual accountability.
-Tasks capture all the relevant information you need around a piece of work, including one or multiple assignees, subtasks, priority, start and due dates, and attachments. Plus you can change how you see tasks as needed by choosing between kanban, grid view, and timeline.
+Tasks capture all the relevant information you need around a piece of work, including one or multiple assignees, subtasks, priority, start and due dates, and attachments. Plus you can change how you see tasks as needed by choosing between Kanban, Grid view, and Timeline.
 
-<h4 style="color:#2328B0;">Keep yourself informed with Notifications</h4>
+<h4 style="color:#2328B0;">Keep Yourself Informed with Notifications</h4>
 
 <img src="../images/welcome-notifications.png" alt="Notifications within Slingshot" width="800"/>
 
 Get updates on any changes to teams, tasks, projects, messages, and dashboards. Learn when a task was assigned to you, that you were removed from a team, or that someone sent a message in a discussion thread you're following. You can be notified in different ways like pop up messages while using the app (in-app notifications), messages on mobile devices (push notifications), and email notifications.
 
-<h4 style="color:#2328B0;">Access real-time data in context and make better decisions</h4>
+<h4 style="color:#2328B0;">Access Real-Time Data in Context and Make Better Decisions</h4>
 
 <img src="../images/welcome-dashboards.png" alt="Data visualizations within Slingshot" width="800"/>
 
@@ -55,14 +55,14 @@ Turn your data into insights by creating and sharing data visualizations. Dashbo
 You are able to connect to the most popular data sources like SharePoint Online, Google Drive, OneDrive, Microsoft Analysis Services, Microsoft SQL Server, CRM, and many more.  
 Finally, dashboards are composed of one or more visualizations. And you can build your dashboards choosing between a huge array of visualizations, including grid, gauges (bullet graph, KPI, linear), and charts (category, financial, scatter, bubble, treemap). Category charts include column, bar, area, pie, stacked column, and many more.
 
-<h4 style="color:#2328B0;">Real-time, organized communication with team and project members</h4>
+<h4 style="color:#2328B0;">Real-Time, Organized Communication with Team and Project Members</h4>
 
 <img src="../images/welcome-discussions.png" alt="Discussions within Slingshot" width="800"/>
 
-Discussions can be used to chat among members of an Organization, Team, or Project. Organized in different threads, discussions ensure all your communication, and collaboration tools are in one place, making remote teams stay productive no matter where they are.
+Discussions can be used to chat among members of an organization, team, or project. Organized in different threads, discussions ensure all your communication, and collaboration tools are in one place, making remote teams stay productive no matter where they are.
 With Slingshot notifications, you can get informed when someone sent a message to you or in a discussion thread you're following.
 
-<h4 style="color:#2328B0;">Connect to cloud storages and share content with colleagues or partners</h4>
+<h4 style="color:#2328B0;">Connect to Cloud Storages and Share Content with Colleagues or Partners</h4>
 
 <img src="../images/board-sample.png" alt="Board example with several sections and groups" width="800"/>
 
@@ -79,10 +79,10 @@ Slingshot private chat will be soon available so everyone can communicate with o
 
 This is one of those features that can boost productivity even more. We are already working on search and it's coming soon.
 
-### Where can I get Slingshot?
+### Where Can I Get Slingshot?
 
 Slingshot offers you a seamless, almost identical experience no matter what device you are on.
-You can use a web browser or get native applications on iOS, Android, and desktop, making it easy for you to run productive teams across different devices and platforms.
+You can use a web browser or get native applications on iOS, Android, and Desktop, making it easy for you to run productive teams across different devices and platforms.
 
 [Go to Slingshot **Web**](https://my.slingshotapp.io/).
 
