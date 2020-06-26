@@ -30,7 +30,17 @@ steps:
 - task: CmdLine@2
   inputs:
     script: 'npm install'
-
+# get the Reveal repo
+- task: CmdLine@2
+  inputs:
+    script: 'git submodule update --init --recursive'
+# copy Reveal files (md, toc, images) to Slingshot files folder
+- task: CopyFiles@2
+  inputs:
+    sourceFolder: reveal-docs\en
+    contents: '**' 
+    targetFolder: docfx\en\components\Reveal
+    overWrite: true
 - task: Yarn@3
   inputs:
     arguments: 'build build-docfx-Slingshot'
