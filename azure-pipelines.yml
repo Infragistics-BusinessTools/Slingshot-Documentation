@@ -40,7 +40,13 @@ steps:
     sourceFolder: reveal-docs\en
     Contents: |
       **\*
-      !**\images\**
+      !**\toc.yml
+    targetFolder: docTopics\en\components\Reveal
+    overWrite: true
+- task: CopyFiles@2
+  inputs:
+    sourceFolder: reveal-docs\en
+    Contents: '**\toc.yml'
     targetFolder: docfx\en\components\Reveal
     overWrite: true
 - task: Yarn@3
