@@ -62,6 +62,13 @@ Finally, dashboards are composed of one or more visualizations. And you can buil
 Discussions can be used to chat among members of an Organization, Team, or Project. Organized in different threads, discussions ensure all your communication, and collaboration tools are in one place, making remote teams stay productive no matter where they are.
 With Slingshot notifications, you can get informed when someone sent a message to you or in a discussion thread you're following.
 
+<h4 style="color:#2328B0;">Connect to cloud storages and share content with colleagues or partners</h4>
+
+<img src="../images/board-sample.png" alt="Board example with several sections and groups" width="800"/>
+
+Slingshot helps you focus on collaboration instead of managing content. You can access content from many cloud providers, using boards to organize that content and securely share it with others.  
+Everyone'll always have the most up to date version of documents, eliminating the need to send documents back and forth.
+
 ### Coming Soon to Slingshot
 
 <h4 style="color:#2328B0;">CHAT</h4>
