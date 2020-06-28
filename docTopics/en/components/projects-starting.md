@@ -12,13 +12,13 @@ The organization team is named after your organization (e.g. your company's name
 
 ![An Organization team](../images/main-organization-team.png)
 
-The Organization team has only three available tabs on the right: *Discussions, Content*, and *Dashboards*.
+The organization team has only three available tabs on the right: **Discussions**, **Content**, and **Dashboards**.
 
-Teams can be associated with the organization team or not. They can include members from within and out of the main Organization team. Team members share not only *Content, Dashboards*, and *Discussions*, but also *Projects* and *Tasks*.
+Teams can be associated with the organization team or not. They can include members from within and out of the main organization team. Team members share not only **Content**, **Dashboards**, and **Discussions**, but also **Projects** and **Tasks**.
 
 ![Example of a team and its tasks](../images/teams-example-tasks.png)
 
-Projects live inside of a team, but are not limited to its members. You can invite people from other teams to every project. A project contains its own *Overview, Tasks, Discussions, Content,* and *Dashboards*. You can also assign tasks within a project to people, who are not part of the project or the team.
+Projects live inside of a team, but are not limited to its members. You can invite people from other teams to every project. A project contains its own **Overview**, **Tasks**, **Discussions**, **Content**, and **Dashboards**. You can also assign tasks within a project to people, who are not part of the project or the team.
 
 ![A project Overview](../images/project-example-overview.png)
 
@@ -28,14 +28,14 @@ You can access the projects of a team on the very left of the screen as shown be
 
 <img src="../images/projects-accessing.png" alt="Accessing all projects of a Slingshot team" width="800"/>
 
-By scrolling down you are able to navigate all the projects. If you bookmark one of the projects to keep it at hand, you can also find it in your Personal Overview.  
+By scrolling down you are able to navigate all the projects. If you bookmark one of the projects to keep it at hand, you can also find it in your personal overview.  
 Follow the links for further details about [overviews](overviews.md).
 
 ### How can I create a new project?
 
 Every owner or member of a Slingshot team can create a new project.
 
-**Access the project creation menu** by selecting *Overview* or *Projects* (see screenshot below) and then *+ Project*.
+Access the project creation menu by selecting *Overview* or *Projects* (see screenshot below) and then *+ Project*.
 
 <img src="../images/projects-accessing-creation.png" alt="Accessing the create project dialog within a team" width="800"/>
 
@@ -43,7 +43,7 @@ In the new dialog you can give your project a meaningful name and, optionally, a
 
 <img src="../images/projects-creation-dialog.png" alt="Displaying the create project dialog" width="800"/>
 
-Click *Create* and proceed to **add project members** by selecting them from the team members list:
+Click *Create* and proceed to adding project members by selecting them from the team members list:
 
 <img src="../images/projects-add-team-members.png" alt="Adding team members to a project" width="800"/>
 
@@ -51,7 +51,7 @@ You can assign one or more team members to the project, plus any external people
 
 <img src="../images/projects-external.png" alt="Adding external users to a Slingshot project" width="800"/>
 
-Proceed to **invite external members** by adding their emails to the list. Then, select **Send Invites**.
+Proceed to invite external members by adding their emails to the list. Then, select _Send Invites_.
 
 ### How can I ensure the project is on track?
 By keeping everyone in the loop, leaders and project members can proactively identify that a project is not going well and needs attention
@@ -64,52 +64,52 @@ Projects can go wrong for multiple reasons and sometimes more than once. That's 
 
 Any team member (with the owner or member role) that is assigned to a project can add or remove project members. External users must have the member role to do so. Viewers are never allowed to manage project members.
 
-**Access the project members' dialog** by selecting the project's [Overview](#how-can-i-get-visibility-over-a-team) > Details widget (on the left) >  profile images icons (above _Content_).
+Access the project members' dialog by selecting the project's [Overview](#how-can-i-get-visibility-over-a-team) > Details widget (on the left) >  profile images icons (above _Content_).
 
 <img src="../images/projects-add-team-members.png" alt="Adding team members to a project" width="800"/>
 
-To **invite new members** just select team members from the team or go to *External* to add members from outside of the team.
+To invite new members just select team members from the team or go to *External* to add members from outside of the team.
 
-For external users , you can **change each member's role or remove the member** from the project by clicking on the role's dropdown.
+For external users , you can change each member's role or remove the member from the project by clicking on the role's dropdown.
 
 ### Can I work with people from outside of a team or organization?
 
 Sometimes you may need to work on a particular task or project with people outside of your team. In this case, it doesn't make sense to add them as members to your team.
 
-You can **assign project tasks** to members outside of a team in the project's *Tasks* on the left.
+You can assign project tasks to members outside of a team in the project's _Tasks_ on the left.
 
 ![Tasks tab in a project](../images/tasks-tab-team.png)
 
-Users will receive a notification about the task they were assigned. For them the task will appear in *Home > Tasks*.  
+Users will receive a notification about the task they were assigned. For them, the task will appear in *Home > Tasks*.  
 
 <img src="../images/externalUser-task.png" alt="Showing a Task created for an external user" width="800"/>
 
-ABesides existing team members, you can also **add external members to projects**. To do this:
-1. Navigate to your **team** > **Projects** > **Selected Project** > Project **Overview** (in the tab bar on the left).
-2. Click/tap on the **profile images icons** (left widget in *Overview*) to open _Who is working on this?_ dialog:
+Besides existing team members, you can also add external members to projects. To do this:
+1. Navigate to _your team_ > _Projects_ > _Selected Project_ > _Project Overview_ (in the tab bar on the left).
+2. Click/tap on the profile images icons (left widget in *Overview*) to open _Who is working on this?_ dialog:
 
 ![External tab in the Who is working on this? dialog](../images/external-members-project.png)
 
-3. Choose **External** > **+ Members** blue button to add members who are not part of the team to this project.
+3. Choose _External_ > _+ Members_ blue button to add members who are not part of the team to this project.
 
-You can also go directly to a project's *Tasks* tab and **assign a task to an external member**.
+You can also go directly to a project's *Tasks* tab and assign a task to an external member.
 
 >[!NOTE]
->**External members** don't need to be part of the same main Organization as you.
+>**External members** don't need to be part of the same main organization as you.
 
-External members, who are added to a project, will receive **notifications** about the project and its state. They will also be notified when the project is mentioned (by using the *@ sign* + the project's name).
+External members, who are added to a project, will receive notifications about the project and its state. They will also be notified when the project is mentioned (by using the *@ sign* + the project's name).
 
-Every team member can **leave and stop receiving (unfollow) notifications** about a project and its mentions. To do this, navigate to the *Who is working on this?* dialog > *Team members* and unmark the checkbox next to your name, as shown below:
+Every team member can leave and stop receiving (unfollow) notifications about a project and its mentions. To do this, navigate to the *Who is working on this?* dialog > *Team members* and unmark the checkbox next to your name, as shown below:
 
 ![Unmark checkbox to unfollow project](../images/unfollow-project.png)
 
 The Owner of a team can also exclude team members from a project.
 
-After unfollowing a project, you will receive only **notifications about tasks** assigned to you within the project.
+After unfollowing a project, you will receive only notifications about tasks assigned to you within the project.
 
 ### How can I change the project's dates, name, or description?
 
-To change your projects's settings go to the Project Overview and select the gear icon:
+To change your projects's settings go to the project overview and select the gear icon:
 
 ![Accessing project settings](../images/access-team-settings.png)
 
@@ -119,10 +119,10 @@ A screen will open and there you can change your project's dates, name, or descr
 
 In Slingshot you can either delete or leave a project.
 
-To **delete a project** go to its [settings](#how-can-i-change-the-projects-dates-name-or-description) and select the overflow button:
+To delete a project go to its [settings](#how-can-i-change-the-projects-dates-name-or-description) and select the overflow button:
 
 ![Overflow button location in the Project's settings](../images/overflow-menu-settings.png)
 
 Deleting a project removes it and all its contents for all its members.
 
-To remove a project and its content only for you, use the **leave** option. You can do this by going to the project's [members list](#how-can-i-manage-project-members), click/tap your role and select *Leave* at the bottom.
+To remove a project and its content only for you, use the _leave_ option. You can do this by going to the project's [members list](#how-can-i-manage-project-members), click/tap your role and select *Leave* at the bottom.

@@ -18,11 +18,11 @@ Once you get in, you are greeted with your first screen:
 
 <img src="../images/personal-overview-blank.png" alt="Personal Overview completely blank for a new user" width="800"/>
 
-You always start in your personal space, your **Home**. Specifically, in **My Overview**, that one place where you can get a quick glance to your most important information, organize yourself, and visualize your work.
+You always start in your personal space, your **Home**. Specifically, in _My Overview_, that one place where you can get a quick glance to your most important information, organize yourself, and visualize your work.
 
 <img src="../images/overview-personal.png" alt="Personal Overview shown in Slingshot" width="800"/>
 
-As you can see above, **My Overview** can get very busy. Let's focus on getting you familiar with Slingshot first...
+As you can see above, _My Overview_ can get very busy. Let's focus on getting you familiar with Slingshot first...
 
 ### Home, Organization, Teams, and Projects
 
@@ -32,7 +32,7 @@ Your personal space, **Home**, is great and useful, but Slingshot is about effec
 
 By scrolling down you are able to navigate your teams and their projects. If you bookmarked a team or project to keep it at hand, you can select bookmarks here to find it faster. Your organization (if you have one) is also displayed here.
 
-To **navigate to any team or project**, just click/tap over it.
+To navigate to any team or project, just click/tap over it.
 
 <img src="../images/teams-navigation-organization.png" alt="Organization, Teams, and Projects navigation opened and hovering the Organization" width="800"/>
 
@@ -41,21 +41,21 @@ Follow the links for further details about [teams](teams.md) or [projects](proje
 
 ### Overviews, Projects, Tasks, Discussions, Content, and Dashboards
 
-On the very left of the screen, you can find the **main navigation items**, Overviews, Projects, Tasks, Discussions, Content, Dashboards.
+On the very left of the screen, you can find the main navigation items, **Overviews**, **Projects**, **Tasks**, **Discussions**, **Content**, **Dashboards**.
 
 <img src="../images/overview-personal-navigation.png" alt="Personal Overview highlighting the main navigation items in Slingshot" width="800"/>
 
-You probably noticed that Projects and Discussions are both missing in the image above.
-It's true, not all navigation items are present in your Home, Organization, or Projects.  
+You probably noticed that projects and discussions are both missing in the image above.
+It's true, not all navigation items are present in your home, organization, or projects.  
 So, why is that? Let's answer that question quickly...
 
-As your Teams have Projects, only Teams have all the main navigation items. Discussions are used to chat among members of an Organization, Team or Project, so you'll find Discussions there. And finally, Overviews give you a quick status of projects, teams, or your personal work, so you'll find them there.
+As your teams have projects, only **Teams** have all the main navigation items. **Discussions** are used to chat among members of an organization, team or project, so you'll find discussions there. And finally, **Overviews** give you a quick status of projects, teams, or your personal work, so you'll find them there.
 
 <img src="../images/overview-team-navigation.png" alt="Teams Overview shown in Slingshot" width="800"/>
 
 The image above shows a Slingshot team, so all the main navigation items are present.  
-Tasks represent work to be done and Discussions are used to chat with members of your team or project. Content is about cloud storages and boards, basically you connect to cloud storages and then use boards to organize and share that content with others.
-Finally, Dashboards allow you to quickly create and share data visualizations so you can turn your data into insights.  
+**Tasks** represent work to be done and discussions are used to chat with members of your team or project. **Content** is about cloud storages and boards, basically you connect to cloud storages and then use boards to organize and share that content with others.
+Finally, **Dashboards** allow you to quickly create and share data visualizations so you can turn your data into insights.  
 Follow the links for further details about [overviews](overviews.md), [projects](projects.md), or [tasks](tasks.md).
 
 ### Notifications and User Settings
@@ -67,21 +67,21 @@ Follow the links for further details about [overviews](overviews.md), [projects]
 There are three different types of notifications, in-app, push, and email. This means that you can get a message that pops up while using Slingshot (in-app notification), a message that pops up on a mobile device (push notification), or even an email notification.  
 Follow the link for further details about [notifications](notifications.md).
 
-In **User Settings** you can find the General Settings, Feedback, and you can also _Sign Out_ of the application.
+In **User Settings** you can find _General Settings_, _Feedback_, and you can also _Sign Out_ of the application.
 
 <img src="../images/userSettings-opened.png" alt="User Settings menu opened in Slingshot" width="800"/>
 
-Then, in _Settings_ you can find General and Notifications settings. _General Settings_ include changing your name, photo, the application theme, dashboards-specific settings, and the drag and drop location.
+Then, in _Settings_ you can find general and notifications settings. _General Settings_ include changing your name, photo, the application theme, dashboards-specific settings, and the drag and drop location.
 
 <img src="../images/userSettings-generalSettings.png" alt="General Settings opened in Slingshot" width="800"/>
 
-After scrolling down to the bottom you'll see **Drag and Drop**. This setting allows you to manage the location of your uploads. But what does this mean?
+After scrolling down to the bottom you'll see _Drag and Drop_. This setting allows you to manage the location of your uploads. But what does this mean?
 
 Every time you reference or share a file within Slingshot, it is located in a cloud storage. When you drag and drop a file it comes outside Slingshot, so it's uploaded to the cloud storage configured here.
 
 <img src="../images/generalSettings-dragAndDrop.png" alt="Drag and Drop Settings access in Slingshot" width="800"/>
 
-Use the in-app _Feedback_ screen to send us suggestions, comments, or requests about Slingshot. Here you can rate the app, add screenshots to the feedback you send, and also annotate the screenshots to provide even more detailed information.
+Use in-app **Feedback** to send us suggestions, comments, or requests about Slingshot. Here you can rate the app, add screenshots to the feedback you send, and also annotate the screenshots to provide even more detailed information.
 
 <img src="../images/userSettings-feedback.png" alt="Accessing the feedback screen in Slingshot" width="800"/>
 
