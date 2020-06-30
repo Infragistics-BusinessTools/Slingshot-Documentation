@@ -8,7 +8,7 @@ Putting a little thought into to this, big picture thinking can be a big help fo
 
 It's a quick snapshot of a project, a team, or your personal work. Slingshot overviews present you with the current status of one of those three by including summarized information.
 
-By looking at a **project overview** you can get a sense of the project progress at a glance. Within seconds you get an overall status (On Target, At Risk, Danger, Completed), the start and due dates, and issues raised by someone working on the project. That information alone might be enough for you, if not you can dig deeper by exploring specific tasks within the project or even mentions directed at you. Project content can be useful to add resources like links, documents, dashboards, etc.
+By looking at a **project overview** you can get a sense of the project progress at a glance. Within seconds you get an overall status (_On Target, At Risk, Danger, Completed_), the start and due dates, and issues raised by someone working on the project. That information alone might be enough for you, if not you can dig deeper by exploring specific tasks within the project or even mentions directed at you. Project content can be useful to add resources like links, documents, dashboards, etc.
 
 <img src="../images/overview-project.png" alt="Project Overview shown in Slingshot" width="800"/>
 
@@ -20,7 +20,7 @@ Your **personal overview** is that one place where you can visualize your work a
 
 <img src="../images/overview-personal.png" alt="Personal Overview shown in Slingshot" width="800"/>
 
-### Why Visibility is so Important?
+### Why Is Visibility So Important?
 In an [agile world](https://agilemanifesto.org/), you can never go wrong by saying that trust and transparency are key elements for a team leader seeking effective collaboration. That being said, visibility is essential for allowing, if not actually creating trust and transparency within a team.  
 
 Slingshot might be all about visibility yes, but overviews were specifically designed with visibility in mind. Besides helping build trust and transparency, overviews can help you turn challenges into opportunities. Using Slingshot overviews you are able to contrast and reframe current challenges while you adapt to a changing reality.   

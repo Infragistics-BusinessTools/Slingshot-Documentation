@@ -1,7 +1,7 @@
 ## Starting with Projects
 
 Welcome!  
-Read on to get answers to most of your questions about Projects.
+Read on to get answers to most of your questions about projects.
 
 ### Organization vs Team vs Project
 
@@ -22,7 +22,7 @@ Projects live inside of a team, but are not limited to its members. You can invi
 
 ![A project Overview](../images/project-example-overview.png)
 
-### How can I access my projects?
+### How Can I Access my Projects?
 
 You can access the projects of a team on the very left of the screen as shown below.
 
@@ -31,7 +31,7 @@ You can access the projects of a team on the very left of the screen as shown be
 By scrolling down you are able to navigate all the projects. If you bookmark one of the projects to keep it at hand, you can also find it in your personal overview.  
 Follow the links for further details about [overviews](overviews.md).
 
-### How can I create a new project?
+### How Can I Create a New Project?
 
 Every owner or member of a Slingshot team can create a new project.
 
@@ -53,14 +53,14 @@ You can assign one or more team members to the project, plus any external people
 
 Proceed to invite external members by adding their emails to the list. Then, select _Send Invites_.
 
-### How can I ensure the project is on track?
+### How Can I Ensure the Project Is On Track?
 By keeping everyone in the loop, leaders and project members can proactively identify that a project is not going well and needs attention
 
 <img src="../images/overview-project.png" alt="Project Overview shown in Slingshot" width="800"/>
 
 Projects can go wrong for multiple reasons and sometimes more than once. That's a fact. The actual challenge is to proactively identify a project has spiraled out of control and get it back on track as soon as possible. Project overviews help you identify those projects and the reasons, helping you ship projects consistently on time and on budget.
 
-### How can I manage project members?
+### How Can I Manage Project Members?
 
 Any team member (with the owner or member role) that is assigned to a project can add or remove project members. External users must have the member role to do so. Viewers are never allowed to manage project members.
 
@@ -72,7 +72,7 @@ To invite new members just select team members from the team or go to *External*
 
 For external users , you can change each member's role or remove the member from the project by clicking on the role's dropdown.
 
-### Can I work with people from outside of a team or organization?
+### Can I Work with People from Outside of a Team or Organization?
 
 Sometimes you may need to work on a particular task or project with people outside of your team. In this case, it doesn't make sense to add them as members to your team.
 
@@ -107,7 +107,7 @@ The Owner of a team can also exclude team members from a project.
 
 After unfollowing a project, you will receive only notifications about tasks assigned to you within the project.
 
-### How can I change the project's dates, name, or description?
+### How Can I Change the Project's Dates, Name, or Description?
 
 To change your projects's settings go to the project overview and select the gear icon:
 
@@ -115,7 +115,7 @@ To change your projects's settings go to the project overview and select the gea
 
 A screen will open and there you can change your project's dates, name, or description.
 
-### Deleting vs leaving a project
+### Deleting vs Leaving a Project
 
 In Slingshot you can either delete or leave a project.
 

@@ -5,8 +5,8 @@ A task can be defined as "a piece of work to be done", simple right? Yet, there 
 ### So, What's a Slingshot Task?
 
 Think of a Slingshot task as a virtual representation of work to be done. But not just that. Slingshot tasks were designed to help you, and your team to better organize work and boost productivity. How you may ask? Take a look:
-- Tasks **capture all relevant information around a piece of work**.
-- Tasks are beginner-friendly and yet they **have tons of functionality and flexibility**.
+- Tasks capture all relevant information around a piece of work.
+- Tasks are beginner-friendly and yet they have tons of functionality and flexibility*.
 
 <img src="../images/tasks-list.png" alt="A Slingshot tasks displayed in a list" width="800"/>
 

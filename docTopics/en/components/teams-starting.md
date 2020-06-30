@@ -20,7 +20,7 @@ Projects live inside of a team, but are not limited to its members. You can invi
 
 ![A project Overview](../images/project-example-overview.png)
 
-### How can I access my teams?
+### How Can I Access my Teams?
 
 You can access your teams on the very left of the screen as shown below.
 
@@ -32,7 +32,7 @@ By scrolling down you are able to navigate all your teams and their projects. If
 
 To navigate to any team, just click/tap over it.
 
-### How can I discover and join other teams?
+### How Can I Discover and Join Other Teams?
 
 To become a team member you first need to discover your new team. Select the _Join or Create a Team_ button at the end of your teams' list to open a dialog with the available teams to join.
 
@@ -42,7 +42,7 @@ In this dialog, you will find **only public teams, part of your Organization**. 
 
 To become part of **private teams or teams outside of your organization**, you need to be invited by their Owner.
 
-### How can I create a new team?
+### How Can I Create a New Team?
 
 Every user in Slingshot can create teams.  
 Access the team creation menu by selecting the *Join or Create a Team button* (see screenshot below) > *+ Create Team*.
@@ -72,7 +72,7 @@ Click *Create* and proceed to invite team members by adding their emails to the 
 
 After selecting the _Send Invites_ button your new team is created. You will find it in the [Teams' list](#how-can-i-access-my-teams) shown above.
 
-### How can I get visibility over a team?
+### How Can I Get Visibility Over a Team?
 
 Every team has a place where the most important information is visible at first look. This is the **Team Overview**.  
 Upon accessing a team, you will have its overview opened.  
@@ -92,7 +92,7 @@ You can find the following elements in every team's overview:
 6. **Activity** - here you will find a log of all recent activity in your team - changes in settings, team members, tasks, etc.
 7. **Overflow** menu - use this menu to add your team's overview to *Bookmarks* or copy a link to it to your clipboard.
 
-### How can I manage team members?
+### How Can I Manage Team Members?
 
 Team members are an essential part of the concept of a team. As an owner of a team, you may want to have more control over the members and their permissions.
 
@@ -119,7 +119,7 @@ You can change the role of or remove more than one member at the same time. To d
 3. Select the checkboxes of members you want to remove/change the roles of.
 4. Choose the trash icon or a role from the menu at the bottom center of the screen and apply for all simultaneously.
 
-### Can I work with people from outside of a team?
+### Can I Work with People from Outside of a Team?
 
 Sometimes you may need to work on a particular task or project with people outside of your team. In this case, it doesn't make sense to add them as members to your team.
 
@@ -154,7 +154,7 @@ Every team member can stop receiving (unfollow) notifications about a project an
 The Owner of a team can also exclude team members from a project.  
 After unfollowing a project, you will receive only notifications about tasks within this project assigned to you.    
 
-### How can I change the team's privacy, name or description?
+### How Can I Change the Team's Privacy, Name or Description?
 
 If you are the Owner of a team you can change your team's settings. To do this, go to the team's [Overview](#how-can-i-get-visibility-over-a-team) and select the gear icon:
 
@@ -165,13 +165,13 @@ Here you can change your team's name, description and privacy.
 >[!NOTE] Not only Owners are allowed to change a team's settings. Your team's name and description can be changed by users with Members' permissions provided that your team is part of the main organization and the user is Owner of the main organization.
 
 
-### Why are teams public by default?
+### Why are Teams Public By Default?
 
 A newly created team is public by default, meaning that any member of the main organization can search and join the team. Trust and transparency are key elements for effective collaboration, and also help with ownership and accountability.
 
 That being said, sometimes you might need to have a private team, leaving your team out of the search results. In this case, users can only join the team by getting invitations from existing members. This is helpful for teams that handle sensitive information, in those cases the organization wants to restrict access.
 
-### Deleting vs leaving a team
+### Deleting vs Leaving a Team
 
 To make a team disappear from your Slingshot space you can either delete or leave it.
 

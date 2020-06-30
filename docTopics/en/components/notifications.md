@@ -8,7 +8,7 @@ Sometimes notifications can become overwhelming, as an application can consisten
 
 It's an auto-generated indicator that is sent to you to let you know a certain event has happened. There are three different types of notifications, in-app, push, and email. This means that you can get a message that pops up while using Slingshot (in-app notification), a message that pops up on a mobile device (push notification), or even an email. As you can get Slingshot on any platform, tweaking those settings is important to customize your experience.
 
-### Stay informed with Notifications
+### Stay Informed with Notifications
 
 Notifications are designed to keep you updated of any changes on teams, tasks, projects, messages, and dashboards. You can learn, among others, that a task was assigned to you, that you are removed from a team, or even that someone sent a message in a discussion thread you're following.
 
@@ -24,7 +24,7 @@ Additionally, you can individually mark as *Read* or *Unread* or mute notificati
 
 <img src="../images/notifications-panel-overflow.png" alt="Notifications panel opened in Slingshot, using the overflow" width="800"/>
 
-### How can I change my Notification Settings?
+### How Can I Change my Notification Settings?
 
 There are three different types of notifications, in-app, push, and email. In-app notifications are displayed within the app in Notifications panel. Push notifications are displayed as texts near the notification icon. And emails are delivered to the e-mail address associated to your account.
 

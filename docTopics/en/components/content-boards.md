@@ -6,17 +6,17 @@ Scrum boards and Kanban boards are well-known IT concepts that are are both rela
 
 ### So, What's Content and Boards within Slingshot?
 
-Boards are basically containers, rich and flexible containers designed to organize, manage, and share your content. And content refers to information, more specifically files, that are made available to you through connections to cloud storages. So, when you need to organize or share content from your cloud storages, just pin that content to a board. And later organize or share that board.
+Boards are basically containers, rich and flexible containers designed to organize, manage, and share your content. And content refers to information, more specifically files, that are made available to you through connections to cloud storages. So, when you need to organize or share content from your cloud storages, just pin that content to a board, and later organize or share that board.
 
-### Working with your content in Slingshot
+### Working with Your Content in Slingshot
 
-Pinning content to a board is one of the most common actions in Slingshot. This is how you make content from your cloud storages available for others. You'll go to a board and choose **Pin Content** as shown below.
+Pinning content to a board is one of the most common actions in Slingshot. This is how you make content from your cloud storages available for others. You'll go to a board and choose _Pin Content_ as shown below.
 
 <img src="../images/pin-content-action.png" alt="Pin Content action in Slingshot" width="800"/>
 
-As you can see above, you actually pin content to groups (_Pins_ group in the image above). Groups are most basic element used to organize content in your boards. As said earlier, Boards are just containers that rely on sections and groups to organize and divide content.
+As you can see above, you actually pin content to groups (_Pins_ group in the image above). Groups are most basic element used to organize content in your boards. As said earlier, boards are just containers that rely on sections and groups to organize and divide content.
 
-After choosing **Pin Content**, a dialog is shown where you can select an existing cloud storage or add a new one.
+After choosing _Pin Content_, a dialog is shown where you can select an existing cloud storage or add a new one.
 
 <img src="../images/pin-content-storages.png" alt="Choosing a cloud storage to pin content from in Slingshot" width="800"/>
 
@@ -24,7 +24,7 @@ Then, just choose the file or folder you want to pin to the board. Yes, you can 
 
 <img src="../images/pin-content-selection.png" alt="Choosing content from the cloud storage to be pinned in Slingshot" width="800"/>
 
-Alternatively, you can go to an existing Cloud Storage and choose **Pin to Board** as show below.
+Alternatively, you can go to an existing cloud storage and choose _Pin to Board_ as show below.
 
 <img src="../images/pin-content-alternate.png" alt="Pinning content from the cloud storage" width="800"/>
 

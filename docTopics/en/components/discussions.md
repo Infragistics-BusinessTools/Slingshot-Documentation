@@ -6,7 +6,7 @@ While collaborating in teams or projects, people from different teams or even fr
 
 ### So, What's a Slingshot Discussion?
 
-It's a way of communication used by members of an Organization, Team, or Project. Being organized in different threads, discussions ensure all your communication, and collaboration tools are in one place, making remote teams stay productive no matter where they are.
+It's a way of communication used by members of an organization, team, or project. Being organized in different threads, discussions ensure all your communication, and collaboration tools are in one place, making remote teams stay productive no matter where they are.
 
 <img src="../images/discussions-thread.png" alt="A Slingshot discussion thread displayed" width="800"/>
 
@@ -23,5 +23,5 @@ Unlike lengthy email chains, members can follow or unfollow discussions. This is
 
 ### Getting Notifications
 
-With Slingshot notifications, you can get informed when someone sent a message to you or in a discussion thread you're following. You can check the current Notification settings for Discussions and tweak them as needed.  
+With Slingshot notifications, you can get informed when someone sent a message to you or in a discussion thread you're following. You can check the current **Notification** settings for discussions and tweak them as needed.  
 Follow the links for further details about [notifications](notifications.md).
