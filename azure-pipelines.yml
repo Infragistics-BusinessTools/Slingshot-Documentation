@@ -34,7 +34,15 @@ steps:
 - task: CmdLine@2
   inputs:
     script: 'git submodule update --init --recursive'
-# copy Reveal files (md, toc) to Slingshot files folder
+# Replace 'Reveal' with 'Dashboards' in all .md files
+- task: RegexReplace@3
+  inputs:
+    InputSearchPattern: 'reveal-docs\en\**\*.md'
+    FindRegex: 'Reveal'
+    ReplaceRegex: 'Dashboards'
+    UseUTF8: false
+    UseRAW: true
+# copy Reveal md files to Slingshot files folder
 - task: CopyFiles@2
   inputs:
     sourceFolder: reveal-docs\en
@@ -43,6 +51,7 @@ steps:
       !**\toc.yml
     targetFolder: docTopics\en\components\Reveal
     overWrite: true
+# copy Reveal toc files to Slingshot files folder
 - task: CopyFiles@2
   inputs:
     sourceFolder: reveal-docs\en

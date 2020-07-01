@@ -48,9 +48,8 @@
     - name: More on ...
       href: content-starting.md
       new: false
-- name: Reveal
+- name: Dashboards
   href: Reveal/toc.yml
-  topicHref: Reveal/index.md
 - name: USE CASES & WALKTHROUGHS
   header: true
   new: false
