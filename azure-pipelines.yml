@@ -34,14 +34,6 @@ steps:
 - task: CmdLine@2
   inputs:
     script: 'git submodule update --init --recursive'
-# Replace 'Reveal' with 'Dashboards' in all .md files
-- task: RegexReplace@3
-  inputs:
-    InputSearchPattern: 'reveal-docs\en\**\*.md'
-    FindRegex: 'Reveal'
-    ReplaceRegex: 'Dashboards'
-    UseUTF8: false
-    UseRAW: true
 # copy Reveal md files to Slingshot files folder
 - task: CopyFiles@2
   inputs:
@@ -49,14 +41,30 @@ steps:
     Contents: |
       **\*
       !**\toc.yml
-    targetFolder: docTopics\en\components\Dashboards
+    targetFolder: docTopics\en\components\dashboards
     overWrite: true
+# Replace 'Reveal' with 'Dashboards' in all .md files
+- task: RegexReplace@3
+  inputs:
+    InputSearchPattern: 'docTopics\en\components\dashboards\**\*.md'
+    FindRegex: 'Reveal'
+    ReplaceRegex: 'Dashboards'
+    UseUTF8: false
+    UseRAW: true
+# Update the hrefs in Reveal md files
+- task: RegexReplace@3
+  inputs:
+    InputSearchPattern: 'docTopics\en\components\dashboards\**\*.md'
+    FindRegex: '~\/en\/'
+    ReplaceRegex: '~/components/dashboards/'
+    UseUTF8: false
+    UseRAW: true
 # copy Reveal toc files to Slingshot files folder
 - task: CopyFiles@2
   inputs:
     sourceFolder: reveal-docs\en
     Contents: '**\toc.yml'
-    targetFolder: docfx\en\components\Dashboards
+    targetFolder: docfx\en\components\dashboards
     overWrite: true
 - task: Yarn@3
   inputs:
