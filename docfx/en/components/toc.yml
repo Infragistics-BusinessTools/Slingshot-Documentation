@@ -49,7 +49,8 @@
       href: content-starting.md
       new: false
 - name: Dashboards
-  href: Reveal/toc.yml
+  href: Dashboards/toc.yml
+  topicHref: Dashboards/index.md
 - name: USE CASES & WALKTHROUGHS
   header: true
   new: false

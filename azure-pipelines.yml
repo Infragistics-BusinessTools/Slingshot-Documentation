@@ -49,14 +49,14 @@ steps:
     Contents: |
       **\*
       !**\toc.yml
-    targetFolder: docTopics\en\components\Reveal
+    targetFolder: docTopics\en\components\Dashboards
     overWrite: true
 # copy Reveal toc files to Slingshot files folder
 - task: CopyFiles@2
   inputs:
     sourceFolder: reveal-docs\en
     Contents: '**\toc.yml'
-    targetFolder: docfx\en\components\Reveal
+    targetFolder: docfx\en\components\Dashboards
     overWrite: true
 - task: Yarn@3
   inputs:
