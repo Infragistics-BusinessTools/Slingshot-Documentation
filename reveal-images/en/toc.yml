@@ -4,22 +4,8 @@
   href: general/overview.md
 - name: Dashboards Overview
   href: general/dashboards-overview.md
-- name: Logging into Reveal
-  href: general/register-sign-in.md
 - name: Complete Feature Matrix
   href: general/feature-matrix.md
-- name: Themes and Localization
-  href: general/themes-localization.md
-- name: Notifications Center
-  href: general/notifications-center.md
-- name: Teams
-  header: true
-- name: Overview
-  href: teams/overview.md
-- name: Creating and Joining Teams
-  href: teams/creating-joining-teams.md
-- name: Managing your Team
-  href: teams/managing-your-team.md
 - name: Dashboards
   header: true
 - name: Overview
@@ -82,7 +68,7 @@
   href: datasources/postgresql.md
 - name: REST API
   href: datasources/rest-api.md
-- name: SharePoint 
+- name: SharePoint
   href: datasources/sharepoint.md
 - name: Salesforce
   href: datasources/salesforce.md
@@ -214,12 +200,9 @@
   href: dashboard-tutorials/social-dashboard/toc.yml
 - name: Release Information
   header: true
-- name: System Requirements
-  href: release-information/system-requirements.md
 - name: Known Issues
   href: release-information/known-issues.md
 - name: Release Notes
   href: release-information/release-notes.md
 - name: Third-Party Software
   href: release-information/third-party-software.md
-
