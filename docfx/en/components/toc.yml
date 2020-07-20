@@ -48,6 +48,9 @@
     - name: More on ...
       href: content-starting.md
       new: false
+- name: Dashboards
+  href: dashboards/toc.yml
+  topicHref: dashboards/index.md
 - name: USE CASES & WALKTHROUGHS
   header: true
   new: false
