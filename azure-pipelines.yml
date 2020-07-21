@@ -62,9 +62,16 @@ steps:
 # copy Reveal toc files to Slingshot files folder
 - task: CopyFiles@2
   inputs:
-    sourceFolder: reveal-docs\en
+    sourceFolder: reveal-images\en
     Contents: '**\toc.yml'
     targetFolder: docfx\en\components\dashboards
+    overWrite: true
+# copy Reveal images to Slingshot files folder
+- task: CopyFiles@2
+  inputs:
+    sourceFolder: reveal-images\en
+    Contents: '**\*.png'
+    targetFolder: docTopics\en\components\dashboards
     overWrite: true
 - task: Yarn@3
   inputs:
