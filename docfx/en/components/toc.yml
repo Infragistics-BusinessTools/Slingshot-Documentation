@@ -50,7 +50,7 @@
       new: false
 - name: Dashboards
   href: dashboards/toc.yml
-  topicHref: dashboards/main.md
+  topicHref: dashboards/index.md
 - name: USE CASES & WALKTHROUGHS
   header: true
   new: false
