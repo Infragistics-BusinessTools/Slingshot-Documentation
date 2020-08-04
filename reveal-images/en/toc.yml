@@ -1,7 +1,7 @@
 - name: General
   header: true
 - name: General Overview
-  href: general/overview.md
+  href: general/general-overview.md
 - name: Dashboards Overview
   href: general/dashboards-overview.md
 - name: Dashboards
