@@ -43,6 +43,22 @@ steps:
       !**\toc.yml
     targetFolder: docTopics\en\components\dashboards
     overWrite: true
+# copy Reveal toc files to Slingshot files folder
+- task: CopyFiles@2
+  inputs:
+    sourceFolder: reveal-images\en
+    Contents: '**\toc.yml'
+    targetFolder: docfx\en\components\dashboards
+    overWrite: true
+# copy Reveal images and md files to Slingshot files folder
+- task: CopyFiles@2
+  inputs:
+    sourceFolder: reveal-images\en
+    Contents: |
+      **\*.png
+      **\*.md
+    targetFolder: docTopics\en\components\dashboards
+    overWrite: true
 # Replace 'Reveal' with 'Dashboards' in all .md files
 - task: RegexReplace@3
   inputs:
@@ -59,20 +75,14 @@ steps:
     ReplaceRegex: '~/components/dashboards/'
     UseUTF8: false
     UseRAW: true
-# copy Reveal toc files to Slingshot files folder
-- task: CopyFiles@2
+# Update the download links in Reveal md files
+- task: RegexReplace@3
   inputs:
-    sourceFolder: reveal-images\en
-    Contents: '**\toc.yml'
-    targetFolder: docfx\en\components\dashboards
-    overWrite: true
-# copy Reveal images to Slingshot files folder
-- task: CopyFiles@2
-  inputs:
-    sourceFolder: reveal-images\en
-    Contents: '**\*.png'
-    targetFolder: docTopics\en\components\dashboards
-    overWrite: true
+    InputSearchPattern: 'docTopics\en\components\dashboards\**\*.md'
+    FindRegex: 'http:\/\/download\.infragistics\.com\/(reportplus|reveal)\/'
+    ReplaceRegex: 'https://download.infragistics.com/slingshot/'
+    UseUTF8: false
+    UseRAW: true
 - task: Yarn@3
   inputs:
     arguments: 'build build-docfx-Slingshot'
