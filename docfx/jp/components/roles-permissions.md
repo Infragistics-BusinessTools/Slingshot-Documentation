@@ -30,7 +30,7 @@ So, what path should you take?
 
 If you are thinking on a **small contribution**, you can go to a team and create a specific task for an external user. This user won't be added to the team and will receive a notification about the task assigned. For the external user, the task will appear in *Home > Tasks*.
 
-<img src="../images/externalUser-task.png" alt="Showing a Task created for an external user" width="800"/>
+<img src="../images/externalUser-task.png" alt="Showing a Task created for an external user" width="100%"/>
 
 Alternatively, the external user might be **further involved into a specific project**, needing to collaborate in multiple tasks with other users. In this case you should add the user to that specific project within the team. Again the user won't be added to the team.
 
@@ -62,4 +62,4 @@ To change a team's privacy, you need to be one of the owners of the team. To do 
 
 Here you can change your team's name, description and privacy.
 
-<img src="../images/privacy-settings.png" alt="Showing the privacy settings of a Slingshot team" width="800"/>
+<img src="../images/privacy-settings.png" alt="Showing the privacy settings of a Slingshot team" width="100%"/>

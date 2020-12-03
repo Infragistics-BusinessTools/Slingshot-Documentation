@@ -26,7 +26,7 @@ Projects live inside of a team, but are not limited to its members. You can invi
 
 You can access the projects of a team on the very left of the screen as shown below.
 
-<img src="../images/projects-accessing.png" alt="Accessing all projects of a Slingshot team" width="800"/>
+<img src="../images/projects-accessing.png" alt="Accessing all projects of a Slingshot team" width="100%"/>
 
 By scrolling down you are able to navigate all the projects. If you bookmark one of the projects to keep it at hand, you can also find it in your personal overview.  
 Follow the links for further details about [overviews](overviews.md).
@@ -37,26 +37,26 @@ Every owner or member of a Slingshot team can create a new project.
 
 Access the project creation menu by selecting *Overview* or *Projects* (see screenshot below) and then *+ Project*.
 
-<img src="../images/projects-accessing-creation.png" alt="Accessing the create project dialog within a team" width="800"/>
+<img src="../images/projects-accessing-creation.png" alt="Accessing the create project dialog within a team" width="100%"/>
 
 In the new dialog you can give your project a meaningful name and, optionally, add a short description to provide further details about the project. You can also add start and end dates at this point or you can choose to add them later.
 
-<img src="../images/projects-creation-dialog.png" alt="Displaying the create project dialog" width="800"/>
+<img src="../images/projects-creation-dialog.png" alt="Displaying the create project dialog" width="100%"/>
 
 Click *Create* and proceed to adding project members by selecting them from the team members list:
 
-<img src="../images/projects-add-team-members.png" alt="Adding team members to a project" width="800"/>
+<img src="../images/projects-add-team-members.png" alt="Adding team members to a project" width="100%"/>
 
 You can assign one or more team members to the project, plus any external people that might belong to other teams or even from outside of the organization.
 
-<img src="../images/projects-external.png" alt="Adding external users to a Slingshot project" width="800"/>
+<img src="../images/projects-external.png" alt="Adding external users to a Slingshot project" width="100%"/>
 
 Proceed to invite external members by adding their emails to the list. Then, select _Send Invites_.
 
 ### How Can I Ensure the Project Is On Track?
 By keeping everyone in the loop, leaders and project members can proactively identify that a project is not going well and needs attention
 
-<img src="../images/overview-project.png" alt="Project Overview shown in Slingshot" width="800"/>
+<img src="../images/overview-project.png" alt="Project Overview shown in Slingshot" width="100%"/>
 
 Projects can go wrong for multiple reasons and sometimes more than once. That's a fact. The actual challenge is to proactively identify a project has spiraled out of control and get it back on track as soon as possible. Project overviews help you identify those projects and the reasons, helping you ship projects consistently on time and on budget.
 
@@ -66,7 +66,7 @@ Any team member (with the owner or member role) that is assigned to a project ca
 
 Access the project members' dialog by selecting the project's [Overview](#how-can-i-get-visibility-over-a-team) > Details widget (on the left) >  profile images icons (above _Content_).
 
-<img src="../images/projects-add-team-members.png" alt="Adding team members to a project" width="800"/>
+<img src="../images/projects-add-team-members.png" alt="Adding team members to a project" width="100%"/>
 
 To invite new members just select team members from the team or go to *External* to add members from outside of the team.
 
@@ -82,7 +82,7 @@ You can assign project tasks to members outside of a team in the project's _Task
 
 Users will receive a notification about the task they were assigned. For them, the task will appear in *Home > Tasks*.  
 
-<img src="../images/externalUser-task.png" alt="Showing a Task created for an external user" width="800"/>
+<img src="../images/externalUser-task.png" alt="Showing a Task created for an external user" width="100%"/>
 
 Besides existing team members, you can also add external members to projects. To do this:
 1. Navigate to _your team_ > _Projects_ > _Selected Project_ > _Project Overview_ (in the tab bar on the left).

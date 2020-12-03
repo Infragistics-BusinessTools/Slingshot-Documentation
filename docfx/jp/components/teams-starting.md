@@ -77,7 +77,7 @@ After selecting **Send Invites** button your new team is created. You will find 
 Every team has its central place where the most important information is visible at first look. This is the Teams **Overview**.  
 Upon accessing a team, you will have its *Overview* opened.  
 
-<img src="../images/team-overview.png" alt="A team's overview screen" width="800"/>
+<img src="../images/team-overview.png" alt="A team's overview screen" width="100%"/>
 
 You can find three widgets in every team's overview: **_Details_**, ***Your Mentions*** and ***Task Status*/*Activity*** the following elements in every team's overview:
 

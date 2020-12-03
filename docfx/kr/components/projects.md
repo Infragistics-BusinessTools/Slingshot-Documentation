@@ -17,20 +17,20 @@ You can foster productive collaboration and best practices in your projects by e
 
 Project overviews help you get a quick snapshot of a project, giving you a sense of the project progress at a glance.  Everyone can get an overall status (On Target, At Risk, Danger, Completed), the project's start and due dates, and issues raised by someone working on the project. The overview also includes all the tasks for the project, as well as all mentions directed at you. Finally, you have a place where you can add useful resources for the project like links, documents, dashboards, etc.
 
-<img src="../images/overview-project.png" alt="Project Overview in Slingshot" width="800"/>
+<img src="../images/overview-project.png" alt="Project Overview in Slingshot" width="100%"/>
 
 Using shared resources is required to collaborate, working towards a common objective. One of the best practices in Slingshot is to organize your content in Boards. Designed to manage your personal or team content, boards are just containers that point to cloud storages that hold your resources.
 
-<img src="../images/projects-content.png" alt="Project Content section in Slingshot" width="800"/>
+<img src="../images/projects-content.png" alt="Project Content section in Slingshot" width="100%"/>
 
 You can communicate live with all project members via Discussions or with any Slingshot user (or group of users) through the general chat.  Not limited to write, you can also attach files, use emojis, and react to messages.
 
-<img src="../images/discussions-many-threads.png" alt="Several Slingshot discussion threads" width="800"/>
+<img src="../images/discussions-many-threads.png" alt="Several Slingshot discussion threads" width="100%"/>
 
 As mentioned above, Projects are normally undertaken by people with expertise in many different areas, who might belong to different teams and, at the same time, receive project assignments to different projects.   
 In Slingshot, every project is associated to a team. And you can assign one or more team members, plus any external people that might belong to other teams or even from outside of the organization.
 
-<img src="../images/projects-external.png" alt="Adding external users to a Slingshot project" width="800"/>
+<img src="../images/projects-external.png" alt="Adding external users to a Slingshot project" width="100%"/>
 
 ### Want to Know More About Projects?
 

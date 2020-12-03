@@ -27,7 +27,7 @@ To support each other, team members can get a sense of the team status at a glan
 
 Using shared team resources is required to collaborate, working towards a common objective. One of the best practices in Slingshot is to organize your content in **Boards**. Designed to manage your personal or team content, boards are just containers that point to cloud storages that hold your resources.
 
-<img src="../images/projects-content.png" alt="Showing several team boards and team cloud storages" width="800"/>
+<img src="../images/projects-content.png" alt="Showing several team boards and team cloud storages" width="100%"/>
 
 ### Want to Know More About Teams?
 
