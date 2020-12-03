@@ -1,6 +1,6 @@
 ## Roles & Permissions
 
-One of the main methods of access control in computer systems is known as role-based access control (RBAC). Basically, it's about restricting access to a system depending on the person's role, where multiple roles are created depending of the level of access required for different groups of people. As roles have different permissions, it is possible to limit specific tasks like viewing, creating, modifying, or sharing files.
+One of the main methods of access control in computer systems is known as role-based access control (RBAC). Basically, it's about restricting access to a system depending on the person's role, where multiple roles are created depending on the level of access required for different groups of people. As roles have different permissions, it is possible to limit specific tasks like viewing, creating, modifying, or sharing files.
 
 Using roles and permissions is a common practice for big companies, but it's also particularly helpful for those who want to give access to external people, like third-parties and contractors. Slingshot was designed with different roles and permissions that contemplate many possible scenarios.
 
@@ -8,7 +8,7 @@ Using roles and permissions is a common practice for big companies, but it's als
 
 In Slingshot, people can join an organization, one or more teams, and also one or more projects. Roles and permissions apply only to organizations and teams.
 
-Roles represent a set of permissions assigned to a Slingshot user in relation to a team or an organization. This means every user is assigned a role when joining organizations or teams. There are three different roles (owner, member, viewer) with a clear set of permissions each.
+Roles represent a set of permissions assigned to a Slingshot user in relation to a team or an organization. This means every user is assigned a role when joining organizations or teams. There are three different roles with a clear set of permissions - owner, member and viewer.
 
 ### So, What Can the Different Roles Do?
 
@@ -22,7 +22,7 @@ Members of an Office 365 or G Suite organization need to log in with their assoc
 
 ### What About External Users?
 
-Sometimes you may need to work with people from outside of a team or even from outside the organization. People with expertise in many different areas can be mixed in a team that is not part of the organization, plus you can also create a project that includes tasks assigned to external users.
+Sometimes you may need to work with people from outside of your team or even from outside the organization. People with expertise in many different areas can be mixed in a team that is not part of the organization. You can also create a project that includes tasks assigned to external users.
 
 In Slingshot, people can be part of an organization, one or more teams, and also one or more projects. Teams normally live within organizations and projects within teams. That being said, you can create a team outside of your organization to mix in external users. Also, you can invite external users or people from other teams to any project. This is particularly useful when external users will work with you for a limited amount of time. All projects have a beginning and an end after all and you can assign tasks within a project to one or more external users.
 
@@ -30,11 +30,11 @@ So, what path should you take?
 
 If you are thinking on a **small contribution**, you can go to a team and create a specific task for an external user. This user won't be added to the team and will receive a notification about the task assigned. For the external user, the task will appear in *Home > Tasks*.
 
-<img src="../images/externalUser-task.png" alt="Showing a Task created for an external user" width="800"/>
+<img src="../images/externalUser-task.png" alt="Showing a Task created for an external user" width="100%"/>
 
 Alternatively, the external user might be **further involved into a specific project**, needing to collaborate in multiple tasks with other users. In this case you should add the user to that specific project within the team. Again the user won't be added to the team.
 
-![External tab in the Who is working on this? dialog](../images/external-members-project.png)
+<img src="../images/external-members-project.png" alt="External tab in the Who is working on this? dialog" width="100%"/>
 
 Finally, you might want to create a team to add an external user that **frequently collaborates with you and other organization members**. In this case, you should create a team outside your organization that includes the external user and other members.
 
@@ -62,4 +62,4 @@ To change a team's privacy, you need to be one of the owners of the team. To do 
 
 Here you can change your team's name, description and privacy.
 
-<img src="../images/privacy-settings.png" alt="Showing the privacy settings of a Slingshot team" width="800"/>
+<img src="../images/privacy-settings.png" alt="Showing the privacy settings of a Slingshot team" width="100%"/>
