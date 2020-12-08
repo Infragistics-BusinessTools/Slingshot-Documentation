@@ -1856,10 +1856,10 @@ iconv-lite@0.4.24:
   dependencies:
     safer-buffer ">= 2.1.2 < 3"
 
-igniteui-docfx-template@^2.3.1:
-  version "2.6.2"
-  resolved "https://registry.yarnpkg.com/igniteui-docfx-template/-/igniteui-docfx-template-2.6.2.tgz#7e7bda65f160ce91bec7dfc1a531a385daf687e8"
-  integrity sha512-jW4uRMWVNu91DyE6qqfBAJO6kZ2K8ewT8+QeI0zxGYJcHTMjIvpwQAbcklaZtgbAnUsBOSlZ7y9/wFMbF0VKcg==
+igniteui-docfx-template@2.9.2:
+  version "2.9.2"
+  resolved "https://registry.yarnpkg.com/igniteui-docfx-template/-/igniteui-docfx-template-2.9.2.tgz#6f1e1307bb038b4393de58b899b89bac98b16f4b"
+  integrity sha512-V/QRk8RAEJ5iggnBQsUx2HrMLrl4IMXQScDFFrP7svAH9zHKfHq/+s5NdLDBVmWV6UODuuxjQHMiDgF+QJx2hA==
   dependencies:
     gulp-uglify-es "^2.0.0"
 
@@ -4317,10 +4317,10 @@ tweetnacl@^0.14.3, tweetnacl@~0.14.0:
   resolved "https://registry.yarnpkg.com/tweetnacl/-/tweetnacl-0.14.5.tgz#5ae68177f192d4456269d108afa93ff8743f4f64"
   integrity sha1-WuaBd/GS1EViadEIr6k/+HQ/T2Q=
 
-typescript@^2.7.2:
-  version "2.9.2"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-2.9.2.tgz#1cbf61d05d6b96269244eb6a3bce4bd914e0f00c"
-  integrity sha512-Gr4p6nFNaoufRIY4NMdpQRNmgxVIGMs4Fcu/ujdYk3nAZqk7supzBE9idmvfZIlH/Cuj//dvi+019qEue9lV0w==
+typescript@^4.0.5:
+  version "4.1.2"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.1.2.tgz#6369ef22516fe5e10304aae5a5c4862db55380e9"
+  integrity sha512-thGloWsGH3SOxv1SoY7QojKi0tc+8FnOmiarEGMbd/lar7QOEd3hvlx3Fp5y6FlDUGl9L+pd4n2e+oToGMmhRQ==
 
 ua-parser-js@0.7.17:
   version "0.7.17"
