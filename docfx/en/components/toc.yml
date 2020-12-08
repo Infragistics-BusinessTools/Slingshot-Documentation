@@ -41,6 +41,9 @@
 - name: Notifications
   href: notifications.md
   new: false
+- name: Search
+  href: search.md
+  new: true
 - name: Content & Boards
   href: content-boards.md
   new: false
