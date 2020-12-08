@@ -10,17 +10,17 @@ In Slingshot, people can join an organization, one or more teams, and also one o
 The purpose of having an organization team is for company leaders to have the ability to communicate key goals, metrics, strategies, and important announcements throughout their organization.   
 The organization team is named after your organization (e.g. your company's name). Members need to log in with their organization’s email to be associated with the organization team.
 
-![An Organization team](../images/main-organization-team.png)
+<img src="../images/main-organization-team.png" alt="An Organization team" width="100%"/>
 
 The Organization team has only three available tabs on the right: *Discussions, Content*, and *Dashboards*.
 
 Teams can be associated with the organization team or not. They can include members from within and out of the main Organization team. Team members share not only *Content, Dashboards*, and *Discussions*, but also *Projects* and *Tasks*.
 
-![Example of a team and its tasks](../images/teams-example-tasks.png)
+<img src="../images/teams-example-tasks.png" alt="Example of a team and its tasks" width="100%"/>
 
 Projects live inside of a team, but are not limited to its members. You can invite people from other teams to every project. A project contains its own *Overview, Tasks, Discussions, Content,* and *Dashboards*. You can also assign tasks within a project to people, who are not part of the project or the team.
 
-![A project Overview](../images/project-example-overview.png)
+<img src="../images/project-example-overview.png" alt="A project Overview" width="100%"/>
 
 ### How can I access my projects?
 
@@ -78,7 +78,7 @@ Sometimes you may need to work on a particular task or project with people outsi
 
 You can **assign project tasks** to members outside of a team in the project's *Tasks* on the left.
 
-![Tasks tab in a project](../images/tasks-tab-team.png)
+<img src="../images/tasks-tab-team.png" alt="Tasks tab in a project" width="100%"/>
 
 Users will receive a notification about the task they were assigned. For them the task will appear in *Home > Tasks*.  
 
@@ -88,7 +88,7 @@ ABesides existing team members, you can also **add external members to projects*
 1. Navigate to your **team** > **Projects** > **Selected Project** > Project **Overview** (in the tab bar on the left).
 2. Click/tap on the **profile images icons** (left widget in *Overview*) to open _Who is working on this?_ dialog:
 
-![External tab in the Who is working on this? dialog](../images/external-members-project.png)
+<img src="../images/external-members-project.png" alt="External tab in the Who is working on this? dialog" width="100%"/>
 
 3. Choose **External** > **+ Members** blue button to add members who are not part of the team to this project.
 
@@ -101,7 +101,7 @@ External members, who are added to a project, will receive **notifications** abo
 
 Every team member can **leave and stop receiving (unfollow) notifications** about a project and its mentions. To do this, navigate to the *Who is working on this?* dialog > *Team members* and unmark the checkbox next to your name, as shown below:
 
-![Unmark checkbox to unfollow project](../images/unfollow-project.png)
+<img src="../images/unfollow-project.png" alt="Unmark checkbox to unfollow project" width="100%"/>
 
 The Owner of a team can also exclude team members from a project.
 
@@ -111,7 +111,7 @@ After unfollowing a project, you will receive only **notifications about tasks**
 
 To change your projects's settings go to the Project Overview and select the gear icon:
 
-![Accessing project settings](../images/access-team-settings.png)
+<img src="../images/access-team-settings.png" alt="Accessing project settings" width="100%"/>
 
 A screen will open and there you can change your project's dates, name, or description.
 
@@ -121,7 +121,7 @@ In Slingshot you can either delete or leave a project.
 
 To **delete a project** go to its [settings](#how-can-i-change-the-projects-dates-name-or-description) and select the overflow button:
 
-![Overflow button location in the Project's settings](../images/overflow-menu-settings.png)
+<img src="../images/overflow-menu-settings.png" alt="Overflow button location in the Project's settings" width="100%"/>
 
 Deleting a project removes it and all its contents for all its members.
 
