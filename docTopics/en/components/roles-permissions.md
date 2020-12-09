@@ -56,9 +56,9 @@ _All the members of a team_ have access to **team cloud storage** connections an
 A newly created team is public by default, meaning that any member of the main organization can search and join the team. Trust and transparency are key elements for effective collaboration, and also help with ownership and accountability.  
 That being said, sometimes you might need to have a private team, leaving your team out of the search results. In this case, users can only join the team by getting invitations from existing members. This is helpful for teams that handle sensitive information, in those cases the organization wants to restrict access.
 
-To change a team's privacy, you need to be one of the owners of the team. To do this, go to the team's [Overview](#how-can-i-get-visibility-over-a-team) and select the gear icon:
+To change a team's privacy, you need to be one of the owners of the team. To do this, select your team and click/tap the gear icon on top next to the team's name:
 
-![Accessing team settings](../images/access-team-settings.png)
+<img src="../images/access-team-settings.png" alt="Accessing team settings" width="100%"/>
 
 Here you can change your team's name, description and privacy.
 

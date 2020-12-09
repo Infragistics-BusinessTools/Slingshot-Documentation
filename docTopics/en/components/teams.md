@@ -14,16 +14,16 @@ Being part of a team means (or should mean) fluid communication. In Slingshot yo
 
 You can communicate live with the members of your team via **team discussions**, containing topics:
 
-![A team discussion](../images/team-discussion.png)
+<img src="../images/team-discussion.png" alt="A team discussion" width="100%"/>
 
 You can also communicate with any Slingshot user (or group of users) through the **general chat**.
-![Using the chat on the right](../images/chat-several-people.png)
+<img src="../images/chat-several-people.png" alt="Using the chat on the right" width="100%"/>
 
 Communication is not limited to writing. You can also attach files, use emojis, and react to messages.
 
 To support each other, team members can get a sense of the team status at a glance. Using the **team overview** you get visibility over all the team members and their tasks, helping you proactively contact those in need. You can, for example, start a discussion to get a team member's attention. And they will receive a notification to alert them that they were mentioned.
 
-![A team Overview](../images/team-overview-example.png)
+<img src="../images/team-overview-example.png" alt="A team Overview" width="100%"/>
 
 Using shared team resources is required to collaborate, working towards a common objective. One of the best practices in Slingshot is to organize your content in **Boards**. Designed to manage your personal or team content, boards are just containers that point to cloud storages that hold your resources.
 

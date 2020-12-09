@@ -8,52 +8,52 @@ Read on to get answers to most of your questions about teams.
 In Slingshot, people can join an organization, one or more teams, and also one or more projects.  
 The purpose of having an organization team is for company leaders to have the ability to communicate key goals, metrics, strategies, and important announcements throughout their organization.   
 
-![An Organization team](../images/main-organization-team.png)
+**The organization team** is named after your organization (e.g. your company's name). Members need to log in with their organization’s email to be associated with the organization team.
 
-The organization team is named after your organization (e.g. your company's name). Members need to log in with their organization’s email to be associated with the organization team.
+<img src="../images/main-organization-team.png" alt="An Organization team" width="100%"/>
 
-Teams can be associated with the organization team or not. They can include members from within and out of the main organization team. Team members share not only **Content**, **Dashboards**, and **Discussions**, but also **Projects** and **Tasks**.
+**Teams** can be associated with the organization team or not. They can include members from within and out of the main organization team. Team members share not only *Content*, *Dashboards*, and *Discussions*, but also *Projects* and *Tasks*.
 
-![Example of a team and its tasks](../images/teams-example-tasks.png)
+<img src="../images/teams-example-tasks.png" alt="Example of a team and its tasks" width="100%"/>
 
-Projects live inside of a team, but are not limited to its members. You can invite people from other teams to every project. A project contains its own **Overview**, **Tasks**, **Discussions**, **Content**, and **Dashboards**. You can also assign tasks within a project to people, who are not part of the project or the team.
+**Projects** live inside of a team, but are not limited to its members. You can invite people from other teams to every project. A project contains its own *Overview*, *Tasks*, *Discussions*, *Content*, and *Dashboards*. You can also assign tasks within a project to people, who are not part of the project or the team.
 
-![A project Overview](../images/project-example-overview.png)
+<img src="../images/project-example-overview.png" alt="A project Overview" width="100%"/>
 
 ### How Can I Access my Teams?
 
 You can access your teams on the very left of the screen as shown below.
 
-![The Teams navigation menu opened with a list of teams in it](../images/teams-list.png)
+<img src="../images/teams-list.png" alt="The Teams navigation menu opened with a list of teams in it" width="100%"/>
 
-By scrolling down you are able to navigate all your teams and their projects. If you bookmarked a team or project to keep it at hand, you can select _Bookmarks_ to find it faster.   Under each project's name you will find the team it belongs to (see below).
+By scrolling down you are able to navigate all your teams and their projects. If you bookmarked a team or project to keep it at hand, you can select _Bookmarks_ to find it faster.   Under each project's name you will find the team where it lives (see below).
 
-![Teams navigation menu opened and Bookmarks selected](../images/teams-bookmarks.png)
+<img src="../images/teams-bookmarks.png" alt="Teams navigation menu opened and Bookmarks selected" width="100%"/>
 
 To navigate to any team, just click/tap over it.
 
 ### How Can I Discover and Join Other Teams?
 
-To become a team member you first need to discover your new team. Select the _Join or Create a Team_ button at the end of your teams' list to open a dialog with the available teams to join.
+To become a team member you first need to discover your new team. Select the _Join or Create a Team_ button at the bottom of the *Teams* tab to open a dialog with the available teams.
 
-![Join or Create a Team blue button](../images/join-create-button.png)
+<img src="../images/join-create-button.png" alt="Join or Create a Team blue button" width="100%"/>
 
-In this dialog, you will find **only public teams, part of your Organization**. You can join these teams on the spot, getting the Member role.
+In this dialog, you will find **only public teams, part of your organization**. You can join these teams on the spot, getting the Member role by default.
 
 To become part of **private teams or teams outside of your organization**, you need to be invited by their Owner.
 
 ### How Can I Create a New Team?
 
 Every user in Slingshot can create teams.  
-Access the team creation menu by selecting the *Join or Create a Team button* (see screenshot below) > *+ Create Team*.
+Access the team creation menu by selecting the *Teams* tab > *Join or Create a Team* button > *+ Create Team*.
 
-![The Create Team menu](../images/create-team-dialog.png)
+<img src="../images/create-team-dialog.png" alt="The Create Team menu" width="100%"/>
 
 In this dialog, configure the following:
 * ***Team Name*** - giving your team a descriptive and meaningful name is always worth the effort.
 * *(Optional)* ***Description*** - descriptions are helpful and nice to have, but absolutely optional in Slingshot.
-* ***Organization*** - choose whether your team will be part of the Main Organization or will exist as your Personal Team. How to choose and what is the difference?  
-    - **Teams, part of the main organization**, follow the internal rules and principles of the organization. These teams can be [discovered and joined](#how-can-i-discover-and-join-other-teams) by every member of the main Organization.
+* ***Organization*** - choose whether your team will be part of the main organization or will exist as your Personal Team. How to choose and what is the difference?  
+    - **Teams, part of the main organization**, follow the internal rules and principles of the organization. These teams can be [discovered and joined](#how-can-i-discover-and-join-other-teams) by every member of the main organization.
 
     - **Personal Teams** give you more freedom and less discoverability. Others cannot find your team in the _Join list_ so they can join only if they are invited. Only you and other owners of this team can manage it and delete it.
 * **Privacy** - this setting is only available for teams, part of the main organization.
@@ -63,32 +63,39 @@ In this dialog, configure the following:
 >[!NOTE]
 >Be aware that your team can be deleted by an Owner of the main organization anytime (even if you are an Owner too).
 
-Click *Create* and proceed to invite team members by adding their emails to the list:
+Click **Create**. Your team is created and you can find it in the _Teams_ tab. 
 
-![Inviting team members](../images/invite-members.png)
+You are now prompted to start inviting team members, but you can also leave this step for later if you prefer. 
+
+To invite members, click/tap the **+ Members** blue button. You can choose members from the dropdown list (see below) or use the search bar to add the emails of users who are outside of your Organization. 
+
+<img src="../images/team-invite-members.png" alt="Inviting team members" width=100%>
 
 >[!NOTE]
 >When adding members, whose emails are not auto-completed by Slingshot, type the whole email and press Enter to add it to the list of users you want to invite.
 
-After selecting the _Send Invites_ button your new team is created. You will find it in the [Teams' list](#how-can-i-access-my-teams) shown above.
+Select **Done** when you are ready. All users in the list are assigned the default _Member_ role. From the dropdown next to each name, you can change the role to _Owner_ or _Viewer_. How are these roles different from _Member_? See in the [Roles & Permissions](roles-permissions.md) topic.
 
 ### How Can I Get Visibility Over a Team?
 
 Every team has a place where the most important information is visible at first look. This is the **Team Overview**.  
-Upon accessing a team, you will have its overview opened.  
 
-<img src="../images/team-overview.png" alt="A team's overview screen" width="800"/>
+After accessing a team, you will find its *Overview* tab on the left (see below).  
 
-You can find the following elements in every team's overview:
+<img src="../images/overview-tab.png" alt="A team's overview screen" width="100%"/>
 
-1. **Settings** of the team - select the gear icon to view or [change](#how-can-i-change-the-teams-privacy-name-or-description) the team's name, description, organization, and privacy settings. You can also [delete](#deleting-vs-leaving-a-team) the team.
-2. **Team members** - click on the profile images (or initial) icons on the left board to view or [manage members](#how-can-i-manage-team-members).
-3. **Content** - click the overflow menu to pin content, weblinks and dashboards that are essential for your team's work. To do this, select the overflow menu on the right of *CONTENT*. Use the team's *Content* tab on the left to store and organize more content.
+You can find three widgets in every team's overview: **_Details_**, ***Your Mentions*** and ***Task Status*/*Activity***. Each of these widgets includes important information and resources for your team. 
 
-    >[!NOTE] If your teammates don't have the file (folder) in their cloud storage or shared cloud storage, they **will not be able to access the content** pinned in the Team *Overview*. In this case, you can pin the file (folder) in *Content* (in the left tab) to share it with them.
+Let's look at the widgets and their elements more closely. 
+
+1. *(Optional)* **Description** of the team - here you can see the team's description. You can change the description by selecting the *gear icon* on top, next to your team's name.
+2. **Team members** - click on the profile images under the team's description to view and [manage members](#how-can-i-manage-team-members).
+3. **Content** - click the overflow menu to pin content, weblinks and dashboards that are essential for your team's work. To do this, select **+ Pin** at the bottom. Use the team's *Content* tab on top to store and organize more content.
+
+    >[!NOTE] If you pin a file (or folder) in the team *Overview* and your teammates don't have this file (folder) in their personal or shared cloud storage, they will not be able to access it. In this case, select the *Content* tab on top and pin the file (folder). This way you will share it with your teammates and they will be able to access it both from *Content* and *Overview*.
 
 4. **Mentions** - when other team members mention you, a team, or a project of yours (by using the _@ sign_) in a *Topic* in the *Teams' Discussions* or in the _Activity_ chat (see in *number 6* below), you will see a notification on this board. Upon clicking on it, you will be navigated to where the message is located.
-5. **Task Status** - here you will find a list of all members. Under each name, you will see the number of all current tasks for each user. The circle on the right uses colors to show what part of all tasks  is complete (blue), not started (grey), in progress (green), in review (purple), blocked (yellow).
+5. **Task Status** - here you will find a list of all members. Under each name, you will see the number of all current tasks for each user with the number of tasks done. Also, you may see a *fire icon* with a number next to it, which shows how many tasks are overdue. The circle on the right uses colors to show what part of all tasks  is complete (blue), not started (grey), in progress (green), in review (purple), blocked (yellow).
 6. **Activity** - here you will find a log of all recent activity in your team - changes in settings, team members, tasks, etc.
 7. **Overflow** menu - use this menu to add your team's overview to *Bookmarks* or copy a link to it to your clipboard.
 
@@ -101,64 +108,61 @@ Team members are an essential part of the concept of a team. As an owner of a te
 - remove members, and
 - change members' roles.
 
-**Access the team members' dialog** by selecting the team's [Overview](#how-can-i-get-visibility-over-a-team) > Details widget (on the left) >  profile images icons (above _Content_).
+**Access the team members' dialog** by clicking/tapping the 
+*gear icon* next to your team's name. In the _Edit Team_ dialog, select **Manage Members** on the right. 
 
-![The team members' dialog](../images/team-members-dialog.png)
+<img src="../images/team-members-dialog.png" alt="The team members' dialog" width="100%" />
 
-To invite new members click on the *+ Members* blue button.
+To invite new members click/tap the **+ Members** blue button.
 
 In the dialog above, you will find a list of all team members and their roles. You can change each member's role or remove the member from the team by clicking on the role's dropdown.
 
 You can change the role of or remove more than one member at the same time. To do this:
 
 1. Select the checked box on the right of the _+Members_ blue button.
-2. Checkboxes on the right of members' roles appear:
-
-![Checkboxes appear for each member allowing to change roles or delete members simultaneously](../images/select-more-than-one-member.png)
-
-3. Select the checkboxes of members you want to remove/change the roles of.
-4. Choose the trash icon or a role from the menu at the bottom center of the screen and apply for all simultaneously.
+2. Checkboxes on the right of members' roles appear.
+3. Select the checkboxes of members, who you want to remove or whose roles you want to change.
+4. Choose the *trash icon* or a role from the menu at the bottom center of the screen and apply to all simultaneously.
 
 ### Can I Work with People from Outside of a Team?
 
 Sometimes you may need to work on a particular task or project with people outside of your team. In this case, it doesn't make sense to add them as members to your team.
 
-You can assign tasks to members outside of your team in the team's _Tasks_ tab on the left.
+You can assign tasks to users who are external for your team by accessing the team's **Tasks** tab on top and creating a task. 
 
-![Tasks tab in a team](../images/tasks-tab-team.png)
+<img src="../images/tasks-tab-team.png" alt="Tasks tab in a team" width="100%"/>
 
 Users will receive a notification about the task they were assigned. For them the task will appear in _Home > Tasks_.  
-
 
 All members of a team can be members for its projects and you can also add external members to projects.  
 
 To do this:
 
-1. Navigate to your _team > Projects > Selected Project > Project Overview_ (in the tab bar on the left).
-2. Click/tap on the _profile images icons_ (left widget in *Overview*) to open _Who is working on this?_ dialog:
+1. Navigate to your **team > Projects > Selected Project > Project Overview** (in the tab bar on top).
+2. Click/tap on the **profile images icons** (*Details* widget in *Overview*) to open _Edit Project_ dialog:
 
-![External tab in the Who is working on this? dialog](../images/external-members-project.png)
+<img src="../images/external-members-project.png" alt="External tab in the Who is working on this? dialog" width="100%"/>
 
 3. Choose _External > + Members_ blue button to add members who are not part of the team to this project.
 
 You can also go directly to a project's *Tasks* tab and assign a task to an external member.
 
->[!NOTE] **External members** can work with any other Slingshot users. They don't need to be part of the same main organization as you.
+>[!NOTE] **External members** can work with any other Slingshot users. They don't need to be part of the same main Organization as you.
 
 External members, who are added to a project, will receive notifications about the project and its state. They will also be notified when the project is mentioned (by using the *@ sign* + the project's name).
 
 Every team member can stop receiving (unfollow) notifications about a project and its mentions. To do this, navigate to the *Who is working on this?* dialog > *Team members* and unmark the checkbox next to your name, as shown below:
 
-![Unmark checkbox to unfollow project](../images/unfollow-project.png)
+<img src="../images/unfollow-project.png" alt="Unmark checkbox to unfollow project" width="100%"/>
 
 The Owner of a team can also exclude team members from a project.  
-After unfollowing a project, you will receive only notifications about tasks within this project assigned to you.    
+After unfollowing a project, you will receive notifications only about the tasks assigned to you within this project.    
 
 ### How Can I Change the Team's Privacy, Name or Description?
 
-If you are the Owner of a team you can change your team's settings. To do this, go to the team's [Overview](#how-can-i-get-visibility-over-a-team) and select the gear icon:
+If you are the Owner of a team you can change your team's settings. To do this, select your team and click/tap the **gear icon** next on top.
 
-![Accessing team settings](../images/access-team-settings.png)
+<img src="../images/access-team-settings.png" alt="Accessing team settings" width="100%" />
 
 Here you can change your team's name, description and privacy.
 
@@ -167,26 +171,26 @@ Here you can change your team's name, description and privacy.
 
 ### Why are Teams Public By Default?
 
-A newly created team is public by default, meaning that any member of the main organization can search and join the team. Trust and transparency are key elements for effective collaboration, and also help with ownership and accountability.
+A newly created team is public by default, meaning that any member of the main Organization can search and join the team. Trust and transparency are key elements for effective collaboration, and also help with ownership and accountability.
 
-That being said, sometimes you might need to have a private team, leaving your team out of the search results. In this case, users can only join the team by getting invitations from existing members. This is helpful for teams that handle sensitive information, in those cases the organization wants to restrict access.
+That being said, sometimes you might need to have a private team, leaving your team out of the search results. In this case, users can only join the team by getting invitations from existing members. This is helpful for teams that handle sensitive information. In those cases the organization wants to restrict access.
 
 ### Deleting vs Leaving a Team
 
 To make a team disappear from your Slingshot space you can either delete or leave it.
 
-Only the Owner can delete a team. As an exception, you can also delete a team if you have the Member's permissions provided that:
-- the team is part of the main organization;
-- you are an Owner in the main organization.
+Only the *Owner* can delete a team. As an exception, a *Member* can also delete a team provided that:
+- the team is part of the main Organization;
+- they are an Owner in the main Organization.
 
-To delete a team, go to its [settings](#how-can-i-change-the-teams-privacy-name-or-description) and select the overflow button:
+To **delete** a team, go to its [settings](#how-can-i-change-the-teams-privacy-name-or-description) and select the overflow button:
 
-![Overflow button location in the Team's settings](../images/overflow-menu-settings.png)
+<img src="../images/overflow-menu-settings.png" alt="Overflow button location in the Team's settings" width="100%"/>
 
-Deleting a team removes it and all its contents for all its members.
+Deleting removes the team with all its contents for all its members.
 
 To remove a team and its content only for you, use the **leave** option. You can do this by going to the team's [members list](#how-can-i-manage-team-members), click/tap your role and select *Leave* at the bottom. If you are the only Owner of a team you cannot leave it without assigning another member as an Owner.
 
-![Assigning a new Owner before leaving a team](../images/assign-new-owner-team.png)
+<img src="../images/assign-new-owner-team.png" alt="Assigning a new Owner before leaving a team" width="100%"/>
 
 All the members of the team who are suitable for an Owner’s role appear in a list in the *Leave Team?* dialog (see above).
