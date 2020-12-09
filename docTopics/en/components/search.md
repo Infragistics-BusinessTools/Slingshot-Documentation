@@ -22,7 +22,7 @@ To start your search in Slingshot follow the steps below.
 
 4. Click/tap on a result to open it on the right. You can also use the overflow menu of each result to copy its link to the clipboard so you can share it or save it in _Bookmarks_.
 
-<img src="../images/results-settings.png" alt="results overflow menu" width=50% />
+<img src="../images/results-settings.png" alt="results overflow menu" width="50%" />
 
 ### How to Use Filters?
 
@@ -30,13 +30,7 @@ You may receive too many results and need to refine your search to find exactly 
 
 These filters are specific for the selected result type. For example, if you select _Tasks_, you can then use the filter to see only results in _Task Lists_ or to filter by task's creator, assignee, due date, etc.
 
-<img src="../images/type-specific-filters.png" alt="tasks specific filters" width=50% />
-
-<img src="../images/type-specific-filters.png" alt="tasks specific filters" width=20% />
-
-<img src="../images/type-specific-filters.png" alt="tasks specific filters" width=80% />
-
-<img src="../images/type-specific-filters.png" alt="tasks specific filters" width=100% />
+<img src="../images/type-specific-filters.png" alt="tasks specific filters" width="50%" />
 
 >[!NOTE] Your filters' settings will be kept for your next search until you close the search results pane or refresh the page. So, if next time your search criteria change don't forget to check your search filters too.
 
@@ -44,7 +38,7 @@ These filters are specific for the selected result type. For example, if you sel
 
 If you need results related to a specific team, project or from your personal space (_My Stuff_), use the _Location_ filter dropdown just above the result tabs (see below).
 
-<img src="../images/location-filter-dropdown.png" alt="location filter dropdown" width=50% />
+<img src="../images/location-filter-dropdown.png" alt="location filter dropdown" width="50%" />
 
 The _Location_ filter is applied to all results and is not affected by which result tab you chose.
 
