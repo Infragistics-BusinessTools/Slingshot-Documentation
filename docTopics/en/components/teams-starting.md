@@ -6,10 +6,11 @@ Read on to get answers to most of your questions about teams.
 ### Organization vs Team vs Project
 
 In Slingshot, people can join an organization, one or more teams, and also one or more projects.  
-The purpose of having an organization team is for company leaders to have the ability to communicate key goals, metrics, strategies, and important announcements throughout their organization.   
+The purpose of having an Organization team is for company leaders to have the ability to communicate key goals, metrics, strategies, and important announcements throughout their organization.   
 
-**The organization team** is named after your organization (e.g. your company's name). Members need to log in with their organization’s email to be associated with the organization team.
+**The Organization team** is named after your organization (e.g. your company's name). Members need to log in with their organization’s email to be associated with the Organization team. Team members can share _Discussions_, _Content_ and _Dashboards_ with each other. 
 
+ > (new UI) replace with a similar screenshot
 <img src="../images/main-organization-team.png" alt="An Organization team" width="100%"/>
 
 **Teams** can be associated with the organization team or not. They can include members from within and out of the main organization team. Team members share not only *Content*, *Dashboards*, and *Discussions*, but also *Projects* and *Tasks*.
@@ -61,7 +62,7 @@ In this dialog, configure the following:
     - **Private** teams are undiscoverable and can only be joined through an invitation received via email.
 
 >[!NOTE]
->Be aware that your team can be deleted by an Owner of the main organization anytime (even if you are an Owner too).
+>Be aware that your team can be deleted by an Owner of the main organization anytime even if they have only Members' permissions. This is particularly useful when the Owner of a team happen to be an employee, who left the company but didn't assign new owners to the teams they created. 
 
 Click **Create**. Your team is created and you can find it in the _Teams_ tab. 
 
@@ -158,10 +159,12 @@ Every team member can stop receiving (unfollow) notifications about a project an
 The Owner of a team can also exclude team members from a project.  
 After unfollowing a project, you will receive notifications only about the tasks assigned to you within this project.    
 
+<a name="team-settigs"></a>
 ### How Can I Change the Team's Privacy, Name or Description?
 
-If you are the Owner of a team you can change your team's settings. To do this, select your team and click/tap the **gear icon** next on top.
+If you are the Owner of a team you can change your team's settings. To do this, select your team > click/tap the overflow menu next to its name > choose *Team Settings*.
 
+> change with a screenshot of the overflow menu
 <img src="../images/access-team-settings.png" alt="Accessing team settings" width="100%" />
 
 Here you can change your team's name, description and privacy.
@@ -183,13 +186,14 @@ Only the *Owner* can delete a team. As an exception, a *Member* can also delete 
 - the team is part of the main Organization;
 - they are an Owner in the main Organization.
 
-To **delete** a team, go to its [settings](#how-can-i-change-the-teams-privacy-name-or-description) and select the overflow button:
+To **delete** a team, go to its [settings](#team-settings) > _Manage Members_ > overflow menu on top > *Delete Team*.
 
+> replace with a similar screenshot
 <img src="../images/overflow-menu-settings.png" alt="Overflow button location in the Team's settings" width="100%"/>
 
 Deleting removes the team with all its contents for all its members.
 
-To remove a team and its content only for you, use the **leave** option. You can do this by going to the team's [members list](#how-can-i-manage-team-members), click/tap your role and select *Leave* at the bottom. If you are the only Owner of a team you cannot leave it without assigning another member as an Owner.
+To remove a team and its content only for you, use the **leave** option. You can do this by going to the team's [settings](#team-settings) > select *Leave Team* at the bottom. , click/tap your role and select *Leave* at the bottom. If you are the only Owner of a team you cannot leave it without assigning another member as an Owner.
 
 <img src="../images/assign-new-owner-team.png" alt="Assigning a new Owner before leaving a team" width="100%"/>
 
