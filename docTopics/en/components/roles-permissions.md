@@ -16,7 +16,7 @@ Roles represent a set of permissions assigned to a Slingshot user in relation to
 Team owners can invite other users to the team and also make them owners. The Slingshot user who creates a team is automatically assigned as its owner. If you are the only owner of a team, you cannot leave it without assigning another member as an owner.  
 Members of an Office 365 or G Suite organization need to log in with their associated email so they can be added to the Organization within Slingshot. The first time someone of the organization logs in to Slingshot, the org is created using the same name. All members of an organization join the Slingshot organization as owners.
 
-**Members** are allowed to create and edit projects, tasks, filters, discussions, topics, boards, and also create and share dashboards. When searching and joining a public team (not by invitation), you do with the member role.
+**Members** are more limited than Owners but they are allowed to create and edit projects, tasks, filters, discussions, topics, boards, and also create and share dashboards. When searching and joining a public team (not by invitation), you are assigned the member role by default.
 
 **Viewers** are limited to view and share content. To be a viewer in a team, you have to be invited with the viewer role.
 
