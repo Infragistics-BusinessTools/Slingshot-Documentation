@@ -5,10 +5,10 @@ When opening the app you'll be met with different login options:
 
 <img src="../images/slingshot-login.png" alt="Slingshot log in screen" width="100%"/>
 
-Before jumping in, take into account that in Slingshot you can join an **Organization**. If you are a member of an organization, you have to log in with your organization’s email. Choose Google (G Suite) or Microsoft (O365) as needed and you'll be associated with the organization team.
+Before jumping in, take into account that in Slingshot you can join an **Organization**. If you are a member of an organization, you have to log in with your organization’s email. Choose Google (G Suite) or Microsoft (Office 365) as needed and you'll be associated with the Organization team.
 
 > [!NOTE]
-> The organization team is useful for managers and leaders to communicate key goals, metrics, strategies, and important announcements throughout their organization. The organization team is named after your organization (e.g. your company's name).  
+> The Organization team is useful for managers and leaders to communicate key goals, metrics, strategies, and important announcements throughout their organization. The Organization team is named after your organization (e.g. your company's name).  
 
 When you log in with Google and Microsoft, you get a cloud storage automatically configured based on your credentials, Google Drive or OneDrive respectively. This means you get access to your files on the cloud storage and can share them with other users to collaborate over them.
 
@@ -16,10 +16,12 @@ When you log in with Google and Microsoft, you get a cloud storage automatically
 
 Once you get in, you are greeted with your first screen:
 
+[comment]: <> ([New UI] replace with a similar screenshot)
 <img src="../images/personal-overview-blank.png" alt="Personal Overview completely blank for a new user" width="100%"/>
 
-You always start in your personal space, your **Home**. Specifically, in _My Overview_, that one place where you can get a quick glance to your most important information, organize yourself, and visualize your work.
+You always start in your personal space, your **Home**. Specifically, in _My Overview_. This is the place where you can have a quick glance at your most important information, organize yourself, and visualize your work.
 
+[comment]: <> ([New UI] replace with a new screenshot, discuss a story with Casey)
 <img src="../images/overview-personal.png" alt="Personal Overview shown in Slingshot" width="100%"/>
 
 As you can see above, _My Overview_ can get very busy. Let's focus on getting you familiar with Slingshot first...
@@ -28,40 +30,42 @@ As you can see above, _My Overview_ can get very busy. Let's focus on getting yo
 
 Your personal space, **Home**, is great and useful, but Slingshot is about effective collaboration while running teams and projects. So, you're probably wondering how to switch between your personal space, teams, and projects? Check out the image below:
 
+[comment]: <> ([New UI] - replace with a similar one)
 <img src="../images/teams-navigation-opened.png" alt="Organization, Teams, and Projects navigation opened" width="100%"/>
 
-By scrolling down you are able to navigate your teams and their projects. If you bookmarked a team or project to keep it at hand, you can select bookmarks here to find it faster. Your organization (if you have one) is also displayed here.
+By scrolling down the panel on the left you are able to navigate your teams and their projects. If you bookmarked a team or project to keep it at hand, you can select bookmarks here to find it faster. Your organization (if you have one) is also displayed here, right under _Home_.
 
 To navigate to any team or project, just click/tap over it.
 
+[comment]: <> ([New UI] - replace with a similar one)
 <img src="../images/teams-navigation-organization.png" alt="Organization, Teams, and Projects navigation opened and hovering the Organization" width="100%"/>
 
-Keep in mind that in Slingshot, people can be part of an organization, plus one or more teams, and also one or more projects. Projects live within teams, and you have overviews, tasks, discussions, content, and dashboards at both levels. E.g: There are team tasks and project tasks as well.  
+Keep in mind that in Slingshot, people can be part of an organization, plus one or more teams, and also one or more projects. Projects live within teams, and you have overviews, tasks, discussions, content, and dashboards at both levels. For example, there are team tasks and project tasks as well.  
 Follow the links for further details about [teams](teams.md) or [projects](projects.md).
 
 ### Overviews, Projects, Tasks, Discussions, Content, and Dashboards
 
-On the very left of the screen, you can find the main navigation items, **Overviews**, **Projects**, **Tasks**, **Discussions**, **Content**, **Dashboards**.
+Inside Slingshot teams, you will find the five main navigation bars on top: **Overviews**, **Projects**, **Tasks**, **Discussions**, **Content**, **Dashboards**.
 
+[comment]: <> ([New UI]: Replace with a screenshot showing the five navigation bars)
 <img src="../images/overview-personal-navigation.png" alt="Personal Overview highlighting the main navigation items in Slingshot" width="100%"/>
 
-You probably noticed that projects and discussions are both missing in the image above.
-It's true, not all navigation items are present in your home, organization, or projects.  
-So, why is that? Let's answer that question quickly...
+As already mentioned, the Organization team is not like other teams. So, inside it, there is a different number of navigation bars. That goes for your _Home_ space and _Projects_, which also have the navigation bars. 
+But why is that? Let's answer this question quickly by explaining the idea behind each navigation bar.
 
-As your teams have projects, only **Teams** have all the main navigation items. **Discussions** are used to chat among members of an organization, team or project, so you'll find discussions there. And finally, **Overviews** give you a quick status of projects, teams, or your personal work, so you'll find them there.
+**Overviews** give you a quick status of projects, teams, or your personal work, so you'll find them there. **Projects** are created inside teams, but cannot include other projects. **Tasks** represent work to be done by the team members in a team or in the scope of a project.  **Discussions** are used to chat among members of an organization, team or project. **Content** is about cloud storages and boards - basically you connect to cloud storages and then use boards to organize and share that content with others. Finally, **Dashboards** allow you to quickly create and share data visualizations so you can turn your data into insights.
 
+[comment]: <> ([NEW UI]: plus add a screenshot-collage as described below)
 <img src="../images/overview-team-navigation.png" alt="Teams Overview shown in Slingshot" width="100%"/>
 
-The image above shows a Slingshot team, so all the main navigation items are present.  
-**Tasks** represent work to be done and discussions are used to chat with members of your team or project. **Content** is about cloud storages and boards, basically you connect to cloud storages and then use boards to organize and share that content with others.
-Finally, **Dashboards** allow you to quickly create and share data visualizations so you can turn your data into insights.  
-Follow the links for further details about [overviews](overviews.md), [projects](projects.md), or [tasks](tasks.md).
+The image above shows the navigation bars of a Slingshot team, the Organization team, a project, and Home. Only teams have all the main navigation bars. 
+Follow the links for further details about [overviews](overviews.md), [projects](projects.md), [tasks](tasks.md), [discussions](discussions.md), [content](content-boards.md), or [dashboards](dashboards/index.md).
 
 ### Notifications and User Settings
 
-**Notifications** are designed to keep you updated of any changes to teams, tasks, projects, messages, and dashboards. You can learn, among others, that a task was assigned to you, that you are removed from a team, or that someone sent a message in a discussion thread you're following.
+**Notifications** are designed to keep you updated on any changes to teams, tasks, projects, messages, and dashboards. You can learn, among others, that a task was assigned to you, that you are removed from a team, or that someone sent a message in a discussion thread you're following.
 
+[comment]: <> ([New UI]: replace with a similar screenshot)
 <img src="../images/notifications-panel-opened.png" alt="Notifications panel opened in Slingshot" width="100%"/>
 
 There are three different types of notifications, in-app, push, and email. This means that you can get a message that pops up while using Slingshot (in-app notification), a message that pops up on a mobile device (push notification), or even an email notification.  
@@ -69,20 +73,24 @@ Follow the link for further details about [notifications](notifications.md).
 
 In **User Settings** you can find _General Settings_, _Feedback_, and you can also _Sign Out_ of the application.
 
+[comment]: <> ([NEW UI]: Replace with a similar screenshot)
 <img src="../images/userSettings-opened.png" alt="User Settings menu opened in Slingshot" width="100%"/>
 
-Then, in _Settings_ you can find general and notifications settings. _General Settings_ include changing your name, photo, the application theme, dashboards-specific settings, and the drag and drop location.
+Then, in _Settings_ you can find six categories, including general and profile settings, notifications, data privacy and settings related to your dashboards. In _General Settings_ you can configure your app appearance and also how you work with content, whereas _Profile Information_ includes information about you and your organization. 
 
+[comment]: <> ([NEW UI]: replace with a similar screenshot if any)
 <img src="../images/userSettings-generalSettings.png" alt="General Settings opened in Slingshot" width="100%"/>
 
-After scrolling down to the bottom you'll see _Drag and Drop_. This setting allows you to manage the location of your uploads. But what does this mean?
+In _General Settings_ you will notice the **Drag and Drop** button. This setting allows you to manage the location of your uploads. But what does this mean?
 
-Every time you reference or share a file within Slingshot, it is located in a cloud storage. When you drag and drop a file it comes outside Slingshot, so it's uploaded to the cloud storage configured here.
+All files you reference or share within Slingshot, are located in a cloud storage. When you drag and drop a file, which comes from outside Slingshot,  it's uploaded to the cloud storage configured here.
 
+[comment]: <> ([NEW UI]: replace with a similar screenshot)
 <img src="../images/generalSettings-dragAndDrop.png" alt="Drag and Drop Settings access in Slingshot" width="100%"/>
 
 Use in-app **Feedback** to send us suggestions, comments, or requests about Slingshot. Here you can rate the app, add screenshots to the feedback you send, and also annotate the screenshots to provide even more detailed information.
 
+[comment]: <> (NEW UI: change with a similar screenshot)
 <img src="../images/userSettings-feedback.png" alt="Accessing the feedback screen in Slingshot" width="100%"/>
 
 ### What About Roles & Permissions?
