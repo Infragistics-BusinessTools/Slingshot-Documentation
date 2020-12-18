@@ -162,8 +162,7 @@ If you are **the Owner of a team** you can change your team's settings. To do th
 
 Here you can change your team's name, description and privacy.
 
->[!NOTE] Not only Owners are allowed to change a team's settings. Your team's name and description can be changed by users with Members' permissions provided that your team is part of the main Organization and the user is Owner of the main Organization.
-
+>[!NOTE] Not only Owners are allowed to change a team's settings. Your team's name and description can be changed by users with Members' permissions provided that your team is part of the main Organization and the user is an Owner of the main Organization. Your team can even be deleted by them. This is particularly useful when the Owner of a team happen to be an employee, who left the company but didn't assign new owners to the teams they created. 
 
 ### Why are teams public by default?
 
@@ -175,9 +174,10 @@ That being said, sometimes you might need to have a private team, leaving your t
 
 To make a team disappear from your Slingshot space you can either delete or leave it.
 
-Only the Owner can **delete a team**. As an exception, you can also delete a team if you have the Member's permissions provided that:
+Only the Owner can **delete a team**. As an exception, a Member can also delete a team if:
+
 - the team is part of the main Organization;
-- you are an Owner in the Main Organization.
+- this Member is an Owner in the Main Organization.
 
 To delete a team, go to its [settings](#how-can-i-change-the-teams-privacy-name-or-description) and select the overflow button:
 
