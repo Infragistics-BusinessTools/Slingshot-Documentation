@@ -11,31 +11,35 @@ So, how can Slingshot do all that for you? Take a look below...
 
 <h4 style="color:#2328B0;">Get Quick Access to your Status and Prioritize Work Across All Projects</h4>
 
+[comment]: <> (NEW UI: Change the screenshot; discuss a story)
 <img src="../images/welcome-overview-personal.png" alt="A Personal Overview within Slingshot" width="100%"/>
 
-Above you can see that one place where you can visualize your work and organize yourself.  
+Above, you can see that one place where you can visualize your work and organize yourself.  
 All your tasks can be found here and also bookmarks, which are very useful to keep at hand links relevant to you.  
 With bookmarks you can quickly navigate to your teams, projects, discussions, among others.
 
 <h4 style="color:#2328B0;">Keep Everyone In The Know and Make Working with Others Easier</h4>
 
+[comment]: <> (NEW UI: Change the screenshot; discuss a story)
 <img src="../images/welcome-overview-project.png" alt="Project Overview within Slingshot" width="100%"/>
 
-Encourage transparency and trust by making it easy for others to find information. Working together, with strong collaboration and support to each other is possible, even with external clients.
+Encourage transparency and trust by making it easy for others to find information. Working together, with strong collaboration and support for each other is possible, even with external clients.
 
+<h4 style="color:#2328B0;">Run Higher-Performing Teams and Successful Projects</h4>
 
-<h4 style="color:#2328B0;">Run Higher Performing Teams and Successful Projects</h4>
-
+[comment]: <> (NEW UI: Change the screenshot; discuss a story)
 <img src="../images/welcome-team.png" alt="A Slingshot team" width="100%"/>
 
-Slingshot empowers your teams to achieve greater success by keeping everyone aligned, engaged and focused on their work. Your teams are provided with tools to communicate, support each other, and access those resources needed to do their work.
+Slingshot empowers your teams to achieve greater success by keeping everyone aligned, engaged and focused on their work. Your teams are provided with tools to communicate, support each other, and access the resources needed to do their work.
 
+[comment]: <> (NEW UI: Change the screenshot; discuss a story)
 <img src="../images/welcome-overview-project.png" alt="A Slingshot projext" width="100%"/>
 
-Projects are undertaken by people with expertise in many different areas, often from different teams and sometimes even from outside your organization. To ensure a high success rate, Slingshot makes sure all those people work together. They can collaborate and communicate with each other, and everyone gets good visibility over the project and all its resources.
+Projects are undertaken by people with expertise in many different areas, often from different teams and sometimes even from outside your organization. To guarantee a high success rate, Slingshot makes sure all those people work together. They can collaborate and communicate with each other, and everyone gets good visibility over the project and all its resources.
 
-<h4 style="color:#2328B0;">Get More Work Done with Tasks and Leverage their Functionality and Flexibility</h4>
+<h4 style="color:#2328B0;">Get More Work Done with Tasks and Leverage Their Functionality and Flexibility</h4>
 
+[comment]: <> (NEW UI: Change the screenshot; discuss a story)
 <img src="../images/welcome-tasks.png" alt="Team tasks within Slingshot" width="100%"/>
 
 Use tasks to your advantage to create a healthy work environment that embraces transparency while driving individual accountability.
@@ -43,31 +47,34 @@ Tasks capture all the relevant information you need around a piece of work, incl
 
 <h4 style="color:#2328B0;">Keep Yourself Informed with Notifications</h4>
 
+[comment]: <> (NEW UI: Change the screenshot with a similar one)
 <img src="../images/welcome-notifications.png" alt="Notifications within Slingshot" width="100%"/>
 
-Get updates on any changes to teams, tasks, projects, messages, and dashboards. Learn when a task was assigned to you, that you were removed from a team, or that someone sent a message in a discussion thread you're following. You can be notified in different ways like pop up messages while using the app (in-app notifications), messages on mobile devices (push notifications), and email notifications.
+Get updates on any changes in teams, tasks, projects, messages, and dashboards. Learn when a task was assigned to you, that you were removed from a team, or that someone sent a message in a discussion thread you're following. You can be notified in different ways like pop up messages while using the app (in-app notifications), messages on mobile devices (push notifications), and email notifications.
 
 <h4 style="color:#2328B0;">Access Real-Time Data in Context and Make Better Decisions</h4>
 
 <img src="../images/welcome-dashboards.png" alt="Data visualizations within Slingshot" width="100%"/>
 
-Turn your data into insights by creating and sharing data visualizations. Dashboards make easy for teams to get actionable insights by looking at shared data visualizations.  
-You are able to connect to the most popular data sources like SharePoint Online, Google Drive, OneDrive, Microsoft Analysis Services, Microsoft SQL Server, CRM, and many more.  
-Finally, dashboards are composed of one or more visualizations. And you can build your dashboards choosing between a huge array of visualizations, including grid, gauges (bullet graph, KPI, linear), and charts (category, financial, scatter, bubble, treemap). Category charts include column, bar, area, pie, stacked column, and many more.
+Turn your data into insights by creating and sharing data visualizations. Dashboards make it easy for teams to get actionable insights by looking at shared data visualizations.  
+You can connect to the most popular data sources such as SharePoint Online, Google Drive, OneDrive, Microsoft Analysis Services, Microsoft SQL Server, CRM, and many more.  
+Finally, dashboards are composed of one or more visualizations. And you can build your dashboards choosing between a huge array of visualizations, including grid, gauges (bullet graph, KPI, linear), charts (category, financial, scatter, bubble, treemap), and even maps (choropleth and scatter maps). Category charts include column, bar, area, pie, stacked column, and many more.
 
 <h4 style="color:#2328B0;">Real-Time, Organized Communication with Team and Project Members</h4>
 
+[comment]: <> (New UI: change the screenshot with a similar one)
 <img src="../images/welcome-discussions.png" alt="Discussions within Slingshot" width="100%"/>
 
-Discussions can be used to chat among members of an organization, team, or project. Organized in different threads, discussions ensure all your communication, and collaboration tools are in one place, making remote teams stay productive no matter where they are.
-With Slingshot notifications, you can get informed when someone sent a message to you or in a discussion thread you're following.
+Discussions can be used as a chat among members of an organization, team, or project. Organized in different threads, discussions ensure all your communication, and collaboration tools are in one place, making remote teams stay productive no matter where they are.
+With Slingshot's notifications, you can get informed when someone sends a message to you or in a discussion thread you're following.
 
 <h4 style="color:#2328B0;">Connect to Cloud Storages and Share Content with Colleagues or Partners</h4>
 
+[comment]: <> (new UI: replace the screenshot; discuss a story with Casey)
 <img src="../images/board-sample.png" alt="Board example with several sections and groups" width="100%"/>
 
 Slingshot helps you focus on collaboration instead of managing content. You can access content from many cloud providers, using boards to organize that content and securely share it with others.  
-Everyone'll always have the most up to date version of documents, eliminating the need to send documents back and forth.
+Everyone'll always have the most up-to-date version of documents, eliminating the need to send documents back and forth.
 
 ### Coming Soon to Slingshot
 
