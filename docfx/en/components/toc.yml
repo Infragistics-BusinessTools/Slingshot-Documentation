@@ -32,9 +32,13 @@
     - name: More on Tasks
       href: tasks-starting.md
       new: false
-- name: Discussions
-  href: discussions.md
-  new: false
+- name: Communication
+  href: communication.md
+  updated: true
+  items: 
+    - name: More on Discussions
+      href: discussions-starting.md
+      new: true
 - name: Overviews
   href: overviews.md
   new: false
