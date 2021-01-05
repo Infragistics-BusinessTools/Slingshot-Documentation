@@ -10,7 +10,7 @@ The purpose of having an Organization team is for company leaders to have the ab
 
 **The Organization team** is named after your organization (e.g. your company's name). Members need to log in with their organization’s email to be associated with the Organization team. Team members can share _Discussions_, _Content_ and _Dashboards_ with each other. 
 
- > (new UI) replace with a similar screenshot
+[comment]: <> (NEW UI: replace with a similar screenshot)
 <img src="../images/main-organization-team.png" alt="An Organization team" width="100%"/>
 
 **Teams** can be associated with the organization team or not. They can include members from within and out of the main organization team. Team members share not only *Content*, *Dashboards*, and *Discussions*, but also *Projects* and *Tasks*.
@@ -164,7 +164,7 @@ After unfollowing a project, you will receive notifications only about the tasks
 
 If you are the Owner of a team you can change your team's settings. To do this, select your team > click/tap the overflow menu next to its name > choose *Team Settings*.
 
-> change with a screenshot of the overflow menu
+[comment]: <> (NEW UI: change with a screenshot of the overflow menu)
 <img src="../images/access-team-settings.png" alt="Accessing team settings" width="100%" />
 
 Here you can change your team's name, description and privacy.
@@ -188,7 +188,7 @@ Only the *Owner* can delete a team. As an exception, a *Member* can also delete 
 
 To **delete** a team, go to its [settings](#team-settings) > _Manage Members_ > overflow menu on top > *Delete Team*.
 
-> replace with a similar screenshot
+[comment]: <> (NEW UI: replace with a similar screenshot)
 <img src="../images/overflow-menu-settings.png" alt="Overflow button location in the Team's settings" width="100%"/>
 
 Deleting removes the team with all its contents for all its members.

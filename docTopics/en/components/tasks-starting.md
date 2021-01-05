@@ -16,8 +16,9 @@ All the members of a team or project can access the tasks created within that te
 
 ### How Can I Access my Tasks?
 
-You can access *Tasks* on the very left of the screen as shown below.
+You can access your tasks by going to a team/project and selecting the **Tasks** tab on top (see below).
 
+[comment]:<> (new UI: replace with a similar screenshot)
 <img src="../images/tasks-accessing.png" alt="Accessing Slingshot tasks" width="100%"/>
 
 Depending on where you stand, you will be accessing different tasks.

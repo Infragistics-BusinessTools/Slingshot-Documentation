@@ -27,8 +27,9 @@ Boards, sections, and groups can all be reorganized, copied, and moved around if
 
 ### How Can I Access my Boards/Cloud Storages?
 
-You can access your boards and cloud storages on the very left of the screen as shown below.
+You can access your boards and cloud storages by going to a team/project and looking for the **Content** tab on top (see the screenshot below).
 
+[comment]: <> (new UI: replace with a similar screenshot)
 <img src="../images/boards-storages-access.png" alt="Accessing boards and cloud storages in Slingshot" width="100%"/>
 
 In the _Content_ main navigation item you can find both boards and cloud storages. If you bookmark one of the boards to keep it at hand, you can also find it in your Personal Overview.  

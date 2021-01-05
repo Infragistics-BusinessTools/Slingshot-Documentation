@@ -24,8 +24,9 @@ Projects live inside of a team, but are not limited to its members. You can invi
 
 ### How Can I Access my Projects?
 
-You can access the projects of a team on the very left of the screen as shown below.
+You can access the projects of a team by selecting the team and finding the **Projects** tab on top (shown below).
 
+[comment]:<> (New UI: replace with a similar screenshot)
 <img src="../images/projects-accessing.png" alt="Accessing all projects of a Slingshot team" width="100%"/>
 
 By scrolling down you are able to navigate all the projects. If you bookmark one of the projects to keep it at hand, you can also find it in your personal overview.  
