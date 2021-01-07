@@ -40,16 +40,46 @@ In general, project and team discussions are *read only* for viewers. Team viewe
 To **create a discussion**: 
 1. Go to the **Discussions tab**. 
 2. Select **+ Discussion** on the left (see screenshot below). 
-3. Write a meaningful **name** for the discussion in the text box. This will be the subject of all future topics in this discussion.
+3. Write a meaningful name for the discussion in the text box. This will be the subject of all future topics in this discussion.
 4. Choose **Create**.
 
-Your discussion is added at the end of the discussions list. You can shift discussions' positions by dragging them up and down the list.  
+Your discussion is added at the end of the discussions list.   
 
 To **create a topic**: 
 
 1. Select a relevant discussion.  
 2. Click/tap the **+ Topic** button on the top right. 
-3. **Name** the topic and, optionally, choose which members to be notified for its creation.   
+3. Name the topic and, optionally, choose which members to be notified for its creation.   
 4. Choose **Create**.
 
 Now your topic is created. You can start typing your first message to give more details on the subject. This will also serve as a conversation starter.
+
+### How Can I Ensure Someone is Notified of a New Message in a Discussion?
+
+There are subjects where you need the attention of particular people. To make sure they are notified for each new message in a topic, you can... 
+
+When you want to make sure *you* are notified of new messages, you need to navigate to a chosen topic, open it and change the button on top to *Following*. 
+
+### How Can I Manage Members in a Discussion?
+
+Members of a discussion are the users, who have both reading and writing permissions for the topics in a discussion. Usually owners and members of a team have these permissions for discussions concerning the team or its projects. Team viewers have only reading permissions, unless they are owners or members of a project inside the team - then they can participate in this project's discussions.
+
+To manage the members of a discussion... 
+
+### Deleting vs Unfollowing a Topic
+
+Not all topics in a team or project would be interesting to you or need your participation. To prevent your Slingshot discussions feel overwhelming you can unfollow or delete topics. 
+
+When you no longer care for a topic, you can **unfollow** it. This way you will stop receiving notifications for new replies in this topic in the *Notifications* center, which will make it easier for you to focus on more important stuff. 
+
+To unfollow, navigate to the selected topic, then open it and change the button on top to *Unfollowing*. 
+
+When a topic is no longer relevant to a discussion, you can **delete** it. Be careful, because deleting a topic will make it disappear for all users and it might still contain valuable information that's worth keeping. However, if the information in a topic is no longer valid, deleting it will do more good than harm. 
+
+To delete a topic, navigate to it and select the overflow menu (as shown below). Select *Delete*. 
+
+### Rearranging Discussions and Topics
+
+Whenever you create a discussion it will be added at the end of the discussions list. There will be times when you won't be satisfied by the chronological order, for example when you accumulate a long list. Don't worry about this, because have an easy and quick way to rearrange discussions. Just drag them up and down the list!
+
+
