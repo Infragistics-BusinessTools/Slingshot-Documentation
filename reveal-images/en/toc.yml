@@ -14,7 +14,7 @@
   href: dashboards/creating-dashboards.md
 - name: Uploading Dashboards
   href: dashboards/uploading-dashboards.md
-- name: Managing your Dashboards
+- name: Managing Your Dashboards
   href: dashboards/managing-dashboards.md
 - name: Styling Dashboards
   href: dashboards/dashboard-styling.md
@@ -78,7 +78,7 @@
   href: datasources/managing-data-source-credentials.md
 - name: Changing the Data Source for a Visualization
   href: datasources/changing-data-source-visualization.md
-- name: Combining Data Sources in one Visualization
+- name: Combining Data Sources in One Visualization
   href: datasources/data-blending.md
 - name: Integration with Azure Machine Learning
   href: datasources/azure-machine-learning-models.md
@@ -86,7 +86,7 @@
   href: datasources/bigquery-machine-learning-models.md
 - name: OAuth 2 / OIDC User Authentication
   href: datasources/oauth-2-oidc-user-authentication.md
-- name: Managing Dashboards with their own Data Sources
+- name: Managing Dashboards with Their Own Data Sources
   href: datasources/managing-dashboards-own-data-sources.md
 - name: Working with JSON Files
   href: datasources/working-with-json-files.md
