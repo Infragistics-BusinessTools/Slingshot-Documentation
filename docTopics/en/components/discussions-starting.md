@@ -56,15 +56,19 @@ Now your topic is created. You can start typing your first message to give more 
 
 ### How Can I Ensure Someone is Notified of a New Message in a Discussion?
 
-There are subjects where you need the attention of particular people. To make sure they are notified for each new message in a topic, you can... 
+There are subjects where you need the attention of particular people. To make sure they receive notifications for each new message in a topic, you can use the *Notify* option upon creating a new topic. 
 
-When you want to make sure *you* are notified of new messages, you need to navigate to a chosen topic, open it and change the button on top to *Following*. 
+> A screenshot showing where the Notify feature is located
 
-### How Can I Manage Members in a Discussion?
+>[!NOTE] **Notifying limitations.** You can only notify users who are part of the team or project where the topic is created. You can't add the emails of users external to the team/project.  
 
-Members of a discussion are the users, who have both reading and writing permissions for the topics in a discussion. Usually owners and members of a team have these permissions for discussions concerning the team or its projects. Team viewers have only reading permissions, unless they are owners or members of a project inside the team - then they can participate in this project's discussions.
+When you want to make sure *you* are notified of new messages, you need to navigate to a chosen topic, open it and change the button on top to *Following*. You will start receiving notifications in the *Notification* center.
 
-To manage the members of a discussion... 
+> A screenshot with the location of the Following button
+
+If you have missed the opportunity to keep others notified when creating the topic, you can always use the **@mention** (use the *@ sign* and start typing the username). The mentioned users or teams will be notified about your message, but will not receive any further notifications for new messages unless they opt to *follow* the topic.
+
+>[!NOTE] **Auto following.** Each time you answer a topic, you will start automatically following it. This means you will receive notifications for all new answers until you explicitly unfollow the topic. 
 
 ### Deleting vs Unfollowing a Topic
 

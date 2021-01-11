@@ -153,10 +153,12 @@ To attach a file, open a task and click/tap the clip icon as show below.
 <img src="../images/tasks-attachments-new.png" alt="Adding attachments to a Slingshot task" width="100%"/>
 
 
-### How to Create a Task from a Discussion
+### How to Create a Task from a Discussion or a Chat Message?
 
-Slingshot discussions ensure all your communication and collaboration tools are in one place, making remote teams stay productive no matter where they are.  
+Slingshot ensures all your communication and collaboration tools are in one place, making remote teams stay productive no matter where they are. 
 
 Improve your productivity by creating tasks from your messages as shown below:
 
 <img src="../images/tasks-discussions.png" alt="Adding a new Slingshot task from a topic in a discussion" width="100%"/>
+
+You can use any discussion or private/group chat message to start quick. After selecting where you want to add your task from message, you will have the message automatically added to the description of your new task. 
