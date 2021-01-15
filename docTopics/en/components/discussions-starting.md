@@ -7,24 +7,33 @@ Read on to get answers to most of your questions about discussions.
 
 ### How Can I Access My Discussions?
 
-To access your discussions, you need to select the **Discussions** navigation tab on top (see below).
+To access your discussions, you need to go to a team or a project and select the **Discussions** navigation tab on top (see below).
 
 > A screenshot showing the Discussions tab of a team or a project
 
 You can bookmark a discussion, topic or even a message in a topic to keep it at hand. They will appear in your bookmarks list and in your personal overview.
 Follow the link for further details about [overviews](overviews.md).
 
-### How Can I Discover and Join Other Discussions?
+<a name="discussions-access"></a>
+### Who Can Access Discussions?
 
-Depending on where you stand, you will **discover** different discussions in the *Discussions* tab.
+Depending on where you stand, you will find different discussions. To guarantee the privacy of teams and projects, Slingshot does not allow you to access all discussions. So read on to find out who can access what! 
 
-Within a *Team*, you can have discussions about everything concerning your team and teammates. If you are not a member of this team, you will not be able to discover these discussions. This guarantees that external users, who are only added to collaborate on a project inside the team, will not have access to any sensitive information shared in discussions within the team.
+Within a *Team*, you can have discussions about everything concerning your team and teammates. Only team members can access team discussions.
 
-Within a *Project*, you can have discussions that are specific for the selected project. Every collaborator in the project, incl. external users, can join these discussions. Team members can access all project discussions too, even if they are not taking part in the projects. 
+Within a *Project*, you can have discussions that are specific for this project. Every collaborator in the project, incl. external users, can join these discussions. Projects live inside teams. The members of these teams also have access to project discussions. 
 
-You will also find a *Discussions* tab in the *Organization* team. This is the perfect place for announcements and discussions, to which you want to bring the attention of all organization/company members.
+Within the *Organization* team, you will find *Discussions* too. Organization discussions cannot be accessed by external users. This is the perfect place for announcements and other important organization related discussions. 
 
-A discussion is basically a section dedicated to a specific subject and organized by a limitless list of topics. Topics are the places where conversations between team members or collaborators on a project happen. So you can't **join** discussions directly, but you can do this by replying to a topic created inside them. To reply to a topic: 
+### How Can I Discover and Join Discussions?
+
+Use the _Discussions_ tab in teams and projects to discover interesting discussions. You can read all discussions inside your teams or projects.  
+
+A discussion is basically a section dedicated to a specific subject and organized by a limitless list of topics. Topics are where conversations happen. 
+
+So you can't **join** discussions directly. You can do this by replying to a topic inside a discussion. Only Owners and Members of the team/project can reply to a topic. Viewers can only read it. 
+
+To reply to a topic: 
 
 1. Go to the **Discussions tab** in a selected team or project. 
 2. **Choose a discussion** from the list on the left.
@@ -32,10 +41,9 @@ A discussion is basically a section dedicated to a specific subject and organize
 
 ### How Can I Create a New Discussion or Topic?
 
-Every owner or member of a Slingshot *Team* can create a new team discussion. The same goes for the *Organization* team's discussions. When it comes to *Project* discussions, they can be created by both project and team owners and members. 
+Every Owner or Member of a Slingshot *Team* can create a new discussion. The same goes for the discussions inside the *Organization* team. When it comes to *Project* discussions, they can be created by both project and team owners and members. 
 
-In general, project and team discussions are *read only* for viewers. Team viewers, however, can create and participate in a *Project* discussion, if they are an owner or a member of this project.
-
+In general, project and team discussions are *read only* for viewers. Viewers in a team, however, can create and reply to a *Project* discussion, if they are an owner or a member of this project.
 
 To **create a discussion**: 
 1. Go to the **Discussions tab**. 
