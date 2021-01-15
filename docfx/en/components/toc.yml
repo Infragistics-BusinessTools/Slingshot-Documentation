@@ -38,7 +38,10 @@
   items: 
     - name: More on Discussions
       href: discussions-starting.md
-      new: true
+      new:  true
+    - name: More on Private Chats
+      href: chat-starting.md
+      new:  true
 - name: Overviews
   href: overviews.md
   new: false
