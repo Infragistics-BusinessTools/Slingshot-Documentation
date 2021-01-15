@@ -16,7 +16,6 @@ When you log in with Google and Microsoft, you get a cloud storage automatically
 
 Once you get in, you are greeted with your first screen:
 
-[comment]: <> ([New UI] replace with a similar screenshot)
 <img src="../images/personal-overview-blank.png" alt="Personal Overview completely blank for a new user" width="100%"/>
 
 You always start in your personal space, your **Home**. Specifically, in _My Overview_. This is the place where you can have a quick glance at your most important information, organize yourself, and visualize your work.
@@ -28,20 +27,28 @@ As you can see above, _My Overview_ can get very busy. Let's focus on getting yo
 
 ### Home, Organization, Teams, and Projects
 
-Your personal space, **Home**, is great and useful, but Slingshot is about effective collaboration while running teams and projects. So, you're probably wondering how to switch between your personal space, teams, and projects? Check out the image below:
+Your personal space, **Home**, is great and useful, but Slingshot is about effective collaboration while running teams and projects. So, you're probably wondering how to switch between your personal space, teams, and projects? 
 
-[comment]: <> ([New UI] - replace with a similar one)
-<img src="../images/teams-navigation-opened.png" alt="Organization, Teams, and Projects navigation opened" width="100%"/>
+Check out the image below:
 
-By scrolling down the panel on the left you are able to navigate your teams and their projects. If you bookmarked a team or project to keep it at hand, you can select bookmarks here to find it faster. Your organization (if you have one) is also displayed here, right under _Home_.
+<img src="../images/teams-navigation-opened.png" alt="Organization, Teams, and Projects navigation opened" width="50%"/>
+
+The navigation panel on the left includes: 
+
+- your **Home** tab; 
+- your **Organization** tab (if you have one), and 
+- the **Teams** and **Bookmarks** tabs. 
+
+You can switch between the content in your Home, Organization and teams. 
+
+When the *Teams* tab is selected you will see a list of Teams and Projects. If you bookmarked a team or project to keep it at hand, you can select the *Bookmarks* tab to find it faster.
 
 To navigate to any team or project, just click/tap over it.
 
-[comment]: <> ([New UI] - replace with a similar one)
-<img src="../images/teams-navigation-organization.png" alt="Organization, Teams, and Projects navigation opened and hovering the Organization" width="100%"/>
-
 Keep in mind that in Slingshot, people can be part of an organization, plus one or more teams, and also one or more projects. Projects live within teams, and you have overviews, tasks, discussions, content, and dashboards at both levels. For example, there are team tasks and project tasks as well.  
 Follow the links for further details about [teams](teams.md) or [projects](projects.md).
+
+> Continue from here
 
 ### Overviews, Projects, Tasks, Discussions, Content, and Dashboards
 
