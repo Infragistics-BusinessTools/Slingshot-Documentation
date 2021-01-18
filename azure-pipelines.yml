@@ -99,12 +99,12 @@ steps:
     ReplaceRegex: 'https://download.infragistics.com/slingshot/samples/Retail-Store'
     UseUTF8: false
     UseRAW: true
-# Replace 'Reveal' with 'Dashboards' in all .md files
+# Replace 'Reveal' with 'Analytics' in all .md files
 - task: RegexReplace@3
   inputs:
     InputSearchPattern: 'docTopics\en\components\dashboards\**\*.md'
     FindRegex: 'Reveal'
-    ReplaceRegex: 'Dashboards'
+    ReplaceRegex: 'Analytics'
     UseUTF8: false
     UseRAW: true
 - task: Yarn@3
