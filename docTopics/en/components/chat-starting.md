@@ -53,27 +53,46 @@ Creating a group chat is similar to creating a private chat. Open the chat scree
 
 If you don't see the *Start a conversation* blue button, check your [chat mode](#chat-mode). If you are in *docked mode*, select the **undock** icon next to the *Close* button. 
 
-You can also create a group chat by adding more users to a private chat. Your original private chat will be kept.
+You can also create a group chat by adding more users to a private chat. This will creat a new group chat between the chosen user, but don't worry! Your original private chat will be kept too.
 
-Unlike private chats, you can create more than one chat between the same users. Group chats have the **rename** option. You can use it to differentiate between two group chats with the same participants or simply to make the subject of the chat clear to everyone. Use the *overflow* menu to rename a group chat.
+Unlike private chats, you can create more than one chat between the same users. You can use the **rename** option of group chats to differentiate between them. Or you can simply name your group chat to make the subject of the chat clear to everyone. You will find the *rename* option in the *overflow* menu of a group chat (see below).
 
-> A screenshot showing the overflow menu of a group chat
+> A screenshot showing the overflow menu of a group chat with the rename option marked
 
 ### How to Manage Members in a Group Chat? 
 
 You can manage the members of a group chat by selecting the *group* icon on top of your chat room. 
 
-> A screenshot showing the group icon 
+> A screenshot showing the group icon + a list of members with possible manage options
 
-Click the **+ Add Members** on top of the group members list. Choose new members from the list. At its bottom you will notice a **History** option. By clicking/tapping the dropdown the following 3 options appear: 
+A dropdown showing a list of chat members is collapsed.
+You can use the *trash* icon next to each member's name in that list to remove a member from the chat. Every participant in a group chat can remove other members from the chat. Removed members can still view the history of the chat. 
 
-- 
-- 
-- 
+Next to your name you will find the *leave* icon. You can leave a chat anytime. 
 
-You can choose whether to show new members any history of the chat or you can also opt to show them only *today's* (last 24 hours) chat history. 
+There is no limit to the number of chat participants. You can always add new users to a group chat by  clicking **+ Add Members**. Choose new members from the list of Slingshot users opened. At its bottom you will notice a **History** setting. The following 3 options appear in the dropdown when collapsed: 
 
-You will see a *trash* icon next to each member name in the group chat list. 
+- *Invite with No Previous History*
+- *Invite with All Previous History*
+- *Invite with Today's History*
+
+*Invite with No Previous History* is the default history setting for new chat participants. When finished, select the **Add to Chat** blue button. 
+
 <a name='chat-external-users'></a>
 ### How to Start a Chat with External Users?
 
+All Slingshot users can participate in private and group chats, including the external users. 
+However, external users are not part of your Organization. That's why after selecting **+ Start a conversation...** you will not see their names in the list of users. You can chat with them only if you add their emails manually in the search box as shown below.
+
+> A screenshot showing where to write the email - externaluser@gmail.com
+
+### Deleting vs Leaving vs Muting a Chat
+
+Once you lose interest, you can delete, leave or mute a chat in Slingshot.  
+
+**Deleting** a chat makes it disappear from the chat list of all its participants. All chat history is deleted for everybody too. So make sure no one needs the chat or its history before you decide to delete it. To delete a chat, click on its **overflow menu** > **Delete**. 
+
+**Leaving** a chat is an option for group chats only. Each member can leave a group chat when they decide they no longer need to participate in the conversation. The members, who left, cannot receive new messages anymore, but they still have access to the chat history. To leave a group chat, click on it to **open** > **Members icon on top** > **leave icon** next to your name.
+
+Normally, the chat icon on top shows the total number of unread chat messages. When you **mute** a private or group chat, its new messages are no longer added to that count. This is the option for you if you do not want to follow the conversation anymore, but you still want to have access to it. 
+To mute a chat, click on its **overflow menu** > **Mute Notifications**. 
