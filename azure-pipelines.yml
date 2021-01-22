@@ -41,14 +41,14 @@ steps:
     Contents: |
       **\*
       !**\toc.yml
-    targetFolder: docTopics\en\components\dashboards
+    targetFolder: docTopics\en\components\analytics
     overWrite: true
 # copy Reveal toc files to Slingshot files folder
 - task: CopyFiles@2
   inputs:
     sourceFolder: reveal-images\en
     Contents: '**\toc.yml'
-    targetFolder: docfx\en\components\dashboards
+    targetFolder: docfx\en\components\analytics
     overWrite: true
 # copy Reveal images and md files to Slingshot files folder
 - task: CopyFiles@2
@@ -57,20 +57,20 @@ steps:
     Contents: |
       **\*.png
       **\*.md
-    targetFolder: docTopics\en\components\dashboards
+    targetFolder: docTopics\en\components\analytics
     overWrite: true
 # Update the hrefs in Reveal md files
 - task: RegexReplace@3
   inputs:
-    InputSearchPattern: 'docTopics\en\components\dashboards\**\*.md'
+    InputSearchPattern: 'docTopics\en\components\analytics\**\*.md'
     FindRegex: '~\/en\/'
-    ReplaceRegex: '~/components/dashboards/'
+    ReplaceRegex: '~/components/analytics/'
     UseUTF8: false
     UseRAW: true
 # Update the download links in Reveal md files
 - task: RegexReplace@3
   inputs:
-    InputSearchPattern: 'docTopics\en\components\dashboards\**\*.md'
+    InputSearchPattern: 'docTopics\en\components\analytics\**\*.md'
     FindRegex: 'http:\/\/download\.infragistics\.com\/(reportplus|reveal)\/'
     ReplaceRegex: 'https://download.infragistics.com/slingshot/'
     UseUTF8: false
@@ -78,7 +78,7 @@ steps:
 # Update the Dashboard/Visualization Tutorials links in Reveal md files
 - task: RegexReplace@3
   inputs:
-    InputSearchPattern: 'docTopics\en\components\dashboards\**\*.md'
+    InputSearchPattern: 'docTopics\en\components\analytics\**\*.md'
     FindRegex: 'http:\/\/download\.infragistics\.com\/(reportplus|reveal)\/help\/samples\/Reveal'
     ReplaceRegex: 'https://download.infragistics.com/slingshot/samples/Slingshot'
     UseUTF8: false
@@ -86,7 +86,7 @@ steps:
 # Update the Dataset links in Reveal md files
 - task: RegexReplace@3
   inputs:
-    InputSearchPattern: 'docTopics\en\components\dashboards\**\*.md'
+    InputSearchPattern: 'docTopics\en\components\analytics\**\*.md'
     FindRegex: 'http:\/\/download\.infragistics\.com\/(reportplus|reveal)\/help\/samples\/HR\%20Dataset_2016'
     ReplaceRegex: 'https://download.infragistics.com/slingshot/samples/HR_Dataset_2016'
     UseUTF8: false
@@ -94,7 +94,7 @@ steps:
 # Update the Retail Store links in Reveal md files
 - task: RegexReplace@3
   inputs:
-    InputSearchPattern: 'docTopics\en\components\dashboards\**\*.md'
+    InputSearchPattern: 'docTopics\en\components\analytics\**\*.md'
     FindRegex: 'http:\/\/download\.infragistics\.com\/(reportplus|reveal)\/help\/samples\/Retail_Store'
     ReplaceRegex: 'https://download.infragistics.com/slingshot/samples/Retail-Store'
     UseUTF8: false
@@ -102,7 +102,7 @@ steps:
 # Replace 'Reveal' with 'Analytics' in all .md files
 - task: RegexReplace@3
   inputs:
-    InputSearchPattern: 'docTopics\en\components\dashboards\**\*.md'
+    InputSearchPattern: 'docTopics\en\components\analytics\**\*.md'
     FindRegex: 'Reveal'
     ReplaceRegex: 'Analytics'
     UseUTF8: false
