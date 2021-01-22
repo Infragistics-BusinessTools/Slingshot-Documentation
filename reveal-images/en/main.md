@@ -1,4 +1,4 @@
-## Welcome to the Dashboards Help Center!
+## Welcome to the Analytics Help Center!
 
 
 ![homePage\_All](images/homePage_All.png)
@@ -10,7 +10,7 @@ create, view and share dashboards with your teams. It offers you a
 seamless, identical experience no matter what device you are on: Web,
 Desktop, iOS, or Android.
 
-### You can use Dashboards to:
+### You can use Analytics to:
 
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;}
