@@ -1,3 +1,4 @@
 [submodule "reveal-docs"]
 	path = reveal-docs
 	url = https://github.com/RevealBi/Documentation
+        branch = master
