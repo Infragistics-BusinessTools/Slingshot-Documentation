@@ -65,10 +65,19 @@ With Slingshot you can access files from different cloud storages, organize it i
 
 To share files, basically you just pin the content you want to share to a board, discussion, or overview. This way the content will be available for others.  
 
+> Replace with a SUI style screenshot
 <img src="../images/pin-content-action.png" alt="Pin content to a board in Slingshot" width="100%"/>
 
 Normally you'll use boards to share files, but if you are working with a team or project you can pin relevant content to the overview. This will increase the visibility of that specific file. Additionally, you can also pin a file to a discussion to collaborate over it temporarily.
 
+### How to Set File Permissions?
+
+When you share files inside teams and projects, you make these files available for other users. 
+To make sure that only the right people have access to your files, each time you pin a file Slingshot will prompt you to select the type of permissions you want to set. You can choose between the three file permissions types listed below. 
+
+ - **Public URL** - everyone in Slingshot can open the file. 
+ - **Automatic** - 
+ - **Manual** - 
 ### How to Edit Files
 
 Depending on the platform you're on, you can use different applications to edit your files. As Slingshot relies on invoking 3rd party applications to do the job, it's entirely up to you.
