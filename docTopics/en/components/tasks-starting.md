@@ -21,7 +21,6 @@ All the members of a team or project can access the tasks created within that te
 
 You can access your tasks by going to a team/project and selecting the **Tasks** tab on top (see below).
 
->replace with a SUI screenshot
 <img src="../images/tasks-accessing.png" alt="Accessing Slingshot tasks" width="100%"/>
 
 Depending on where you stand, you will be accessing different tasks.
@@ -47,12 +46,10 @@ As shown above, there are always other _+ Task_ buttons depending on the *view t
 
 You can directly create a new **subtask** using the main task's overflow menu, as shown below.
 
-> replace with a SUI screenshot
 <img src="../images/tasks-new-subtasks-menu.png" alt="Creating a new subtask from the overflow menu in Slingshot" width="100%"/>
 
 Alternatively, you can create subtasks for a task that is already opened:
 
-> replace with a SUI screenshot
 <img src="../images/tasks-new-subtasks-fromTask.png" alt="Creating a new subtask within a Slingshot task" width="100%"/>
 
 Having the task opened also allows you to insert new subtasks and this way reorder the existing subtasks (see below)
@@ -66,7 +63,7 @@ Two or more tasks may depend on each other's completion. Slingshot helps you kee
 
 You can set a task dependency in the task creation dialog by selecting the *Dependencies* icon on top (see the screenshot below). 
 
-> a screenshot showing the dependecies icon 
+<img src="../images/tasks-add-dependency-fromTask.png" alt="Dependency option in the task creation menu" width="100%"/>
 
 Here, you can choose between two dependency types: 
 
@@ -83,16 +80,14 @@ The **most reliable method** is to open a task by clicking/tapping it (or throug
 
 A **faster method** is to just click/tap the property value you want to change, like shown below with the _Status_ property.
 
-> replace with a SUI screenshot
 <img src="../images/tasks-change-property.png" alt="Slingshot task being updated by changing its status" width="100%"/>
 
 <a name="show-hide-properties"></a>
 ### How Can I Show/Hide Properties?
-Tasks have many field properties that can be displayed when in *List* and *Kanban* view. However by default you can only see the *Title*, *Assignee*, and *Due Date* of a task before opening it.
+Tasks have many field properties that can be displayed when in *List* and *Kanban* view. By default, you can only see the *Title*, *Assignee*, and *Due Date* of a task before opening it.
 
 To show/hide properties, click/tap the **overflow** button on top (next to the *+New* button) > **Fields** and select from the list of properties (as shown below).
 
-> replace with a SUI interface
 <img src="../images/tasks-fields.png" alt="Accessing task fields within Slingshot" width="100%"/>
 
 
