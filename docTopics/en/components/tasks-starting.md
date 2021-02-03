@@ -95,10 +95,9 @@ To show/hide properties, click/tap the **overflow** button on top (next to the *
 ### How Can I Filter Tasks?
 Filtering allows you to choose a smaller amount of tasks, helping you find those tasks you currently need.
 
-You can access the _Filters editor_ by clicking/tapping the filter icon on top right of the screen as shown below.
+You can access the _Filters editor_ by clicking/tapping the filter icon on the top right of the screen (see the screenshot below).
 
-> replace with a SUI screenshot
-<img src="../images/tasks-filters-accessing.png" alt="Accessing task filters within Slingshot" width="100%"/>
+<img src="../images/tasks-filters-accessing.png" alt="Task filter icon location" width="100%"/>
 
 In the _Filters editor_ you can create *Basic* or more *Advanced* rules. The *Basic* rules will be enough most of the time, *Advanced* is recommended in the case that you really need to define more complex conditions in your filter.
 
@@ -106,17 +105,17 @@ Sometimes you might want to save a filter and use it again in the future. This a
 
 To create and save a filter use _+ Filter_ as shown below.
 
-> replace with a SUI screenshot
 <img src="../images/tasks-filters-new.png" alt="Creating tasks filters within Slingshot" width="100%"/>
 
-Keep in mind that filters you create and save in a team or project will be visible not only for you, but also for the other team/project members. 
+Slingshot has a few filters out-of-the-box: _My Tasks_, _Due this Week_, and _Overdue_ (shown in the screenshot above). But at any time you can create new custom filters or edit existing custom filters.
 
-Slingshot has a few filters out-of-the-box: _My Tasks_, _Due this Week_, and _Overdue_. But at any time you can create new custom filters or edit existing custom filters.
+Keep in mind that filters you create and save in a team or project will be visible not only for you, but also for the other team/project members.
 
 In addition, you can save a filter you just created on the spot using _Save As Filter_, as shown below.
 
-> replace with a similar/SUI screenshot
 <img src="../images/tasks-filters-save.png" alt="Saving tasks filters on the fly within Slingshot" width="100%"/>
+
+To stop filtering tasks, click/tap the **filter icon** to open the **Filters** dialog. Then, select the **Clear** button at the bottom to remove the current filters, and **Apply** to save your changes. 
 
 For those times that you can't find a specific task, try expanding collapsed panels, removing existing filters, and/or adding filters using the properties of the task you want. Remember that the icon changes to help you identify when you have active filters or not.
 
@@ -124,16 +123,11 @@ For those times that you can't find a specific task, try expanding collapsed pan
 
 You can choose between three different visualizations (_List_, _Kanban_, _Timeline_), depending on what you want to achieve.
 
-> replace with a similar or a SUI screenshot
 <img src="../images/tasks-visualizations.png" alt="Switching visualizations within Slingshot" width="100%"/>
 
-A straightforward **List** is often enough, but keep in mind that besides a flat list you can also use _group by_ options or filtering. _Group by_ options include ordering the list by section, priority, and other criteria. To group your tasks, select the *overflow* menu next to the *+New* button > *Group by* (shown below). 
+By default, you view your tasks as a straightforward **List**, which is often good enough. Most of the screenshots in this documentation present tasks in the *List* view. This is so, because most of the times the prefered view type does not affect how *Tasks* are used and managed. When it does, we will show the differencies in each view. 
 
-> replace with a SUI screenshot
-<img src="../images/tasks-visualizations-list.png" alt="List group by options in Slingshot" width="100%"/>
-
-Kanban is a Japanese word, commonly known as a workflow management method designed to help visualize work and maximize efficiency.  
-In Slingshot, the **Kanban** view shows a visual representation of tasks in the form of cards. Each card contains information about the task, including its status, deadline, assignee, etc.  
+*Kanban* is a Japanese word, commonly known as a workflow management method designed to help visualize work and maximize efficiency. In Slingshot, the **Kanban** view shows a visual representation of tasks in the form of cards. Each card contains information about the task, including [task properties](#show-hide-properties) such as status, deadline, assignee, etc. 
 
 <img src="../images/tasks-visualizations-kanban.png" alt="Kanban visualization in Slingshot" width="100%"/>
 
@@ -152,6 +146,13 @@ As shown above, you can pick a task and re-arrange the start and due dates. In a
 
 > replace with a SUI screenshot
 <img src="../images/tasks-visualizations-timeline-settings.png" alt="Adjusting the Timeline view in Slingshot" width="100%"/>
+
+### How to Group My Tasks? 
+
+_Group by_ options include ordering the list by section, priority, and other criteria. To group your tasks, select the *overflow* menu next to the *+New* button > *Group by* (shown below). 
+
+> replace with a SUI screenshot
+<img src="../images/tasks-visualizations-list.png" alt="List group by options in Slingshot" width="100%"/>
 
 ### How Can I Sort Tasks? 
 
