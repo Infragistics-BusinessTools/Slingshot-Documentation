@@ -1,7 +1,7 @@
 - name: Category Charts
   href: category-charts.md
 - name: Choropleth Maps
-  href: visualization-types/choropleth-map/toc.yml
+  href: choropleth-map/toc.yml
 - name: Combo Charts
   href: combo-charts.md
 - name: Financial Charts
@@ -21,7 +21,7 @@
 - name: Scatter and Bubble Charts
   href: scatter-bubble-charts.md
 - name: Scatter Map
-  href: visualization-types/scatter-map/toc.yml
+  href: scatter-map/toc.yml
 - name: Sparkline Charts
   href: sparkline-charts.md
 - name: Text View
