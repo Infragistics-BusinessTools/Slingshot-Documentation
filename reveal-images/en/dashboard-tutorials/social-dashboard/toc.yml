@@ -4,11 +4,13 @@
   href: creating-the-dashboard.md
 - name: Creating the First Visualization
   href: selecting-data-visualization.md
+- name: Creating the Dashboard Filter and Connecting Your Visualization
+  href: creating-dashboard-filter-connecting-visualization.md
 - name: Applying Formatting to the First Visualization
   href: applying-formatting-visualization.md
 - name: Applying a Theme to the Dashboard
   href: applying-theme.md
-- name: Adding the other Visualizations
+- name: Adding the Other Visualizations
   href: adding-other-visualizations.md
-- name: Saving your Dashboard
+- name: Saving Your Dashboard
   href: saving-dashboard.md
