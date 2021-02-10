@@ -57,6 +57,7 @@ Having the task opened also allows you to insert new subtasks and this way reord
 > replace with a SUI screenshot
 <img src="../images/tasks-new-subtasks-others.png" alt="Options to insert a new subtask below or above other subtasks within a Slingshot task" width="100%"/>
 
+<a name="add-task-dependency"></a>
 ### How Can I Add a Task Dependency? 
 
 Two or more tasks may depend on each other's completion. Slingshot helps you keep everyone informed about that with the task *dependency* property. 
@@ -129,36 +130,41 @@ By default, you view your tasks as a straightforward **List**, which is often go
 
 *Kanban* is a Japanese word, commonly known as a workflow management method designed to help visualize work and maximize efficiency. In Slingshot, the **Kanban** view shows a visual representation of tasks in the form of cards. Each card contains information about the task, including [task properties](#show-hide-properties) such as status, deadline, assignee, etc. 
 
+> replace with a screenshot with new UI (see Marketing materials)
 <img src="../images/tasks-visualizations-kanban.png" alt="Kanban visualization in Slingshot" width="100%"/>
-
-You can use filters and the _Group by_ options in *Kanban* view too. By default, your tasks in *Kanban* view are grouped by their *status* - _To Do_, _In Progress_, *In Review*, _Blocked_ and _Completed_ (see the screenshot above). You can also group them by _section_, _priority_, or _assignee_. 
 
 Besides, the cards are arranged in columns. By default, the columns represent different stages of the status workflow (see above). You can use drag & drop to move the cards through the workflow by changing their status on the spot. 
 
-You can use the *Group by* option to change the task property that is used for grouping the cards in columns. For example, if you choose _priority_ as a grouping criteria, your columns will be named as follows: _High_, *Medium*, *Low* and *None*. And your cards will re-arrange according to their level of priority.
-
 A **Timeline** always shows a list of events in chronological order. In Slingshot, you can see tasks over a set period of time.
 
-> replace with a similar/SUI screenshot
+> replace with a screenshot showing the new UI (see Marketing materials)
 <img src="../images/tasks-visualizations-timeline.png" alt="Timeline view in Slingshot" width="100%"/>
 
-As shown above, you can pick a task and re-arrange the start and due dates. In addition, you are able to change the scale (days, weeks, months) by using the dropdown next to the filter icon. You can even show/hide weekends.
+As shown above, you can pick a task on the timeline and re-arrange the start and due dates by dragging its ends. 
 
-> replace with a SUI screenshot
+In addition, you are able to change the scale (days, weeks, months) by using the dropdown next to the filter icon. Use the **Today** button on top to go back to the current day. If your scale shows weeks or months, *today* will bring you back to the beginning of the current week or month, respectively. 
+You can even show/hide weekends by checking the **Show Weekends** box in the overflow menu on top.
+
+You will notice a hook on both corners of each task on the timeline. Drag the left hook of a task and connect it to another task (see in the screenshot below). With this, you will add a *waiting on* [**dependency**](#add-task-dependency) to the first task. Use the right hook to add a blocking dependency. 
+> replace with a SUI screenshot showing tasks dependency hooks + see Marketing materials
 <img src="../images/tasks-visualizations-timeline-settings.png" alt="Adjusting the Timeline view in Slingshot" width="100%"/>
 
 ### How to Group My Tasks? 
 
-_Group by_ options include ordering the list by section, priority, and other criteria. To group your tasks, select the *overflow* menu next to the *+New* button > *Group by* (shown below). 
+_Group by_ options include ordering your tasks by section, priority, assignee and other criteria. To group your tasks, select the **overflow menu > Group by** (shown below). 
 
-> replace with a SUI screenshot
-<img src="../images/tasks-visualizations-list.png" alt="List group by options in Slingshot" width="100%"/>
+<img src="../images/tasks-visualizations-list.png" alt="List grouped by options in Slingshot" width="100%"/>
 
+*Group by* is available for all _View Types_. Grouping your tasks helps you find quickly tasks that share a specific property, for example tasks assigned to the same user. Unlike filtering, grouping will show you all tasks at the same time. Changing the *group by* criteria will affect only the current list and only the way you see your tasks. Your teammates can apply different grouping criteria to the same list, but this will not affect how you see this list in your profile. 
 ### How Can I Sort Tasks? 
 
-When you are looking at your tasks you may be wondering how they are ordered. Sorting helps you order your tasks by using a task property as a criteria. You can apply sorting in *List* and *Timeline* view.  
+When you are looking at your tasks you may be wondering how they are ordered. Sorting helps you arrange your tasks in ascending or descending order by using a task property as the criterion. 
 
-In **List** view, your tasks are ordered by their date of creation by default. This means the last task you created will be added at the bottom of the list. However, you can click/tap on a property title at the top of the list and sort tasks by ascending or descending order of *Status*, *Assignee* (name), *Start/Due Date*, *Priority*, *Attachments* (having or not). If the property you want to sort by is not there, see how to [show a property](#show-hide-property) in *List* view.    
+You can apply sorting only to *List* and *Timeline* view.  
+
+In **List** view, your tasks are ordered by their date of creation by default. This means the last task you created will be added at the bottom of the list. To change the sorting criterion, you can click/tap on a property title at the top of the list and sort tasks by ascending or descending order of *Status*, *Assignee* (name), *Start/Due Date*, *Attachments* (having or not), *Priority* (see the screenshot below). If the property you want to sort by is not there, see how to [show a property](#show-hide-property) in *List* view.  
+
+> SUI screenshot showing order by Status
 
 In **Timeline** view, your tasks are ordered by ... by default. This means... However, you can use the *Sort by* option in the overflow menu on the right. 
 ### Using Lists and Sections
