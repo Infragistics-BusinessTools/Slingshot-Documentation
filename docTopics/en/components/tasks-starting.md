@@ -130,7 +130,6 @@ By default, you view your tasks as a straightforward **List**, which is often go
 
 *Kanban* is a Japanese word, commonly known as a workflow management method designed to help visualize work and maximize efficiency. In Slingshot, the **Kanban** view shows a visual representation of tasks in the form of cards. Each card contains information about the task, including [task properties](#show-hide-properties) such as status, deadline, assignee, etc. 
 
-> replace with a screenshot with new UI (see Marketing materials)
 <img src="../images/tasks-visualizations-kanban.png" alt="Kanban visualization in Slingshot" width="100%"/>
 
 Besides, the cards are arranged in columns. By default, the columns represent different stages of the status workflow (see above). You can use drag & drop to move the cards through the workflow by changing their status on the spot. 
@@ -146,7 +145,7 @@ In addition, you are able to change the scale (days, weeks, months) by using the
 You can even show/hide weekends by checking the **Show Weekends** box in the overflow menu on top.
 
 You will notice a hook on both corners of each task on the timeline. Drag the left hook of a task and connect it to another task (see in the screenshot below). With this, you will add a *waiting on* [**dependency**](#add-task-dependency) to the first task. Use the right hook to add a blocking dependency. 
-> replace with a SUI screenshot showing tasks dependency hooks + see Marketing materials
+> replace with a SUI screenshot showing tasks dependency hooks 
 <img src="../images/tasks-visualizations-timeline-settings.png" alt="Adjusting the Timeline view in Slingshot" width="100%"/>
 
 ### How to Group My Tasks? 
@@ -171,6 +170,7 @@ In **Timeline** view, your tasks are ordered by ... by default. This means... Ho
 
 In Slingshot, you can organize your tasks by using **Lists** and **Sections**.  
 
+> replace with a SUI screenshot
 <img src="../images/tasks-lists-sections.png" alt="Lists and Sections in Slingshot" width="100%"/>
 
 **Sections** are simply divisions of a list. A list can have one or more sections, and a natural way to organize your list of tasks is grouping by sections.
@@ -193,6 +193,7 @@ Files attached can be opened, downloaded, or detached (unpinned) from the task.
 
 To attach a file, open a task and click/tap the clip icon as show below.
 
+> replace with a SUI screenshot
 <img src="../images/tasks-attachments-new.png" alt="Adding attachments to a Slingshot task" width="100%"/>
 
 

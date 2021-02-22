@@ -21,7 +21,6 @@ You will find your Organization team in the *Home and Organization area* (see be
 
 **Projects** live inside of a team, but are not limited to its members. You can invite people from other teams to every project. A project contains its own *Overview*, *Tasks*, *Discussions*, *Content*, and *Dashboards*. You can also assign tasks within a project to people, who are not part of the project or the team.
 
-> new UI: replace with a similar screenshot
 <img src="../images/project-example-overview.png" alt="A project Overview" width="100%"/>
 
 ### How Can I Access my Teams?

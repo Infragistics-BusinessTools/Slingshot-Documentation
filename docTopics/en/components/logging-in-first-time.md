@@ -20,7 +20,6 @@ Once you get in, you are greeted with your first screen:
 
 You always start in your personal space, your **Home**. Specifically, in _My Overview_. This is the place where you can have a quick glance at your most important information, organize yourself, and visualize your work.
 
->replace with a similar screenshot - new UI
 <img src="../images/overview-personal.png" alt="Personal Overview shown in Slingshot" width="100%"/>
 
 As you can see above, _My Overview_ can get very busy. Let's focus on getting you familiar with Slingshot first...
@@ -59,7 +58,6 @@ But why is that? Let's answer this question quickly by explaining the idea behin
 
 **Overviews** give you a quick status of projects, teams, or your personal work, so you'll find them there. **Projects** are created inside teams, but cannot include other projects. **Tasks** represent work to be done by the team members in a team or in the scope of a project.  **Discussions** are used to chat among members of an organization, team or project. **Content** is about cloud storages and boards - basically you connect to cloud storages and then use boards to organize and share that content with others. Finally, **Dashboards** allow you to quickly create and share data visualizations so you can turn your data into insights.
 
-> replace with a similar screenshot - new UI
 <img src="../images/overview-team-navigation.png" alt="Teams Overview shown in Slingshot" width="100%"/>
 
 The image above shows the navigation bars of a Slingshot team, the Organization team, a project, and Home. Only teams have all the main navigation bars. 
@@ -69,7 +67,6 @@ Follow the links for further details about [overviews](overviews.md), [projects]
 
 **Notifications** are designed to keep you updated on any changes to teams, tasks, projects, messages, and dashboards. You can learn, among others, that a task was assigned to you, that you are removed from a team, or that someone sent a message in a discussion thread you're following.
 
-> replace with a similar screesnhot - new UI
 <img src="../images/notifications-panel-opened.png" alt="Notifications panel opened in Slingshot" width="50%"/>
 
 There are three different types of notifications, in-app, push, and email. This means that you can get a message that pops up while using Slingshot (in-app notification), a message that pops up on a mobile device (push notification), or even an email notification.  

@@ -54,8 +54,7 @@ Proceed to invite external members by adding their emails to the list. Then, sel
 ### How Can I Ensure the Project Is On Track?
 By keeping everyone in the loop, leaders and project members can proactively identify that a project is not going well and needs attention
 
-> new UI: replace with a similar screenshot
-<img src="../images/overview-project.png" alt="Project Overview shown in Slingshot" width="100%"/>
+<img src="../images/project-example-overview.png" alt="Project Overview shown in Slingshot" width="100%"/>
 
 Projects can go wrong for multiple reasons and sometimes more than once. That's a fact. The actual challenge is to proactively identify a project has spiraled out of control and get it back on track as soon as possible. Project overviews help you identify those projects and the reasons, helping you ship projects consistently on time and on budget.
 

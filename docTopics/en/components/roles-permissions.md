@@ -30,7 +30,6 @@ So, what path should you take?
 
 If you are thinking of a **small contribution**, you can go to a team and create a specific task for an external user. This user won't be added to the team and will receive a notification about the task assigned. For the external user, the task will appear in *Home > Tasks*.
 
-> replace with a similar screenshot - new UI 
 <img src="../images/externalUser-task.png" alt="Showing a Task created for an external user" width="100%"/>
 
 Alternatively, the external user might be **further involved into a specific project**. This way, the external user will collaborate in multiple tasks with other users. In this case, you should add the user to that specific project within the team. Again, the user won't be added to the team.
