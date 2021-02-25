@@ -10,11 +10,11 @@ It's a quick snapshot of a project, a team, or your personal work. Slingshot ove
 
 By looking at a **project overview** you can get a sense of the project progress at a glance. Within seconds you get an overall status (_On Target, At Risk, Danger, Completed_), the start and due dates, and issues raised by someone working on the project. That information alone might be enough for you, if not you can dig deeper by exploring specific tasks within the project or even mentions directed at you. Project content can be useful to add resources like links, documents, dashboards, etc.
 
-<img src="../images/overview-project.png" alt="Project Overview shown in Slingshot" width="100%"/>
+<img src="../images/project-overview.png" alt="Project Overview shown in Slingshot" width="100%"/>
 
 From a **team overview** you can get a list of the team members and their tasks, all mentions directed at you, and links to relevant content for the team.
 
-<img src="../images/overview-team.png" alt="Teams Overview shown in Slingshot" width="100%"/>
+<img src="../images/team-overview-example.png" alt="Teams Overview shown in Slingshot" width="100%"/>
 
 Your **personal overview** is that one place where you can visualize your work and organize yourself. All your tasks with dates can be found here and you can open them without navigating away. Bookmarks are very useful to keep at hand those links that are really relevant to you. You can add links to teams, projects, tasks, chats and also boards. As boards are just containers, bookmarking a board gets you access to all its pinned documents and web links.
 

@@ -15,6 +15,8 @@ Unlike the discussions, the private chat is project and team independent. This m
 
 In the top bar, right next to your profile picture, you will see the **chat message icon**. Click the icon to open the chat screen. 
 
+<img src="../images/chat-icon.png" alt="Chat icon location" width="100%" />
+
 <a name='chat-mode'></a>
 ### What is Docked/Undocked Chat Mode? 
 
@@ -25,13 +27,16 @@ The *docked/undocked* mode basically makes your chat screen appear differently.
 
 You can switch between modes by clicking/tapping the *dock/undock* icon next to *Close* (see screenshot below).
 
-> A screenshot showing the dock/undock icon 
+<img src="../images/dock-undock-icon-chat.png" alt="Dock/Undock icon location" width="50%" />
 
 ### How Can I Start a Private Chat?
 
 To start a chat, open the chat screen. Then follow the steps below:
 
 1. Click the **+ Start a conversation...** blue button. 
+
+    <img src="../images/start-chat.png" alt="Start a conversation button" width="80%" />
+
 2. You will see a list of users from your main *Organization*. Select a user from that list or type a name or email in the *search* box on top.
 3. Click/tap **Add to Chat**. 
 
@@ -53,17 +58,18 @@ Creating a group chat is similar to creating a private chat. Open the chat scree
 
 If you don't see the *Start a conversation* blue button, check your [chat mode](#chat-mode). If you are in *docked mode*, select the **undock** icon next to the *Close* button. 
 
-You can also create a group chat by adding more users to a private chat. This will creat a new group chat between the chosen user, but don't worry! Your original private chat will be kept too.
+You can also create a group chat by **adding more users to a private chat**. This will creat a new group chat between the chosen users, but don't worry! Your original private chat will be kept too. To add more users to a private chat, open a private chat and select the *+ member* icon on top right (as shown below). 
+
+<img src="../images/add-member-icon-chat.png" alt="Add more members to a chat icon" width="80%" />
 
 Unlike private chats, you can create more than one chat between the same users. You can use the **rename** option of group chats to differentiate between them. Or you can simply name your group chat to make the subject of the chat clear to everyone. You will find the *rename* option in the *overflow* menu of a group chat (see below).
 
-> A screenshot showing the overflow menu of a group chat with the rename option marked
-
+<img src="../images/rename-group-chat.png" alt="Rename a group chat option" width="50%" />
 ### How to Manage Members in a Group Chat? 
 
 You can manage the members of a group chat by selecting the *group* icon on top of your chat room. 
 
-> A screenshot showing the group icon + a list of members with possible manage options
+<img src="../images/group-chat-manage-members.png" alt="Members icon plus a list of group members opened" width="80%" />
 
 A dropdown showing a list of chat members is collapsed.
 You can use the *trash* icon next to each member's name in that list to remove a member from the chat. Every participant in a group chat can remove other members from the chat. Removed members can still view the history of the chat. 
@@ -84,7 +90,7 @@ There is no limit to the number of chat participants. You can always add new use
 All Slingshot users can participate in private and group chats, including the external users. 
 However, external users are not part of your Organization. That's why after selecting **+ Start a conversation...** you will not see their names in the list of users. You can chat with them only if you add their emails manually in the search box as shown below.
 
-> A screenshot showing where to write the email - externaluser@gmail.com
+> A SUI screenshot showing where to write the email - externaluser@gmail.com 
 
 ### Deleting vs Leaving vs Muting a Chat
 

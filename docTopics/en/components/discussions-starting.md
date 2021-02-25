@@ -9,9 +9,10 @@ Read on to get answers to most of your questions about discussions.
 
 To access your discussions, you need to go to a team or a project and select the **Discussions** navigation tab on top (see below).
 
-> A screenshot showing the Discussions tab of a team or a project
+> A SUI screenshot showing the Discussions tab of a team or a project (see More on Tasks topic)
+<img src="../images/discussions-tab.png" alt="Discussions tab location of a team" width="100%" />
 
-You can bookmark a discussion, topic or even a message in a topic to keep it at hand. They will appear in your bookmarks list and in your personal overview.
+You can bookmark a discussion, topic, or even a message in a topic to keep it at hand. They will appear in your bookmarks list and in your personal overview.
 Follow the link for further details about [overviews](overviews.md).
 
 <a name="discussions-access"></a>
@@ -50,8 +51,10 @@ To **create a discussion**:
 2. Select **+ Discussion** on the left (see screenshot below). 
 3. Write a meaningful name for the discussion in the text box. This will be the subject of all future topics in this discussion.
 4. Choose **Create**.
+    > replace with a SUI screenshot
+    <img src="../images/create-new-discussion.png" alt="Creating a new discussion" width="100%" />
 
-Your discussion is added at the end of the discussions list.   
+Your discussion will be added at the bottom of the discussions list.   
 
 To **create a topic**: 
 
@@ -59,20 +62,22 @@ To **create a topic**:
 2. Click/tap the **+ Topic** button on the top right. 
 3. Name the topic and, optionally, choose which members to be notified for its creation.   
 4. Choose **Create**.
+    > replace with a SUI screenshot
+    <img src="../images/create-new-topic.png" alt="Creating a new topic" width="100%" />
 
 Now your topic is created. You can start typing your first message to give more details on the subject. This will also serve as a conversation starter.
 
 ### How Can I Ensure Someone is Notified of a New Message in a Discussion?
 
 There are subjects where you need the attention of particular people. To make sure they receive notifications for each new message in a topic, you can use the *Notify* option upon creating a new topic. 
-
-> A screenshot showing where the Notify feature is located
+ > replace with a SUI screenshot
+<img src="../images/topic-notify.png" alt="Notify option when creating a new topic" width="100%" />
 
 >[!NOTE] **Notifying limitations.** You can only notify users who are part of the team or project where the topic is created. You can't add the emails of users external to the team/project.  
 
 When you want to make sure *you* are notified of new messages, you need to navigate to a chosen topic, open it and change the button on top to *Following*. You will start receiving notifications in the *Notification* center.
 
-> A screenshot with the location of the Following button
+<img src="../images/topic-following-switch.png" alt="Following option inside the topic" width="100%" />
 
 If you have missed the opportunity to keep others notified when creating the topic, you can always use the **@mention** (use the *@ sign* and start typing the username). The mentioned users or teams will be notified about your message, but will not receive any further notifications for new messages unless they opt to *follow* the topic.
 
@@ -84,11 +89,14 @@ Not all topics in a team or project would be interesting to you or need your par
 
 When you no longer care for a topic, you can **unfollow** it. This way you will stop receiving notifications for new replies in this topic in the *Notifications* center, which will make it easier for you to focus on more important stuff. 
 
-To unfollow, navigate to the selected topic, then open it and change the button on top to *Unfollowing*. 
+To unfollow a topic, open it and use the button on top to *Unfollowing*. 
 
 When a topic is no longer relevant to a discussion, you can **delete** it. Be careful, because deleting a topic will make it disappear for all users and it might still contain valuable information that's worth keeping. However, if the information in a topic is no longer valid, deleting it will do more good than harm. 
 
 To delete a topic, navigate to it and select the overflow menu (as shown below). Select *Delete*. 
+
+> replace with a SUI screenshot showing more than one topic in a discussion (see examples in the More on Tasks topic)
+<img src="../images/delete-topic.png" alt="Deleting a topic" width="100%" />
 
 ### Rearranging Discussions and Topics
 

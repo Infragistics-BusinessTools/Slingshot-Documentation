@@ -29,7 +29,6 @@ Boards, sections, and groups can all be reorganized, copied, and moved around if
 
 You can access your boards and cloud storages by going to a team/project and looking for the **Content** tab on top (see the screenshot below).
 
-[comment]: <> (new UI: replace with a similar screenshot)
 <img src="../images/boards-storages-access.png" alt="Accessing boards and cloud storages in Slingshot" width="100%"/>
 
 In the _Content_ main navigation item you can find both boards and cloud storages. If you bookmark one of the boards to keep it at hand, you can also find it in your Personal Overview.  
@@ -65,7 +64,6 @@ With Slingshot you can access files from different cloud storages, organize it i
 
 To share files, basically you just pin the content you want to share to a board, discussion, or overview. This way the content will be available for others.  
 
-> Replace with a SUI style screenshot
 <img src="../images/pin-content-action.png" alt="Pin content to a board in Slingshot" width="100%"/>
 
 Normally you'll use boards to share files, but if you are working with a team or project you can pin relevant content to the overview. This will increase the visibility of that specific file. Additionally, you can also pin a file to a discussion to collaborate over it temporarily.
@@ -97,11 +95,10 @@ Alternatively, if you find this content already in a board, you can use _Copy Pi
 By using the drag and drop gesture, you can quickly add files or links from an external source into Slingshot's boards.  
 As shown in the image below, you actually pin content to groups. After all, boards are just containers that rely on sections and groups to organize and divide content.
 
+> replace with a SUI collage
 <img src="../images/content-dragAndDrop.png" alt="Drag and Drop action in Slingshot" width="100%"/>
 
-After dropping a file in the board's group, Slingshot will prompt you to choose a cloud storage to upload the file to. You only need to do this once, though. Slingshot will create a folder in the selected cloud storage and will add all future drag and drop uploads there.
-
-<img src="../images/content-dragAndDrop-location.png" alt="Choosing Drag and Drop location" width="100%"/>
+After dropping a file in the board's group, Slingshot will prompt you to choose a cloud storage to upload the file to. You only need to do this once, though. Slingshot will create the _Slingshot Uploads_ folder in the selected cloud storage. All future drag and drop uploads will be added there.
 
 You can change where drag & drop files are uploaded in _General Settings_ > _Manage Location_, as shown below:
 

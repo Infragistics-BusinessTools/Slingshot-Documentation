@@ -14,37 +14,27 @@ Notifications are designed to keep you updated of any changes on teams, tasks, p
 
 You can access *Notifications* on the top right of the screen as shown below.
 
-[comment]: <> (NEW UI: replace the screenshot (don't show opened notifications panel, show only pink notifications bell))
-<img src="../images/notifications-panel-opened.png" alt="Notifications panel opened in Slingshot" width="100%"/>
+<img src="../images/notifications-panel-opened.png" alt="Notifications panel opened in Slingshot" width="50%"/>
 
-Within the *Notifications* panel, you can mark all notifications as *Read* or *Unread* (shown below):
+Within the *Notifications* panel, you can use the *Mark all as read* option at the top. You can also use the overflow menu next to each notification to *Mute* it or *Mark as Read/Unread* (see the screenshot below).
 
-[comment]: <> (NEW UI: replace this screenshot with one showing the accurate UI)) 
-<img src="../images/notifications-panel-glasses.png" alt="Notifications panel opened in Slingshot, using the glasses icon" width="100%"/>
-
-
-Additionally, you can individually mark as *Read* or *Unread* or mute notifications by selecting the _Mute this type of notification_ option in the overflow menu of each notification. You can also mute notifications for particular teams, topics, and projects. 
-
-<img src="../images/notifications-panel-overflow.png" alt="Notifications panel opened in Slingshot, using the overflow" width="100%"/>
+<img src="../images/notifications-panel-overflow.png" alt="Notifications panel opened in Slingshot, using the overflow" width="50%"/>
 
 ### How Can I Change my Notification Settings?
 
 There are three different types of notifications, in-app, push, and email. In-app notifications are displayed within the app in a Notifications panel. Push notifications are displayed as texts near the notification icon. And emails are delivered to the e-mail address associated with your account.
 
-You can change your notification settings by going to you account settings and selecting the *Notifications* tab. 
-Alternatively, you can open the Notifications panel and select *Settings* from the overflow menu in the upper right corner: 
+You can change your notification settings by going to your account settings and selecting the *Notifications* tab. 
+Alternatively, you can open the Notifications panel and select *Settings* from the overflow menu in the upper right corner (see in the screenshot below): 
 
-[comment]: <> (NEW UI: replace with a screenshot showing the Settings option in the overflow menu of the Notification center)) 
-<img src="../images/userSettings-opened.png" alt="User Settings menu opened in Slingshot" width="100%"/>
+<img src="../images/notifications-settings-location.png" alt="Notifications Settings inside the Notification panel" width="50%"/>
 
  You will be navigated to the *Notifications* tab in your account settings:
 
-[comment]: <> (NEW UI: replace with a similar screenshot) 
-<img src="../images/userSettings-notifications.png" alt="Notifications Settings menu opened in Slingshot" width="100%"/>
+<img src="../images/user-settings-notifications.png" alt="Notifications Settings menu opened in Slingshot" width="100%"/>
 
 Finally, for each category you can edit the settings as shown below or use the switch to turn them off entirely.
 
-[comment]: <> (NEW UI: replace with a similar screenshot)
-<img src="../images/userSettings-edit-notifications.png" alt="Editing one of the items in the Notifications Settings tab" width="100%"/>
+<img src="../images/edit-notifications-settings.png" alt="Editing one of the items in the Notifications Settings tab" width="100%"/>
 
 The *language* option at the bottom of the categories list allows you to choose between 13 languages for your notifications. 

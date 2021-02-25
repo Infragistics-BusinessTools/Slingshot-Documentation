@@ -10,23 +10,23 @@ Boards are basically containers, rich and flexible containers designed to organi
 
 ### Working with Your Content in Slingshot
 
-Pinning content to a board is one of the most common actions in Slingshot. This is how you make content from your cloud storages available for others. You'll go to a board and choose _Pin Content_ as shown below.
+Pinning content to a board is one of the most common actions in Slingshot. This is how you make content from your cloud storages available for others. You just go to a board and choose _Pin_ > *Content* as shown below.
 
 <img src="../images/pin-content-action.png" alt="Pin Content action in Slingshot" width="100%"/>
 
-As you can see above, you actually pin content to groups (_Pins_ group in the image above). Groups are most basic element used to organize content in your boards. As said earlier, boards are just containers that rely on sections and groups to organize and divide content.
+As you can see above, you actually pin content to groups (see _My First Group_, _My Second Group_ and _My Third Group_ in the image above). Groups are the most basic element used to organize content on your boards. As said earlier, boards are just containers that rely on sections and groups to organize and divide content.
 
-After choosing _Pin Content_, a dialog is shown where you can select an existing cloud storage or add a new one.
+After choosing to pin content, a dialog is shown where you can select existing cloud storage or add a new one.
 
 <img src="../images/pin-content-storages.png" alt="Choosing a cloud storage to pin content from in Slingshot" width="100%"/>
 
-Then, just choose the file or folder you want to pin to the board. Yes, you can pin either files or folders, plus you can even upload files on the fly and pin them.  
+Then, just choose the file or folder you want to pin to the board. Yes, you can pin either files or folders, plus you can even upload files on the fly (see below) and pin them.  
 
-<img src="../images/pin-content-selection.png" alt="Choosing content from the cloud storage to be pinned in Slingshot" width="100%"/>
+<img src="../images/pin-content-upload.png" alt="Choosing content from the cloud storage to be pinned in Slingshot" width="100%"/>
 
-Alternatively, you can go to an existing cloud storage and choose _Pin to Board_ as show below.
+Alternatively, you can go to existing cloud storage in you _Home_ tab and choose _Pin to Board_ as shown below.
 
-<img src="../images/pin-content-alternate.png" alt="Pinning content from the cloud storage" width="100%"/>
+<img src="../images/pin-content-home-tab.png" alt="Pinning content from the cloud storage" width="100%"/>
 
 Note that you can also create a task or start a discussion on the fly. After choosing an option, you'll be prompted to select where the pin, task, or discussion will be created.
 

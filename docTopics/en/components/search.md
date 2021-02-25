@@ -22,7 +22,7 @@ To start your search in Slingshot follow the steps below.
 
 4. Click/tap on a result to open it on the right. You can also use the overflow menu of each result to copy its link to the clipboard so you can share it or save it in _Bookmarks_.
 
-<img src="../images/results-settings.png" alt="results overflow menu" width="50%" />
+    <img src="../images/results-settings.png" alt="results overflow menu" width="50%" />
 
 ### How to Use Filters?
 
