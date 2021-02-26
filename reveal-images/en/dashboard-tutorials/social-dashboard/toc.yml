@@ -6,8 +6,6 @@
   href: selecting-data-visualization.md
 - name: Creating the Dashboard Filter and Connecting Your Visualization
   href: creating-dashboard-filter-connecting-visualization.md
-- name: Applying Formatting to the First Visualization
-  href: applying-formatting-visualization.md
 - name: Applying a Theme to the Dashboard
   href: applying-theme.md
 - name: Adding the Other Visualizations

@@ -35,15 +35,15 @@
 - name: Combining Data Sources in One Visualization
   href: datasources/data-blending.md
 - name: Connecting a Dashboard to Its Data Source
-  href: connect-dashboard-to-data-source.md
+  href: datasources/connect-dashboard-to-data-source.md
 - name: OAuth 2 / OIDC User Authentication
   href: datasources/oauth-2-oidc-user-authentication.md
 - name: Processing Data on Server
-  href: process-data-server-side.md
+  href: datasources/process-data-server-side.md
 - name: Machine Learning Integration
-  href: datasources/machine-learning-integration/toc.yml
+  href: datasources/ml-integration/toc.yml
 - name: Working with Files
-  href: datasources/working-with-files/toc.yml
+  href: datasources/working-files/toc.yml
 - name: Data Visuallizations
   header: true
 - name: Overview
@@ -71,7 +71,7 @@
 - name: Connecting Dashboard Filters to a Visualization
   href: filters/connecting-dashboard-filters-visualization.md
 - name: Field Filters and Rules
-  href: field-filters-rules.md
+  href: filters/field-filters-rules.md
 - name: Date Range Filter
   href: filters/date-range-filter.md
 - name: Visualization Filters
@@ -113,6 +113,6 @@
 - name: Additional Resources
   header: true
 - name: Known Issues
-  href: release-information/known-issues.md
+  href: additional-resources/known-issues.md
 - name: Third-Party Software
-  href: release-information/third-party-software.md
+  href: additional-resources/third-party-software.md
