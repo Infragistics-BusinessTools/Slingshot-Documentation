@@ -165,7 +165,6 @@ After unfollowing a project, you will receive notifications only about the tasks
 
 If you are the Owner of a team you can change your team's settings. To do this, select your team > click/tap the overflow menu next to its name > choose *Team Settings*.
 
-[comment]: <> (NEW UI: change with a screenshot of the overflow menu)
 <img src="../images/access-team-settings.png" alt="Accessing team settings" width="100%" />
 
 Here you can change your team's name, description and privacy.

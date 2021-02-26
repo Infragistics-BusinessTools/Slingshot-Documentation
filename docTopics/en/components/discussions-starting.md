@@ -47,11 +47,12 @@ Every Owner or Member of a Slingshot *Team* can create a new discussion. The sam
 In general, project and team discussions are *read only* for viewers. Viewers in a team, however, can create and reply to a *Project* discussion, if they are an owner or a member of this project.
 
 To **create a discussion**: 
+
 1. Go to the **Discussions tab**. 
 2. Select **+ Discussion** on the left (see screenshot below). 
 3. Write a meaningful name for the discussion in the text box. This will be the subject of all future topics in this discussion.
 4. Choose **Create**.
-    > replace with a SUI screenshot
+
     <img src="../images/create-new-discussion.png" alt="Creating a new discussion" width="100%" />
 
 Your discussion will be added at the bottom of the discussions list.   
@@ -62,7 +63,7 @@ To **create a topic**:
 2. Click/tap the **+ Topic** button on the top right. 
 3. Name the topic and, optionally, choose which members to be notified for its creation.   
 4. Choose **Create**.
-    > replace with a SUI screenshot
+
     <img src="../images/create-new-topic.png" alt="Creating a new topic" width="100%" />
 
 Now your topic is created. You can start typing your first message to give more details on the subject. This will also serve as a conversation starter.
@@ -70,7 +71,7 @@ Now your topic is created. You can start typing your first message to give more 
 ### How Can I Ensure Someone is Notified of a New Message in a Discussion?
 
 There are subjects where you need the attention of particular people. To make sure they receive notifications for each new message in a topic, you can use the *Notify* option upon creating a new topic. 
- > replace with a SUI screenshot
+
 <img src="../images/topic-notify.png" alt="Notify option when creating a new topic" width="100%" />
 
 >[!NOTE] **Notifying limitations.** You can only notify users who are part of the team or project where the topic is created. You can't add the emails of users external to the team/project.  

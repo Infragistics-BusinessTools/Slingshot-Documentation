@@ -13,7 +13,6 @@ Only you have access to your **personal tasks** and you can find them in your pe
 
 All the members of a team or project can access the tasks created within that team or project, no matter who is assigned. And every member can manage these shared tasks freely.
 
-> New UI: replace with a similar screenshot
 <img src="../images/tasks-team.png" alt="Slingshot Team with a tasks displayed in a list" width="100%"/>
 
 >[!NOTE] Members of a team can view the tasks in the projects inside the team, even when they haven't joined the projects. However, the members of а project, who are not team members cannot view the team's tasks.  

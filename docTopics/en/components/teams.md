@@ -14,13 +14,11 @@ Being part of a team means (or should mean) fluid communication. In Slingshot yo
 
 You can communicate live with the members of your team via **team discussions**, containing topics:
 
-> still no applicable team specific discussions created in the marketing user account
 <img src="../images/team-discussion.png" alt="A team discussion" width="100%"/>
 
 You can also communicate with any Slingshot user (or group of users) through the [**private chat**](chat-starting.md).
 
-> no applicable chats created in the marketing user
-<img src="../images/chat-several-people.png" alt="Using the chat on the right" width="100%"/>
+<img src="../images/chat-example.png" alt="Using the chat on the right" width="100%"/>
 
 Communication is not limited to writing. You can also attach files, use emojis, and react to messages.
 

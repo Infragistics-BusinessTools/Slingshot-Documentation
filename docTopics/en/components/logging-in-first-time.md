@@ -50,7 +50,6 @@ Follow the links for further details about [teams](teams.md) or [projects](proje
 
 Inside Slingshot teams, you will find the six main navigation bars on top: **Overview**, **Projects**, **Tasks**, **Discussions**, **Content**, **Dashboards**.
 
-[comment]: <> ([New UI]: Replace with a screenshot showing the five navigation bars)
 <img src="../images/overview-personal-navigation.png" alt="Personal Overview highlighting the main navigation items in Slingshot" width="100%"/>
 
 As already mentioned, the Organization team is not like other teams. So, inside it, there is a different number of navigation bars. That goes for your _Home_ space and _Projects_, which also have the navigation bars. 
@@ -74,7 +73,6 @@ Follow the link for further details about [notifications](notifications.md).
 
 In **User Settings** you can find _General Settings_, _Feedback_, and you can also _Sign Out_ of the application.
 
-[comment]: <> ([NEW UI]: Replace with a similar screenshot)
 <img src="../images/userSettings-opened.png" alt="User Settings menu opened in Slingshot" width="50%"/>
 
 Then, in _Settings_ you can find five categories, including general and profile settings, notifications, data privacy and settings related to your dashboards. In _General Settings_ you can configure your app appearance and also how you work with content, whereas _Profile Information_ includes information about you and your organization. 
@@ -90,7 +88,6 @@ All files you reference or share within Slingshot, are located in a cloud storag
 
 Use in-app **Feedback** to send us suggestions, comments, or requests about Slingshot. Here you can rate the app, add screenshots to the feedback you send, and also annotate the screenshots to provide even more detailed information.
 
-[comment]: <> (NEW UI: change with a similar screenshot)
 <img src="../images/userSettings-feedback.png" alt="Accessing the feedback screen in Slingshot" width="100%"/>
 
 ### What About Roles & Permissions?

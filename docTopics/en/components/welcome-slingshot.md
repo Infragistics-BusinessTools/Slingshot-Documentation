@@ -26,7 +26,6 @@ Encourage transparency and trust by making it easy for others to find informatio
 
 <h4 style="color:#2328B0;">Run Higher-Performing Teams and Successful Projects</h4>
 
-> create team content; right now we only have projects content; a great project to use otherwise - Q2 Marketing Campaign
 <img src="../images/welcome-team.png" alt="A Slingshot team" width="100%"/>
 
 Slingshot empowers your teams to achieve greater success by keeping everyone aligned, engaged and focused on their work. Your teams are provided with tools to communicate, support each other, and access the resources needed to do their work.
@@ -37,7 +36,6 @@ Projects are undertaken by people with expertise in many different areas, often 
 
 <h4 style="color:#2328B0;">Get More Work Done with Tasks and Leverage Their Functionality and Flexibility</h4>
 
-> right now we have only projects tasks and no team tasks 
 <img src="../images/welcome-tasks.png" alt="Team tasks within Slingshot" width="100%"/>
 
 Use tasks to your advantage to create a healthy work environment that embraces transparency while driving individual accountability.
