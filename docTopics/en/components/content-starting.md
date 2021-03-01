@@ -73,13 +73,24 @@ Normally you'll use boards to share files, but if you are working with a team or
 When you share files inside teams and projects, you make these files available for other users. 
 File permissions are meant to give the file owner control over who can access their files. Each time you pin a file, Slingshot will ask you what type of permission you want to set. You will see a dialog that looks like this: 
 
-<img src="../images/file-permissions-dialog.png" alt="A dialog showing the three file permissions types" width="100%">
+<img src="../images/file-permissions-dialog.png" alt="A dialog showing the three file permissions types" width="100%" />
+
+You can choose between the following three permission types:
+
+ - **Public URL** 
+ - **Automatic** 
+ - **Manual** 
+
+**Public URL** is the least restrictive of the three types. Anyone with a link to the file, can access it. That means any user can open the document in their browser, granted that they have the link to it. To share a link with someone who is not a team member, open the file in the browser and copy the url from the address bar to your clipboard. 
+
+**Automatic** permissions are great for the files important for your whole team or project. That means all project or team members can open the file without asking you for access. Slingshot will automatically grant their file providers access on your behalf. 
+
+**Manual** permissions are the most restrictive type. Anyone who tries to open the file for the first time will have to request access from the file owner. The file owner will receive an email, prompting them to *grant* or *deny* access. Alternatively, they can open the _Member Access_ dialog from the file's overflow. When there are pending requests, it will look like this:
+
+<img src="../images/manage-members-pending-access.png" alt="The dialog showing pending access requests" width="100%" />
 
 
 
- - **Public URL** - everyone in Slingshot can open the file. 
- - **Automatic** - 
- - **Manual** - 
 ### How to Edit Files
 
 Depending on the platform you're on, you can use different applications to edit your files. As Slingshot relies on invoking 3rd party applications to do the job, it's entirely up to you.
