@@ -73,7 +73,7 @@ Normally you'll use boards to share files, but if you are working with a team or
 When you share files inside teams and projects, you make these files available for other users. 
 File permissions are meant to give the file owner control over who can access their files. Each time you pin a file, Slingshot will ask you what type of permission you want to set. You will see a dialog that looks like this: 
 
-<img src="../images/file-permissions-dialog.png" alt="A dialog showing the three file permissions types" width="100%" />
+<img src="../images/file-permissions-dialog.png" alt="A dialog showing the three file permissions types" width="80%" />
 
 You can choose between the following three permission types:
 
