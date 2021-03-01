@@ -2,4 +2,5 @@
   href: Choropleth-map.md
 - name: Location Data
   href: location-data-requirements.md
-- name: settings-choropleth-map.md
+- name: Working with Choropleth Map Settings
+  href: settings-choropleth-map.md

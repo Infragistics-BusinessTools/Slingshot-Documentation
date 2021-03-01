@@ -1,4 +1,5 @@
 - name: Custom Visualizations
-  href: diy-visualizations/diy-visualizations.md
+  href: diy-visualizations.md
+  header: true
 - name: How to Create a Custom Visualization
-  href: diy-visualizations/diy-visualization-step-by-step.md
+  href: diy-visualization-step-by-step.md
