@@ -60,7 +60,7 @@ But why is that? Let's answer this question quickly by explaining the idea behin
 <img src="../images/overview-team-navigation.png" alt="Teams Overview shown in Slingshot" width="100%"/>
 
 The image above shows the navigation bars of a Slingshot team, the Organization team, a project, and Home. Only teams have all the main navigation bars. 
-Follow the links for further details about [overviews](overviews.md), [projects](projects.md), [tasks](tasks.md), [discussions](discussions.md), [content](content-boards.md), or [dashboards](dashboards/index.md).
+Follow the links for further details about [overviews](overviews.md), [projects](projects.md), [tasks](tasks.md), [discussions](communication.md), [content](content-boards.md), or [dashboards](analytics/index.md).
 
 ### Notifications and User Settings
 
