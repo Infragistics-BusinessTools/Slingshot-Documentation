@@ -70,26 +70,48 @@ Normally you'll use boards to share files, but if you are working with a team or
 
 ### How to Set File Permissions?
 
-When you share files inside teams and projects, you make these files available for other users. 
+When you share files inside teams and projects, you make these files available for the users inside the team/project. 
 File permissions are meant to give the file owner control over who can access their files. Each time you pin a file, Slingshot will ask you what type of permission you want to set. You will see a dialog that looks like this: 
 
 <img src="../images/file-permissions-dialog.png" alt="A dialog showing the three file permissions types" width="80%" />
 
-You can choose between the following three permission types:
+Here, you can choose between the following three permission types:
 
  - **Public URL** 
  - **Automatic** 
  - **Manual** 
 
-**Public URL** is the least restrictive of the three types. Anyone with a link to the file, can access it. That means any user can open the document in their browser, granted that they have the link to it. To share a link with someone who is not a team member, open the file in the browser and copy the url from the address bar to your clipboard. 
+**Public URL** is the least restrictive of the three types. Anyone with a link to the file, can access it. That means any user can open the document in their browser, granted that they have the link to it. To share a link with anybody, open the file in the browser and copy the url from the address bar to your clipboard. If you change the permissions type to *Automatic* or *Manual*, this link will not be valid anymore for anyone outside the team or project. 
 
-**Automatic** permissions are great for the files important for your whole team or project. That means all project or team members can open the file without asking you for access. Slingshot will automatically grant their file providers access on your behalf. 
+**Automatic** permissions are great for the files important for your whole team or project. That means all project or team members can open the file without asking you for access. Slingshot will automatically grant the other members' file providers access on your behalf. 
 
-**Manual** permissions are the most restrictive type. Anyone who tries to open the file for the first time will have to request access from the file owner. The file owner will receive an email, prompting them to *grant* or *deny* access. Alternatively, they can open the _Member Access_ dialog from the file's overflow. When there are pending requests, it will look like this:
+**Manual** permissions are the most restrictive type. Anyone who tries to open the file for the first time will have to request access from the file owner. The file owner will receive an email, prompting them to *grant* or *deny* access. Alternatively, the owner can open the _Member Access_ dialog from the file's overflow. When there are pending requests, it will look like this:
 
 <img src="../images/manage-members-pending-access.png" alt="The dialog showing pending access requests" width="100%" />
 
+The file owner can also pre-allow access for chosen team/project members by using the **Manage Access** option uder the *Automatic* and *Manual* permission types (see the _File Permissions_ screenshot above). 
 
+> [!NOTE]
+> Besides permissions, users who want to access a file uploaded to a cloud file provider need to have a valid account with that provider. For example, if you want to access a *OneDrive* file shared by another user, you need to have a *OneDrive* account added to your Slingshot account. Upon trying to open the file, you'll be asked by Slingshot to log into your OneDrive and if you don't have one, you will be denied access.
+
+### How to Manage the Access to Files?
+
+Owners can always check and change the permissions they have set to their files and the members they have granted access. 
+
+To check/change the permissions type you have set to a file, go to its overflow menu and click/tap **File Permissions** (see below). 
+
+<img src="../images/manage-access-options.png" alt="Files options to manage access" width="100%" />
+
+To check/change who can access the file, click/tap **Member Access**. In the dialog that is displayed (see below), you can see all members who can view and edit the file as well as the pending access requests.
+
+<img src="../images/manage-members-dialog.png" alt="Members who can access dialog" width="100%" />
+
+Use the **+ Members** blue button to add more members, who  can view and edit the file without asking you for access first.
+
+>[!NOTE]
+> For files with Automatic or Manual permissions, you can only add members of the team or project where you have uploaded the file. Users, who are not part of the team/project, can access only files with Public URLs.
+
+On the right of each member's name, you can click/tap **Editor** > **Remove** to revoke access. 
 
 ### How to Edit Files
 
