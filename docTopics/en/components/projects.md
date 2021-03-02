@@ -11,6 +11,7 @@ It's the virtual representation of a project, a series of tasks that need to be 
 - Projects capture and make easily accessible all relevant information around a project.
 - Slingshot helps project members identify when a project is not going well and needs attention.
 
+<a name='overview'></a>
 ### Slingshot Empowers your Project and its Members
 
 You can foster productive collaboration and best practices in your projects by empowering your project members. So, what do project members need? No surprises here, they need what a team needs with a few additions. Teams need solid leadership, good communication, and access to the right resources they need to do their job. Projects also incorporate new important needs like adding dates, as all projects have a beginning and an end. Also important is to keep everyone on the loop by providing a quick status of the project for everyone to see. And finally, there is the need to have a fixed place where any project member can bring to light specific issues to discuss.
