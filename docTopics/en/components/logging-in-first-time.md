@@ -73,7 +73,7 @@ Follow the link for further details about [notifications](notifications.md).
 
 In **User Settings** you can find _General Settings_, _Feedback_, and you can also _Sign Out_ of the application.
 
-<img src="../images/userSettings-opened.png" alt="User Settings menu opened in Slingshot" width="50%"/>
+<img src="../images/user-settings-all.png" alt="User Settings menu opened in Slingshot" width="50%"/>
 
 Then, in _Settings_ you can find five categories, including general and profile settings, notifications, data privacy and settings related to your dashboards. In _General Settings_ you can configure your app appearance and also how you work with content, whereas _Profile Information_ includes information about you and your organization. 
 
