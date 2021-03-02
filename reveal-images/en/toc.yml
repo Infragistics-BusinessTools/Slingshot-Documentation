@@ -59,7 +59,10 @@
 - name: Statistical Functions
   href: data-visualizations/statistical-functions.md
 - name: Custom Visualizations
-  href: data-visualizations/diy-visualizations/toc.yml
+  href: data-visualizations/visualization-types/diy-visualizations.md
+  items:
+    - name: How to Create a Custom Visualization
+      href: data-visualizations/visualization-types/diy-visualization-step-by-step.md
 - name: Filters
   header: true
 - name: Overview
@@ -71,7 +74,7 @@
 - name: Connecting Dashboard Filters to a Visualization
   href: filters/connecting-dashboard-filters-visualization.md
 - name: Field Filters and Rules
-  href: fields/field-filters-rules.md
+  href: data-visualizations/fields/field-filters-rules.md
 - name: Date Range Filter
   href: filters/date-range-filter.md
 - name: Visualization Filters
