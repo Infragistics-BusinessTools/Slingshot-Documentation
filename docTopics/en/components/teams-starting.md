@@ -160,7 +160,7 @@ External members, who are added to a project, will receive notifications about t
 The Owner of a team can also exclude team members from a project.  
 After unfollowing a project, you will receive notifications only about the tasks assigned to you within this project.
 
-<a name="team-settigs"></a>
+<a name='team-settigs'></a>
 ### How Can I Change the Team's Privacy, Name or Description?
 
 If you are the Owner of a team you can change your team's settings. To do this, select your team > click/tap the overflow menu next to its name > choose *Team Settings*.
