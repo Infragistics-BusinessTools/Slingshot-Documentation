@@ -62,7 +62,7 @@ Projects can go wrong for multiple reasons and sometimes more than once. That's 
 
 Any team member (with the owner or member role) that is assigned to a project can add or remove project members. External users must have the member role to do so. Viewers are never allowed to manage project members.
 
-Access the project members' dialog by selecting the project's [Overview](projects.html#overview) > Details widget (on the left) >  profile images icons (above _Content_).
+Access the project members' dialog by selecting the project's [Overview](../projects.html#overview) > Details widget (on the left) >  profile images icons (above _Content_).
 
 <img src="../images/projects-add-team-members.png" alt="Adding team members to a project" width="100%"/>
 
