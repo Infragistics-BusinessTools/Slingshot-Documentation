@@ -38,7 +38,6 @@ To open a task, just click/tap over it.
 
 You can always create a **new task** with the button on the top right of the screen, no matter the view type you have selected (*List*, *Kanban*, or *Timeline*).
 
-> replace with a SUI screenshot
 <img src="../images/tasks-new.png" alt="Creating a new task within Slingshot" width="100%"/>
 
 As shown above, there are always other _+ Task_ buttons depending on the *view type*.
@@ -82,7 +81,7 @@ A **faster method** is to just click/tap the property value you want to change, 
 
 <img src="../images/tasks-change-property.png" alt="Slingshot task being updated by changing its status" width="100%"/>
 
-<a name="show-hide-properties"></a>
+<a name="show-hide-property"></a>
 ### How Can I Show/Hide Properties?
 
 Tasks have many field properties that can be displayed when in the *List* and *Kanban* view. By default, you can only see the *Title*, *Assignee*, and *Due Date* of a task before opening it.
@@ -128,7 +127,7 @@ You can choose between three different visualizations (_List_, _Kanban_, _Timeli
 
 By default, you view your tasks as a straightforward **List**, which is often good enough. Most of the screenshots in this documentation present tasks in the *List* view. This is so because most of the time the preferred view type does not affect how *Tasks* are used and managed. When it does, we will show the differences in each view. 
 
-*Kanban* is a Japanese word, commonly known as a workflow management method designed to help visualize work and maximize efficiency. In Slingshot, the **Kanban** view shows a visual representation of tasks in the form of cards. Each card contains information about the task, including [task properties](#show-hide-properties) such as status, deadline, assignee, etc. 
+*Kanban* is a Japanese word, commonly known as a workflow management method designed to help visualize work and maximize efficiency. In Slingshot, the **Kanban** view shows a visual representation of tasks in the form of cards. Each card contains information about the task, including [task properties](#show-hide-property) such as status, deadline, assignee, etc. 
 
 <img src="../images/tasks-visualizations-kanban.png" alt="Kanban visualization in Slingshot" width="100%"/>
 
