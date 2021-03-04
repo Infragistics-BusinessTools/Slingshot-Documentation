@@ -96,7 +96,6 @@ When a topic is no longer relevant to a discussion, you can **delete** it. Be ca
 
 To delete a topic, navigate to it and select the overflow menu (as shown below). Select *Delete*. 
 
-> replace with a SUI screenshot showing more than one topic in a discussion (see examples in the More on Tasks topic)
 <img src="../images/delete-topic.png" alt="Deleting a topic" width="100%" />
 
 ### Rearranging Discussions and Topics
