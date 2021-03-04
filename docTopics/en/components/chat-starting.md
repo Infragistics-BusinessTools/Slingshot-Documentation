@@ -82,7 +82,9 @@ There is no limit to the number of chat participants. You can always add new use
 - *Invite with All Previous History*
 - *Invite with Today's History*
 
-*Invite with No Previous History* is the default history setting for new chat participants. When finished, select the **Add to Chat** blue button. 
+*Invite with No Previous History* is the default history setting for new chat participants. However, sometimes you don't want people who join the group chat in the middle of a conversation, to miss all the earlier information. You can use the other two history options to welcome new chat members and quickly introduce them to the topic!
+
+When finished, select the **Add to Chat** blue button. 
 
 <a name='chat-external-users'></a>
 ### How to Start a Chat with External Users?
