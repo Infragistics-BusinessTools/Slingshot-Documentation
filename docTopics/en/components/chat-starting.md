@@ -92,7 +92,7 @@ When finished, select the **Add to Chat** blue button.
 All Slingshot users can participate in private and group chats, including the external users. 
 However, external users are not part of your Organization. That's why after selecting **+ Start a conversation...** you will not see their names in the list of users. You can chat with them only if you add their emails manually in the search box as shown below.
 
-> A SUI screenshot showing where to write the email - externaluser@gmail.com 
+<img src="../images/external-user-chat.png" alt="Typing an external user's email to add them to a chat" width="100%" />
 
 ### Deleting vs Leaving vs Muting a Chat
 
