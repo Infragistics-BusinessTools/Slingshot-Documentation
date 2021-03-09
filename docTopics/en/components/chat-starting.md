@@ -100,7 +100,7 @@ Once you lose interest, you can delete, leave or mute a chat in Slingshot.
 
 **Deleting** a chat makes it disappear from the chat list of all its participants. All chat history is deleted for everybody too. So make sure no one needs the chat or its history before you decide to delete it. To delete a chat, click on its **overflow menu** > **Delete**. 
 
-**Leaving** a chat is an option for group chats only. Each member can leave a group chat when they decide they no longer need to participate in the conversation. The members, who left, cannot receive new messages anymore, but they still have access to the chat history. To leave a group chat, click on it to **open** > **Members icon on top** > **leave icon** next to your name.
+**Leaving** a chat is an option for group chats only. Each member can leave a group chat when they decide they no longer need to participate in the conversation. The members, who left, cannot receive new messages anymore, but they still have access to the chat history. To leave a group chat, click on it to **open** > **Members icon on top** > **the leave icon** next to your name.
 
 Normally, the chat icon on top shows the total number of unread chat messages. When you **mute** a private or group chat, its new messages are no longer added to that count. This is the option for you if you do not want to follow the conversation anymore, but you still want to have access to it. 
 To mute a chat, click on its **overflow menu** > **Mute Notifications**. 
