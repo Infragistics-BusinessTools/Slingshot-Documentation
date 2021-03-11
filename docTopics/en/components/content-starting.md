@@ -81,15 +81,15 @@ Here, you can choose between the following three permission types:
  - **Automatic** 
  - **Manual** 
 
-**Public URL** is the least restrictive of the three types. Anyone with a link to the file can access it. That means any user can open the document in their browser, granted that they have the link to it. To share a link with anybody, open the file in the browser and copy the URL from the address bar to your clipboard. If later you change the permissions type to *Automatic* or *Manual*, this link will not be valid anymore for anyone outside the team or project.  
-
-**Automatic** permissions are great when you want your whole team to have quick access to a file you pin. If you choose *Automatic*, Slingshot will automatically grant the file providers of the other team/project members access. That means all project or team members can open and edit the file without asking you explicitly for access.  
-
-**Manual** permissions are the most restrictive type. Anyone who tries to open the file for the first time has to request access from the file owner. The file owner will receive an email, prompting them to *grant* or *deny* access. Alternatively, the owner can open the _Member Access_ dialog from the file's overflow. When there are pending requests, it will look like this:
+**Manual** permissions are the default and most restrictive type. Anyone who tries to open the file for the first time has to request access from the file owner. The file owner will receive an email, prompting them to *grant* or *deny* access. Alternatively, the owner can open the _Member Access_ dialog from the file's overflow. When there are pending requests, it will look like this:
 
 <img src="../images/manage-members-pending-access.png" alt="The dialog showing pending access requests" width="100%" />
 
-The file owner can also pre-allow access for some team/project members by using the **Manage Access** option under the *Automatic* and *Manual* permission types (see the _File Permissions_ screenshot above). 
+The file owner can also pre-allow access for some team/project members by using the **Manage Access** option for the *Automatic* and *Manual* permission types. 
+
+**Automatic** permissions are great when you want your whole team to have quick access to a file you pin. If you choose *Automatic*, Slingshot will automatically grant the file providers of the other team/project members access. That means all project or team members can open and edit the file without asking its owner explicitly for access.  
+
+**Public URL** is the least restrictive of the three types. Anyone with a link to the file can access it. That means any user can open the document in their browser, granted that they have the link to it. To share a link with anybody, open the file in the browser and copy the URL from the address bar to your clipboard. If you change the permissions type to *Automatic* or *Manual* later, this link will not be valid anymore for anyone outside the team or project.  
 
 > [!NOTE]
 > Besides permissions, users who want to access a file uploaded to a cloud file provider need to have a valid account with that provider. For example, if you want to access a *OneDrive* file shared by another user, you need to have a *OneDrive* account added to your Slingshot account. Upon trying to open the file, you'll be asked by Slingshot to log into your OneDrive, and if you don't have one, you will be denied access. This **does not apply** to files with Public permissions opened in a browser. 
@@ -115,12 +115,12 @@ On the right of each member's name, you can click/tap **Editor** > **Remove** to
 
 ### How to Open Files?
 
-Depending on the platform you're on, you can use different applications to edit your files. As Slingshot relies on invoking 3rd party applications to do the job, it's entirely up to you. 
+Depending on the platform you're on, you can use different applications to open your files. As Slingshot relies on invoking 3rd party applications to do the job, it's entirely up to you. 
 
 <img src="../images/content-open-file.png" alt="Opening a Word file" width="100%" />
 ### How to Edit Files?
 
-Depending on the platform you're on, you can use different applications to edit your files. As Slingshot relies on invoking 3rd party applications to do the job, it's entirely up to you.
+Depending on the platform you're on, you can use different applications to open your files. As Slingshot relies on invoking 3rd party applications to do the job, it's entirely up to you.
 
 <img src="../images/content-edit-file.png" alt="Editing or downloading a Word file" width="100%"/>
 
