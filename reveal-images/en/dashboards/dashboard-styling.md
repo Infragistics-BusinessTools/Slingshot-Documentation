@@ -6,7 +6,7 @@ In order to change dashboard style settings, switch to *Dashboard Edit*
 mode and select *Theme* from the overflow menu. Here you can choose
 between *Default* and *Light* theme.
 
-<img src="/reveal-images/en/dashboards/images/changing-theme-dashboard.png" alt="Changing the dashboard theme" width="100%"/>
+<img src="images/changing-theme-dashboard.png" alt="Changing the dashboard theme" width="100%"/>
 
 In addition, you can also change the Start Color for chart-based
 visualizations. The options available will vary according to the
