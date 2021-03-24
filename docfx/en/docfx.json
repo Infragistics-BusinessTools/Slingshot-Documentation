@@ -33,7 +33,7 @@
         "globalMetadataFiles": ["global.json", "../../../dist/igniteui-docfx-template/template/bundling.global.json"],
         "fileMetadataFiles": [],
         "template": ["../../../dist/igniteui-docfx-template/template"],
-        "postProcessors": ["SetEnvironmentVariables"],
+        "postProcessors": ["SetEnvironmentVariables", "ExtractSearchIndex"],
         "noLangKeyword": false,
         "keepFileLink": false,
         "cleanupCacheHistory": false,
