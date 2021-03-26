@@ -1,4 +1,6 @@
 {
+    "_navBarTitle": "{ProductName}",
+    "_navBarTitleHref": "https://infragistics.com/products/{ProductSpinal}/",
     "_currentBaseUrl": "https://www.infragistics.com/products/{ProductSpinal}/{PlatformShortLower}/",
     "_hasKRLang": true,
     "_ENBaseUrl": "https://www.infragistics.com/products/{ProductSpinal}/{PlatformShortLower}/",
