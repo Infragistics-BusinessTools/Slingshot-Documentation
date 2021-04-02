@@ -6,6 +6,17 @@
 - name: Logging in for the first time
   href: logging-in-first-time.md
   new: false
+- name: Managing Your Account
+  new: true
+  items:
+    - name: Completing Profile Information
+      href: profile-information.md
+    - name: Deleting Profile Data
+      href: delete-profile.md
+    - name: Exporting Profile Data
+      href: export-data.md
+    - name: Canceling Your Subscription
+      href: cancel-subscription.md
 - name: THE SLINGSHOT APP
   header: true
 - name: Roles & Permissions
