@@ -9,7 +9,7 @@
 - name: Managing Your Account
   new: true
   items:
-    - name: Completing Profile Information
+    - name: Completing Your Profile Information
       href: profile-information.md
     - name: Deleting Profile Data
       href: delete-profile.md
