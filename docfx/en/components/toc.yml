@@ -14,7 +14,7 @@
     - name: Deleting Profile Data
       href: delete-profile.md
     - name: Exporting Profile Data
-      href: export-data.md
+      href: export-profile-data.md
     - name: Canceling Your Subscription
       href: cancel-subscription.md
 - name: THE SLINGSHOT APP
