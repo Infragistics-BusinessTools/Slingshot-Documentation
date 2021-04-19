@@ -9,10 +9,10 @@ In collaboration software like Slingshot, what you do affects the people you wor
 Slingshot considers the following your profile information: 
 
 - your email address;
-- all data you shared in the *Profile Information* menu - your name, title, photo, industry and departmant (see more in the [Completing Your Profile Information](profile-information.md)topic);
-- all content created by you or shared with you in *Home*;
+- all data you shared in the *Profile Information* menu - your name, title, photo, industry and department (see more in the [Completing Your Profile Information](profile-information.md)topic);
+- all content created by you or shared with you in *Home*.
 
-Deletion is permanent - once deleted, your information can't be recovered in Slingshot. 
+Deletion is permanent - once deleted, your information cannotbe recovered in Slingshot. 
 
 <a name="data-not-deleted"></a>
 ### What Information Will Not Be Deleted?
@@ -28,7 +28,7 @@ While collaborating with others in Slingshot, you create content that is importa
 
 ### Who Can Delete Profile Data?
 
-Technically speaking, the Slingshot team is the one having rights to delete profile data from Slingshot. But they do this at the request of users, of course. Then, who can request directly profile data deletion from the Slingshot team? External users and Organization managers who are in charge of personal data administration in the Organization can contact the Slingshot team and make a data deletion request.  
+Technically speaking, the Slingshot team is the one having rights to delete profile data from Slingshot. But they do this at the request of users, of course. Then, who can request directly profile data deletion from the Slingshot team? Individual users and Organization managers who oversee personal data administration in the Organization can contact the Slingshot team and make a data deletion request.  
 
 What if you are part of an Organization? Then the information in your profile is considered ownership of the Organization. To learn how you can have it deleted, read below. 
 
@@ -37,24 +37,24 @@ What if you are part of an Organization? Then the information in your profile is
 Below you will find the three possible scenarios. The deletion procedure steps depend on your relation to an Organization in Slingshot.
 #### For Organization Members
 
-So, as mentioned above, if you belong to an Organization, then your data in Slingshot also belongs to the Organization. However, data protection laws specify the cases when you can have all your data deleted by the Organization. Slingshot will help your Organization honor your rights. 
+So, as mentioned above, if you belong to an Organization in Slingshot, then your data in Slingshot also belongs to the Organization. However, data protection laws specify the cases when you can request all your data deleted by the Organization. Slingshot will help your Organization honor its obligations. 
 
-Just contact a manager in your Organization and request deletion of your data. They will start the deletion process by contacting the Slingshot team. 
+Just contact a manager in your organization and request deletion of your data. They will start the deletion process by contacting the Slingshot team. 
 
-*Option 2: Contact us if you are unable to get in touch with a manager of your Organization and we can help with forwarding your request to your Organization? Are we going to do this to assisst users? Is there another alternative process?*
+*Option 2: Contact us if you are unable to get in touch with a manager of your organization and we can help with forwarding your request to your organization? Are we going to do this to assist users? Is there another alternative process?*
 
 #### For Organization Managers 
 
-If you are a manager in charge of personal data administration in your Organization, and you need to delete one or more users' profile data, then read the steps below to learn how to proceed.
+If you are a manager who oversees personal data administration in your organization, and you need to delete one or more users' profile data, then read the steps below to learn how to proceed.
 
-1. Contact our team at **support@slingshot.io** or **feedback@slingshot.io** ????
+1. Contact our team at **support@slingshot.io**.
 2. Note you want to delete an Organization member's profile information.
-3. Specify the member's email address and your Organization name??? 
-4. Deletion may take up to 24 hours. When profile data is finally deleted, the user's name will be displayed as @deactivateduser whereever their content has not disappeared (see [above](#data-not-deleted)).  
+3. Specify the member's email address and your organization name??? 
+4. Deletion may take up to 24 hours. When profile data is finally deleted, the user's name will be displayed as @deactivateduser wherever their content has not disappeared (see [above](#data-not-deleted)).  
 
-#### For External Users
+#### For Individual Users
 
-If you are an external user, then you do not belong to an Organization. You can be part of an Organization's teams and projects only if invited. In this sense, your profile information do not belong to any Organization and you can request data deletion from the Slingshot team directly. To do this:  
+If you are an individual user, then you do not belong to an Organization in Slingshot. You can be part of an Organization's teams and projects only if invited. In this sense, your profile information do not belong to any organization and you can request data deletion from the Slingshot team directly. To do this:  
 
 Select your profile image > *Settings* > *Data Privacy* > *Delete my Data* (as shown in the screenshot below).
 
@@ -64,10 +64,10 @@ Select your profile image > *Settings* > *Data Privacy* > *Delete my Data* (as s
 
 The deletion process may take up to 24 hours. You will not be able to log into your Slingshot profile again until deletion is finished.
 
-[!NOTE] If you have been invited to be an external member in an Organization team in Slingshot, you will not lose the right to delete your profile data. However, Organization related data will not be deleted together with your profile information as it is owned by the Organization.
+[!NOTE] If you have been invited to be an individual member in an Organization team in Slingshot, you will not lose the right to delete your profile data. However, Organization related data will not be deleted together with your profile information as it is owned by the Organization.
 
 ### Can I Reactivate My Profile?
 
-If you are an external user, you can re-activate your profile by simply logging in again after the deletion process has been finished. However, the information you deleted from your profile cannot be recovered. Your history will not be available as well. 
+If you are an individual user, you can re-activate your profile by simply logging in again after the deletion process has been finished. However, the information you deleted from your profile cannot be recovered. Your history will not be available as well. 
 
-If you are an Organization member, you can't re-activate your own Slingshot profile. You need to contact the people responsible for managing Slingshot at your Organization. Note that, once you return to Slingshot, you will start with clear history. 
+If you are an Organization member, you cannot re-activate your own Slingshot profile. You need to contact the people responsible for managing Slingshot at your organization. Note that, once you return to Slingshot, you will start with clear history. 
