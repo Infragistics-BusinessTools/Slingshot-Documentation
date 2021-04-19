@@ -89,14 +89,14 @@ The file owner can also pre-allow access for some team/project members by using 
 
 **Automatic** permissions are great when you want your whole team to have quick access to a file you pin. If you choose *Automatic*, Slingshot will automatically grant the file providers of the other team/project members access. That means all project or team members can open and edit the file without asking its owner explicitly for access.  
 
-**Public URL** is the least restrictive of the three types. Anyone with a link to the file can access it. That means any user can open the document in their browser, granted that they have the link to it. To share a link with anybody, open the file in the browser and copy the URL from the address bar to your clipboard. If you change the permissions type to *Automatic* or *Manual* later, this link will not be valid anymore for anyone outside the team or project.  
+**Public URL** is the least restrictive of the three types. Anyone with a link to the file can access it. That means any user can open the document in their browser, granted that they have the link to it. To share a link with anybody, open the file in the browser and copy the URL from the address bar to your clipboard. If you change the permissions type to *Automatic* or *Manual* later, this link will not be valid anymore for any user outside the team or project.  
 
 > [!NOTE]
-> Besides permissions, users who want to access a file uploaded to a cloud file provider need to have a valid account with that provider. For example, if you want to access a *OneDrive* file shared by another user, you need to have a *OneDrive* account added to your Slingshot account. Upon trying to open the file, you'll be asked by Slingshot to log into your OneDrive, and if you don't have one, you will be denied access. This **does not apply** to files with Public permissions opened in a browser. 
+> Besides permissions, users who want to access a file uploaded to a cloud file provider need to have a valid account with that provider. For example, when you try to open a *OneDrive* file shared by another user, you will be asked by Slingshot to log into your *OneDrive* account. If you don't have an account with *OneDrive*, you will be denied access. This **does not apply** to files with *public* permissions opened in a browser. 
 
 ### How to Manage File Permissions?
 
-Owners can always check and change the permissions to their files. They can also manage the members that already have access.  
+Owners can always view and edit the permissions to their files. They can also manage the members that already have access.  
 
 To view/edit the permissions you have set to a file, go to its overflow menu and click/tap **File Permissions** (see below). 
 
