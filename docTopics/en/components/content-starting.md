@@ -77,28 +77,31 @@ File permissions are meant to give the file owner control over who can access th
 
 Here, you can choose between the following three permission types:
 
- - **Public URL** 
- - **Automatic** 
- - **Manual** 
+ - **All Can Access** 
+ - **Only Members Can Access** 
+ - **Owner Gives Access** 
 
-**Manual** permissions are the default and most restrictive type. Anyone who tries to open the file for the first time has to request access from the file owner. The file owner will receive an email, prompting them to *grant* or *deny* access. Alternatively, the owner can open the _Member Access_ dialog from the file's overflow. When there are pending requests, it will look like this:
+
+**Owner Gives Access** is the default and most restrictive permissions type. Anyone who tries to open the file for the first time has to request access from the file owner. The file owner will receive an email, prompting them to *grant* or *deny* access. Alternatively, the owner can open the _Member Access_ dialog from the file's overflow menu. When there are pending requests, it will look like this:
 
 <img src="../images/manage-members-pending-access.png" alt="The dialog showing pending access requests" width="100%" />
 
-The file owner can also pre-allow access for some team/project members by using the **Manage Access** option for the *Automatic* and *Manual* permission types. 
+The file owner can also pre-allow access for chosen team/project members by using the **Manage Access** option under the *Automatic* and *Manual* permission types. 
 
-**Automatic** permissions are great when you want your whole team to have quick access to a file you pin. If you choose *Automatic*, Slingshot will automatically grant the file providers of the other team/project members access. That means all project or team members can open and edit the file without asking its owner explicitly for access.  
+> [!NOTE] You can change the default file permission type by selecting the *Remember my choice* checkbox. 
 
-**Public URL** is the least restrictive of the three types. Anyone with a link to the file can access it. That means any user can open the document in their browser, granted that they have the link to it. To share a link with anybody, open the file in the browser and copy the URL from the address bar to your clipboard. If you change the permissions type to *Automatic* or *Manual* later, this link will not be valid anymore for any user outside the team or project.  
+**Only Members Can Access** is great when you want your whole team to have quick access to your file. If you choose *Only Members Can Access*, Slingshot will automatically grant access to the file providers of the other team/project members. That means all project or team members can open and edit the file without asking the owner explicitly for access.  
+
+**All Can Access** is the least restrictive type of permissions. Anyone with a link to the file can access it. That means any user can open the document, if they have the link to it. As an owner of the file you can't control who opens your file unless you change to a more restrictive type of permissions. In this case, the link to the file will not be valid anymore for any user outside of the team or project.  
 
 > [!NOTE]
-> Besides permissions, users who want to access a file uploaded to a cloud file provider need to have a valid account with that provider. For example, when you try to open a *OneDrive* file shared by another user, you will be asked by Slingshot to log into your *OneDrive* account. If you don't have an account with *OneDrive*, you will be denied access. This **does not apply** to files with *public* permissions opened in a browser. 
+> Users who want to access a file uploaded to a cloud file provider need not only permissions in Slingshot but also a valid account with that cloud provider. For example, when you try to open a file from *OneDrive* shared by another user, you will be asked to log into your *OneDrive* account. If you don't have an account with *OneDrive*, Slingshot will deny access. This **does not apply** when the file has public permissions and you open it in a browser. 
 
 ### How to Manage File Permissions?
 
 Owners can always view and edit the permissions to their files. They can also manage the members that already have access.  
 
-To view/edit the permissions you have set to a file, go to its overflow menu and click/tap **File Permissions** (see below). 
+To view/edit the permissions on a file, go to its overflow menu and select **File Permissions** (see below). 
 
 <img src="../images/manage-access-options.png" alt="Files options to manage access" width="100%" />
 
@@ -115,6 +118,9 @@ On the right of each member's name, you can click/tap **Editor** > **Remove** to
 
 ### How to Open Files?
 
+You can open a file by clicking/tapping on it. 
+
+For some files 
 Depending on the platform you're on, you can use different applications to open your files. As Slingshot relies on invoking 3rd party applications to do the job, it's entirely up to you. 
 
 <img src="../images/content-open-file.png" alt="Opening a Word file" width="100%" />
