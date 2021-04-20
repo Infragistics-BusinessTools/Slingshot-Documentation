@@ -8,10 +8,10 @@ Read on to get answers to most of your questions about content and boards.
 Connections to cloud storages get you access to your content within Slingshot and boards help you organize and share it with others.
 You can configure both personal and team boards and cloud storages, but they are meant to be used in different scenarios.
 
-Only you have access to personal cloud storages and boards, creating and deleting them whenever you want. Personal cloud storages and boards are both located in your personal space (**Home**), in the _Content_ navigation item (_folder icon_ on the left side of the screen).  
+Only you have access to personal cloud storages and boards, creating and removing them whenever you want. Personal cloud storages and boards are both found in your personal space (**Home**), in the _Content_ tab.  
 That being said, you can share personal content with others if you want. When you pin content from a personal cloud storage to a team shared board, that specific content becomes available for the whole team.
 
-All the members of a team have access to team cloud storages and boards. These shared connections and boards are located in the _Content_ navigation item of that team.  And everyone within the team can manage the connection or pin content to any board whenever they want.
+All the members of a team have access to team cloud storages and boards. These shared connections and boards are in the _Content_ tab of that team.  And everyone within the team can manage the connection or pin content to any board whenever they want.
 
 ### Boards vs Sections vs Groups
 
@@ -19,7 +19,7 @@ If boards are just containers, what are sections and groups? Below you can see e
 
 <img src="../images/board-sample.png" alt="Board example with several sections and groups" width="100%"/>
 
-As shown above, both elements are designed to help organize boards. **Sections** are simply divisions of a board and they can hold content that is organized in groups. Boards can have one or more sections and you can scroll through them by clicking & dragging( laptop or PC) or using the swipe gesture (mobile devices)
+As shown above, both elements are designed to help organize boards. **Sections** are simply divisions of a board and they can hold content that is organized in groups. Boards can have one or more sections and you can scroll through them by clicking & dragging (laptop or PC) or using the swipe gesture (mobile devices)
 
 You actually pin your content to **Groups**. Sections can hold several groups and they are the most basic element you can use to organize content.
 
@@ -31,7 +31,7 @@ You can access your boards and cloud storages by going to a team/project and loo
 
 <img src="../images/boards-storages-access.png" alt="Accessing boards and cloud storages in Slingshot" width="100%"/>
 
-In the _Content_ main navigation item you can find both boards and cloud storages. If you bookmark one of the boards to keep it at hand, you can also find it in your Personal Overview.  
+In the _Content_ tab you can find both boards and cloud storages. If you bookmark one of the boards to keep it at hand, you can also find it in your Personal Overview.  
 Follow the links for further details about [overviews](overviews.md).
 
 ### Which Cloud Storages Can I Connect?
@@ -54,7 +54,7 @@ In Slingshot, file types are represented using different icons. The most common 
 |---|---|---|---|
 |![Word file icon](../images/icon-word-file.png)| Microsoft Word file|![Google Doc file icon](../images/icon-google-doc-file.png)| Google Doc file|
 |![Excel file icon](../images/icon-excel-file.png)| Microsoft Excel file|![Google Sheet file icon](../images/icon-google-sheet-file.png)| Google Sheet file|
-|![Powerpoint file icon](../images/icon-powerpoint-file.png)| Microsoft Powerpoint file|![Image file icon](../images/icon-image-file.png)|Image file|
+|![PowerPoint file icon](../images/icon-powerpoint-file.png)| Microsoft PowerPoint file|![Image file icon](../images/icon-image-file.png)|Image file|
 |![PDF file icon](../images/icon-pdf-file.png)|Adobe PDF file|![Video file icon](../images/icon-video-file.png)| Video file|
 |![Web link icon](../images/icon-web-link.png)| Web link|![Zip file icon](../images/icon-zip-file.png)| ZIP file|
 
@@ -66,14 +66,14 @@ To share files, basically you just pin the content you want to share to a board,
 
 <img src="../images/pin-content-action.png" alt="Pin content to a board in Slingshot" width="100%"/>
 
-Normally you'll use boards to share files, but if you are working with a team or project you can pin relevant content to the overview. This will increase the visibility of that specific file. Additionally, you can also pin a file to a discussion to collaborate over it temporarily.
+Normally you'll use boards to share files, but if you are working with a team or project, you can pin relevant content to the overview. This will increase the visibility of that specific file. Additionally, you can also pin a file to a discussion to collaborate over it temporarily.
 
 ### How to Set File Permissions?
 
 When you share files inside teams and projects, you make these files available for the users inside the team/project. 
 File permissions are meant to give the file owner control over who can access their files. Each time you pin a file, Slingshot will ask you what type of permission you want to set. You will see a dialog that looks like this: 
 
-<img src="../images/file-permissions-dialog.png" alt="A dialog showing the three file permissions types" width="80%" />
+<img src="../images/file-permissions-dialog.png" alt="A dialog showing the three file permission types" width="80%" />
 
 Here, you can choose between the following three permission types:
 
@@ -86,17 +86,18 @@ Here, you can choose between the following three permission types:
 
 <img src="../images/manage-members-pending-access.png" alt="The dialog showing pending access requests" width="100%" />
 
-The file owner can also pre-allow access for chosen team/project members by using the **Manage Access** option under the *Automatic* and *Manual* permission types. 
+The file owner can also pre-allow access for chosen team/project members by using the **Manage Access** option when selecting the file permissions type. 
 
 > [!NOTE] You can change the default file permission type by selecting the *Remember my choice* checkbox. 
 
 **Only Members Can Access** is great when you want your whole team to have quick access to your file. If you choose *Only Members Can Access*, Slingshot will automatically grant access to the file providers of the other team/project members. That means all project or team members can open and edit the file without asking the owner explicitly for access.  
 
-**All Can Access** is the least restrictive type of permissions. Anyone with a link to the file can access it. That means any user can open the document, if they have the link to it. As an owner of the file you can't control who opens your file unless you change to a more restrictive type of permissions. In this case, the link to the file will not be valid anymore for any user outside of the team or project.  
+**All Can Access** is the least restrictive type of permissions. Anyone with a link to the file can access it. That means any user can open the document, if they have the link to it. As an owner of the file, you can't control who opens your file unless you change to a more restrictive type of permissions. In this case, the link to the file will not be valid anymore for any user outside of the team or project.  
 
 > [!NOTE]
-> Users who want to access a file uploaded to a cloud file provider need not only permissions in Slingshot but also a valid account with that cloud provider. For example, when you try to open a file from *OneDrive* shared by another user, you will be asked to log into your *OneDrive* account. If you don't have an account with *OneDrive*, Slingshot will deny access. This **does not apply** when the file has public permissions and you open it in a browser. 
+> Users who want to access a file uploaded to a cloud file provider need not only permissions in Slingshot but also a valid account with that cloud provider. For example, when you try to open a file from *OneDrive* shared by another user, you will be asked to log into your *OneDrive* account. If you don't have an account with *OneDrive*, Slingshot will deny access. This **does not apply** when the file has public permissions, and you open it in a browser. 
 
+Find out how file permissions apply when sharing a file in the chat by reading [How Can I Share a File in the Chat?](chat-starting.md). 
 ### How to Manage File Permissions?
 
 Owners can always view and edit the permissions to their files. They can also manage the members that already have access.  
@@ -116,17 +117,25 @@ Use the **+ Members** blue button to add more members who can view and edit the 
 
 On the right of each member's name, you can click/tap **Editor** > **Remove** to revoke access. 
 
+>[!NOTE] **Access  cannot be automatically revoked.** If you change a file's permissions from *Only Members Can Access* to *Owner Gives Access* make sure you check for *Editors* in **Member Access** and revoke their permissions if necessary. Users who have already opened the file even once, are remembered as *Editors* and their access will not be automatically revoked with changing the file permissions to the more restrictive type. 
 ### How to Open Files?
 
-You can open a file by clicking/tapping on it. 
+Opening a file in Slingshot is as easy as clicking/tapping on it. 
 
-For some files 
-Depending on the platform you're on, you can use different applications to open your files. As Slingshot relies on invoking 3rd party applications to do the job, it's entirely up to you. 
+For MS Office files you can choose where to open them. They can be opened online or in the associated MS Office application on your device. To set the default application that will open your files, go to:
+
+*your profile* > *Settings* > *General Settings* > *Open Files*
+
+Then, in the dropdown choose between: 
+* **Native app** - the file opens in the application on your device - MS Word for example;
+*  **Online** - the file opens in the web application - MS Word, Excel, and PowerPoint Online. 
+
+Files in personal and team cloud storages will be opened with the default application. However, for files that are pinned on a board in *Content*, you can always choose from their menu which application to use to open them (see the screenshot below). 
 
 <img src="../images/content-open-file.png" alt="Opening a Word file" width="100%" />
 ### How to Edit Files?
 
-Depending on the platform you're on, you can use different applications to open your files. As Slingshot relies on invoking 3rd party applications to do the job, it's entirely up to you.
+Depending on the platform you're on, you can use different applications to edit your files. As Slingshot relies on invoking 3rd party applications to do the job, it's entirely up to you.
 
 <img src="../images/content-edit-file.png" alt="Editing or downloading a Word file" width="100%"/>
 
@@ -154,9 +163,9 @@ You can change where drag & drop files are uploaded in _General Settings_ > _Man
 
 ### Can I Rearrange Boards, Sections, and Groups?
 
-You can reorganize, copy, and move around boards, sections, and groups if needed. This is very important as it makes it easy for you focus on your work, not planning ahead which sections or groups you need. You can even move boards from teams to projects. All this changes can happen organically and were designed to boost productivity and avoid losing time.  
+You can reorganize, copy, and move around boards, sections, and groups if needed. This is very important as it makes it easy for you focus on your work, not planning ahead which sections or groups you need. You can even move boards from teams to projects. All these changes can happen organically and were designed to boost productivity and avoid losing time.  
 
 ### Rearranging Sections and Groups
 
-Sections and groups can be copied and moved in order to improve your content organization after you have created your boards elements.
+Sections and groups can be copied and moved to improve your content arrangement after you have created your boards elements.
 The move option relocates the selected element to another board/section, while copying allows you to keep a copy of this element in its original location.
