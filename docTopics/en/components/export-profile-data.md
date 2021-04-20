@@ -1,12 +1,8 @@
 ## Exporting Profile Data from Slingshot
 
-As with other workplace tools, Slingshot clients may need or - be legally compelled - to export data. By providing clear rules for data exports, Slingshot guarantees that clients will meet their legal obligations while users have their data privacy protected to the extent required by global data privacy laws. Additionally, laws and policies may also require employers to notify employees of their use of export tools. 
-
-Here are a few examples where a client may need to export content: 
-
-[!NOTE]- this is just an idea if you have discussed any possible scenarios in which clients/Organizations need to export their members (employees) data. 
+As with other workplace tools, Slingshot clients may need or - be legally compelled - to export data. By providing clear rules for data exports, Slingshot guarantees that clients will meet their legal obligations while users have their data privacy protected to the extent required by global data privacy laws.
    
-Read below to learn  who is authorized to export profile data from Slingshot and how, and what type of data can be exported. 
+Read below to learn who may export profile data from Slingshot and how, and what type of data can be exported. 
 
 ### What Is the Export Format?
 
@@ -18,19 +14,19 @@ Within 24 hours upon your request, you will receive an email from Slingshot. The
 
 The export contains information about:
 
-- the user's - email, name, id, locale; 
+- the user's email, name, id, locale; 
 - tasks (incl. task groups and task filters);
-- Content boards, incl. links(???) to pinned files, but not the files themselves;
+- Content boards, incl. links (???) to pinned files, but not the files themselves;
 - discussions, topics, and the actual text of the messages in the topics (???); 
 - private chats, and the actual text of the messages;
-- analytics - incl. links(???) to personal and shared dashboards (actually, I tested this and my export did not contain any dashboards)
+- analytics - incl. links (???) to personal and shared dashboards (actually, I tested this and my export did not contain any dashboards)
   
 ### Who Can Export Profile Data? 
 
 You can make an export request to the Slingshot team if you are: 
 
 - not part of an Organization, or 
-- an Organization manager who is in charge of personal data administration. 
+- an Organization manager who oversees personal data administration. 
 
 If you are a member of an Organization in Slingshot, then the information in your profile is considered ownership of the Organization. There are certain data privacy laws (such as GDPR) that entitle you to receive an export of the data retained about you upon request from your organization. To learn how you can have your data exported, read below. 
   
@@ -40,15 +36,15 @@ Below you will find the three possible scenarios. The export procedure steps dep
 
 #### For Organization Members
 
-So, as mentioned above, if you belong to an Organization, then your data in Slingshot also belongs to the Organization. However, data protection laws specify cases in which you are entitled to receive an export of your data from your Organization. Slingshot will help your Organization honor its legal obligations. 
+So, as mentioned above, if you belong to an Organization, then your data in Slingshot also belongs to the Organization. However, data protection laws specify cases in which you are entitled to receive an export of your data from your organization. Slingshot will help your organization honor its legal obligations. 
 
-Just contact a manager in your Organization and request an export of your data in the cases specified by law. They will start the export procedure by contacting the Slingshot team. 
+Just contact a manager in your organization and request an export of your data in the cases specified by law. They will start the export procedure by contacting the Slingshot team. 
 
 *Option 2: Contact us if you are unable to get in touch with a manager of your Organization and we can help with forwarding your request to your Organization? Are we going to do this to assist users? Is there another alternative process?*
 
 #### For Organization Managers
 
-If you are a manager in charge of personal data administration in your Organization, and you need to export one or more users' profile data, then read the steps below to learn how to proceed.
+If you are a manager in charge of personal data administration in your organization, and you need to export one or more users' profile data, then read the steps below to learn how to proceed.
 
 1. Contact our team at **support@slingshot.io** or **feedback@slingshot.io** ???
 2. Note you want to export an Organization member's profile information.
@@ -57,7 +53,7 @@ If you are a manager in charge of personal data administration in your Organizat
 
 #### For Individual Users
 
-If you are an individual user, then you do not belong to an Organization. You can be part of an Organization's teams and projects only if invited. In this sense, your profile information do not belong to any Organization and you can request data export from the Slingshot team directly. To do this:  
+If you are an individual user, then you do not belong to an Organization in Slingshot. You can be part of an Organization's teams and projects only if invited. In this sense, your profile information does not belong to any Organization and you can request data export from the Slingshot team directly. To do this:  
 
 Select your profile image > *Settings* > *Data Privacy* > *Delete my Data* (as shown in the screenshot below).
 
@@ -65,5 +61,5 @@ Select your profile image > *Settings* > *Data Privacy* > *Delete my Data* (as s
 
 [!NOTE] If you are an Organization member *Data Privacy* is not available in your *Settings* menu. 
 
-The export process may take up to 24 hours. When export is completed you will receive an email with a link to download the zip file containing the export data. 
+The export process may take up to 24 hours. When export is completed, you will receive an email with a link to download the zip file containing the export data. 
 
