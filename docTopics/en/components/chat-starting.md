@@ -107,5 +107,22 @@ To mute a chat, click on its **overflow menu** > **Mute Notifications**.
 
 ### How Can I Share a File in the Chat?
 
-When collaborating with others you may need to share a file. In the Slingshot chat you can share files from your device, cloud storage, or even from a team or project where these files are pinned.  
 
+In the chat you can share files from your device, cloud storage, or even from a team or project where these files are pinned.  
+
+To share a file in the chat, select the paperclip icon. 
+
+<img src="../images/attach-icon-chat.png" alt="The position of the paperclip icon at the bottom of the chat window" width="100%" />
+
+Then, choose from the list: 
+
+* **Upload File** - if you want to share a file located on your device;
+* **Content** - if you want to share a file from your *Private Cloud Storage*, *Boards* or *Analytics* tab;
+* **Analytics** - if you want to share a dashboard from your personal or team's *Analytics* tab;
+* **Access Photo Library** - if you want to share a photo from your Photo Library, this option is available on MacOS, iOS and Android platforms.
+  
+>[!NOTE] **Slingshot does not store your files.** When you share a file from your personal device, it will first be uploaded to your personal cloud storage (*OneDrive*, for example) and not to Slingshot directly. Then, to share it with others Slingshot will just link to its location in your cloud storage.
+
+#### File Permissions
+
+File permissions are meant to give the file owner control over who can access their files. If you are the owner of the file you share in the chat, Slingshot will ask you what type of permissions you want to set. 
