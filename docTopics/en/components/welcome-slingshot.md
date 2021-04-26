@@ -90,7 +90,7 @@ Below you can find the versions supported for each platform:
 
 | PLATFORM | SUPPORT |
 | --- | --- |
-|**Android**|Android 4.4 (KitKat) or higher (except the Kindle Fire).|
+|**Android**|Android 6.0 (Marshmallow) or higher (except the Kindle Fire).|
 |**Desktop**|Any Windows with .NET Framework 4.6 installed. For more information on .NET Framework system requirements, check [this Microsoft article](https://docs.microsoft.com/en-us/dotnet/framework/get-started/system-requirements).|
-|**IOS**|iOS 12 or higher.|
-|**Web**|All major browsers on Mac and Windows (latest 2 releases). Web browsers are not supported in mobile devices.|
+|**IOS**|iOS 13 or higher.|
+|**Web**|Chrome, Firefox, Microsoft Edge (excluding Microsoft Edge Legacy), Safari. Web browsers are not supported in mobile devices.|
