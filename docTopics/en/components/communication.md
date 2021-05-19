@@ -22,9 +22,9 @@ Unlike lengthy email chains, members can follow or unfollow discussions. This is
 
 ### What's a Slingshot Private Chat? 
 
-<img src="../images/chat-example.png" alt="An example of a chat conversation" width="100%" />
-
 Your *Private Chat* is also a tool for communication, but unlike *Discussions* it's not tied to any project or team. This means you can use it to chat with any Slingshot user, and even with external users who are not part of your Organization.
+
+<img src="../images/chat-example.png" alt="An example of a chat conversation" width="100%" />
 
 ### Chat with Any Slingshot User from Multiple Devices
 
