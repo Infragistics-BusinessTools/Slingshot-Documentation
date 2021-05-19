@@ -1,6 +1,6 @@
 ## Exporting Profile Data from Slingshot
 
-Slingshot users may need or - be legally compelled - to export data. When providing data exports, Slingshot guarantees that data privacy is protected to the extent required by global data privacy laws.
+Slingshot users may need or - be legally compelled - to export profile data. When providing data exports, Slingshot guarantees that data privacy is protected to the extent required by global data privacy laws, including the General Data Protection Regulation (GDPR).
    
 Read below to learn who is authorized to export profile data from Slingshot and how, and what type of data can be exported. 
 
@@ -14,14 +14,14 @@ Upon request, you will receive an email from Slingshot. This email contains a li
 
 The export contains:
 
-- the email, name, id, locale associated with the user profile; 
+- the email, name, id, and locale associated with the user profile; 
 - industry, department, title - if provided by the user;
 - information about tasks (incl. task groups and task filters);
 - information about *Content* boards;
 - information about pinned or shared files, but not the files themselves;
-- discussions, topics, and the actual text of the messages of the user, but not the messages of other users;
+- discussions, topics, and the actual text of the messages of the user, but not the text of other users' messages;
 - information about private chats, and the actual text of the messages of the user, but not the messages of other participants in the chat;
-- analytics - information about personal dashboards, but not the actual dashboards; also shared dashboards are not included. 
+- analytics - information about personal dashboards, but not the actual dashboards; information about dashboards shared by other users is not exported. 
   
 ### Who Can Export Profile Data? 
 
@@ -34,24 +34,24 @@ If you are a member of an Organization in Slingshot, then the information in you
   
 ### How to Export Profile Data? 
 
-Below you will find the two possible scenarios. The export procedure steps depend on your relation to an Organization in Slingshot.
+Below you will find two possible scenarios. The export procedure steps depend on your relation to an Organization in Slingshot.
 #### For Organization Owners
 
-If you are a user with [Owner](roles-permissions.md) permissions in your Organization team and you need to export one or more users' profile data, then read the steps below to learn how to proceed. 
+If you are a user with [Owner](roles-permissions.html#teams-projects-roles) permissions in your Organization team and you need to export users' profile data, then read the steps below to learn how to proceed. 
 
-1. Contact our team at support@slingshot.io
+1. Contact our team at **support@slingshot.io**
 2. Note you want to export an Organization member's profile information.
 3. You may be asked to provide more details about yourself. 
-4. Export will take up to 24 hours after the Slingshot team verifies your right to receive it.
+4. The Slingshot team will verify your right to request export first. Only then you will receive the exported data by email. 
 
 #### For Users with Personal Accounts
 
-If you have a personal account in Slingshot, this also means you do not belong to an Organization in Slingshot. You can be a member of an Organization's teams and projects only if invited. In this sense, your profile information does not belong to any Organization and you can request data export from the Slingshot team directly. To do this:  
+If you have a [personal account](roles-permissions.md#personal-account-users) in Slingshot, this also means you do not belong to an Organization in Slingshot. You can be a member of Organization's teams and projects if invited. In this sense, your profile information does not belong to any Organization and you can request data export from the Slingshot team directly. To do this:  
 
 Select your profile image > *Settings* > *Data Privacy* > *Delete my Data* (as shown in the screenshot below).
 
-<img src="images/delete-profile-data-settings.png" alt="Deleting your profile data from the Settings menu" witdth="100%">
+<img src="../images/export-profile-data-settings.png" alt="Exporting your profile data from the Settings menu" witdth="100%">
 
-[!NOTE] If you are an Organization member *Data Privacy* is not available in your *Settings* menu. 
+>[!NOTE] If you are an Organization member *Data Privacy* is not available in your *Settings* menu. 
 
 Export may take up to 24 hours. 
