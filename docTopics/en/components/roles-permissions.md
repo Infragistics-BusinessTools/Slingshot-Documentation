@@ -10,6 +10,7 @@ In Slingshot, people can join an organization, one or more teams, and also one o
 
 Roles represent a set of permissions assigned to a Slingshot user in relation to a team or an organization. This means every user is assigned a role when joining organizations or teams. There are three different roles with a clear set of permissions - owner, member and viewer.
 
+<a name="teams-projects-roles"></a>
 ### So, What Can the Different Roles Do?
 
 **Owners** have full access to manage a team or organization. This includes inviting new members or removing them, deleting a team (not an organization), and also changing a team's name, description and privacy (public or private).  
@@ -20,6 +21,7 @@ Members of an Office 365 or G Suite organization need to log in with their assoc
 
 **Viewers** are limited to view and share content. To be a viewer in a team, you have to be invited with the viewer role.
 
+<a name="personal-account-users"></a>
 ### What About External Users?
 
 Sometimes you may need to work with people from outside of your team or even from outside the organization. People with expertise in many different areas can be mixed in a team that is not part of the organization. You can also create a project that includes tasks assigned to external users.
