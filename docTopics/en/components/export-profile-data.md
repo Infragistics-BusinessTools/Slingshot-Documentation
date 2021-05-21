@@ -50,7 +50,7 @@ If you have a [personal account](roles-permissions.md#personal-account-users) in
 
 Select your profile image > *Settings* > *Data Privacy* > *Delete my Data* (as shown in the screenshot below).
 
-<img src="../images/export-profile-data-settings.png" alt="Exporting your profile data from the Settings menu" witdth="100%">
+<img src="../images/export-profile-data-settings.png" alt="Exporting your profile data from the Settings menu" width="100%">
 
 >[!NOTE] If you are an Organization member *Data Privacy* is not available in your *Settings* menu. 
 

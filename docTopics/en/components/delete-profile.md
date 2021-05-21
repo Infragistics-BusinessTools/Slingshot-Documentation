@@ -57,7 +57,7 @@ If you have a [personal account](roles-permissions.html#personal-account-users) 
 
 Select your profile image > *Settings* > *Data Privacy* > *Delete my Data* (as shown in the screenshot below).
 
-<img src="../images/delete-profile-data-settings.png" alt="Deleting your profile data from the Settings menu" witdth="100%">
+<img src="../images/delete-profile-data-settings.png" alt="Deleting your profile data from the Settings menu" width="100%">
 
 If you are the sole owner of any team in Slingshot, you will be asked to assign new owners to this team before your profile is deleted. 
 
