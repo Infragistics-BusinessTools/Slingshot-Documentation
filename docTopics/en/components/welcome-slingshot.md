@@ -12,6 +12,7 @@ So, how can Slingshot do all that for you? Take a look below...
 
 <h4 style="color:#2328B0;">Get Quick Access to Your Status and Prioritize Work across All Projects</h4>
 
+> Change screenshot
 <img src="../images/welcome-overview-personal.png" alt="A Personal Overview within Slingshot" width="100%"/>
 
 Above, you can see that one place where you can visualize your work and organize yourself.  
@@ -20,22 +21,26 @@ With bookmarks you can quickly navigate to your teams, projects, discussions, am
 
 <h4 style="color:#2328B0;">Keep Everyone in the Know and Make Working with Others Easier</h4>
 
+> Change screenshot
 <img src="../images/welcome-overview-project.png" alt="Project Overview within Slingshot" width="100%"/>
 
 Encourage transparency and trust by making it easy for others to find information. Working together, with strong collaboration and support for each other is possible, even with external clients.
 
 <h4 style="color:#2328B0;">Run Higher-Performing Teams and Successful Projects</h4>
 
+> Change screenshot
 <img src="../images/welcome-team.png" alt="A Slingshot team" width="100%"/>
 
 Slingshot empowers your teams to achieve greater success by keeping everyone aligned, engaged and focused on their work. Your teams are provided with tools to communicate, support each other, and access the resources needed to do their work.
 
+> Change screenshot
 <img src="../images/welcome-overview-project.png" alt="A Slingshot projext" width="100%"/>
 
 Projects are undertaken by people with expertise in many different areas, often from different teams and sometimes even from outside your organization. To guarantee a high success rate, Slingshot makes sure all those people work together. They can collaborate and communicate with each other, and everyone gets good visibility over the project and all its resources.
 
 <h4 style="color:#2328B0;">Get More Work Done with Tasks and Leverage Their Functionality and Flexibility</h4>
 
+> Change screenshot
 <img src="../images/welcome-tasks.png" alt="Team tasks within Slingshot" width="100%"/>
 
 Use tasks to your advantage to create a healthy work environment that embraces transparency while driving individual accountability.
@@ -43,6 +48,7 @@ Tasks capture all the relevant information you need around a piece of work, incl
 
 <h4 style="color:#2328B0;">Keep Yourself Informed with Notifications</h4>
 
+> Change screenshot
 <img src="../images/welcome-notifications.png" alt="Notifications within Slingshot" width="100%"/>
 
 Get updates on any changes in teams, tasks, projects, messages, and dashboards. Learn when a task was assigned to you, that you were removed from a team, or that someone sent a message in a discussion thread you're following. You can be notified in different ways like pop up messages while using the app (in-app notifications), messages on mobile devices (push notifications), and email notifications.
@@ -57,6 +63,7 @@ The dashboards in Analytics are composed of one or more visualizations. And you 
 
 <h4 style="color:#2328B0;">Real-Time, Organized Communication with Team and Project Members</h4>
 
+> Change screenshot
 <img src="../images/welcome-discussions.png" alt="Discussions within Slingshot" width="100%"/>
 
 Discussions can be used by the members of an organization, team, or project. Organized in different threads discussions ensure all your communication and collaboration tools are in one place, helping remote teams stay productive no matter where they are.
@@ -64,6 +71,7 @@ With Slingshot's notifications, you can get informed when someone sends a messag
 
 <h4 style="color:#2328B0;">Collaborate Swiftly and Socialize with Your Colleagues More</h4>
 
+> Change screenshot
 <img src="../images/welcome-chat.png" alt="An example showing a chat between two users" width="100%" />
 
 The importance of communication for the projects' success is indisputable. Socializing with your teammates, however, is often underestimated and hard if you are working remotely. Slingshot's chat is here to help you socialize and make your collaboration stronger! 
@@ -72,6 +80,7 @@ With Slingshot's chat, you'll be able to have multiple conversations going on at
 
 <h4 style="color:#2328B0;">Connect to Cloud Storages and Share Content with Colleagues or Partners</h4>
 
+> Change screenshot
 <img src="../images/board-sample.png" alt="Board example with several sections and groups" width="100%"/>
 
 Slingshot helps you focus on collaboration instead of managing content. You can access content from many cloud providers, using boards to organize that content and securely share it with others.  

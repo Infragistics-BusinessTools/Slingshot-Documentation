@@ -18,14 +18,17 @@ You can foster productive collaboration and best practices in your projects by e
 
 Project overviews help you get a quick snapshot of a project, giving you a sense of the project progress at a glance.  Everyone can get an overall status (_On Target, At Risk, Danger, Completed_), the project's start and due dates, and issues raised by someone working on the project. The overview also includes all the tasks for the project, as well as all mentions directed at you. Finally, you have a place where you can add useful resources for the project like links, documents, dashboards, etc.
 
+> Change screenshot
 <img src="../images/project-overview.png" alt="Project Overview in Slingshot" width="100%"/>
 
 Using shared resources is required to collaborate, working towards a common objective. One of the best practices in Slingshot is to organize your content in boards. Designed to manage your personal or team content, boards are just containers that point to cloud storages that hold your resources.
 
+> Change screenshot
 <img src="../images/projects-content.png" alt="Project Content section in Slingshot" width="100%"/>
 
 You can communicate live with all project members via discussions or with any Slingshot user (or group of users) through the general chat.  Not limited to write, you can also attach files, use emojis, and react to messages.
 
+> Change screenshot
 <img src="../images/discussions-many-threads.png" alt="Several Slingshot discussion threads" width="100%"/>
 
 As mentioned above, projects are normally undertaken by people with expertise in many different areas, who might belong to different teams and, at the same time, receive project assignments to different projects.   
