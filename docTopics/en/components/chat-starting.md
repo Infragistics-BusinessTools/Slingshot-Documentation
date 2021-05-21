@@ -13,56 +13,47 @@ Unlike the discussions, the private chat is project and team independent. This m
 
 ### How Can I Access My Chat?
 
-In the top bar, right next to your profile picture, you will see the **chat message icon**. Click the icon to open the chat screen. 
+In the top bar, right next to your profile picture, you will see the **chat message icon**. Click/tap the icon to open the chat screen. 
 
 <img src="../images/chat-icon.png" alt="Chat icon location" width="100%" />
 
-<a name='chat-mode'></a>
-### What is Docked/Undocked Chat Mode? 
+<a name='chat-dock'></a>
+### How Can I Keep the Chat Always Visible?
 
-The *docked/undocked* mode basically makes your chat screen appear differently.  
-
-- **Docked** (minimized) mode  - you see a smaller screen where only your last chat room or the chat list is visible; 
-- **Undocked** (maximized) mode - you see a larger screen where both your chat room and the chat list are visible. 
-
-You can switch between modes by clicking/tapping the *dock/undock* icon next to *Close* (see screenshot below).
+In Slingshot, you can keep your chat hidden or opened on the right while going through your tasks, for example. 
+To switch from hidden to always opened and vice versa, select the *dock/undock* icon next to *Close* (see screenshot below).
 
 <img src="../images/dock-undock-icon-chat.png" alt="Dock/Undock icon location" width="50%" />
 
+When the chat is *docked*, you will always see it on the right. In this mode, you can see either the last chat room opened or the list of ongoing chats. 
+
+<a name="private-chat-start"></a>
 ### How Can I Start a Private Chat?
 
 To start a chat, open the chat screen. Then follow the steps below:
 
-1. Click the **+ Start a conversation...** blue button. 
+1. Click/tap the **+ Start a conversation...** blue button. 
 
     <img src="../images/start-chat.png" alt="Start a conversation button" width="80%" />
 
-2. You will see a list of users from your main *Organization*. Select a user from that list or type a name or email in the *search* box on top.
+2. Select a user from the list or type a name or email in the *search* box on top.
 3. Click/tap **Add to Chat**. 
 
-A new chat room is automatically opened on the right. Your new chat is also added on top of your list of chats on the left. 
-
-If you don't see the *Start a conversation...* button, then check your [chat mode](#chat-mode). If you are in *docked mode*, select the **undock** icon next to the *Close* button. 
+>[!NOTE] If you don't see the *Start a chat...* button, check whether your chat is [docked](#chat-dock). In this case, select the **undock** icon next to *Close*.
 
 ### How Can I Start a Group Chat?
 
-Sometimes you want to engage more people in a conversation, but creating a discussion is not an option for a number of reasons. For example, people you want to talk with are from different teams and projects and you even want to include a few external users. Or you don't want to create a permanent discussions topic. In these and other cases, you may prefer a group chat. 
+Starting a group chat is similar to [starting a private chat](#private-chat-start). The only difference is that you choose two or more people to create the group chat. 
 
-A group chat is a chat between you and two or more users. 
+Alternatively, you can create a group chat by **adding more users to a private chat**. This will create a new group chat between the chosen users, but don't worry! Your original private chat will be kept too. 
 
-Creating a group chat is similar to creating a private chat. Open the chat screen. Then you need to:
- 
-1. Click/tap **+ Start a conversation...** blue button. 
-2. Add two or more users from the list. Alternatively, write users' names or emails in the *search* box. 
-3. Click **Add to Chat**. 
-
-If you don't see the *Start a conversation* blue button, check your [chat mode](#chat-mode). If you are in *docked mode*, select the **undock** icon next to the *Close* button. 
-
-You can also create a group chat by **adding more users to a private chat**. This will create a new group chat between the chosen users, but don't worry! Your original private chat will be kept too. To add more users to a private chat, open a private chat and select the *+ member* icon on top right (as shown below). 
+You can add more users to any chat (private or group) by opening it and selecting the *+ member* icon on top right (as shown below). 
 
 <img src="../images/add-member-icon-chat.png" alt="Add more members to a chat icon" width="80%" />
 
-Unlike private chats, you can create more than one chat between the same users. You can use the **rename** option of group chats to differentiate between them. Or you can simply name your group chat to make the subject of the chat clear to everyone. You will find the *rename* option in the *overflow* menu of a group chat (see below).
+### Can I Rename a Chat?
+
+You can rename your group chats to better differentiate between group chats with (almost) the same users. You will find the *rename* option in the *overflow* menu of a group chat (see below).
 
 <img src="../images/rename-group-chat.png" alt="Rename a group chat option" width="50%" />
 ### How to Manage Members in a Group Chat? 
@@ -71,18 +62,24 @@ You can manage the members of a group chat by selecting the *group* icon on top 
 
 <img src="../images/group-chat-manage-members.png" alt="Members icon plus a list of group members opened" width="80%" />
 
-A dropdown showing a list of chat members is collapsed.
-You can use the *trash* icon next to each member's name in that list to remove a member from the chat. Every participant in a group chat can remove other members from the chat. Removed members can still view the history of the chat. 
+You will see the chat members in a dropdown. Use the *trash* icon next to their names if you want to remove somebody. Every participant in a group chat can remove other members from the chat. Removed members will continue seeing the history of the chat but they will not have access to new messages. 
 
 Next to your name you will find the *leave* icon. You can leave a chat anytime. 
 
-There is no limit to the number of chat participants. You can always add new users to a group chat by  clicking **+ Add Members**. Choose new members from the list of Slingshot users opened. At its bottom you will notice a **History** setting. The following 3 options appear in the dropdown when collapsed: 
+### Can I Make the History of a Group Chat Available for New Members?
+
+When you are adding members to an ongoing group chat, you may want them to have access to part or the whole history of the chat. 
+
+When adding members, you will notice a **History** setting at the bottom of the users list (see the screenshot below). 
+
+<img src="../images/chat-history-show.png" alt="Choose chat history to show new members" alt="100%">
+The following 3 options appear in the dropdown when collapsed: 
 
 - *Invite with No Previous History*
 - *Invite with All Previous History*
 - *Invite with Today's History*
 
-*Invite with No Previous History* is the default history setting for new chat participants. However, sometimes you don't want people who join the group chat in the middle of a conversation, to miss all the earlier information. You can use the other two history options to welcome new chat members and quickly introduce them to the topic!
+*Invite with No Previous History* is the default history setting for new chat participants. You can use the other two history options to welcome new chat members and quickly introduce them to the topic!
 
 When finished, select the **Add to Chat** blue button. 
 
