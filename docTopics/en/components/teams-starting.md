@@ -79,7 +79,7 @@ You are now prompted to start inviting team members, but you can also leave this
 To invite members, click/tap the **+ Members** blue button. You can choose members from the dropdown list (see below) or use the search bar to add the emails of users who are outside of your Organization. 
 
 > Change screenshot
-<img src="../images/team-invite-members.png" alt="Inviting team members" width=100%>
+<img src="../images/team-invite-members.png" alt="Inviting team members" width=100% />
 
 >[!NOTE]
 >When adding members, whose emails are not auto-completed by Slingshot, type the whole email and press Enter to add it to the list of users you want to invite.
