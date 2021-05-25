@@ -7,9 +7,9 @@ Read on to get answers to most of your questions about discussions.
 
 In Slingshot, communication happens in discussions and private chats. To participate and start discussions and private chats you need to know more about [writing, reading and managing messages](communication.html#write-read-manage-messages). 
 
-Each team and project have its own space dedicated to discussions. Discussions are organized in topics. Discussions are team and project specific. Because of this, you will not be able to see and take part in all discussions in Slingshot. Read more about [who can access discussions](discussions-starting.html#discussions-access) by following the link.
+Each workspace has its own *Discussions* tab. To learn more about discussions, read [Starting with Discussions](discussions-starting.md). 
 
-Unlike the discussions, the private chat is project and team independent. This means you can chat with any user from any team or project. You can even [chat with external users](#chat-external-users). However, because they are *private*, your chats can be accessed only by you and the users you are chatting with. 
+Unlike discussions, the private chat is workspace independent. This means you can chat with any user from any team or project. You can even [chat with external users](#chat-external-users). However, because they are *private*, your chats can be accessed only by you and the users you are chatting with. 
 
 ### How Can I Access My Chat?
 
