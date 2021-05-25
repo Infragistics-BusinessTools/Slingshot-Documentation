@@ -97,8 +97,4 @@ Use in-app **Feedback** to send us suggestions, comments, or requests about Slin
 > Change screenshot
 <img src="../images/userSettings-feedback.png" alt="Accessing the feedback screen in Slingshot" width="100%"/>
 
-### What About Roles & Permissions?
 
-In Slingshot, people can join an organization, one or more teams, and also one or more projects. Roles and permissions apply only to organizations and teams.  
-Roles represent a set of permissions assigned to a Slingshot user in relation to a team or an organization. This means every user is assigned a role when joining organizations or teams. There are three different roles (owner, member, viewer) with a clear set of permissions each.  
-Follow the link for further details about [roles and permissions](roles-permissions.md).
