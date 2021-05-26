@@ -69,10 +69,10 @@ steps:
     workingDirectory: doctopics\en\images
     script: 'optimizt --lossless .'
 # Run the image compression tool on Reveal images
-- task: CmdLine@2
+- task: PowerShell@2
   inputs: 
     workingDirectory: reveal-docs\en
-    script: optimizt  `find . -type f -name '*.png'`
+    script: Get-ChildItem -Recurse -Filter *.png | Foreach-Object { optimizt --lossless $_.FullName }
 # Update the hrefs in Reveal md files
 - task: RegexReplace@3
   inputs:
