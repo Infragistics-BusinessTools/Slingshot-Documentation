@@ -71,7 +71,7 @@ steps:
 - task: CmdLine@2
   inputs: 
     script: cd reveal-docs\en
-            optimizt  `find . -type f -name '*.png`
+            optimizt  `find . -type f -name '*.png'`
 # Update the hrefs in Reveal md files
 - task: RegexReplace@3
   inputs:
