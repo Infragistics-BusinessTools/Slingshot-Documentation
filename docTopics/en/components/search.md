@@ -2,11 +2,10 @@
 
 If you have been on the Internet at least once, you know it's all about finding the right information! And the search is the tool to help you with this.  
 
-### So, What's a Slingshot Search?
+### So, What's Search for Slingshot?
 
-The search in Slingshot has the power to make your collaboration even more productive. Its design makes finding relevant information inside your **Projects**, **Tasks**, **Messages**, **Content**, and **Dashboards** quick and easy. The filtering options will help you further enhance search performance by eliminating unnecessary distractions.
-
-### How to Start Your Search?
+The search in Slingshot is created to help you find what you are looking for really quickly. It provides results from everywhere in Slingshot - your **Workspaces**, **Tasks**, **Messaging**, **Content**, and **Analytics**. The additional filtering options ensure great precision of your results.
+### How to Start My Search?
 
 To start your search in Slingshot follow the steps below.
 
@@ -14,17 +13,27 @@ To start your search in Slingshot follow the steps below.
 
     <img src="../images/search-box.png" alt="Search box location in Slingshot" width="100%" />
 
-    Notice that your last searches appear in a dropdown before you start typing.
-
 2. Start typing. Slingshot will start making suggestions. Press _Enter_ / select _Search All Results_ for a full list of results.
 
-3. A search results pane will open on the left showing all results sorted in five tabs: _Projects_, _Tasks_, _Messaging_, *Content* and _Data_. Select one of the tabs to see related results.
-
+3. The search results pane opens on the left.
+   
 4. Click/tap on a result to open it on the right. You can also use the overflow menu of each result to copy its link to the clipboard so you can share it or save it in _Bookmarks_.
 
-    <img src="../images/results-settings.png" alt="results overflow menu" width="50%" />
+<img src="../images/results-settings.png" alt="results overflow menu" width="50%" />
 
-### How to Use Filters?
+### Where Can I Search?
+
+You can quickly start your search from anywhere - a workspace, tasks, *Home*, etc. 
+
+The search result pane shows results from **everywhere** inside Slingshot. The results are displayed separately in five tabs: 
+
+* *Workspaces* - results come from all workspaces.
+* _Tasks_ - results from tasks in _Home_ and _Workspaces_ are shown. 
+* _Messaging_ - shows results from messages in the chat, discussions and topics.
+* *Content* - shows results from all boards in _Home_, *Workspaces* and the *Organization*.
+* _Analytics_ - shows results for dashboards and dashboard folders in Home, Workspaces and the *Organization*.
+
+### How Can I Use Filters?
 
 You may receive too many results and need to refine your search to find exactly what you need. For this purpose, you will find a second tier of filters under each result tab.
 
