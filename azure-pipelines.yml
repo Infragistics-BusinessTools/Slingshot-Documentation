@@ -70,13 +70,10 @@ steps:
     script: 'optimizt --lossless .'
 # Run the image compression tool on Reveal images
 - task: PowerShell@2
-  inputs:
+  inputs: 
+    script: Get-ChildItem -Recurse -Filter *.png | Foreach-Object { optimizt --lossless $_.FullName }
     targetType: 'inline'
     workingDirectory: reveal-docs\en
-    script: |
-    $Images = Get-ChildItem -Recurse -Name -Filter *.png
-    optimizt --lossless @Images
-    
 # Update the hrefs in Reveal md files
 - task: RegexReplace@3
   inputs:
