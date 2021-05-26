@@ -60,15 +60,15 @@ steps:
     targetFolder: docTopics\en\components\analytics
     overWrite: true
 # Install the image compression tool
-- task: InstallTool@1
+- task: CmdLine@2
   inputs: 
     script: 'npm i -g @funboxteam/optimizt'
 # Run the image compression tool on Slingshot images
-- task: CompressImages@1
+- task: CmdLine@2
   inputs: 
     script: 'optimizt --lossless docTopics\en\images'
 # Run the image compression tool on Reveal images
-- task: CompressImagesRecursive@1
+- task: CmdLine@2
   inputs: 
     script: cd reveal-docs\en
             optimizt  `find . -type f -name '*.png`
