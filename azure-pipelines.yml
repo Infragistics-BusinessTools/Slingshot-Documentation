@@ -66,12 +66,13 @@ steps:
 # Run the image compression tool on Slingshot images
 - task: CmdLine@2
   inputs: 
-    script: 'optimizt --lossless docTopics\en\images'
+    workingDirectory: doctopics\en\images
+    script: 'optimizt --lossless .'
 # Run the image compression tool on Reveal images
 - task: CmdLine@2
   inputs: 
-    script: cd reveal-docs\en
-            optimizt  `find . -type f -name '*.png'`
+    workingDirectory: reveal-docs\en
+    script: optimizt  `find . -type f -name '*.png'`
 # Update the hrefs in Reveal md files
 - task: RegexReplace@3
   inputs:
