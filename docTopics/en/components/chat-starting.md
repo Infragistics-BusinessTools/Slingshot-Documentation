@@ -1,7 +1,8 @@
 ## Starting with Private Chat
 
-Welcome!  
-Read on to get answers to most of your questions about discussions.
+After learning about the variety of tools Slingshot provides to ensure great [communication](tasks.md) experience, you are ready to explore how to use them for effective collaboration.  
+
+Read on to get answers to most of your questions about the chat.
 
 ### Discussions vs Private Chat
 
@@ -45,12 +46,11 @@ To start a chat, open the chat screen. Then follow the steps below:
 
 Starting a group chat is similar to [starting a private chat](#private-chat-start). The only difference is that you choose two or more people to create the group chat. 
 
-Alternatively, you can create a group chat by **adding more users to a private chat**. This will create a new group chat between the chosen users, but don't worry! Your original private chat will be kept too. 
-
-You can add more users to any chat (private or group) by opening it and selecting the *+ member* icon on top right (as shown below). 
+You can add more users to any ongoing chat (private or group) by opening it and selecting the *+ member* icon on top right (as shown below). 
 
 <img src="../images/add-member-icon-chat.png" alt="Add more members to a chat icon" width="80%" />
 
+>[!NOTE] If you create a new group chat by adding more people to a private chat, don't worry! The group chat will be opened in another chat room. Your private chat will be kept separately as well.
 ### Can I Rename a Chat?
 
 You can rename your group chats to better differentiate between group chats with (almost) the same users. You will find the *rename* option in the *overflow* menu of a group chat (see below).
@@ -91,13 +91,11 @@ However, external users are not part of your Organization. That's why after sele
 
 <img src="../images/external-user-chat.png" alt="Typing an external user's email to add them to a chat" width="100%" />
 
-### Deleting vs Leaving vs Muting a Chat
+### Leaving vs Muting a Chat
 
-Once you lose interest, you can delete, leave or mute a chat in Slingshot.  
+Once you lose interest, you can leave or mute a chat in Slingshot.  
 
-**Deleting** a chat makes it disappear from the chat list of all its participants. All chat history is deleted for everybody too. So, make sure no one needs the chat or its history before you decide to delete it. To delete a chat, click on its **overflow menu** > **Delete**. 
-
-**Leaving** a chat is an option for group chats only. Each member can leave a group chat when they decide they no longer need to participate in the conversation. The members, who left, cannot receive new messages anymore, but they still have access to the chat history. To leave a group chat, click on it to **open** > **Members icon on top** > **the leave icon** next to your name.
+**Leaving** a chat is an option for group chats only. Each member can leave a group chat when they decide they no longer need to participate in the conversation. The members, who left, cannot receive new messages anymore, but they still have access to the chat history. To leave a group chat, click/tap it to **open** > **Members icon on top** > **leave icon** next to your name.
 
 Normally, the chat icon on top shows the total number of unread chat messages. When you **mute** a private or group chat, its new messages are no longer added to that count. This is the option for you if you do not want to follow the conversation anymore, but you still want to have access to it. 
 To mute a chat, click on its **overflow menu** > **Mute Notifications**. 
