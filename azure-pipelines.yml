@@ -71,8 +71,9 @@ steps:
 # Run the image compression tool on Reveal images
 - task: PowerShell@2
   inputs: 
+    script: Get-ChildItem -Recurse -Filter *.png | Foreach-Object { optimizt --lossless $_.FullName }
+    targetType: 'inline'
     workingDirectory: reveal-docs\en
-    pwsh: Get-ChildItem -Recurse -Filter *.png | Foreach-Object { optimizt --lossless $_.FullName }
 # Update the hrefs in Reveal md files
 - task: RegexReplace@3
   inputs:
