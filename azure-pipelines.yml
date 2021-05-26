@@ -74,8 +74,8 @@ steps:
     targetType: 'inline'
     workingDirectory: reveal-docs\en
     script: |
-      $Images = Get-ChildItem -Recurse -Name -Filter *.png
-      optimizt --lossless @Images
+    $Images = Get-ChildItem -Recurse -Name -Filter *.png
+    optimizt --lossless @Images
     
 # Update the hrefs in Reveal md files
 - task: RegexReplace@3
