@@ -13,6 +13,9 @@ const argv = require('yargs').argv;
 const fs = require('fs');
 const environmentVariablesPreConfig = require('./node_modules/igniteui-docfx-template/post-processors/PostProcessors/EnvironmentVariables/preconfig.json');
 
+const cp = require('child_process');
+
+
 // var fileRoot = 'c:/work/NetAdvantage/DEV/XPlatform/2019.2/'
 
 var mt = null;
@@ -478,4 +481,25 @@ gulp.task('build-docfx-WebComponents', function(cb) {
 
 gulp.task('build-docfx-Slingshot', function(cb) {
     sequence('buildSlingshot', 'get-template', 'styles', 'cleanup-site', 'post-processor-configs', 'build-site', cb);
+});
+
+
+gulp.task('submodule-update', function() {
+    return cp.execFile('git submodule update --init --recursive');
+});
+
+gulp.task('robocopy-1', function() {
+    return cp.execFile('robocopy reveal-docs/en docTopics/en/components/analytics /s /xf toc.yml');
+});
+
+gulp.task('robocopy-2', function() {
+    return cp.execFile('robocopy reveal-docs/en docfx/en/components/analytics toc.yml /s');
+});
+
+gulp.task('robocopy-3', function() {
+    return cp.execFile('robocopy reveal-images/en docTopics/en/components/analytics /s /xf toc.yml');
+});
+
+gulp.task('initial-configuration', () => {
+    sequence('submodule-update', 'robocopy-1', 'robocopy-2', 'robocopy-3');
 });

@@ -17,7 +17,8 @@
     "start-React": "tsc && gulp serve-site --plat=React",
     "build-docfx": "tsc && gulp build-docfx-Slingshot --plat=Slingshot",
     "build-staging": "tsc && set NODE_ENV=staging && gulp build-docfx-Slingshot --plat=Slingshot",
-    "build-production": "tsc && set NODE_ENV=production && gulp build-docfx-Slingshot --plat=Slingshot"
+    "build-production": "tsc && set NODE_ENV=production && gulp build-docfx-Slingshot --plat=Slingshot",
+    "init-app": "gulp initial-configuration && npm run build && npm run start"
   },
   "keywords": [],
   "author": "",
