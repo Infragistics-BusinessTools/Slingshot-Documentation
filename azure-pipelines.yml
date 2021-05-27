@@ -64,10 +64,11 @@ steps:
   inputs: 
     script: 'npm i -g @funboxteam/optimizt'
 # Run the image compression tool on Slingshot images
-- task: CmdLine@2
+- task: PowerShell@2
   inputs: 
     workingDirectory: doctopics\en\images
-    script: 'optimizt --lossless doctopics\en\images'
+    script: 'Get-ChildItem -Filter *.png | Foreach-Object { optimizt --lossless $_.FullName }'
+    targetType: 'inline'
 # Run the image compression tool on Reveal images
 - task: PowerShell@2
   inputs: 
