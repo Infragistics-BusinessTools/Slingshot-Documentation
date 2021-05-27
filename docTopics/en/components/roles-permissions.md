@@ -4,14 +4,16 @@ One of the main methods of access control in computer systems is known as role-b
 
 Using roles and permissions is a common practice for big companies, but it's also particularly helpful for those who want to give access to external people, like third-parties and contractors. Slingshot was designed with different roles and permissions that contemplate many possible scenarios.
 
-### What Are roles and Permissions within Slingshot?
+### What Are Roles and Permissions within Slingshot?
 
-In Slingshot, people can join an organization, one or more teams, and also one or more projects. Roles and permissions apply only to organizations and teams.
+In Slingshot, users can join one or more workspaces, and can also be part of an Organization. 
 
-Roles represent a set of permissions assigned to a Slingshot user in relation to a team or an organization. This means every user is assigned a role when joining organizations or teams. There are three different roles with a clear set of permissions - owner, member and viewer.
+Roles represent a set of permissions that a user has in a workspace or in the Organization. The role is assigned to the user when they join the workspace/Organization. There are three different roles - owner, member and viewer.
 
 <a name="teams-projects-roles"></a>
 ### So, What Can the Different Roles Do?
+
+In the table below, you will find what permissions each role has in the workspace or Organization. 
 
 **Owners** have full access to manage a team or organization. This includes inviting new members or removing them, deleting a team (not an organization), and also changing a team's name, description and privacy (public or private).  
 Team owners can invite other users to the team and also make them owners. The Slingshot user who creates a team is automatically assigned as its owner. If you are the only owner of a team, you cannot leave it without assigning another member as an owner.  
