@@ -67,7 +67,7 @@ steps:
 - task: CmdLine@2
   inputs: 
     workingDirectory: doctopics\en\images
-    script: 'optimizt --lossless .'
+    script: 'optimizt --lossless doctopics\en\images'
 # Run the image compression tool on Reveal images
 - task: PowerShell@2
   inputs: 
