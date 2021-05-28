@@ -74,7 +74,7 @@ steps:
   inputs: 
     script: Get-ChildItem -Recurse -Filter *.png | Foreach-Object { optimizt --lossless $_.FullName }
     targetType: 'inline'
-    workingDirectory: reveal-docs\en
+    workingDirectory: docTopics\en\components\analytics
 # Update the hrefs in Reveal md files
 - task: RegexReplace@3
   inputs:
