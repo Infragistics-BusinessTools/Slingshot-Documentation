@@ -61,16 +61,19 @@ steps:
     overWrite: true
 # Install the image compression tool
 - task: CmdLine@2
+  displayName: Install Image Optimizer
   inputs: 
     script: 'npm i -g @funboxteam/optimizt'
 # Run the image compression tool on Slingshot images
 - task: PowerShell@2
+  displayName: Compress Slingshot images
   inputs: 
     workingDirectory: doctopics\en\images
     script: 'Get-ChildItem -Filter *.png | Foreach-Object { optimizt --lossless $_.FullName }'
     targetType: 'inline'
-# Run the image compression tool on Reveal images
+# Run the image compression tool on images coming from Reveal
 - task: PowerShell@2
+  displayName: Compress Reveal images
   inputs: 
     script: Get-ChildItem -Recurse -Filter *.png | Foreach-Object { optimizt --lossless $_.FullName }
     targetType: 'inline'
