@@ -7,5 +7,5 @@ dist
 src/**/*.js
 src/**/*.js.map
 .vscode/*.*
-docTopics/*
-npm-shrinkwrap.json
+docfx/en/components/analytics
+docTopics/en/components/analytics
