@@ -13,6 +13,9 @@ const argv = require('yargs').argv;
 const fs = require('fs');
 const environmentVariablesPreConfig = require('./node_modules/igniteui-docfx-template/post-processors/PostProcessors/EnvironmentVariables/preconfig.json');
 
+const cp = require('child_process');
+const robocopy = require('robocopy');
+
 // var fileRoot = 'c:/work/NetAdvantage/DEV/XPlatform/2019.2/'
 
 var mt = null;
@@ -237,29 +240,29 @@ function buildPlatform(cb, platformName, apiPlatform) {
     // });
 }
 
-gulp.task('buildAngular', ['cleanAngular'], function(cb) {
-    ensureEnvironment();
+// gulp.task('buildAngular', ['cleanAngular'], function(cb) {
+//     ensureEnvironment();
 
-    buildPlatform(cb, "Angular", ml.APIPlatform.Angular);
-});
+//     buildPlatform(cb, "Angular", ml.APIPlatform.Angular);
+// });
 
-gulp.task('buildReact', ['cleanReact'], function(cb) {
-    ensureEnvironment();
+// gulp.task('buildReact', ['cleanReact'], function(cb) {
+//     ensureEnvironment();
 
-    buildPlatform(cb, "React", ml.APIPlatform.React);
-});
+//     buildPlatform(cb, "React", ml.APIPlatform.React);
+// });
 
-gulp.task('buildWebComponents', ['cleanWebComponents'], function(cb) {
-    ensureEnvironment();
+// gulp.task('buildWebComponents', ['cleanWebComponents'], function(cb) {
+//     ensureEnvironment();
 
-    buildPlatform(cb, "WebComponents", ml.APIPlatform.WebComponents);
-});
+//     buildPlatform(cb, "WebComponents", ml.APIPlatform.WebComponents);
+// });
 
-gulp.task('buildSlingshot', ['cleanSlingshot'], function(cb) {
+gulp.task('buildSlingshot', gulp.series('cleanSlingshot', function(cb) {
     ensureEnvironment();
 
     buildPlatform(cb, "Slingshot", ml.APIPlatform.Slingshot);
-});
+}));
 
 gulp.task('buildAll', function (cb) {
     sequence('buildSlingshot', 'buildAngular', 'buildReact', 'buildWebComponents', cb);
@@ -285,7 +288,7 @@ console.log("config DOCFX_CONF " + DOCFX_CONF);
 console.log("config DOCFX_TEMPLATE " + DOCFX_TEMPLATE);
 console.log("config DOCFX_SITE " + DOCFX_SITE);
 
-gulp.task('serve-site', () => {
+gulp.task('serve-site', (cb) => {
 
     let buildTask = "";
     if (PLAT === "WebComponents") {
@@ -327,64 +330,36 @@ gulp.task('serve-site', () => {
     });
     gulp.watch(`${DOCFX_TEMPLATE}/**/*`, ['watch']);
     gulp.watch([`./docTopics/${LANG}/**/*.md`, `./docfx/${LANG}/**/*.md`, `./docTopics/${LANG}/components/**`], [buildTask]);
-
+    cb();
 });
 
-gulp.task('serve-slingshot', ['build-docfx-Slingshot'], () => {
-    console.log("serving " + PLAT + " for " + LANG + " language using template " +  DOCFX_TEMPLATE);
-    browserSync.init({
-        server: {
-            baseDir: `${DOCFX_SITE}`
-        },
-        notify: {
-            styles: {
-                top: 'auto',
-                bottom: '0',
-                margin: '0px',
-                padding: '5px',
-                position: 'fixed',
-                fontSize: '10px',
-                zIndex: '9999',
-                borderRadius: '5px 0px 0px',
-                color: 'white',
-                textAlign: 'center',
-                display: 'block',
-                backgroundColor: 'rgba(60, 197, 31, 0.498039)'
-            }
-        }
-    });
-    console.log("serving " + DOCFX_SITE);
-    gulp.watch(`${DOCFX_TEMPLATE}/**/*`, ['watch']);
-    gulp.watch([`./docTopics/${LANG}/**/*.md`, `./docfx/${LANG}/**/*.md`, `./docTopics/${LANG}/components/**`], ['build-docfx-Slingshot']);
-});
-
-gulp.task('serve-all', ['build-docfx'], () => {
-    console.log("serving " + PLAT + " for " + LANG + " language using template " +  DOCFX_TEMPLATE);
-    browserSync.init({
-        server: {
-            baseDir: `${DOCFX_SITE}`
-        },
-        notify: {
-            styles: {
-                top: 'auto',
-                bottom: '0',
-                margin: '0px',
-                padding: '5px',
-                position: 'fixed',
-                fontSize: '10px',
-                zIndex: '9999',
-                borderRadius: '5px 0px 0px',
-                color: 'white',
-                textAlign: 'center',
-                display: 'block',
-                backgroundColor: 'rgba(60, 197, 31, 0.498039)'
-            }
-        }
-    });
-    console.log("serving " + DOCFX_SITE);
-    gulp.watch(`${DOCFX_TEMPLATE}/**/*`, ['watch']);
-    gulp.watch([`./docTopics/${LANG}/**/*.md`, `./docfx/${LANG}/**/*.md`, `./docTopics/${LANG}/components/**`], ['build-docfx']);
-});
+// gulp.task('serve-all', ['build-docfx'], () => {
+//     console.log("serving " + PLAT + " for " + LANG + " language using template " +  DOCFX_TEMPLATE);
+//     browserSync.init({
+//         server: {
+//             baseDir: `${DOCFX_SITE}`
+//         },
+//         notify: {
+//             styles: {
+//                 top: 'auto',
+//                 bottom: '0',
+//                 margin: '0px',
+//                 padding: '5px',
+//                 position: 'fixed',
+//                 fontSize: '10px',
+//                 zIndex: '9999',
+//                 borderRadius: '5px 0px 0px',
+//                 color: 'white',
+//                 textAlign: 'center',
+//                 display: 'block',
+//                 backgroundColor: 'rgba(60, 197, 31, 0.498039)'
+//             }
+//         }
+//     });
+//     console.log("serving " + DOCFX_SITE);
+//     gulp.watch(`${DOCFX_TEMPLATE}/**/*`, ['watch']);
+//     gulp.watch([`./docTopics/${LANG}/**/*.md`, `./docfx/${LANG}/**/*.md`, `./docTopics/${LANG}/components/**`], ['build-docfx']);
+// });
 
 
 gulp.task('styles', () => {
@@ -400,10 +375,6 @@ gulp.task('styles', () => {
         .pipe(gulp.dest(`${DOCFX_TEMPLATE_LOCAL}/styles/css`));
 });
 
-gulp.task('watch', ['build-docfx'], done => {
-    browserSync.reload();
-    done();
-});
 
 function platformify(json, platformName) {
     console.log("task platformify " + platformName);
@@ -417,7 +388,13 @@ function platformify(json, platformName) {
     );
 }
 
-gulp.task('post-processor-configs', ['cleanup-site'], () => {
+gulp.task('cleanup-site', (cb) => {
+    del.sync([`${DOCFX_SITE}`]);
+
+    cb();
+});
+
+gulp.task('post-processor-configs', gulp.series('cleanup-site', (cb) => {
     var environmentVariablesConfig = JSON.parse(JSON.stringify(environmentVariablesPreConfig));
 
     console.log("task post-processor-configs ");
@@ -439,13 +416,12 @@ gulp.task('post-processor-configs', ['cleanup-site'], () => {
         `${DOCFX_SITE}/${environmentVariablesConfig._configFileName}`,
         platformify(JSON.stringify(environmentVariablesConfig), PLAT)
     );
-});
+
+    cb();
+}));
 
 gulp.task('build-site', shell.task([`docfx build ${DOCFX_CONF}`]));
 
-gulp.task('cleanup-site', () => {
-    return del([`${DOCFX_SITE}`]);
-});
 
 gulp.task('get-template', () => {
     del.sync('./dist/igniteui-docfx-template/**/*.*');
@@ -464,18 +440,111 @@ gulp.task('get-template', () => {
     });
 });
 
-gulp.task('build-docfx', function(cb) {
-    sequence('buildAll', 'get-template', 'styles', 'cleanup-site', 'post-processor-configs', 'build-site', cb);
-});
+// gulp.task('build-docfx', gulp.series('buildAll', 'get-template', 'styles', 'cleanup-site', 'post-processor-configs', 'build-site'));
 
-gulp.task('build-docfx-React', function(cb) {
-    sequence('buildReact', 'get-template', 'styles', 'cleanup-site', 'post-processor-configs', 'build-site', cb);
-});
+// gulp.task('build-docfx-React', function(cb) {
+//     sequence('buildReact', 'get-template', 'styles', 'cleanup-site', 'post-processor-configs', 'build-site', cb);
+// });
 
-gulp.task('build-docfx-WebComponents', function(cb) {
-    sequence('buildWebComponents', 'get-template', 'styles', 'cleanup-site', 'post-processor-configs', 'build-site', cb);
-});
+// gulp.task('build-docfx-WebComponents', function(cb) {
+//     sequence('buildWebComponents', 'get-template', 'styles', 'cleanup-site', 'post-processor-configs', 'build-site', cb);
+// });
 
-gulp.task('build-docfx-Slingshot', function(cb) {
-    sequence('buildSlingshot', 'get-template', 'styles', 'cleanup-site', 'post-processor-configs', 'build-site', cb);
-});
+
+gulp.task('build-docfx-Slingshot', gulp.series('buildSlingshot', 'get-template', 'styles', 'cleanup-site', 'post-processor-configs', 'build-site'));
+
+gulp.task('watch', gulp.series('build-docfx-Slingshot', done => {
+    browserSync.reload();
+    done();
+}));
+
+const submoduleUpdate = (cb) => {
+    try {
+        cp.execSync('git submodule update --init --recursive');
+    } catch (err) { 
+        console.log(err.status);             // get the return code
+        console.log(err.output.toString());  // get robocopy's full output
+    }
+
+    cb();
+};
+
+const robocopyFirst = (cb) => {
+    return robocopy({
+        source: 'reveal-docs/en',
+        destination: 'docTopics/en/components/analytics',
+        copy: {
+            subdirs: true,
+            emptySubdirs: false
+        },
+        file: {
+            excludeFiles: ['toc.yml'],
+        }
+    });
+    // return cp.execFile('robocopy reveal-docs/en docTopics/en/components/analytics /s /xf toc.yml');
+};
+
+const robocopySecond = (cb) => {
+    return robocopy({
+        source: 'reveal-docs/en',
+        destination: 'docfx/en/components/analytics',
+        copy: {
+            subdirs: true,
+            emptySubdirs: false
+        },
+        files: ['toc.yml']
+    });
+    // return cp.execFile('robocopy reveal-docs/en docfx/en/components/analytics toc.yml /s');
+};
+
+const robocopyThird = (cb) => {
+    return robocopy({
+        source: 'reveal-images/en',
+        destination: 'docTopics/en/components/analytics',
+        copy: {
+            subdirs: true,
+            emptySubdirs: false
+        },
+        file: {
+            excludeFiles: ['toc.yml'],
+        }
+    });
+    // return cp.execFile('robocopy reveal-images/en docTopics/en/components/analytics /s /xf toc.yml');
+};
+
+// gulp.task('initial-configuration', gulp.series(() => {
+//     sequence('submodule-update', 'robocopy-1', 'robocopy-2', 'robocopy-3');
+// }));
+
+
+gulp.task('serve-slingshot', gulp.series('build-docfx-Slingshot', (cb) => {
+    console.log("serving " + PLAT + " for " + LANG + " language using template " +  DOCFX_TEMPLATE);
+    browserSync.init({
+        server: {
+            baseDir: `${DOCFX_SITE}`
+        },
+        notify: {
+            styles: {
+                top: 'auto',
+                bottom: '0',
+                margin: '0px',
+                padding: '5px',
+                position: 'fixed',
+                fontSize: '10px',
+                zIndex: '9999',
+                borderRadius: '5px 0px 0px',
+                color: 'white',
+                textAlign: 'center',
+                display: 'block',
+                backgroundColor: 'rgba(60, 197, 31, 0.498039)'
+            }
+        }
+    });
+    console.log("serving " + DOCFX_SITE);
+    gulp.watch(`${DOCFX_TEMPLATE}/**/*`, gulp.series('watch'));
+    gulp.watch([`./docTopics/${LANG}/**/*.md`, `./docfx/${LANG}/**/*.md`, `./docTopics/${LANG}/components/**`], gulp.series('build-docfx-Slingshot'));
+
+    cb();
+}));
+
+exports['initial-configuration'] = gulp.series(submoduleUpdate, robocopyFirst, robocopySecond, robocopyThird)
