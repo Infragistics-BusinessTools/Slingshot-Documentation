@@ -29,7 +29,28 @@ Learn more about the Organization in the [Workspaces](workspaces.md) topic.
 <a name="teams-projects-roles"></a>
 ### What can the different roles do in a workspace?
 
-In the table below, you will find what permissions each role has in the workspace. 
+In the table below, you will find the permissions of each role in the workspace. 
+
+
+| Permissions                                                          | Owner              | Member             | Viewer             |
+| -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
+| Can create **workspaces** and **sub-workspaces**                     | :white_check_mark: | :x:                | :x:                |
+| Can delete the **workspace**                                         | :white_check_mark: | :x:                | :x:                |
+| Can change **workspace information**                                 | :white_check_mark: | :x:                | :x:                |
+| Can manage members of the **workspace**                              | :white_check_mark: | :x:                | :x:                |
+| Can create, edit, delete **tasks**                                   | :white_check_mark: | :white_check_mark: | :x:                |
+| Can create, edit, delete **task filters**                            | :white_check_mark: | :white_check_mark: | :x:                |
+| Can create, rename, delete **discussions** and **topics**            | :white_check_mark: | :white_check_mark: | :x:                |
+| Can send messages in **topics**                                      | :white_check_mark: | :white_check_mark: | :x:                |
+| Can create, rename, delete **boards**                                | :white_check_mark: | :white_check_mark: | :x:                |
+| Can pin/unpin content to **boards**                                  | :white_check_mark: | :white_check_mark: | :x:                |
+| Can view **Analytics dashboards**                                    | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| Can create, edit and share **Analytics dashboards**                  | :white_check_mark: | :white_check_mark: | :x:                |
+| Can export **Analytics dashboards**                                  | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| Can **bookmark** tasks, discussions, topics, content, analytics      | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| Can **copy a link** to a task, discussion, topic, content, analytics | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+
+
 
 **Owners** have full access to manage a team or organization. This includes inviting new members or removing them, deleting a team (not an organization), and also changing a team's name, description and privacy (public or private).  
 Team owners can invite other users to the team and also make them owners. The Slingshot user who creates a team is automatically assigned as its owner. If you are the only owner of a team, you cannot leave it without assigning another member as an owner.  
