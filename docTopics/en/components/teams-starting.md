@@ -164,8 +164,6 @@ To do this:
 
 You can also go directly to a project's *Tasks* tab and assign a task to an external member.
 
->[!NOTE] **External members** can work with any other Slingshot users. They don't need to be part of the same main Organization as you.
-
 External members, who are added to a project, will receive notifications about the project and its state. They will also be notified when the project is mentioned (by using the *@ sign* + the project's name).
 
 The Owner of a team can also exclude team members from a project.  

@@ -10,7 +10,7 @@ In Slingshot, communication happens in discussions and private chats. To partici
 
 Each workspace has its own *Discussions* tab. To learn more about discussions, read [Starting with Discussions](discussions-starting.md). 
 
-Unlike discussions, the private chat is workspace independent. This means you can chat with any user from any team or project. You can even [chat with external users](#chat-external-users). However, because they are *private*, your chats can be accessed only by you and the users you are chatting with. 
+Unlike discussions, the private chat is workspace independent. This means you can chat with any user from any workspace. You can chat with users who are part of your Organization and users who are not. Learn below how to [chat with personal account users](#chat-personal-account-users). And, unlike discussions, your chats are *private* and can be accessed only by you and the users you are chatting with. 
 
 ### How Can I Access My Chat?
 
@@ -33,9 +33,9 @@ When the chat is *docked*, you will always see it on the right. In this mode, yo
 
 To start a chat, open the chat screen. Then follow the steps below:
 
-1. Click/tap the **+ Start a conversation...** blue button. 
+1. Click/tap the **+ Start a Chat...** blue button. 
 
-    <img src="../images/start-chat.png" alt="Start a conversation button" width="80%" />
+    <img src="../images/start-chat.png" alt="Start a chat button" width="80%" />
 
 2. Select a user from the list or type a name or email in the *search* box on top.
 3. Click/tap **Add to Chat**. 
@@ -83,14 +83,15 @@ The following 3 options appear in the dropdown when collapsed:
 
 When finished, select the **Add to Chat** blue button. 
 
-<a name='chat-external-users'></a>
-### How to Start a Chat with External Users?
+<a name='chat-personal-account-users'></a>
+### How to start a chat with users with personal accounts?
 
-All Slingshot users can take part in private and group chats, including the external users. 
-However, external users are not part of your Organization. That's why after selecting **+ Start a conversation...** you will not see their names in the list of users. You can chat with them only if you add their emails manually in the search box as shown below.
+All Slingshot users can take part in private and group chats, including the personal account users. 
+However, [personal account users](roles-permissions.html#personal-account-users) are not part of an Organization. That's why, after selecting **+ Start a Chat...**, if you have an Org, you will not see their names in the list of users. The list contains only your Organization members. You can chat with personal account users only if you add their emails manually in the search box as shown below.
 
-<img src="../images/external-user-chat.png" alt="Typing an external user's email to add them to a chat" width="100%" />
+<img src="../images/personal-account-user-chat.png" alt="Typing a personal account user's email to add them to a chat" width="100%" />
 
+Of course, if you don't have an Organization, then you will have to add all users you want to chat with like this.
 ### Leaving vs Muting a Chat
 
 Once you lose interest, you can leave or mute a chat in Slingshot.  
