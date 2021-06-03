@@ -1,20 +1,25 @@
 ## Roles & Permissions
 
-One of the main methods of access control in computer systems is known as role-based access control (RBAC). Basically, it's about restricting access to a system depending on the person's role, where multiple roles are created depending on the level of access required for different groups of people. As roles have different permissions, it is possible to limit specific tasks like viewing, creating, modifying, or sharing files.
+One of the main methods of access control in computer systems is known as role-based access control (RBAC). Basically, it's about restricting access to a system depending on the person's role. Multiple roles are created to satisfy the need of different access level for different groups of people. As roles have different permissions, it is possible to limit specific tasks like viewing, creating, modifying, or sharing files.
 
-Using roles and permissions is a common practice for big companies, but it's also particularly helpful for those who want to give access to external people, like third-parties and contractors. Slingshot was designed with different roles and permissions that contemplate many possible scenarios.
+Using roles and permissions is a common practice for big companies, but it's also particularly helpful for those who want to give access to a system to external people, like third-parties and contractors. Slingshot was designed with different roles and permissions that contemplate many possible scenarios.
 
 ### What are roles and permissions within Slingshot?
 
 In Slingshot, users can join one or more workspaces, and can also be part of an Organization. 
 
-Roles represent a set of permissions that a user has in a workspace or in the Organization. The role is assigned to the user when they join the workspace/Organization. There are three different roles - owner, member and viewer.
+Roles represent a set of permissions that a user has in a workspace or in the Organization. The role is assigned to the user when they join the workspace/Organization. There are three different roles in Slingshot - owner, member and viewer.
+### How can I find my role?
+
+You can have a different role in the different workspaces and the Org. Your role is given to you by the creator of a workspace at the moment you are invited. The creator is also the owner of the workspace. You will be notified what role they assigned to you in the invitation email. 
+
+If you want to check your role in a workspace or the Org at a later moment, you can select the overflow menu of the workspace/Org > *Manage Members*. Find more about managing workspace members in the [More on Workspaces](teams-starting.html#how-can-i-manage-team-members) topic.
 
 ### But what is an Organization in Slingshot? 
 
 Before you learn about the user roles and their permissions, you may want to know more about the Organization in Slingshot and how it concerns you. 
 
-In its nature, the Organization, also called ***the Org***, is a workspace, but not like any other workspace in Slingshot. There you can collaborate with other members of, well, your real life organization - business or non-profit. Your Organization workspace in Slingshot will appear right under _Home_ (see below).
+In its nature, the Organization, also called *the Org*, is a workspace, but not like any other workspace in Slingshot. There you can collaborate with other members of, well, your real life organization - business or non-profit. Your Organization workspace in Slingshot will appear right under _Home_ (see below).
 
 > screenshot
 
@@ -24,8 +29,6 @@ Having an Organization in Slingshot makes you a user with an Organization accoun
 
 Learn more about the Organization in the [Workspaces](workspaces.md) topic.
 
-### How can I find my role?
-
 <a name="teams-projects-roles"></a>
 ### What can the different roles do in a workspace?
 
@@ -34,8 +37,8 @@ In the table below, you will find the permissions of each role in the workspace.
 
 | Permissions                                                          | Owner              | Member             | Viewer             |
 | -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| Can create **workspaces** and **sub-workspaces**                     | :white_check_mark: | :x:                | :x:                |
-| Can delete the **workspace**                                         | :white_check_mark: | :x:                | :x:                |
+| Can create and delete **workspaces**                                 | :white_check_mark: | :x:                | :x:                |
+| Can create **sub-workspaces** under a workspace                      | :white_check_mark: | :white_check_mark: | :x:                |
 | Can change **workspace information**                                 | :white_check_mark: | :x:                | :x:                |
 | Can manage members of the **workspace**                              | :white_check_mark: | :x:                | :x:                |
 | Can create, edit, delete **tasks**                                   | :white_check_mark: | :white_check_mark: | :x:                |
@@ -50,15 +53,15 @@ In the table below, you will find the permissions of each role in the workspace.
 | Can **bookmark** tasks, discussions, topics, content, analytics      | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 | Can **copy a link** to a task, discussion, topic, content, analytics | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 
+The Slingshot user who creates a workspace is automatically assigned as its **owner**. A workspace can have more than one owner. However, if you are the only owner of a workspace, you cannot leave it without assigning another member as an owner. 
 
+**Owners** have full access to manage a workspace. This includes changing its main **information** - *name*, *description*, *privacy*, *status* and even deleting it. It also means owners have the right to **manage members** of the workspace - invite, remove and change their roles. They can create, edit and delete all content inside the workspace - tasks, filters, discussions, topics, boards, and Analytics dashboards.
 
-**Owners** have full access to manage a team or organization. This includes inviting new members or removing them, deleting a team (not an organization), and also changing a team's name, description and privacy (public or private).  
-Team owners can invite other users to the team and also make them owners. The Slingshot user who creates a team is automatically assigned as its owner. If you are the only owner of a team, you cannot leave it without assigning another member as an owner.  
-Members of an Office 365 or G Suite organization need to log in with their associated email so they can be added to the Organization within Slingshot. The first time someone of the organization logs in to Slingshot, the org is created using the same name. All members of an organization join the Slingshot organization as owners.
+**Members** are more limited than owners but they are allowed to create sub-workspaces under the workspace. They can also create, edit and delete tasks, filters, discussions, topics, boards, and Analytics dashboards. When [joining](teams-starting.html#how-can-I-discover-and-join-other-teams) a public workspace by yourself and not by invitation, you are assigned the member role by default.
 
-**Members** are more limited than Owners but they are allowed to create and edit projects, tasks, filters, discussions, topics, boards, and also create and share dashboards. When searching and joining a public team (not by invitation), you are assigned the member role by default.
+**Viewers** are limited to view, bookmark and share content. To be a viewer in a workspace, you have to be invited with the viewer role.
 
-**Viewers** are limited to view and share content. To be a viewer in a team, you have to be invited with the viewer role.
+>[!NOTE] Your permissions in a sub-workspaces are not affected by your role in the parent workspace. This means that even if you are an owner in the parent workspace, you can't have permissions exceeding your role in the sub-workspace. For example, if you are a member of the sub-workspace, you cannot delete it even if you are an owner of the workspace.
 
 <a name="personal-account-users"></a>
 ### What about external users?
