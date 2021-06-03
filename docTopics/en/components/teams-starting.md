@@ -39,7 +39,7 @@ By scrolling down you are able to navigate all your teams and their projects. If
 
 To navigate to any team, just click/tap over it.
 
-### How Can I Discover and Join Other Teams?
+### How can I discover and join other teams?
 
 To become a team member you first need to discover your new team. Select the _Join or Create a Team_ button at the bottom of the *Teams* tab to open a dialog with the available teams.
 
