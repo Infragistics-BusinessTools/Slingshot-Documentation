@@ -1,5 +1,5 @@
 ---
-title: $ProductName$
+title: Slingshot
 _language: jp
 ---
 
