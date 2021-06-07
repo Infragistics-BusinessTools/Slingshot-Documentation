@@ -8,7 +8,7 @@ A user profile is a collection of settings and information associated with a spe
 
 ### What is Profile Information in Slingshot?
 
-Your profile information in Slingshot includes the characteristics that make you recognizable in your collaboration space, for example your name and title. This information is important for Slingshot and for your collaborators so Emily (our AI assisstant) will remind you to complete it to 100%. 
+Your profile information in Slingshot includes the characteristics that make you recognizable in your collaboration space, for example your name and title. This information is important for Slingshot and for your collaborators so Emily (our AI assistant) will remind you to complete it to 100%. 
 
 ### How Can I Complete or Change My Profile Information?
 

@@ -39,7 +39,7 @@ By scrolling down you are able to navigate all your teams and their projects. If
 
 To navigate to any team, just click/tap over it.
 
-### How Can I Discover and Join Other Teams?
+### How can I discover and join other teams?
 
 To become a team member you first need to discover your new team. Select the _Join or Create a Team_ button at the bottom of the *Teams* tab to open a dialog with the available teams.
 
@@ -163,8 +163,6 @@ To do this:
 5. Click **Done** and then **Update** to send invites. 
 
 You can also go directly to a project's *Tasks* tab and assign a task to an external member.
-
->[!NOTE] **External members** can work with any other Slingshot users. They don't need to be part of the same main Organization as you.
 
 External members, who are added to a project, will receive notifications about the project and its state. They will also be notified when the project is mentioned (by using the *@ sign* + the project's name).
 

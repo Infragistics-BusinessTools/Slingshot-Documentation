@@ -51,7 +51,7 @@ Click **Create** > **+ Members** and proceed to adding project members. Start ty
 > Change screenshot
 <img src="../images/projects-add-team-members.png" alt="Adding team members to a project" width="100%"/>
 
-You can assign one or more team members to the project, plus any external people that might belong to other teams or even from outside of the organization.
+You can assign one or more team members to the project, plus any external people that might belong to other teams or even from outside of the Organization.
 
 Proceed to invite external members by adding their emails to the list. Then, select _Send Invites_.
 
