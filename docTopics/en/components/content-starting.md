@@ -69,6 +69,7 @@ To share files, basically you just pin the content you want to share to a board,
 
 Normally you'll use boards to share files, but if you are working with a team or project, you can pin relevant content to the overview. This will increase the visibility of that specific file. Additionally, you can also pin a file to a discussion to collaborate over it temporarily.
 
+<a name='file-permissions'></a>
 ### How to Set File Permissions?
 
 When you share files inside teams and projects, you make these files available for the users inside the team/project. 

@@ -101,14 +101,26 @@ Once you lose interest, you can leave or mute a chat in Slingshot.
 Normally, the chat icon on top shows the total number of unread chat messages. When you **mute** a private or group chat, its new messages are no longer added to that count. This is the option for you if you do not want to follow the conversation anymore, but you still want to have access to it. 
 To mute a chat, click on its **overflow menu** > **Mute Notifications**. 
 
-### How Can I Share a File in the Chat?
+### How can I share a file in the chat?
 
 In the Slingshot chat, you can share files from your device, cloud storage, or even from a team or project where these files are pinned.  
 
 Select the paperclip icon to attach the file to your message. 
   
->[!NOTE] **Slingshot does not store your files.** When you share a file from your device, it will first be uploaded to your personal cloud storage (*OneDrive*, for example) and not to Slingshot directly. Then, to share it with others, Slingshot will just link to its location in your cloud storage.
+Slingshot does not store your files. When you share a file from your device, it will first be uploaded to your personal cloud storage (*OneDrive*, for example) and not to Slingshot directly. Then, to share it with others, Slingshot will just link to its location in your cloud storage.
 
-#### File Permissions
+#### Sharing a file pinned to workspace board
 
-File permissions are meant to give the file owner control over who can access their files. If you are the owner of the file you share in the chat, Slingshot will ask you what type of permissions you want to set. 
+What about files that are pinned to a workspace board? Sometimes you need to share these files with people who are not part of the workspace. Slingshot allows you to do this, by sending a link in the chat or by starting a chat directly from a pinned file. To do this, navigate to the file and open its overflow menu:
+
+> screenshot showing the Start a chat option in the overflow of a file
+
+Having said that, keep in mind that your workspace may include files with sensitive information. That's why when pinning a file to a workspace its owner can restrict the access by choosing [file permissions](content-starting.html#file-permissions). 
+
+Depending on the file permissions, there are two scenarios when you try to share a file in the chat. 
+
+1. When the owner of the file has set **Owner Gives Access** permissions, this means they would like to fully control the access to the file. You can still share it with another user in the chat, but they will need to ask the owner of the file for permissions the first time they open it. 
+2. When the owner has set **Only Members Can Access** or **All Can Access**, you can share the file in the chat and the other user can open it freely. 
+
+
+
