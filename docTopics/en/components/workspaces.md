@@ -34,7 +34,11 @@ When you work towards a common objective, using shared resources is required. On
 
 ### Using workspaces within the workspace
 
+More often than not, you will work with different people from the workspace on different tasks. This makes it important to distinguish workspace general tasks from the tasks you work on in a specific time frame. 
 
+For example, if you are part of a Marketing workspace, you may want to separate the campaigns from each other. This will give you the opportunity to track the progress on each campaign more easily, to communicate faster and to get data about it from *Slingshot's* _Analytics_. 
+
+Slingshot gives 
 
 
 ### Want to know more about workspaces?
