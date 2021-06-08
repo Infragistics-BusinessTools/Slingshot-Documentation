@@ -1,7 +1,8 @@
-const { series, watch, src, dest } = require('gulp');
+const { series, watch, src, dest, parallel} = require('gulp');
 const { buildDocfx } = require('igniteui-docfx-template');
 const slash = require('slash');
 const replace = require('gulp-replace');
+const imagemin = require('gulp-imagemin');
 const path = require('path');
 const browserSync = require('browser-sync').create();
 const argv = require('yargs').argv;
@@ -47,6 +48,14 @@ const replaceRevealContents = () => {
         .pipe(
             dest(`docfx/${LANG}/components/analytics`)
         );
+}
+
+const compressImages = () => {
+    return src(`docfx/${LANG}/**/*.png`)
+            .pipe(imagemin({silent: false, verbose: true}))
+            .pipe(
+                dest(`docfx/${LANG}`)
+            );
 }
 
 const buildSite = () => {
@@ -96,6 +105,9 @@ const addWatcher = (done) => {
         series(buildSite, browserSyncReload));
     done();
 }
+
+exports['ci-assets-copy'] = series(copyRevealTopicsAndTOCs, overwriteRevealFiles, parallel(compressImages, replaceRevealContents));
+exports['ci-build'] = series(this['ci-assets-copy'], buildSite);
 
 exports.copyRevealAssets = series(copyRevealTopicsAndTOCs, overwriteRevealFiles, replaceRevealContents);
 exports.build = series(this.copyRevealAssets, buildSite);
