@@ -28,5 +28,22 @@ To support each other, the members of a workspace can get a sense of the workspa
 
 <img src="../images/team-overview-example.png" alt="A workspace overview example" width="100%">
 
+When you work towards a common objective, using shared resources is required. One of the best practices in Slingshot is to organize your content in *Boards*. Designed to manage your personal or workspace content, boards are just containers. They keep connections to cloud storages, where you hold your resources.
+
+<img src="../images/projects-content.png" alt="An example of a board used to hold workspace resources" width="100%">
+
+### Using workspaces within the workspace
+
+
+
+
+### Want to know more about workspaces?
+
+Continue [here](workspaces-starting.md)!
+
+
+
+
+
 
 
