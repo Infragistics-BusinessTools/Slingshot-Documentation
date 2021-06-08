@@ -25,7 +25,8 @@ const REVEAL_RETAIL_STORE_LINK_REGEX = /http:\/\/download\.infragistics\.com\/(r
 
 const submoduleUpdate = (cb) => {
     try {
-        spawnSync('git submodule update --init --recursive');
+        spawnSync('git', ['submodule', 'update', '--init', '--recursive']);
+        console.log("Reveal docs are available");
     } catch (err) {
         console.log(err.status);             // get the return code
         console.log(err.output.toString());  // get robocopy's full output
