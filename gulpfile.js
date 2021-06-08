@@ -1,5 +1,4 @@
 const { series, watch, src, dest } = require('gulp');
-const { spawnSync } = require('child_process');
 const { buildDocfx } = require('igniteui-docfx-template');
 const slash = require('slash');
 const replace = require('gulp-replace');
@@ -22,18 +21,6 @@ const REVEAL_DOWNLOAD_LINK_REGEX = /http:\/\/download\.infragistics\.com\/(repor
 const REVEAL_DASHBOARD_AND_VISUALIZATION_TUTORIAL_LINK_REGEX = /http:\/\/download\.infragistics\.com\/(reportplus|reveal)\/help\/samples\/Reveal/g;
 const REVEAL_DATASET_LINK_REGEX = /http:\/\/download\.infragistics\.com\/(reportplus|reveal)\/help\/samples\/HR\%20Dataset_2016/g;
 const REVEAL_RETAIL_STORE_LINK_REGEX = /http:\/\/download\.infragistics\.com\/(reportplus|reveal)\/help\/samples\/Retail_Store/g;
-
-const submoduleUpdate = (cb) => {
-    try {
-        spawnSync('git', ['submodule', 'update', '--init', '--recursive']);
-        console.log("Reveal docs are available");
-    } catch (err) {
-        console.log(err.status);             // get the return code
-        console.log(err.output.toString());  // get robocopy's full output
-    }
-
-    cb();
-};
 
 const copyRevealTopicsAndTOCs = () => {
     return src(`reveal-docs/${LANG}/**`)
@@ -111,5 +98,5 @@ const addWatcher = (done) => {
 }
 
 exports.copyRevealAssets = series(copyRevealTopicsAndTOCs, overwriteRevealFiles, replaceRevealContents);
-exports.build = series(submoduleUpdate, this.copyRevealAssets, buildSite);
+exports.build = series(this.copyRevealAssets, buildSite);
 exports.serve = series(this.build, serveSite, addWatcher);
