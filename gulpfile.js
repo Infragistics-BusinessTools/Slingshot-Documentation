@@ -34,7 +34,6 @@ const submoduleUpdate = (cb) => {
     cb();
 };
 
-
 const copyRevealTopicsAndTOCs = () => {
     return src(`reveal-docs/${LANG}/**`)
         .pipe(
@@ -42,7 +41,7 @@ const copyRevealTopicsAndTOCs = () => {
         );
 };
 
-const overwriteRevealWithSlingshot = () => {
+const overwriteRevealFiles = () => {
     return src([`reveal-images/${LANG}/**`, `!reveal-images/${LANG}/**/*toc.yml`])
         .pipe(
             dest(`docfx/${LANG}/components/analytics`)
@@ -110,6 +109,6 @@ const addWatcher = (done) => {
     done();
 }
 
-exports.copyRevealAssets = series(copyRevealTopicsAndTOCs, overwriteRevealWithSlingshot, replaceRevealContents);
+exports.copyRevealAssets = series(copyRevealTopicsAndTOCs, overwriteRevealFiles, replaceRevealContents);
 exports.build = series(submoduleUpdate, this.copyRevealAssets, buildSite);
 exports.serve = series(this.build, serveSite, addWatcher);
