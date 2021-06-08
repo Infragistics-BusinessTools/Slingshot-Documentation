@@ -1,10 +1,10 @@
-const { series, watch } = require('gulp');
+const { series, watch, src, dest } = require('gulp');
 const { spawnSync } = require('child_process');
 const { buildDocfx } = require('igniteui-docfx-template');
 const slash = require('slash');
+const replace = require('gulp-replace');
 const path = require('path');
 const browserSync = require('browser-sync').create();
-const robocopy = require('robocopy');
 const argv = require('yargs').argv;
 
 const LANG = argv.lang === undefined ? "en" : argv.lang;
@@ -16,13 +16,12 @@ const DOCFX_PATH = `docfx/${DOCFX_BASE[LANG]}`;
 const DOCFX_TEMPLATE_GLOBAL = slash(path.join(__dirname, 'node_modules', 'igniteui-docfx-template', 'template', 'bundling.global.json'));
 const DOCFX_SITE = `${DOCFX_PATH}/_site`;
 
-const buildSite = () => {
-    return buildDocfx({
-        siteDir: DOCFX_SITE,
-        projectDir: DOCFX_PATH,
-        environment: process.env.NODE_ENV ? process.env.NODE_ENV.trim() : null
-    });
-}
+//Regexes for replacement of Reveal sources with Slinghot
+const REVEAL_HREF_REGEX = /~\/en\//g;
+const REVEAL_DOWNLOAD_LINK_REGEX = /http:\/\/download\.infragistics\.com\/(reportplus|reveal)\//g;
+const REVEAL_DASHBOARD_AND_VISUALIZATION_TUTORIAL_LINK_REGEX = /http:\/\/download\.infragistics\.com\/(reportplus|reveal)\/help\/samples\/Reveal/g;
+const REVEAL_DATASET_LINK_REGEX = /http:\/\/download\.infragistics\.com\/(reportplus|reveal)\/help\/samples\/HR\%20Dataset_2016/g;
+const REVEAL_RETAIL_STORE_LINK_REGEX = /http:\/\/download\.infragistics\.com\/(reportplus|reveal)\/help\/samples\/Retail_Store/g;
 
 const submoduleUpdate = (cb) => {
     try {
@@ -36,45 +35,40 @@ const submoduleUpdate = (cb) => {
 };
 
 
-const copyRevealTopics = () => {
-    return robocopy({
-        source: `reveal-docs/${LANG}`,
-        destination: `docfx/${LANG}/components/analytics`,
-        copy: {
-            subdirs: true,
-            emptySubdirs: false
-        },
-        file: {
-            excludeFiles: ['toc.yml'],
-        }
-    });
+const copyRevealTopicsAndTOCs = () => {
+    return src(`reveal-docs/${LANG}/**`)
+        .pipe(
+            dest(`docfx/${LANG}/components/analytics`)
+        );
 };
 
-const copyRevealTOCs = () => {
-    return robocopy({
-        source: `reveal-docs/${LANG}`,
-        destination: `docfx/${LANG}/components/analytics`,
-        copy: {
-            subdirs: true,
-            emptySubdirs: false
-        },
-        files: ['toc.yml']
-    });
+const overwriteRevealWithSlingshot = () => {
+    return src([`reveal-images/${LANG}/**`, `!reveal-images/${LANG}/**/*toc.yml`])
+        .pipe(
+            dest(`docfx/${LANG}/components/analytics`)
+        );
 };
 
-const copyRevealImages = () => {
-    return robocopy({
-        source: `reveal-images/${LANG}`,
-        destination: `docfx/${LANG}/components/analytics`,
-        copy: {
-            subdirs: true,
-            emptySubdirs: false
-        },
-        file: {
-            excludeFiles: ['toc.yml'],
-        }
+const replaceRevealContents = () => {
+    return src(`docfx/${LANG}/components/analytics/**/*.md`)
+        .pipe(replace(REVEAL_HREF_REGEX, '~/components/analytics/'))
+        .pipe(replace(REVEAL_DASHBOARD_AND_VISUALIZATION_TUTORIAL_LINK_REGEX, 'https://download.infragistics.com/slingshot/samples/Slingshot'))
+        .pipe(replace(REVEAL_DATASET_LINK_REGEX, 'https://download.infragistics.com/slingshot/samples/HR_Dataset_2016'))
+        .pipe(replace(REVEAL_RETAIL_STORE_LINK_REGEX, 'https://download.infragistics.com/slingshot/samples/Retail-Store'))
+        .pipe(replace(REVEAL_DOWNLOAD_LINK_REGEX, 'https://download.infragistics.com/slingshot/'))
+        .pipe(replace('Reveal', 'Analytics'))
+        .pipe(
+            dest(`docfx/${LANG}/components/analytics`)
+        );
+}
+
+const buildSite = () => {
+    return buildDocfx({
+        siteDir: DOCFX_SITE,
+        projectDir: DOCFX_PATH,
+        environment: process.env.NODE_ENV ? process.env.NODE_ENV.trim() : null
     });
-};
+}
 
 const serveSite = (done) => {
     browserSync.init({
@@ -116,6 +110,6 @@ const addWatcher = (done) => {
     done();
 }
 
-exports.copyRevealAssets = series(copyRevealTopics, copyRevealTOCs, copyRevealImages);
+exports.copyRevealAssets = series(copyRevealTopicsAndTOCs, overwriteRevealWithSlingshot, replaceRevealContents);
 exports.build = series(submoduleUpdate, this.copyRevealAssets, buildSite);
 exports.serve = series(this.build, serveSite, addWatcher);
