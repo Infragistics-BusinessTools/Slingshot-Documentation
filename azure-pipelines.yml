@@ -20,16 +20,18 @@ steps:
     Contents: |
       package-lock.json
 - task: CmdLine@2
+  displayName: "Npm install" 
   inputs:
     script: 'npm install'
 # get the Reveal repo
 - task: CmdLine@2
+  displayName: "Update/Fetch submodules" 
   inputs:
     script: 'git submodule update --init --recursive'
-- task: Npm@1
+- task: CmdLine@2
+  displayName: "Build Slingshot docfx" 
   inputs:
-    command: 'custom'
-    customCommand: 'run build:staging'
+    script: 'npm run build:staging'
 - task: PublishBuildArtifacts@1
   inputs:
     PathtoPublish: 'docfx/en/_site'
