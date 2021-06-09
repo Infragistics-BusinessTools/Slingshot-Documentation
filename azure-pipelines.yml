@@ -34,7 +34,7 @@ steps:
     script: 'npm run build:staging'
 - task: PublishBuildArtifacts@1
   inputs:
-    PathtoPublish: 'docfx/en/_site'
+    PathtoPublish: 'docfx'
     ArtifactName: 'docs'
     publishLocation: 'FilePath'
     TargetPath: '\\igbgsofsmb2\builds\Slingshot\Docs\$(Build.DefinitionName)\$(Build.BuildNumber)'

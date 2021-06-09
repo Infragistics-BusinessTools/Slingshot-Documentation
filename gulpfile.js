@@ -9,8 +9,8 @@ const argv = require('yargs').argv;
 
 const LANG = argv.lang === undefined ? "en" : argv.lang;
 const DOCFX_BASE = {
-    en: './en',
-    jp: './jp'
+    en: 'en',
+    jp: 'jp'
 };
 const DOCFX_PATH = `docfx/${DOCFX_BASE[LANG]}`;
 const DOCFX_TEMPLATE_GLOBAL = slash(path.join(__dirname, 'node_modules', 'igniteui-docfx-template', 'template', 'bundling.global.json'));
@@ -100,8 +100,7 @@ const addWatcher = (done) => {
 
     watch([
         `${DOCFX_TEMPLATE_GLOBAL}`,
-        `${DOCFX_PATH}/components/**/*.md`],
-        { delay: 3000, queue: false },
+        `./${DOCFX_PATH}/**/*.md`],
         series(buildSite, browserSyncReload));
     done();
 }
