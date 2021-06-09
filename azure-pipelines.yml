@@ -19,14 +19,6 @@ steps:
     SourceFolder: 
     Contents: |
       package-lock.json
-      yarn.lock
-
-- task: YarnInstaller@3
-  inputs:
-    versionSpec: '1.21.1'
-- task: Yarn@3
-  inputs:
-    arguments: 'install'
 - task: CmdLine@2
   inputs:
     script: 'npm install'
@@ -34,101 +26,10 @@ steps:
 - task: CmdLine@2
   inputs:
     script: 'git submodule update --init --recursive'
-# copy Reveal md files to Slingshot files folder
-# - task: CopyFiles@2
-#   inputs:
-#     sourceFolder: reveal-docs\en
-#     Contents: |
-#       **\*
-#       !**\toc.yml
-#     targetFolder: docTopics\en\components\analytics
-#     overWrite: true
-# # copy Reveal toc files to Slingshot files folder
-# - task: CopyFiles@2
-#   inputs:
-#     sourceFolder: reveal-images\en
-#     Contents: '**\toc.yml'
-#     targetFolder: docfx\en\components\analytics
-#     overWrite: true
-# # copy Reveal images and md files to Slingshot files folder
-# - task: CopyFiles@2
-#   inputs:
-#     sourceFolder: reveal-images\en
-#     Contents: |
-#       **\*.png
-#       **\*.md
-#     targetFolder: docTopics\en\components\analytics
-#     overWrite: true
-# Install the image compression tool
-# - task: CmdLine@2
-#   displayName: Install Image Optimizer
-#   inputs: 
-#     script: 'npm i -g @funboxteam/optimizt'
-# Run the image compression tool on Slingshot images
-# - task: PowerShell@2
-#   displayName: Compress Slingshot images
-#   inputs: 
-#     workingDirectory: doctopics\en\images
-#     script: 'Get-ChildItem -Filter *.png | Foreach-Object { optimizt --lossless $_.FullName }'
-#     targetType: 'inline'
-# # Run the image compression tool on images coming from Reveal
-# - task: PowerShell@2
-#   displayName: Compress Reveal images
-#   inputs: 
-#     script: Get-ChildItem -Recurse -Filter *.png | Foreach-Object { optimizt --lossless $_.FullName }
-#     targetType: 'inline'
-#     workingDirectory: docTopics\en\components\analytics
-# Update the hrefs in Reveal md files
-# - task: RegexReplace@3
-#   inputs:
-#     InputSearchPattern: 'docTopics\en\components\analytics\**\*.md'
-#     FindRegex: '~\/en\/'
-#     ReplaceRegex: '~/components/analytics/'
-#     UseUTF8: false
-#     UseRAW: true
-# # Update the download links in Reveal md files
-# - task: RegexReplace@3
-#   inputs:
-#     InputSearchPattern: 'docTopics\en\components\analytics\**\*.md'
-#     FindRegex: 'http:\/\/download\.infragistics\.com\/(reportplus|reveal)\/'
-#     ReplaceRegex: 'https://download.infragistics.com/slingshot/'
-#     UseUTF8: false
-#     UseRAW: true
-# # Update the Dashboard/Visualization Tutorials links in Reveal md files
-# - task: RegexReplace@3
-#   inputs:
-#     InputSearchPattern: 'docTopics\en\components\analytics\**\*.md'
-#     FindRegex: 'http:\/\/download\.infragistics\.com\/(reportplus|reveal)\/help\/samples\/Reveal'
-#     ReplaceRegex: 'https://download.infragistics.com/slingshot/samples/Slingshot'
-#     UseUTF8: false
-#     UseRAW: true
-# # Update the Dataset links in Reveal md files
-# - task: RegexReplace@3
-#   inputs:
-#     InputSearchPattern: 'docTopics\en\components\analytics\**\*.md'
-#     FindRegex: 'http:\/\/download\.infragistics\.com\/(reportplus|reveal)\/help\/samples\/HR\%20Dataset_2016'
-#     ReplaceRegex: 'https://download.infragistics.com/slingshot/samples/HR_Dataset_2016'
-#     UseUTF8: false
-#     UseRAW: true
-# # Update the Retail Store links in Reveal md files
-# - task: RegexReplace@3
-#   inputs:
-#     InputSearchPattern: 'docTopics\en\components\analytics\**\*.md'
-#     FindRegex: 'http:\/\/download\.infragistics\.com\/(reportplus|reveal)\/help\/samples\/Retail_Store'
-#     ReplaceRegex: 'https://download.infragistics.com/slingshot/samples/Retail-Store'
-#     UseUTF8: false
-#     UseRAW: true
-# # Replace 'Reveal' with 'Analytics' in all .md files
-# - task: RegexReplace@3
-#   inputs:
-#     InputSearchPattern: 'docTopics\en\components\analytics\**\*.md'
-#     FindRegex: 'Reveal'
-#     ReplaceRegex: 'Analytics'
-#     UseUTF8: false
-#     UseRAW: true
-- task: Yarn@3
+- task: Npm@1
   inputs:
-    arguments: 'build:staging'
+    command: 'custom'
+    customCommand: 'run build:staging'
 - task: PublishBuildArtifacts@1
   inputs:
     PathtoPublish: 'docfx/en/_site'
