@@ -1,84 +1,111 @@
 ## Roles & Permissions
 
-One of the main methods of access control in computer systems is known as role-based access control (RBAC). Basically, it's about restricting access to a system depending on the person's role, where multiple roles are created depending on the level of access required for different groups of people. As roles have different permissions, it is possible to limit specific tasks like viewing, creating, modifying, or sharing files.
+One of the main methods of access control in computer systems is known as role-based access control (RBAC). Basically, it's about restricting access to a system depending on the person's role. Multiple roles are created to satisfy the need of different access level for different groups of people. As roles have different permissions, it is possible to limit specific tasks like viewing, creating, modifying, or sharing files.
 
-Using roles and permissions is a common practice for big companies, but it's also particularly helpful for those who want to give access to external people, like third-parties and contractors. Slingshot was designed with different roles and permissions that contemplate many possible scenarios.
+Using roles and permissions is a common practice for big companies, but it's also particularly helpful for those who want to give access to a system to external people, like third-parties and contractors. Slingshot was designed with different roles and permissions that contemplate many possible scenarios.
 
 ### What are roles and permissions within Slingshot?
 
 In Slingshot, users can join one or more workspaces, and can also be part of an Organization. 
 
-Roles represent a set of permissions that a user has in a workspace or in the Organization. The role is assigned to the user when they join the workspace/Organization. There are three different roles - owner, member and viewer.
-
-### But what is an Organization in Slingshot? 
-
-Before you learn about the user roles and their permissions, you may want to know more about the Organization in Slingshot and how it concerns you. 
-
-In its nature, the Organization, also called ***the Org***, is a workspace, but not like any other workspace in Slingshot. There you can collaborate with other members of, well, your real life organization - business or non-profit. Your Organization workspace in Slingshot will appear right under _Home_ (see below).
-
-> screenshot
-
-To have an Organization workspace in Slingshot, you need to log in with your organization's email. The roles in the Slingshot Organization are the same as in other workspaces - owner, member, viewer. However, the permissions of these roles in the Organization are not the same. Learn more below. 
-
-Having an Organization in Slingshot makes you a user with an Organization account or an **Org user**. If you use your personal email to log in Slingshot, then you are a **personal account user**. You will learn more about [personal account users](#personal-account-users) later in this topic.
-
-Learn more about the Organization in the [Workspaces](workspaces.md) topic.
-
+Roles represent a set of permissions that a user has in a workspace or in the Organization. The role is assigned to the user when they join the workspace/Organization. There are three different roles in Slingshot - owner, member and viewer.
 ### How can I find my role?
+
+You can have a different role in the different workspaces and the Org. Your role is given to you by the creator of a workspace at the moment you are invited. The creator is also the owner of the workspace. You will be notified what role they assigned to you in the invitation email. 
+
+If you want to check your role in a workspace or the Org at a later moment, you can select the overflow menu of the workspace/Org > *Manage Members*. Find more about managing workspace members in the [More on Workspaces](teams-starting.html#how-can-i-manage-team-members) topic.
 
 <a name="teams-projects-roles"></a>
 ### What can the different roles do in a workspace?
 
-In the table below, you will find what permissions each role has in the workspace. 
+In the table below, you will find the permissions of each role in the workspace. 
 
-**Owners** have full access to manage a team or organization. This includes inviting new members or removing them, deleting a team (not an organization), and also changing a team's name, description and privacy (public or private).  
-Team owners can invite other users to the team and also make them owners. The Slingshot user who creates a team is automatically assigned as its owner. If you are the only owner of a team, you cannot leave it without assigning another member as an owner.  
-Members of an Office 365 or G Suite organization need to log in with their associated email so they can be added to the Organization within Slingshot. The first time someone of the organization logs in to Slingshot, the org is created using the same name. All members of an organization join the Slingshot organization as owners.
 
-**Members** are more limited than Owners but they are allowed to create and edit projects, tasks, filters, discussions, topics, boards, and also create and share dashboards. When searching and joining a public team (not by invitation), you are assigned the member role by default.
+| Permissions                                                          | Owner              | Member             | Viewer             |
+| -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
+| Can create and delete **workspaces**                                 | :white_check_mark: | :x:                | :x:                |
+| Can create **sub-workspaces** under a workspace                      | :white_check_mark: | :white_check_mark: | :x:                |
+| Can change **workspace information**                                 | :white_check_mark: | :x:                | :x:                |
+| Can manage members of the **workspace**                              | :white_check_mark: | :x:                | :x:                |
+| Can create, modify, delete **tasks**                                 | :white_check_mark: | :white_check_mark: | :x:                |
+| Can create, modify, delete **task filters**                          | :white_check_mark: | :white_check_mark: | :x:                |
+| Can create, modify, delete **discussions** and **topics**            | :white_check_mark: | :white_check_mark: | :x:                |
+| Can send messages in **topics**                                      | :white_check_mark: | :white_check_mark: | :x:                |
+| Can create, modify, delete **boards**                                | :white_check_mark: | :white_check_mark: | :x:                |
+| Can pin/unpin content to **boards**                                  | :white_check_mark: | :white_check_mark: | :x:                |
+| Can view **Analytics dashboards**                                    | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| Can create, modify, and share **Analytics dashboards**               | :white_check_mark: | :white_check_mark: | :x:                |
+| Can export **Analytics dashboards**                                  | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| Can **bookmark** tasks, discussions, topics, content, analytics      | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| Can **copy a link** to a task, discussion, topic, content, analytics | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 
-**Viewers** are limited to view and share content. To be a viewer in a team, you have to be invited with the viewer role.
+The Slingshot user who creates a workspace is automatically assigned as its **owner**. A workspace can have more than one owner. However, if you are the only owner of a workspace, you cannot leave it without assigning another member as an owner. 
+
+**Owners** have full access to manage a workspace. This includes changing its main **information** - *name*, *description*, *privacy*, *status* and even deleting it. It also means owners have the right to **manage members** of the workspace - invite, remove and change their roles. They can create, edit and delete all content inside the workspace - tasks, filters, discussions, topics, boards, and Analytics dashboards.
+
+**Members** are more limited than owners but they are allowed to create sub-workspaces under the workspace. They can also create, edit and delete tasks, filters, discussions, topics, boards, and Analytics dashboards. When [joining](teams-starting.html#how-can-I-discover-and-join-other-teams) a public workspace by yourself and not by invitation, you are assigned the member role by default.
+
+**Viewers** are limited to view, bookmark and share content. To be a viewer in a workspace, you have to be invited with the viewer role.
+
+>[!NOTE] Your permissions in the sub-workspaces are not affected by your role in the parent workspace. This means that even if you are an owner in the parent workspace, you can't have permissions exceeding your role in the sub-workspace. For example, if you are an owner in the parent workspace and a viewer in the sub-workspace, you cannot create or delete anything in the sub-workspace.
+
+
+### What about roles in the Organization? 
+
+Before you learn about the user roles and their permissions, you may want to know more about the Organization in Slingshot. 
+
+In short, the Organization, also called *the Org*, is a workspace, but it's not like any other workspace in Slingshot. There you can collaborate with other members of, well, your real life organization - business or non-profit. 
+
+Your Organization in Slingshot will appear right under _Home_ (see below). You need sign in with Google or Microsoft using the email associated with your organization.
+
+> screenshot
+
+The roles in the Slingshot Organization are the same as in other workspaces - owner, member, viewer. Look at the table below to find more about the permissions of these roles in the Organization. 
+
+| Permissions                                                            | Owner              | Member             | Viewer             |
+| ---------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
+| Can edit the **Org information**                                       | :white_check_mark: | :x:                | :x:                |
+| Can **manage members** of the Org                                      | :white_check_mark: | :x:                | :x:                |
+| Can **create** discussions, topics, content, boards, and dashboards    | :white_check_mark: | :white_check_mark: | :x:                |
+| Can **modify** discussions, topics, content, boards, and dashboards    | :white_check_mark: | :white_check_mark: | :x:                |
+| Can **delete** discussions, topics, content, boards, and dashboards    | :white_check_mark: | :x:                | :x:                |
+| Can **view** discussions, topics, content, boards, and dashboards      | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| Can **bookmark** discussions, topics, content, boards, analytics       | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| Can **copy a link** to discussions, topics, content, boards, analytics | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+
+Learn more about the Organization in the [Workspaces](workspaces.md) topic.
 
 <a name="personal-account-users"></a>
-### What about external users?
+### What about users with no Organization?
 
-Sometimes you may need to work with people from outside of your team or even from outside the organization. People with expertise in many different areas can be mixed in a team that is not part of the organization. You can also create a project that includes tasks assigned to external users.
+Having an Organization in Slingshot makes you a user with an Organization account or an **Org user**. If you use your personal email to sign into Slingshot, then you are a **personal account user**. Personal account users don't have an Organization. However, in real life, people from an organization structure sometimes need to work with external people. Slingshot allows you to create workspaces where both Organization users and users with personal accounts can be mixed together.
 
-In Slingshot, people can be part of an organization, one or more teams, and also one or more projects. Teams normally live within organizations, and projects live within teams. That being said, you can create a team outside of your organization to mix in external users. Also, you can invite external users or people from other teams to any project. This is particularly useful when external users will work with you for a limited amount of time. All projects have a beginning and an end, after all, and you can assign tasks within a project to one or more external users.
+>[!NOTE] Just bear in mind that when inviting users with personal accounts to a workspace, you have to enter the email they use in Slingshot. They will receive an email invitation and they have to accept it to join the workspace.
 
-So, what path should you take?
-
-If you are thinking of a **small contribution**, you can go to a team and create a specific task for an external user. This user won't be added to the team and will receive a notification about the task assigned. For the external user, the task will appear in *Home > Tasks*.
-
-> Change screenshot
-<img src="../images/externalUser-task.png" alt="Showing a Task created for an external user" width="100%"/>
-
-Alternatively, the external user might be **further involved into a specific project**. This way, the external user will collaborate in multiple tasks with other users. In this case, you should add the user to that specific project within the team. Again, the user won't be added to the team.
-
-Finally, you might want to create a team to add an external user that **frequently collaborates with you and other organization members**. In this case, you should create a team outside your organization that includes the external user and other members.
-
+Personal account users can be assigned the same roles in the workspaces - owner, member and viewer. These roles have equal permissions for both Org users and users with a personal account. 
 ### How do permissions around cloud storages work?
 
 The content that is relevant to you might be stored in different cloud storages. Slingshot lets you create connections to those cloud storages to access that content, share it, and organize it in boards. Those connections can be private or shared and they are meant to be used in different scenarios.
 
-_Only you_ have access to **private cloud storage** connections and you can create/delete them whenever you want. That being said, you are able to **share private content with others** if you want.
-When you pin content from a private cloud storage to a team shared board, that specific content becomes available for the whole team. But it does not mean that team members can access the rest of the cloud storage contents.
+In *Home* > *Content*, you will find you *private cloud storage** connections. _Only you_ have access to these private connections and you can create/delete them whenever you want. That being said, you are able to **share private content with others** if you want.
 
-_All the members of a team_ have access to **team cloud storage** connections and they can create/delete them whenever they want. You can also keep useful content at hand by pinning it to a team board.
+When you pin content from a private cloud storage to a workspace board, that specific content becomes available for the whole workspace. But it does not mean that team members can access the rest of the private cloud storage contents.
+
+_All the members of a workspace_ have access to **workspace cloud storage** connections and they can create/delete them whenever they want.
 
 > [!NOTE]
-> If you use your **Office 365** account to log into Slingshot, you will start with your **OneDrive** configured. Same applies to logging with your **Google** account and starting with a **Google Drive**.
+> If you use your **Microsoft** account to log into Slingshot, you will start with your **OneDrive** configured. Same applies to logging with your **Google** account and starting with a **Google Drive**.
 
 
 ### What about public and private workspaces?
 
-A newly created team is public by default, meaning that any member of the main organization can search and join the team. Trust and transparency are key elements for effective collaboration, and also help with ownership and accountability.  
-That being said, sometimes you might need to have a private team, leaving your team out of the search results. In this case, users can only join the team by getting invitations from existing members. This is helpful for teams that handle sensitive information, in those cases the organization wants to restrict access.
+A newly created workspace is public by default, meaning that any member of the Organization can search and join the workspace. Trust and transparency are key elements for effective collaboration, and also help with ownership and accountability.  
+That being said, sometimes you might need to have a private workspace. In this case, users can only join the workspace by getting invitations from an owner of the workspace. This is helpful for teams that handle sensitive information. In those cases the organization wants to restrict access.
 
-To change a team's privacy, you need to be one of the owners of the team. To do this, select your **team** > **overflow menu** next to team's name > **Team Settings** > **Information** > **Privacy**.
+To change a workspace privacy, select your workspace's **overflow menu** > **Workspace Settings** > **Information** > **Privacy**.
 
 > Change screenshot
 <img src="../images/access-team-settings.png" alt="Accessing team settings" width="100%"/>
 
-Here you can also change your team's name and description. Click/tap **Update** when ready. 
+Change to **Private** and select **Update**.
 

@@ -28,9 +28,9 @@ Depending on where you stand, you will find different discussions. To guarantee 
 
 Within a *Team*, you can have discussions about everything concerning your team and teammates. Only team members can access team discussions.
 
-Within a *Project*, you can have discussions that are specific for this project. Every collaborator in the project, incl. external users, can join these discussions. Projects live inside teams. The members of these teams also have access to project discussions. 
+Within a *Project*, you can have discussions that are specific for this project. Every collaborator in the project, incl. personal account users, can join these discussions. Projects live inside teams. The members of these teams also have access to project discussions. 
 
-Within the *Organization* team, you will find *Discussions* too. Organization discussions cannot be accessed by external users. This is the perfect place for announcements and other important organization related discussions. 
+Within the *Organization* team, you will find *Discussions* too. Organization discussions cannot be accessed by [personal account users](roles-permissions.html#personal-account-users). This is the perfect place for announcements and other important organization related discussions. 
 
 ### How Can I Discover and Join Discussions?
 

@@ -10,7 +10,7 @@ In Slingshot, communication happens in discussions and private chats. To partici
 
 Each workspace has its own *Discussions* tab. To learn more about discussions, read [Starting with Discussions](discussions-starting.md). 
 
-Unlike discussions, the private chat is workspace independent. This means you can chat with any user from any team or project. You can even [chat with external users](#chat-external-users). However, because they are *private*, your chats can be accessed only by you and the users you are chatting with. 
+Unlike discussions, the private chat is workspace independent. This means you can chat with any user from any workspace. You can chat with users who are part of your Organization and users who are not. Learn below how to [chat with personal account users](#chat-personal-account-users). And, unlike discussions, your chats are *private* and can be accessed only by you and the users you are chatting with. 
 
 ### How Can I Access My Chat?
 
@@ -33,9 +33,9 @@ When the chat is *docked*, you will always see it on the right. In this mode, yo
 
 To start a chat, open the chat screen. Then follow the steps below:
 
-1. Click/tap the **+ Start a conversation...** blue button. 
+1. Click/tap the **+ Start a Chat...** blue button. 
 
-    <img class="responsive-img" src="../images/start-chat.png" alt="Start a conversation button" width="80%" />
+    <img class="responsive-img" src="../images/start-chat.png" alt="Start a chat button" width="80%" />
 
 2. Select a user from the list or type a name or email in the *search* box on top.
 3. Click/tap **Add to Chat**. 
@@ -83,14 +83,15 @@ The following 3 options appear in the dropdown when collapsed:
 
 When finished, select the **Add to Chat** blue button. 
 
-<a name='chat-external-users'></a>
-### How to Start a Chat with External Users?
+<a name='chat-personal-account-users'></a>
+### How to start a chat with users with personal accounts?
 
-All Slingshot users can take part in private and group chats, including the external users. 
-However, external users are not part of your Organization. That's why after selecting **+ Start a conversation...** you will not see their names in the list of users. You can chat with them only if you add their emails manually in the search box as shown below.
+All Slingshot users can take part in private and group chats, including the personal account users. 
+However, [personal account users](roles-permissions.html#personal-account-users) are not part of an Organization. That's why, after selecting **+ Start a Chat...**, if you have an Org, you will not see their names in the list of users. The list contains only your Organization members. You can chat with personal account users only if you add their emails manually in the search box as shown below.
 
-<img class="responsive-img" src="../images/external-user-chat.png" alt="Typing an external user's email to add them to a chat" width="100%" />
+<img class="responsive-img" src="../images/personal-account-user-chat.png" alt="Typing a personal account user's email to add them to a chat" width="100%" />
 
+Of course, if you don't have an Organization, then you will have to add all users you want to chat with like this.
 ### Leaving vs Muting a Chat
 
 Once you lose interest, you can leave or mute a chat in Slingshot.  
@@ -100,14 +101,26 @@ Once you lose interest, you can leave or mute a chat in Slingshot.
 Normally, the chat icon on top shows the total number of unread chat messages. When you **mute** a private or group chat, its new messages are no longer added to that count. This is the option for you if you do not want to follow the conversation anymore, but you still want to have access to it. 
 To mute a chat, click on its **overflow menu** > **Mute Notifications**. 
 
-### How Can I Share a File in the Chat?
+### How can I share a file in the chat?
 
 In the Slingshot chat, you can share files from your device, cloud storage, or even from a team or project where these files are pinned.  
 
 Select the paperclip icon to attach the file to your message. 
   
->[!NOTE] **Slingshot does not store your files.** When you share a file from your device, it will first be uploaded to your personal cloud storage (*OneDrive*, for example) and not to Slingshot directly. Then, to share it with others, Slingshot will just link to its location in your cloud storage.
+Slingshot does not store your files. When you share a file from your device, it will first be uploaded to your personal cloud storage (*OneDrive*, for example) and not to Slingshot directly. Then, to share it with others, Slingshot will just link to its location in your cloud storage.
 
-#### File Permissions
+#### Sharing a file pinned to workspace board
 
-File permissions are meant to give the file owner control over who can access their files. If you are the owner of the file you share in the chat, Slingshot will ask you what type of permissions you want to set. 
+What about files that are pinned to a workspace board? Sometimes you need to share these files with people who are not part of the workspace. Slingshot allows you to do this, by sending a link in the chat or by starting a chat directly from a pinned file. To do this, navigate to the file and open its overflow menu:
+
+> screenshot showing the Start a chat option in the overflow of a file
+
+Having said that, keep in mind that your workspace may include files with sensitive information. That's why when pinning a file to a workspace its owner can restrict the access by choosing [file permissions](content-starting.html#file-permissions). 
+
+Depending on the file permissions, there are two scenarios when you try to share a file in the chat. 
+
+1. When the owner of the file has set **Owner Gives Access** permissions, this means they would like to fully control the access to the file. You can still share it with another user in the chat, but they will need to ask the owner of the file for permissions the first time they open it. 
+2. When the owner has set **Only Members Can Access** or **All Can Access**, you can share the file in the chat and the other user can open it freely. 
+
+
+
