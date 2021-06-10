@@ -1,10 +1,3 @@
 ---
-title: $ProductName$
+title: Slingshot
 ---
-
-<script type="text/javascript">
-(function() {
-        let HOST = window.location.href;
-        window.location.href = HOST + 'components/welcome-slingshot.html';
-})();
-</script>

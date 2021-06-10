@@ -1,11 +1,9 @@
 {
-    "_navBarTitle": "{ProductName}",
-    "_navBarTitleHref": "https://jp.infragistics.com/products/{ProductSpinal}/",
-    "_currentBaseUrl": "https://jp.infragistics.com/products/{ProductSpinal}/{PlatformShortLower}/",
-    "_hasKRLang": true,
-    "_ENBaseUrl": "https://www.infragistics.com/products/{ProductSpinal}/{PlatformShortLower}/",
-    "_JABaseUrl": "https://jp.infragistics.com/products/{ProductSpinal}/{PlatformShortLower}/",
-    "_KRBaseUrl": "https://kr.infragistics.com/products/{ProductSpinal}/{PlatformShortLower}/",
-    "_themeUsage": false,
-    "_demosBaseUrlVar": "{environment:dvDemosBaseUrl}"
+    "_navBarTitle": "Slingshot",
+    "_navBarTitleHref": "https://www.slingshotapp.io/",
+    "_currentBaseUrl": "https://www.slingshotapp.io/",
+    "_hasKRLang": false,
+    "_ENBaseUrl": "https://www.slingshotapp.io/",
+    "_JABaseUrl": "https://www.slingshotapp.io/",
+    "_themeUsage": false
 }
