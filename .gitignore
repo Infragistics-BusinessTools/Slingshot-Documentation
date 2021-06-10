@@ -1,11 +1,6 @@
 node_modules
-build
 npm-debug.log
 .env
 .DS_Store
 dist
-src/**/*.js
-src/**/*.js.map
-.vscode/*.*
 docfx/en/components/analytics
-docTopics/en/components/analytics
