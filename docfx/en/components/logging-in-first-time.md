@@ -5,12 +5,12 @@ When opening the app you'll be met with different login options:
 
 <img src="../images/slingshot-login.png" alt="Slingshot log in screen" width="100%"/>
 
-Before jumping in, take into account that in Slingshot you can join an **Organization**. If you are a member of an organization, you have to log in with your organization’s email. Choose Google (G Suite) or Microsoft (Office 365) as needed and you'll be associated with the Organization team.
+Before jumping in, take into account that in Slingshot you can join an **Organization**. If you are a member of an organization, you have to log in with your organization’s email. Choose Google or Microsoft as needed and you'll be associated with the main Organization.
 
 > [!NOTE]
-> The Organization team is useful for managers and leaders to communicate key goals, metrics, strategies, and important announcements throughout their organization. The Organization team is named after your organization (e.g. your company's name).  
+> The Organization workspace is useful for managers and leaders to communicate key goals, metrics, strategies, and important announcements throughout their organization. The Organization workspace is named after your organization (e.g. your company's name).  
 
-When you log in with Google and Microsoft, you get a cloud storage automatically configured based on your credentials, Google Drive or OneDrive respectively. This means you get access to your files on the cloud storage and can share them with other users to collaborate over them.
+When you log in with Google or Microsoft, you get a cloud storage automatically configured based on your credentials, Google Drive or OneDrive respectively. This means you get access to your files on the cloud storage and can share them with other users to collaborate over them.
 
 ### Your First Screen
 
@@ -26,9 +26,9 @@ You always start in your personal space, your **Home**. Specifically, in _My Ove
 
 As you can see above, _My Overview_ can get very busy. Let's focus on getting you familiar with Slingshot first...
 
-### Home, Organization, Teams, and Projects
+### My Stuff, Organization, Workspaces
 
-Your personal space, **Home**, is great and useful, but Slingshot is about effective collaboration while running teams and projects. So, you're probably wondering how to switch between your personal space, teams, and projects? 
+Your personal space, **My Stuff**, is great and useful, but Slingshot is about effective collaboration in *Workspaces* where you run teams and projects. So, you're probably wondering how to switch between your personal space, the Organization, and the workspaces? 
 
 Check out the image below:
 
@@ -39,11 +39,11 @@ The navigation panel on the left includes:
 
 - your **Home** tab; 
 - your **Organization** tab (if you have one), and 
-- the **Teams** and **Bookmarks** tabs. 
+- the **Workspaces** and **Bookmarks** tabs. 
 
-You can switch between the content in your Home, Organization and teams. 
+You can switch between the content in your Home, Organization and workspaces. 
 
-When the *Teams* tab is selected you will see a list of Teams and Projects. If you bookmarked a team or project to keep it at hand, you can select the *Bookmarks* tab to find it faster.
+When the *Workspaces* tab is selected you will see a list of workspaces and [sub-workspaces](workspaces.html##using-workspaces-within-the-workspace). If you bookmarked a team or project to keep it at hand, you can select the *Bookmarks* tab to find it faster.
 
 To navigate to any team or project, just click/tap over it.
 
