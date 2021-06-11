@@ -31,7 +31,7 @@ const copyRevealTopicsAndTOCs = () => {
 };
 
 const overwriteRevealFiles = () => {
-    return src([`reveal-images/${LANG}/**`, `!reveal-images/${LANG}/**/*toc.yml`])
+    return src([`reveal-images/${LANG}/**`])
         .pipe(
             dest(`docfx/${LANG}/components/analytics`)
         );
