@@ -1,7 +1,6 @@
-## Starting with Content & Boards
+## Learn more about Content & Boards
 
-After learning the basics of [Content & Boards](content-boards.md) in Slingshot, you are ready to explore how to best organize and manage your content.  
-
+Welcome!  
 Read on to get answers to most of your questions about content and boards.
 
 ### Personal vs Shared Boards/Cloud Storages

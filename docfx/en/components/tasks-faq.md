@@ -1,8 +1,7 @@
-## Starting with Tasks
+## Learn more about Tasks
 
-After learning the basics of [Tasks](tasks.md) in Slingshot, you will be ready to explore how to best use them to organize your work.  
-
-Read on to get answers to most of your questions about working with tasks.
+Welcome!  
+Read on to get answers to most of your questions about tasks.
 
 ### Personal vs Shared Tasks
 In Slingshot you can have personal and shared tasks, they work pretty much the same but they do have a few differences detailed below.
