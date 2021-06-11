@@ -61,9 +61,13 @@ If you are part of the parent workspace and you haven't joined some of its sub-w
 
 > screenshot showing the *Join* button and at least two unjoined sub-workspaces and one that is already added
 
->[!NOTE] You cannot receive notifications from sub-workspaces you haven't joined. However, you can always view their content without joining.
+>[!NOTE] You can always view the content in sub-workspaces without joining them. However, you will not receive any updates from them.
 
-### How Can I Create a New Team?
+### What is added to the Shared workspace? 
+
+As you already know, in Slingshot you can work with other users in a sub-workspace even when you are not a member of its parent workspace. You will find all such sub-workspaces under the *Shared* workspace.
+The *Shared* workspace automatically appears in the Workspaces panel the first time you are added individually to a sub-workspace. 
+### How Can I Create a New Workspace?
 
 Every user in Slingshot can create teams.  
 Access the team creation menu by selecting the *Teams* tab > *Join or Create a Team* button > *+ Create Team*.
