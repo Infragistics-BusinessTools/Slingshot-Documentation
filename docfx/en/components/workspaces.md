@@ -32,6 +32,7 @@ When you work towards a common objective, using shared resources is required. On
 
 <img src="../images/projects-content.png" alt="An example of a board used to hold workspace resources" width="100%">
 
+<a name='sub-workspaces'></a>
 ### Using workspaces within the workspace
 
 > I think that I can get rid of the first paragraph with no regrets.

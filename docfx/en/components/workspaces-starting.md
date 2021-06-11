@@ -3,52 +3,65 @@
 Welcome!  
 Read on to get answers to most of your questions about workspaces.
 
+<a name='organization-vs-workspace'></a>
 ### Organization vs workspace vs sub-workspace
 
-In Slingshot, people can join an organization, one or more teams, and also one or more projects.  
-The purpose of having an Organization team is for company leaders to have the ability to communicate key goals, metrics, strategies, and important announcements throughout their organization.   
+In Slingshot, people can be part of an Organization, and of limitless workspaces and sub-workspaces.
+The purpose of having an Organization workspace is for company leaders to have the ability to communicate key goals, metrics, strategies, and important announcements throughout their organization.   
 
-**The Organization team** is named after your organization (for example, your company's name). Members need to log in with their organization’s email to be associated with the Organization team. Team members in the Organization can share _Discussions_, _Content_ and _Dashboards_ with each other. 
+**The Organization workspace** is named after your organization (for example, your company's name). Members need to log in with their organization’s email to be associated with the Organization workspace. Team members in the Organization can share _Discussions_, _Content_ and _Analytics_ with each other. 
 
-You will find your Organization team in the *Home and Organization area* (see below). Here, you can switch between your personal content and content that belongs to your organization. 
+You will find your Organization workspace right under *My Stuff* (see below). 
 
 > Change screenshot
 <img src="../images/main-organization-team.png" alt="An Organization team" width="100%"/>
 
-**Teams** can be associated with the organization team or not. They can include members from within and out of the main organization team. Team members share not only *Content*, *Analytics*, and *Discussions*, but also *Projects* and *Tasks*.
+**Workspaces** can be associated with the Organization workspace or not. They can include members from within and out of the main Organization. Workspace members share not only *Content*, *Analytics*, and *Discussions*, but also *Tasks* and *sub-workspaces*.
 
 > Change screenshot
-<img src="../images/teams-example-tasks.png" alt="Example of a team and its tasks" width="100%"/>
+<img src="../images/teams-example-tasks.png" alt="Example of a workspace and its tasks" width="100%"/>
 
-**Projects** live inside of a team, but are not limited to its members. You can invite people from other teams to every project. A project contains its own *Overview*, *Tasks*, *Discussions*, *Content*, and *Dashboards*. You can also assign tasks within a project to people, who are not part of the project or the team.
+**Sub-workspaces** live inside of a workspace and can be found under the _Workspaces_ between the _Overview_ and the _Tasks_ of the [parent workspace](workspaces.html#sub-workspaces). Sub-workspaces are not limited to the members of the parent workspace. You can invite people from other workspaces to every sub-workspace. A sub-workspace contains its own *Overview*, *Tasks*, *Discussions*, *Content*, and *Analytics*. You can also assign tasks within a sub-workspace to users, who are not part of the sub-workspace or its parent workspace.
 
 > Change screenshot
 <img src="../images/project-example-overview.png" alt="A project Overview" width="100%"/>
 
-### How Can I Access my Teams?
+### How can I access my workspaces?
 
-You can access your teams on the very left of the screen, in the Teams & Projects area (shown below).
+You can access your workspaces on the very left of the screen, in the Workspaces area (shown below).
 
 > Change screenshot
 <img src="../images/teams-list.png" alt="The Teams navigation menu opened with a list of teams in it" width="100%"/>
 
-By scrolling down you are able to navigate all your teams and their projects. If you bookmarked a team or project to keep it at hand, you can select _Bookmarks_ to find it faster.   Under each project's name you will find the team where it lives (see below).
+By scrolling down you are able to navigate all your workspaces and their sub-workspaces. To access a workspace faster, you can bookmark it. From now on, you can also find this workspace under the _Bookmarks_ tab. If you are in doubt where a sub-workspace comes from, check under its name. You will see the name of its parent workspace written in grey (see the screenshot).
 
 > Change screenshot
 <img src="../images/teams-bookmarks.png" alt="Teams navigation menu opened and Bookmarks selected" width="100%"/>
 
-To navigate to any team, just click/tap over it.
+To open any workspace, just click/tap over it.
 
-### How can I discover and join other teams?
+### How can I discover and join other workspaces?
 
-To become a team member you first need to discover your new team. Select the _Join or Create a Team_ button at the bottom of the *Teams* tab to open a dialog with the available teams.
+To become a workspace member you first need to discover your new workspace. Select the _Join or Create a Workspace_ button at the bottom of the *Workspaces* panel to open a dialog with the available workspaces.
 
 > Change screenshot
 <img src="../images/join-create-button.png" alt="Join or Create a Team button" width="100%"/>
 
-In this dialog, you will find **only public teams, part of your organization**. You can join these teams on the spot, getting the Member role by default.
+In this dialog, you will find **only public workspaces, part of your Organization**. You can join these workspaces on the spot, getting the member role by default.
 
-To become part of **private teams or teams outside of your organization**, you need to be invited by their Owner.
+To become part of **private workspace or workspaces outside of your Organization**, you need to be invited by their owner.
+
+### How can I join a sub-workspace? 
+
+As it was already mentioned, sub-workspaces can mix together users from the parent workspace with users, who are not part of it. [Personal account users](roles-permissions.html#personal-account-users) can also join a sub-workspace without being members of its parent workspace.
+
+To join a workspace, if you are not a member of the parent workspace, you have to **receive an invitation** by an owner of the sub-workspace or its parent workspace. 
+
+If you are part of the parent workspace and you haven't joined some of its sub-workspaces, you can click on the blue button under its name. There you will find the available sub-workspaces and you can select *Join* next to the name of the ones you want to join (see below). 
+
+> screenshot showing the *Join* button and at least two unjoined sub-workspaces and one that is already added
+
+>[!NOTE] You cannot receive notifications from sub-workspaces you haven't joined. However, you can always view their content without joining.
 
 ### How Can I Create a New Team?
 

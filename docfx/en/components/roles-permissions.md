@@ -73,7 +73,7 @@ The roles in the Slingshot Organization are the same as in other workspaces - ow
 | Can **bookmark** discussions, topics, content, boards, analytics       | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 | Can **copy a link** to discussions, topics, content, boards, analytics | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 
-Learn more about the Organization in the [Workspaces](workspaces.md) topic.
+Learn more about the Organization in the [Workspaces](workspaces-starting.html#organization-vs-workspace) topic.
 
 <a name="personal-account-users"></a>
 ### What about users with no Organization?
@@ -87,7 +87,7 @@ Personal account users can be assigned the same roles in the workspaces - owner,
 
 The content that is relevant to you might be stored in different cloud storages. Slingshot lets you create connections to those cloud storages to access that content, share it, and organize it in boards. Those connections can be private or shared and they are meant to be used in different scenarios.
 
-In *Home* > *Content*, you will find you *private cloud storage** connections. _Only you_ have access to these private connections and you can create/delete them whenever you want. That being said, you are able to **share private content with others** if you want.
+In *My Stuff* > *Content*, you will find you *private cloud storage** connections. _Only you_ have access to these private connections and you can create/delete them whenever you want. That being said, you are able to **share private content with others** if you want.
 
 When you pin content from a private cloud storage to a workspace board, that specific content becomes available for the whole workspace. But it does not mean that team members can access the rest of the private cloud storage contents.
 
