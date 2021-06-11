@@ -75,7 +75,7 @@ The roles in the Slingshot Organization are the same as in other workspaces - ow
 
 Learn more about the Organization in the [Workspaces](workspaces-starting.html#organization-vs-workspace) topic.
 
-<a name="personal-account-users"></a>
+<a name='personal-account-users'></a>
 ### What about users with no Organization?
 
 Having an Organization in Slingshot makes you a user with an Organization account or an **Org user**. If you use your personal email to sign into Slingshot, then you are a **personal account user**. Personal account users don't have an Organization. However, in real life, people from an organization structure sometimes need to work with external people. Slingshot allows you to create workspaces where both Organization users and users with personal accounts can be mixed together.
@@ -104,7 +104,7 @@ That being said, sometimes you might need to have a private workspace. In this c
 
 To change a workspace privacy, select your workspace's **overflow menu** > **Workspace Settings** > **Information** > **Privacy**.
 
-> Change screenshot
+> Change the screenshot
 <img src="../images/access-team-settings.png" alt="Accessing team settings" width="100%"/>
 
 Change to **Private** and select **Update**.
