@@ -14,7 +14,7 @@ Only you have access to your **personal tasks** and you can find them in your pe
 
 All the members of a team or project can access the tasks created within that team or project, no matter who is assigned. And every member can manage these shared tasks freely.
 
-> Change screenshot
+> Change the screenshot
 <img src="../images/tasks-team.png" alt="Slingshot Team with a tasks displayed in a list" width="100%"/>
 
 >[!NOTE] Members of a team can view the tasks in the projects inside the team, even when they haven't joined the projects. However, the members of а project, who are not team members cannot view the team's tasks.  
@@ -22,7 +22,7 @@ All the members of a team or project can access the tasks created within that te
 
 You can access your tasks by going to a team/project and selecting the **Tasks** tab on top (see below).
 
-> Change screenshot
+> Change the screenshot
 <img src="../images/tasks-accessing.png" alt="Accessing Slingshot tasks" width="100%"/>
 
 Depending on where you stand, you will be accessing different tasks.
@@ -55,7 +55,7 @@ Alternatively, you can create subtasks for a task that is already opened:
 
 Having the task opened also allows you to insert new subtasks and this way reorder the existing subtasks (see below)
 
-> Change screenshot
+> Change the screenshot
 <img src="../images/tasks-new-subtasks-others.png" alt="Options to insert a new subtask below or above other subtasks within a Slingshot task" width="100%"/>
 
 <a name="add-task-dependency"></a>
@@ -132,14 +132,14 @@ By default, you view your tasks as a straightforward **List**, which is often go
 
 *Kanban* is a Japanese word, commonly known as a workflow management method designed to help visualize work and maximize efficiency. In Slingshot, the **Kanban** view shows a visual representation of tasks in the form of cards. Each card contains information about the task, including [task properties](#show-hide-property) such as status, deadline, assignee, etc. 
 
-> Change screenshot
+> Change the screenshot
 <img src="../images/tasks-visualizations-kanban.png" alt="Kanban visualization in Slingshot" width="100%"/>
 
 Besides, the cards are arranged in columns. By default, the columns represent different stages of the status workflow (see above). You can use drag & drop to move the cards through the workflow by changing their status on the spot. 
 
 A **Timeline** always shows a list of events in chronological order. In Slingshot, you can see tasks over a set period of time.
 
-> Change screenshot
+> Change the screenshot
 <img src="../images/tasks-visualizations-timeline.png" alt="Timeline view in Slingshot" width="100%"/>
 
 You can pick a task on the timeline and re-arrange the start and due dates by dragging its ends. 
@@ -149,7 +149,7 @@ You can even show/hide weekends by checking the **Show Weekends** box in the ove
 
 You will notice a hook on both corners of each task on the timeline. Drag the left hook of a task and connect it to another task (see in the screenshot below). With this, you will add a *waiting on* [**dependency**](#add-task-dependency) to the first task. Use the right hook to add a blocking dependency. 
 
-> Change screenshot
+> Change the screenshot
 <img src="../images/tasks-visualizations-timeline-settings.png" alt="Adjusting the Timeline view in Slingshot" width="100%"/>
 
 ### How to Group My Tasks? 
@@ -174,7 +174,7 @@ In the **Timeline** view, your tasks are ordered by ... by default. This means..
 
 In Slingshot, you can organize your tasks by using **Lists** and **Sections**.  
 
-> Change screenshot
+> Change the screenshot
 <img src="../images/tasks-lists-sections.png" alt="Lists and Sections in Slingshot" width="100%"/>
 
 **Sections** are simply divisions of a list. A list can have one or more sections, and a natural way to organize your list of tasks is grouping by sections.
@@ -197,7 +197,7 @@ Files attached can be opened, downloaded, or detached (unpinned) from the task.
 
 To attach a file, open a task and click/tap the clip icon as shown below.
 
-> change screenshot
+> Change the screenshot
 <img src="../images/tasks-attachments-new.png" alt="Adding attachments to a Slingshot task" width="100%"/>
 
 
