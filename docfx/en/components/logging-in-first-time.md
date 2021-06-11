@@ -16,12 +16,12 @@ When you log in with Google and Microsoft, you get a cloud storage automatically
 
 Once you get in, you are greeted with your first screen:
 
-> Change screenshot
+> Change the screenshot
 <img src="../images/personal-overview-blank.png" alt="Personal Overview completely blank for a new user" width="100%"/>
 
 You always start in your personal space, your **Home**. Specifically, in _My Overview_. This is the place where you can have a quick glance at your most important information, organize yourself, and visualize your work.
 
-> Change screenshot
+> Change the screenshot
 <img src="../images/overview-personal.png" alt="Personal Overview shown in Slingshot" width="100%"/>
 
 As you can see above, _My Overview_ can get very busy. Let's focus on getting you familiar with Slingshot first...
@@ -32,7 +32,7 @@ Your personal space, **Home**, is great and useful, but Slingshot is about effec
 
 Check out the image below:
 
-> Change screenshot
+> Change the screenshot
 <img src="../images/teams-navigation-opened.png" alt="Organization, Teams, and Projects navigation opened" width="50%"/>
 
 The navigation panel on the left includes: 
@@ -53,7 +53,7 @@ Follow the links for further details about [teams](teams.md) or [projects](proje
 
 Inside Slingshot teams, you will find the six main navigation bars on top: **Overview**, **Projects**, **Tasks**, **Discussions**, **Content**, **Dashboards**.
 
-> Change screenshot
+> Change the screenshot
 <img src="../images/overview-personal-navigation.png" alt="Personal Overview highlighting the main navigation items in Slingshot" width="100%"/>
 
 As already mentioned, the Organization team is not like other teams. So, inside it, there is a different number of navigation bars. That goes for your _Home_ space and _Projects_, which also have the navigation bars. 
@@ -61,7 +61,7 @@ But why is that? Let's answer this question quickly by explaining the idea behin
 
 **Overviews** give you a quick status of projects, teams, or your personal work, so you'll find them there. **Projects** are created inside teams, but cannot include other projects. **Tasks** represent work to be done by the team members in a team or in the scope of a project.  **Discussions** are used to chat among members of an organization, team or project. **Content** is about cloud storages and boards - basically you connect to cloud storages and then use boards to organize and share that content with others. Finally, **Dashboards** allow you to quickly create and share data visualizations so you can turn your data into insights.
 
-> Change screenshot
+> Change the screenshot
 <img src="../images/overview-team-navigation.png" alt="Teams Overview shown in Slingshot" width="100%"/>
 
 The image above shows the navigation bars of a Slingshot team, the Organization team, a project, and Home. Only teams have all the main navigation bars. 
@@ -82,19 +82,19 @@ In **User Settings** you can find _General Settings_, _Feedback_, and you can al
 
 Then, in _Settings_ you can find five categories, including general and profile settings, notifications, data privacy and settings related to your dashboards. In _General Settings_ you can configure your app appearance and also how you work with content, whereas _Profile Information_ includes information about you and your organization. 
 
-> Change screenshot
+> Change the screenshot
 <img src="../images/userSettings-generalSettings.png" alt="General Settings opened in Slingshot" width="100%"/>
 
 In _General Settings_ you will notice the **Drag and Drop** button. This setting allows you to manage the location of your uploads. But what does this mean?
 
 All files you reference or share within Slingshot, are located in a cloud storage. When you drag and drop a file, which comes from outside Slingshot,  it's uploaded to the cloud storage configured here.
 
-> Change screenshot
+> Change the screenshot
 <img src="../images/generalSettings-dragAndDrop.png" alt="Drag and Drop Settings access in Slingshot" width="100%"/>
 
 Use in-app **Feedback** to send us suggestions, comments, or requests about Slingshot. Here you can rate the app, add screenshots to the feedback you send, and also annotate the screenshots to provide even more detailed information.
 
-> Change screenshot
+> Change the screenshot
 <img src="../images/userSettings-feedback.png" alt="Accessing the feedback screen in Slingshot" width="100%"/>
 
 
