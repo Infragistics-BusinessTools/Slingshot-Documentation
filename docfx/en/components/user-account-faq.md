@@ -1,7 +1,10 @@
 ## Learn more about your User Account
 
-Welcome!  
-Read on to get answers to most of your questions about your user account.
+Welcome! Read on to get answers to your questions about the user account.
+
+**CONTINUE HERE**
+...
+...
 
 ### How can I access my user account
 

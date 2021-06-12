@@ -51,7 +51,7 @@
 - name: Content & Boards
   href: content-boards.md
   items:
-    - name: Content/Boards FAQ
+    - name: Content & Boards FAQ
       href: content-faq.md
       new: false
 - name: Analytics

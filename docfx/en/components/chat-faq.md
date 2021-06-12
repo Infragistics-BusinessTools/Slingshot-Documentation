@@ -1,7 +1,6 @@
 ## Learn more about the Private Chat
 
-Welcome!  
-Read on to get answers to most of your questions about your private chat.
+Welcome! Read on to get answers to your questions about the private chat.
 
 ### Discussions vs Private Chat
 

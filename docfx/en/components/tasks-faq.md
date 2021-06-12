@@ -1,9 +1,8 @@
 ## Learn more about Tasks
 
-Welcome!  
-Read on to get answers to most of your questions about tasks.
+Welcome! Read on to get answers to your questions about tasks.
 
-### Personal vs Shared Tasks
+### Personal vs shared tasks
 In Slingshot you can have personal and shared tasks, they work pretty much the same but they do have a few differences detailed below.
 
 Only you have access to your **personal tasks** and you can find them in your personal space (**Home**).
@@ -16,8 +15,9 @@ All the members of a team or project can access the tasks created within that te
 > Change the screenshot
 <img src="../images/tasks-team.png" alt="Slingshot Team with a tasks displayed in a list" width="100%"/>
 
->[!NOTE] Members of a team can view the tasks in the projects inside the team, even when they haven't joined the projects. However, the members of а project, who are not team members cannot view the team's tasks.  
-### How Can I Access my Tasks?
+>[!NOTE] Members of a team can view the tasks in the projects inside the team, even when they haven't joined the projects. However, the members of а project, who are not team members cannot view the team's tasks.
+
+### How can I access my tasks?
 
 You can access your tasks by going to a team/project and selecting the **Tasks** tab on top (see below).
 
@@ -36,7 +36,7 @@ Also, use the *My Tasks* pre-set [filter](#tasks-filters) to find all the tasks 
 
 To open a task, just click/tap over it.
 
-### How Can I Create a New Task or Subtask?
+### How can I create a new task or subtask?
 
 You can always create a **new task** with the button on the top right of the screen, no matter the view type you have selected (*List*, *Kanban*, or *Timeline*).
 
@@ -58,7 +58,7 @@ Having the task opened also allows you to insert new subtasks and this way reord
 <img src="../images/tasks-new-subtasks-others.png" alt="Options to insert a new subtask below or above other subtasks within a Slingshot task" width="100%"/>
 
 <a name="add-task-dependency"></a>
-### How Can I Add a Task Dependency? 
+### How can I add a task dependency? 
 
 Two or more tasks may depend on each other's completion. Slingshot helps you keep everyone informed about that with the task *dependency* property. 
 
@@ -73,7 +73,7 @@ Here, you can choose between two dependency types:
 
 Select the **+ Pick Waiting on Tasks** blue button to add the tasks that need to be completed before your task. Select the **+ Pick Blocking Tasks** blue button to add the tasks that can't be started before your task is completed. You can set both dependencies for the same task because one task can depend on and/or block more than one other task.
 
-### How Can I Change Properties?
+### How can I change properties?
 
 All the properties of a task, such as a title, assignees, dependencies, status, or priority can be changed using different methods.
 
@@ -84,7 +84,7 @@ A **faster method** is to just click/tap the property value you want to change, 
 <img src="../images/tasks-change-property.png" alt="Slingshot task being updated by changing its status" width="100%"/>
 
 <a name="show-hide-property"></a>
-### How Can I Show/Hide Properties?
+### How can I show/hide properties?
 
 Tasks have many field properties that can be displayed when in the *List* and *Kanban* view. By default, you can only see the *Title*, *Assignee*, and *Due Date* of a task before opening it.
 
@@ -94,7 +94,7 @@ To show/hide properties, click/tap the **overflow** button on top (next to the *
 
 
 <a name="tasks-filters"></a>
-### How Can I Filter Tasks?
+### How can I filter tasks?
 Filtering allows you to choose a smaller amount of tasks, helping you find those tasks you currently need.
 
 You can access the _Filters editor_ by clicking/tapping the filter icon on the top right of the screen (see the screenshot below).
@@ -121,7 +121,7 @@ To stop filtering tasks, click/tap the **filter icon** to open the **Filters** d
 
 For those times that you can't find a specific task, try expanding collapsed panels, removing existing filters, and/or adding filters using the properties of the task you want. Remember that the icon changes to help you identify when you have active filters or not.
 
-### Switching Between List, Kanban, and Timeline
+### Switching between List, Kanban, and Timeline
 
 You can choose between three different visualizations (_List_, _Kanban_, _Timeline_), depending on what you want to achieve.
 
@@ -151,14 +151,14 @@ You will notice a hook on both corners of each task on the timeline. Drag the le
 > Change the screenshot
 <img src="../images/tasks-visualizations-timeline-settings.png" alt="Adjusting the Timeline view in Slingshot" width="100%"/>
 
-### How to Group My Tasks? 
+### How to group my tasks? 
 
 _Group by_ options include ordering your tasks by section, priority, assignee, and other criteria. To group your tasks, select the **overflow menu > Group by** (shown below). 
 
 <img src="../images/tasks-visualizations-list.png" alt="List grouped by options in Slingshot" width="100%"/>
 
 *Group by* is available for all _View Types_. Grouping your tasks helps you find quickly tasks that share a specific property, for example, tasks assigned to the same user. Unlike filtering, the grouping will show you all tasks at the same time. Changing the *group by* criteria will affect only the current list and only the way you see your tasks. Your teammates can apply different grouping criteria to the same list, but this will not affect how you see this list in your profile. 
-### How Can I Sort Tasks? 
+### How can I sort tasks? 
 
 When you are looking at your tasks you may be wondering how they are ordered. Sorting helps you arrange your tasks in ascending or descending order by using a task property as the criterion. 
 
@@ -169,7 +169,7 @@ In the **List** view, your tasks are ordered by their date of creation by defaul
 > SUI screenshot showing order by status
 
 In the **Timeline** view, your tasks are ordered by ... by default. This means... However, you can use the *Sort by* option in the overflow menu on the right. 
-### Using Lists and Sections
+### Using lists and sections
 
 In Slingshot, you can organize your tasks by using **Lists** and **Sections**.  
 
@@ -181,7 +181,7 @@ In Slingshot, you can organize your tasks by using **Lists** and **Sections**.
 **Lists** help you organize your tasks and can be reorganized, copied, and moved around if needed.
 This is very important as it makes it easy for you to focus on your work, not planning ahead which lists or sections you need. All these changes can happen organically and were designed to boost productivity and avoid losing time.  
 
-### Working with Attachments
+### Working with attachments
 
 The ability to add **Attachments** ensures that Slingshot captures all the relevant information for your tasks and subtasks.
 
@@ -200,7 +200,7 @@ To attach a file, open a task and click/tap the clip icon as shown below.
 <img src="../images/tasks-attachments-new.png" alt="Adding attachments to a Slingshot task" width="100%"/>
 
 
-### How to Create a Task from a Discussion or a Chat Message?
+### How to create a task from a discussion or a chat message?
 
 Slingshot ensures all your communication and collaboration tools are in one place, making remote teams stay productive no matter where they are. 
 

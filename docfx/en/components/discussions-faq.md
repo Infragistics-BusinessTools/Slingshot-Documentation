@@ -1,7 +1,6 @@
 ## Learn more about Discussions
 
-Welcome!  
-Read on to get answers to most of your questions about discussions.
+Welcome! Read on to get answers to your questions about discussions.
 
 ### Discussions vs Private Chat
 
