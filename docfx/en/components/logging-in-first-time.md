@@ -43,33 +43,39 @@ The navigation panel on the left includes:
 
 You can switch between the content in your Home, Organization and workspaces. 
 
-When the *Workspaces* tab is selected you will see a list of workspaces and [sub-workspaces](workspaces.html##using-workspaces-within-the-workspace). If you bookmarked a team or project to keep it at hand, you can select the *Bookmarks* tab to find it faster.
+When the *Workspaces* tab is selected you will see a list of workspaces and [sub-workspaces](workspaces.html##using-workspaces-within-the-workspace). If you bookmarked any workspace to keep it at hand, you can select the *Bookmarks* tab to find it faster.
 
-To navigate to any team or project, just click/tap over it.
+To navigate to any workspace, just click/tap over it.
 
-Keep in mind that in Slingshot, people can be part of an organization, plus one or more teams, and also one or more projects. Projects live within teams, and you have overviews, tasks, discussions, content, and dashboards at both levels. For example, there are team tasks and project tasks as well.  
-Follow the links for further details about [teams](teams.md) or [projects](projects.md).
-### Overviews, Projects, Tasks, Discussions, Content, and Dashboards
+Keep in mind that in Slingshot, people can be part of an organization, plus limitless workspaces. Inside a parent workspace you can create more workspaces for your projects, and you have overviews, tasks, discussions, content, and analytics at both levels. For example, there are tasks in the parent workspace and tasks in each of the sub-workspaces as well.  
+Follow the links for further details about [Workspaces](workspaces.md).
 
-Inside Slingshot teams, you will find the six main navigation bars on top: **Overview**, **Projects**, **Tasks**, **Discussions**, **Content**, **Dashboards**.
+### Overviews, Workspaces, Tasks, Discussions, Content, and Analytics
+
+Inside Slingshot workspaces, you will find the six main navigation bars on top: **Overview**, **Workspaces**, **Tasks**, **Discussions**, **Content**, **Analytics**.
 
 > Change the screenshot
 <img src="../images/overview-personal-navigation.png" alt="Personal Overview highlighting the main navigation items in Slingshot" width="100%"/>
 
-As already mentioned, the Organization team is not like other teams. So, inside it, there is a different number of navigation bars. That goes for your _Home_ space and _Projects_, which also have the navigation bars. 
+As already mentioned, the Organization workspace is not like other workspaces. So, inside it, there is a different number of navigation bars. That goes for _My Stuff_ and sub-workspaces, which also have the navigation bars. 
 But why is that? Let's answer this question quickly by explaining the idea behind each navigation bar.
 
-**Overviews** give you a quick status of projects, teams, or your personal work, so you'll find them there. **Projects** are created inside teams, but cannot include other projects. **Tasks** represent work to be done by the team members in a team or in the scope of a project.  **Discussions** are used to chat among members of an organization, team or project. **Content** is about cloud storages and boards - basically you connect to cloud storages and then use boards to organize and share that content with others. Finally, **Dashboards** allow you to quickly create and share data visualizations so you can turn your data into insights.
+- **Overviews** give you a quick status of your workspaces, or your personal work, so you'll find them there. 
+- **Workspaces** allow you to create another level of workspaces inside your workspace. However, you can have only two levels of workspaces - one parent workspace containing limitless sub-workspaces.
+- **Tasks** represent work to be done by the members in a workspace.
+- **Discussions** are used to chat among members of an organization, or a workspace. 
+- **Content** is about cloud storages and boards - basically you connect to cloud storages and then use boards to organize and share that content with others. 
+- **Analytics** allow you to quickly create and share data visualizations so you can turn your data into insights.
 
 > Change the screenshot
-<img src="../images/overview-team-navigation.png" alt="Teams Overview shown in Slingshot" width="100%"/>
+<img src="../images/overview-team-navigation.png" alt="Workspaces Overview shown in Slingshot" width="100%"/>
 
-The image above shows the navigation bars of a Slingshot team, the Organization team, a project, and Home. Only teams have all the main navigation bars. 
-Follow the links for further details about [overviews](overviews.md), [projects](projects.md), [tasks](tasks.md), [discussions](communication.md), [content](content-boards.md), or [dashboards](analytics/index.md).
+The image above shows the navigation bars of a Slingshot workspace, the Organization, a sub-workspace, and *My Stuff*. Only workspaces have all the main navigation bars. 
+Follow the links for further details about [overviews](overviews.md), [workspaces](workspaces.md), [tasks](tasks.md), [discussions](communication.md), [content](content-boards.md), or [analytics](analytics/index.md).
 
 ### Notifications and User Settings
 
-**Notifications** are designed to keep you updated on any changes to teams, tasks, projects, messages, and dashboards. You can learn, among others, that a task was assigned to you, that you are removed from a team, or that someone sent a message in a discussion thread you're following.
+**Notifications** are designed to keep you updated on any changes to workspaces, tasks, messages, and analytics. You can learn, among others, that a task was assigned to you, that you are removed from a workspace, or that someone sent a message in a discussion thread you're following.
 
 <img src="../images/notifications-panel-opened.png" alt="Notifications panel opened in Slingshot" width="50%"/>
 

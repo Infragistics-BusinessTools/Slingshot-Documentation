@@ -65,7 +65,7 @@ If you are part of the parent workspace and you haven't joined some of its sub-w
 
 >[!NOTE] You can always view the content in sub-workspaces without joining them. However, you will not receive any notification updates from them.
 
-### What is added to the Shared workspace? 
+### What is added to the Shared with Me workspace? 
 
 As you already know, in Slingshot you can work with other users in a sub-workspace even when you are not a member of its parent workspace. You will find all such sub-workspaces under the *Shared* workspace.
 The *Shared* workspace automatically appears in the Workspaces panel the first time you are added individually to a sub-workspace. 
