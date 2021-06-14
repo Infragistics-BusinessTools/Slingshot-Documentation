@@ -20,7 +20,7 @@ The app behavior and overall experience can be greatly modified by tweaking your
 Now feel free to explore the different settings and make them your own:
 - Interested in a dark or light theme?
 - Wanna reduce the zoom level to fit more in your screen or enlarge it to better see the words and images?
-- Do you often use drag & drop to upload files, and want to change the default destination?
+- Do you often use drag & drop to upload files and want to change the default destination?
 - When you open files (e.g., word and excel documents), would you like to use a native app or open in a browser?
 
 **//INSERT image//** Show General Settings
@@ -37,3 +37,5 @@ Notifications will keep you updated on any changes to workspaces, tasks, new mes
 Follow the link for further details about [notifications](notifications.md).
 
 Finally, the contextual guides **CONTINUE HERE**
+...
+...

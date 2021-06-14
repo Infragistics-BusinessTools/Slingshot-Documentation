@@ -1,8 +1,6 @@
-## Starting with Discussions
+## Learn more about Discussions
 
-After learning about the variety of tools Slingshot provides to ensure great [communication](tasks.md) experience, you are ready to explore how to use them for effective collaboration.  
-
-Read on to get answers to most of your questions about discussions.
+Welcome! Read on to get answers to your questions about discussions.
 
 ### Discussions vs Private Chat
 

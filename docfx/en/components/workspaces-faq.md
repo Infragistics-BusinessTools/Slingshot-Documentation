@@ -1,7 +1,6 @@
-## Starting with Workspaces
+## Learn more about Workspaces
 
-Welcome!  
-Read on to get answers to most of your questions about workspaces.
+Welcome! Read on to get answers to your questions about workspaces.
 
 <a name='organization-vs-workspace'></a>
 ### Organization vs workspace vs sub-workspace
@@ -90,6 +89,7 @@ In this dialog, configure the following:
 * **Status**, **Start Date**, **End Date** - all these properties of your workspace will be visible for everybody in the workspace *Overview*. 
 
 Click **Create**. Your workspace is created and you can find it in the *Workspaces* panel. 
+
 ### How can I add members to a workspace? 
 
 The *Who is collaborating in this workspace?* dialog appears right after you create the workspace. To invite members, click/tap the **+ Members** blue button. Choose Organization members from the dropdown list (see below) or use the text box at the top to add the emails of [personal account users](roles-permissions.html#what-about-users-with-no-organization). 
@@ -111,6 +111,7 @@ You can create limitless workspaces within a [parent workspace](workspaces.html#
 3. Select the *+ Workspace* at the top right.
 4. You are only required to choose a name for your sub-workspace. _Status_, _Start Date_ and _End Date_ are optional.
 5. Select _Create_. Your new sub-workspace will appear in a list inside _Workspaces_. You will also see it under the parent workspace in the main *Workspace* panel on the left.
+
 ### How can I manage workspace members?
 
 You have to be a workspace owner to be able to: 
@@ -139,6 +140,7 @@ You can remove or change the role of more than one member at the same time. To d
 The same rules for managing members in the parent workspace are applicable to all its sub-workspaces.
 
 >[!NOTE] Owners of the parent workspace cannot manage members in a sub-workspace where they are not an owner.
+
 ### Can I assign tasks to people from outside of a workspace?
 
 Sometimes you may need to work on a particular task or project with people outside of your workspace. In this case, it doesn't make sense to add them as members to your workspace.

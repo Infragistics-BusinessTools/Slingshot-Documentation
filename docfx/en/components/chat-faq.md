@@ -1,8 +1,6 @@
-## Starting with Private Chat
+## Learn more about the Private Chat
 
-After learning about the variety of tools Slingshot provides to ensure great [communication](tasks.md) experience, you are ready to explore how to use them for effective collaboration.  
-
-Read on to get answers to most of your questions about the chat.
+Welcome! Read on to get answers to your questions about the private chat.
 
 ### Discussions vs Private Chat
 

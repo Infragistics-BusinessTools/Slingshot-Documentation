@@ -6,15 +6,13 @@
 - name: Logging in for the first time
   href: logging-in-first-time.md
   new: false
-- name: Managing Your Account
-  new: false
+- name: User Account
+  href: user-account.md
+  new: true
   items:
-    - name: Completing Your Profile Information
-      href: profile-information.md
-    - name: Deleting Profile Data
-      href: delete-profile.md
-    - name: Exporting Profile Data
-      href: export-profile-data.md
+    - name: User Account FAQ
+      href: user-account-faq.md
+      new: true
 - name: THE SLINGSHOT APP
   header: true
 - name: Roles & Permissions
@@ -24,23 +22,23 @@
   href: workspaces.md
   new: true
   items:
-    - name: More on Workspaces
-      href: workspaces-starting.md
+    - name: Workspaces FAQ
+      href: workspaces-faq.md
       new: true
 - name: Tasks
   href: tasks.md
   new: false
   items:
-    - name: More on Tasks
-      href: tasks-starting.md
+    - name: Tasks FAQ
+      href: tasks-faq.md
       new: false
 - name: Communication
   href: communication.md
   items: 
-    - name: More on Discussions
-      href: discussions-starting.md
-    - name: More on Private Chats
-      href: chat-starting.md
+    - name: Discussions FAQ
+      href: discussions-faq.md
+    - name: Private Chats FAQ
+      href: chat-faq.md
       updated:  true
 - name: Overviews
   href: overviews.md
@@ -53,8 +51,8 @@
 - name: Content & Boards
   href: content-boards.md
   items:
-    - name: More on ...
-      href: content-starting.md
+    - name: Content & Boards FAQ
+      href: content-faq.md
       new: false
 - name: Analytics
   href: analytics/toc.yml
