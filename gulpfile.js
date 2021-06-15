@@ -2,7 +2,6 @@ const { series, watch, src, dest, parallel} = require('gulp');
 const { buildDocfx } = require('igniteui-docfx-template');
 const slash = require('slash');
 const replace = require('gulp-replace');
-const imagemin = require('gulp-imagemin');
 const path = require('path');
 const browserSync = require('browser-sync').create();
 const argv = require('yargs').argv;
