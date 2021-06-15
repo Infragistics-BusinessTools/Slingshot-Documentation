@@ -5,12 +5,12 @@ Welcome! Read on to get answers to your questions about content and boards.
 ### Personal vs shared boards/cloud storages
 
 Connections to cloud storages get you access to your content within Slingshot and boards help you organize and share it with others.
-You can configure both personal and team boards and cloud storages, but they are meant to be used in different scenarios.
+You can configure both personal and workspace boards and cloud storages, but they are meant to be used in different scenarios.
 
-Only you have access to personal cloud storages and boards, creating and removing them whenever you want. Personal cloud storages and boards are both found in your personal space (**Home**), in the _Content_ tab.  
-That being said, you can share personal content with others if you want. When you pin content from a personal cloud storage to a team shared board, that specific content becomes available for the whole team.
+Only you have access to personal cloud storages and boards, creating and removing them whenever you want. Personal cloud storages and boards are both found in your personal space (**My Stuff**), in the _Content_ tab.  
+That being said, you can share personal content with others if you want. When you pin content from a personal cloud storage to a workspace shared board, that specific content becomes available for everyone in the workspace.
 
-All the members of a team have access to team cloud storages and boards. These shared connections and boards are in the _Content_ tab of that team.  And everyone within the team can manage the connection or pin content to any board whenever they want.
+All the members of a workspace have access to workspace cloud storages and boards. These shared connections and boards are in the _Content_ tab of that workspace.  And everyone within the workspace can manage the connection or pin content to any board whenever they want.
 
 ### Boards vs sections vs groups
 
@@ -22,11 +22,11 @@ As shown above, both elements are designed to help organize boards. **Sections**
 
 You actually pin your content to **Groups**. Sections can hold several groups and they are the most basic element you can use to organize content.
 
-Boards, sections, and groups can all be reorganized, copied, and moved around if needed. This is very important as it makes it easy for you focus on your work, not planning ahead which sections or groups you need. You can even move boards from teams to projects. All this changes can happen organically and were designed to boost productivity and avoid losing time.  
+Boards, sections, and groups can all be reorganized, copied, and moved around if needed. This is very important as it makes it easy for you focus on your work, not planning ahead which sections or groups you need. You can even move boards away from workspaces. All this changes can happen organically and were designed to boost productivity and avoid losing time.  
 
 ### How can I access my boards/cloud storages?
 
-You can access your boards and cloud storages by going to a team/project and looking for the **Content** tab on top (see the screenshot below).
+You can access your boards and cloud storages by going to a workspace and looking for the **Content** tab on top (see the screenshot below).
 
 <img src="../images/boards-storages-access.png" alt="Accessing boards and cloud storages in Slingshot" width="100%"/>
 
@@ -65,12 +65,12 @@ To share files, basically you just pin the content you want to share to a board,
 
 <img src="../images/pin-content-action.png" alt="Pin content to a board in Slingshot" width="100%"/>
 
-Normally you'll use boards to share files, but if you are working with a team or project, you can pin relevant content to the overview. This will increase the visibility of that specific file. Additionally, you can also pin a file to a discussion to collaborate over it temporarily.
+Normally you'll use boards to share files, but if you are working within a workspace, you can pin relevant content to the overview. This will increase the visibility of that specific file. Additionally, you can also pin a file to a discussion to collaborate over it temporarily.
 
 <a name='file-permissions'></a>
 ### How to set file permissions?
 
-When you share files inside teams and projects, you make these files available for the users inside the team/project. 
+When you share files inside workspaces, you make these files available for the users inside the workspace. 
 File permissions are meant to give the file owner control over who can access their files. Each time you pin a file, Slingshot will ask you what type of permission you want to set. You will see a dialog that looks like this: 
 
 <img src="../images/file-permissions-dialog.png" alt="A dialog showing the three file permission types" width="80%" />
@@ -86,13 +86,13 @@ Here, you can choose between the following three permission types:
 
 <img src="../images/manage-members-pending-access.png" alt="The dialog showing pending access requests" width="100%" />
 
-The file owner can also pre-allow access for chosen team/project members by using the **Manage Access** option when selecting the file permissions type. 
+The file owner can also pre-allow access for chosen workspace's members by using the **Manage Access** option when selecting the file permissions type. 
 
 > [!NOTE] You can change the default file permission type by selecting the *Remember my choice* checkbox. 
 
-**Only Members Can Access** is great when you want your whole team to have quick access to your file. If you choose *Only Members Can Access*, Slingshot will automatically grant access to the file providers of the other team/project members. That means all project or team members can open and edit the file without asking the owner explicitly for access.  
+**Only Members Can Access** is great when you want all your workspace collaborators to have quick access to your file. If you choose *Only Members Can Access*, Slingshot will automatically grant access to the file providers of the other workspace members. That means all workspace members can open and edit the file without asking the owner explicitly for access.  
 
-**All Can Access** is the least restrictive type of permissions. Anyone with a link to the file can access it. That means any user can open the document, if they have the link to it. As an owner of the file, you can't control who opens your file unless you change to a more restrictive type of permissions. In this case, the link to the file will not be valid anymore for any user outside of the team or project.  
+**All Can Access** is the least restrictive type of permissions. Anyone with a link to the file can access it. That means any user can open the document, if they have the link to it. As an owner of the file, you can't control who opens your file unless you change to a more restrictive type of permissions. In this case, the link to the file will not be valid anymore for any user outside of the workspace.  
 
 > [!NOTE]
 > Users who want to access a file uploaded to a cloud file provider need not only permissions in Slingshot but also a valid account with that cloud provider. For example, when you try to open a file from *OneDrive* shared by another user, you will be asked to log into your *OneDrive* account. If you don't have an account with *OneDrive*, Slingshot will deny access. This **does not apply** when the file has public permissions, and you open it in a browser. 
@@ -111,10 +111,10 @@ To view/edit who can access the file, click/tap **Member Access**. In the dialog
 
 <img src="../images/manage-members-dialog.png" alt="Members who can access dialog" width="100%" />
 
-Use the **+ Members** blue button to add more members who can view and edit the file without explicitly asking you for access.
+Use the **+ Members** blue button to pre-allow access for chosen users who can view and edit the file without  asking you explicitly.
 
 >[!NOTE]
-> For files with Automatic or Manual permissions, you can only add members of the team or project where you have uploaded the file. Users, who are not part of the team/project, can access only files with Public URLs.
+> You cannot pre-allow access to files for users who are not part of the workspace. 
 
 On the right of each member's name, you can click/tap **Editor** > **Remove** to revoke access. 
 
@@ -131,7 +131,7 @@ Then, in the dropdown choose between:
 * **Native app** - the file opens in the application on your device - MS Word for example;
 *  **Online** - the file opens in the web application - MS Word, Excel, and PowerPoint Online. 
 
-Files in personal and team cloud storages will be opened with the default application. However, for files that are pinned on a board in *Content*, you can always choose from their menu which application to use to open them (see the screenshot below). 
+Files in personal and workspace cloud storages will be opened with the default application. However, for files that are pinned on a board in *Content*, you can always choose from their menu which application to use to open them (see the screenshot below). 
 
 <img src="../images/content-open-file.png" alt="Opening a Word file" width="100%" />
 ### How to edit files?
@@ -144,7 +144,7 @@ In any case, you can always download the file to your computer or device.
 
 ### How to get quick access to content?
 
-Sometimes you came across relevant content that you really want to keep at hand. In those cases, you can pin the file to a private board in your personal space (Home).  
+Sometimes you came across relevant content that you really want to keep at hand. In those cases, you can pin the file to a private board in your personal space (My Stuff).  
 Alternatively, if you find this content already in a board, you can use _Copy Pin_ to duplicate the pin in a private board.
 
 <img src="../images/content-copy-pin.png" alt="Pin content to a board in Slingshot" width="100%"/>
@@ -164,7 +164,7 @@ You can change where drag & drop files are uploaded in _General Settings_ > _Man
 
 ### Can I rearrange boards, sections, and groups?
 
-You can reorganize, copy, and move around boards, sections, and groups if needed. This is very important as it makes it easy for you focus on your work, not planning ahead which sections or groups you need. You can even move boards from teams to projects. All these changes can happen organically and were designed to boost productivity and avoid losing time.  
+You can reorganize, copy, and move around boards, sections, and groups if needed. This is very important as it makes it easy for you focus on your work, not planning ahead which sections or groups you need. You can even move boards from a [parent workspace](workspaces.html#using-workspaces-within-the-workspace) to a sub-workspace. All these changes can happen organically and were designed to boost productivity and avoid losing time.  
 
 ### Rearranging sections and groups
 

@@ -13,9 +13,8 @@ Roles represent a set of permissions that a user has in a workspace or in the Or
 
 You can have a different role in the different workspaces and the Org. Your role is given to you by the creator of a workspace at the moment you are invited. The creator is also the owner of the workspace. You will be notified what role they assigned to you in the invitation email. 
 
-If you want to check your role in a workspace or the Org at a later moment, you can select the overflow menu of the workspace/Org > *Manage Members*. Find more about managing workspace members in the [More on Workspaces](teams-starting.html#how-can-i-manage-team-members) topic.
+If you want to check your role in a workspace or the Org at a later moment, you can select the overflow menu of the workspace/Org > *Manage Members*. Find more about managing workspace members in the [Learn More about Workspaces](teams-starting.html#how-can-i-manage-workspace-members) topic.
 
-<a name="teams-projects-roles"></a>
 ### What can the different roles do in a workspace?
 
 In the table below, you will find the permissions of each role in the workspace. 
@@ -43,7 +42,7 @@ The Slingshot user who creates a workspace is automatically assigned as its **ow
 
 **Owners** have full access to manage a workspace. This includes changing its main **information** - *name*, *description*, *privacy*, *status* and even deleting it. It also means owners have the right to **manage members** of the workspace - invite, remove and change their roles. They can create, edit and delete all content inside the workspace - tasks, filters, discussions, topics, boards, and Analytics dashboards.
 
-**Members** are more limited than owners but they are allowed to create sub-workspaces under the workspace. They can also create, edit and delete tasks, filters, discussions, topics, boards, and Analytics dashboards. When [joining](teams-starting.html#how-can-I-discover-and-join-other-teams) a public workspace by yourself and not by invitation, you are assigned the member role by default.
+**Members** are more limited than owners but they are allowed to create sub-workspaces under the workspace. They can also create, edit and delete tasks, filters, discussions, topics, boards, and Analytics dashboards. When [joining](teams-starting.html#how-can-I-discover-and-join-other-workspaces) a public workspace by yourself and not by invitation, you are assigned the member role by default.
 
 **Viewers** are limited to view, bookmark and share content. To be a viewer in a workspace, you have to be invited with the viewer role.
 
@@ -56,7 +55,7 @@ Before you learn about the user roles and their permissions, you may want to kno
 
 In short, the Organization, also called *the Org*, is a workspace, but it's not like any other workspace in Slingshot. There you can collaborate with other members of, well, your real life organization - business or non-profit. 
 
-Your Organization in Slingshot will appear right under _Home_ (see below). You need sign in with Google or Microsoft using the email associated with your organization.
+Your Organization in Slingshot will appear right under _My Stuff_ (see below). You need sign in with Google or Microsoft using the email associated with your organization.
 
 > screenshot
 
@@ -89,7 +88,7 @@ The content that is relevant to you might be stored in different cloud storages.
 
 In *My Stuff* > *Content*, you will find you *private cloud storage** connections. _Only you_ have access to these private connections and you can create/delete them whenever you want. That being said, you are able to **share private content with others** if you want.
 
-When you pin content from a private cloud storage to a workspace board, that specific content becomes available for the whole workspace. But it does not mean that team members can access the rest of the private cloud storage contents.
+When you pin content from a private cloud storage to a workspace board, that specific content becomes available for the whole workspace. But it does not mean that workspace members can access the rest of the private cloud storage contents.
 
 _All the members of a workspace_ have access to **workspace cloud storage** connections and they can create/delete them whenever they want.
 
@@ -100,12 +99,12 @@ _All the members of a workspace_ have access to **workspace cloud storage** conn
 ### What about public and private workspaces?
 
 A newly created workspace is public by default, meaning that any member of the Organization can search and join the workspace. Trust and transparency are key elements for effective collaboration, and also help with ownership and accountability.  
-That being said, sometimes you might need to have a private workspace. In this case, users can only join the workspace by getting invitations from an owner of the workspace. This is helpful for teams that handle sensitive information. In those cases the organization wants to restrict access.
+That being said, sometimes you might need to have a private workspace. In this case, users can only join the workspace by getting invitations from an owner of the workspace. This is helpful for workspaces that handle sensitive information. In those cases the organization wants to restrict access.
 
 To change a workspace privacy, select your workspace's **overflow menu** > **Workspace Settings** > **Information** > **Privacy**.
 
 > Change the screenshot
-<img src="../images/access-team-settings.png" alt="Accessing team settings" width="100%"/>
+<img src="../images/access-team-settings.png" alt="Accessing workspace settings" width="100%"/>
 
 Change to **Private** and select **Update**.
 

@@ -11,7 +11,7 @@ Welcome! Read on to get answers to your questions about the user account.
 - Upper right corner
 - Your profile image
 
-### subscription
+### Subscription
 Information about changing subscription in this dialog.
 
 Note: 
@@ -38,31 +38,31 @@ To meet global data privacy laws, including the General Data Protection Regulati
 ### How does delete profile data work? (What is Profile Information?) 
 ...
 
-### Can I Reactivate My Profile after It Was Deleted?
+### Can I reactivate my profile after it was deleted?
 ...
 
-## Exporting Profile Data from Slingshot
+## Exporting profile data from slingshot
 ...
 
-### What Is the Export Format?
+### What is the export format?
 ...
 
-### What Type of Data Does the Export Contain? 
+### What type of data does the export contain? 
 ...
 
-### Who Can Export Profile Data? 
+### Who can export profile data? 
 ...
   
-### How to Export Profile Data? 
+### How to export profile data? 
 ...
 
 
 ---
 
-### General Settings
+### General settings
 
-### Profile Information 
-- Meriam-Webster definition 
+### Profile information 
+- Merriam-Webster definition 
 - this information is public 
 - it's up to you what Slingshot and other users know about you
 
@@ -73,19 +73,19 @@ Dashboards are part of your Analytics space in Slingshot. Find more about Dashbo
 ### Data source credentials
 When you connect to a data source(link) in Analytics for the first time, your credentials (user name, password and domain) are stored in this menu. Find more info in this topic(link). 
 
-## Completing Your Profile Information 
+## Completing your profile information 
 
 Completing your profile information is important for your experience in Slingshot. How???
 
-### What is Profile Information? 
+### What is profile information? 
 
 A user profile is a collection of settings and information associated with a specific user. This information is used to recognize the user as an individual in the digital world. 
 
-### What is Profile Information in Slingshot?
+### What is profile information in Slingshot?
 
 Your profile information in Slingshot includes the characteristics that make you recognizable in your collaboration space, for example your name and title. This information is important for Slingshot and for your collaborators so Emily (our AI assistant) will remind you to complete it to 100%. 
 
-### How Can I Complete or Change My Profile Information?
+### How can I complete or change my profile information?
 
 To access your profile information:
 

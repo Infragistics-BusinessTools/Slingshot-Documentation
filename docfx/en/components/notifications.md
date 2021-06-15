@@ -4,13 +4,13 @@ A notification can be defined as an indicator that a certain event has happened.
 
 Sometimes notifications can become overwhelming, as an application can consistently send you  notifications that are not worthy of your attention. In Slingshot, we definitely want to avoid that feeling, so you start with cautious notifications settings. In any case, you can always modify the settings according to your preferences.
 
-### So, What's a Slingshot Notification?
+### So, what's a Slingshot notification?
 
 It's an auto-generated indicator that is sent to you to let you know a certain event has happened. There are three different types of notifications, in-app, push, and email. This means that you can get a message that pops up while using Slingshot (in-app notification), a message that pops up on a mobile device (push notification), or even an email. As you can get Slingshot on any platform, tweaking those settings is important to customize your experience.
 
-### Stay Informed with Notifications
+### Stay informed with notifications
 
-Notifications are designed to keep you updated of any changes on teams, tasks, projects, messages, mentions, and dashboards. You can learn, among others, that a task was assigned to you, that you are removed from a team, or even that someone sent a message in a discussion thread you're following.
+Notifications are designed to keep you updated of any changes in workspaces, tasks, messages, mentions, and dashboards. You can learn, among others, that a task was assigned to you, that you are removed from a workspace, or even that someone sent a message in a discussion thread you're following.
 
 You can access *Notifications* on the top right of the screen as shown below.
 
@@ -20,7 +20,7 @@ Within the *Notifications* panel, you can use the *Mark all as read* option at t
 
 <img src="../images/notifications-panel-overflow.png" alt="Notifications panel opened in Slingshot, using the overflow" width="50%"/>
 
-### How Can I Change my Notification Settings?
+### How can I change my notifications settings?
 
 There are three different types of notifications, in-app, push, and email. In-app notifications are displayed within the app in a Notifications panel. Push notifications are displayed as texts near the notification icon. And emails are delivered to the e-mail address associated with your account.
 

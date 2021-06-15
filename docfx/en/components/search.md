@@ -2,12 +2,12 @@
 
 If you have been on the Internet at least once, you know it's all about finding the right information! And the search is the tool to help you with this.  
 
-### So, What's Search for Slingshot?
+### So, what's Search for Slingshot?
 
 The search provides neatly organized results from everywhere inside Slingshot. The variety of filtering options ensure great precision and quickly finding exactly what you need.
-### How to Start My Search?
+### How to start my search?
 
-You can quickly start your search from anywhere - a workspace, tasks, *Home*, etc. 
+You can quickly start your search from anywhere - a workspace, tasks, *My Stuff*, etc. 
 
 1. Click the search box at the top.
 
@@ -17,17 +17,17 @@ You can quickly start your search from anywhere - a workspace, tasks, *Home*, et
 
 3. The search results pane opens on the left.
 
-### Where Can I Search?
+### Where can I search?
 
 The search results pane shows results from **everywhere** inside Slingshot. The results are displayed separately in five tabs: 
 
 * *Workspaces* - results come from all workspaces.
-* _Tasks_ - results from tasks in _Home_ and _Workspaces_ are shown. 
+* _Tasks_ - results from tasks in _My Stuff_ and _Workspaces_ are shown. 
 * _Messaging_ - shows results from messages in the chat, discussions and topics.
-* *Content* - shows results from all boards in _Home_, *Workspaces* and the *Organization*.
-* _Analytics_ - shows results for dashboards and dashboard folders in Home, Workspaces and the *Organization*.
+* *Content* - shows results from all boards in _My Stuff_, *Workspaces* and the *Organization*.
+* _Analytics_ - shows results for dashboards and dashboard folders in My Stuff, Workspaces and the *Organization*.
 
-### Can I Share or Save Results?
+### Can I share or save results?
 
 In the results pane, you can open the overflow menu of a result (see the screenshot) and use the *Copy Link* option to share it with others. You can also save results in _Bookmarks_.
 
@@ -42,9 +42,9 @@ These filters are specific for the selected result type. For example, if you sel
 
 >[!NOTE] Your filters' settings will be kept for your next search until you close the search results pane or refresh the page. So, if next time your search criteria change don't forget to check your search filters too.
 
-#### Filtering by Location
+#### Filtering by location
 
-If you need results related to a specific workspace, or from your personal space (_Home_), use the _Location_ filter dropdown just above the result tabs (see below).
+If you need results related to a specific workspace, or from your personal space (_My Stuff_), use the _Location_ filter dropdown just above the result tabs (see below).
 
 > Change the screenshot
 <img src="../images/location-filter-dropdown.png" alt="location filter dropdown" width="50%" />
