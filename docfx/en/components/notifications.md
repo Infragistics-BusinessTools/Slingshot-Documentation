@@ -20,7 +20,7 @@ Within the *Notifications* panel, you can use the *Mark all as read* option at t
 
 <img src="../images/notifications-panel-overflow.png" alt="Notifications panel opened in Slingshot, using the overflow" width="50%"/>
 
-### How can i change my notifications settings?
+### How can I change my notifications settings?
 
 There are three different types of notifications, in-app, push, and email. In-app notifications are displayed within the app in a Notifications panel. Push notifications are displayed as texts near the notification icon. And emails are delivered to the e-mail address associated with your account.
 

@@ -4,7 +4,7 @@ Content is really a broad term, but related to IT, is always about information m
 
 Scrum boards and Kanban boards are well-known IT concepts that are both related to project management. Going for a broader concept, boards can also be just containers that help organize and manage content. That is the case of Slingshot, boards were created so you can have a place to organize your content.
 
-### So, what's content within slingshot?
+### So, what's content within Slingshot?
 
 Content refers to:
 
@@ -14,12 +14,12 @@ Content refers to:
 
 made available to you in the _Content_ tab. You will find a *Content* tab in _My Stuff_, each of your *Workspaces*, and in the *Organization* space. You can add content from your device or cloud storage.
 
-### What are boards within slingshot? 
+### What are boards within Slingshot? 
 
 Boards are basically containers, rich and flexible containers designed to organize, manage, and share your content. 
 So, when you need to organize or share content from your cloud storages or device, just pin that content to a board, and later organize or share that board.
 
-### Working with your content in slingshot
+### Working with your content in Slingshot
 
 Pinning content is how you make your content available in Slingshot. You just go to a board and choose _Pin_. 
 

@@ -12,7 +12,7 @@ Before jumping in, take into account that in Slingshot you can join an **Organiz
 
 When you log in with Google or Microsoft, you get a cloud storage automatically configured based on your credentials, Google Drive or OneDrive respectively. This means you get access to your files on the cloud storage and can share them with other users to collaborate over them.
 
-### Your First Screen
+### Your first screen
 
 Once you get in, you are greeted with your first screen:
 

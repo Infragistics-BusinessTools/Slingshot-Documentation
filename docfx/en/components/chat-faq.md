@@ -10,7 +10,7 @@ Each workspace has its own *Discussions* tab. To learn more about discussions, r
 
 Unlike discussions, the private chat is workspace independent. This means you can chat with any user from any workspace. You can chat with users who are part of your Organization and users who are not. Learn below how to [chat with personal account users](#chat-personal-account-users). And, unlike discussions, your chats are *private* and can be accessed only by you and the users you are chatting with. 
 
-### How can i access my chat?
+### How can I access my chat?
 
 In the top bar, right next to your profile picture, you will see the **chat message icon**. Click/tap the icon to open the chat screen. 
 
@@ -107,7 +107,7 @@ Select the paperclip icon to attach the file to your message.
   
 Slingshot does not store your files. When you share a file from your device, it will first be uploaded to your personal cloud storage (*OneDrive*, for example) and not to Slingshot directly. Then, to share it with others, Slingshot will just link to its location in your cloud storage.
 
-#### Sharing a file pinned to workspace board
+#### Sharing a file pinned to a workspace board
 
 What about files that are pinned to a workspace board? Sometimes you need to share these files with people who are not part of the workspace. Slingshot allows you to do this, by sending a link in the chat or by starting a chat directly from a pinned file. To do this, navigate to the file and open its overflow menu:
 

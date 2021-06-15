@@ -17,7 +17,7 @@ You can quickly start your search from anywhere - a workspace, tasks, *My Stuff*
 
 3. The search results pane opens on the left.
 
-### Where can i search?
+### Where can I search?
 
 The search results pane shows results from **everywhere** inside Slingshot. The results are displayed separately in five tabs: 
 

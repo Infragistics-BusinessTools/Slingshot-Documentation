@@ -196,7 +196,6 @@ To attach a file, open a task and click/tap the clip icon as shown below.
 > Change the screenshot
 <img src="../images/tasks-attachments-new.png" alt="Adding attachments to a Slingshot task" width="100%"/>
 
-
 ### How to create a task from a discussion or a chat message?
 
 Slingshot ensures all your communication and collaboration tools are in one place, making remote teams stay productive no matter where they are. 
