@@ -8,31 +8,28 @@ In Slingshot you can have personal and shared tasks, they work pretty much the s
 Only you have access to your **personal tasks** and you can find them in your personal space (**Home**).
 
 
-<img src="../images/tasks-home.png" alt="Slingshot Home with a tasks displayed in a list" width="100%"/>
+<img src="../images/tasks-home.png" alt="Slingshot My Stuff with a tasks displayed in a list" width="100%"/>
 
-All the members of a team or project can access the tasks created within that team or project, no matter who is assigned. And every member can manage these shared tasks freely.
+All the members of a workspace can access the tasks created within that workspace, no matter who is assigned. And every member can manage these shared tasks freely.
 
 > Change the screenshot
-<img src="../images/tasks-team.png" alt="Slingshot Team with a tasks displayed in a list" width="100%"/>
+<img src="../images/tasks-team.png" alt="Slingshot Workspace with tasks displayed in a list" width="100%"/>
 
->[!NOTE] Members of a team can view the tasks in the projects inside the team, even when they haven't joined the projects. However, the members of а project, who are not team members cannot view the team's tasks.
+>[!NOTE] Members of a [parent workspace](workspaces.html#using-workspaces-within-the-workspace) can view the tasks in all sub-workspaces, even when they haven't joined the sub-workspaces. However, the members of а sub-workspace, who are not members of the parent workspace cannot view the tasks in the parent workspace.
 
 ### How can I access my tasks?
 
-You can access your tasks by going to a team/project and selecting the **Tasks** tab on top (see below).
+You can access your tasks by going to a workspace and selecting the **Tasks** tab on top (see below).
 
 > Change the screenshot
 <img src="../images/tasks-accessing.png" alt="Accessing Slingshot tasks" width="100%"/>
 
 Depending on where you stand, you will be accessing different tasks.
 
-In **Home**, you can access every task assigned to you. These tasks are saved inside *My Tasks*. There you will find the personal, team, and project tasks - very useful to have all your tasks in just one place!
+In **My Stuff**, you can access every task assigned to you. These tasks are saved inside *My Tasks*. There you will find personal, and workspace tasks - very useful to have all your tasks in just one place!
 
-Within a **Project**, you get access to all the tasks created for the project, no matter who is assigned.  
-Also, use the *My Tasks* pre-set [filter](#tasks-filters) and you will find the project tasks that are assigned to you.
-
-Within a **Team**, you get access to all the tasks created for the team, no matter who is assigned.  
-Also, use the *My Tasks* pre-set [filter](#tasks-filters) to find all the tasks assigned to you that are specific to the team and all its projects.
+Within a **workspace**, you get access to all created tasks, no matter who is assigned.  
+Also, use the *My Tasks* pre-set [filter](#tasks-filters) and you will see only tasks assigned to you. If you are in a parent workspace, containing sub-workspaces, use *My Tasks* to find all tasks assigned to you in the workspace and all its sub-workspaces. 
 
 To open a task, just click/tap over it.
 
@@ -111,7 +108,7 @@ To create and save a filter use _+ Filter_ as shown below.
 
 Slingshot has a few filters out-of-the-box: _My Tasks_, _Due this Week_, and _Overdue_ (shown in the screenshot above). But at any time you can create new custom filters or edit existing custom filters.
 
-Keep in mind that filters you create and save in a team or project will be visible not only for you but also for the other team/project members.
+Keep in mind that filters you create and save in a workspace will be visible not only for you but also for the other members.
 
 In addition, you can save a filter you just created on the spot using _Save As Filter_, as shown below.
 
@@ -157,7 +154,7 @@ _Group by_ options include ordering your tasks by section, priority, assignee, a
 
 <img src="../images/tasks-visualizations-list.png" alt="List grouped by options in Slingshot" width="100%"/>
 
-*Group by* is available for all _View Types_. Grouping your tasks helps you find quickly tasks that share a specific property, for example, tasks assigned to the same user. Unlike filtering, the grouping will show you all tasks at the same time. Changing the *group by* criteria will affect only the current list and only the way you see your tasks. Your teammates can apply different grouping criteria to the same list, but this will not affect how you see this list in your profile. 
+*Group by* is available for all _View Types_. Grouping your tasks helps you find quickly tasks that share a specific property, for example, tasks assigned to the same user. Unlike filtering, the grouping will show you all tasks at the same time. Changing the *group by* criteria will affect only the current list and only the way you see your tasks. Other workspace members can apply different grouping criteria to the same list, but this will not affect how you see this list in your profile. 
 ### How can I sort tasks? 
 
 When you are looking at your tasks you may be wondering how they are ordered. Sorting helps you arrange your tasks in ascending or descending order by using a task property as the criterion. 
@@ -192,7 +189,7 @@ Each task can include one or more attachments, including images, documents, or l
 Files attached can be opened, downloaded, or detached (unpinned) from the task.
 
 > [!NOTE]
-> Attaching files to tasks is similar to pinning files to boards. You can link content from personal or team cloud storage, in both cases attachments are never stored in Slingshot.
+> Attaching files to tasks is similar to pinning files to boards. You can link content from a personal or a workspace cloud storage, in both cases attachments are never stored in Slingshot.
 
 To attach a file, open a task and click/tap the clip icon as shown below.
 

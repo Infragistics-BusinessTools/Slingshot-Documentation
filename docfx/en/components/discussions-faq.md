@@ -4,7 +4,7 @@ Welcome! Read on to get answers to your questions about discussions.
 
 ### Discussions vs Private Chat
 
-In Slingshot, communication happens in discussions and private chats. To participate and start discussions and private chats you need to know more about [writing, reading and managing messages](communication.html#write-read-manage-messages). 
+In Slingshot, communication happens in discussions and private chats.
 
 Each workspace has its own dedicated *Discussions* tab. Discussions are organized in topics. Discussions are workspace specific. Because of this, you will not be able to see and take part in all discussions in Slingshot. Read more about [who can access discussions](discussions-starting.html#discussions-access) by following the link.
 
@@ -14,7 +14,7 @@ Unlike discussions, private chat is workspace independent. See more about the ch
 
 To access your discussions, go to a workspace and select the **Discussions** navigation tab on top (see the screenshot below).
 
-<img src="../images/discussions-tab.png" alt="Discussions tab location of a team" width="100%" />
+<img src="../images/discussions-tab.png" alt="Discussions tab location of a workspace" width="100%" />
 
 You can bookmark a discussion, topic, or even a message in a topic to keep it at hand. They will appear in your bookmarks list and in your personal overview.
 Follow the link for further details about [overviews](overviews.md).
@@ -22,13 +22,13 @@ Follow the link for further details about [overviews](overviews.md).
 <a name="discussions-access"></a>
 ### Who Can Access Discussions?
 
-Depending on where you stand, you will find different discussions. To guarantee the privacy of teams and projects, Slingshot does not allow you to access all discussions. So read on to find out who can access what! 
+Depending on where you stand, you will find different discussions. To guarantee the privacy of workspaces, Slingshot does not allow you to access all discussions. So read on to find out who can access what! 
 
-Within a *Team*, you can have discussions about everything concerning your team and teammates. Only team members can access team discussions.
+Within a *Workspace*, you can have discussions that only workspace members can access.
 
-Within a *Project*, you can have discussions that are specific for this project. Every collaborator in the project, incl. personal account users, can join these discussions. Projects live inside teams. The members of these teams also have access to project discussions. 
+Within a [*sub-workspace*](workspaces.html#using-workspaces-within-the-workspace), you can have discussions that are specific for this sub-workspace. Every collaborator of the sub-workspace, incl. personal account users, can join these discussions. The members of the [parent workspace](workspaces.html#using-workspaces-within-the-workspace) can also access sub-workspace's discussions. 
 
-Within the *Organization* team, you will find *Discussions* too. Organization discussions cannot be accessed by [personal account users](roles-permissions.html#personal-account-users). This is the perfect place for announcements and other important organization related discussions. 
+Within the *Organization*, you will find *Discussions* too. Organization discussions cannot be accessed by [personal account users](roles-permissions.html#what-about-users-with-no-organization). This is the perfect place for announcements and other important organization related discussions. 
 
 ### How Can I Discover and Join Discussions?
 
@@ -41,7 +41,7 @@ So, technically speaking, you can't **join** discussions. But you can reply to a
 >[!NOTE] Only Owners and Members of the workspace can reply to a topic and create a new one. Viewers can only read topics. 
 ### How Can I Create a New Discussion?
 
-Every Owner or Member of a workspace can create a new discussion. The same goes for the discussions inside the *Organization* team. 
+Every Owner or Member of a workspace can create a new discussion. The same goes for the discussions inside the *Organization*. 
 
 In general, discussions are *read only* for workspace viewers. However, as you know workspace can include sub-workspaces. Then, what happens if your role in the parent workspace is a viewer and in the sub-workspace - a member? You can create discussions inside the sub-workspace and only read the discussions in the parent workspace. 
 
@@ -80,7 +80,7 @@ There are subjects where you need the attention of particular people. To make su
 
 >[!NOTE] **Notifying limitations.** You can only notify users who are part of the workspace. 
 
-If you have missed the opportunity to use the *Notify* function when creating the topic, you can later use the **@mention** (use the *@ sign* and start typing the username) in a message. The mentioned users or teams will be notified about your message, but will not receive any further notifications for new messages unless they opt to *follow* the topic.
+If you have missed the opportunity to use the *Notify* function when creating the topic, you can later use the **@mention** (use the *@ sign* and start typing the username) in a message. The mentioned users or workspaces will be notified about your message, but will not receive any further notifications for new messages unless they opt to *follow* the topic.
 
 ### How Can I Make Sure I Am Notified of New Answers? 
 

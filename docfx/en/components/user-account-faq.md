@@ -62,7 +62,7 @@ To meet global data privacy laws, including the General Data Protection Regulati
 ### General Settings
 
 ### Profile Information 
-- Meriam-Webster definition 
+- Merriam-Webster definition 
 - this information is public 
 - it's up to you what Slingshot and other users know about you
 

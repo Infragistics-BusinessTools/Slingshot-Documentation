@@ -10,7 +10,7 @@ The purpose of having an Organization team is for company leaders to have the ab
 
 **The Organization team** is named after your organization (for example, your company's name). Members need to log in with their organization’s email to be associated with the Organization team. Team members in the Organization can share _Discussions_, _Content_ and _Dashboards_ with each other. 
 
-You will find your Organization team in the *Home and Organization area* (see below). Here, you can switch between your personal content and content that belongs to your organization. 
+You will find your Organization team in the *My Stuff and Organization area* (see below). Here, you can switch between your personal content and content that belongs to your organization. 
 
 > Change the screenshot
 <img src="../images/main-organization-team.png" alt="An Organization team" width="100%"/>
@@ -145,7 +145,7 @@ You can assign tasks to users who are external for your team by accessing the te
 > Change the screenshot
 <img src="../images/tasks-tab-team.png" alt="Tasks tab in a team" width="100%"/>
 
-Users will receive a notification about the task they were assigned. For them the task will appear in _Home > Tasks_.  
+Users will receive a notification about the task they were assigned. For them the task will appear in _My Stuff > Tasks_.  
 
 All members of a team can be members for its projects and you can also add external members to projects.  
 

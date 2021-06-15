@@ -10,7 +10,7 @@ The following is considered your profile information by Slingshot and will disap
 
 - your name and email address;
 - your title, industry, and department if provided (see more in the [Completing Your Profile Information](profile-information.md) topic);
-- all content created by you or shared with you in *Home*;
+- all content created by you or shared with you in *My Stuff*;
 - all task assignments - tasks you were assigned in a team or a project will become unassigned, but will not disappear; 
 - access to pinned files and dashboards will be denied - users in Slingshot will not be able to open files and dashboards that deleted users have shared.
 

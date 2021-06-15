@@ -4,7 +4,7 @@ Content is really a broad term, but related to IT, is always about information m
 
 Scrum boards and Kanban boards are well-known IT concepts that are both related to project management. Going for a broader concept, boards can also be just containers that help organize and manage content. That is the case of Slingshot, boards were created so you can have a place to organize your content.
 
-### So, What's Content Within Slingshot?
+### So, what's content within slingshot?
 
 Content refers to:
 
@@ -12,14 +12,14 @@ Content refers to:
 * *Analytics* dashboards, and 
 * URLs
 
-made available to you in the _Content_ tab. You will find a *Content* tab in _Home_, each of your *Workspaces*, and in the *Organization* space. You can add content from your device or cloud storage.
+made available to you in the _Content_ tab. You will find a *Content* tab in _My Stuff_, each of your *Workspaces*, and in the *Organization* space. You can add content from your device or cloud storage.
 
-### What Are Boards Within Slingshot? 
+### What are boards within slingshot? 
 
 Boards are basically containers, rich and flexible containers designed to organize, manage, and share your content. 
 So, when you need to organize or share content from your cloud storages or device, just pin that content to a board, and later organize or share that board.
 
-### Working with Your Content in Slingshot
+### Working with your content in slingshot
 
 Pinning content is how you make your content available in Slingshot. You just go to a board and choose _Pin_. 
 
@@ -43,7 +43,7 @@ Then, just choose the file or folder you want to pin to the board. Yes, you can 
 
 <img src="../images/pin-content-upload.png" alt="Choosing content from the cloud storage to be pinned in Slingshot" width="100%"/>
 
-Alternatively, you can go to existing cloud storage in you _Home_ tab and choose _Pin to Board_ as shown below.
+Alternatively, you can go to existing cloud storage in you _My Stuff_ tab and choose _Pin to Board_ as shown below.
 
 <img src="../images/pin-content-home-tab.png" alt="Pinning content from the cloud storage" width="100%"/>
 
@@ -54,6 +54,6 @@ After choosing an option, you'll be prompted to select where to pin the file.
 Finally, you often will be editing your files. Depending on the platform, you may use different applications as Slingshot relies on invoking 3rd party applications to do the job.  
 In addition, you can always download the file to your computer or device.
 
-### Want to Know More About Content & Boards?
+### Want to know more about Content & Boards?
 
 Continue [here](content-starting.md)!

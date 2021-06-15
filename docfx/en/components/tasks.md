@@ -24,7 +24,7 @@ Using subtasks is also a good way to differentiate **priority** for tasks and su
 
 Deadlines for tasks and subtasks might also vary. That's not an issue for Slingshot! You can set a **start date** and **due date** for tasks and subtasks independently.
 
-Your task can be started only after another task is completed? Or your incomplete task is blocking other tasks? Slingshot helps you achieve more visibility for everybody on the team by setting task **dependencies**.  
+Your task can be started only after another task is completed? Or your incomplete task is blocking other tasks? Slingshot helps you achieve more visibility for everybody in your workspace by setting task **dependencies**.  
 
 Besides that, you might also need to add images, documents, or links for specific tasks and subtasks. The ability to **add attachments** ensures that Slingshot captures all relevant information for your tasks and subtasks, helping you keep your workflow running smoothly.
 

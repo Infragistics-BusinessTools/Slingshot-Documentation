@@ -2,11 +2,11 @@
 
 Communication is simply the act of sending information from one place, person, or group to another. This is done by using mutually understood signs, symbols, and also semiotic rules that bind cultures and societies together. It sounds simple, but as you know communication is actually very complex. Like planning estimation and many other complex activities, communication can always be improved...
 
-While collaborating in teams or projects, people from different teams or even from outside the organization work together. Communication here is crucial to get things done in a productive way. Slingshot's approach with discussions and private chats was designed with all this in mind.
+While collaborating in teams or projects, people from different workspaces or even from outside the organization work together. Communication here is crucial to get things done in a productive way. Slingshot's approach with discussions and private chats was designed with all this in mind.
 
-### So, What's a Slingshot Discussion?
+### So, what's a Slingshot discussion?
 
-It's a way of communication used by members of an organization, team, or project. Being organized in different threads, discussions ensure all your communication, and collaboration tools are in one place, making remote teams stay productive no matter where they are.
+It's a way of communication used by members of an organization, or a workspace. Being organized in different threads, discussions ensure all your communication, and collaboration tools are in one place, making remote teams stay productive no matter where they are.
 
 <img src="../images/discussions-thread.png" alt="A Slingshot discussion thread displayed" width="100%"/>
 
@@ -22,7 +22,7 @@ Unlike lengthy email chains, members can follow or unfollow discussions. This is
 
 ### What's a Slingshot Private Chat? 
 
-Your *Private Chat* is also a tool for communication, but unlike *Discussions* it's not tied to any project or team. This means you can use it to chat with any Slingshot user, and even with [personal account users](roles-permissions.html#personal-account-users) who are not part of your Organization.
+Your *Private Chat* is also a tool for communication, but unlike *Discussions* it's not tied to any workspace. This means you can use it to chat with any Slingshot user, and even with [personal account users](roles-permissions.html#personal-account-users) who are not part of your Organization.
 
 <img src="../images/chat-example.png" alt="An example of a chat conversation" width="100%" />
 

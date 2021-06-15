@@ -85,7 +85,7 @@ You can assign project tasks to members outside of a team in the project's _Task
 > Change the screenshot
 <img src="../images/tasks-tab-team.png" alt="Tasks tab in a project" width="100%"/>
 
-Users will receive a notification about the task they were assigned. For them, the task will appear in *Home > Tasks*.  
+Users will receive a notification about the task they were assigned. For them, the task will appear in *My Stuff > Tasks*.  
 
 > Change the screenshot
 <img src="../images/externalUser-task.png" alt="Showing a Task created for an external user" width="100%"/>

@@ -2,15 +2,15 @@
 
 Welcome! Read on to get answers to your questions about the private chat.
 
-### Discussions vs Private Chat
+### Discussions vs private chat
 
-In Slingshot, communication happens in discussions and private chats. To participate and start discussions and private chats you need to know more about [writing, reading and managing messages](communication.html#write-read-manage-messages). 
+In Slingshot, communication happens in discussions and private chats.
 
 Each workspace has its own *Discussions* tab. To learn more about discussions, read [Starting with Discussions](discussions-starting.md). 
 
 Unlike discussions, the private chat is workspace independent. This means you can chat with any user from any workspace. You can chat with users who are part of your Organization and users who are not. Learn below how to [chat with personal account users](#chat-personal-account-users). And, unlike discussions, your chats are *private* and can be accessed only by you and the users you are chatting with. 
 
-### How Can I Access My Chat?
+### How can i access my chat?
 
 In the top bar, right next to your profile picture, you will see the **chat message icon**. Click/tap the icon to open the chat screen. 
 
@@ -40,7 +40,7 @@ To start a chat, open the chat screen. Then follow the steps below:
 
 >[!NOTE] If you don't see the *Start a chat...* button, check whether your chat is [docked](#chat-dock). In this case, select the **undock** icon next to *Close*.
 
-### How Can I Start a Group Chat?
+### How can I start a group chat?
 
 Starting a group chat is similar to [starting a private chat](#private-chat-start). The only difference is that you choose two or more people to create the group chat. 
 
@@ -49,7 +49,7 @@ You can add more users to any ongoing chat (private or group) by opening it and 
 <img class="responsive-img" src="../images/add-member-icon-chat.png" alt="Add more members to a chat icon" width="80%" />
 
 >[!NOTE] If you create a new group chat by adding more people to a private chat, don't worry! The group chat will be opened in another chat room. Your private chat will be kept separately as well.
-### Can I Rename a Chat?
+### Can I rename a chat?
 
 You can rename your group chats to better differentiate between group chats with (almost) the same users. You will find the *rename* option in the *overflow* menu of a group chat (see below).
 
@@ -64,7 +64,7 @@ You will see the chat members in a dropdown. Use the *trash* icon next to their 
 
 Next to your name you will find the *leave* icon. You can leave a chat anytime. 
 
-### Can I Make the History of a Group Chat Available for New Members?
+### Can I make the history of a group chat available for new members?
 
 When you are adding members to an ongoing group chat, you may want them to have access to part or the whole history of the chat. 
 
@@ -90,7 +90,7 @@ However, [personal account users](roles-permissions.html#personal-account-users)
 <img class="responsive-img" src="../images/personal-account-user-chat.png" alt="Typing a personal account user's email to add them to a chat" width="100%" />
 
 Of course, if you don't have an Organization, then you will have to add all users you want to chat with like this.
-### Leaving vs Muting a Chat
+### Leaving vs muting a chat
 
 Once you lose interest, you can leave or mute a chat in Slingshot.  
 
@@ -101,7 +101,7 @@ To mute a chat, click on its **overflow menu** > **Mute Notifications**.
 
 ### How can I share a file in the chat?
 
-In the Slingshot chat, you can share files from your device, cloud storage, or even from a team or project where these files are pinned.  
+In the Slingshot chat, you can share files from your device, cloud storage, or even from a workspace where these files are pinned.  
 
 Select the paperclip icon to attach the file to your message. 
   
