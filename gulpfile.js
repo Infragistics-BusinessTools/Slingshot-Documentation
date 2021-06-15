@@ -50,14 +50,6 @@ const replaceRevealContents = () => {
         );
 }
 
-const compressImages = () => {
-    return src(`docfx/${LANG}/**/*.png`)
-            .pipe(imagemin({silent: false, verbose: true}))
-            .pipe(
-                dest(`docfx/${LANG}`)
-            );
-}
-
 const buildSite = () => {
     return buildDocfx({
         siteDir: DOCFX_SITE,
