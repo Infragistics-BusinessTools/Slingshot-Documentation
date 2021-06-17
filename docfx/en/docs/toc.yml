@@ -3,8 +3,8 @@
 - name: Welcome to Slingshot
   href: welcome-slingshot.md
   new: false
-- name: Logging in for the first time
-  href: logging-in-first-time.md
+- name: First Time Sign In
+  href: first-time-sign-in.md
   new: false
 - name: User Account
   href: user-account.md

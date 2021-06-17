@@ -1,9 +1,9 @@
-## Logging In for the First Time
+## First Time Signing In
 
 Welcome to Slingshot!  
-When opening the app you'll be met with different login options:
+When opening the app you'll be met with different sign in options:
 
-<img src="../images/slingshot-login.png" alt="Slingshot log in screen" width="100%"/>
+<img src="../images/slingshot-login.png" alt="Slingshot sign in screen" width="100%"/>
 
 Before jumping in, take into account that in Slingshot you can join an **Organization**. If you are a member of an organization, you have to log in with your organization’s email. Choose Google or Microsoft as needed and you'll be associated with the main Organization.
 
