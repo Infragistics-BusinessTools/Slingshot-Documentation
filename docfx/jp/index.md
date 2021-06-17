@@ -6,6 +6,6 @@ _language: jp
 <script type="text/javascript">
 (function() {
         let HOST = window.location.href;
-        window.location.href = HOST + 'components/general-getting-started.html';
+        window.location.href = HOST + 'docs/general-getting-started.html';
 })();
 </script>

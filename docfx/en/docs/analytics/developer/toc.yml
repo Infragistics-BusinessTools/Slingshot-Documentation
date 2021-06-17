@@ -1,0 +1,67 @@
+- name: General
+  header: true
+- name: Welcome to Reveal SDK
+  href: index.md
+- name: SDK Overview
+  href: general/overview.md
+- name: System Requirements and Installation
+  href: general/installation-requirements.md
+- name: Getting Dashboards for the SDK
+  href: general/get-dashboards.md
+- name: WEB .NET SDK
+  header: true
+- name: Overview
+  href: web-sdk/overview.md
+- name: Setup and Configuration
+  href: web-sdk/setup-configuration.md
+- name: Creating Your First App
+  href: web-sdk/create-first-app.md
+- name: Using the Server SDK
+  href: web-sdk/using-the-server-sdk/toc.yml
+- name: Using the Client SDK
+  href: web-sdk/using-the-client-sdk/toc.yml
+- name: Server API Reference
+  href: web-sdk/api-reference-server.md
+- name: Client API Reference
+  href: web-sdk/api-reference-client.md
+- name: WEB JAVA SDK
+  header: true
+- name: Overview
+  href: java-sdk/overview.md
+- name: Running UpMedia Samples
+  href: java-sdk/running-upmedia-samples.md
+- name: Setup and Configuration
+  href: java-sdk/setup-configuration.md
+  items:
+    - name: Setup Tomcat
+      href: java-sdk/setup-configuration-tomcat.md
+    - name: Setup Spring
+      href: java-sdk/setup-configuration-spring.md
+    - name: Export server-side
+      href: java-sdk/export-server-side.md
+- name: Using the Server SDK
+  href: java-sdk/using-the-server-sdk/toc.yml
+- name: Using the Client SDK
+  href: web-sdk/using-the-client-sdk/toc.yml
+- name: Java Redistributables
+  href: java-sdk/java-sdk-redistributables.md
+- name: Java API Reference
+  href: java-sdk/api-reference.md
+- name: Desktop SDK
+  header: true
+- name: Overview
+  href: desktop-sdk/overview.md
+- name: Setup and Configuration
+  href: desktop-sdk/setup-configuration.md
+- name: Using the Desktop SDK
+  href: desktop-sdk/using-the-desktop-sdk/toc.yml
+- name: API Reference
+  href: desktop-sdk/api-reference.md
+- name: Release Information
+  header: true
+- name: Known Issues
+  href: release-information/known-issues.md
+- name: Release Notes
+  href: release-information/release-notes.md
+- name: Third-Party Software Used by Reveal
+  href: release-information/third-party-software.md

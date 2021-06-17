@@ -6,8 +6,8 @@
     "_ENBaseUrl": "https://www.slingshotapp.io/",
     "_JABaseUrl": "https://www.slingshotapp.io/",
     "_themeUsage": false,
-    "_initialPage": "components/welcome-slingshot",
-    "_toc-dir": "components",
+    "_initialPage": "docs/welcome-slingshot",
+    "_toc-dir": "docs",
     "_enableSearch": true,
     "_docfxTheme": "slingshot"
 }

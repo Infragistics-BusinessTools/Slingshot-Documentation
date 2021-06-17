@@ -25,27 +25,27 @@ const REVEAL_RETAIL_STORE_LINK_REGEX = /http:\/\/download\.infragistics\.com\/(r
 const copyRevealTopicsAndTOCs = () => {
     return src(`reveal-docs/${LANG}/**`)
         .pipe(
-            dest(`docfx/${LANG}/components/analytics`)
+            dest(`docfx/${LANG}/docs/analytics`)
         );
 };
 
 const overwriteRevealFiles = () => {
     return src([`reveal-images/${LANG}/**`])
         .pipe(
-            dest(`docfx/${LANG}/components/analytics`)
+            dest(`docfx/${LANG}/docs/analytics`)
         );
 };
 
 const replaceRevealContents = () => {
-    return src(`docfx/${LANG}/components/analytics/**/*.md`)
-        .pipe(replace(REVEAL_HREF_REGEX, '~/components/analytics/'))
+    return src(`docfx/${LANG}/docs/analytics/**/*.md`)
+        .pipe(replace(REVEAL_HREF_REGEX, '~/docs/analytics/'))
         .pipe(replace(REVEAL_DASHBOARD_AND_VISUALIZATION_TUTORIAL_LINK_REGEX, 'https://download.infragistics.com/slingshot/samples/Slingshot'))
         .pipe(replace(REVEAL_DATASET_LINK_REGEX, 'https://download.infragistics.com/slingshot/samples/HR_Dataset_2016'))
         .pipe(replace(REVEAL_RETAIL_STORE_LINK_REGEX, 'https://download.infragistics.com/slingshot/samples/Retail-Store'))
         .pipe(replace(REVEAL_DOWNLOAD_LINK_REGEX, 'https://download.infragistics.com/slingshot/'))
         .pipe(replace('Reveal', 'Analytics'))
         .pipe(
-            dest(`docfx/${LANG}/components/analytics`)
+            dest(`docfx/${LANG}/docs/analytics`)
         );
 }
 

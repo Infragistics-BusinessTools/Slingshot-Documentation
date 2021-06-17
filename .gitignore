@@ -3,4 +3,4 @@ npm-debug.log
 .env
 .DS_Store
 dist
-docfx/en/components/analytics
+docfx/en/docs/analytics
