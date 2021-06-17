@@ -28,7 +28,7 @@ Here, you can choose between the following three permission types:
  - **Only Members Can Access** 
  - **Owner Gives Access** 
 
-### What do different file permissions mean? 
+### What do the different file permissions mean? 
 
 **Owner Gives Access** is the default and most restrictive. It means anyone who tries to open the file for the first time has to request access from the file owner. The file owner will receive an email, prompting them to *grant* or *deny* access. By granting access the owner of the file gives permissions to the user to open and edit the file. 
 
@@ -45,10 +45,16 @@ The file owner can also pre-allow access for chosen workspace's members by using
 
 Find out how file permissions apply when sharing a file in the chat by reading [How Can I Share a File in the Chat?](chat-starting.md). 
 
-### Can I restrict who has rights to edit my file?
-### How can I manage file permissions?
+### Can I control who has rights to edit my file?
 
-Owners can always view and edit the permissions to their files. They can also manage the members that already have access.  
+Each user whom you grant access in Slingshot can both open and edit your file. However, you can revoke editing permissions anytime. You have two possibilities. 
+
+1. You can revoke the edit permissions to the file through your cloud storage provider - *[OneDrive](https://support.microsoft.com/en-us/office/share-files-and-folders-in-onedrive-personal-3fcefa26-1371-401e-8c04-589de81ed5eb)*, *[Google Drive](https://support.google.com/docs/answer/2494893#zippy=%2Cstop-sharing-a-file-or-folder)*, *[Dropbox](https://help.dropbox.com/files-folders/share/set-folder-permissions)*, *[Box](https://support.box.com/hc/en-us/articles/360044196413-Understanding-Collaborator-Permission-Levels)*, and *[SharePoint](https://support.microsoft.com/en-us/office/customize-permissions-for-a-sharepoint-list-or-library-02d770f3-59eb-4910-a608-5f84cc297782)*.
+2. You can stop granting access to the file to selected users by using the settings in Slingshot. See how to manage file permissions in Slingshot below.  
+
+### How can I manage file permissions in Slingshot?
+
+You can always view and edit the permissions to your files in Slingshot. You can also manage the members that already have access.  
 
 To view/edit the permissions on a file, go to its overflow menu and select **File Permissions** (see below). 
 
@@ -65,6 +71,19 @@ Use the **+ Members** blue button to pre-allow access for chosen users who can v
 
 On the right of each member's name, you can click/tap **Editor** > **Remove** to revoke access. 
 
->[!NOTE] **Access  cannot be automatically revoked.** If you change a file's permissions from *Only Members Can Access* to *Owner Gives Access* make sure you check for *Editors* in **Member Access** and revoke their permissions if necessary. Users who have already opened the file even once, are remembered as *Editors* and their access will not be automatically revoked with changing the file permissions to the more restrictive type. 
+>[!NOTE] **Access  cannot be automatically revoked.**  Users who have already opened the file even once, are added as *Editors* and their access will not be automatically revoked with changing the file permissions to the more restrictive type. So, if you change a file's permissions from *Only Members Can Access* to *Owner Gives Access* make sure you check for *Editors* in **Member Access** and revoke their permissions if necessary.
 
 ### How do file permissions work in the discussions and the chat? 
+
+Sometimes you need to share files pinned to a board with people who are not part of the workspace. Slingshot allows you to do this, by: 
+
+1. sending a link to the file in a discussion or chat, or 
+2. by starting a chat or a discussion directly from a pinned file. You can find the *Start a discussion* or *Start a Chat* option in the overflow menu of the file.
+
+> a screenshot showing the Start a chat option in the overflow of a file
+
+Keep in mind that the file owner decides whether the file will be accessible to users outside of the workspace with the file permissions they set. 
+Depending on the file permissions, there are two scenarios when you try to share a file in the chat or in a discussion.
+
+- *Owner Gives Access* permissions - you can still share the file with another user in a discussion or chat, but they will have to ask the owner of the file for permissions the first time they try to open it.
+- *Only Members Can Access* or *All Can Access* - you can share the file in a discussion or chat and the other user can open it freely. The owner of the file can revoke their access anytime.
