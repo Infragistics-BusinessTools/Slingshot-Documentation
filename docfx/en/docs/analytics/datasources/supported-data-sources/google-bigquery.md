@@ -48,14 +48,14 @@ data sources storing millions of records.
 Currently, only a limited number of **functions** are available for
 *Calculated Fields* using data from BigQuery:
 
-- [Date](~/components/analytics/data-visualizations/fields/calculated-fields/date.md) - date; time.
+- [Date](~/docs/analytics/data-visualizations/fields/calculated-fields/date.md) - date; time.
 
-- [Logic](~/components/analytics/data-visualizations/fields/calculated-fields/logic.md) - false; true; if; not.
+- [Logic](~/docs/analytics/data-visualizations/fields/calculated-fields/logic.md) - false; true; if; not.
 
-- [Math](~/components/analytics/data-visualizations/fields/calculated-fields/math.md) - abs; exp; log; log10; mod; rand; sign; sqrt; trunc.
+- [Math](~/docs/analytics/data-visualizations/fields/calculated-fields/math.md) - abs; exp; log; log10; mod; rand; sign; sqrt; trunc.
 
-- [Strings](~/components/analytics/data-visualizations/fields/calculated-fields/string.md) - find; len; trim; lower; mid; upper.
+- [Strings](~/docs/analytics/data-visualizations/fields/calculated-fields/string.md) - find; len; trim; lower; mid; upper.
 
 #### Limitations in Data Blending
 
-Currently, Data Blending ([combining data sources in one visualization](~/components/analytics/datasources/data-blending.md)) is **not available** when using data from the Google BigQuery data source.
+Currently, Data Blending ([combining data sources in one visualization](~/docs/analytics/datasources/data-blending.md)) is **not available** when using data from the Google BigQuery data source.

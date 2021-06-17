@@ -19,4 +19,4 @@ profile and maintain access to it.
 
 If you use your **Google** account to sign in, you will only have to type in your account credentials.
 
-Depending on which account you used to sign in Analytics, you will have your OneDrive or Google Drive automatically added to your list of [data sources](~/components/analytics/datasources/overview.md). You will be additionally asked for **limited permissions** only the first time you use your [OneDrive](~/components/analytics/datasources/onedrive.md) and [Google Drive](~/components/analytics/datasources/google-drive.md).
+Depending on which account you used to sign in Analytics, you will have your OneDrive or Google Drive automatically added to your list of [data sources](~/docs/analytics/datasources/overview.md). You will be additionally asked for **limited permissions** only the first time you use your [OneDrive](~/docs/analytics/datasources/onedrive.md) and [Google Drive](~/docs/analytics/datasources/google-drive.md).

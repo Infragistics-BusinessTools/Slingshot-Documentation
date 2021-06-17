@@ -158,7 +158,7 @@ To get started follow these steps:
     **\$.ig.AnalyticsView** constructor.
 
     > [!NOTE] > **Hosting Client-Side and Server-Side Parts Separately**
-    > If you want to host client-side and server-side parts on different servers, please read [here](~/components/analytics/developer/web-sdk/overview.html#host-client-server-separate) **before** you continue to next step.
+    > If you want to host client-side and server-side parts on different servers, please read [here](~/docs/analytics/developer/web-sdk/overview.html#host-client-server-separate) **before** you continue to next step.
 
 2.  Call
     **\$.ig.RVDashboard.loadDashboard**

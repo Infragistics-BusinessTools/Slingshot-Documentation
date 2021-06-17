@@ -73,10 +73,10 @@ data sources storing millions of records.
 Currently, only a limited number of **functions** are available for
 *Calculated Fields* using data from Azure Synapse Analytics:
 
-- [Logic](~/components/analytics/data-visualizations/fields/calculated-fields/logic-calculated-fields.md) - false; true; not.
-- [Math](~/components/analytics/data-visualizations/fields/calculated-fields/math-calculated-fields.md) - abs; log; log10; sign; sqrt.
-- [Strings](~/components/analytics/data-visualizations/fields/calculated-fields/string-calculated-fields.md) - find; len; trim; lower; mid; upper.
+- [Logic](~/docs/analytics/data-visualizations/fields/calculated-fields/logic-calculated-fields.md) - false; true; not.
+- [Math](~/docs/analytics/data-visualizations/fields/calculated-fields/math-calculated-fields.md) - abs; log; log10; sign; sqrt.
+- [Strings](~/docs/analytics/data-visualizations/fields/calculated-fields/string-calculated-fields.md) - find; len; trim; lower; mid; upper.
 
 #### Limitations in Data Blending
 
-Currently, Data Blending ([combining data sources in one visualization](~/components/analytics/datasources/data-blending.md)) is **not available** when using data from the Azure Synapse Analytics data source.
+Currently, Data Blending ([combining data sources in one visualization](~/docs/analytics/datasources/data-blending.md)) is **not available** when using data from the Azure Synapse Analytics data source.

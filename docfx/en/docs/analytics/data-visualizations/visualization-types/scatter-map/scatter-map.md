@@ -54,7 +54,7 @@ However, if you aim to show the correlation between two  values for individual l
 
 Scatter maps allow you to zoom in and focus on an area, where the markers are more densely plotted, or such that is not part of the _Map_ dropdown (e.g. the Balkan Peninsula). You can even save the zoomed area and keep this view in the dashboard.
 
-When the map is [maximized](~/components/analytics/dashboards/dashboards-interactions.html#maximized-view), you can zoom in and out in *Dashboard View mode* or in the *Visualization Editor* too.
+When the map is [maximized](~/docs/analytics/dashboards/dashboards-interactions.html#maximized-view), you can zoom in and out in *Dashboard View mode* or in the *Visualization Editor* too.
 
 When maximized, the scatter map displays a zoom control that allows you to better adjust the zoom level and reset it when needed.
 
@@ -94,7 +94,7 @@ The ***"There is no data to display."*** message may appear in the Visualization
 
 <img src="images/scatter-dot-map-airports.png" alt="A dot map showing the distribution of airports across the US" width="100%"/>
 
-You can create dot maps by using only the *Latitude* and *Longitude* data from your data set. If your data source does not contain these fields, you can add them from another data source. See how to do this in [Combining Data Sources in One Visualization](~/components/analytics/datasources/data-blending.md).
+You can create dot maps by using only the *Latitude* and *Longitude* data from your data set. If your data source does not contain these fields, you can add them from another data source. See how to do this in [Combining Data Sources in One Visualization](~/docs/analytics/datasources/data-blending.md).
 
 You also need to choose one of the predefined maps from the *Map* dropdown in the _Scatter Map Data_ section.  
 

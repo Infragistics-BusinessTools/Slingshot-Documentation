@@ -16,11 +16,11 @@ data source in which you stored the the sample datasheet mentioned in
 <img src="images/creating-new-visualization.png" alt="creatingnewvisualization\_all" width="100%"/>
 
 >[!NOTE]
->For instructions on how to add a data source for each of the providers, refer to [this topic](~/components/analytics/datasources/overview.md). When selecting the file in the **Visualization Data** dialog, make sure you select the **Finance Dashboard** sheet of the sample spreadsheet. Then, select *Load Data*.
+>For instructions on how to add a data source for each of the providers, refer to [this topic](~/docs/analytics/datasources/overview.md). When selecting the file in the **Visualization Data** dialog, make sure you select the **Finance Dashboard** sheet of the sample spreadsheet. Then, select *Load Data*.
 
 <img src="images/Selecting-Finance-Sheet.png" alt="Selecting Finance Sheet" width="100%"/>
 
-After loading your data, the [Grid Chart](~/components/analytics/data-visualizations/visualization-types/grid-chart.md) will be selected by default in the [Visualizations Editor](~/components/analytics/data-visualizations/visualization-types/visualizations-editor.md).
+After loading your data, the [Grid Chart](~/docs/analytics/data-visualizations/visualization-types/grid-chart.md) will be selected by default in the [Visualizations Editor](~/docs/analytics/data-visualizations/visualization-types/visualizations-editor.md).
 
 <img src="images/FinanceFirstVisualizationGrid_All.png" alt="FinanceFirstVisualizationGrid\_All" width="100%"/>
 

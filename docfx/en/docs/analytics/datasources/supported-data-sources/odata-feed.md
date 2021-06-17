@@ -29,7 +29,7 @@ following information:
 Once ready, select **Continue**.
 
 To set up an *OAuth 2 / OIDC account* for a protected OData Service data
-source, please read [this topic](~/components/analytics/datasources/OAuth-2-OIDC-User-Authentication.md).
+source, please read [this topic](~/docs/analytics/datasources/OAuth-2-OIDC-User-Authentication.md).
 
 ### Open Type Columns
 

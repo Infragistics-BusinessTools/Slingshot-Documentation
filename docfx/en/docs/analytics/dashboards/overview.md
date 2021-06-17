@@ -14,13 +14,13 @@ different pieces of related information, enabling users to make sense of their d
     in your dashboard, and what it needs to revolve around.
 
   - **Plan the Dashboard**: how will you represent your information
-    graphically? Will you use a [grid](~/components/analytics/data-visualizations/visualization-types/grid-chart.md), a map,
-    [gauges](~/components/analytics/data-visualizations/visualization-types/gauge-charts.md), [category charts](~/components/analytics/data-visualizations/visualization-types/category-charts.md)?
-    Will you use any [filters](~/components/analytics/filters/overview.md)? If you want to see how to
+    graphically? Will you use a [grid](~/docs/analytics/data-visualizations/visualization-types/grid-chart.md), a map,
+    [gauges](~/docs/analytics/data-visualizations/visualization-types/gauge-charts.md), [category charts](~/docs/analytics/data-visualizations/visualization-types/category-charts.md)?
+    Will you use any [filters](~/docs/analytics/filters/overview.md)? If you want to see how to
     improve your data visualizations with any of the advanced Analytics features, [check out this blog post](https://www.infragistics.com/community/blogs/b/infragistics/posts/8-ways-to-improve-your-data-visualizations)\!
 
   - **Prepare the data** to be used in Analytics. Here is a quick overview
-    of [how to work with spreadsheets](~/components/analytics/datasources/working-files/working-with-spreadsheets.md) in Analytics.
+    of [how to work with spreadsheets](~/docs/analytics/datasources/working-files/working-with-spreadsheets.md) in Analytics.
 
   - **Create the dashboard**: for a complete walkthrough, read [this topic](creating-dashboards.md).
 
@@ -57,21 +57,21 @@ designed to get you started and headed in the right direction.
 <tr class="odd">
 <td><p><img src="images/ThumbnailFinanceDashboard_All.png" alt="ThumbnailFinanceDashboard All" width="80%"/><br />
 </p>
-<p><a href="~/components/analytics/dashboard-tutorials/finance-dashboard/getting-started.md">Finance Dashboard</a><br />
+<p><a href="~/docs/analytics/dashboard-tutorials/finance-dashboard/getting-started.md">Finance Dashboard</a><br />
 </p></td>
 <td><p><img src="images/ThumbnailManufacturingDashboard_All.png" alt="ThumbnailManufacturingDashboard All" width="80%"/><br />
 </p>
-<p><a href="~/components/analytics/dashboard-tutorials/manufacturing-dashboard/getting-started.md">Manufacturing Dashboard</a><br />
+<p><a href="~/docs/analytics/dashboard-tutorials/manufacturing-dashboard/getting-started.md">Manufacturing Dashboard</a><br />
 </p></td>
 </tr>
 <tr class="even">
 <td><p><img src="images/ThumbnailSalesDashboard_All.png" alt="ThumbnailSalesDashboard All" width="80%"/><br />
 </p>
-<p><a href="~/components/analytics/dashboard-tutorials/sales-dashboard/getting-started.md">Sales Dashboard</a><br />
+<p><a href="~/docs/analytics/dashboard-tutorials/sales-dashboard/getting-started.md">Sales Dashboard</a><br />
 </p></td>
 <td><p><img src="images/ThumbnailSocialDashboard_All.png" alt="ThumbnailSocialDashboard All" width="80%"/><br />
 </p>
-<p><a href="~/components/analytics/dashboard-tutorials/social-dashboard/getting-started.md">Social Dashboard</a><br />
+<p><a href="~/docs/analytics/dashboard-tutorials/social-dashboard/getting-started.md">Social Dashboard</a><br />
 </p></td>
 </tr>
 </tbody>

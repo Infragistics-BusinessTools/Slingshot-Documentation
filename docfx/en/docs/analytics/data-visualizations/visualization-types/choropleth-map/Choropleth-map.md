@@ -53,7 +53,7 @@ In the example below, we will use a choropleth map to analyse the results of the
 
 To follow this walkthrough, download the [2016 November General Election](https://download.infragistics.com/reveal/help/samples/2016_November_General_Election.xlsx) spreadsheet, upload it to a cloud provider and follow the steps below.
 
-1. Connect to the cloud provider where you uploaded the spreadsheet. For more information on adding a data source in Analytics, visit the [Data Sources](~/components/analytics/datasources/overview.md) section.
+1. Connect to the cloud provider where you uploaded the spreadsheet. For more information on adding a data source in Analytics, visit the [Data Sources](~/docs/analytics/datasources/overview.md) section.
 2. In the visualization editor, select the Choropleth Map visualization:
 
   <img src="images/select-visualization-choropleth-map.png" alt="Select choropleth map visualization from the Change Visualization menu in the Visualization editor" width="100%"/>
@@ -66,7 +66,7 @@ To follow this walkthrough, download the [2016 November General Election](https:
 
 5. For _Values_, select the field containing the quantitative data you want to map. For this example, we will use the _Total Votes (%)_, containing the voting rates in every state.
 
-6. Format the _Value_ field to show percentage. Select the _Total Votes (%)_ under _Value_ > _Formatting_ > _Type_ > _Percent_. Find more about formatting fields in the [Field Settings](~/components/analytics/data-visualizations/fields/field-settings.md) topic.
+6. Format the _Value_ field to show percentage. Select the _Total Votes (%)_ under _Value_ > _Formatting_ > _Type_ > _Percent_. Find more about formatting fields in the [Field Settings](~/docs/analytics/data-visualizations/fields/field-settings.md) topic.
 
 7. _(Optional)_ Add a filter. For our example, drop the _year_ field in the _Data Filters_ placeholder. Click on the field, select _Filter type_ > _Select Values_ > _2016_.
 

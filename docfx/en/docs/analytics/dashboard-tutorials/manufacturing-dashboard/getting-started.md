@@ -20,7 +20,7 @@ similar data.
 
 You can download the sample datasheet
 [here](https://download.infragistics.com/reportplus/help/samples/Analytics_Dashboard_Tutorials.xlsx).
-All other dashboards [in these tutorials](~/components/analytics/dashboard-tutorials/overview.md)) will use
+All other dashboards [in these tutorials](~/docs/analytics/dashboard-tutorials/overview.md)) will use
 the same sample spreadsheet.
 
 >[!NOTE]

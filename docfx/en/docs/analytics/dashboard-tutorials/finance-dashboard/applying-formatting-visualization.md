@@ -82,8 +82,8 @@ corner.
 Had the list of stocks been longer, you might not have been able to
 identify the highest value that easily. You can sort your values in
 ascending/descending order to help you out with bigger tables. The
-[Labor](~/components/analytics/dashboard-tutorials/manufacturing-dashboard/adding-other-visualizations.html#labor-cost)
-visualization of the [Manufacturing Dashboard Tutorial](~/components/analytics/dashboard-tutorials/manufacturing-dashboard/getting-started.md) has instructions on how to
+[Labor](~/docs/analytics/dashboard-tutorials/manufacturing-dashboard/adding-other-visualizations.html#labor-cost)
+visualization of the [Manufacturing Dashboard Tutorial](~/docs/analytics/dashboard-tutorials/manufacturing-dashboard/getting-started.md) has instructions on how to
 apply it.
 
 ### Adding Conditional Formatting

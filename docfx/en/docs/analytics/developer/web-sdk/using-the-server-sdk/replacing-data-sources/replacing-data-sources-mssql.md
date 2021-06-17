@@ -38,7 +38,7 @@ Below you can find a list of common use cases:
     CSV data source with an in-memory one. In this scenario, data is
     actually loaded from memory (or with your custom data loader). For
     further details about how to use in-memory data sources, refer to
-    [**In-Memory Data Support**](~/components/analytics/developer/web-sdk/using-the-server-sdk/in-memory-data.md).
+    [**In-Memory Data Support**](~/docs/analytics/developer/web-sdk/using-the-server-sdk/in-memory-data.md).
 
 
 ### Code

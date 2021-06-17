@@ -7,11 +7,11 @@ After exporting the dashboard and embedding it in custom application, we can mov
 
 ### Steps
 To populate the exported dashboard using local Excel and CSV files, you need to follow these steps:
-1. **Export the dashboard** file as explained in [**Getting Dashboards for the SDK**](~/components/analytics/developer/general/get-dashboards.md) 
+1. **Export the dashboard** file as explained in [**Getting Dashboards for the SDK**](~/docs/analytics/developer/general/get-dashboards.md) 
 2. **Load the dashboard** in your application as described in 
-[**Creating Your First App**](~/components/analytics/developer/web-sdk/create-first-app.md)
+[**Creating Your First App**](~/docs/analytics/developer/web-sdk/create-first-app.md)
 3. **Download the files** you used to create the dashboard from your cloud storage and copy them to a local folder.  
-4. **Set the local folder name** as a value of the *LocalStoragePath*. Details about this you can find here: [**Setup and Configuration(Server) - Initializing the Server SDK**](~/components/analytics/developer/web-sdk/setup-configuration.md#3-initializing-the-server-sdk)  
+4. **Set the local folder name** as a value of the *LocalStoragePath*. Details about this you can find here: [**Setup and Configuration(Server) - Initializing the Server SDK**](~/docs/analytics/developer/web-sdk/setup-configuration.md#3-initializing-the-server-sdk)  
 5. **Add a new *CloudToLocalDatasourceProvider* class** in the project.  
 6. **Copy the implementation code** from the relevant snippet in **Code** section below.
 7. **Set the *DataSourceProvider* property** of the *AnalyticsSdkContext* class to *CloudToLocalDatasourceProvider*:  

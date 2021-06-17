@@ -46,4 +46,4 @@ You are now directed to the *Visualization editor* where you can start building 
 
 #### Limitations in Data Blending
 
-Currently, Data Blending ([combining data sources in one visualization](~/components/analytics/datasources/data-blending.md)) is **not available** when using data from the Snowflake data source.
+Currently, Data Blending ([combining data sources in one visualization](~/docs/analytics/datasources/data-blending.md)) is **not available** when using data from the Snowflake data source.

@@ -1,6 +1,6 @@
 ## Creating the Dashboard Filter and Connecting your Visualization
 
-The dashboard displayed [in the first page of this tutorial](getting-started.md) is connected to a [date range dashboard filter](~/components/analytics/filters/date-range-filter.md). These kinds of filters enable a
+The dashboard displayed [in the first page of this tutorial](getting-started.md) is connected to a [date range dashboard filter](~/docs/analytics/filters/date-range-filter.md). These kinds of filters enable a
 time-based scenario analysis. When connected to all visualizations, they
 allow for users to dynamically filter their whole dashboard.
 

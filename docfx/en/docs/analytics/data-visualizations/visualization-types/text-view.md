@@ -10,6 +10,6 @@ specifications, a person's contact information, etc.
 
 <img src="images/text-view-visualization-editor.png" alt="Text View in the Visualization editor" width="100%"/>
 
-The **Text View supports conditional formatting**, as explained in [this section](~/components/analytics/data-visualizations/fields/conditional-formatting.md).
+The **Text View supports conditional formatting**, as explained in [this section](~/docs/analytics/data-visualizations/fields/conditional-formatting.md).
 
 <img src="images/text-view-conditional-formatting.png" alt="TextViewConditionalFormatting\_All" width="100%"/>

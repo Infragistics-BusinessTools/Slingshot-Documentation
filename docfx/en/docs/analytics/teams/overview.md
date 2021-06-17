@@ -10,7 +10,7 @@ With Teams in Analytics, you can:
     create and share dashboards directly with other members, view and
     edit their dashboards.
 
-  - [**Share**](~/components/analytics/dashboards/sharing-dashboards/share-a-dashboard.md) your team's dashboards with other teams and users in Analytics.
+  - [**Share**](~/docs/analytics/dashboards/sharing-dashboards/share-a-dashboard.md) your team's dashboards with other teams and users in Analytics.
 
   - Assign every team member to one of [**three members' roles**](#members-roles-permissions) with distinct access level to safeguard dashboards with sensitive information.
 

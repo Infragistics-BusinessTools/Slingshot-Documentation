@@ -2,15 +2,15 @@
     "build": {
         "content": [{
             "files": [
-                "components/**/*.md",
-                "components/**/toc.yml",
+                "docs/**/*.md",
+                "docs/**/toc.yml",
                 "toc.yml",
                 "*.md"
             ],
             "exclude": ["obj/**", "_site/**"]
         }],
         "resource": [{
-            "files": ["images/**", "components/**/images/**"],
+            "files": ["images/**", "docs/**/images/**"],
             "exclude": ["obj/**", "_site/**"]
         }],
         "overwrite": [{

@@ -73,7 +73,7 @@ There you can find a few components to try:
 - **Linking**: shows how to open an existing dashboard with a link to another dashboard and how to properly configure the linking.
 - **CreateDashboard**: shows how to open the dashboard editor to create a new dashboard from scratch. In addition, it also shows how to setup the list of data sources that will be displayed to the user when creating a new visualization.
 
-For details about Analytics's Web client SDK, please refer [here](~/components/analytics/developer/web-sdk/overview.md).
+For details about Analytics's Web client SDK, please refer [here](~/docs/analytics/developer/web-sdk/overview.md).
 
 ### UpMedia React sample with Tomcat backend
 
@@ -115,5 +115,5 @@ There you can find a few components to try:
 - **Linking**: shows how to open an existing dashboard with a link to another dashboard and how to properly configure the linking.
 - **CreateDashboard**: shows how to open the dashboard editor to create a new dashboard from scratch. In addition, it also shows how to setup the list of data sources that will be displayed to the user when creating a new visualization.
 
-For details about Analytics's Web client SDK, please refer [here](~/components/analytics/developer/java-sdk/overview.md).
+For details about Analytics's Web client SDK, please refer [here](~/docs/analytics/developer/java-sdk/overview.md).
 

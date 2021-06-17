@@ -4,7 +4,7 @@ All the remaining visualizations in the dashboards will use the same
 [sample spreadsheet](https://download.infragistics.com/reportplus/help/samples/Analytics_Dashboard_Tutorials.xlsx).
 
 >[!NOTE]
->If you want to [change your data source](~/components/analytics/datasources/changing-data-source-visualization.md), you will need to select the **overflow button** next to the data source name or [create a new data source](~/components/analytics/datasources/overview.md) instead. You can also [duplicate](~/components/analytics/data-visualizations/reusing-visualizations.md) visualizations to speed up the creation process.
+>If you want to [change your data source](~/docs/analytics/datasources/changing-data-source-visualization.md), you will need to select the **overflow button** next to the data source name or [create a new data source](~/docs/analytics/datasources/overview.md) instead. You can also [duplicate](~/docs/analytics/data-visualizations/reusing-visualizations.md) visualizations to speed up the creation process.
 
 This section will cover the following visualizations:
 
@@ -47,7 +47,7 @@ This section will cover the following visualizations:
 ### Silver Security Stock Value 2018
 
 The SIS Stock Value 2018 visualization displays the average value for
-the Soylent Corp stock during 2018 in a [text gauge](~/components/analytics/visualization-tutorials/gauge-views.html#create-text-gauge). In this case, you can
+the Soylent Corp stock during 2018 in a [text gauge](~/docs/analytics/visualization-tutorials/gauge-views.html#create-text-gauge). In this case, you can
 duplicate the first visualization created during the first steps, as all
 that will change is the selected filter.
 
@@ -93,7 +93,7 @@ that will change is the selected filter.
 The GLB Fiscal visualization displays the price movements for the Globex
 stock during 2018 considering both the New York Stock Exchange (NYSE)
 and the Better Alternative Trading System (BATS) values in a
-[Candlestick Chart](~/components/analytics/visualization-tutorials/candlestick-chart.md). In order to create it:
+[Candlestick Chart](~/docs/analytics/visualization-tutorials/candlestick-chart.md). In order to create it:
 
 1.  Select the + button in the right corner of your dashboard, and
     select the **Finance Dashboard** sheet in the
@@ -158,7 +158,7 @@ and the Better Alternative Trading System (BATS) values in a
 ### Forecast (Chg, Bid & Offers) - 2018 to 2023
 
 The Forecast visualization displays the changes, bids and offers for all
-stocks for a 5 year period in a [line chart](~/components/analytics/visualization-tutorials/simple-charts.md). In
+stocks for a 5 year period in a [line chart](~/docs/analytics/visualization-tutorials/simple-charts.md). In
 order to create it:
 
 1.  Select the + button in the right corner of your dashboard, and
@@ -204,7 +204,7 @@ order to create it:
 ### Stock Variations
 
 The Stock Variations visualization displays the change in stock offers
-for a 12 month period in a [sparkline chart](~/components/analytics/visualization-tutorials/sparkline-charts.md).
+for a 12 month period in a [sparkline chart](~/docs/analytics/visualization-tutorials/sparkline-charts.md).
 In order to create it:
 
 1.  Select the + button in the right corner of your dashboard, and
@@ -250,7 +250,7 @@ Once you are done, go back to the Dashboard Editor by selecting the
 ### Stock Volumes
 
 The Stock Volumes visualization displays the amount of stocks available
-during a one year period in a [line gauge](~/components/analytics/visualization-tutorials/gauge-views.html#create-linear-gauge). In order to create it:
+during a one year period in a [line gauge](~/docs/analytics/visualization-tutorials/gauge-views.html#create-linear-gauge). In order to create it:
 
 1.  Select the + button in the right corner of your dashboard, and
     select the **Finance Dashboard** sheet in the

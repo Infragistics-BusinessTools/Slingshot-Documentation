@@ -55,7 +55,7 @@ private void AnalyticsView_VisualizationEditorClosed(object sender, Visualizatio
 }
 ```
 
-In the case that you need to control how to add new visualizations please refer to [**Creating New Visualizations and Dashboards**](~/components/analytics/developer/desktop-sdk/using-the-desktop-sdk/creating-visualizations-dashboards.md).
+In the case that you need to control how to add new visualizations please refer to [**Creating New Visualizations and Dashboards**](~/docs/analytics/developer/desktop-sdk/using-the-desktop-sdk/creating-visualizations-dashboards.md).
 
 
 ### Saving dashboards

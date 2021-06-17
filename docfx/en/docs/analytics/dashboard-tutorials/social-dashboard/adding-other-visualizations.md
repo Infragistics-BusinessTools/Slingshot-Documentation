@@ -11,7 +11,7 @@ NOTE
 
 </div>
 
-If you want to [change your data source](~/components/analytics/datasources/changing-data-source-visualization.md), you will need to select the **overflow button** next to the data source name or [create a new data source](~/components/analytics/datasources/overview.html#connecting-to-data-sources) instead. You can also [duplicate](~/components/analytics/data-visualizations/reusing-visualizations.md) visualizations to speed up the
+If you want to [change your data source](~/docs/analytics/datasources/changing-data-source-visualization.md), you will need to select the **overflow button** next to the data source name or [create a new data source](~/docs/analytics/datasources/overview.html#connecting-to-data-sources) instead. You can also [duplicate](~/docs/analytics/data-visualizations/reusing-visualizations.md) visualizations to speed up the
 creation process.
 
 </div>
@@ -59,7 +59,7 @@ This section will cover the following visualizations:
 ### Followers
 
 The Followers visualization displays the amount of followers broken down
-by social media channel in a [column chart](~/components/analytics/visualization-tutorials/simple-charts.md). In
+by social media channel in a [column chart](~/docs/analytics/visualization-tutorials/simple-charts.md). In
 order to create it:
 
 1.  Select the + button in the right corner of your dashboard. In the
@@ -121,7 +121,7 @@ Once you are done, go back to the Dashboard Editor by selecting the
 ### YTD Facebook Followers
 
 The YTD Facebook Followers visualization displays the amount of
-followers for that social media channel in a [text gauge](~/components/analytics/data-visualizations/visualization-types/gauge-charts.html#text-gauge). In order to create it:
+followers for that social media channel in a [text gauge](~/docs/analytics/data-visualizations/visualization-types/gauge-charts.html#text-gauge). In order to create it:
 
 1.  Select the + button in the right corner of your dashboard. In the
     New Visualization dialog, select the
@@ -165,7 +165,7 @@ Once you are done, go back to the Dashboard Editor by selecting the
 ### Monthly Facebook Likes
 
 The Monthly Facebook Likes visualization displays the amount of Facebook
-likes per month for the company in a [line chart](~/components/analytics/visualization-tutorials/simple-charts.md). In order to create it:
+likes per month for the company in a [line chart](~/docs/analytics/visualization-tutorials/simple-charts.md). In order to create it:
 
 1.  Select the + button in the right corner of your dashboard. In the
     New Visualization dialog, select the
@@ -230,7 +230,7 @@ Once you are done, go back to the Dashboard Editor by selecting the
 ### Retweets & Favorites
 
 The Retweets & Favorites visualization displays the amount of Twitter
-retweets and favorited posts per month for the company in a [column chart](~/components/analytics/visualization-tutorials/simple-charts.md). In order to create it:
+retweets and favorited posts per month for the company in a [column chart](~/docs/analytics/visualization-tutorials/simple-charts.md). In order to create it:
 
 1.  Select the + button in the right corner of your dashboard. In the
     New Visualization dialog, select the
@@ -291,7 +291,7 @@ Once you are done, go back to the Dashboard Editor by selecting the
 ### Facebook Reach vs. Impressions
 
 The Facebook Reach vs. Impressions visualization displays the amount of
-reaches and impressions through Facebook for the company in an [area chart](~/components/analytics/visualization-tutorials/simple-charts.md). In order to create it:
+reaches and impressions through Facebook for the company in an [area chart](~/docs/analytics/visualization-tutorials/simple-charts.md). In order to create it:
 
 1.  Select the + button in the right corner of your dashboard. In the
     New Visualization dialog, select the
@@ -348,7 +348,7 @@ Once you are done, go back to the Dashboard Editor by selecting the
 ### Monthly Twitter Mentions
 
 The Monthly Twitter mentions visualization displays the amount of
-mentions through Twitter for the company in a [line chart](~/components/analytics/visualization-tutorials/simple-charts.md). In order to create it:
+mentions through Twitter for the company in a [line chart](~/docs/analytics/visualization-tutorials/simple-charts.md). In order to create it:
 
 1.  Select the + button in the right corner of your dashboard. In the
     New Visualization dialog, select the

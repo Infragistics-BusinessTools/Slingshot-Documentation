@@ -73,7 +73,7 @@ To use parameters effectively follow the procedure below:
     <img src="images/REST-API-Data-Format-Result.png" alt="REST-API-Data-Format-Result\_All" width="100%"/>
 
     For more information on how to work with a JSON file, please refer
-    to [this topic](~/components/analytics/datasources/working-files/working-with-json-files.md).
+    to [this topic](~/docs/analytics/datasources/working-files/working-with-json-files.md).
 
     After loading the data, you will continue to the Visualization Editor
     screen.

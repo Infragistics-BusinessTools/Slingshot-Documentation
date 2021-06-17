@@ -56,8 +56,8 @@ In the dialog above, you will need to configure:
 
 ### Parameters Binding
 
-For data sources with parameters ([REST](~/components/analytics/datasources/supported-data-sources/rest-api.md), [OData](~/components/analytics/datasources/supported-data-sources/odata-feed.md)
-and Stored Procedures in [MS SQL Server](~/components/analytics/datasources/supported-data-sources/microsoft-sql-server.md)) you
+For data sources with parameters ([REST](~/docs/analytics/datasources/supported-data-sources/rest-api.md), [OData](~/docs/analytics/datasources/supported-data-sources/odata-feed.md)
+and Stored Procedures in [MS SQL Server](~/docs/analytics/datasources/supported-data-sources/microsoft-sql-server.md)) you
 might need to connect the dashboard filter to a parameter, so when you
 change the filter data for the visualization, it will be refreshed with
 the selected value in the connected parameter.

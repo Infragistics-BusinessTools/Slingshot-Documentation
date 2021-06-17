@@ -25,4 +25,4 @@ $.ig.AnalyticsSdkSettings.setBaseUrl("http://localhost:8080/upmedia/reveal-api")
 
 Please note that the format used is: **http://**[server]**:**[port]**/**[application]**/reveal-api**. The inclusion of **/reveal-api** is required in order to set the property successfully.
 
-Set this property *prior to the* [*instantiation of the $.ig.AnalyticsView*](~/components/analytics/developer/web-sdk/setup-configuration.html#instantiating-the-web-client-sdk).
+Set this property *prior to the* [*instantiation of the $.ig.AnalyticsView*](~/docs/analytics/developer/web-sdk/setup-configuration.html#instantiating-the-web-client-sdk).

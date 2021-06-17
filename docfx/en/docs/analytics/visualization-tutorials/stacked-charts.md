@@ -109,7 +109,7 @@ fitted to your needs. In order to do this:
 <a name='change-axis-configuration'></a>
 ### Changing your Axis Configuration
 
-Similarly to the [Gauge bands](~/components/analytics/data-visualizations/gauge-charts#bands-configuration), the
+Similarly to the [Gauge bands](~/docs/analytics/data-visualizations/gauge-charts#bands-configuration), the
 chart axis configuration allows you to set the lowest and highest values
 in your chart. You can use this feature to include or exclude specific
 data.

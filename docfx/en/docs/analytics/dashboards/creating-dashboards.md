@@ -38,10 +38,10 @@ your visualization.
 #### Available Content
 
 With Analytics, you can add many content sources, including
-[Dropbox](~/components/analytics/datasources/supported-data-sources/Dropbox.md), [OneDrive](~/components/analytics/datasources/supported-data-sources/OneDrive.md), [Box](~/components/analytics/datasources/supported-data-sources/Box.md) and [Google Drive](~/components/analytics/datasources/supported-data-sources/Google-Drive.md), which will allow you to browse any folders, files
+[Dropbox](~/docs/analytics/datasources/supported-data-sources/Dropbox.md), [OneDrive](~/docs/analytics/datasources/supported-data-sources/OneDrive.md), [Box](~/docs/analytics/datasources/supported-data-sources/Box.md) and [Google Drive](~/docs/analytics/datasources/supported-data-sources/Google-Drive.md), which will allow you to browse any folders, files
 or spreadsheets available in them.
 
-In addition, you can also add [SharePoint](~/components/analytics/datasources/supported-data-sources/SharePoint.md) data sources,
+In addition, you can also add [SharePoint](~/docs/analytics/datasources/supported-data-sources/SharePoint.md) data sources,
 which means the ability to access any lists or libraries.
 
 <img src="images/available-content-sharepoint.png" alt="available content in SharePoint datasource account" width="100%"/>
@@ -92,7 +92,7 @@ Once your dashboard is ready, save it by either selecting the **tick icon** in t
 option in the overflow menu.
 
 You can save your dashboard in your personal repository, or choose any
-team repositories you have [joined or created](~/components/analytics/teams/Creating-Joining-Teams.md).
+team repositories you have [joined or created](~/docs/analytics/teams/Creating-Joining-Teams.md).
 Select a name for your dashboard, and, when ready, click/tap **Save here**.
 
 <img src="images/save-as-menu.png" alt="save as menu" width="100%"/>

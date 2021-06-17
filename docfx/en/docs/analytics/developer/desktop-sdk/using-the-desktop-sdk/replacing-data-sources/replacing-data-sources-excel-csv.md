@@ -7,9 +7,9 @@ After exporting the dashboard and embedding it in custom application, we can mov
 
 ### Steps
 To populate the exported dashboard using local Excel and CSV files, you need to follow these steps:
-1. **Export the dashboard** file as explained in [**Getting Dashboards for the SDK**](~/components/analytics/developer/general/get-dashboards.md) 
+1. **Export the dashboard** file as explained in [**Getting Dashboards for the SDK**](~/docs/analytics/developer/general/get-dashboards.md) 
 2. **Load the dashboard** in your application as described in: 
-[**Loading Dashboard Files**](~/components/analytics/developer/desktop-sdk/using-the-desktop-sdk/loading-dashboards.md) 
+[**Loading Dashboard Files**](~/docs/analytics/developer/desktop-sdk/using-the-desktop-sdk/loading-dashboards.md) 
 3. **Download the files** you used to create the dashboard from your cloud storage and copy them to a local folder.   
 4. **Set the local folder name** as a value of the *Analytics.SdkSettings.LocalFilesRootFolder* property.   
 You can use the *Analytics.Sdk.Samples.UpMedia.Wpf* sample application as reference for setting *Datasources* as local folder. The sample application comes with **Analytics SDK** installation.  

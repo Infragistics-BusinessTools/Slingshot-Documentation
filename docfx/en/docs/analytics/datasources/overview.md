@@ -23,60 +23,60 @@ To connect to a data source, perform the steps below.
 
 After selecting a data source provider, you will be prompted to **configure** it. Not sure how to do this? Find out in the article about the chosen data source (see the list below).
 
-   - [Amazon Redshift](~/components/analytics/datasources/supported-data-sources/redshift.md)
+   - [Amazon Redshift](~/docs/analytics/datasources/supported-data-sources/redshift.md)
 
-   - [Box](~/components/analytics/datasources/supported-data-sourcesbox.md)
+   - [Box](~/docs/analytics/datasources/supported-data-sourcesbox.md)
 
-   - [Dropbox](~/components/analytics/datasources/supported-data-sources/dropbox.md)
+   - [Dropbox](~/docs/analytics/datasources/supported-data-sources/dropbox.md)
 
-   - [Google Analytics](~/components/analytics/datasources/supported-data-sources/google-analytics.md)
+   - [Google Analytics](~/docs/analytics/datasources/supported-data-sources/google-analytics.md)
 
-   - [Google BigQuery](~/components/analytics/datasources/supported-data-sources/google-bigquery.md)
+   - [Google BigQuery](~/docs/analytics/datasources/supported-data-sources/google-bigquery.md)
 
-   - [Google Drive](~/components/analytics/datasources/supported-data-sources/google-drive.md)
+   - [Google Drive](~/docs/analytics/datasources/supported-data-sources/google-drive.md)
 
-   - [Hubspot](~/components/analytics/datasources/supported-data-sources/hubspot.md)
+   - [Hubspot](~/docs/analytics/datasources/supported-data-sources/hubspot.md)
 
-   - [Marketo](~/components/analytics/datasources/supported-data-sources/marketo.md)
+   - [Marketo](~/docs/analytics/datasources/supported-data-sources/marketo.md)
 
-   - [Microsoft Analysis Services](~/components/analytics/datasources/supported-data-sources/microsoft-analysis-services/configuring-microsoft-analysis-services.md)*
+   - [Microsoft Analysis Services](~/docs/analytics/datasources/supported-data-sources/microsoft-analysis-services/configuring-microsoft-analysis-services.md)*
 
-   - [Microsoft Azure Analysis Services](~/components/analytics/datasources/supported-data-sources/microsoft-azure-analysis-services.md)
+   - [Microsoft Azure Analysis Services](~/docs/analytics/datasources/supported-data-sources/microsoft-azure-analysis-services.md)
 
-   - [Microsoft Azure SQL Database](~/components/analytics/datasources/supported-data-sources/azure-sql.md)*
+   - [Microsoft Azure SQL Database](~/docs/analytics/datasources/supported-data-sources/azure-sql.md)*
 
-   - [Microsoft Azure Synapse Analytics](~/components/analytics/datasources/supported-data-sources/microsoft-azure-synapse-analytics.md)
+   - [Microsoft Azure Synapse Analytics](~/docs/analytics/datasources/supported-data-sources/microsoft-azure-synapse-analytics.md)
 
-   - [Microsoft Dynamics CRM](~/components/analytics/datasources/supported-data-sources/microsoft-dynamics-crm.md)
+   - [Microsoft Dynamics CRM](~/docs/analytics/datasources/supported-data-sources/microsoft-dynamics-crm.md)
 
-   - [Microsoft Reporting Services (SSRS)](~/components/analytics/datasources/supported-data-sources/microsoft-reporting-services.md)
+   - [Microsoft Reporting Services (SSRS)](~/docs/analytics/datasources/supported-data-sources/microsoft-reporting-services.md)
 
-   - [Microsoft SQL Server](~/components/analytics/datasources/supported-data-sources/microsoft-sql-server.md)*
+   - [Microsoft SQL Server](~/docs/analytics/datasources/supported-data-sources/microsoft-sql-server.md)*
 
-   - [MySQL](~/components/analytics/datasources/supported-data-sources/mysql.md)*
+   - [MySQL](~/docs/analytics/datasources/supported-data-sources/mysql.md)*
 
-   - [OData Feed](~/components/analytics/datasources/supported-data-sources/odata-feed.md)
+   - [OData Feed](~/docs/analytics/datasources/supported-data-sources/odata-feed.md)
 
-   - [OneDrive](~/components/analytics/datasources/supported-data-sources/onedrive.md)
+   - [OneDrive](~/docs/analytics/datasources/supported-data-sources/onedrive.md)
 
-   - [Oracle](~/components/analytics/datasources/supported-data-sources/oracle.md)*
+   - [Oracle](~/docs/analytics/datasources/supported-data-sources/oracle.md)*
 
-   - [PostgreSQL](~/components/analytics/datasources/supported-data-sources/postgresql.md)*
+   - [PostgreSQL](~/docs/analytics/datasources/supported-data-sources/postgresql.md)*
 
-   - [Quickbooks](~/components/analytics/datasources/supported-data-sources/quickbooks.md)
+   - [Quickbooks](~/docs/analytics/datasources/supported-data-sources/quickbooks.md)
 
-   - [REST API](~/components/analytics/datasources/supported-data-sources/rest-api.md)
+   - [REST API](~/docs/analytics/datasources/supported-data-sources/rest-api.md)
 
-   - [Salesforce](~/components/analytics/datasources/supported-data-sources/salesforce.md)
+   - [Salesforce](~/docs/analytics/datasources/supported-data-sources/salesforce.md)
 
-   - [SharePoint](~/components/analytics/datasources/supported-data-sources/sharepoint.md)
+   - [SharePoint](~/docs/analytics/datasources/supported-data-sources/sharepoint.md)
 
-   - [Sybase](~/components/analytics/datasources/supported-data-sources/sybase.md)*
+   - [Sybase](~/docs/analytics/datasources/supported-data-sources/sybase.md)*
 
-   - [Web Resource](~/components/analytics/datasources/supported-data-sources/web-resource.md)
+   - [Web Resource](~/docs/analytics/datasources/supported-data-sources/web-resource.md)
 
-   - [JSON files](~/components/analytics/datasources/working-files/working-with-json-files.md)
-   - [Spreadsheets]((~/components/analytics/datasources/working-files/working-with-spreadsheets.md))
+   - [JSON files](~/docs/analytics/datasources/working-files/working-with-json-files.md)
+   - [Spreadsheets]((~/docs/analytics/datasources/working-files/working-with-spreadsheets.md))
 
 >[!NOTE]
 > **Databases** (*) are not supported in the Web version of Analytics.

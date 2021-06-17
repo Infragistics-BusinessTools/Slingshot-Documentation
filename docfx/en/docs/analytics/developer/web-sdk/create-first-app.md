@@ -106,7 +106,7 @@ And the necessary references in the same file:
 ```
 
 If you experience any issues, please refer to the [**Setup
-and Configuration (Web)**](~/components/analytics/developer/setup-configuration/setup-configuration-web.md)
+and Configuration (Web)**](~/docs/analytics/developer/setup-configuration/setup-configuration-web.md)
 topic.
 
 ### Step 4 - Embed Analytics in your Client application
@@ -227,7 +227,7 @@ Finally, when running the web page, you can see the dashboard:
 ![marketing dashboard result in web
 page](images/marketing-dashboard-result.png)
 
-If you experience any issues, please refer to the [**Setup and Configuration (Web)**](~/components/analytics/developer/setup-configuration/setup-configuration-web.md)
+If you experience any issues, please refer to the [**Setup and Configuration (Web)**](~/docs/analytics/developer/setup-configuration/setup-configuration-web.md)
 topic.
 
 ### Step 5 - Use Analytics Fonts

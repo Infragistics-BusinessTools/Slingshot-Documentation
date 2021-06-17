@@ -19,12 +19,12 @@ This dashboard contains information on a sample company:
 ### Sample Datasheet
 
 You can download the sample datasheet [here](https://download.infragistics.com/reportplus/help/samples/Analytics_Dashboard_Tutorials.xlsx).
-All other dashboards [in these tutorials](~/components/analytics/dashboard-tutorials/overview.md) will use
+All other dashboards [in these tutorials](~/docs/analytics/dashboard-tutorials/overview.md) will use
 the same sample spreadsheet.
 
 >[!NOTE]
 >Excel files as local files are not supported in this release. In order to follow these tutorials, make sure you upload the file to one of the
-[supported cloud services](~/components/analytics/datasources/overview.md).
+[supported cloud services](~/docs/analytics/datasources/overview.md).
 
 ### Steps Overview
 

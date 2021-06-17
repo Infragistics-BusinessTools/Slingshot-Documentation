@@ -77,7 +77,7 @@ For this tutorial, you will use the "Sparkline Charts" sheet in the
 [Analytics Tutorials Spreadsheet](https://download.infragistics.com/reportplus/help/samples/Analytics_Visualization_Tutorials.xlsx).
 
 >[!NOTE]
->Excel files as local files are not supported in this release. In order to follow these tutorials, make sure you upload the file to one of the supported _cloud services_ or add it as a [Web Resource](~/components/analytics/datasources/supported-data-sources/web-resource.md).
+>Excel files as local files are not supported in this release. In order to follow these tutorials, make sure you upload the file to one of the supported _cloud services_ or add it as a [Web Resource](~/docs/analytics/datasources/supported-data-sources/web-resource.md).
 
 <a name='create-sparkline'></a>
 ### Creating a Sparkline Chart

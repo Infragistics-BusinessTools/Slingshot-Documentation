@@ -11,12 +11,12 @@ button in the top right-hand corner of the initial view, and select the
 After you select **Dashboard**, you will see the **New Visualization**
 screen pop up. Select the + sign in the top right corner, and then the
 data source in which you stored the the sample datasheet mentioned in
-[this section](~/components/analytics/dashboard-tutorials/finance-dashboard/getting-started.html#sample-data).
+[this section](~/docs/analytics/dashboard-tutorials/finance-dashboard/getting-started.html#sample-data).
 
 <img src="images/creating-new-visualization.png" alt="creatingnewvisualization\_all" width="100%"/>
 
 >[!NOTE]
->For instructions on how to add a data source for each of the providers, refer to [this topic](~/components/analytics/datasources/overview.md).
+>For instructions on how to add a data source for each of the providers, refer to [this topic](~/docs/analytics/datasources/overview.md).
 
 When selecting the file in the **Visualization Data** dialog, make sure
 you select the **Social Dashboard** sheet of the sample spreadsheet.
@@ -24,8 +24,8 @@ Then, select *Load Data*.
 
 <img src="images/SelectingSocialSheet_All.png" alt="SelectingSocialSheet\_All" width="100%"/>
 
-After loading your data, the [Grid Chart](~/components/analytics/data-visualizations/visualization-types/grid-chart.md) will be selected by
-default in the [Visualizations Editor](~/components/analytics/data-visualizations/visualizations-editor.md).
+After loading your data, the [Grid Chart](~/docs/analytics/data-visualizations/visualization-types/grid-chart.md) will be selected by
+default in the [Visualizations Editor](~/docs/analytics/data-visualizations/visualizations-editor.md).
 
 <img src="images/SocialFirstVisualizationGrid_All.png" alt="SocialFirstVisualizationGrid\_All" width="100%"/>
 

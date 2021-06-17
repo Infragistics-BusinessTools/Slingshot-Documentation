@@ -104,4 +104,4 @@ For more information about Goals, please refer to this Google Analytics
 
 ### Limitations in Dashboard Filters
 
-Currently, you cannot create a [dashboard filter](~/components/analytics/filters/dashboard-filters.md) with Google Analytics data. 
+Currently, you cannot create a [dashboard filter](~/docs/analytics/filters/dashboard-filters.md) with Google Analytics data. 

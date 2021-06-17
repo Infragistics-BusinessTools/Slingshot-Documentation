@@ -52,4 +52,4 @@ Analytics provides you with three types of advanced
 predictive analysis. These are *Time series forecast*, *Linear regression* and *Detect outliers*. You can use them to make predictions, recognize and evaluate trends, or discover outliers
 in your data series.
 
-The newly released Time Series chart does not support statistical functions yet. This means you cannot use Time series forecast, Linear regression or Detect outliers for now. They will be supported in the future. Currently, you can use a Line chart to achieve a similar result, as shown here [*Time series forecast*](~/components/analytics/data-visualizations/statistical-functions.html#time-series-forecast).
+The newly released Time Series chart does not support statistical functions yet. This means you cannot use Time series forecast, Linear regression or Detect outliers for now. They will be supported in the future. Currently, you can use a Line chart to achieve a similar result, as shown here [*Time series forecast*](~/docs/analytics/data-visualizations/statistical-functions.html#time-series-forecast).

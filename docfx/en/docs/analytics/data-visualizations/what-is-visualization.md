@@ -33,7 +33,7 @@ In the dashboard above, you see the following visualization types:
 ### How do you create a Visualization?
 
 Once you select the + sign to add a new dashboard, you will be prompted
-to enter a new or an existing [data source](~/components/analytics/datasources/overview.md). This will be
+to enter a new or an existing [data source](~/docs/analytics/datasources/overview.md). This will be
 the first step towards creating your visualization.
 
 <img src="images/creating-new-visualization.png" alt="Creating a new visualization dialog" width="100%"/>

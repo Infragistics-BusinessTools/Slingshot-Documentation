@@ -10,7 +10,7 @@ Before jumping in, take into account that in Analytics you can join an **Organiz
 > [!NOTE]
 > The organization team is named after your organization (e.g. your company's name).  
 
-Depending on which account you used to sign in Analytics, you will have your OneDrive or Google Drive automatically added to your list of [data sources](~/components/analytics/datasources/overview.md).
+Depending on which account you used to sign in Analytics, you will have your OneDrive or Google Drive automatically added to your list of [data sources](~/docs/analytics/datasources/overview.md).
 
 ### Your First Screen
 

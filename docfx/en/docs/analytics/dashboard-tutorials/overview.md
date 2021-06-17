@@ -3,9 +3,9 @@
 
 Within this section, you will find step-by-step tutorials on how to
 create a variety of Analytics dashboards. For specific information on any
-visualization, visit the [Data Visualizations](~/components/analytics/data-visualizations/overview.md)
+visualization, visit the [Data Visualizations](~/docs/analytics/data-visualizations/overview.md)
 section. You can also find detailed information on which filters you can
-apply to a visualization or dashboard in the [Filters](~/components/analytics/filters/overview.md) topic.
+apply to a visualization or dashboard in the [Filters](~/docs/analytics/filters/overview.md) topic.
 
 <table>
 <colgroup>

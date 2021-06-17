@@ -2,7 +2,7 @@
 
 Let's focus on creating the "Globex Stock Value 2018" visualization in
 the [sample dashboard](getting-started.md) presented at the
-beginning of this tutorial. The visualization displays a [Text Gauge](~/components/analytics/data-visualizations/visualization-types/gauge-charts.html#text-gauge). This particular visualization displays
+beginning of this tutorial. The visualization displays a [Text Gauge](~/docs/analytics/data-visualizations/visualization-types/gauge-charts.html#text-gauge). This particular visualization displays
 two fields:
 
   - Stocks

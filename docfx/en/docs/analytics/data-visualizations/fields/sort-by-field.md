@@ -47,7 +47,7 @@ priority first, ordered A-Z, *Normal* priority cases after those, and, lastly, *
 ### Ordering String Dates in Chronological Order
 
 Let's take a look at the following visualization, where we have plotted
-the cash and accounts receivable influxes for a company in a [stacked column chart](~/components/analytics/visualization-tutorials/stacked-charts.html#create-stacked-chart).
+the cash and accounts receivable influxes for a company in a [stacked column chart](~/docs/analytics/visualization-tutorials/stacked-charts.html#create-stacked-chart).
 
 <img src="images/SortByFieldSalesInformation_All.png" alt="SortByFieldSalesInformation\_All" width="100%"/>
 

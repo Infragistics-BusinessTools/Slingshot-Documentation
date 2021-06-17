@@ -31,11 +31,11 @@ revealView.onVisualizationEditorClosed = function (args) {
  };
 ```
 
-In the case that you need to control how to add new visualizations please refer to [**Creating New Visualizations and Dashboards**](~/components/analytics/developer/desktop-sdk/using-the-desktop-sdk/creating-visualizations-dashboards.md).
+In the case that you need to control how to add new visualizations please refer to [**Creating New Visualizations and Dashboards**](~/docs/analytics/developer/desktop-sdk/using-the-desktop-sdk/creating-visualizations-dashboards.md).
 
 ### Saving Dashboards
 
-As described in [**Loading Dashboard Files**](~/components/analytics/developer/web-sdk/using-the-server-sdk/loading-dashboards.md), there are two ways to handle how you save changes to dashboards:
+As described in [**Loading Dashboard Files**](~/docs/analytics/developer/web-sdk/using-the-server-sdk/loading-dashboards.md), there are two ways to handle how you save changes to dashboards:
   - **Client-side**: To use this method you need to set a function in the __onSave__
   attribute of the __revealView__ object. This is the recommended approach as it gives more flexibility to the containing app on how operations (save and save as) are performed.
 
@@ -64,4 +64,4 @@ As described in [**Loading Dashboard Files**](~/components/analytics/developer/w
   client-side but you lose flexibility client-side. This means, for
   example, that the user cannot select the final location where the
   dashboard will be stored. For further details about the SDK context, please refer to
-  [**Defining the Server Context.**](~/components/analytics/developer/setup-configuration/setup-configuration-web.html#defining-server-context).
+  [**Defining the Server Context.**](~/docs/analytics/developer/setup-configuration/setup-configuration-web.html#defining-server-context).

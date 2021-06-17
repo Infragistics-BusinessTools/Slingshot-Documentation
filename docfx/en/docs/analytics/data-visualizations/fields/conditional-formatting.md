@@ -1,7 +1,7 @@
 ## Conditional Formatting
 
 Conditional formatting allows you to provide different formatting of a
-cell (or rows for [Text Views](~/components/analytics/data-visualizations/visualization-types/text-view.md)) depending on the values found
+cell (or rows for [Text Views](~/docs/analytics/data-visualizations/visualization-types/text-view.md)) depending on the values found
 in a numeric column. For instance, values in the lower 50% range of a
 grid can be colored with a red adorner to signal very low values.
 
@@ -49,11 +49,11 @@ disabled by default.
 
 Conditional formatting can be applied to the following visualizations:
 
-  - [Grid Chart](~/components/analytics/data-visualizations/visualization-types/grid-chart.md)
+  - [Grid Chart](~/docs/analytics/data-visualizations/visualization-types/grid-chart.md)
 
-  - [Pivot Chart](~/components/analytics/data-visualizations/visualization-types/pivot-table.md)
+  - [Pivot Chart](~/docs/analytics/data-visualizations/visualization-types/pivot-table.md)
 
-  - [Text View](~/components/analytics/data-visualizations/visualization-types/text-view.md)
+  - [Text View](~/docs/analytics/data-visualizations/visualization-types/text-view.md)
 
 >[!NOTE]
->[KPI](~/components/analytics/data-visualizations/visualization-types/kpi-gauge.md), [Linear](~/components/analytics/data-visualizations/visualization-types/gauge-charts.html#linear-gauge), [Circular](~/components/analytics/data-visualizations/visualization-types/gauge-charts.html#circular-gauge), [Text](~/components/analytics/data-visualizations/visualization-types/gauge-charts.html#text-gauge), and [Bullet Graph](~/components/analytics/data-visualizations/visualization-types/gauge-charts.html#bullet-graph) gauges support conditional formatting in the form of [**visualization band range configurations**](~/components/analytics/data-visualizations/visualization-types/gauge-charts.html#bands-configuration).
+>[KPI](~/docs/analytics/data-visualizations/visualization-types/kpi-gauge.md), [Linear](~/docs/analytics/data-visualizations/visualization-types/gauge-charts.html#linear-gauge), [Circular](~/docs/analytics/data-visualizations/visualization-types/gauge-charts.html#circular-gauge), [Text](~/docs/analytics/data-visualizations/visualization-types/gauge-charts.html#text-gauge), and [Bullet Graph](~/docs/analytics/data-visualizations/visualization-types/gauge-charts.html#bullet-graph) gauges support conditional formatting in the form of [**visualization band range configurations**](~/docs/analytics/data-visualizations/visualization-types/gauge-charts.html#bands-configuration).

@@ -4,7 +4,7 @@ All the remaining visualizations in the dashboards will use the same
 [sample spreadsheet](https://download.infragistics.com/reportplus/help/samples/Analytics_Dashboard_Tutorials.xlsx)
 
 >[!NOTE]
->If you want to [change your data source](~/components/analytics/datasources/changing-data-source-visualization.md), you will need to select the **overflow button** next to the data source name or [create a new data source](~/components/analytics/datasources/overview.md) instead. You can also [duplicate](~/components/analytics/data-visualizations/reusing-visualizations.md) visualizations to speed up the creation process.
+>If you want to [change your data source](~/docs/analytics/datasources/changing-data-source-visualization.md), you will need to select the **overflow button** next to the data source name or [create a new data source](~/docs/analytics/datasources/overview.md) instead. You can also [duplicate](~/docs/analytics/data-visualizations/reusing-visualizations.md) visualizations to speed up the creation process.
 
 This section will cover the following visualizations:
 
@@ -59,7 +59,7 @@ This section will cover the following visualizations:
 ### Win/Lost by Month
 
 The Win/Lost by Month visualization displays the amount of won and lost
-opportunities for a six-month period in a [column chart](~/components/analytics/visualization-tutorials/simple-charts.md). In order to create it:
+opportunities for a six-month period in a [column chart](~/docs/analytics/visualization-tutorials/simple-charts.md). In order to create it:
 
 1.  Select the + button in the right corner of your dashboard. In the
     New Visualization dialog, select the
@@ -121,7 +121,7 @@ Once you are done, go back to the Dashboard Editor by selecting the
 ### Forecasted
 
 The Forecasted visualization displays the forecast for a six month
-period in a [bar chart](~/components/analytics/visualization-tutorials/simple-charts.md). In order to create it:
+period in a [bar chart](~/docs/analytics/visualization-tutorials/simple-charts.md). In order to create it:
 
 1.  Select the + button in the right corner of your dashboard. In the
     New Visualization dialog, select the
@@ -204,7 +204,7 @@ Once you are done, go back to the Dashboard Editor by selecting the
 ### Lost Opportunities
 
 The Lost Opportunities visualization simply displays the percentage of
-opportunities which were missed in a [Text Gauge](~/components/analytics/visualization-tutorials/gauge-views.html#text-gauge). In order to create it:
+opportunities which were missed in a [Text Gauge](~/docs/analytics/visualization-tutorials/gauge-views.html#text-gauge). In order to create it:
 
 1.  Select the + button in the right corner of your dashboard. In the
     New Visualization dialog, select the
@@ -284,7 +284,7 @@ Once you are done, go back to the Dashboard Editor by selecting the
 ### Pipeline by Territory
 
 The Pipeline by Territory visualizations displays the average sales
-prospects and where they are located in a [funnel chart](~/components/analytics/visualization-tutorials/simple-charts.md). In order to create it:
+prospects and where they are located in a [funnel chart](~/docs/analytics/visualization-tutorials/simple-charts.md). In order to create it:
 
 1.  Select the + button in the right corner of your dashboard. In the
     New Visualization dialog, select the
@@ -337,7 +337,7 @@ Once you are done, go back to the Dashboard Editor by selecting the
 
 The Total Opportunities visualization displays the revenue the
 opportunities represented for the company for a 12 month period in a
-[line chart](~/components/analytics/visualization-tutorials/simple-charts.md). In order to create it:
+[line chart](~/docs/analytics/visualization-tutorials/simple-charts.md). In order to create it:
 
 1.  Select the + button in the right corner of your dashboard. In the
     New Visualization dialog, select the
@@ -420,7 +420,7 @@ Once you are done, go back to the Dashboard Editor by selecting the
 ### Revenue by Territory
 
 The Revenue by Territory displays the revenue represented by each region
-for the company in a [pie chart](~/components/analytics/visualization-tutorials/simple-charts.md). In order to
+for the company in a [pie chart](~/docs/analytics/visualization-tutorials/simple-charts.md). In order to
 create it:
 
 1.  Select the + button in the right corner of your dashboard. In the
@@ -465,7 +465,7 @@ Once you are done, go back to the Dashboard Editor by selecting the
 ### Pipeline per Employee
 
 The Pipeline per Employee visualization displays the top 10 sales
-prospects per employee in a [column chart](~/components/analytics/visualization-tutorials/simple-charts.md). In
+prospects per employee in a [column chart](~/docs/analytics/visualization-tutorials/simple-charts.md). In
 order to create it:
 
 1.  Select the + button in the right corner of your dashboard. In the
@@ -538,7 +538,7 @@ Once you are done, go back to the Dashboard Editor by selecting the
 ### Sales by Product
 
 The Sales by Product visualization displays the different company
-products and the percentage of sales for each one in a [doughnut chart](~/components/analytics/visualization-tutorials/simple-charts.md). In order to create it:
+products and the percentage of sales for each one in a [doughnut chart](~/docs/analytics/visualization-tutorials/simple-charts.md). In order to create it:
 
 1.  Select the + button in the right corner of your dashboard. In the
     New Visualization dialog, select the

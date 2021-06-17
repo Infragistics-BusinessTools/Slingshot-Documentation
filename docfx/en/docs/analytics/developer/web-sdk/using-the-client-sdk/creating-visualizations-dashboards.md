@@ -45,7 +45,7 @@ The “false” value in the third parameter prevents existing data sources on t
 
 <img src="images/displayingDataSources_web.png" alt="displayingDataSources\_web" width="100%"/>
 
-Please note that the “employees” parameter passed to the “RVInMemoryDataSourceItem” constructor, is the same dataset id used in [**In-Memory Data Support**](~/components/analytics/developer/web-sdk/using-the-server-sdk/in-memory-data.md) and identifies the dataset to be returned on the server side.
+Please note that the “employees” parameter passed to the “RVInMemoryDataSourceItem” constructor, is the same dataset id used in [**In-Memory Data Support**](~/docs/analytics/developer/web-sdk/using-the-server-sdk/in-memory-data.md) and identifies the dataset to be returned on the server side.
 
 ### Creating New Dashboards
 

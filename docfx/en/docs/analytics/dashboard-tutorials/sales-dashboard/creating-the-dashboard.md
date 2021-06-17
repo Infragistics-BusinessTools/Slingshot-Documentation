@@ -16,7 +16,7 @@ data source in which you stored the the sample datasheet mentioned in
 <img src="images/creating-new-visualization.png" alt="creatingnewvisualization\_all" width="100%"/>
 
 >[!NOTE]
->For instructions on how to add a data source for each of the providers, refer to [this topic](~/components/analytics/datasources/overview.md).
+>For instructions on how to add a data source for each of the providers, refer to [this topic](~/docs/analytics/datasources/overview.md).
 
 When selecting the file in the **Visualization Data** dialog, make sure
 you select the **Sales Dashboard** sheet of the sample spreadsheet.
@@ -24,7 +24,7 @@ Then, select *Load Data*.
 
 <img src="images/SelectingSalesSheet_All.png" alt="SelectingSalesSheet\_All" width="100%"/>
 
-After loading your data, the [Grid Chart](~/components/analytics/data-visualizations/visualization-types/grid-chart.md) will be selected by default in the [Visualizations Editor](~/components/analytics/data-visualizations/visualizations-editor.md).
+After loading your data, the [Grid Chart](~/docs/analytics/data-visualizations/visualization-types/grid-chart.md) will be selected by default in the [Visualizations Editor](~/docs/analytics/data-visualizations/visualizations-editor.md).
 
 <img src="images/SalesFirstVisualizationGrid_All.png" alt="SalesFirstVisualizationGrid\_All" width="100%"/>
 
