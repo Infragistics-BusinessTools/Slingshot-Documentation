@@ -1,6 +1,6 @@
 # Loading Dashboards
 
-If you want to display an existing Analytics Dashboard in the `AnalyticsView` embedded within your application, you have four options to choose from.
+If you want to display an existing Analytics Dashboard in the `AnalyticsView` control embedded within your application, you have four options to choose from.
 - Load the dashboard from a file path
 - Load the dashboard from a file stream
 - Load the dashboard from an embedded resource
@@ -12,6 +12,8 @@ You can create **.rdash** dashboard files the following ways:
 - Export the dashboard as a .rdash file from the [Analytics BI website](https://app.revealbi.io/)
 - Export the dashboard as a .rdash file from one of the native Analytics applicatons
 - Save, or Export, a dashboard that was created in an application using the Analytics SDK.
+
+For further details, please refer to [Getting Dashboards for the SDK](~/docs/analytics/developer/developer/general/get-dashboards.md).
 
 ## Load from File Path
 It is very common to ship dashboard files with your application. These files are usually copied to the clients disk drive in a known directory so that the files can be loaded from disk during the execution of the application. In order to load these dashboards using a file path, you must know the file path to the **.rdash** file. 
