@@ -1,45 +1,16 @@
-## Overview
+## Analytics Overview
 
-# <Replace this topic entirely!>
+Slingshot comes with a business intelligence solution integrated, one that puts the power in your hands to work with data analytics. 
+You can quickly create and edit dashboards, easily query and filter data sources, build meaningful visualization over data and effortlessly share your work with other Slingshot users. 
 
-Analytics is a self-service, cross-platform business intelligence tool that puts the power in your hands to do dashboard reporting - all without the
-need for custom programming. With Analytics you can quickly create and edit dashboards, easily query and filter enterprise data sources, build meaningful visualization over data and effortlessly share your work with other Analytics users.
-
-### General Navigation
-
-When you first open Analytics, you will be greeted by the following screen:
-
-![Analytics start screen view](images/dashboards-initial-view.png)
-
-Below you will find the menus on the initial Analytics screen and what you are able to do there.
-
-1.  **My Stuff/Teams** - In this popover menu, you can access your personal space and any team you are a member of. You can also create new teams or join existing ones.
-
-> [!NOTE]
-> Note that you have *Dashboards*, *Favorites* and *Recent* available in the left bar of both *My Stuff*, and each of your teams. Their contents (dashboards) will be different for you and for each of your teams. Still, you can have the same dashboard shared between two or more teams, for example, or copy a dashboard from a team to *My Stuff*, and vice versa.
+### Feature Highlights
 
 
-1.  **Dashboards** - This is the central space for all dashboards. Start from here when you want to create, revise, or just find a dashboard you need. When accessing this space from the _My Stuff_ menu, you will find all dashboards created by you or shared with you. If you access this space in a team, dashboards created by other team members, or shared with your team are available for you to view and/or edit (depending on your [role permissions in the team](~/docs/analytics/teams/overview.html#members-roles-permissions)).
-
-  To open the content of a dashboard, you just need to click/tap on it. Select the overflow button in the top right-hand corner of a dashboard to **access advance dashboard actions** such as editing, sharing or deleting.
-
-3.  **Favorites** - Your most important dashboards are always close at hand in the *Favorites* module.
-
-4.  **Recent** - In the *Recent* module you will find the dashboards you have viewed or edited, sorted by the most recently used.
-
-5.  **Dashboard samples** - In the *Samples* module you will find dashboards composed by the Analytics's team. Their rich variety of visualizations will inspire your creativity and help you create your own beautiful dashboards.
-
-6.  **+ Dashboard split button** - You can start creating a new dashboard by selecting the *+ Dashboard* split button.
-
-  Clicking/tapping the arrow of the same button opens a dropdown menu providing two options:
-
-  - *Upload* a Analytics dashboard (an .rdash file).
-
-  - Create a new *Folder* in your personal space or in the team you are currently in.
-
-7.  **Dashboards filter** - choose from the dropdown menu which dashboards to see in the dashboard module: all, only created by you
-or shared with you.
-
-8.  **Notifications center** - Select the the bell icon to view any team or dashboard updates.
-
-9.  **Profile settings** - Select the icon with your initial (photo) to access Analytics's *general settings*, *learning tips*, *Help center* and *give feedback* or ask any questions related to the application.
+|  |  |
+|:-|:-|
+| <h4>Securely Connect to your Data and Build Powerful Data Visualizations </h4>  Connect to the most popular data sources without setting anything up on the server. With an intuitive drag and drop interface, Slingshot makes it simple to create dashboards within minutes. Choose from more than 20 different visualizations to present your data and tell your story the best way. | <img src="../data-visualizations/images/creating-new-visualization.png" alt="Choosing a data source for a dashboard in Slingshot" width="100%"/> |
+| <h4>Customize your Data Visualizations </h4>  Sort, filter and aggregate your data as you wish! Each chart type provides you with different settings to design your visualizations the way you want. | <img src="../data-visualizations/images/creating-new-visualization.png" alt="Choosing a data source for a dashboard in Slingshot" width="100%"/> |
+| <h4>Interact with your Dashboards</h4>  Once your dashboard is created, interact with your visualizations with drill-down support, or even the ability to change visualization on the fly. Create and share annotated images of your visualizations for deeper insights. | <img src="images/application-themes.png" alt="Application themes in Settings" width="100%"/> |
+| <h4>Share Insights with your Teams</h4>  Give everyone the power of data by sharing your dashboards within your Organization's repository, teams you are part of or with individual coworkers. Assign different levels of permissions to users to give them the level of access you want them to have to your dashboard. | <img src="images/application-themes.png" alt="Application themes in Settings" width="100%"/> |
+| <h4>Leverage Advanced Predictive Analysis</h4>  Get even more insight from your visualizations with advanced predictive analysis, using statistical functions. You can use the Time series forecast, Linear regression, and Detect outliers to make predictions, recognize and evaluate trends, or discover outliers in your data series. | <img src="images/application-themes.png" alt="Application themes in Settings" width="100%"/> |
+| <h4>Get Better Insights with Machine Learning</h4>  Use your trained models' data from BigQuery or Azure Machine Learning Studio in Slingshot. In just three steps, choose your data source, build a visualization, and use the integration to connect to a trained machine learning model. | <img src="images/application-themes.png" alt="Application themes in Settings" width="100%"/> |
