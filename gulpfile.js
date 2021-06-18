@@ -23,14 +23,22 @@ const REVEAL_DATASET_LINK_REGEX = /http:\/\/download\.infragistics\.com\/(report
 const REVEAL_RETAIL_STORE_LINK_REGEX = /http:\/\/download\.infragistics\.com\/(reportplus|reveal)\/help\/samples\/Retail_Store/g;
 
 const copyRevealTopicsAndTOCs = () => {
-    return src(`reveal-docs/${LANG}/**`)
+    return src([
+        `reveal-docs/${LANG}/**`,
+        `!reveal-docs/${LANG}/general/logging-in-reveal.md`,
+        `!reveal-docs/${LANG}/general/app-themes.md`,
+        `!reveal-docs/${LANG}/general/supported-languages.md`,
+        `!reveal-docs/${LANG}/general/notifications-center.md`,
+        `!reveal-docs/${LANG}/teams`,
+        `!reveal-docs/${LANG}/dashboard-tutorials`
+        ])
         .pipe(
             dest(`docfx/${LANG}/docs/analytics`)
         );
 };
 
 const overwriteRevealFiles = () => {
-    return src([`reveal-images/${LANG}/**`])
+    return src([`reveal-images/${LANG}/**`, `!reveal-images/${LANG}/teams/**`])
         .pipe(
             dest(`docfx/${LANG}/docs/analytics`)
         );
