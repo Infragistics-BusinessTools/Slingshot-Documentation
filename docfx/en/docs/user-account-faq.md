@@ -2,11 +2,13 @@
 
 Welcome! Read on to get answers to your questions about the user account and settings.
 
-### How can I access my user account
+### How can I access my user account?
 
 Go to the upper right corner and select your profile image.
 
 **ADD IMAGE HERE**
+
+Here you can Log Out, provide the Slingshot team with valuable Feedback, and access the general settings and profile information.
 
 ### Which are the different subscription plans?
 
@@ -33,9 +35,9 @@ Yes, you can. To meet global data privacy laws, including the General Data Prote
 For further details please refer to [Learn More about Data Privacy](data-privacy-faq.md)
 
 
-### Can I export my user account profile?
+### Can I export my user account's profile information?
 
-Yes you can. Your user account is a virtual representation of a user, a group of credentials, profile information, settings and content owned by you.
+Yes you can. Your user account is a virtual representation of a user, including a group of credentials, profile information, settings and content owned by you.
 For further details please refer to [Learn More about Data Privacy](data-privacy-faq.md)
 
 ### Why should I complete my profile information in Slingshot?

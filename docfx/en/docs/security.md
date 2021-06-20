@@ -13,6 +13,9 @@ Built on top of Microsoft and Google, Slingshot inherits all the underlying secu
 In addition, Slingshot is GDPR compliant and allows you to export and delete your own data if requested.
 For further details about data privacy, please refer to [Learn More about Data Privacy](data-privacy-faq.md).
 
+As a Slingshot user you own different types of content, like the files you upload, the messages you write and the dashboards you create. All those are part of your Slingshot account and are associated to you as a user.
+For further details about your user account and settings, please refer to [User Account & Settings](user-account.md)
+
 ### Using roles and permissions with Slingshot workspaces
 
 Using roles and permissions is a common practice for big companies, but it's also particularly helpful for those who want to give access to a system to external people, like third-parties and contractors. Slingshot was designed with different roles and permissions that contemplate many possible scenarios.
@@ -32,11 +35,3 @@ For further details, please refer to [Learn More about File Permissions](file-pe
 
 Finally, you often will be editing your files. Depending on the platform, you may use different applications as Slingshot relies on invoking 3rd party applications to do the job.  
 In addition, you can always download the file to your computer or device.
-
-### User Account
-
-**CONTINUE HERE**
-As a Slingshot user you own different types of content, like the files you upload, the messages you write and the dashboards you create. All those are part of your Slingshot account and are associated to you as a user. That being said, you do have full control over the content you own.
-For further details about data privacy, please refer to **//INSERT LINK//**.
-
----

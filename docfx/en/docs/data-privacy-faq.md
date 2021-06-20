@@ -8,7 +8,7 @@ Yes, it is. Slingshot aligns its data privacy practices with global data privacy
 
 Read on to learn _who_ can delete and export users' data, and _what_ type of information can be deleted or exported.  
 
-### Who can delete profile data?
+### Who can delete profile information?
 
 Technically speaking, the Slingshot support team is the one having rights to delete profile data from Slingshot. But they do this at the request of users, of course. 
 
@@ -19,18 +19,18 @@ Then, who can request profile data deletion directly from the Slingshot support 
 
 What if you are a member of an Organization in Slingshot? Then the information in your profile is considered ownership of the Organization. In case you want to have your data deleted, you have to contact an administrator of personal data in your organization and request the deletion from them.
 
-### How to delete profile data?
+### How to delete profile information?
 
 Below you will find two possible scenarios. The deletion procedure steps depend on your relation to an Organization in Slingshot.
 
 #### For Organization Owners 
 
-If you are a user with an [Owner](roles-permissions.html#teams-projects-roles) role in your Organization team and you need to delete one or more users' profile data, then read the steps below to learn how to proceed. 
+If you are a user with an [Owner](roles-permissions.html#teams-projects-roles) role in your Organization team and you need to delete one or more users' profile information, then read the steps below to learn how to proceed. 
 
 1. Contact our team at **support@slingshot.io**
 2. Note you want to delete an Organization member's profile information.
 3. You may be asked to provide more details about yourself. 
-4. The Slingshot support team will verify your right to request deletion first. Only then the deletion will start. When profile data is finally deleted, the user's name will be displayed as *@deactivateduser* wherever their content has not disappeared (see [above](#data-not-deleted)).  
+4. The Slingshot support team will verify your right to request deletion first. Only then the deletion will start. When profile information is finally deleted, the user's name will be displayed as *@deactivateduser* wherever their content has not disappeared (see [above](#data-not-deleted)).  
 
 #### For Users with Personal Accounts
 
@@ -44,9 +44,9 @@ If you are the only owner of any workspace in Slingshot, you will be asked to as
 
 The deletion process may take up to 24 hours. You will not be able to sign into your Slingshot profile again until deletion is finished.
 
->[!NOTE] If you have been invited to be a member of an Organization related workspace in Slingshot, you will not lose the right to delete your profile data. However, Organization related data will not be deleted together with your profile information as it is owned by the Organization.
+>[!NOTE] If you have been invited to be a member of an Organization related workspace in Slingshot, you will not lose the right to delete your profile information. However, Organization related data will not be deleted together with your profile information as it is owned by the Organization.
 
-### How does the deletion of profile data work?
+### How does the deletion of profile information work?
 
 In collaboration software like Slingshot, what you do, affects the people you work with. If, for example, you start a discussion in a workspace, this information will be saved in Slingshot to help others. Everyone in the workspace can benefit from the information in the discussion and will see that you are its initiator. 
 
@@ -77,17 +77,17 @@ If you are a member of an Organization in Slingshot, then the information in you
 
 ### What is the export format?
 
-Profile data is exported in the JSON format. 
+Profile information is exported in the JSON format. 
 
 Upon request, you will receive an email from Slingshot. This email contains a link to download a zip file with one or more JSON files with profile data. 
 
-### How to export profile data? 
+### How to export profile information? 
 
 Below you will find two possible scenarios. The export procedure steps depend on your relation to an Organization in Slingshot.
 
 #### For Organization Owners
 
-If you are a user with [owner](roles-permissions.md) permissions in the Organization workpsace and you need to export users' profile data, then read the steps below to learn how to proceed. 
+If you are a user with [owner](roles-permissions.md) permissions in the Organization workspace and you need to export users' profile data, then read the steps below to learn how to proceed. 
 
 1. Contact our team at **support@slingshot.io**
 2. Note you want to export an Organization member's profile information.
