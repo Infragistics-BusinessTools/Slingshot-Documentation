@@ -1,6 +1,6 @@
 ## Learn More about File Permissions
 
-Welcome! Read on to get answers to your questions about content and boards.
+Welcome! Read on to get answers to your questions about files permissions.
 
 ### How is file security granted in Slingshot?
 

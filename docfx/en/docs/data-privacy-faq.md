@@ -1,10 +1,14 @@
 ## Learn More about Data Privacy 
 
-Slingshot aligns its data privacy practicies with global data privacy laws such as the General Data Protection Regulation (GDPR). To protect data rights, Slingshot provides a controlled procedure for deletion and export of users' data. 
+Welcome! Read on to get answers to your questions about data privacy.
+
+### Is Slingshot GDPR compliant?
+
+Yes, it is. Slingshot aligns its data privacy practices with global data privacy laws such as the General Data Protection Regulation (GDPR). To protect data rights, Slingshot provides a controlled procedure for deleting and exporting users' data. 
 
 Read on to learn _who_ can delete and export users' data, and _what_ type of information can be deleted or exported.  
 
-### Who Can Delete Profile Data?
+### Who can delete profile data?
 
 Technically speaking, the Slingshot support team is the one having rights to delete profile data from Slingshot. But they do this at the request of users, of course. 
 
@@ -15,7 +19,7 @@ Then, who can request profile data deletion directly from the Slingshot support 
 
 What if you are a member of an Organization in Slingshot? Then the information in your profile is considered ownership of the Organization. In case you want to have your data deleted, you have to contact an administrator of personal data in your organization and request the deletion from them.
 
-### How to Delete Profile Data?
+### How to delete profile data?
 
 Below you will find two possible scenarios. The deletion procedure steps depend on your relation to an Organization in Slingshot.
 
@@ -77,7 +81,7 @@ Profile data is exported in the JSON format.
 
 Upon request, you will receive an email from Slingshot. This email contains a link to download a zip file with one or more JSON files with profile data. 
 
-### How to Export Profile Data? 
+### How to export profile data? 
 
 Below you will find two possible scenarios. The export procedure steps depend on your relation to an Organization in Slingshot.
 

@@ -6,31 +6,50 @@
 - name: First Time Sign In
   href: first-time-sign-in.md
   new: false
-- name: User Account
+- name: User Account & Settings
   href: user-account.md
-  new: true
+  new: false
   items:
     - name: User Account FAQ
       href: user-account-faq.md
-      new: true
+      new: false
+- name: Security & Privacy
+  href: security.md
+  new: false
+  items:
+    - name: Roles & Permissions FAQ
+      href: roles-permissions-faq.md
+      new: false
+    - name: File Permissions FAQ
+      href: file-permissions-faq.md
+      new: false
+    - name: Data Privacy FAQ
+      href: data privacy-faq.md
+      new: false
 - name: THE SLINGSHOT APP
   header: true
-- name: Roles & Permissions
-  href: roles-permissions.md
-  new: false
 - name: Workspaces
   href: workspaces.md
-  new: true
+  new: false
   items:
     - name: Workspaces FAQ
       href: workspaces-faq.md
-      new: true
+      new: false
+- name: Overviews
+  href: overviews.md
+  new: false
 - name: Tasks
   href: tasks.md
   new: false
   items:
     - name: Tasks FAQ
       href: tasks-faq.md
+      new: false
+- name: Content & Boards
+  href: content-boards.md
+  items:
+    - name: Content & Boards FAQ
+      href: content-faq.md
       new: false
 - name: Communication
   href: communication.md
@@ -39,21 +58,12 @@
       href: discussions-faq.md
     - name: Private Chats FAQ
       href: chat-faq.md
-      updated:  true
-- name: Overviews
-  href: overviews.md
-  new: false
+      updated:  false
 - name: Notifications
   href: notifications.md
   new: false
 - name: Search
   href: search.md
-- name: Content & Boards
-  href: content-boards.md
-  items:
-    - name: Content & Boards FAQ
-      href: content-faq.md
-      new: false
 - name: Analytics
   href: analytics/toc.yml
   topicHref: analytics/index.md
