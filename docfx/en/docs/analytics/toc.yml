@@ -101,18 +101,7 @@
   href: visualization-tutorials/stacked-charts.md
 - name: Text View
   href: visualization-tutorials/text-view.md
-- name: Dashboard Tutorials
-  header: true
-- name: Overview
-  href: dashboard-tutorials/overview.md
-- name: Finance Dashboard
-  href: dashboard-tutorials/finance-dashboard/toc.yml
-- name: Manufacturing Dashboard
-  href: dashboard-tutorials/manufacturing-dashboard/toc.yml
-- name: Sales Dashboard
-  href: dashboard-tutorials/sales-dashboard/toc.yml
-- name: Social Dashboard
-  href: dashboard-tutorials/social-dashboard/toc.yml
+
 - name: Additional Resources
   header: true
 - name: Known Issues
