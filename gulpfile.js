@@ -31,7 +31,8 @@ const copyRevealTopicsAndTOCs = () => {
         `!reveal-docs/${LANG}/general/supported-languages.md`,
         `!reveal-docs/${LANG}/general/notifications-center.md`,
         `!reveal-docs/${LANG}/teams/**`,
-        `!reveal-docs/${LANG}/dashboard-tutorials/**`
+        `!reveal-docs/${LANG}/dashboard-tutorials/**`,
+        `!reveal-docs/${LANG}/developer/**`
         ])
         .pipe(
             dest(`docfx/${LANG}/docs/analytics`)
