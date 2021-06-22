@@ -1,97 +1,51 @@
-## Learn more about your User Account
+## Learn more about your User Account & Settings
 
-Welcome! Read on to get answers to your questions about the user account.
+Welcome! Read on to get answers to your questions about the user account and settings.
 
-**CONTINUE HERE**
-...
-...
+### How can I access my user account?
 
-### How can I access my user account
+Go to the upper right corner and select your profile image.
 
-- Upper right corner
-- Your profile image
+**ADD IMAGE HERE**
 
-### Subscription
-Information about changing subscription in this dialog.
+Here you can Log Out, provide the Slingshot team with valuable Feedback, and access the general settings and profile information.
 
-Note: 
-Which are the subscription plans? - Welcome topic. + a link for more information in User Account
+### Which are the different subscription plans?
 
-### How can I change my language?
+Coming Soon...
 
-### How can I change the notifications language?
+### How secure is a Slingshot user account?
 
-### How can I .... with Emily
+As a Slingshot user you own different types of content, like the files you upload, the messages you write and the dashboards you create. All those are part of your Slingshot account and are associated to you as a user. That being said, you do have full control over the content you own.
+For further details about security and data privacy within Slingshot, please refer to [Security & Privacy](security.md).
 
-### How can I restart Contextual guides
+### How are Slingshot user accounts related to Microsoft or Google accounts?
 
-### Deleting Profile Data from Slingshot
+Slingshot is built upon Microsoft and Google security for data access and administration, including 2-factor authentication.
+In addition, Slingshot is GDPR compliant and allows you to export and delete your own data if requested.
+For further details about data privacy, please refer to [Learn More about Data Privacy](data-privacy-faq.md).
 
-To meet global data privacy laws, including the General Data Protection Regulation (GDPR) Slingshot gives the users the ability to have all their profile information deleted. Below, you will find who can delete profile data and how, what information will be deleted and what will be kept. 
+### Can I reactivate my user account after it was deleted?
 
-### Who Can Delete Profile Data?
-...
+Yes, you can. For further details please refer to [Learn More about Data Privacy](data-privacy-faq.md)
 
-### How to Delete Profile Data?
-...
+### Can I delete my user account?
 
-### How does delete profile data work? (What is Profile Information?) 
-...
-
-### Can I reactivate my profile after it was deleted?
-...
-
-## Exporting profile data from slingshot
-...
-
-### What is the export format?
-...
-
-### What type of data does the export contain? 
-...
-
-### Who can export profile data? 
-...
-  
-### How to export profile data? 
-...
+Yes, you can. To meet global data privacy laws, including the General Data Protection Regulation (GDPR) Slingshot gives the users the ability to have all their profile information deleted.
+For further details please refer to [Learn More about Data Privacy](data-privacy-faq.md)
 
 
----
+### Can I export my user account's profile information?
 
-### General settings
+Yes you can. Your user account is a virtual representation of a user, including a group of credentials, profile information, settings and content owned by you.
+For further details please refer to [Learn More about Data Privacy](data-privacy-faq.md)
 
-### Profile information 
-- Merriam-Webster definition 
-- this information is public 
-- it's up to you what Slingshot and other users know about you
-
-### Dashboard preferences
-Dashboards are part of your Analytics space in Slingshot. Find more about Dashboards settings in the following[link] topic. 
-
-
-### Data source credentials
-When you connect to a data source(link) in Analytics for the first time, your credentials (user name, password and domain) are stored in this menu. Find more info in this topic(link). 
-
-## Completing your profile information 
-
-Completing your profile information is important for your experience in Slingshot. How???
-
-### What is profile information? 
-
-A user profile is a collection of settings and information associated with a specific user. This information is used to recognize the user as an individual in the digital world. 
-
-### What is profile information in Slingshot?
+### Why should I complete my profile information in Slingshot?
 
 Your profile information in Slingshot includes the characteristics that make you recognizable in your collaboration space, for example your name and title. This information is important for Slingshot and for your collaborators so Emily (our AI assistant) will remind you to complete it to 100%. 
 
-### How can I complete or change my profile information?
-
 To access your profile information:
-
-select your profile image > *Settings* > *Profile Information* (see the screenshot below)
-
-<img src="" alt="" width="100%">
+select your profile image > *Settings* > *Profile Information*
 
 Here you need to complete the following information about yourself: 
 
@@ -102,3 +56,27 @@ Here you need to complete the following information about yourself:
 * **Department** - this is the Organization department where you belong. Select from the dropdown on the right or type your department and click/tap *Ok*.
 
 When you are finished, just close the dialog. Your changes will be saved.  
+
+### How can I change my language?
+
+**CONTINUE HERE**
+
+### How can I change the notifications language?
+
+**CONTINUE HERE**
+
+### How can I .... with Emily
+
+**CONTINUE HERE**
+
+### How can I restart Contextual guides
+
+**CONTINUE HERE**
+
+### Dashboard preferences
+Dashboards are part of your Analytics space in Slingshot. Find more about Dashboards settings in the following[link] topic. 
+**CONTINUE HERE**
+
+### Data source credentials
+When you connect to a data source(link) in Analytics for the first time, your credentials (user name, password and domain) are stored in this menu. Find more info in this topic(link). 
+**CONTINUE HERE**

@@ -1,14 +1,14 @@
 ## Learn More about Roles & Permissions
 
-One of the main methods of access control in computer systems is known as role-based access control (RBAC). Basically, it's about restricting access to a system depending on the person's role. Multiple roles are created to satisfy the need of different access level for different groups of people. As roles have different permissions, it is possible to limit specific tasks like viewing, creating, modifying, or sharing files.
-
-Using roles and permissions is a common practice for big companies, but it's also particularly helpful for those who want to give access to a system to external people, like third-parties and contractors. Slingshot was designed with different roles and permissions that contemplate many possible scenarios.
+Welcome! Read on to get answers to your questions about the roles and permissions in Slingshot.
 
 ### What are roles and permissions within Slingshot?
 
-In Slingshot, users can join one or more workspaces, and can also be part of an Organization. 
+One of the main methods of access control in computer systems is known as role-based access control (RBAC). Basically, it's about restricting access to a system depending on the person's role. Multiple roles are created to satisfy the need of different access level for different groups of people. As roles have different permissions, it is possible to limit specific tasks like viewing, creating, modifying, or sharing files.
 
+In Slingshot, users can join one or more workspaces, and can also be part of an Organization. 
 Roles represent a set of permissions that a user has in a workspace or in the Organization. The role is assigned to the user when they join the workspace/Organization. There are three different roles in Slingshot - owner, member and viewer.
+
 ### How can I find my role?
 
 You can have a different role in the different workspaces and the Org. Your role is given to you by the creator of a workspace at the moment you are invited. The creator is also the owner of the workspace. You will be notified what role they assigned to you in the invitation email. 

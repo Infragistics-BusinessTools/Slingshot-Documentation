@@ -1,6 +1,6 @@
 ## Learn More about File Permissions
 
-Welcome! Read on to get answers to your questions about content and boards.
+Welcome! Read on to get answers to your questions about files permissions.
 
 ### How is file security granted in Slingshot?
 
@@ -9,6 +9,7 @@ When [pinning files](content-boards.html#working-with-your-content-in-slingshot)
 Slingshot grants you file security by giving you the ability to determine who can access your file by setting your file permissions. 
 
 >[!NOTE] Other users **cannot delete** a file you pinned to a board. Boards are only containers that keep connections to a cloud provider where your file is located. Owners and members of the workspace, however, can delete the connection by *unpinning* the file.
+
 ### How can I set file permissions?
 
 When you share files inside workspaces, you make these files available for the users inside the workspace. 
