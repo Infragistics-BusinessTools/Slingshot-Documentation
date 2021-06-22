@@ -30,7 +30,7 @@
         "cleanupCacheHistory": true,
         "disableGitFeatures": true,
         "sitemap": {
-            "baseUrl": "https://www.infragistics.com/products/ignite-ui-angular/angular/",
+            "baseUrl": "https://www.slingshotapp.io/en/help/",
             "changefreq": "weekly",
             "priority": 0.7,
             "fileOptions":{
