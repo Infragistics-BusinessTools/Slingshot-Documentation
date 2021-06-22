@@ -16,7 +16,6 @@ When you log in with Google or Microsoft, you get a cloud storage automatically 
 
 Once you get in, you are greeted with your first screen:
 
-> Change the screenshot
 <img src="../images/personal-overview-blank.png" alt="Personal Overview completely blank for a new user" width="100%"/>
 
 You always start in your personal space, your **My Stuff**. Specifically, in _My Overview_. This is the place where you can have a quick glance at your most important information, organize yourself, and visualize your work.
@@ -32,8 +31,7 @@ Your personal space, **My Stuff**, is great and useful, but Slingshot is about e
 
 Check out the image below:
 
-> Change the screenshot
-<img src="../images/teams-navigation-opened.png" alt="Organization, Teams, and Projects navigation opened" width="50%"/>
+<img src="../images/mystuff-navigation-opened.png" alt="My Stuff, Organization and Workspaces navigation opened" width="50%"/>
 
 The navigation panel on the left includes: 
 
@@ -54,8 +52,7 @@ Follow the links for further details about [Workspaces](workspaces.md).
 
 Inside Slingshot workspaces, you will find the six main navigation bars on top: **Overview**, **Workspaces**, **Tasks**, **Discussions**, **Content**, **Analytics**.
 
-> Change the screenshot
-<img src="../images/overview-personal-navigation.png" alt="Personal Overview highlighting the main navigation items in Slingshot" width="100%"/>
+<img src="../images/overview-workspace-navigation.png" alt="Workspace Overview highlighting the main navigation items in Slingshot" width="100%"/>
 
 As already mentioned, the Organization workspace is not like other workspaces. So, inside it, there is a different number of navigation bars. That goes for _My Stuff_ and sub-workspaces, which also have the navigation bars. 
 But why is that? Let's answer this question quickly by explaining the idea behind each navigation bar.
@@ -88,19 +85,16 @@ In **User Settings** you can find _General Settings_, _Feedback_, and you can al
 
 Then, in _Settings_ you can find five categories, including general and profile settings, notifications, data privacy and settings related to your dashboards. In _General Settings_ you can configure your app appearance and also how you work with content, whereas _Profile Information_ includes information about you and your organization. 
 
-> Change the screenshot
-<img src="../images/userSettings-generalSettings.png" alt="General Settings opened in Slingshot" width="100%"/>
+<img src="../images/user-settings-general.png" alt="General Settings opened in Slingshot" width="100%"/>
 
 In _General Settings_ you will notice the **Drag and Drop** button. This setting allows you to manage the location of your uploads. But what does this mean?
 
 All files you reference or share within Slingshot, are located in a cloud storage. When you drag and drop a file, which comes from outside Slingshot,  it's uploaded to the cloud storage configured here.
 
-> Change the screenshot
-<img src="../images/generalSettings-dragAndDrop.png" alt="Drag and Drop Settings access in Slingshot" width="100%"/>
+<img src="../images/general-settings-drag-and-drop.png" alt="Drag and Drop Settings in Slingshot" width="100%"/>
 
 Use in-app **Feedback** to send us suggestions, comments, or requests about Slingshot. Here you can rate the app, add screenshots to the feedback you send, and also annotate the screenshots to provide even more detailed information.
 
-> Change the screenshot
-<img src="../images/userSettings-feedback.png" alt="Accessing the feedback screen in Slingshot" width="100%"/>
+<img src="../images/user-settings-feedback.png" alt="Accessing the feedback screen in Slingshot" width="100%"/>
 
 
