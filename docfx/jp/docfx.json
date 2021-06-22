@@ -20,7 +20,7 @@
         "dest": "_site",
         "globalMetadataFiles": ["global.json", "../../node_modules/igniteui-docfx-template/template/bundling.global.json"],
         "globalMetadata": {
-            "_appFaviconPath": "../images/favicon.ico"
+            "_appFaviconPath": "https://www.slingshotapp.io/wp-content/themes/slingshot/icons/favicon.ico"
         },
         "fileMetadataFiles": [],
         "template": ["../../node_modules/igniteui-docfx-template/template"],
