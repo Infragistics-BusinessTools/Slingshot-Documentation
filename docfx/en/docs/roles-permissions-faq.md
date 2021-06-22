@@ -1,6 +1,6 @@
 ## Learn More about Roles & Permissions
 
-Welcome! Read on to get answers to your questions about the roles and permissions.
+Welcome! Read on to get answers to your questions about the roles and permissions in Slingshot.
 
 ### What are roles and permissions within Slingshot?
 
