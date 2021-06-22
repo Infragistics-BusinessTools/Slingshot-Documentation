@@ -91,7 +91,6 @@ In _General Settings_ you will notice the **Drag and Drop** button. This setting
 
 All files you reference or share within Slingshot, are located in a cloud storage. When you drag and drop a file, which comes from outside Slingshot,  it's uploaded to the cloud storage configured here.
 
-> Change the screenshot
 <img src="../images/general-settings-drag-and-drop.png" alt="Drag and Drop Settings in Slingshot" width="100%"/>
 
 Use in-app **Feedback** to send us suggestions, comments, or requests about Slingshot. Here you can rate the app, add screenshots to the feedback you send, and also annotate the screenshots to provide even more detailed information.
