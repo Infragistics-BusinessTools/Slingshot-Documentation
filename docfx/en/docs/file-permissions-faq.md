@@ -80,7 +80,7 @@ Sometimes you need to share files pinned to a board with people who are not part
 1. sending a link to the file in a discussion or chat, or 
 2. by starting a chat or a discussion directly from a pinned file. You can find the *Start a discussion* or *Start a Chat* option in the overflow menu of the file.
 
-> a screenshot showing the Start a chat option in the overflow of a file
+    <img src="../images/start-chat-from-file.png" alt="Start a Private Chat option in the pinned file overflow" width="100%">
 
 Keep in mind that the file owner decides whether the file will be accessible to users outside of the workspace with the file permissions they set. 
 Depending on the file permissions, there are two scenarios when you try to share a file in the chat or in a discussion.
