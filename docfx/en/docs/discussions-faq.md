@@ -75,7 +75,6 @@ Now your topic is created. You can start typing your first message to give more 
 
 There are subjects where you need the attention of particular people. To make sure they receive notifications for each new message in a topic, you can use the *Notify* option upon creating a new topic. 
 
-> replace screenshot
 <img src="../images/topic-notify.png" alt="Notify option when creating a new topic" width="100%" />
 
 >[!NOTE] **Notifying limitations.** You can only notify users who are part of the workspace. 
