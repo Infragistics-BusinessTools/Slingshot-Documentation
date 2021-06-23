@@ -2,7 +2,7 @@
 
 A *workspace* is defined as an area required to do one's job. Nowadays, your workspace can be your office, desk, or even a coffee shop or your home. In IT, "workspace" is often used to refer to the area of a computer screen where you work and the way it is arranged.  
 
-Traditionally, the workspace is an are used by a group of people who collaborate and support each other, working together towards a common objective. When it comes to collaboration, a combination of solid leadership, good communication, and access to the right resources can dramatically improve productivity. And Slingshot can help with that.
+Traditionally, the workspace is an area used by a group of people who collaborate and support each other, working together towards a common objective. When it comes to collaboration, a combination of solid leadership, good communication, and access to the right resources can dramatically improve productivity. And Slingshot can help with that.
 
 ### So, what's a Slingshot workspace?
 
