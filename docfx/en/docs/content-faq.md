@@ -26,11 +26,11 @@ Boards, sections, and groups can all be reorganized, copied, and moved around if
 
 ### How can I access my boards/cloud storages?
 
-You can access your boards and cloud storages by going to a workspace and looking for the **Content** tab on top (see the screenshot below).
+You can access your boards and cloud storages by going to a workspace and looking for the **Content** tab on top. In the _Content_ tab you can find both boards and cloud storages (see the screenshot below). 
 
 <img src="../images/boards-storages-access.png" alt="Accessing boards and cloud storages in Slingshot" width="100%"/>
 
-In the _Content_ tab you can find both boards and cloud storages. If you bookmark one of the boards to keep it at hand, you can also find it in your Personal Overview.  
+If you bookmark one of the boards to keep it at hand, you can also find it in your Personal Overview.  
 Follow the links for further details about [overviews](overviews.md).
 
 ### Which cloud storages can I connect?

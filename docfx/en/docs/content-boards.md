@@ -43,9 +43,9 @@ Then, just choose the file or folder you want to pin to the board. Yes, you can 
 
 <img src="../images/pin-content-upload.png" alt="Choosing content from the cloud storage to be pinned in Slingshot" width="100%"/>
 
-Alternatively, you can go to existing cloud storage in you _My Stuff_ tab and choose _Pin to Board_ as shown below.
+Alternatively, you can go to existing cloud storage in _My Stuff_  and choose _Pin to Board_ as shown below.
 
-<img src="../images/pin-content-home-tab.png" alt="Pinning content from the cloud storage" width="100%"/>
+<img src="../images/pin-content-my-stuff.png" alt="Pinning content from the cloud storage" width="100%"/>
 
 After choosing an option, you'll be prompted to select where to pin the file. 
 
