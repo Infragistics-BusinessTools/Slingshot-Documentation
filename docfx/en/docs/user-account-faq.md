@@ -73,13 +73,6 @@ Alternatively, you can open the Notifications panel and select *Settings* from t
 
 <img src="../images/user-settings-notifications.png" alt="Notifications Settings menu opened in Slingshot" width="100%"/>
 
-### How can I manage Emily?
-
-You can proactively configure Emily's behavior in the Settings and also turn her off, if that's what you want.
-To do this, go to your account settings and selecting the *Emily* tab. 
-
-**ADD IMAGE HERE**
-
 ### What are the dashboard settings?
 Dashboards are part of your *Analytics* space in Slingshot.
 Find more about Dashboards in [Dashboards Overview](analytics/dashboards/overview.md).
