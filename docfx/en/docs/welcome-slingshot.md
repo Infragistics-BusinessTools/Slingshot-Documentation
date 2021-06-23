@@ -83,7 +83,7 @@ You can use a web browser or get native applications on iOS, Android, and Deskto
 
 [Go to Slingshot **Web**](https://my.slingshotapp.io/).
 
-[Get Slingshot **native apps** (Android, iOS, desktop)](https://infragisticsinc297.sharepoint.com/Groups/ProdDev/EM/Releases/Pages/index.aspx).
+[Get Slingshot **native apps** (Android, iOS, desktop)](https://www.slingshotapp.io/download-apps).
 
 Below you can find the versions supported for each platform:
 
