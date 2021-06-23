@@ -101,10 +101,7 @@
   href: visualization-tutorials/stacked-charts.md
 - name: Text View
   href: visualization-tutorials/text-view.md
-
 - name: Additional Resources
   header: true
 - name: Known Issues
   href: additional-resources/known-issues.md
-- name: Third-Party Software
-  href: additional-resources/third-party-software.md
