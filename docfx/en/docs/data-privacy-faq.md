@@ -98,7 +98,7 @@ If you are a user with [owner](roles-permissions.md) permissions in the Organiza
 
 If you have a [personal account](roles-permissions.md#what-about-users-with-no-organization) in Slingshot, this also means you do not belong to an Organization in Slingshot. You can be a member of Organization's teams and projects if invited. In this sense, your profile information does not belong to any Organization and you can request data export from the Slingshot support team directly. To do this:  
 
-Select your profile image > *Settings* > *Data Privacy* > *Delete my Data* (as shown in the screenshot below).
+select your profile image > *Settings* > *Data Privacy* > *Export my Data* (as shown in the screenshot below).
 
 <img src="../images/export-profile-data-settings.png" alt="Exporting your profile data from the Settings menu" width="100%">
 
