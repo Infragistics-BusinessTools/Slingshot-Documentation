@@ -70,7 +70,7 @@ chart:
 ### Sample Data Source
 
 For this tutorial, you will use the "OHLC and Candlestick" sheet in the
-[Analytics Tutorials Spreadsheet](https://download.infragistics.com/reportplus/help/samples/Analytics_Visualization_Tutorials.xlsx).
+[Analytics Tutorials Spreadsheet](https://download.infragistics.com/slingshot/samples/Slingshot_Visualization_Tutorials.xlsx).
 
 >[!NOTE]
 >Excel files as local files are not supported in this release. In order to follow these tutorials, make sure you upload the file to one of the supported cloud services or add it as a [Web Resource](~/docs/analytics/datasources/supported-data-sources/web-resource.md).

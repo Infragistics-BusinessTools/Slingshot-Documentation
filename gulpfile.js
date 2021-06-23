@@ -17,10 +17,10 @@ const DOCFX_SITE = `${DOCFX_PATH}/_site`;
 
 //Regexes for replacement of Reveal sources with Slinghot
 const REVEAL_HREF_REGEX = /~\/en\//g;
-const REVEAL_DOWNLOAD_LINK_REGEX = /http:\/\/download\.infragistics\.com\/(reportplus|reveal)\//g;
-const REVEAL_DASHBOARD_AND_VISUALIZATION_TUTORIAL_LINK_REGEX = /http:\/\/download\.infragistics\.com\/(reportplus|reveal)\/help\/samples\/Reveal/g;
-const REVEAL_DATASET_LINK_REGEX = /http:\/\/download\.infragistics\.com\/(reportplus|reveal)\/help\/samples\/HR\%20Dataset_2016/g;
-const REVEAL_RETAIL_STORE_LINK_REGEX = /http:\/\/download\.infragistics\.com\/(reportplus|reveal)\/help\/samples\/Retail_Store/g;
+const REVEAL_DOWNLOAD_LINK_REGEX = /https:\/\/download\.infragistics\.com\/(reportplus|reveal)\//g;
+const REVEAL_DASHBOARD_AND_VISUALIZATION_TUTORIAL_LINK_REGEX = /https:\/\/download\.infragistics\.com\/(reportplus|reveal)\/help\/samples\/(Analytics|Reveal)/g;
+const REVEAL_DATASET_LINK_REGEX = /https:\/\/download\.infragistics\.com\/(reportplus|reveal)\/help\/samples\/HR\%20Dataset_2016/g;
+const REVEAL_RETAIL_STORE_LINK_REGEX = /https:\/\/download\.infragistics\.com\/(reportplus|reveal)\/help\/samples\/Retail_Store/g;
 const REVEAL_YML_FILE_REGEX = /- name: Dashboard Tutorials[\s\S]+href: dashboard-tutorials\/social-dashboard\/toc.yml/gm;
 
 const copyRevealTopicsAndTOCs = () => {
@@ -57,7 +57,7 @@ const replaceRevealContents = () => {
         .pipe(replace(REVEAL_HREF_REGEX, '~/docs/analytics/'))
         .pipe(replace(REVEAL_DASHBOARD_AND_VISUALIZATION_TUTORIAL_LINK_REGEX, 'https://download.infragistics.com/slingshot/samples/Slingshot'))
         .pipe(replace(REVEAL_DATASET_LINK_REGEX, 'https://download.infragistics.com/slingshot/samples/HR_Dataset_2016'))
-        .pipe(replace(REVEAL_RETAIL_STORE_LINK_REGEX, 'https://download.infragistics.com/slingshot/samples/Retail-Store'))
+        .pipe(replace(REVEAL_RETAIL_STORE_LINK_REGEX, 'https://download.infragistics.com/slingshot/samples/Retail_Store'))
         .pipe(replace(REVEAL_DOWNLOAD_LINK_REGEX, 'https://download.infragistics.com/slingshot/'))
         .pipe(replace('Reveal', 'Analytics'))
         .pipe(
