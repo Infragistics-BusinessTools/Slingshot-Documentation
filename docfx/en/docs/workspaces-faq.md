@@ -12,13 +12,12 @@ The purpose of having an Organization workspace is for company leaders to have t
 
 You will find your Organization workspace right under *My Stuff* (see below). 
 
-> Change the screenshot
-<img src="../images/main-organization-team.png" alt="An Organization team" width="100%"/>
+
+<img src="../images/organization-access.png" alt="An Organization team" width="100%"/>
 
 **Workspaces** can be associated with the Organization workspace or not. They can include members from within and out of the main Organization. Workspace members share not only *Content*, *Analytics*, and *Discussions*, but also *Tasks* and *sub-workspaces*.
 
-> Change the screenshot
-<img src="../images/teams-example-tasks.png" alt="Example of a workspace and its tasks" width="100%"/>
+<img src="../images/overview-workspace-navigation.png" alt="Example of a workspace and its tasks" width="100%"/>
 
 **Sub-workspaces** live inside of a workspace and can be found under the _Workspaces_ between the _Overview_ and the _Tasks_ of the [parent workspace](workspaces.html#sub-workspaces). Sub-workspaces are not limited to the members of the parent workspace. You can invite people from other workspaces to every sub-workspace. A sub-workspace contains its own *Overview*, *Tasks*, *Discussions*, *Content*, and *Analytics*. You can also assign tasks within a sub-workspace to users, who are not part of the sub-workspace or its parent workspace.
 
@@ -29,22 +28,19 @@ You will find your Organization workspace right under *My Stuff* (see below).
 
 You can access your workspaces on the very left of the screen, in the Workspaces area (shown below).
 
-> Change the screenshot
-<img src="../images/teams-list.png" alt="The Teams navigation menu opened with a list of teams in it" width="100%"/>
+<img src="../images/workspaces-area.png" alt="The Workspaces navigation area opened with a list of workspaces in it" width="80%"/>
 
 By scrolling down you are able to navigate all your workspaces and their sub-workspaces. To access a workspace faster, you can bookmark it. From now on, you can also find this workspace under the _Bookmarks_ tab. If you are in doubt where a sub-workspace comes from, check under its name. You will see the name of its parent workspace written in grey (see the screenshot).
 
-> Change the screenshot
-<img src="../images/teams-bookmarks.png" alt="Teams navigation menu opened and Bookmarks selected" width="100%"/>
+<img src="../images/workspaces-bookmarks.png" alt="My Stuff opened and Bookmarks selected" width="80%"/>
 
 To open any workspace, just click/tap over it.
 
 ### How can I discover and join other workspaces?
 
-To become a workspace member you first need to discover your new workspace. Select the _Join or Create a Workspace_ button at the bottom of the *Workspaces* panel to open a dialog with the available workspaces.
+To become a workspace member you first need to discover your new workspace. Select the _New Workspace_ button at the bottom of the *Workspaces* panel to open a dialog with the available workspaces.
 
-> Change the screenshot
-<img src="../images/join-create-button.png" alt="Join or Create a Team button" width="100%"/>
+<img src="../images/new-workspace-button.png" alt="New Workspace button" width="100%"/>
 
 In this dialog, you will find **only public workspaces, part of your Organization**. You can join these workspaces on the spot, getting the member role by default.
 
@@ -71,10 +67,9 @@ The *Shared* workspace automatically appears in the Workspaces panel the first t
 ### How can I create a new workspace?
 
 Every user in Slingshot can create workspaces.  
-Access the workspace creation menu by selecting the *Join or Create a Team* button at the bottom of the *Workspaces* panel and then *+ Create Workspace*.
+Access the workspace creation menu by selecting the *New Workspace* button at the bottom of the *Workspaces* panel and then *+ Create Workspace*.
 
-> Change the screenshot
-<img src="../images/create-team-dialog.png" alt="The Workspace creation menu" width="100%"/>
+<img src="../images/create-workspace-dialog.png" alt="The Workspace creation menu" width="100%"/>
 
 In this dialog, configure the following:
 * ***Workspace Name*** - giving your workspace an appropriate name is always worth the effort.
@@ -84,7 +79,7 @@ In this dialog, configure the following:
 
     - **Personal Organization** - by choosing this option, you will have more freedom and less discoverability for your workspace. Others cannot find your team without being invited. This is perfect when you want to control access to your workspace.
 * **Privacy** - this setting is only available if you choose to be part of the Organization.
-    - **Public** workspaces can be discovered and joined in the _Join or Create a Workspace_ dialog.
+    - **Public** workspaces can be discovered and joined in the _New Workspace_ dialog.
     - **Private** teams are undiscoverable and can only be joined through an invitation received via email.
 * **Status**, **Start Date**, **End Date** - all these properties of your workspace will be visible for everybody in the workspace *Overview*. 
 
@@ -94,8 +89,7 @@ Click **Create**. Your workspace is created and you can find it in the *Workspac
 
 The *Who is collaborating in this workspace?* dialog appears right after you create the workspace. To invite members, click/tap the **+ Members** blue button. Choose Organization members from the dropdown list (see below) or use the text box at the top to add the emails of [personal account users](roles-permissions.html#what-about-users-with-no-organization). 
 
-> Change the screenshot
-<img src="../images/team-invite-members.png" alt="Inviting team members" width="100%" />
+<img src="../images/workspace-invite-members.png" alt="Inviting team members" width="80%" />
 
 >[!NOTE]
 >When adding members, whose emails are not auto-completed by Slingshot, type the whole email and press Enter to add it to the list of users you want to invite.
@@ -123,8 +117,7 @@ You have to be a workspace owner to be able to:
 
 To access the workspace members dialog select the overflow menu of a workspace and then **Manage Members**. 
 
-> Change the screenshot
-<img src="../images/team-members-dialog.png" alt="The workspace members' dialog" width="80%" />
+<img src="../images/workspace-members-dialog.png" alt="The workspace members dialog" width="80%" />
 
 To invite new members select the **+ Members** blue button.
 
@@ -147,8 +140,7 @@ Sometimes you may need to work on a particular task or project with people outsi
 
 You can assign tasks to users who are external for your workspace by accessing the workspace's **Tasks** tab on top and creating a task. 
 
-> Change the screenshot
-<img src="../images/tasks-tab-team.png" alt="Tasks tab in a team" width="100%"/>
+<img src="../images/tasks-tab-workspace.png" alt="Tasks tab in a workspace" width="100%"/>
 
 Users will receive a notification about the task they were assigned. For them the task will appear in _My Stuff_ > _Tasks_. The same applies for assigning tasks to external users in sub-workspaces.
 
@@ -159,7 +151,8 @@ If you unfollow a sub-workspace, you will receive notifications only for the tas
 
 If you are the owner of a workspace (or sub-workspace) you can change its settings. To do this, select your workspace overflow menu > *Workspace Settings*.
 
-> Screenshot showing the workspace settings menu on the right 
+<img src="../images/workspace-overflow-menu.png" alt="A workspace overflow menu" width="50%">
+
 
 Here you can change your workspace's name, description and privacy.
 
@@ -171,8 +164,7 @@ Only the *owner* can delete a workspace. As an exception.
 
 To **delete** a workspace, go to its [settings](#workspace-settings) > _Manage Members_ > overflow menu on top > *Delete Workspace*.
 
-> Change the screenshot
-<img src="../images/overflow-menu-settings.png" alt="Overflow button location in the Team's settings" width="100%"/>
+<img src="../images/overflow-menu-settings.png" alt="Overflow button location in the workspace's settings" width="100%"/>
 
 Deleting removes the workspace with all its contents for all its members.
 

@@ -5,7 +5,7 @@ Welcome! Read on to get answers to your questions about tasks.
 ### Personal vs shared tasks
 In Slingshot you can have personal and shared tasks, they work pretty much the same but they do have a few differences detailed below.
 
-Only you have access to your **personal tasks** and you can find them in your personal space (**Home**).
+Only you have access to your **personal tasks** and you can find them in your personal space (**My Stuff**).
 
 
 <img src="../images/tasks-home.png" alt="Slingshot My Stuff with a tasks displayed in a list" width="100%"/>
@@ -21,7 +21,6 @@ All the members of a workspace can access the tasks created within that workspac
 
 You can access your tasks by going to a workspace and selecting the **Tasks** tab on top (see below).
 
-> Change the screenshot
 <img src="../images/tasks-accessing.png" alt="Accessing Slingshot tasks" width="100%"/>
 
 Depending on where you stand, you will be accessing different tasks.
@@ -47,11 +46,10 @@ You can directly create a new **subtask** using the main task's overflow menu, a
 
 Alternatively, you can create subtasks for a task that is already opened:
 
-<img src="../images/tasks-new-subtasks-fromTask.png" alt="Creating a new subtask within a Slingshot task" width="100%"/>
+<img src="../images/tasks-new-subtasks-from-task.png" alt="Creating a new subtask within a Slingshot task" width="100%"/>
 
 Having the task opened also allows you to insert new subtasks and this way reorder the existing subtasks (see below)
 
-> Change the screenshot
 <img src="../images/tasks-new-subtasks-others.png" alt="Options to insert a new subtask below or above other subtasks within a Slingshot task" width="100%"/>
 
 <a name="add-task-dependency"></a>

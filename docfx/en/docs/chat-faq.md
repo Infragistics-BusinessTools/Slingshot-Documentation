@@ -36,7 +36,7 @@ To start a chat, open the chat screen. Then follow the steps below:
     <img class="responsive-img" src="../images/start-chat.png" alt="Start a chat button" width="80%" />
 
 2. Select a user from the list or type a name or email in the *search* box on top.
-3. Click/tap **Add to Chat**. 
+3. Click/tap **Chat**. 
 
 >[!NOTE] If you don't see the *Start a chat...* button, check whether your chat is [docked](#chat-dock). In this case, select the **undock** icon next to *Close*.
 
@@ -111,7 +111,7 @@ Slingshot does not store your files. When you share a file from your device, it 
 
 What about files that are pinned to a workspace board? Sometimes you need to share these files with people who are not part of the workspace. Slingshot allows you to do this, by sending a link in the chat or by starting a chat directly from a pinned file. To do this, navigate to the file and open its overflow menu:
 
-> screenshot showing the Start a chat option in the overflow of a file
+<img src="../images/start-chat-from-file.png" alt="Start a Private Chat option in the pinned file overflow" width="100%">
 
 Having said that, keep in mind that your workspace may include files with sensitive information. That's why when pinning a file to a workspace its owner can restrict the access by choosing [file permissions](content-starting.html#file-permissions). 
 

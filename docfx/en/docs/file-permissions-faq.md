@@ -1,6 +1,6 @@
 ## Learn More about File Permissions
 
-Welcome! Read on to get answers to your questions about content and boards.
+Welcome! Read on to get answers to your questions about files permissions.
 
 ### How is file security granted in Slingshot?
 
@@ -9,6 +9,7 @@ When [pinning files](content-boards.html#working-with-your-content-in-slingshot)
 Slingshot grants you file security by giving you the ability to determine who can access your file by setting your file permissions. 
 
 >[!NOTE] Other users **cannot delete** a file you pinned to a board. Boards are only containers that keep connections to a cloud provider where your file is located. Owners and members of the workspace, however, can delete the connection by *unpinning* the file.
+
 ### How can I set file permissions?
 
 When you share files inside workspaces, you make these files available for the users inside the workspace. 
@@ -80,7 +81,7 @@ Sometimes you need to share files pinned to a board with people who are not part
 1. sending a link to the file in a discussion or chat, or 
 2. by starting a chat or a discussion directly from a pinned file. You can find the *Start a discussion* or *Start a Chat* option in the overflow menu of the file.
 
-> a screenshot showing the Start a chat option in the overflow of a file
+    <img src="../images/start-chat-from-file.png" alt="Start a Private Chat option in the pinned file overflow" width="100%">
 
 Keep in mind that the file owner decides whether the file will be accessible to users outside of the workspace with the file permissions they set. 
 Depending on the file permissions, there are two scenarios when you try to share a file in the chat or in a discussion.

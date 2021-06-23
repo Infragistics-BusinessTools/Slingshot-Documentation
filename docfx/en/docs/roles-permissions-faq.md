@@ -1,14 +1,14 @@
 ## Learn More about Roles & Permissions
 
-One of the main methods of access control in computer systems is known as role-based access control (RBAC). Basically, it's about restricting access to a system depending on the person's role. Multiple roles are created to satisfy the need of different access level for different groups of people. As roles have different permissions, it is possible to limit specific tasks like viewing, creating, modifying, or sharing files.
-
-Using roles and permissions is a common practice for big companies, but it's also particularly helpful for those who want to give access to a system to external people, like third-parties and contractors. Slingshot was designed with different roles and permissions that contemplate many possible scenarios.
+Welcome! Read on to get answers to your questions about the roles and permissions in Slingshot.
 
 ### What are roles and permissions within Slingshot?
 
-In Slingshot, users can join one or more workspaces, and can also be part of an Organization. 
+One of the main methods of access control in computer systems is known as role-based access control (RBAC). Basically, it's about restricting access to a system depending on the person's role. Multiple roles are created to satisfy the need of different access level for different groups of people. As roles have different permissions, it is possible to limit specific tasks like viewing, creating, modifying, or sharing files.
 
+In Slingshot, users can join one or more workspaces, and can also be part of an Organization. 
 Roles represent a set of permissions that a user has in a workspace or in the Organization. The role is assigned to the user when they join the workspace/Organization. There are three different roles in Slingshot - owner, member and viewer.
+
 ### How can I find my role?
 
 You can have a different role in the different workspaces and the Org. Your role is given to you by the creator of a workspace at the moment you are invited. The creator is also the owner of the workspace. You will be notified what role they assigned to you in the invitation email. 
@@ -57,7 +57,7 @@ In short, the Organization, also called *the Org*, is a workspace, but it's not 
 
 Your Organization in Slingshot will appear right under _My Stuff_ (see below). You need sign in with Google or Microsoft using the email associated with your organization.
 
-> screenshot
+<img src="../images/organization-access.png" alt="Organization location under My Stuff" width="100%" />
 
 The roles in the Slingshot Organization are the same as in other workspaces - owner, member, viewer. Look at the table below to find more about the permissions of these roles in the Organization. 
 
@@ -103,8 +103,7 @@ That being said, sometimes you might need to have a private workspace. In this c
 
 To change a workspace privacy, select your workspace's **overflow menu** > **Workspace Settings** > **Information** > **Privacy**.
 
-> Change the screenshot
-<img src="../images/access-team-settings.png" alt="Accessing workspace settings" width="100%"/>
+<img src="../images/access-workspace-settings.png" alt="Accessing workspace settings" width="100%"/>
 
 Change to **Private** and select **Update**.
 
