@@ -6,8 +6,6 @@ Welcome! Read on to get answers to your questions about the user account and set
 
 Go to the upper right corner and select your profile image.
 
-**ADD IMAGE HERE**
-
 Here you can Log Out, provide the Slingshot team with valuable Feedback, and access the general settings and profile information.
 
 ### Which are the different subscription plans?
