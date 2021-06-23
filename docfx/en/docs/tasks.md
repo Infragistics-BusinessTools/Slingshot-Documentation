@@ -8,8 +8,7 @@ Think of a Slingshot task as a virtual representation of work to be done. But no
 - Tasks capture all relevant information around a piece of work.
 - Tasks are beginner-friendly and yet they have tons of functionality and flexibility.
 
-> Change the screenshot
-<img src="../images/tasks-list.png" alt="Slingshot tasks displayed in a list" width="100%"/>
+<img src="../images/welcome-tasks.png" alt="Slingshot tasks displayed in a list" width="100%"/>
 
 ### Tasks capture your information
 
@@ -17,7 +16,6 @@ Assigning a task is as basic as it gets, but... Do you want a single person assi
 
 In Slingshot, you can decide what works best for you: assigning only one assignee to a single task, **multiple assignees** to the same task, or breaking up a task into **subtasks**, assign those to different assignees while still having someone directly responsible for the overall task.
 
-> Change the screenshot
 <img src="../images/tasks-multiple.png" alt="Several tasks with multiple assignees and subtasks within Slingshot" width="100%"/>
 
 Using subtasks is also a good way to differentiate **priority** for tasks and subtasks. With three levels of priority (*low, medium, high*), people collaborating over a task or subtask are free to set different priorities. 
