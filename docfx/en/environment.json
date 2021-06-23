@@ -1,14 +1,14 @@
 {
     "development": {
-        "infragisticsBaseUrl": "https://staging.infragistics.com",
+        "infragisticsBaseUrl": "https://staging.slingshotapp.io",
         "GTMContainerId": "GTM-WLXLBZD"
     },
     "staging": {
-        "infragisticsBaseUrl": "https://staging.infragistics.com",
-        "GTMContainerId": "GTM-NCKNPN"
+        "infragisticsBaseUrl": "https://staging.slingshotapp.io",
+        "GTMContainerId": "GTM-55GKF4D"
     },
     "production": {
-        "infragisticsBaseUrl": "https://www.infragistics.com",
-        "GTMContainerId": "GTM-T65CF7"
+        "infragisticsBaseUrl": "https://www.slingshotapp.io",
+        "GTMContainerId": "GTM-KV5G9JL"
     }
 }
