@@ -30,4 +30,4 @@ Besides that, you might also need to add images, documents, or links for specifi
 
 ### Want to know more about Tasks?
 
-Continue [here](tasks-starting.md)!
+Continue [here](tasks-faq.md)!

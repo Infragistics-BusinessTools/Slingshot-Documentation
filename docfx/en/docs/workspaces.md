@@ -1,12 +1,12 @@
 ## Workspaces
 
-A *workspace* is defined as an area required to do one's job. Nowadays, your workspace can be your office, desk, or even a coffee shop or your home. In IT, "workspace" is often used to refer to the area of a computer screen where you work and the way it is arranged.  
-
-Traditionally, the workspace is an area used by a group of people who collaborate and support each other, working together towards a common objective. When it comes to collaboration, a combination of solid leadership, good communication, and access to the right resources can dramatically improve productivity. And Slingshot can help with that.
+A *workspace* can be defined as the area where you engage in physical or mental activities to achieve a result. Nowadays, your workspace can be your office, desk, a coffee shop, or even your home. In IT, "workspace" is often used to refer to a computer screen or application where you work and the way it is arranged. A common trait to all workspaces is that they meet a set of requirements that help you do your work efficiently. Of course, those requirements vary greatly depending on each specific scenario. 
 
 ### So, what's a Slingshot workspace?
 
-The Slingshot workspace is close to the IT definition of a workspace. Slingshot's workspace provides you with a screen where you can combine different tools that support your work. It's also very close to the traditional understanding as it delivers an area where you can communicate and collaborate with others.  
+It’s the virtual area where you get your work done within Slingshot. Very close to the IT definition of workspace, right?  It's also very close to the traditional understanding as it delivers an area where you can communicate and collaborate with others. 
+
+And Slingshot is all about team collaboration and supporting each other towards common objectives. It can be said that good teams understand each other and work well together. But Slingshot's workspaces do not only gather together good teams. By providing a combination of tools that enable solid leadership, good communication, and access to the right resources, the workspaces dramatically improve productivity and collaboration. Just the right recipe to make good teams great!
 
 ### Providing tools for effective communication
 
@@ -54,7 +54,7 @@ A sub-workspace provides you with the same collaboration tools as the parent wor
 
 ### Want to know more about workspaces?
 
-Continue [here](workspaces-starting.md)!
+Continue [here](workspaces-faq.md)!
 
 
 

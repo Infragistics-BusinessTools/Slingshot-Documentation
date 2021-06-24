@@ -56,4 +56,4 @@ In addition, you can always download the file to your computer or device.
 
 ### Want to know more about Content & Boards?
 
-Continue [here](content-starting.md)!
+Continue [here](content-faq.md)!

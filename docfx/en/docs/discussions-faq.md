@@ -6,9 +6,9 @@ Welcome! Read on to get answers to your questions about discussions.
 
 In Slingshot, communication happens in discussions and private chats.
 
-Each workspace has its own dedicated *Discussions* tab. Discussions are organized in topics. Discussions are workspace specific. Because of this, you will not be able to see and take part in all discussions in Slingshot. Read more about [who can access discussions](discussions-starting.html#discussions-access) by following the link.
+Each workspace has its own dedicated *Discussions* tab. Discussions are organized in topics. Discussions are workspace specific. Because of this, you will not be able to see and take part in all discussions in Slingshot. Read more about [who can access discussions](discussions-faq.html#discussions-access) by following the link.
 
-Unlike discussions, private chat is workspace independent. See more about the chat in [Starting with Private Chat](chat-starting.md)
+Unlike discussions, private chat is workspace independent. See more about the chat in [Starting with Private Chat](chat-faq.md)
 
 ### How can I access my discussions?
 
@@ -66,7 +66,7 @@ To **create a topic**:
 2. Click/tap the **+ Topic** button on the top right. 
 3. Name the topic. Optionally, choose which members to be notified for its creation by adding their emails in *Notify*.   
 4. Choose **Create**.
-    > replace screenshot
+
     <img src="../images/create-new-topic.png" alt="Creating a new topic" width="100%" />
 
 Now your topic is created. You can start typing your first message to give more details on the subject. It will also serve as a conversation starter.

@@ -37,4 +37,4 @@ In addition, you can always download the file to your computer or device.
 
 ### Want to Know More About Content & Boards?
 
-Continue [here](content-starting.md)!
+Continue [here](content-faq.md)!
