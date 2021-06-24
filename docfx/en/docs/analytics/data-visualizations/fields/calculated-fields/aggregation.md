@@ -16,7 +16,7 @@ In Analytics, aggregation calculated fields include:
     it.
 
 **Note:** *All samples included in the table below were created with the
-[HR Dataset 2016](https://download.infragistics.com/slingshot/samples/HR_Dataset_2016.xlsx)
+[HR Dataset 2016](http://download.infragistics.com/reportplus/help/samples/HR%20Dataset_2016.xlsx)
 spreadsheet.*
 
 The functions included in the aggregation category are:

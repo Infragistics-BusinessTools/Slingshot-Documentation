@@ -35,13 +35,11 @@ When you work towards a common objective, using shared resources is required. On
 <a name='sub-workspaces'></a>
 ### Using workspaces within the workspace
 
-> I think that I can get rid of the first paragraph with no regrets.
+More often than not, you will collaborate with different people in your workspace  that work on  separate tasks. Sometimes even people from outside the workspace might join to work on a specific project. For example, if you are part of a Marketing workspace, you may want to separate the marketing campaigns. All collaborators will benefit from tracking the progress on each campaign more easily, to communicate faster and to get data about the campaign success rate *from Slingshot's Analytics*. 
 
-More often than not, you will work with different people in your workspace on different tasks. Sometimes even people from outside the workspace might have to join to work on a specific project. For example, if you are part of a Marketing workspace, you may want to separate the marketing campaigns. All collaborators will benefit from the opportunity to track the progress on each campaign more easily, to communicate faster and to get data about the campaign success rate from *Slingshot's* _Analytics_. 
+It's always important to organize the different groups and projects within the workspace in a way that fosters productive collaboration and best practices. By giving you the ability to create workspaces within another workspace, Slingshot empowers solid leadership, good communication, and access to the right resources for each group of collaborators. 
 
-It's always important to organize the different groups and projects within the workspace in a way that fosters productive collaboration and best practices. By giving you the ability to create workspaces within the workspace, Slingshot empowers solid leadership, good communication, and access to the right resources for each group of collaborators. 
-
-For this guide's purposes, the term **sub-workspace** will be used to refer to a workspace within the workspace. The main workspace that contains sub-workspaces will be sometimes called a **parent workspace**.  
+>[!NOTE] For this guide's purposes, the term **sub-workspace** will be used to refer to a workspace within the workspace. The main workspace that contains sub-workspaces will be sometimes called a **parent workspace**.  
 
 A sub-workspace provides you with the same collaboration tools as the parent workspace. Let's look at a quick list!
 
