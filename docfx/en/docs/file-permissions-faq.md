@@ -44,7 +44,7 @@ The file owner can also pre-allow access for chosen workspace's members by using
 > [!NOTE]
 > Users who want to access a file uploaded to a cloud file provider need not only permissions in Slingshot but also a valid account with that cloud provider. For example, when you try to open a file from *OneDrive* shared by another user, you will be asked to log into your *OneDrive* account. If you don't have an account with *OneDrive*, Slingshot will deny access. This **does not apply** when the file has public permissions, and you open it in a browser. 
 
-Find out how file permissions apply when sharing a file in the chat by reading [How Can I Share a File in the Chat?](chat-faq.md). 
+Find out how file permissions apply when sharing a file in the chat by reading [How Can I Share a File in the Chat?](chat-faq.html#how-can-i-share-a-file-in-the-chat). 
 
 ### Can I control who has rights to edit my file?
 

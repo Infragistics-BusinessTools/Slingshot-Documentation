@@ -47,7 +47,7 @@ To become part of **private workspace or workspaces outside of your Organization
 
 ### How can I join a sub-workspace? 
 
-As it was already mentioned, sub-workspaces can mix together users from the parent workspace with users, who are not part of it. [Personal account users](roles-permissions.html#personal-account-users) can also join a sub-workspace without being members of its parent workspace.
+As it was already mentioned, sub-workspaces can mix together users from the parent workspace with users, who are not part of it. [Personal account users](roles-permissions-faq.html#personal-account-users) can also join a sub-workspace without being members of its parent workspace.
 
 To join a workspace, if you are not a member of the parent workspace, you have to **receive an invitation** by an owner of the sub-workspace or its parent workspace. 
 
@@ -86,7 +86,7 @@ Click **Create**. Your workspace is created and you can find it in the *Workspac
 
 ### How can I add members to a workspace? 
 
-The *Who is collaborating in this workspace?* dialog appears right after you create the workspace. To invite members, click/tap the **+ Members** blue button. Choose Organization members from the dropdown list (see below) or use the text box at the top to add the emails of [personal account users](roles-permissions.html#what-about-users-with-no-organization). 
+The *Who is collaborating in this workspace?* dialog appears right after you create the workspace. To invite members, click/tap the **+ Members** blue button. Choose Organization members from the dropdown list (see below) or use the text box at the top to add the emails of [personal account users](roles-permissions-faq.html#what-about-users-with-no-organization). 
 
 <img src="../images/workspace-invite-members.png" alt="Inviting team members" width="80%" />
 

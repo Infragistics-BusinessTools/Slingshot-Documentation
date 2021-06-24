@@ -28,7 +28,7 @@ Within a *Workspace*, you can have discussions that only workspace members can a
 
 Within a [*sub-workspace*](workspaces.html#using-workspaces-within-the-workspace), you can have discussions that are specific for this sub-workspace. Every collaborator of the sub-workspace, incl. personal account users, can join these discussions. The members of the [parent workspace](workspaces.html#using-workspaces-within-the-workspace) can also access sub-workspace's discussions. 
 
-Within the *Organization*, you will find *Discussions* too. Organization discussions cannot be accessed by [personal account users](roles-permissions.html#what-about-users-with-no-organization). This is the perfect place for announcements and other important organization related discussions. 
+Within the *Organization*, you will find *Discussions* too. Organization discussions cannot be accessed by [personal account users](roles-permissions-faq.html#what-about-users-with-no-organization). This is the perfect place for announcements and other important organization related discussions. 
 
 ### How can I discover and join discussions?
 

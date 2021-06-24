@@ -85,7 +85,7 @@ When finished, select the **Add to Chat** blue button.
 ### How to start a chat with users with personal accounts?
 
 All Slingshot users can take part in private and group chats, including the personal account users. 
-However, [personal account users](roles-permissions.html#personal-account-users) are not part of an Organization. That's why, after selecting **+ Start a Chat...**, if you have an Org, you will not see their names in the list of users. The list contains only your Organization members. You can chat with personal account users only if you add their emails manually in the search box as shown below.
+However, [personal account users](roles-permissions-faq.html#personal-account-users) are not part of an Organization. That's why, after selecting **+ Start a Chat...**, if you have an Org, you will not see their names in the list of users. The list contains only your Organization members. You can chat with personal account users only if you add their emails manually in the search box as shown below.
 
 <img class="responsive-img" src="../images/personal-account-user-chat.png" alt="Typing a personal account user's email to add them to a chat" width="100%" />
 

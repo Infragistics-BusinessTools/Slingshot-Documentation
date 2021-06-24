@@ -14,7 +14,7 @@ In Analytics, logic calculated fields include:
     on each function, click the corresponding link in the table below.
 
 **Note:** *All samples included in the table below were created with the
-[HR Dataset 2016](https://download.infragistics.com/slingshot/samples/HR_Dataset_2016.xlsx)
+[HR Dataset 2016](http://download.infragistics.com/reportplus/help/samples/HR%20Dataset_2016.xlsx)
 spreadsheet.*
 
 The functions included in the logic category are:

@@ -42,7 +42,7 @@ The Slingshot user who creates a workspace is automatically assigned as its **ow
 
 **Owners** have full access to manage a workspace. This includes changing its main **information** - *name*, *description*, *privacy*, *status* and even deleting it. It also means owners have the right to **manage members** of the workspace - invite, remove and change their roles. They can create, edit and delete all content inside the workspace - tasks, filters, discussions, topics, boards, and Analytics dashboards.
 
-**Members** are more limited than owners but they are allowed to create sub-workspaces under the workspace. They can also create, edit and delete tasks, filters, discussions, topics, boards, and Analytics dashboards. When [joining](workspaces-faq.html#how-can-I-discover-and-join-other-workspaces) a public workspace by yourself and not by invitation, you are assigned the member role by default.
+**Members** are more limited than owners but they are allowed to create sub-workspaces under the workspace. They can also create, edit and delete tasks, filters, discussions, topics, boards, and Analytics dashboards. When [joining](workspaces-faq.html#how-can-i-discover-and-join-other-workspaces) a public workspace by yourself and not by invitation, you are assigned the member role by default.
 
 **Viewers** are limited to view, bookmark and share content. To be a viewer in a workspace, you have to be invited with the viewer role.
 
