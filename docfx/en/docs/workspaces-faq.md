@@ -21,8 +21,7 @@ You will find your Organization workspace right under *My Stuff* (see below).
 
 **Sub-workspaces** live inside of a workspace and can be found under the _Workspaces_ between the _Overview_ and the _Tasks_ of the [parent workspace](workspaces.html#sub-workspaces). Sub-workspaces are not limited to the members of the parent workspace. You can invite people from other workspaces to every sub-workspace. A sub-workspace contains its own *Overview*, *Tasks*, *Discussions*, *Content*, and *Analytics*. You can also assign tasks within a sub-workspace to users, who are not part of the sub-workspace or its parent workspace.
 
-> Change the screenshot
-<img src="../images/project-example-overview.png" alt="A project Overview" width="100%"/>
+<img src="../images/welcome-overview-subworkspace.png" alt="A sub-workspace's Overview" width="100%"/>
 
 ### How can I access my workspaces?
 
@@ -56,7 +55,7 @@ After you are added to a sub-workspace, you will receive notifications about the
 
 If you are part of the parent workspace and you haven't joined some of its sub-workspaces, you can click on the blue button under its name. There you will find the available sub-workspaces and you can select *Join* next to the name of the ones you want to join (see below). 
 
-> screenshot showing the *Join* button and at least two unjoined sub-workspaces and one that is already added
+<img src="../images/unjoined-workspaces.png" alt="A workspace with two unjoined sub-workspaces" width="50%">
 
 >[!NOTE] You can always view the content in sub-workspaces without joining them. However, you will not receive any notification updates from them.
 

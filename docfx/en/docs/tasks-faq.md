@@ -12,7 +12,6 @@ Only you have access to your **personal tasks** and you can find them in your pe
 
 All the members of a workspace can access the tasks created within that workspace, no matter who is assigned. And every member can manage these shared tasks freely.
 
-> Change the screenshot
 <img src="../images/tasks-team.png" alt="Slingshot Workspace with tasks displayed in a list" width="100%"/>
 
 >[!NOTE] Members of a [parent workspace](workspaces.html#using-workspaces-within-the-workspace) can view the tasks in all sub-workspaces, even when they haven't joined the sub-workspaces. However, the members of а sub-workspace, who are not members of the parent workspace cannot view the tasks in the parent workspace.
@@ -126,14 +125,12 @@ By default, you view your tasks as a straightforward **List**, which is often go
 
 *Kanban* is a Japanese word, commonly known as a workflow management method designed to help visualize work and maximize efficiency. In Slingshot, the **Kanban** view shows a visual representation of tasks in the form of cards. Each card contains information about the task, including [task properties](#show-hide-property) such as status, deadline, assignee, etc. 
 
-> Change the screenshot
 <img src="../images/tasks-visualizations-kanban.png" alt="Kanban visualization in Slingshot" width="100%"/>
 
 Besides, the cards are arranged in columns. By default, the columns represent different stages of the status workflow (see above). You can use drag & drop to move the cards through the workflow by changing their status on the spot. 
 
 A **Timeline** always shows a list of events in chronological order. In Slingshot, you can see tasks over a set period of time.
 
-> Change the screenshot
 <img src="../images/tasks-visualizations-timeline.png" alt="Timeline view in Slingshot" width="100%"/>
 
 You can pick a task on the timeline and re-arrange the start and due dates by dragging its ends. 
@@ -143,7 +140,6 @@ You can even show/hide weekends by checking the **Show Weekends** box in the ove
 
 You will notice a hook on both corners of each task on the timeline. Drag the left hook of a task and connect it to another task (see in the screenshot below). With this, you will add a *waiting on* [**dependency**](#add-task-dependency) to the first task. Use the right hook to add a blocking dependency. 
 
-> Change the screenshot
 <img src="../images/tasks-visualizations-timeline-settings.png" alt="Adjusting the Timeline view in Slingshot" width="100%"/>
 
 ### How to group my tasks? 
@@ -161,14 +157,13 @@ You can apply sorting only to the *List* and *Timeline* view.
 
 In the **List** view, your tasks are ordered by their date of creation by default. This means the last task you created will be added to the bottom of the list. To change the sorting criterion, you can click/tap on a property title at the top of the list and sort tasks by ascending or descending order of *Status*, *Assignee* (name), *Start/Due Date*, *Attachments* (having or not), *Priority* (see the screenshot below). If the property you want to sort by is not there, see how to [show a property](#show-hide-property) in the *List* view.  
 
-> SUI screenshot showing order by status
+<img src="../images/list-order-by-status.png" alt="A tasks list ordered by status" width="100%" />
 
 In the **Timeline** view, your tasks are ordered by ... by default. This means... However, you can use the *Sort by* option in the overflow menu on the right. 
 ### Using lists and sections
 
 In Slingshot, you can organize your tasks by using **Lists** and **Sections**.  
 
-> Change the screenshot
 <img src="../images/tasks-lists-sections.png" alt="Lists and Sections in Slingshot" width="100%"/>
 
 **Sections** are simply divisions of a list. A list can have one or more sections, and a natural way to organize your list of tasks is grouping by sections.
@@ -191,7 +186,6 @@ Files attached can be opened, downloaded, or detached (unpinned) from the task.
 
 To attach a file, open a task and click/tap the clip icon as shown below.
 
-> Change the screenshot
 <img src="../images/tasks-attachments-new.png" alt="Adding attachments to a Slingshot task" width="100%"/>
 
 ### How to create a task from a discussion or a chat message?

@@ -65,6 +65,12 @@ const replaceRevealContents = () => {
         );
 }
 
+const removeHTMLExtensionFromSiteMap = () => {
+    return src([DOCFX_SITE + '/sitemap.xml'])
+        .pipe(replace(/\.html/g, ''))
+        .pipe(dest(DOCFX_SITE));
+};
+
 const buildSite = () => {
     return buildDocfx({
         siteDir: DOCFX_SITE,
@@ -116,5 +122,5 @@ exports['ci-assets-copy'] = series(copyRevealTopicsAndTOCs, overwriteRevealFiles
 exports['ci-build'] = series(this['ci-assets-copy'], buildSite);
 
 exports.copyRevealAssets = series(copyRevealTopicsAndTOCs, overwriteRevealFiles, replaceRevealContents, modifyYmlFile);
-exports.build = series(this.copyRevealAssets, buildSite);
+exports.build = series(this.copyRevealAssets, buildSite, removeHTMLExtensionFromSiteMap);
 exports.serve = series(this.build, serveSite, addWatcher);

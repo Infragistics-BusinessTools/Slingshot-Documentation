@@ -6,8 +6,6 @@ Welcome! Read on to get answers to your questions about the user account and set
 
 Go to the upper right corner and select your profile image.
 
-**ADD IMAGE HERE**
-
 Here you can Log Out, provide the Slingshot team with valuable Feedback, and access the general settings and profile information.
 
 ### Which are the different subscription plans?
@@ -74,13 +72,6 @@ To change your notification settings go to your account settings and selecting t
 Alternatively, you can open the Notifications panel and select *Settings* from the overflow menu in the upper right corner (see in the screenshot below): 
 
 <img src="../images/user-settings-notifications.png" alt="Notifications Settings menu opened in Slingshot" width="100%"/>
-
-### How can I manage Emily?
-
-You can proactively configure Emily's behavior in the Settings and also turn her off, if that's what you want.
-To do this, go to your account settings and selecting the *Emily* tab. 
-
-**ADD IMAGE HERE**
 
 ### What are the dashboard settings?
 Dashboards are part of your *Analytics* space in Slingshot.
