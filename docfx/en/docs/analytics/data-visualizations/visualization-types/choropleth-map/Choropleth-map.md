@@ -51,7 +51,7 @@ Find more specific information about the Location format and requirements in [Ho
 
 In the example below, we will use a choropleth map to analyse the results of the last presidential elections (2016) in the United States.
 
-To follow this walkthrough, download the [2016 November General Election](https://download.infragistics.com/reveal/help/samples/2016_November_General_Election.xlsx) spreadsheet, upload it to a cloud provider and follow the steps below.
+To follow this walkthrough, download the [2016 November General Election](https://download.infragistics.com/slingshot/help/samples/2016_November_General_Election.xlsx) spreadsheet, upload it to a cloud provider and follow the steps below.
 
 1. Connect to the cloud provider where you uploaded the spreadsheet. For more information on adding a data source in Analytics, visit the [Data Sources](~/docs/analytics/datasources/overview.md) section.
 2. In the visualization editor, select the Choropleth Map visualization:

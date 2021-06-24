@@ -74,7 +74,7 @@ You can also configure the following settings:
 ### Sample Data Source
 
 For this tutorial, you will use the "Stacked Charts" sheet in the
-[Analytics Tutorials Spreadsheet](https://download.infragistics.com/reportplus/help/samples/Analytics_Visualization_Tutorials.xlsx).
+[Analytics Tutorials Spreadsheet](https://download.infragistics.com/slingshot/samples/Slingshot_Visualization_Tutorials.xlsx).
 
 >[!NOTE]
 Excel files as local files are not supported in this release. In order
