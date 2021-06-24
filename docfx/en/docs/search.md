@@ -46,7 +46,6 @@ These filters are specific for the selected result type. For example, if you sel
 
 If you need results related to a specific workspace, or from your personal space (_My Stuff_), use the _Location_ filter dropdown just above the result tabs (see below).
 
-> Change the screenshot
 <img src="../images/location-filter-dropdown.png" alt="location filter dropdown" width="50%" />
 
 The _Location_ filter is applied to all results and is not affected by which result tab you chose.

@@ -26,16 +26,16 @@ Each time you pin a file, Slingshot will open the *File Permissions* dialog and 
 Here, you can choose between the following three permission types:
 
  - **All Can Access** 
- - **Only Members Can Access** 
- - **Owner Gives Access** 
+ - **Automatic Access** 
+ - **Request Access** 
 
 ### What do the different file permissions mean? 
 
-**Owner Gives Access** is the default and most restrictive. It means anyone who tries to open the file for the first time has to request access from the file owner. The file owner will receive an email, prompting them to *grant* or *deny* access. By granting access the owner of the file gives permissions to the user to open and edit the file. 
+**Request Access** is the default and most restrictive. It means anyone who tries to open the file for the first time has to request access from the file owner. The file owner will receive an email, prompting them to *grant* or *deny* access. By granting access the owner of the file gives permissions to the user to open and edit the file. 
 
 The file owner can also pre-allow access for chosen workspace's members by using the **Manage Access** option in the *File Permissions* dialog. 
 
-**Only Members Can Access** is great when you want all your workspace collaborators to have quick access to your file. If you choose *Only Members Can Access*, all workspace members will be to open and edit the file without asking the owner explicitly for access.  
+**Automatic Access** is great when you want all your workspace collaborators to have quick access to your file. If you choose *Automatic Access*, all workspace members will be to open and edit the file without asking the owner explicitly for access.  
 
 > [!NOTE] You can change the default file permission type by selecting the *Remember my choice* checkbox. 
 
@@ -44,7 +44,7 @@ The file owner can also pre-allow access for chosen workspace's members by using
 > [!NOTE]
 > Users who want to access a file uploaded to a cloud file provider need not only permissions in Slingshot but also a valid account with that cloud provider. For example, when you try to open a file from *OneDrive* shared by another user, you will be asked to log into your *OneDrive* account. If you don't have an account with *OneDrive*, Slingshot will deny access. This **does not apply** when the file has public permissions, and you open it in a browser. 
 
-Find out how file permissions apply when sharing a file in the chat by reading [How Can I Share a File in the Chat?](chat-starting.md). 
+Find out how file permissions apply when sharing a file in the chat by reading [How Can I Share a File in the Chat?](chat-faq.md). 
 
 ### Can I control who has rights to edit my file?
 
@@ -72,7 +72,7 @@ Use the **+ Members** blue button to pre-allow access for chosen users who can v
 
 On the right of each member's name, you can click/tap **Editor** > **Remove** to revoke access. 
 
->[!NOTE] **Access  cannot be automatically revoked.**  Users who have already opened the file even once, are added as *Editors* and their access will not be automatically revoked with changing the file permissions to the more restrictive type. So, if you change a file's permissions from *Only Members Can Access* to *Owner Gives Access* make sure you check for *Editors* in **Member Access** and revoke their permissions if necessary.
+>[!NOTE] **Access  cannot be automatically revoked.**  Users who have already opened the file even once, are added as *Editors* and their access will not be automatically revoked with changing the file permissions to the more restrictive type. So, if you change a file's permissions from *Automatic Access* to *Request Access* make sure you check for *Editors* in **Member Access** and revoke their permissions if necessary.
 
 ### How do file permissions work in the discussions and the chat? 
 
@@ -86,5 +86,5 @@ Sometimes you need to share files pinned to a board with people who are not part
 Keep in mind that the file owner decides whether the file will be accessible to users outside of the workspace with the file permissions they set. 
 Depending on the file permissions, there are two scenarios when you try to share a file in the chat or in a discussion.
 
-- *Owner Gives Access* permissions - you can still share the file with another user in a discussion or chat, but they will have to ask the owner of the file for permissions the first time they try to open it.
-- *Only Members Can Access* or *All Can Access* - you can share the file in a discussion or chat and the other user can open it freely. The owner of the file can revoke their access anytime.
+- *Request Access* permissions - you can still share the file with another user in a discussion or chat, but they will have to ask the owner of the file for permissions the first time they try to open it.
+- *Automatic Access* or *All Can Access* - you can share the file in a discussion or chat and the other user can open it freely. The owner of the file can revoke their access anytime.

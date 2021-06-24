@@ -78,8 +78,8 @@ File permissions are meant to give the file owner control over who can access th
 Here, you can choose between the following three permission types:
 
  - **All Can Access** - all Slingshot users can access the file.
- - **Only Members Can Access** - all users in the workspace can access the file.
- - **Owner Gives Access** -  users in the workspace have to request access from the owner.
+ - **Automatic Access** - all users in the workspace can access the file.
+ - **Request Access** -  all users, including the users in the workspace have to request access from the owner.
 
 > [!NOTE] Giving access to a file in Slingshot means you give open and edit permissions to the file. 
 
@@ -117,16 +117,15 @@ Alternatively, if you find this content already in a board, you can use _Copy Pi
 
 ### How to use drag & drop to quickly pin files?
 By using the drag and drop gesture, you can quickly add files or links from an external source into Slingshot's boards.  
-As shown in the image below, you actually pin content to groups. After all, boards are just containers that rely on sections and groups to organize and divide content.
+You actually pin content to groups. After all, boards are just containers that rely on sections and groups to organize and divide content.
 
-> replace with a SUI collage
-<img src="../images/content-dragAndDrop.png" alt="Drag and Drop action in Slingshot" width="100%"/>
+<img src="../images/content-groups.png" alt="Drag and Drop action in Slingshot" width="100%"/>
 
-After dropping a file in the board's group, Slingshot will prompt you to choose a cloud storage to upload the file to. You only need to do this once, though. Slingshot will create the _Slingshot Uploads_ folder in the selected cloud storage. All future drag and drop uploads will be added there.
+After adding a file in the board's group, Slingshot will prompt you to choose a cloud storage to upload the file to. You only need to do this once, though. Slingshot will create the _Slingshot Uploads_ folder in the selected cloud storage. All future drag and drop uploads will be added there.
 
 You can change where drag & drop files are uploaded in _General Settings_ > _Manage Location_, as shown below:
 
-<img src="../images/generalSettings-dragAndDrop.png" alt="Drag and Drop Settings access in Slingshot" width="100%"/>
+<img src="../images/general-settings-drag-and-drop.png" alt="Drag and Drop Settings access in Slingshot" width="100%"/>
 
 ### Can I rearrange boards, sections, and groups?
 

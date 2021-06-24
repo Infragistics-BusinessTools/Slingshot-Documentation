@@ -13,7 +13,7 @@ Roles represent a set of permissions that a user has in a workspace or in the Or
 
 You can have a different role in the different workspaces and the Org. Your role is given to you by the creator of a workspace at the moment you are invited. The creator is also the owner of the workspace. You will be notified what role they assigned to you in the invitation email. 
 
-If you want to check your role in a workspace or the Org at a later moment, you can select the overflow menu of the workspace/Org > *Manage Members*. Find more about managing workspace members in the [Learn More about Workspaces](teams-starting.html#how-can-i-manage-workspace-members) topic.
+If you want to check your role in a workspace or the Org at a later moment, you can select the overflow menu of the workspace/Org > *Manage Members*. Find more about managing workspace members in the [Learn More about Workspaces](workspaces-faq.html#how-can-i-manage-workspace-members) topic.
 
 ### What can the different roles do in a workspace?
 
@@ -42,7 +42,7 @@ The Slingshot user who creates a workspace is automatically assigned as its **ow
 
 **Owners** have full access to manage a workspace. This includes changing its main **information** - *name*, *description*, *privacy*, *status* and even deleting it. It also means owners have the right to **manage members** of the workspace - invite, remove and change their roles. They can create, edit and delete all content inside the workspace - tasks, filters, discussions, topics, boards, and Analytics dashboards.
 
-**Members** are more limited than owners but they are allowed to create sub-workspaces under the workspace. They can also create, edit and delete tasks, filters, discussions, topics, boards, and Analytics dashboards. When [joining](teams-starting.html#how-can-I-discover-and-join-other-workspaces) a public workspace by yourself and not by invitation, you are assigned the member role by default.
+**Members** are more limited than owners but they are allowed to create sub-workspaces under the workspace. They can also create, edit and delete tasks, filters, discussions, topics, boards, and Analytics dashboards. When [joining](workspaces-faq.html#how-can-I-discover-and-join-other-workspaces) a public workspace by yourself and not by invitation, you are assigned the member role by default.
 
 **Viewers** are limited to view, bookmark and share content. To be a viewer in a workspace, you have to be invited with the viewer role.
 
@@ -72,7 +72,7 @@ The roles in the Slingshot Organization are the same as in other workspaces - ow
 | Can **bookmark** discussions, topics, content, boards, analytics       | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 | Can **copy a link** to discussions, topics, content, boards, analytics | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 
-Learn more about the Organization in the [Workspaces](workspaces-starting.html#organization-vs-workspace) topic.
+Learn more about the Organization in the [Workspaces](workspaces-faq.html#organization-vs-workspace) topic.
 
 <a name='personal-account-users'></a>
 ### What about users with no Organization?

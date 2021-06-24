@@ -26,4 +26,4 @@ Besides that, you might also need to add images, documents, or links for specifi
 
 ### Want to Know more About Tasks?
 
-Continue [here](tasks-starting.md)!
+Continue [here](tasks-faq.md)!

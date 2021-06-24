@@ -6,7 +6,7 @@ Welcome! Read on to get answers to your questions about the private chat.
 
 In Slingshot, communication happens in discussions and private chats.
 
-Each workspace has its own *Discussions* tab. To learn more about discussions, read [Starting with Discussions](discussions-starting.md). 
+Each workspace has its own *Discussions* tab. To learn more about discussions, read [Starting with Discussions](discussions-faq.md). 
 
 Unlike discussions, the private chat is workspace independent. This means you can chat with any user from any workspace. You can chat with users who are part of your Organization and users who are not. Learn below how to [chat with personal account users](#chat-personal-account-users). And, unlike discussions, your chats are *private* and can be accessed only by you and the users you are chatting with. 
 
@@ -113,7 +113,7 @@ What about files that are pinned to a workspace board? Sometimes you need to sha
 
 <img src="../images/start-chat-from-file.png" alt="Start a Private Chat option in the pinned file overflow" width="100%">
 
-Having said that, keep in mind that your workspace may include files with sensitive information. That's why when pinning a file to a workspace its owner can restrict the access by choosing [file permissions](content-starting.html#file-permissions). 
+Having said that, keep in mind that your workspace may include files with sensitive information. That's why when pinning a file to a workspace its owner can restrict the access by choosing [file permissions](content-faq.html#file-permissions). 
 
 Depending on the file permissions, there are two scenarios when you try to share a file in the chat. 
 
