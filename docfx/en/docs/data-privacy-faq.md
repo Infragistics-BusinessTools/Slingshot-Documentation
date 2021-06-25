@@ -87,7 +87,7 @@ Below you will find two possible scenarios. The export procedure depends on whet
 
 #### For Organization Owners
 
-If you are a user with [owner](roles-permissions.md) permissions in the Organization workspace and you need to export users' profile data, then read below: 
+If you are a user with [owner](roles-permissions-faq.md) permissions in the Organization workspace and you need to export users' profile data, then read below: 
 
 1. Contact our team at **support@slingshot.io**
 2. Note you want to export an Organization member's profile information.
@@ -96,7 +96,7 @@ If you are a user with [owner](roles-permissions.md) permissions in the Organiza
 
 #### For Users with Personal Accounts
 
-If you have a [personal account](roles-permissions.md#what-about-users-with-no-organization) in Slingshot, this also means you do not belong to an Organization in Slingshot. You can be a member of Organization's teams and projects if invited. In this sense, your profile information does not belong to any Organization and you can request data export from the Slingshot support team directly. To do this:  
+If you have a [personal account](roles-permissions-faq.md#what-about-users-with-no-organization) in Slingshot, this also means you do not belong to an Organization in Slingshot. You can be a member of Organization's teams and projects if invited. In this sense, your profile information does not belong to any Organization and you can request data export from the Slingshot support team directly. To do this:  
 
 select your profile image > *Settings* > *Data Privacy* > *Export my Data* (as shown in the screenshot below).
 
