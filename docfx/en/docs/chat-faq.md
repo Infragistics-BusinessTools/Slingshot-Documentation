@@ -117,8 +117,8 @@ Having said that, keep in mind that your workspace may include files with sensit
 
 Depending on the file permissions, there are two scenarios when you try to share a file in the chat. 
 
-1. When the owner of the file has set **Owner Gives Access** permissions, this means they would like to fully control the access to the file. You can still share it with another user in the chat, but they will need to ask the owner of the file for permissions the first time they open it. 
-2. When the owner has set **Only Members Can Access** or **All Can Access**, you can share the file in the chat and the other user can open it freely. 
+1. When the owner of the file has set **Request Access** permissions, this means they would like to fully control the access to the file. You can still share it with another user in the chat, but they will need to ask the owner of the file for permissions the first time they open it. 
+3. When the owner has set **Automatic Access** or **All Can Access**, you can share the file in the chat and the other user can open it freely. 
 
 
 

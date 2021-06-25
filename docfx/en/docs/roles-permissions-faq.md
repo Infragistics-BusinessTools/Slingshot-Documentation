@@ -65,8 +65,9 @@ The roles in the Slingshot Organization are the same as in other workspaces - ow
 | ---------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
 | Can edit the **Org information**                                       | :white_check_mark: | :x:                | :x:                |
 | Can **manage members** of the Org                                      | :white_check_mark: | :x:                | :x:                |
-| Can **create** discussions, topics, content, boards, and dashboards    | :white_check_mark: | :white_check_mark: | :x:                |
-| Can **modify** discussions, topics, content, boards, and dashboards    | :white_check_mark: | :white_check_mark: | :x:                |
+| Can **create** discussions, topics, content, and boards                | :white_check_mark: | :white_check_mark: | :x:                |
+| Can **modify** discussions, topics, content, and boards                | :white_check_mark: | :white_check_mark: | :x:                |
+| Can create and modify **dashboards**                                   | :white_check_mark: | :x:                | :x:                |
 | Can **delete** discussions, topics, content, boards, and dashboards    | :white_check_mark: | :x:                | :x:                |
 | Can **view** discussions, topics, content, boards, and dashboards      | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 | Can **bookmark** discussions, topics, content, boards, analytics       | :white_check_mark: | :white_check_mark: | :white_check_mark: |
