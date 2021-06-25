@@ -18,7 +18,7 @@ Once you get in, you are greeted with your first screen:
 
 <img src="../images/personal-overview-blank.png" alt="Personal Overview completely blank for a new user" width="100%"/>
 
-You always start in your personal space, your **My Stuff**. Specifically, in _My Overview_. This is the place where you can have a quick glance at your most important information, organize yourself, and visualize your work.
+You always start in your personal space, your **My Stuff**. Specifically, in _Overview_. This is the place where you can have a quick glance at your most important information, organize yourself, and visualize your work.
 
 <img src="../images/overview-personal.png" alt="Personal Overview shown in Slingshot" width="100%"/>
 
@@ -40,7 +40,7 @@ The navigation panel on the left includes:
 
 You can switch between the content in your My Stuff, Organization and workspaces. 
 
-When the *Workspaces* tab is selected you will see a list of workspaces and [sub-workspaces](workspaces.html##using-workspaces-within-the-workspace). If you bookmarked any workspace to keep it at hand, you can select the *Bookmarks* tab to find it faster.
+When the *Workspaces* tab is selected you will see a list of workspaces and [sub-workspaces](workspaces#using-workspaces-within-the-workspace). If you bookmarked any workspace to keep it at hand, you can select the *Bookmarks* tab to find it faster.
 
 To navigate to any workspace, just click/tap over it.
 

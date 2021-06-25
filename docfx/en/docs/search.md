@@ -1,10 +1,11 @@
-## Search title
+## Search
 
-If you have been on the Internet at least once, you know it's all about finding the right information! And the search is the tool to help you with this.  
+If you have been on the Internet at least once, you know it's all about finding the right information! And search is the tool to help you with this.  
 
-### So, what's Search for Slingshot?
+### So, what's the Slingshot's Search?
 
 The search provides neatly organized results from everywhere inside Slingshot. The variety of filtering options ensure great precision and quickly finding exactly what you need.
+
 ### How to start my search?
 
 You can quickly start your search from anywhere - a workspace, tasks, *My Stuff*, etc. 

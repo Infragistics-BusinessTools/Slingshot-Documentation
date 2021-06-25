@@ -25,7 +25,7 @@ Below you will find two possible scenarios. The deletion procedure steps depend 
 
 #### For Organization Owners 
 
-If you are a user with an [Owner](roles-permissions-faq.html#what-can-the-different-roles-do-in-a-workspace) role in your Organization team and you need to delete one or more users' profile information, then read the steps below to learn how to proceed. 
+If you have an [Owner](roles-permissions-faq.html#what-can-the-different-roles-do-in-a-workspace) role in your Organization team and need to delete one or more users' profile information, then read below: 
 
 1. Contact our team at **support@slingshot.io**
 2. Note you want to delete an Organization member's profile information.
@@ -83,11 +83,11 @@ Upon request, you will receive an email from Slingshot. This email contains a li
 
 ### How to export profile information? 
 
-Below you will find two possible scenarios. The export procedure steps depend on your relation to an Organization in Slingshot.
+Below you will find two possible scenarios. The export procedure depends on whether you are part of an Organization or not, and it may take up to 24 hours.
 
 #### For Organization Owners
 
-If you are a user with [owner](roles-permissions.md) permissions in the Organization workspace and you need to export users' profile data, then read the steps below to learn how to proceed. 
+If you are a user with [owner](roles-permissions.md) permissions in the Organization workspace and you need to export users' profile data, then read below: 
 
 1. Contact our team at **support@slingshot.io**
 2. Note you want to export an Organization member's profile information.
@@ -102,9 +102,7 @@ select your profile image > *Settings* > *Data Privacy* > *Export my Data* (as s
 
 <img src="../images/export-profile-data-settings.png" alt="Exporting your profile data from the Settings menu" width="100%">
 
->[!NOTE] If you are an Organization member *Data Privacy* is not available in your *Settings* menu. 
-
-Export may take up to 24 hours. 
+>[!NOTE] If you are an Organization member *Data Privacy* is not available in your *Settings* menu.  
 
 ### What type of data does the export contain? 
 

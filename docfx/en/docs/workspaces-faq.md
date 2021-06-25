@@ -47,7 +47,7 @@ To become part of **private workspace or workspaces outside of your Organization
 
 ### How can I join a sub-workspace? 
 
-As it was already mentioned, sub-workspaces can mix together users from the parent workspace with users, who are not part of it. [Personal account users](roles-permissions-faq.html#personal-account-users) can also join a sub-workspace without being members of its parent workspace.
+As it was already mentioned, sub-workspaces can mix together users from the parent workspace with users, who are not part of it. [Personal account users](roles-permissions-faq.html#what-about-users-with-no-organization) can also join a sub-workspace without being members of its parent workspace.
 
 To join a workspace, if you are not a member of the parent workspace, you have to **receive an invitation** by an owner of the sub-workspace or its parent workspace. 
 
@@ -161,13 +161,13 @@ To make a workspace disappear from your Workspace panel you can either delete it
 
 Only the *owner* can delete a workspace. As an exception.
 
-To **delete** a workspace, go to its [settings](#workspace-settings) > _Manage Members_ > overflow menu on top > *Delete Workspace*.
+To **delete** a workspace, go to its [settings](#how-can-i-change-the-workspace-privacy-name-or-description) > _Manage Members_ > overflow menu on top > *Delete Workspace*.
 
 <img src="../images/overflow-menu-settings.png" alt="Overflow button location in the workspace's settings" width="100%"/>
 
 Deleting removes the workspace with all its contents for all its members.
 
-To remove a workspace and its content only for you, use the **leave** option. You can do this by going to the workspace's[settings](#team-settings) > select *Manage Members*, click/tap your role and select *Leave*. If you are the only owner of a workspace you cannot leave it without assigning another member as an owner.
+To remove a workspace and its content only for you, use the **leave** option. You can do this by going to the workspace's [settings](#how-can-i-change-the-workspace-privacy-name-or-description) > select *Manage Members*, click/tap your role and select *Leave*. If you are the only owner of a workspace you cannot leave it without assigning another member as an owner.
 
 
 
