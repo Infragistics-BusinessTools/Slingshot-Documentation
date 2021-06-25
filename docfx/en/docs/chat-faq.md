@@ -6,9 +6,9 @@ Welcome! Read on to get answers to your questions about the private chat.
 
 In Slingshot, communication happens in discussions and private chats.
 
-Each workspace has its own *Discussions* tab. To learn more about discussions, read [Starting with Discussions](discussions-faq.md). 
+Each workspace has its own *Discussions* tab. To learn more about discussions, read [Discussions FAQ](discussions-faq.md). 
 
-Unlike discussions, the private chat is workspace independent. This means you can chat with any user from any workspace. You can chat with users who are part of your Organization and users who are not. Learn below how to [chat with personal account users](#chat-personal-account-users). And, unlike discussions, your chats are *private* and can be accessed only by you and the users you are chatting with. 
+Unlike discussions, the private chat is workspace independent. This means you can chat with any user from any workspace. You can chat with users who are part of your Organization and users who are not. Learn below how to [chat with personal account users](#how-to-start-a-chat-with-users-with-personal-accounts). And, unlike discussions, your chats are *private* and can be accessed only by you and the users you are chatting with. 
 
 ### How can I access my chat?
 
@@ -38,17 +38,18 @@ To start a chat, open the chat screen. Then follow the steps below:
 2. Select a user from the list or type a name or email in the *search* box on top.
 3. Click/tap **Chat**. 
 
->[!NOTE] If you don't see the *Start a chat...* button, check whether your chat is [docked](#chat-dock). In this case, select the **undock** icon next to *Close*.
+>[!NOTE] If you don't see the *Start a chat...* button, check whether your chat is [docked](#how-can-i-keep-the-chat-always-visible). In this case, select the **undock** icon next to *Close*.
 
 ### How can I start a group chat?
 
-Starting a group chat is similar to [starting a private chat](#private-chat-start). The only difference is that you choose two or more people to create the group chat. 
+Starting a group chat is similar to [starting a private chat](#how-can-i-start-a-private-chat). The only difference is that you choose two or more people to create the group chat. 
 
 You can add more users to any ongoing chat (private or group) by opening it and selecting the *+ member* icon on top right (as shown below). 
 
 <img class="responsive-img" src="../images/add-member-icon-chat.png" alt="Add more members to a chat icon" width="80%" />
 
 >[!NOTE] If you create a new group chat by adding more people to a private chat, don't worry! The group chat will be opened in another chat room. Your private chat will be kept separately as well.
+
 ### Can I rename a chat?
 
 You can rename your group chats to better differentiate between group chats with (almost) the same users. You will find the *rename* option in the *overflow* menu of a group chat (see below).
@@ -85,11 +86,12 @@ When finished, select the **Add to Chat** blue button.
 ### How to start a chat with users with personal accounts?
 
 All Slingshot users can take part in private and group chats, including the personal account users. 
-However, [personal account users](roles-permissions-faq.html#personal-account-users) are not part of an Organization. That's why, after selecting **+ Start a Chat...**, if you have an Org, you will not see their names in the list of users. The list contains only your Organization members. You can chat with personal account users only if you add their emails manually in the search box as shown below.
+However, [personal account users](roles-permissions-faq.html#what-about-users-with-no-organization) are not part of an Organization. That's why, after selecting **+ Start a Chat...**, if you have an Org, you will not see their names in the list of users. The list contains only your Organization members. You can chat with personal account users only if you add their emails manually in the search box as shown below.
 
 <img class="responsive-img" src="../images/personal-account-user-chat.png" alt="Typing a personal account user's email to add them to a chat" width="100%" />
 
 Of course, if you don't have an Organization, then you will have to add all users you want to chat with like this.
+
 ### Leaving vs muting a chat
 
 Once you lose interest, you can leave or mute a chat in Slingshot.  

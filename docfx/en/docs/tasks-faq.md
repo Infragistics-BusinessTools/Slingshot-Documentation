@@ -27,7 +27,7 @@ Depending on where you stand, you will be accessing different tasks.
 In **My Stuff**, you can access every task assigned to you. These tasks are saved inside *My Tasks*. There you will find personal, and workspace tasks - very useful to have all your tasks in just one place!
 
 Within a **workspace**, you get access to all created tasks, no matter who is assigned.  
-Also, use the *My Tasks* pre-set [filter](#tasks-filters) and you will see only tasks assigned to you. If you are in a parent workspace, containing sub-workspaces, use *My Tasks* to find all tasks assigned to you in the workspace and all its sub-workspaces. 
+Also, use the *My Tasks* pre-set [filter](#how-can-i-filter-tasks) and you will see only tasks assigned to you. If you are in a parent workspace, containing sub-workspaces, use *My Tasks* to find all tasks assigned to you in the workspace and all its sub-workspaces. 
 
 To open a task, just click/tap over it.
 
@@ -52,7 +52,7 @@ Having the task opened also allows you to insert new subtasks and this way reord
 <img src="../images/tasks-new-subtasks-others.png" alt="Options to insert a new subtask below or above other subtasks within a Slingshot task" width="100%"/>
 
 <a name="add-task-dependency"></a>
-### How can I add a task dependency? 
+### How can make a task depend on another task? 
 
 Two or more tasks may depend on each other's completion. Slingshot helps you keep everyone informed about that with the task *dependency* property. 
 
@@ -123,7 +123,7 @@ You can choose between three different visualizations (_List_, _Kanban_, _Timeli
 
 By default, you view your tasks as a straightforward **List**, which is often good enough. Most of the screenshots in this documentation present tasks in the *List* view. This is so because most of the time the preferred view type does not affect how *Tasks* are used and managed. When it does, we will show the differences in each view. 
 
-*Kanban* is a Japanese word, commonly known as a workflow management method designed to help visualize work and maximize efficiency. In Slingshot, the **Kanban** view shows a visual representation of tasks in the form of cards. Each card contains information about the task, including [task properties](#show-hide-property) such as status, deadline, assignee, etc. 
+*Kanban* is a Japanese word, commonly known as a workflow management method designed to help visualize work and maximize efficiency. In Slingshot, the **Kanban** view shows a visual representation of tasks in the form of cards. Each card contains information about the task, including [task properties](#how-can-i-change-properties) such as status, deadline, assignee, etc. 
 
 <img src="../images/tasks-visualizations-kanban.png" alt="Kanban visualization in Slingshot" width="100%"/>
 
@@ -138,7 +138,7 @@ You can pick a task on the timeline and re-arrange the start and due dates by dr
 In addition, you are able to change the scale (days, weeks, months) by using the dropdown next to the filter icon. Use the **Today** button on top to go back to the current day. If your scale shows weeks or months, *today* will bring you back to the beginning of the current week or month, respectively. 
 You can even show/hide weekends by checking the **Show Weekends** box in the overflow menu on top.
 
-You will notice a hook on both corners of each task on the timeline. Drag the left hook of a task and connect it to another task (see in the screenshot below). With this, you will add a *waiting on* [**dependency**](#add-task-dependency) to the first task. Use the right hook to add a blocking dependency. 
+You will notice a hook on both corners of each task on the timeline. Drag the left hook of a task and connect it to another task (see in the screenshot below). With this, you will add a *waiting on* [**dependency**](#how-can-i-add-a-task-dependency) to the first task. Use the right hook to add a blocking dependency. 
 
 <img src="../images/tasks-visualizations-timeline-settings.png" alt="Adjusting the Timeline view in Slingshot" width="100%"/>
 
@@ -149,17 +149,19 @@ _Group by_ options include ordering your tasks by section, priority, assignee, a
 <img src="../images/tasks-visualizations-list.png" alt="List grouped by options in Slingshot" width="100%"/>
 
 *Group by* is available for all _View Types_. Grouping your tasks helps you find quickly tasks that share a specific property, for example, tasks assigned to the same user. Unlike filtering, the grouping will show you all tasks at the same time. Changing the *group by* criteria will affect only the current list and only the way you see your tasks. Other workspace members can apply different grouping criteria to the same list, but this will not affect how you see this list in your profile. 
+
 ### How can I sort tasks? 
 
 When you are looking at your tasks you may be wondering how they are ordered. Sorting helps you arrange your tasks in ascending or descending order by using a task property as the criterion. 
 
 You can apply sorting only to the *List* and *Timeline* view.  
 
-In the **List** view, your tasks are ordered by their date of creation by default. This means the last task you created will be added to the bottom of the list. To change the sorting criterion, you can click/tap on a property title at the top of the list and sort tasks by ascending or descending order of *Status*, *Assignee* (name), *Start/Due Date*, *Attachments* (having or not), *Priority* (see the screenshot below). If the property you want to sort by is not there, see how to [show a property](#show-hide-property) in the *List* view.  
+In the **List** view, your tasks are ordered by their date of creation by default. This means the last task you created will be added to the bottom of the list. To change the sorting criterion, you can click/tap on a property title at the top of the list and sort tasks by ascending or descending order of *Status*, *Assignee* (name), *Start/Due Date*, *Attachments* (having or not), *Priority* (see the screenshot below). If the property you want to sort by is not there, see how to [show a property](#how-can-i-showhide-properties) in the *List* view.  
 
 <img src="../images/list-order-by-status.png" alt="A tasks list ordered by status" width="100%" />
 
-In the **Timeline** view, your tasks are ordered by ... by default. This means... However, you can use the *Sort by* option in the overflow menu on the right. 
+In the **Timeline** view, your tasks are ordered by default. However, you can use the *Sort by* option in the overflow menu on the right. 
+
 ### Using lists and sections
 
 In Slingshot, you can organize your tasks by using **Lists** and **Sections**.  

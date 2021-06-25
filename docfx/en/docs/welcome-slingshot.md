@@ -81,15 +81,15 @@ Everyone'll always have the most up-to-date version of documents, eliminating th
 Slingshot offers you a seamless, almost identical experience no matter what device you are on.
 You can use a web browser or get native applications on iOS, Android, and Desktop, making it easy for you to run productive teams across different devices and platforms.
 
-[Go to Slingshot **Web**](https://my.slingshotapp.io/).
+<a href="https://my.slingshotapp.io/" target="_blank">Go to Slingshot <b>Web</b>.</a>
 
-[Get Slingshot **native apps** (Android, iOS, desktop)](https://www.slingshotapp.io/download-apps).
+<a href="[https](https://www.slingshotapp.io/download-apps)" target="_blank">Get Slingshot <b>native apps</b> (Android, iOS, desktop).</a>
 
 Below you can find the versions supported for each platform:
 
 | PLATFORM | SUPPORT |
 | --- | --- |
 |**Android**|Android 6.0 (Marshmallow) or higher (except the Kindle Fire).|
-|**Desktop**|Any Windows with .NET Framework 4.6 installed. For more information on .NET Framework system requirements, check [this Microsoft article](https://docs.microsoft.com/en-us/dotnet/framework/get-started/system-requirements).|
+|**Desktop**|Any Windows with .NET Framework 4.6 installed. For more information on .NET Framework system requirements, check <a href="https://docs.microsoft.com/en-us/dotnet/framework/get-started/system-requirements" target="_blank">this Microsoft article.</a> |
 |**IOS**|iOS 13 or higher.|
 |**Web**|Chrome, Firefox, Microsoft Edge (excluding Microsoft Edge Legacy), Safari. Web browsers are not supported in mobile devices.|

@@ -6,9 +6,9 @@ Welcome! Read on to get answers to your questions about discussions.
 
 In Slingshot, communication happens in discussions and private chats.
 
-Each workspace has its own dedicated *Discussions* tab. Discussions are organized in topics. Discussions are workspace specific. Because of this, you will not be able to see and take part in all discussions in Slingshot. Read more about [who can access discussions](discussions-faq.html#discussions-access) by following the link.
+Each workspace has its own dedicated *Discussions* tab. Discussions are organized in topics. Discussions are workspace specific. Because of this, you will not be able to see and take part in all discussions in Slingshot. Read more about [who can access discussions](discussions-faq.html#who-can-access-discussions) by following the link.
 
-Unlike discussions, private chat is workspace independent. See more about the chat in [Starting with Private Chat](chat-faq.md)
+Unlike discussions, private chat is workspace independent. See more about the chat in [Private Chats FAQ](chat-faq.md)
 
 ### How can I access my discussions?
 
@@ -38,7 +38,8 @@ A discussion is basically a section dedicated to a specific subject and organize
 
 So, technically speaking, you can't **join** discussions. But you can reply to a topic inside a discussion. Or create a new topic. 
 
->[!NOTE] Only Owners and Members of the workspace can reply to a topic and create a new one. Viewers can only read topics. 
+>[!NOTE] Only Owners and Members of the workspace can reply to a topic and create a new one. Viewers can only read topics.
+
 ### How can I create a new discussion?
 
 Every Owner or Member of a workspace can create a new discussion. The same goes for the discussions inside the *Organization*. 
