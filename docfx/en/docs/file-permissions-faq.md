@@ -7,7 +7,7 @@ Welcome! Read on to get answers to your questions about files permissions.
 When [pinning files](content-boards.html#working-with-your-content-in-slingshot) to a content board to share them with others, you may be concerned with different aspects of security. Will sensitive business information be seen by someone inappropriate? Can other users delete your file? Who can edit it?
 
 Slingshot grants you file security by allowing you to **choose who can access your file**.  
- Slingshot does not store any files, but lets you connect to cloud storages of your preference to get access to your files. This means only you and people trusted by you will get access. And it also means Slingshot builds upon cloud storages security to keep your files safe. For more information go to [File Permissions FAQ](file-permissions-faq.md).
+ Also, Slingshot does not store any files, but lets you connect to cloud storages of your preference to get access to your files. This means only you and people trusted by you will get access. And it also means Slingshot builds upon cloud storages security to keep your files safe. For more information go to [File Permissions FAQ](file-permissions-faq.md).
 
 >[!NOTE] Other users **cannot delete** a file you pinned to a board. Boards are only containers that keep connections to a cloud provider where your file is located. Owners and members of the workspace, however, can delete the connection by *unpinning* the file.
 
