@@ -93,7 +93,7 @@ The *Who is collaborating in this workspace?* dialog appears right after you cre
 >[!NOTE]
 >When adding members, whose emails are not auto-completed by Slingshot, type the whole email and press Enter to add it to the list of users you want to invite.
 
-Select **Done** when you are ready. All users in the list are assigned the default _Member_ role. From the dropdown next to each name, you can change the role to _owner_ or _Viewer_. How are these roles different from _Member_? See in the [Roles & Permissions](roles-permissions.md) topic.
+Select **Done** when you are ready. All users in the list are assigned the default _Member_ role. From the dropdown next to each name, you can change the role to _owner_ or _Viewer_. How are these roles different from _Member_? See in the [Roles & Permissions FAQ](roles-permissions-faq.md) topic.
 
 ### How can I create a workspace inside the workspace?
 

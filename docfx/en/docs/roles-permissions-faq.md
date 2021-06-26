@@ -11,7 +11,7 @@ Roles represent a set of permissions that a user has in a workspace or in the Or
 
 ### How can I find my role?
 
-You can have a different role in the different workspaces and the Org. Your role is given to you by the creator of a workspace at the moment you are invited. The creator is also the owner of the workspace. You will be notified what role they assigned to you in the invitation email. 
+You can have different roles in each of your workspaces and the Org. Your role is given to you by the creator of a workspace at the moment you are invited. The creator is also the owner of the workspace. You will be notified what role they assigned to you in the invitation email. 
 
 If you want to check your role in a workspace or the Org at a later moment, you can select the overflow menu of the workspace/Org > *Manage Members*. Find more about managing workspace members in the [Learn More about Workspaces](workspaces-faq.html#how-can-i-manage-workspace-members) topic.
 

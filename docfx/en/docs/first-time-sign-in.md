@@ -18,7 +18,7 @@ Once you get in, you are greeted with your first screen:
 
 <img src="../images/personal-overview-blank.png" alt="Personal Overview completely blank for a new user" width="100%"/>
 
-You always start in your personal space, your **My Stuff**. Specifically, in _Overview_. This is the place where you can have a quick glance at your most important information, organize yourself, and visualize your work.
+You always start in your personal space, **My Stuff**. Specifically, in _My Overview_. This is the place where you can have a quick glance at your most important information, organize yourself, and visualize your work.
 
 <img src="../images/overview-personal.png" alt="Personal Overview shown in Slingshot" width="100%"/>
 
@@ -26,7 +26,7 @@ As you can see above, _My Overview_ can get very busy. Let's focus on getting yo
 
 ### My Stuff, Organization, Workspaces
 
-Your personal space, **My Stuff**, is great and useful, but Slingshot is about effective collaboration in *Workspaces* where you run teams and projects. So, you're probably wondering how to switch between your personal space, the Organization, and the workspaces? 
+Your personal space, **My Stuff**, is great and useful, but Slingshot is about effective collaboration in *Workspaces* where you run teams and projects. So, you're probably wondering how to switch between your personal space, the Organization, and the workspaces... 
 
 Check out the image below:
 
@@ -34,18 +34,16 @@ Check out the image below:
 
 The navigation panel on the left includes: 
 
-- your **My Stuff** tab; 
-- your **Organization** tab (if you have one), and 
+- the **My Stuff** tab; 
+- the **Organization** tab (if you have one), and 
 - the **Workspaces** and **Bookmarks** tabs. 
 
-You can switch between the content in your My Stuff, Organization and workspaces. 
+You can switch between the content in My Stuff, Organization and Workspaces. 
 
-When the *Workspaces* tab is selected you will see a list of workspaces and [sub-workspaces](workspaces#using-workspaces-within-the-workspace). If you bookmarked any workspace to keep it at hand, you can select the *Bookmarks* tab to find it faster.
+When the *Workspaces* tab is selected, you will see a list of workspaces and [sub-workspaces](workspaces#using-workspaces-within-the-workspace). If you bookmarked any workspace to keep it at hand, you can select the *Bookmarks* tab to find it faster. To navigate to any workspace, just click/tap over it.
 
-To navigate to any workspace, just click/tap over it.
-
-Keep in mind that in Slingshot, people can be part of an organization, plus limitless workspaces. Inside a parent workspace you can create more workspaces for your projects, and you have overviews, tasks, discussions, content, and analytics at both levels. For example, there are tasks in the parent workspace and tasks in each of the sub-workspaces as well.  
-Follow the links for further details about [Workspaces](workspaces.md).
+Keep in mind that in Slingshot, people can be part of an organization and limitless workspaces. Inside a parent workspace you can create more workspaces for your projects, and you'll have overviews, tasks, discussions, content, and analytics at both levels. For example, there are tasks in the parent workspace and tasks in each of the sub-workspaces as well.  
+Follow the link for further details about [Workspaces](workspaces.md).
 
 ### Overviews, Workspaces, Tasks, Discussions, Content, and Analytics
 
@@ -56,16 +54,14 @@ Inside Slingshot workspaces, you will find the six main navigation bars on top: 
 As already mentioned, the Organization workspace is not like other workspaces. So, inside it, there is a different number of navigation bars. That goes for _My Stuff_ and sub-workspaces, which also have the navigation bars. 
 But why is that? Let's answer this question quickly by explaining the idea behind each navigation bar.
 
-- **Overviews** give you a quick status of your workspaces, or your personal work, so you'll find them there. 
-- **Workspaces** allow you to create another level of workspaces inside your workspace. However, you can have only two levels of workspaces - one parent workspace containing limitless sub-workspaces.
+- **Overview** gives you a quick status of your workspaces or your personal work.
+- **Workspaces** shows the list of workspaces and allow you to create another level of workspaces inside the parent workspace. However, you can have only two levels of workspaces - i.e. one parent workspace containing limitless sub-workspaces.
 - **Tasks** represent work to be done by the members in a workspace.
-- **Discussions** are used to chat among members of an organization, or a workspace. 
+- **Discussions** used to communicate among members of an organization or a workspace. 
 - **Content** is about cloud storages and boards - basically you connect to cloud storages and then use boards to organize and share that content with others. 
 - **Analytics** allow you to quickly create and share data visualizations so you can turn your data into insights.
 
-<img src="../images/overview-workspace-navigation.png" alt="Workspaces Overview shown in Slingshot" width="100%"/>
-
-The image above shows the navigation bars of a Slingshot workspace, the Organization, a sub-workspace, and *My Stuff*. Only workspaces have all the main navigation bars. 
+The image above shows the navigation bars of a Slingshot workspace, the Organization, a sub-workspace, and *My Stuff*. But only workspaces include all the main navigation bars. 
 Follow the links for further details about [overviews](overviews.md), [workspaces](workspaces.md), [tasks](tasks.md), [discussions](communication.md), [content](content-boards.md), or [analytics](analytics/index.md).
 
 ### Notifications and User Settings
@@ -77,7 +73,7 @@ Follow the links for further details about [overviews](overviews.md), [workspace
 There are three different types of notifications, in-app, push, and email. This means that you can get a message that pops up while using Slingshot (in-app notification), a message that pops up on a mobile device (push notification), or even an email notification.  
 Follow the link for further details about [notifications](notifications.md).
 
-In **User Settings** you can find _General Settings_, _Feedback_, and you can also _Sign Out_ of the application.
+Get to **User Settings** by selecting your *profile image*, there you can find _General Settings_, _Feedback_, and you can also _Sign Out_ of the application.
 
 <img src="../images/user-settings-all.png" alt="User Settings menu opened in Slingshot" width="50%"/>
 
