@@ -8,7 +8,7 @@ Putting a little thought into to this, big picture thinking can be a big help fo
 
 It's a quick snapshot of a workspace or your personal work. Slingshot overviews present you with the current status of one of those by displaying summarized information.
 
-By looking at a **workspace overview** you can get a sense of a project's progress at a glance. Within seconds you get an overall status (_On Target, At Risk, Danger, Completed_), the start and due dates, and issues raised by someone working on the project. That information alone might be enough for you, if not you can dig deeper by exploring specific tasks within the workspace or even mentions directed at you. Workspace content can be useful to add resources like links, documents, dashboards, etc.
+By looking at a **workspace overview** you can get a sense of a project's progress at a glance. Within seconds you get an overall status (_On Target, At Risk, Danger, Completed_), the start and due dates, and issues raised by someone working on the project. That information alone might be enough for you. If not, you can dig deeper by exploring specific tasks within the workspace or even mentions directed at you. Workspace content can be useful to add resources like links, documents, dashboards, etc.
 
 <img src="../images/welcome-overview-subworkspace.png" alt="Workspace Overview shown in Slingshot" width="100%"/>
 
@@ -16,7 +16,9 @@ From a **workspace overview** you can get a list of the workspace members and th
 
 <img src="../images/workspace-overview-example.png" alt="Workspaces Overview shown in Slingshot" width="100%"/>
 
-Your **personal overview** is that one place where you can visualize your work and organize yourself. All your tasks with dates can be found here and you can open them without navigating away. Bookmarks are very useful to keep at hand those links that are really relevant to you. You can add links to workspaces, tasks, chats and also boards. As boards are just containers, bookmarking a board gets you access to all its pinned documents and web links.
+In _My Stuff_, you will find your **personal overview**. Here you can visualize your own work and organize yourself. All your tasks can be found here and you can open them without navigating away. You can even see tasks assigned to you in workspaces you haven't joined. 
+
+Bookmarks are very useful to keep at hand those links that are really relevant to you. You can add links to workspaces, tasks, chats and also boards. As boards are just containers, bookmarking a board gets you access to all its pinned documents and web links.
 
 <img src="../images/overview-personal.png" alt="Personal Overview shown in Slingshot" width="100%"/>
 
