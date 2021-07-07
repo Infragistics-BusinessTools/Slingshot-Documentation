@@ -36,11 +36,11 @@ When you work towards a common objective, using shared resources is required. On
 
 What if you don’t use discussions for your project or don’t need Analytics in the preparation phase? No matter how good a tool is, it still can be unnecessary or inappropriate for your work. If you are the owner of the workspace, to improve productivity and decrease clutter, you can hide one or more of the six main navigation tabs. 
 
-To customize which tabs you need to run your workspace, you can simply use the *pencil* icon next to the *Analytics* tab. Use the toggles to hide/show tabs. All tabs are shown by default (see in the screenshot below). 
+To customize which tabs you need to run your workspace, you can simply use the *pencil* icon next to the *Analytics* tab (see below). 
 
-<img src="../images/workspaces-edit-tabs.png" alt="Edit tabs dialog with all six tabs shown" width="50%" />
+<img src="../images/workspace-overview-example-pencil-icon.png" alt="Pencil icon shown next to tabs" width="100%" />
 
-When you disable a tab, you simply hide it. This means, that if you decide to show the tab again all its previous content will be recovered and also shown. 
+Use the toggles to hide/show tabs. All tabs are shown by default (see in the screenshot below). When you disable a tab, you simply hide it. This means, that if you decide to show the tab again all its previous content will be recovered and also shown. 
 
 >[!NOTE] Contents from the hidden tabs will still appear in other parts of Slingshot. For example, if you have shared a task in a discussion before hiding the Tasks tab, the task will remain visible in the discussion. This also applies for content shared with users in the chat or pinned to a board.
  
