@@ -30,8 +30,20 @@ To support each other, the members of a workspace can get a sense of the workspa
 
 When you work towards a common objective, using shared resources is required. One of the best practices in Slingshot is to organize your content in *Boards*. Designed to manage your personal or workspace content, boards are just containers. They keep connections to cloud storages, where you hold your resources.
 
-<img src="../images/content-sub-workspace.png" alt="An example of a board used to hold workspace resources" width="100%">
+<img src="../images/content-sub-workspace.png" alt="An example of a board used to hold workspace resources" width="100%" />
 
+### Customizing your workspaces for improved productivity
+
+What if you don’t use discussions for your project or don’t need Analytics in the preparation phase? No matter how good a tool is, it still can be unnecessary or inappropriate for your work. If you are the owner of the workspace, to improve productivity and decrease clutter, you can hide one or more of the six main navigation tabs. 
+
+To customize which tabs you need to run your workspace, you can simply use the *pencil* icon next to the *Analytics* tab. Use the toggles to hide/show tabs. All tabs are shown by default (see in the screenshot below). 
+
+<img src="../images/workspaces-edit-tabs.png" alt="Edit tabs dialog with all six tabs shown" width="50%" />
+
+When you disable a tab, you simply hide it. This means, that if you decide to show the tab again all its previous content will be recovered and also shown. 
+
+>[!NOTE] Contents from the hidden tabs will still appear in other parts of Slingshot. For example, if you have shared a task in a discussion before hiding the Tasks tab, the task will remain visible in the discussion. This also applies for content shared with users in the chat or pinned to a board.
+ 
 <a name='sub-workspaces'></a>
 ### Using workspaces within the workspace
 
