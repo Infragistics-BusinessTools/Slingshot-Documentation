@@ -52,7 +52,7 @@ Having the task opened also allows you to insert new subtasks and this way reord
 <img src="../images/tasks-new-subtasks-others.png" alt="Options to insert a new subtask below or above other subtasks within a Slingshot task" width="100%"/>
 
 <a name="add-task-dependency"></a>
-### How can make a task depend on another task? 
+### How can I make a task depend on another task? 
 
 Two or more tasks may depend on each other's completion. Slingshot helps you keep everyone informed about that with the task *dependency* property. 
 
@@ -115,7 +115,7 @@ To stop filtering tasks, click/tap the **filter icon** to open the **Filters** d
 
 For those times that you can't find a specific task, try expanding collapsed panels, removing existing filters, and/or adding filters using the properties of the task you want. Remember that the icon changes to help you identify when you have active filters or not.
 
-### Switching between List, Kanban, and Timeline
+### How can I switch between List, Kanban, and Timeline
 
 You can choose between three different visualizations (_List_, _Kanban_, _Timeline_), depending on what you want to achieve.
 
@@ -142,7 +142,7 @@ You will notice a hook on both corners of each task on the timeline. Drag the le
 
 <img src="../images/tasks-visualizations-timeline-settings.png" alt="Adjusting the Timeline view in Slingshot" width="100%"/>
 
-### How to group my tasks? 
+### How can I group my tasks? 
 
 _Group by_ options include ordering your tasks by section, priority, assignee, and other criteria. To group your tasks, select the **overflow menu > Group by** (shown below). 
 
@@ -162,7 +162,7 @@ In the **List** view, your tasks are ordered by their date of creation by defaul
 
 In the **Timeline** view, your tasks are ordered by default. However, you can use the *Sort by* option in the overflow menu on the right. 
 
-### Using lists and sections
+### How can I use lists and sections?
 
 In Slingshot, you can organize your tasks by using **Lists** and **Sections**.  
 
@@ -173,7 +173,25 @@ In Slingshot, you can organize your tasks by using **Lists** and **Sections**.
 **Lists** help you organize your tasks and can be reorganized, copied, and moved around if needed.
 This is very important as it makes it easy for you to focus on your work, not planning ahead which lists or sections you need. All these changes can happen organically and were designed to boost productivity and avoid losing time.  
 
-### Working with attachments
+### How can I move tasks? 
+
+You can move tasks between tasks lists in the same workspace or between lists inside different sub-workspaces under the same parent workspace. A task is always moved with all its subtasks. 
+
+To move a task, simply open it and click/tap the *Change* blue button right over the task name (see the screenshot below). Choose a new location by navigating to the workspace and list where you want to move your task. When finished, you will find your task at the bottom of the tasks list. 
+
+<img src="../images/change-button-inside-task.png" alt="Change button location" width="100%"/>
+
+Alternatively, click and hold on a task and drag it to another list. Then drop it there. You can’t use drag & drop for tasks you want to move from one sub-workspace to another. 
+
+>[!NOTE] Coming Soon on mobile!
+Drag & drop tasks is currently not available on Slingshot mobile. 
+
+You **can’t move**: 
+-	tasks between two parent workspaces;
+-	sub-tasks separately; 
+-	any tasks if you are a *viewer* of the workspace or sub-workspace, from or to which you want to move a task.
+
+### How can I add attachments?
 
 The ability to add **Attachments** ensures that Slingshot captures all the relevant information for your tasks and subtasks.
 
