@@ -26,6 +26,7 @@ In the table below, you will find the permissions of each role in the workspace.
 | Can create **sub-workspaces** under a workspace                      | :white_check_mark: | :white_check_mark: | :x:                |
 | Can change **workspace information**                                 | :white_check_mark: | :x:                | :x:                |
 | Can manage members of the **workspace**                              | :white_check_mark: | :x:                | :x:                |
+| Can customize workspace **navigation tabs**                          | :white_check_mark: | :x:                | :x:                |
 | Can create, modify, delete **tasks**                                 | :white_check_mark: | :white_check_mark: | :x:                |
 | Can create, modify, delete **task filters**                          | :white_check_mark: | :white_check_mark: | :x:                |
 | Can create, modify, delete **discussions** and **topics**            | :white_check_mark: | :white_check_mark: | :x:                |
