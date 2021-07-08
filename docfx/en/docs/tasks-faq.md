@@ -191,6 +191,14 @@ You **can’t move**:
 -	sub-tasks separately; 
 -	any tasks if you are a *viewer* of the workspace or sub-workspace, from or to which you want to move a task.
 
+### How can I move tasks lists? 
+
+You can move a full tasks list from one workspace to another. The destination workspaces need to be under the same parent workspace. You can also move a tasks list from a parent workspace to one of its sub-workspaces. 
+
+To move a tasks list, select its overflow menu > *Move to Workspace* > a destination workspace > *Move*. 
+
+Now, you can use the tasks list in its new workspace.
+
 ### How can I add attachments?
 
 The ability to add **Attachments** ensures that Slingshot captures all the relevant information for your tasks and subtasks.
