@@ -3,7 +3,7 @@
 Slingshot is all about effective collaboration and delivering results on time. It helps you run productive teams across different platforms, while making sure your team is aligned and they back their decisions with real data.  
 Enabling your team to work and collaborate in one place is a tremendous boost to visibility, accountability and trust. All well-known pillars that can be found in high-performing teams.
 
-Follow the link for a quick and very useful [product tour video](https://www.youtube.com/watch?v=s5HRJE_iFPI).
+Follow the link for a quick Slingshot  [product tour video](https://www.youtube.com/watch?v=s5HRJE_iFPI).
 For details about the available platforms and how to install Slingshot, go [here](#where-can-i-get-slingshot).
 
 
