@@ -22,7 +22,11 @@ Within the *Notifications* panel, you can use the *Mark all as read* option at t
 
 ### How can I change my notifications settings?
 
-There are three different types of notifications, in-app, push, and email. In-app notifications are displayed within the app in a Notifications panel. Push notifications are displayed as texts near the notification icon. And emails are delivered to the e-mail address associated with your account.
+There are three different types of notifications: in-app, push, and email. 
+
+- *In-app* notifications are displayed within the app in the Notifications panel. 
+- *Push* notifications are clickable pop-up messages displayed on your mobile or desktop screen.
+- *Email* notifications are delivered to the e-mail address associated with your account.
 
 You can change your notification settings by going to your account settings and selecting the *Notifications* tab. 
 Alternatively, you can open the Notifications panel and select *Settings* from the overflow menu in the upper right corner (see in the screenshot below): 
