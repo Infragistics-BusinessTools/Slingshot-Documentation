@@ -12,25 +12,25 @@ Boards are basically containers, rich and flexible containers designed to organi
 
 Pinning content to a board is one of the most common actions in Slingshot. This is how you make content from your cloud storages available for others. You'll go to a board and choose **Pin Content** as shown below.
 
-<img src="../images/pin-content-action.png" alt="Pin Content action in Slingshot" class="responsive-img"/>
+<img src="../images/pin-content-action.png" alt="Pin Content action in Slingshot" width="100%"/>
 
 As you can see above, you actually pin content to groups (_Pins_ group in the image above). Groups are most basic element used to organize content in your boards. As said earlier, Boards are just containers that rely on sections and groups to organize and divide content.
 
 After choosing **Pin Content**, a dialog is shown where you can select an existing cloud storage or add a new one.
 
-<img src="../images/pin-content-storages.png" alt="Choosing a cloud storage to pin content from in Slingshot" class="responsive-img"/>
+<img src="../images/pin-content-storages.png" alt="Choosing a cloud storage to pin content from in Slingshot" width="100%"/>
 
 Then, just choose the file or folder you want to pin to the board. Yes, you can pin either files or folders, plus you can even upload files on the fly and pin them.  
 
-<img src="../images/pin-content-selection.png" alt="Choosing content from the cloud storage to be pinned in Slingshot" class="responsive-img"/>
+<img src="../images/pin-content-selection.png" alt="Choosing content from the cloud storage to be pinned in Slingshot" width="100%"/>
 
 Alternatively, you can go to an existing Cloud Storage and choose **Pin to Board** as show below.
 
-<img src="../images/pin-content-alternate.png" alt="Pinning content from the cloud storage" class="responsive-img"/>
+<img src="../images/pin-content-alternate.png" alt="Pinning content from the cloud storage" width="100%"/>
 
 Note that you can also create a task or start a discussion on the fly. After choosing an option, you'll be prompted to select where the pin, task, or discussion will be created.
 
-<img src="../images/pin-content-destination.png" alt="Choosing the destination of the content within Slingshot" class="responsive-img"/>
+<img src="../images/pin-content-destination.png" alt="Choosing the destination of the content within Slingshot" width="100%"/>
 
 Finally, you often will be editing your files. Depending on the platform, you may use different applications as Slingshot relies on invoking 3rd party applications to do the job.  
 In addition, you can always download the file to your computer or device.

@@ -3,7 +3,7 @@
 Welcome to Slingshot!  
 When opening the app you'll be met with different sign in options:
 
-<img src="../images/slingshot-login.png" alt="Slingshot sign in screen" class="responsive-img"/>
+<img src="../images/slingshot-login.png" alt="Slingshot sign in screen" width="100%"/>
 
 Before jumping in, take into account that in Slingshot you can join an **Organization**. If you are a member of an organization, you have to log in with your organization’s email. Choose Google or Microsoft as needed and you'll be associated with the main Organization.
 
@@ -16,11 +16,11 @@ When you log in with Google or Microsoft, you get a cloud storage automatically 
 
 Once you get in, you are greeted with your first screen:
 
-<img src="../images/personal-overview-blank.png" alt="Personal Overview completely blank for a new user" class="responsive-img"/>
+<img src="../images/personal-overview-blank.png" alt="Personal Overview completely blank for a new user" width="100%"/>
 
 You always start in your personal space, **My Stuff**. Specifically, in _My Overview_. This is the place where you can have a quick glance at your most important information, organize yourself, and visualize your work.
 
-<img src="../images/overview-personal.png" alt="Personal Overview shown in Slingshot" class="responsive-img"/>
+<img src="../images/overview-personal.png" alt="Personal Overview shown in Slingshot" width="100%"/>
 
 As you can see above, _My Overview_ can get very busy. Let's focus on getting you familiar with Slingshot first...
 
@@ -30,7 +30,7 @@ Your personal space, **My Stuff**, is great and useful, but Slingshot is about e
 
 Check out the image below:
 
-<img src="../images/mystuff-navigation-opened.png" alt="My Stuff, Organization and Workspaces navigation opened" class="responsive-img"/>
+<img src="../images/mystuff-navigation-opened.png" alt="My Stuff, Organization and Workspaces navigation opened" width="50%"/>
 
 The navigation panel on the left includes: 
 
@@ -49,7 +49,7 @@ Follow the link for further details about [Workspaces](workspaces.md).
 
 Inside Slingshot workspaces, you will find the six main navigation bars on top: **Overview**, **Workspaces**, **Tasks**, **Discussions**, **Content**, **Analytics**.
 
-<img src="../images/overview-workspace-navigation.png" alt="Workspace Overview highlighting the main navigation items in Slingshot" class="responsive-img"/>
+<img src="../images/overview-workspace-navigation.png" alt="Workspace Overview highlighting the main navigation items in Slingshot" width="100%"/>
 
 As already mentioned, the Organization workspace is not like other workspaces. So, inside it, there is a different number of navigation bars. That goes for _My Stuff_ and sub-workspaces, which also have the navigation bars. 
 But why is that? Let's answer this question quickly by explaining the idea behind each navigation bar.
@@ -68,27 +68,27 @@ Follow the links for further details about [overviews](overviews.md), [workspace
 
 **Notifications** are designed to keep you updated on any changes to workspaces, tasks, messages, and analytics. You can learn, among others, that a task was assigned to you, that you are removed from a workspace, or that someone sent a message in a discussion thread you're following.
 
-<img src="../images/notifications-panel-opened.png" alt="Notifications panel opened in Slingshot" class="responsive-img"/>
+<img src="../images/notifications-panel-opened.png" alt="Notifications panel opened in Slingshot" width="50%"/>
 
 There are three different types of notifications, in-app, push, and email. This means that you can get a message that pops up while using Slingshot (in-app notification), a message that pops up on a mobile device (push notification), or even an email notification.  
 Follow the link for further details about [notifications](notifications.md).
 
 Get to **User Settings** by selecting your *profile image*, there you can find _General Settings_, _Feedback_, and you can also _Sign Out_ of the application.
 
-<img src="../images/user-settings-all.png" alt="User Settings menu opened in Slingshot" class="responsive-img"/>
+<img src="../images/user-settings-all.png" alt="User Settings menu opened in Slingshot" width="50%"/>
 
 Then, in _Settings_ you can find five categories, including general and profile settings, notifications, data privacy and settings related to your dashboards. In _General Settings_ you can configure your app appearance and also how you work with content, whereas _Profile Information_ includes information about you and your organization. 
 
-<img src="../images/user-settings-general.png" alt="General Settings opened in Slingshot" class="responsive-img"/>
+<img src="../images/user-settings-general.png" alt="General Settings opened in Slingshot" width="100%"/>
 
 In _General Settings_ you will notice the **Drag and Drop** button. This setting allows you to manage the location of your uploads. But what does this mean?
 
 All files you reference or share within Slingshot, are located in a cloud storage. When you drag and drop a file, which comes from outside Slingshot,  it's uploaded to the cloud storage configured here.
 
-<img src="../images/general-settings-drag-and-drop.png" alt="Drag and Drop Settings in Slingshot" class="responsive-img"/>
+<img src="../images/general-settings-drag-and-drop.png" alt="Drag and Drop Settings in Slingshot" width="100%"/>
 
 Use in-app **Feedback** to send us suggestions, comments, or requests about Slingshot. Here you can rate the app, add screenshots to the feedback you send, and also annotate the screenshots to provide even more detailed information.
 
-<img src="../images/user-settings-feedback.png" alt="Accessing the feedback screen in Slingshot" class="responsive-img"/>
+<img src="../images/user-settings-feedback.png" alt="Accessing the feedback screen in Slingshot" width="100%"/>
 
 

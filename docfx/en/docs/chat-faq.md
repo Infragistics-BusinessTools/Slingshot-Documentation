@@ -14,7 +14,7 @@ Unlike discussions, the private chat is workspace independent. This means you ca
 
 In the top bar, right next to your profile picture, you will see the **chat message icon**. Click/tap the icon to open the chat screen. 
 
-<img class="responsive-img" src="../images/chat-icon.png" alt="Chat icon location" class="responsive-img" />
+<img class="responsive-img" src="../images/chat-icon.png" alt="Chat icon location" width="100%" />
 
 <a name='chat-dock'></a>
 ### How Can I Keep the Chat Always Visible?
@@ -22,7 +22,7 @@ In the top bar, right next to your profile picture, you will see the **chat mess
 In Slingshot, you can keep your chat hidden or opened on the right while going through your tasks, for example. 
 To switch from hidden to always opened and vice versa, select the *dock/undock* icon next to *Close* (see screenshot below).
 
-<img class="responsive-img" src="../images/dock-undock-icon-chat.png" alt="Dock/Undock icon location" class="responsive-img" />
+<img class="responsive-img" src="../images/dock-undock-icon-chat.png" alt="Dock/Undock icon location" width="50%" />
 
 When the chat is *docked*, you will always see it on the right. In this mode, you can see either the last chat room opened or the list of ongoing chats. 
 
@@ -33,7 +33,7 @@ To start a chat, open the chat screen. Then follow the steps below:
 
 1. Click/tap the **+ Start a Chat...** blue button. 
 
-    <img class="responsive-img" src="../images/start-chat.png" alt="Start a chat button" class="responsive-img" />
+    <img class="responsive-img" src="../images/start-chat.png" alt="Start a chat button" width="80%" />
 
 2. Select a user from the list or type a name or email in the *search* box on top.
 3. Click/tap **Chat**. 
@@ -46,7 +46,7 @@ Starting a group chat is similar to [starting a private chat](#how-can-i-start-a
 
 You can add more users to any ongoing chat (private or group) by opening it and selecting the *+ member* icon on top right (as shown below). 
 
-<img class="responsive-img" src="../images/add-member-icon-chat.png" alt="Add more members to a chat icon" class="responsive-img" />
+<img class="responsive-img" src="../images/add-member-icon-chat.png" alt="Add more members to a chat icon" width="80%" />
 
 >[!NOTE] If you create a new group chat by adding more people to a private chat, don't worry! The group chat will be opened in another chat room. Your private chat will be kept separately as well.
 
@@ -54,12 +54,12 @@ You can add more users to any ongoing chat (private or group) by opening it and 
 
 You can rename your group chats to better differentiate between group chats with (almost) the same users. You will find the *rename* option in the *overflow* menu of a group chat (see below).
 
-<img class="responsive-img" src="../images/rename-group-chat.png" alt="Rename a group chat option" class="responsive-img" />
+<img class="responsive-img" src="../images/rename-group-chat.png" alt="Rename a group chat option" width="50%" />
 ### How to Manage Members in a Group Chat? 
 
 You can manage the members of a group chat by selecting the *group* icon on top of your chat room. 
 
-<img class="responsive-img" src="../images/group-chat-manage-members.png" alt="Members icon plus a list of group members opened" class="responsive-img" />
+<img class="responsive-img" src="../images/group-chat-manage-members.png" alt="Members icon plus a list of group members opened" width="80%" />
 
 You will see the chat members in a dropdown. Use the *trash* icon next to their names if you want to remove somebody. Every participant in a group chat can remove other members from the chat. Removed members will continue seeing the history of the chat but they will not have access to new messages. 
 
@@ -88,7 +88,7 @@ When finished, select the **Add to Chat** blue button.
 All Slingshot users can take part in private and group chats, including the personal account users. 
 However, [personal account users](roles-permissions-faq.html#what-about-users-with-no-organization) are not part of an Organization. That's why, after selecting **+ Start a Chat...**, if you have an Org, you will not see their names in the list of users. The list contains only your Organization members. You can chat with personal account users only if you add their emails manually in the search box as shown below.
 
-<img class="responsive-img" src="../images/personal-account-user-chat.png" alt="Typing a personal account user's email to add them to a chat" class="responsive-img" />
+<img class="responsive-img" src="../images/personal-account-user-chat.png" alt="Typing a personal account user's email to add them to a chat" width="100%" />
 
 Of course, if you don't have an Organization, then you will have to add all users you want to chat with like this.
 
@@ -113,7 +113,7 @@ Slingshot does not store your files. When you share a file from your device, it 
 
 What about files that are pinned to a workspace board? Sometimes you need to share these files with people who are not part of the workspace. Slingshot allows you to do this, by sending a link in the chat or by starting a chat directly from a pinned file. To do this, navigate to the file and open its overflow menu:
 
-<img src="../images/start-chat-from-file.png" alt="Start a Private Chat option in the pinned file overflow" class="responsive-img">
+<img src="../images/start-chat-from-file.png" alt="Start a Private Chat option in the pinned file overflow" width="100%">
 
 Having said that, keep in mind that your workspace may include files with sensitive information. That's why when pinning a file to a workspace its owner can restrict the access by choosing [file permissions](content-faq.html#file-permissions). 
 

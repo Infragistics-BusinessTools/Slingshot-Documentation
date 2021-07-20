@@ -13,25 +13,25 @@ The purpose of having an Organization workspace is for company leaders to have t
 You will find your Organization workspace right under *My Stuff* (see below). 
 
 
-<img src="../images/organization-access.png" alt="An Organization team" class="responsive-img"/>
+<img src="../images/organization-access.png" alt="An Organization team" width="100%"/>
 
 **Workspaces** can be associated with the Organization workspace or not. They can include members from within and out of the main Organization. Workspace members share not only *Content*, *Analytics*, and *Discussions*, but also *Tasks* and *sub-workspaces*.
 
-<img src="../images/overview-workspace-navigation.png" alt="Example of a workspace and its tasks" class="responsive-img"/>
+<img src="../images/overview-workspace-navigation.png" alt="Example of a workspace and its tasks" width="100%"/>
 
 **Sub-workspaces** live inside of a workspace and can be found under the _Workspaces_ between the _Overview_ and the _Tasks_ of the [parent workspace](workspaces.html#sub-workspaces). Sub-workspaces are not limited to the members of the parent workspace. You can invite people from other workspaces to every sub-workspace. A sub-workspace contains its own *Overview*, *Tasks*, *Discussions*, *Content*, and *Analytics*. You can also assign tasks within a sub-workspace to users, who are not part of the sub-workspace or its parent workspace.
 
-<img src="../images/welcome-overview-subworkspace.png" alt="A sub-workspace's Overview" class="responsive-img"/>
+<img src="../images/welcome-overview-subworkspace.png" alt="A sub-workspace's Overview" width="100%"/>
 
 ### How can I access my workspaces?
 
 You can access your workspaces on the very left of the screen, in the Workspaces area (shown below).
 
-<img src="../images/workspaces-area.png" alt="The Workspaces navigation area opened with a list of workspaces in it" class="responsive-img"/>
+<img src="../images/workspaces-area.png" alt="The Workspaces navigation area opened with a list of workspaces in it" width="80%"/>
 
 By scrolling down you are able to navigate all your workspaces and their sub-workspaces. To access a workspace faster, you can bookmark it. From now on, you can also find this workspace under the _Bookmarks_ tab. If you are in doubt where a sub-workspace comes from, check under its name. You will see the name of its parent workspace written in grey (see the screenshot).
 
-<img src="../images/workspaces-bookmarks.png" alt="My Stuff opened and Bookmarks selected" class="responsive-img"/>
+<img src="../images/workspaces-bookmarks.png" alt="My Stuff opened and Bookmarks selected" width="80%"/>
 
 To open any workspace, just click/tap over it.
 
@@ -39,7 +39,7 @@ To open any workspace, just click/tap over it.
 
 To become a workspace member you first need to discover your new workspace. Select the _New Workspace_ button at the bottom of the *Workspaces* panel to open a dialog with the available workspaces.
 
-<img src="../images/new-workspace-button.png" alt="New Workspace button" class="responsive-img"/>
+<img src="../images/new-workspace-button.png" alt="New Workspace button" width="100%"/>
 
 In this dialog, you will find **only public workspaces, part of your Organization**. You can join these workspaces on the spot, getting the member role by default.
 
@@ -55,7 +55,7 @@ After you are added to a sub-workspace, you will receive notifications about the
 
 If you are part of the parent workspace and you haven't joined some of its sub-workspaces, you can click on the blue button under its name. There you will find the available sub-workspaces and you can select *Join* next to the name of the ones you want to join (see below). 
 
-<img src="../images/unjoined-workspaces.png" alt="A workspace with two unjoined sub-workspaces" class="responsive-img">
+<img src="../images/unjoined-workspaces.png" alt="A workspace with two unjoined sub-workspaces" width="50%">
 
 >[!NOTE] You can always view the content in sub-workspaces without joining them. However, you will not receive any notification updates from them.
 
@@ -68,7 +68,7 @@ The *Shared* workspace automatically appears in the Workspaces panel the first t
 Every user in Slingshot can create workspaces.  
 Access the workspace creation menu by selecting the *New Workspace* button at the bottom of the *Workspaces* panel and then *+ Create Workspace*.
 
-<img src="../images/create-workspace-dialog.png" alt="The Workspace creation menu" class="responsive-img"/>
+<img src="../images/create-workspace-dialog.png" alt="The Workspace creation menu" width="100%"/>
 
 In this dialog, configure the following:
 * ***Workspace Name*** - giving your workspace an appropriate name is always worth the effort.
@@ -88,7 +88,7 @@ Click **Create**. Your workspace is created and you can find it in the *Workspac
 
 The *Who is collaborating in this workspace?* dialog appears right after you create the workspace. To invite members, click/tap the **+ Members** blue button. Choose Organization members from the dropdown list (see below) or use the text box at the top to add the emails of [personal account users](roles-permissions-faq.html#what-about-users-with-no-organization). 
 
-<img src="../images/workspace-invite-members.png" alt="Inviting team members" class="responsive-img" />
+<img src="../images/workspace-invite-members.png" alt="Inviting team members" width="80%" />
 
 >[!NOTE]
 >When adding members, whose emails are not auto-completed by Slingshot, type the whole email and press Enter to add it to the list of users you want to invite.
@@ -116,7 +116,7 @@ You have to be a workspace owner to be able to:
 
 To access the workspace members dialog select the overflow menu of a workspace and then **Manage Members**. 
 
-<img src="../images/workspace-members-dialog.png" alt="The workspace members dialog" class="responsive-img" />
+<img src="../images/workspace-members-dialog.png" alt="The workspace members dialog" width="80%" />
 
 To invite new members select the **+ Members** blue button.
 
@@ -139,7 +139,7 @@ Sometimes you may need to work on a particular task or project with people outsi
 
 You can assign tasks to users who are external for your workspace by accessing the workspace's **Tasks** tab on top and creating a task. 
 
-<img src="../images/tasks-tab-workspace.png" alt="Tasks tab in a workspace" class="responsive-img"/>
+<img src="../images/tasks-tab-workspace.png" alt="Tasks tab in a workspace" width="100%"/>
 
 Users will receive a notification about the task they were assigned. For them the task will appear in _My Stuff_ > _Tasks_. The same applies for assigning tasks to external users in sub-workspaces.
 
@@ -150,7 +150,7 @@ If you unfollow a sub-workspace, you will receive notifications only for the tas
 
 If you are the owner of a workspace (or sub-workspace) you can change its settings. To do this, select your workspace overflow menu > *Workspace Settings*.
 
-<img src="../images/workspace-overflow-menu.png" alt="A workspace overflow menu" class="responsive-img">
+<img src="../images/workspace-overflow-menu.png" alt="A workspace overflow menu" width="50%">
 
 
 Here you can change your workspace's name, description and privacy.
@@ -163,7 +163,7 @@ Only the *owner* can delete a workspace. As an exception.
 
 To **delete** a workspace, go to its [settings](#how-can-i-change-the-workspace-privacy-name-or-description) > _Manage Members_ > overflow menu on top > *Delete Workspace*.
 
-<img src="../images/overflow-menu-settings.png" alt="Overflow button location in the workspace's settings" class="responsive-img"/>
+<img src="../images/overflow-menu-settings.png" alt="Overflow button location in the workspace's settings" width="100%"/>
 
 Deleting removes the workspace with all its contents for all its members.
 

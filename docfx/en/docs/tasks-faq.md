@@ -8,11 +8,11 @@ In Slingshot you can have personal and shared tasks, they work pretty much the s
 Only you have access to your **personal tasks** and you can find them in your personal space (**My Stuff**).
 
 
-<img src="../images/tasks-home.png" alt="Slingshot My Stuff with a tasks displayed in a list" class="responsive-img"/>
+<img src="../images/tasks-home.png" alt="Slingshot My Stuff with a tasks displayed in a list" width="100%"/>
 
 All the members of a workspace can access the tasks created within that workspace, no matter who is assigned. And every member can manage these shared tasks freely.
 
-<img src="../images/tasks-team.png" alt="Slingshot Workspace with tasks displayed in a list" class="responsive-img"/>
+<img src="../images/tasks-team.png" alt="Slingshot Workspace with tasks displayed in a list" width="100%"/>
 
 >[!NOTE] Members of a [parent workspace](workspaces.html#using-workspaces-within-the-workspace) can view the tasks in all sub-workspaces, even when they haven't joined the sub-workspaces. However, the members of а sub-workspace, who are not members of the parent workspace cannot view the tasks in the parent workspace.
 
@@ -20,7 +20,7 @@ All the members of a workspace can access the tasks created within that workspac
 
 You can access your tasks by going to a workspace and selecting the **Tasks** tab on top (see below).
 
-<img src="../images/tasks-accessing.png" alt="Accessing Slingshot tasks" class="responsive-img"/>
+<img src="../images/tasks-accessing.png" alt="Accessing Slingshot tasks" width="100%"/>
 
 Depending on where you stand, you will be accessing different tasks.
 
@@ -35,21 +35,21 @@ To open a task, just click/tap over it.
 
 You can always create a **new task** with the button on the top right of the screen, no matter the view type you have selected (*List*, *Kanban*, or *Timeline*).
 
-<img src="../images/tasks-new.png" alt="Creating a new task within Slingshot" class="responsive-img"/>
+<img src="../images/tasks-new.png" alt="Creating a new task within Slingshot" width="100%"/>
 
 As shown above, there are always other _+ Task_ buttons depending on the *view type*.
 
 You can directly create a new **subtask** using the main task's overflow menu, as shown below.
 
-<img src="../images/tasks-new-subtasks-menu.png" alt="Creating a new subtask from the overflow menu in Slingshot" class="responsive-img"/>
+<img src="../images/tasks-new-subtasks-menu.png" alt="Creating a new subtask from the overflow menu in Slingshot" width="100%"/>
 
 Alternatively, you can create subtasks for a task that is already opened:
 
-<img src="../images/tasks-new-subtasks-from-task.png" alt="Creating a new subtask within a Slingshot task" class="responsive-img"/>
+<img src="../images/tasks-new-subtasks-from-task.png" alt="Creating a new subtask within a Slingshot task" width="100%"/>
 
 Having the task opened also allows you to insert new subtasks and this way reorder the existing subtasks (see below)
 
-<img src="../images/tasks-new-subtasks-others.png" alt="Options to insert a new subtask below or above other subtasks within a Slingshot task" class="responsive-img"/>
+<img src="../images/tasks-new-subtasks-others.png" alt="Options to insert a new subtask below or above other subtasks within a Slingshot task" width="100%"/>
 
 <a name="add-task-dependency"></a>
 ### How can I make a task depend on another task? 
@@ -58,7 +58,7 @@ Two or more tasks may depend on each other's completion. Slingshot helps you kee
 
 You can set a task dependency in the task creation dialog by selecting the *Dependencies* icon on top (see the screenshot below). 
 
-<img src="../images/tasks-add-dependency-fromTask.png" alt="Dependency option in the task creation menu" class="responsive-img"/>
+<img src="../images/tasks-add-dependency-fromTask.png" alt="Dependency option in the task creation menu" width="100%"/>
 
 Here, you can choose between two dependency types: 
 
@@ -75,7 +75,7 @@ The **most reliable method** is to open a task by clicking/tapping it (or throug
 
 A **faster method** is to just click/tap the property value you want to change, like shown below with the _Status_ property.
 
-<img src="../images/tasks-change-property.png" alt="Slingshot task being updated by changing its status" class="responsive-img"/>
+<img src="../images/tasks-change-property.png" alt="Slingshot task being updated by changing its status" width="100%"/>
 
 <a name="show-hide-property"></a>
 ### How can I show/hide properties?
@@ -84,7 +84,7 @@ Tasks have many field properties that can be displayed when in the *List* and *K
 
 To show/hide properties, click/tap the **overflow** button on top (next to the *+New* button) > **Fields** and select from the list of properties (as shown below).
 
-<img src="../images/tasks-fields.png" alt="Accessing task fields within Slingshot" class="responsive-img"/>
+<img src="../images/tasks-fields.png" alt="Accessing task fields within Slingshot" width="100%"/>
 
 
 <a name="tasks-filters"></a>
@@ -93,7 +93,7 @@ Filtering allows you to choose a smaller amount of tasks, helping you find those
 
 You can access the _Filters editor_ by clicking/tapping the filter icon on the top right of the screen (see the screenshot below).
 
-<img src="../images/tasks-filters-accessing.png" alt="Task filter icon location" class="responsive-img"/>
+<img src="../images/tasks-filters-accessing.png" alt="Task filter icon location" width="100%"/>
 
 In the _Filters editor_ you can create *Basic* or more *Advanced* rules. The *Basic* rules will be enough most of the time, *Advanced* is recommended in the case that you really need to define more complex conditions in your filter.
 
@@ -101,7 +101,7 @@ Sometimes you might want to save a filter and use it again in the future. This a
 
 To create and save a filter use _+ Filter_ as shown below.
 
-<img src="../images/tasks-filters-new.png" alt="Creating tasks filters within Slingshot" class="responsive-img"/>
+<img src="../images/tasks-filters-new.png" alt="Creating tasks filters within Slingshot" width="100%"/>
 
 Slingshot has a few filters out-of-the-box: _My Tasks_, _Due this Week_, and _Overdue_ (shown in the screenshot above). But at any time you can create new custom filters or edit existing custom filters.
 
@@ -109,7 +109,7 @@ Keep in mind that filters you create and save in a workspace will be visible not
 
 In addition, you can save a filter you just created on the spot using _Save As Filter_, as shown below.
 
-<img src="../images/tasks-filters-save.png" alt="Saving tasks filters on the fly within Slingshot" class="responsive-img"/>
+<img src="../images/tasks-filters-save.png" alt="Saving tasks filters on the fly within Slingshot" width="100%"/>
 
 To stop filtering tasks, click/tap the **filter icon** to open the **Filters** dialog. Then, select the **Clear** button at the bottom to remove the current filters, and **Apply** to save your changes. 
 
@@ -119,19 +119,19 @@ For those times that you can't find a specific task, try expanding collapsed pan
 
 You can choose between three different visualizations (_List_, _Kanban_, _Timeline_), depending on what you want to achieve.
 
-<img src="../images/tasks-visualizations.png" alt="Switching visualizations within Slingshot" class="responsive-img"/>
+<img src="../images/tasks-visualizations.png" alt="Switching visualizations within Slingshot" width="100%"/>
 
 By default, you view your tasks as a straightforward **List**, which is often good enough. Most of the screenshots in this documentation present tasks in the *List* view. This is so because most of the time the preferred view type does not affect how *Tasks* are used and managed. When it does, we will show the differences in each view. 
 
 *Kanban* is a Japanese word, commonly known as a workflow management method designed to help visualize work and maximize efficiency. In Slingshot, the **Kanban** view shows a visual representation of tasks in the form of cards. Each card contains information about the task, including [task properties](#how-can-i-change-properties) such as status, deadline, assignee, etc. 
 
-<img src="../images/tasks-visualizations-kanban.png" alt="Kanban visualization in Slingshot" class="responsive-img"/>
+<img src="../images/tasks-visualizations-kanban.png" alt="Kanban visualization in Slingshot" width="100%"/>
 
 Besides, the cards are arranged in columns. By default, the columns represent different stages of the status workflow (see above). You can use drag & drop to move the cards through the workflow by changing their status on the spot. 
 
 A **Timeline** always shows a list of events in chronological order. In Slingshot, you can see tasks over a set period of time.
 
-<img src="../images/tasks-visualizations-timeline.png" alt="Timeline view in Slingshot" class="responsive-img"/>
+<img src="../images/tasks-visualizations-timeline.png" alt="Timeline view in Slingshot" width="100%"/>
 
 You can pick a task on the timeline and re-arrange the start and due dates by dragging its ends. 
 
@@ -140,13 +140,13 @@ You can even show/hide weekends by checking the **Show Weekends** box in the ove
 
 You will notice a hook on both corners of each task on the timeline. Drag the left hook of a task and connect it to another task (see in the screenshot below). With this, you will add a *waiting on* [**dependency**](#how-can-i-add-a-task-dependency) to the first task. Use the right hook to add a blocking dependency. 
 
-<img src="../images/tasks-visualizations-timeline-settings.png" alt="Adjusting the Timeline view in Slingshot" class="responsive-img"/>
+<img src="../images/tasks-visualizations-timeline-settings.png" alt="Adjusting the Timeline view in Slingshot" width="100%"/>
 
 ### How can I group my tasks? 
 
 _Group by_ options include ordering your tasks by section, priority, assignee, and other criteria. To group your tasks, select the **overflow menu > Group by** (shown below). 
 
-<img src="../images/tasks-visualizations-list.png" alt="List grouped by options in Slingshot" class="responsive-img"/>
+<img src="../images/tasks-visualizations-list.png" alt="List grouped by options in Slingshot" width="100%"/>
 
 *Group by* is available for all _View Types_. Grouping your tasks helps you find quickly tasks that share a specific property, for example, tasks assigned to the same user. Unlike filtering, the grouping will show you all tasks at the same time. Changing the *group by* criteria will affect only the current list and only the way you see your tasks. Other workspace members can apply different grouping criteria to the same list, but this will not affect how you see this list in your profile. 
 
@@ -158,7 +158,7 @@ You can apply sorting only to the *List* and *Timeline* view.
 
 In the **List** view, your tasks are ordered by their date of creation by default. This means the last task you created will be added to the bottom of the list. To change the sorting criterion, you can click/tap on a property title at the top of the list and sort tasks by ascending or descending order of *Status*, *Assignee* (name), *Start/Due Date*, *Attachments* (having or not), *Priority* (see the screenshot below). If the property you want to sort by is not there, see how to [show a property](#how-can-i-showhide-properties) in the *List* view.  
 
-<img src="../images/list-order-by-status.png" alt="A tasks list ordered by status" class="responsive-img" />
+<img src="../images/list-order-by-status.png" alt="A tasks list ordered by status" width="100%" />
 
 In the **Timeline** view, your tasks are ordered by default. However, you can use the *Sort by* option in the overflow menu on the right. 
 
@@ -166,7 +166,7 @@ In the **Timeline** view, your tasks are ordered by default. However, you can us
 
 In Slingshot, you can organize your tasks by using **Lists** and **Sections**.  
 
-<img src="../images/tasks-lists-sections.png" alt="Lists and Sections in Slingshot" class="responsive-img"/>
+<img src="../images/tasks-lists-sections.png" alt="Lists and Sections in Slingshot" width="100%"/>
 
 **Sections** are simply divisions of a list. A list can have one or more sections, and a natural way to organize your list of tasks is grouping by sections.
 
@@ -179,7 +179,7 @@ You can move tasks between tasks lists in the same workspace or between lists in
 
 To move a task, simply open it and click/tap the *Change* blue button right over the task name (see the screenshot below). Choose a new location by navigating to the workspace and list where you want to move your task. When finished, you will find your task at the bottom of the tasks list. 
 
-<img src="../images/change-button-inside-task.png" alt="Change button location" class="responsive-img"/>
+<img src="../images/change-button-inside-task.png" alt="Change button location" width="100%"/>
 
 Alternatively, click and hold on a task and drag it to another list. Then drop it there. You can’t use drag & drop for tasks you want to move from one sub-workspace to another. 
 
@@ -205,7 +205,7 @@ The ability to add **Attachments** ensures that Slingshot captures all the relev
 
 Each task can include one or more attachments, including images, documents, or links for specific tasks and subtasks.
 
-<img src="../images/tasks-attachments.png" alt="Displaying a Slingshot task with attachments" class="responsive-img"/>
+<img src="../images/tasks-attachments.png" alt="Displaying a Slingshot task with attachments" width="100%"/>
 
 Files attached can be opened, downloaded, or detached (unpinned) from the task.
 
@@ -214,7 +214,7 @@ Files attached can be opened, downloaded, or detached (unpinned) from the task.
 
 To attach a file, open a task and click/tap the clip icon as shown below.
 
-<img src="../images/tasks-attachments-new.png" alt="Adding attachments to a Slingshot task" class="responsive-img"/>
+<img src="../images/tasks-attachments-new.png" alt="Adding attachments to a Slingshot task" width="100%"/>
 
 ### How to create a task from a discussion or a chat message?
 
@@ -222,6 +222,6 @@ Slingshot ensures all your communication and collaboration tools are in one plac
 
 Improve your productivity by creating tasks from your messages as shown below:
 
-<img src="../images/tasks-discussions.png" alt="Adding a new Slingshot task from a topic in a discussion" class="responsive-img"/>
+<img src="../images/tasks-discussions.png" alt="Adding a new Slingshot task from a topic in a discussion" width="100%"/>
 
 You can use any discussion or private/group chat message to start quickly. After selecting where you want to add your task from the message, you will have the message automatically added to the description of your new task. 

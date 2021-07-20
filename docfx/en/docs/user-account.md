@@ -16,7 +16,7 @@ For more information about security and data privacy within Slingshot, go to [Se
 
 The app behavior and overall experience can be greatly modified by tweaking your profile information and settings. As a good practice, try customizing your experience to better suit your needs. To do this, navigate to Settings.
 
-<img src="../images/open-settings.png" alt="Settings location" class="responsive-img">
+<img src="../images/open-settings.png" alt="Settings location" width="50%">
 
 Now feel free to explore the different settings and make Slingshot feel like home:
 - Interested in a dark or light theme?
@@ -24,7 +24,7 @@ Now feel free to explore the different settings and make Slingshot feel like hom
 - Are you often using drag & drop to upload files and want to change the default destination?
 - When opening files (e.g., word and excel documents), would you like to use a native app or open in a browser?
 
-<img src="../images/general-settings-user-account.png" alt="User settings opened" class="responsive-img">
+<img src="../images/general-settings-user-account.png" alt="User settings opened" width="100%">
 
 In addition, it's a good idea to complete your *profile information* as it will make you recognizable when collaborating with others. Your name, photo, title, etc. are all part of your virtual identity and they add value to the Slingshot's experience. 
 
