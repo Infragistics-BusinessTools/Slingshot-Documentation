@@ -12,7 +12,7 @@ You can quickly start your search from anywhere - a workspace, tasks, *My Stuff*
 
 1. Click the search box at the top.
 
-    <img src="../images/search-box.png" alt="Search box location in Slingshot" width="100%" />
+    <img src="../images/search-box.png" alt="Search box location in Slingshot" class="responsive-img" />
 
 2. Start typing. Slingshot will start making suggestions. Press _Enter_ / select _Search All Results_ for a full list of results.
 
@@ -32,14 +32,14 @@ The search results pane shows results from **everywhere** inside Slingshot. The 
 
 In the results pane, you can open the overflow menu of a result (see the screenshot) and use the *Copy Link* option to share it with others. You can also save results in _Bookmarks_.
 
-<img src="../images/results-settings.png" alt="results overflow menu" width="50%" />
+<img src="../images/results-settings.png" alt="results overflow menu" class="responsive-img" />
 ### How Can I Filter Results?
 
 You may receive too many results and need to refine your search to find exactly what you need. For this purpose, you will find a second tier of filters under each result tab.
 
 These filters are specific for the selected result type. For example, if you select _Tasks_, you can then use the filter to see only results in _Task Lists_ or to filter by task's creator, assignee, due date, etc.
 
-<img src="../images/type-specific-filters.png" alt="tasks specific filters" width="50%" />
+<img src="../images/type-specific-filters.png" alt="tasks specific filters" class="responsive-img" />
 
 >[!NOTE] Your filters' settings will be kept for your next search until you close the search results pane or refresh the page. So, if next time your search criteria change don't forget to check your search filters too.
 
@@ -47,7 +47,7 @@ These filters are specific for the selected result type. For example, if you sel
 
 If you need results related to a specific workspace, or from your personal space (_My Stuff_), use the _Location_ filter dropdown just above the result tabs (see below).
 
-<img src="../images/location-filter-dropdown.png" alt="location filter dropdown" width="50%" />
+<img src="../images/location-filter-dropdown.png" alt="location filter dropdown" class="responsive-img" />
 
 The _Location_ filter is applied to all results and is not affected by which result tab you chose.
 

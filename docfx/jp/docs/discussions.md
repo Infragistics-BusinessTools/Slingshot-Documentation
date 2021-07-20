@@ -8,7 +8,7 @@ While collaborating in teams or projects, people from different teams or even fr
 
 It's a way of communication used by members of an Organization, Team, or Project. Being organized in different threads, discussions ensure all your communication, and collaboration tools are in one place, making remote teams stay productive no matter where they are.
 
-<img src="../images/discussions-thread.png" alt="A Slingshot discussion thread displayed" width="100%"/>
+<img src="../images/discussions-thread.png" alt="A Slingshot discussion thread displayed" class="responsive-img"/>
 
 You can have multiple discussions going on at the same time, while mixing in text formatting, attachments, emojis, and links. Plus you can react to conversations and even create tasks from messages.
 
@@ -16,7 +16,7 @@ You can have multiple discussions going on at the same time, while mixing in tex
 
 Discussions are organized in different threads, ensuring side conversations are under control. The main discussion remains healthy and does not lose focus, as there is a place for every conversation.
 
-<img src="../images/discussions-many-threads.png" alt="Several Slingshot discussion threads" width="100%"/>
+<img src="../images/discussions-many-threads.png" alt="Several Slingshot discussion threads" class="responsive-img"/>
 
 
 Unlike lengthy email chains, members can follow or unfollow discussions. This is tied to notifications, as you get informed when someone sends a message to a discussion you follow.

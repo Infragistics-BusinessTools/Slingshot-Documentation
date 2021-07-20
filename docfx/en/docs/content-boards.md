@@ -25,7 +25,7 @@ Pinning content is how you make your content available in Slingshot. You just go
 
 As you can see below, your board is divided into sections (_My First Section_, _Section 2_ in the image). Sections can be divided to groups, where your content is actually pinned (see _My First Group_, _My Second Group_ and _My Third Group_ in the image above). Groups are the most basic element used to organize content on your boards. 
 
-<img src="../images/pin-content-action.png" alt="Pin action in Slingshot" width="100%"/>
+<img src="../images/pin-content-action.png" alt="Pin action in Slingshot" class="responsive-img"/>
 
 To pin a file from your device, choose _Upload File_. 
 
@@ -37,19 +37,19 @@ If you select _Content_, you can pin:
 
 If you choose to pin content from cloud storage, a dialog is shown where you can select existing cloud storage or add a new one.
 
-<img src="../images/pin-content-storages.png" alt="Choosing a cloud storage to pin content from in Slingshot" width="100%"/>
+<img src="../images/pin-content-storages.png" alt="Choosing a cloud storage to pin content from in Slingshot" class="responsive-img"/>
 
 Then, just choose the file or folder you want to pin to the board. Yes, you can pin either files or folders, plus you can even upload files from your device to the cloud storage on the fly (see below) and pin them.  
 
-<img src="../images/pin-content-upload.png" alt="Choosing content from the cloud storage to be pinned in Slingshot" width="100%"/>
+<img src="../images/pin-content-upload.png" alt="Choosing content from the cloud storage to be pinned in Slingshot" class="responsive-img"/>
 
 Alternatively, you can go to existing cloud storage in _My Stuff_  and choose _Pin to Board_ as shown below.
 
-<img src="../images/pin-content-my-stuff.png" alt="Pinning content from the cloud storage" width="100%"/>
+<img src="../images/pin-content-my-stuff.png" alt="Pinning content from the cloud storage" class="responsive-img"/>
 
 After choosing an option, you'll be prompted to select where to pin the file. 
 
-<img src="../images/pin-content-destination.png" alt="Choosing the destination of the content within Slingshot" width="100%"/>
+<img src="../images/pin-content-destination.png" alt="Choosing the destination of the content within Slingshot" class="responsive-img"/>
 
 Finally, you often will be editing your files. Depending on the platform, you may use different applications as Slingshot relies on invoking 3rd party applications to do the job.  
 In addition, you can always download the file to your computer or device.

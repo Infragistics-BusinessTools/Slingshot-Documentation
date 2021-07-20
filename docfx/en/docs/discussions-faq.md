@@ -14,7 +14,7 @@ Unlike discussions, private chat is workspace independent. See more about the ch
 
 To access your discussions, go to a workspace and select the **Discussions** navigation tab on top (see the screenshot below).
 
-<img src="../images/discussions-tab.png" alt="Discussions tab location of a workspace" width="100%" />
+<img src="../images/discussions-tab.png" alt="Discussions tab location of a workspace" class="responsive-img" />
 
 You can bookmark a discussion, topic, or even a message in a topic to keep it at hand. They will appear in your bookmarks list and in your personal overview.
 Follow the link for further details about [overviews](overviews.md).
@@ -55,7 +55,7 @@ To **create a discussion**:
 3. Write a meaningful name for the discussion in the text box.
 4. Choose **Create**.
 
-    <img src="../images/create-new-discussion.png" alt="Creating a new discussion" width="100%" />
+    <img src="../images/create-new-discussion.png" alt="Creating a new discussion" class="responsive-img" />
 
 Your discussion will be added at the bottom of the discussions list.   
 
@@ -68,7 +68,7 @@ To **create a topic**:
 3. Name the topic. Optionally, choose which members to be notified for its creation by adding their emails in *Notify*.   
 4. Choose **Create**.
 
-    <img src="../images/create-new-topic.png" alt="Creating a new topic" width="100%" />
+    <img src="../images/create-new-topic.png" alt="Creating a new topic" class="responsive-img" />
 
 Now your topic is created. You can start typing your first message to give more details on the subject. It will also serve as a conversation starter.
 
@@ -76,7 +76,7 @@ Now your topic is created. You can start typing your first message to give more 
 
 There are subjects where you need the attention of particular people. To make sure they receive notifications for each new message in a topic, you can use the *Notify* option upon creating a new topic. 
 
-<img src="../images/topic-notify.png" alt="Notify option when creating a new topic" width="100%" />
+<img src="../images/topic-notify.png" alt="Notify option when creating a new topic" class="responsive-img" />
 
 >[!NOTE] **Notifying limitations.** You can only notify users who are part of the workspace. 
 
@@ -86,7 +86,7 @@ If you have missed the opportunity to use the *Notify* function when creating th
 
 When you want to make sure *you* are notified of new messages, you need to navigate to a topic, open it and change the button on top to *Following*. You will start receiving notifications in the *Notification* center.
 
-<img src="../images/topic-following-switch.png" alt="Following option inside the topic" width="100%" />
+<img src="../images/topic-following-switch.png" alt="Following option inside the topic" class="responsive-img" />
 
 >[!NOTE] **Auto following.** Each time you answer a topic, you will start automatically following it. This means you will receive notifications for all new answers until you explicitly unfollow the topic. 
 
@@ -100,7 +100,7 @@ When a topic is no longer relevant to a discussion, you can **delete** it. Be ca
 
 To delete a topic, navigate to it and select *Delete* in its overflow menu (as shown below). 
 
-<img src="../images/delete-topic.png" alt="Deleting a topic" width="100%" />
+<img src="../images/delete-topic.png" alt="Deleting a topic" class="responsive-img" />
 
 ### Rearranging discussions
 
