@@ -8,7 +8,7 @@ Think of a Slingshot task as a virtual representation of work to be done. But no
 - Tasks capture all relevant information around a piece of work.
 - Tasks are beginner-friendly and yet they have tons of functionality and flexibility.
 
-<img src="../images/welcome-tasks.png" alt="Slingshot tasks displayed in a list" width="100%"/>
+<img src="../images/welcome-tasks.png" alt="Slingshot tasks displayed in a list" class="responsive-img"/>
 
 ### Tasks capture your information
 
@@ -16,7 +16,7 @@ Assigning a task is as basic as it gets, but... Do you want a single person assi
 
 In Slingshot, you can decide what works best for you: assigning only one assignee to a single task, **multiple assignees** to the same task, or breaking up a task into **subtasks**, assign those to different assignees while still having someone directly responsible for the overall task.
 
-<img src="../images/tasks-multiple.png" alt="Several tasks with multiple assignees and subtasks within Slingshot" width="100%"/>
+<img src="../images/tasks-multiple.png" alt="Several tasks with multiple assignees and subtasks within Slingshot" class="responsive-img"/>
 
 Using subtasks is also a good way to differentiate **priority** for tasks and subtasks. With three levels of priority (*low, medium, high*), people collaborating over a task or subtask are free to set different priorities. 
 
@@ -26,7 +26,7 @@ Your task can be started only after another task is completed? Or your incomplet
 
 Besides that, you might also need to add images, documents, or links for specific tasks and subtasks. The ability to **add attachments** ensures that Slingshot captures all relevant information for your tasks and subtasks, helping you keep your workflow running smoothly.
 
-<img src="../images/tasks-attachments.png" alt="A Slingshot task with multiple attachment" width="100%"/>
+<img src="../images/tasks-attachments.png" alt="A Slingshot task with multiple attachment" class="responsive-img"/>
 
 ### Want to know more about Tasks?
 

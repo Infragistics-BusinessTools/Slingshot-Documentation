@@ -22,7 +22,7 @@ File permissions are meant to give the file owner control over who can access th
 
 Each time you pin a file, Slingshot will open the *File Permissions* dialog and ask you what type of permissions you prefer (see below).
 
-<img src="../images/file-permissions-dialog.png" alt="A dialog showing the three file permission types" width="80%" />
+<img src="../images/file-permissions-dialog.png" alt="A dialog showing the three file permission types" class="responsive-img" />
 
 Here, you can choose between the following three permission types:
 
@@ -60,11 +60,11 @@ You can always view and edit the permissions to your files in Slingshot. You can
 
 To view/edit the permissions on a file, go to its overflow menu and select **File Permissions** (see below). 
 
-<img src="../images/manage-access-options.png" alt="Files options to manage access" width="100%" />
+<img src="../images/manage-access-options.png" alt="Files options to manage access" class="responsive-img" />
 
 To view/edit who can access the file, click/tap **Member Access**. In the dialog that is displayed (see below), you can see all members who can view and edit the file as well as the pending requests for access.
 
-<img src="../images/manage-members-dialog.png" alt="Members who can access dialog" width="100%" />
+<img src="../images/manage-members-dialog.png" alt="Members who can access dialog" class="responsive-img" />
 
 Use the **+ Members** blue button to pre-allow access for chosen users who can view and edit the file without  asking you explicitly.
 
@@ -82,7 +82,7 @@ Sometimes you need to share files pinned to a board with people who are not part
 1. sending a link to the file in a discussion or chat, or 
 2. by starting a chat or a discussion directly from a pinned file. You can find the *Start a discussion* or *Start a Chat* option in the overflow menu of the file.
 
-    <img src="../images/start-chat-from-file.png" alt="Start a Private Chat option in the pinned file overflow" width="100%">
+    <img src="../images/start-chat-from-file.png" alt="Start a Private Chat option in the pinned file overflow" class="responsive-img">
 
 Keep in mind that the file owner decides whether the file will be accessible to users outside of the workspace with the file permissions they set. 
 Depending on the file permissions, there are two scenarios when you try to share a file in the chat or in a discussion.
