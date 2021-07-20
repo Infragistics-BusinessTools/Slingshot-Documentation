@@ -30,13 +30,8 @@ To support each other, the members of a workspace can get a sense of the workspa
 
 When you work towards a common objective, using shared resources is required. One of the best practices in Slingshot is to organize your content in *Boards*. Designed to manage your personal or workspace content, boards are just containers. They keep connections to cloud storages, where you hold your resources.
 
-<<<<<<< HEAD
 <img src="../images/content-sub-workspace.png" alt="An example of a board used to hold workspace resources" class="responsive-img" />
  
-=======
-<img src="../images/content-sub-workspace.png" alt="An example of a board used to hold workspace resources" width="100%">
-
->>>>>>> parent of 5254608 (Replace width with responsive-img class in images syntax)
 <a name='sub-workspaces'></a>
 ### Using workspaces within the workspace
 
