@@ -1,3 +1,3 @@
-<svg xmlns="http://www.w3.org/2000/svg" class="responsive-img" height="256" preserveAspectRatio="xMidYMid">
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" preserveAspectRatio="xMidYMid">
   <path fill="#016EC5" d="M191.98 0v219.87L0 191.35 191.98 256l64-26.63V30.6h.02l-.02-.05v-3.91L191.98 0zM124.8 37.46 66 95.58 30.6 68.92 16 73.8l36.02 35.6L16 145l14.6 4.88L66 123.2l58.8 58.12 35.2-14.95V52.42l-35.2-14.96zm0 41.47v60.93l-40.46-30.47 40.45-30.46z"/>
 </svg>

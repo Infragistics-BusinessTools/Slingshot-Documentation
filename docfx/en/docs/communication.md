@@ -8,7 +8,7 @@ While collaborating in teams or projects, people from different workspaces or ev
 
 It's a way of communication used by members of an organization, or a workspace. Being organized in different threads, discussions ensure all your communication, and collaboration tools are in one place, making remote teams stay productive no matter where they are.
 
-<img src="../images/discussions-thread.png" alt="A Slingshot discussion thread displayed" class="responsive-img"/>
+<img src="../images/discussions-thread.png" alt="A Slingshot discussion thread displayed" width="100%"/>
 
 You can have multiple discussions going on at the same time while mixing in text formatting, attachments, emojis, and links. Plus you can react to conversations and even create tasks from messages.
 
@@ -16,7 +16,7 @@ You can have multiple discussions going on at the same time while mixing in text
 
 Discussions are organized in different threads, ensuring side conversations are under control. The main discussion remains healthy and does not lose focus, as there is a place for every conversation.
 
-<img src="../images/discussions-many-threads.png" alt="Several Slingshot discussion threads" class="responsive-img"/>
+<img src="../images/discussions-many-threads.png" alt="Several Slingshot discussion threads" width="100%"/>
 
 Unlike lengthy email chains, members can follow or unfollow discussions. This is tied to notifications, as you get informed when someone sends a message to a discussion you follow.
 
@@ -24,7 +24,7 @@ Unlike lengthy email chains, members can follow or unfollow discussions. This is
 
 Your *Private Chat* is also a tool for communication, but unlike *Discussions* it's not tied to any workspace. This means you can use it to chat with any Slingshot user, and even with [personal account users](roles-permissions-faq.html#personal-account-users) who are not part of your Organization.
 
-<img src="../images/chat-example.png" alt="An example of a chat conversation" class="responsive-img" />
+<img src="../images/chat-example.png" alt="An example of a chat conversation" width="100%" />
 
 ### Chat with any slingshot user from multiple devices
 
