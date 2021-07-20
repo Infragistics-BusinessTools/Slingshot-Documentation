@@ -58,7 +58,7 @@ In short, the Organization, also called *the Org*, is a workspace, but it's not 
 
 Your Organization in Slingshot will appear right under _My Stuff_ (see below). You need sign in with Google or Microsoft using the email associated with your organization.
 
-<img src="../images/organization-access.png" alt="Organization location under My Stuff" width="100%" />
+<img src="../images/organization-access.png" alt="Organization location under My Stuff" class="responsive-img" />
 
 The roles in the Slingshot Organization are the same as in other workspaces - owner, member, viewer. Look at the table below to find more about the permissions of these roles in the Organization. 
 
@@ -105,7 +105,7 @@ That being said, sometimes you might need to have a private workspace. In this c
 
 To change a workspace privacy, select your workspace's **overflow menu** > **Workspace Settings** > **Information** > **Privacy**.
 
-<img src="../images/access-workspace-settings.png" alt="Accessing workspace settings" width="100%"/>
+<img src="../images/access-workspace-settings.png" alt="Accessing workspace settings" class="responsive-img"/>
 
 Change to **Private** and select **Update**.
 

@@ -14,11 +14,11 @@ Your workspace in Slingshot is intended to facilitate your collaboration with ot
 
 The most effective way to involve everyone in a discussion and maintain high transparency in the workspace, is to create a topic in the workspace discussions (see below). 
 
-<img src="../images/workspace-discussion.png" alt="Example of a workspace topic in the discussions." width="100%" />
+<img src="../images/workspace-discussion.png" alt="Example of a workspace topic in the discussions." class="responsive-img" />
 
 You can also communicate with any Slingshot user (or group of users) through the **private chat**.
 
-<img src="../images/chat-example.png" alt="Example of a chat." width="100%" />
+<img src="../images/chat-example.png" alt="Example of a chat." class="responsive-img" />
 
 Communication is not limited to writing. You can also attach files, use emojis, and react to messages.
 
@@ -26,12 +26,12 @@ Communication is not limited to writing. You can also attach files, use emojis, 
 
 To support each other, the members of a workspace can get a sense of the workspace status at a glance. Using the workspace *overview* you can keep yourself informed about all members and their tasks, helping you proactively contact those in need. You can, for example, start a discussion to get a team member's attention. And they will receive a notification to alert them that they were mentioned.
 
-<img src="../images/workspace-overview-example.png" alt="A workspace overview example" width="100%">
+<img src="../images/workspace-overview-example.png" alt="A workspace overview example" class="responsive-img">
 
 When you work towards a common objective, using shared resources is required. One of the best practices in Slingshot is to organize your content in *Boards*. Designed to manage your personal or workspace content, boards are just containers. They keep connections to cloud storages, where you hold your resources.
 
-<img src="../images/content-sub-workspace.png" alt="An example of a board used to hold workspace resources" class="responsive-img" />
- 
+<img src="../images/content-sub-workspace.png" alt="An example of a board used to hold workspace resources" class="responsive-img">
+
 <a name='sub-workspaces'></a>
 ### Using workspaces within the workspace
 
@@ -48,7 +48,7 @@ A sub-workspace provides you with the same collaboration tools as the parent wor
 - *Content* - helps you share and organize neatly all resources required to collaborate.   
 - *Discussions* - you can communicate with a focus on your sub-workspace's shared objective.
 
-<img src="../images/welcome-overview-subworkspace.png" alt="A sub-workspace's overview" width="100%">
+<img src="../images/welcome-overview-subworkspace.png" alt="A sub-workspace's overview" class="responsive-img">
 
 ### Customize main navigation tabs for improved productivity
 

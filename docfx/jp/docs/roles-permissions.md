@@ -30,11 +30,11 @@ So, what path should you take?
 
 If you are thinking on a **small contribution**, you can go to a team and create a specific task for an external user. This user won't be added to the team and will receive a notification about the task assigned. For the external user, the task will appear in *Home > Tasks*.
 
-<img src="../images/externalUser-task.png" alt="Showing a Task created for an external user" width="100%"/>
+<img src="../images/externalUser-task.png" alt="Showing a Task created for an external user" class="responsive-img"/>
 
 Alternatively, the external user might be **further involved into a specific project**, needing to collaborate in multiple tasks with other users. In this case you should add the user to that specific project within the team. Again the user won't be added to the team.
 
-<img src="../images/external-members-project.png" alt="External tab in the Who is working on this? dialog" width="100%"/>
+<img src="../images/external-members-project.png" alt="External tab in the Who is working on this? dialog" class="responsive-img"/>
 
 Finally, you might want to create a team to add an external user that **frequently collaborates with you and other organization members**. In this case, you should create a team outside your organization that includes the external user and other members.
 
@@ -58,8 +58,8 @@ That being said, sometimes you might need to have a private team, leaving your t
 
 To change a team's privacy, you need to be one of the owners of the team. To do this, go to the team's [Overview](#how-can-i-get-visibility-over-a-team) and select the gear icon:
 
-<img src="../images/access-team-settings.png" alt="Accessing team settings" width="100%"/>
+<img src="../images/access-team-settings.png" alt="Accessing team settings" class="responsive-img"/>
 
 Here you can change your team's name, description and privacy.
 
-<img src="../images/privacy-settings.png" alt="Showing the privacy settings of a Slingshot team" width="100%"/>
+<img src="../images/privacy-settings.png" alt="Showing the privacy settings of a Slingshot team" class="responsive-img"/>

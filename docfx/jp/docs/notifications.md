@@ -14,15 +14,15 @@ Notifications are designed to keep you updated of any changes on teams, tasks, p
 
 You can access *Notifications* on the top right of the screen as shown below.
 
-<img src="../images/notifications-panel-opened.png" alt="Notifications panel opened in Slingshot" width="100%"/>
+<img src="../images/notifications-panel-opened.png" alt="Notifications panel opened in Slingshot" class="responsive-img"/>
 
 Within the *Notifications* panel, you can mark all notifications as *Read* or *Unread* with the *glasses icon*:
 
-<img src="../images/notifications-panel-glasses.png" alt="Notifications panel opened in Slingshot, using the glasses icon" width="100%"/>
+<img src="../images/notifications-panel-glasses.png" alt="Notifications panel opened in Slingshot, using the glasses icon" class="responsive-img"/>
 
 Additionally, you can individually mark as *Read* or *Unread* or mute notifications by selecting the _Mute this type of notification_ option in the overflow menu.
 
-<img src="../images/notifications-panel-overflow.png" alt="Notifications panel opened in Slingshot, using the overflow" width="100%"/>
+<img src="../images/notifications-panel-overflow.png" alt="Notifications panel opened in Slingshot, using the overflow" class="responsive-img"/>
 
 ### How can I change my Notification Settings?
 
@@ -30,12 +30,12 @@ There are three different types of notifications, in-app, push, and email. In-ap
 
 To change your notification settings, go to *Settings*:
 
-<img src="../images/userSettings-opened.png" alt="User Settings menu opened in Slingshot" width="100%"/>
+<img src="../images/userSettings-opened.png" alt="User Settings menu opened in Slingshot" class="responsive-img"/>
 
  And then navigate to *Notifications*:
 
-<img src="../images/userSettings-notifications.png" alt="Notifications Settings menu opened in Slingshot" width="100%"/>
+<img src="../images/userSettings-notifications.png" alt="Notifications Settings menu opened in Slingshot" class="responsive-img"/>
 
 Finally, for each category you can edit the settings as shown below or use the switch to turn them off entirely.
 
-<img src="../images/userSettings-edit-notifications.png" alt="Editing one of the items in the Notifications Settings tab" width="100%"/>
+<img src="../images/userSettings-edit-notifications.png" alt="Editing one of the items in the Notifications Settings tab" class="responsive-img"/>
