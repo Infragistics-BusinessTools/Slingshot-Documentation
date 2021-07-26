@@ -26,7 +26,7 @@ Your task can be started only after another task is completed? Or your incomplet
 
 Besides that, you might also need to add images, documents, or links for specific tasks and subtasks. The ability to **add attachments** ensures that Slingshot captures all relevant information for your tasks and subtasks, helping you keep your workflow running smoothly.
 
-<img src="../images/tasks-attachments.png" alt="A Slingshot task with multiple attachment" class="responsive-img"/>
+<img src="../images/tasks-attachments.png" alt="A Slingshot task with multiple attachment" width="75%" class="responsive-img"/>
 
 ### Want to know more about Tasks?
 

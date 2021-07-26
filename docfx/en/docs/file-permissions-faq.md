@@ -22,7 +22,7 @@ File permissions are meant to give the file owner control over who can access th
 
 Each time you pin a file, Slingshot will open the *File Permissions* dialog and ask you what type of permissions you prefer (see below).
 
-<img src="../images/file-permissions-dialog.png" alt="A dialog showing the three file permission types" class="responsive-img" />
+<img src="../images/file-permissions-dialog.png" alt="A dialog showing the three file permission types" width="75%" class="responsive-img" />
 
 Here, you can choose between the following three permission types:
 

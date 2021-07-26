@@ -30,7 +30,7 @@ Your personal space, **My Stuff**, is great and useful, but Slingshot is about e
 
 Check out the image below:
 
-<img src="../images/mystuff-navigation-opened.png" alt="My Stuff, Organization and Workspaces navigation opened" class="responsive-img"/>
+<img src="../images/mystuff-navigation-opened.png" alt="My Stuff, Organization and Workspaces navigation opened" width="75%" class="responsive-img"/>
 
 The navigation panel on the left includes: 
 
@@ -68,14 +68,14 @@ Follow the links for further details about [overviews](overviews.md), [workspace
 
 **Notifications** are designed to keep you updated on any changes to workspaces, tasks, messages, and analytics. You can learn, among others, that a task was assigned to you, that you are removed from a workspace, or that someone sent a message in a discussion thread you're following.
 
-<img src="../images/notifications-panel-opened.png" alt="Notifications panel opened in Slingshot" class="responsive-img"/>
+<img src="../images/notifications-panel-opened.png" alt="Notifications panel opened in Slingshot" width="75%" class="responsive-img"/>
 
 There are three different types of notifications, in-app, push, and email. This means that you can get a message that pops up while using Slingshot (in-app notification), a message that pops up on a mobile device (push notification), or even an email notification.  
 Follow the link for further details about [notifications](notifications.md).
 
 Get to **User Settings** by selecting your *profile image*, there you can find _General Settings_, _Feedback_, and you can also _Sign Out_ of the application.
 
-<img src="../images/user-settings-all.png" alt="User Settings menu opened in Slingshot" class="responsive-img"/>
+<img src="../images/user-settings-all.png" alt="User Settings menu opened in Slingshot" width="75%" class="responsive-img"/>
 
 Then, in _Settings_ you can find five categories, including general and profile settings, notifications, data privacy and settings related to your dashboards. In _General Settings_ you can configure your app appearance and also how you work with content, whereas _Profile Information_ includes information about you and your organization. 
 

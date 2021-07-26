@@ -73,7 +73,7 @@ Normally you'll use boards to share files, but if you are working within a works
 When you share files inside workspaces, you make these files available for the users inside the workspace. 
 File permissions are meant to give the file owner control over who can access their files. Each time you pin a file, Slingshot will ask you what type of permission you want to set. You will see a dialog that looks like this: 
 
-<img src="../images/file-permissions-dialog.png" alt="A dialog showing the three file permission types" class="responsive-img" />
+<img src="../images/file-permissions-dialog.png" alt="A dialog showing the three file permission types" width="75%" class="responsive-img" />
 
 Here, you can choose between the following three permission types:
 
@@ -113,7 +113,7 @@ In any case, you can always download the file to your computer or device.
 Sometimes you came across relevant content that you really want to keep at hand. In those cases, you can pin the file to a private board in your personal space (My Stuff).  
 Alternatively, if you find this content already in a board, you can use _Copy Pin_ to duplicate the pin in a private board.
 
-<img src="../images/content-copy-pin.png" alt="Pin content to a board in Slingshot" class="responsive-img"/>
+<img src="../images/content-copy-pin.png" alt="Pin content to a board in Slingshot" width="75%" class="responsive-img"/>
 
 ### How to use drag & drop to quickly pin files?
 By using the drag and drop gesture, you can quickly add files or links from an external source into Slingshot's boards.  

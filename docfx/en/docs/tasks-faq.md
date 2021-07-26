@@ -45,11 +45,11 @@ You can directly create a new **subtask** using the main task's overflow menu, a
 
 Alternatively, you can create subtasks for a task that is already opened:
 
-<img src="../images/tasks-new-subtasks-from-task.png" alt="Creating a new subtask within a Slingshot task" class="responsive-img"/>
+<img src="../images/tasks-new-subtasks-from-task.png" alt="Creating a new subtask within a Slingshot task" width="75%" class="responsive-img"/>
 
 Having the task opened also allows you to insert new subtasks and this way reorder the existing subtasks (see below)
 
-<img src="../images/tasks-new-subtasks-others.png" alt="Options to insert a new subtask below or above other subtasks within a Slingshot task" class="responsive-img"/>
+<img src="../images/tasks-new-subtasks-others.png" alt="Options to insert a new subtask below or above other subtasks within a Slingshot task" width="75%" class="responsive-img"/>
 
 <a name="add-task-dependency"></a>
 ### How can I make a task depend on another task? 
@@ -179,7 +179,7 @@ You can move tasks between tasks lists in the same workspace or between lists in
 
 To move a task, simply open it and click/tap the *Change* blue button right over the task name (see the screenshot below). Choose a new location by navigating to the workspace and list where you want to move your task. When finished, you will find your task at the bottom of the tasks list. 
 
-<img src="../images/change-button-inside-task.png" alt="Change button location" class="responsive-img"/>
+<img src="../images/change-button-inside-task.png" alt="Change button location" width="75%" class="responsive-img"/>
 
 Alternatively, click and hold on a task and drag it to another list. Then drop it there. You can’t use drag & drop for tasks you want to move from one sub-workspace to another. 
 
@@ -205,7 +205,7 @@ The ability to add **Attachments** ensures that Slingshot captures all the relev
 
 Each task can include one or more attachments, including images, documents, or links for specific tasks and subtasks.
 
-<img src="../images/tasks-attachments.png" alt="Displaying a Slingshot task with attachments" class="responsive-img"/>
+<img src="../images/tasks-attachments.png" alt="Displaying a Slingshot task with attachments" width="75%" class="responsive-img"/>
 
 Files attached can be opened, downloaded, or detached (unpinned) from the task.
 
@@ -214,7 +214,7 @@ Files attached can be opened, downloaded, or detached (unpinned) from the task.
 
 To attach a file, open a task and click/tap the clip icon as shown below.
 
-<img src="../images/tasks-attachments-new.png" alt="Adding attachments to a Slingshot task" class="responsive-img"/>
+<img src="../images/tasks-attachments-new.png" alt="Adding attachments to a Slingshot task" width="75%" class="responsive-img"/>
 
 ### How to create a task from a discussion or a chat message?
 

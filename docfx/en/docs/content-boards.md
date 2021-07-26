@@ -49,7 +49,7 @@ Alternatively, you can go to existing cloud storage in _My Stuff_  and choose _P
 
 After choosing an option, you'll be prompted to select where to pin the file. 
 
-<img src="../images/pin-content-destination.png" alt="Choosing the destination of the content within Slingshot" class="responsive-img"/>
+<img src="../images/pin-content-destination.png" alt="Choosing the destination of the content within Slingshot" width="75%" class="responsive-img"/>
 
 Finally, you often will be editing your files. Depending on the platform, you may use different applications as Slingshot relies on invoking 3rd party applications to do the job.  
 In addition, you can always download the file to your computer or device.

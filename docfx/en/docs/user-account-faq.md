@@ -72,7 +72,7 @@ You can choose between 13 available languages for your notifications.
 To change your notification settings go to your account settings and selecting the *Notifications* tab. 
 Alternatively, you can open the Notifications panel and select *Settings* from the overflow menu in the upper right corner (see in the screenshot below): 
 
-<img src="../images/user-settings-notifications.png" alt="Notifications Settings menu opened in Slingshot" class="responsive-img"/>
+<img src="../images/user-settings-notifications.png" alt="Notifications Settings menu opened in Slingshot" width="75%" class="responsive-img"/>
 
 ### What are the dashboard settings?
 Dashboards are part of your *Analytics* space in Slingshot.
