@@ -43,4 +43,4 @@ saving/sharing preferences:
 For image exports, you can find these same options in the **Export
 Image** dialog before or after you annotate images:
 
-<img src="images/export-image-preview-actions.png" alt="Export image preview actions" class="responsive-img"/>
+<img src="images/export-image-preview-actions.png" alt="Export image preview actions" width="75%" class="responsive-img"/>

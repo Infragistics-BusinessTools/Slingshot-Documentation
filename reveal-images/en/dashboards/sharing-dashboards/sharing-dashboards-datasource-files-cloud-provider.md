@@ -39,7 +39,7 @@ following cloud providers:
 
 You can allow access to a cloud file at the point of selecting your data source to build a visualization. After choosing a file uploaded on one of the [supported cloud providers](#cloud-providers), you will be prompted to the following dialog:
 
-<img src="images/allow-access-box-sharing.png" alt="Allow access checkbox in the Set up your file dialog" class="responsive-img"/>
+<img src="images/allow-access-box-sharing.png" alt="Allow access checkbox in the Set up your file dialog" width="75%" class="responsive-img"/>
 
 Make sure the *Allow Access* checkbox is selected, otherwise the
 shareable link will be disabled.
@@ -56,7 +56,7 @@ shareable link, when sharing them with other users.
 
 3.  The following dialog opens:
 
-    <img src="images/grant-access-share-dashboard-dialog.png" alt="A dialog to grant access to cloud file data sources" class="responsive-img"/>
+    <img src="images/grant-access-share-dashboard-dialog.png" alt="A dialog to grant access to cloud file data sources" width="75%" class="responsive-img"/>
 
   Click/Tap *Allow Access* and proceed with selecting users to [share your dashboard](share-a-dashboard.md) with.
 

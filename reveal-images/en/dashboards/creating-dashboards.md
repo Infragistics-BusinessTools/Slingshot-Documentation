@@ -74,7 +74,7 @@ You can also use the overflow menu in the top right corner of the visualizations
 
 After copying a visualization, find the _Paste_ option inside the overflow menu of the dashboard you want to paste the visualization in.
 
-<img src="images/paste-option-dashboard.png" alt="paste option in the dashboard overflow menu" class="responsive-img"/>
+<img src="images/paste-option-dashboard.png" alt="paste option in the dashboard overflow menu" width="75%" class="responsive-img"/>
 
 
 #### Applying a Theme
