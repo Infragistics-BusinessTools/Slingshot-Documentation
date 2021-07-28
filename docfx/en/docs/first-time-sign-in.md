@@ -5,12 +5,12 @@ When opening the app you'll be met with different sign in options:
 
 <img src="../images/slingshot-login.png" alt="Slingshot sign in screen" class="responsive-img"/>
 
-Before jumping in, take into account that in Slingshot you can join an **Organization**. If you are a member of an organization, you have to log in with your organization’s email. Choose Google or Microsoft as needed and you'll be associated with the main Organization.
+Before jumping in, take into account that in Slingshot you can join an **Organization**. If you are a member of an organization, you have to log in with your organization’s email. Choose Google or Microsoft as needed, and you'll be associated with the main Organization.
 
 > [!NOTE]
 > The Organization workspace is useful for managers and leaders to communicate key goals, metrics, strategies, and important announcements throughout their organization. The Organization workspace is named after your organization (e.g. your company's name).  
 
-When you log in with Google or Microsoft, you get a cloud storage automatically configured based on your credentials, Google Drive or OneDrive respectively. This means you get access to your files on the cloud storage and can share them with other users to collaborate over them.
+When you log in with Google or Microsoft, you get a cloud storage automatically configured based on your credentials, Google Drive or OneDrive respectively. This means you get access to your files on the cloud storage and can share them with other users in Slingshot.
 
 ### Your first screen
 
