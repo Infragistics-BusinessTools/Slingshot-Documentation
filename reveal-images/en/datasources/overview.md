@@ -24,7 +24,7 @@ After selecting a data source provider, you will be prompted to **configure** it
 
    - [Amazon Redshift](~/en/datasources/supported-data-sources/redshift.md)
 
-   - [Box](~/en/datasources/supported-data-sourcesbox.md)
+   - [Box](~/en/datasources/supported-data-sources/box.md)
 
    - [Dropbox](~/en/datasources/supported-data-sources/dropbox.md)
 
