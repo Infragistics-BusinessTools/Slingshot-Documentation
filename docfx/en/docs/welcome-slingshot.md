@@ -87,7 +87,7 @@ You can use a web browser or get native applications on iOS, Android, and Deskto
 
 <a href="https://my.slingshotapp.io/" target="_blank">Go to Slingshot <b>Web</b>.</a>
 
-<a href="[https](https://www.slingshotapp.io/download-apps)" target="_blank">Get Slingshot <b>native apps</b> (Android, iOS, desktop).</a>
+<a href="https://www.slingshotapp.io/download-apps" target="_blank">Get Slingshot <b>native apps</b> (Android, iOS, desktop).</a>
 
 Below you can find the versions supported for each platform:
 

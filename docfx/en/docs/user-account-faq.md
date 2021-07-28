@@ -10,7 +10,7 @@ Here you can Log Out, provide the Slingshot team with valuable Feedback, and acc
 
 ### Which are the different subscription plans?
 
-For information about the available plans, please go to <a href="[https](https://wp-staging.slingshotapp.io/pricing)" target="_blank">Pricing.</a>
+For information about the available plans, please go to [Pricing](https://www.slingshotapp.io/pricing).
 
 
 ### How secure is a Slingshot user account?
