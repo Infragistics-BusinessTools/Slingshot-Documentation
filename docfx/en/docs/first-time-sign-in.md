@@ -54,7 +54,7 @@ Inside Slingshot workspaces, you will find the six main navigation bars on top: 
 As already mentioned, the Organization workspace is not like other workspaces. So, inside it, there is a different number of navigation bars. That goes for _My Stuff_ and sub-workspaces, which also have the navigation bars. 
 But why is that? Let's answer this question quickly by explaining the idea behind each navigation bar.
 
-- **Overview** gives you a quick status of your workspaces or your personal work.
+- *Overview* gives you a quick status of your workspaces or your personal work.
 - **Workspaces** shows the list of workspaces and allow you to create another level of workspaces inside the parent workspace. However, you can have only two levels of workspaces - i.e. one parent workspace containing limitless sub-workspaces.
 - **Tasks** represent work to be done by the members in a workspace.
 - **Discussions** used to communicate among members of an organization or a workspace. 
