@@ -27,7 +27,7 @@ steps:
 - task: CmdLine@2
   displayName: "Update/Fetch submodules" 
   inputs:
-    script: 'git submodule update --recursive --remote'
+    script: 'git submodule update --init --recursive --remote'
 - task: CmdLine@2
   displayName: "Build Slingshot docfx" 
   inputs:
