@@ -1,1 +1,0 @@
-## Third-Party Software Used by Analytics
