@@ -6,7 +6,7 @@ visualizations which are laid out to communicate the status, metrics,
 or performance of a business. Each visualization is meant to have
 different pieces of related information, enabling users to make sense of their data.
 
-<img src="images/dashboards-home-page.png" alt="A complete dashboard example" width="100%"/>
+<img src="images/dashboards-home-page.png" alt="A complete dashboard example" class="responsive-img"/>
 
 ### The Dashboard Creation Process
 
@@ -16,20 +16,18 @@ different pieces of related information, enabling users to make sense of their d
   - **Plan the Dashboard**: how will you represent your information
     graphically? Will you use a [grid](~/docs/analytics/data-visualizations/visualization-types/grid-chart.md), a map,
     [gauges](~/docs/analytics/data-visualizations/visualization-types/gauge-charts.md), [category charts](~/docs/analytics/data-visualizations/visualization-types/category-charts.md)?
-    Will you use any [filters](~/docs/analytics/filters/overview.md)? If you want to see how to
-    improve your data visualizations with any of the advanced Analytics features, [check out this blog post](https://www.infragistics.com/community/blogs/b/infragistics/posts/8-ways-to-improve-your-data-visualizations)\!
+    Will you use any [filters](~/docs/analytics/filters/overview.md)?
 
-  - **Prepare the data** to be used in Analytics. Here is a quick overview
-    of [how to work with spreadsheets](~/docs/analytics/datasources/working-files/working-with-spreadsheets.md) in Analytics.
+  - **Prepare the data** to be used in your dashboard. Here is a quick overview of [how to work with spreadsheets](~/docs/analytics/datasources/working-files/working-with-spreadsheets.md) in Analytics.
 
   - **Create the dashboard**: for a complete walkthrough, read [this topic](creating-dashboards.md).
 
   - **Review and iterate**: once your dashboard is ready, you can review
     it and make any changes you or your analysts deem necessary.
 
-### Topics Overview
+### Where to Continue?
 
-Within Analytics, you will be able to:
+With Analytics, you can:
 
   - [Create Dashboards](creating-dashboards.md)
 
@@ -40,39 +38,3 @@ Within Analytics, you will be able to:
   - [Share your Dashboards](sharing-dashboards/share-a-dashboard.md)
 
   - [Manage your existing Dashboards](managing-dashboards.md)
-
-You can also import any [dashboards created with previous versions of ReportPlus](Uploading-Dashboards.md).
-
-### Dashboard Tutorials
-
-Learn the basics or refine your dashboard creation skills with tutorials
-designed to get you started and headed in the right direction.
-
-<table>
-<colgroup>
-<col style="width: 30%" />
-<col style="width: 30%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><img src="images/ThumbnailFinanceDashboard_All.png" alt="ThumbnailFinanceDashboard All" width="80%"/><br />
-</p>
-<p><a href="~/docs/analytics/dashboard-tutorials/finance-dashboard/getting-started.md">Finance Dashboard</a><br />
-</p></td>
-<td><p><img src="images/ThumbnailManufacturingDashboard_All.png" alt="ThumbnailManufacturingDashboard All" width="80%"/><br />
-</p>
-<p><a href="~/docs/analytics/dashboard-tutorials/manufacturing-dashboard/getting-started.md">Manufacturing Dashboard</a><br />
-</p></td>
-</tr>
-<tr class="even">
-<td><p><img src="images/ThumbnailSalesDashboard_All.png" alt="ThumbnailSalesDashboard All" width="80%"/><br />
-</p>
-<p><a href="~/docs/analytics/dashboard-tutorials/sales-dashboard/getting-started.md">Sales Dashboard</a><br />
-</p></td>
-<td><p><img src="images/ThumbnailSocialDashboard_All.png" alt="ThumbnailSocialDashboard All" width="80%"/><br />
-</p>
-<p><a href="~/docs/analytics/dashboard-tutorials/social-dashboard/getting-started.md">Social Dashboard</a><br />
-</p></td>
-</tr>
-</tbody>
-</table>
