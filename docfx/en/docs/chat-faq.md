@@ -1,4 +1,4 @@
-## Learn more about the Private Chat
+## Learn more about the Private Chat TEST
 
 Welcome! Read on to get answers to your questions about the private chat.
 
