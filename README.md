@@ -34,39 +34,6 @@ The table of content (TOC) files are stored in the `docfx` folder:
 - `docfx\jp\docs\toc.yml`
 - `docfx\kr\docs\toc.yml`
 
-# Creating Branches
-
-- Open `Team Explorer` in Visual Studio
-- Click `Manage Connection` (green) button
-- Expand `IgInternalApplicationGit`
-- Connect to [slingshot-docfx](http://tfs.infragistics.local:8080/tfs/Engineering/IgInternalApplicationsGit/IgInternalApplicationsGit%20Team/_git/slingshot-docfx)
- repository
-- Click on Branches
-- Expand `remotes/origin`
-- Checkout `master` branch
-- Right Click on `master` branch
-- Select Pull menu item
-- Right Click on `master` branch
-- New `Local Branch from` menu item
-- Type name of your branch
-- Make changes to help topics (.md files)
-- Make changes to table of content (.yml files)
-
-# Creating Pull Requests
-
-- Make sure you create a new branch by following above section
-- Open `Team Explorer` in Visual Studio
-- Open `Changes` tab
-- Add a comment for your changes
-- Click `Commit All` button
-- Click `Sync` button
-- Click `Publish` button
-- Click `Create a pull request` button
-- In opened website, Change from `master` branch to `master` branch
-- Click `New Pull Request` button
-- Send a link for your PR to a reviewer
-
-
 ## Setting Up Project
 
 ### Installing DocFX
@@ -117,7 +84,10 @@ Then follow these directions
 yarn install
 ```
 
-If you are using npm, run:
+If you are using npm:
+
+- install [Node.js](https://nodejs.org)
+- type this command to install dependency packages:
 
 ```
 npm install
