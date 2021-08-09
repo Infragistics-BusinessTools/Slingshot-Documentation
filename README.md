@@ -4,47 +4,35 @@ This repository contains documentation files for Slingshot product. It was based
 
 ## Help Document Files
 
-All help markdown (*.md) files in this repository are arranged under the `docTopics` (not `docsfx`) folder. They are organized in sub-folders for EN, JP, and KR localizations.
+All help markdown (*.md) files in this repository are arranged under the `docfx` folder. They are organized in sub-folders for EN, JP, and KR localizations.
 
-- `docTopics\en\components\`
-- `docTopics\jp\components\`
-- `docTopics\kr\components\`
+- `docfx\en\docs\`
+- `docfx\jp\docs\`
+- `docfx\kr\docs\`
 
 NOTE: names of markdown files should be the same in all above folders, e.g.
 
-- `docTopics\en\components\general-getting-started.md`
-- `docTopics\jp\components\general-getting-started.md`
-- `docTopics\kr\components\general-getting-started.md`
+- `docfx\en\docs\general-getting-started.md`
+- `docfx\jp\docs\general-getting-started.md`
+- `docfx\kr\docs\general-getting-started.md`
 
 You can add images to help topics by uploading them first to these folders:
 
-- `docTopics\en\images\`
-- `docTopics\jp\images\`
-- `docTopics\kr\images\`
+- `docfx\en\images\`
+- `docfx\jp\images\`
+- `docfx\kr\images\`
+
+### Additional structural information
+
+All markdown (*.md) files under the `reveal-images` folder are overriding their equivalents from the submodule to achieve unique content regarding this project.
 
 ## Help Document TOC
 
-The table of content (TOC) files are stored in the `docsfx` folder:
+The table of content (TOC) files are stored in the `docfx` folder:
 
-- `docsfx\en\components\toc.yml`
-- `docsfx\jp\components\toc.yml`
-- `docsfx\kr\components\toc.yml`
-
-## Help Document Configuration
-
-In the `docConfig.json` file, you can add entries in "[PlatformName]" => "replacements" where name is a regular expression that matches the text you wish to replace in the markdown, and value is the value you wish to have inserted.
-
-For example with this entry:
-
-```js
-"Slingshot": {
-        "replacements": [
-            { "name": "{ProductName}", "value": "Slingshot" },
-        ],
-}
-```
-
-you can have `{ProductName}` replaced with `Ignite UI for Angular` wherever it appears in the input documentation.
+- `docfx\en\docs\toc.yml`
+- `docfx\jp\docs\toc.yml`
+- `docfx\kr\docs\toc.yml`
 
 # Creating Branches
 
@@ -81,6 +69,41 @@ you can have `{ProductName}` replaced with `Ignite UI for Angular` wherever it a
 
 ## Setting Up Project
 
+### Installing DocFX
+
+In macOS You can use _brew_ to install the latest version of DocFX:
+
+```
+brew install docfx
+```
+
+If _brew_ is missing on your environment, go ahead and install it with:
+
+```
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+```
+
+For Windows based platforms use [_chocolatey_](https://chocolatey.org/):
+
+Download the chocolatey.exe or use the command lister under [Install with PowerShell.exe](https://docs.chocolatey.org/en-us/choco/setup#install-with-powershell.exe):
+
+```
+Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
+```
+
+Use chocolatey to install docfx
+```
+choco install docfx
+```
+
+Note: Use the following command in order to install specific version of docfx:
+
+```
+choco install docfx --version 2.47 --force
+```
+
+### Installing dependencies:
+
 Before you can contrinute to this you need to install [Yarn](https://yarnpkg.com/en/) software.
 
 Then follow these directions
@@ -94,6 +117,13 @@ Then follow these directions
 yarn install
 ```
 
+If you are using npm, run:
+
+```
+npm install
+```
+
+
 ## Building DocFX
 
 You can transform and generate output of DocFX output files with:
@@ -101,6 +131,13 @@ You can transform and generate output of DocFX output files with:
 ```cmd
 yarn build
 ```
+
+or with npm:
+
+```
+npm run build
+```
+
 
 <!-- ```cmd
 yarn run buildWebComponents
