@@ -32,15 +32,42 @@
         "sitemap": {
             "baseUrl": "https://www.slingshotapp.io/en/help/",
             "changefreq": "weekly",
-            "priority": 0.7,
+            "priority": 0.5,
             "fileOptions":{
                 "**/analytics/**": {
                     "priority": 0.8
                 },
                 "**/first-time-sign-in.md": {
                     "priority": 0.9
-                }
-            }
-        }
-    }
+                },
+                "**/chat-faq.md": {
+                    "priority": 0.7
+                },
+                "**/content-faq.md": {
+                    "priority": 0.7
+                },
+                "**/data-privacy-faq.md": {
+                    "priority": 0.7
+                },
+                "**/discussions-faq.md": {
+                    "priority": 0.7
+                },
+                "**/file-permissions-faq.md": {
+                    "priority": 0.7
+                },
+                "**/roles-permissions-faq.md": {
+                    "priority": 0.7
+                },
+                "**/tasks-faq.md": {
+                    "priority": 0.7
+                },
+                "**/user-account-faq.md": {
+                    "priority": 0.7
+                },
+                "**/workspaces-faq.md": {
+                    "priority": 0.7
+             }
+         }
+     }
+  }
 }
