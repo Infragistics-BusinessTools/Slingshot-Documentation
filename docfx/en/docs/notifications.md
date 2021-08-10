@@ -46,18 +46,30 @@ Alternatively, open:
 
 <img src="../images/user-settings-notifications.png" alt="Notifications Settings menu opened in Slingshot" class="responsive-img"/>
 
-Finally, for each category you can edit the settings as shown below or use the switch to turn them off entirely.
+Finally, for each category you can edit the settings as shown below or use the toggle on top to turn them off entirely. 
 
 <img src="../images/edit-notifications-settings.png" alt="Editing one of the items in the Notifications Settings tab" class="responsive-img"/>
 
 The *language* option at the bottom of the categories list allows you to choose between 13 languages for your notifications. 
-### Stay informed with notifications inside Slingshot
 
-Notifications are designed to keep you updated of any changes in workspaces, tasks, messages, mentions, and dashboards. You can learn, among others, that a task was assigned to you, that you are removed from a workspace, or even that someone sent a message in a discussion thread you're following.
+Your choice will be saved automatically. So when finished, just close the *Settings* dialog. 
 
-You can access *Notifications* on the top right of the screen as shown below.
+If you change your mind, you can restore the default settings. You will notice the *Reset to default* option in the bottom right corner of each dialog where notifications settings were modified. 
+### The Notifications panel 
 
-<img src="../images/notifications-panel-opened.png" alt="Notifications panel opened in Slingshot" class="responsive-img"/>
+The *Notifications* panel is where you will find updates about workspaces, tasks, messages, mentions, and dashboards. You can learn, among others, that a task was assigned to you, that you are removed from a workspace, or even that someone sent a message in a discussion thread you're following.
+
+You can access the *Notifications* panel by clicking the bell icon <img src="../images/notification-bell-transparent.png" alt="Notifications panel opened in Slingshot"/>
+in the upper right-hand corner of the screen. 
+
+Within the *Notifications* panel, notifications are shown in groups. For example, all notifications about new comments in a topic will be shown together in a group. Another group will be created for the comments in a different topic. 
+
+The three dots menu next to each group allows you to organize your *Notifications* panel in as much detail as you want. 
+
+<img src="../images/notifications-groups-settings.png" alt="Notifications panel opened in Slingshot, using the overflow" class="responsive-img"/>
+
+### Other ways to stay informed inside Slingshot
+
 
 Within the *Notifications* panel, you can use the *Mark all as read* option at the top. You can also use the overflow menu next to each notification to *Mute* it or *Mark as Read/Unread* (see the screenshot below).
 
