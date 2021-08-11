@@ -119,7 +119,7 @@ const addWatcher = (done) => {
 }
 
 exports['ci-assets-copy'] = series(copyRevealTopicsAndTOCs, overwriteRevealFiles, replaceRevealContents, modifyYmlFile);
-exports['ci-build'] = series(this['ci-assets-copy'], buildSite);
+exports['ci-build'] = series(this['ci-assets-copy'], buildSite, removeHTMLExtensionFromSiteMap);
 
 exports.copyRevealAssets = series(copyRevealTopicsAndTOCs, overwriteRevealFiles, replaceRevealContents, modifyYmlFile);
 exports.build = series(this.copyRevealAssets, buildSite, removeHTMLExtensionFromSiteMap);
