@@ -1,8 +1,8 @@
-## Learn more about the Private Chat TEST
+# Learn more about the Private Chat
 
 Welcome! Read on to get answers to your questions about the private chat.
 
-### Discussions vs private chat
+## Discussions vs private chat
 
 In Slingshot, communication happens in discussions and private chats.
 
