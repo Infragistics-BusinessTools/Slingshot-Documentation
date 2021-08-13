@@ -1,15 +1,15 @@
-## Teams
+# Teams
 
 A team can be defined as a group of people that collaborate and support each other, working together towards a common objective.
 
 It can be said that it always comes down to having people who understand each other and work well together, true. But a combination of solid leadership, good communication, and access to the right resources can dramatically improve productivity and collaboration. And Slingshot can help in these areas.
 
-### So, What's a Slingshot Team?
+## So, What's a Slingshot Team?
 
 It's the virtual representation of a team, a group of people that is empowered to collaborate and support each other, working together as a team. Seems familiar, right?  
 Also, the leader and team members are provided with tools to communicate, support each other, and access meaningful resources they might need for doing their work.
 
-### Providing Tools to Your Team
+## Providing Tools to Your Team
 Being part of a team means (or should mean) fluid communication. In Slingshot you can use different types of communication like team or project discussions, project issues, notifications, or even a general chat.
 
 You can communicate live with the members of your team via **team discussions**, containing topics:
@@ -29,6 +29,6 @@ Using shared team resources is required to collaborate, working towards a common
 
 <img src="../images/projects-content.png" alt="Showing several team boards and team cloud storages" class="responsive-img"/>
 
-### Want to Know More About Teams?
+## Want to Know More About Teams?
 
 Continue [here](teams-starting.md)!

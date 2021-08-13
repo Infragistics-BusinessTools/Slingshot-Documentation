@@ -1,4 +1,4 @@
-## Dashboards
+# Dashboards
 
 Dashboards are a quick and simple way to display minimal information at
 first sight. It is a data visualization composed of a collection of
@@ -8,7 +8,7 @@ different pieces of related information, enabling users to make sense of their d
 
 <img src="images/dashboards-home-page.png" alt="A complete dashboard example" class="responsive-img"/>
 
-### The Dashboard Creation Process
+## The Dashboard Creation Process
 
   - **Discover the KPI**: decide what you or your analysts want to show
     in your dashboard, and what it needs to revolve around.
@@ -25,7 +25,7 @@ different pieces of related information, enabling users to make sense of their d
   - **Review and iterate**: once your dashboard is ready, you can review
     it and make any changes you or your analysts deem necessary.
 
-### Where to Continue?
+## Where to Continue?
 
 With Analytics, you can:
 

@@ -1,14 +1,14 @@
-## Notifications
+# Notifications
 
 A notification can be defined as an indicator that a certain event has happened. This is a fairly common feature in smartphones, applications, and websites, providing new information to the user.
 
 Sometimes notifications can become overwhelming, as an application can consistently send you  notifications that are not worthy of your attention. In Slingshot, we definitely want to avoid that feeling, so you start with cautious notifications settings. In any case, you can always modify the settings according to your preferences.
 
-### So, what's a Slingshot notification?
+## So, what's a Slingshot notification?
 
 It's an auto-generated indicator that is sent to you to let you know a certain event has happened. There are three different types of notifications, in-app, push, and email. This means that you can get a message that pops up while using Slingshot (in-app notification), a message that pops up on a mobile device (push notification), or even an email. As you can get Slingshot on any platform, tweaking those settings is important to customize your experience.
 
-### Stay informed with notifications
+## Stay informed with notifications
 
 Notifications are designed to keep you updated of any changes in workspaces, tasks, messages, mentions, and dashboards. You can learn, among others, that a task was assigned to you, that you are removed from a workspace, or even that someone sent a message in a discussion thread you're following.
 
@@ -20,7 +20,7 @@ Within the *Notifications* panel, you can use the *Mark all as read* option at t
 
 <img src="../images/notifications-panel-overflow.png" alt="Notifications panel opened in Slingshot, using the overflow" width="75%" class="responsive-img"/>
 
-### How can I change my notifications settings?
+## How can I change my notifications settings?
 
 There are three different types of notifications: in-app, push, and email. 
 

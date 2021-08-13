@@ -1,4 +1,4 @@
-## First Time Signing In
+# First Time Signing In
 
 Welcome to Slingshot!  
 When opening the app you'll be met with different sign in options:
@@ -16,7 +16,7 @@ Want to know more about having an Organization in Slingshot? Read the [Workspace
 Or learn what permissions a user can have in the Organization from the [Roles and Permissions FAQ](roles-permissions-faq.md). 
 
 
-### Your first screen
+## Your first screen
 
 Once you get in, you are greeted with your first screen:
 
@@ -28,7 +28,7 @@ You always start in your personal space, **My Stuff**. Specifically, in _My Over
 
 As you can see above, _My Overview_ can get very busy. Let's focus on getting you familiar with Slingshot first...
 
-### My Stuff, Organization, Workspaces
+## My Stuff, Organization, Workspaces
 
 Your personal space, **My Stuff**, is great and useful, but Slingshot is about effective collaboration in *Workspaces* where you can run teams and projects. So, you're probably wondering how to switch between your personal space, the Organization, and the workspaces... 
 
@@ -49,7 +49,7 @@ When the *Workspaces* tab is selected, you will see a list of [workspaces and su
 Keep in mind that in Slingshot, people can be part of an Organization and limitless workspaces. You can create sub-workspaces inside a workspace if you want to structure it further. You'll have overviews, tasks, discussions, content, and analytics at both levels. For example, there are tasks in the parent workspace and tasks in each of the sub-workspaces as well.  
 Follow the link for further details about [Workspaces](workspaces.md).
 
-### Overviews, Workspaces, Tasks, Discussions, Content, and Analytics
+## Overviews, Workspaces, Tasks, Discussions, Content, and Analytics
 
 Inside Slingshot workspaces, you will find the six main navigation tabs: **Overview**, **Workspaces**, **Tasks**, **Discussions**, **Content**, **Analytics**.
 
@@ -67,7 +67,7 @@ But why is that? Let's answer this question quickly by explaining the idea behin
 
 The image above shows the navigation tabs of a Slingshot workspace, the Organization, a sub-workspace, and *My Stuff*. But only workspaces include all the main navigation tabs. 
 
-### Notifications and User Settings
+## Notifications and User Settings
 
 [Notifications](notifications.md) are designed to keep you updated on any changes to workspaces, tasks, messages, and analytics. There are three different types of notifications, in-app, push, and email.
 

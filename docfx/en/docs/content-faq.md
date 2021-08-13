@@ -1,8 +1,8 @@
-## Learn more about Content & Boards
+# Learn more about Content & Boards
 
 Welcome! Read on to get answers to your questions about content and boards.
 
-### Personal vs shared boards/cloud storages
+## Personal vs shared boards/cloud storages
 
 Connections to cloud storages get you access to your content within Slingshot and boards help you organize and share it with others.
 You can configure both personal and workspace boards and cloud storages, but they are meant to be used in different scenarios.
@@ -12,7 +12,7 @@ That being said, you can share personal content with others if you want. When yo
 
 All the members of a workspace have access to workspace cloud storages and boards. These shared connections and boards are in the _Content_ tab of that workspace.  And everyone within the workspace can manage the connection or pin content to any board whenever they want.
 
-### Boards vs sections vs groups
+## Boards vs sections vs groups
 
 If boards are just containers, what are sections and groups? Below you can see examples of both sections and groups in a board.
 
@@ -24,7 +24,7 @@ You actually pin your content to **Groups**. Sections can hold several groups an
 
 Boards, sections, and groups can all be reorganized, copied, and moved around if needed. This is very important as it makes it easy for you focus on your work, not planning ahead which sections or groups you need. You can even move boards away from workspaces. All this changes can happen organically and were designed to boost productivity and avoid losing time.  
 
-### How can I access my boards/cloud storages?
+## How can I access my boards/cloud storages?
 
 You can access your boards and cloud storages by going to a workspace and looking for the **Content** tab on top. In the _Content_ tab you can find both boards and cloud storages (see the screenshot below). 
 
@@ -33,7 +33,7 @@ You can access your boards and cloud storages by going to a workspace and lookin
 If you bookmark one of the boards to keep it at hand, you can also find it in your Personal Overview.  
 Follow the links for further details about [overviews](overviews.md).
 
-### Which cloud storages can I connect?
+## Which cloud storages can I connect?
 
 In Slingshot, you can add new connections to the following cloud storage providers:
 - Google Drive
@@ -45,7 +45,7 @@ In Slingshot, you can add new connections to the following cloud storage provide
 > [!NOTE]
 > When you add a new connection to **_SharePoint_**, you can choose between adding the root site or a specific sub site. You can also add a sub site later - search for this option in the overflow menu of your SharePoint connection.
 
-### Which types of files are supported?
+## Which types of files are supported?
 
 In Slingshot, file types are represented using different icons. The most common are:
 
@@ -57,7 +57,7 @@ In Slingshot, file types are represented using different icons. The most common 
 |![PDF file icon](../images/icon-pdf-file.png)|Adobe PDF file|![Video file icon](../images/icon-video-file.png)| Video file|
 |![Web link icon](../images/icon-web-link.png)| Web link|![Zip file icon](../images/icon-zip-file.png)| ZIP file|
 
-### How to share files?
+## How to share files?
 
 With Slingshot you can access files from different cloud storages, organize it in boards and also share those files with others.
 
@@ -68,7 +68,7 @@ To share files, basically you just pin the content you want to share to a board,
 Normally you'll use boards to share files, but if you are working within a workspace, you can pin relevant content to the overview. This will increase the visibility of that specific file. Additionally, you can also pin a file to a discussion to collaborate over it temporarily.
 
 <a name='file-permissions'></a>
-### How to set file permissions?
+## How to set file permissions?
 
 When you share files inside workspaces, you make these files available for the users inside the workspace. 
 File permissions are meant to give the file owner control over who can access their files. Each time you pin a file, Slingshot will ask you what type of permission you want to set. You will see a dialog that looks like this: 
@@ -85,7 +85,7 @@ Here, you can choose between the following three permission types:
 
 Learn more about each file permissions type and how to manage members' access in [this topic](file-permissions-faq.md). 
 
-### How to open files?
+## How to open files?
 
 Opening a file in Slingshot is as easy as clicking/tapping on it. 
 
@@ -100,7 +100,7 @@ Then, in the dropdown choose between:
 Files in personal and workspace cloud storages will be opened with the default application. However, for files that are pinned on a board in *Content*, you can always choose from their menu which application to use to open them (see the screenshot below). 
 
 <img src="../images/content-open-file.png" alt="Opening a Word file" class="responsive-img" />
-### How to edit files?
+## How to edit files?
 
 Depending on the platform you're on, you can use different applications to edit your files. As Slingshot relies on invoking 3rd party applications to do the job, it's entirely up to you.
 
@@ -108,14 +108,14 @@ Depending on the platform you're on, you can use different applications to edit 
 
 In any case, you can always download the file to your computer or device.
 
-### How to get quick access to content?
+## How to get quick access to content?
 
 Sometimes you came across relevant content that you really want to keep at hand. In those cases, you can pin the file to a private board in your personal space (My Stuff).  
 Alternatively, if you find this content already in a board, you can use _Copy Pin_ to duplicate the pin in a private board.
 
 <img src="../images/content-copy-pin.png" alt="Pin content to a board in Slingshot" width="75%" class="responsive-img"/>
 
-### How to use drag & drop to quickly pin files?
+## How to use drag & drop to quickly pin files?
 By using the drag and drop gesture, you can quickly add files or links from an external source into Slingshot's boards.  
 You actually pin content to groups. After all, boards are just containers that rely on sections and groups to organize and divide content.
 
@@ -127,11 +127,11 @@ You can change where drag & drop files are uploaded in _General Settings_ > _Man
 
 <img src="../images/general-settings-drag-and-drop.png" alt="Drag and Drop Settings access in Slingshot" class="responsive-img"/>
 
-### Can I rearrange boards, sections, and groups?
+## Can I rearrange boards, sections, and groups?
 
 You can reorganize, copy, and move around boards, sections, and groups if needed. This is very important as it makes it easy for you focus on your work, not planning ahead which sections or groups you need. You can even move boards from a [parent workspace](workspaces.html#using-workspaces-within-the-workspace) to a sub-workspace. All these changes can happen organically and were designed to boost productivity and avoid losing time.  
 
-### Rearranging sections and groups
+## Rearranging sections and groups
 
 Sections and groups can be copied and moved to improve your content arrangement after you have created your boards elements.
 The move option relocates the selected element to another board/section, while copying allows you to keep a copy of this element in its original location.

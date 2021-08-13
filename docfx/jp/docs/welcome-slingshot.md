@@ -1,4 +1,4 @@
-## Welcome to the Slingshot help!
+# Welcome to the Slingshot help!
 
 Slingshot is all about effective team collaboration and delivering results on time. It helps you run productive teams across different platforms, while making sure your team is aligned and their back their decisions with real data.  
 Enabling your team to work and collaborate in one place is a tremendous boost to visibility, accountability and trust. All well-known pillars that can be found in high performing teams.
@@ -7,7 +7,7 @@ Enabling your team to work and collaborate in one place is a tremendous boost to
 
 So, how can Slingshot do all that for you? Take a look below...
 
-### Slingshot Highlights
+## Slingshot Highlights
 
 <h4 style="color:#2328B0;">Get quick access to your status and prioritize work across all projects</h4>
 
@@ -62,7 +62,7 @@ Finally, dashboards are composed of one or more visualizations. And you can buil
 Discussions can be used to chat among members of an Organization, Team, or Project. Organized in different threads, discussions ensure all your communication, and collaboration tools are in one place, making remote teams stay productive no matter where they are.
 With Slingshot notifications, you can get informed when someone sent a message to you or in a discussion thread you're following.
 
-### Coming Soon to Slingshot
+## Coming Soon to Slingshot
 
 <h4 style="color:#2328B0;">CHAT</h4>
 
@@ -72,7 +72,7 @@ Slingshot private chat will be soon available so everyone can communicate with o
 
 This is one of those features that can boost productivity even more. We are already working on search and it's coming soon.
 
-### Where can I get Slingshot?
+## Where can I get Slingshot?
 
 Slingshot offers you a seamless, almost identical experience no matter what device you are on.
 You can use a web browser or get native applications on iOS, Android, and desktop, making it easy for you to run productive teams across different devices and platforms.

@@ -1,9 +1,9 @@
-## Analytics Overview
+# Analytics Overview
 
 Slingshot comes with a business intelligence solution integrated, one that puts the power in your hands to work with data analytics. 
 You can quickly create and edit dashboards, easily query and filter data sources, build meaningful visualization over data and effortlessly share your work with other Slingshot users. 
 
-### Feature Highlights
+## Feature Highlights
 
 
 |  |  |

@@ -1,4 +1,4 @@
-## Google Drive
+# Google Drive
 
 If you are signed in with your Google account, you will have your Google
 Drive automatically added to your data sources:
@@ -14,7 +14,7 @@ To use your Google Drive data, follow the steps below.
 
 You can now use your Google Drive data to build your visualizations.
 
-### Supported Files
+## Supported Files
 
 When working within Reveal, you will be able to use a wide variety of
 files:
