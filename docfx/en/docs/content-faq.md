@@ -138,4 +138,4 @@ The move option allows you to relocate the selected element to another board, wh
 
 By default your boards are displayed as columns. This view gives you more information about the pins you have with one look. The other view type available is *List*. The *List* view highlights sections and is ideal when you have to maintain boards with a lot of sections. 
 
-To switch from *Column* to *List* view, navigate to a board, and click/tap the View Type  <img src="../images/kanban@2x.png" alt="View type icon shown" /> button located on top right of the columns. Select *List*. Your view is changed right away. 
+To switch from *Column* to *List* view, navigate to a board, and click/tap the <img src="../images/kanban@2x.png" alt="View type icon shown" /> View Type button located on top right of the columns. Select *List*. Your view is changed right away. 
