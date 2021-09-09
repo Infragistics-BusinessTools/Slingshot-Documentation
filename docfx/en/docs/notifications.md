@@ -76,7 +76,7 @@ Slingshot allows you to turn off notifications:
 
 What's the difference? If you want to stop receiving notifications each time your manager changes the due date of a particular task, for example, you will have to *mute* this notifications group. However, if you want to turn off notifications about changes of the start/due dates of all tasks, you will need to go to the Notifications Settings and customize the notifications you receive for your *Tasks*. 
 
->[!NOTE] Push notifications for Slingshot Desktop are automatically turned off when your machine is put in Do Not Disturb mode. You will still receive all your in-app and email notifications.
+>[!NOTE] Push notifications for Slingshot Desktop are automatically turned off when your machine is in [Focus Assist](https://support.microsoft.com/en-us/windows/turn-focus-assist-on-or-off-in-windows-5492a638-b5a3-1ee0-0c4f-5ae044450e09#ID0EBD=Windows_10) mode. You will still receive all your in-app and email notifications.
 
 ### Choosing what you see in the Notifications panel
 
