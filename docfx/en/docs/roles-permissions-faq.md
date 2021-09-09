@@ -49,14 +49,13 @@ The Slingshot user who creates a workspace is automatically assigned as its **ow
 
 >[!NOTE] Your permissions in the sub-workspaces are not affected by your role in the parent workspace. This means that even if you are an owner in the parent workspace, you can't have permissions exceeding your role in the sub-workspace. For example, if you are an owner in the parent workspace and a viewer in the sub-workspace, you cannot create or delete anything in the sub-workspace.
 
-
 ### What about roles in the Organization? 
 
 Before you learn about the user roles and their permissions, you may want to know more about the Organization in Slingshot. 
 
 In short, the Organization, also called *the Org*, is a workspace, but it's not like any other workspace in Slingshot. There you can collaborate with other members of, well, your real life organization - business or non-profit. 
 
-Your Organization in Slingshot will appear right under _My Stuff_ (see below). You need sign in with Google or Microsoft using the email associated with your organization.
+Your Organization in Slingshot will appear right under _My Stuff_ (see below). You need to sign in with a Google or Microsoft account using the email associated with your organization.
 
 <img src="../images/organization-access.png" alt="Organization location under My Stuff" class="responsive-img" />
 
@@ -73,6 +72,8 @@ The roles in the Slingshot Organization are the same as in other workspaces - ow
 | Can **view** discussions, topics, content, boards, and dashboards      | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 | Can **bookmark** discussions, topics, content, boards, analytics       | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 | Can **copy a link** to discussions, topics, content, boards, analytics | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+
+>[!NOTE] If a user is removed from the Org workspace, they will automatically leave all workspaces associated with the Org. 
 
 Learn more about the Organization in the [Workspaces](workspaces-faq.html#organization-vs-workspace) topic.
 
