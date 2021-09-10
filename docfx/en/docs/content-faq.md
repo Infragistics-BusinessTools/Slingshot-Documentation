@@ -20,7 +20,7 @@ If boards are just containers, then what are sections? Below you can see an exam
 
 As shown above, **sections** are designed to help organize boards. Sections are simply divisions of a board. You actually pin your content to sections. Boards can have one or more sections and you can scroll through them by clicking & dragging (laptop or PC) or using the swipe gesture (mobile devices).
 
-Boards, and sections can be reorganized, copied, and moved around if needed. This is very important as it makes it easy for you to focus on your work, not planning ahead which sections you need. You can even move boards away from workspaces. All these changes can happen organically and were designed to boost productivity and avoid wasting time.  
+Boards, and sections can be reorganized, and moved if needed. Some content boards and sections that you create will be more important than others, so make sure to prioritize those and move them around or on the top of a list by simply drag and drop.
 
 ### How can I access my boards/cloud storages?
 
@@ -108,10 +108,7 @@ In any case, you can always download the file to your computer or device.
 
 ### How to get quick access to content?
 
-Sometimes you came across relevant content that you really want to keep at hand. In those cases, you can pin the file to a private board in your personal space (My Stuff).  
-Alternatively, if you find this content already in a board, you can use _Copy Pin_ to duplicate the pin in a private board.
-
-<img src="../images/content-copy-pin.png" alt="Pin content to a board in Slingshot" class="responsive-img"/>
+Sometimes you came across relevant content that you really want to keep at hand. In those cases, you can pin the file to a private board in your personal space (My Stuff).
 
 ### How to use drag & drop to quickly pin files?
 By using the drag and drop gesture, you can quickly add files or links from an external source into Slingshot's boards.  
@@ -127,12 +124,13 @@ You can change where drag & drop files are uploaded in _General Settings_ > _Man
 
 ### Can I rearrange boards and sections?
 
-You can reorganize, copy, and move around boards and sections if needed. This is very important as it makes it easy for you to focus on your work, not planning ahead which sections or boards you need. You can even move boards from a [parent workspace](workspaces.html#using-workspaces-within-the-workspace) to a sub-workspace. All these changes can happen organically and were designed to boost productivity and avoid wasting time.  
+You can reorganize, and move around boards, sections, and pins if needed. This is very important as it makes it easy for you to focus on your work, not planning ahead which sections or boards you need. You will find the *Move* option of a board, section or pin by selecting the three dots menu <img src="../images/overflow-menu.svg" alt="three dots menu icon"> next to it. 
+
+You can move boards, sections and pins between the sub-workspaces of the same parent workspace. You can also move boards from a [parent workspace](workspaces.html#using-workspaces-within-the-workspace) to a sub-workspace, and vice versa. 
 
 #### Rearranging sections
 
-Sections can be copied and moved to improve your content arrangement after you have created your boards elements.
-The move option allows you to relocate the selected element to another board, while copying allows you to keep a copy of this element in its original location.
+Sections can be moved to improve your content arrangement after you have created your boards elements. The move option allows you to relocate the selected element to another board. You can move pins and sections only between the boards of connected workspaces - a main workspace and its sub-workspaces.
 
 ### Can I change how boards are displayed? 
 
