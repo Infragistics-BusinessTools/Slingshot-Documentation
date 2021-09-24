@@ -20,7 +20,7 @@ If you don't see whether a data source is certified or not, select the plus icon
 
 ## Who Can Certify Data Sources?
 
-Certifications help users find the data that is recommended and verified by their organization. That's why **certifiers** can be: 
+Certification helps users find the data that is recommended and verified by their organization. That's why **certifiers** can be: 
 
 * <img src="images/organization-icon-48.png" alt="the org workspace icon" width="24px" height="24px" /> Organization owners; 
 * any user who is authorized by an Organization owner. 
@@ -58,12 +58,12 @@ Each data source can be certified individually in the workspace where it is adde
 3. Select <img src="images/data-source-icon.png" alt="the data sources icon used in Analytics" width="24px" height="24px" /> Data Sources on the left.
 4. Click/tap the <img src="images/not-certified-icon.png" alt="the data sources icon used in Analytics" width="24px" height="24px" /> badge icon for the data source you want to certify and choose a badge from the dropdown. 
 
-The certifications are hierarchical. This means that certifiers who can certify data sources as <img src="images/gold-badge-icon.png" alt="the gold badge icon used in Analytics" width="24px" height="24px" /> *Gold* will also see the <img src="images/silver-badge-icon.png" alt="the silver badge icon used in Analytics" width="24px" height="24px" /> *Silver* and <img src="images/bronze-badge-icon.png" alt="the bronze badge icon used in Analytics" width="24px" height="24px" /> *Bronze* badges available in the dropdown. And *Bronze* certifiers will only see the bronze badge available. 
+The certificates are hierarchical. This means that certifiers who can certify data sources as <img src="images/gold-badge-icon.png" alt="the gold badge icon used in Analytics" width="24px" height="24px" /> *Gold* will also see the <img src="images/silver-badge-icon.png" alt="the silver badge icon used in Analytics" width="24px" height="24px" /> *Silver* and <img src="images/bronze-badge-icon.png" alt="the bronze badge icon used in Analytics" width="24px" height="24px" /> *Bronze* badges available in the dropdown. And *Bronze* certifiers will only see the bronze badge available. 
 
 >[!NOTE] Keep in mind that if two data source in two workspaces are named the same, the certifier has to certify them in each of the workspaces individually. The certificate will not be transferred automatically as the certifier has to first make sure they contain the same information.
 ## Moving and Copying Data Sources
 
-When you move a certified data source from one workspace to another, the certification will be kept in the destination workspace. 
+When you move a certified data source from one workspace to another, the certificate will be kept in the destination workspace. 
 
 When you copy a certified data source from one workspace to another, the certificate will be lost. This gives you the opportunity to modify the data source in the destination workspace. You can have it certified later if it still meets the certification criteria in your Organization.
 
