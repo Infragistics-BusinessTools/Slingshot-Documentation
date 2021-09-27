@@ -1,8 +1,8 @@
-## Learn More about File Permissions
+# Learn More about File Permissions
 
 Welcome! Read on to get answers to your questions about files permissions.
 
-### How is file security granted in Slingshot?
+## How is file security granted in Slingshot?
 
 When [pinning files](content-boards.html#working-with-your-content-in-slingshot) to a content board to share them with others, you may be concerned with different aspects of security. Will sensitive business information be seen by someone inappropriate? Can other users delete your file? Who can edit it?
 
@@ -11,7 +11,7 @@ Slingshot grants you file security by allowing you to **choose who can access yo
 
 >[!NOTE] Other users **cannot delete** a file you pinned to a board. Boards are only containers that keep connections to a cloud provider where your file is located. Owners and members of the workspace, however, can delete the connection by *unpinning* the file.
 
-### How can I set file permissions?
+## How can I set file permissions?
 
 When you share files inside workspaces, you make these files available for the users inside the workspace. 
 
@@ -22,7 +22,7 @@ File permissions are meant to give the file owner control over who can access th
 
 Each time you pin a file, Slingshot will open the *File Permissions* dialog and ask you what type of permissions you prefer (see below).
 
-<img src="../images/file-permissions-dialog.png" alt="A dialog showing the three file permission types" class="responsive-img" />
+<img src="../images/file-permissions-dialog.png" alt="A dialog showing the three file permission types" width="75%" class="responsive-img" />
 
 Here, you can choose between the following three permission types:
 
@@ -30,7 +30,7 @@ Here, you can choose between the following three permission types:
  - **Automatic Access** 
  - **Request Access** 
 
-### What do the different file permissions mean? 
+## What do the different file permissions mean? 
 
 **Request Access** is the default and most restrictive. It means anyone who tries to open the file for the first time has to request access to the file owner. The file owner will receive an email, prompting them to *grant* or *deny* access. By granting access, the owner of the file gives permissions to the user to open and edit the file. 
 
@@ -47,14 +47,14 @@ The file owner can also pre-allow access for chosen workspace's members by using
 
 Find out how file permissions apply when sharing a file in the chat by reading [How Can I Share a File in the Chat?](chat-faq.html#how-can-i-share-a-file-in-the-chat). 
 
-### Can I control who has rights to edit my file?
+## Can I control who has rights to edit my file?
 
 Each user whom you grant access in Slingshot can both open and edit your file. However, you can revoke editing permissions anytime. You have two possibilities. 
 
 1. You can revoke the edit permissions to the file through your cloud storage provider - <a href="https://support.microsoft.com/en-us/office/share-files-and-folders-in-onedrive-personal-3fcefa26-1371-401e-8c04-589de81ed5eb" target="_blank">OneDrive</a>, <a href="https://support.google.com/docs/answer/2494893#zippy=%2Cstop-sharing-a-file-or-folder" target="_blank">Google Drive</a>, <a href="https://help.dropbox.com/files-folders/share/set-folder-permissions" target="_blank">Dropbox</a>, <a href="https://support.box.com/hc/en-us/articles/360044196413-Understanding-Collaborator-Permission-Levels" target="_blank">Box</a>, and <a href="https://support.microsoft.com/en-us/office/customize-permissions-for-a-sharepoint-list-or-library-02d770f3-59eb-4910-a608-5f84cc297782" target="_blank">SharePoint.</a>
 2. You can stop granting access to the file to selected users by using the settings in Slingshot. See how to manage file permissions in Slingshot below.  
 
-### How can I manage file permissions in Slingshot?
+## How can I manage file permissions in Slingshot?
 
 You can always view and edit the permissions to your files in Slingshot. You can also manage the members that already have access.  
 
@@ -75,7 +75,7 @@ On the right of each member's name, you can click/tap **Editor** > **Remove** to
 
 >[!NOTE] **Access  cannot be automatically revoked.**  Users who have already opened the file even once, are added as *Editors* and their access will not be automatically revoked with changing the file permissions to the more restrictive type. So, if you change a file's permissions from *Automatic Access* to *Request Access* make sure you check for *Editors* in **Member Access** and revoke their permissions if necessary.
 
-### How do file permissions work in the discussions and the chat? 
+## How do file permissions work in the discussions and the chat? 
 
 Sometimes you need to share files pinned to a board with people who are not part of the workspace. Slingshot allows you to do this, by: 
 

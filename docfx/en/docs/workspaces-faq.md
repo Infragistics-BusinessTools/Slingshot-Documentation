@@ -1,9 +1,9 @@
-## Learn more about Workspaces
+# Learn more about Workspaces
 
 Welcome! Read on to get answers to your questions about workspaces.
 
 <a name='organization-vs-workspace'></a>
-### Organization vs workspace vs sub-workspace
+## Organization vs workspace vs sub-workspace
 
 In Slingshot, people can be part of an Organization, and of limitless workspaces and sub-workspaces.
 The purpose of having an Organization workspace is for company leaders to have the ability to communicate key goals, metrics, strategies, and important announcements throughout their organization.   
@@ -23,19 +23,19 @@ You will find your Organization workspace right under *My Stuff* (see below).
 
 <img src="../images/welcome-overview-subworkspace.png" alt="A sub-workspace's Overview" class="responsive-img"/>
 
-### How can I access my workspaces?
+## How can I access my workspaces?
 
 You can access your workspaces on the very left of the screen, in the Workspaces area (shown below).
 
-<img src="../images/workspaces-area.png" alt="The Workspaces navigation area opened with a list of workspaces in it" class="responsive-img"/>
+<img src="../images/workspaces-area.png" alt="The Workspaces navigation area opened with a list of workspaces in it" width="75%" class="responsive-img"/>
 
 By scrolling down you are able to navigate all your workspaces and their sub-workspaces. To access a workspace faster, you can bookmark it. From now on, you can also find this workspace under the _Bookmarks_ tab. If you are in doubt where a sub-workspace comes from, check under its name. You will see the name of its parent workspace written in grey (see the screenshot).
 
-<img src="../images/workspaces-bookmarks.png" alt="My Stuff opened and Bookmarks selected" class="responsive-img"/>
+<img src="../images/workspaces-bookmarks.png" alt="My Stuff opened and Bookmarks selected" width="75%" class="responsive-img"/>
 
 To open any workspace, just click/tap over it.
 
-### How can I discover and join other workspaces?
+## How can I discover and join other workspaces?
 
 To become a workspace member you first need to discover your new workspace. Select the _New Workspace_ button at the bottom of the *Workspaces* panel to open a dialog with the available workspaces.
 
@@ -45,7 +45,7 @@ In this dialog, you will find **only public workspaces, part of your Organizatio
 
 To become part of **private workspace or workspaces outside of your Organization**, you need to be invited by their owner.
 
-### How can I join a sub-workspace? 
+## How can I join a sub-workspace? 
 
 As it was already mentioned, sub-workspaces can mix together users from the parent workspace with users, who are not part of it. [Personal account users](roles-permissions-faq.html#what-about-users-with-no-organization) can also join a sub-workspace without being members of its parent workspace.
 
@@ -55,15 +55,15 @@ After you are added to a sub-workspace, you will receive notifications about the
 
 If you are part of the parent workspace and you haven't joined some of its sub-workspaces, you can click on the blue button under its name. There you will find the available sub-workspaces and you can select *Join* next to the name of the ones you want to join (see below). 
 
-<img src="../images/unjoined-workspaces.png" alt="A workspace with two unjoined sub-workspaces" class="responsive-img">
+<img src="../images/unjoined-workspaces.png" alt="A workspace with two unjoined sub-workspaces" width="75%" class="responsive-img">
 
 >[!NOTE] You can always view the content in sub-workspaces without joining them. However, you will not receive any notification updates from them.
 
-### What is added to the Shared with Me workspace? 
+## What is added to the Shared with Me workspace? 
 
 As you already know, in Slingshot you can work with other users in a sub-workspace even when you are not a member of its parent workspace. You will find all such sub-workspaces under the *Shared* workspace.
 The *Shared* workspace automatically appears in the Workspaces panel the first time you are added individually to a sub-workspace. 
-### How can I create a new workspace?
+## How can I create a new workspace?
 
 Every user in Slingshot can create workspaces.  
 Access the workspace creation menu by selecting the *New Workspace* button at the bottom of the *Workspaces* panel and then *+ Create Workspace*.
@@ -84,18 +84,18 @@ In this dialog, configure the following:
 
 Click **Create**. Your workspace is created and you can find it in the *Workspaces* panel. 
 
-### How can I add members to a workspace? 
+## How can I add members to a workspace? 
 
 The *Who is collaborating in this workspace?* dialog appears right after you create the workspace. To invite members, click/tap the **+ Members** blue button. Choose Organization members from the dropdown list (see below) or use the text box at the top to add the emails of [personal account users](roles-permissions-faq.html#what-about-users-with-no-organization). 
 
-<img src="../images/workspace-invite-members.png" alt="Inviting team members" class="responsive-img" />
+<img src="../images/workspace-invite-members.png" alt="Inviting team members" width="75%" class="responsive-img" />
 
 >[!NOTE]
 >When adding members, whose emails are not auto-completed by Slingshot, type the whole email and press Enter to add it to the list of users you want to invite.
 
 Select **Done** when you are ready. All users in the list are assigned the default _Member_ role. From the dropdown next to each name, you can change the role to _owner_ or _Viewer_. How are these roles different from _Member_? See in the [Roles & Permissions FAQ](roles-permissions-faq.md) topic.
 
-### How can I create a workspace inside the workspace?
+## How can I create a workspace inside the workspace?
 
 You can create limitless workspaces within a [parent workspace](workspaces.html#using-workspaces-within-the-workspace). To create a new sub-workspace (a workspace within a workspace), follow the steps below. 
 
@@ -105,7 +105,7 @@ You can create limitless workspaces within a [parent workspace](workspaces.html#
 4. You are only required to choose a name for your sub-workspace. _Status_, _Start Date_ and _End Date_ are optional.
 5. Select _Create_. Your new sub-workspace will appear in a list inside _Workspaces_. You will also see it under the parent workspace in the main *Workspace* panel on the left.
 
-### How can I manage workspace members?
+## How can I manage workspace members?
 
 You have to be a workspace owner to be able to: 
 
@@ -116,7 +116,7 @@ You have to be a workspace owner to be able to:
 
 To access the workspace members dialog select the overflow menu of a workspace and then **Manage Members**. 
 
-<img src="../images/workspace-members-dialog.png" alt="The workspace members dialog" class="responsive-img" />
+<img src="../images/workspace-members-dialog.png" alt="The workspace members dialog" width="75%" class="responsive-img" />
 
 To invite new members select the **+ Members** blue button.
 
@@ -133,7 +133,7 @@ The same rules for managing members in the parent workspace are applicable to al
 
 >[!NOTE] Owners of the parent workspace cannot manage members in a sub-workspace where they are not an owner.
 
-### Can I assign tasks to people from outside of a workspace?
+## Can I assign tasks to people from outside of a workspace?
 
 Sometimes you may need to work on a particular task or project with people outside of your workspace. In this case, it doesn't make sense to add them as members to your workspace.
 
@@ -146,16 +146,16 @@ Users will receive a notification about the task they were assigned. For them th
 If you unfollow a sub-workspace, you will receive notifications only for the tasks assigned to you within this the sub-workspace.
 
 <a name='workspace-settigs'></a>
-### How can I change the workspace privacy, name or description?
+## How can I change the workspace privacy, name or description?
 
 If you are the owner of a workspace (or sub-workspace) you can change its settings. To do this, select your workspace overflow menu > *Workspace Settings*.
 
-<img src="../images/workspace-overflow-menu.png" alt="A workspace overflow menu" class="responsive-img">
+<img src="../images/workspace-overflow-menu.png" alt="A workspace overflow menu" width="75%" class="responsive-img">
 
 
 Here you can change your workspace's name, description and privacy.
 
-### Deleting vs leaving a workspace
+## Deleting vs leaving a workspace
 
 To make a workspace disappear from your Workspace panel you can either delete it or leave it.
 

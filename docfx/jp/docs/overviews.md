@@ -1,10 +1,10 @@
-## Getting the Big Picture with Overviews
+# Getting the Big Picture with Overviews
 
 In short, an overview is a general review or summary about something, it helps you get the big picture, while leaving out details that are too specific.
 
 Putting a little thought into to this, big picture thinking can be a big help for us to act proactively rather than reactively. A quick glance to the most important information around something can be a game changer. For example, taking advantage of a useful overview related to your team's work can push you towards high-performing teams ground.
 
-### So, What's a Slingshot Overview?
+## So, What's a Slingshot Overview?
 
 It's a quick snapshot of a project, a team, or your personal work. Slingshot overviews present you with the current status of one of those three by including summarized information.
 
@@ -20,7 +20,7 @@ Your **personal overview** is that one place where you can visualize your work a
 
 <img src="../images/overview-personal.png" alt="Personal Overview shown in Slingshot" class="responsive-img"/>
 
-### Why Visibility is so Important?
+## Why Visibility is so Important?
 In an [agile world](https://agilemanifesto.org/), you can never go wrong by saying that trust and transparency are key elements for a team leader seeking effective collaboration. That being said, visibility is essential for allowing, if not actually creating trust and transparency within a team.  
 
 Slingshot might be all about visibility yes, but overviews were specifically designed with visibility in mind. Besides helping build trust and transparency, overviews can help you turn challenges into opportunities. Using Slingshot overviews you are able to contrast and reframe current challenges while you adapt to a changing reality.   

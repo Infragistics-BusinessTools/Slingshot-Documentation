@@ -1,12 +1,12 @@
-## Search
+# Search
 
 If you have been on the Internet at least once, you know it's all about finding the right information! And search is the tool to help you with this.  
 
-### So, what's the Slingshot's Search?
+## So, what's the Slingshot's Search?
 
 The search provides neatly organized results from everywhere inside Slingshot. The variety of filtering options ensure great precision and quickly finding exactly what you need.
 
-### How to start my search?
+## How to start my search?
 
 You can quickly start your search from anywhere - a workspace, tasks, *My Stuff*, etc. 
 
@@ -18,7 +18,7 @@ You can quickly start your search from anywhere - a workspace, tasks, *My Stuff*
 
 3. The search results pane opens on the left.
 
-### Where can I search?
+## Where can I search?
 
 The search results pane shows results from **everywhere** inside Slingshot. The results are displayed separately in five tabs: 
 
@@ -28,26 +28,26 @@ The search results pane shows results from **everywhere** inside Slingshot. The 
 * *Content* - shows results from all boards in _My Stuff_, *Workspaces* and the *Organization*.
 * _Analytics_ - shows results for dashboards and dashboard folders in My Stuff, Workspaces and the *Organization*.
 
-### Can I share or save results?
+## Can I share or save results?
 
 In the results pane, you can open the overflow menu of a result (see the screenshot) and use the *Copy Link* option to share it with others. You can also save results in _Bookmarks_.
 
-<img src="../images/results-settings.png" alt="results overflow menu" class="responsive-img" />
-### How Can I Filter Results?
+<img src="../images/results-settings.png" alt="results overflow menu" width="75%" class="responsive-img" />
+## How Can I Filter Results?
 
 You may receive too many results and need to refine your search to find exactly what you need. For this purpose, you will find a second tier of filters under each result tab.
 
 These filters are specific for the selected result type. For example, if you select _Tasks_, you can then use the filter to see only results in _Task Lists_ or to filter by task's creator, assignee, due date, etc.
 
-<img src="../images/type-specific-filters.png" alt="tasks specific filters" class="responsive-img" />
+<img src="../images/type-specific-filters.png" alt="tasks specific filters" width="75%" class="responsive-img" />
 
 >[!NOTE] Your filters' settings will be kept for your next search until you close the search results pane or refresh the page. So, if next time your search criteria change don't forget to check your search filters too.
 
-#### Filtering by location
+### Filtering by location
 
 If you need results related to a specific workspace, or from your personal space (_My Stuff_), use the _Location_ filter dropdown just above the result tabs (see below).
 
-<img src="../images/location-filter-dropdown.png" alt="location filter dropdown" class="responsive-img" />
+<img src="../images/location-filter-dropdown.png" alt="location filter dropdown" width="75%" class="responsive-img" />
 
 The _Location_ filter is applied to all results and is not affected by which result tab you chose.
 

@@ -1,10 +1,10 @@
-## Content & Boards
+# Content & Boards
 
 Content is really a broad term, but related to IT, is always about information made available by a digital or electronic medium.  The content that is relevant to you might be stored in different locations and, in today's digital world, probably in different cloud storages. Slingshot lets you access that content, share it, and organize it in boards.
 
 Scrum boards and Kanban boards are well-known IT concepts that are both related to project management. Going for a broader concept, boards can also be just containers that help organize and manage content. That is the case of Slingshot, boards were created so you can have a place to organize your content.
 
-### So, what's content within Slingshot?
+## So, what's content within Slingshot?
 
 Content refers to:
 
@@ -14,12 +14,12 @@ Content refers to:
 
 made available to you in the _Content_ tab. You will find a *Content* tab in _My Stuff_, each of your *Workspaces*, and in the *Organization* space. You can add content from your device or cloud storage.
 
-### What are boards within Slingshot? 
+## What are boards within Slingshot? 
 
 Boards are basically containers, rich and flexible containers designed to organize, manage, and share your content. 
 So, when you need to organize or share content from your cloud storages or device, just pin that content to a board, and later organize or share that board.
 
-### Working with your content in Slingshot
+## Working with your content in Slingshot
 
 Pinning content is how you make your content available in Slingshot. You just go to a board and choose _Pin_. 
 
@@ -49,11 +49,11 @@ Alternatively, you can go to existing cloud storage in _My Stuff_  and choose _P
 
 After choosing an option, you'll be prompted to select where to pin the file. 
 
-<img src="../images/pin-content-destination.png" alt="Choosing the destination of the content within Slingshot" class="responsive-img"/>
+<img src="../images/pin-content-destination.png" alt="Choosing the destination of the content within Slingshot" width="75%" class="responsive-img"/>
 
 Finally, you often will be editing your files. Depending on the platform, you may use different applications as Slingshot relies on invoking 3rd party applications to do the job.  
 In addition, you can always download the file to your computer or device.
 
-### Want to know more about Content & Boards?
+## Want to know more about Content & Boards?
 
 Continue [here](content-faq.md)!

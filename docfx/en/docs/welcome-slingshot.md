@@ -1,4 +1,4 @@
-## Welcome to the Slingshot Help!
+# Welcome to the Slingshot Help!
 
 Slingshot is all about effective collaboration and delivering results on time. It helps you run productive teams across different platforms, while making sure your team is aligned and they back their decisions with real data.  
 Enabling your team to work and collaborate in one place is a tremendous boost to visibility, accountability and trust. All well-known pillars that can be found in high-performing teams.
@@ -11,7 +11,7 @@ For details about the available platforms and how to install Slingshot, go [here
 
 So, how can Slingshot do all that for you? Take a look below...
 
-### Slingshot highlights
+## Slingshot highlights
 
 <h4 style="color:#2328B0;">Get a quick access to your current status and prioritize work across all workspaces</h4>
 
@@ -80,14 +80,14 @@ With Slingshot's chat, you'll be able to have multiple conversations going on at
 Slingshot helps you focus on collaboration instead of managing content. You can access content from many cloud providers, using boards to organize that content and securely share it with others.  
 Everyone'll always have the most up-to-date version of documents, eliminating the need to send documents back and forth.
 
-### Where can I get Slingshot?
+## Where can I get Slingshot?
 
 Slingshot offers you a seamless, almost identical experience no matter what device you are on.
 You can use a web browser or get native applications on iOS, Android, and Desktop, making it easy for you to run productive teams across different devices and platforms.
 
 <a href="https://my.slingshotapp.io/" target="_blank">Go to Slingshot <b>Web</b>.</a>
 
-<a href="[https](https://www.slingshotapp.io/download-apps)" target="_blank">Get Slingshot <b>native apps</b> (Android, iOS, desktop).</a>
+<a href="https://www.slingshotapp.io/download-apps" target="_blank">Get Slingshot <b>native apps</b> (Android, iOS, desktop).</a>
 
 Below you can find the versions supported for each platform:
 

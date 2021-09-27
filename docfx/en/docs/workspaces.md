@@ -1,14 +1,14 @@
-## Workspaces
+# Workspaces
 
 A *workspace* can be defined as the area where you engage in physical or mental activities to achieve a result. Nowadays, your workspace can be your office, desk, a coffee shop, or even your home. In IT, "workspace" is often used to refer to a computer screen or application where you work and the way it is arranged. A common trait to all workspaces is that they meet a set of requirements that help you do your work efficiently. Of course, those requirements vary greatly depending on each specific scenario. 
 
-### So, what's a Slingshot workspace?
+## So, what's a Slingshot workspace?
 
 It’s the virtual area where you get your work done within Slingshot. Very close to the IT definition of workspace, right?  It's also very close to the traditional understanding as it delivers an area where you can communicate and collaborate with others. 
 
 And Slingshot is all about team collaboration and supporting each other towards common objectives. It can be said that good teams understand each other and work well together. But Slingshot's workspaces do not only gather together good teams. By providing a combination of tools that enable solid leadership, good communication, and access to the right resources, the workspaces dramatically improve productivity and collaboration. Just the right recipe to make good teams great!
 
-### Providing tools for effective communication
+## Providing tools for effective communication
 
 Your workspace in Slingshot is intended to facilitate your collaboration with others. Being part of a team means fluid communication. That's why you can use different types of communication like workspace discussions, task activity comments, notifications, or even a general chat.
 
@@ -22,7 +22,7 @@ You can also communicate with any Slingshot user (or group of users) through the
 
 Communication is not limited to writing. You can also attach files, use emojis, and react to messages.
 
-### Ensuring collaboration fluency 
+## Ensuring collaboration fluency 
 
 To support each other, the members of a workspace can get a sense of the workspace status at a glance. Using the workspace *overview* you can keep yourself informed about all members and their tasks, helping you proactively contact those in need. You can, for example, start a discussion to get a team member's attention. And they will receive a notification to alert them that they were mentioned.
 
@@ -33,7 +33,7 @@ When you work towards a common objective, using shared resources is required. On
 <img src="../images/content-sub-workspace.png" alt="An example of a board used to hold workspace resources" class="responsive-img">
 
 <a name='sub-workspaces'></a>
-### Using workspaces within the workspace
+## Using workspaces within the workspace
 
 More often than not, you will collaborate with different people in your workspace  that work on  separate tasks. Sometimes even people from outside the workspace might join to work on a specific project. For example, if you are part of a Marketing workspace, you may want to separate the marketing campaigns. All collaborators will benefit from tracking the progress on each campaign more easily, to communicate faster and to get data about the campaign success rate *from Slingshot's Analytics*. 
 

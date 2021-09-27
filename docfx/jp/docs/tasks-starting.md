@@ -1,9 +1,9 @@
-## Starting with Tasks
+# Starting with Tasks
 
 Welcome!  
 Read on to get answers to most of your questions about tasks.
 
-### Personal vs shared tasks
+## Personal vs shared tasks
 In Slingshot you can have personal and shared tasks, they work pretty much the same but they do have a few differences detailed below.
 
 Only you have access to your **personal tasks** and you can find them in your personal space (Home).
@@ -14,7 +14,7 @@ Only you have access to your **personal tasks** and you can find them in your pe
 
 <img src="../images/tasks-team.png" alt="Slingshot Team with a tasks displayed in a list" class="responsive-img"/>
 
-### How can I access my tasks?
+## How can I access my tasks?
 
 You can access *Tasks* on the very left of the screen as shown below.
 
@@ -35,7 +35,7 @@ To **open a task**, just click/tap over it.
 > [!NOTE]
 > When you can't find a specific task, try expanding collapsed panels, removing existing filters, and/or adding filters using the properties of the task you want.
 
-### How can I create a new task or subtask?
+## How can I create a new task or subtask?
 
 You can always create a **new task** with the button on the top right of the screen, no matter the visualization you are (List, Kanban, or Timeline).
 
@@ -55,7 +55,7 @@ Having the task opened also allows you to insert new subtasks as shown below.
 
 <img src="../images/tasks-new-subtasks-others.png" alt="Other options to create a new task within a Slingshot task" class="responsive-img"/>
 
-### How can I change Properties?
+## How can I change Properties?
 
 All the properties of a task, like status, title, assignees, or priority can be changed using different methods.
 
@@ -65,14 +65,14 @@ A **faster method** is to just click/tap the property value you want to change, 
 
 <img src="../images/tasks-change-property.png" alt="Slingshot task being updated by changing its status" class="responsive-img"/>
 
-### How can I show/hide columns?
+## How can I show/hide columns?
 Tasks have many field properties that can be displayed in columns, however by default you can only see *Title*, *Assignee*, and *Due Date*.
 
 To show/hide columns, just **click/tap over Fields** as shown below.
 
 <img src="../images/tasks-fields.png" alt="Accessing task fields within Slingshot" class="responsive-img"/>
 
-### How can I filter tasks?
+## How can I filter tasks?
 Filtering allows you to choose a smaller amount of tasks, helping you find those tasks you currently need.
 
 You can access the **Filters** editor on the very right of the screen as shown below.
@@ -97,7 +97,7 @@ In addition, you can save a filter you just created on the spot using **Save As 
 
 For those times that you can't find a specific task, try expanding collapsed panels, removing existing filters, and/or adding filters using the properties of the task you want. Remember that the icon changes to help you can identify when you have active filters or not.
 
-### Switching between List, Kanban, and Timeline
+## Switching between List, Kanban, and Timeline
 
 You can choose between three different visualizations (list, kanban, timeline), depending on what you want to achieve.
 
@@ -123,7 +123,7 @@ In addition, you are able to change the scale (days, weeks, months) or even show
 
 <img src="../images/tasks-visualizations-timeline-settings.png" alt="Adjusting the Timeline visualization in Slingshot" class="responsive-img"/>
 
-### Using Lists and Sections
+## Using Lists and Sections
 
 In Slingshot, you can organize your tasks by using Lists and Sections.  
 
@@ -134,7 +134,7 @@ In Slingshot, you can organize your tasks by using Lists and Sections.
 **Lists** help you organize your tasks and can be reorganized, copied, and moved around if needed.
 This is very important as it makes it easy for you focus on your work, not planning ahead which lists or sections you need. All this changes can happen organically and were designed to boost productivity and avoid losing time.  
 
-### Working with Attachments
+## Working with Attachments
 
 The ability to add **attachments** ensures that Slingshot captures all the relevant information for your tasks and subtasks.
 
@@ -152,7 +152,7 @@ To attach a file, open a task and **click/tap the clip icon** as show below.
 <img src="../images/tasks-attachments-new.png" alt="Adding attachments to a Slingshot task" class="responsive-img"/>
 
 
-### How to create a task from a discussion
+## How to create a task from a discussion
 
 Slingshot discussions ensure all your communication and collaboration tools are in one place, making remote teams stay productive no matter where they are.  
 
