@@ -61,6 +61,7 @@ Each data source can be certified individually in the workspace where it is adde
 The certificates are hierarchical. This means that certifiers who can certify data sources as <img src="images/gold-badge-icon.png" alt="the gold badge icon used in Analytics" width="24px" height="24px" /> *Gold* will also see the <img src="images/silver-badge-icon.png" alt="the silver badge icon used in Analytics" width="24px" height="24px" /> *Silver* and <img src="images/bronze-badge-icon.png" alt="the bronze badge icon used in Analytics" width="24px" height="24px" /> *Bronze* badges available in the dropdown. And *Bronze* certifiers will only see the bronze badge available. 
 
 >[!NOTE] Keep in mind that if two data source in two workspaces are named the same, the certifier has to certify them in each of the workspaces individually. The certificate will not be transferred automatically as the certifier has to first make sure they contain the same information.
+
 ## Moving and Copying Data Sources
 
 When you move a certified data source from one workspace to another, the certificate will be kept in the destination workspace. 
