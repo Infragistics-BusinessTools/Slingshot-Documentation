@@ -23,7 +23,7 @@ So, when you need to organize or share content from your cloud storages or devic
 
 Pinning content is how you make your content available in Slingshot. You just go to a board and choose _Pin_. 
 
-As you can see below, your board is divided into sections (_My First Section_, _Section 2_ in the image). Sections can be divided to groups, where your content is actually pinned (see _My First Group_, _My Second Group_ and _My Third Group_ in the image above). Groups are the most basic element used to organize content on your boards. 
+As you can see below, your board is divided into sections (_My First Section_, _Section 2_ in the image), where your content is actually pinned. Sections are the most basic element used to organize content on your boards. 
 
 <img src="../images/pin-content-action.png" alt="Pin action in Slingshot" class="responsive-img"/>
 
