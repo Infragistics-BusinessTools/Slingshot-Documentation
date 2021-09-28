@@ -59,7 +59,7 @@ If you change your mind, you can restore the default settings. You will notice t
 
 The *Notifications* panel is where you will find updates about workspaces, tasks, messages, mentions, and dashboards. You can learn, among others, that a task was assigned to you, that you are removed from a workspace, or even that someone sent a message in a discussion thread you're following.
 
-You can access the *Notifications* panel by clicking the bell icon <img src="../images/notification-bell-transparent.png" alt="Notifications panel opened in Slingshot"/>. 
+You can access the *Notifications* panel by clicking the bell icon <img src="../images/bell-icon.png" alt="Notifications panel opened in Slingshot" width="25px" height="25px"/>. 
 
 Within the *Notifications* panel, notifications are shown in groups allowing you for finer adjustments. For example, all notifications about new comments in a topic will be shown together in a group. The comments for another topic will be collected in a different notifications group. 
 
@@ -71,7 +71,7 @@ You can *mute/unmute* or *mark as read/unread*  each group separately by selecti
 
 Slingshot allows you to turn off notifications:
 
- - by muting a particular group in the Notifications panel <img src="../images/notification-bell-transparent.png" alt="Notifications panel opened in Slingshot"/>
+ - by muting a particular group in the Notifications panel <img src="../images/bell-icon.png" alt="Notifications panel opened in Slingshot" width="25px" height="25px"/>
  - by turning off chosen notification types from the [Notifications Settings](#customizing-your-notifications). 
 
 What's the difference? If you want to stop receiving notifications each time your manager changes the due date of a particular task, for example, you will have to *mute* this notifications group. However, if you want to turn off notifications about changes of the start/due dates of all tasks, you will need to go to the Notifications Settings and customize the notifications you receive for your *Tasks*. 
@@ -87,7 +87,7 @@ By default, when you open the *Notifications panel* you will see all notificatio
 
 To filter the notifications: 
 
-1. Open the Notifications panel <img src="../images/notification-bell-transparent.png" alt="Notifications panel opened in Slingshot"/>.
+1. Open the Notifications panel <img src="../images/bell-icon.png" alt="Notifications panel opened in Slingshot" width="25px" height="25px"/>.
 2. Click/tap *Showing: All* on the left just over your notifications.
 3. Choose a filter from the dropdown (see below). 
 
