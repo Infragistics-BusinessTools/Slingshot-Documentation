@@ -4,12 +4,12 @@ The *Facebook* data source connector in *Analytics* allows you to bring your Fac
 
 ## Prerequisites
 
-The Facebook data source connector will connect you to your Facebook *Ad accounts* data. Before you try using the Facebook data source in Analytics, make sure that you have: 
+The Facebook data source connector will connect you to your Facebook *Ad accounts* data. Before you try using the Facebook data source in Analytics, make sure that: 
 
-* a personal *Facebook* profile;
-* [Facebook Business Manager](https://www.facebook.com/business/help/1710077379203657?id=180505742745347) account;
-* [added, requested or created an *Ad account*](https://www.facebook.com/business/help/910137316041095?id=420299598837059) to your Business Manager for the profile/Facebook page you want to connect;
-* not deactivated the *Ad account* for the profile/page you want to connect. If you are not sure, use this [Facebook help article](https://www.facebook.com/business/help/1798922733589154) to check and reactivate your account if needed. 
+
+* you use a [Facebook for Business ](https://www.facebook.com/business/help/) account;
+* in the [*Ads Manager*](https://www.facebook.com/business/help/200000840044554?id=802745156580214), you have [added, requested or created an *Ad account*](https://www.facebook.com/business/help/910137316041095?id=420299598837059)  for the profile or Facebook page you want to connect;
+* the *Ad account* for the profile/page you want to connect is not deactivated. If you are not sure, use this [Facebook help article](https://www.facebook.com/business/help/1798922733589154) to check and reactivate your Ad account if needed. 
 
 ## Adding a New Facebook Data Source Account
 
