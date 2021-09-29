@@ -35,7 +35,7 @@ You will see your new Facebook Ad account connection added at the bottom of your
 
 From the <img src="images/data-source-icon.png" alt="the data sources icon used in Analytics" width="24px" height="24px" /> Data Sources list, select the Facebook Ad account you want to connect. You will see the *Data Source details* dialog, which allows you to review and set up your data (look at the screenshot below). 
 
-<img src="images/data-source-details.png" alt="the data sources details dialog" class="responsive-img" />
+<img src="images/facebook-data-source-details.png" alt="the data sources details dialog" class="responsive-img" />
 
 Here you will find the following data source details: 
 
