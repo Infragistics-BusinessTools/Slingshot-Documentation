@@ -1,19 +1,18 @@
 # LinkedIn
 
-The *LinkedIn* data source connector in *Analytics* allows you to bring your LinkedIn Company Page insights to Slingshot.
+The *LinkedIn* data source connector in *Analytics* allows you to bring your LinkedIn marketing data to Slingshot. Use your *LinkedIn Ad account* data to create insightful dashboards and measure your business' social media performance.
 
 ## Prerequisites
 
-The *LinkedIn* data source connector will connect you to your LinkedIn company page data. Before using the LinkedIn data source in Analytics, make sure that:
-
-## Adding a New LinkedIn Data Source Account
+To add a *LinkedIn* data source in Analytics, you need to have at least one active [LinkedIn Ad account](https://www.linkedin.com/help/linkedin/answer/a426102/create-an-ad-account?lang=en).
+## Adding a New LinkedIn Data Source 
 
 If you have already added your LinkedIn data source to the <img src="images/data-source-icon.png" alt="the data sources icon used in Analytics" width="24px" height="24px" /> *Data Sources* list, you can skip this part and continue with [Setting Up Your Data](#setting-up-your-data).
 
 To add a *LinkedIn* data source to your list, follow the steps described below.
 
 1. Go to the <img src="images/data-source-icon.png" alt="the data sources icon used in Analytics" width="24px" height="24px" /> Data Sources tab > select the *+ Data Source* blue button > scroll to *Social Media* > select *LinkedIn*. 
-2. You will be prompted to log in with your *LinkedIn* profile.
+2. You will be prompted to log in with your *LinkedIn* profile and you might be asked to re-enter your LinkedIn password.
     CHANGE NOTE!!!
     >[!NOTE] You need to have at least one [Facebook business page](https://www.facebook.com/business/help/461775097570076?id=939256796236247) associated with the Facebook profile you are logging into. 
 3. Slingshot will get access to the relevant details in your account.

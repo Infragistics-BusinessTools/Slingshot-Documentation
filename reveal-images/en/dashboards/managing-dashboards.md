@@ -1,14 +1,25 @@
 # Managing Your Dashboards
 
 Whether you are trying to manage dashboards in your personal space or in
-a Workspace, you will always be able to choose between: *dashboards created by you*, *dashboards shared with you*, or *everything*.
+a Workspace, Analytics provides you with a variety of tools to do this. Continue reading to learn how to filter, organize, view, move or copy dashboards to any workspace. 
 
-<img src="images/dashboard-view-filter.png" alt="Filter for viewing dashboards" class="responsive-img"/>
+## Filtering Your Dashboards Lists
 
-## Organizing your Dashboards
+Over time you may gather a substantial number of dashboards in your or your workspace's <img src="images/dashboards-icon.png" alt="showing the dashboards section icon in Analytics" width="25px" height="25px"/> *Dashboards* section. To navigate easier and find quickly the dashboards you need, you can apply filters.  
 
-Reveal allows you to store and organize your dashboards in different
-**folders** and **workspaces**. You can keep them at the one level, or you can nest them within each other in case you want to group them. In order
+To do this, select the <img src="images/filter-icon.png" alt="showing the filter icon in Analytics" width="25px" height="25px"/> filter icon on the top right. Here you can choose to filter by: 
+
+- **title** - you will be shown only the dashboards that contain it their title the word(s) you typed; 
+- **creator** - you will see only dashboards created by the users you selected; 
+- **modifier** - you will see only dashboards modified by the users you selected; 
+- **modified date** - you will see only dashboards modified on the date or during the period you selected.
+
+>[!NOTE] If the filter icon is colored black <img src="images/black-filter-icon.png" alt="showing the black filter icon in Analytics" width="25px" height="25px"/>, this means a filter is already applied. If you want to see all your dashboards, click/tap the icon and select the *Clear* button to remove any filtering. 
+
+## Organizing Your Dashboards
+
+Analytics allows you to store and organize your dashboards in different
+**sections** and **workspaces**. In order
 to create your first folder, open the *overflow* menu (see below) and then choose **Folder**.
 
 <img src="images/upload-create-folder-menu.png" alt="Create a folder option" class="responsive-img"/>
