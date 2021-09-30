@@ -1,6 +1,6 @@
 # Instagram 
 
-The *Instagram* data source connector in *Analytics* allows you to bring your Instagram Insights to Slingshot.
+The *Instagram* data source connector in *Analytics* allows you to bring your Instagram insights to Slingshot.
 
 ## Prerequisites
 
