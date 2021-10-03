@@ -18,7 +18,7 @@ So, how can Slingshot do all that for you? Take a look below...
 <img src="../images/welcome-overview-personal.png" alt="A Personal Overview within Slingshot" class="responsive-img"/>
 
 Above, you can see that one place where you can visualize your work and organize yourself.  
-All your tasks can be found in *My Stuff* and also your bookmarks, which are very useful to keep at hand links relevant to you.  
+All the tasks assigned to you can be found in *My Stuff* and also your bookmarks, which are very useful to keep at hand links relevant to you.  
 With bookmarks you can quickly navigate to your workspaces, discussions, dashboards, among others.
 
 <h4 style="color:#2328B0;">Keep everyone in the know and make working with others easier than before</h4>
