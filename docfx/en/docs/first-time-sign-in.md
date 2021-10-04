@@ -38,11 +38,11 @@ Check out the image below:
 
 The navigation panel on the left includes: 
 
-- the **My Stuff** tab; 
-- the **Organization** tab (if you have one), and 
-- the **Workspaces** and **Bookmarks** tabs. 
+- the **My Stuff** tab at the very top; 
+- the **Workspaces**, **Bookmarks**, and **Groups** tabs. 
+- the **Organization** (if you have one) and a list of workspaces you've joined. 
 
-Switching between the content in My Stuff, Organization and Workspaces is as easy as selecting one of the tabs to open it. 
+Switching between the content in My Stuff, Organization and Workspaces is as easy as selecting one to open it. 
 
 When the *Workspaces* tab is selected, you will see a list of [workspaces and sub-workspaces](workspaces#using-workspaces-within-the-workspace). *Bookmark* any workspace you want to find faster. To navigate to any workspace, just click/tap over it.
 
@@ -51,11 +51,11 @@ Follow the link for further details about [Workspaces](workspaces.md).
 
 ## Overviews, Workspaces, Tasks, Discussions, Content, and Analytics
 
-Inside Slingshot workspaces, you will find the six main navigation tabs: **Overview**, **Workspaces**, **Tasks**, **Discussions**, **Content**, **Analytics**.
+Inside Slingshot workspaces, you will find the six main navigation tabs by default: **Overview**, **Workspaces**, **Tasks**, **Discussions**, **Content**, **Analytics**.
 
 <img src="../images/overview-workspace-navigation.png" alt="Workspace Overview highlighting the main navigation items in Slingshot" class="responsive-img"/>
 
-As already mentioned, the Organization workspace is not like other workspaces. So, inside it, there is a different number of navigation tabs. That goes for _My Stuff_ and sub-workspaces, which also have the navigation tabs. 
+As already mentioned, the Organization workspace is not like other workspaces. So, inside it, there is a different number of navigation tabs by default. That goes for _My Stuff_ and sub-workspaces, which also have the navigation tabs. 
 But why is that? Let's answer this question quickly by explaining the idea behind each navigation tab.
 
 - [Overviews](overviews.md) gives you a quick status of your workspaces or your personal work.
@@ -65,7 +65,7 @@ But why is that? Let's answer this question quickly by explaining the idea behin
 - [Content](content-boards.md) is where you can organize your files, data analytics dashboards, web links and other resources. Basically, you connect to cloud storages and then use boards to organize and share content with others.
 - [Analytics](analytics/index.md) allow you to quickly create and share data visualizations so you can turn your data into insights.
 
-The image above shows the navigation tabs of a Slingshot workspace, the Organization, a sub-workspace, and *My Stuff*. But only workspaces include all the main navigation tabs. 
+The image above shows the navigation tabs of a Slingshot workspace by default. 
 
 ## Notifications and User Settings
 

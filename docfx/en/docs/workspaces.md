@@ -41,7 +41,7 @@ It's always important to organize the different groups and projects within the w
 
 >[!NOTE] For this guide's purposes, the term **sub-workspace** will be used to refer to a workspace within the workspace. The main workspace that contains sub-workspaces will be sometimes called a **parent workspace**.  
 
-A sub-workspace provides you with the same collaboration tools as the parent workspace. Let's look at a quick list!
+A sub-workspace provides you, by default, with the same collaboration tools as the parent workspace. Let's look at a quick list!
 
 - *Overview* - provides a quick snapshot of what's going on: overall status (*On Target, At Risk, Danger, Completed*), start and due dates, crucial resources, everyone's progress on tasks and all mentions directed at you. 
 - *Tasks* - all the tasks associated with the sub-workspace are tracked and organized in lists.   
@@ -60,7 +60,8 @@ To customize which tabs you need to run your workspace, you can simply use the *
 
 Use the toggles to hide/show tabs. All tabs are shown by default. When you disable a tab, you simply hide it. This means, that if you decide to show the tab again all its previous content will be recovered and also shown. 
 
->[!NOTE] Contents from the hidden tabs will still appear in other parts of Slingshot. For example, if you have shared a task in a discussion before hiding the Tasks tab, the task will remain visible in the discussion. This also applies for content shared with users in the chat or pinned to a board.
+>[!NOTE] Contents from **the hidden tabs** will still appear in other parts of Slingshot. For example, if you have shared a task in a discussion or a chat before hiding the Tasks tab, the task will remain visible in the discussion/private chat. Also, it will appear as a [search](search.md) result.
+
 ### Want to know more about workspaces?
 
 Continue [here](workspaces-faq.md)!
