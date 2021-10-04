@@ -1,0 +1,42 @@
+# Release Notes
+
+All future updates and new features added to Slingshot will be included
+here.
+
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg .tg-cly1{text-align:left;vertical-align:middle}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+</style>
+
+<table class="tg">
+    <tr>
+        <th class="tg-cly1"><span style="font-weight:bold">Date</span></th>
+        <th class="tg-cly1"><span style="font-weight:bold">Slingshot version</span></th>
+        <th class="tg-cly1"><span style="font-weight:bold">Description</span></th>
+    </tr>
+   <tr>
+        <td class="tg-cly1" rowspan="7">Oct-2021</td>
+        <td class="tg-cly1" rowspan="7"> 1.0.2147 [Windows], <br> 1.0.2149 [Android], <br> 1.0.2154 [iOS/MacOS]</td>
+        <td class="tg-cly1"><span style="font-style:italic"><a href="workspaces.html#customize-main-navigation-tabs-for-improved-productivity">New capability to hide navigation tabs</a></span><br> Workspace owners are now able to modify the workspace by hiding the navigation tabs (Overview, Tasks, Content, etc.) that their team doesn’t need. 
+        </td>
+    </tr>
+    <tr>
+        <td class="tg-cly1"><span style="font-style:italic"><a href="notifications.md#choosing-what-you-see-in-the-notifications-panel">New Notifications filtering</a></span><br> In the Notifications panel, you can now choose between seeing all notifications, only unread or only your mentions. 
+        </td>
+    </tr>
+    <tr>
+        <td class="tg-cly1"><span style="font-style:italic"> Notifications limits removed</span><br> You now have access to your whole notifications’ history (previous show limit: last 100 notifications).
+        </td>
+    <tr>
+        <td class="tg-cly1"><span style="font-style:italic"><a href="content-faq.html#can-i-change-how-boards-are-displayed">New List View for your boards</span></a><br>You can now choose between list and column view for your Boards in the Content tab. 
+        </td>
+    </tr>
+    <tr>
+        <td class="tg-cly1"><span style="font-style:italic">Boards Groups removed</span><br> You will no longer have groups as dividers for your Boards sections.  
+    </tr>
+    <tr><td class="tg-cly1"><span style="font-style:italic">File access request improved</span><br> When requesting access to a file in Content, you can now choose to start a private chat with the owner.
+    </tr>
+        <td class="tg-cly1"><span style="font-style:italic">New “thinking” emoji <img src="../images/thinking-emoji.png" alt="The new thinking emoji" width="25px" height="25px" /></span><br> You can now react to a message in the private chat or in *Discussions* with the new “thinking” emoji.
+    </tr>
