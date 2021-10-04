@@ -60,7 +60,7 @@ To customize which tabs you need to run your workspace, you can simply use the *
 
 Use the toggles to hide/show tabs. All tabs are shown by default. When you disable a tab, you simply hide it. This means, that if you decide to show the tab again all its previous content will be recovered and also shown. 
 
->[!NOTE] Contents from the hidden tabs will still appear in other parts of Slingshot. For example, if you have shared a task in a discussion before hiding the Tasks tab, the task will remain visible in the discussion. This also applies for content shared with users in the chat or pinned to a board.
+>[!NOTE] Contents from **the hidden tabs** will still appear in other parts of Slingshot. For example, if you have shared a task in a discussion or a chat before hiding the Tasks tab, the task will remain visible in the discussion/private chat. Also, it will appear as a [search](search.md) result.
 
 ### Want to know more about workspaces?
 
