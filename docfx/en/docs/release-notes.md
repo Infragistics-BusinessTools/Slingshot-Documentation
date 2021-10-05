@@ -23,7 +23,7 @@ td {
     </tr>
    <tr>
         <td class="td1" rowspan="7">Oct-2021</td>
-        <td class="td1" rowspan="7"> 1.0.2147 [Windows], <br> 1.0.2149 [Android], <br> 1.0.2154 [iOS/MacOS]</td>
+        <td class="td1" rowspan="7">1.0.2157</td>
         <td><span style="font-style:italic"><a href="workspaces.html#customize-main-navigation-tabs-for-improved-productivity">New capability to hide navigation tabs</a></span><br> Workspace owners are now able to modify the workspace by hiding the navigation tabs (Overview, Tasks, Content, etc.) that their team doesn’t need. 
         </td>
     </tr>
