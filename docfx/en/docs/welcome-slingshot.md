@@ -75,7 +75,7 @@ With Slingshot's chat, you'll be able to have multiple conversations going on at
 
 <h4 style="color:#2328B0;">Connect to cloud storages and share content with colleagues or partners</h4>
 
-<img src="../images/board-sample.png" alt="Board example with several sections and groups" class="responsive-img"/>
+<img src="../images/content-sub-workspace.png" alt="Board example with several sections and groups" class="responsive-img"/>
 
 Slingshot helps you focus on collaboration instead of managing content. You can access content from many cloud providers, using boards to organize that content and securely share it with others.  
 Everyone'll always have the most up-to-date version of documents, eliminating the need to send documents back and forth.

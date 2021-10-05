@@ -16,7 +16,7 @@ All the members of a workspace have access to workspace cloud storages and board
 
 If boards are just containers, then what are sections? Below you can see an examples of a board with sections.
 
-<img src="../images/board-sample.png" alt="Board example with several sections" class="responsive-img"/>
+<img src="../images/content-sub-workspace.png" alt="Board example with several sections" class="responsive-img"/>
 
 As shown above, **sections** are designed to help organize boards. Sections are simply divisions of a board. You actually pin your content to sections. Boards can have one or more sections and you can scroll through them by clicking & dragging (laptop or PC) or using the swipe gesture (mobile devices).
 
