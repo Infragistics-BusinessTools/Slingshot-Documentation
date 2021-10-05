@@ -48,3 +48,6 @@ td {
     </tr>
         <td><span style="font-style:italic">New “thinking” reaction <img src="../images/thinking-emoji.png" alt="The new thinking emoji" width="25px" height="25px" /></span><br> You can now react to a message in the private chat or in <i>Discussions</i> with the new “thinking” reaction.
     </tr>
+</table>
+
+>[!NOTE] To check your Slingshot version, select your profile in the top right corner of the screen > <img src="../images/info-icon.png" alt="About icon in Slingshot" width="25px" height="25px"/>*About*. 
