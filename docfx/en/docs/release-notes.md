@@ -9,7 +9,7 @@ th {
 }
 
 td {
-  padding: 5px;
+  padding: 10px;
 }
 
 .rntable .td1 {
