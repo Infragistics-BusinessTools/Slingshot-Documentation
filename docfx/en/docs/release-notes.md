@@ -7,12 +7,15 @@ here.
 th {
   text-align: center;
 }
+
 td {
   padding: 5px;
 }
+
 .rntable .td1 {
   vertical-align: middle;
 }
+
 </style>
 
 <table class="rntable">
@@ -28,7 +31,7 @@ td {
         </td>
     </tr>
     <tr>
-        <td><span style="font-style:italic"><a href="notifications.md#choosing-what-you-see-in-the-notifications-panel">New Notifications filtering</a></span><br> In the Notifications panel, you can now choose between seeing all notifications, only unread or only your mentions. 
+        <td><span style="font-style:italic"><a href="notifications.html#choosing-what-you-see-in-the-notifications-panel">New Notifications filtering</a></span><br> In the Notifications panel, you can now choose between seeing all notifications, only unread or only your mentions. 
         </td>
     </tr>
     <tr>
