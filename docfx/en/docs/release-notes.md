@@ -14,6 +14,7 @@ td {
 
 .rntable .td1 {
   vertical-align: middle;
+  font-size: 18px;
 }
 
 </style>
