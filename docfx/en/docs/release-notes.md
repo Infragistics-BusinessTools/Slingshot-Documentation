@@ -45,7 +45,7 @@ td {
     <tr>
         <td><span style="font-style:italic;font-size:16px">Boards Groups removed</span><br> You will no longer have groups as dividers for your Boards sections.  
     </tr>
-    <tr><td><span style="font-style:italic;font-size:16px">File access request improved</span><br> When <a href="file-permissions-faq.md">requesting access to a file in Content</a>, you can now choose to start a private chat with the owner.
+    <tr><td><span style="font-style:italic;font-size:16px">File access request improved</span><br> When <a href="content-faq.html#how-to-set-file-permissions">requesting access to a file in Content</a>, you can now choose to start a private chat with the owner.
     </tr>
         <td><span style="font-style:italic;font-size:16px">New “thinking” reaction <img src="../images/thinking-emoji.png" alt="The new thinking emoji" width="25px" height="25px" /></span><br> You can now react to a message in the private chat or in <i>Discussions</i> with the new “thinking” reaction.
     </tr>

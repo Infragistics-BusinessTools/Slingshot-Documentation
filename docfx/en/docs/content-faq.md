@@ -79,7 +79,7 @@ Here, you can choose between the following three permission types:
  - **Automatic Access** - all users in the workspace can access the file.
  - **Request Access** -  all users, including the users in the workspace have to request access from the owner.
 
-> [!NOTE] Giving access to a file in Slingshot means you give open and edit permissions to the file. 
+> [!NOTE] Giving access to a file in Slingshot means you give view and edit permissions to the file. 
 
 Learn more about each file permissions type and how to manage members' access in [this topic](file-permissions-faq.md). 
 
