@@ -2,7 +2,7 @@
 
 If you are part of an [Organization](~/docs/workspaces-faq.html#organization-vs-workspace-vs-sub-workspace) in Slingshot, you may find that some of the data sources in your lists are certified. Certification in *Analytics* helps the Organization owners guide their users which data sources are reliable and contain only verified information. 
 
-Below, you will find how to recognize certified data sources, what certification levels you can find, who can certify and how. 
+Below, you will learn how to recognize certified data sources, what certification levels are available in Slingshot, who can certify and how. 
 
 ## Who is This Topic for? 
 
@@ -36,7 +36,7 @@ Here you will find the three certification levels, their names and the users tha
 If you are an *owner* in the Organization, you can: 
 
 * assign yourself as a certifier to any certification level;
-* add other users as certifiers - you can assign owners, members, viewers and even user outside of your Organization;
+* add other users as certifiers - you can assign owners, members, viewers and even a user outside of your Organization;
 * rename the certificates. By default, the certification levels are "*gold*", "*silver*" and "*bronze*". You can give them more descriptive names such as "Sales", "Marketing", "RND", etc.  
 
 Users who are not owners, can request permission to become certifiers. To do this: 
@@ -47,7 +47,7 @@ Users who are not owners, can request permission to become certifiers. To do thi
 
     <img src="images/certificate-request-permission.png" alt="The Request permission button for the certificate" class="responsive-img" />
 
-An email will be sent to all Organization owners notifying them that the users asks to be authorized to certify data sources. 
+An email will be sent to all Organization owners notifying them that the users ask to be authorized to certify data sources. 
 
 ## Certifying Data Sources
 
