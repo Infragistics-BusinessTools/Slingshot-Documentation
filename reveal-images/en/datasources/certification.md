@@ -1,6 +1,6 @@
 # Using Data Sources Certification
 
-If you are part of an [Organization](../workspaces-faq.html#organization-vs-workspace-vs-sub-workspace) in Slingshot, you may find that some of the data sources in your lists are certified. Certification in *Analytics* helps the Organization owners guide their users which data sources are reliable and contain only verified information. 
+If you are part of an [Organization](~/docs/workspaces-faq.html#organization-vs-workspace-vs-sub-workspace) in Slingshot, you may find that some of the data sources in your lists are certified. Certification in *Analytics* helps the Organization owners guide their users which data sources are reliable and contain only verified information. 
 
 Below, you will find how to recognize certified data sources, what certification levels you can find, who can certify and how. 
 
@@ -8,7 +8,7 @@ Below, you will find how to recognize certified data sources, what certification
 
 Certification in *Analytics* is only available for users who have an <img src="images/organization-icon-48.png" alt="the org workspace icon" width="24px" height="24px" />  Organization in Slingshot. 
 
-If you are a user with a [personal account](~/en/help/docs/roles-permissions-faq.html#what-about-users-with-no-organization), you will not be able to use certificates for your data sources. However, if you are invited in workspaces that are part of an Organization, you will be able to see certified data sources in these workspaces' *Analytics*. 
+If you are a user with a [personal account](~/docs/roles-permissions-faq.html#what-about-users-with-no-organization), you will not be able to use certificates for your data sources. However, if you are invited in workspaces that are part of an Organization, you will be able to see certified data sources in these workspaces' *Analytics*. 
 
 ## Finding the Certified Data Sources
 
