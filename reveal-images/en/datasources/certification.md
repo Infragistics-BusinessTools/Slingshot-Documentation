@@ -1,6 +1,6 @@
 # Using Data Sources Certification
 
-If you are part of an [Organization](~/docfx/en/docs/workspaces-faq.html#organization-vs-workspace-vs-sub-workspace) in Slingshot, you may find that some of the data sources in your lists are certified. Certification in *Analytics* helps the Organization owners guide their users which data sources are reliable and contain only verified information. 
+If you are part of an [Organization](../workspaces-faq.html#organization-vs-workspace-vs-sub-workspace) in Slingshot, you may find that some of the data sources in your lists are certified. Certification in *Analytics* helps the Organization owners guide their users which data sources are reliable and contain only verified information. 
 
 Below, you will find how to recognize certified data sources, what certification levels you can find, who can certify and how. 
 
