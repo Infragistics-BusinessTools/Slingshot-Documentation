@@ -6,7 +6,7 @@ Below, you will learn how to recognize certified data sources, what certificatio
 
 ## Who is This Topic for? 
 
-Certification in *Analytics* is only available for users who have an <img src="images/organization-icon-48.png" alt="the org workspace icon" width="24px" height="24px" />  Organization in Slingshot. 
+Certification in *Analytics* is only available for users who have an <img src="images/organization-icon.png" alt="the org workspace icon" width="24px" height="24px" />  Organization in Slingshot. 
 
 If you are a user with a [personal account](~/docs/roles-permissions-faq.html#what-about-users-with-no-organization), you will not be able to use certificates for your data sources. However, if you are invited in workspaces that are part of an Organization, you will be able to see certified data sources in these workspaces' *Analytics*. 
 
@@ -16,13 +16,13 @@ In the *Data Sources* of a workspace, you will find both certified and uncertifi
 
 <img src="images/data-sources-certified.png" alt="An excel file with a bronze badge located in the certified column" class="responsive-img" />
 
-If you don't see whether a data source is certified or not, select the plus icon <img src="images/plus-icon-48.png" alt="the plus icon used in Analytics" width="24px" height="24px" /> at the right top of the data sources list. Make sure the box for the _Certified_ column is checked.  
+If you don't see whether a data source is certified or not, select the plus icon <img src="images/plus-icon.png" alt="the plus icon used in Analytics" width="24px" height="24px" /> at the right top of the data sources list. Make sure the box for the _Certified_ column is checked.  
 
 ## Who Can Certify Data Sources?
 
 Certification helps users find the data that is recommended and verified by their organization. That's why **certifiers** can be: 
 
-* <img src="images/organization-icon-48.png" alt="the org workspace icon" width="24px" height="24px" /> Organization owners; 
+* <img src="images/organization-icon.png" alt="the org workspace icon" width="24px" height="24px" /> Organization owners; 
 * any user who is authorized by an Organization owner. 
 
 To see who can certify data sources: 
