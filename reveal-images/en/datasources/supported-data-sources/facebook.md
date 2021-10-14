@@ -16,11 +16,11 @@ If you have already added your Facebook data source to the <img src="images/data
 
 To add a *Facebook* data source to your list, follow the steps described below.
 
-1. Go to the <img src="images/data-source-icon.png" alt="the data sources icon used in Analytics" width="24px" height="24px" /> Data Sources tab > select the *+ Data Source* blue button > scroll to *Social Media* > select *Facebook*. 
+1. Go to the <img src="images/data-source-icon.png" alt="the data sources icon used in Analytics" width="24px" height="24px" /> Data Sources tab > select the *+ Data Source* blue button > scroll down to *Social Media* > select *Facebook*. 
 2. You will be prompted to log in with your *Facebook* profile. 
 
     >[!NOTE] You need to have at least one *Ad account* associated with the Facebook profile you are trying to connect in *Analytics*. Read this [Facebook help article](https://www.facebook.com/business/help/910137316041095?id=420299598837059) to find out how to add, request and create *Ad accounts* in your Facebook Business Manager.
-3. Slingshot will get access to the relevant details in your account. 
+3. Slingshot will get access only to the relevant details in your account. Slingshot will not be allowed to post on social media on your behalf.
 4. In the next dialog, you will be presented with one or more <img src="images/facebook-ad-account-icon.png" alt="the data sources icon used in Analytics" width="24px" height="24px" /> Facebook Ad Accounts to choose from. Select the account that you want to analyze.
 5. Click/tap _Select and Continue_. 
 6. In the last dialog that opens, you can change the Ad Account name and add an appropriate description as shown below. Adding appropriate descriptions helps all users navigate through long lists and find the data sources they are searching for. 
@@ -42,9 +42,9 @@ Here you will find the following data source details:
 * description; 
 * [certification](../certification.md);
 * who added the data source; 
-* who last modified it and when; 
+* who modified it last and when; 
 * who (users and workspaces) has access to it; 
-* how often the data is refreshed and select the dropdown on the right to change. 
+* how often the data is refreshed. 
 
 The settings under **Set up your data** help you choose what data to be loaded in the Visualization Editor.
 
