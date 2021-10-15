@@ -46,12 +46,9 @@ Now that you have added your Marketo data source, you will see it in the <img sr
 
 Here you will find the following information about the data source:
 
-* type and name; 
-* description; 
+* type, name, description; 
 * [certification](../certification.md);
-* who added the data source; 
-* who modified it last and when; 
-* who (users and workspaces) has access to it; 
+* who added, modified and has access to the data source
 * how often the data is auto-refreshed. 
 
 To configure your Marketo data, you need to 
