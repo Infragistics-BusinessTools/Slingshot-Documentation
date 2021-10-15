@@ -34,7 +34,7 @@ When ready, select _Add Data Source_.
 
 ## Setting Up Your Data
 
-Now that you have added your Amazon Athena database, you will see it in the <img src="images/data-source-icon.png" alt="the data sources icon used in Analytics" width="24px" height="24px" /> Data Sources list. If you have more than one Amazon Redshift database added, select the database you want to use. You will open the *Data Source details* dialog, where you can find additional information about the data source and its access. 
+Now that you have added your Amazon Redshift database, you will see it in the <img src="images/data-source-icon.png" alt="the data sources icon used in Analytics" width="24px" height="24px" /> Data Sources list. If you have more than one Amazon Redshift database added, select the database you want to use. You will open the *Data Source details* dialog, where you can find additional information about the data source and its access. 
 
 With Slingshot, you can retrieve *Redshift* data from entire tables, but you can also select a particular
 [view](https://docs.aws.amazon.com/redshift/latest/dg/r_CREATE_VIEW.html) that returns a subset of data from a table or a set of tables instead. 
