@@ -37,6 +37,8 @@ To add an Amazon Athena data source to your list, follow the steps described bel
     
 If you want to add another Amazon Athena server, you can quickly do this by clicking/tapping the  *+ Connection* button on the right (see above).
 
+After choosing a database, click/tap _Select and Continue_.
+
 ### Editing the data source information 
 
 In the last dialog that opens, you can change the original database name and add a description. Both will be shown in the Data Sources list to help users choose the source of data they need for their visualization. 
@@ -55,12 +57,9 @@ Now that you have added your Amazon Athena database, you will see it in the <img
 
 Here you will find the following information about the data source:
 
-* type and name; 
-* description; 
+* type, name, description; 
 * [certification](../certification.md);
-* who added the data source; 
-* who modified it last and when; 
-* who (users and workspaces) has access to it; 
+* who added, modified and has access to the data source
 * how often the data is auto-refreshed. 
 
 Here, you need to choose from the *tables* and [*views*](https://docs.aws.amazon.com/athena/latest/ug/views.html). Click/tap _Select Data_ to continue to the Visualizations Editor. 
