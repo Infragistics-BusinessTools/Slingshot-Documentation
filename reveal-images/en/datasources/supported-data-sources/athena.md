@@ -35,7 +35,7 @@ To add an Amazon Athena data source to your list, follow the steps described bel
 
 <img src="images/athena-set-up-database.png" alt="Choose an Amazon Athena database" class="responsive-img" width="75%"/>
     
-If you want to add another Amazon Athena server, you can quickly do this by clicking/tapping the  *+ Connection* button on the right (see above).
+If you want to add another Amazon Athena server, you can quickly do this by clicking/tapping the  *+ Connection* button on the left (see above).
 
 After choosing a database, click/tap _Select and Continue_.
 
