@@ -4,7 +4,7 @@ The *Microsoft Dynamics CRM* data source connector in *Analytics* allows you to 
 
 ## Adding a New Microsoft Dynamics CRM Data Source Account
 
-If you have already added your Marketo data source to the <img src="images/data-source-icon.png" alt="the data sources icon used in Analytics" width="24px" height="24px" /> *Data Sources* list, you can skip this part and continue with [Setting Up Your Data](#setting-up-your-data).
+If you have already added your Microsoft Dynamics CRM data source to the <img src="images/data-source-icon.png" alt="the data sources icon used in Analytics" width="24px" height="24px" /> *Data Sources* list, you can skip this part and continue with [Setting Up Your Data](#setting-up-your-data).
 
 To add a *Microsoft Dynamics CRM* data source to your list, follow the steps described below.
 
