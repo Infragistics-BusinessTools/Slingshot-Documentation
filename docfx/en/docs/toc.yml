@@ -34,7 +34,7 @@
   items:
     - name: Workspaces FAQ
       href: workspaces-faq.md
-      new: false
+      updated: true
 - name: Overviews
   href: overviews.md
   new: false
@@ -50,7 +50,7 @@
   items:
     - name: Content & Boards FAQ
       href: content-faq.md
-      new: false
+      updated: true
 - name: Communication
   href: communication.md
   items: 
@@ -61,7 +61,7 @@
       updated:  false
 - name: Notifications
   href: notifications.md
-  new: false
+  updated: true
 - name: Search
   href: search.md
 - name: Analytics
@@ -72,3 +72,8 @@
   new: false
 - name: Coming soon...
   new: false
+- name: RELEASE NOTES
+  header: true
+  new: false
+- name: Release Notes
+  href: release-notes.md

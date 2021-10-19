@@ -75,7 +75,7 @@ With Slingshot's chat, you'll be able to have multiple conversations going on at
 
 <h4 style="color:#2328B0;">Connect to cloud storages and share content with colleagues or partners</h4>
 
-<img src="../images/board-sample.png" alt="Board example with several sections and groups" class="responsive-img"/>
+<img src="../images/content-sub-workspace.png" alt="Board example with several sections and groups" class="responsive-img"/>
 
 Slingshot helps you focus on collaboration instead of managing content. You can access content from many cloud providers, using boards to organize that content and securely share it with others.  
 Everyone'll always have the most up-to-date version of documents, eliminating the need to send documents back and forth.
@@ -94,6 +94,6 @@ Below you can find the versions supported for each platform:
 | PLATFORM | SUPPORT |
 | --- | --- |
 |**Android**|Android 6.0 (Marshmallow) or higher (except the Kindle Fire).|
-|**Desktop**|Any Windows with .NET Framework 4.6 installed. For more information on .NET Framework system requirements, check <a href="https://docs.microsoft.com/en-us/dotnet/framework/get-started/system-requirements" target="_blank">this Microsoft article.</a> |
+|**Desktop**| Windows 10 or higher. |
 |**IOS**|iOS 13 or higher.|
-|**Web**|Chrome, Firefox, Microsoft Edge (excluding Microsoft Edge Legacy), Safari. Web browsers are not supported in mobile devices.|
+|**Web**|Chrome, Firefox, Microsoft Edge (excluding Microsoft Edge Legacy), Safari. Web browsers are not supported on mobile devices.|

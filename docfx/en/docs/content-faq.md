@@ -16,7 +16,7 @@ All the members of a workspace have access to workspace cloud storages and board
 
 If boards are just containers, then what are sections? Below you can see an examples of a board with sections.
 
-<img src="../images/board-sample.png" alt="Board example with several sections" class="responsive-img"/>
+<img src="../images/content-sub-workspace.png" alt="Board example with several sections" class="responsive-img"/>
 
 As shown above, **sections** are designed to help organize boards. Sections are simply divisions of a board. You actually pin your content to sections. Boards can have one or more sections and you can scroll through them by clicking & dragging (laptop or PC) or using the swipe gesture (mobile devices).
 
@@ -79,7 +79,7 @@ Here, you can choose between the following three permission types:
  - **Automatic Access** - all users in the workspace can access the file.
  - **Request Access** -  all users, including the users in the workspace have to request access from the owner.
 
-> [!NOTE] Giving access to a file in Slingshot means you give open and edit permissions to the file. 
+> [!NOTE] Giving access to a file in Slingshot means you give view and edit permissions to the file. 
 
 Learn more about each file permissions type and how to manage members' access in [this topic](file-permissions-faq.md). 
 

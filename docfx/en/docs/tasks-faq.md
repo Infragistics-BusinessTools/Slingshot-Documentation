@@ -138,7 +138,7 @@ You can pick a task on the timeline and re-arrange the start and due dates by dr
 In addition, you are able to change the scale (days, weeks, months) by using the dropdown next to the filter icon. Use the **Today** button on top to go back to the current day. If your scale shows weeks or months, *today* will bring you back to the beginning of the current week or month, respectively. 
 You can even show/hide weekends by checking the **Show Weekends** box in the overflow menu on top.
 
-You will notice a hook on both corners of each task on the timeline. Drag the left hook of a task and connect it to another task (see in the screenshot below). With this, you will add a *waiting on* [**dependency**](#how-can-i-add-a-task-dependency) to the first task. Use the right hook to add a blocking dependency. 
+You will notice a hook on both corners of each task on the timeline. Drag the left hook of a task and connect it to another task (see in the screenshot below). With this, you will add a *waiting on* [**dependency**](#how-can-i-make-a-task-depend-on-another-task) to the first task. Use the right hook to add a blocking dependency. 
 
 <img src="../images/tasks-visualizations-timeline-settings.png" alt="Adjusting the Timeline view in Slingshot" class="responsive-img"/>
 
