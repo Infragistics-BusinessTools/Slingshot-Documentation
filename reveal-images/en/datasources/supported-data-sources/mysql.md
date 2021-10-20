@@ -55,13 +55,9 @@ Here you will find the following information about the data source:
 * who added, modified and has access to the data source
 * how often the data is auto-refreshed. 
 
-With Analytics, you can retrieve MySQL data from entire tables. Still, you can also select a particular view that returns a subset of data from a table or a set of tables instead.
-
-<img src="images/MySQL-views.png" alt="MySQL Views section" class="responsive-img"/>
+With *Analytics*, you can retrieve MySQL data from entire tables. Still, you can also select a particular view that returns a subset of data from a table or a set of tables instead.
 
 Views contain modified versions
-of the data in the tables on the MySQL server.
-
-<img src="images/invoices-MySQL-view-sample.png" alt="Sample dashboard using MySQL invoices view data" class="responsive-img"/>
+of the data in the tables on the MySQL server. 
 
 For more information on views and MySQL, visit [this documentation page](https://dev.mysql.com/doc/refman/8.0/en/views.html).
