@@ -46,7 +46,7 @@ When ready, select _Add Data Source_.
 
 Now that you have added a MySQL database, you will see it in the <img src="images/data-source-icon.png" alt="the data sources icon used in Analytics" width="24px" height="24px" /> Data Sources list. If you have more than one MySQL database added, select the database you want to use. You will open the *Data Source details* dialog, which allows you to review and set up your data (look at the screenshot below). 
 
-<img src="images/ms-sql-data-source-details.png" alt="the data sources details dialog" class="responsive-img" width="75%" />
+<img src="images/mysql-data-source-details.png" alt="the data sources details dialog" class="responsive-img" width="75%" />
 
 Here you will find the following information about the data source:
 
@@ -55,16 +55,12 @@ Here you will find the following information about the data source:
 * who added, modified and has access to the data source
 * how often the data is auto-refreshed. 
 
-You can choose between the *tables*, [*views*](https://docs.aws.amazon.com/athena/latest/ug/views.html) and Stored Procedures. Click/tap _Select Data_ to continue to the Visualizations Editor. 
-
-## Setting Up Your Data
-
-With Reveal, you can retrieve MySQL data from entire tables. Still, you can also select a particular view that returns a subset of data from a table or a set of tables instead.
+With Analytics, you can retrieve MySQL data from entire tables. Still, you can also select a particular view that returns a subset of data from a table or a set of tables instead.
 
 <img src="images/MySQL-views.png" alt="MySQL Views section" class="responsive-img"/>
 
-In the sample above, the **invoices** view contains a modified version
-of the data in the **Products** table in the MySQL server.
+Views contain modified versions
+of the data in the tables on the MySQL server.
 
 <img src="images/invoices-MySQL-view-sample.png" alt="Sample dashboard using MySQL invoices view data" class="responsive-img"/>
 
