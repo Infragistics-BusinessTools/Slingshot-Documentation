@@ -20,7 +20,7 @@ The dialog that opens after you add your *Odata Feed* connection allows you to c
 
 If you are a certifier in your Organization, you can also certify the data source by selecting the <img src="images/not-certified-icon.png" alt="the data sources icon used in Analytics" width="24px" height="24px" /> badge certificate dropdown. If you want to know more about the certification in Analytics, read the [Using Data Sources Certification](~/docs/analytics/datasources/certification.md) topic.
 
-If you want to additionally edit what *Odata Feed* Entity sets other users can see and work with, click/tap the _Switch to advanced info edition_ button. Find more information about this in the [Editing the information for a data source](data-sources-advanced-editor.md) topic.  
+If you want to additionally edit what *Odata Feed* Entity sets other users can see and work with, click/tap the _Switch to advanced info edition_ button. Find more information about this in the [Editing the information for a data source](data-sources-advanced-editing.md) topic.  
 
 When ready, select _Save and Close_. Selecting _Save_ will allow you to continue to setting up your data.
 
