@@ -15,7 +15,7 @@ To add a *Microsoft SSRS* data source to your list, follow the steps described b
 
     a. **URL**: the URL to the server.
 
-    b. **Credentials**:  click/tap the *Choose* dropdown. To add new credentials select the *+Credential* button. A new dialog will open. There you will need to enter your *username*, *password* and (optionally) an *alias*, which will serve as a label for saved credentials when you have more than one reporting service added. 
+    b. **Credentials**:  click/tap the *Choose* dropdown. To add new credentials select the *+Credential* button. A new dialog will open. There you will need to enter your *username*, *password* and (optionally) an *alias*. The alias will serve as a label for saved credentials when you have more than one reporting service added. 
 
 3. Select _Continue_.
 

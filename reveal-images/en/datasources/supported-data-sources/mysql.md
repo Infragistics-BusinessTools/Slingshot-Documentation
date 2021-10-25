@@ -38,7 +38,7 @@ In the last dialog that opens, you can change the original database name and add
 
 If you are a certifier in your Organization, you can also certify the data source by selecting the <img src="images/not-certified-icon.png" alt="the data sources icon used in Analytics" width="24px" height="24px" /> badge certificate dropdown. If you want to know more about the certification in Analytics, read the [Using Data Sources Certification](~/docs/analytics/datasources/certification.md) topic.
 
-If you want to additionally edit what tables, views and data sets other users can see and work with, click/tap the _Switch to advanced info edition_ button. Find more information in the [Editing the information for a data source](data-sources-advanced-editor.md) topic.  
+If you want to additionally edit what tables, views and data sets other users can see and work with, click/tap the _Switch to advanced info edition_ button. Find more information in the [Editing the information for a data source](data-sources-advanced-editing.md) topic.  
 
 When ready, select _Add Data Source_.
 
@@ -57,7 +57,6 @@ Here you will find the following information about the data source:
 
 With *Analytics*, you can retrieve MySQL data from entire tables. Still, you can also select a particular view that returns a subset of data from a table or a set of tables instead.
 
-Views contain modified versions
-of the data in the tables on the MySQL server. 
+Views contain modified versions of the data in the tables on the MySQL server. 
 
 For more information on views and MySQL, visit [this documentation page](https://dev.mysql.com/doc/refman/8.0/en/views.html).
