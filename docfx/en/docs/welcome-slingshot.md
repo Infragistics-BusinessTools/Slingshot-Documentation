@@ -39,16 +39,31 @@ When deadlines, conversations and data are transparent for your different teams 
 
 ## How can I get Slingshot?
 
-Slingshot is available for you on any platform with a seamless experience no matter what device you are on – without sacrifices features. Get Slingshot on the Web, MacOS, Windows, iOS and Android <a href="https://www.slingshotapp.io/download-apps" target="_blank"><b>here</b>.</a>
+Slingshot is available for you on any platform with a seamless experience no matter what device you are on – without sacrifices features. Get Slingshot on the Web, MacOS, Windows, iOS and Android.  
 
-<img src="../images/welcome-platforms.png" alt="Showing a dashboard to highlight how analytics works" class="responsive-img"/>
-
-
-Below you can find the versions supported for each platform:
-
-| PLATFORM | SUPPORT |
-| --- | --- |
-|**Android**|Android 6.0 (Marshmallow) or higher (except the Kindle Fire).|
-|**Desktop**| Windows 10 or higher. |
-|**IOS**|iOS 13 or higher.|
-|**Web**|Chrome, Firefox, Microsoft Edge (excluding Microsoft Edge Legacy), Safari. Web browsers are not supported on mobile devices.|
+<div class="row row-eq-height">
+  <div class="col-sm-12 col-md-4 mb-3">
+    <div class="col h-100 p-4 text-center border rounded shadow-sm"><img src="https://wp-staging.slingshotapp.io/wp-content/uploads/2021/02/mobile-icon.svg" alt="Mobile" width="85" height="85" title="Download Apps" class="lazyloaded" data-was-processed="true" data-ll-status="loaded"><noscript><img src="https://wp-staging.slingshotapp.io/wp-content/uploads/2021/02/mobile-icon.svg" alt="Mobile" width="85" height="85" title="Download Apps"></noscript><p></p>
+    <h3 class="font-weight-bold">Mobile</h3>
+    <p class="px-2">Add and manage tasks on-the-go</p>
+    <p><a href="https://apps.apple.com/us/app/id1457353858" class="trackCTA" aria-label="Download Slingshot on iOS" data-xd-ga-action="Download" data-xd-ga-label="Slingshot iOS" target="_blank" rel="noopener"><img class="mb-2 lazyloaded" title="Slingshot on iOS App Store" src="https://wp-staging.slingshotapp.io/wp-content/uploads/2021/02/app-store-badge.svg" alt="Slingshot on iOS App Store" width="120" height="33" data-was-processed="true" data-ll-status="loaded"><noscript><img class="mb-2" title="Slingshot on iOS App Store" src="https://wp-staging.slingshotapp.io/wp-content/uploads/2021/02/app-store-badge.svg" alt="Slingshot on iOS App Store" width="120" height="33"></noscript></a><br>
+    <a href="https://play.google.com/store/apps/details?id=com.infragistics.slingshot" class="trackCTA" aria-label="Download Slingshot on Android" data-xd-ga-action="Download" data-xd-ga-label="Slingshot Android" target="_blank" rel="noopener"><img title="Slingshot on Android's Google Play Store" src="https://wp-staging.slingshotapp.io/wp-content/uploads/2021/02/google-play-badge.svg" alt="Slingshot on Android's Google Play Store" width="156" height="66" class="lazyloaded" data-was-processed="true" data-ll-status="loaded"><noscript><img title="Slingshot on Android's Google Play Store" src="https://wp-staging.slingshotapp.io/wp-content/uploads/2021/02/google-play-badge.svg" alt="Slingshot on Android's Google Play Store" width="156" height="66"></noscript></a></p>
+    </div>
+  </div>
+  <div class="col-sm-12 col-md-4 mb-3">
+    <div class="col h-100 p-4 text-center border rounded shadow-sm"><img src="https://wp-staging.slingshotapp.io/wp-content/uploads/2021/02/desktop-icon.svg" alt="Desktop" width="85" height="85" title="Download Apps" class="lazyloaded" data-was-processed="true" data-ll-status="loaded"><noscript><img src="https://wp-staging.slingshotapp.io/wp-content/uploads/2021/02/desktop-icon.svg" alt="Desktop" width="85" height="85" title="Download Apps"></noscript><p></p>
+    <h3 class="font-weight-bold">Desktop</h3>
+    <p class="px-2">Launch Slingshot from your dock</p>
+    <p><a href="https://apps.apple.com/us/app/id1457353858" class="trackCTA" aria-label="Download Slingshot on Mac OS" data-xd-ga-action="Download" data-xd-ga-label="Slingshot Desktop macOS" target="_blank" rel="noopener"><img class="mb-3 lazyloaded" title="Slingshot on Mac OS App Store" src="https://wp-staging.slingshotapp.io/wp-content/uploads/2021/02/mac-app-store-badge.svg" alt="Slingshot on Mac OS App Store" width="156" height="41" data-was-processed="true" data-ll-status="loaded"><noscript><img class="mb-3" title="Slingshot on Mac OS App Store" src="https://wp-staging.slingshotapp.io/wp-content/uploads/2021/02/mac-app-store-badge.svg" alt="Slingshot on Mac OS App Store" width="156" height="41"></noscript></a><br>
+    <a href="ms-appinstaller:?source=https://dl.infragistics.com/products/Infragistics/Slingshot/Slingshot.appinstaller" class="trackCTA" aria-label="Download Slingshot on Windows" data-xd-ga-action="Download" data-xd-ga-label="Slingshot Desktop Windows">Download for Windows</a></p>
+    <p class="small">Having trouble with Windows download? <a href="/download-desktop" class="trackCTA d-block" aria-label="Download Slingshot on Windows" data-xd-ga-action="Download" data-xd-ga-label="Slingshot Desktop Windows"> Download the installer</a></p>
+    </div>
+  </div>
+  <div class="col-sm-12 col-md-4 mb-3">
+    <div class="col h-100 p-4 text-center border rounded shadow-sm"><img src="https://wp-staging.slingshotapp.io/wp-content/uploads/2021/02/web-icon.svg" alt="Mobile" width="85" height="85" title="Download Apps" class="lazyloaded" data-was-processed="true" data-ll-status="loaded"><noscript><img src="https://wp-staging.slingshotapp.io/wp-content/uploads/2021/02/web-icon.svg" alt="Mobile" width="85" height="85" title="Download Apps"></noscript><p></p>
+    <h3 class="font-weight-bold">Web</h3>
+    <p class="px-2">Manage your tasks from any browser</p>
+    <p><a href="https://my.slingshotapp.io" class="trackCTA" data-xd-ga-action="Download" data-xd-ga-label="Slingshot Web" target="_blank" rel="noopener">Go to Web App</a></p>
+    </div>
+  </div>
+</div>
