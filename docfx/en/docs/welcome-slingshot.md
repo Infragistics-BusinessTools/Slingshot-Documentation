@@ -41,6 +41,9 @@ When deadlines, conversations and data are transparent for your different teams 
 
 Slingshot is available for you on any platform with a seamless experience no matter what device you are on – without sacrifices features. Get Slingshot on the Web, MacOS, Windows, iOS and Android.  
 
+<br/>
+<br/>
+
 <div class="row row-eq-height">
   <div class="col-sm-12 col-md-4 mb-3">
     <div class="col h-100 p-4 text-center border rounded shadow-sm"><img src="https://wp-staging.slingshotapp.io/wp-content/uploads/2021/02/mobile-icon.svg" alt="Mobile" width="85" height="85" title="Download Apps" class="lazyloaded" data-was-processed="true" data-ll-status="loaded"><noscript><img src="https://wp-staging.slingshotapp.io/wp-content/uploads/2021/02/mobile-icon.svg" alt="Mobile" width="85" height="85" title="Download Apps"></noscript><p></p>
