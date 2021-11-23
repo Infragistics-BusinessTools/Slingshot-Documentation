@@ -2,9 +2,6 @@
 
 Slingshot is the only digital workplace that connects everyone you work with to data – organizes projects, content and chats – to unleash the power of your team.
 
-For details about the available platforms and how to install Slingshot, go [here](#how-can-i-get-slingshot).
-
-
 <img src="../images/welcome-main.png" alt="A Personal Overview within Slingshot" class="responsive-img"/>
 
 So, how can Slingshot do all that for you? Take a look below...

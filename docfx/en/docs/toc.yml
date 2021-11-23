@@ -2,10 +2,60 @@
   header: true
 - name: Welcome to Slingshot
   href: welcome-slingshot.md
+  updated: true
+- name: Getting Started with Slingshot
+  href: getting-started-slingshot.md
+  new: true
+- name: FEATURES
+  header: true
+- name: Workspaces
+  href: workspaces.md
+  updated: true
+  items:
+    - name: Workspaces FAQ
+      href: workspaces-faq.md
+      updated: false
+- name: Overviews
+  href: overviews.md
   new: false
-- name: First Time Sign In
-  href: first-time-sign-in.md
-  new: false
+- name: Tasks
+  href: tasks.md
+  updated: true
+  items:
+    - name: Tasks FAQ
+      href: tasks-faq.md
+      new: false
+- name: Content
+  href: content-boards.md
+  items:
+    - name: Content & Boards FAQ
+      href: content-faq.md
+      updated: false
+- name: Analytics
+  href: analytics/toc.yml
+  topicHref: analytics/index.md
+- name: Communication
+  href: communication.md
+  items:
+    - name: Discussions FAQ
+      href: discussions-faq.md
+    - name: Private Chats FAQ
+      href: chat-faq.md
+      updated:  false
+- name: Productivity Flows (Coming Soon)
+  href:
+- name: My Stuff (Coming Soon)
+  href:
+- name: My Analytics (Coming Soon)
+  href:
+- name: Bookmarks (Coming Soon)
+  href:
+- name: Groups (Coming Soon)
+  href:
+- name: Search
+  href: search.md
+- name: SETTINGS
+  header: true
 - name: User Account & Settings
   href: user-account.md
   new: false
@@ -26,52 +76,9 @@
     - name: Data Privacy FAQ
       href: data-privacy-faq.md
       new: false
-- name: THE SLINGSHOT APP
-  header: true
-- name: Workspaces
-  href: workspaces.md
-  new: false
-  items:
-    - name: Workspaces FAQ
-      href: workspaces-faq.md
-      updated: true
-- name: Overviews
-  href: overviews.md
-  new: false
-- name: Tasks
-  href: tasks.md
-  new: false
-  items:
-    - name: Tasks FAQ
-      href: tasks-faq.md
-      new: false
-- name: Content & Boards
-  href: content-boards.md
-  items:
-    - name: Content & Boards FAQ
-      href: content-faq.md
-      updated: true
-- name: Communication
-  href: communication.md
-  items: 
-    - name: Discussions FAQ
-      href: discussions-faq.md
-    - name: Private Chats FAQ
-      href: chat-faq.md
-      updated:  false
 - name: Notifications
   href: notifications.md
-  updated: true
-- name: Search
-  href: search.md
-- name: Analytics
-  href: analytics/toc.yml
-  topicHref: analytics/index.md
-- name: USE CASES & WALKTHROUGHS
-  header: true
-  new: false
-- name: Coming soon...
-  new: false
+  updated: false
 - name: RELEASE NOTES
   header: true
   new: false
