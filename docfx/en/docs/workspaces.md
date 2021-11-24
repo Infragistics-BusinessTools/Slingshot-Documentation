@@ -1,74 +1,116 @@
 # Workspaces
 
-A *workspace* can be defined as the area where you engage in physical or mental activities to achieve a result. Nowadays, your workspace can be your office, desk, a coffee shop, or even your home. In IT, "workspace" is often used to refer to a computer screen or application where you work and the way it is arranged. A common trait to all workspaces is that they meet a set of requirements that help you do your work efficiently. Of course, those requirements vary greatly depending on each specific scenario. 
+## Workspaces in Slingshot
+A Workspace in Slingshot can be defined as a digital area where groups of people - within or outside your organization - gather to work on a common objective. Workspaces allow you to collaborate, prioritize work, share content and knowledge and even gleam insights from data in a transparent way.
 
-## So, what's a Slingshot workspace?
+## What’s In a Workspace?
 
-It’s the virtual area where you get your work done within Slingshot. Very close to the IT definition of workspace, right?  It's also very close to the traditional understanding as it delivers an area where you can communicate and collaborate with others. 
+We know that in order to run a high performing team you need to have everything in one app for a seamless workflow. Below are all the amazing features that you have within your Slingshot workspace:
+- **Overviews**: Each workspace has an overview which contains details of the workspace such as status, dates, and key content that is pinned there. At a quick glance you can see any mentions you have missed, and the status of all tasks broken down by member. The Overview is designed to give you a high-level view on the current state of that project or initiative – making it easier to identify roadblocks before they become a problem. [Check out the Overviews](overviews.md) topic for more information.  
 
-And Slingshot is all about team collaboration and supporting each other towards common objectives. It can be said that good teams understand each other and work well together. But Slingshot's workspaces do not only gather together good teams. By providing a combination of tools that enable solid leadership, good communication, and access to the right resources, the workspaces dramatically improve productivity and collaboration. Just the right recipe to make good teams great!
+- 	**Workspaces**: A Workspace can be a single flat space or hierarchy to further breakdown and organize key initiatives, projects, and processes for a group of people. If you have sub workspaces within your top-level workspace you can see them all from this tab along with the status of each. This is a great view for team leaders trying to see everything happening at once.
 
-## Providing tools for effective communication
+- **Tasks**: Tasks are how you can ensure that everyone is aligned and moving towards deadlines and goals. Each workspace allows you to create as many tasks as you need. Tasks are organized via Sections and Lists, which enables you to be even more organized! You can also view the tasks in different ways such as Grid view, Kanban and Gantt view. [Read more about tasks, lists, sections and views here!](tasks.md)  
 
-Your workspace in Slingshot is intended to facilitate your collaboration with others. Being part of a team means fluid communication. That's why you can use different types of communication like workspace discussions, task activity comments, notifications, or even a general chat.
+- **Discussions**: Discussions ensure that collaborate between workspace members and groups is visible and transparent. Everyone can contribute to the discussion and stay abreast of what is going on within a workspace. Discussions can be organized in topics to prevent conversations from getting lost. You can mention members and groups here to ensure that nobody misses anything, or you can also ensure that members are notified when you create the topic. [Navigate here for more information on Discussions!](discussions-faq.md)
 
-The most effective way to involve everyone in a discussion and maintain high transparency in the workspace, is to create a topic in the workspace discussions (see below). 
+-	**Content**: Content takes the chaos of sharing and finding files and restores calmness. In a matter of clicks you can access OneDrive, GoogleDrive, SharePoint, DropBox and Box to pin files in context of your workspace. Upload local files and turn them into shared files magically. Pin important URLs you need everyone to have quick access to. Ensure that all documents and files that are relevant to each workspace is available to all members. [For more information on Content, click here](content-boards.md).
 
-<img src="../images/workspace-discussion.png" alt="Example of a workspace topic in the discussions." class="responsive-img" />
+- **Analytics**: How else can you make data driven decisions without Analytics? Each workspace allows you to create or share dashboards which are visible by all members. Connect directly to your data sources, bringing them all together in one view to ensure you can always make an informed decision. [Check out the Analytics topics as what you can do here is limitless!](analytics/index.md)
 
-You can also communicate with any Slingshot user (or group of users) through the **private chat**.
+## Workspace Hierarchy
 
-<img src="../images/chat-example.png" alt="Example of a chat." class="responsive-img" />
+Now that you understand all the possibilities within a workspace you should have a better idea how to organize around key projects. Workspaces can be a single flat space or have hierarchy to further breakdown and organize key initiatives. We understand that everyone organizes differently, so Slingshot is designed to allow you full flexibility. For more ideas on organizing your data, check out our Solutions page!
+There are pros and use cases for each of these approaches when you are creating your workspace.
 
-Communication is not limited to writing. You can also attach files, use emojis, and react to messages.
+### Workspaces with Hierarchy
 
-## Ensuring collaboration fluency 
+A perfect example of when you want a hierarchy within your workspaces is when you are a group of people that works together every day on several different projects or are responsible for several different things. Think about your traditional Marketing team – you have SEO, Paid Advertising initiatives, and many more – and separate professionals working on those specific responsibilities. You have launches for your product or service – all of which have their own tasks, content, data, and conversations that need to occur at a specific moment in time.
 
-To support each other, the members of a workspace can get a sense of the workspace status at a glance. Using the workspace *overview* you can keep yourself informed about all members and their tasks, helping you proactively contact those in need. You can, for example, start a discussion to get a team member's attention. And they will receive a notification to alert them that they were mentioned.
+Here are some additional features of workspaces in hierarchy:
+- You can organize all your team’s projects and initiatives so everyone can intuitively find information.
+- You can set start dates and due states at the sub-workspace level.
+- You can set a status on your sub-workspaces.
+- All your subtasks roll up to the parent workspace so you can easily run your team scrums
+- You can share sub-workspaces with users outside of the parent workspace for them to have access only to that content.
 
-<img src="../images/workspace-overview-example.png" alt="A workspace overview example" class="responsive-img">
+### Single Workspace
 
-When you work towards a common objective, using shared resources is required. One of the best practices in Slingshot is to organize your content in *Boards*. Designed to manage your personal or workspace content, boards are just containers. They keep connections to cloud storages, where you hold your resources.
+Single workspaces are great for bringing people together for a single purpose. An example of a workspace that doesn’t need hierarchy would be something like Sales Enablement. Here, you need to include a lot of different people, from different departments in the organization to have access for this specific reason
+With the ability to turn tabs within workspaces on and off you can customize them so they fit their uses cases perfectly. [Learn more about turning workspace tabs on and off here](#customizing-a-workspace).
 
-<img src="../images/content-sub-workspace.png" alt="An example of a board used to hold workspace resources" class="responsive-img">
+## Workspace Settings and Properties
 
-<a name='sub-workspaces'></a>
-## Using workspaces within the workspace
+You can set Information for each workspace such as:
+- **Description**: It is best practice to add a description to your workspace so new and even existing members are clear on the purpose.
+- **Start Date & End Date**: for projects that have a clear start and end date set them so everyone is aligned on expectation. These are not required for when you have a workspace that is a continuous process.
+- **Status**: Give everyone working in this workspace a clear indication on if you are On Target, At Risk or In Danger of completing at the deadline. Status is also not required.
+- **Organization**: {pending}
+- **Privacy**: {pending}
 
-More often than not, you will collaborate with different people in your workspace  that work on  separate tasks. Sometimes even people from outside the workspace might join to work on a specific project. For example, if you are part of a Marketing workspace, you may want to separate the marketing campaigns. All collaborators will benefit from tracking the progress on each campaign more easily, to communicate faster and to get data about the campaign success rate *from Slingshot's Analytics*. 
+You can also manage your members and their roles from within the workspace setting. [Learn more about workspace permission levels here](#workspace-permissions).
 
-It's always important to organize the different groups and projects within the workspace in a way that fosters productive collaboration and best practices. By giving you the ability to create workspaces within another workspace, Slingshot empowers solid leadership, good communication, and access to the right resources for each group of collaborators. 
+Looking to create beautiful maps within your dashboards for key insights into locational data? You can also set up your Image Tile provider under the workspace settings.
 
->[!NOTE] For this guide's purposes, the term **sub-workspace** will be used to refer to a workspace within the workspace. The main workspace that contains sub-workspaces will be sometimes called a **parent workspace**.  
+Accessing the Settings of the workspace can be done via the overflow menu next to the Workspace name.
 
-A sub-workspace provides you, by default, with the same collaboration tools as the parent workspace. Let's look at a quick list!
+<img src="../images/workspace-overflow-menu.png" alt="Accessing a workspace settings within Slingshot" class="responsive-img" width="50%"/>
 
-- *Overview* - provides a quick snapshot of what's going on: overall status (*On Target, At Risk, Danger, Completed*), start and due dates, crucial resources, everyone's progress on tasks and all mentions directed at you. 
-- *Tasks* - all the tasks associated with the sub-workspace are tracked and organized in lists.   
-- *Content* - helps you share and organize neatly all resources required to collaborate.   
-- *Discussions* - you can communicate with a focus on your sub-workspace's shared objective.
+## Working with Workspaces
 
-<img src="../images/welcome-overview-subworkspace.png" alt="A sub-workspace's overview" class="responsive-img">
+When a Workspace is shared with you, it will automatically appear in your navigation side bar. You will also get a notification that a Workspace is shared with you so you can begin collaborating based the notification settings you have set.
 
-### Customize main navigation tabs for improved productivity
+### Creating a Workspace
 
-What if you don’t use discussions for your project or don’t need Analytics in the preparation phase? No matter how good a tool is, it still can be unnecessary or inappropriate for your work. If you are the owner of the workspace, to improve productivity and decrease clutter, you can hide one or more of the six main navigation tabs. 
+Creating a new workspace in Slingshot can be done is just a few easy steps!
+1.	To start creating a new workspace Click the “+ New” button in the left navigation at the top of your workspace list.
+2.	From the “Join or Create a Workspace” modal dialog that pops up, click “+ Create Workspace” button. Here is where any public workspaces within your organization would appear for you to join as well.
+3.	From the “Create Workspace” modal dialog that pops up, enter the information for your workspace, turn off any tabs that don’t fit the workspace use case, then click the “Create” button.
+4.	Next, on the “Who is collaborating in this workspace” screen you can start adding members to your workspace. If you choose to do so at a later date, you can simply close this modal.
 
-To customize which tabs you need to run your workspace, you can simply use the *pencil* icon next to the *Analytics* tab (see below). 
+And that’s it! You have successfully created your first workspace and shared it with members to begin collaborating.
 
-<img src="../images/workspace-overview-example-pencil-icon.png" alt="Pencil icon shown next to tabs" class="responsive-img" />
+### Creating Sub Workspaces
+You can add sub workspaces from the workspace tab using the blue “+ Workspace” button. From here, you will follow the same steps as Creating a Workspace.
 
-Use the toggles to hide/show tabs. All tabs are shown by default. When you disable a tab, you simply hide it. This means, that if you decide to show the tab again all its previous content will be recovered and also shown. 
+>[!NOTE] Keep in mind that all members of the parent Workspace will have access to the sub workspace also. However, you can share a sub workspace with people external to the parent or even your organization. They will only have access to that sub workspace and not the parent.
 
->[!NOTE] Contents from **the hidden tabs** will still appear in other parts of Slingshot. For example, if you have shared a task in a discussion or a chat before hiding the Tasks tab, the task will remain visible in the discussion/private chat. Also, it will appear as a [search](search.md) result.
+### Joining a Workspace
 
-### Want to know more about workspaces?
+You can join public Workspaces within your organization.
+1.	Click the “New Workspace” button in the bottom left of the application.
+2.	From the “Join or Create a Workspace” modal dialog that pops up, click the “Join” button on the public Workspace that you want to join.
+3.	Once you have joined the Workspace, it will turn green with a “Joined” notification replacing the “Join” button.
+4.	As this is a public Workspace it will automatically appear in your navigation side bar. The owners of the Workspace will receive a notification that you have joined.
 
-Continue [here](workspaces-faq.md)!
+You are now able to collaborate on that joined Workspace.
 
+### Leaving a Workspace
 
+Once your contribution to a project is completed or if priorities shift, you can easily leave a Workspace. This can be achieved by navigating to the overflow icon next to the Workspace name, and selecting “Leave Workspace”. You will not receive anymore notifications for this Workspace, and you will no longer be able to access any of the content such as tasks or discussions.
 
+### Deleting a Workspace
 
+There will be situations where the objective of the Workspace is achieved, no longer needed or you are reorganizing. When this occurs, you can delete the workspace. Only a member with Owner permissions can delete a Workspace. You can delete a Workspace by:
+1.	Select Workspace Settings from the overflow button next to the Workspace name.
+2.	From the “Edit Workspace” modal dialog that appears, select the overflow button in the top right.
+3.	Select “Delete Workspace”.
 
+>[!NOTE] When a Workspace is deleted, all data is deleted permanently. Another option instead of deleting a Workspace is to archive the Workspace [ coming soon].
 
+### Customizing a Workspace
 
+By default a Workspace is created with all tabs, which are described in the above section What’s in a Workspace. We know though that all these tabs may not be necessary for your project and just add clutter. For example in an HR Organization Management workspace which would be used to share all employee related content, Tasks and Discussion tabs wouldn’t be required.
+
+Slingshot allows you full flexibility in customizing these tabs for your project’s requirements.
+1.	Select the Pen icon displayed next to the Tabs
+2.	In the Edit Tabs modal dialog that pops up, select the tabs you want to hide.
+3.	Click the ‘Save’ button
+
+>[!NOTE] Hiding a tab only removes it from appearing, it doesn’t delete any of the data that is associated with those tabs. Once they are visible again, that data is restored.
+
+## Workspace Permissions
+
+Within Workspaces, there are two types of permissions:
+- **Owner** – By default the person who created the Workspace is set as the owner. Only the owner can change permissions of members within the Workspace. An owner has full access to manage the Workspace. They can add / remove members and also delete the Workspace.
+- **Member** – with this level of permission, you can create, edit and share. You can’t add new members or delete the Workspace.
