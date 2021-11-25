@@ -4,7 +4,7 @@ When it comes to running a successful project – task management is at the hear
 
 Learn more about all Slingshots project management features in our short tutorial video:  
 
-[![IMAGE_ALT](https://img.youtube.com/vi/D1yqDISM5PM/0.jpg)](https://www.youtube.com/watch?v=D1yqDISM5PM)
+> [!Video https://www.youtube.com/embed/D1yqDISM5PM]
 
 ## What are Tasks?  
 

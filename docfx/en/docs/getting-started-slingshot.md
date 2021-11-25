@@ -20,8 +20,7 @@ To be successful within Slingshot you should first become familiar with the basi
 
 Get a high-level overview of Slingshot and a glimpse into all of the different features in our Slingshot Product Tour video.  
 
-[![IMAGE_ALT](https://img.youtube.com/vi/s5HRJE_iFPI/0.jpg)](https://www.youtube.com/watch?v=s5HRJE_iFPI)
-
+> [!Video https://www.youtube.com/watch?v=s5HRJE_iFPI]
 
 ## Logging into Slingshot  
 When first launch the Slingshot application you are welcomed with 4 sign in options – Apple, Google, Microsoft and Infragistics:  
