@@ -1,8 +1,16 @@
 # Advanced Information Editing for Data Sources
 
-*The advanced editing of a data source* allows you to modify databases and data sets added to your <img src="images/data-source-icon.png" alt="the data sources icon used in Analytics" width="24px" height="24px" /> *Data Sources* list. You can limit the data sets and fields other users can see and work with directly inside the Slingshot application. This could be useful in scenarios when you don't want or can't modify the original data source. 
+The Advanced editor in Slingshot will improve yours and your team’s work with large datasets. By allowing you to edit the metadata of your data sources, the Editor will help you:
 
-You cannot edit some data sources due to  [limitations](#advanced-editing-limitations) related to their type or certification being used.
+* quickly find the data you need for your visualizations by hiding irrelevant datasets; 
+
+* make the data easy to understand by renaming or adding description to data fields; 
+
+* automate repetitive actions by changing the default type of a data field.
+
+Continue reading to learn who can edit the data source’s metadata and how. 
+
+>[!NOTE] You cannot edit some data sources due to  [limitations](#advanced-editing-limitations) related to their type or [certification](certification.md).
 ## Editing Advanced Information 
 
 You can use advanced editing for any data source containing table data, JSON objects,  

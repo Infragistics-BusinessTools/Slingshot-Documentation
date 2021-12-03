@@ -4,7 +4,7 @@ If you are part of an [Organization](~/docs/workspaces-faq.html#organization-vs-
 
 Below, you will learn how to recognize certified data sources, what certification levels are available in Slingshot, who can certify and how. 
 
-## Who is This Topic for? 
+## Who Is This Topic for? 
 
 Certification in *Analytics* is only available for users who have an <img src="images/organization-icon.png" alt="the org workspace icon" width="24px" height="24px" />  Organization in Slingshot. 
 
