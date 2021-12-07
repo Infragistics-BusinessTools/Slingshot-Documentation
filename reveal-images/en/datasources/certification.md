@@ -53,10 +53,10 @@ An email will be sent to all Organization owners notifying them that the users a
 
 Each data source can be certified individually in the workspace where it is added. To certify a data source:
 
-1. Go to the <img src="images/workspace-icon.png" alt="the workspace icon used in Analytics" width="24px" height="24px" /> workspace where you can find the data source. 
+1. Go to the <img src="images/workspace-icon.png" alt="the workspace icon used in Analytics" width="24px" height="24px" /> *workspace* where you can find the data source. 
 2. Select the *Analytics* tab. 
-3. Select <img src="images/data-source-icon.png" alt="the data sources icon used in Analytics" width="24px" height="24px" /> Data Sources on the left.
-4. Click/tap the <img src="images/not-certified-icon.png" alt="the data sources icon used in Analytics" width="24px" height="24px" /> badge icon for the data source you want to certify and choose a badge from the dropdown. 
+3. Select <img src="images/data-source-icon.png" alt="the data sources icon used in Analytics" width="24px" height="24px" /> *Data Sources* on the left.
+4. Click/tap the <img src="images/not-certified-icon.png" alt="the data sources icon used in Analytics" width="24px" height="24px" /> *badge icon* for the data source you want to certify and choose a badge from the dropdown. 
 
 The certificates are hierarchical. This means that certifiers who can certify data sources as <img src="images/gold-badge-icon.png" alt="the gold badge icon used in Analytics" width="24px" height="24px" /> *Gold* will also see the <img src="images/silver-badge-icon.png" alt="the silver badge icon used in Analytics" width="24px" height="24px" /> *Silver* and <img src="images/bronze-badge-icon.png" alt="the bronze badge icon used in Analytics" width="24px" height="24px" /> *Bronze* badges available in the dropdown. And *Bronze* certifiers will only see the bronze badge available. 
 
