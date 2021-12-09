@@ -46,7 +46,7 @@ Alternatively, open:
 
 <img src="../images/user-settings-notifications.png" alt="Notifications Settings menu opened in Slingshot" class="responsive-img"/>
 
-Finally, by selecting the pencil icon for each category you can edit the settings or use the toggle on top to turn them off entirely (see the screenshot). 
+Finally, by selecting the pencil icon for each category you can edit the settings or use the toggle on top to turn them off entirely (see the screenshot below). 
 
 <img src="../images/edit-notifications-settings.png" alt="Editing one of the items in the Notifications Settings tab" class="responsive-img"/>
 
