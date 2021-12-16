@@ -101,7 +101,7 @@ Unlike table data sources, data cubes enable data to be modeled and viewed in mu
 
 Let's take a look at a screenshot showing the advanced editor of a *Google Analytics* data source. 
 
-> This screenshot is an example. If you want to use it as a final screenshot, make sure "infragistics" is blurred or edited. 
+> This screenshot is an example. If you want to use it as a final screenshot, make sure "Infragistics" is blurred or edited. 
 <img src="images/advanced-editor-cubes-annotated.png" alt="The Advanced editor for cubes annotated" class="responsive-img" width="75%" />
 
 A. A **list of data cubes** available . Select the dataset to see and modify the data it contains. 
