@@ -17,13 +17,6 @@ td {
   font-size: 18px;
 }
 
-.bullet {
-    display:list-item;
-    list-style:disc inside;
-    padding:0 0 0 14px;
-    margin:0;
-}
-
 </style>
 
 <table class="rntable">
@@ -32,21 +25,7 @@ td {
         <th style="vertical-align:middle"><span style="font-weight:bold">Slingshot version</span></th>
         <th style="vertical-align:middle"><span style="font-weight:bold">Description</span></th>
     </tr>
-        <tr>
-        <td class="td1" rowspan="2">Dec-2021</td>
-        <td class="td1" rowspan="2">???</td>
-        <td><span style="font-style:italic;font-size:16px">New Text Box capabilities</span><br> You will now find more options when editing a message in your topic or chat text box. You can now:
-           <span class="bullet">change font type, size and color; </span>
-           <span class="bullet">add lists;</span> 
-           <span class="bullet">add indentation and dividers;</span> 
-           <span class="bullet">paste images directly in your messages.</span>  
-        </td>
-    </tr>
-    <tr>
-        <td><span style="font-style:italic;font-size:16px"><a href="notifications.html">Improved Notifications Settings screen</a></span><br> The design of the Notification Settings is now improved so you can modify your notification preferences more quickly and easily.  
-        </td>
-    </tr>
-    <tr>
+   <tr>
         <td class="td1" rowspan="7">Oct-2021</td>
         <td class="td1" rowspan="7">1.0.2157</td>
         <td><span style="font-style:italic;font-size:16px"><a href="workspaces.html#customize-main-navigation-tabs-for-improved-productivity">New capability to hide navigation tabs</a></span><br> Workspace owners are now able to modify the workspace by hiding the navigation tabs (Overview, Tasks, Content, etc.) that their team doesn’t need. 
