@@ -12,7 +12,7 @@ If you are a user with a [personal account](~/docs/roles-permissions-faq.html#wh
 
 ## Finding the Certified Data Sources
 
-In the *Data Sources* of a workspace, you will find both certified and uncertified data sources. When a data source is certified, you will see a golden, silver or bronze colored badge next to it (see the screenshot below). 
+In the *Data Sources* of a workspace, you will find both certified and uncertified data sources. When a data source is certified, you will see a gold, silver or bronze colored badge next to it (see the screenshot below). 
 
 <img src="images/data-sources-certified.png" alt="An excel file with a bronze badge located in the certified column" class="responsive-img" />
 
@@ -56,11 +56,11 @@ Each data source can be certified individually in the workspace where it is adde
 1. Go to the <img src="images/workspace-icon.png" alt="the workspace icon used in Analytics" width="24px" height="24px" /> *workspace* where you can find the data source. 
 2. Select the *Analytics* tab. 
 3. Select <img src="images/data-source-icon.png" alt="the data sources icon used in Analytics" width="24px" height="24px" /> *Data Sources* on the left.
-4. Click/tap the <img src="images/not-certified-icon.png" alt="the data sources icon used in Analytics" width="24px" height="24px" /> *badge icon* for the data source you want to certify and choose a badge from the dropdown. 
+4. Click/tap the <img src="images/not-certified-icon.png" alt="the data sources icon used in Analytics" width="24px" height="24px" /> crossed out *badge icon* for the data source you want to certify and choose a badge from the dropdown. 
 
-The certificates are hierarchical. This means that certifiers who can certify data sources as <img src="images/gold-badge-icon.png" alt="the gold badge icon used in Analytics" width="24px" height="24px" /> *Gold* will also see the <img src="images/silver-badge-icon.png" alt="the silver badge icon used in Analytics" width="24px" height="24px" /> *Silver* and <img src="images/bronze-badge-icon.png" alt="the bronze badge icon used in Analytics" width="24px" height="24px" /> *Bronze* badges available in the dropdown. And *Bronze* certifiers will only see the bronze badge available. 
+The certificates are hierarchical. This means that certifiers who can certify data sources as <img src="images/gold-badge-icon.png" alt="the gold badge icon used in Analytics" width="24px" height="24px" /> *gold* will also see the <img src="images/silver-badge-icon.png" alt="the silver badge icon used in Analytics" width="24px" height="24px" /> *silver* and <img src="images/bronze-badge-icon.png" alt="the bronze badge icon used in Analytics" width="24px" height="24px" /> *bronze* badges available in the dropdown. And *bronze* certifiers will only see the bronze badge available. 
 
->[!NOTE] Keep in mind that if two data source in two workspaces are named the same, the certifier has to certify them in each of the workspaces individually. The certificate will not be transferred automatically as the certifier has to first make sure they contain the same information.
+>[!NOTE] Keep in mind that if two data source in two workspaces are named the same, the certifier has to certify them in each of the workspaces individually. The certificate is not transferred automatically because the certifier has to first make sure both data sources contain the same information.
 
 ## Moving and Copying Data Sources
 
@@ -70,7 +70,7 @@ When you copy a certified data source from one workspace to another, the certifi
 
 ## Defining the Certification Criteria
 
-As the certification in *Analytics* is flexible, it is up to you to define your own certification criteria. You can decide what the Gold, Silver and Bronze badge mean to your Organization and data sources. Just keep in mind they are hierarchical as their names suggest and the hierarchy goes this way: *Gold* > *Silver* > *Bronze*. You can also set new names. 
+As the certification in *Analytics* is flexible, it is up to you to define your own certification criteria. You can decide what the gold, silver and bronze badge mean to your Organization and data sources. Just keep in mind they are hierarchical as their names suggest and the hierarchy goes this way: *gold* > *silver* > *bronze*. You can also set new names. 
 
 >[!Tip] **Pro Tip!** Don't forget to write down the guidelines and distribute them among the users in your Organization! Pin the Guidelines document to your Organization *Content* for more visibility. 
 
