@@ -1,33 +1,42 @@
 # Tasks
 
-A task can be defined as "a piece of work to be done". Simple, right? Yet, there are many task management solutions on the market that focus solely on tasks. And Slingshot is much more than that...
+When it comes to running a successful project – task management is at the heart of that. You need everything organized in one place to manage tasks through out the full lifecycle of the project. Setting deadlines, dependencies, and priorities, are all essential to ensure the project stays on track and gets completed in time.   
 
-## So, what's a Slingshot task?
+Learn more about all Slingshots project management features in our short tutorial video:  
 
-Think of a Slingshot task as a virtual representation of work to be done. But not just that. Slingshot tasks were designed to help you and your team to better organize work and boost productivity. How? You may ask. Take a look:
-- Tasks capture all relevant information around a piece of work.
-- Tasks are beginner-friendly and yet they have tons of functionality and flexibility.
+> [!Video https://www.youtube.com/embed/D1yqDISM5PM]
 
-<img src="../images/welcome-tasks.png" alt="Slingshot tasks displayed in a list" class="responsive-img"/>
+## What are Tasks?  
 
-## Tasks capture your information
+Tasks within Slingshot is a visual representation of work that needs to get done.  
 
-Assigning a task is as basic as it gets, but... Do you want a single person assigned to a task? Or several people collaborating over the same task? Maybe it's better to add several subtasks and assign them to several users, while still having someone who keeps final overall responsibility for the main task? No problem, we got you covered.
+Within tasks you can store relevant documents, set clear ownership of responsibility, and have threaded conversations so everything is transparent in one place.  
 
-In Slingshot, you can decide what works best for you: assigning only one assignee to a single task, **multiple assignees** to the same task, or breaking up a task into **subtasks**, assign those to different assignees while still having someone directly responsible for the overall task.
+## How to Create a Task  
 
-<img src="../images/tasks-multiple.png" alt="Several tasks with multiple assignees and subtasks within Slingshot" class="responsive-img"/>
+There are multiple ways that you can create a task in Slingshot. From inside the task tab of your workspace you can create a task from:  
 
-Using subtasks is also a good way to differentiate **priority** for tasks and subtasks. With three levels of priority (*low, medium, high*), people collaborating over a task or subtask are free to set different priorities. 
+1.	The blue + task button  
+2.	The bottom of your section or list  
+3.	The overflow menu to insert a task   
 
-Deadlines for tasks and subtasks might also vary. That's not an issue for Slingshot! You can set a **start date** and **due date** for tasks and subtasks independently.
+<img src="../images/tasks-new-task.png" alt="Creating a new Slingshot task" class="responsive-img"/>
 
-Your task can be started only after another task is completed? Or your incomplete task is blocking other tasks? Slingshot helps you achieve more visibility for everybody in your workspace by setting task **dependencies**.  
+>[!IMPORTANT] **Slingshot Tip**: You can also create tasks directly from a conversation, pin or dashboard in Slingshot. Check out more productivity flows from within Slingshot to enhance your productivity.
 
-Besides that, you might also need to add images, documents, or links for specific tasks and subtasks. The ability to **add attachments** ensures that Slingshot captures all relevant information for your tasks and subtasks, helping you keep your workflow running smoothly.
+## Task Fields  
 
-<img src="../images/tasks-attachments.png" alt="A Slingshot task with multiple attachment" width="75%" class="responsive-img"/>
+Since tasks are very important in driving the productivity of your teams, it is essential they come with all the fields you need. Your task card has the following information:  
 
-## Want to know more about Tasks?
+<img src="../images/tasks-fields-highlight.png" alt="Task fields highlighted within Slingshot" class="responsive-img"/>
 
-Continue [here](tasks-faq.md)!
+1.	**Task Title**: Set a clear task title for your tasks.  
+2.	**Assignee(s)**: Assign either one person, multiple, group or workspace to a task.  
+3.	**Start Date & Due Date**: Set clear expectations on deadlines with start and due dates.  
+4.	**Status**: Keep up to date with the status of your tasks.  
+5.	**Attachments**: Add documents and files directly from your cloud providers or using drag and drop.  
+6.	**URLs**: Attach URLs to your tasks for reference.  
+7.	**Priority**: Set priorities for your teams so they can better manage their workloads effectively.  
+8.	**Task Dependencies**: Set clear paths to success for your projects with accountability to users tasks.  
+9.	**Description**: Add further details around your tasks.  
+10.	**Conversation**: Have threaded conversations around your tasks in context.  
