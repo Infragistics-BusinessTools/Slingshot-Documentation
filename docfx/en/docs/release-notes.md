@@ -34,7 +34,7 @@ td {
     </tr>
         <tr>
         <td class="td1" rowspan="2">Dec-2021</td>
-        <td class="td1" rowspan="2">???</td>
+        <td class="td1" rowspan="2">1.0.2260</td>
         <td><span style="font-style:italic;font-size:16px">New Text Box capabilities</span><br> You will now find more options when editing a message in your topic or chat text box. You can now:
            <span class="bullet">change font type, size and color; </span>
            <span class="bullet">add lists;</span> 
