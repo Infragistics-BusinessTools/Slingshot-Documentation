@@ -60,11 +60,13 @@ When you open the Advanced Editor, you will notice there are a lot of elements y
 
 ### The Advanced Editor for Table Data Overview
 
-Most of the data sources in Analytics contain table data. This is data organized in two dimensions: rows and columns. 
+Most of the data sources in Analytics contain table data.
 
 Let's take a look at the screenshot showing the Advanced Editor of a Microsoft SQL data source. 
 
 > this screenshot is just an example containing all the elements of the Advanced editor; it's better to use a data source that contains both text and numeric data fields. 
+<img src="images/advanced-editor-table-data.png" alt="Advanced editor of table data annotated" class="responsive-img" width="75%" />
+
 
 A. The data source's **icon** and **title**. You can rename the data source. 
 
