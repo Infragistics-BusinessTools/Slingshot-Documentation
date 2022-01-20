@@ -5,7 +5,7 @@
   updated: true
 - name: Getting Started with Slingshot
   href: getting-started-slingshot.md
-  new: true
+  updated: true
 - name: FEATURES
   header: true
 - name: Workspaces
@@ -20,7 +20,7 @@
   new: false
 - name: Tasks
   href: tasks.md
-  updated: true
+  updated: false
   items:
     - name: Tasks FAQ
       href: tasks-faq.md
