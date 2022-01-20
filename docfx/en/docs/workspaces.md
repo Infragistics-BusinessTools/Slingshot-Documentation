@@ -1,56 +1,56 @@
 # Workspaces
 
-## Workspaces in Slingshot
-A Workspace in Slingshot can be defined as a digital area where groups of people - within or outside your organization - gather to work on a common objective. Workspaces allow you to collaborate, prioritize work, share content and knowledge and even gleam insights from data in a transparent way.
+A Workspace in Slingshot can be defined as a digital workplace where groups of people - within or outside your organization - gather to work on a common objective. Workspaces allow you to collaborate, prioritize work, share content and knowledge and even gleam insights from data in a transparent way.
 
 ## What’s In a Workspace?
 
-We know that in order to run a high performing team you need to have everything in one app for a seamless workflow. Below are all the amazing features that you have within your Slingshot workspace:
-- **Overviews**: Each workspace has an overview which contains details of the workspace such as status, dates, and key content that is pinned there. At a quick glance you can see any mentions you have missed, and the status of all tasks broken down by member. The Overview is designed to give you a high-level view on the current state of that project or initiative – making it easier to identify roadblocks before they become a problem. [Check out the Overviews](overviews.md) topic for more information.  
+In order to run a high performing team you need to have everything in one app for a seamless workflow. Below are all the amazing features that you have within your Slingshot workspace:
 
-- 	**Workspaces**: A Workspace can be a single flat space or hierarchy to further breakdown and organize key initiatives, projects, and processes for a group of people. If you have sub workspaces within your top-level workspace you can see them all from this tab along with the status of each. This is a great view for team leaders trying to see everything happening at once.
+- **Overviews**: Each workspace has an overview which contains details of the workspace such as status, dates, and key content that is pinned there. At a quick glance you can see any mentions you have missed, and the status of all tasks broken down by member for that workspace and all projects within it. The Overview is designed to give you a high-level view on the current state of that project or initiative – making it easier to identify roadblocks before they become a problem. [Check out the Overviews](overviews.md) topic for more information.  
 
-- **Tasks**: Tasks are how you can ensure that everyone is aligned and moving towards deadlines and goals. Each workspace allows you to create as many tasks as you need. Tasks are organized via Sections and Lists, which enables you to be even more organized! You can also view the tasks in different ways such as Grid view, Kanban and Gantt view. [Read more about tasks, lists, sections and views here!](tasks.md)  
+- **Projects**: Projects allow you to further breakdown and organize key initiatives, projects, and processes for a group of people. You can get a quick glimpse of all projects and their status from this tab. This is a great view for team leaders trying to see everything happening at once. 
 
-- **Discussions**: Discussions ensure that collaborate between workspace members and groups is visible and transparent. Everyone can contribute to the discussion and stay abreast of what is going on within a workspace. Discussions can be organized in topics to prevent conversations from getting lost. You can mention members and groups here to ensure that nobody misses anything, or you can also ensure that members are notified when you create the topic. [Navigate here for more information on Discussions!](discussions-faq.md)
+- **Tasks**: Tasks are how you can ensure that everyone is aligned and moving towards deadlines and goals. Each workspace and project allow you to create as many tasks as you need. Tasks can be organized even more into Sections and Lists. You can also view the tasks in different ways such as List view, Kanban and Gantt view. [Read more about tasks, lists, sections and views here!](tasks.md)  
 
--	**Content**: Content takes the chaos of sharing and finding files and restores calmness. In a matter of clicks you can access OneDrive, GoogleDrive, SharePoint, DropBox and Box to pin files in context of your workspace. Upload local files and turn them into shared files magically. Pin important URLs you need everyone to have quick access to. Ensure that all documents and files that are relevant to each workspace is available to all members. [For more information on Content, click here](content-boards.md).
+- **Discussions**: Discussions ensure that collaboration between workspace members and groups is visible and transparent. Everyone can contribute to the discussion and stay abreast of what is going on within a workspace or project. Discussions can be organized in lists to prevent conversations from getting lost in endless threads. You can mention members and groups here to ensure that nobody misses anything, or choose to notify users when you create the discussion. [Navigate here for more information on Discussions!](discussions-faq.md)
 
-- **Analytics**: How else can you make data driven decisions without Analytics? Each workspace allows you to create or share dashboards which are visible by all members. Connect directly to your data sources, bringing them all together in one view to ensure you can always make an informed decision. [Check out the Analytics topics as what you can do here is limitless!](analytics/index.md)
+-	**Pins**: The Pins area takes the chaos of sharing and finding files and restores calmness. In a matter of clicks you can access OneDrive, GoogleDrive, SharePoint, DropBox and Box to pin files in context of your workspace and projects. Upload local files and turn them into shared files magically. Pin important URLs you need everyone to have quick access to. Pull together files, URLs, dashboards, tasks and more into your content lists to keep resources that are relevant to each workspace or project. [For more information on Content, click here](content-boards.md).
+
+- **Dashboards**: How else can you make data driven decisions without analytics? Each workspace allows you to create or share dashboards which are visible by all members. Bring multiple data sources into one dashboard to ensure you have all the information to make data-driven decisions
+
+- **Data Sources**: Connect directly to your data sources, for your workspace and project members to have quick access too. Make everyone in your organization a data scientist! [Check out the Analytics topics, as what you can do here is limitless!](analytics/index.md)
 
 ## Workspace Hierarchy
 
-Now that you understand all the possibilities within a workspace you should have a better idea how to organize around key projects. Workspaces can be a single flat space or have hierarchy to further breakdown and organize key initiatives. We understand that everyone organizes differently, so Slingshot is designed to allow you full flexibility. For more ideas on organizing your data, check out our Solutions page!
+Now that you understand all the possibilities within workspaces and projects, you should have a better idea how to organize around key initiatives. Workspaces can be a single flat space or have hierarchy to further breakdown and organize into projects. We understand that everyone organizes differently, so Slingshot is designed to allow you full flexibility. For more ideas on organizing your data, check out our Solutions page!
 There are pros and use cases for each of these approaches when you are creating your workspace.
 
-### Workspaces with Hierarchy
+### Workspaces with Projects
 
-A perfect example of when you want a hierarchy within your workspaces is when you are a group of people that works together every day on several different projects or are responsible for several different things. Think about your traditional Marketing team – you have SEO, Paid Advertising initiatives, and many more – and separate professionals working on those specific responsibilities. You have launches for your product or service – all of which have their own tasks, content, data, and conversations that need to occur at a specific moment in time.
+A perfect example of when you want a hierarchy within your workspaces is when you are a group of people that works together every day on several different projects - such as a Marketing team. Within a Marketing workspace, you can have SEO, Paid Advertising initiatives, and many more projects happening all at once, all of which have their own tasks, content, data, and conversations that need to occur at a specific moment in time.
 
-Here are some additional features of workspaces in hierarchy:
+Here are some additional features of workspaces with projects:
 - You can organize all your team’s projects and initiatives so everyone can intuitively find information.
-- You can set start dates and due states at the sub-workspace level.
-- You can set a status on your sub-workspaces.
-- All your subtasks roll up to the parent workspace so you can easily run your team scrums
-- You can share sub-workspaces with users outside of the parent workspace for them to have access only to that content.
+- You can set start dates and due states at the project level.
+- You can set a status on your projects.
+- All your project tasks roll up to the workspace so you can easily run your team scrums.
+- You can share projects with users outside of the workspace for them to have access only to that content.
 
-### Single Workspace
+### Workspace without Projects
 
-Single workspaces are great for bringing people together for a single purpose. An example of a workspace that doesn’t need hierarchy would be something like Sales Enablement. Here, you need to include a lot of different people, from different departments in the organization to have access for this specific reason
+Single workspaces are great for bringing people together for a single purpose. An example of a workspace that doesn’t need projects would be something like Sales Enablement. Here, you need to include a lot of different people from different departments in the organization to have access for this specific reason.
 With the ability to turn tabs within workspaces on and off you can customize them so they fit their uses cases perfectly. [Learn more about turning workspace tabs on and off here](#customizing-a-workspace).
 
-## Workspace Settings and Properties
+## Workspace and Project Settings and Properties
 
-You can set Information for each workspace such as:
+You can set Information for each workspace and project such as:
 - **Description**: It is best practice to add a description to your workspace so new and even existing members are clear on the purpose.
-- **Start Date & End Date**: for projects that have a clear start and end date set them so everyone is aligned on expectation. These are not required for when you have a workspace that is a continuous process.
-- **Status**: Give everyone working in this workspace a clear indication on if you are On Target, At Risk or In Danger of completing at the deadline. Status is also not required.
+- **Start Date and End Date**: Set start and end dates so everyone is aligned on expectations. These are not required for when you have a workspace that is a continuous process.
+- **Status**: Give everyone working in this workspace a clear indication on if you are On Target, At Risk or In Danger of completing at the deadline. Status is not a required field.
 - **Organization**: {pending}
 - **Privacy**: {pending}
 
 You can also manage your members and their roles from within the workspace setting. [Learn more about workspace permission levels here](#workspace-permissions).
-
-Looking to create beautiful maps within your dashboards for key insights into locational data? You can also set up your Image Tile provider under the workspace settings.
 
 Accessing the Settings of the workspace can be done via the overflow menu next to the Workspace name.
 
