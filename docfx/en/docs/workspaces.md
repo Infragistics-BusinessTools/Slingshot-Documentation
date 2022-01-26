@@ -1,6 +1,6 @@
 # Workspaces
 
-A Workspace in Slingshot can be defined as a digital workplace where groups of people - within or outside your organization - gather to work on a common objective. Workspaces allow you to collaborate, prioritize work, share content and knowledge and even gleam insights from data in a transparent way.
+A workspace in Slingshot can be defined as a digital workplace where groups of people - within or outside your organization - gather to work on a common objective. Workspaces allow you to collaborate, prioritize work, share content and knowledge and even gleam insights from data in a transparent way.
 
 ## What’s In a Workspace?
 
@@ -47,70 +47,66 @@ You can set Information for each workspace and project such as:
 - **Description**: It is best practice to add a description to your workspace so new and even existing members are clear on the purpose.
 - **Start Date and End Date**: Set start and end dates so everyone is aligned on expectations. These are not required for when you have a workspace that is a continuous process.
 - **Status**: Give everyone working in this workspace a clear indication on if you are On Target, At Risk or In Danger of completing at the deadline. Status is not a required field.
-- **Organization**: {pending}
-- **Privacy**: {pending}
+- **Organization**: Lets you know if the workspace belongs to an organization and which one.
+- **Privacy**: Decide if your workspace will be public for your organization or private. Public workspaces can be discovered and joined by anyone within your organization. Private workspaces require an invitation to join.
 
 You can also manage your members and their roles from within the workspace setting. [Learn more about workspace permission levels here](#workspace-permissions).
 
-Accessing the Settings of the workspace can be done via the overflow menu next to the Workspace name.
+Accessing the Settings of the workspace can be done via the overflow menu next to the workspace name.
 
 <img src="../images/workspace-overflow-menu.png" alt="Accessing a workspace settings within Slingshot" class="responsive-img" width="50%"/>
 
-## Working with Workspaces
+## Working with Workspaces and Projects
 
-When a Workspace is shared with you, it will automatically appear in your navigation side bar. You will also get a notification that a Workspace is shared with you so you can begin collaborating based the notification settings you have set.
+When a workspace or project is shared with you, it will automatically appear in your navigation side bar. You will also get a notification as long as you didn't turn off the alerts.
 
 ### Creating a Workspace
 
 Creating a new workspace in Slingshot can be done is just a few easy steps!
-1.	To start creating a new workspace Click the “+ New” button in the left navigation at the top of your workspace list.
-2.	From the “Join or Create a Workspace” modal dialog that pops up, click “+ Create Workspace” button. Here is where any public workspaces within your organization would appear for you to join as well.
-3.	From the “Create Workspace” modal dialog that pops up, enter the information for your workspace, turn off any tabs that don’t fit the workspace use case, then click the “Create” button.
-4.	Next, on the “Who is collaborating in this workspace” screen you can start adding members to your workspace. If you choose to do so at a later date, you can simply close this modal.
 
-And that’s it! You have successfully created your first workspace and shared it with members to begin collaborating.
+1.	To start creating a new workspace Click the “+ Add” button in the left navigation at the top of your workspace list.
+2.	From the “Join or Create a Workspace” dialog box you will see public workspaces you can join within your organization. To create a new one, click the “+ Create Workspace” button.
+3.	Then enter the information for your workspace, turn off any tabs that don’t fit the workspace use case, then click the “Create” button.
+4.	Next, add members to your workspace. You can do this later by closing the dialog box.
+5.  And that’s it! You have successfully created your first workspace and shared it with members to begin collaborating.
 
-### Creating Sub Workspaces
-You can add sub workspaces from the workspace tab using the blue “+ Workspace” button. From here, you will follow the same steps as Creating a Workspace.
+### Creating Projects
+You can add projects from the project tab using the blue “+ Project” button. From here, you will follow the same steps as Creating a Workspace.
 
->[!NOTE] Keep in mind that all members of the parent Workspace will have access to the sub workspace also. However, you can share a sub workspace with people external to the parent or even your organization. They will only have access to that sub workspace and not the parent.
+>[!NOTE] Keep in mind that all members of the Workspace will have access to the projects within it. However, you can share a project with people external to the workspace or even your organization. They will only have access to that project and not the workspace.
 
-### Joining a Workspace
+### Searching and Joining Workspaces
 
-You can join public Workspaces within your organization.
+You can join public workspaces within your organization.
 1.	Click the “New Workspace” button in the bottom left of the application.
-2.	From the “Join or Create a Workspace” modal dialog that pops up, click the “Join” button on the public Workspace that you want to join.
-3.	Once you have joined the Workspace, it will turn green with a “Joined” notification replacing the “Join” button.
-4.	As this is a public Workspace it will automatically appear in your navigation side bar. The owners of the Workspace will receive a notification that you have joined.
-
-You are now able to collaborate on that joined Workspace.
+2.	Search for the workspace you want to join in the “Join or Create a Workspace” modal dialog that pops up.
+3.  Then click the “Join” button on the public workspace of your choice.
+4.	Once you have joined the workspace, it will turn green with a “Joined” notification replacing the “Join” button.
+5.	As this is a public workspace it will automatically appear in your navigation side bar. The owners of the workspace will receive a notification that you have joined and you are now able to collaborate on that workspace.
 
 ### Leaving a Workspace
 
-Once your contribution to a project is completed or if priorities shift, you can easily leave a Workspace. This can be achieved by navigating to the overflow icon next to the Workspace name, and selecting “Leave Workspace”. You will not receive anymore notifications for this Workspace, and you will no longer be able to access any of the content such as tasks or discussions.
+Once your contribution to a project is completed or if priorities shift, you can easily leave a workspace.
+
+This can be achieved by navigating to the overflow icon next to the workspace name, and selecting “Leave Workspace”. You will not receive notifications for this workspace anymore, and you will no longer be able to access any of the content such as tasks or discussions.
 
 ### Deleting a Workspace
 
-There will be situations where the objective of the Workspace is achieved, no longer needed or you are reorganizing. When this occurs, you can delete the workspace. Only a member with Owner permissions can delete a Workspace. You can delete a Workspace by:
-1.	Select Workspace Settings from the overflow button next to the Workspace name.
-2.	From the “Edit Workspace” modal dialog that appears, select the overflow button in the top right.
-3.	Select “Delete Workspace”.
+There will be situations where the objective of the workspace is achieved, no longer needed or you are reorganizing. When this occurs, you can delete the workspace. Only a member with Owner permissions can delete a workspace.
 
->[!NOTE] When a Workspace is deleted, all data is deleted permanently. Another option instead of deleting a Workspace is to archive the Workspace [ coming soon].
+You can delete a workspace by going to the workspace settings and clicking the overflow in the top right.
 
-### Customizing a Workspace
+### Turning Tabs On and Off
 
-By default a Workspace is created with all tabs, which are described in the above section What’s in a Workspace. We know though that all these tabs may not be necessary for your project and just add clutter. For example in an HR Organization Management workspace which would be used to share all employee related content, Tasks and Discussion tabs wouldn’t be required.
-
+By default a workspace is created with all tabs, but you can turn tabs on and off if they are not necessary.
 Slingshot allows you full flexibility in customizing these tabs for your project’s requirements.
-1.	Select the Pen icon displayed next to the Tabs
-2.	In the Edit Tabs modal dialog that pops up, select the tabs you want to hide.
-3.	Click the ‘Save’ button
+
+If you need to turn on/off a tab, you can easily do so from the pencil icon on the tab menu.
 
 >[!NOTE] Hiding a tab only removes it from appearing, it doesn’t delete any of the data that is associated with those tabs. Once they are visible again, that data is restored.
 
-## Workspace Permissions
+## Workspace and Project Permissions
 
-Within Workspaces, there are two types of permissions:
-- **Owner** – By default the person who created the Workspace is set as the owner. Only the owner can change permissions of members within the Workspace. An owner has full access to manage the Workspace. They can add / remove members and also delete the Workspace.
-- **Member** – with this level of permission, you can create, edit and share. You can’t add new members or delete the Workspace.
+Within Workspaces, there are three types of permissions:
+- **Owner** – By default the person who created the workspace or project is set as the owner. Only the owner can change permissions of members within the workspace/project. They can also remove members from the workspace or project.
+- **Members** – with this level of permission, you can create, edit and share anything with the workspace or project, but you can’t add new members or delete the workspace/project.

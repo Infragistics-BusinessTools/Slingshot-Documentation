@@ -2,9 +2,25 @@
 
 When it comes to running a successful project – task management is at the heart of that. You need everything organized in one place to manage tasks through out the full lifecycle of the project. Setting deadlines, dependencies, and priorities, are all essential to ensure the project stays on track and gets completed in time.   
 
+You have a task tab available within your workspaces and projects.
+
 Learn more about all Slingshots project management features in our short tutorial video:  
 
+**Video that is too big:**
+
 > [!Video https://www.youtube.com/embed/D1yqDISM5PM]
+
+---
+
+**Alternative video:**
+
+[![Alternate Text](https://i.ytimg.com/vi/D1yqDISM5PM/hqdefault.jpg)](https://www.youtube.com/embed/D1yqDISM5PM "Link Title")
+
+---
+
+**Another alternative:**
+
+<a href="https://www.youtube.com/embed/D1yqDISM5PM"><img src="https://i.ytimg.com/vi/D1yqDISM5PM/hqdefault.jpg" width="300" title="Link title" alt="Alternate Text"></a>
 
 ## What are Tasks?  
 
