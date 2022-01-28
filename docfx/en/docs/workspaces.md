@@ -110,3 +110,4 @@ If you need to turn on/off a tab, you can easily do so from the pencil icon on t
 Within Workspaces, there are three types of permissions:
 - **Owner** – By default the person who created the workspace or project is set as the owner. Only the owner can change permissions of members within the workspace/project. They can also remove members from the workspace or project.
 - **Members** – with this level of permission, you can create, edit and share anything with the workspace or project, but you can’t add new members or delete the workspace/project.
+- **Viewers** – can only view and share items from within a workspace or project.  
