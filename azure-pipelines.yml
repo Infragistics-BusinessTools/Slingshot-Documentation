@@ -38,7 +38,7 @@ steps:
     PathtoPublish: 'docfx'
     ArtifactName: 'docs_staging'
     publishLocation: 'FilePath'
-    TargetPath: '\\igbgsofsmb2\builds\Slingshot\Docs\$(Build.DefinitionName)\$(Build.BuildNumber)\Staging'
+    TargetPath: '\\igbgsofsmb2\builds\Slingshot\Docs\$(Build.DefinitionName)\$(Build.BuildNumber)'
     Parallel: true
 - task: CmdLine@2
   displayName: "Build Slingshot docfx (Production)" 
@@ -50,5 +50,5 @@ steps:
     PathtoPublish: 'docfx'
     ArtifactName: 'docs_production'
     publishLocation: 'FilePath'
-    TargetPath: '\\igbgsofsmb2\builds\Slingshot\Docs\$(Build.DefinitionName)\$(Build.BuildNumber)\Production'
+    TargetPath: '\\igbgsofsmb2\builds\Slingshot\Docs\$(Build.DefinitionName)\$(Build.BuildNumber)'
     Parallel: true
