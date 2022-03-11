@@ -6,21 +6,8 @@ You have a task tab available within your workspaces and projects.
 
 Learn more about all Slingshots project management features in our short tutorial video:  
 
-**Video that is too big:**
-
 > [!Video https://www.youtube.com/embed/D1yqDISM5PM]
 
----
-
-**Alternative video:**
-
-[![Alternate Text](https://i.ytimg.com/vi/D1yqDISM5PM/hqdefault.jpg)](https://www.youtube.com/embed/D1yqDISM5PM "Link Title")
-
----
-
-**Another alternative:**
-
-<a href="https://www.youtube.com/embed/D1yqDISM5PM"><img src="https://i.ytimg.com/vi/D1yqDISM5PM/hqdefault.jpg" width="300" title="Link title" alt="Alternate Text"></a>
 
 ## What are Tasks?  
 

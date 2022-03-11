@@ -45,7 +45,7 @@ On the top right area of Slingshot you will find the following features:
 
 Get a high-level overview of Slingshot and a glimpse into all of the different features in our Slingshot Product Tour video.  
 
-> [!Video https://www.youtube.com/watch?v=s5HRJE_iFPI]
+> [!Video https://www.youtube.com/embed/s5HRJE_iFPI]
 
 ## Logging into Slingshot  
 When first launch the Slingshot application you are welcomed with 4 sign in options:
