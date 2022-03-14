@@ -2,15 +2,15 @@
   header: true
 - name: Welcome to Slingshot
   href: welcome-slingshot.md
-  updated: true
+  updated: false
 - name: Getting Started with Slingshot
   href: getting-started-slingshot.md
-  updated: true
+  updated: false
 - name: FEATURES
   header: true
 - name: Workspaces
   href: workspaces.md
-  updated: true
+  updated: false
   items:
     - name: Workspaces FAQ
       href: workspaces-faq.md
@@ -42,6 +42,9 @@
     - name: Private Chats FAQ
       href: chat-faq.md
       updated:  false
+- name: Groups
+  href: groups.md
+  new: true
 - name: Productivity Flows (Coming Soon)
   href:
 - name: My Stuff (Coming Soon)
@@ -49,8 +52,6 @@
 - name: My Analytics (Coming Soon)
   href:
 - name: Bookmarks (Coming Soon)
-  href:
-- name: Groups (Coming Soon)
   href:
 - name: Search
   href: search.md
