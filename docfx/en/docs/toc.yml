@@ -81,7 +81,6 @@
 - name: Notifications
   href: notifications.md
   updated:  true
-  updated: false
 - name: RELEASE NOTES
   header: true
   new: false
