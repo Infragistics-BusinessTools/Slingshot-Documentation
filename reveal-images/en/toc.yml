@@ -38,6 +38,8 @@
   href: datasources/process-data-server-side.md
 - name: Using Certification for Data Sources
   href: datasources/certification.md
+- name: Advanced Editing for Data Sources
+  href: datasources/data-sources-advanced-editing.md
 - name: Machine Learning Integration
   href: datasources/ml-integration/toc.yml
 - name: Working with Files
