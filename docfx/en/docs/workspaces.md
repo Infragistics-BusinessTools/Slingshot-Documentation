@@ -14,7 +14,7 @@ In order to run a high performing team you need to have everything in one app fo
 
 - **Discussions**: Discussions ensure that collaboration between workspace members and groups is visible and transparent. Everyone can contribute to the discussion and stay abreast of what is going on within a workspace or project. Discussions can be organized in lists to prevent conversations from getting lost in endless threads. You can mention members and groups here to ensure that nobody misses anything, or choose to notify users when you create the discussion. [Navigate here for more information on Discussions!](discussions-faq.md)
 
--	**Pins**: The Pins area takes the chaos of sharing and finding files and restores calmness. In a matter of clicks you can access OneDrive, GoogleDrive, SharePoint, DropBox and Box to pin files in context of your workspace and projects. Upload local files and turn them into shared files magically. Pin important URLs you need everyone to have quick access to. Pull together files, URLs, dashboards, tasks and more into your content lists to keep resources that are relevant to each workspace or project. [For more information on Content, click here](content-boards.md).
+-	**Pins**: The Pins area takes the chaos of sharing and finding files and restores calmness. In a matter of clicks you can access OneDrive, GoogleDrive, SharePoint, DropBox and Box to pin files in context of your workspace and projects. Upload local files and turn them into shared files magically. Pin important URLs you need everyone to have quick access to. Pull together files, URLs, dashboards, tasks and more into your content lists to keep resources that are relevant to each workspace or project. [For more information on Pins, click here](content-boards.md).
 
 - **Dashboards**: How else can you make data driven decisions without analytics? Each workspace allows you to create or share dashboards which are visible by all members. Bring multiple data sources into one dashboard to ensure you have all the information to make data-driven decisions
 
@@ -39,7 +39,7 @@ Here are some additional features of workspaces with projects:
 ### Workspace without Projects
 
 Single workspaces are great for bringing people together for a single purpose. An example of a workspace that doesn’t need projects would be something like Sales Enablement. Here, you need to include a lot of different people from different departments in the organization to have access for this specific reason.
-With the ability to turn tabs within workspaces on and off you can customize them so they fit their uses cases perfectly. [Learn more about turning workspace tabs on and off here](#customizing-a-workspace).
+With the ability to turn tabs within workspaces on and off you can customize them so they fit their uses cases perfectly. [Learn more about turning workspace tabs on and off here](#turning-tabs-on-and-off).
 
 ## Workspace and Project Settings and Properties
 
@@ -50,11 +50,11 @@ You can set Information for each workspace and project such as:
 - **Organization**: Lets you know if the workspace belongs to an organization and which one.
 - **Privacy**: Decide if your workspace will be public for your organization or private. Public workspaces can be discovered and joined by anyone within your organization. Private workspaces require an invitation to join.
 
-You can also manage your members and their roles from within the workspace setting. [Learn more about workspace permission levels here](#workspace-permissions).
+You can also manage your members and their roles from within the workspace setting. [Learn more about workspace permission levels here](#workspace-and-project-permissions).
 
 Accessing the Settings of the workspace can be done via the overflow menu next to the workspace name.
 
-<img src="../images/workspace-overflow-menu.png" alt="Accessing a workspace settings within Slingshot" class="responsive-img" width="50%"/>
+<img src="../images/Slingshot_Workspace_Settings.png" alt="Accessing a workspace settings within Slingshot" class="responsive-img" width="50%"/>
 
 ## Working with Workspaces and Projects
 
@@ -62,13 +62,14 @@ When a workspace or project is shared with you, it will automatically appear in 
 
 ### Creating a Workspace
 
-Creating a new workspace in Slingshot can be done is just a few easy steps!
+Creating a new workspace in Slingshot can be done in just a few easy steps!
 
-1.	To start creating a new workspace Click the “+ Add” button in the left navigation at the top of your workspace list.
+1.	To create a new workspace, click the “+ Add” button in the left navigation at the top of your workspace list.
 2.	From the “Join or Create a Workspace” dialog box you will see public workspaces you can join within your organization. To create a new one, click the “+ Create Workspace” button.
 3.	Then enter the information for your workspace, turn off any tabs that don’t fit the workspace use case, then click the “Create” button.
-4.	Next, add members to your workspace. You can do this later by closing the dialog box.
-5.  And that’s it! You have successfully created your first workspace and shared it with members to begin collaborating.
+4.	Next, add members to your workspace. You can also do this later by closing the dialog box.
+
+And that’s it! You have successfully created your first workspace and shared it with members to begin collaborating.
 
 ### Creating Projects
 You can add projects from the project tab using the blue “+ Project” button. From here, you will follow the same steps as Creating a Workspace.
@@ -78,7 +79,7 @@ You can add projects from the project tab using the blue “+ Project” button.
 ### Searching and Joining Workspaces
 
 You can join public workspaces within your organization.
-1.	Click the “New Workspace” button in the bottom left of the application.
+1.	Click the “+ Add” button in the left navigation at the top of your workspace list.
 2.	Search for the workspace you want to join in the “Join or Create a Workspace” modal dialog that pops up.
 3.  Then click the “Join” button on the public workspace of your choice.
 4.	Once you have joined the workspace, it will turn green with a “Joined” notification replacing the “Join” button.
@@ -92,9 +93,9 @@ This can be achieved by navigating to the overflow icon next to the workspace na
 
 ### Deleting a Workspace
 
-There will be situations where the objective of the workspace is achieved, no longer needed or you are reorganizing. When this occurs, you can delete the workspace. Only a member with Owner permissions can delete a workspace.
+There will be situations where the objective of the workspace is achieved, it is no longer needed or you are reorganizing. When this occurs, you can delete the workspace. Only a member with Owner level permissions can delete a workspace.
 
-You can delete a workspace by going to the workspace settings and clicking the overflow in the top right.
+You can delete a workspace by going to the workspace settings and clicking the overflow in the top right, there you will be given the option to Delete Workspace.
 
 ### Turning Tabs On and Off
 
@@ -109,5 +110,5 @@ If you need to turn on/off a tab, you can easily do so from the pencil icon on t
 
 Within Workspaces, there are three types of permissions:
 - **Owner** – By default the person who created the workspace or project is set as the owner. Only the owner can change permissions of members within the workspace/project. They can also remove members from the workspace or project.
-- **Members** – with this level of permission, you can create, edit and share anything with the workspace or project, but you can’t add new members or delete the workspace/project.
+- **Contributor** – with this level of permission, you can create, edit, delete and share anything with the workspace or project, but you can’t add new members or delete the workspace/project.
 - **Viewers** – can only view and share items from within a workspace or project.  

@@ -2,7 +2,7 @@
 
 When it comes to running a successful project – task management is at the heart of that. You need everything organized in one place to manage tasks through out the full lifecycle of the project. Setting deadlines, dependencies, and priorities are all essential to ensure projects stay on track and get completed on time.   
 
-You have a task tab available within your workspaces and projects.
+There is a task tab available within your workspaces and projects, listing all the tasks assigend to everyone in those workspaces and projects. You can view your own tasks assigned to ou with in the My Tasks section.
 
 Learn more about all Slingshots project management features in our short tutorial video:  
 
@@ -15,13 +15,11 @@ Tasks are a visual representation of work that needs to get done. Within tasks y
 
 ## How to Create a Task  
 
-There are multiple ways to create a task in Slingshot.  
+There are multiple ways to create a task in Slingshot:  
 
 - Using the "+ Task" button will add a task to the bottom of your list.
 - If you are using sections, you can quickly add a task to a section using the inline "+ Task".  
 - If you want to insert a task right above or below another, you can do so from that task overflow menu.
-
-<img src="../images/tasks-new-task.png" alt="Creating a new Slingshot task" class="responsive-img"/>
 
 Subtasks can be created from inside the task card or from the parent task's overflow menu.
 
@@ -58,7 +56,7 @@ Within each of the task views you can filter, choose which task fields you want 
 ### List
 
 Project manage and update tasks faster from within your list view.  
-
+<img src="../images/Slingshot_Tasks_List_View.png" alt="Task list view within Slingshot" class="responsive-img"/>
 Use List view if you want to: 
 
 - Easily visualize subtasks and the task hierarchy. 
@@ -70,7 +68,7 @@ Use List view if you want to:
 ### Kanban
 
 View your tasks as cards within columns that represent different stages of the Status workflow. You can drag and drop your tasks between columns to change their status.
-
+<img src="../images/Slingshot_Tasks_Kanban_View.png" alt="Task kanban view within Slingshot" class="responsive-img"/>
 Use Kanban view if you want to:  
 
 - Focus on the status workflow and visualize it in a graphical way. 
@@ -80,7 +78,7 @@ Use Kanban view if you want to:
 ### Timeline
 
 See a clear path for project completion and dependencies by using timeline view. Zoom in or out to see your timeline by days, weeks or months.
-
+<img src="../images/Slingshot_Tasks_Timeline_View.png" alt="Task timeline view within Slingshot" class="responsive-img"/>
 Use Timeline view if you want to: 
 
 - Visualize several task dependencies at once. 
@@ -125,9 +123,9 @@ To stop filtering tasks, click/tap the filter icon to open the Filters dialog. T
 
 >[!IMPORTANT] **Slingshot Tip**: For those times that you can't find a specific task, try expanding collapsed panels, removing existing filters, and/or adding filters using the properties of the task you want. Remember that the icon changes to help you identify when you have active filters or not.
 
-### Working with Saved Filters
+### Saving Filters
 
-Sometimes you might want to save a filter to use it again in the future. With Slingshot you can save filters on the fly and later edit them if needed, very useful to keep at hand a list of tasks relevant to you already filtered. 
+Sometimes you might want to save a filter to use it again in the future. With Slingshot you can save specific filters and later edit them if needed, very useful to keep at hand a list of tasks relevant to you already filtered. 
 
 ### Advanced Filtering
 
@@ -143,4 +141,3 @@ As an example, the following rules could be created to get all John Williams’ 
 
 <img src="../images/tasks-filters-advanced.png" alt="Advanced Filtering highlighted within Slingshot" class="responsive-img"/>
 
-You can save filters with Advanced rules to be used again in the future. Later, you can also edit them to further tweak the rules if needed. 

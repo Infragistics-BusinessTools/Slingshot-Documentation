@@ -11,26 +11,14 @@
 - name: Workspaces
   href: workspaces.md
   updated: false
-  items:
-    - name: Workspaces FAQ
-      href: workspaces-faq.md
-      updated: false
 - name: Overviews
   href: overviews.md
   new: false
 - name: Tasks
   href: tasks.md
   updated: false
-  items:
-    - name: Tasks FAQ
-      href: tasks-faq.md
-      new: false
-- name: Content
+- name: Pins
   href: content-boards.md
-  items:
-    - name: Content & Boards FAQ
-      href: content-faq.md
-      updated: false
 - name: Analytics
   href: analytics/toc.yml
   topicHref: analytics/index.md
@@ -44,7 +32,7 @@
       updated:  false
 - name: Groups
   href: groups.md
-  new: true
+  new: false
 - name: Productivity Flows (Coming Soon)
   href:
 - name: My Stuff (Coming Soon)
