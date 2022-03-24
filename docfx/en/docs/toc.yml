@@ -36,8 +36,9 @@
 - name: Groups
   href: groups.md
   new: false
-- name: Productivity Flows (Coming Soon)
-  href:
+- name: Productivity Flows (In Progress)
+  href: productivity-flows.md
+  new: true
 - name: My Stuff (Coming Soon)
   href:
 - name: My Analytics (Coming Soon)
