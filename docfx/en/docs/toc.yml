@@ -19,6 +19,9 @@
   updated: false
 - name: Pins
   href: content-boards.md
+- name: Data Catalog
+  href: data-catalog.md
+  new: true
 - name: Analytics
   href: analytics/toc.yml
   topicHref: analytics/index.md
