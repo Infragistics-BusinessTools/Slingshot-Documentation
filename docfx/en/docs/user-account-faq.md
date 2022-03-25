@@ -22,22 +22,22 @@ For more information about security and data privacy within Slingshot, go to [Se
 
 Slingshot is built upon Microsoft and Google security for data access and administration, including 2-factor authentication.
 In addition, Slingshot is GDPR compliant and allows you to export and delete your own data if requested.
-For more information about data privacy, go to [Data Privacy FAQ](data-privacy-faq.md).
+For more information about data privacy, go to [Security & Privacy](security.md).
 
 ## Can I delete my user account?
 
 Yes, you can. To meet global data privacy laws, including the General Data Protection Regulation (GDPR) Slingshot gives the users the ability to have all their profile information deleted.
-For more information go to [Data Privacy FAQ](data-privacy-faq.md).
+For more information go to [Security & Privacy](security.md).
 
 ## Can I reactivate my user account after it was deleted?
 
-Yes, you can. For more information go to [Data Privacy FAQ](data-privacy-faq.md)
+Yes, you can. For more information go to [Security & Privacy](security.md).
 
 
 ## Can I export my user account's profile information?
 
 Yes you can. Your user account is a virtual representation of a user, including a set of credentials, profile information, settings and content owned by you.
-For more information go to [Data Privacy FAQ](data-privacy-faq.md)
+For more information go to [Security & Privacy](security.md).
 
 ## Why should I complete my profile information in Slingshot?
 

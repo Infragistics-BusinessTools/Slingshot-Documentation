@@ -18,7 +18,7 @@
   href: tasks.md
   updated: false
 - name: Pins
-  href: content-boards.md
+  href: pins.md
 - name: Data Catalog
   href: data-catalog.md
   new: true
@@ -36,18 +36,14 @@
 - name: Groups
   href: groups.md
   new: false
-- name: Productivity Flows (In Progress)
+- name: Productivity Flows
   href: productivity-flows.md
-  new: true
-- name: My Stuff (Coming Soon)
-  href:
-- name: My Analytics (Coming Soon)
-  href:
-- name: Bookmarks (Coming Soon)
-  href:
+  new: false
 - name: Search
   href: search.md
-  updated:  true
+  updated:  false
+- name: Bookmarks (Coming Soon)
+  href:
 - name: SETTINGS
   header: true
 - name: User Account & Settings
@@ -60,19 +56,9 @@
 - name: Security & Privacy
   href: security.md
   new: false
-  items:
-    - name: Roles & Permissions FAQ
-      href: roles-permissions-faq.md
-      new: false
-    - name: File Permissions FAQ
-      href: file-permissions-faq.md
-      new: false
-    - name: Data Privacy FAQ
-      href: data-privacy-faq.md
-      new: false
 - name: Notifications
   href: notifications.md
-  updated:  true
+  updated:  false
 - name: RELEASE NOTES
   header: true
   new: false
