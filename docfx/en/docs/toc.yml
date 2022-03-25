@@ -21,7 +21,7 @@
   href: pins.md
 - name: Data Catalog
   href: data-catalog.md
-  new: true
+  new: false
 - name: Analytics
   href: analytics/toc.yml
   topicHref: analytics/index.md
