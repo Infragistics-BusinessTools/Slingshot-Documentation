@@ -2,6 +2,8 @@
 
 Groups in Slingshot enable you to work faster with a set of people that share a common purpose. Typical examples include Product leads, Designers in your Marketing team, the Executive Team, etc. With groups you can @mention in discussions, invite to workspaces, assign tasks and share dashboards faster with a set of people.
 
+<img class="responsive-img" src="../images/groups-starting.png" alt="Showing groups within Slingshot" class="responsive-img"/>
+
 ## What can you do with a Group?
 Groups can make your life easy in many ways, including:
 - Invite a group of people to a workspace or project, instead of individuals only.

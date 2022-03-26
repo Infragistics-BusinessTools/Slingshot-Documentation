@@ -4,8 +4,12 @@ Pins are key elements within Slingshot, that allow you to access and share relev
 ## What are Pins?
 Pins are simple links to different types of resources, including files from cloud storages, URLs, and analytics dashboards. You can manage multiple lists of pins, designed to organize, manage and share your resources.
 
+<img src="../images/pins-list.png" alt="Showing a list of pins within Slingshot" class="responsive-img"/>
+
 ## How to Pin Content
 Pinning content is one of the most common ways to share resources within Slingshot. You pin files or analytics dashboards by selecting them from cloud storages, existing pins, content shared with you, or uploading from your device. To pin URLs, you just add the URL and a title.
+
+<img src="../images/pin-content-action.png" alt="Pin action in Slingshot" class="responsive-img" width="30%"/>
 
 ### Pinning from Anywhere
 
@@ -33,7 +37,7 @@ Pinning content is one of the most common ways to share resources within Slingsh
 ## Organizing your Pins
 The Pins tabs in workspaces and projects have lists of pins, which can be further organized in sections. You can use sections to add divisions and better layout your pins.
 
-<img src="../images/pin-content-action.png" alt="Pin action in Slingshot" class="responsive-img"/>
+<img src="../images/pins-sections.png" alt="Pin action in Slingshot" class="responsive-img"/>
 
 In addition, you can easily reorganize and move lists, sections and pins just by dragging them.
 
@@ -77,7 +81,7 @@ The first time you upload a file you choose a default cloud storage to be select
 ## Working with your Content
 You can open any file by clicking/tapping on it. MS Office files can be opened online or using a native app locally on your device.
 By using a file’s overflow, you can always choose how to open the file.
-<img src="../images/pin-content-my-stuff.png" alt="Pinning content from the cloud storage" class="responsive-img"/>
+<img src="../images/pin-content-my-stuff.png" alt="Overflow options for a file" class="responsive-img"/>
 
 In addition, you can set a default method using the Open Files setting (General Settings).
 

@@ -25,8 +25,6 @@ Slingshot comes packed with a full self-service business intelligence solution. 
 
 When everyone is aligned on the same goals, teams can work more strategically to achieve better results and ultimately exceed your business goals.
 
-< GIF to be added >
-
 ##### *Design a culture of ownership and responsibility with better workflow transparency*.
 
 When deadlines, conversations, and data are transparent for everyone to see, accountability will drive projects to be completed on time, so you can illuminate paths to success with smarter insights.

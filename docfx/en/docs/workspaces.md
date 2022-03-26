@@ -2,6 +2,8 @@
 
 A workspace in Slingshot can be defined as a digital workplace where groups of people - within or outside your organization - gather to work on a common objective. Workspaces allow you to collaborate, prioritize work, share content and knowledge and even gleam insights from data in a transparent way.
 
+<img src="../images/welcome-workspace-overview.png" alt="Showing a Workspace Overview within Slingshot" class="responsive-img"/>
+
 ## What’s In a Workspace?
 
 In order to run a high performing team you need to have everything in one app for a seamless workflow. Below are all the amazing features that you have within your Slingshot workspace:
@@ -24,6 +26,8 @@ In order to run a high performing team you need to have everything in one app fo
 
 Now that you understand all the possibilities within workspaces and projects, you should have a better idea how to organize around key initiatives. Workspaces can be a single flat space or have hierarchy to further breakdown and organize into projects. We understand that everyone organizes differently, so Slingshot is designed to allow you full flexibility. For more ideas on organizing your data, check out our Solutions page!
 There are pros and use cases for each of these approaches when you are creating your workspace.
+
+<img src="../images/workspaces-hierarchy.png" alt="Showing the Workspaces Hierarchy within Slingshot" class="responsive-img"/>
 
 ### Workspaces with Projects
 
@@ -54,7 +58,7 @@ You can also manage your members and their roles from within the workspace setti
 
 Accessing the Settings of the workspace can be done via the overflow menu next to the workspace name.
 
-<img src="../images/Slingshot_Workspace_Settings.png" alt="Accessing a workspace settings within Slingshot" class="responsive-img" width="50%"/>
+<img src="../images/Slingshot_Workspace_Settings.png" alt="Accessing a workspace settings within Slingshot" class="responsive-img" width="30%"/>
 
 ## Working with Workspaces and Projects
 
@@ -101,6 +105,8 @@ You can delete a workspace by going to the workspace settings and clicking the o
 
 By default a workspace is created with all tabs, but you can turn tabs on and off if they are not necessary.
 Slingshot allows you full flexibility in customizing these tabs for your project’s requirements.
+
+<img src="../images/workspaces-edit-tabs.png" alt="Accessing a workspace settings within Slingshot" class="responsive-img" width="70%"/>
 
 If you need to turn on/off a tab, you can easily do so from the pencil icon on the tab menu.
 

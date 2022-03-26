@@ -2,6 +2,9 @@
 
 Notifications make sure that nothing goes missed in Slingshot and keep you on top of things that need your attention.
 
+<img class="responsive-img" src="../images/notifications-example.png" alt="Showing the Notifications panel within Slingshot" class="responsive-img" width="70%" />
+
+
 ## Types of Notifications
 Notifications come in the following three forms: 
 - **In-App** – Notifications displayed within the app in the Notifications panel, located in the top right (bell icon).
@@ -10,7 +13,7 @@ Notifications come in the following three forms:
 Customizing your Notifications
 You can easily change what you are getting notifications for in Slingshot so you only get alerted for what is most important to you. By going into your settings and then the notification tab you can edit the notification you receive. Alternatively, you can use the overflow menu in the Notifications panel.
 
-[image of Notifications settings]
+<img class="responsive-img" src="../images/notifications-settings.png" alt="Showing the Notifications panel within Slingshot" class="responsive-img" width="70%" />
 
 In the Notifications panel, select the pencil icon to see the details of each category or toggle on/off an entire category.
 
@@ -22,6 +25,6 @@ You can access the Notifications panel by clicking the bell icon in the top righ
 
 Within the Notifications panel, notifications are shown in groups that you can mute/unmute or mark as read/unread each group separately by using the overflow menu on the right.
 
-[image showing the overflow with Settings, mute and mark as read]
+<img class="responsive-img" src="../images/notifications-overflow-settings.png" alt="Showing the Notifications overflow settings within Slingshot" class="responsive-img" width="30%" />
 
 The Notifications panel shows all notifications by default, but you can choose to see only Unread notifications or @mentions. To do this, go to the top of the panel and select Showing: All to open the dropdown and then select another value.

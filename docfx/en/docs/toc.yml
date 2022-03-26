@@ -28,9 +28,9 @@
 - name: Communication
   href: communication.md
   items:
-    - name: Discussions FAQ
+    - name: Discussions
       href: discussions-faq.md
-    - name: Private Chats FAQ
+    - name: Chat
       href: chat-faq.md
       updated:  false
 - name: Groups

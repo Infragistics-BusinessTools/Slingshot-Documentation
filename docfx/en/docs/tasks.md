@@ -139,5 +139,5 @@ When the time comes that you need to craft complex filters, you will be able to:
 
 As an example, the following rules could be created to get all John Williams’ tasks, that were created by other team members (not him), in which the due date is Jun 30, 2022 or before that date, and the description includes the word “Marketing”. 
 
-<img src="../images/tasks-filters-advanced.png" alt="Advanced Filtering highlighted within Slingshot" class="responsive-img"/>
+<img src="../images/tasks-filters-advanced.png" alt="Advanced Filtering highlighted within Slingshot" class="responsive-img" width="60%"/>
 

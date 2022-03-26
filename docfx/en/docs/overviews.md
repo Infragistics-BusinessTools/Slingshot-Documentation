@@ -20,10 +20,14 @@ Your personal overview is located on the top left of the screen. In My Overview 
 - **Upcoming Tasks** – Help prioritize your day with your tasks that you can filter by Today, Tomorrow, This Week, This Month, and Overdue. 
 - **Your Mentions** – @mentions directed at you from anywhere in Slingshot.
 
+<img src="../images/overviews-my-overview.png" alt="Showing a Workspace Overview within Slingshot" class="responsive-img"/>
+
 ## Workspace and Project Overviews
 When running projects and teams, you need to get the big picture to act quickly and in a proactive way. Having a quick glance at the most important information around your work is a game changer and will push you towards high-performing team’s ground.
 
 The Overview can give both Project Managers and Leaders an overall status (On Target, At Risk, Danger, Completed), start and due date, and make key content top of mind to members. 
+
+<img src="../images/welcome-workspace-overview.png" alt="Showing a Workspace Overview within Slingshot" class="responsive-img"/>
 
 ### Details
 Starting on the left of the screen, you can find general details about the workspace or project, including:

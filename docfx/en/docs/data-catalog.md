@@ -16,6 +16,8 @@ Below are the high level features that your Data Catalog brings along:
 
 - **Dashboards and Data Sources**: The Data Catalog is really about giving users access to an extensive catalog of dashboards and data sources.
 
+<img src="../images/data-catalog-sample.png" alt="Data Catalog screen within Slingshot" class="responsive-img"/>
+
 ## Certifications
 Organization owners can guide their users about which dashboards or data sources can be considered reliable, containing verified information.
 

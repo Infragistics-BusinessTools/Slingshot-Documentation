@@ -1,32 +1,28 @@
 # Communication
 
-Communication is simply the act of sending information from one place, person, or group to another. This is done by using mutually understood signs, symbols, and also semiotic rules that bind cultures and societies together. It sounds simple, but as you know communication is actually very complex. Like planning estimation and many other complex activities, communication can always be improved...
-
 While collaborating in teams or projects, people from different workspaces or even from outside the organization work together. Communication here is crucial to get things done in a productive way. Slingshot's approach with discussions and private chats was designed with all this in mind.
 
-## So, what's a Slingshot discussion?
+## What is a Slingshot Discussion?
 
-It's a way of communication used by members of an organization, or a workspace. Being organized in different threads, discussions ensure all your communication, and collaboration tools are in one place, making remote teams stay productive no matter where they are.
+It's a way of communication used by members of an organization, a workspace, or a project. Being organized in different threads, discussions ensure all your communication, and collaboration tools are in one place, making remote teams stay productive no matter where they are.
 
 <img src="../images/discussions-thread.png" alt="A Slingshot discussion thread displayed" class="responsive-img"/>
 
 You can have multiple discussions going on at the same time while mixing in text formatting, attachments, emojis, and links. Plus you can react to conversations and even create tasks from messages.
 
-## As many discussions as different topics
+## Lists of Discussions
 
-Discussions are organized in different threads, ensuring side conversations are under control. The main discussion remains healthy and does not lose focus, as there is a place for every conversation.
-
-<img src="../images/discussions-many-threads.png" alt="Several Slingshot discussion threads" class="responsive-img"/>
+Discussions are organized in different lists, ensuring side conversations are under control. The main discussion remains healthy and does not lose focus, as there is a place for every conversation.
 
 Unlike lengthy email chains, members can follow or unfollow discussions. This is tied to notifications, as you get informed when someone sends a message to a discussion you follow.
 
-## What's a Slingshot private chat? 
+## What is Slingshot's Chat? 
 
-Your *Private Chat* is also a tool for communication, but unlike *Discussions* it's not tied to any workspace. This means you can use it to chat with any Slingshot user, and even with [personal account users](roles-permissions-faq.html#personal-account-users) who are not part of your Organization.
+Your *Chat* is also a tool for communication, but unlike *Discussions* it's not tied to any workspace or project. This means you can use it to chat with any Slingshot user, and even with users with personal accounts who are not part of your Organization.
 
 <img src="../images/chat-example.png" alt="An example of a chat conversation" class="responsive-img" />
 
-## Chat with any slingshot user from multiple devices
+## Chat from Multiple Devices
 
 Slingshot delivers a seamless, almost identical experience no matter what device you are on. You can use a web browser or get native applications on iOS, Android, and Desktop.
 

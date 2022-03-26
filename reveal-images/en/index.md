@@ -44,4 +44,4 @@ Certifications are an important part of the data catalog, as they assist you to 
 
 <img src="datasources/images/data-sources-certified.png" alt="Certifications in Slingshot" class="responsive-img"/>
 
-[Read more about data catalog here!](data-catalog).
+[Read more about data catalog here!](../data-catalog.md).
