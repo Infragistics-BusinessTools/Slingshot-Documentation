@@ -25,5 +25,3 @@ Creating a new group in Slingshot can be done is just a few easy steps!
 Within Groups, there are two types of permissions:
 - **Admin** – By default the person who created the group is set as the admin. Only the admin can change permissions of members and remove them.
 - **Member** – Has access to everything related to the group, but can’t add new members or delete the group.
-
-[image of the a group configuration dialog]
