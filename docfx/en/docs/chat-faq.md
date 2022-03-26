@@ -2,7 +2,7 @@
 
 Welcome! Read on to learn more about the private chat.
 
-# Discussions vs Chat
+## Discussions vs Chat
 
 In Slingshot, communication happens in discussions and private chats.
 

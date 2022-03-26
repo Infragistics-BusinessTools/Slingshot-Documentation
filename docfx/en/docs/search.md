@@ -35,6 +35,4 @@ The Location filter (top of the page) is applied to all results no matter which 
 ### Using More Filters
 These filters are specific to the selected tab and type of result. For example, when selecting the Tasks tab, you can filter results by creator, assignee, due date, etc.
 
-[image of filters in the results]
-
 Filters are only reset when you close the search results, so you can search multiple times adding and removing filters as needed.
