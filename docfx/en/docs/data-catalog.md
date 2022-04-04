@@ -22,11 +22,11 @@ Below are the high level features that your Data Catalog brings along:
 Organization owners can guide their users about which dashboards or data sources can be considered reliable, containing verified information.
 
 Users can easily identify certified dashboards or data sources looking for a gold, silver, or bronze colored badge next to them.
-[Learn more about Certifications here](analytics/datasources/certification).
+[Learn more about Certifications here](certifications.md).
 
 ## Advanced Information (Metadata)
 Organization certifiers can use the Advanced Editor and add/modify metadata to certified data sources. Adding this information allows certifiers to provide proper documentation about the data.
 Certifiers can also hide data to boost the team productivity, the hiding capability can really help dealing with huge amounts of data.
 
 Organization users will benefit from adding descriptions to data fields, making data easy to understand.
-[Learn more about Advanced Editing for Data Sources here](analytics/datasources/data-sources-advanced-editing).
+[Learn more about Advanced Editing for Data Sources here](metadata-advanced-editing.md).
