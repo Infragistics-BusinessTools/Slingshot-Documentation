@@ -22,6 +22,11 @@
 - name: Data Catalog
   href: data-catalog.md
   new: false
+  items:
+    - name: Certifications
+      href: certifications.md
+    - name: Advanced Metadata Editing
+      href: metadata-advanced-editing.md
 - name: Analytics
   href: analytics/toc.yml
   topicHref: analytics/index.md

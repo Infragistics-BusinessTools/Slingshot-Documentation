@@ -1,4 +1,4 @@
-# Advanced Information Editing for Data Sources
+# Advanced Information Editing (Metadata)
 
 The Advanced editor in Slingshot will improve how you and your teams work with large datasets. It allows you to modify the metadata of your data sources. *Metadata* is information about the data sources such as which datasets they contain, their data fields' types and descriptions, last modified date, etc. 
 
