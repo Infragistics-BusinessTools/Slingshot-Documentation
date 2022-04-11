@@ -27,7 +27,7 @@
       href: certifications.md
     - name: Advanced Metadata Editing
       href: metadata-advanced-editing.md
-- name: Analytics
+- name: My Analytics
   href: analytics/toc.yml
   topicHref: analytics/index.md
 - name: Communication

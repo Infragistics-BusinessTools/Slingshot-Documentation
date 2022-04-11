@@ -52,6 +52,11 @@ The Dashboards and Data Sources tabs have lists that can be further organized in
 
 <img src="../../docfx/en/images/data-catalog-sample.png" alt="Data Catalog screen within Slingshot" class="responsive-img"/>
 
+<img src="../images/data-catalog-sample.png" alt="Data Catalog screen within Slingshot" class="responsive-img"/>
+
+<img src="../../images/data-catalog-sample.png" alt="Data Catalog screen within Slingshot" class="responsive-img"/>
+
+<img src="../docfx/en/images/data-catalog-sample.png" alt="Data Catalog screen within Slingshot" class="responsive-img"/>
 
 ### Out-of-the-box Lists
 By default you start with "My Dashboards" and "My Data Sources", but you can create more and easily reorganize and move lists, sections and dashboards or data sources just by dragging them.
