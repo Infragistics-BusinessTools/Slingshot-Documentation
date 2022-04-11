@@ -45,3 +45,32 @@ Certifications are an important part of the data catalog, as they assist you to 
 <img src="datasources/images/data-sources-certified.png" alt="Certifications in Slingshot" class="responsive-img"/>
 
 [Read more about data catalog here!](../data-catalog.md).
+
+## Lists
+You can manage multiple lists of dashboards and data sources, which are designed to organize, manage and share those resources.
+The Dashboards and Data Sources tabs have lists that can be further organized in sections. Sections are useful to add divisions and better layout your content.
+
+<img src="../../docfx/en/images/data-catalog-sample.png" alt="Data Catalog screen within Slingshot" class="responsive-img"/>
+
+
+### Out-of-the-box Lists
+By default you start with "My Dashboards" and "My Data Sources", but you can create more and easily reorganize and move lists, sections and dashboards or data sources just by dragging them.
+
+## Filters
+Using filters allows you to view a set of dashboards or data sources that meet a certain criteria. There are filters out-of-the-box and you can also save filters to use them later.
+
+### Out-of-the-box Filters
+Slingshot includes several pre-defined filters which are very useful to quickly find specific dashboards or data sources.
+
+These filters, which can’t be edited or deleted, are:
+- **Created by Me** – Each dashboard or data source created by you within Slingshot.
+
+- **Shared with Me** – Each dashboard or data source that has been shared with you by another Slingshot user.
+
+### Creating Filters
+To access the Filters editor just click/tap the "+ Filter" icon in the FILTERS section.
+
+To stop filtering dashboards or data sources, click/tap the filter icon to open the Filters dialog. Then, select the Clear button at the bottom to remove the current filters, and Apply to save your changes.
+
+### Saving Filters
+Sometimes you might want to save a filter to use it again in the future. With Slingshot you can save specific filters and later edit them if needed, very useful to keep at hand a list of dashboards or data sources relevant to you already filtered.
