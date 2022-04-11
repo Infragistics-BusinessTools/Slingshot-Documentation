@@ -50,13 +50,7 @@ Certifications are an important part of the data catalog, as they assist you to 
 You can manage multiple lists of dashboards and data sources, which are designed to organize, manage and share those resources.
 The Dashboards and Data Sources tabs have lists that can be further organized in sections. Sections are useful to add divisions and better layout your content.
 
-<img src="../../docfx/en/images/data-catalog-sample.png" alt="Data Catalog screen within Slingshot" class="responsive-img"/>
-
-<img src="../images/data-catalog-sample.png" alt="Data Catalog screen within Slingshot" class="responsive-img"/>
-
 <img src="../../images/data-catalog-sample.png" alt="Data Catalog screen within Slingshot" class="responsive-img"/>
-
-<img src="../docfx/en/images/data-catalog-sample.png" alt="Data Catalog screen within Slingshot" class="responsive-img"/>
 
 ### Out-of-the-box Lists
 By default you start with "My Dashboards" and "My Data Sources", but you can create more and easily reorganize and move lists, sections and dashboards or data sources just by dragging them.
