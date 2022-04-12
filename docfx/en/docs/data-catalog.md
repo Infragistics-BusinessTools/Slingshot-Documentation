@@ -86,15 +86,3 @@ Below you can find a more detailed explanation of each step of the process:
    <img src="../images/data-catalog-review.png" alt="Data Catalog dashboard review within Slingshot" class="responsive-img"/>  
 4. **If approved, the Org owner moves the dashboard or data source to a place in the Data Catalog**.
 5. **The Dashboard or data source is now available for everyone within the Org**.
-
-
-
-
-
-## Moving to the Data Catalog
-
-When you move a data source or dashboard to the Data Catalog you can choose to keep a copy. If you don't, the content will be removed from the original location. 
-
-
-
-When you copy a certified data source or dashboard from one workspace to another, the certificate will be lost. This gives you the opportunity to modify the data source or dashboard in the destination workspace. You can have it certified later if it still meets the certification criteria in your Organization.
