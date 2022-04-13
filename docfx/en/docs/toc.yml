@@ -25,7 +25,7 @@
   items:
     - name: Certifications
       href: certifications.md
-    - name: Advanced Metadata Editing
+    - name: Data Sources Advanced Information
       href: metadata-advanced-editing.md
 - name: My Analytics
   href: analytics/toc.yml

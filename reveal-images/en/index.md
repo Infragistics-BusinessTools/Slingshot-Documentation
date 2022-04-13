@@ -28,7 +28,7 @@ Share your dashboards with others and collaborate over them. Different levels of
 [Read more about dashboards here!](dashboards/overview).
 
 ## Data Sources
-Connect to the most popular data sources without setting anything up on the server. Get real-time insights by connecting directly to SharePoint Online, Google Drive, OneDrive, Microsoft Analysis Services, Microsoft SQL Server, CRM, and many more. [Click here for a full list of connectors!](analytics/datasources/overview).
+Connect to the most popular data sources without setting anything up on the server. Get real-time insights by connecting directly to SharePoint Online, Google Drive, OneDrive, Microsoft Analysis Services, Microsoft SQL Server, CRM, and many more. [Click here for a full list of connectors!](datasources/overview).
 
 ### Connect
 1. To connect right to your data source and build your visualizations, youcan follow these steps: Click/tap the “+ Data Source” blue button.
