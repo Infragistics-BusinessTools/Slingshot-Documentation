@@ -12,7 +12,7 @@ Below are the high level features that your Data Catalog brings along:
 
 - **Certifications**: Find trusted data within your organization, dashboards and data sources that are reliable and contain verified information. 
 
-- **Advanced Information (Metadata)**: Add and later make good use of advanced information such as the datasets a data source contains, types of data fields, descriptions, last modified date, and others.
+- **Data Sources Advanced Information (Metadata)**: Add and later make good use of advanced information such as the datasets a data source contains, types of data fields, descriptions, last modified date, and others.
 
 - **Dashboards and Data Sources**: The Data Catalog is really about giving users access to an extensive catalog of dashboards and data sources.
 
@@ -24,7 +24,7 @@ Organization owners can guide their users about which dashboards or data sources
 Users can easily identify certified dashboards or data sources looking for a gold, silver, or bronze colored badge next to them.
 [Learn more about Certifications here](certifications.md).
 
-### Advanced Information (Metadata)
+### Data Sources Advanced Information (Metadata)
 Organization certifiers can use the Advanced Editor and add/modify metadata to certified data sources. Adding this information allows certifiers to provide proper documentation about the data.
 Certifiers can also hide data to boost the team productivity, the hiding capability can really help dealing with huge amounts of data.
 
