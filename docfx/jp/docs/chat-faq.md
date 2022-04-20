@@ -1,121 +1,121 @@
-# Learn more about the Private Chat
+# プライベート チャットの詳細
 
-Welcome! Read on to learn more about the private chat.
+ようこそ！このトピックは、プライベート チャットの機能を紹介します。
 
-## Discussions vs Chat
+## ディスカッションおよびチャット
 
-In Slingshot, communication happens in discussions and private chats.
+Slingshot では、コミュニケーションはディスカッションやプライベート チャットで行われます。
 
-Each workspace and project can have its own *Discussions* tab. For more information, read [Discussions](discussions-faq.md). 
+各ワークスペースとプロジェクトに **[ディスカッション]** タブがあります。詳細については、[「ディスカッション」](discussions-faq.md)トピックを参照してください。 
 
-Unlike discussions, the private chat is workspace and project independent. This means you can chat with any Slingshot user or group of users. You can chat with users who are part of your Organization and users who are not. Learn below how to [chat with personal account users](#how-to-start-a-chat-with-users-with-personal-accounts). And, unlike discussions, your chats are *private* and can be accessed only by you and the users you are chatting with. 
+ディスカッションとは異なり、プライベート チャットはワークスペースとプロジェクトに依存しません。つまり、Slingshot ユーザーまたはユーザー グループとチャットできます。組織に参加しているユーザーと参加していないユーザーとチャットできます。以下は、[個人アカウントのユーザーとチャットする方法](#how-to-start-a-chat-with-users-with-personal-accounts)です。ディスカッションとは異なり、チャットは**プライベート**であり、自分とチャットしているユーザーのみがアクセスできます。 
 
-## How Can I Access my Chat?
+## チャットにアクセスする方法
 
-In the top bar, right next to your profile picture, you will see the **chat message icon**. Click/tap the icon to open the chat screen. 
+上部バーのプロフィール画像の隣に**チャット メッセージ アイコン**があります。アイコンをクリック/タップしてチャット画面を開きます。 
 
 <img class="responsive-img" src="../images/chat-icon.png" alt="Chat icon location" class="responsive-img" width="60%" />
 
 <a name='chat-dock'></a>
-## How Can I Keep the Chat Always Visible?
+## チャットを常に表示する方法
 
-In Slingshot, you can keep your chat hidden or opened on the right while going through your tasks, for example. 
-To switch from hidden to always opened and vice versa, select the *dock/undock* icon next to *Close* (see screenshot below).
+Slingshot では、タスクの実行中にチャットを非表示または表示できます。 
+非表示から表示状態 (または表示から非表示状態) に切り替えるは、**[閉じる]** の隣の**ドッキング/ドッキング解除**アイコンを選択します (以下のスクリーンショットを参照)。
 
 <img class="responsive-img" src="../images/dock-undock-icon-chat.png" alt="Dock/Undock icon location" class="responsive-img" width="50%"/>
 
-When the chat is *docked*, you will always see it on the right. In this mode, you can see either the last chat room opened or the list of ongoing chats. 
+チャットが*ドッキングされる*と、常に右側に表示されます。このモードでは、最後に開いたチャット ルームまたは進行中のチャットのリストを表示できます。 
 
 <a name="private-chat-start"></a>
-## How Can I Start a Private Chat?
+## プライベート チャットを開始する方法
 
-To start a chat, open the chat screen. Then follow the steps below:
+チャットを開始するには、チャット画面を開きます。以下の手順を実行します。
 
-1. Click/tap the **+ Start a Chat...** blue button. 
+1. **[+ チャットを開始...]** 青いボタンをクリック/タップします。 
 
     <img class="responsive-img" src="../images/start-chat.png" alt="Start a chat button" class="responsive-img" width="75%" />
 
-2. Select a user from the list or type a name or email in the *search* box on top.
-3. Click/tap **Chat**. 
+2. リストからユーザーを選択するか、上部の*検索*ボックスに名前またはメールを入力します。
+3. **[チャット]** をクリック/タップします。 
 
->[!NOTE] If you don't see the *Start a chat...* button, check whether your chat is [docked](#how-can-i-keep-the-chat-always-visible). In this case, select the **undock** icon next to *Close*.
+>[!NOTE] **[+ チャットを開始...]** ボタンが表示されない場合は、チャットが[ドッキングされている](#how-can-i-keep-the-chat-always-visible)かどうかを確認してください。この場合、**[閉じる]** の横にある **[ドッキング解除]** アイコンを選択します。
 
-## How Can I Start a Group Chat?
+## グループ チャットを開始する方法
 
-Starting a group chat is similar to [starting a private chat](#how-can-i-start-a-private-chat). The only difference is that you choose two or more people to create the group chat. Alternatively, you can use an existing Slingshot group and search it by name.
+グループ チャットの開始は、[プライベート チャットの開始](#how-can-i-start-a-private-chat)に似ています。唯一の違いは、グループ チャットを作成するために複数のユーザーを選択することです。または、既存の Slingshot グループを使用して名前で検索することもできます。
 
-You can add more users to any ongoing chat (private or group) by opening it and selecting the *+ member* icon on top right (as shown below). 
+進行中のチャット (プライベートまたはグループ) にユーザーを追加するには、チャットを開いて右上の **[+ メンバー]** アイコンを選択します (以下を参照)。 
 
 <img class="responsive-img" src="../images/add-member-icon-chat.png" alt="Add more members to a chat icon" class="responsive-img" width="60%" />
 
->[!NOTE] If you create a new group chat by adding more people to a private chat, don't worry! The group chat will be opened in another chat room. Your private chat will be kept separately as well.
+>[!NOTE] プライベート チャットにユーザーを追加して新しいグループ チャットを作成することもできます。グループ チャットは別のチャット ルームで開きます。プライベート チャットも個別に保持されます。
 
-## Can I Rename a Chat?
+## チャット名を変更する方法
 
-You can rename your group chats to better differentiate between group chats with (almost) the same users. You will find the *rename* option in the *overflow* menu of a group chat (see below).
+同じユーザーとのグループ チャットを区別するには、グループ チャットの名前を変更できます。グループ チャットの**オーバーフロー** メニューに **[名前の変更]** オプションがあります (以下を参照)。
 
 <img class="responsive-img" src="../images/rename-group-chat.png" alt="Rename a group chat option" class="responsive-img" width="60%" />
 
-## How to Manage Members in a Group Chat? 
+## グループ チャットのメンバーを管理する方法 
 
-You can manage the members of a group chat by selecting the *group* icon on top of your chat room. 
+グループ チャットのメンバーを管理するには、チャット ルームの上部にある**グループ** アイコンを選択します。 
 
 <img class="responsive-img" src="../images/group-chat-manage-members.png" alt="Members icon plus a list of group members opened" class="responsive-img" width="75%" />
 
-You will see the chat members in a dropdown. Use the *trash* icon next to their names if you want to remove somebody. Every participant in a group chat can remove other members from the chat. Removed members will continue seeing the history of the chat but they will not have access to new messages. 
+チャット メンバーがドロップダウンに表示されます。ユーザーを削除したい場合は、名前の横にある**ゴミ箱**アイコンを使用します。グループ チャットの参加者は全員、チャットから他のメンバーを削除できます。削除されたメンバーは引き続きチャットの履歴を表示しますが、新しいメッセージにアクセスすることはできません。 
 
-Next to your name you will find the *leave* icon. You can leave a chat anytime. 
+名前の隣に**退出**アイコンがあります。チャットはいつでも終了できます。 
 
-## Can I Make the History of a Group Chat Available for New Members?
+## グループ チャットの履歴を新しいメンバーが利用できるようにしますか？
 
-When you are adding members to an ongoing group chat, you may want them to have access to part or the whole history of the chat. 
+進行中のグループ チャットにメンバーを追加する場合、チャットの一部またはすべての履歴にアクセスできるようにすることができます。 
 
-When adding members, you will notice a **History** setting at the bottom of the users list (see the screenshot below). 
+メンバーを追加すると、ユーザーリストの下部に**履歴**設定が表示されます (以下のスクリーンショットを参照)。 
 
 <img class="responsive-img" src="../images/chat-history-show.png" alt="Choose chat history to show new members" width="75%">
 
-The following 3 options appear in the dropdown when collapsed: 
+以下の 3 つのオプションが縮小時にドロップダウンに表示されます。 
 
-- *Invite with No Previous History*
-- *Invite with All Previous History*
-- *Invite with Today's History*
+- **履歴なしで招待**
+- **以前の履歴で招待**
+- **今日の履歴で招待**
 
-*Invite with No Previous History* is the default history setting for new chat participants. You can use the other two history options to welcome new chat members and quickly introduce them to the topic!
+新しいチャット参加者のデフォルトの履歴設定は **[以前の履歴なしで招待]** です。他の 2 つの履歴オプションを使用して、新しいチャット メンバーを歓迎し、すぐにトピックを紹介できます。
 
-When finished, select the **Add to Chat** blue button. 
+完了したら、**[チャットに追加]** 青いボタンを選択します。 
 
 <a name='chat-personal-account-users'></a>
-## How to start a chat with users with personal accounts?
+## 個人アカウントを持つユーザーとチャットを開始する方法
 
-All Slingshot users can take part in private and group chats, including the personal account users. 
-However, [personal account users](roles-permissions-faq.html#what-about-users-with-no-organization) are not part of an Organization. That's why, after selecting **+ Start a Chat...**, if you have an Org, you will not see their names in the list of users. The list contains only your Organization members. You can chat with personal account users only if you add their emails manually in the search box .
+個人アカウントのユーザーを含むすべての Slingshot ユーザーはプライベートおよびグループ チャットに参加できます。 
+ただし、[個人アカウントのユーザー](roles-permissions-faq.html#what-about-users-with-no-organization)は組織の一部ではありません。**[+ チャットを開始...]** を選択した後、組織がある場合、ユーザーのリストに名前が表示されません。リストには組織メンバーのみが含まれます。検索ボックスにメールを手動で追加した場合のみ、個人アカウントのユーザーとチャットできます。
 
-Of course, if you don't have an Organization, then you will have to add all users you want to chat with like this.
+もちろん、組織がない場合は、このようにチャットするすべてのユーザーを追加する必要があります。
 
-## Leaving vs Muting a Chat
+## チャットの終了と通知のミュート
 
-Once you lose interest, you can leave or mute a chat in Slingshot.  
+興味を失ったら、Slingshot でチャットを終了またはミュートできます。  
 
-**Leaving** a chat is an option for group chats only. Each member can leave a group chat when they decide they no longer need to participate in the conversation. The members, who left, cannot receive new messages anymore, but they still have access to the chat history. To leave a group chat, click/tap it to **open** > **Members icon on top** > **leave icon** next to your name.
+**終了**はグループ チャットのみのオプションです。各メンバーは、会話に参加する必要がなくなったと判断した場合にグループ チャットから退出できます。退出したメンバーは新しいメッセージを受信できなくなりますが、チャット履歴にはアクセスできます。グループ チャットを終了するには、チャットをクリックまたはタップして**開きます** >**上部のメンバーアイコン** > 名前の隣の**退出アイコン**をクリックします。
 
-Normally, the chat icon on top shows the total number of unread chat messages. When you **mute** a private or group chat, its new messages are no longer added to that count. This is the option for you if you do not want to follow the conversation anymore, but you still want to have access to it. 
-To mute a chat, click on its **overflow menu** > **Mute Notifications**. 
+通常、上部のチャット アイコンは未読のチャット メッセージの総数を示します。プライベートまたはグループ チャットを**ミュートする**と、新しいメッセージはカウントに追加されなくなります。これは、会話をフォローしたくないが、引き続きアクセスしたい場合のオプションです。 
+チャットをミュートするには、**オーバーフロー メニュー** > **[通知のミュート]** をクリックします。 
 
-## How Can I Share a File in the Chat?
+## チャットでファイルを共有する方法
 
-In the Slingshot chat, you can share files from your device, cloud storage, or even from a workspace where these files are pinned.  
+Slingshot チャットでは、デバイス、クラウド ストレージ、またはこれらのファイルがピン固定されているワークスペースからファイルを共有できます。  
 
-Select the paperclip icon to attach the file to your message. 
+クリップ アイコンを選択してファイルをメッセージに添付します。 
   
-Slingshot does not store your files. When you share a file from your device, it will first be uploaded to your personal cloud storage (*OneDrive*, for example) and not to Slingshot directly. Then, to share it with others, Slingshot will just link to its location in your cloud storage.
+Slingshot はファイルを保存しません。デバイスからファイルを共有すると、最初に Slingshot にではなく、パーソナル クラウド ストレージ (**OneDrive** など) にアップロードされます。他の人と共有するために、Slingshot はクラウド ストレージの場所にリンクします。
 
-## Sharing a File Pinned to a Workspace or Project
+## ワークスペースまたはプロジェクトにピン固定されたファイルを共有する方法
 
-What about files that are pinned to a workspace or project? Sometimes you need to share these files with people who are not part of the workspace or project. Slingshot allows you to do this, by sending a link in the chat or by starting a chat directly from a pinned file. To do this, navigate to the file and open its overflow menu and start a chat.
+ワークスペースまたはプロジェクトにピン固定されているファイルについてはどうですか? ワークスペースまたはプロジェクトに参加していない人とこれらのファイルを共有する必要がある場合があります。Slingshot では、チャットでリンクを送信するか、ピン固定ファイルから直接チャットを開始できます。これを行うには、ファイルに移動してオーバーフロー メニューを開き、チャットを開始します。
 
-Having said that, keep in mind that your workspace or project may include files with sensitive information. That's why when pinning a file to a workspace/project its owner can restrict the access by choosing different file permissions. 
+ただし、ワークスペースまたはプロジェクトに機密情報を含むファイルが含まれる場合があることに注意してください。そのため、ファイルをワークスペース/プロジェクトにピン固定する場合、その管理者が別のファイル許可を選択してアクセスを制限できます。 
 
-Depending on the file permissions, there are two scenarios when you try to share a file in the chat. 
+ファイルのアクセス許可に応じて、チャットでファイルを共有する際に 2 つのシナリオがあります。 
 
-1. When the owner of the file has set **Request Access** permissions, this means they would like to fully control the access to the file. You can still share it with another user in the chat, but they will need to ask the owner of the file for permissions the first time they open it. 
-2. When the owner has set **Automatic Access** or **All Can Access**, you can share the file in the chat and the other user can open it freely.
+1. ファイルの管理者が **[アクセスを要求する]** のアクセス許可を設定した場合、ファイルへのアクセスを完全に制御することになります。チャットで他のユーザーと共有できますが、最初に開いたときにファイルの管理者に許可を求める必要があります。 
+2. 管理者が **[自動アクセス]** または **[すべてのユーザーがアクセス可能]** を設定した場合、チャットでファイルを共有し、他のユーザーが自由に開くことができます。
