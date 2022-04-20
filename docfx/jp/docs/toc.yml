@@ -1,11 +1,71 @@
-﻿- name: 概要
+- name: GETTING STARTED
   header: true
-- name: 作業の開始
-  href: general-getting-started.md
+- name: Welcome to Slingshot
+  href: welcome-slingshot.md
+  updated: false
+- name: Getting Started with Slingshot
+  href: getting-started-slingshot.md
+  updated: false
+- name: FEATURES
+  header: true
+- name: Workspaces
+  href: workspaces.md
+  updated: false
+- name: Overviews
+  href: overviews.md
   new: false
-- name: Gauges
+- name: Tasks
+  href: tasks.md
+  updated: false
+- name: Pins
+  href: pins.md
+- name: Data Catalog
+  href: data-catalog.md
+  new: false
+  items:
+    - name: Certifications
+      href: certifications.md
+    - name: Data Sources Advanced Information
+      href: metadata-advanced-editing.md
+- name: My Analytics
+  href: analytics/toc.yml
+  topicHref: analytics/index.md
+- name: Communication
+  href: communication.md
+  items:
+    - name: Discussions
+      href: discussions-faq.md
+    - name: Chat
+      href: chat-faq.md
+      updated:  false
+- name: Groups
+  href: groups.md
+  new: false
+- name: Productivity Flows
+  href: productivity-flows.md
+  new: false
+- name: Search
+  href: search.md
+  updated:  false
+- name: Bookmarks (Coming Soon)
+  href:
+- name: SETTINGS
+  header: true
+- name: User Account & Settings
+  href: user-account.md
+  new: false
+  items:
+    - name: User Account FAQ
+      href: user-account-faq.md
+      new: false
+- name: Security & Privacy
+  href: security.md
+  new: false
+- name: Notifications
+  href: notifications.md
+  updated:  false
+- name: RELEASE NOTES
   header: true
   new: false
-- name: Bullet Graph
-  href: bullet-graph.md
-  new: false
+- name: Release Notes
+  href: release-notes.md

@@ -1,41 +1,30 @@
 # Notifications
 
-A notification can be defined as an indicator that a certain event has happened. This is a fairly common feature in smartphones, applications, and websites, they provide new information to the user.
+Notifications make sure that nothing goes missed in Slingshot and keep you on top of things that need your attention.
 
-Sometimes notifications can become overwhelming, as an application can consistently send you  notifications that are not worth of your attention. In Slingshot, we definitely want to avoid that feeling, so you start with cautious notifications settings. In any case, you can always modify the settings according to your preferences.
+<img class="responsive-img" src="../images/notifications-example.png" alt="Showing the Notifications panel within Slingshot" class="responsive-img" width="70%" />
 
-## So, What's a Slingshot Notification?
 
-It's an auto-generated indicator that is sent to you to let you know a certain event has happened. There are three different types of notifications, in-app, push, and email. This means that you can get a message that pops up while using Slingshot (in-app notification), a message that pops up on a mobile device (push notification), or even an email. As you can get Slingshot on any platform, tweaking those settings is important to customize your experience.
+## Types of Notifications
+Notifications come in the following three forms: 
+- **In-App** – Notifications displayed within the app in the Notifications panel, located in the top right (bell icon).
+- **Push** - These notifications are clickable pop-up messages displayed when you are not using the app. They will be shown on your mobile device or on your desktop screen (also called "banner" notifications).
+- **Email** - Notifications delivered to the e-mail address associated with your account.
+Customizing your Notifications
+You can easily change what you are getting notifications for in Slingshot so you only get alerted for what is most important to you. By going into your settings and then the notification tab you can edit the notification you receive. Alternatively, you can use the overflow menu in the Notifications panel.
 
-## Stay informed with Notifications
+<img class="responsive-img" src="../images/notifications-settings.png" alt="Showing the Notifications panel within Slingshot" class="responsive-img" width="70%" />
 
-Notifications are designed to keep you updated of any changes on teams, tasks, projects, messages, and dashboards. You can learn, among others, that a task was assigned to you, that you are removed from a team, or even that someone sent a message in a discussion thread you're following.
+In the Notifications panel, select the pencil icon to see the details of each category or toggle on/off an entire category.
 
-You can access *Notifications* on the top right of the screen as shown below.
+Additionally, you can restore the default settings with the Reset to default option at the very bottom.
 
-<img src="../images/notifications-panel-opened.png" alt="Notifications panel opened in Slingshot" class="responsive-img"/>
+## Using the Notifications Panel
+Here you will find updates about workspaces, tasks, messages, mentions, and analytics dashboards. This will keep you up to date with on tasks that have been assigned to you, if you were removed from a workspace, or even if someone sent a message in a discussion thread you're following.
+You can access the Notifications panel by clicking the bell icon in the top right corner.
 
-Within the *Notifications* panel, you can mark all notifications as *Read* or *Unread* with the *glasses icon*:
+Within the Notifications panel, notifications are shown in groups that you can mute/unmute or mark as read/unread each group separately by using the overflow menu on the right.
 
-<img src="../images/notifications-panel-glasses.png" alt="Notifications panel opened in Slingshot, using the glasses icon" class="responsive-img"/>
+<img class="responsive-img" src="../images/notifications-overflow-settings.png" alt="Showing the Notifications overflow settings within Slingshot" class="responsive-img" width="30%" />
 
-Additionally, you can individually mark as *Read* or *Unread* or mute notifications by selecting the _Mute this type of notification_ option in the overflow menu.
-
-<img src="../images/notifications-panel-overflow.png" alt="Notifications panel opened in Slingshot, using the overflow" class="responsive-img"/>
-
-## How can I change my Notification Settings?
-
-There are three different types of notifications, in-app, push, and email. In-app notifications are displayed within the app in Notifications panel. Push notifications are displayed as texts near the notification icon. And emails are delivered to the e-mail address associated to your account.
-
-To change your notification settings, go to *Settings*:
-
-<img src="../images/userSettings-opened.png" alt="User Settings menu opened in Slingshot" class="responsive-img"/>
-
- And then navigate to *Notifications*:
-
-<img src="../images/userSettings-notifications.png" alt="Notifications Settings menu opened in Slingshot" class="responsive-img"/>
-
-Finally, for each category you can edit the settings as shown below or use the switch to turn them off entirely.
-
-<img src="../images/userSettings-edit-notifications.png" alt="Editing one of the items in the Notifications Settings tab" class="responsive-img"/>
+The Notifications panel shows all notifications by default, but you can choose to see only Unread notifications or @mentions. To do this, go to the top of the panel and select Showing: All to open the dropdown and then select another value.
