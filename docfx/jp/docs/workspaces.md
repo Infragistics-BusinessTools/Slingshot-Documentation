@@ -1,120 +1,120 @@
-# Workspaces
+# ワークスペース
 
-A workspace in Slingshot can be defined as a digital workplace where groups of people - within or outside your organization - gather to work on a common objective. Workspaces allow you to collaborate, prioritize work, share content and knowledge and even gleam insights from data in a transparent way.
+Slingshot のワークスペースは、組織内外の人々のグループが集まって共通の目的に取り組むデジタル ワークプレイスとして定義できます。ワークスペースを使用すると、コラボレーション、作業の優先順位付け、コンテンツと知識の共有、さらにはデータからのインサイトを透過的に引き出すことができます。
 
 <img src="../images/welcome-workspace-overview.png" alt="Showing a Workspace Overview within Slingshot" class="responsive-img"/>
 
-## What’s In a Workspace?
+## ワークスペースには何がありますか?
 
-In order to run a high performing team you need to have everything in one app for a seamless workflow. Below are all the amazing features that you have within your Slingshot workspace:
+パフォーマンスの高いチームを運営するには、シームレスなワークフローのためにすべてを 1 つのアプリにまとめる必要があります。以下は、Slingshot ワークスペース内にあるすべてのすばらしい機能です。
 
-- **Overviews**: Each workspace has an overview which contains details of the workspace such as status, dates, and key content that is pinned there. At a quick glance you can see any mentions you have missed, and the status of all tasks broken down by member for that workspace and all projects within it. The Overview is designed to give you a high-level view on the current state of that project or initiative – making it easier to identify roadblocks before they become a problem. [Check out the Overviews](overviews.md) topic for more information.  
+- **概要**: 各ワークスペースには、ステータス、日付、そこにピン固定されている主要なコンテンツなど、ワークスペースの詳細を含む概要があります。一目で、見逃したメンション、およびそのワークスペースとその中のすべてのプロジェクトのメンバーごとに分類されたすべてのタスクのステータスを確認できます。概要は、そのプロジェクトまたはイニシアチブの現在の状態に関する高レベルのビューを提供するようにデザインされており、問題になる前に障害を特定しやすくなります。詳細については、[概要トピックを確認してください](overviews.md)。 
 
-- **Projects**: Projects allow you to further breakdown and organize key initiatives, projects, and processes for a group of people. You can get a quick glimpse of all projects and their status from this tab. This is a great view for team leaders trying to see everything happening at once. 
+- **プロジェクト**: プロジェクトを使用すると、人々のグループの主要なイニシアチブ、プロジェクト、およびプロセスをさらに細かく分類して整理できます。このタブから、すべてのプロジェクトとそのステータスを簡単に確認できます。これは、すべてが一度に起こっていることを確認しようとしているチーム リーダーにとって素晴らしいビューです。 
 
-- **Tasks**: Tasks are how you can ensure that everyone is aligned and moving towards deadlines and goals. Each workspace and project allow you to create as many tasks as you need. Tasks can be organized even more into Sections and Lists. You can also view the tasks in different ways such as List view, Kanban and Gantt view. [Read more about tasks, lists, sections and views here!](tasks.md)  
+- **タスク**: タスクとは、全員が期限と目標に向かって調整され、動いていることを確認する方法です。各ワークスペースとプロジェクトでは、必要な数のタスクを作成できます。タスクは、セクションとリストにさらに整理できます。リスト ビュー、カンバン、ガント ビューなど、さまざまな方法でタスクを表示することもできます。[タスク、リスト、セクション、ビューについて詳しくは、こちらをご覧ください](tasks.md)。  
 
-- **Discussions**: Discussions ensure that collaboration between workspace members and groups is visible and transparent. Everyone can contribute to the discussion and stay abreast of what is going on within a workspace or project. Discussions can be organized in lists to prevent conversations from getting lost in endless threads. You can mention members and groups here to ensure that nobody misses anything, or choose to notify users when you create the discussion. [Navigate here for more information on Discussions!](discussions-faq.md)
+- **ディスカッション**: ディスカッションにより、ワークスペースのメンバーとグループ間のコラボレーションが可視化され、透過的になります。すべてのユーザーはディスカッションに貢献し、ワークスペースまたはプロジェクト内で何が起こっているかを常に把握できます。ディスカッションをリストにまとめて、会話が無限のスレッドで失われるのを防ぐことができます。ここでメンバーとグループに言及して、ユーザーが何かを見逃さないようにするか、ディスカッションを作成するときにユーザーに通知することを選択できます。[ディスカッションの詳細については、ここに移動してください](discussions-faq.md)。
 
--	**Pins**: The Pins area takes the chaos of sharing and finding files and restores calmness. In a matter of clicks you can access OneDrive, GoogleDrive, SharePoint, DropBox and Box to pin files in context of your workspace and projects. Upload local files and turn them into shared files magically. Pin important URLs you need everyone to have quick access to. Pull together files, URLs, dashboards, tasks and more into your content lists to keep resources that are relevant to each workspace or project. [For more information on Pins, click here](content-boards.md).
+-	**ピン固定**: ピン固定エリアは、ファイルの共有と検索の混乱を取り、順序を復元します。クリックするだけで、OneDrive、GoogleDrive、SharePoint、DropBox、Box にアクセスして、ワークスペースとプロジェクトのコンテキストでファイルをピン固定できます。ローカル ファイルをアップロードして、魔法のように共有ファイルに変換します。すべてのユーザーがすばやくアクセスできるようにする必要がある重要な URL をピン固定します。ファイル、URL、ダッシュボード、タスクなどをコンテンツ リストにまとめて、各ワークスペースまたはプロジェクトに関連するリソースを保持します。[ピン固定の詳細については、ここをクリックしてください](content-boards.md)。
 
-- **Dashboards**: How else can you make data driven decisions without analytics? Each workspace allows you to create or share dashboards which are visible by all members. Bring multiple data sources into one dashboard to ensure you have all the information to make data-driven decisions
+- **ダッシュボード**: 分析なしでデータ主導の意思決定を行うには、他にどのような方法がありますか？各ワークスペースでは、すべてのメンバーに表示されるダッシュボードを作成または共有できます。複数のデータ ソースを 1 つのダッシュボードにまとめて、データ主導の意思決定を行うためのすべての情報を確実に入手できるようにします。
 
-- **Data Sources**: Connect directly to your data sources, for your workspace and project members to have quick access too. Make everyone in your organization a data scientist! [Check out the Analytics topics, as what you can do here is limitless!](analytics/index.md)
+- **データ ソース**: 分析なしではデータ主導の意思決定を行うことはできません。組織内の全員がデータ サイエンティストになることができます! [ここでのオプションは無限であるため、分析のトピックをご覧ください](analytics/index.md)。
 
-## Workspace Hierarchy
+## ワークスペースの階層
 
-Now that you understand all the possibilities within workspaces and projects, you should have a better idea how to organize around key initiatives. Workspaces can be a single flat space or have hierarchy to further breakdown and organize into projects. We understand that everyone organizes differently, so Slingshot is designed to allow you full flexibility. For more ideas on organizing your data, check out our Solutions page!
-There are pros and use cases for each of these approaches when you are creating your workspace.
+ワークスペースとプロジェクト内のすべての可能性を理解したので、主要なイニシアチブを中心に編成する方法についてより良いアイデアが得られるはずです。ワークスペースは、単一のフラットスペースにすることも、さらに細かく分割してプロジェクトに編成するための階層を持つこともできます。組織は人によって異なることを理解しているため、Slingshot は完全な柔軟性を提供するようにデザインされています。データの整理に関するその他のアイデアについては、ソリューション ページをご覧ください。
+ワークスペースを作成するときは、これらの各アプローチの長所とユースケースがあります。
 
 <img src="../images/workspaces-hierarchy.png" alt="Showing the Workspaces Hierarchy within Slingshot" class="responsive-img"/>
 
-### Workspaces with Projects
+### プロジェクトのあるワークスペース
 
-A perfect example of when you want a hierarchy within your workspaces is when you are a group of people that works together every day on several different projects - such as a Marketing team. Within a Marketing workspace, you can have SEO, Paid Advertising initiatives, and many more projects happening all at once, all of which have their own tasks, content, data, and conversations that need to occur at a specific moment in time.
+ワークスペース内に階層が必要な場合の完璧な例は、マーケティング チームなど、いくつかの異なるプロジェクトで毎日一緒に作業する人々のグループである場合です。マーケティング ワークスペース内では、SEO、有料広告イニシアチブ、およびその他の多くのプロジェクトを一度に実行できます。これらのプロジェクトにはすべて、特定の時点で実行する必要のある独自のタスク、コンテンツ、データ、および会話があります。
 
-Here are some additional features of workspaces with projects:
-- You can organize all your team’s projects and initiatives so everyone can intuitively find information.
-- You can set start dates and due states at the project level.
-- You can set a status on your projects.
-- All your project tasks roll up to the workspace so you can easily run your team scrums.
-- You can share projects with users outside of the workspace for them to have access only to that content.
+プロジェクトを含むワークスペースの追加機能は次のとおりです:
+- チームのすべてのプロジェクトとイニシアチブを整理して、誰もが直感的に情報を見つけられるようにすることができます。
+- プロジェクト レベルで開始日と期日を設定できます。
+- プロジェクトにステータスを設定できます。
+- すべてのプロジェクト タスクはワークスペースにしっかりと集められているため、チーム スクラムを簡単に実行できます。
+- ワークスペース外のユーザーとプロジェクトを共有して、そのコンテンツにのみアクセスできるようにすることができます。
 
-### Workspace without Projects
+### プロジェクトのないワークスペース
 
-Single workspaces are great for bringing people together for a single purpose. An example of a workspace that doesn’t need projects would be something like Sales Enablement. Here, you need to include a lot of different people from different departments in the organization to have access for this specific reason.
-With the ability to turn tabs within workspaces on and off you can customize them so they fit their uses cases perfectly. [Learn more about turning workspace tabs on and off here](#turning-tabs-on-and-off).
+単一のワークスペースは、単一の目的のために人々をまとめるのに最適です。プロジェクトを必要としないワークスペースの例は、販売促進のようなものです。ここでは、この特定の理由でアクセスできるように、組織内のさまざまな部門のさまざまな人々を含める必要があります。
+ワークスペース内のタブのオンとオフを切り替える機能を使用すると、ユースケースに完全に適合するようにタブをカスタマイズできます。[ワークスペース タブのオンとオフの切り替えについて詳しくは、こちらをご覧ください](#turning-tabs-on-and-off)。
 
-## Workspace and Project Settings and Properties
+## ワークスペースとプロジェクトの設定とプロパティ
 
-You can set Information for each workspace and project such as:
-- **Description**: It is best practice to add a description to your workspace so new and even existing members are clear on the purpose.
-- **Start Date and End Date**: Set start and end dates so everyone is aligned on expectations. These are not required for when you have a workspace that is a continuous process.
-- **Status**: Give everyone working in this workspace a clear indication on if you are On Target, At Risk or In Danger of completing at the deadline. Status is not a required field.
-- **Organization**: Lets you know if the workspace belongs to an organization and which one.
-- **Privacy**: Decide if your workspace will be public for your organization or private. Public workspaces can be discovered and joined by anyone within your organization. Private workspaces require an invitation to join.
+次のような各ワークスペースおよびプロジェクトの情報を設定できます:
+- **説明**: ワークスペースに説明を追加して、新規および既存のメンバーでさえ目的が明確になるようにすることをお勧めします。
+- **開始日と終了日**: 開始日と終了日を設定して、全員が期待どおりになるようにします。継続的なプロセスであるワークスペースがある場合、これらは必要ありません。
+- **状態**: このワークスペースで作業しているすべての人に、目標通りか、リスクにさらされているか、危険な状態にあるかを明確に示します。ステータスは必須フィールドではありません。
+- **体系化**: ワークスペースが組織に属しているかどうか、およびどの組織に属しているかを通知します。
+- **プライバシー**: ワークスペースを組織に対して公開するか非公開にするかを決定します。公開ワークスペースは、組織内の誰でも検出して参加できます。プライベート ワークスペースに参加するには、招待が必要です。
 
-You can also manage your members and their roles from within the workspace setting. [Learn more about workspace permission levels here](#workspace-and-project-permissions).
+ワークスペース設定内からメンバーとその役割を管理することもできます。[ワークスペースのアクセス許可レベルについて詳しくは、こちらをご覧ください](#workspace-and-project-permissions)。
 
-Accessing the Settings of the workspace can be done via the overflow menu next to the workspace name.
+ワークスペースの設定へのアクセスは、ワークスペース名の横にあるオーバーフロー メニューから行うことができます。
 
 <img src="../images/Slingshot_Workspace_Settings.png" alt="Accessing a workspace settings within Slingshot" class="responsive-img" width="30%"/>
 
-## Working with Workspaces and Projects
+## ワークスペースとプロジェクトの操作
 
-When a workspace or project is shared with you, it will automatically appear in your navigation side bar. You will also get a notification as long as you didn't turn off the alerts.
+ワークスペースまたはプロジェクトが共有されると、ナビゲーション サイド バーに自動的に表示されます。アラートをオフにしない限り、通知も届きます。
 
-### Creating a Workspace
+### ワークスペースの作成
 
-Creating a new workspace in Slingshot can be done in just a few easy steps!
+Slingshot での新しいワークスペースの作成は、ほんの数手順で実行できます。
 
-1.	To create a new workspace, click the “+ Add” button in the left navigation at the top of your workspace list.
-2.	From the “Join or Create a Workspace” dialog box you will see public workspaces you can join within your organization. To create a new one, click the “+ Create Workspace” button.
-3.	Then enter the information for your workspace, turn off any tabs that don’t fit the workspace use case, then click the “Create” button.
-4.	Next, add members to your workspace. You can also do this later by closing the dialog box.
+1.  新しいワークスペースを作成するには、ワークスペース リストの上部にある左側のナビゲーションの [+ 追加] ボタンをクリックします。
+2.  [ワークスペースに参加または作成] ダイアログ ボックスから、組織内で参加できる公開ワークスペースが表示されます。新しいものを作成するには、 [+ ワークスペースの作成] ボタンをクリックします。
+3.  次に、ワークスペースの情報を入力し、ワークスペースのユースケースに合わないタブをオフにしてから、[作成] ボタンをクリックします。
+4.  次に、ワークスペースにメンバーを追加します。ダイアログ ボックスを閉じて、後でこれを行うこともできます。
 
-And that’s it! You have successfully created your first workspace and shared it with members to begin collaborating.
+以上です! これで、最初のワークスペースが正常に作成され、メンバーと共有してコラボレーションを開始できました。
 
-### Creating Projects
-You can add projects from the project tab using the blue “+ Project” button. From here, you will follow the same steps as Creating a Workspace.
+### プロジェクトの作成
+青い [+ プロジェクト] ボタンを使用して、プロジェクト タブからプロジェクトを追加できます。ここから、ワークスペースの作成と同じ手順に従います。
 
->[!NOTE] Keep in mind that all members of the Workspace will have access to the projects within it. However, you can share a project with people external to the workspace or even your organization. They will only have access to that project and not the workspace.
+>[!NOTE] ワークスペースのすべてのメンバーがワークスペース内のプロジェクトにアクセスできることに注意してください。ただし、プロジェクトをワークスペースの外部の人や組織と共有することもできます。外部の人はそのプロジェクトにのみアクセスでき、ワークスペースにはアクセスできません。
 
-### Searching and Joining Workspaces
+### ワークスペースの検索と参加
 
-You can join public workspaces within your organization.
-1.	Click the “+ Add” button in the left navigation at the top of your workspace list.
-2.	Search for the workspace you want to join in the “Join or Create a Workspace” modal dialog that pops up.
-3.  Then click the “Join” button on the public workspace of your choice.
-4.	Once you have joined the workspace, it will turn green with a “Joined” notification replacing the “Join” button.
-5.	As this is a public workspace it will automatically appear in your navigation side bar. The owners of the workspace will receive a notification that you have joined and you are now able to collaborate on that workspace.
+組織内の公開ワークスペースに参加できます。
+1.	ワークスペース リストの上部にある左側のナビゲーションの [+ 追加] ボタンをクリックします。
+2.	ポップアップ表示される [ワークスペースに参加または作成] モーダル ダイアログで、参加するワークスペースを検索します。
+3.  次に、選択した公開ワークスペースの [参加] ボタンをクリックします。
+4.	ワークスペースに参加すると、[参加] ボタンの代わりに [参加しました。] 通知が表示されて緑色に変わります。
+5.	これは公開ワークスペースであるため、ナビゲーション サイド バーに自動的に表示されます。ワークスペースの管理者は、ユーザーが参加したという通知を受け取り、そのワークスペースで共同作業できるようになります。
 
-### Leaving a Workspace
+### ワークスペースから脱退
 
-Once your contribution to a project is completed or if priorities shift, you can easily leave a workspace.
+プロジェクトへの貢献が完了した後、または優先順位が変わった場合は、ワークスペースから簡単に退出することができます。
 
-This can be achieved by navigating to the overflow icon next to the workspace name, and selecting “Leave Workspace”. You will not receive notifications for this workspace anymore, and you will no longer be able to access any of the content such as tasks or discussions.
+これは、ワークスペース名の横にあるオーバーフロー アイコンに移動し、[ワークスペースから抜ける] を選択することで実現できます。このワークスペースの通知は受信されなくなり、タスクやディスカッションなどのコンテンツにアクセスできなくなります。
 
-### Deleting a Workspace
+### ワークスペースの削除
 
-There will be situations where the objective of the workspace is achieved, it is no longer needed or you are reorganizing. When this occurs, you can delete the workspace. Only a member with Owner level permissions can delete a workspace.
+ワークスペースの目的が達成された場合、不要になった場合、または再編成している場合があります。これが発生した場合、ワークスペースを削除できます。ワークスペースを削除できるのは、管理者レベルの権限を持つメンバーのみです。
 
-You can delete a workspace by going to the workspace settings and clicking the overflow in the top right, there you will be given the option to Delete Workspace.
+ワークスペース設定に移動し、右上のオーバーフローをクリックすると、ワークスペースを削除できます。そこで、ワークスペースを削除するオプションが表示されます。
 
-### Turning Tabs On and Off
+### タブのオンとオフを切り替える
 
-By default a workspace is created with all tabs, but you can turn tabs on and off if they are not necessary.
-Slingshot allows you full flexibility in customizing these tabs for your project’s requirements.
+デフォルトでは、ワークスペースはすべてのタブで作成されますが、必要がない場合はタブのオンとオフを切り替えることができます。
+Slingshot を使用すると、プロジェクトの要件に合わせてこれらのタブを柔軟にカスタマイズできます。
 
 <img src="../images/workspaces-edit-tabs.png" alt="Accessing a workspace settings within Slingshot" class="responsive-img" width="70%"/>
 
-If you need to turn on/off a tab, you can easily do so from the pencil icon on the tab menu.
+タブのオン/オフが必要な場合は、タブ メニューの鉛筆アイコンから簡単にオン/オフにすることができます。
 
->[!NOTE] Hiding a tab only removes it from appearing, it doesn’t delete any of the data that is associated with those tabs. Once they are visible again, that data is restored.
+>[!NOTE] タブを非表示にすると、タブが表示されなくなるだけで、それらのタブに関連付けられているデータは削除されません。それらが再び表示されると、そのデータが復元されます。
 
-## Workspace and Project Permissions
+## ワークスペースとプロジェクトの権限
 
-Within Workspaces, there are three types of permissions:
-- **Owner** – By default the person who created the workspace or project is set as the owner. Only the owner can change permissions of members within the workspace/project. They can also remove members from the workspace or project.
-- **Contributor** – with this level of permission, you can create, edit, delete and share anything with the workspace or project, but you can’t add new members or delete the workspace/project.
-- **Viewers** – can only view and share items from within a workspace or project.  
+ワークスペースには、次の 3 種類の権限があります:
+- **管理者** – デフォルトでは、ワークスペースまたはプロジェクトを作成した人が管理者として設定されます。ワークスペース/プロジェクト内のメンバーの権限を変更できるのは、管理者だけです。また、ワークスペースおよびプロジェクトからメンバーを削除することもできます。
+- **編集者** – このレベルの権限があれば、ワークスペースまたはプロジェクトで何でも作成、編集、削除、共有できますが、新しいメンバーを追加したり、ワークスペース/プロジェクトを削除したりすることはできません。
+- **閲覧者** – ワークスペースまたはプロジェクト内からのみ項目を表示および共有できます。 
