@@ -1,184 +1,185 @@
-# Learn more about Workspaces
+# ワークスペースの詳細
 
-Welcome! Read on to get answers to your questions about workspaces.
+ようこそ! このトピックは、ワークスペースに関する詳細を紹介します。
 
 <a name='organization-vs-workspace'></a>
-## Organization vs workspace vs sub-workspace
+## 組織とワークスペースとサブワークスペース
 
-In Slingshot, people can be part of an Organization, and of limitless workspaces and sub-workspaces.
-The purpose of having an Organization workspace is for company leaders to have the ability to communicate key goals, metrics, strategies, and important announcements throughout their organization.   
+Slingshot では、ユーザーは組織に参加し、無制限のワークスペースとサブワークスペースに参加できます。
+組織ワークスペースを持つことの目的は、会社のリーダーが、主要な目標、メトリック、ストラテジ、および重要な発表を、組織全体に伝達できるようになることです。   
 
-**The Organization workspace** is named after your organization (for example, your company's name). Members need to log in with their organization’s email to be associated with the Organization workspace. Team members in the Organization can share _Discussions_, _Content_ and _Analytics_ with each other. 
+**組織ワークスペース**は、組織にちなんで (たとえば、御社の名前) 名付けられています。メンバーは、組織のワークスペースに関連付けるために、組織のメール アドレスでログインする必要があります。組織内のチーム メンバーは、ディスカッション、コンテンツ、および分析を互いに共有できます。 
 
-You will find your <img src="../images/organization-icon.png" alt="The Organization icon in Slingshot" width="25px" height="25px" /> Organization workspace under *Workspaces* on the left (see below). 
+左側の [ワークスペース] の下に <img src="../images/organization-icon.png" alt="The Organization icon in Slingshot" width="25px" height="25px" /> 組織ワークスペースがあります (以下を参照)。 
 
 <img src="../images/organization-access.png" alt="An Organization team" class="responsive-img"/>
 
-**Workspaces** can be associated with the Organization workspace or not. They can include members from within and out of the main Organization. Workspace members share not only *Content*, *Analytics*, and *Discussions*, but also *Tasks* and *sub-workspaces*.
+**ワークスペース**は、組織ワークスペースに関連付けることも、関連付けないこともできます。メイン組織の内外のメンバーを含めることができます。ワークスペースのメンバーは、コンテンツ、分析、ディスカッションだけでなく、タスクとサブワークスペースも共有します。
 
 <img src="../images/overview-workspace-navigation.png" alt="Example of a workspace and its tasks" class="responsive-img"/>
 
-**Sub-workspaces** live inside of a workspace and can be found under the _Workspaces_ between the _Overview_ and the _Tasks_ of the [parent workspace](workspaces.html#sub-workspaces). Sub-workspaces are not limited to the members of the parent workspace. You can invite people from other workspaces to every sub-workspace. A sub-workspace contains its own *Overview*, *Tasks*, *Discussions*, *Content*, and *Analytics*. You can also assign tasks within a sub-workspace to users, who are not part of the sub-workspace or its parent workspace.
+**サブワークスペース**はワークスペース内にあり、[親ワークスペース](workspaces.html#sub-workspaces)の [概要] と [タスク] の間の [ワークスペース] の下にあります。サブワークスペースは、親ワークスペースのメンバーに限定されません。他のワークスペースのユーザーをすべてのサブワークスペースに招待できます。サブワークスペースには、独自の [概要]、[タスク]、[ディスカッション]、[コンテンツ]、および [分析] が含まれます。サブワークスペース内のタスクを、サブワークスペースまたはその親ワークスペースのメンバーではないユーザーに割り当てることもできます。
 
 <img src="../images/welcome-overview-subworkspace.png" alt="A sub-workspace's Overview" class="responsive-img"/>
 
-All users' tasks will appear in the *Tasks Status* in the sub-workspace *Overview* tab as shown above.
+上記のように、すべてのユーザーのタスクがサブワークスペースの [概要] タブの [タスクの状態] に表示されます。
 
-## How can I access my workspaces?
+## ワークスペースにアクセスする方法
 
-You can access all your workspaces on the very left of the screen, in the  <img src="../images/workspace-icon.png" alt="The workspace icon in Slingshot" width="25px" height="25px" /> Workspaces area (shown below).
+画面の左端の<img src="../images/workspace-icon.png" alt="The workspace icon in Slingshot" width="25px" height="25px" />ワークスペース領域 (以下を参照)で、すべてのワークスペースにアクセスできます。
 
 <img src="../images/workspaces-area.png" alt="The Workspaces navigation area opened with a list of workspaces in it" class="responsive-img"/>
 
-By default, the <img src="../images/workspace-icon.png" alt="The workspace icon in Slingshot" width="25px" height="25px" /> *Workspaces* area is displayed in the left panel. Switch to <img src="../images/bookmark-icon.png" alt="The bookmark icon in Slingshot" width="25px" height="25px" /> *Bookmarks* or <img src="../images/group-icon.png" alt="The bookmark icon in Slingshot" width="25px" height="25px" /> *Groups* by clicking on their icons under *My Stuff*. 
+デフォルトでは、<img src="../images/workspace-icon.png" alt="The workspace icon in Slingshot" width="25px" height="25px" />ワークスペース領域は左側のパネルに表示されます。[概要] の下のアイコンをクリックして、<img src="../images/bookmark-icon.png" alt="The bookmark icon in Slingshot" width="25px" height="25px" />[ブックマーク] または <img src="../images/group-icon.png" alt="The bookmark icon in Slingshot" width="25px" height="25px" />[グループ] に切り替えます。
 
-By scrolling down you are able to navigate all your workspaces and their sub-workspaces. To access a workspace faster, you can bookmark it. From now on, you can also find this workspace under the _Bookmarks_ tab.
+下にスクロールすると、すべてのワークスペースとそのサブワークスペースに移動できます。ワークスペースにすばやくアクセスするために、ブックマークを付けることができます。その後は、このワークスペースを [ブックマーク] タブからも見つけることができます。
 
 <img src="../images/workspaces-bookmarks.png" alt="My Stuff opened and Bookmarks selected" class="responsive-img"/>
 
-To open any workspace, just click/tap over it.
+ワークスペースを開くには、ワークスペースをクリック / タップするだけです。
 
-## How can I discover and join other workspaces?
+## 他のワークスペースを見つけて参加する方法
 
-To become a workspace member you first need to discover or create your new workspace. Select the _+Add_ button on top of the *Workspaces* panel to open a dialog with the available workspaces.
+ワークスペースのメンバーになるには、はじめに、ワークスペースを見つけるか、または新たなワークスペースを作成する必要があります。[ワークスペース] パネルの上部にある [+ 追加] ボタンを選択して、使用可能なワークスペースのダイアログを開きます。
 
 <img src="../images/new-workspace-button.png" alt="New Workspace button" class="responsive-img"/>
 
-In this dialog, you will find **only public workspaces, part of your Organization**. You can join these workspaces on the spot, getting the member role by default.
+このダイアログには、**組織の公開ワークスペースのみ**が表示されます。これらのワークスペースにはその場で参加でき、デフォルトでメンバーの役割を取得できます。
 
-To become part of **private workspace or workspaces outside of your Organization**, you need to be invited by their owner.
+**プライベート ワークスペースまたは組織外のワークスペース**のメンバーになるには、管理者から招待される必要があります。
 
-## How can I join a sub-workspace? 
+## サブワークスペースに参加する方法 
 
-As it was already mentioned, sub-workspaces can mix together users from the parent workspace with users, who are not part of it. [Personal account users](roles-permissions-faq.html#what-about-users-with-no-organization) can also join a sub-workspace without being members of its parent workspace.
+すでに述べたように、サブワークスペースは、親ワークスペースのユーザーと、そのメンバーではないユーザーとを混在させることができます。[個人アカウントのユーザー](roles-permissions-faq.html#what-about-users-with-no-organization)は、親ワークスペースのメンバーでなくてもサブワークスペースに参加できます。
 
-To join a workspace, if you are not a member of the parent workspace, you have to **receive an invitation** by an owner of the sub-workspace or its parent workspace. 
+ワークスペースに参加するには、親ワークスペースのメンバーでない場合、サブワークスペースまたはその親ワークスペースの管理者から**招待を受け取る**必要があります。 
 
-After you are added to a sub-workspace, you will receive notifications about the project and its state. You will also be notified when the project is mentioned (by using the *@ sign* + the project's name).
+サブワークスペースのメンバーに追加されると、プロジェクトとその状態に関する通知が届きます。プロジェクトが言及されたときに、*@ 記号* + プロジェクト名を使用して通知されます。
 
-If you are part of the parent workspace and you haven't joined some of its sub-workspaces, you can click on the blue button under its name. There you will find the available sub-workspaces and you can select *Join* next to the name of the ones you want to join (see below). 
+親ワークスペースのメンバーであるが、そのサブワークスペースの一部に参加していない場合は、その名前の下にある青いボタンをクリックできます。すると、利用可能なサブワークスペースが表示されるので、参加したいサブワークスペースの名前の横にある [参加] を選択できます (以下を参照)。 
 
 <img src="../images/unjoined-workspaces.png" alt="A workspace with two unjoined sub-workspaces" class="responsive-img">
 
->[!NOTE] You can view the content in sub-workspaces without joining them. However, you will not receive any notification updates from them until you join.
+>[!NOTE] サブワークスペースに参加しなくても、サブワークスペースのコンテンツを表示できます。ただし、参加するまで、通知の更新は届きません。
 
-## How can I create a new workspace?
+## 新しいワークスペースを作成する方法
 
-Every user in Slingshot can create workspaces.  
-Access the workspace creation menu by selecting the *+ Add* button at the top of the *Workspaces* panel and then click/tap *+ Create Workspace*. Below, you can see the workspace creation dialog.
+Slingshot のすべてのユーザーはワークスペースを作成できます。  
+[ワークスペース] パネルの上部にある [+ 追加] ボタンを選択してワークスペース作成メニューにアクセスし、[作成] をクリック / タップします。以下に、[ワークスペースの作成] ダイアログを示します。
 
 <img src="../images/create-workspace-dialog.png" alt="The Workspace creation menu" class="responsive-img"/>
 
-In this dialog, configure the following:
-* ***Workspace Name*** - giving your workspace an appropriate name is always worth the effort.
-* *(Optional)* ***Description*** - descriptions are helpful and nice to have, but absolutely optional in Slingshot.
-* ***Organization*** - choose whether your workspace will be part of the Organization workspace or will exist as your Personal. How to choose and what is the difference?  
-    - **Workspaces, part of the main organization** follow the internal rules and principles of the Organization. These workspaces can be [discovered and joined](#how-can-i-discover-and-join-other-workspaces) by every member of the Organization.
+このダイアログで、以下を構成します:
+* **ワークスペース名** - ワークスペースに適切な名前を付けることを推奨します。
+* (オプション) **説明** - 説明は役に立ち、あるとよいですが、Slingshot ではオプションです。
+* **組織** - ワークスペースを組織のワークスペースにするか、個人のワークスペースにするかを選択します。
+    選び方と違い 
+    - **メイン組織の一部であるワークスペース**は、組織の内部ルールと原則に従います。これらのワークスペースは、組織のすべてのメンバーが[見つけて参加](#how-can-i-discover-and-join-other-workspaces)できます。
 
-    - **Personal Organization** - by choosing this option, you will have more freedom and less discoverability for your workspace. Others cannot find your team without being invited. This is perfect when you want to control access to your workspace.
-* **Privacy** - this setting is only available if you choose to be part of the Organization.
-    - **Public** workspaces can be discovered and joined in the _New Workspace_ dialog.
-    - **Private** teams are undiscoverable and can only be joined through an invitation received via email.
-* **Status**, **Start Date**, **End Date** - all these properties of your workspace will be visible for everybody in the workspace *Overview*. 
-* **Tabs** - use the toggles next to the [navigation tabs](workspaces.html#customize-main-navigation-tabs-for-improved-productivity) to turn off any tab you don't need in your workspace. 
+    - **個人組織** - このオプションを選択すると、より多くの自由が得られますが、見つけられる可能性が低くなります。他のユーザーは招待されなければチームを見つけることができません。これは、自身のワークスペースへのアクセスを制御する場合には最適です。
+* **プライバシー** - この設定は、組織のワークスペースになることを選択した場合にのみ使用できます。
+    - **公開**ワークスペースは、[ワークスペースに参加または作成] ダイアログで見つけて参加できます。
+    - **プライベート** チームは見つけることはできず、メールで受け取った招待を介してのみ参加できます。
+* **[状態]**、**[開始日]**、**[終了日]** - ワークスペースのこれらすべてのプロパティは、ワークスペースの [概要] ですべてのユーザーに表示されます。
+* **[タブ]** - [ナビゲーション タブ](workspaces.html#customize-main-navigation-tabs-for-improved-productivity)の横にあるトグルを使用して、ワークスペースで不要なタブをオフにします。
 
-Click/tap **Create**. Your workspace is created and you can find it in the *Workspaces* panel. 
+**[作成]** をクリック / タップします。ワークスペースが作成され、ワークスペース パネルで見つけることができます。 
 
-## How can I add members to a workspace? 
+## ワークスペースにメンバーを追加する方法 
 
-The *Who is collaborating in this workspace?* dialog appears right after you create the workspace. To invite members, click/tap the **+ Members** blue button. Choose Organization members from the dropdown list (see below) or use the text box at the top to add the emails of [personal account users](roles-permissions-faq.html#what-about-users-with-no-organization). 
+[このワークスペースで共同作業しているユーザー] ダイアログはワークスペースを作成した直後に表示されます。メンバーを招待するには、青い **[+ メンバー]** ボタンをクリック / タップします。ドロップダウンリスト (以下を参照) から組織メンバーを選択するか、上部のテキスト ボックスを使用して[個人アカウント ユーザー](roles-permissions-faq.html#what-about-users-with-no-organization)のメールを追加します。 
 
 <img src="../images/workspace-invite-members.png" alt="Inviting team members" width="75%" class="responsive-img" />
 
 >[!NOTE]
->When adding members, whose emails are not auto-completed by Slingshot, type the whole email and press Enter to add it to the list of users you want to invite.
+>Slingshot によってメールが自動入力されないメンバーを追加する場合は、メール全体を入力し、Enter キーを押して、招待するユーザーのリストに追加します。
 
-Select **Done** when you are ready. 
+準備ができたら、**[完了]** を選択します。 
 
-All users in the list will be assigned the default _Member_ role. From the dropdown next to each name, you can change the role to _owner_ or _viewer_. How are these roles different from _member_? See in the [Roles & Permissions FAQ](roles-permissions-faq.md) topic.
+リスト内のすべてのユーザーには、デフォルトのメンバー ロールが割り当てられます。名前の横にあるドロップダウンから、ロールを管理者または閲覧者に変更できます。これらのロールのメンバーとの違い[ロールとアクセス許可 FAQ トピック](roles-permissions-faq.md)を参照してください。
 
-## How can I create a workspace inside the workspace?
+## ワークスペース内にワークスペースを作成する方法
 
-You can create limitless workspaces within a [parent workspace](workspaces.html#using-workspaces-within-the-workspace). To create a new sub-workspace (a workspace within a workspace), follow the steps below. 
+[親ワークスペース](workspaces.html#using-workspaces-within-the-workspace)内に無制限にワークスペースを作成できます。新しいサブワークスペース (ワークスペース内のワークスペース) を作成するには、以下の手順に従います。 
 
-1. Select a workspace from the Workspace panel on the left. 
-2. Go to the _Workspaces_ tab on the right. 
-3. Select the *+ Workspace* blue button. If this is not your first sub-workspace, you will find this button at the top of the sub-workspaces' list.
-4. The only required field to create a sub-workspace is its *Name*. _Status_, _Start Date_ and _End Date_ are optional.
-5. Select _Create_. Your new sub-workspace will appear in a list inside _Workspaces_. You will also see it under the parent workspace in the <img src="../images/workspace-icon.png" alt="The Organization icon in Slingshot" width="25px" height="25px" /> *Workspaces* area on the left.
+1. 左側のワークスペース パネルからワークスペースを選択します。 
+2. 右側の [ワークスペース] タブに移動します。
+3. 青い [+ 追加] ボタンを選択します。これが最初のサブワークスペースでない場合は、このボタンがサブワークスペースのリストの上部にあります。
+4. サブワークスペースを作成するために必要な唯一のフィールドは、その名前です。[状態]、[開始日]、および [終了日] はオプションです。
+5. [作成] を選択します。新しいサブワークスペースがワークスペース内のリストに表示されます。左側の<img src="../images/workspace-icon.png" alt="The Organization icon in Slingshot" width="25px" height="25px" />[ワークスペース] の親ワークスペースの下にも表示されます。
 
-## How can I organize my sub-workspaces? 
+## サブワークスペースを整理する方法
 
-An unlimited number of sub-workspaces can be created for each workspace. Knowing how to organize a big list of sub-workspaces is beneficial for your productivity inside the *Workspaces* area. 
+ワークスペースごとに無制限の数のサブワークスペースを作成できます。サブワークスペースの大きなリストを整理する方法を知っていると、ワークスペース領域内の生産性が向上します。 
 
-First, you can choose between <img src="../images/list-view-icon.png" alt="The list view icon in Slingshot" width="25px" height="25px" /> *List* or <img src="../images/grid-view-icon.png" alt="The Grid View icon in Slingshot" width="25px" height="25px" /> *Grid* view for your *Workspaces* tab. Both views give you the same information about the sub-workspaces with one look. 
+まず、[ワークスペース] タブの<img src="../images/list-view-icon.png" alt="The list view icon in Slingshot" width="25px" height="25px" />リスト ビューまたは<img src="../images/grid-view-icon.png" alt="The Grid View icon in Slingshot" width="25px" height="25px" />グリッド ビューのいずれかを選択できます。どちらのビューでも、サブワークスペースに関する同じ情報が一目でわかります。
 
-Lists are more customizable than grids and give you some sorting options. When in _List View_, you can click/tap the <img src="../images/plus-icon.png" alt="The Plus icon in Slingshot" width="25px" height="25px" /> *plus* button on the right to choose the fields you want to be displayed for the sub-workspaces. 
+リストはグリッドよりもカスタマイズ可能であり、いくつかの並べ替えオプションを提供します。 リスト ビューで、右側の<img src="../images/plus-icon.png" alt="The Plus icon in Slingshot" width="25px" height="25px" />**プラス** ボタンをクリック / タップして、サブワークスペースに表示するフィールドを選択できます。  
 
-The screenshot below shows a list of sub-workspaces with the fields displayed by default: *Status* of the sub-workspace, (number of) *Blocked* tasks, (number of) *Overdue* tasks, (number of) *Completed* tasks.
+以下のスクリーンショットは、デフォルトのフィールドが表示されている、サブワークスペースのリストを示しています。サブワークスペースの状態、ブロック済みタスクの数、期限切れのタスクの数、完了のタスクの数。
 
 <img src="../images/sub-workspaces-fields.png" alt="The workspace members dialog" class="responsive-img"/>
 
-You can **sort** in ascending or descending order by the workspaces' title or status. To sort by title, for example, just click/tap *Title*. An arrow pointing up or down will appear next to *Title*. This means your sub-workspaces are now sorted alphabetically by their title: *A-Z* or *Z-A*, respectively.
+ワークスペースのタイトルまたは状態で、昇順または降順に**並べ替える**ことができます。たとえば、タイトルで並べ替えるには、[タイトル] をクリック / タップするだけです。タイトルの横に上向きまたは下向きの矢印が表示されます。これは、サブワークスペースがタイトルの辞書順に並べ替えられていることを意味します: それぞれ *A-Z* または *Z-A* です。
 
-## How can I manage workspace members?
+## ワークスペース メンバーを管理する方法
 
-You have to be a workspace owner to be able to: 
+以下の作業を行うには、ワークスペースの管理者である必要があります: 
 
-- invite new members;
-- remove members, and
-- change their roles.
+- 新しいメンバーを招待する
+- メンバーを削除する
+- メンバーのロールを変える
 
 
-To access the workspace members dialog select the overflow menu of a workspace and then **Manage Members**. 
+ワークスペース メンバー ダイアログにアクセスするには、ワークスペースのオーバーフロー メニューを選択してから、**[メンバー管理]** を選択します。 
 
 <img src="../images/workspace-members-dialog.png" alt="The workspace members dialog" width="75%" class="responsive-img" />
 
-To invite new members select the **+ Members** blue button.
+新しいメンバーを招待するには、青い **[+ 追加]** ボタンを選択します。
 
-You can change each member's role or remove the member from the workspace by clicking on their role.
+各メンバーのロールをクリックして、各メンバーのロールを変更したり、ワークスペースからメンバーを削除したりできます。
 
-You can remove or change the role of more than one member at the same time. To do this:
+同時に複数のメンバーのロールを削除または変更できます。そのためには次の手順を実行します。
 
-1. Select the checked box on the right of the _+Members_ blue button.
-2. On the right of each member's role appears a checkbox.
-3. Select the checkboxes of the members you want to change simultaneously.
-4. Choose the *trash icon* or a role from the menu at the bottom center of the screen and apply to all.
+1. 青い [+ 追加] ボタンの右側にあるチェックボックスを選択します。
+2. 各メンバーのロールの右側にチェックボックスが表示されます。
+3. 同時に変更したいメンバーのチェックボックスを選択します。
+4. 画面中央下のメニューから**ゴミ箱アイコン**またはロールを選択し、すべてに適用します。
 
-The same rules for managing members in the parent workspace are applicable to all its sub-workspaces.
+親ワークスペースのメンバーを管理するための同じルールが、そのすべてのサブワークスペースに適用されます。
 
->[!NOTE] Owners of the parent workspace cannot manage members in a sub-workspace where they are not an owner.
+>[!NOTE] 親ワークスペースの管理者は、自分が管理者ではないサブワークスペースのメンバーを管理できません。
 
-## Can I assign tasks to people from outside of a workspace?
+## ワークスペースの外からユーザーにタスクを割り当てる方法
 
-Sometimes you may need to work on a particular task or project with people outside of your workspace. In this case, it doesn't make sense to add them as members to your workspace.
+ワークスペース外のユーザーと一緒に特定のタスクやプロジェクトに取り組む必要がある場合があります。この場合、そのユーザーをメンバーとしてワークスペースに追加するのは理にかなっていません。
 
-You can assign tasks to users who are external for your workspace by accessing the workspace's **Tasks** tab on top and creating a task. 
+上部にあるワークスペースの **[タスク]** タブにアクセスしてタスクを作成することにより、ワークスペースの外部にいるユーザーにタスクを割り当てることができます。 
 
 <img src="../images/tasks-tab-workspace.png" alt="Tasks tab in a workspace" class="responsive-img"/>
 
-Users will receive a notification about the task they were assigned. For them the task will appear in _My Stuff_ > _Tasks_. The same applies for assigning tasks to external users in sub-workspaces.
+ユーザーは、割り当てられたタスクに関する通知を受け取ります。その場合、タスクは [概要] > [今後のタスク] に表示されます。同じことが、サブワークスペースのタスクの、外部ユーザーへの割り当てにも当てはまります。
 
-If you unfollow a sub-workspace, you will receive notifications only for the tasks assigned to you within this the sub-workspace.
+サブワークスペースのフォローを解除すると、このサブワークスペース内で割り当てられたタスクについてのみ通知が届きます。
 
 <a name='workspace-settigs'></a>
-## How can I change the workspace privacy, name or description?
+## ワークスペースのプライバシー、名前、または説明を変更する方法
 
-If you are the owner of a workspace (or sub-workspace) you can change its settings. To do this, in the  <img src="../images/workspace-icon.png" alt="The list view icon in Slingshot" width="25px" height="25px" /> Workspace area, select your workspace <img src="../images/overflow-icon.png" alt="The list view icon in Slingshot" width="25px" height="25px" /> overflow menu > <img src="../images/settings-icon.png" alt="The list view icon in Slingshot" width="25px" height="25px" /> *Workspace Settings*.
+ワークスペース (またはサブワークスペース) の管理者である場合は、その設定を変更できます。これを行うには、<img src="../images/workspace-icon.png" alt="The list view icon in Slingshot" width="25px" height="25px" />ワークスペース領域で、ワークスペース<img src="../images/overflow-icon.png" alt="The list view icon in Slingshot" width="25px" height="25px" />オーバーフロー メニューの> <img src="../images/settings-icon.png" alt="The list view icon in Slingshot" width="25px" height="25px" />[ワークスペース設定] を選択します。
 
-## Deleting vs leaving a workspace
+## ワークスペースの削除と離脱
 
-To make a workspace disappear from your Workspace panel you can either delete it or leave it.
+ワークスペースをワークスペース パネルから非表示にするには、ワークスペースを削除するか、ワークスペースを抜けることができます。
 
-Only the *owner* can delete a workspace. As an exception.
+管理者のみがワークスペースを削除できます。例外として。
 
-To **delete** a workspace, go to its [settings](#how-can-i-change-the-workspace-privacy-name-or-description) > _Manage Members_ > overflow menu on top > *Delete Workspace*.
+ワークスペースを**削除する**には、その[設定](#how-can-i-change-the-workspace-privacy-name-or-description) > [メンバー管理] > 上部のオーバーフロー メニュー > [ワークスペースの削除] に移動します。
 
 <img src="../images/overflow-menu-settings.png" alt="Overflow button location in the workspace's settings" class="responsive-img"/>
 
-Deleting removes the workspace with all its contents for all its members.
+削除すると、すべてのメンバーのすべてのコンテンツを含めて、ワークスペースが削除されます。
 
-To remove a workspace and its content only for you, use the **leave** option. You can do this by going to the workspace's [settings](#how-can-i-change-the-workspace-privacy-name-or-description) > select *Manage Members*, click/tap your role and select *Leave*. If you are the only owner of a workspace you cannot leave it without assigning another member as an owner.
+ワークスペースと自分のコンテンツだけを削除するには、**抜ける**オプションを使用します。これを行うには、[[ワークスペース設定]](#how-can-i-change-the-workspace-privacy-name-or-description) に移動し、[メンバー管理] を選択し、ロールをクリック / タップして、[ワークスペースから抜ける] を選択します。ワークスペースの唯一の管理者である場合、別のメンバーを管理者として割り当てずにワークスペースを抜けることはできません。
 
 
 
