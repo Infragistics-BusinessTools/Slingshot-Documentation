@@ -10,7 +10,7 @@ Here you can Log Out, provide the Slingshot team with valuable Feedback, and acc
 
 ## Which are the different subscription plans?
 
-For information about the available plans, please go to [Pricing](https://www.slingshotapp.io/pricing).
+For information about the available plans, please go to [Pricing](https://www.slingshotapp.io/ja/pricing).
 
 
 ## How secure is a Slingshot user account?
