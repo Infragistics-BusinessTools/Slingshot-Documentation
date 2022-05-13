@@ -1,84 +1,84 @@
-# Learn more about your User Account & Settings
+# ユーザー アカウントと設定の詳細
 
-Welcome! Read on to get answers to your questions about the user account and settings.
+ようこそ! このトピックはユーザー アカウントと設定について説明します。
 
-## How can I access my user account?
+## ユーザー アカウントにアクセスする方法
 
-Go to the upper right corner and select your profile image.
+右上隅に移動して、プロフィール写真を選択します。
 
-Here you can Log Out, provide the Slingshot team with valuable Feedback, and access the general settings and profile information.
+ここでは、サインアウトしたり、Slingshot チームに貴重なフィードバックを提供したり、一般設定とプロファイル情報にアクセスしたりできます。
 
-## Which are the different subscription plans?
+## どのようなサブスクリプション プランがありますか?
 
-For information about the available plans, please go to [Pricing](https://www.slingshotapp.io/ja/pricing).
-
-
-## How secure is a Slingshot user account?
-
-As a Slingshot user you own different types of content, like the files you upload, the messages you write and the dashboards you create. All those are part of your Slingshot account and are associated to you as a user. With that said, you do have full control over the content you own.
-For more information about security and data privacy within Slingshot, go to [Security & Privacy](security.md).
-
-## How are Slingshot user accounts related to Microsoft or Google accounts?
-
-Slingshot is built upon Microsoft and Google security for data access and administration, including 2-factor authentication.
-In addition, Slingshot is GDPR compliant and allows you to export and delete your own data if requested.
-For more information about data privacy, go to [Security & Privacy](security.md).
-
-## Can I delete my user account?
-
-Yes, you can. To meet global data privacy laws, including the General Data Protection Regulation (GDPR) Slingshot gives the users the ability to have all their profile information deleted.
-For more information go to [Security & Privacy](security.md).
-
-## Can I reactivate my user account after it was deleted?
-
-Yes, you can. For more information go to [Security & Privacy](security.md).
+利用可能なプランについては、[料金](https://www.slingshotapp.io/pricing)をご覧ください。
 
 
-## Can I export my user account's profile information?
+## Slingshot ユーザーア カウントはどの程度安全ですか?
 
-Yes you can. Your user account is a virtual representation of a user, including a set of credentials, profile information, settings and content owned by you.
-For more information go to [Security & Privacy](security.md).
+利用者は、Slingshot ユーザーとして、アップロードするファイル、作成するメッセージ、作成するダッシュボードなど、さまざまな種類のコンテンツを所有しています。これらはすべて Slingshot アカウントの一部であり、ユーザーとして関連付けられています。とはいえ、利用者は自分自身が所有するコンテンツを完全に制御することができます。
+Slingshot 内のセキュリティとデータ プライバシーの詳細については、[セキュリティとプライバシー](security.md)を参照してください。
 
-## Why should I complete my profile information in Slingshot?
+## Slingshot ユーザー アカウントは Microsoft または Google アカウントとどのように関連していますか?
 
-Your profile information in Slingshot includes the characteristics that make you recognizable in your collaboration space, for example your name and title. This information is important for Slingshot and for your collaborators so Emily (our AI assistant) will remind you to complete it to 100%. 
+Slingshot は、2 要素認証を含む、データ アクセスと管理のための Microsoft と Google のセキュリティに基づいて構築されています。
+さらに、Slingshot は GDPR に準拠しており、必要に応じて自身のデータをエクスポートおよび削除できます。
+データ プライバシーの詳細については、[セキュリティとプライバシー](security.md)を参照してください。
 
-To access your profile information:
-select your profile image > *Settings* > *Profile Information*
+## ユーザー アカウントを削除できますか?
 
-Here you need to complete the following information about yourself: 
+はい。一般データ保護規則 (GDPR) を含むグローバルなデータ プライバシー法を満たすために、Slingshot はユーザーにすべてのプロファイル情報を削除できる機能を提供します。
+詳細については、[セキュリティとプライバシー](security.md)を参照してください。
 
-* **Name** - this is your display name in Slingshot and the name by which others will recognize and *@mention* you. You can change your name by clicking/tapping on it. Select *Rename* when ready.
-* **Title** - this is your job title (for example, Accountant) or role in the organization (for example, CFO). To add your title, click/tap on it. Select *Set* when ready. 
-* **Photo** - your photo will help your collaborators in Slingshot know who you are. Your profile photo is always 64x64 pixels, square images will be scaled down or up. You can upload a file from your computer, take the photo with your device's camera or choose it from your device's storage.
-* **Industry** - this is information concerning your organization. Select from the dropdown on the right or type your industry and click/tap *Ok*. 
-* **Department** - this is the organization department where you belong. Select from the dropdown on the right or type your department and click/tap *Ok*.
+## 削除後、ユーザー アカウントを再度アクティブ化できますか?
 
-When you are finished, just close the dialog. Your changes will be saved.  
+はい。詳細については、[セキュリティとプライバシー](security.md)を参照してください。
 
-## How can I change my language?
 
-Slingshot will detect and apply the language and regional settings configured in the different platforms, including:
-- Web browser
+## ユーザー アカウントのプロファイル情報をエクスポートできますか?
+
+はい。ユーザー アカウントは、一連の資格情報、プロファイル情報、設定、およびユーザーが所有するコンテンツを含む、ユーザーの仮想表現です。
+詳細については、[セキュリティとプライバシー](security.md)を参照してください。
+
+## Slingshot でプロファイル情報を入力する必要があるのはなぜですか?
+
+Slingshot のプロファイル情報には、名前やタイトルなど、コラボレーション スペースでユーザーを識別できるようにする属性が含まれています。この情報は Slingshot と共同作業者にとって重要であるため、Emily (AI アシスタント) はプロファイル情報が 100% 完了するように通知してくれます。 
+
+プロフィール情報にアクセスするには:
+プロフィール写真を選択 > **[設定]** > **[プロフィール情報]**
+
+ここでは、自分自身に関する次の情報を入力する必要があります:
+
+* **名前** - これは Slingshot での表示名であり、他のユーザーが認識して **@ メンションする**ための名前です。名前をクリック / タップすることで名前を変更できます。準備ができたら **[名前の変更]** を選択します。
+* **タイトル** - これは、役職 (たとえば、会計士) または組織内の役割 (たとえば、CFO) です。タイトルを追加するには、タイトルをクリック / タップします。準備ができたら **[設定]** を選択します。 
+* **写真** - 写真は、Slingshot の共同編集者があなたが誰であるかを知るのに役立ちます。プロフィール写真は常に、64x64 ピクセルの正方形の画像に、縮小または拡大されます。コンピューターからファイルをアップロードしたり、デバイスのカメラで写真を撮ったり、デバイスのストレージから選択したりできます。
+* **業種** - 組織に関する情報です。右側のドロップダウンから選択するか、業種を入力して **[OK]** をクリック / タップします。 
+* **部署** - 所属する組織部署です。右側のドロップダウンから選択するか、部署を入力して **[OK]** をクリック / タップします。
+
+終了したら、ダイアログを閉じます。変更が保存されます。  
+
+## 言語を変更する方法
+
+Slingshot は、次のようなさまざまなプラットフォームの言語と地域の設定を検出して適用します:
+- Web ブラウザ
 - Windows
-- Mobile devices (Android and iOS)
+- モバイル デバイス (Android と iOS)
 
-The available languages are English, German, Spanish, French, Italian, Japanese, Korean, Malay, Dutch, Portuguese, Russian, Chinese (Traditional and Simplified).
+利用可能な言語は、英語、ドイツ語、スペイン語、フランス語、イタリア語、日本語、韓国語、マレー語、オランダ語、ポルトガル語、ロシア語、中国語 (繁体および簡体) です。
 
-## How can I change the notifications language?
+## 通知言語を変更する方法
 
-You can choose between 13 available languages for your notifications. 
+通知に使用できる 13 の言語から選択できます。 
 
-To change your notification settings go to your account settings and selecting the *Notifications* tab. 
-Alternatively, you can open the Notifications panel and select *Settings* from the overflow menu in the upper right corner (see in the screenshot below): 
+通知設定を変更するには、アカウント設定に移動し、**[通知]** タブを選択します。 
+または、通知パネルを開き、右上隅のオーバーフロー メニューから **[設定]** を選択することもできます (下のスクリーンショットを参照)。
 
 <img src="../images/user-settings-notifications.png" alt="Notifications Settings menu opened in Slingshot" width="75%" class="responsive-img"/>
 
-## What are the dashboard settings?
-Dashboards are part of your *Analytics* space in Slingshot.
-Find more about Dashboards in [Dashboards Overview](analytics/dashboards/overview.md).
-For more information about tooltips and crosshair settings, go to [Interacting with Dashboards](analytics/dashboards/dashboards-interactions.md)
+## ダッシュボードの設定とは何ですか?
+ダッシュボードは、Slingshot の **[分析]** スペースの一部です。
+ダッシュボードの詳細については、[ダッシュボードの概要](analytics/dashboards/overview.md)をご覧ください。
+ツールチップと十字線の設定の詳細については、[ダッシュボードの操作](analytics/dashboards/dashboards-interactions.md)を参照してください。
 
-## What are Data source credentials?
-In Analytics, when you connect to a data source for the first time, your credentials (user name, password and domain) are stored in this *Data Source Credentials*. Because of this, you can reuse them in the future.
-For more information about data sources, go to [Data Sources Overview](analytics/datasources/overview.md). 
+## データ ソースの資格情報とは何ですか?
+[分析] では、初めてデータ ソースに接続するときに、資格情報 (ユーザー名、パスワード、およびドメイン) がこのデータ ソース資格情報に保存されます。これにより、将来的に資格情報を再利用できます。
+データ ソースの詳細については、[データ ソースの概要](analytics/datasources/overview.md)を参照してください。 

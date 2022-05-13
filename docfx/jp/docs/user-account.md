@@ -1,36 +1,36 @@
-# User Account & Settings
+# ユーザー アカウントと設定
 
-In short, user accounts allow you to sign in and be recognized by an application or device. A user account can also be described as a virtual identity created for any digital technology.
-User accounts normally include both username and password, no surprises here. But that's not all, they also store a collection of settings and profile information associated with the specific user.
+ユーザー アカウントを使用すると、アプリケーションまたはデバイスにサインインしてユーザーを認識できます。ユーザー アカウントは、任意のデジタル テクノロジー用に作成された仮想 ID として説明することもできます。
+ユーザー アカウントには通常、ユーザー名とパスワードが含まれています。ただし、それだけではありません。特定のユーザーに関連付けられた設定とプロファイル情報のコレクションも保存されます。
 
-It is a common practice to tailor the digital experience for different users. You can have one or more types of users (e.g., administrator, standard user and guest), with different privileges and capabilities. Another frequently used technique is to assign different roles to the same user account, switching between different privileges and capabilities depending on the context.
+ユーザーごとにデジタル エクスペリエンスを調整するのは一般的に行われています。さまざまな権限と機能を持つ 1 つ以上のタイプのユーザー (管理者、標準ユーザー、ゲストなど) を持つことができます。もう 1 つのよく使われる手法は、同じユーザー アカウントに異なるロールを割り当て、コンテキストに応じて異なる特権と機能を切り替えることです。
 
-## What is a user account in Slingshot?
+## Slingshot のユーザー アカウントとは?
 
-It's the virtual representation of a user, including a set of credentials, profile information, settings and content owned by the user. Seems familiar, right?
+これは、一連の資格情報、プロファイル情報、設定、およびユーザーが所有するコンテンツを含む、ユーザーの仮想表現です。
 
-As a Slingshot user you own different types of content, like the files you upload, the messages you write and the dashboards you create. All those are part of your Slingshot account and are associated with you as a user. And you do have full control over the content you own.
-For more information about security and data privacy within Slingshot, go to [Security & Privacy](security.md).
+利用者は、Slingshot ユーザーとして、アップロードするファイル、作成するメッセージ、作成するダッシュボードなど、さまざまな種類のコンテンツを所有しています。これらはすべて Slingshot アカウントの一部であり、ユーザーとして利用者に関連付けられています。利用者は自分自身が所有するコンテンツを完全に制御することができます。
+Slingshot 内のセキュリティとデータ プライバシーの詳細については、[セキュリティとプライバシ](security.md)ーを参照してください。
 
-## Be proactive about your profile information and settings
+## プロフィール情報と設定の積極的な活用
 
-The app behavior and overall experience can be greatly modified by tweaking your profile information and settings. As a good practice, try customizing your experience to better suit your needs. To do this, navigate to Settings.
+アプリケーションの動作と全体的なエクスペリエンスは、プロファイル情報と設定を調整することで大幅に変更できます。ニーズに合わせてエクスペリエンスをカスタマイズしてみてください。これを行うには、[設定] に移動します。
 
 <img src="../images/open-settings.png" alt="Settings location" width="75%" class="responsive-img">
 
-Now feel free to explore the different settings and make Slingshot feel like home:
-- Interested in a dark or light theme?
-- Want to reduce the zoom level to fit more in your screen or enlarge it to better see the words and images?
-- Are you often using drag & drop to upload files and want to change the default destination?
-- When opening files (e.g., word and excel documents), would you like to use a native app or open in a browser?
+ここで、さまざまな設定を自由に試して、Slingshot を自分の好みに合わせてください。
+- ダークまたはライト テーマに変えたいですか?
+- ズーム レベルを下げて画面に合わせたり、拡大して単語や画像を見やすくしたりしたいですか?
+- ドラッグアンドドロップを使用してファイルをアップロードすることがよくあり、および、デフォルトのアップロード先を変更したいですか?
+- ファイル (Word や Excel ドキュメントなど) を開くときに、ネイティブ アプリを使用しますか、それともブラウザーで開きますか?
 
 <img src="../images/general-settings-user-account.png" alt="User settings opened" class="responsive-img">
 
-In addition, it's a good idea to complete your *profile information* as it will make you recognizable when collaborating with others. Your name, photo, title, etc. are all part of your virtual identity and they add value to the Slingshot's experience. 
+さらに、他のユーザーと共同作業するときに自分を認識できるようになるため、**プロファイル情報**を完成させることをお勧めします。名前、写真、タイトルなどはすべてユーザーの仮想 ID の一部であり、Slingshot の体験に付加価値をもたらします。
 
-## Make the most of the in-app interactions
+## アプリケーション内インタラクションを最大限に活用する
 
-Emily, Slingshot's digital AI assistant, will show you personalized tips to help you get stuff done faster. Naturally, Emily has a direct effect on your experience, so you can choose how often she messages you or if she remains silent.
+Slingshot のデジタル AI アシスタントである Emily が、作業をより迅速に行うためのカスタマイズされたヒントを紹介します。ユーザー エクスペリエンスに直接影響するため、Emily からメッセージを受信する頻度や、Emily からのメッセージを受け取らない選択を選べます。
 
-Notifications will keep you updated on any changes to workspaces, tasks, new messages, etc. You can learn, among others, that a task was assigned to you, that you are removed from a workspace, or that someone sent a message in a discussion thread you're following.
-Follow the link for more information about [Notifications](notifications.md).
+通知により、ワークスペース、タスク、新しいメッセージなどへの変更に関する最新情報が得られます。特に、タスクが自分に割り当てられていること、ワークスペースから削除されていること、またはフォローしているディスカッション スレッドで誰かがメッセージを送信したことを知ることができます。
+[通知](notifications.md)の詳細については、リンクを参照してください。

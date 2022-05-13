@@ -1,143 +1,143 @@
-# Tasks
+# タスク
 
-When it comes to running a successful project – task management is at the heart of that. You need everything organized in one place to manage tasks through out the full lifecycle of the project. Setting deadlines, dependencies, and priorities are all essential to ensure projects stay on track and get completed on time.   
+プロジェクトを成功させるためには、タスク管理がその中心となります。プロジェクトのライフサイクル全体を通してタスクを管理するには、すべてを 1 か所にまとめる必要があります。プロジェクトを順調に進め、時間どおりに完了するには、期限、依存関係、優先度のすべてを設定することが不可欠です。   
 
-There is a task tab available within your workspaces and projects, listing all the tasks assigned to everyone in those workspaces and projects. You can view your own tasks assigned to you with in the My Tasks section.
+ワークスペースとプロジェクト内で使用可能なタスク タブがあり、それらのワークスペースとプロジェクトの全員に割り当てられたすべてのタスクが一覧表示されます。[タスク] セクションで、自分に割り当てられている自分のタスクを表示できます。
 
-Learn more about all Slingshots project management features in our short tutorial video:  
+Slingshots のすべてのプロジェクト管理機能の詳細については、短いチュートリアル ビデオをご覧ください。  
 
 > [!Video https://www.youtube.com/embed/D1yqDISM5PM]
 
 
-## What are Tasks?  
+## タスクとは?  
 
-Tasks are a visual representation of work that needs to get done. Within tasks you can store relevant documents, set clear ownership of responsibility, and have threaded conversations so everything is transparent in one place.  
+タスクは、実行する必要のある作業を視覚的に表したものです。タスク内で、関連するドキュメントを保存し、責任の所在を明確にし、会話をスレッド化して、すべてを 1 か所で透明化することができます。  
 
-## How to Create a Task  
+## タスクを作成する方法  
 
-There are multiple ways to create a task in Slingshot:  
+Slingshot でタスクを作成する方法は複数あります:  
 
-- Using the "+ Task" button will add a task to the bottom of your list.
-- If you are using sections, you can quickly add a task to a section using the inline "+ Task".  
-- If you want to insert a task right above or below another, you can do so from that task overflow menu.
+- [+ タスク] ボタンを使用すると、リストの一番下にタスクが追加されます。
+- セクションを使用している場合は、インラインの [+ タスク] を使用してセクションにタスクをすばやく追加できます。  
+- タスクを別のタスクの真上または真下に挿入する場合は、そのタスク オーバーフロー メニューから挿入できます。
 
-Subtasks can be created from inside the task card or from the parent task's overflow menu.
+サブタスクは、タスク カード内または親タスクのオーバーフロー メニューから作成できます。
 
->[!IMPORTANT] **Slingshot Tip**: You can also create tasks directly from a chat, pin or dashboard in Slingshot. Check out more productivity flows from within Slingshot to enhance your productivity.
+>[!IMPORTANT] **Slingshot ヒント**: Slingshot のチャット、ピン固定、またはダッシュボードから直接タスクを作成することもできます。Slingshot 内からより多くの生産性フローをチェックして、生産性を向上させます。
 
-## Task Fields  
+## タスク フィールド  
 
-Tasks are very important for driving the productivity of your teams and projects. Your task card has the following fields:  
+タスクは、チームやプロジェクトの生産性を高めるために非常に重要です。タスク カードには次のフィールドがあります:
 
 <img src="../images/tasks-fields-highlight.png" alt="Task fields highlighted within Slingshot" class="responsive-img"/>
 
-1.	**Task Title**: Set a clear title for your tasks.  
-2.	**Assignee(s)**: Assign either one person, multiple, group or workspace to a task.  
-3.	**Start Date & Due Date**: Set clear expectations on deadlines with start and due dates.  
-4.	**Status**: Set the status of the task such as In Review, In Progress or Completed.
-5.	**Attachments**: Add documents and files directly from your cloud providers or using drag and drop.  
-6.	**URLs**: Attach URLs to your tasks for reference.  
-7.	**Priority**: Set priorities for your teams so they can better manage their workloads effectively.
-8.	**Subtasks**: Create subtasks to slice your work better.
-9.	**Description**: Add further details around your tasks so the assignee(s) can understand what needs to get done.
-10.	**Activity**: Have threaded conversations around your tasks in context. 
-11.	**Task Dependencies**: Set clear paths to success for your projects with accountability to user's tasks. 
+1.	**タスクの名前**: タスクに明確なタイトルを設定します。  
+2.	**割り当て先**: 1 人、複数、グループ、またはワークスペースをタスクに割り当てられます。  
+3.	**開始日と期日**: 開始日と期日を使用して、期限に明確な期待値を設定します。  
+4.	**状態**: [レビュー中]、[作業中]、[完了] などのタスクの状態を設定します。
+5.	**添付**: クラウド プロバイダーから直接、またはドラッグアンドドロップを使用してドキュメントとファイルを追加します。  
+6.	**URL**: 参照用にタスクに URL を添付します。  
+7.	**優先度**: チームの優先度事項を設定して、チームがワークロードをより効果的に管理できるようにします。
+8.	**サブタスク**: サブタスクを作成して、作業をより適切に分割します。
+9.	**説明**: 何を行う必要があるかを担当者が理解できるように、タスクに関する詳細を追加します。
+10.	**アクティビティ**: 状況に応じて、タスクに関するスレッド化された会話を行います。 
+11.	**タスクの依存関係**: ユーザーのタスクに対する説明責任を持って、プロジェクトの成功への明確な道筋を設定します。 
 
-## Organizing Tasks  
+## タスクの整理  
 
-You can organize your tasks into lists to further group them together. Within lists you can also add sections to categorize your lists further. Tasks are movable with drag and drop or the change button within your task card between lists and sections.  
+タスクをリストに整理して、さらにグループ化することができます。リスト内にセクションを追加して、リストをさらに分類することもできます。タスクは、リストとセクションの間のタスク カード内のドラッグアンドドロップまたはタスク カード内の変更ボタンでリストとセクションの間を移動できます。  
 
-## Task Views
+## タスク ビュー
 
-The default view for your tasks is a List. You can choose between three views (List, Kanban, Timeline) to take advantage of a different layout to maximize utility. Use the View Type drop down (top right of the task list) to switch between views.  
+タスクのデフォルトのビューはリストです。3 つのビュー (リスト、カンバン、タイムライン) から選択して、利便性ユーティリティを最大化するために異なるレイアウトを利用できます。ビューを切り替えるには、[表示タイプ] ドロップダウン (タスクリストの右上) を使用します。  
 
-Within each of the task views you can filter, choose which task fields you want to show and group by status, priority, assignee, or sections.  
+各タスク ビューごとに、フィルタリング、表示するタスク フィールドの選択、状態、優先度、割り当て先、またはセクションによるグループ化を行うことができます。   
 
-### List
+### リスト
 
-Project manage and update tasks faster from within your list view.  
+リスト ビュー内からプロジェクト管理とタスクの更新を高速化します。 
 <img src="../images/Slingshot_Tasks_List_View.png" alt="Task list view within Slingshot" class="responsive-img"/>
-Use List view if you want to: 
+次の場合は、リスト ビューを使用することをお勧めします: 
 
-- Easily visualize subtasks and the task hierarchy. 
+- サブタスクとタスク階層を簡単に視覚化したい場合 
 
-- Sort or group tasks by any criteria. 
+- 任意の基準でタスクを並べ替えまたはグループ化したい場合 
 
-- Organize tasks using sections.
+- セクションを使用してタスクを整理したい場合
 
-### Kanban
+### かんばん
 
-View your tasks as cards within columns that represent different stages of the Status workflow. You can drag and drop your tasks between columns to change their status.
+状態ワークフローのさまざまな段階を表す列内のカードとしてタスクを表示します。列間でタスクをドラッグアンドドロップして、状態を変更できます。
 <img src="../images/Slingshot_Tasks_Kanban_View.png" alt="Task kanban view within Slingshot" class="responsive-img"/>
-Use Kanban view if you want to:  
+次の場合は、カンバン ビューを使用することをお勧めします:  
 
-- Focus on the status workflow and visualize it in a graphical way. 
+- 状態ワークフローに焦点を当て、それをグラフィカルに視覚化したい場合 
 
-- Quickly get a glance of the overall status of a list of tasks. 
+- タスクのリストの全体的な状態をすばやく確認したい場合
 
-### Timeline
+### タイムライン
 
-See a clear path for project completion and dependencies by using timeline view. Zoom in or out to see your timeline by days, weeks or months.
+タイムライン ビューを使用して、プロジェクトの完了と依存関係の明確なパスを確認します。ズームインまたはズームアウトして、日、週、または月ごとにのタイムラインを表示します。
 <img src="../images/Slingshot_Tasks_Timeline_View.png" alt="Task timeline view within Slingshot" class="responsive-img"/>
-Use Timeline view if you want to: 
+次の場合は、タイムライン ビューを使用することをお勧めします: 
 
-- Visualize several task dependencies at once. 
+- 一度に複数のタスクの依存関係を視覚化したい場合 
 
-- Frame tasks in time in a graphical way. 
+- グラフィカルな方法で、時間軸でタスクをフレーム化したい場合 
 
-#### Task Dependencies
+#### タスクの依存関係
 
-Using the timeline view, you can visualize the dependencies between tasks.
+タイムライン ビューを使用して、タスク間の依存関係を視覚化できます。
 
-Two or more tasks may depend on each other's completion. Slingshot helps you keep everyone informed about those relationships with task dependencies.
+2 つ以上のタスクは、互いの完了に依存する場合があります。Slingshot は、タスクの依存関係について全員に情報を提供するのに役立ちます。
 
-There are two types of dependency: 
+依存関係には次の 2 つのタイプがあります: 
 
-- **Waiting On** - this means your task can't be started before another task is finished. 
+- **[待機中]** - これは、別のタスクが終了する前にタスクを開始できないことを意味します。 
 
-- **Blocking** - other tasks can't start before this task is completed. 
+- **[ブロック]** - このタスクが完了する前に他のタスクを開始することはできません。 
 
-## Task Filters  
+## タスク フィルター  
 
-Using filters allows you to view a set of tasks that meet a certain criteria. There are filters out-of-the-box and you can also save filters to use them later. 
+フィルターを使用すると、特定の条件を満たす一連のタスクを表示できます。定義済みのフィルターがあるほかり、フィルターを保存して後で使用することもできます。 
 
-### Out-of-the-box Filters
+### 定義済みのフィルター
 
-Slingshot includes several pre-defined filters which are very useful to quickly find specific tasks.
+Slingshot には、特定のタスクをすばやく見つけるのに非常に役立つ、いくつかの定義済みフィルターが含まれています。
 
-These filters, which can’t be edited or deleted, are:
+編集または削除できないこれらの定義済みフィルターは次のとおりです:
 
-- **My Tasks** – Each task assigned to you within the current Workspace. 
+- **[タスク]** – 現在のワークスペース内で自分に割り当てられた各タスク。 
 
-- **Due this Week** – Each task with Due Date set for the current week. 
+- **[今週が期限]** – 現在の週に期限が設定された各タスク。 
 
-- **Overdue** – Each task whose Due Date expired before today. 
+- **[期限切れ]** – 期日が本日より前にで、期限切れになった各タスク。 
 
-### Creating Filters
+### フィルターの作成
 
-To access the Filters editor just click/tap the filter icon (top right of the screen), next to the overflow. 
+フィルター エディターにアクセスするには、オーバーフローの隣にあるフィルター アイコン (画面右上) をクリック/タップします。 
 
-In the Filters editor you can create Basic or more Advanced rules. The Basic rules will be enough most of the time, Advanced rules are recommended in the case that you really need to define more complex conditions in your filter. 
+フィルター エディタでは、ベイシックベーシック ルールまたはより高度なルールを作成できます。ほとんどの場合は、ベイシックベーシック ルールで十分です。フィルターでより複雑な条件を定義する必要がある場合は、高度なルールをお勧めします。 
 
-To stop filtering tasks, click/tap the filter icon to open the Filters dialog. Then, select the Clear button at the bottom to remove the current filters, and Apply to save your changes. 
+タスクのフィルタリングを停止するには、フィルター アイコンをクリック / タップして、[フィルター] ダイアログを開きます。次に、下の [クリア] ボタンを選択して現在のフィルターを削除し、[適用] をクリックして変更を保存します。 
 
->[!IMPORTANT] **Slingshot Tip**: For those times that you can't find a specific task, try expanding collapsed panels, removing existing filters, and/or adding filters using the properties of the task you want. Remember that the icon changes to help you identify when you have active filters or not.
+>[!IMPORTANT] **Slingshot ヒント**: 特定のタスクが見つからない場合は、縮小されたパネルを展開したり、既存のフィルターを削除したり、必要なタスクのプロパティを使用してフィルターを追加したりしてみてください。アクティブなフィルターがあるかどうかを識別しやすくするために、アイコンが変わります。
 
-### Saving Filters
+### フィルターの保存
 
-Sometimes you might want to save a filter to use it again in the future. With Slingshot you can save specific filters and later edit them if needed, very useful to keep at hand a list of tasks relevant to you already filtered. 
+フィルターを保存しておいて、後で再び使用したい場合があります。Slingshot を使用すると、特定のフィルターを保存し、必要に応じて後で編集できます。これは、既にフィルター処理されてるされている関連タスクのリストを手元に置いておくのにと非常に便利です。 
 
-### Advanced Filtering
+### 高度なフィルタリング
 
-Basic filtering will be sufficient most of the time but you also have additional filtering options with the Advanced rules.  
+ほとんどの場合、基本的なフィルタリングで十分ですが、高度なルールを使用した追加のフィルタリング オプションもあります。  
 
-When the time comes that you need to craft complex filters, you will be able to: 
+高度なフィルターを作成する必要があるときは、できることは次のとおりですことができるようになります: 
 
-- Apply conditions based on fields like Is, Is Not, Is Before, is After, etc. 
+- [～である]、[～ではない]、[～より前]、[～より後] などのフィールドにに基づいてく条件を適用します。 
 
-- Use operators like And, Or. 
+- [および]、[または] などの演算子を使用します。 
 
-As an example, the following rules could be created to get all John Williams’ tasks, that were created by other team members (not him), in which the due date is Jun 30, 2022 or before that date, and the description includes the word “Marketing”. 
+例として、次のルールを作成して、タスクの期限が 2022 年 6 月 30 日以前であり、説明に 「Marketing」 という単語が含まれている、他のチーム メンバーによって作成されたすべての John Williams に割り当てられたのタスクで、彼自身ではない他のチーム メンバーによって作成されたタスクすべてを取得できます: タスクの期限が 2022 年 6 月 30 日以前であり、説明に 「Marketing」 という単語が含まれています。
 
 <img src="../images/tasks-filters-advanced.png" alt="Advanced Filtering highlighted within Slingshot" class="responsive-img" width="60%"/>
 
