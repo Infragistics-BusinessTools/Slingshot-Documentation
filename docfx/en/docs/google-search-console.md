@@ -1,5 +1,5 @@
 
-# Google Seach Console
+# Google Search Console
 
 With Google Search Console you can keep an eye on your site’s search traffic and check how your site performs on Google Search.
 
