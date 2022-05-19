@@ -1,38 +1,38 @@
-# Search
+# 検索
 
-In order to run high performing teams that collaborate with different groups of people, finding the right information is a key feature. Slingshot saves time drilling through endless folder of content or sifting through email to find what you need. Even in Slingshot you need a faster way to find what you need – that’s where search comes in. 
+さまざまなグループの人々と協力する、パフォーマンスの高いチームを運営するためには、適切な情報を見つけることが重要な機能です。Slingshot は、フォルダーを渡り歩いてコンテンツを探し回ったり、電子メールから必要なものを仕分けしたりする時間を節約します。Slingshot でも、必要なものをすばやく見つける方法が必要です。そこで検索が役立ちます。 
 
-Slingshot’s search provides neatly organized results from everything within Slingshot. The variety of filtering options ensures great precision and quickly finding exactly what you need.
+Slingshot の検索は、Slingshot 内のすべてからきちんと整理された結果を提供します。さまざまなフィルタリング オプションにより、優れた検索精度で、本当に必要なものをすばやく見つけることを確実にします。
 
 <img class="responsive-img" src="../images/search-example.png" alt="Showing Slingshot's search" class="responsive-img" />
 
-## How to Search
-You can quickly start your search from anywhere - a workspace, tasks, My Stuff, etc.
-1. Go to the search box at the top.
+## 検索方法
+ワークスペース、タスク、概要など、どこからでもすばやく検索を開始できます。
+1. 上部の検索ボックスに移動します。
  
-2. Start typing and Slingshot will start making suggestions. Press Enter / select “Search All Results” for a full list of results.
-3. The search results pane opens on the left.
+2. 入力を開始すると、Slingshot が提案を表示します。結果の完全なリストを表示するには、Enter キーまたは [すべての結果を検索] を選択します。
+3. 左側に検索結果ペインが開きます。
 
 
-The search results pane shows results from everywhere inside Slingshot. The results are displayed separately in five tabs:
-- *Workspaces* - results from all workspaces and projects.
-- *Tasks* - results from My Tasks, my assigned tasks and all workspaces and projects are shown.
-- *Messaging* - shows results from messages in the chat and discussions.
-- *Pins* - shows results from all boards in My Stuff, Workspaces and the Organization.
-- *Analytics* - shows results for dashboards and dashboard folders in My Stuff, Workspaces and the Organization.
+検索結果ペインには、Slingshot 内のあらゆる場所からの結果が表示されます。結果は、5 つのタブに個別に表示されます:
+- **ワークスペース** - すべてのワークスペースとプロジェクトの結果。
+- **タスク** - タスク、割り当てられたタスク、およびすべてのワークスペースとプロジェクトの結果が表示されます。 
+- **メッセージ** - チャットおよびディスカッションのメッセージの結果を表示します。
+- **ピン固定** - 概要、ワークスペース、組織のすべてのボードの結果を表示します。
+- **分析** - 概要、ワークスペース、組織のダッシュボードとダッシュボード フォルダーの結果を表示します。
 
->[!NOTE] In the results pane, you can open the overflow menu and save a result in bookmarks or share it with others.
+>[!NOTE] 結果ウィンドウで、オーバーフロー メニューを開き、結果をブックマークに保存したり、他のユーザーと共有したりできます。
 
-## Filtering Results
-Sometimes you may get too many results and need to refine your search. To help you with this, Slingshot includes a location filter on the top and a second tier of filters under each of the five tabs.
+## 結果のフィルタリング
+結果が多すぎて検索を絞り込む必要がある場合があります。これを支援するために、Slingshot には、上部に場所フィルターがあり、5 つのタブのそれぞれの下にフィルターの 2 番目の層があります。
 
-### Filtering by location
-The Location filter (top of the page) is applied to all results no matter which results tab you choose. For example, you can easily search all blocked tasks in two projects located in different workspaces. To do this, just select the two projects in the location dropdown and then in the Tasks tab filter by the Blocked status.
+### 場所でフィルタリング
+[場所] フィルター (ページの上部) は、選択した [結果] タブに関係なく、すべての結果に適用されます。たとえば、異なるワークスペースにある 2 つのプロジェクトでブロックされたすべてのタスクを簡単に検索できます。これを行うには、場所のドロップダウンで 2 つのプロジェクトを選択し、[タスク] タブで [ブロック中] 状態でフィルターします。
 
 <img class="responsive-img" src="../images/search-filters.png" alt="Showing Slingshot's search and its filters" class="responsive-img" />
 
 
-### Using More Filters
-These filters are specific to the selected tab and type of result. For example, when selecting the Tasks tab, you can filter results by creator, assignee, due date, etc.
+### より多くのフィルターを使用する
+これらのフィルターは、選択したタブと結果のタイプに固有です。たとえば、[タスク] タブを選択すると、[作成者]、[割当先]、[期日] などで結果をフィルタリングできます。
 
-Filters are only reset when you close the search results, so you can search multiple times adding and removing filters as needed.
+フィルターは検索結果を閉じたときにのみリセットされるため、必要に応じてフィルターを追加および削除して複数回検索できます。
