@@ -1,7 +1,6 @@
-# Release Notes
+# リリース ノート
 
-All future updates and new features added to Slingshot will be included
-here.
+以下は、Slingshot の新機能および追加予定のアップデートです。
 
 <style type="text/css">
 th {
@@ -28,16 +27,16 @@ td {
 
 <table class="rntable">
     <tr>
-        <th style="vertical-align:middle"><span style="font-weight:bold">Date</span></th>
-        <th style="vertical-align:middle"><span style="font-weight:bold">Slingshot version</span></th>
-        <th style="vertical-align:middle"><span style="font-weight:bold">Description</span></th>
+        <th style="vertical-align:middle"><span style="font-weight:bold">日付</span></th>
+        <th style="vertical-align:middle"><span style="font-weight:bold">Slingshot のバージョン</span></th>
+        <th style="vertical-align:middle"><span style="font-weight:bold">説明</span></th>
     </tr>
         <tr>
-        <td class="td1" rowspan="2">March-2022</td>
+        <td class="td1" rowspan="2">2022 年 3 月</td>
         <td class="td1" rowspan="2">1.0.2360</td>
-        <td><span style="font-style:italic;font-size:16px">Slingshot release!</span><br> The first release of Slingshot is out! 
+        <td><span style="font-style:italic;font-size:16px">Slingshot のリリース!</span><br> Slingshot の初回リリースが出ました! 
         </td>
     </tr>
 </table>
 
->[!NOTE] To check your Slingshot version, select your profile in the top right corner of the screen > <img src="../images/info-icon.png" alt="About icon in Slingshot" width="25px" height="25px"/>*About*. 
+>[!NOTE] Slingshot のバージョンを確認するには、画面右上の角にあるプロファイルに移動し、<img src="../images/info-icon.png" alt="About icon in Slingshot" width="25px" height="25px"/> [詳細情報] を選択します。 

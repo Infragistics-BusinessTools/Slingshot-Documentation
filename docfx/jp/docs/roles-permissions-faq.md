@@ -1,110 +1,110 @@
-# Learn More about Roles & Permissions
+# ロールとアクセス許可の詳細
 
-Welcome! Read on to get answers to your questions about the roles and permissions in Slingshot.
+ようこそ! このトピックは Slingshot のロールとアクセス許可に関する詳細を説明します。
 
-## What are roles and permissions within Slingshot?
+## Slingshot 内のロールとアクセス許可
 
-One of the main methods of access control in computer systems is known as role-based access control (RBAC). Basically, it's about restricting access to a system depending on the person's role. Multiple roles are created to satisfy the need of different access level for different groups of people. As roles have different permissions, it is possible to limit specific tasks like viewing, creating, modifying, or sharing files.
+コンピューター システムのアクセス制御の主な方法の 1 つは、ロールベース アクセス制御 (RBAC) として知られている方法です。基本的には、個人のロールに応じてシステムへのアクセスを制限することです。さまざまなグループごとに異なるアクセス レベルのニーズを満たすために、複数のロールが作成されます。ロールにはさまざまな権限があるため、ファイルの表示、作成、変更、共有などの特定のタスクを制限することができます。
 
-In Slingshot, users can join one or more workspaces, and can also be part of an Organization. 
-Roles represent a set of permissions that a user has in a workspace or in the Organization. The role is assigned to the user when they join the workspace/Organization. There are three different roles in Slingshot - owner, member and viewer.
+Slingshot では、ユーザーは 1 つ以上のワークスペースに参加でき、組織の一部になることもできます。 
+ロールは、ユーザーがワークスペースまたは組織で持つ一連の権限を表します。ユーザーがワークスペース / 組織に参加するときに、ユーザーにロールが割り当てられます。Slingshot には、管理者、編集者、閲覧者の 3 つの異なるロールがあります。
 
-## How can I find my role?
+## 自分の役割を見つける方法
 
-You can have different roles in each of your workspaces and the Org. Your role is given to you by the creator of a workspace at the moment you are invited. The creator is also the owner of the workspace. You will be notified what role they assigned to you in the invitation email. 
+ワークスペースと組織のそれぞれで異なるロールを持つことができます。ロールは、ユーザーが招待されたその時点でワークスペースの作成者によってユーザーに与えられます。作成者は、ワークスペースの管理者でもあります。招待メールで、割り当てられたロールが通知されます。 
 
-If you want to check your role in a workspace or the Org at a later moment, you can select the overflow menu of the workspace/Org > *Manage Members*. Find more about managing workspace members in the [Learn More about Workspaces](workspaces-faq.html#how-can-i-manage-workspace-members) topic.
+後でワークスペースまたは組織でのロールを確認する場合は、ワークスペース / 組織のオーバーフロー メニュー > *[共有ユーザー]* を選択できます。ワークスペース メンバーの管理の詳細については、[ワークスペースの詳細](workspaces-faq.html#ワークスペース-メンバーを管理する方法)トピックを参照してください。
 
-## What can the different roles do in a workspace?
+## ワークスペースでさまざまなロールができること
 
-In the table below, you will find the permissions of each role in the workspace. 
+次の表に、ワークスペース内の各ロールの権限を示します。
 
 
-| Permissions                                                          | Owner              | Member             | Viewer             |
+| アクセス許可                                                          | 管理者              | 編集者             | 閲覧者             |
 | -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| Can create and delete **workspaces**                                 | :white_check_mark: | :x:                | :x:                |
-| Can create **sub-workspaces** under a workspace                      | :white_check_mark: | :white_check_mark: | :x:                |
-| Can change **workspace information**                                 | :white_check_mark: | :x:                | :x:                |
-| Can manage members of the **workspace**                              | :white_check_mark: | :x:                | :x:                |
-| Can create, modify, delete **tasks**                                 | :white_check_mark: | :white_check_mark: | :x:                |
-| Can create, modify, delete **task filters**                          | :white_check_mark: | :white_check_mark: | :x:                |
-| Can create, modify, delete **discussions** and **topics**            | :white_check_mark: | :white_check_mark: | :x:                |
-| Can send messages in **topics**                                      | :white_check_mark: | :white_check_mark: | :x:                |
-| Can create, modify, delete **boards**                                | :white_check_mark: | :white_check_mark: | :x:                |
-| Can pin/unpin content to **boards**                                  | :white_check_mark: | :white_check_mark: | :x:                |
-| Can view **Analytics dashboards**                                    | :white_check_mark: | :white_check_mark: | :white_check_mark: |
-| Can create, modify, and share **Analytics dashboards**               | :white_check_mark: | :white_check_mark: | :x:                |
-| Can export **Analytics dashboards**                                  | :white_check_mark: | :white_check_mark: | :white_check_mark: |
-| Can **bookmark** tasks, discussions, topics, content, analytics      | :white_check_mark: | :white_check_mark: | :white_check_mark: |
-| Can **copy a link** to a task, discussion, topic, content, analytics | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| **ワークスペース**を作成および削除できます。                                | :white_check_mark: | :x:                | :x:                |
+| ワークスペースの下に**サブワークスペース**を作成できます。                      | :white_check_mark: | :white_check_mark: | :x:                |
+| **ワークスペース情報**を変更できます。                                 | :white_check_mark: | :x:                | :x:                |
+| **ワークスペース**のメンバーを管理できます。                              | :white_check_mark: | :x:                | :x:                |
+| **タスク**を作成、変更、削除できます。                                 | :white_check_mark: | :white_check_mark: | :x:                |
+| **タスク フィルター**を作成、変更、削除できます。                          | :white_check_mark: | :white_check_mark: | :x:                |
+| **ディスカッション**を作成、変更、削除できます。           | :white_check_mark: | :white_check_mark: | :x:                |
+| **ディスカッション**でメッセージを送信できます。                                      | :white_check_mark: | :white_check_mark: | :x:                |
+| **ボード**を作成、変更、削除できます。                                | :white_check_mark: | :white_check_mark: | :x:                |
+| コンテンツを**ボード**にピン固定/ピン固定解除できます。                                  | :white_check_mark: | :white_check_mark: | :x:                |
+| **分析ダッシュボード**を表示できます。                                    | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| **分析ダッシュボード**を作成、変更、および共有できます。               | :white_check_mark: | :white_check_mark: | :x:                |
+| **分析ダッシュボード**をエクスポートできます。                                  | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| タスク、ディスカッション、コンテンツ、分析を**ブックマーク**できます。      | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| タスク、ディスカッション、コンテンツ、分析への**リンクをコピー**できます。 | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 
-The Slingshot user who creates a workspace is automatically assigned as its **owner**. A workspace can have more than one owner. However, if you are the only owner of a workspace, you cannot leave it without assigning another member as an owner. 
+ワークスペースを作成する Slingshot ユーザーは、その**管理者**として自動的に割り当てられます。ワークスペースには複数の管理者を含めることができます。ただし、ユーザー自身がワークスペースの唯一の管理者である場合、別のメンバーを管理者として割り当てることなくワークスペースを抜けることはできません。 
 
-**Owners** have full access to manage a workspace. This includes changing its main **information** - *name*, *description*, *privacy*, *status* and even deleting it. It also means owners have the right to **manage members** of the workspace - invite, remove and change their roles. They can create, edit and delete all content inside the workspace - tasks, filters, discussions, topics, boards, and Analytics dashboards.
+**管理者**は、ワークスペースを管理するためのフル アクセス権を持っています。これには、主な**情報** (*名前*、*説明*、*プライバシー*、*状態*) の変更、さらには削除も含まれます。また、管理者にはワークスペースの**メンバーを管理する**権利があります。つまり、メンバーを招待、削除、およびメンバーのロールを変更できます。管理者はワークスペース内のすべてのコンテンツ (タスク、フィルター、ディスカッション、ボード、分析ダッシュボード) を作成、編集、および削除できます。
 
-**Members** are more limited than owners but they are allowed to create sub-workspaces under the workspace. They can also create, edit and delete tasks, filters, discussions, topics, boards, and Analytics dashboards. When [joining](workspaces-faq.html#how-can-i-discover-and-join-other-workspaces) a public workspace by yourself and not by invitation, you are assigned the member role by default.
+**編集者**は管理者よりも制限されていますが、ワークスペースの下にサブワークスペースを作成できます。また、タスク、フィルター、ディスカッション、ボード、および分析ダッシュボードを作成、編集、および削除することもできます。招待ではなく自分で公開なワークスペースに[参加する](workspaces-faq.html#h他のワークスペースを見つけて参加する方法)場合、デフォルトで編集者のロールが割り当てられます。
 
-**Viewers** are limited to view, bookmark and share content. To be a viewer in a workspace, you have to be invited with the viewer role.
+**閲覧者**は、コンテンツの表示、ブックマーク、共有に制限されています。ワークスペースの閲覧者になるには、閲覧者のロールで招待される必要があります。
 
->[!NOTE] Your permissions in the sub-workspaces are not affected by your role in the parent workspace. This means that even if you are an owner in the parent workspace, you can't have permissions exceeding your role in the sub-workspace. For example, if you are an owner in the parent workspace and a viewer in the sub-workspace, you cannot create or delete anything in the sub-workspace.
+>[!NOTE] サブワークスペースでの権限は、親ワークスペースでのロールの影響を受けません。つまり、親ワークスペースの管理者であっても、サブワークスペースでのロールを超える権限を持つことはできません。たとえば、親ワークスペースの管理者であり、サブワークスペースの閲覧者である場合、サブワークスペースで何かを作成または削除することはできません。
 
 
-## What about roles in the Organization? 
+## 組織でのロール 
 
-Before you learn about the user roles and their permissions, you may want to know more about the Organization in Slingshot. 
+ユーザーのロールとその権限について学ぶ前に、Slingshot の組織について詳しく知りたいと思うかもしれません。 
 
-In short, the Organization, also called *the Org*, is a workspace, but it's not like any other workspace in Slingshot. There you can collaborate with other members of, well, your real life organization - business or non-profit. 
+手短に言えば、組織はワークスペースですが、Slingshot の他のワークスペースとは異なります。そこでは、実際の組織 (ビジネスまたは非営利) の他のメンバーと協力することができます。 
 
-Your Organization in Slingshot will appear right under _My Stuff_ (see below). You need sign in with Google or Microsoft using the email associated with your organization.
+Slingshot の組織は、[ワークスペース] のすぐ下に表示されます (以下を参照)。組織に関連付けられているメール アドレスを使用して、Google または Microsoft でサインインする必要があります。
 
 <img src="../images/organization-access.png" alt="Organization location under My Stuff" class="responsive-img" />
 
-The roles in the Slingshot Organization are the same as in other workspaces - owner, member, viewer. Look at the table below to find more about the permissions of these roles in the Organization. 
+Slingshot 組織でのロールは、他のワークスペース (管理者、編集者、閲覧者) と同じです。組織でのこれらのロールの権限の詳細については、以下の表を参照してください。
 
-| Permissions                                                            | Owner              | Member             | Viewer             |
+| アクセス許可                                                            | 管理者              | メンバー             | 閲覧者             |
 | ---------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| Can edit the **Org information**                                       | :white_check_mark: | :x:                | :x:                |
-| Can **manage members** of the Org                                      | :white_check_mark: | :x:                | :x:                |
-| Can **create** discussions, topics, content, and boards                | :white_check_mark: | :white_check_mark: | :x:                |
-| Can **modify** discussions, topics, content, and boards                | :white_check_mark: | :white_check_mark: | :x:                |
-| Can create and modify **dashboards**                                   | :white_check_mark: | :x:                | :x:                |
-| Can **delete** discussions, topics, content, boards, and dashboards    | :white_check_mark: | :x:                | :x:                |
-| Can **view** discussions, topics, content, boards, and dashboards      | :white_check_mark: | :white_check_mark: | :white_check_mark: |
-| Can **bookmark** discussions, topics, content, boards, analytics       | :white_check_mark: | :white_check_mark: | :white_check_mark: |
-| Can **copy a link** to discussions, topics, content, boards, analytics | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| **組織情報**を編集できます。                                       | :white_check_mark: | :x:                | :x:                |
+| 組織の**メンバーを管理**できます。                                      | :white_check_mark: | :x:                | :x:                |
+| ディスカッション、コンテンツ、ボードを**作成**できます。                | :white_check_mark: | :white_check_mark: | :x:                |
+| ディスカッション、コンテンツ、ボードを**変更**できます。                | :white_check_mark: | :white_check_mark: | :x:                |
+| ダッシュボードを作成および変更できます。                                   | :white_check_mark: | :x:                | :x:                |
+| ディスカッション、コンテンツ、ボード、ダッシュボードを**削除**できます。    | :white_check_mark: | :x:                | :x:                |
+| ディスカッション、コンテンツ、ボード、ダッシュボードを**表示**できます。      | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| ディスカッション、コンテンツ、ボード、分析を**ブックマーク**できます。       | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| ディスカッション、コンテンツ、ボード、分析への**リンクをコピー**できます。 | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 
-Learn more about the Organization in the [Workspaces](workspaces-faq.html#organization-vs-workspace) topic.
+[ワークスペース](workspaces-faq.html#組織とワークスペースとサブワークスペース)のトピックで組織の詳細をご覧ください。
 
 <a name='personal-account-users'></a>
-## What about users with no Organization?
+## 組織に属さないユーザー
 
-Having an Organization in Slingshot makes you a user with an Organization account or an **Org user**. If you use your personal email to sign into Slingshot, then you are a **personal account user**. Personal account users don't have an Organization. However, in real life, people from an organization structure sometimes need to work with external people. Slingshot allows you to create workspaces where both Organization users and users with personal accounts can be mixed together.
+Slingshot に組織があると、組織アカウントを持つユーザーまたは**組織ユーザー**になります。個人のメール アドレスを使用して Slingshot にサインインする場合、**個人アカウントのユーザー**となります。個人アカウントのユーザーは組織を持っていません。ただし、実際には、組織の人々が外部の人々と協力する必要がある場合があります。Slingshot を使用すると、組織のユーザーと個人アカウントのユーザーの両方を混在させたワークスペースを作成できます。
 
->[!NOTE] Just bear in mind that when inviting users with personal accounts to a workspace, you have to enter the email they use in Slingshot. They will receive an email invitation and they have to accept it to join the workspace.
+>[!NOTE] 個人アカウントユーザーをワークスペースに招待するときは、Slingshot で使用するメール アドレスを入力する必要があることに注意してください。個人アカウントのユーザーはメール アドレスの招待状を受け取り、ワークスペースに参加するにはそれを受け入れる必要があります。
 
-Personal account users can be assigned the same roles in the workspaces - owner, member and viewer. These roles have equal permissions for both Org users and users with a personal account. 
-## How do permissions around cloud storages work?
+個人アカウントのユーザーには、ワークスペースでロール (管理者、編集者、閲覧者) を割り当てることができます。これらのロールには、組織ユーザーと個人アカウントユーザーの両方に対して同等の権限があります。
+## クラウド ストレージに関する権限
 
-The content that is relevant to you might be stored in different cloud storages. Slingshot lets you create connections to those cloud storages to access that content, share it, and organize it in boards. Those connections can be private or shared and they are meant to be used in different scenarios.
+ユーザー自身に関連のあるコンテンツは、さまざまなクラウド ストレージに保存されている可能性があります。Slingshot を使用すると、クラウド ストレージへの接続を作成して、そのコンテンツにアクセスし、共有し、ボードで整理することができます。これらの接続は非公開または共有にすることができ、さまざまなシナリオで使用することを目的としています。
 
-In *My Stuff* > *Content*, you will find you *private cloud storage** connections. _Only you_ have access to these private connections and you can create/delete them whenever you want. That being said, you are able to **share private content with others** if you want.
+*[クラウド ストレージ]* には、*非公開クラウド ストレージ*接続があります。ユーザー自身だけがこれらの非公開接続にアクセスでき、いつでも作成 / 削除できます。必要に応じて**非公開コンテンツを他の人と共有する**ことができます。
 
-When you pin content from a private cloud storage to a workspace board, that specific content becomes available for the whole workspace. But it does not mean that workspace members can access the rest of the private cloud storage contents.
+非公開クラウド ストレージからワークスペース ボードにコンテンツを固定すると、その特定のコンテンツがワークスペース全体で利用できるようになります。ただし、ワークスペース メンバーが残りの非公開クラウド ストレージ コンテンツにアクセスできるという意味ではありません。
 
-_All the members of a workspace_ have access to **workspace cloud storage** connections and they can create/delete them whenever they want.
+ワークスペースのすべてのメンバーは、**ワークスペース クラウド ストレージ**接続にアクセスでき、いつでも接続を作成 / 削除できます。
 
 > [!NOTE]
-> If you use your **Microsoft** account to log into Slingshot, you will start with your **OneDrive** configured. Same applies to logging with your **Google** account and starting with a **Google Drive**.
+> **Microsoft** アカウントを使用して Slingshot にログインする場合は、**OneDrive** を構成した状態で開始します。同じことが、**Google** アカウントでのログと **Google ドライブ**での開始にも当てはまります。
 
 
-## What about public and private workspaces?
+## 公開ワークスペースと非公開ワークスペース
 
-A newly created workspace is public by default, meaning that any member of the Organization can search and join the workspace. Trust and transparency are key elements for effective collaboration, and also help with ownership and accountability.  
-That being said, sometimes you might need to have a private workspace. In this case, users can only join the workspace by getting invitations from an owner of the workspace. This is helpful for workspaces that handle sensitive information. In those cases the organization wants to restrict access.
+新しく作成されたワークスペースはデフォルトで公開されています。つまり、組織のすべてのメンバーがワークスペースを検索して参加できます。信頼と透明性は、効果的なコラボレーションの重要な要素であり、所有権と説明責任にも役立ちます。  
+しかしながら、非公開ワークスペースが必要になる場合もあります。この場合、ユーザーはワークスペースの管理者から招待状を取得することによってのみワークスペースに参加できます。これは、機密情報を扱うワークスペースに役立ちます。そのような場合、組織はアクセスを制限したいと考えています。
 
-To change a workspace privacy, select your workspace's **overflow menu** > **Workspace Settings** > **Information** > **Privacy**.
+ワークスペースのプライバシーを変更するには、ワークスペースの**オーバーフロー メニュー** > **[ワークスペース設定]** > **[情報]** > **[プライバシー ポリシー]** を選択します。
 
 <img src="../images/access-workspace-settings.png" alt="Accessing workspace settings" class="responsive-img"/>
 
-Change to **Private** and select **Update**.
+**[非公開]** に変更し、**[更新]** を選択します。
 
