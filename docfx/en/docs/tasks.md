@@ -1,3 +1,8 @@
+---
+title: How to Manage Tasks in Slingshot
+_description: Get familiar with managing tasks to make the most out of your team collaboration in Slingshot.
+---
+
 # Tasks
 
 When it comes to running a successful project – task management is at the heart of that. You need everything organized in one place to manage tasks through out the full lifecycle of the project. Setting deadlines, dependencies, and priorities are all essential to ensure projects stay on track and get completed on time.   

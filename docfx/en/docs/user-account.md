@@ -1,3 +1,8 @@
+---
+title: How to Manage a User Account in Slingshot
+_description: Get familiar with user accounts in Slingshot to make the most of your in-app interactions.
+---
+
 # User Account & Settings
 
 In short, user accounts allow you to sign in and be recognized by an application or device. A user account can also be described as a virtual identity created for any digital technology.

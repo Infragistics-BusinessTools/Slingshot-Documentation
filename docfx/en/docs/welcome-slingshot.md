@@ -1,3 +1,8 @@
+---
+title: Slingshot Help – Start Here
+_description: Get started with the Slingshot features you soon won’t be able to live and work without.
+---
+
 # Welcome to the Slingshot Help Center
 
 Slingshot is the only digital workplace that connects everyone you work with to data – organizes projects, content and chats – to unleash the power of your team.

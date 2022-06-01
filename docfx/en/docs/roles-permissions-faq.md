@@ -1,3 +1,8 @@
+---
+title: How to Set Role Permissions in Slingshot 
+_description: Get familiar with roles permissions, managing them and making the best out of your collaboration.
+---
+
 # Learn More about Roles & Permissions
 
 Welcome! Read on to get answers to your questions about the roles and permissions in Slingshot.

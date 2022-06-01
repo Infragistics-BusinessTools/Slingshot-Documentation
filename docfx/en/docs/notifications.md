@@ -1,3 +1,8 @@
+---
+title: How to Manage and Use Slingshot Notifications
+_description: Get familiar with Slingshot notifications and how to modify them according to your preferences.
+---
+
 # Notifications
 
 Notifications make sure that nothing goes missed in Slingshot and keep you on top of things that need your attention.

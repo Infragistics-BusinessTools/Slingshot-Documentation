@@ -1,3 +1,8 @@
+---
+title: Security and Privacy Settings in Slingshot
+_description: Learn all about Slingshot’s security for data, roles, permissions, content and working with files safely.
+---
+
 # Security & Privacy
 
 Slingshot takes your data security and data privacy seriously, encompassing every aspect of security from the physical hardware and access control to the logical security of the application. Hardware security plus data encryption at different states like data-at-rest, data in transit and temporary cached data are all key practices that ensure data protection across all platforms.

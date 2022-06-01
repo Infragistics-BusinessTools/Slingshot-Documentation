@@ -1,3 +1,8 @@
+---
+title: How to Use Slingshot Search
+_description: Get to know the Slingshot Search functionality to find the right information quickly and efficiently.
+---
+
 # Search
 
 In order to run high performing teams that collaborate with different groups of people, finding the right information is a key feature. Slingshot saves time drilling through endless folder of content or sifting through email to find what you need. Even in Slingshot you need a faster way to find what you need – that’s where search comes in. 
