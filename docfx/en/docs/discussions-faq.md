@@ -1,3 +1,8 @@
+---
+title: Discussion Feature in Slingshot – All You Need to Know
+_description: Get familiar with using discussions and private chats, permissions and features that allow seamless collaboration.
+---
+
 # Discussions
 
 Welcome! Read on to learn more about discussions.

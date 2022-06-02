@@ -1,3 +1,8 @@
+---
+title: How to Manage File Permissions in Slingshot
+_description: Learn how to set file permissions, what different permissions mean and how to manage them.
+---
+
 # Learn More about File Permissions
 
 Welcome! Read on to get answers to your questions about files permissions.

@@ -1,3 +1,8 @@
+---
+title: What is Slingshot Workspace - Overview
+_description: Ensure fluency in collaboration by getting familiar with Slingshot Workspaces and learning all about their features.
+---
+
 # Workspaces
 
 A workspace in Slingshot can be defined as a digital workplace where groups of people - within or outside your organization - gather to work on a common objective. Workspaces allow you to collaborate, prioritize work, share content and knowledge and even gleam insights from data in a transparent way.
