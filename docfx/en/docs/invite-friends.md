@@ -21,9 +21,10 @@ With the Invite Friends feature, you can introduce your friends to Slingshot so 
 1.	Click/tap on your profile picture in the upper right corner.
 2.	Click on **Invite Friends**.
 3.	A dialog with a list of different email clients will open. You can choose a client and log in to your account or add a new account. 
-4.	Once you’ve logged in, you’ll be able to send the link to Slingshot to your friend. After that you friend can log in to their account and check out the page.
 
 <img src="../images/invite-friends-dialog-email-clients.png" alt="Showing where the invite friends button is" class="responsive-img"/>
+
+4.	Once you’ve logged in, you’ll be able to send the link to Slingshot to your friend. After that you friend can log in to their account and check out the page.
 
 5.	They can also click on the **Try it Now** or **Sign in** buttons in the upper right corner of the page and follow the steps in order to create a new account.
 
