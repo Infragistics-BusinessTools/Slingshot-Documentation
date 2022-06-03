@@ -1,8 +1,8 @@
 # Invite Friends
 
-Slingshot is a digital workplace that connects everyone you work with to data, helps with organization of projects and content and provides you withthe option to communicate with others in order to boost team results.
+Slingshot is a digital workplace that connects everyone you work with to data, helps with organization of projects and content and provides you with the option to communicate with others in order to boost team results.
 
-You can not onlt reach out to your team members via the app, but you can also message your friends who are not part of a specific organization.
+You can not only reach out to your team members via the app, but you can also message your friends who are not part of a specific organization.
 
 With the Invite Friends feature, you can introduce your friends to Slingshot so you can start collaborating with them in no time.
 
@@ -13,7 +13,7 @@ With the Invite Friends feature, you can introduce your friends to Slingshot so 
 *Mobile*
 
 1.	Click/tap on your profile picture in the upper right corner.
-2.	Click on Invite Friends.
+2.	Click on **Invite Friends**.
 3.	A share dialog will open up, where you can choose how to send the link (e.g. via text, email or an app)
 
 *Web/Desktop app*
@@ -24,7 +24,6 @@ With the Invite Friends feature, you can introduce your friends to Slingshot so 
 4.	Once you’ve logged in, you’ll be able to send the link to Slingshot to your friend. After that you friend can log in to their account and check out the page.
 
 <img src="../images/invite-friends-dialog-email-clients.png" alt="Showing where the invite friends button is" class="responsive-img"/>
-
 
 5.	They can also click on the **Try it Now** or **Sign in** buttons in the upper right corner of the page and follow the steps in order to create a new account.
 
