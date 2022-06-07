@@ -45,9 +45,9 @@ td {
         <ul>
          <li>[Bug Fix] A blur appeared on the text input when you tried sending a message.</li>
          <li>[Bug Fix] Large images would lead to the desktop app to crash.</li>
-         <li>[Bug Fix] The desktop app crashed when you tried maximizing it in a large screen.</li>
+         <li>[Bug Fix] The desktop app crashed when you tried maximizing it on a large screen.</li>
          <li>[Bug Fix] A link to a message in a task activity opened a new task rather than scrolling to the open task.</li>
-         <li> [Improvement] Now we have a warning when a file is uploaded with invalid characters.</li>
+         <li> [Improvement] When you try uploading a file with invalid characters, a warning will show up.</li>
         </ul>
         </td>
     </tr>
