@@ -75,7 +75,7 @@ To view/edit specific members access to the file, click the file overflow and se
 Information privacy is about having the right to control how our personal information is collected and later used.
 
 While data security focuses on protecting digital data, data privacy is about ensuring that personal information being collected is used and shared in an appropriate way.
-For more information on how your information is used, you may read our [Privacy Policy](https://www.slingshotapp.io/privacy-policy).
+For more information on how your information is used, you may read our [Privacy Policy](https://www.slingshotapp.io/ja/privacy-policy).
 
 ### GDPR compliant
 Slingshot aligns its data privacy practices with global data privacy laws such as the General Data Protection Regulation (GDPR). To protect data rights, Slingshot provides a controlled procedure for deleting and exporting users' data.
