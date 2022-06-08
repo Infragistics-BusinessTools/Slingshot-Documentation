@@ -1,95 +1,95 @@
-# Security & Privacy
+# セキュリティとプライバシー
 
-Slingshot takes your data security and data privacy seriously, encompassing every aspect of security from the physical hardware and access control to the logical security of the application. Hardware security plus data encryption at different states like data-at-rest, data in transit and temporary cached data are all key practices that ensure data protection across all platforms.
+Slingshot は、データのセキュリティとプライバシーを真剣に受け止め、物理的なハードウェアやアクセス制御からアプリケーションの論理的なセキュリティまで、セキュリティのあらゆる側面を網羅しています。ハードウェア セキュリティに加えて、保存データ、転送中のデータ、一時的にキャッシュされたデータなどのさまざまな状態でのデータ暗号化は、すべてのプラットフォームでデータ保護を保証する重要なプラクティスです。
 
-Built on top of Microsoft and Google, Slingshot inherits all the underlying security for data access and administration, including 2-factor authentication. In addition, Slingshot is fully GDPR compliant and is hosted on AWS to provide end-to-end security.
+Slingshotは、Microsoft と Google の上に構築されており、2 要素認証を含む、データ アクセスと管理の基盤となるすべてのセキュリティを継承しています。さらに、Slingshot は GDPR に完全に準拠しており、エンドツーエンドのセキュリティを提供するために AWS でホストされています。
 
-As a Slingshot user you own the different types of content you create. Such as the files you upload, the messages you write and the dashboards you create. All of those are part of your Slingshot account and are associated with you as a user.
+Slingshot ユーザーは、作成するさまざまなタイプのコンテンツを所有しています。それはアップロードするファイル、作成するメッセージ、作成するダッシュボードなどです。これらはすべて Slingshot アカウントの一部であり、ユーザーとして関連付けられています。
 
-Enterprise only features include:
-•	Admin security – Manage who is part of your organization.
-•	Data residency - Enterprises can request where their data is stored – Europe / America / Japan 
+エンタープライズのみの機能は次のとおりです:
+•	管理者のセキュリティ – 組織の一部である人を管理します。
+•	データ所在地 - 企業はデータの保存場所をリクエストできます – ヨーロッパ / アメリカ / 日本 
 
-## Roles And Permissions
-Roles represent a set of permissions that a user has in a workspace, project or in the Organization. There are three different roles in Slingshot:
-- **Owner** – Full access to create, edit, delete and share the workspaces/projects and its assets. 
-- **Contributor** – Create, edit, delete and share only the assets of the workspace/project.
-- **Viewer** -Restricted to view and share
+## ロールとアクセス許可
+ロールは、ユーザーがワークスペースまたは組織で持つ一連の権限を表します。Slingshot には 3 つの異なるロールがあります。
+- **管理者** – ワークスペース / プロジェクトとそのアセットを作成、編集、削除、共有するためのフルアクセス 
+- **編集者** – ワークスペース / プロジェクトのアセットのみを作成、編集、削除、共有
+- **閲覧者** - 表示と共有に制限
 
-To ensure sensitive business data remains secure, only an Owner can add or remove members. Of course, ownership can be granted to other workspace/project contributors trusted by the owner.
+機密のビジネス データの安全性を確保するために、メンバーを追加または削除できるのは管理者のみです。もちろん、所有権は、管理者によって信頼されている他のワークスペース / プロジェクトの編集者に付与することができます。
 
-### User Roles Details
-Using roles and permissions is a common practice between companies and it's also particularly helpful if you want to give access to external people, like third parties and contractors. Slingshot was designed with different roles and permissions that allow you full control over your organization, workspaces and projects.
+### ユーザー ロールの詳細
+ロールとアクセス許可の使用は企業間の一般的なプラクティスであり、サードパーティや請負業者などの外部の人々にアクセスを許可する場合にも特に役立ちます。Slingshot は、組織、ワークスペース、およびプロジェクトを完全に制御できるようにするさまざまなロールとアクセス許可でデザインされています。
 
-In the table below, you will find the permissions of each role in the workspace. 
+次の表に、ワークスペース内の各ロールの権限を示します。 
 
 
-| Permissions                                                          | Owner              | Contributor             | Viewer             |
+| アクセス許可                                                          | 管理者              | 編集者             | 閲覧者             |
 | -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| Can create and delete **workspaces**                                 | :white_check_mark: | :x:                | :x:                |
-| Can create **projects** under a workspace                      | :white_check_mark: | :white_check_mark: | :x:                |
-| Can change **workspace information**                                 | :white_check_mark: | :x:                | :x:                |
-| Can manage members of the **workspace**                              | :white_check_mark: | :x:                | :x:                |
-| Can create, modify, delete **tasks**                                 | :white_check_mark: | :white_check_mark: | :x:                |
-| Can create, modify, delete **task filters**                          | :white_check_mark: | :white_check_mark: | :x:                |
-| Can create, modify, delete **discussions** and **topics**            | :white_check_mark: | :white_check_mark: | :x:                |
-| Can send messages in **topics**                                      | :white_check_mark: | :white_check_mark: | :x:                |
-| Can create, modify, delete **boards**                                | :white_check_mark: | :white_check_mark: | :x:                |
-| Can pin/unpin content to **boards**                                  | :white_check_mark: | :white_check_mark: | :x:                |
-| Can view **Analytics dashboards**                                    | :white_check_mark: | :white_check_mark: | :white_check_mark: |
-| Can create, modify, and share **Analytics dashboards**               | :white_check_mark: | :white_check_mark: | :x:                |
-| Can export **Analytics dashboards**                                  | :white_check_mark: | :white_check_mark: | :white_check_mark: |
-| Can **bookmark** tasks, discussions, topics, content, analytics      | :white_check_mark: | :white_check_mark: | :white_check_mark: |
-| Can **copy a link** to a task, discussion, topic, content, analytics | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| **ワークスペース**を作成および削除できます。                                 | :white_check_mark: | :x:                | :x:                |
+| ワークスペースに**プロジェクト**を作成できます。                      | :white_check_mark: | :white_check_mark: | :x:                |
+| **ワークスペース情報**を変更できます。                                 | :white_check_mark: | :x:                | :x:                |
+| **ワークスペース**のメンバーを管理できます。                              | :white_check_mark: | :x:                | :x:                |
+| **タスク**を作成、変更、削除できます。                                 | :white_check_mark: | :white_check_mark: | :x:                |
+| **タスク フィルター**を作成、変更、削除できます。                          | :white_check_mark: | :white_check_mark: | :x:                |
+| **ディスカッション**を作成、変更、削除できます。            | :white_check_mark: | :white_check_mark: | :x:                |
+| **ディスカッション**でメッセージを送信できます。                                      | :white_check_mark: | :white_check_mark: | :x:                |
+| **ボード**を作成、変更、削除できます。                                | :white_check_mark: | :white_check_mark: | :x:                |
+| コンテンツを**ボード**にピン固定/ピン固定解除できます。                                  | :white_check_mark: | :white_check_mark: | :x:                |
+| **分析ダッシュボード**を表示できます。                                   | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| **分析ダッシュボード**を作成、変更、および共有できます。               | :white_check_mark: | :white_check_mark: | :x:                |
+| **分析ダッシュボード**をエクスポートできます。                                 | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| タスク、ディスカッション、コンテンツ、分析を**ブックマーク**できます。      | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| タスク、ディスカッション、コンテンツ、分析への**リンクをコピー**できます。 | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 
-### File Permissions
-Files that are relevant to you might be stored in different locations and, in today's digital world, probably in different cloud storages. Slingshot lets you access those files, share them, and organize them within context of your workspaces and projects – so you can find the information you need, when you need it.  
+### ファイルのアクセス許可
+ユーザーに関連するファイルは、さまざまな場所に保存されている可能性があり、今日のデジタル世界では、おそらくさまざまなクラウド ストレージに保存されている可能性があります。Slingshot を使用すると、これらのファイルにアクセスして共有し、ワークスペースやプロジェクトのコンテキスト内で整理できるため、必要なときに必要な情報を見つけることができます。  
 
-Slingshot allows you to choose who can access your file and does not store any files. Connect directly to any cloud storage like Google Drive, DropBox, OneDrive and more to get access to your files. This means only you and the people you trust will get access so that your files stay safe.
+Slingshot を使用すると、ファイルにアクセスできるユーザーとファイルを保存しないユーザーを選択できます。Google ドライブ、DropBox、OneDrive などのクラウド ストレージに直接接続して、ファイルにアクセスします。これは、ファイルが安全に保たれるため、ユーザーが信頼するユーザーだけがアクセスできることを意味します。
 
-### Setting File Permissions
-File permissions give the file owner control over who can access their files. Giving access through Slingshot means other users can open and edit the file.
-When you pin a file, Slingshot will assign the default file permissions, one of three following permission types:
-- **Request Access** – Members must request access to the file from the file owner. This the default and most restrictive option. It means anyone who tries to open the file for the first time must request access to the file owner. The file owner will receive an email, prompting them to grant or deny access.
-- **Automatic Access** – Permissions are automatically granted to members of the workspace or project. Very useful when you want all your workspace collaborators to have quick access to your file without asking you explicitly for access.
-- **All Can Access** – Anyone can access and edit the file. This is the least restrictive option. Even users who are not members of the workspace will be able to access your file if they have a link to where it is located. 
+### ファイルのアクセス許可を設定
+ファイルのアクセス許可は、ファイルの管理者がファイルにアクセスできるユーザーを制御します。Slingshot を介してアクセスを許可すると、他のユーザーがファイルを開いて編集できるようになります。
+ファイルをピン固定すると、Slingshot はデフォルトのファイルのアクセス許可を割り当てます。これは次の 3 つのタイプのいずれかです:
+- **アクセスを要求する** - メンバーは、ファイル所有者にファイルへのアクセスを要求する必要があります。これはデフォルトで最も制限の厳しいオプションです。つまり、初めてファイルを開こうとする人は、ファイルの管理者へのアクセスを要求する必要があります。ファイルの管理者は、アクセスを許可または拒否するように求める電子メールを受け取ります。
+- **自動アクセス** – アクセス許可はワークスペースまたはプロジェクトのメンバーに自動的に付与されます。すべてのワークスペースの編集者に、明示的にアクセスを要求せずにファイルにすばやくアクセスできるようにする場合に非常に便利です。
+- **すべてのユーザーがアクセス可能** - すべてのユーザーがファイルにアクセスして編集できます。これは最も制限の少ないオプションです。ワークスペースのメンバーではないユーザーでも、ファイルが配置されている場所へのリンクがあれば、ファイルにアクセスできます。
 
-While pinning a file, you can change the default file permissions in the Pin dialog.
+ファイルをピン固定しているときに、[ピン固定] ダイアログでデフォルトのファイル許可を変更できます。
 
-After the pin is created, you can easily view/edit file permissions, just click the file overflow and select File Permissions.
-
-
-### Revoking File Permissions
-You can revoke editing permissions at any time. You have two possibilities:
-- Revoke edit permissions to the file through your cloud storage provider - OneDrive, Google Drive, Dropbox, Box, and SharePoint.
-- Stop granting access to the file to specific users through the Slingshot settings as explained below.
-
-To view/edit file permissions, click the file overflow and select File Permissions. In the opened dialog you can change your previous selection.
-
-To view/edit specific members access to the file, click the file overflow and select Member Access. In the dialog you will see all members who can view and edit the file plus pending requests for access if you have any.
+ピン固定が作成されたら、ファイルのアクセス許可を簡単に表示 / 編集できます。ファイルのオーバーフローをクリックして、[ファイルのアクセス許可] を選択するだけです。
 
 
->[!NOTE] Access is not automatically revoked. Users who have already opened the file once, are added as Editors and their access will not be automatically revoked with changing the file permissions to the more restrictive type. So, if you change a file's permissions from Automatic Access to Request Access make sure you check for Editors in Member Access and revoke their permissions if necessary.
+### ファイルのアクセス許可を取り消す
+編集許可はいつでも取り消すことができます。2 つの可能性があります:
+- クラウド ストレージ プロバイダー (OneDrive、Google ドライブ、Dropbox、Box、SharePoint) を介してファイルの編集許可を取り消します。
+- 以下で説明するように、Slingshot 設定を介して特定のユーザーにファイルへのアクセスを許可するのを停止します。
 
-## Data Privacy
-Information privacy is about having the right to control how our personal information is collected and later used.
+ファイルのアクセス許可を表示 / 編集するには、ファイル オーバーフローをクリックし、[ファイルのアクセス許可] を選択します。開いたダイアログで、以前の選択を変更できます。
 
-While data security focuses on protecting digital data, data privacy is about ensuring that personal information being collected is used and shared in an appropriate way.
-For more information on how your information is used, you may read our [Privacy Policy](https://www.slingshotapp.io/ja/privacy-policy).
+ファイルへの特定のメンバー アクセスを表示 / 編集するには、ファイル オーバーフローをクリックして、[メンバー アクセス] を選択します。ダイアログには、ファイルを表示および編集できるすべてのメンバーと、保留中のアクセス要求がある場合はそれが表示されます。
 
-### GDPR compliant
-Slingshot aligns its data privacy practices with global data privacy laws such as the General Data Protection Regulation (GDPR). To protect data rights, Slingshot provides a controlled procedure for deleting and exporting users' data.
-Under the GDPR law, the following people can request profile data export or deletion:
-- a user with a personal account in Slingshot, or
-- an Organization owner.
 
->[!NOTE] When you are part of an Organization, they own your profile information. If you want to have your data deleted, you must contact an administrator of personal data in your organization and request the deletion from them.
+>[!NOTE] アクセスは自動的に取り消されません。すでにファイルを一度開いたユーザーは編集者として追加され、ファイルのアクセス許可をより制限の厳しいタイプに変更しても、アクセスが自動的に取り消されることはありません。したがって、ファイルのアクセス許可を [自動アクセス] から [アクセスを要求する] に変更する場合は、必ず [メンバー アクセス] の [編集者] を確認し、必要に応じて編集者のアクセス許可を取り消してください。
 
-### Profile Information Contents
-In collaboration software like Slingshot, what you do, affects the people you work with. If, for example, you start a discussion in a workspace, this information will be saved in Slingshot to help others. Everyone in the workspace can benefit from the information in the discussion and will see that you are its initiator.
-The following is considered your profile information by Slingshot and will disappear from the app as a result of the deletion:
-- your name and email address;
-- your title, industry, and department if provided (see in Settings > Profile Information);
-- all content created by you or shared with you;
-- all task assignments - tasks you were assigned in a team or a project will become unassigned, but will not disappear;
-- access to pinned files and dashboards will be denied - users in Slingshot will not be able to open files and dashboards that deleted users have shared.
+## データ プライバシー
+情報のプライバシーとは、個人情報がどのように収集され、後で使用されるかを管理する権利を持つことです。
+
+データ セキュリティはデジタル データの保護に重点を置いていますが、データ プライバシーとは、収集される個人情報が適切な方法で使用および共有されるようにすることです。
+ユーザーの情報がどのように使用されるかの詳細については、[プライバシー ポリシー](https://www.slingshotapp.io/ja/privacy-policy)をご覧ください。
+
+### GDPR に準拠
+Slingshot は、データ プライバシー慣行を一般データ保護規則 (GDPR) などのグローバル データ プライバシー法に適合させています。データの権利を保護するために、Slingshot は、ユーザーのデータを削除およびエクスポートするための制御された手順を提供します。
+GDPR 法に基づき、次のユーザーがプロファイル データのエクスポートまたは削除をリクエストできます:
+- Slingshot に個人アカウントを持つユーザー、または
+- 組織の管理者。
+
+>[!NOTE] 組織の一員である場合、組織はユーザーのプロフィール情報を管理します。データを削除したい場合は、組織内の個人データの管理者に連絡して、削除を要求する必要があります。
+
+### プロファイル情報の内容
+Slingshot のようなコラボレーション ソフトウェアでは、ユーザーが行うことは、一緒に働く人々に影響を与えます。たとえば、ワークスペースでディスカッションを開始した場合、この情報は他の人に役立つために Slingshot に保存されます。ワークスペース内のすべての人がディスカッションの情報から利益を得ることができ、ユーザーがその開始者であることがわかります。
+以下は Slingshot によってユーザーのプロフィール情報と見なされ、削除の結果としてアプリから消えます。
+- 名前とメール アドレス。
+- タイトル、業種、および部署 (提供されている場合)。[設定] > [プロファイル情報] を参照。
+- ユーザーが作成した、またはユーザーと共有したすべてのコンテンツ。
+- すべてのタスクの割り当て - チームまたはプロジェクトで割り当てられたタスクは割り当て解除されますが、消えることはありません。
+- ピン固定されたファイルとダッシュボードへのアクセスは拒否されます - Slingshot のユーザーは、削除されたユーザーが共有しているファイルとダッシュボードを開くことができなくなります。
