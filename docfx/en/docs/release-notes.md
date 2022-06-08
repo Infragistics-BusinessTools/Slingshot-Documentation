@@ -34,12 +34,13 @@ td {
     </tr>
     <tr>
         <td class="td1">June-2022</td>
-        <td class="td1">1.0.2434</td>
+        <td class="td1">1.0.2451</td>
         <td><span style="font-style:italic;font-size:16px">New features</span><br> 
         <ul>
          <li>New onboarding experience</li>
          <li>Ability to duplicate tasks with sub-tasks</li>
          <li>x64 version of windows desktop version</li>
+         <li>Ability to set the threshold used to display the "Others" slice for Pie and Doughnut visualizations</li>
         </ul>
         <span style="font-style:italic;font-size:16px">[Bug Fixes and Improvements]</span><br>
         <ul>
