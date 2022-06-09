@@ -1,46 +1,46 @@
-# Overviews
+# 概要
 
-When working in multiple workspaces and projects you will frequently find yourself with many questions, including:
-- Are we on time? If not, who should I ask and what to ask about?
-- Did we bump into an issue? If so, what's the issue?
-- Who's working on this project? How are they doing with their tasks?
-- Where can I get documents or other resources about the workspace?
+複数のワークスペースやプロジェクトで作業していると、次のようなよくある質問が頻繁に発生します:
+- 進捗は順調ですか? そうでない場合は、誰に何を確認するとよいですか?
+- 問題にぶつかりましたか? もしそうなら、問題は何ですか?
+- このプロジェクトに取り組んでいるのは誰ですか? タスクの消化具合はどうですか?
+- ワークスペースに関するドキュメントやその他のリソースはどこで入手できますか?
 
-All those questions can be answered using workspaces and projects overviews.
+これらの質問はすべて、ワークスペースとプロジェクトの概要を使用して回答できます。
 
-## Overview Types
-With Overviews you can have a quick glance at the most important information around work.  There are two types of overviews:
-- **My Overview** - your personal overview (top left of the screen), is where you can visualize your own work and organize yourself.
-- **Workspace or Project Overviews** - they provide you with a quick snapshot of a workspace or project, presenting you with the current status of everyone’s work by displaying summarized information.
+## 概要のタイプ
+概要を使用すると、作業に関する最も重要な情報を一目で確認できます。  概要には 2 つのタイプがあります:
+- **[概要]** - 個人的な概要 (画面の左上) は、ユーザーが自身の仕事を視覚化し、整理することができる場所です。
+- **ワークスペースまたはプロジェクトの [概要]** - ワークスペースまたはプロジェクトのクイッ クスナップショットを提供し、まとめた情報を表示することで、全員の作業の現在の状態を示します。
 
 
-## My Overview
-Your personal overview is located on the top left of the screen. In My Overview you can organize yourself and visualize your own work in a summarized way. Here you can find:
-- **Bookmarks** – Keep your most important items in Slingshot at your fingertips. You can add bookmarks to workspaces, tasks, chats and also content. Bookmarked lists get you access to all their pinned documents and web links.
-- **Upcoming Tasks** – Help prioritize your day with your tasks that you can filter by Today, Tomorrow, This Week, This Month, and Overdue. 
-- **Your Mentions** – @mentions directed at you from anywhere in Slingshot.
+## 概要
+個人の概要は画面の左上にあります。[概要] では、ユーザー自身が仕事を整理し、要約して仕事を視覚化することができます。ここに表示されるもの:
+- **ブックマーク** – Slingshot の最も重要な項目をすぐに利用できます。ワークスペース、タスク、チャット、およびコンテンツにブックマークを追加できます。ブックマークされたリストを使用すると、ピン固定されているすべてのドキュメントと Web リンクにアクセスできます。
+- **[今後のタスク]** – [今日]、[明日]、[今週]、[今月]、および [期限切れ] でフィルタリングできるタスクを使用して、1 日の優先順位を付けるのに役立ちます。 
+- **[メンション]** – Slingshot での @メンション。
 
 <img src="../images/overviews-my-overview.png" alt="Showing a Workspace Overview within Slingshot" class="responsive-img"/>
 
-## Workspace and Project Overviews
-When running projects and teams, you need to get the big picture to act quickly and in a proactive way. Having a quick glance at the most important information around your work is a game changer and will push you towards high-performing team’s ground.
+## ワークスペースとプロジェクトの概要
+プロジェクトやチームを実行するときは、全体像を把握して、迅速かつ積極的に行動する必要があります。仕事に関する最も重要な情報を一目見れば、パフォーマンスの高いチームを目指して進むことができます。
 
-The Overview can give both Project Managers and Leaders an overall status (On Target, At Risk, Danger, Completed), start and due date, and make key content top of mind to members. 
+概要では、プロジェクト マネージャーとリーダーの両方に、全体的な状態 (進行中、リスク、危険、完了)、開始と期日を示し、主要なコンテンツをメンバーに喚起することができます。
 
 <img src="../images/welcome-workspace-overview.png" alt="Showing a Workspace Overview within Slingshot" class="responsive-img"/>
 
-### Details
-Starting on the left of the screen, you can find general details about the workspace or project, including:
+### 詳細
+画面の左側から、次のようなワークスペースまたはプロジェクトに関する一般的な詳細を確認できます:
 
-- **Members of the project/workspace** – Here you can quickly access and manage all members and pending invitations to join the project or workspace.
-•	Status – A workspace owner can change the overall status at any time, switching between On Target, At Risk, Danger, and Completed.
-- **A short description** – Give your workspaces or projects a short description, so new team and current team members can know its purpose.
-- **Start and due date** – If the workspace revolves around a project, visibility over the dates is very important for all the project’s stakeholders.
-- **Pins** – Pin key resources (images, files, URLs, analytics) that you need the team to keep top of mind.
+- **プロジェクト / ワークスペースのメンバー** – ここでは、すべてのメンバーにすばやくアクセスして管理したり、プロジェクトまたはワークスペースへの保留中の招待を表示したりできます。
+- **状態** – ワークスペースの管理者は、いつでも全体的な状態を変更して、[進行中]、[リスク]、[危険]、および [完了] を切り替えることができます。
+- **簡単な説明** – ワークスペースまたはプロジェクトに簡単な説明を付けて、新しく入ってきたチーム メンバーも前からいるチームメンバーも、その目的を理解できるようにします。
+- **開始と期日** – ワークスペースがプロジェクトを中心に展開している場合、プロジェクトのすべての関係者にとって、日付の可視性は非常に重要です。
+- **ピン固定** – 主要なリソース (画像、ファイル、URL、分析) をピン固定します。
 
-### Your Mentions
-Here you can access @mentions directed at you from teammates within tasks and discussions in the workspace or project. It’s a great way to ensure visibility while also preventing messages from getting lost in endless threads.
+### メンション
+ここでは、ワークスペースまたはプロジェクトのタスクおよびディスカッション内のチームメートからユーザーに向けられた @メンションにアクセスできます。これは、メッセージがスレッド内で流れ去るのを防ぎながら、可視性を確保するための優れた方法です。
 
-### Task Status
-Get the whole list of tasks for the workspace or project members. In a project you will find here all the tasks for that project only. Workspaces will include all tasks from the workspace and all its projects as well.
-There is also a high-level view of the completion rate, showing the percentage and a summary of the task’s status.
+### タスクの状態
+ワークスペースまたはプロジェクトのメンバーに対するタスクの全リストを取得します。プロジェクトでは、そのプロジェクトのタスクのみがここに表示されます。ワークスペースでは、ワークスペースのすべてのタスクとそのすべてのプロジェクトのタスクも含まれます。
+タスクの状態を示す、完了率の概要も表示されます。
