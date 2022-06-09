@@ -1,227 +1,227 @@
-# Learn more about Tasks
+# タスクの詳細
 
-Welcome! Read on to get answers to your questions about tasks.
+ようこそ! このトピックは、タスクに関する詳細を紹介します。
 
-## Personal vs shared tasks
-In Slingshot you can have personal and shared tasks, they work pretty much the same but they do have a few differences detailed below.
+## 個人タスクと共有タスク
+Slingshot では、個人なタスクと共有タスクを使用できます。これらはほとんど同じように機能しますが、以下に詳述するいくつかの違いがあります。
 
-Only you have access to your **personal tasks** and you can find them in your personal space (**My Stuff**).
+ユーザー自身だけが**個人タスク**にアクセスでき、**[タスク]** で見つけることができます。
 
 
 <img src="../images/tasks-home.png" alt="Slingshot My Stuff with a tasks displayed in a list" class="responsive-img"/>
 
-All the members of a workspace can access the tasks created within that workspace, no matter who is assigned. And every member can manage these shared tasks freely.
+ワークスペースのすべてのメンバーは、割り当てられているかどうかに関係なく、そのワークスペース内で作成されたタスクにアクセスできます。そして、すべてのメンバーがこれらの共有タスクを自由に管理できます。
 
 <img src="../images/tasks-team.png" alt="Slingshot Workspace with tasks displayed in a list" class="responsive-img"/>
 
->[!NOTE] Members of a [parent workspace](workspaces.html#using-workspaces-within-the-workspace) can view the tasks in all sub-workspaces, even when they haven't joined the sub-workspaces. However, the members of а sub-workspace, who are not members of the parent workspace cannot view the tasks in the parent workspace.
+>[!NOTE] [親ワークスペース](workspaces.html#using-workspaces-within-the-workspace)のメンバーは、サブワークスペースに参加していない場合でも、すべてのサブワークスペースのタスクを表示できます。ただし、親ワークスペースのメンバーではないサブワークスペースのメンバーは、親ワークスペースのタスクを表示できません。
 
-## How can I access my tasks?
+## タスクにアクセスする方法
 
-You can access your tasks by going to a workspace and selecting the **Tasks** tab on top (see below).
+ワークスペースに移動し、上部の **[タスク]** タブを選択すると、タスクにアクセスできます (以下を参照)。
 
 <img src="../images/tasks-accessing.png" alt="Accessing Slingshot tasks" class="responsive-img"/>
 
-Depending on where you stand, you will be accessing different tasks.
+場所に応じて、さまざまなタスクにアクセスします。
 
-In **My Stuff**, you can access every task assigned to you. These tasks are saved inside *My Tasks*. There you will find personal, and workspace tasks - very useful to have all your tasks in just one place!
+**[概要]** では、割り当てられたすべてのタスクにアクセスできます。これらのタスクは *[マイタスク]* 内に保存されます。そこには、個人タスクとワークスペースのタスクの両方があります。すべてのタスクを 1 か所にまとめるのに非常に便利です。
 
-Within a **workspace**, you get access to all created tasks, no matter who is assigned.  
-Also, use the *My Tasks* pre-set [filter](#how-can-i-filter-tasks) and you will see only tasks assigned to you. If you are in a parent workspace, containing sub-workspaces, use *My Tasks* to find all tasks assigned to you in the workspace and all its sub-workspaces. 
+**ワークスペース**内では、誰が割り当てられているかに関係なく、作成されたすべてのタスクにアクセスできます。  
+また、**[マイタスク]** プリセット [フィルター](#how-can-i-filter-tasks)を使用すると、自分に割り当てられたタスクのみが表示されます。サブワークスペースを含む親ワークスペースにいる場合は、**[マイタスク]** を使用して、ワークスペースとそのすべてのサブワークスペースで自分に割り当てられているすべてのタスクを検索します。 
 
-To open a task, just click/tap over it.
+タスクを開くには、タスクをクリック / タップするだけです。
 
-## How can I create a new task or subtask?
+## 新しいワークまたはタスクサブタスクを作成する方法
 
-You can always create a **new task** with the button on the top right of the screen, no matter the view type you have selected (*List*, *Kanban*, or *Timeline*).
+選択した表示タイプ (*リスト*、*カンバン*、または*タイムライン*) に関係なく、画面の右上にあるボタンを使用して、いつでも**新しいタスク**を作成できます。
 
 <img src="../images/tasks-new.png" alt="Creating a new task within Slingshot" class="responsive-img"/>
 
-As shown above, there are always other _+ Task_ buttons depending on the *view type*.
+上に示したように、*表示タイプ*に応じて、他の [+ タスク] ボタンが常にあります。
 
-You can directly create a new **subtask** using the main task's overflow menu, as shown below.
+以下に示すように、タスクのオーバーフロー メニューを使用して、新しい**サブタスク**を直接作成できます。
 
 <img src="../images/tasks-new-subtasks-menu.png" alt="Creating a new subtask from the overflow menu in Slingshot" class="responsive-img"/>
 
-Alternatively, you can create subtasks for a task that is already opened:
+または、すでに開いているタスクのサブタスクを作成することもできます:
 
 <img src="../images/tasks-new-subtasks-from-task.png" alt="Creating a new subtask within a Slingshot task" width="75%" class="responsive-img"/>
 
-Having the task opened also allows you to insert new subtasks and this way reorder the existing subtasks (see below)
+タスクを開くと、新しいサブタスクを挿入することもでき、この方法で既存のサブタスクを並べ替えることができます (以下を参照)。
 
 <img src="../images/tasks-new-subtasks-others.png" alt="Options to insert a new subtask below or above other subtasks within a Slingshot task" width="75%" class="responsive-img"/>
 
 <a name="add-task-dependency"></a>
-## How can I make a task depend on another task? 
+## タスクを別のタスクに依存させる方法 
 
-Two or more tasks may depend on each other's completion. Slingshot helps you keep everyone informed about that with the task *dependency* property. 
+2 つ以上のタスクは、互いの完了に依存する場合があります。Slingshot は、タスクの**依存関係**プロパティを使用して、すべての人にそのことを通知するのに役立ちます。 
 
-You can set a task dependency in the task creation dialog by selecting the *Dependencies* icon on top (see the screenshot below). 
+上部の **[依存関係]** アイコンを選択すると、タスク作成ダイアログでタスクの依存関係を設定できます (下を参照)。 
 
 <img src="../images/tasks-add-dependency-fromTask.png" alt="Dependency option in the task creation menu" class="responsive-img"/>
 
-Here, you can choose between two dependency types: 
+ここでは、2 つの依存関係タイプから選択できます:
 
-* **Waiting On** - this means your task can't be started before another task is finished. 
-* **Blocking** - other tasks can't start before this task is completed.
+* **[待機中]** - これは、別のタスクが終了する前にタスクを開始できないことを意味します。 
+* **[ブロック]** - このタスクが完了する前に他のタスクを開始することはできません。
 
-Select the **+ Pick Waiting on Tasks** blue button to add the tasks that need to be completed before your task. Select the **+ Pick Blocking Tasks** blue button to add the tasks that can't be started before your task is completed. You can set both dependencies for the same task because one task can depend on and/or block more than one other task.
+**[+ 待機中タスクを選択]** 青いボタンを選択して、タスクの前に完了する必要のあるタスクを追加します。**[+ ブロック タスクを選択]** 青いボタンを選択して、タスクが完了する前に開始できないタスクを追加します。1 つのタスクが他の複数のタスクに依存したり、複数のタスクをブロックしたりする可能性があるため、同じタスクに両方の依存関係を設定できます。
 
-## How can I change properties?
+## プロパティ変更する方法
 
-All the properties of a task, such as a title, assignees, dependencies, status, or priority can be changed using different methods.
+名前、割り当て先、依存関係、状態、優先度など、タスクのすべてのプロパティは、さまざまな方法を使用して変更できます。
 
-The **most reliable method** is to open a task by clicking/tapping it (or through the overflow button and then _Open_).
+タスクを開く**最良の方法**は、タスクをクリック / タップするかオーバーフロー ボタンを押してから _[開く]_ を選択することです。
 
-A **faster method** is to just click/tap the property value you want to change, like shown below with the _Status_ property.
+**より高速な方法**は、以下に _[状態]_ プロパティを指定して示すように、変更するプロパティ値をクリック / タップするだけです。
 
 <img src="../images/tasks-change-property.png" alt="Slingshot task being updated by changing its status" class="responsive-img"/>
 
 <a name="show-hide-property"></a>
-## How can I show/hide properties?
+## プロパティを表示 / 非表示にする方法
 
-Tasks have many field properties that can be displayed when in the *List* and *Kanban* view. By default, you can only see the *Title*, *Assignee*, and *Due Date* of a task before opening it.
+タスクには、*リスト*および*カンバン*で表示できる多くのフィールド プロパティがあります。デフォルトでは、タスクを開く前に表示できるのは、タスクの*名前*、*割り当て先*、および*期日*のみです。
 
-To show/hide properties, click/tap the **overflow** button on top (next to the *+New* button) > **Fields** and select from the list of properties (as shown below).
+プロパティを表示 / 非表示にするには、上部の**オーバーフロー** ボタン （**[+ タスク]** ボタンの横) > **[フィールド]** をクリック / タップし、プロパティのリストから選択します (以下を参照)。
 
 <img src="../images/tasks-fields.png" alt="Accessing task fields within Slingshot" class="responsive-img"/>
 
 
 <a name="tasks-filters"></a>
-## How can I filter tasks?
-Filtering allows you to choose a smaller amount of tasks, helping you find those tasks you currently need.
+## タスクをフィルタリングする方法
+フィルタリングを使用すると、選択できるタスクの数が少なくなり、現在必要なタスクを見つけるのに役立ちます。
 
-You can access the _Filters editor_ by clicking/tapping the filter icon on the top right of the screen (see the screenshot below).
+画面の右上にあるフィルター アイコンをクリック / タップすると、_フィルター エディター_ にアクセスできます (下のスクリーンショットを参照)。
 
 <img src="../images/tasks-filters-accessing.png" alt="Task filter icon location" class="responsive-img"/>
 
-In the _Filters editor_ you can create *Basic* or more *Advanced* rules. The *Basic* rules will be enough most of the time, *Advanced* is recommended in the case that you really need to define more complex conditions in your filter.
+_フィルター エディター_では、*ベーシック* ルールまたはより*高度な*ルールを作成できます。ほとんどの場合、*ベーシック* ルールで十分です。フィルターでより複雑な条件を定義する必要がある場合は、*高度*をお勧めします。
 
-Sometimes you might want to save a filter and use it again in the future. This allows you to keep at hand a list of already filtered tasks that is relevant to you. 
+フィルターを保存しておいて、後で再び使用したい場合があります。これにより、自分に関連する、すでにフィルタリングされたタスクのリストを手元に置いておくことができます。 
 
-To create and save a filter use _+ Filter_ as shown below.
+フィルターを作成して保存するには、以下に示すように _[+ フィルター]_ を使用します。
 
 <img src="../images/tasks-filters-new.png" alt="Creating tasks filters within Slingshot" class="responsive-img"/>
 
-Slingshot has a few filters out-of-the-box: _My Tasks_, _Due this Week_, and _Overdue_ (shown in the screenshot above). But at any time you can create new custom filters or edit existing custom filters.
+Slingshot には、すぐに使用できるいくつかのフィルターがあります: **[マイタスク]**、**[今週が期限]**、および **[期限切れ]** (上のスクリーンショットに表示)。ただし、いつでも新しいカスタム フィルターを作成したり、既存のカスタム フィルターを編集したりできます。
 
-Keep in mind that filters you create and save in a workspace will be visible not only for you but also for the other members.
+ワークスペースで作成および保存したフィルターは、自分だけでなく他のメンバーにも表示されることに注意してください。
 
-In addition, you can save a filter you just created on the spot using _Save As Filter_, as shown below.
+さらに、以下に示すように、**[フィルターとして保存]** を使用して、その場で作成したフィルターを保存できます。
 
 <img src="../images/tasks-filters-save.png" alt="Saving tasks filters on the fly within Slingshot" class="responsive-img"/>
 
-To stop filtering tasks, click/tap the **filter icon** to open the **Filters** dialog. Then, select the **Clear** button at the bottom to remove the current filters, and **Apply** to save your changes. 
+タスクのフィルタリングを停止するには、**フィルター アイコン**をクリック / タップして、**[フィルター]** ダイアログを開きます。次に、下の **[クリア]** ボタンを選択して現在のフィルターを削除し、**[適用]** をクリックして変更を保存します。 
 
-For those times that you can't find a specific task, try expanding collapsed panels, removing existing filters, and/or adding filters using the properties of the task you want. Remember that the icon changes to help you identify when you have active filters or not.
+特定のタスクが見つからない場合は、縮小されたパネルを展開したり、既存のフィルターを削除したり、必要なタスクのプロパティを使用してフィルターを追加したりしてみてください。アクティブなフィルターがあるかどうかを識別しやすくするために、アイコンが変わります。
 
-## How can I switch between List, Kanban, and Timeline
+## リスト、カンバン、タイムラインを切り替える方法
 
-You can choose between three different visualizations (_List_, _Kanban_, _Timeline_), depending on what you want to achieve.
+達成したいことに応じて、3 つの異なる表示タイプ (_リスト_、_カンバン_、_タイムライン_）から選択できます。
 
 <img src="../images/tasks-visualizations.png" alt="Switching visualizations within Slingshot" class="responsive-img"/>
 
-By default, you view your tasks as a straightforward **List**, which is often good enough. Most of the screenshots in this documentation present tasks in the *List* view. This is so because most of the time the preferred view type does not affect how *Tasks* are used and managed. When it does, we will show the differences in each view. 
+デフォルトでは、タスクは単純な**リスト**と見なされますが、これで十分な場合がよくあります。このドキュメントのスクリーンショットのほとんどは、*リスト*表示でタスクを示しています。これは、ほとんどの場合、優先表示タイプが*タスク*の使用方法と管理方法に影響を与えないためです。その場合、各表示タイプの違いを示します。 
 
-*Kanban* is a Japanese word, commonly known as a workflow management method designed to help visualize work and maximize efficiency. In Slingshot, the **Kanban** view shows a visual representation of tasks in the form of cards. Each card contains information about the task, including [task properties](#how-can-i-change-properties) such as status, deadline, assignee, etc. 
+*カンバン*は、作業の視覚化と効率の最大化を支援するためにデザインされたワークフロー管理方法として一般に知られている日本語の単語です。Slingshot では、**カンバン**表示にタスクの視覚的表現がカードの形式で表示されます。各カードには、状態、期日、割り当て先などの[タスク プロパティ](#how-can-i-change-properties)など、タスクに関する情報が含まれています。
 
 <img src="../images/tasks-visualizations-kanban.png" alt="Kanban visualization in Slingshot" class="responsive-img"/>
 
-Besides, the cards are arranged in columns. By default, the columns represent different stages of the status workflow (see above). You can use drag & drop to move the cards through the workflow by changing their status on the spot. 
+その上、カードは列に配置されています。デフォルトでは、列は状態ワークフローのさまざまな段階を表します (上記を参照)。ドラッグアンドドロップを使用して、その場でカードの状態を変更することにより、ワークフロー内でカードを移動できます。 
 
-A **Timeline** always shows a list of events in chronological order. In Slingshot, you can see tasks over a set period of time.
+**タイムライン**には、常にイベントのリストが時系列で表示されます。Slingshot では、デザインされた期間のタスクを表示できます。
 
 <img src="../images/tasks-visualizations-timeline.png" alt="Timeline view in Slingshot" class="responsive-img"/>
 
-You can pick a task on the timeline and re-arrange the start and due dates by dragging its ends. 
+タイムラインでタスクを選択し、その終了をドラッグして開始と期日を再配置できます。 
 
-In addition, you are able to change the scale (days, weeks, months) by using the dropdown next to the filter icon. Use the **Today** button on top to go back to the current day. If your scale shows weeks or months, *today* will bring you back to the beginning of the current week or month, respectively. 
-You can even show/hide weekends by checking the **Show Weekends** box in the overflow menu on top.
+さらに、[ズーム] ドロップダウンを使用して、スケール (日、週、月) を変更できます。上部の **[今日]** ボタンを使用して、現在の日に戻ります。スケールが週または月を示している場合、*今日*はそれぞれ現在の週または月の初めに戻ります。 
+上部のオーバーフロー メニューの **[週末を表示]** チェックボックスをオンにすることで、週末を表示 / 非表示にすることもできます。
 
-You will notice a hook on both corners of each task on the timeline. Drag the left hook of a task and connect it to another task (see in the screenshot below). With this, you will add a *waiting on* [**dependency**](#how-can-i-make-a-task-depend-on-another-task) to the first task. Use the right hook to add a blocking dependency. 
+タイムラインの各タスクの両隅にフックがあります。タスクの左フックをドラッグして、別のタスクに接続します (下のスクリーンショットを参照)。これにより、*[待機中]* の[**依存関係**](#how-can-i-make-a-task-depend-on-another-task)を最初のタスクに追加します。右フックを使用して、ブロック依存関係を追加します。 
 
 <img src="../images/tasks-visualizations-timeline-settings.png" alt="Adjusting the Timeline view in Slingshot" class="responsive-img"/>
 
-## How can I group my tasks? 
+## タスクをグループ化する方法
 
-_Group by_ options include ordering your tasks by section, priority, assignee, and other criteria. To group your tasks, select the **overflow menu > Group by** (shown below). 
+グループ化のオプションには、セクション、優先度、割り当て先、およびその他の基準によるタスクの順序付けが含まれます。タスクをグループ化するには、**オーバーフロー メニュー > [グループ化]** を選択します (以下を参照)。
 
 <img src="../images/tasks-visualizations-list.png" alt="List grouped by options in Slingshot" class="responsive-img"/>
 
-*Group by* is available for all _View Types_. Grouping your tasks helps you find quickly tasks that share a specific property, for example, tasks assigned to the same user. Unlike filtering, the grouping will show you all tasks at the same time. Changing the *group by* criteria will affect only the current list and only the way you see your tasks. Other workspace members can apply different grouping criteria to the same list, but this will not affect how you see this list in your profile. 
+*グループ化*は、すべての_表示タイプ_で使用できます。タスクをグループ化すると、同じユーザーに割り当てられたタスクなど、特定のプロパティを共有するタスクをすばやく見つけることができます。フィルタリングとは異なり、グループ化によりすべてのタスクが同時に表示されます。*グループ化*基準を変更すると、現在のリストとタスクの表示方法にのみ影響します。他のワークスペース メンバーは、同じリストに異なるグループ化基準を適用できますが、これはプロファイルでのこのリストの表示方法には影響しません。 
 
-## How can I sort tasks? 
+## タスクを並べ替える方法 
 
-When you are looking at your tasks you may be wondering how they are ordered. Sorting helps you arrange your tasks in ascending or descending order by using a task property as the criterion. 
+タスクがどのように順序付けられているのか疑問に思うかもしれません。並べ替えは、タスク プロパティを基準として使用して、タスクを昇順または降順で並べ替えるのに役立ちます。 
 
-You can apply sorting only to the *List* and *Timeline* view.  
+並べ替えは、*リスト*表示と*タイムライン*表示にのみ適用できます。  
 
-In the **List** view, your tasks are ordered by their date of creation by default. This means the last task you created will be added to the bottom of the list. To change the sorting criterion, you can click/tap on a property title at the top of the list and sort tasks by ascending or descending order of *Status*, *Assignee* (name), *Start/Due Date*, *Attachments* (having or not), *Priority* (see the screenshot below). If the property you want to sort by is not there, see how to [show a property](#how-can-i-showhide-properties) in the *List* view.  
+**リスト**表示では、タスクはデフォルトで作成日順に並べられています。これは、最後に作成したタスクがリストの一番下に追加されることを意味します。並べ替え条件を変更するには、リストの上部にあるプロパティ タイトルをクリック / タップし、*状態*、*割り当て先* (名前)、*開始 / 期日*、*添付*ファイル、*優先度*などの昇順または降順でタスクを並べ替えます。下のスクリーンショットを参照してください。並べ替えるプロパティがない場合は、*リスト*表示に[プロパティを表示する方法](#how-can-i-showhide-properties)を参照してください。 
 
 <img src="../images/list-order-by-status.png" alt="A tasks list ordered by status" class="responsive-img" />
 
-In the **Timeline** view, your tasks are ordered by default. However, you can use the *Sort by* option in the overflow menu on the right. 
+**タイムライン**表示では、タスクはデフォルトで順序付けられています。ただし、右側のオーバーフロー メニューの *[並べ替え条件]* オプションを使用できます。
 
-## How can I use lists and sections?
+## リストとセクションを使用する方法
 
-In Slingshot, you can organize your tasks by using **Lists** and **Sections**.  
+Slingshot では、**リスト**と**セクション**を使用してタスクを整理できます。  
 
 <img src="../images/tasks-lists-sections.png" alt="Lists and Sections in Slingshot" class="responsive-img"/>
 
-**Sections** are simply divisions of a list. A list can have one or more sections, and a natural way to organize your list of tasks is grouping by sections.
+**セクション**はリストを分割したものです。リストには 1 つ以上のセクションを含めることができ、タスクのリストを整理する自然な方法は、セクションごとにグループ化することです。
 
-**Lists** help you organize your tasks and can be reorganized, copied, and moved around if needed.
-This is very important as it makes it easy for you to focus on your work, not planning ahead which lists or sections you need. All these changes can happen organically and were designed to boost productivity and avoid losing time.  
+**リスト**は、タスクを整理するのに役立ち、必要に応じて再編成、コピー、および移動できます。
+これは、必要なリストやセクションを事前に計画するのではなく、作業に集中できるため、非常に重要です。これらの変更は生産性を高めて時間を無駄にしないようにデザインされています。
 
-## How can I move tasks? 
+## タスクを移動する方法 
 
-You can move tasks between tasks lists in the same workspace or between lists inside different sub-workspaces under the same parent workspace. A task is always moved with all its subtasks. 
+同じワークスペース内のタスク リスト間、または同じ親ワークスペース内の異なるサブワークスペース内のリスト間でタスクを移動できます。タスクは常にすべてのサブタスクとともに移動されます。 
 
-To move a task, simply open it and click/tap the *Change* blue button right over the task name (see the screenshot below). Choose a new location by navigating to the workspace and list where you want to move your task. When finished, you will find your task at the bottom of the tasks list. 
+タスクを移動するには、タスクを開き、タスク名のすぐ上にある *[変更]* の青いボタンをクリック / タップします (下を参照)。ワークスペースに移動して新しい場所を選択し、タスクを移動する場所をリストします。完了すると、タスク リストの下部にタスクが表示されます。
 
 <img src="../images/change-button-inside-task.png" alt="Change button location" width="75%" class="responsive-img"/>
 
-Alternatively, click and hold on a task and drag it to another list. Then drop it there. You can’t use drag & drop for tasks you want to move from one sub-workspace to another. 
+または、タスクをクリックして押したまま、別のリストにドラッグします。次に、そこにドロップします。あるサブワークスペースから別のサブワークスペースに移動するタスクにドラッグアンドドロップを使用することはできません。
 
->[!NOTE] Coming Soon on mobile!
-Drag & drop tasks is currently not available on Slingshot mobile. 
+>[!NOTE] モバイルでまもなく登場!
+ドラッグアンドドロップ タスクは現在、Slingshot モバイルでは使用できません。 
 
-You **can’t move**: 
--	tasks between two parent workspaces;
--	sub-tasks separately; 
--	any tasks if you are a *viewer* of the workspace or sub-workspace, from or to which you want to move a task.
+以下の場合にタスクを**移動することはできません**: 
+-	2 つの親ワークスペース間のタスクを移動したい場合
+-	サブタスクを移動したい場合 
+-	ワークスペースまたはサブワークスペースの*閲覧者*である場合
 
-## How can I move tasks lists? 
+## タスク リストを移動する方法 
 
-You can move a full tasks list from one workspace to another. The destination workspaces need to be under the same parent workspace. You can also move a tasks list from a parent workspace to one of its sub-workspaces. 
+完全なタスク リストをあるワークスペースから別のワークスペースに移動できます。移動先ワークスペースは、同じ親ワークスペースの下にある必要があります。タスク リストを親ワークスペースからそのサブワークスペースの 1 つに移動することもできます。 
 
-To move a tasks list, select its overflow menu > *Move to Workspace* > a destination workspace > *Move*. 
+タスク リストを移動するには、オーバーフロー メニュー > *[移動]* > 移動先のワークスペース > *[移動]* を選択します。 
 
-Now, you can use the tasks list in its new workspace.
+これで、新しいワークスペースでタスク リストを使用できます。
 
-## How can I add attachments?
+## 添付ファイルを追加する方法
 
-The ability to add **Attachments** ensures that Slingshot captures all the relevant information for your tasks and subtasks.
+**添付**を追加する機能により、Slingshot はタスクとサブタスクに関連するすべての情報を確実にキャプチャします。
 
-Each task can include one or more attachments, including images, documents, or links for specific tasks and subtasks.
+各タスクには、特定のタスクやサブタスクの画像、ドキュメント、リンクなど、1 つ以上の添付ファイルを含めることができます。
 
 <img src="../images/tasks-attachments.png" alt="Displaying a Slingshot task with attachments" width="75%" class="responsive-img"/>
 
-Files attached can be opened, downloaded, or detached (unpinned) from the task.
+添付されたファイルは、開いたり、ダウンロードしたり、タスクから切り離したり (ピン固定を解除) できます。
 
 > [!NOTE]
-> Attaching files to tasks is similar to pinning files to boards. You can link content from a personal or a workspace cloud storage, in both cases attachments are never stored in Slingshot.
+> タスクへのファイルの添付は、ボードへのファイルのピン固定に似ています。個人用またはワークスペースのクラウド ストレージからコンテンツをリンクできます。どちらの場合も、添付ファイルが Slingshot に保存されることはありません。
 
-To attach a file, open a task and click/tap the clip icon as shown below.
+ファイルを添付するには、タスクを開き、以下に示すようにクリップ アイコンをクリック / タップします。
 
 <img src="../images/tasks-attachments-new.png" alt="Adding attachments to a Slingshot task" width="75%" class="responsive-img"/>
 
-## How to create a task from a discussion or a chat message?
+## ディスカッションまたはチャット メッセージからタスクを作成する方法
 
-Slingshot ensures all your communication and collaboration tools are in one place, making remote teams stay productive no matter where they are. 
+Slingshot は、すべてのコミュニケーション ツールとコラボレーション ツールが 1 つの場所にあることを保証し、リモート チームがどこにいても生産性を維持できるようにします。 
 
-Improve your productivity by creating tasks from your messages as shown below:
+以下に示すように、メッセージからタスクを作成して生産性を向上させます。
 
 <img src="../images/tasks-discussions.png" alt="Adding a new Slingshot task from a topic in a discussion" class="responsive-img"/>
 
-You can use any discussion or private/group chat message to start quickly. After selecting where you want to add your task from the message, you will have the message automatically added to the description of your new task. 
+ディスカッションまたはプライベート / グループ チャット メッセージを使用して、すばやく開始できます。メッセージからタスクを追加する場所を選択すると、新しいタスクの説明にメッセージが自動的に追加されます。
