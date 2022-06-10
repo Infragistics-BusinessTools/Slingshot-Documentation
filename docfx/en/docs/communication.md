@@ -1,3 +1,8 @@
+---
+title: Discussions in Slingshot – All You Need to Know
+_description: Create and use different type of discussion with team members and outside collaborators, in group and private chat. 
+---
+
 # Communication
 
 While collaborating in teams or projects, people from different workspaces or even from outside the organization work together. Communication here is crucial to get things done in a productive way. Slingshot's approach with discussions and private chats was designed with all this in mind.

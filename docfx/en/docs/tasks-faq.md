@@ -1,3 +1,8 @@
+---
+title: How to Use Tasks in Slingshot 
+_description: Learn all about the Tasks feature of Slingshot, how to manage, assign, create dependencies, filter and much more.
+---
+
 # Learn more about Tasks
 
 Welcome! Read on to get answers to your questions about tasks.

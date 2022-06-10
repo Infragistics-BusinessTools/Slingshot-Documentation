@@ -1,3 +1,8 @@
+---
+title: How to Use Overview in Slingshot 
+_description: Get familiar with Slingshot overviews and how to get the big picture and the details in one glance in your daily work.
+---
+
 # Overviews
 
 When working in multiple workspaces and projects you will frequently find yourself with many questions, including:

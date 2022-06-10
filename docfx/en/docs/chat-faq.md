@@ -1,3 +1,8 @@
+---
+title: How to Use the Private Chat Feature in Slingshot
+_description: Check out all you need to know about private discussions in Slingshot and how to chat with users within and outside your organization.
+---
+
 # Learn more about the Private Chat
 
 Welcome! Read on to learn more about the private chat.

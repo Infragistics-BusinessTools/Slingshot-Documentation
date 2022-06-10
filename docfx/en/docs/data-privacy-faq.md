@@ -1,3 +1,8 @@
+---
+title: Data Privacy in Slingshot – All You Need to Know 
+_description: Get to know the application of data privacy, rules per individual profile specifications and usage.
+---
+
 # Learn More about Data Privacy 
 
 Welcome! Read on to get answers to your questions about data privacy.

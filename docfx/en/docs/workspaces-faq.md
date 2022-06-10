@@ -1,3 +1,8 @@
+---
+title: Slingshot Workspaces – All You Need to Know
+_description: Get familiar with Workspaces, how to manage them, create and organize them to ensure great collaboration.
+---
+
 # Learn more about Workspaces
 
 Welcome! Read on to get answers to your questions about workspaces.
