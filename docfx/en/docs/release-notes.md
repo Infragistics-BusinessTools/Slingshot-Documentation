@@ -34,7 +34,7 @@ td {
     </tr>
     <tr>
         <td class="td1">June-2022</td>
-        <td class="td1">1.0.2451</td>
+        <td class="td1">1.0.2459</td>
         <td><span style="font-style:italic;font-size:16px">New features</span><br> 
         <ul>
          <li>New onboarding experience</li>
