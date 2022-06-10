@@ -53,8 +53,8 @@ td {
         </td>
     </tr>
         <tr>
-        <td class="td1"rowspan="2">March-2022</td>
-        <td class="td1"rowspan="2">1.0.2360</td>
+        <td class="td1" rowspan="2">March-2022</td>
+        <td class="td1" rowspan="2">1.0.2360</td>
         <td><span style="font-style:italic;font-size:16px">Slingshot release!</span><br> The first release of Slingshot is out! 
         </td>
     </tr>
