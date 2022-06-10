@@ -1,27 +1,27 @@
-# Pins
-Pins are key elements within Slingshot, that allow you to access and share relevant resources for yourself or your team. Resources that might be stored in different cloud storages or spread around the web, they can all be organized in Slingshot lists.
+# ピン固定
+ピン固定は Slingshot の重要な要素であり、ユーザー自身またはチームに関連するリソースにアクセスして共有することができます。さまざまなクラウド ストレージに保存されている、またはウェブに分散しているリソースは、すべて Slingshot リストに整理できます。
 
-## What are Pins?
-Pins are simple links to different types of resources, including files from cloud storages, URLs, and analytics dashboards. You can manage multiple lists of pins, designed to organize, manage and share your resources.
+## ピン固定の概要
+ピン固定は、クラウド ストレージ上のファイル、URL、分析ダッシュボードなど、さまざまな種類のリソースへの単純なリンクです。リソースを整理、管理、共有する目的で、ピン固定の複数のリストを管理できます。
 
 <img src="../images/pins-list.png" alt="Showing a list of pins within Slingshot" class="responsive-img"/>
 
-## How to Pin Content
-Pinning content is one of the most common ways to share resources within Slingshot. You pin files or analytics dashboards by selecting them from cloud storages, existing pins, content shared with you, or uploading from your device. To pin URLs, you just add the URL and a title.
+## コンテンツをピン固定する方法
+コンテンツのピン固定は、Slingshot 内でリソースを共有するための最も一般的な方法の 1 つです。ファイルまたは分析ダッシュボードは、クラウド ストレージや、既存のピン固定、共有されているコンテンツから選択するか、デバイスからアップロードすることでピン固定します。URL をピン固定するには、URL とタイトルを追加するだけです。
 
 <img src="../images/pin-content-action.png" alt="Pin action in Slingshot" class="responsive-img" width="30%"/>
 
-### Pinning from Anywhere
+### Slingshot の任意の場所からピン固定
 
-1. Use the “+Pin” button and then select “Content” or “Analytics”. 
-2. Navigate to the file, which can be located in your cloud storages, existing Pins within Slingshot, Dashboards locations, or Shared with Me files.
-3. Select the file you want to pin
+1. [+ ピン固定する] ボタンを使用して、[コンテンツ] または [分析] を選択します。 
+2. [クラウド ストレージ]、Slingshot 内の既存の [ピン固定]、[ダッシュボード]、または [自分と共有済み] にあるファイルに移動します。
+3. ピン固定するファイルを選択します。
 
-### Pinning by Uploading from your Device
+### デバイスからアップロードしてピン固定
 
-1.	Use the “+Pin” button and then select “Upload File”. 
-2.	After selecting the file, choose the cloud storage where you want to upload.
-3.	Finally, choose the right permissions for sharing your file.
+1.	[+ ピン固定する] ボタンを使用して、[ファイルのアップロード] を選択します。 
+2.	ファイルを選択したら、アップロードするクラウド ストレージを選択します。
+3.	最後に、ファイルを共有するための適切なアクセス許可を選択します。
 
 ### Pinning from an Existing Pin
 
@@ -29,60 +29,59 @@ Pinning content is one of the most common ways to share resources within Slingsh
 2.	Navigate to the location where you want to add the new pin.
 3.	Select the list, section, and then “Pin”.
 
-### Pinning URLs
+### URL をピン固定
 
-1.	Use the “+Pin” button and then select “URL”. 
-2.	Type or paste the URL and add/change the title if needed.
+1.	[+ ピン固定する] ボタンを使用して、[URL] を選択します。 
+2.	URL を入力または貼り付け、必要に応じてタイトルを追加 / 変更します。
 
-## Organizing your Pins
-The Pins tabs in workspaces and projects have lists of pins, which can be further organized in sections. You can use sections to add divisions and better layout your pins.
+## ピン固定を整理
+ワークスペースとプロジェクトの [ピン固定] タブにはピン固定のリストがあり、セクションを使用してさらに整理できます。セクションを使用して、ピン固定のリストを分割し、ピン固定をより適切にレイアウトできます。
 
 <img src="../images/pins-sections.png" alt="Pin action in Slingshot" class="responsive-img"/>
 
-In addition, you can easily reorganize and move lists, sections and pins just by dragging them.
+さらに、リスト、セクション、ピン固定をドラッグするだけで簡単に再編成および移動できます。
 
-In the Overviews tabs you have a single list of pins, which are meant to be key resources for your team to keep top of mind.
+[概要] タブには、チームが最重要視するべき主要なリソースを保持するための、単一のピン固定のリストがあります。
 
-## Cloud Storages
-In Slingshot, you can add new connections to the following cloud storage providers:
-- GoogleDrive
+## クラウド ストレージ
+Slingshot では、以下のクラウド ストレージ プロバイダーへの新しい接続を追加できます。
+- Google ドライブ
 - OneDrive
 - Dropbox
 - Box
 - SharePoint
 
-You can configure cloud storages for personal use or to share content with others.
+個人使用または他のユーザーとコンテンツを共有するためにクラウド ストレージを構成できます。
 
-### Connecting to your Cloud Storages
-You can add a new cloud storage from the Pin dialog or using My Cloud Storage tab.
-1. Use the “+Add” button.
-2. Select the Cloud Storage.
-3. Sign in and grant Infragistics access.
+### クラウド ストレージへの接続
+[+ ピン固定する] ダイアログまたは [クラウドストレージ] タブを使用して、新しいクラウド ストレージを追加できます。
+1. [+ 追加] ボタンを使用して、クラウド ストレージを選択します。
+2. サインインして、インフラジスティックスへのアクセスを許可します。
 
->[!NOTE] Your My Cloud Storages tab can be enabled in Main Navigation (Settings).
+>[!NOTE] [クラウド ストレージ] タブは、[設定] > [メイン ナビゲーション] で有効にできます。
 
-### Types of Files Supported
+### サポートされているファイル タイプ
 
-In Slingshot, file types are represented using different icons. The most common are:
+Slingshot では、ファイル タイプは異なるアイコンを使用して表示されます。最も一般的なものは以下のとおりです。
 
-|**ICON**|**FILE TYPE**|**ICON**|**FILE TYPE**|
+|**アイコン**|**ファイル タイプ**|**アイコン**|**ファイル タイプ**|
 |---|---|---|---|
-|![Word file icon](../images/icon-word-file.png)| Microsoft Word file|![Google Doc file icon](../images/icon-google-doc-file.png)| Google Doc file|
-|![Excel file icon](../images/icon-excel-file.png)| Microsoft Excel file|![Google Sheet file icon](../images/icon-google-sheet-file.png)| Google Sheet file|
-|![PowerPoint file icon](../images/icon-powerpoint-file.png)| Microsoft PowerPoint file|![Image file icon](../images/icon-image-file.png)|Image file|
-|![PDF file icon](../images/icon-pdf-file.png)|Adobe PDF file|![Video file icon](../images/icon-video-file.png)| Video file|
-|![Web link icon](../images/icon-web-link.png)| Web link|![Zip file icon](../images/icon-zip-file.png)| ZIP file|
+|![Word file icon](../images/icon-word-file.png)| Microsoft Word ファイル|![Google Doc file icon](../images/icon-google-doc-file.png)| Google ドキュメント ファイル|
+|![Excel file icon](../images/icon-excel-file.png)| Microsoft Excel ファイル|![Google Sheet file icon](../images/icon-google-sheet-file.png)| Google シート ファイル|
+|![PowerPoint file icon](../images/icon-powerpoint-file.png)| Microsoft PowerPoint ファイル|![Image file icon](../images/icon-image-file.png)|画像ファイル|
+|![PDF file icon](../images/icon-pdf-file.png)|Adobe PDF ファイル|![Video file icon](../images/icon-video-file.png)| ビデオ ファイル|
+|![Web link icon](../images/icon-web-link.png)| Web リンク|![Zip file icon](../images/icon-zip-file.png)| ZIP ファイル|
 
-### Using Drag and Drop
-You can use drag and drop to quickly add files or links from an external source into Slingshot's lists. The files added to Slingshot are uploaded to a folder named Slingshot uploads in the cloud storage of your preference.
+### ドラッグ アンド ドロップ
+ドラッグ アンド ドロップを使用して、外部ソースから Slingshot のリストにファイルまたはリンクをすばやく追加できます。Slingshot に追加されたファイルは、設定したクラウド ストレージの中に「Slingshot のアップロード」という名前のフォルダーを作成してそこにアップロードされます。
 
-The first time you upload a file you choose a default cloud storage to be selected automatically in the future. If needed, you can change it later in the Drag and Drop location (General Settings).
+初めてファイルをアップロードするときに、次回以降自動的に選択されるデフォルトのクラウド ストレージを選択します。必要に応じて、後で [一般設定] > [ドラッグ アンド ドロップ] の場所で変更できます。
 
-## Working with your Content
-You can open any file by clicking/tapping on it. MS Office files can be opened online or using a native app locally on your device.
-By using a file’s overflow, you can always choose how to open the file.
+## コンテンツの操作
+任意のファイルをクリック / タップすると、開くことができます。MS Office ファイルは、オンラインで開くことも、デバイスのローカル アプリを使用して開くこともできます。
+ファイルのオーバーフローメニューを使用することで、いつでもファイルを開く方法を選択できます。
 <img src="../images/pin-content-my-stuff.png" alt="Overflow options for a file" class="responsive-img"/>
 
-In addition, you can set a default method using the Open Files setting (General Settings).
+さらに、[一般設定] > [ファイルを開く] 設定を使用してデフォルトの方法を設定できます。
 
-Finally, you will be editing your files often. Depending on the platform, you can use different applications like MS Word or Excel, as Slingshot relies on invoking 3rd party applications to do the job.
+ファイルを頻繁に編集します。Slingshot はサードパーティのアプリケーションを呼び出して作業を行うため、プラットフォームに応じて、MS Word や Excel などのさまざまなアプリケーションを使用できます。
