@@ -43,6 +43,25 @@ Tasks are very important for driving the productivity of your teams and projects
 10.	**Activity**: Have threaded conversations around your tasks in context. 
 11.	**Task Dependencies**: Set clear paths to success for your projects with accountability to user's tasks. 
 
+## Task duplication
+
+Instead of creating a whole new set of tasks, you can save some time and be more productive by duplicating a task with the steps mentioned below. Keep in mind that only a parent task can be duplicated and will duplicate all the subtasks associated with it. 
+
+1.	Open **My Tasks**.
+2.	Click on the overflow menu. 
+3.	Choose **Duplicate**.
+
+<img src="../images/duplicate-tasks-option.png" alt="task duplication overflow menu" class="responsive-img"/>
+
+4.	A dialog will open, where you can choose what you want to keep when you duplicate the task. You can also change the title of the task. If  you decide to keep the same assignees, you’ll be presented with the option to notify them once the task is created.
+
+<img src="../images/duplicate-a-task-filters.png" alt="dialog with task duplication filters" width="50%" class="responsive-img"/>
+
+5.	Once you’ve saved your preferences, you will see the task field where you can make changes. 
+6.	When you are ready, you can click on **Update**. You can find the task with the subtasks in the **My Tasks** section. 
+
+<img src="../images/duplicate-task-storage.png" alt="where to find the duplicated task" class="responsive-img"/>
+
 ## Organizing Tasks  
 
 You can organize your tasks into lists to further group them together. Within lists you can also add sections to categorize your lists further. Tasks are movable with drag and drop or the change button within your task card between lists and sections.  
