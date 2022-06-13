@@ -1,30 +1,30 @@
-# Notifications
+# 通知
 
-Notifications make sure that nothing goes missed in Slingshot and keep you on top of things that need your attention.
+通知により、Slingshot で見逃しを無くし、注意が必要なことを常に把握できます。
 
 <img class="responsive-img" src="../images/notifications-example.png" alt="Showing the Notifications panel within Slingshot" class="responsive-img" width="70%" />
 
 
-## Types of Notifications
-Notifications come in the following three forms: 
-- **In-App** – Notifications displayed within the app in the Notifications panel, located in the top right (bell icon).
-- **Push** - These notifications are clickable pop-up messages displayed when you are not using the app. They will be shown on your mobile device or on your desktop screen (also called "banner" notifications).
-- **Email** - Notifications delivered to the e-mail address associated with your account.
-Customizing your Notifications
-You can easily change what you are getting notifications for in Slingshot so you only get alerted for what is most important to you. By going into your settings and then the notification tab you can edit the notification you receive. Alternatively, you can use the overflow menu in the Notifications panel.
+## 通知のタイプ
+通知は次の 3 つの形式で提供されます: 
+- **アプリ内** – 右上にある [通知] パネル (ベルのアイコン) のアプリ内に表示される通知。
+- **プッシュ** - これらの通知は、アプリを使用していないときに表示されるクリック可能なポップアップ メッセージです。「バナー」通知とも呼ばれ、モバイル デバイスまたはデスクトップ画面に表示されます。
+- **メール** - アカウントに関連付けられたメール アドレスに配信される通知。
+通知のカスタマイズ化
+Slingshot で通知を受け取る対象を簡単に変更できるため、自分にとって最も重要なものについてのみアラートを受け取ることができます。設定に移動してから [通知] タブに移動すると、受信する通知を編集できます。または、[通知] パネルのオーバーフロー メニューを使用することもできます。
 
 <img class="responsive-img" src="../images/notifications-settings.png" alt="Showing the Notifications panel within Slingshot" class="responsive-img" width="70%" />
 
-In the Notifications panel, select the pencil icon to see the details of each category or toggle on/off an entire category.
+[通知] パネルで、鉛筆アイコンを選択して各カテゴリの詳細を表示するか、カテゴリ全体のオン / オフを切り替えます。
 
-Additionally, you can restore the default settings with the Reset to default option at the very bottom.
+さらに、一番下にある [デフォルトにリセット] オプションを使用して、デフォルト設定を復元できます。
 
-## Using the Notifications Panel
-Here you will find updates about workspaces, tasks, messages, mentions, and analytics dashboards. This will keep you up to date with on tasks that have been assigned to you, if you were removed from a workspace, or even if someone sent a message in a discussion thread you're following.
-You can access the Notifications panel by clicking the bell icon in the top right corner.
+## [通知] パネルの使用
+ここでは、ワークスペース、タスク、メッセージ、メンション、および分析ダッシュボードに関する最新情報を確認できます。これにより、ワークスペースから削除されたとき、フォローしているディスカッション スレッドで誰かがメッセージを送信したとき、自分に割り当てられたタスクがあるときなど、最新の状態に保つことができます。
+右上隅のベル アイコンをクリックすると、[通知] パネルにアクセスできます。
 
-Within the Notifications panel, notifications are shown in groups that you can mute/unmute or mark as read/unread each group separately by using the overflow menu on the right.
+[通知] パネル内に、通知はグループで表示され、右側のオーバーフロー メニューを使用して、各グループを個別にミュート / ミュート解除または既読 / 未読としてマークできます。
 
 <img class="responsive-img" src="../images/notifications-overflow-settings.png" alt="Showing the Notifications overflow settings within Slingshot" class="responsive-img" width="30%" />
 
-The Notifications panel shows all notifications by default, but you can choose to see only Unread notifications or @mentions. To do this, go to the top of the panel and select Showing: All to open the dropdown and then select another value.
+[通知] パネルにはデフォルトですべての通知が表示されますが、未読の通知または @メンションのみを表示するように選択できます。これを行うには、パネルの上部に移動し、[表示中: すべて] を選択してドロップダウンを開き、別の値を選択します。
