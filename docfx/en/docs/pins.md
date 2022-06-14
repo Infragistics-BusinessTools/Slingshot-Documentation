@@ -15,7 +15,7 @@ Pinning content is one of the most common ways to share resources within Slingsh
 
 1. Use the “+Pin” button and then select “Content” or “Analytics”. 
 2. Navigate to the file, which can be located in your cloud storages, existing Pins within Slingshot, Dashboards locations, or Shared with Me files.
-3. Select the file you want to pin
+3. Select the file you want to pin.
 
 ### Pinning by Uploading from your Device
 
