@@ -23,7 +23,7 @@ steps:
   displayName: Clear npm cache
   condition: ne(variables['cleanNpmCache'], 'false')
   inputs:
-    script: 'npm cache clear –force'
+    script: 'npm cache clear -–force'
 - task: CmdLine@2
   displayName: "Npm install" 
   inputs:
