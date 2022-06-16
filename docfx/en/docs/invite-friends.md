@@ -6,23 +6,27 @@ You can not only reach out to your team members via the app, but you can also me
 
 With the Invite Friends feature, you can introduce your friends to Slingshot so you can start collaborating with them in no time.
 
-<img src="../images/invite-friends-feature.png" alt="Showing where the invite friends button is" class="responsive-img"/>
+ <img src="../images/invite-friends-feature.png" alt="Showing where the invite friends button is" width="40%" class="responsive-img"/>
 
 ## How can I invite Friends?
 
 *Mobile*
 
 1.	Click/tap on your profile picture in the upper right corner.
+
 2.	Click on **Invite Friends**.
+
 3.	A share dialog will open up, where you can choose how to send the link (e.g. via text, email or an app)
 
 *Web/Desktop app*
 
 1.	Click/tap on your profile picture in the upper right corner.
+
 2.	Click on **Invite Friends**.
+
 3.	A dialog with a list of different email clients will open. You can choose a client and log in to your account or add a new account. 
 
-<img src="../images/invite-friends-dialog-email-clients.png" alt="Dialog with different email clients" class="responsive-img"/>
+ <img src="../images/invite-friends-dialog-email-clients.png" alt="Dialog with different email clients" width="70%" class="responsive-img"/>
 
 4.	Once you’ve logged in, you’ll be able to send the link to Slingshot to your friend. After that you friend can log in to their account and check out the page.
 
