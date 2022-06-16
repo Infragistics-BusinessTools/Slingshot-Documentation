@@ -20,6 +20,11 @@ steps:
     Contents: |
       package-lock.json
 - task: CmdLine@2
+  displayName: Clear npm cache
+  condition: $(cleanNpmCache) -ne "false"
+  inputs:
+    script: 'npm cache clear –force'
+- task: CmdLine@2
   displayName: "Npm install" 
   inputs:
     script: 'npm install'
