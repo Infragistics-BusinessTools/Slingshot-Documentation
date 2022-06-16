@@ -21,7 +21,7 @@ steps:
       package-lock.json
 - task: CmdLine@2
   displayName: Clear npm cache
-  condition: $(cleanNpmCache) -ne "false"
+  condition: ne(variables['cleanNpmCache'], 'false')
   inputs:
     script: 'npm cache clear –force'
 - task: CmdLine@2
