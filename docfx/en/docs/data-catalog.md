@@ -38,9 +38,11 @@ By default you will find "Pending for Review" and another list, most likely call
 ## Filtering the Data Catalog
 Using filters allows you to view a set of dashboards or data sources that meet a certain criteria.
 
-To access the Filters editor just click/tap the filter icon (top right of the screen), next to the overflow.
+To access the Filters editor just click/tap on the filter icon (top right of the screen), next to the overflow. Alternatively, you can click/tap on the *+Filter* button.
 
 To stop filtering dashboards or data sources, click/tap the filter icon to open the Filters dialog. Then, select the Clear button at the bottom to remove the current filters, and Apply to save your changes.
+
+<img src="../images/data-sources-filters.png" alt="Different filters in the data catalog" width="40%" class="responsive-img"/>
 
 ## Organizing the Data Catalog
 
