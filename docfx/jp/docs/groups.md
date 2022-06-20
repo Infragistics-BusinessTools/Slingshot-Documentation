@@ -1,27 +1,25 @@
-# Groups
+# グループ
 
-Groups in Slingshot enable you to work faster with a set of people that share a common purpose. Typical examples include Product leads, Designers in your Marketing team, the Executive Team, etc. With groups you can @mention in discussions, invite to workspaces, assign tasks and share dashboards faster with a set of people.
+Slingshot のグループを使用することで、共通の目的を持つユーザーのグループとの作業が高速化されます。一般的な例としては、製品リード、マーケティング チームのデザイナー、エグゼクティブ チームなどがあります。グループでディスカッションに参加したり、ワークスペースに招待したり、タスクを割り当てたり、ダッシュボードをすばやく共有したりできます。
 
 <img class="responsive-img" src="../images/groups-starting.png" alt="Showing groups within Slingshot" class="responsive-img"/>
 
-## What can you do with a Group?
-Groups can make your life easy in many ways, including:
-- Invite a group of people to a workspace or project, instead of individuals only.
-- Assign a group of people to a task.
-- Start a chat or a discussion with a group.
-- Share a file, pin or other resource with the group.
+## グループを使用してできること
+グループを使用すると、次のようなさまざまな方法で作業を簡単にすることができます。
+- 個人だけではなく、グループをワークスペースまたはプロジェクトに招待します。
+- グループをタスクに割り当てます。
+- グループでチャットまたはディスカッションを開始します。
+- ファイル、ピン固定、またはその他のリソースをグループと共有します。
 
-## How to Create a Group
-Creating a new group in Slingshot can be done is just a few easy steps!
+## グループを作成する方法
+Slingshot での新しいグループの作成は、ほんの数ステップで実行できます。
 
-1. Go to the left navigation and move the toggle from Workspaces to Groups
-2. Select the “+ Add” button.
-3. Then enter a name for your group and start adding members.
-4. Select “create” and that’s it!
+1. 左側のナビゲーションに移動し、トグルを [ワークスペース] から [グループ] に移動します。
+2. [+追加] ボタンを選択します。
+3. グループの名前を入力し、メンバーを追加します。
+4. [作成] を選択します。
 
-[image of the left navigation showing groups]
-
-## Group Members and Permissions
-Within Groups, there are two types of permissions:
-- **Admin** – By default the person who created the group is set as the admin. Only the admin can change permissions of members and remove them.
-- **Member** – Has access to everything related to the group, but can’t add new members or delete the group.
+## グループ メンバーとアクセス許可
+グループ内には、次の 2 種類のアクセス許可があります。
+- **管理者** - デフォルトでは、グループを作成した人が管理者として設定されます。管理者のみがメンバーのアクセス許可を変更および削除できます。
+- **メンバー** - グループに関連するすべてにアクセスできますが、新しいメンバーの追加やグループの削除はできません。

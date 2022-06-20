@@ -1,74 +1,74 @@
-# Getting Started with Slingshot
+# Slingshot をはじめよう
 
-Slingshot is the only digital workplace that brings together all the tool you need to run high performing teams such as – project management, data analytics, content management and team collaboration.
+Slingshot は、プロジェクト管理、データ分析、コンテンツ管理、チーム コラボレーションなど、高パフォーマンスのチームを運営するために必要なすべてのツールを統合した唯一のデジタル ワークプレースです。
 
-For a seamless onboarding experience, you should first become familiar with the basic structure and features. In the top left of your main navigation panel, you have the following:  
+シームレスなオンボーディングには、基本的な構造と機能を理解しておく必要があります。メイン ナビゲーショ ンパネルの左上には以下の項目があります。  
 
-- **My Overview**: Serve as a high-level area where you can quickly access bookmarks, see priorities and messages you need to catch up on.
-- **My Tasks**: Pulls together all of the tasks that are assigned to you in Slingshot, from any workspace or project. You can create custom filters that will allow you to prioritize and manage your work across different teams, departments, and projects.
-- **Shared with Me**: Quick access to anything in Slingshot that has been shared with you. You can share, dashboards, lists, discussions, and more.
-- **My Analytics**: Gain deeper insights than ever before with self-service business intelligence. Build dashboards right from the data sources you use every day, access your organizations data catalog and much more. 
-    - *Data Catalogs*: Find the most trustful information about your company, accesssing data that is categorized and certified.
-- **My Pins**: Contains all your links to different to resources, including files from cloud storages, URLs, and analytics dashboards.
+- **概要**: ブックマーク、優先されるタスクやメッセージに素早くアクセスできるハイレベルなエリアとして機能します。
+- **マイ タスク**: Slingshot で割り当てられたすべてのタスクを任意のワークスペースまたはプロジェクトからまとめます。他のチーム、部署、プロジェクトにまたがる仕事の優先順位を付けて管理するカスタム フィルターを作成できます。
+- **自分と共有済み**: Slingshot で共有した項目にすばやくアクセスできます。共有、ダッシュボード、リスト、ディスカッションなどが可能です。
+- **分析**: セルフサービスのビジネス インテリジェンスにより、これまで以上に深い洞察を得ることができます。毎日使用するデータ ソースからダッシュボードを作成し、組織のデータ カタログなどにアクセスできます。 
+    - **データ カタログ**: 分類、認証されたデータにアクセスして、自社について最も信頼できる情報を検索します。
+- **ピン固定**: クラウド ストレージからのファイル、URL、分析ダッシュボードなど、リソースへのすべてのリンクが含まれます。
 
->[!NOTE] Data Catalogs is an Enterprise level feature.
+>[!NOTE] データ カタログは Enterprise レベルの機能です。
 
 <img src="../images/getting-started-quick-access.png" alt="Slingshot's quick access features" class="responsive-img"/>
 
-After your quick access features Slingshot has three tabs for your workspaces, bookmarks & groups:  
+クイック アクセス機能の実行後、Slingshot に はワークスペース、ブックマーク、グループの 3 つのタブがあります。  
 
-- **Workspaces**: This is a place for your teams and groups of people to come together to work on projects and initiatives. Workspaces contain:  
+- **ワークスペース**: チームやグループでプロジェクトやイニシアチブに取り組む場所です。ワークスペースには以下が含まれます。  
 
-    - *Projects*: Live underneath the workspace to organize your tasks, content, dashboards and conversations further. Projects will also have their own overviews.  
-    - *Tasks*: Create and organize tasks for your teams and projects.  
-    - *Discussions*: Have conversions where members or your workspaces and organizations can participate and stay in the know. 
-    - *Pins*: Bring URLs, files and documents together in context of your workspaces or organization from any cloud provider (Google Drive, OneDrive, SharePoint, Box, DropBox).
-    - *Dashboards*: Add dashboards to workspaces and projects to ensure data-driven decisions.  
-    - *Data sources*: Add data sources that members of workspaces or projects need to have access too.
+    - **プロジェクト**: ワークスペースの下に配置し、タスク、コンテンツ、ダッシュボード、会話をさらに整理します。プロジェクトにもそれぞれの概要があります。  
+    - **タスク**: チームやプロジェクトのタスクを作成して整理します。  
+    - **ディスカッション**: メンバーまたはワークスペースや組織が参加できるコンバージョンを用意し、情報を把握できるようにします。 
+    - **ピン固定**: あらゆるクラウド プロバイダー (Google Drive、OneDrive、SharePoint、Box、DropBox) からワークスペースまたは組織のコンテキストで URL、ファイル、ドキュメントをまとめます。
+    - **ダッシュボード**: ダッシュボードをワークスペースおよびプロジェクトに追加して、データに基づいた意思決定を行います。  
+    - **データ ソース**: ワークスペースまたはプロジェクトのメンバーがアクセスする必要があるデータ ソースを追加します。
 
-- **Bookmarks**: Keep your most important documents, dashboards, conversations and more, one click away by bookmarking anything in Slingshot.  
+- **ブックマーク**: Slingshot でブックマークを作成すると、重要なドキュメント、ダッシュボード、会話などをワンクリックで保存できます。  
 
-- **Groups**: Create groups so you can mention, invite and share information faster with a set of people.  
+- **グループ**: グループを作成して、情報にすばやくメンション、招待、情報を共有できます。  
 
->[!NOTE] Groups are an Enterprise only feature.
+>[!NOTE] グループは Enterprise だけの機能です。
 
 <img src="../images/getting-started-tabs.png" alt="Slingshot's tabs on the left menu" class="responsive-img"/>
 
-If you are part of an Organization, it is listed as the first item under Workspaces. Organizations are a way for your entire company to have transparent discussions, access to content and data through your company data catalog. It is also useful for managers and leaders to communicate key goals, metrics, strategies, and important announcements and resources throughout their organization. The Organization workspace is named after your organization (your company's name).
+組織に属している場合、[ワークスペース] の最初の項目として表示されます。組織とは、企業のデータ カタログを通じて、透明性のあるディスカッション、コンテンツおよびデータへのアクセスを企業全体に提供する方法です。また、マネージャーやリーダーが組織全体で重要な目標、指標、戦略、重要な発表やリソースを伝えるのにも役立ちます。組織ワークスペースは、組織 (会社名) に基づいて名前が付けられます。
 
->[!NOTE] Organizations are an Enterprise only feature.
+>組織は Enterprise だけの機能です。
 
-On the top right area of Slingshot you will find the following features:  
+Slingshot の右上には以下の機能があります。  
 
-- **Emily**: Slingshot’s personal AI assistant is filled with onboarding tips and tricks, guides and tours, and will be there to help you along your Slingshot journey.  
+- **Emily**: Slingshot のパーソナル AI アシスタントには、オンボードのヒントやコツ、ガイドやツアーがあり、Slingshot の旅をサポートします。  
 
-- **Notifications**: Never miss a beat with real time notifications.  
+- **通知**: リアルタイムの通知で見逃すことはありません。  
 
-- **Chat**: Privately chat 1 on 1 or with a group of other users of Slingshot – within or outside of your organization.   
+- **チャット**: 1 対 1、または組織内外の Slingshot の他のユーザーグループとプライベート チャットが可能です。   
 
-- **Your Avatar**: Update your profile, access settings, and much more from behind your avatar icon.  
+- **アバター**: アバター アイコンからプロフィールやアクセス設定などを更新できます。  
 
 <img src="../images/getting-started-top-right.png" alt="Slingshot's features on the top right" class="responsive-img"/>
 
-Get a high-level overview of Slingshot and a glimpse into all of the different features in our Slingshot Product Tour video.  
+Slingshot の概要を説明し、Slingshot 製品ツアー ビデオでさまざまな機能を紹介します。  
 
 > [!Video https://www.youtube.com/embed/s5HRJE_iFPI]
 
-## Logging into Slingshot  
-When you first launch the Slingshot application you are welcomed with the following sign in options:
+## Slingshot へのログイン
+Slingshot アプリケーションを初めて起動すると、以下のサインイン オプションが表示されます。
  - Apple
  - Google
  - Microsoft
  - Infragistics
 
-Using your business Google or Microsoft log ins will give you additional benefits such as contact syncing.
+Google または Microsoft のログインを使用すると、連絡先の同期などの利点があります。
 
-Before jumping in, let’s first run through the advantages to the different log ins.  
-Slingshot was built on top of Microsoft and Google making it the perfect tool to integrate into your tech stack. Using your business email with one of these providers comes with 3 main advantages:  
+ログインする前に、さまざまなログインの利点を見てみましょう。  
+Slingshot は Microsoft と Google の上に構築されているため、技術スタックに直接統合するのに最適なツールです。これらのプロバイダーのいずれかでビジネス用メールを使用することには、3 つの主な利点があります。  
 
-1.	All your contacts will be synced and brought into Slingshot making it easier to start inviting users to your workspaces, chat with them and assign them tasks.  
-2.	Your respective cloud storage provider will automatically be added so you can start pinning and attaching files or create dashboards from any excel file.  
-3.	You will automatically be added to your associated organization.  
+1.	すべての連絡先が同期されて Slingshot に追加されるため、ワークスペースへのユーザーの招待、チャット、タスクの割り当てが簡単になります。  
+2.	各クラウドストレージ プロバイダーが自動的に追加されるため、ファイルのピン固定や添付を開始したり、Excel ファイルからダッシュボードを作成したりできます。  
+3.	関連付けられた組織に自動的に追加されます。  
 
 
 

@@ -1,91 +1,91 @@
-# Learn More about File Permissions
+# ファイル アクセス許可の詳細
 
-Welcome! Read on to get answers to your questions about files permissions.
+ようこそ！このトピックは、ファイルのアクセス許可に関する詳細を紹介します。
 
-## How is file security granted in Slingshot?
+## Slingshot でファイル セキュリティはどのように許可されますか？
 
-When [pinning files](content-boards.html#working-with-your-content-in-slingshot) to a content board to share them with others, you may be concerned with different aspects of security. Will sensitive business information be seen by someone inappropriate? Can other users delete your file? Who can edit it?
+[ファイルをコンテンツ ボードにピン固定して](content-boards.html#working-with-your-content-in-slingshot)他のユーザーと共有する場合、セキュリティのさまざまな側面に注意する必要があります。機密情報は外部の人に見られていませんか？他のユーザーがあなたのファイルを削除できますか？ファイルを編集できるユーザーは?
 
-Slingshot grants you file security by allowing you to **choose who can access your file**.  
- Also, Slingshot does not store any files, but lets you connect to cloud storages of your preference to get access to your files. This means only you and people trusted by you will get access. And it also means Slingshot builds upon cloud storages security to keep your files safe. For more information go to [File Permissions FAQ](file-permissions-faq.md).
+Slingshot では、**ファイルにアクセスできるユーザーを選択できる**ため、ファイルのセキュリティが確保されます。  
+ また、Slingshot はファイルを保存しませんが、好みのクラウド ストレージに接続してファイルにアクセスできます。これは、あなたとあなたの信頼できる人だけがアクセスできることを意味します。また、Slingshot はクラウド ストレージのセキュリティに基づいてファイルの安全性を確保します。詳細については、ファイルのアクセス許可に関する [FAQ](file-permissions-faq.md) を参照してください。
 
->[!NOTE] Other users **cannot delete** a file you pinned to a board. Boards are only containers that keep connections to a cloud provider where your file is located. Owners and members of the workspace, however, can delete the connection by *unpinning* the file.
+>[!NOTE] あなたがボードにピン固定したファイルは他のユーザーは**削除できません**。ボードは、ファイルがあるクラウド プロバイダーへの接続を保持するコンテナーです。ただし、ワークスペースの管理者およびメンバーは、ファイルの*ピン固定を解除して*接続を削除できます。
 
-## How can I set file permissions?
+## ファイルのアクセス許可を設定する方法
 
-When you share files inside workspaces, you make these files available for the users inside the workspace. 
+ワークスペース内のファイルを共有すると、ワークスペース内のユーザーがこれらのファイルを使用できるようになります。 
 
-File permissions are meant to give the file owner control over who can access their files. Giving access through Slingshot means other users can: 
+ファイルのアクセス許可は、ファイルの管理者がファイルにアクセスできるユーザーを制御します。Slingshot を介してアクセスを許可すると、他のユーザーは以下を実行できます: 
 
-- open, 
-- and edit the file.
+- ファイルを開く 
+- そして編集することです。
 
-Each time you pin a file, Slingshot will open the *File Permissions* dialog and ask you what type of permissions you prefer (see below).
+ファイルをピン固定するたびに、Slingshot は **[ファイルのアクセス許可]** ダイアログを開き、アクセス許可のタイプを確認します (以下を参照)。
 
 <img src="../images/file-permissions-dialog.png" alt="A dialog showing the three file permission types" width="75%" class="responsive-img" />
 
-Here, you can choose between the following three permission types:
+こちらでは、以下の 3 つの許可タイプから選択できます。
 
- - **All Can Access** 
- - **Automatic Access** 
- - **Request Access** 
+ - **すべてのユーザーがアクセス可能** 
+ - **自動アクセス** 
+ - **アクセスの要求** 
 
-## What do the different file permissions mean? 
+## それぞれのファイル アクセス許可の意味 
 
-**Request Access** is the default and most restrictive. It means anyone who tries to open the file for the first time has to request access to the file owner. The file owner will receive an email, prompting them to *grant* or *deny* access. By granting access, the owner of the file gives permissions to the user to open and edit the file. 
+**[アクセスのを要求]** はデフォルトで最も制限が多いものです。つまり、初めてファイルを開こうとする場合、ファイルの管理者へのアクセスの要求必要があります。ファイルの管理者は、アクセスの**許可**または**拒否**をするよう促すメールを受信します。アクセスを許可することにより、ファイルの管理者はユーザーにファイルを開いて編集する許可を与えます。 
 
-The file owner can also pre-allow access for chosen workspace's members by using the **Manage Access** option in the *File Permissions* dialog. 
+ファイルの管理者は、**[ファイルのアクセス許可]** ダイアログの **[アクセスの管理]** オプションを使用して、選択したワークスペースのメンバーにアクセスを事前に許可することもできます。 
 
-**Automatic Access** is great when you want all your workspace collaborators to have quick access to your file. If you choose *Automatic Access*, all workspace members will be to open and edit the file without asking the owner explicitly for access.  
+**[自動アクセス]** は、すべてのワークスペース共同編集者がファイルにすばやくアクセスできるようにする場合に便利です。**自動アクセス**を選択した場合、ワークスペースのすべてのメンバーは、管理者にアクセスを明示的に要求せずにファイルを開いて編集します。  
 
-> [!NOTE] You can change the default file permission type by selecting the *Remember my choice* checkbox. 
+> [!NOTE] デフォルトのファイル許可タイプを変更するには、**[現在の選択を保存する]** チェックボックスを選択します。 
 
-**All Can Access** is the least restrictive option. Anyone can open and edit your file. Even users who are not members of the workspace will be able to access it if they have a link to where it is located. However, you can always switch to a more restrictive type of permissions. In this case, the link to the file will not be valid anymore for any user outside of the workspace.
+**[すべてのユーザーがアクセス可能]** は最も制限の少ないオプションです。すべてのユーザーがファイルを開いて編集できます。ワークスペースのメンバーではないユーザーでも、ワークスペースの場所へのリンクがある場合はアクセスできます。ただし、より制限の多いタイプのアクセス許可にいつでも切り替えることができます。この場合、ワークスペース以外のユーザーはファイルへのリンクが無効になります。
 
 > [!NOTE]
-> Users who want to access a file uploaded to a cloud file provider need not only permissions in Slingshot but also a valid account with that cloud provider. For example, when you try to open a file from *OneDrive* shared by another user, you will be asked to log into your *OneDrive* account. If you don't have an account with *OneDrive*, Slingshot will deny access. This **does not apply** when the file has public permissions, and you open it in a browser. 
+> クラウド ファイル プロバイダーにアップロードされたファイルにアクセスするユーザーは、Slingshot の許可だけでなく、そのクラウド プロバイダーの有効なアカウントも必要です。たとえば、他のユーザーが共有している *OneDrive* からファイルを開こうとすると、*OneDrive* アカウントにログインするよう求められます。*OneDrive* のアカウントがない場合、Slingshot はアクセスを拒否します。これは、ファイルにパブリック アクセス許可があり、ブラウザーで開いた場合は**適用されません**。 
 
-Find out how file permissions apply when sharing a file in the chat by reading [How Can I Share a File in the Chat?](chat-faq.html#how-can-i-share-a-file-in-the-chat). 
+チャットでファイルを共有するときにファイル許可が適用される方法については、[「チャットでファイルを共有する方法」](chat-faq.html#how-can-i-share-a-file-in-the-chat) を参照してください。 
 
-## Can I control who has rights to edit my file?
+## ファイルを編集する許可を持つユーザーを制御できますか？
 
-Each user whom you grant access in Slingshot can both open and edit your file. However, you can revoke editing permissions anytime. You have two possibilities. 
+Slingshot でアクセスを許可した各ユーザーは、ファイルを開いて編集できます。ただし、編集許可はいつでも取り消すことができます。2 つの方法があります。 
 
-1. You can revoke the edit permissions to the file through your cloud storage provider - <a href="https://support.microsoft.com/en-us/office/share-files-and-folders-in-onedrive-personal-3fcefa26-1371-401e-8c04-589de81ed5eb" target="_blank">OneDrive</a>, <a href="https://support.google.com/docs/answer/2494893#zippy=%2Cstop-sharing-a-file-or-folder" target="_blank">Google Drive</a>, <a href="https://help.dropbox.com/files-folders/share/set-folder-permissions" target="_blank">Dropbox</a>, <a href="https://support.box.com/hc/en-us/articles/360044196413-Understanding-Collaborator-Permission-Levels" target="_blank">Box</a>, and <a href="https://support.microsoft.com/en-us/office/customize-permissions-for-a-sharepoint-list-or-library-02d770f3-59eb-4910-a608-5f84cc297782" target="_blank">SharePoint.</a>
-2. You can stop granting access to the file to selected users by using the settings in Slingshot. See how to manage file permissions in Slingshot below.  
+1. クラウド ストレージ プロバイダー (<a href="https://support.microsoft.com/en-us/office/share-files-and-folders-in-onedrive-personal-3fcefa26-1371-401e-8c04-589de81ed5eb" target="_blank">OneDrive</a>、<a href="https://support.google.com/docs/answer/2494893#zippy=%2Cstop-sharing-a-file-or-folder" target="_blank">Google Drive</a>、<a href="https://help.dropbox.com/files-folders/share/set-folder-permissions" target="_blank">Dropbox</a>、<a href="https://support.box.com/hc/en-us/articles/360044196413-Understanding-Collaborator-Permission-Levels" target="_blank">Box</a>、および <a href="https://support.microsoft.com/en-us/office/customize-permissions-for-a-sharepoint-list-or-library-02d770f3-59eb-4910-a608-5f84cc297782" target="_blank">SharePoint</a>) からファイルの編集許可を取り消すことができます。
+2. Slingshot の設定を使用して、選択したユーザーへのファイル アクセスの許可を停止できます。以下の Slingshot でファイルのアクセス許可を管理する方法を参照してください。  
 
-## How can I manage file permissions in Slingshot?
+## Slingshot でファイルのアクセス許可を管理する方法
 
-You can always view and edit the permissions to your files in Slingshot. You can also manage the members that already have access.  
+Slingshot でファイルのアクセス許可をいつでも表示および編集できます。すでにアクセスできるメンバーを管理することもできます。  
 
-To view/edit the permissions on a file, go to its overflow menu and select **File Permissions** (see below). 
+ファイルのアクセス許可を表示/編集するには、オーバーフロー メニューから **[ファイルのアクセス許可]** を選択します (以下を参照)。 
 
 <img src="../images/manage-access-options.png" alt="Files options to manage access" class="responsive-img" />
 
-To view/edit who can access the file, click/tap **Member Access**. In the dialog that is displayed (see below), you can see all members who can view and edit the file as well as the pending requests for access.
+ファイルにアクセスできるユーザーを表示/編集するには、**[メンバー アクセス]** をクリック/タップします。表示されるダイアログ (以下を参照) には、ファイルを表示および編集できるすべてのメンバー、および保留中のアクセス要求が表示されます。
 
 <img src="../images/manage-members-dialog.png" alt="Members who can access dialog" class="responsive-img" />
 
-Use the **+ Members** blue button to pre-allow access for chosen users who can view and edit the file without  asking you explicitly.
+**[+追加]** 青いボタンを使用すると、明示的に確認せずにファイルを表示および編集できる選択したユーザーにアクセスを事前に許可します。
 
 >[!NOTE]
-> You cannot pre-allow access to files for users who are not part of the workspace. 
+> ワークスペースに含まれていないユーザーのファイルへのアクセスを事前に許可することはできません。 
 
-On the right of each member's name, you can click/tap **Editor** > **Remove** to revoke access. 
+各メンバーの名前の右側で、**[編集者/閲覧者]** > **[削除]** をクリック/タップしてアクセスを取り消すことができます。 
 
->[!NOTE] **Access  cannot be automatically revoked.**  Users who have already opened the file even once, are added as *Editors* and their access will not be automatically revoked with changing the file permissions to the more restrictive type. So, if you change a file's permissions from *Automatic Access* to *Request Access* make sure you check for *Editors* in **Member Access** and revoke their permissions if necessary.
+>[!NOTE] **アクセスを自動的に取り消すことはできません。**  一度ファイルを開いたことがあるユーザーは<*編集者*として追加され、ファイルのアクセス許可をより制限されたタイプに変更してもアクセスは自動的に取り消されません。ファイルのアクセス許可を *[自動アクセス]* から [アクセスの要求] に変更する場合、**[メンバー アクセス]** で **[編集者]** を確認し、必要に応じてアクセス許可を取り消します。
 
-## How do file permissions work in the discussions and the chat? 
+## ディスカッションおよびチャットでファイルのアクセス許可はどのように機能しますか？ 
 
-Sometimes you need to share files pinned to a board with people who are not part of the workspace. Slingshot allows you to do this, by: 
+ボードにピン固定したファイルをワークスペースに参加していない人と共有する必要がある場合があります。Slingshot では、次の方法でこれを実行できます。 
 
-1. sending a link to the file in a discussion or chat, or 
-2. by starting a chat or a discussion directly from a pinned file. You can find the *Start a discussion* or *Start a Chat* option in the overflow menu of the file.
+1. ディスカッションまたはチャットでファイルへのリンクを送信するか、あるいは 
+2. ピン固定ファイルからチャットやディスカッションを直接開始できます。ファイルのオーバーフロー メニューに *[ディスカッションを開始]* または *[チャットを開始]* オプションがあります。
 
     <img src="../images/start-chat-from-file.png" alt="Start a Private Chat option in the pinned file overflow" class="responsive-img">
 
-Keep in mind that the file owner decides whether the file will be accessible to users outside of the workspace with the file permissions they set. 
-Depending on the file permissions, there are two scenarios when you try to share a file in the chat or in a discussion.
+ファイルの管理者は、設定したファイルのアクセス許可でワークスペース以外のユーザーがファイルにアクセスできるかどうかを決定することに注意してください。 
+ファイルのアクセス許可に応じて、チャットまたはディスカッションでファイルを共有する際に 2 つのシナリオがあります。
 
-- *Request Access* permissions - you can still share the file with another user in a discussion or chat, but they will have to ask the owner of the file for permissions the first time they try to open it.
-- *Automatic Access* or *All Can Access* - you can share the file in a discussion or chat and the other user can open it freely. The owner of the file can revoke their access anytime.
+- **[アクセスの要求]** - ディスカッションまたはチャットで他のユーザーとファイルを共有できますが、最初にファイルを開こうとしたときにファイルの管理者に許可を求める必要があります。
+- **[自動アクセス]** または **[すべてがアクセス可能]** - ディスカッションまたはチャットでファイルを共有し、他のユーザーが自由に開くことができます。ファイルの管理者はいつでもアクセスを取り消すことができます。
