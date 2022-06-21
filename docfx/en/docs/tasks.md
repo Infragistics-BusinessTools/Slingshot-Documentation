@@ -34,7 +34,7 @@ Subtasks can be created from inside the task card or from the parent task's over
 
 Tasks are very important for driving the productivity of your teams and projects. Your task card has the following fields:  
 
-<img src="../images/tasks-fields-highlight.png" alt="Task fields highlighted within Slingshot" width="55%" class="responsive-img"/>
+<img src="../images/tasks-fields-highlight.png" alt="Task fields highlighted within Slingshot" width="60%" class="responsive-img"/>
 
 1.	**Task Title**: Set a clear title for your tasks.  
 2.	**Assignee(s)**: Assign either one person, multiple, group or workspace to a task.  
@@ -67,7 +67,7 @@ Instead of creating a whole new set of tasks, you can save some time and be more
 5.	Once you’ve saved your preferences, you will see the task field where you can make changes. 
 6.	When you are ready, you can click on **Update**. You can find the task with the subtasks in the **My Tasks** section. 
 
- <img src="../images/duplicate-task-storage.png" alt="where to find the duplicated task" width="70%" class="responsive-img"/>
+ <img src="../images/duplicate-task-storage.png" alt="where to find the duplicated task" width="78%" class="responsive-img"/>
 
 ## Organizing Tasks  
 
