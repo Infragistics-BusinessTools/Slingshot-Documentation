@@ -41,6 +41,9 @@
 - name: Groups
   href: groups.md
   new: false
+- name: Onboarding
+  href: onboarding.md
+  new: true
 - name: Productivity Flows
   href: productivity-flows.md
   new: false
