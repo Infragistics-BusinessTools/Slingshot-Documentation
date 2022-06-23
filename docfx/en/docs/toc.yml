@@ -51,6 +51,9 @@
   href:
 - name: SETTINGS
   header: true
+- name: Feedback
+  href: feedback.md
+  new: false
 - name: User Account & Settings
   href: user-account.md
   new: false
