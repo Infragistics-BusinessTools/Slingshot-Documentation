@@ -1,71 +1,71 @@
-- name: GETTING STARTED
+- name: 作業の開始
   header: true
-- name: Welcome to Slingshot
+- name: Slingshot へようこそ
   href: welcome-slingshot.md
   updated: false
-- name: Getting Started with Slingshot
+- name: Slingshot をはじめよう
   href: getting-started-slingshot.md
   updated: false
-- name: FEATURES
+- name: 機能
   header: true
-- name: Workspaces
+- name: ワークスペース
   href: workspaces.md
   updated: false
-- name: Overviews
+- name: 概要
   href: overviews.md
   new: false
-- name: Tasks
+- name: タスク
   href: tasks.md
   updated: false
-- name: Pins
+- name: ピン固定
   href: pins.md
-- name: Data Catalog
+- name: データ カタログ
   href: data-catalog.md
   new: false
   items:
-    - name: Certifications
+    - name: 認証
       href: certifications.md
-    - name: Data Sources Advanced Information
+    - name: データ ソースの詳細情報
       href: metadata-advanced-editing.md
-- name: My Analytics
+- name: 分析
   href: analytics/toc.yml
   topicHref: analytics/index.md
-- name: Communication
+- name: コミュニケーション
   href: communication.md
   items:
-    - name: Discussions
+    - name: ディスカッション
       href: discussions-faq.md
-    - name: Chat
+    - name: チャット
       href: chat-faq.md
       updated:  false
-- name: Groups
+- name: グループ
   href: groups.md
   new: false
-- name: Productivity Flows
+- name: 生産性フロー
   href: productivity-flows.md
   new: false
-- name: Search
+- name: 検索
   href: search.md
   updated:  false
-- name: Bookmarks (Coming Soon)
+- name: ブックマーク (Coming Soon)
   href:
-- name: SETTINGS
+- name: 設定
   header: true
-- name: User Account & Settings
+- name: ユーザー アカウントと設定
   href: user-account.md
   new: false
   items:
-    - name: User Account FAQ
+    - name: ユーザー アカウントと設定の詳細
       href: user-account-faq.md
       new: false
-- name: Security & Privacy
+- name: セキュリティとプライバシー
   href: security.md
   new: false
-- name: Notifications
+- name: 通知
   href: notifications.md
   updated:  false
-- name: RELEASE NOTES
+- name: リリース ノート
   header: true
   new: false
-- name: Release Notes
+- name: リリース ノート
   href: release-notes.md
