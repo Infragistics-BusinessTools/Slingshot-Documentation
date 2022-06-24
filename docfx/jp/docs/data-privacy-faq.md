@@ -1,118 +1,118 @@
-# Learn More about Data Privacy 
+# データ プライバシーの詳細 
 
-Welcome! Read on to get answers to your questions about data privacy.
+ようこそ！このトピックは、データ プライバシーに関する有益な情報を提供します。
 
-## Is Slingshot GDPR compliant?
+## Slingshot の EU一般データ保護規則 (GDPR) への準拠
 
-Yes, it is. Slingshot aligns its data privacy practices with global data privacy laws such as the General Data Protection Regulation (GDPR). To protect data rights, Slingshot provides a controlled procedure for deleting and exporting users' data. 
+Slingshot は EU一般データ保護規則 (GDPR) に準拠しています。Slingshot は、そのデータ プライバシー慣行を、EU 一般データ保護規則 (GDPR) などのグローバル データ プライバシー法と整合させています。データの権利を保護するために、Slingshot はユーザーのデータを削除およびエクスポートするための制御された手順を提供します。 
 
-Read on to learn _who_ can delete and export users' data, and _what_ type of information can be deleted or exported.  
+ユーザーのデータを削除/エクスポートできるユーザー、および削除/エクスポートできる情報の種類について説明します。  
 
-## Who can delete profile information?
+## プロファイル情報を削除できるユーザー
 
-Technically speaking, the Slingshot support team is the one having rights to delete profile data from Slingshot. But they do this at the request of users, of course. 
+厳密に言えば、Slingshot サポートチームは Slingshot からプロファイル データを削除する権限を持ちます。しかし当然のことながら、ユーザーの要求に基づいてこれを行います。 
 
-Then, who can request profile data deletion directly from the Slingshot support team? The answer is:
+Slingshot のサポート チームにプロファイル データの削除を直接要求できるユーザーは次のとおりです。プロファイルデータの削除を要求できるユーザー:
 
-- a user with a [personal account](roles-permissions-faq.html#what-about-users-with-no-organization) in Slingshot, or 
-- an Organization owner. 
+- Slingshot で[個人アカウント](roles-permissions-faq.html#組織に属さないユーザー)を持つユーザー、または 
+- 組織の管理者。 
 
-What if you are a member of an Organization in Slingshot? Then the information in your profile is considered ownership of the Organization. In case you want to have your data deleted, you have to contact an administrator of personal data in your organization and request the deletion from them.
+Slingshot の組織のメンバーの場合、プロフィールの情報は組織の管理とみなされます。データを削除する場合は、組織の個人データの管理者に連絡して削除を要求する必要があります。
 
-## How to delete profile information?
+## プロファイル情報を削除する方法
 
-Below you will find two possible scenarios. The deletion procedure steps depend on your relation to an Organization in Slingshot.
+以下に 2 つのシナリオを示します。削除手順の手順は、Slingshot の組織との関係によって異なります。
 
-### For Organization Owners 
+### 組織の管理者向け 
 
-If you have an [Owner](roles-permissions-faq.html#what-can-the-different-roles-do-in-a-workspace) role in your Organization team and need to delete one or more users' profile information, then read below: 
+組織チームに[管理者](roles-permissions-faq.html#ワークスペースでさまざまなロールができること)のロールがあり、1 人以上のユーザーのプロフィール情報を削除する必要がある場合は、以下をお読みください。 
 
-1. Contact our team at **support@slingshot.io**
-2. Note you want to delete an Organization member's profile information.
-3. You may be asked to provide more details about yourself. 
-4. The Slingshot support team will verify your right to request deletion first. Only then the deletion will start. When profile information is finally deleted, the user's name will be displayed as *@deactivateduser* wherever their content has not disappeared.  
+1. **support@slingshot.io** までお問い合わせください。
+2. 組織メンバーのプロファイル情報を削除したい場合
+3. 詳細情報の入力を求められる場合があります。 
+4. はじめに、Slingshot のサポート チームが、削除を要求する権利が問い合わせ元にあることを確認します。その後削除が開始されます。プロフィール情報が最終的に削除されると、コンテンツが消えない限りユーザー名は *@deactivateduser* として表示されます。  
 
-### For Users with Personal Accounts
+### 個人アカウントを持つユーザーの場合
 
-If you have a [personal account](roles-permissions-faq.html#what-about-users-with-no-organization) in Slingshot, this also means you do not belong to an Organization in Slingshot. However, you can still be part of workspaces belonging to an Organization if invited. In this sense, your profile information does not belong to any organization and you can request data deletion from the Slingshot support team directly. To do this:  
+Slingshot に[個人アカウント](roles-permissions-faq.html#組織に属さないユーザー)がある場合、Slingshot の組織に属していません。ただし、招待された場合、組織に属するワークスペースのメンバーとして参加できます。そういった意味では、自身のプロファイル情報はどの組織にも属していません。Slingshot のサポート チームにデータ削除を直接要求できます。そのためには次の手順を実行します。  
 
-select your profile image > *Settings* > *Data Privacy* > *Delete my Data* (as shown in the screenshot below).
+プロフィール画像を選択 > [設定] > [データ プライバシー] > [自分のデータを削除] (以下のスクリーンショットを参照)。
 
 <img src="../images/delete-profile-data-settings.png" alt="Deleting your profile data from the Settings menu" class="responsive-img">
 
-If you are the only owner of any workspace in Slingshot, you will be asked to assign new owners before your profile is deleted. 
+Slingshot でワークスペースの唯一の管理者の場合、プロファイルを削除する前に新しい管理者を割り当てる必要があります。 
 
-The deletion process may take up to 24 hours. You will not be able to sign into your Slingshot profile again until deletion is finished.
+削除処理には最大 24 時間かかる場合があります。削除が完了するまで、Slingshot プロファイルに再度サインインすることはできません。
 
->[!NOTE] If you have been invited to be a member of an Organization related workspace in Slingshot, you will not lose the right to delete your profile information. However, Organization related data will not be deleted together with your profile information as it is owned by the Organization.
+>[!NOTE] Slingshot の組織関連ワークスペースのメンバーに招待された場合、プロファイル情報を削除する権利は失われません。ただし、組織が所有する組織関連データは、プロファイル情報とともに削除されません。
 
-## How does the deletion of profile information work?
+## プロファイル情報の削除が機能する方法
 
-In collaboration software like Slingshot, what you do, affects the people you work with. If, for example, you start a discussion in a workspace, this information will be saved in Slingshot to help others. Everyone in the workspace can benefit from the information in the discussion and will see that you are its initiator. 
+Slingshot のようなコラボレーション ソフトウェアでは、作業内容が作業する人に影響します。たとえば、ワークスペースでディスカッションを開始した場合、この情報は Slingshot に保存されます。ワークスペースのすべてのユーザーがディスカッションの情報から利益を得ることができ、および、あなたがそのワークスペースの開始者であることを確認できます。 
 
-The following is considered your profile information by Slingshot and will disappear from the app as a result of the deletion: 
+以下は Slingshot によってプロファイル情報とみなされ、プロファイル情報の削除の結果、アプリから消えます。 
 
-- your name and email address;
-- your title, industry, and department if provided (see in _Settings_ > _Profile Information_);
-- all content created by you or shared with you in *My Stuff*;
-- all task assignments - tasks you were assigned in a team or a project will become unassigned, but will not disappear; 
-- access to pinned files and dashboards will be denied - users in Slingshot will not be able to open files and dashboards that deleted users have shared.
+- 名前とメール アドレス
+- タイトル (役職)、業種、および部署 (提供されている場合)。([設定] > [プロファイル情報] を参照)
+- **アイテム**にある作成または共有したすべてのコンテンツ
+- すべてのタスクの割り当て - チームまたはプロジェクトで割り当てられたタスクは割り当て解除されますが、消えることはありません。 
+- ピン固定したファイルおよびダッシュボードへのアクセスが拒否されます。Slingshot のユーザーは、削除したユーザーが共有しているファイルおよびダッシュボードを開くことができません。
 
-Deletion is permanent - once deleted, your information cannot be recovered in Slingshot. 
+削除は永続的です。一度削除すると、情報は Slingshot で復元できません。 
 
-## Can I reactivate my profile after it was deleted?
+## 削除したプロファイルを再度アクティブにする方法
 
-If you have a [personal account](roles-permissions-faq.html#what-about-users-with-no-organization) in Slingshot, you can reactivate your profile by simply logging in again after the deletion process is completed. However, the information that was deleted from your profile cannot be recovered. Your history will not be available as well. 
+Slingshot に[個人アカウント](roles-permissions-faq.html#組織に属さないユーザー)をお持ちの場合は、削除プロセスの完了後に再度ログインするだけで、プロファイルを再アクティブ化できます。ただし、プロファイルから削除された情報は復元できません。履歴も使用できません。 
 
-If you are an Organization member, you cannot reactivate your own Slingshot profile. You need to contact the people responsible for managing Slingshot at your organization. Note that, once you return to Slingshot, you will start with clear history. 
+組織メンバーの場合、Slingshot プロファイルを自身で再アクティブ化することはできません。Slingshot の組織の管理責任者に連絡する必要があります。Slingshot に復帰した際、履歴はクリアされた状態から開始されます。 
 
-## Who can export data from Slingshot? 
+## Slingshot のデータをエクスポートできるユーザー 
 
-You can make an export request to the Slingshot support team if you are: 
+以下の条件に該当する場合、Slingshot のサポート チームにエクスポートを要求できます。 
 
-- a user with a personal account in Slingshot, or 
-- an Organization owner. 
+- Slingshot で個人アカウントを持つユーザー、または 
+- 組織の管理者。 
 
-If you are a member of an Organization in Slingshot, then the information in your profile is considered ownership of the Organization. In case you want to receive an export of the data in your profile, you have to contact an administrator of personal data in your organization and request the export from them.
+Slingshot の組織のメンバーである場合、プロファイルの情報はその組織の管理とみなされます。自身のプロファイルデータをエクスポートして入手したい場合は、組織の個人データの管理者に連絡してエクスポートを要求する必要があります。
 
-## What is the export format?
+## エクスポート形式
 
-Profile information is exported in the JSON format. 
+プロファイル情報は JSON 形式でエクスポートされます。 
 
-Upon request, you will receive an email from Slingshot. This email contains a link to download a zip file with one or more JSON files with profile data. 
+要求に応じて、Slingshot からメールが送信されます。このメールには、プロファイル データを含む 1 つ以上の JSON ファイルを含む zip ファイルをダウンロードするためのリンクが含まれています。 
 
-## How to export profile information? 
+## プロファイル情報をエクスポートする方法 
 
-Below you will find two possible scenarios. The export procedure depends on whether you are part of an Organization or not, and it may take up to 24 hours.
+以下に 2 つのシナリオを示します。エクスポート手順は組織のメンバーかどうかによって異なり、最大 24 時間かかる場合があります。
 
-### For Organization Owners
+### 組織の管理者向け
 
-If you are a user with [owner](roles-permissions-faq.md) permissions in the Organization workspace and you need to export users' profile data, then read below: 
+組織ワークスペースで[管理者](roles-permissions-faq.md)権限を持つユーザーが、ユーザーのプロファイル データをエクスポートする必要がある場合、以下をお読みください。 
 
-1. Contact our team at **support@slingshot.io**
-2. Note you want to export an Organization member's profile information.
-3. You may be asked to provide more details about yourself. 
-4. The Slingshot support team will verify your right to request export first. Only then you will receive the exported data by email. 
+1. **support@slingshot.io** までお問い合わせください。
+2. 組織メンバーのプロファイル情報をエクスポートしたい場合
+3. 詳細情報の入力を求められる場合があります。 
+4. はじめに、Slingshot のサポート チームが、エクスポートを要求する権利が問い合わせ元にあることを確認します。その後に、エクスポートされたデータがメールで送信されます。 
 
-### For Users with Personal Accounts
+### 個人アカウントを持つユーザーの場合
 
-If you have a [personal account](roles-permissions-faq.md#what-about-users-with-no-organization) in Slingshot, this also means you do not belong to an Organization in Slingshot. You can be a member of Organization's teams and projects if invited. In this sense, your profile information does not belong to any Organization and you can request data export from the Slingshot support team directly. To do this:  
+Slingshot に[個人アカウント](roles-permissions-faq.md#組織に属さないユーザー)がある場合、Slingshot の組織に属していません。もし招待されていた場合は、組織のチームおよびプロジェクトのメンバーになることができます。そういった意味では、自身のプロファイル情報はどの組織にも属していません。Slingshot のサポート チームにデータのエクスポートを直接要求できます。そのためには次の手順を実行します。  
 
-select your profile image > *Settings* > *Data Privacy* > *Export my Data* (as shown in the screenshot below).
+プロフィール画像を選択 > [設定] > [データ プライバシー] > [データのエクスポート] (以下のスクリーンショットを参照)。
 
 <img src="../images/export-profile-data-settings.png" alt="Exporting your profile data from the Settings menu" class="responsive-img">
 
->[!NOTE] If you are an Organization member *Data Privacy* is not available in your *Settings* menu.  
+>[!NOTE] 組織メンバーの場合、[設定] メニューの [データ プライバシー] は無効です。  
 
-## What type of data does the export contain? 
+## エクスポートに含まれるデータ 
 
-The export contains:
+エクスポートには以下が含まれます。
 
-- the email, name, id, and locale associated with the user profile; 
-- industry, department, title - if provided by the user;
-- information about tasks (incl. task groups and task filters);
-- information about *Content* boards;
-- information about pinned or shared files, but not the files themselves;
-- discussions, topics, and the actual text of the messages of the user, but not the text of other users' messages;
-- information about private chats, and the actual text of the messages of the user, but not the messages of other participants in the chat;
-- analytics - information about personal dashboards, but not the actual dashboards; information about dashboards shared by other users is not exported.
+- ユーザー プロファイルに関連付けられたメール、名前、ID、およびロケール。 
+- 業種、部署、タイトル (役職) (ユーザーが提供した場合)。
+- タスクに関する情報 (タスク グループ、タスク フィルターなど)。
+- コンテンツ ボードに関する情報。
+- ピン固定または共有ファイルに関する情報。ファイル自体は含みません。
+- ユーザーのメッセージのディスカッション、トピック、およびテキスト。ただし、他のユーザーのメッセージのテキストは含みません。
+- プライベート チャットに関する情報、およびユーザー メッセージの実際のテキスト。チャットの他の参加者のメッセージは含みません。
+- 分析 - パーソナル ダッシュボードに関する情報。実際のダッシュボードは含まれません。他のユーザーが共有しているダッシュボードに関する情報はエクスポートされません。
