@@ -31,21 +31,21 @@ Depending on where you stand, you will find different discussions. To guarantee 
 
 Within a workspace or project, you can have discussions that only their members can access.
 
-Within a [*sub-workspace*](workspaces.html#using-workspaces-within-the-workspace), you can have discussions that are specific for this sub-workspace. Every collaborator of the sub-workspace, incl. personal account users, can join these discussions. The members of the [parent workspace](workspaces.html#using-workspaces-within-the-workspace) can also access sub-workspace's discussions. 
+Within a project, you can have discussions that are specific for this project. Every collaborator of it, incl. personal account users, can join these discussions. The members of the [workspace](workspaces.html#using-workspaces-within-the-workspace) can also access projects' discussions. 
 
 Within the *Organization*, you will find *Discussions* too. Organization discussions cannot be accessed by users with a personal account. This is the perfect place for announcements and other important organization related discussions. 
 
 ## How can I discover and join discussions?
 
-Use the _Discussions_ tab in workspaces or projects to discover interesting discussions.
+Use the *Discussions* tab in workspaces or projects to discover interesting discussions.
 
 A list of discussions is basically a section dedicated to a specific subject and organized by a limitless list of discussions. Discussions are where conversations happen.
 
->[!NOTE] Only Owners and Members of the workspace or project can reply to a discussion and create a new one. Viewers can only read discussions.
+>[!NOTE] Only Owners and Contributors of the workspace or project can reply to a discussion and create a new one. Viewers can only read discussions.
 
 ## How can I create a new discussion?
 
-Every Owner or Member of a workspace or project can create a new discussion. The same goes for the discussions inside the *Organization*. 
+Every Owner or Contributor of a workspace or project can create a new discussion. The same goes for the discussions inside the *Organization*. 
 
 In general, discussions are *read only* for workspace viewers.
 
@@ -67,7 +67,7 @@ There are subjects where you need the attention of particular people. To make su
 
 >[!NOTE] **Notifying limitations.** You can only notify users who are part of the workspace or project. 
 
-If you have missed the opportunity to use the *Notify* function when creating the discussion, you can later use the **@mention** (use the *@ sign* and start typing the username) in a message. The mentioned users will be notified about your message, but will not receive any further notifications for new messages unless they opt to *follow* the discussion.
+If you have missed the opportunity to use the *Notify* function when creating the discussion, you can later use the **@mention** (use the *@ sign* and start typing the username or the email address of the user) in a message. The mentioned users will be notified about your message, but will not receive any further notifications for new messages unless they opt to *follow* the discussion.
 
 ## How can I make sure I am notified of new answers? 
 
