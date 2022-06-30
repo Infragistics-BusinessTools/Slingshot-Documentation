@@ -21,7 +21,7 @@ To access your discussions, go to a workspace or project and select the **Discus
 
 <img src="../images/discussions-tab.png" alt="Discussions tab location of a workspace" class="responsive-img" width="60%"/>
 
-You can bookmark a discussion, list, or even a specific message to keep it at hand. They will appear in your bookmarks list and in My Overview.
+You can bookmark a discussion, list, or even a specific message to keep it at hand. They will appear in your bookmarks list and in **My Overview**.
 Follow the link for further details about [overviews](overviews.md).
 
 <a name="discussions-access"></a>
@@ -45,9 +45,9 @@ A list of discussions is basically a section dedicated to a specific subject and
 
 ## How can I create a new discussion?
 
-Every Owner or Contributor of a workspace or project can create a new discussion. The same goes for the discussions inside the *Organization*. 
+Every *Owner* or *Contributor* of a workspace or project can create a new discussion. The same goes for the discussions inside the *Organization*. 
 
-In general, discussions are *read only* for workspace viewers.
+In general, discussions are *read only* for *Viewers*.
 
 >[!NOTE] Always take into consideration your role only in the workspace or project where you want to create or answer a discussion. 
 
@@ -55,11 +55,21 @@ To **create a discussion**:
 
 1. Go to the **Discussions tab**. 
 2. Select or create a list.
-3. Select **+ Discussion**
+3. Select **+ Discussion**.
 3. Name the discussion. Optionally, choose which members to be notified for its creation by adding their emails in *Notify*.   
 4. Choose **Create**.
 
 Now your discussion is created. You can start typing your first message to give more details on the subject. It will also serve as a conversation starter.
+
+## How can I share a discussion with another user?
+
+You can follow the steps below in order to share a discussion with another user:
+1. Open the overflow menu of the discussion and click/tap on **Shared With**. 
+2. You will see a dialog where you can add people.
+3. Once you have selected the users, you can click on **Request To Share**. The owner of the discussion will get notified and can accept or decline the request. In case you are the owner of the discussion, you can add other users while choosing their role permissions and then click/tap on **Update**.
+
+<img src="../images/discussion-shared-with-button.png" alt="Adding users after clickin oh Shared With button" width="50%" class="responsive-img"/>
+ 
 
 ## How can I make sure someone is notified of new answers?
 
