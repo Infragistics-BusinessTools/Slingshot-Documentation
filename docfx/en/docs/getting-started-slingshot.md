@@ -9,7 +9,7 @@ For a seamless onboarding experience, you should first become familiar with the 
 - **Shared with Me**: Quick access to anything in Slingshot that has been shared with you. You can share, dashboards, lists, discussions, and more.
 - **My Analytics**: Gain deeper insights than ever before with self-service business intelligence. Build dashboards right from the data sources you use every day, access your organizations data catalog and much more. 
     - *Data Catalogs*: Find the most trustful information about your company, accesssing data that is categorized and certified.
-- **My Pins**: Contains all your links to different to resources, including files from cloud storages, URLs, and analytics dashboards.
+- **My Pins**: Contains all your links to different resources, including files from cloud storages, URLs, and analytics dashboards.
 
 >[!NOTE] Data Catalogs is an Enterprise level feature.
 
@@ -17,18 +17,18 @@ For a seamless onboarding experience, you should first become familiar with the 
 
 After your quick access features Slingshot has three tabs for your workspaces, bookmarks & groups:  
 
-- **Workspaces**: This is a place for your teams and groups of people to come together to work on projects and initiatives. Workspaces contain:  
+- **[Workspaces](https://www.slingshotapp.io/en/help/docs/workspaces)**: This is a place for your teams and groups of people to come together to work on projects and initiatives. Workspaces contain:  
 
-    - *Projects*: Live underneath the workspace to organize your tasks, content, dashboards and conversations further. Projects will also have their own overviews.  
-    - *Tasks*: Create and organize tasks for your teams and projects.  
-    - *Discussions*: Have conversions where members or your workspaces and organizations can participate and stay in the know. 
-    - *Pins*: Bring URLs, files and documents together in context of your workspaces or organization from any cloud provider (Google Drive, OneDrive, SharePoint, Box, DropBox).
-    - *Dashboards*: Add dashboards to workspaces and projects to ensure data-driven decisions.  
-    - *Data sources*: Add data sources that members of workspaces or projects need to have access too.
+    - *[Projects](https://www.slingshotapp.io/en/help/docs/overviews)*: Live underneath the workspace to organize your tasks, content, dashboards and conversations further. Projects will also have their own overviews.  
+    - *[Tasks](https://www.slingshotapp.io/en/help/docs/tasks)*: Create and organize tasks for your teams and projects.  
+    - *[Discussions](https://www.slingshotapp.io/en/help/docs/discussions-faq)*: Have conversions where members or your workspaces and organizations can participate and stay in the know. 
+    - *[Pins](https://www.slingshotapp.io/en/help/docs/pins)*: Bring URLs, files and documents together in context of your workspaces or organization from any cloud provider (Google Drive, OneDrive, SharePoint, Box, DropBox).
+    - *[Dashboards](https://www.slingshotapp.io/en/help/docs/analytics/dashboards/overview)*: Add dashboards to workspaces and projects to ensure data-driven decisions.  
+    - *[Data sources](https://www.slingshotapp.io/en/help/docs/analytics/datasources/overview)*: Add data sources that members of workspaces or projects need to have access too.
 
 - **Bookmarks**: Keep your most important documents, dashboards, conversations and more, one click away by bookmarking anything in Slingshot.  
 
-- **Groups**: Create groups so you can mention, invite and share information faster with a set of people.  
+- **[Groups](https://www.slingshotapp.io/en/help/docs/groups)**: Create groups so you can mention, invite and share information faster with a set of people.  
 
 >[!NOTE] Groups are an Enterprise only feature.
 
@@ -40,13 +40,18 @@ If you are part of an Organization, it is listed as the first item under Workspa
 
 On the top right area of Slingshot you will find the following features:  
 
-- **Emily**: Slingshot’s personal AI assistant is filled with onboarding tips and tricks, guides and tours, and will be there to help you along your Slingshot journey.  
+- **Emily**: Slingshot’s personal AI assistant is filled with onboarding tips and tricks, guides and tours, and will be there to help you along your Slingshot journey. When you open the personal AI assistant, you will see two sections: **Tips for you** and **More Help**:
+   - *Tips for you*: When you click/tap on **See Tour** you will be pointed to different features with a short summary of what they do in order to get a better overview on Slingshot.
 
-- **Notifications**: Never miss a beat with real time notifications.  
+   - *More Help*: Here you can find more information about the features with the help of visuals. If you want to find additional information about the app, you can go through the different sections of the **Learning Center Docs**. 
+   
+   <img src="../images/emily-assistant-button.png" alt="Slingshot's quick access features" width="40%" class="responsive-img" />
 
-- **Chat**: Privately chat 1 on 1 or with a group of other users of Slingshot – within or outside of your organization.   
+- **[Notifications](https://www.slingshotapp.io/en/help/docs/notifications)**: Never miss a beat with real time notifications.  
 
-- **Your Avatar**: Update your profile, access settings, and much more from behind your avatar icon.  
+- **[Chat](https://www.slingshotapp.io/en/help/docs/chat-faq)**: Privately chat 1 on 1 or with a group of other users of Slingshot – within or outside of your organization.   
+
+- **[Your Avatar](https://www.slingshotapp.io/en/help/docs/user-account)**: Update your profile, access settings, and much more from behind your avatar icon.  
 
 <img src="../images/getting-started-top-right.png" alt="Slingshot's features on the top right" class="responsive-img"/>
 
