@@ -45,7 +45,7 @@ On the top right area of Slingshot you will find the following features:
 
    - *More Help*: Here you can find more information about the features with the help of visuals. If you want to find additional information about the app, you can go through the different sections of the **Learning Center Docs**. 
    
-   <img src="../images/emily-assistant-button.png" alt="Slingshot's quick access features" width="40%" class="responsive-img" />
+   <img src="../images/emily-assistant-button.png" alt="Different options available after opening the assistant" width="40%" class="responsive-img" />
 
 - **[Notifications](https://www.slingshotapp.io/en/help/docs/notifications)**: Never miss a beat with real time notifications.  
 
