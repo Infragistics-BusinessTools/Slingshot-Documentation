@@ -23,11 +23,11 @@
 2.	ファイルを選択したら、アップロードするクラウド ストレージを選択します。
 3.	最後に、ファイルを共有するための適切なアクセス許可を選択します。
 
-### Pinning from an Existing Pin
+### 既存のピンからのピン固定
 
-1.	Open the pin’s overflow and then select “Pin to List”.
-2.	Navigate to the location where you want to add the new pin.
-3.	Select the list, section, and then “Pin”.
+1.	ピン固定のオーバーフローを開き、**[ピン固定の移動]** を選択します。
+2.	新しいピンを追加する場所に移動します。
+3.	リストとセクションを選択し、**[-> 移動]** をクリックします。
 
 ### URL をピン固定
 
