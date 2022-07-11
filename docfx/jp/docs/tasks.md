@@ -81,7 +81,7 @@ Slingshot でタスクを作成する方法は複数あります:
 <img src="../images/Slingshot_Tasks_Timeline_View.png" alt="Task timeline view within Slingshot" class="responsive-img"/>
 次の場合は、タイムラインの表示タイプを使用することをお勧めします: 
 
-- 一度に複数のタスクの依存関係を視覚化したい場合 
+- 一度に複数のタスクの依存関係を視覚化したい場合
 
 - グラフィカルな方法で、時間軸でタスクをフレーム化したい場合 
 
