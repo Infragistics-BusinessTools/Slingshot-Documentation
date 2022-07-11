@@ -1,41 +1,33 @@
-# Dashboards
+# ダッシュボード
 
-Dashboards are a quick and simple way to display minimal information at
-first sight. It is a data visualization composed of a collection of
-visualizations which are laid out to communicate the status, metrics,
-or performance of a business. Each visualization is meant to have
-different pieces of related information, enabling users to make sense of their data.
+ダッシュボードは、すばやく最小限の情報をシンプルに表示することにより、一目で情報を把握できます。
+これは、ビジネスのステータス、メトリック、またはパフォーマンスを伝えるために配置された表示形式のコレクションで構成されるデータ 表示形式です。各表示形式は、関連する情報の異なる部分を持っていることを意味しており、ユーザーが自分のデータを理解できるようにします。
 
 <img src="images/dashboards-home-page.png" alt="A complete dashboard example" class="responsive-img"/>
 
-## The Dashboard Creation Process
+## ダッシュボード作成プロセス
 
-  - **Discover the KPI**: decide what you or your analysts want to show
-    in your dashboard, and what it needs to revolve around.
+  - **KPI 目標**: 自分またはアナリストがダッシュボードに何を示し、何を中心にサイクルを回す必要があるかを決定します。
 
-  - **Plan the Dashboard**: how will you represent your information
-    graphically? Will you use a [grid](~/en/data-visualizations/visualization-types/grid-chart.md), a map,
-    [gauges](~/en/data-visualizations/visualization-types/gauge-charts.md), [category charts](~/en/data-visualizations/visualization-types/category-charts.md)?
-    Will you use any [filters](~/en/filters/overview.md)?
+  - **ダッシュボードの計画**: 情報をグラフィカルにどのように表現しますか?
+    [グリッド](~/jp/data-visualizations/visualization-types/grid-chart.md)、マップ、[ゲージ](~/jp/data-visualizations/visualization-types/gauge-charts.md)、[カテゴリ チャート](~/jp/data-visualizations/visualization-types/category-charts.md)を使用しますか?
 
-  - **Prepare the data** to be used in Reveal. Here is a quick overview
-    of [how to work with spreadsheets](~/en/datasources/working-files/working-with-spreadsheets.md) in Reveal.
+  - Reveal で使用する**データを準備します**。Reveal で[スプレッドシートを操作する方法](~/jp/datasources/working-files/working-with-spreadsheets.md)の概要を以下に示します。
 
-  - **Create the dashboard**: for a complete walkthrough, read [this topic](creating-dashboards.md).
+  - **ダッシュボードの作成**: 完全な手順については、[このトピック](creating-dashboards.md)をご覧ください。
 
-  - **Review and iterate**: once your dashboard is ready, you can review
-    it and make any changes you or your analysts deem necessary.
+  - **レビューと反復**: ダッシュボードの準備ができた後、ダッシュボードをレビューして、自分またはアナリストが必要と考える変更を加えることができます。
 
-## Topics Overview
+## トピックの概要
 
-Within Analytics, you will be able to:
+分析を利用して実行できる機能:
 
-  - [Create Dashboards](creating-dashboards.md)
+  - [ダッシュボードの作成](creating-dashboards.md)
 
-  - [Style your Dashboards](dashboard-styling.md)
+  - [ダッシュボードのスタイル](dashboard-styling.md)
 
-  - [Link Dashboards to other Dashboards or to URLs](dashboard-linking.md)
+  - [ダッシュボードを他のダッシュボードまたは URL のリンク](dashboard-linking.md)
 
-  - [Share your Dashboards](sharing-dashboards/share-a-dashboard.md)
+  - [ダッシュボードの共有](sharing-dashboards/share-a-dashboard.md)
 
-  - [Manage your existing Dashboards](managing-dashboards.md)
+  - [現在のダッシュボードの管理](managing-dashboards.md)
