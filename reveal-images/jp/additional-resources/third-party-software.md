@@ -1,1 +1,1 @@
-# Third-Party Software Used by Analytics
+# 分析で使用されるサードパーティ ソフトウェア
