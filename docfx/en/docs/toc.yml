@@ -44,16 +44,23 @@
 - name: Onboarding
   href: onboarding.md
   new: true
+- name: Invite Friends
+  href: invite-friends.md
+  new: false
 - name: Productivity Flows
   href: productivity-flows.md
   new: false
 - name: Search
   href: search.md
   updated:  false
-- name: Bookmarks (Coming Soon)
-  href:
+- name: Bookmarks
+  href: bookmarks.md
+  new: false 
 - name: SETTINGS
   header: true
+- name: Feedback
+  href: feedback.md
+  new: false
 - name: User Account & Settings
   href: user-account.md
   new: false

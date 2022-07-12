@@ -4,7 +4,7 @@ Pins are key elements within Slingshot, that allow you to access and share relev
 ## What are Pins?
 Pins are simple links to different types of resources, including files from cloud storages, URLs, and analytics dashboards. You can manage multiple lists of pins, designed to organize, manage and share your resources.
 
-<img src="../images/pins-list.png" alt="Showing a list of pins within Slingshot" class="responsive-img"/>
+<img src="../images/my-pins.png" alt="Showing a list of pins within Slingshot" class="responsive-img"/>
 
 ## How to Pin Content
 Pinning content is one of the most common ways to share resources within Slingshot. You pin files or analytics dashboards by selecting them from cloud storages, existing pins, content shared with you, or uploading from your device. To pin URLs, you just add the URL and a title.
@@ -15,7 +15,7 @@ Pinning content is one of the most common ways to share resources within Slingsh
 
 1. Use the “+Pin” button and then select “Content” or “Analytics”. 
 2. Navigate to the file, which can be located in your cloud storages, existing Pins within Slingshot, Dashboards locations, or Shared with Me files.
-3. Select the file you want to pin
+3. Select the file you want to pin.
 
 ### Pinning by Uploading from your Device
 
@@ -25,9 +25,9 @@ Pinning content is one of the most common ways to share resources within Slingsh
 
 ### Pinning from an Existing Pin
 
-1.	Open the pin’s overflow and then select “Pin to List”.
+1.	Open the pin’s overflow and then select **Move Pin**.
 2.	Navigate to the location where you want to add the new pin.
-3.	Select the list, section, and then “Pin”.
+3.	Select the list, section, and then click on **->Move**.
 
 ### Pinning URLs
 
@@ -37,7 +37,7 @@ Pinning content is one of the most common ways to share resources within Slingsh
 ## Organizing your Pins
 The Pins tabs in workspaces and projects have lists of pins, which can be further organized in sections. You can use sections to add divisions and better layout your pins.
 
-<img src="../images/pins-sections.png" alt="Pin action in Slingshot" class="responsive-img"/>
+<img src="../images/pins-create-a-section.png" alt="Pin action in Slingshot" class="responsive-img"/>
 
 In addition, you can easily reorganize and move lists, sections and pins just by dragging them.
 
@@ -73,6 +73,24 @@ In Slingshot, file types are represented using different icons. The most common 
 |![PDF file icon](../images/icon-pdf-file.png)|Adobe PDF file|![Video file icon](../images/icon-video-file.png)| Video file|
 |![Web link icon](../images/icon-web-link.png)| Web link|![Zip file icon](../images/icon-zip-file.png)| ZIP file|
 
+
+### How to set file permissions?
+
+When you share files inside workspaces, you make these files available for the users inside the workspace. 
+File permissions are meant to give the file owner control over who can access their files. Each time you pin a file, Slingshot will ask you what type of permission you want to set. You will see a dialog that looks like this: 
+
+<img src="../images/pins-permissions.png" alt="A dialog showing the three file permission types" width="75%" class="responsive-img" />
+
+Here, you can choose between the following three permission types:
+
+ - **All Can Access** - all Slingshot users can access the file.
+ - **Automatic Access** - all users in the workspace can access the file.
+ - **Request Access** -  all users, including the users in the workspace have to request access from the owner.
+
+> [!NOTE] Giving access to a file in Slingshot means you give view and edit permissions to the file. 
+
+Learn more about each file permissions type and how to manage members' access in [this topic](file-permissions-faq.md). 
+
 ### Using Drag and Drop
 You can use drag and drop to quickly add files or links from an external source into Slingshot's lists. The files added to Slingshot are uploaded to a folder named Slingshot uploads in the cloud storage of your preference.
 
@@ -80,8 +98,8 @@ The first time you upload a file you choose a default cloud storage to be select
 
 ## Working with your Content
 You can open any file by clicking/tapping on it. MS Office files can be opened online or using a native app locally on your device.
-By using a file’s overflow, you can always choose how to open the file.
-<img src="../images/pin-content-my-stuff.png" alt="Overflow options for a file" class="responsive-img"/>
+
+<img src="../images/pins-options.png" alt="Overflow options for a file" class="responsive-img"/>
 
 In addition, you can set a default method using the Open Files setting (General Settings).
 
