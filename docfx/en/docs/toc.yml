@@ -41,6 +41,9 @@
 - name: Groups
   href: groups.md
   new: false
+- name: Onboarding
+  href: onboarding.md
+  new: true
 - name: Invite Friends
   href: invite-friends.md
   new: false
