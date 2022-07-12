@@ -34,7 +34,7 @@ Subtasks can be created from inside the task card or from the parent task's over
 
 Tasks are very important for driving the productivity of your teams and projects. Your task card has the following fields:  
 
-<img src="../images/tasks-fields-highlight.png" alt="Task fields highlighted within Slingshot" class="responsive-img"/>
+<img src="../images/tasks-fields-highlight.png" alt="Task fields highlighted within Slingshot" width="60%" class="responsive-img"/>
 
 1.	**Task Title**: Set a clear title for your tasks.  
 2.	**Assignee(s)**: Assign either one person, multiple, group or workspace to a task.  
@@ -58,17 +58,16 @@ Instead of creating a whole new set of tasks, you can save some time and be more
 
 3.	Choose **Duplicate**.
 
- <img src="../images/duplicate-tasks-option.png" alt="task duplication overflow menu" width="90%" class="responsive-img"/>
+ <img src="../images/duplicate-tasks-option.png" alt="task duplication overflow menu" width="70%" class="responsive-img"/>
 
 4.	A dialog will open, where you can choose what you want to keep when you duplicate the task. You can also change the title of the task. If  you decide to keep the same assignees, you’ll be presented with the option to notify them once the task is created.
 
- <img src="../images/duplicate-a-task-filters.png" alt="dialog with task duplication filters" width="
- 40%" class="responsive-img"/>
+ <img src="../images/duplicate-a-task-filters.png" alt="dialog with task duplication filters" width="35%" class="responsive-img"/>
 
 5.	Once you’ve saved your preferences, you will see the task field where you can make changes. 
 6.	When you are ready, you can click on **Update**. You can find the task with the subtasks in the **My Tasks** section. 
 
-<img src="../images/duplicate-task-storage.png" alt="where to find the duplicated task" class="responsive-img"/>
+ <img src="../images/duplicate-task-storage.png" alt="where to find the duplicated task" width="78%" class="responsive-img"/>
 
 ## Organizing Tasks  
 
@@ -83,7 +82,9 @@ Within each of the task views you can filter, choose which task fields you want 
 ### List
 
 Project manage and update tasks faster from within your list view.  
-<img src="../images/Slingshot_Tasks_List_View.png" alt="Task list view within Slingshot" width="80%" class="responsive-img"/>
+
+<img src="../images/Slingshot_Tasks_List_View.png" alt="Task list view within Slingshot" width="60%" class="responsive-img"/>
+
 
 Use List view if you want to: 
 
@@ -96,7 +97,8 @@ Use List view if you want to:
 ### Kanban
 
 View your tasks as cards within columns that represent different stages of the Status workflow. You can drag and drop your tasks between columns to change their status.
-<img src="../images/Slingshot_Tasks_Kanban_View.png" alt="Task kanban view within Slingshot" width="90%" class="responsive-img"/>
+
+<img src="../images/Slingshot_Tasks_Kanban_View.png" alt="Task kanban view within Slingshot" width="60%" class="responsive-img"/>
 
 Use Kanban view if you want to:  
 
@@ -108,7 +110,7 @@ Use Kanban view if you want to:
 
 See a clear path for project completion and dependencies by using timeline view. Zoom in or out to see your timeline by days, weeks or months.
 
-<img src="../images/Slingshot_Tasks_Timeline_View.png" alt="Task timeline view within Slingshot" width= "80%" class="responsive-img"/>
+<img src="../images/Slingshot_Tasks_Timeline_View.png" alt="Task timeline view within Slingshot" width="60%" class="responsive-img"/>
 
 Use Timeline view if you want to: 
 
@@ -170,5 +172,5 @@ When the time comes that you need to craft complex filters, you will be able to:
 
 As an example, the following rules could be created to get all John Williams’ tasks, that were created by other team members (not him), in which the due date is Jun 30, 2022 or before that date, and the description includes the word “Marketing”. 
 
-<img src="../images/tasks-filters-advanced.png" alt="Advanced Filtering highlighted within Slingshot" class="responsive-img" width="60%"/>
+<img src="../images/task-filters.png" alt="Advanced Filtering highlighted within Slingshot" class="responsive-img" width="55%"/>
 
