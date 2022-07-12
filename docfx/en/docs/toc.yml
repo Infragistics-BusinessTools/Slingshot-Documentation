@@ -41,6 +41,9 @@
 - name: Groups
   href: groups.md
   new: false
+- name: Invite Friends
+  href: invite-friends.md
+  new: false
 - name: Productivity Flows
   href: productivity-flows.md
   new: false
