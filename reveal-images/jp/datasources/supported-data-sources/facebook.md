@@ -6,9 +6,9 @@ The *Facebook* data source connector in *Analytics* allows you to bring your Fac
 
 The Facebook data source connector will connect you to your Facebook *Ad accounts* data. Before you try using the Facebook data source in Analytics, make sure that:
 
-* you use a [Facebook for Business ](https://www.facebook.com/business/help/) account;
-* in the [*Ads Manager*](https://www.facebook.com/business/help/200000840044554?id=802745156580214), you have [added, requested or created an *Ad account*](https://www.facebook.com/business/help/910137316041095?id=420299598837059)  for the profile or Facebook page you want to connect;
-* the *Ad account* for the profile/page you want to connect is not deactivated. If you are not sure, use this [Facebook help article](https://www.facebook.com/business/help/1798922733589154) to check and reactivate your Ad account if needed. 
+* you use a [Facebook for Business ](https://ja-jp.facebook.com/business/help/) account;
+* in the [*Ads Manager*](https://ja-jp.facebook.com/business/help/200000840044554?id=802745156580214), you have [added, requested or created an *Ad account*](https://ja-jp.facebook.com/business/help/910137316041095?id=420299598837059)  for the profile or Facebook page you want to connect;
+* the *Ad account* for the profile/page you want to connect is not deactivated. If you are not sure, use this [Facebook help article](https://ja-jp.facebook.com/business/help/1798922733589154) to check and reactivate your Ad account if needed. 
 
 ## Adding a New Facebook Data Source Account
 
@@ -19,7 +19,7 @@ To add a *Facebook* data source to your list, follow the steps described below.
 1. Go to the <img src="images/data-source-icon.png" alt="the data sources icon used in Analytics" width="24px" height="24px" /> Data Sources tab > select the *+ Data Source* blue button > scroll to *Social Media* > select *Facebook*. 
 2. You will be prompted to log in with your *Facebook* profile. 
 
-    >[!NOTE] You need to have at least one *Ad account* associated with the Facebook profile you are trying to connect in *Analytics*. Read this [Facebook help article](https://www.facebook.com/business/help/910137316041095?id=420299598837059) to find out how to add, request and create *Ad accounts* in your Facebook Business Manager.
+    >[!NOTE] You need to have at least one *Ad account* associated with the Facebook profile you are trying to connect in *Analytics*. Read this [Facebook help article](https://ja-jp.facebook.com/business/help/910137316041095?id=420299598837059) to find out how to add, request and create *Ad accounts* in your Facebook Business Manager.
 3. Slingshot will get access to the relevant details in your account. 
 4. In the next dialog, you will be presented with one or more <img src="images/facebook-ad-account-icon.png" alt="the data sources icon used in Analytics" width="24px" height="24px" /> Facebook Ad Accounts to choose from. Select the account that you want to analyze.
 5. Click/tap _Select and Continue_. 
