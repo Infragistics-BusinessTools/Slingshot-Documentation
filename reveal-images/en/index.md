@@ -1,3 +1,8 @@
+---
+title: Slingshot Analytics – All You Need to Know 
+_description: Get to know the Analytics feature of Slingshot, an integrated business intelligence solution that lets you visualize and share data effortlessly.
+---
+
 # My Analytics
 
 With the My Analytics section of Slingshot, you bring the power of BI (business intelligence) into your daily workflow and help your team make faster, data-driven decisions.
