@@ -47,8 +47,9 @@
 - name: Search
   href: search.md
   updated:  false
-- name: Bookmarks (Coming Soon)
-  href:
+- name: Bookmarks
+  href: bookmarks.md
+  new: false 
 - name: SETTINGS
   header: true
 - name: User Account & Settings
