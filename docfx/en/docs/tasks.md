@@ -85,6 +85,7 @@ Project manage and update tasks faster from within your list view.
 
 <img src="../images/Slingshot_Tasks_List_View.png" alt="Task list view within Slingshot" width="60%" class="responsive-img"/>
 
+
 Use List view if you want to: 
 
 - Easily visualize subtasks and the task hierarchy. 
