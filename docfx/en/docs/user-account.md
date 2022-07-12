@@ -31,7 +31,7 @@ Now feel free to explore the different settings and make Slingshot feel like hom
 - Do you want to clear the data cache?
 -  Do you want to export your logs?
 
-<img src="../images/users-account-settings.png" alt="User settings opened" class="responsive-img">
+<img src="../images/users-account-settings.png" alt="User settings opened" width="70%" class="responsive-img">
 
 In addition, it's a good idea to complete your *profile information* as it will make you recognizable when collaborating with others. Your name, photo, title, etc. are all part of your virtual identity and they add value to the Slingshot's experience. 
 
