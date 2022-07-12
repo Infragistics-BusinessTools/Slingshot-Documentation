@@ -1,45 +1,43 @@
 # LinkedIn
 
-The *LinkedIn* data source connector in *Analytics* allows you to bring your LinkedIn marketing data to Slingshot. Use your *LinkedIn Ad account* data to create insightful dashboards and measure your business' social media performance.
+**[分析]** の *LinkedIn* データ ソース コネクターを使用すると、LinkedIn のマーケティング データを Slingshot に取り込むことができます。**LinkedIn 広告アカウント**のデータを使用して、インサイトに満ちたダッシュボードを作成し、ビジネスのソーシャル メディアのパフォーマンスを測定します。
 
-## Prerequisites
+## 前提条件
 
-To add a *LinkedIn* data source in Analytics, you need to have at least one active [LinkedIn Ad account](https://www.linkedin.com/help/linkedin/answer/a426102/create-an-ad-account?lang=en).
-## Adding a New LinkedIn Data Source 
+[分析] に *LinkedIn* データ ソースを追加するには、少なくとも 1 つのアクティブな [LinkedIn 広告アカウント](https://www.linkedin.com/help/linkedin/answer/a426102/create-an-ad-account?lang=ja)が必要です。
+## 新しい LinkedIn データ ソースの追加 
 
-If you have already added your LinkedIn data source to the <img src="images/data-source-icon.png" alt="the data sources icon used in Analytics" width="24px" height="24px" /> *Data Sources* list, you can skip this part and continue with [Setting Up Your Data](#setting-up-your-data).
+LinkedIn データ ソースをデータ ソース リストにすでに追加している場合は、この部分をスキップして、[データの設定](#setting-up-your-data)に進むことができます。
 
-To add a *LinkedIn* data source to your list, follow the steps described below.
+*LinkedIn* データ ソースをリストに追加するには、以下の手順に従ってください:
 
-1. Go to the <img src="images/data-source-icon.png" alt="the data sources icon used in Analytics" width="24px" height="24px" /> Data Sources tab > select the *+ Data Source* blue button > scroll to *Social Media* > select *LinkedIn*. 
-2. You will be prompted to log in with your *LinkedIn* profile and you might be asked to re-enter your LinkedIn password.
-    CHANGE NOTE!!!
-    >[!NOTE] You need to have at least one [Facebook business page](https://www.facebook.com/business/help/461775097570076?id=939256796236247) associated with the Facebook profile you are logging into. 
-3. Slingshot will get access to the relevant details in your account.
-4. In the next dialog, you are need to choose the <img src="images/account-icon.png" alt="the data sources icon used in Analytics" width="24px" height="24px" /> *LinkedIn* account that is associated with the LinkedIn page you want to analyze.
-5. Click/tap _Select and Continue_. 
-6. In the last dialog that opens, you can change the Account name and add an appropriate description as shown below. Adding appropriate descriptions helps all users navigate through long lists and find the data sources they are searching for. 
-7. Select _Add Data Source_. 
+1. [データ ソース] タブに移動し、**[+ データ ソース]** の青いボタンを選択し、**[ソーシャル メディア]** までスクロールして **[LinkedIn]** を選択します。 
+2. LinkedIn プロファイルでログインするように求められ、LinkedIn パスワードの再入力を求められる場合があります。
+3. Slingshot は、アカウントの関連する詳細にアクセスします。
+4. 次のダイアログで、分析する LinkedIn ページに関連付けられている <img src="images/account-icon.png" alt="the data sources icon used in Analytics" width="24px" height="24px" /> *LinkedIn* アカウントを選択する必要があります。
+5. **[選択して続行]** をクリック / タップします。 
+6. 開いた最後のダイアログで、以下に示すように、アカウント名を変更し、適切な説明を追加できます。適切な説明を追加すると、すべてのユーザーが長いリストをナビゲートし、検索しているデータ ソースを見つけるのに役立ちます。 
+7. **[データソースの追加]** を選択します。
 
-You will find your new LinkedIn connection at the bottom of your Data Sources list.
+新しい LinkedIn 接続は、データ ソース リストの下部にあります。
 
-## Setting Up Your Data
+## データの設定
 
-From the <img src="images/data-source-icon.png" alt="the data sources icon used in Analytics" width="24px" height="24px" /> Data Sources list, select the From the <img src="images/linkedin-icon.png" alt="the linkedin icon used in Analytics" width="24px" height="24px" /> LinkedIn account you want to connect. You will see the *Data Source details* dialog, which allows you to review and set up your data (look at the screenshot below). 
+[データ ソース] リストから、接続する <img src="images/linkedin-icon.png" alt="the linkedin icon used in Analytics" width="24px" height="24px" /> LinkedIn アカウントを選択します。**[データ ソースの詳細]** ダイアログが表示され、データを確認して設定できます (下のスクリーンショットを参照)。
 
 <img src="images/instagram-data-source-details.png" alt="the data sources details dialog" class="responsive-img" />
 
-Here you will find the following data source details: 
+ここに、次のデータ ソースの詳細があります: 
 
-* type and name; 
-* description; 
-* [certification](../certification.md);
-* who added the data source; 
-* who last modified it and when; 
-* who (users and workspaces) has access to it; 
-* how often the data is refreshed and the ability to change from the dropdown on the right. 
+* タイプと名前。 
+* 説明。 
+* [認証](../certification.md)。
+* データ ソースを追加したユーザー。 
+* 最後に変更したユーザーとその日付。 
+* アクセスできるユーザーとワークスペース。 
+* データが更新される頻度と、右側のドロップダウンから変更する機能。 
 
-Under **Pages**, you will see the LinkedIn pages associated to this LinkedIn account. Select the page that you would like to analyze. Click/tap the _Select Data_ blue button to proceed to the Visualizations Editor. 
+**[ページ]** の下に、この LinkedIn アカウントに関連付けられている LinkedIn ページが表示されます。分析したいページを選択します。**[データを選択]** 青いボタンをクリック / タップして、表示形式エディターに進みます。 
 
 
 
