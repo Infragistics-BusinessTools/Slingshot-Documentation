@@ -1,54 +1,54 @@
 # Instagram 
 
-The *Instagram* data source connector in *Analytics* allows you to bring your Instagram insights to Slingshot.
+[分析] の *Instagram* データ ソース コネクターを使用すると、Instagram インサイトを Slingshot に取り込むことができます。
 
-## Prerequisites
+## 前提条件
 
-The Instagram data source connector will connect you to your professional Instagram account data. Before using the Instagram data source in Analytics, make sure that: 
-
-
-* you have a [Facebook ad account](https://ja-jp.facebook.com/business/help/910137316041095?id=420299598837059); 
-* you have a [Facebook Page](https://ja-jp.facebook.com/business/help/461775097570076?id=939256796236247);
-* you have a [professional Instagram account](https://help.instagram.com/138925576505882?helpref=search&cms_id=138925576505882&sr=10&query=About%20Instagram%20Ads) linked to your Facebook Page. 
-
-## Adding a New Instagram Data Source Account
-
-If you have already added your Instagram data source to the <img src="images/data-source-icon.png" alt="the data sources icon used in Analytics" width="24px" height="24px" /> *Data Sources* list, you can skip this part and continue with [Setting Up Your Data](#setting-up-your-data).
-
-To add an *Instagram* data source to your list, follow the steps described below.
-
-1. Go to the <img src="images/data-source-icon.png" alt="the data sources icon used in Analytics" width="24px" height="24px" /> Data Sources tab > select the *+ Data Source* blue button > scroll to *Social Media* > select *Instagram*. 
-2. You will be prompted to log in with your *Facebook* profile and re-enter your password.
-    >[!NOTE] You need to have at least one [Facebook business page](https://ja-jp.facebook.com/business/help/461775097570076?id=939256796236247) associated with the Facebook profile you are logging into. 
-3. Slingshot will get access to the relevant details in your account, but this doesn't let Slingshot post to Facebook without your permission. 
-4. In the next dialog, you will see one or more Instagram Business accounts. Check the box next to the Instagram Business account that you want to analyze and select *Next*.
-5. Next, you will be asked to choose between one or more Facebook business pages. These pages are [linked to](https://ja-jp.facebook.com/business/help/898752960195806) the selected Instagram Business account. 
-6. In *"What is Slingshot allowed to do?"*, you can use the toggles to modify Slingshot's permissions to your Instagram account and Facebook pages. Select _Done_ when ready.
-
-    >[!NOTE] After configuring what Slingshot is allowed to do, you will not be asked to do this again. You can edit Slingshot's permissions from the [Business Integrations](https://www.facebook.com/help/405094243235242) settings in your Facebook profile settings. 
-7. After successfully connecting, click/tap *Ok* to return to Slingshot.
+Instagram データ ソース コネクターは、プロフェッショナルの Instagram アカウントのデータに接続します。分析で Instagram データ ソースを使用する前に、次のことを確認してください
 
 
-You will find your new Instagram account connection at the bottom of your Data Sources list.
+* [Facebook 広告アカウント](https://ja-jp.facebook.com/business/help/910137316041095?id=420299598837059)を持っていること。 
+* [Facebook ページ](https://ja-jp.facebook.com/business/help/461775097570076?id=939256796236247)があること。
+* Facebook ページにリンクされた[プロフェッショナルの Instagram アカウント](https://help.instagram.com/138925576505882?helpref=search&cms_id=138925576505882&sr=10&query=About%20Instagram%20Ads)を持っていること。
+
+## 新しい Instagram データ ソース アカウントの追加
+
+Instagram データ ソースをデータ ソース リストにすでに追加している場合は、この部分をスキップして、[データの設定](#setting-up-your-data)に進むことができます。
+
+Instagram データ ソースをリストに追加するには、以下の手順に従ってください:
+
+1. **[データ ソース]** タブに移動し、[+ データ ソース] の青いボタンを選択し、**[ソーシャル メディア]** までスクロールして *[Instagram]* を選択します。 
+2. *Facebook* でログインするように求められ、パスワードの再入力を求められる場合があります
+    >[!NOTE] ログインしている Facebook プロファイルに関連付けられた [Facebook ビジネス ページ](https://ja-jp.facebook.com/business/help/461775097570076?id=939256796236247)が少なくとも 1 つ必要です。
+3. Slingshot はアカウントの関連する詳細にアクセスできますが、これにより Slingshot が許可なく Facebook に投稿することはできません。 
+4. 次のダイアログでは、1 つ以上の Instagram ビジネス アカウントが表示されます。分析する Instagram ビジネス アカウントの横にあるチェックボックスをオンにして、**[次へ]** を選択します。
+5. 次に、1 つ以上の Facebook ビジネス ページから選択するように求められます。これらのページは、選択した Instagram ビジネス アカウントに[リンクされて](https://ja-jp.facebook.com/business/help/898752960195806)います。
+6. *What is Slingshot allowed to do?* では、トグルを使用して、Instagram アカウントと Facebook ページに対する Slingshot の権限を変更できます。準備ができたら [完了] を選択します。
+
+    >[!NOTE] Slingshot で実行できることを構成した後、これを再度実行するように求められることはありません。Slingshot の権限は、Facebook プロファイル設定の[ビジネス統合](https://www.facebook.com/help/405094243235242?cms_id=405094243235242)設定から編集できます。 
+7. 接続に成功したら、*[OK]* をクリック / タップして Slingshot に戻ります。
 
 
-## Setting Up Your Data
+新しい Instagram アカウントの接続は、データ ソース リストの下部にあります。
 
-From the <img src="images/data-source-icon.png" alt="the data sources icon used in Analytics" width="24px" height="24px" /> Data Sources list, select the Instagram account you want to connect. You will see the *Data Source details* dialog, which allows you to review and set up your data (look at the screenshot below). 
+
+## データの設定
+
+[データ ソース] リストから、接続する Instagram アカウントを選択します。[データ ソースの詳細] ダイアログが表示され、データを確認して設定できます (下のスクリーンショットを参照)。
 
 <img src="images/instagram-data-source-details.png" alt="the data sources details dialog" class="responsive-img" />
 
-Here you will find the following data source details: 
+ここに、次のデータ ソースの詳細があります: 
 
-* type and name; 
-* description; 
-* [certification](../certification.md);
-* who added the data source; 
-* who last modified it and when; 
-* who (users and workspaces) has access to it; 
-* how often the data is refreshed and the ability to change from the dropdown on the right. 
+* タイプと名前。 
+* 説明。 
+* [認証](../certification.md)。
+* データ ソースを追加したユーザー。 
+* 最後に変更したユーザーとその日付。 
+* アクセスできるユーザーとワークスペース。 
+* データが更新される頻度と、右側のドロップダウンから変更する機能。 
 
-Under **Pages**, you will see the Facebook pages linked to this Instagram account. Select the page that you would like to analyze. Click/tap the _Select Data_ blue button to proceed to the Visualizations Editor. 
+**[ページ]** の下に、この Instagram アカウントにリンクされている Facebook ページが表示されます。分析したいページを選択します。[データを選択] 青いボタンをクリック / タップして、表示形式エディターに進みます。 
 
 
 

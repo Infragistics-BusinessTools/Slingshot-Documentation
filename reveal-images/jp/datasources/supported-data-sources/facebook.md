@@ -1,59 +1,59 @@
 # Facebook 
 
-The *Facebook* data source connector in *Analytics* allows you to bring your Facebook marketing data to Slingshot. Use your *Ad account* data to create insightful dashboards and measure your business' social media performance.
+[分析] の *Facebook* データ ソース コネクターを使用すると、Facebook のマーケティング データを Slingshot に取り込むことができます。*広告アカウント*のデータを使用して、インサイトに満ちたダッシュボードを作成し、ビジネスのソーシャル メディアのパフォーマンスを測定します。
 
-## Prerequisites
+## 前提条件
 
-The Facebook data source connector will connect you to your Facebook *Ad accounts* data. Before you try using the Facebook data source in Analytics, make sure that:
+Facebook データ ソース コネクターは、Facebook *広告アカウント* データに接続します。[分析] で Facebook データ ソースを使用する前に、次のことを確認してください:
 
-* you use a [Facebook for Business ](https://ja-jp.facebook.com/business/help/) account;
-* in the [*Ads Manager*](https://ja-jp.facebook.com/business/help/200000840044554?id=802745156580214), you have [added, requested or created an *Ad account*](https://ja-jp.facebook.com/business/help/910137316041095?id=420299598837059)  for the profile or Facebook page you want to connect;
-* the *Ad account* for the profile/page you want to connect is not deactivated. If you are not sure, use this [Facebook help article](https://ja-jp.facebook.com/business/help/1798922733589154) to check and reactivate your Ad account if needed. 
+* [Meta for Business](https://ja-jp.facebook.com/business/help/) アカウントを使用すること。
+* [*広告マネージャ*](https://ja-jp.facebook.com/business/help/200000840044554?id=802745156580214)で、接続するプロファイルまたは Facebook ページの[*広告アカウント*を追加、要求、または作成](https://ja-jp.facebook.com/business/help/910137316041095?id=420299598837059)したこと。
+* 接続するプロファイル / ページの*広告アカウント*は無効化されていないこと。よくわからない場合は、この [Meta ヘルプ記事](https://ja-jp.facebook.com/business/help/1798922733589154)を使用して、必要に応じて広告アカウントを確認して再度アクティブにしてください。  
 
-## Adding a New Facebook Data Source Account
+## 新しい Facebook データ ソース アカウントの追加
 
-If you have already added your Facebook data source to the <img src="images/data-source-icon.png" alt="the data sources icon used in Analytics" width="24px" height="24px" /> *Data Sources* list, you can skip this part and continue with [Setting Up Your Data](#setting-up-your-data).
+Facebook データ ソースを*データ ソース* リストにすでに追加している場合は、この部分をスキップして、[データの設定](#setting-up-your-data)に進むことができます。
 
-To add a *Facebook* data source to your list, follow the steps described below.
+*Facebook* データ ソースをリストに追加するには、以下の手順に従ってください:
 
-1. Go to the <img src="images/data-source-icon.png" alt="the data sources icon used in Analytics" width="24px" height="24px" /> Data Sources tab > select the *+ Data Source* blue button > scroll to *Social Media* > select *Facebook*. 
-2. You will be prompted to log in with your *Facebook* profile. 
+1. [データ ソース] タブに移動し、**[+ データ ソース]** の青いボタンを選択し、**[ソーシャル メディア]** までスクロールして **[Facebook]** を選択します。 
+2. *Facebook* プロファイルでログインするように求められます。 
 
-    >[!NOTE] You need to have at least one *Ad account* associated with the Facebook profile you are trying to connect in *Analytics*. Read this [Facebook help article](https://ja-jp.facebook.com/business/help/910137316041095?id=420299598837059) to find out how to add, request and create *Ad accounts* in your Facebook Business Manager.
-3. Slingshot will get access to the relevant details in your account. 
-4. In the next dialog, you will be presented with one or more <img src="images/facebook-ad-account-icon.png" alt="the data sources icon used in Analytics" width="24px" height="24px" /> Facebook Ad Accounts to choose from. Select the account that you want to analyze.
-5. Click/tap _Select and Continue_. 
-6. In the last dialog that opens, you can change the Ad Account name and add an appropriate description as shown below. Adding appropriate descriptions helps all users navigate through long lists and find the data sources they are searching for. 
-7. Select _Add Data Source_. 
+    >[!NOTE] *分析*で接続しようとしている Facebook プロファイルに関連付けられた*広告アカウント*が少なくとも 1 つ必要です。この [Meta ヘルプ記事](https://www.facebook.com/business/help/910137316041095?id=420299598837059)を読んで、Meta Business Manager で*広告アカウント*を追加、要求、および作成する方法を確認してください。
+3. Slingshot は、アカウントの関連する詳細にアクセスします。 
+4. 次のダイアログでは、選択できる 1 つ以上の <img src="images/facebook-ad-account-icon.png" alt="the data sources icon used in Analytics" width="24px" height="24px" /> Facebook 広告アカウントが表示されます。分析したいアカウントを選択します。
+5. [選択して続行] をクリック / タップします。 
+6. 開いた最後のダイアログで、以下に示すように、広告アカウント名を変更し、適切な説明を追加できます。適切な説明を追加すると、すべてのユーザーが長いリストをナビゲートし、検索しているデータ ソースを見つけるのに役立ちます。 
+7. [データ ソースの追加] を選択します。
 
-You will see your new Facebook Ad account connection added at the bottom of your Data Sources list as shown below: 
+以下に示すように、データ ソース リストの下部に新しい Facebook 広告アカウント接続が追加されます。
 
 <img src="images/facebook-data-source-added.png" alt="the facebook data source shown in the Data Sources list" class="responsive-img" />
 
-## Setting Up Your Data
+## データの設定
 
-From the <img src="images/data-source-icon.png" alt="the data sources icon used in Analytics" width="24px" height="24px" /> Data Sources list, select the Facebook Ad account you want to connect. You will see the *Data Source details* dialog, which allows you to review and set up your data (look at the screenshot below). 
+[データ ソース] リストから、接続する Facebook 広告アカウントを選択します。[データ ソースの詳細] ダイアログが表示され、データを確認して設定できます (下のスクリーンショットを参照)。
 
 <img src="images/facebook-data-source-details.png" alt="the data sources details dialog" class="responsive-img" />
 
-Here you will find the following data source details: 
+ここに、次のデータ ソースの詳細があります: 
 
-* type and name; 
-* description; 
-* [certification](../certification.md);
-* who added the data source; 
-* who last modified it and when; 
-* who (users and workspaces) has access to it; 
-* how often the data is refreshed and select the dropdown on the right to change. 
+* タイプと名前。 
+* 説明。 
+* [認証](../certification.md)。
+* データ ソースを追加したユーザー。 
+* 最後に変更したユーザーとその日付。 
+* アクセスできるユーザーとワークスペース。 
+* データの更新頻度。変更するには、右側のドロップダウンを選択します。p
 
-The settings under **Set up your data** help you choose what data to be loaded in the Visualization Editor.
+**[データの設定]** は、表示形式エディターに読み込むデータを選択するのに役立ちます。
 
-* [*Attribution Window*](https://www.facebook.com/business/help/2198119873776795?id=768381033531365) - you can select to show data for a specific period from the dropdown list; 
-* *Action Report Time* - you can choose to have data reported *on impression*, *on conversion* and *mixed*;
-* using or not using the [Account Attribution Setting](https://www.facebook.com/business/help/460276478298895?id=561906377587030);
-* using or not using Unified Attribution Setting.
+* [*アトリビューション ウィンドウ*](https://ja-jp.facebook.com/business/help/2198119873776795?id=768381033531365) - ドロップダウン リストから特定の期間のデータを表示するように選択できます。
+* *アクション レポート時間* - データをレポートする方法を選択できます。
+* [アカウント アトリビューション設定](https://ja-jp.facebook.com/business/help/460276478298895?id=561906377587030)を使用するかどうか。
+* 統合アトリビューション設定を使用するかどうか。
 
-When ready, click/tap _Select Data_ to continue to the *Visualization Editor*. 
+準備ができたら、[データを選択] をクリック / タップして、*表示形式エディター*に進みます
 
 
 
