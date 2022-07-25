@@ -64,11 +64,11 @@ Now your discussion is created. You can start typing your first message to give 
 ## How can I share a discussion with another user?
 
 You can follow the steps below in order to share a discussion with another user:
-1. Open the overflow menu of the discussion and click/tap on **Shared With**. 
+1. Open the overflow menu of the discussion and click/tap on **Shared With...** 
 2. You will see a dialog where you can add people.
 3. Once you have selected the users, you can click on **Request To Share**. The owner of the discussion will get notified and can accept or decline the request. In case you are the owner of the discussion, you can add other users while choosing their role permissions and then click/tap on **Update**.
 
-<img src="../images/discussion-shared-with-button.png" alt="Adding users after clickin oh Shared With button" width="50%" class="responsive-img"/>
+<img src="../images/discussion-shared-with-button.png" alt="Adding users after clickin oh Shared With button" width="40%" class="responsive-img"/>
  
 
 ## How can I make sure someone is notified of new answers?
