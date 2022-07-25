@@ -9,17 +9,17 @@ Pins are simple links to different types of resources, including files from clou
 ## How to Pin Content
 Pinning content is one of the most common ways to share resources within Slingshot. You pin files or analytics dashboards by selecting them from cloud storages, existing pins, content shared with you, or uploading from your device. To pin URLs, you just add the URL and a title.
 
-<img src="../images/pin-content-action.png" alt="Pin action in Slingshot" class="responsive-img" width="30%"/>
+<img src="../images/pin-content.png" alt="Pin action in Slingshot" class="responsive-img" width="20%"/>
 
 ### Pinning from Anywhere
 
-1. Use the “+Pin” button and then select “Content” or “Analytics”. 
+1. Use the “+Pin” button and then select *Content* or *Analytics*. 
 2. Navigate to the file, which can be located in your cloud storages, existing Pins within Slingshot, Dashboards locations, or Shared with Me files.
 3. Select the file you want to pin.
 
 ### Pinning by Uploading from your Device
 
-1.	Use the “+Pin” button and then select “Upload File”. 
+1.	Use the “+Pin” button and then select *Upload File*. 
 2.	After selecting the file, choose the cloud storage where you want to upload.
 3.	Finally, choose the right permissions for sharing your file.
 
@@ -31,7 +31,7 @@ Pinning content is one of the most common ways to share resources within Slingsh
 
 ### Pinning URLs
 
-1.	Use the “+Pin” button and then select “URL”. 
+1.	Use the “+Pin” button and then select *URL*. 
 2.	Type or paste the URL and add/change the title if needed.
 
 ## Organizing your Pins
@@ -55,7 +55,7 @@ You can configure cloud storages for personal use or to share content with other
 
 ### Connecting to your Cloud Storages
 You can add a new cloud storage from the Pin dialog or using My Cloud Storage tab.
-1. Use the “+Add” button.
+1. Use the **+Add** button.
 2. Select the Cloud Storage.
 3. Sign in and grant Infragistics access.
 
@@ -79,7 +79,7 @@ In Slingshot, file types are represented using different icons. The most common 
 When you share files inside workspaces, you make these files available for the users inside the workspace. 
 File permissions are meant to give the file owner control over who can access their files. Each time you pin a file, Slingshot will ask you what type of permission you want to set. You will see a dialog that looks like this: 
 
-<img src="../images/pins-permissions.png" alt="A dialog showing the three file permission types" width="75%" class="responsive-img" />
+<img src="../images/pins-permissions.png" alt="A dialog showing the three file permission types" width="70%" class="responsive-img" />
 
 Here, you can choose between the following three permission types:
 
