@@ -22,8 +22,8 @@ Tasks are a visual representation of work that needs to get done. Within tasks y
 
 There are multiple ways to create a task in Slingshot:  
 
-- Using the "+ Task" button will add a task to the bottom of your list.
-- If you are using sections, you can quickly add a task to a section using the inline "+ Task".  
+- Using the **+ Task** button will add a task to the bottom of your list.
+- If you are using sections, you can quickly add a task to a section using the inline **+ Task**.  
 - If you want to insert a task right above or below another, you can do so from that task overflow menu.
 
 Subtasks can be created from inside the task card or from the parent task's overflow menu.
