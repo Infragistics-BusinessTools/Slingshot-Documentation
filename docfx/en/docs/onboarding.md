@@ -26,15 +26,15 @@ When you log into your account  for the first time, you will see the following:
 
 5.	Depending on your previous selections, you might see a dialog, where you can add tasks to the project. You can always change them later.  
 
- >[!NOTE] In case you have selected **Analyze data**, **build visualizations**, and **gain insights** as objectives, you won’t see this dialog.
-
  <img src="../images/tasks-onboarding.png" alt="Dialog where you can create tasks" width="70%" class="responsive-img"/>
+
+ >[!NOTE] In case you have selected **Analyze data**, **build visualizations**, and **gain insights** as objectives, you won’t see this dialog.
 
 6.	As a workplace is not really a workplace without your team, you can invite your team members to Slingshot. In case you want to do this at a later stage, you can click on **Next**.
 
  <img src="../images/invite-co-workers-onboarding.png" alt="Dialog where you can type in the email addresses of your co-workers" width="70%" class="responsive-img"/>
 
-When you are done with the onboarding process, you will land on the [tasks](https://www.slingshotapp.io/en/help/docs/tasks) in the project that you’ve created or in the [dashboards](https://www.slingshotapp.io/en/help/docs/analytics/dashboards/overview) section.
+7. When you are done with the onboarding process, you will land on the [tasks](https://www.slingshotapp.io/en/help/docs/tasks) in the project that you’ve created or in the [dashboards](https://www.slingshotapp.io/en/help/docs/analytics/dashboards/overview) section.
 
  <img src="../images/completed-onboarding.png" alt="tasks section after the onboarding is completed" width="85%" class="responsive-img"/> 
 
