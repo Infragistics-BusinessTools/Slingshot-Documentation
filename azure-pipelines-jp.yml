@@ -36,7 +36,7 @@ steps:
 - task: CmdLine@2
   displayName: "Build Slingshot docfx (Staging)" 
   inputs:
-    script: 'npm run build:staging -lang jp'
+    script: 'npm run build:staging_jp'
 - task: PublishBuildArtifacts@1
   displayName: "Copy staging artifacts to builds server"
   inputs:
@@ -48,7 +48,7 @@ steps:
 - task: CmdLine@2
   displayName: "Build Slingshot docfx (Production)" 
   inputs:
-    script: 'npm run build:prod -land jp'
+    script: 'npm run build:prod_jp'
 - task: PublishBuildArtifacts@1
   displayName: "Copy production artifacts to builds server"
   inputs:
