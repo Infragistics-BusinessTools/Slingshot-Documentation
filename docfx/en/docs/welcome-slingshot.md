@@ -70,3 +70,45 @@ Slingshot is available on any platform with a seamless experience no matter what
     </div>
   </div>
 </div>
+
+## Supported Languages
+
+<style type="text/css">
+
+ul.horizontal{
+    width: 900px;
+}
+
+ul.horizontal li{
+    float: left;
+    width: 200px;
+    padding: 2px 0px;
+}
+
+ul.horizontal:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
+
+<div>
+<ul class="horizontal">
+<li>Chinese(simplified)</li>
+<li>Chinese(traditional)</li>
+<li>Dutch</li>
+<li>English</li>
+<li>French</li>
+<li>German</li>
+<li>Italian</li>
+<li>Japanese</li>
+<li>Korean</li>
+<li>Malaysian</li>
+<li>Portuguese</li>
+<li>Russian</li>
+<li>Spanish</li>
+</ul>
+</div>
+
+>[!NOTE] In case a device is set to a language that is not in the list, the default language will be English. 
+
