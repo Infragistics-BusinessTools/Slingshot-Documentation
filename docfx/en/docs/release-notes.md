@@ -1,6 +1,6 @@
 # Release Notes
 
-### (Aug-2022)
+### 1.0.2555 (iOS and macOS) / 1.0.2556 (Android) / 1.0.2560 (Desktop and Web) (Aug-2022)
 
 #### New Features
 
