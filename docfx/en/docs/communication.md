@@ -11,9 +11,9 @@ While collaborating in teams or projects, people from different workspaces or ev
 
 It's a way of communication used by members of an organization, a workspace, or a project. Being organized in different threads, discussions ensure all your communication, and collaboration tools are in one place, making remote teams stay productive no matter where they are.
 
-<img src="../images/discussions-thread.png" alt="A Slingshot discussion thread displayed" class="responsive-img"/>
+<img src="../images/discussions-thread.png" alt="A Slingshot discussion thread displayed" class="responsive-img" width="70%"/>
 
-You can have multiple discussions going on at the same time while mixing in text formatting, attachments, emojis, and links. Plus you can react to conversations and even create tasks from messages.
+You can have multiple discussions going on at the same time while mixing in text formatting, attachments, emojis, and links. Plus you can react to conversations and even create [tasks](https://www.slingshotapp.io/en/help/docs/tasks) from messages.
 
 ## Lists of Discussions
 
@@ -23,9 +23,9 @@ Unlike lengthy email chains, members can follow or unfollow discussions. This is
 
 ## What is Slingshot's Chat? 
 
-Your *Chat* is also a tool for communication, but unlike *Discussions* it's not tied to any workspace or project. This means you can use it to chat with any Slingshot user, and even with users with personal accounts who are not part of your Organization.
+Your *[Chat](https://www.slingshotapp.io/en/help/docs/chat-faq)* is also a tool for communication, but unlike *[Discussions](https://www.slingshotapp.io/en/help/docs/discussions-faq)* it's not tied to any workspace or project. This means you can use it to chat with any Slingshot user, and even with users with personal accounts who are not part of your Organization.
 
-<img src="../images/chat-example.png" alt="An example of a chat conversation" class="responsive-img" />
+<img src="../images/chat-example.png" alt="An example of a chat conversation" class="responsive-img" width="65%" />
 
 ## Chat from Multiple Devices
 
@@ -35,5 +35,4 @@ Chat with one or multiple members, removing or adding members on demand. When wr
 
 ## Getting notifications
 
-With Slingshot notifications, you can get informed when someone sent a message to you or you are mentioned "@" in a discussion thread you're following. You can check the current Notification settings for messaging and tweak them as needed.  
-Follow the links for further details about [notifications](notifications.md).
+With Slingshot notifications, you can get informed when someone sent a message to you or you are mentioned "@" in a discussion thread you're following. You can check the current *[Notification](https://www.slingshotapp.io/en/help/docs/notifications)* settings for messaging and tweak them as needed.  
