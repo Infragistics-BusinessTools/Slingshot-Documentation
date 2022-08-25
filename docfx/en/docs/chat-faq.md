@@ -31,6 +31,18 @@ To switch from hidden to always opened and vice versa, select the *dock/undock* 
 
 When the chat is *docked*, you will always see it on the right. In this mode, you can see either the last chat room opened or the list of ongoing chats. 
 
+## How can I mark a chat as *unread*?
+
+In order to remind yourself that you need to respond in a chat, you can mark that chat as *unread*. You can do this by opening the overflow menu and choosing **Mark as unread**.
+
+<img class="responsive-img" src="../images/mark-as-unread-chats.png" alt="Mark as unread button in the chat options" class="responsive-img" width="60%" />
+
+ Once you have marked a chat as *unread*, it will show up in your notifications. A red dot will appear next to the chat indicating that it is *unread*.
+
+  <img class="responsive-img" src="../images/marked-as-unread-notifications-chat.png" alt="Mark as unread button in the overflow menu of an open chat" class="responsive-img" width="60%" />
+
+  You can always mark that chat as read when you open the overflow menu next to the chat and choose **Mark as Read**. Once you have opened a chat, it will be marked as *read*.
+
 <a name="private-chat-start"></a>
 ## How Can I Start a Private Chat?
 
@@ -65,7 +77,7 @@ You can rename your group chats to better differentiate between group chats with
 
 You can manage the members of a group chat by selecting the *group* icon on top of your chat room. 
 
-<img class="responsive-img" src="../images/group-chat-manage-members.png" alt="Members icon plus a list of group members opened" class="responsive-img" width="75%" />
+<img class="responsive-img" src="../images/group-chat-manage-members.png" alt="Members icon plus a list of group members opened" class="responsive-img" width="60%" />
 
 You will see the chat members in a dropdown. Use the *trash* icon next to their names if you want to remove somebody. Every participant in a group chat can remove other members from the chat. Removed members will continue seeing the history of the chat but they will not have access to new messages. 
 
@@ -77,7 +89,7 @@ When you are adding members to an ongoing group chat, you may want them to have 
 
 When adding members, you will notice a **History** setting at the bottom of the users list (see the screenshot below). 
 
-<img class="responsive-img" src="../images/chat-history-show.png" alt="Choose chat history to show new members" width="75%">
+<img class="responsive-img" src="../images/chat-history-show.png" alt="Choose chat history to show new members" width="60%">
 
 The following 3 options appear in the dropdown when collapsed: 
 
