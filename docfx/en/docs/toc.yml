@@ -74,8 +74,10 @@
 - name: Notifications
   href: notifications.md
   updated:  false
-- name: RELEASE NOTES
+- name: RELEASE INFORMATION
   header: true
   new: false
 - name: Release Notes
   href: release-notes.md
+- name: Data Limits
+  href: data-limits.md
