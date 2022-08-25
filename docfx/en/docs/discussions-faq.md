@@ -85,6 +85,20 @@ When you want to make sure *you* are notified of new messages, you need to navig
 
 >[!NOTE] **Auto following.** Each time you answer a discussion, you will start automatically following it. This means you will receive notifications for all new answers until you explicitly unfollow the topic. 
 
+## How can I mark a discussion as *unread*?
+
+In order to remind yourself that you need to respond in a discussion, you can mark that discussion as *unread*. You can do this by opening the overflow menu and choosing **Mark as unread**.
+
+<img src="../images/mark-as-unread-overflow-menu.png" alt="The mark as unread button in the overflow menu" width="70%" class="responsive-img"/>
+
+Alternatively, you can open the discussion and then mark it as *unread*.
+
+<img src="../images/mark-as-unread-button-discussions.png" alt="The mark as unread button in an open discussion" width="70%" class="responsive-img"/>
+
+ If you want to mark a discussion as read, you can open the overflow menu next to that discussion and choose **Mark as Read**. When you open a discussion, it gets also marked as *read*.
+
+<img src="../images/mark-as-read-discussion.png" alt="The mark as read button in an open discussion" width="70%" class="responsive-img"/>
+
 ## Deleting vs unfollowing a discussion
 
 Not all discussions would be interesting to you or need your participation. To prevent your Slingshot discussions become overwhelming, you can unfollow or delete discussions. 
