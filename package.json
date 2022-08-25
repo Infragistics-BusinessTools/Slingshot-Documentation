@@ -5,10 +5,14 @@
   "scripts": {
     "build:staging": "set NODE_ENV=staging && gulp ci-build",
     "build:prod": "set NODE_ENV=production && gulp ci-build",
+	"build:staging_jp": "set NODE_ENV=staging && gulp ci-build --lang jp",
+    "build:prod_jp": "set NODE_ENV=production && gulp ci-build --lang jp",
     "build": "gulp build",
     "start": "gulp serve",
     "build-staging": "set NODE_ENV=staging && gulp build",
-    "build-production": "set NODE_ENV=production && gulp build"
+    "build-production": "set NODE_ENV=production && gulp build",
+	"build-staging_jp": "set NODE_ENV=staging && gulp build --lang jp",
+    "build-production_jp": "set NODE_ENV=production && gulp build --lang jp"
   },
   "author": "Infragistics",
   "license": "ISC",

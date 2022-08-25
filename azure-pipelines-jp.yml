@@ -1,0 +1,59 @@
+# Starter pipeline
+# Start with a minimal pipeline that you can customize to build and deploy your code.
+# Add steps that build, run tests, deploy, and more:
+# https://aka.ms/yaml
+
+#trigger:
+#- master
+
+pool:
+  name: "BusinessTools On-Prem Documentation"
+
+steps:
+- checkout: self
+  clean: true
+  submodules: true
+  
+- task: DeleteFiles@1
+  inputs:
+    SourceFolder: 
+    Contents: |
+      package-lock.json
+- task: CmdLine@2
+  displayName: Clear npm cache
+  condition: ne(variables['cleanNpmCache'], 'false')
+  inputs:
+    script: 'npm cache clear --force'
+- task: CmdLine@2
+  displayName: "Npm install" 
+  inputs:
+    script: 'npm install'
+# get the Reveal repo
+- task: CmdLine@2
+  displayName: "Update/Fetch submodules" 
+  inputs:
+    script: 'git submodule update --recursive --remote'
+- task: CmdLine@2
+  displayName: "Build Slingshot docfx (Staging)" 
+  inputs:
+    script: 'npm run build:staging_jp'
+- task: PublishBuildArtifacts@1
+  displayName: "Copy staging artifacts to builds server"
+  inputs:
+    PathtoPublish: 'docfx'
+    ArtifactName: 'docs_staging'
+    publishLocation: 'FilePath'
+    TargetPath: '\\igbgsofsmb2\builds\Slingshot\Docs\$(Build.DefinitionName)\$(Build.BuildNumber)'
+    Parallel: true
+- task: CmdLine@2
+  displayName: "Build Slingshot docfx (Production)" 
+  inputs:
+    script: 'npm run build:prod_jp'
+- task: PublishBuildArtifacts@1
+  displayName: "Copy production artifacts to builds server"
+  inputs:
+    PathtoPublish: 'docfx'
+    ArtifactName: 'docs_production'
+    publishLocation: 'FilePath'
+    TargetPath: '\\igbgsofsmb2\builds\Slingshot\Docs\$(Build.DefinitionName)\$(Build.BuildNumber)'
+    Parallel: true

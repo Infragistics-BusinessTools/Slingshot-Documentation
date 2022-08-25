@@ -40,7 +40,7 @@ steps:
 - task: PublishBuildArtifacts@1
   displayName: "Copy staging artifacts to builds server"
   inputs:
-    PathtoPublish: 'docfx'
+    PathtoPublish: 'docfx\en'
     ArtifactName: 'docs_staging'
     publishLocation: 'FilePath'
     TargetPath: '\\igbgsofsmb2\builds\Slingshot\Docs\$(Build.DefinitionName)\$(Build.BuildNumber)'
@@ -52,8 +52,33 @@ steps:
 - task: PublishBuildArtifacts@1
   displayName: "Copy production artifacts to builds server"
   inputs:
-    PathtoPublish: 'docfx'
+    PathtoPublish: 'docfx\en'
     ArtifactName: 'docs_production'
+    publishLocation: 'FilePath'
+    TargetPath: '\\igbgsofsmb2\builds\Slingshot\Docs\$(Build.DefinitionName)\$(Build.BuildNumber)'
+    Parallel: true
+
+- task: CmdLine@2
+  displayName: "Build Slingshot docfx (Staging JP)" 
+  inputs:
+    script: 'npm run build:staging_jp'
+- task: PublishBuildArtifacts@1
+  displayName: "Copy staging JP artifacts to builds server"
+  inputs:
+    PathtoPublish: 'docfx\jp'
+    ArtifactName: 'docs_staging_jp'
+    publishLocation: 'FilePath'
+    TargetPath: '\\igbgsofsmb2\builds\Slingshot\Docs\$(Build.DefinitionName)\$(Build.BuildNumber)'
+    Parallel: true
+- task: CmdLine@2
+  displayName: "Build Slingshot docfx (Production JP)" 
+  inputs:
+    script: 'npm run build:prod_jp'
+- task: PublishBuildArtifacts@1
+  displayName: "Copy production artifacts to builds server"
+  inputs:
+    PathtoPublish: 'docfx\jp'
+    ArtifactName: 'docs_production_jp'
     publishLocation: 'FilePath'
     TargetPath: '\\igbgsofsmb2\builds\Slingshot\Docs\$(Build.DefinitionName)\$(Build.BuildNumber)'
     Parallel: true

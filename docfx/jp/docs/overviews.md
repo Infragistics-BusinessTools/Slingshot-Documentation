@@ -1,34 +1,46 @@
-# Getting the Big Picture with Overviews
+# 概要
 
-In short, an overview is a general review or summary about something, it helps you get the big picture, while leaving out details that are too specific.
+複数のワークスペースやプロジェクトで作業していると、次のようなよくある質問が頻繁に発生します:
+- 進捗は順調ですか? そうでない場合は、誰に何を確認するとよいですか?
+- 問題にぶつかりましたか? もしそうなら、問題は何ですか?
+- このプロジェクトに取り組んでいるのは誰ですか? タスクの消化具合はどうですか?
+- ワークスペースに関するドキュメントやその他のリソースはどこで入手できますか?
 
-Putting a little thought into to this, big picture thinking can be a big help for us to act proactively rather than reactively. A quick glance to the most important information around something can be a game changer. For example, taking advantage of a useful overview related to your team's work can push you towards high-performing teams ground.
+これらの質問はすべて、ワークスペースとプロジェクトの概要を使用して回答できます。
 
-## So, What's a Slingshot Overview?
+## 概要のタイプ
+概要を使用すると、作業に関する最も重要な情報を一目で確認できます。  概要には 2 つのタイプがあります:
+- **[概要]** - 個人的な概要 (画面の左上) は、ユーザーが自身の仕事を視覚化し、整理することができる場所です。
+- **ワークスペースまたはプロジェクトの [概要]** - ワークスペースまたはプロジェクトのクイッ クスナップショットを提供し、まとめた情報を表示することで、全員の作業の現在の状態を示します。
 
-It's a quick snapshot of a project, a team, or your personal work. Slingshot overviews present you with the current status of one of those three by including summarized information.
 
-By looking at a **project overview** you can get a sense of the project progress at a glance. Within seconds you get an overall status (On Target, At Risk, Danger, Completed), the start and due dates, and issues raised by someone working on the project. That information alone might be enough for you, if not you can dig deeper by exploring specific tasks within the project or even mentions directed at you. Project content can be useful to add resources like links, documents, dashboards, etc.
+## 概要
+個人の概要は画面の左上にあります。[概要] では、ユーザー自身が仕事を整理し、要約して仕事を視覚化することができます。ここに表示されるもの:
+- **ブックマーク** – Slingshot の最も重要な項目をすぐに利用できます。ワークスペース、タスク、チャット、およびコンテンツにブックマークを追加できます。ブックマークされたリストを使用すると、ピン固定されているすべてのドキュメントと Web リンクにアクセスできます。
+- **[今後のタスク]** – [今日]、[明日]、[今週]、[今月]、および [期限切れ] でフィルタリングできるタスクを使用して、1 日の優先順位を付けるのに役立ちます。 
+- **[メンション]** – Slingshot での @メンション。
 
-<img src="../images/overview-project.png" alt="Project Overview shown in Slingshot" class="responsive-img"/>
+<img src="../images/overviews-my-overview.png" alt="Showing a Workspace Overview within Slingshot" class="responsive-img"/>
 
-From a **team overview** you can get a list of the team members and their tasks, all mentions directed at you, and links to relevant content for the team.
+## ワークスペースとプロジェクトの概要
+プロジェクトやチームを実行するときは、全体像を把握して、迅速かつ積極的に行動する必要があります。仕事に関する最も重要な情報を一目見れば、パフォーマンスの高いチームを目指して進むことができます。
 
-<img src="../images/overview-team.png" alt="Teams Overview shown in Slingshot" class="responsive-img"/>
+概要では、プロジェクト マネージャーとリーダーの両方に、全体的な状態 (進行中、リスク、危険、完了)、開始と期日を示し、主要なコンテンツをメンバーに喚起することができます。
 
-Your **personal overview** is that one place where you can visualize your work and organize yourself. All your tasks with dates can be found here and you can open them without navigating away. Bookmarks are very useful to keep at hand those links that are really relevant to you. You can add links to teams, projects, tasks, chats and also boards. As boards are just containers, bookmarking a board gets you access to all its pinned documents and web links.
+<img src="../images/welcome-workspace-overview.png" alt="Showing a Workspace Overview within Slingshot" class="responsive-img"/>
 
-<img src="../images/overview-personal.png" alt="Personal Overview shown in Slingshot" class="responsive-img"/>
+### 詳細
+画面の左側から、次のようなワークスペースまたはプロジェクトに関する一般的な詳細を確認できます:
 
-## Why Visibility is so Important?
-In an [agile world](https://agilemanifesto.org/), you can never go wrong by saying that trust and transparency are key elements for a team leader seeking effective collaboration. That being said, visibility is essential for allowing, if not actually creating trust and transparency within a team.  
+- **プロジェクト / ワークスペースのメンバー** – ここでは、すべてのメンバーにすばやくアクセスして管理したり、プロジェクトまたはワークスペースへの保留中の招待を表示したりできます。
+- **状態** – ワークスペースの管理者は、いつでも全体的な状態を変更して、[進行中]、[リスク]、[危険]、および [完了] を切り替えることができます。
+- **簡単な説明** – ワークスペースまたはプロジェクトに簡単な説明を付けて、新しく入ってきたチーム メンバーも前からいるチームメンバーも、その目的を理解できるようにします。
+- **開始と期日** – ワークスペースがプロジェクトを中心に展開している場合、プロジェクトのすべての関係者にとって、日付の可視性は非常に重要です。
+- **ピン固定** – 主要なリソース (画像、ファイル、URL、分析) をピン固定します。
 
-Slingshot might be all about visibility yes, but overviews were specifically designed with visibility in mind. Besides helping build trust and transparency, overviews can help you turn challenges into opportunities. Using Slingshot overviews you are able to contrast and reframe current challenges while you adapt to a changing reality.   
+### メンション
+ここでは、ワークスペースまたはプロジェクトのタスクおよびディスカッション内のチームメートからユーザーに向けられた @メンションにアクセスできます。これは、メッセージがスレッド内で流れ去るのを防ぎながら、可視性を確保するための優れた方法です。
 
-When following a team or a team's project you will frequently find yourself with many questions, including:
-- Are we on time? If not, who should I ask and what to ask about?
-- Did we bump into an issue? If so, what's the issue?
-- Who's working on this project? How are they doing with their tasks?
-- Where can I get docs or other resources about the project or the team?
-
-All those questions can be answered using overviews.
+### タスクの状態
+ワークスペースまたはプロジェクトのメンバーに対するタスクの全リストを取得します。プロジェクトでは、そのプロジェクトのタスクのみがここに表示されます。ワークスペースでは、ワークスペースのすべてのタスクとそのすべてのプロジェクトのタスクも含まれます。
+タスクの状態を示す、完了率の概要も表示されます。
