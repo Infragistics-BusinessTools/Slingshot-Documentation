@@ -34,7 +34,7 @@ Subtasks can be created from inside the task card or from the parent task's over
 
 Tasks are very important for driving the productivity of your teams and projects. Your task card has the following fields:  
 
-<img src="../images/tasks-fields-highlight.png" alt="Task fields highlighted within Slingshot" width="60%" class="responsive-img"/>
+<img src="../images/tasks-fields-highlight.png" alt="Task fields highlighted within Slingshot" width="75%" class="responsive-img"/>
 
 1.	**Task Title**: Set a clear title for your tasks.  
 2.	**Assignee(s)**: Assign either one person, multiple, group or workspace to a task.  
@@ -47,6 +47,12 @@ Tasks are very important for driving the productivity of your teams and projects
 9.	**Description**: Add further details around your tasks so the assignee(s) can understand what needs to get done.
 10.	**Activity**: Have threaded conversations around your tasks in context. 
 11.	**Task Dependencies**: Set clear paths to success for your projects with accountability to user's tasks. 
+
+### Task description
+
+ In the task description section you can not only add additional details around your tasks but you can also add images or create numbered and bulleted lists. For emphasis, you can also use the bold or italic font.
+
+  <img src="../images/task-description-new-features.png" alt="using an image and numbered list in the task description" width="70%" class="responsive-img"/>
 
 ## Task duplication
 
@@ -83,7 +89,7 @@ Within each of the task views you can filter, choose which task fields you want 
 
 Project manage and update tasks faster from within your list view.  
 
-<img src="../images/Slingshot_Tasks_List_View.png" alt="Task list view within Slingshot" width="60%" class="responsive-img"/>
+<img src="../images/Slingshot_Tasks_List_View.png" alt="Task list view within Slingshot" width="65%" class="responsive-img"/>
 
 
 Use List view if you want to: 
@@ -110,7 +116,7 @@ Use Kanban view if you want to:
 
 See a clear path for project completion and dependencies by using timeline view. Zoom in or out to see your timeline by days, weeks or months.
 
-<img src="../images/Slingshot_Tasks_Timeline_View.png" alt="Task timeline view within Slingshot" width="60%" class="responsive-img"/>
+<img src="../images/Slingshot_Tasks_Timeline_View.png" alt="Task timeline view within Slingshot" width="65%" class="responsive-img"/>
 
 Use Timeline view if you want to: 
 
