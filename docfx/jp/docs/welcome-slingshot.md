@@ -1,3 +1,9 @@
+---
+title: Slingshot ヘルプ – 開始
+_description: Slingshot のすべての有用な機能について説明します。
+_language: ja
+---
+
 # Slingshot ヘルプ センターへようこそ
 
 Slingshot は、作業するすべてのユーザーをデータに接続し、プロジェクト、コンテンツ、チャットを整理して、チームの力を解き放つ唯一のデジタル ワークプレイスです。

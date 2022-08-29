@@ -1,3 +1,9 @@
+---
+title: Slingshot でユーザー アカウントを管理する方法
+_description: アプリ内でのやり取りを最大限に活用するために、Slingshot のユーザー アカウントについて説明します。
+_language: ja
+---
+
 # ユーザー アカウントと設定
 
 ユーザー アカウントを使用すると、アプリケーションまたはデバイスにサインインしてユーザーを認識できます。ユーザー アカウントは、任意のデジタル テクノロジー用に作成された仮想 ID として説明することもできます。
@@ -16,15 +22,17 @@ Slingshot 内のセキュリティとデータ プライバシーの詳細につ
 
 アプリケーションの動作と全体的なエクスペリエンスは、プロファイル情報と設定を調整することで大幅に変更できます。ニーズに合わせてエクスペリエンスをカスタマイズしてみてください。これを行うには、[設定] に移動します。
 
-<img src="../images/open-settings.png" alt="Settings location" width="40%" class="responsive-img">
+<img src="../images/user-account-settings-drop-down-menu.png" alt="Settings location" width="60%" class="responsive-img">
 
 ここで、さまざまな設定を自由に試して、Slingshot を自分の好みに合わせてください。
 - ダークまたはライト テーマに変えたいですか?
 - ズーム レベルを下げて画面に合わせたり、拡大して単語や画像を見やすくしたりしたいですか?
 - ドラッグアンドドロップを使用してファイルをアップロードすることがよくあり、および、デフォルトのアップロード先を変更したいですか?
 - ファイル (Word や Excel ドキュメントなど) を開くときに、ネイティブ アプリを使用しますか、それともブラウザーで開きますか?
+- Do you want to clear the data cache?
+- Do you want to export your logs?
 
-<img src="../images/general-settings-user-account.png" alt="User settings opened" class="responsive-img">
+<img src="../images/users-account-settings.png" alt="User settings opened" width="60%" class="responsive-img">
 
 さらに、他のユーザーと共同作業するときに自分を認識できるようになるため、**プロファイル情報**を完成させることをお勧めします。名前、役職、写真などはすべてユーザーの仮想 ID の一部であり、Slingshot の体験に付加価値をもたらします。
 

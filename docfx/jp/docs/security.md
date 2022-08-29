@@ -1,3 +1,9 @@
+---
+title: Security and Privacy Settings in Slingshot
+_description: Learn all about Slingshot’s security for data, roles, permissions, content and working with files safely.
+_language: ja
+---
+
 # セキュリティとプライバシー
 
 Slingshot は、データのセキュリティとプライバシーを真剣に受け止め、物理的なハードウェアやアクセス制御からアプリケーションの論理的なセキュリティまで、セキュリティのあらゆる側面を網羅しています。ハードウェア セキュリティに加えて、保存データ、転送中のデータ、一時的にキャッシュされたデータなどのさまざまな状態でのデータ暗号化は、すべてのプラットフォームでデータ保護を保証する重要なプラクティスです。

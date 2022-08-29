@@ -38,9 +38,11 @@ Slingshot は、分析、データ ソースとセット、表示形式、ダッ
 ## データ カタログのフィルタリング
 フィルターを使用すると、特定の条件を満たすダッシュボードまたはデータ ソースのセットを表示できます。
 
-フィルター エディターにアクセスするには、オーバーフローの隣にあるフィルター アイコン (画面右上) をクリック / タップします。
+フィルター エディターにアクセスするには、オーバーフローの隣にあるフィルター アイコン (画面右上) をクリック/タップします。Alternatively, you can click/tap on the *+Filter* button that is in the *Filters* section, under *Created By Me* and *Shared with Me.*
 
 ダッシュボードまたはデータ ソースのフィルタリングを停止するには、フィルター アイコンをクリック / タップして、[フィルター] ダイアログを開きます。次に、下の [クリア] ボタンを選択して現在のフィルターを削除し、[適用] をクリックして変更を保存します。
+
+<img src="../images/data-sources-filters.png" alt="Different filters in the data catalog" width="40%" class="responsive-img"/>
 
 ## データ カタログの構成
 

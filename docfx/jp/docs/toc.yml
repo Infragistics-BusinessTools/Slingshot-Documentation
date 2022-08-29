@@ -41,16 +41,26 @@
 - name: グループ
   href: groups.md
   new: false
+- name: Onboarding
+  href: onboarding.md
+  new: true
+- name: Invite Friends
+  href: invite-friends.md
+  new: false
 - name: 生産性フロー
   href: productivity-flows.md
   new: false
 - name: 検索
   href: search.md
   updated:  false
-- name: ブックマーク (Coming Soon)
-  href:
+- name: ブックマーク
+  href: bookmarks.md
+  new: false 
 - name: 設定
   header: true
+- name: Feedback
+  href: feedback.md
+  new: false
 - name: ユーザー アカウントと設定
   href: user-account.md
   new: false
@@ -69,3 +79,5 @@
   new: false
 - name: リリース ノート
   href: release-notes.md
+- name: Data Limits
+  href: data-limits.md

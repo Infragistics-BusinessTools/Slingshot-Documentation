@@ -1,42 +1,36 @@
 # リリース ノート
 
-以下は、Slingshot の新機能および追加予定のアップデートです。
+### 1.0.2555 (iOS and macOS) / 1.0.2556 (Android) / 1.0.2560 (Desktop and Web) (Aug-2022)
 
-<style type="text/css">
-th {
-  text-align: center;
-}
+#### 新機能
 
-td {
-  padding: 10px;
-}
+- Multi-window support. An option to open an item in a new window.
 
-.rntable .td1 {
-  vertical-align: middle;
-  font-size: 18px;
-}
+- Ability to mark a chat or discussion as unread
 
-.bullet {
-    display:list-item;
-    list-style:disc inside;
-    padding:0 0 0 14px;
-    margin:0;
-}
+- Ability to create lists and add inline images to task descriptions
 
-</style>
+### 1.0.2459 (June-2022)
 
-<table class="rntable">
-    <tr>
-        <th style="vertical-align:middle"><span style="font-weight:bold">日付</span></th>
-        <th style="vertical-align:middle"><span style="font-weight:bold">Slingshot のバージョン</span></th>
-        <th style="vertical-align:middle"><span style="font-weight:bold">説明</span></th>
-    </tr>
-        <tr>
-        <td class="td1" rowspan="2">2022 年 3 月</td>
-        <td class="td1" rowspan="2">1.0.2360</td>
-        <td><span style="font-style:italic;font-size:16px">Slingshot のリリース!</span><br> Slingshot の初回リリースが出ました! 
-        </td>
-    </tr>
-</table>
+#### 新機能
 
->[!NOTE] Slingshot のバージョンを確認するには、画面右上の角にあるプロファイルに移動し、<img src="../images/info-icon.png" alt="About icon in Slingshot" width="25px" height="25px"/> [詳細情報] を選択します。 
+- *New onboarding experience*
+- Ability to duplicate tasks with sub-tasks
+- x64 version of windows desktop version
+- Ability to set the threshold used to display the "Others" slice for Pie and Doughnut visualizations
+
+#### Bug Fixes and Improvements
+
+- [Bug Fix] A blur appeared on the text input when you tried sending a message.
+- [Bug Fix] Large images would lead to the desktop app to crash.
+- [Bug Fix] The desktop app crashed when you tried maximizing it on a large screen.
+- [Bug Fix] A link to a message in a task activity opened a new task rather than scrolling to the open task.
+- [Improvement] When you try uploading a file with invalid characters, a warning will show up.
+
+### 1.0.2360 (March- 2022)
+
+#### Slingshot Release
+
+- The first release of Slingshot is out!
+
+>[!NOTE] To check your Slingshot version, select your profile in the top right corner of the screen > About icon in SlingshotAbout.
