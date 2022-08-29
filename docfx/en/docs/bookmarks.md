@@ -10,7 +10,7 @@ To save time and have the content that is important to you organized, you can qu
 2.	From the provided options choose **Bookmark**. 
 3.	After you have added, for example, a task or a dashboard to your bookmarks, you can find it under the **Bookmarks** section on the left side panel, next to your workspaces and groups.
 
-<img src="../images/bookmarks.png" alt="bookmarks button" class="responsive-img" width="40%"/>
+<img src="../images/bookmarks.png" alt="bookmarks button" class="responsive-img" width="35%"/>
 
 Alternatively, you can click on **My Overview** to access your bookmarks.
 
@@ -20,7 +20,7 @@ If you have bookmarked different things, you can drag and drop them manually to 
 
 ## What can I bookmark?
 
-You can bookmark everything you want to have a quick access to - from task, links, chat messages and discussions, to workspaces, projects, data sources and dashboards. Once the item that you have saved is under **Bookmarks**, you can take different actions directly from the three-dot menu depending on the saved item.
+You can bookmark everything you want to have a quick access to - from task, links, chat messages and discussions, to workspaces, projects, data sources and dashboards. Once the item that you have saved is under **Bookmarks**, you can take different actions directly from the overflow menu depending on the saved item.
 
 ## How can I remove an item from the bookmarks list?
 
@@ -30,6 +30,6 @@ You can remove a bookmarked item with the following steps:
 2.	Open the overflow menu.
 3.	Choose **Remove Bookmark**.
 
-<img src="../images/remove-bookmark-option.png" alt="How to remove a bookmark" class="responsive-img" width="40%"/>
+<img src="../images/remove-bookmark-option.png" alt="How to remove a bookmark" class="responsive-img" width="35%"/>
 
-Alternatively, you can open the item and click on the three-dot-menu and then choose **Remove Bookmark**. 
+Alternatively, you can open the item and click on the overflow menu and then choose **Remove Bookmark**. 
