@@ -16,7 +16,7 @@ Below are the high level features that your Data Catalog brings along:
 
 - **Dashboards and Data Sources**: The Data Catalog is really about giving users access to an extensive catalog of dashboards and data sources.
 
-<img src="../images/data-catalog-sample.png" alt="Data Catalog screen within Slingshot" class="responsive-img"/>
+<img src="../images/data-catalog-sample.png" alt="Data Catalog screen within Slingshot" class="responsive-img" width="90%"/>
 
 ### Certifications
 Organization owners can guide their users about which dashboards or data sources can be considered reliable, containing verified information.
@@ -43,7 +43,7 @@ To access the Filters editor just click/tap on the filter icon (top right of the
 
 To stop filtering dashboards or data sources, click/tap the filter icon to open the Filters dialog. Then, select the Clear button at the bottom to remove the current filters, and Apply to save your changes.
 
-<img src="../images/data-sources-filters.png" alt="Different filters in the data catalog" width="40%" class="responsive-img"/>
+<img src="../images/data-sources-filters.png" alt="Different filters in the data catalog" width="35%" class="responsive-img"/>
 
 ## Organizing the Data Catalog
 
