@@ -47,15 +47,19 @@
 - name: Invite Friends
   href: invite-friends.md
   new: false
-- name: Productivity Flows
-  href: productivity-flows.md
-  new: false
 - name: Search
   href: search.md
   updated:  false
 - name: Bookmarks
   href: bookmarks.md
   new: false 
+- name: Productivity Tips
+  header: true
+- name: Open in New Window
+  href: open-in-new-window.md
+  new: true
+- name: Productivity Flows
+  href: productivity-flows.md
 - name: SETTINGS
   header: true
 - name: Feedback
