@@ -1,35 +1,35 @@
-# Bookmarks
+# ブックマーク
 
-In our data-driven world we are constantly dealing with information. Our team members and friends share with us different types of content – from URLs and images to dashboards and data sources. It can get hard keeping track on all the information.
+データ駆動型の世界では、常に情報を処理しています。チーム メンバーや友達は、URL や画像からダッシュボードやデータ ソースまで、さまざまなタイプのコンテンツを共有します。すべての情報を追跡するのは困難な場合があります。
 
-To save time and have the content that is important to you organized, you can quickly bookmark it with just a few steps.
+時間を節約し、重要なコンテンツを整理するために、わずかな手順ですばやくブックマークを作ることができます。
 
-## How can I use bookmarks?
+## ブックマークを使用する方法
 
-1.	Open the overflow menu next to the content you would like to bookmark.
-2.	From the provided options choose **Bookmark**. 
-3.	After you have added, for example, a task or a dashboard to your bookmarks, you can find it under the **Bookmarks** section on the left side panel, next to your workspaces and groups.
+1.	ブックマークしたいコンテンツの横にあるオーバーフロー メニューを開きます。
+2.	提供されたオプションから **[ブックマーク]** を選択します。 
+3.	タスクやダッシュボードをブックマークに追加すると、左側のパネルの [ワークスペース] および [グループ] の隣にある **[ブックマーク]** セクションに追加されたブックマークが表示されます。
 
-<img src="../images/bookmarks.png" alt="bookmarks button" class="responsive-img" width="40%"/>
+<img src="../images/bookmarks.png" alt="bookmarks button" class="responsive-img" width="35%"/>
 
-Alternatively, you can click on **My Overview** to access your bookmarks.
+または、**[概要]** をクリックしても、ブックマークにアクセスできます。
 
 <img src="../images/bookmarks-my-overview.png" alt="bookmarks in my overview" class="responsive-img" width="70%" />
 
-If you have bookmarked different things, you can drag and drop them manually to organize the list the way you want it to appear.
+多くの項目をブックマークしている場合は、手動でドラッグアンドドロップしてリストを整理できます。
 
-## What can I bookmark?
+## ブックマークできる項目
 
-You can bookmark everything you want to have a quick access to - from task, links, chat messages and discussions, to workspaces, projects, data sources and dashboards. Once the item that you have saved is under **Bookmarks**, you can take different actions directly from the three-dot menu depending on the saved item.
+タスク、リンク、チャット メッセージ、ディスカッションからワークスペース、プロジェクト、データソース、ダッシュボードまで、すばやくアクセスしたいもの全てをブックマークすることができます。保存した項目が **[ブックマーク]** にある場合、保存された項目に基づいてオーバーフロー メニューから直接さまざまな操作を実行できます。
 
-## How can I remove an item from the bookmarks list?
+## ブックマーク リストから項目を削除する方法
 
-You can remove a bookmarked item with the following steps:
+以下の手順でブックマーク項目を削除できます:
 
-1.	Open the **Bookmarks** section.
-2.	Open the overflow menu.
-3.	Choose **Remove Bookmark**.
+1.	**[ブックマーク]** セクションを開きます。
+2.	オーバーフロー メニューを開きます。
+3.	**[ブックマークの削除]** を選択します。
 
-<img src="../images/remove-bookmark-option.png" alt="How to remove a bookmark" class="responsive-img" width="40%"/>
+<img src="../images/remove-bookmark-option.png" alt="How to remove a bookmark" class="responsive-img" width="35%"/>
 
-Alternatively, you can open the item and click on the three-dot-menu and then choose **Remove Bookmark**. 
+または、項目を開いてオーバーフロー メニューをクリックし、**[ブックマークの削除]** を選択します。 

@@ -1,24 +1,24 @@
-# Feedback
+# フィードバック
 
-We are constantly working on improving Slingshot as our goal is to reach simplicity in our data-driven world while making remote work easy and fast. As we share our users’ passion for a digital workplace, we would like to hear more from you through our feedback form.
+リモートワークを簡単かつ迅速にしながら、データ駆動型の世界でシンプルさを実現することが Slingshot の目標です。デジタル ワークプレースに対するユーザーの想いを共有したく、ご感想、ご要望等お気づきの点がありましたら、フィードバックフォームからお知らせ下さい。
 
-## How can I provide you with My Feedback?
+## フィードバックを報告する方法
 
-You can follow these quick steps in order to share your feedback with us:
+フィードバックを送信する手順は、以下のとおりです:
 
-1. Tap/click on your profile picture in the upper right corner.
+1. 右上隅のプロフィール画像をタップ/クリックします。
 
-2. Tap/click on **Give Feedback**.
+2. **[製品のフィードバック]** をタップ/クリックします。
 
  <img src="../images/feedback-button.png" alt="Showing where the give feedback button is" class="responsive-img"/>
 
-3. A window will pop-up, where you can take the following actions:
+3. ウィンドウがポップアップし、以下の操作を実行できます:
 
-- Write about your experience with Slingshots and tell us more about the features or options that you would like us to include/improve.
-- Include screenshots of thе app. You can also edit them with the help of different tools such as adding text or using an arrow to point to a specific area. 
-- Sign up for our newsletters.
-- Include your system info. We would recommend that you always include this info in your feedback as that will help us get a better overview on the matter.
+- Slingshots を使用した感想、追加または改善して欲しい機能やオプションについてお聞かせください。
+- アプリのスクリーンショットを添付することができます。テキストの追加や特定の領域を指す矢印の使用など、さまざまなツールを使用して編集することもできます。 
+- ニュースレターにサインアップできます。
+- システム情報を含めることができます。常にこの情報をフィードバックに含めることをお勧めします。これにより、問題の概要をより適切に把握することができます。
 
  <img src="../images/feedback-options.png" alt="Showing what the give feedback options are" width="45%" class="responsive-img"/>
 
-If you want to find out more about the other options under your user account and settings, click [here](https://www.slingshotapp.io/en/help/docs/user-account).
+ユーザー アカウントおよび設定にあるその他のオプションの詳細については、[こちら](https://www.slingshotapp.io/jp/help/docs/user-account)をクリックしてください。

@@ -72,22 +72,22 @@ Slingshot では、ファイル タイプは異なるアイコンを使用して
 |![PDF file icon](../images/icon-pdf-file.png)|Adobe PDF ファイル|![Video file icon](../images/icon-video-file.png)| ビデオ ファイル|
 |![Web link icon](../images/icon-web-link.png)| Web リンク|![Zip file icon](../images/icon-zip-file.png)| ZIP ファイル|
 
-### How to set file permissions?
+### ファイルのアクセス許可を設定する方法
 
-When you share files inside workspaces, you make these files available for the users inside the workspace. 
-File permissions are meant to give the file owner control over who can access their files. Each time you pin a file, Slingshot will ask you what type of permission you want to set. You will see a dialog that looks like this: 
+ワークスペース内のファイルを共有すると、ワークスペース内のユーザーがこれらのファイルを使用できるようになります。
+ファイルのアクセス許可は、ファイルの管理者がファイルにアクセスできるユーザーを制御します。ファイルを固定するたびに、Slingshot は設定する許可のタイプを尋ねます。以下のようなダイアログが表示されます。
 
 <img src="../images/pins-permissions.png" alt="A dialog showing the three file permission types" width="70%" class="responsive-img" />
 
-Here, you can choose between the following three permission types:
+こちらでは、以下の 3 つの許可タイプから選択できます。
 
- - **All Can Access** - all Slingshot users can access the file.
- - **Automatic Access** - all users in the workspace can access the file.
- - **Request Access** -  all users, including the users in the workspace have to request access from the owner.
+ - **すべてのユーザーがアクセス可能** - すべての Slingshot ユーザーがファイルにアクセスできます。
+ - **自動アクセス** - ワークスペースのすべてのユーザーがファイルにアクセスできます。
+ - **アクセス権の要求** - ワークスペースのユーザーを含むすべてのユーザーが管理者にアクセス権を要求する必要があります。
 
-> [!NOTE] Giving access to a file in Slingshot means you give view and edit permissions to the file. 
+> [!NOTE] Slingshot でファイルへのアクセスを許可すると、ファイルの表示および編集のアクセス許可が与えられます。
 
-Learn more about each file permissions type and how to manage members' access in [this topic](file-permissions-faq.md). 
+[このトピック](file-permissions-faq.md)では、各ファイルのアクセス許可のタイプとメンバーのアクセスを管理する方法について説明します。
 
 ### ドラッグ アンド ドロップ
 ドラッグ アンド ドロップを使用して、外部ソースから Slingshot のリストにファイルまたはリンクをすばやく追加できます。Slingshot に追加されたファイルは、設定したクラウド ストレージの中に「Slingshot のアップロード」という名前のフォルダーを作成してそこにアップロードされます。

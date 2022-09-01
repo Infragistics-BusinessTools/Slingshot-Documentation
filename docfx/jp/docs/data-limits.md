@@ -1,9 +1,9 @@
-# Data Limits
+# データ制限
 
-There are size limits server-side when using Reveal Web regarding the size of files downloaded, the number of cells in a result set (after aggregation), size of pivot tables and grids (given as a number of cells). The objective of these limits is to prevent the server to run out of resources (memory and disk space).
+ダウンロードされたファイルのサイズ、結果セット内のセルの数 (集計後)、ピボット テーブルとグリッドのサイズ (セルの数として指定) に関して、Reveal Web を使用する場合のサーバー側のサイズ制限があります。これらの制限の目的は、サーバーのリソース (メモリとディスク領域) が不足するのを防ぐことです。
 
-## Default limit Values:
+## デフォルトの制限値:
 
-- 200mb when downloading csv/json/excel
-- 10 million cells
-- 64 million characters (adding all the strings in all cells).
+- csv/json/excel をダウンロードする場合は 200mb
+- 1000 万のセル
+- 6400 万文字 (すべてのセルにすべての文字列を追加)

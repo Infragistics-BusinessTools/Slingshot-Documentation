@@ -49,30 +49,30 @@ Slingshot でタスクを作成する方法は複数あります:
 10.	**アクティビティ**: 状況に応じて、タスクに関するスレッド化された会話を行います。 
 11.	**タスクの依存関係**: ユーザーのタスクに対する説明責任を持って、プロジェクトの成功への明確な道筋を設定します。 
 
-### Task description
+### タスクの説明
 
- In the task description section you can not only add additional details around your tasks but you can also add images or create numbered and bulleted lists. For emphasis, you can also use the bold or italic font.
+ タスクの説明セクションでは、タスクの詳細を追加できるだけでなく、画像の追加や番号付きリストや黒丸付きリストの作成もできます。強調するために、太字または斜体フォントを使用することもできます。
 
   <img src="../images/task-description-new-features.png" alt="using an image and numbered list in the task description" width="70%" class="responsive-img"/>
 
-## Task duplication
+## タスクの複製
 
-Instead of creating a whole new set of tasks, you can save some time and be more productive by duplicating a task with the steps mentioned below. Keep in mind that only a parent task can be duplicated and will duplicate all the subtasks associated with it. 
+新しいタスク セットを作成する代わりに、以下の手順でタスクを複製することで時間を節約し、生産性を向上できます。親タスクのみ複製可能であり、関連付けられたすべてのサブタスクを複製することに注意してください。
 
-1.	Open **My Tasks**.
+1.	[**マイ タスク**] を開きます。
 
-2.	Click on the overflow menu. 
+2.	オーバーフロー メニューをクリックします。 
 
-3.	Choose **Duplicate**.
+3.	[**複製**] を選択します。
 
  <img src="../images/duplicate-tasks-option.png" alt="task duplication overflow menu" width="70%" class="responsive-img"/>
 
-4.	A dialog will open, where you can choose what you want to keep when you duplicate the task. You can also change the title of the task. If  you decide to keep the same assignees, you’ll be presented with the option to notify them once the task is created.
+4.	ダイアログが開き、タスクを複製するときに保持する項目を選択できます。タスクのタイトルを変更することもできます。同じ担当者を保持する場合、タスクの作成後に通知するオプションが表示されます。
 
  <img src="../images/duplicate-a-task-filters.png" alt="dialog with task duplication filters" width="35%" class="responsive-img"/>
 
-5.	Once you’ve saved your preferences, you will see the task field where you can make changes. 
-6.	When you are ready, you can click on **Update**. You can find the task with the subtasks in the **My Tasks** section. 
+5.	設定を保存すると、タスク フィールドが表示され変更できます。
+6.	準備ができたら、**[更新]** をクリックします。タスクは、**[マイ タスク]** セクションのサブタスクにあります。
 
  <img src="../images/duplicate-task-storage.png" alt="where to find the duplicated task" width="78%" class="responsive-img"/>
 

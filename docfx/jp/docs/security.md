@@ -1,6 +1,6 @@
 ---
-title: Security and Privacy Settings in Slingshot
-_description: Learn all about Slingshot’s security for data, roles, permissions, content and working with files safely.
+title: Slingshot のセキュリティとプライバシーの設定
+_description: データ、ロール、アクセス許可、コンテンツ、およびファイルの安全な操作のための Slingshot のセキュリティについて説明します。
 _language: ja
 ---
 

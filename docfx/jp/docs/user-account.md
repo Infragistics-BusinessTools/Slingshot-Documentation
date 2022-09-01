@@ -29,8 +29,8 @@ Slingshot 内のセキュリティとデータ プライバシーの詳細につ
 - ズーム レベルを下げて画面に合わせたり、拡大して単語や画像を見やすくしたりしたいですか?
 - ドラッグアンドドロップを使用してファイルをアップロードすることがよくあり、および、デフォルトのアップロード先を変更したいですか?
 - ファイル (Word や Excel ドキュメントなど) を開くときに、ネイティブ アプリを使用しますか、それともブラウザーで開きますか?
-- Do you want to clear the data cache?
-- Do you want to export your logs?
+- データ キャッシュをクリアしたいですか？
+- ログをエクスポートしたいですか？
 
 <img src="../images/users-account-settings.png" alt="User settings opened" width="60%" class="responsive-img">
 

@@ -1,35 +1,35 @@
-# Invite Friends
+# 友達を招待する
 
-Slingshot is a digital workplace that connects everyone you work with to data, helps with organization of projects and content and provides you with the option to communicate with others in order to boost team results.
+Slingshot は、共に作業するすべてのユーザーをデータに接続し、プロジェクトやコンテンツを整理して、チームの結果を向上させるために他の人とコミュニケーションをとる手段を提供します。
 
-You can not only reach out to your team members via the app, but you can also message your friends who are not part of a specific organization.
+アプリを使用してチーム メンバーに連絡するだけでなく、特定の組織に所属していない友人にメッセージを送信することもできます。
 
-With the Invite Friends feature, you can introduce your friends to Slingshot so you can start collaborating with them in no time.
+「友達を招待する」機能を使用すると、友達に Slingshot を紹介して、すぐにコラボレーションを開始できます。
 
  <img src="../images/invite-friends-feature.png" alt="Invite friends button" width="35%" class="responsive-img"/>
 
-## How can I Invite Friends?
+## 友達を招待する方法
 
-*Mobile*
+モバイル
 
-1.	Click/tap on your profile picture in the upper right corner.
+1.	右上隅のプロフィール画像をクリック/タップします。
 
-2.	Click on **Invite Friends**.
+2.	**[友達を招待する]** をクリックします。
 
-3.	A share dialog will open up, where you can choose how to send the link (e.g. via text, email or an app)
+3.	共有ダイアログが開き、リンクの送信方法 (テキスト メーセージ、メール、アプリなど) を選択できます。
 
-*Web/Desktop app*
+Web / デスクトップ アプリ
 
-1.	Click/tap on your profile picture in the upper right corner.
+1.	右上隅のプロフィール画像をクリック/タップします。
 
-2.	Click on **Invite Friends**.
+2.	**[友達を招待する]** をクリックします。
 
-3.	A dialog with a list of different email clients will open. You can choose a client and log in to your account or add a new account. 
+3.	さまざまなメール クライアントのリストを含むダイアログが開きます。クライアントを選択してアカウントにログインするか、新しいアカウントを追加できます。 
 
  <img src="../images/invite-friends-dialog-email-clients.png" alt="Dialog with different email clients" width="60%" class="responsive-img"/>
 
-4.	Once you’ve logged in, you’ll be able to send the link to Slingshot to your friend. After that you friend can log in to their account and check out the page.
+4.	ログインすると、Slingshot へのリンクを友達に送信できるようになります。その後、友達はアカウントにログインしてページを確認できます。
 
-5.	They can also click on the **Try it Now** or **Sign in** buttons in the upper right corner of the page and follow the steps in order to create a new account.
+5.	ページの右上隅にある **[今すぐ試す]** または **[サインイン]** ボタンをクリックし、手順に従って新しいアカウントを作成することもできます。
 
-To learn more about how you can start a private chat, click [here](https://www.slingshotapp.io/en/help/docs/chat-faq).
+プライベート チャットを開始する方法の詳細については、[こちら](https://www.slingshotapp.io/jp/help/docs/chat-faq)をクリックしてください。
