@@ -24,7 +24,7 @@ _language: ja
 
 ## Slingshot のチャットとは? 
 
-**[チャット](https://www.slingshotapp.io/jp/help/docs/chat-faq)**もコミュニケーションのツールですが、*[*ディスカッション](https://www.slingshotapp.io/jp/help/docs/discussions-faq)**とは異なり、ワークスペースやプロジェクトとは関係ありません。つまり、Slingshot を使用して任意の Slingshot ユーザーとチャットできます。また、組織のメンバーではない個人アカウントを持つユーザーとチャットすることもできます。
+**[チャット](https://www.slingshotapp.io/jp/help/docs/chat-faq)**もコミュニケーションのツールですが、**[ディスカッション](https://www.slingshotapp.io/jp/help/docs/discussions-faq)**とは異なり、ワークスペースやプロジェクトとは関係ありません。つまり、Slingshot を使用して任意の Slingshot ユーザーとチャットできます。また、組織のメンバーではない個人アカウントを持つユーザーとチャットすることもできます。
 
 <img src="../images/chat-example.png" alt="An example of a chat conversation" class="responsive-img" width="65%" />
 
