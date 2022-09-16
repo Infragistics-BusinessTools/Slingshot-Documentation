@@ -54,6 +54,8 @@ Tasks are very important for driving the productivity of your teams and projects
 
   <img src="../images/task-description-new-features.png" alt="using an image and numbered list in the task description" width="70%" class="responsive-img"/>
 
+Note that currently these options are available only for macOS Monterey.
+
 ## Task duplication
 
 Instead of creating a whole new set of tasks, you can save some time and be more productive by duplicating a task with the steps mentioned below. Keep in mind that only a parent task can be duplicated and will duplicate all the subtasks associated with it. 
