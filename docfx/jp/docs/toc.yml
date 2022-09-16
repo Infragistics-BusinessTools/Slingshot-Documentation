@@ -41,16 +41,30 @@
 - name: グループ
   href: groups.md
   new: false
-- name: 生産性フロー
-  href: productivity-flows.md
+- name: オンボーディング
+  href: onboarding.md
+  new: true
+- name: 友達を招待する
+  href: invite-friends.md
   new: false
 - name: 検索
   href: search.md
   updated:  false
-- name: ブックマーク (Coming Soon)
-  href:
+- name: ブックマーク
+  href: bookmarks.md
+  new: false
+- name: 生産性向上のヒント
+  header: true
+- name: 新しいウインドウで開く
+  href: open-in-new-window.md
+  new: true
+- name: 生産性フロー
+  href: productivity-flows.md
 - name: 設定
   header: true
+- name: フィードバック
+  href: feedback.md
+  new: false
 - name: ユーザー アカウントと設定
   href: user-account.md
   new: false
@@ -64,8 +78,10 @@
 - name: 通知
   href: notifications.md
   updated:  false
-- name: リリース ノート
+- name: リリース情報
   header: true
   new: false
 - name: リリース ノート
   href: release-notes.md
+- name: Data Limits
+  href: data-limits.md

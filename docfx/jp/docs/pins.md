@@ -4,12 +4,12 @@
 ## ピン固定の概要
 ピン固定は、クラウド ストレージ上のファイル、URL、分析ダッシュボードなど、さまざまな種類のリソースへの単純なリンクです。リソースを整理、管理、共有する目的で、ピン固定の複数のリストを管理できます。
 
-<img src="../images/pins-list.png" alt="Showing a list of pins within Slingshot" class="responsive-img"/>
+<img src="../images/my-pins.png" alt="Showing a list of pins within Slingshot" class="responsive-img"/>
 
 ## コンテンツをピン固定する方法
 コンテンツのピン固定は、Slingshot 内でリソースを共有するための最も一般的な方法の 1 つです。ファイルまたは分析ダッシュボードは、クラウド ストレージや、既存のピン固定、共有されているコンテンツから選択するか、デバイスからアップロードすることでピン固定します。URL をピン固定するには、URL とタイトルを追加するだけです。
 
-<img src="../images/pin-content-action.png" alt="Pin action in Slingshot" class="responsive-img" width="30%"/>
+<img src="../images/pin-content.png" alt="Pin action in Slingshot" class="responsive-img" width="20%"/>
 
 ### Slingshot の任意の場所からピン固定
 
@@ -37,7 +37,7 @@
 ## ピン固定を整理
 ワークスペースとプロジェクトの [ピン固定] タブにはピン固定のリストがあり、セクションを使用してさらに整理できます。セクションを使用して、ピン固定のリストを分割し、ピン固定をより適切にレイアウトできます。
 
-<img src="../images/pins-sections.png" alt="Pin action in Slingshot" class="responsive-img"/>
+<img src="../images/pins-create-a-section.png" alt="Pin action in Slingshot" class="responsive-img"/>
 
 さらに、リスト、セクション、ピン固定をドラッグするだけで簡単に再編成および移動できます。
 
@@ -72,6 +72,23 @@ Slingshot では、ファイル タイプは異なるアイコンを使用して
 |![PDF file icon](../images/icon-pdf-file.png)|Adobe PDF ファイル|![Video file icon](../images/icon-video-file.png)| ビデオ ファイル|
 |![Web link icon](../images/icon-web-link.png)| Web リンク|![Zip file icon](../images/icon-zip-file.png)| ZIP ファイル|
 
+### ファイルのアクセス許可を設定する方法
+
+ワークスペース内のファイルを共有すると、ワークスペース内のユーザーがこれらのファイルを使用できるようになります。
+ファイルのアクセス許可は、ファイルの管理者がファイルにアクセスできるユーザーを制御します。ファイルを固定するたびに、Slingshot は設定する許可のタイプを尋ねます。以下のようなダイアログが表示されます。
+
+<img src="../images/pins-permissions.png" alt="A dialog showing the three file permission types" width="70%" class="responsive-img" />
+
+こちらでは、以下の 3 つの許可タイプから選択できます。
+
+ - **すべてのユーザーがアクセス可能** - すべての Slingshot ユーザーがファイルにアクセスできます。
+ - **自動アクセス** - ワークスペースのすべてのユーザーがファイルにアクセスできます。
+ - **アクセス権の要求** - ワークスペースのユーザーを含むすべてのユーザーが管理者にアクセス権を要求する必要があります。
+
+> [!NOTE] Slingshot でファイルへのアクセスを許可すると、ファイルの表示および編集のアクセス許可が与えられます。
+
+[このトピック](file-permissions-faq.md)では、各ファイルのアクセス許可のタイプとメンバーのアクセスを管理する方法について説明します。
+
 ### ドラッグ アンド ドロップ
 ドラッグ アンド ドロップを使用して、外部ソースから Slingshot のリストにファイルまたはリンクをすばやく追加できます。Slingshot に追加されたファイルは、設定したクラウド ストレージの中に「Slingshot のアップロード」という名前のフォルダーを作成してそこにアップロードされます。
 
@@ -79,8 +96,8 @@ Slingshot では、ファイル タイプは異なるアイコンを使用して
 
 ## コンテンツの操作
 任意のファイルをクリック / タップすると、開くことができます。MS Office ファイルは、オンラインで開くことも、デバイスのローカル アプリを使用して開くこともできます。
-ファイルのオーバーフローメニューを使用することで、いつでもファイルを開く方法を選択できます。
-<img src="../images/pin-content-my-stuff.png" alt="Overflow options for a file" class="responsive-img"/>
+
+<img src="../images/pins-options.png" alt="Overflow options for a file" class="responsive-img"/>
 
 さらに、[一般設定] > [ファイルを開く] 設定を使用してデフォルトの方法を設定できます。
 

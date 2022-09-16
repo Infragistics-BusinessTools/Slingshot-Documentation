@@ -1,5 +1,4 @@
-- name: Overview
+- name: 概要
   href: scatter-map.md
-- name: Using Map Image Tiles
+- name: 散布マップで画像タイルの使用
   href: map-image-tiles.md
-  

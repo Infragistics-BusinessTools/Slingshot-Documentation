@@ -1,42 +1,36 @@
 # リリース ノート
 
-以下は、Slingshot の新機能および追加予定のアップデートです。
+### 1.0.2555 (iOS および macOS) / 1.0.2556 (Android) / 1.0.2560 (デスクトップおよび Web) (2022 年 8 月)
 
-<style type="text/css">
-th {
-  text-align: center;
-}
+#### 新機能
 
-td {
-  padding: 10px;
-}
+- 複数ウィンドウのサポート。新しいウィンドウで項目を開くオプションを追加しました。
 
-.rntable .td1 {
-  vertical-align: middle;
-  font-size: 18px;
-}
+- チャットまたはディスカッションを未読としてマークする機能を追加しました。
 
-.bullet {
-    display:list-item;
-    list-style:disc inside;
-    padding:0 0 0 14px;
-    margin:0;
-}
+- リストを作成し、タスクの説明にインライン画像を追加する機能を追加しました
 
-</style>
+### 1.0.2459 (2022 年 7 月)
 
-<table class="rntable">
-    <tr>
-        <th style="vertical-align:middle"><span style="font-weight:bold">日付</span></th>
-        <th style="vertical-align:middle"><span style="font-weight:bold">Slingshot のバージョン</span></th>
-        <th style="vertical-align:middle"><span style="font-weight:bold">説明</span></th>
-    </tr>
-        <tr>
-        <td class="td1" rowspan="2">2022 年 3 月</td>
-        <td class="td1" rowspan="2">1.0.2360</td>
-        <td><span style="font-style:italic;font-size:16px">Slingshot のリリース!</span><br> Slingshot の初回リリースが出ました! 
-        </td>
-    </tr>
-</table>
+#### 新機能
 
->[!NOTE] Slingshot のバージョンを確認するには、画面右上の角にあるプロファイルに移動し、<img src="../images/info-icon.png" alt="About icon in Slingshot" width="25px" height="25px"/> [詳細情報] を選択します。 
+- 新しいオンボーディング エクスペリエンス
+- サブタスクでタスクを複製する機能追加しました。
+- Windows デスクトップ バージョンの x64 バージョンを追加しました。
+- 円およびドーナツ型表示形式の「その他」スライスの表示に使用するしきい値を設定する機能を追加しました。
+
+#### バグ修正と実装改善
+
+- [バグ修正] メッセージを送信しようとすると、テキスト入力にぼかしが表示される問題。
+- [バグ修正] 画像が大きいとデスクトップ アプリがクラッシュする問題。
+- [バグ修正] デスクトップ アプリを大画面で最大化しようとするとクラッシュする問題。
+- [バグ修正] タスク アクティビティ内のメッセージへのリンクが、開いているタスクまでスクロールするのではなく、新しいタスクを開いた問題。
+- [実装改善] 無効な文字を含むファイルをアップロードしようとすると、警告が表示されます。
+
+### 1.0.2360 (2022 年 3 月)
+
+#### Slingshot リリース
+
+- Slingshot の初回リリースが出ました!
+
+>[!NOTE] Slingshot のバージョンを確認するには、画面右上の角にあるプロファイルに移動し、[詳細情報] を選択します。
