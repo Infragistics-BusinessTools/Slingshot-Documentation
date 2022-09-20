@@ -14,9 +14,9 @@ If you are a user with a personal account, you will not be able to use certifica
 
 Among the data sources or dashboards of a workspace, you will find both certified and uncertified ones. When a data source or dashboard is certified, you will see a golden, silver or bronze colored badge next to it (see the screenshot below). 
 
-<img src="../images/data-sources-certified.png" alt="An excel file with a bronze badge located in the certified column" class="responsive-img" />
+<img src="../images/certified-data-source.png" alt="An excel file with a gold badge located in the certified column" class="responsive-img" width="65%"/>
 
-If you don't see whether a data source or dashboard is certified or not, select the plus icon <img src="../images/plus-icon-48.png" alt="the plus icon used in Analytics" width="24px" height="24px" /> at the right top of the list. Make sure the box for the _Certified_ column is checked.  
+If you don't see whether a data source or dashboard is certified or not, select the plus icon <img src="../images/plus-icon-48.png" alt="the plus icon used in Analytics" width="24px" height="24px" /> at the right top of the list. Make sure the box for the *Certified* column is checked.  
 
 ## Who Can Certify?
 
@@ -29,7 +29,7 @@ To see who can certify data sources:
 
 1. Open the Organization workspace settings by selecting the three dots <img src="../images/overflow-icon.png" alt="the plus icon used in Analytics" width="24px" height="24px" /> next to it.
 2. Select <img src="../images/settings-icon.png" alt="the plus icon used in Analytics" width="24px" height="24px" />*Organization Settings*. 
-3. Go to _Data Catalog_. 
+3. Go to *Data Catalog*. 
 
 Here you will find the three certification levels, their names and the users that can certify.
 
@@ -41,11 +41,11 @@ If you are an *owner* in the Organization, you can:
 
 Users who are not owners, can request permission to become certifiers. To do this: 
 
-1. Go to the Data Sources list in any workspace.
-2. Select the badge in the _Certified_ column of any data source. 
-3. Click/tap _Request Permission_ (see the screenshot below).
+1. Go to the Data Sources list in any workspace or in your **My Analytics**.
+2. Select the badge in the *Certified* column of any data source. 
+3. Click/tap *Request Permission* (see the screenshot below).
 
-    <img src="../images/certificate-request-permission.png" alt="The Request permission button for the certificate" class="responsive-img" />
+    <img src="../images/not-certified-message.png" alt="The Request permission button for the certificate" class="responsive-img" width="65%" />
 
 An email will be sent to all Organization owners notifying them that the users asks to be authorized to certify data sources or dashboards. 
 
@@ -55,7 +55,7 @@ Each data source or dashboard can be certified individually in the workspace whe
 
 1. Go to the <img src="../images/workspace-icon.png" alt="the workspace icon used in Analytics" width="24px" height="24px" /> workspace where you can find the data source or dashboard. 
 2. Select the *Data Sources* or *Dashboards* tab. 
-3. Click/tap the <img src="../images/not-certified-icon.png" alt="the data sources icon used in Analytics" width="24px" height="24px" /> badge icon for the data source or dashboard you want to certify and choose a badge from the dropdown. 
+3. Click/tap the <img src="../images/not-certified-icon.png" alt="the data sources icon used in Analytics" width="24px" height="24px" /> badge icon for the data source or dashboard you want to certify and choose a badge from the dropdown menu. 
 
 The certificates are hierarchical. This means that certifiers who can with <img src="../images/gold-badge-icon.png" alt="the gold badge icon used in Analytics" width="24px" height="24px" /> *Gold* will also see the <img src="../images/silver-badge-icon.png" alt="the silver badge icon used in Analytics" width="24px" height="24px" /> *Silver* and <img src="../images/bronze-badge-icon.png" alt="the bronze badge icon used in Analytics" width="24px" height="24px" /> *Bronze* badges available in the dropdown. And *Bronze* certifiers will only see the bronze badge available. 
 
@@ -73,7 +73,7 @@ As the certification in *Analytics* is flexible, it is up to you to define your 
 
 Keep in mind they are hierarchical as their names suggest and the hierarchy goes this way: *Gold* > *Silver* > *Bronze*.
 
->[!Tip] **Pro Tip!** Don't forget to write down the guidelines and distribute them among the users in your Organization! Pin the Guidelines document to your Organization *Content* for more visibility. 
+>[!Tip] **Pro Tip!** Don't forget to write down the guidelines and distribute them among the users in your Organization! You can *pin* the Guidelines document to your Organization **Pins** section for more visibility. 
 
 
 
