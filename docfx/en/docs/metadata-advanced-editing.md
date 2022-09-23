@@ -36,7 +36,7 @@ Check the table below to find out who can use the Advanced Editor of the data so
 |            | In the <img src="../images/organization-icon.png" alt="the org workspace icon" width="24px" height="24px" /> Organization | In a <img src="../images/workspace-icon.png" alt="the workspace icon used in Analytics" width="24px" height="24px" /> Workspace |
 | :----------: | :----------------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------: |
 | **OWNER**  | :white_check_mark:                                                                                                     | :white_check_mark:                                                                                                           |
-| **MEMBER** | :x:                                                                                                                    | :white_check_mark:                                                                                                           |
+| **Contributor** | :x:                                                                                                                    | :white_check_mark:                                                                                                           |
 | **VIEWER** | :x:                                                                                                                    | :x:                                                                                                                          |
 
 The table shows that the owners can use the Advanced Editor to modify data sources both in the Organization and in a workspace. The viewers have no permissions to modify data sources so they can't access the Advanced Editor. 
@@ -155,8 +155,8 @@ The icon in front of the numeric field will also change to a currency symbol or 
 
 If necessary, you can once again change the default formatting of the field when using it in the *Visualizations editor*. To do this, drag the field to the *Values* placeholder and click/tap to open the *Field Settings* dialog (see below). 
 
-<img src="../images/percent-default-formatting.png" alt="The format icon changed in the Visualization Editor" class="responsive-img" width="75%" />
+<img src="../images/percent-default-formatting.png" alt="The format icon changed in the Visualization Editor" class="responsive-img" width="65%" />
 
 Select the *Override* toggle to be able to modify the formatting settings. 
 
->[!NOTE] If the data source is certified, only certifiers can change and override the default formatting of numeric data. 
+>[!NOTE] If the data source is certified, only certifiers  can change and override the default formatting of numeric data. 
