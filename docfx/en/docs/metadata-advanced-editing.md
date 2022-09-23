@@ -20,7 +20,7 @@ You can access the Data Sources Advanced Editor by editing an existing data sour
 
 Right before completing the process of adding a new data source, you can access the Advanced Editor by selecting the *Edit Details* button (see below).
 
-<img src="../images/add-datasheet-dialog.png" alt="Adding a data sheet dialog showing the advanced info editing button" class="responsive-img" width="85%" />
+<img src="../images/add-datasheet-dialog.png" alt="Adding a data sheet dialog showing the advanced info editing button" class="responsive-img" width="80%" />
 
 To open the Advanced Editor for data sources that are already added in the <img src="../images/data-source-icon.png" alt="the data sources icon used in Analytics" width="24px" height="24px" /> *Data Sources* list, follow the steps below. 
 
@@ -155,7 +155,7 @@ The icon in front of the numeric field will also change to a currency symbol or 
 
 If necessary, you can once again change the default formatting of the field when using it in the *Visualizations editor*. To do this, drag the field to the *Values* placeholder and click/tap to open the *Field Settings* dialog (see below). 
 
-<img src="../images/percent-default-formatting.png" alt="The format icon changed in the Visualization Editor" class="responsive-img" width="65%" />
+<img src="../images/percent-default-formatting.png" alt="The format icon changed in the Visualization Editor" class="responsive-img" width="60%" />
 
 Select the *Override* toggle to be able to modify the formatting settings. 
 
