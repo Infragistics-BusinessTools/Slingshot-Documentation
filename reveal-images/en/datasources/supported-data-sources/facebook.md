@@ -16,25 +16,30 @@ If you have already added your Facebook data source to the <img src="images/data
 
 To add a *Facebook* data source to your list, follow the steps described below.
 
-1. Go to the <img src="images/data-source-icon.png" alt="the data sources icon used in Analytics" width="24px" height="24px" /> Data Sources tab > select the *+ Data Source* blue button > scroll to *Social Media* > select *Facebook*. 
+1. Go to the <img src="images/data-source-icon.png" alt="the data sources icon used in Analytics" width="24px" height="24px" /> Data Sources tab > select the *+ Data Source* blue button > scroll to *Social Media* > select *Facebook*.
+
 2. You will be prompted to log in with your *Facebook* profile. 
 
     >[!NOTE] You need to have at least one *Ad account* associated with the Facebook profile you are trying to connect in *Analytics*. Read this [Facebook help article](https://www.facebook.com/business/help/910137316041095?id=420299598837059) to find out how to add, request and create *Ad accounts* in your Facebook Business Manager.
 3. Slingshot will get access to the relevant details in your account. 
-4. In the next dialog, you will be presented with one or more <img src="images/facebook-ad-account-icon.png" alt="the data sources icon used in Analytics" width="24px" height="24px" /> Facebook Ad Accounts to choose from. Select the account that you want to analyze.
-5. Click/tap _Select and Continue_. 
-6. In the last dialog that opens, you can change the Ad Account name and add an appropriate description as shown below. Adding appropriate descriptions helps all users navigate through long lists and find the data sources they are searching for. 
-7. Select _Add Data Source_. 
 
-You will see your new Facebook Ad account connection added at the bottom of your Data Sources list as shown below: 
+4. In the next dialog, you will be presented with one or more <img src="images/facebook-ad-account-icon.png" alt="the data sources icon used in Analytics" width="24px" height="24px" /> Facebook Ad Accounts to choose from. Select the account that you want to analyze and click/tap on *Select and Continue*.
 
-<img src="images/facebook-data-source-added.png" alt="the facebook data source shown in the Data Sources list" class="responsive-img" />
+  <img src="../images/add-facebook-ad-account-dialog.png" alt="list with different Facebook ad accounts" width="55%" />
+
+5. In the last dialog that opens, you can change the Ad Account name and add an appropriate description as shown below. Adding appropriate descriptions helps all users navigate through long lists and find the data sources they are searching for. Select *Add Data Source* to finish the process.
+
+  <img src="../images/add-data-source-facebook.png" alt="A dialog in which you can add a Facebook Ad account" width="55%" />
+
+You will see your new Facebook Ad account connection added at the bottom of your Data Sources list as shown below:
+
+  <img src="../images/data-sources-list-facebook.png" alt="Facebook Ad account connection in the list of data sources" width="55%" />
 
 ## Setting Up Your Data
 
 From the <img src="images/data-source-icon.png" alt="the data sources icon used in Analytics" width="24px" height="24px" /> Data Sources list, select the Facebook Ad account you want to connect. You will see the *Data Source details* dialog, which allows you to review and set up your data (look at the screenshot below). 
 
-<img src="images/facebook-data-source-details.png" alt="the data sources details dialog" class="responsive-img" />
+<img src="../images/data-source-details-facebook.png" alt="the data sources details dialog" class="responsive-img" width= "55%"/>
 
 Here you will find the following data source details: 
 
@@ -53,9 +58,15 @@ The settings under **Set up your data** help you choose what data to be loaded i
 * using or not using the [Account Attribution Setting](https://www.facebook.com/business/help/460276478298895?id=561906377587030);
 * using or not using Unified Attribution Setting.
 
-When ready, click/tap _Select Data_ to continue to the *Visualization Editor*. 
+When ready, click/tap on **Select Data** to continue to the *Visualization Editor*. 
 
+## Working in the Visualization editor
 
+Once your data source has been added, you will be taken to the Visualization Editor. By default, the *Column* visualization will be selected. You can open it in order to choose another chart type from the drop-down menu.
+ 
+Keep in mind that based on the vusialization that you have chosen, you will see different types of fields.
+
+<img src="../images/facebook-visualization-editor.png" alt="Using the data from the Facebook data source in the visualization editor" class="responsive-img" width= "80%"/>
 
 
 
