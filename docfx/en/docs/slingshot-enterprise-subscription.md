@@ -65,7 +65,7 @@ You can contact our support team by clicking on **Contact Us** or submit a new s
 
  The account of the user will be deactivated but the data will be retained for the organization. The *Organization Admin* can manage the list that contains all the deactivated users from the **Shared with Me** section in the *Edit Organization* dialog.
 
-<img src="../images/deactivated-users.png" alt="List of deactivated users in the edit organization settings " width="60%" class="responsive-img"/>
+<img src="../images/deactivated-users.png" alt="List of deactivated users in the edit organization settings " width="60%" class="responsive-img" width="45%"/>
 
 ## Can a user join different Slingshot Enterprise subscriptions?
 
