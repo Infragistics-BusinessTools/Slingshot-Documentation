@@ -80,9 +80,9 @@
   updated:  false
 - name: Subscriptions
   header: true
-- name: Slingshot Enterprise subscription
+- name: Slingshot Enterprise Subscription
   href: slingshot-enterprise-subscription.md
-- name: Slingshot subscription
+- name: Slingshot Subscription
   href: slingshot-subscription.md
 - name: RELEASE INFORMATION
   header: true
