@@ -1,4 +1,4 @@
-# Slingshot subscription
+# Slingshot Subscription
 
 There are three different tiers available on Slingshot – *Free*, *Slingshot* and *Slingshot Enterprise*. 
 
