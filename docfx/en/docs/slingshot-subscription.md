@@ -44,7 +44,7 @@ You can activate the subscription with the following steps:
 4.	 You will then be prompted to choose between the *Slingshot* and *Slingshot Enterprise* license.
 5.	Once you have chosen the *Slingshot* subscription, you will be directed to the *Slingshot portal* where you can complete your purchase.
 
-<img src="../images/portal-purchase-steps.png" alt="A portal where you can complete your purchase" width="80%" class="responsive-img"/>
+<img src="../images/portal-purchase-slingshot.png" alt="A portal where you can complete your purchase" width="80%" class="responsive-img"/>
 
 ## How can I cancel my Slingshot subscription? 
 
