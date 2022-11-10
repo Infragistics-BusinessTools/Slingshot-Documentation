@@ -20,7 +20,7 @@ In case you haven’t activated a Slingshot subscription before, you will be eli
 
 You can click on the overflow menu next to your workspace and choose **Shared With**.
 
-<img src="../images/shared-with-button-workspaces.png" alt="Shared with option in the list of options for workspaces" width="60%" class="responsive-img"/>
+<img src="../images/shared-with-button-workspaces.png" alt="Shared with option in the list of options for workspaces" width="70%" class="responsive-img"/>
 
 A dialog will pop up where you can click/tap on the **Add** button to add members by name or email.
 
@@ -44,7 +44,7 @@ You can activate the subscription with the following steps:
 4.	 You will then be prompted to choose between the *Slingshot* and *Slingshot Enterprise* license.
 5.	Once you have chosen the *Slingshot* subscription, you will be directed to the *Slingshot portal* where you can complete your purchase.
 
-<img src="../images/portal-purchase-steps.png" alt="A portal where you can complete your purchase" width="75%" class="responsive-img"/>
+<img src="../images/portal-purchase-steps.png" alt="A portal where you can complete your purchase" width="80%" class="responsive-img"/>
 
 ## How can I cancel my Slingshot subscription? 
 
