@@ -14,9 +14,9 @@ Slingshot の組織に所属している場合、リストのデータ ソース
 
 ワークスペースのデータ ソースまたはダッシュボードには、認証済みのものと未認証のものがあります。データ ソースまたはダッシュボードが認証されると、隣に金色、銀色、または銅色のバッジが表示されます (以下のスクリーンショットを参照)。 
 
-<img src="../images/data-sources-certified.png" alt="An excel file with a bronze badge located in the certified column" class="responsive-img" />
+<img src="../images/certified-data-source.png" alt="An excel file with a gold badge located in the certified column" class="responsive-img" width="65%"/>
 
-データ ソースまたはダッシュボードが認証されているかどうかがわからない場合は、リストの右上にあるプラス アイコン <img src="../images/plus-icon-48.png" alt="アナリティクスで使用されるプラス アイコン" width="24px" height="24px" /> を選択します。[認証済み] 列のボックスがチェックされていることを確認してください。  
+データ ソースまたはダッシュボードが認証されているかどうかがわからない場合は、リストの右上にあるプラス アイコン <img src="../images/plus-icon-48.png" alt="アナリティクスで使用されるプラス アイコン" width="24px" height="24px" /> を選択します。**[認証済み]** 列のボックスがチェックされていることを確認してください。  
 
 ## 認証できるユーザーは?
 
@@ -29,7 +29,7 @@ Slingshot の組織に所属している場合、リストのデータ ソース
 
 1. 3 つの点 <img src="../images/overflow-icon.png" alt="アナリティクスで使用されるプラス アイコン" width="24px" height="24px" /> を選択して、組織ワークスペースの設定を開きます。 
 2. <img src="../images/settings-icon.png" alt="アナリティクスで使用されるプラスアイコン" width="24px" height="24px" /> **[組織の設定]** を選択します。 
-3. [データ カタログ] に移動します。 
+3. **[データ カタログ]** に移動します。 
 
 ここには、3 つの認証レベル、名前、および認証できるユーザーが表示されます。
 
@@ -41,11 +41,11 @@ Slingshot の組織に所属している場合、リストのデータ ソース
 
 管理者以外のユーザーは、認証になるためのアクセス許可を要求できます。そのためには次の手順を実行します。 
 
-1. 任意のワークスペースでデータ ソースのリストに移動します。
-2. 任意のデータ ソースの [認証済み] 列でバッジを選択します。 
-3. [許可の要求] をクリック / タップします (以下のスクリーンショットを参照)。
+1. 任意のワークスペースまたは **[分析]** の [データ ソース] リストに移動します。
+2. 任意のデータ ソースの **[認証済み]** 列でバッジを選択します。 
+3. **[許可の要求]** をクリック / タップします (以下のスクリーンショットを参照)。
 
-    <img src="../images/certificate-request-permission.png" alt="The Request permission button for the certificate" class="responsive-img" />
+    <img src="../images/not-certified-message.png" alt="The Request permission button for the certificate" class="responsive-img" width="65%" />
 
 すべての組織の管理者にメールが送信され、ユーザーがデータ ソースまたはダッシュボードを認証するための承認を求めることを通知します。 
 
@@ -55,7 +55,7 @@ Slingshot の組織に所属している場合、リストのデータ ソース
 
 1. データ ソースまたはダッシュボードがある<img src="../images/workspace-icon.png" alt="アナリティクスで使用されるワークスペース アイコン" width="24px" height="24px" />ワークスペースに移動します。 
 2. **[データ ソース]** または **[ダッシュボード]** タブを選択します。 
-3. 認定するデータ ソースまたはダッシュボードの <img src="../images/not-certified-icon.png" alt="アナリティクスで使用されるデータ ソース アイコン" width="24px" height="24px" /> バッジ アイコンをクリック/タップして、ドロップダウンからバッジを選択します。 
+3. 認定するデータ ソースまたはダッシュボードの <img src="../images/not-certified-icon.png" alt="アナリティクスで使用されるデータ ソース アイコン" width="24px" height="24px" /> バッジ アイコンをクリック/タップして、ドロップダウン メニューからバッジを選択します。 
 
 認証は階層的です。つまり、<img src="../images/gold-badge-icon.png" alt="アナリティクスで使用される金バッジ アイコン" width="24px" height="24px" />**金**を使用できる認証者には、<img src="../images/silver-badge-icon.png" alt="アナリティクスで使用される銀バッジ アイコン" width="24px" height="24px" />*銀*と<img src="../images/bronze-badge-icon.png" alt="アナリティクスで使用される銅バッジ アイコン" width="24px" height="24px" />**銅**のバッジがドロップダウンに表示されます。また、**銅**認証者には銅バッジのみが表示されます。 
 
@@ -73,7 +73,7 @@ Slingshot の組織に所属している場合、リストのデータ ソース
 
 バッジは名前が示すように階層構造であり、その階層は次のようになります。**金** > **銀** > **銅**
 
->[!Tip] **プロのヒント** ガイドラインを書き留め、組織のユーザーに配布することを忘れないでください。ガイドライン ドキュメントを組織の*コンテンツ*にピン固定することで、見つけやすくすることができます。 
+>[!Tip] **プロのヒント** ガイドラインを書き留め、組織のユーザーに配布することを忘れないでください。ガイドライン ドキュメントを組織の **[ピン固定]** セクションにピン固定することで、見つけやすくすることができます。 
 
 
 

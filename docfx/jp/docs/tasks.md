@@ -55,6 +55,8 @@ Slingshot でタスクを作成する方法は複数あります:
 
   <img src="../images/task-description-new-features.png" alt="using an image and numbered list in the task description" width="70%" class="responsive-img"/>
 
+現在、これらのオプションは macOS Monterey でのみ使用できることに注意してください。
+
 ## タスクの複製
 
 新しいタスク セットを作成する代わりに、以下の手順でタスクを複製することで時間を節約し、生産性を向上できます。親タスクのみ複製可能であり、関連付けられたすべてのサブタスクを複製することに注意してください。
