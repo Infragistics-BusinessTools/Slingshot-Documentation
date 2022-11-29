@@ -80,9 +80,9 @@
   updated:  false
 - name: サブスクリプション
   header: true
-- name: Slingshot Enterprise Subscription
+- name: Slingshot Enterprise サブスクリプション
   href: slingshot-enterprise-subscription.md
-- name: Slingshot Subscription
+- name: Slingshot サブスクリプション
   href: slingshot-subscription.md
 - name: リリース情報
   header: true

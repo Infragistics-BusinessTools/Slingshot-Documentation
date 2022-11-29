@@ -1,74 +1,74 @@
-# Slingshot Enterprise Subscription
+# Slingshot エンタープライズ サブスクリプション
 
-There are three different tiers available on Slingshot – *Free*, *Slingshot* and *Slingshot Enterprise*. To find out more about how to activate and use the *Slingshot Enterprise* subscription, you can take a look below…
+Slingshot には、**無料**、**Slingshot**、および **Slingshot Enterprise** (Slingshot エンタープライズ) の 3 つの異なるレベルがあります。*Slingshot Enterprise* サブスクリプションを有効にして使用する方法の詳細については、以下をご覧ください。
 
-## What role can I have while using the Slingshot Enterprise subscription?
+## Slingshot Enterprise サブスクリプションを使用している間、どのようなロールを担うことができますか?
 
 
-| Permissions | Subscription Admin | Organization Admin | User          |
+| アクセス許可 | サブスクリプション管理者 | 組織管理者 | ユーザー          |
 | ------------------------------------ | ------------------ | ------------------ | ----------------- |
-| Manage the subscription (activate and/or cancel the Enterprise subscription, invite users to the organization, remove users from the organization) |:white_check_mark:                                 | :x:  | :x:                |
-| Enable features within the application | :x:  | :white_check_mark: | :x:                |
-|Use the Slingshot app (Organization Admins will need to create new accounts in order to use the app)                                |  :x:   | :white_check_mark:            | :white_check_mark:               |
+| サブスクリプションを管理 (エンタープライズ サブスクリプションのアクティブ化および / またはキャンセル、組織へのユーザーの招待、組織からのユーザーの削除) |:white_check_mark:                                 | :x:  | :x:                |
+| アプリケーション内の機能を有効にする | :x:  | :white_check_mark: | :x:                |
+|Slingshot アプリを使用 (組織管理者は、アプリを使用するために新しいアカウントを作成する必要がある)。                                |  :x:   | :white_check_mark:            | :white_check_mark:               |
 
->[!NOTE] A user can be assigned more than 1 role when they have a *Slingshot* or *Slingshot Enterprise* subscription.
+>[!NOTE] ユーザーが *Slingshot* または *Slingshot Enterprise* サブスクリプションを持っている場合、複数のロールを割り当てることができます。
 
-## How can I activate a Slingshot Enterprise subscription?
+## Slingshot Enterprise サブスクリプションを有効にするにはどうすればよいですか?
 
-You can activate a Slingshot Enterprise subscription with the following steps:
+次の手順で Slingshot Enterprise サブスクリプションをアクティブ化できます:
 
-1.	Log in to your *Slingshot* account.
-2.	Go to your profile settings and choose **Subscriptions**.
-3.	Click/tap on **Upgrade** to be presented with the pricing page.
-4.	Click/tap on **Buy Now** to select your number of seats and complete your purchase. 
+1.	*Slingshot* アカウントにログインします。
+2.	プロファイル設定に移動し、**[サブスクリプション]** を選択します。
+3.	**[アップグレード]** をクリックまたはタップすると、料金ページが表示されます。
+4.	**[購入]** をクリックまたはタップしてユーザー数を選択し、購入を完了します。
 
 <img src="../images/enterprise-subscription-purchase.png" alt="Information required for completing the purchase" width="70%" class="responsive-img"/>
 
->[!NOTE] In order to complete your purchase, you need to type in the Company’s name. This name will later show up as the name of the Organization in your account.
+>[!NOTE] 購入を完了するには、会社名を入力する必要があります。この名前は、後でアカウントの組織の名前として表示されます。
 
-## How can I invite a user to an organization and provide them with a license?
+## ユーザーを組織に招待し、ライセンスを提供するにはどうすればよいですか?
 
-The *Subscription Admin* can send an invite to that user for the organization. To do that, you can give the steps mentioned below a go:
+**サブスクリプション管理者**は、組織の招待をユーザーに送信できます。そのためには、以下の手順を試しください:
 
-1.	Go to the customer portal and click on **Subscriptions**.
-2.	Choose **Manage users**.
+1.	カスタマー ポータルに移動し、**[サブスクリプション]** をクリックします。
+2.	**[ユーザーの管理]** を選択します。
 
  <img src="../images/manage-users-slingshot-enterprise-subscription.png" alt="Manage users option in the subscriptions section" width="70%" class="responsive-img"/>
 
-3.	A dialog will appear where you can click on the **Add users** button to invite someone.
+3.	**[ユーザーの追加]** ボタンをクリックしてユーザーを招待できるダイアログが表示されます。
  
  <img src="../images/invite-users-option-subscription.png" alt="Add users option" width="70%" class="responsive-img"/>
 
-If they accept the invite, they will be asked to sign out and sign back in again. When they sign in, they will see the organization’s workspace and will be able to view enterprise subscription features. 
+招待を受け入れると、サインアウトして再度サインインするよう求められます。サインインすると、組織のワークスペースが表示され、エンタープライズ サブスクリプション機能を表示できるようになります。 
 
-If they choose **Reject**, an email will be sent to the *Subscription Admin* to notify them that the user has rejected the invite and that they should remove the user.
+**[拒否する]** を選択すると、**サブスクリプション管理者**にメール アドレスが送信され、ユーザーが招待を拒否したこと、およびユーザーを削除する必要があることが通知されます。
 
->[!NOTE] If you assign a subscription to a user who hasn't used Slingshot before, they will automatically be added to the organization once they have created a Slingshot account. 
+>[!NOTE] 以前に Slingshot を使用したことがないユーザーにサブスクリプションを割り当てると、そのユーザーが Slingshot アカウントを作成すると、自動的に組織に追加されます。 
 
-## How can I move a user’s account from an organization to another organization?
+## ユーザーのアカウントをある組織から別の組織に移動するにはどうすればよいですか?
 
-You can contact our support team by clicking on **Contact Us** or submit a new support request. The team will help you move the account of the user to another organization.
+**[お問い合わせ]** をクリックしてサポート チームに連絡するか、新しいサポート リクエストを送信してください。チームは、ユーザーのアカウントを別の組織に移動するのに役立ちます。
 
  <img src="../images/customer-portal.png" alt="Support section in the customer portal" width="73%" class="responsive-img"/>
 
- ## How can I cancel a user’s Slingshot Enterprise subscription?
+## ユーザーの Slingshot Enterprise サブスクリプションをキャンセルするにはどうすればよいですか?
 
- The *Subscription Admin* needs to remove the license from the user. 
+ **サブスクリプション管理者**は、ユーザーからライセンスを削除する必要があります。 
 
- ## How can I cancel a Slingshot Enterprise subscription?
+## Slingshot Enterprise サブスクリプションをキャンセルするにはどうすればよいですか?
 
- The subscription owner/admin can cancel the Slingshot Enterprise subscription from the Slingshot portal.
+ サブスクリプションの管理者は、Slingshot ポータルから Slingshot Enterprise サブスクリプションをキャンセルできます。
 
  <img src="../images/cancel-subscription-option.png" alt="The option to cancel a subscription in the portal " width="65%" class="responsive-img"/>
 
- ## If a user gets removed from an organization in the app, what will happen to the user’s account?
+## ユーザーがアプリ内の組織から削除された場合、ユーザーのアカウントはどうなりますか?
 
- The account of the user will be deactivated but the data will be retained for the organization. The *Organization Admin* can manage the list that contains all the deactivated users from the **Shared with Me** section in the *Edit Organization* dialog.
+ ユーザーのアカウントは非アクティブ化されますが、データは組織のために保持されます。**組織管理者**は、**[組織の編集]** ダイアログの **[自分と共有済み]** セクションから非アクティブ化されたすべてのユーザーを含むリストを管理できます。
 
 <img src="../images/deactivated-users.png" alt="List of deactivated users in the edit organization settings " class="responsive-img" width="45%"/>
 
-## Can a user join different Slingshot Enterprise subscriptions?
+## ユーザーは別の Slingshot Enterprise サブスクリプションに参加できますか?
 
-No, a user can join only one Slingshot Enterprise subscription.
+いいえ、ユーザーは 1 つの Slingshot Enterprise サブスクリプションにのみ参加できます。
 
-If you want to find out more about the difference between the different tiers, you can head [here](https://www.slingshotapp.io/pricing).
+利用可能なサブスクリプション プランの違いについて詳しくは、[こちら](https://www.slingshotapp.io/ja/pricing)をご覧ください。

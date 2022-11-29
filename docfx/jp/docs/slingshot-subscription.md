@@ -1,72 +1,72 @@
-# Slingshot Subscription
+# Slingshot のサブスクリプション
 
-There are three different tiers available on Slingshot – *Free*, *Slingshot* and *Slingshot Enterprise*. 
+Slingshot には、**無料**、**Slingshot**、および **Slingshot Enterprise** (Slingshot エンタープライズ) の 3 つの異なるレベルがあります。 
 
-As a new user, you will have access to 2 workspaces and 1 project as the account will be set to the free tier.
-With the *Slingshot* subscription, you can create and use unlimited workspaces and projects. 
+新規ユーザーは、アカウントが無料利用枠に設定され、2 つのワークスペースと 1 つのプロジェクトにアクセスできます。
+*Slingshot* サブスクリプションでは、ワークスペースとプロジェクトを制限なしに作成して使用できます。 
 
-To find out more about how to activate and use the Slingshot subscription, you can take a look below…
+Slingshot サブスクリプションを有効にして使用する方法の詳細については、以下をご覧ください。
 
-## How can I activate the Slingshot subscription trial?
+## Slingshot サブスクリプションのトライアル版を有効にするにはどうすればよいですか?
 
-In case you haven’t activated a Slingshot subscription before, you will be eligible for the 15 days trial. You can activate it with the following steps:
-1.	Log in to your *Slingshot* account.
-2.	Open your profile settings.
-3.	Click/tap on **Start Trial**.
+以前に Slingshot サブスクリプションを有効にしたことがない場合は、15 日間のトライアル版を利用できます。次の手順で有効化できます:
+1.	*Slingshot* アカウントにログインします。
+2.	プロフィール設定を開きます。
+3.	**[トライアルの開始]** をクリックまたはタップします。
 
 <img src="../images/start-trial-button.png" alt="Start trial button in the profile settings" width="30%" class="responsive-img"/>
 
-## How can I invite users to my workspaces?
+## ユーザーをワークスペースに招待するにはどうすればよいですか?
 
-You can click on the overflow menu next to your workspace and choose **Shared With**.
+ワークスペースの横にあるオーバーフロー メニューをクリックして、**[共有ユーザー]** を選択します。
 
 <img src="../images/shared-with-button-workspaces.png" alt="Shared with option in the list of options for workspaces" width="70%" class="responsive-img"/>
 
-A dialog will pop up where you can click/tap on the **Add** button to add members by name or email.
+ダイアログが表示されるので、**[+ 追加]** ボタンをクリックまたはタップして、名前またはメール アドレスでメンバーを追加します。
 
 <img src="../images/adding-members-workspaces.png" alt="A dialog where you can type in the name or the email of a user who you want to add" width="55%" class="responsive-img"/>
 
-## How many users can I invite to my workspaces?
+## ワークスペースに何人のユーザーを招待できますか?
 
-There is no limit on how many users can be invited to a workspace.
+ワークスペースに招待できるユーザー数に制限はありません。
 
-## What will happen with my account once the trial has expired?
+## トライアル期間が終了すると、アカウントはどうなりますか?
 
-Once the trial has expired, your account will be reverted to the free version of Slingshot. You will be able to choose 2 workspaces to have full access to. All the other workspaces you are a part of will become read only.
+トライアル期間が終了すると、アカウントは無料版の Slingshot に戻ります。完全なアクセス権を持つ 2 つのワークスペースを選択できます。参加している他のすべてのワークスペースは読み取り専用になります。
 
-## How can I activate a Slingshot subscription once the trial has expired?
+## トライアル期間が終了した後、Slingshot サブスクリプションを有効にするにはどうすればよいですか?
 
-You can activate the subscription with the following steps:
+次の手順でサブスクリプションを有効化できます:
 
-1.	Log in to your *Slingshot* account.
-2.	Open your profile settings and click/tap on **Settings** to open the settings of the app.
-3.	Click/tap on **Subscriptions** and then on **Upgrade**.
-4.	 You will then be prompted to choose between the *Slingshot* and *Slingshot Enterprise* license.
-5.	Once you have chosen the *Slingshot* subscription, you will be directed to the *Slingshot portal* where you can complete your purchase.
+1.	*Slingshot* アカウントにログインします。
+2.	プロファイル設定を開き、**[設定]** をクリックまたはタップして、アプリの設定を開きます。
+3.	**[サブスクリプション]**、**[アップグレード]** の順にクリックまたはタップします。
+4.	 次に、*Slingshot* ライセンスと *Slingshot Enterprise* ライセンスのどちらかを選択するよう求められます。
+5.	*Slingshot* サブスクリプションを選択すると、購入を完了することができる *Slingshot ポータル*に移動します。
 
 <img src="../images/portal-purchase-slingshot.png" alt="A portal where you can complete your purchase" width="80%" class="responsive-img"/>
 
-## How can I cancel my Slingshot subscription? 
+## Slingshot のサブスクリプションをキャンセルするにはどうすればよいですか? 
 
-To cancel your subscription you can head [here](https://customer.infragistics.com/subscriptions?theme=slingshot) and click on **Cancel Subscription**. If you cancel on or before your next billing date, you will not be charged. After cancelling you will revert to the *Free* version of Slingshot.
+サブスクリプションをキャンセルするには、[こちら](https://customer.infragistics.com/subscriptions?theme=slingshot)に進み、**[Cancel Subscription]** (サブスクリプションのキャンセル) をクリックします。次回の請求日までにキャンセルした場合、請求は行われません。キャンセルすると、Slingshot の**無料**版に戻ります。
 
-## Can I still see the discussions that are in workspaces where I am no longer taking part in?
+## 参加しなくなったワークスペースのディスカッションを引き続き見ることはできますか?
 
-Yes, but they will become read only.
+はい。ただし、読み取り専用になります。
 
-## Will I still have access to the tasks that are in a workspace where I am no longer taking part in?
+## 参加しなくなったワークスペースにあるタスクには引き続きアクセスできますか?
 
-Yes, but they will become read only.
+はい。ただし、読み取り専用になります。
 
-## Will I still have access to dashboards in workspaces where I no longer participate in?
+## 参加しなくなったワークスペースのダッシュボードには引き続きアクセスできますか?
 
-Yes, but they will become read only.
+はい。ただし、読み取り専用になります。
 
-## What is your refund policy? 
+## 返金できますか? 
 
-If for any reason you are not happy with Slingshot within 30 days of purchase, you can contact us and we will issue a full refund. 
+何らかの理由で購入後 30 日以内に Slingshot にご満足いただけない場合は、当社にご連絡ください。全額返金いたします。 
 
-If you have purchased a monthly subscription and wish to cancel your subscription before your renewal is up – we will refund you for that month!
+毎月のサブスクリプションを購入していて、更新が完了する前にサブスクリプションをキャンセルしたい場合は、その月の料金を返金します。
 
-To find out more about the difference between the different tiers, you can head [here](https://www.slingshotapp.io/pricing).
+利用可能なサブスクリプション プランの違いについて詳しくは、[こちら](https://www.slingshotapp.io/ja/pricing)をご覧ください。
 
