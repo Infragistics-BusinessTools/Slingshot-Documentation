@@ -1,43 +1,45 @@
 ---
-title: Slingshot で画像チャートを作成する方法
-_description: サンプルス プレッドシートを使用して画像チャートの表示形式を作成する方法を説明します。
-_language: ja
+title: How to Create an Image Chart in Slingshot 
+_description: A quick tutorial on creating an Image Chart visualization using a sample spreadsheet.
 ---
 
-# 画像チャートを作成する方法
+# Creating an Image Chart
 
-このチュートリアルでは、サンプル スプレッドシートを使用して画像の表示形式を作成する方法を説明します。
+In this tutorial, you will learn how to create an Image visualization
+using a sample spreadsheet.
 
 <img src="../images/image-chart-sample.png" alt="A sample showing different image chart visualizations in one dashboard" class="responsive-img"/>
 
-## 重要なコンセプト
+## Key Concepts
 
-[データ表示] セクションに述べたように、[画像チャート](image-chart.md)は URL へ要求を送信して、埋め込みのブラウザーで結果を表示します。したがって、データ ソースに以下の項目が必要です:
+As mentioned in the Data Visualization section, the [Image Chart](image-chart.md) displays information in an embedded browser by making
+a request to a URL and displaying the results. The data source,
+therefore, will need to:
 
-  - ウィジェットに表示されるウェブ リソースへのリンク。
+  - Include a link to a web resource to be displayed in the widget.
 
-  - リンクを**データセットの最初の行**に含みます。
+  - Include it **in the first row of the data set**.
 
-## サンプル データ ソース
+## Sample Data Source
 
-このチュートリアルでは、[Slingshot Visulization Tutorials](https://download.infragistics.com/slingshot/samples/Slingshot_Visualization_Tutorials.xlsx) の「Image Chart」シートを使用します。
+For this tutorial, you will use the "Image Chart" sheet in the [Slingshot Visulization Tutorials](https://download.infragistics.com/slingshot/samples/Slingshot_Visualization_Tutorials.xlsx).
 
- 1. **[分析]** で、右上隅にある **[+ ダッシュボード]** を選択します。
+ 1. In **My Analytics**, select the **+ Dashboard button** in the top right-hand corner.
 
-    <img src="./images/button-dashboard.png" alt="Tutorials-Create-New-Dashboard" class="responsive-img" width="65%"/> 
+    <img src="./images/button-dashboard.png" alt="Tutorials-Create-New-Dashboard" class="responsive-img" width="85%"/> 
 
- 2. ダイアログが開き、すでに追加されているデータ ソースのリストが表示されます。Visualization Tutorial (表示形式チュートリアル) ファイルは、すでに使用している場合はデータ ソースとしてそこにあります。ファイルを追加していない場合は、**[+ データ ソース]** > **[データ ファイル]** > **[+ 新規]** > **[アップロード]** をクリックまたはタップして、ファイルを選択し、**[選択して続行]** ををクリックまたはタップしてリストに含めます。
+ 2. A dialog will open, contening a list of already added data source. The Visualization Tutorial file will be there as a data source if you have already used it. In case you haven't added the file, you can click/tap on **+Data Source** > **Data Files** > **+New** >**Upload** >select the file and click/tap on **Select and Continue** to include it in the list.
 
-    <img src="images/select-your-data-source.png" alt="Tutorials-Select-Data-Source" class="responsive-img" width="75%"/>
+    <img src="images/select-your-data-source.png" alt="Tutorials-Select-Data-Source" class="responsive-img" width="85%"/>
 
- 3. データ ソースを設定した、*Image View* シートを選択します。                                
+ 3. Once the data source is configured, select the *Image View* sheet.                                
 
     <img src="images/select-image-view.png" alt="Tutorials-Select-Image-View-Spreadsheet" class="responsive-img" width="57%"/>
 
- 4. デフォルトで、表示形式のタイプは**柱状**に設定されています。**画像**オプションを選択します。
+ 4. By default, the visualization type will be set to *Column*. Select the *Image* option.      
 
     <img src="../images/list-of-chart-types.png" alt="Tutorial-Image-View-Select" class="responsive-img" width="57%"/>   
                                                       
-5. 使用可能なフィールドのいずれかを **[URL]** にドラッグします。        
+5. Drag any of the available fields into **URL**.        
 
-   <img src="../images/image-chart-data-organization.png" alt="Tutorials-ImageView-Organizing-Data" class="responsive-img" width="30%"/>
+   <img src="../images/image-chart-data-organization.png" alt="Tutorials-ImageView-Organizing-Data" class="responsive-img" width="57%"/>                                                      

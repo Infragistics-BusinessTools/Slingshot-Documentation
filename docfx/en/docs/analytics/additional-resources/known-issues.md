@@ -1,23 +1,31 @@
-# 既知の問題
+# Known Issues
 
-  - [ウェブのみ](#web)
+  - [Only Web](#web)
 
-  - [すべてのプラットフォームに影響する問題](#issues-all-platforms)
+  - [Issues Affecting All Platforms](#issues-all-platforms)
 
 <a name='web'></a>
-## ウェブ
+## Web
 
-  - Web プラットフォームで JSON の高度なエディターを使用する場合、日付/時刻フィールドは代わりに文字列フィールドとして認識されます。
+  - When working with the JSON advanced editor in the Web platform,
+    Date/Time fields are recognized as String fields instead.
 
-  - Web プラットフォームでダッシュボードをエクスポートする場合、表示形式の代わりにブランク イメージが表示される特別なケースがあります。この問題は、クラウド プロバイダーの画像または PDF 文書を表す表示形式がダッシュボードに含まれている場合に発生します。回避策として、他のプラットフォーム (Android、iOS、またはデスクトップ) からエクスポートできます。
+  - When exporting a dashboard in the Web platform, there is one
+    particular case in which you will get a blank image in place of a
+    visualization. The issue happens when the dashboard includes a
+    visualization that shows either an image or PDF document from a
+    cloud provider. As a workaround, you can do the export from any
+    other platform (Android, iOS, or Desktop).
 
-  - 1 つの表示形式でのデータ ソースの結合 (データ ブレンディング) は、置き換えられたデータではサポートされていません。スプレッドシートの行から列を切り替えることにより、置き換えられたデータを取得することに注意してください。
+  - Combining data sources in one visualization (data blending) is not
+    supported for transposed data. Please note that you get transposed
+    data by switching columns from rows in a spreadsheet.
 
 <a name='issues-all-platforms'></a>
-## すべてのプラットフォームに影響する問題
+## Issues Affecting All Platforms
 
-- グリッドの並べ替えが削除された後、元のデータは表示されません。
+- The original data is not displayed after a Grid sorting has been removed.
 
-- CSV および JSON データ プロバイダーは、値に 3 桁ごとの区切り記号がある場合、数値列を検出しません。
+- CSV and JSON data providers don't detect numeric columns when values have a thousands separator.
 
-- 個人の Microsoft アカウントは SharePoint データ ソースに接続できません。
+- Personal Microsoft accounts cannot connect to SharePoint data sources.

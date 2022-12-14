@@ -1,37 +1,50 @@
-# ダッシュボードを PDF 文書としてエクスポート
+# Exporting Dashboards as PDF Documents
 
-Analytics では、ダッシュボードを PDF 文書としてエクスポートできます。各表示形式は、ドキュメントの個別のページに表示されます。
+Analytics allows you to export your dashboard as a PDF document. Every
+visualization that is part of this dashboard will be displayed on a
+separate page of the document.
 
-ダッシュボードを PDF 文書としてエクスポートするには、ダッシュボード *ビュー モード*に移動して、オーバーフロー メニューから **[エクスポート]** ⇒ **PDF** を選択します。**[ダッシュボード エクスポート]** ダイアログが開き、PDF 文書をニーズに合わせるため、編集して特定のページに注釈を付けることができます。
+To export a dashboard as a PDF document, go to dashboard *View mode* and
+select: the overflow menu ⇒ *Export* ⇒ *PDF*. The *Export Dashboard*
+dialog will open, allowing you to edit your document and annotate
+specific pages, so that you can tailor it to your needs.
 
-## エクスポート設定
+## Export Settings
 
-<img src="images/export-pdf-options.png" alt="Settings for PDF document in the Export Dashboard menu" class="responsive-img" width="57%"/>
+<img src="images/export-pdf-options.png" alt="Settings for PDF document in the Export Dashboard menu" class="responsive-img" width="59%"/>
 
+In the *Export Dashboard* dialog you can manage the following settings:
 
-**[ダッシュボード エクスポート]** ダイアログでは、次の設定を管理できます:
+1.  Change the **main title** of your PDF document. The default title is
+    your dashboard's title.
 
-1.  PDF 文書の**主タイトル**を変更します。デフォルトのタイトルは、ダッシュボードのタイトルです。
+2.  Change the **page's title** and add a subtitle in the *Enter Title*
+    text box (the second box). The default slide's title is the title of
+    the visualization displayed on the page.
 
-2.  **ページのタイトル**を変更し、**[タイトルの入力]** テキスト ボックス (2 番目のボックス) にサブタイトルを追加します。デフォルトのスライドのタイトルは、ページに表示される表示形式のタイトルです。
+3.  Manage **Branding** settings options allows you to choose:
 
-3.  **[ブランディング]** 設定オプションの管理では、以下を選択できます。
+    1.  *Author*'s and their *Company*'s name - displayed in the header
+        panel of the document's pages;
 
-    1.  **[作成者]** とその **[会社名]** - PDF 文書のページのヘッダー パネルに表示されます。
-
-    2.  **[カラー]** (PDF 文書のメイン カラー) とフッターで表示される会社の **[ロゴ]** - ここでは、次のオプションのいずれかを選択できます:
+    2.  company's *logo* displayed in the footer and *color* (the main
+        color of the pdf document) - here you can choose one of the
+        following options:
 
         - **Analytics**
 
-        - **ユーザーの組織 / ワークスペース** - 組織とすべてのワークスペースのブランディング (カラーとロゴ) が設定しているオプションとして表示されます。ワークスペースのブランディング設定にアクセス/変更する方法については、[ワークスペースの管理](~/jp/workspaces/managing-your-workspace.md)トピックをご覧ください。
+        - **User's organization/workspace** - your organization and all of
+            your workspaces having their branding (logo and color) set up are
+            displayed as options. If you want to know how to
+            access/change your workspace's branding settings, please read the
+            [Managing Workspaces](~/docs/analytics/workspaces/managing-your-workspace.md) topic.
 
-        - **[+ カスタム ブランディング]** - カラーを選択し、選択したロゴ画像をアップロードします。
+        - **Custom** - select a color and upload a *logo* image of your choice.
 
-            >[!NOTE] 
-            >ロゴ画像の要件: ロゴとしてアップロードする画像は、**5 MB** 以下で、jpg、jpeg、png、gif のいずれかの形式である必要があります。
+            >[!NOTE] **Requirements for logo images**. The image you upload for a logo must be no bigger than **5 MB** and one of the following formats: jpg, jpeg, png, gif.
 
-4.  *横方向*または*縦方向*の**PDF 文書の向き**を選択します。
+4.  Choose between *Landscape* and *Portrait* **document orientation**.
 
-5.  リストからページを選択してタイトルを変更し、注釈を付け、あるいは右上隅のチェック アイコンを除いてPDF 文書を削除することで、**PDF 文書のページを管理できます**。
+5.  You can **manage your document pages** by selecting a page from the list to modify its title, annotate or delete it (by removing the tick icon in the upper right corner).
 
-6.  *鉛筆アイコン*をクリックまたはタップして、選択したページに**注釈**を付けます。**注釈設定**の詳細については、[注釈画像](export-as-images.html#annotating)を参照してください。
+6.  **Annotate** the selected page by clicking/tapping the *pencil* icon. For more information about **annotation settings**, please refer to [Annotating images](export-as-images.html#annotating) in the *Exporting Dashboards as Images* topic.

@@ -1,108 +1,127 @@
 ---
-title: フィールド フィルターとルールをデータセットに適用する方法
-_description: 表示形式の作成中に Slingshot のデータセットにフィルターまたはルールを適用する方法を説明します。
-_language: ja
+title: How to apply Field Filters and Rules to Dataset 
+_description: Learn how to apply filters or rules to your dataset in Slingshot while creating visualizations.
 ---
 
-# フィールド フィルターとルール
+# Field Filters and Rules
 
-データセットのフィールドにもフィルターとルールを適用できます。そのためには、データ エディターの下部にある **[データ フィルター]** プレースホルダーにフィールドを追加する必要があります。次に、ドロップダウンからフィールドを選択して、**データ フィルター** ウィンドウにアクセスします。
+You can also apply filters or rules to the fields in your dataset. In
+order to do so, you will need to add a field to the **Data Filters**
+placeholder in the lower section of the data editor. Then, select field
+from the dropdown to access the *Data Filter* window.
 
 <img src="images/data-filter-visualization-editor.png" alt="Adding data filter fields list" class="responsive-img" width="70%"/>
 
 <a name='empty-values'></a>
-## 空値をフィルター
+## Filter Empty Values
 
-Analytics は特定の列で空値のフィルター構成の設定を有効にすることによって、特定の列に null、または空の値を持つデータ セット内の行をフィルタリングする機能を提供します。
+Analytics provides the ability to filter rows in the dataset that have null
+or empty values on a specific column by enabling the filter empty values
+configuration setting on a specific column.
 
 <img src="images/data-filter-filter-empty-values-option.png" alt="Filter Empty Values in the list of filter types" class="responsive-img" width="40%"/>
 
 <a name='select-values'></a>
-## 値の選択
+## Select Values
 
-このタイプのフィルターは、特定のフィールドに表示する値セットの定義をサポートします。これを有効にするには、フィールドを **[データ フィルター]** プレースホルダーにドラッグアンドドロップします。
+This type of filter supports the definition of the set of values to
+display for a specific field. To enable it, drag and drop a field to the
+**Data Filters** placeholder.
 
 <img src="images/data-filter-select-values.png" alt="Select Values option in the list of filter types" class="responsive-img" width="40%"/>
 
-**[フィールド設定]** ダイアログに、**[値の選択]** オプションが表示されます。列に使用可能な値のリストを表示し、データセット内に残したい項目のみを選択できます。フィルターによって除外された値を持つ行は表示形式に表示されません。
+In the *Field Settings* dialog, you will see the option to **Select
+Values**. This displays the list of possible values for a column, and
+allows you to select only the items you want to remain in the dataset.
+Rows with values excluded by the filter aren't displayed in the
+visualization.
 
-## ルールでフィルタリング
+## Filter by Rule
 
-**[ルールでフィルタリング]** オプションを使用すると、より複雑なルールを定義できます。使用可能なルール オプションは、フィールド タイプによって異なります。
+The **Filter by Rule** option enables the definition of more complex
+rules. The available rule options change depending on the field type.
 
 <a name='rules'></a>
-### 日付フィールドのルール
+### Rules for Date Fields
 
-日付フィールドには、時間ベースのシナリオ、日付範囲の変更、表示形式に表示される情報のフィルタリングをサポートするように設計されたルールが含まれています。
+Date fields include rules designed to support time-based scenarios,
+changing the data range and filtering the information displayed in the
+visualization.
 
-  - カスタム日付範囲
+  - Custom Date Range
 
-  - 先週、先月、または去年
+  - Last Week, Month, or Year
 
-  - 過去 1 か月
+  - Month to Date
 
-  - 来月、来四半期、または来年
+  - Next Month, Quarter, or Year
 
-  - 先月、先四半期、または去年
+  - Previous Month, Quarter, or Year
 
-  - 日付までの四半期
+  - Quarter to Date
 
-  - 今月、今四半期、または今年
+  - This Month, Quarter, or Year
 
-  - 今日
+  - Today
 
-  - 過去 1 年間
+  - Year to Date
 
-  - 昨日
+  - Yesterday
 
-デフォルトでは、ルールによるフィルターが数値フィールドで有効になっている場合、「なし」に設定されます。
+By default, when Filter by Rule is enabled on a numeric field, it is set
+to "None".
 
-### 数値フィールドのルール
+### Rules for Numeric Fields
 
-整数、小数、通貨などの数値型のフィールドは、次のルール タイプをサポートしています。
+Numeric fields (such as integers, decimals, and currencies) support the
+following rules:
 
-  - 平均より上
+  - Above Average
 
-  - 以上
+  - Above Equals Value
 
-  - 値より大きい
+  - Above Value
 
-  - 平均より下
+  - Below Average
 
-  - 以下
+  - Below Equals Value
 
-  - 値より小さい
+  - Below Value
 
-  - 下位の項目
+  - Bottom Items
 
-  - 下位の割合
+  - Bottom Percent
 
-  - 上位の項目
+  - Top Items
 
-  - 上位の割合
+  - Top Percent
 
-デフォルトでは、ルールによるフィルターが数値フィールドで有効になっている場合、「なし」に設定されます。
+By default, when Filter by Rule is enabled on a numeric field, it is set
+to "None".
 
-### 文字列フィールドのルール
+### Rules for String Fields
 
-テキスト列は、次のルール タイプをサポートしています。
+Text columns support the following type of rules:
 
-  - 含む
+  - Contains
 
-  - で終わる
+  - Ends With
 
-  - 等しい
+  - Is Equal
 
-  - 含まない
+  - Not Contains
 
-  - 等しくない
+  - Not Equals
 
-  - ～で始まる
+  - Starts With
 
-同様に、これらのルールは 1 つのパラメーターである、ルールが評価で使用する開始値または等しい値を取得し、同じ位置にあるテキストボックスに入力されます。
+Similarly, these rules also take one parameter: the value of the 'starts
+with', or 'equals' that the rule is going to use to evaluate, and is
+entered in a textbox in the same position.
 
-## 値のフィールドのフィルタリング
+## Filtering Fields in Values
 
-[集計](https://www.slingshotapp.io/en/help/docs/analytics/data-visualizations/fields/calculated-fields/aggregation)で**値**をフィルタリングできます。次に、この値は **[データ フィルター]** プレースホルダーのフィールドのリストに同じ集計で表示されます。
+You can filter your *Values* by [aggreggation](https://www.slingshotapp.io/en/help/docs/analytics/data-visualizations/fields/calculated-fields/aggregation). Then this value will appear with the same aggregation in the list of fields in the  **Data Filters** placeholder.
 
 <img src="images/data-filters-values-list.png" alt="Data Filters Filtering in the Data Editor" class="responsive-img" width="80%"/>
+

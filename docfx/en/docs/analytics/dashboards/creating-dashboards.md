@@ -1,95 +1,98 @@
 ---
-title: Slingshot でダッシュボードを作成する方法
-_description: Slingshot でダッシュボードを簡単に作成し、シームレスなコラボレーションを実現するための 4 つの手順のガイド。
-_language: ja
+title: How to Create Dashboards in Slingshot
+_description: A 4-step guide on how to easily create dashboards in Slingshot and ensure seamless collaboration.
 ---
 
-# ダッシュボードの作成
+# Creating Dashboards
 
-Analytics のダッシュボード作成には以下のオプションが含まれます:
+The dashboard creation experience in Analytics includes:
 
-1.  [ダッシュボード作成メニューにアクセス](#access-dashboard-creation-menu)
+1.  [Accessing the Dashboard creation menu](#access-dashboard-creation-menu).
 
-2.  [データ ソースの追加](#add-data-source)
+2.  [Adding a Data Source](#add-data-source).
 
-3.  [表示形式の変更](#modify-visualization) (オプション)
+3.  [Changing the Visualization](#modify-visualization) *(optional*).
 
-4.  [ダッシュボードの保存](#save-dashboard)
+4.  [Saving the Dashboard](#save-dashboard).
 
 <a name='access-dashboard-creation-menu'></a>
-## ダッシュボード作成メニューにアクセス
+## Access the Dashboard Creation Menu
 
-**[+ ダッシュボード]** または **[ダッシュボードの作成]** **(分析)** の青いボタンをクリックまたはタップして、ダッシュボードを作成できます。
+You can create a dashboard by clicking/tapping on the **+ Dashboard** or **Create Dashboard** *(My Analytics)* blue button.
 
    <img src="images/creating-a-dashboard.png" alt="Dashboard button in My Analytics" class="responsive-img" width="80%"/>
 
-[新しい表示形式] のダイアログが表示されます。データ ソースを使用して表示形式を作成します。
+This will prompt the *New Visualization* dialog. Proceed to create a visualization using a data source.
 
-<img src="images/new-visualization-dialog-dashboard.png" alt="New visualization dialog" class="responsive-img" width= "55%"/>
+<img src="images/new-visualization-dialog-dashboard.png" alt="New visualization dialog" class="responsive-img" width= "62%"/>
 
 <a name='add-data-source'></a>
-## データ ソースの追加
+## Add a Data Source
 
-データ ソースがデータ ソース リストにない場合は、右上隅にある **[+ データ ソース]** ボタンを選択します。新しいダイアログが表示され、すべてのデータ ソース カテゴリと使用可能なデータ ソースが表示されます。必要なデータ ソースが表示されるまで、上下にスクロールしてください。
+If your data source is not in the data sources list, select
+the **+ Data Source** button in the top right-hand corner. A new dialog will appear, displaying all data source categories and the available data sources. Feel free to scroll up and down until you see the data source you need.
 
 <img src="images/dashboard-select-your-data-source.png" alt="List with some of the data sources" class="responsive-img" width="80%"/>
 
-データ ソースがコンテンツ マネージャーのスプレッドシートの場合、可覚化で使用する特定のシートを選択できます。
+If your data source is a spreadsheet in a content manager, you will be able to select, for example, the specific sheet that you want to use in your visualization.
 
 <img src="images/dashboards-select-data-sheet.png" alt="select a data sheet from an excel file data source" class="responsive-img" width="55%"/>
 
-### 使用可能なコンテンツ
+### Available Content
 
-Analytics では [Dropbox](../datasources/supported-data-sources/Dropbox.html)、[OneDrive](../datasources/supported-data-sources/OneDrive.html)、[Box](../datasources/supported-data-sources/Box.html)、[Google Drive](../datasources/supported-data-sources/Google-Drive.html) などの複数のコンテンツ ソースを追加でき、それらの使用可能なフォルダー、ファイル、スプレッドシートを閲覧できます。
+With Analytics, you can add many content sources, including
+[Dropbox](~/docs/analytics/datasources/supported-data-sources/Dropbox.md), [OneDrive](~/docs/analytics/datasources/supported-data-sources/OneDrive.md), [Box](~/docs/analytics/datasources/supported-data-sources/Box.md) and [Google Drive](~/docs/analytics/datasources/supported-data-sources/Google-Drive.md), which will allow you to browse any folders, files
+or spreadsheets available in them.
 
-<img src="images/dashboards-onedrive-available-content.png" alt="Available content in OneDrive datasource account" class="responsive-img" width="80%"/>
+<img src="images/dashboards-onedrive-available-content.png" alt="Available content in OneDrive datasource account" class="responsive-img" width="82%"/>
 
-さらに、[SharePoint](../datasources/supported-data-sources/SharePoint.html) データ ソースを追加することもできるため、リストまたはライブラリにアクセスする機能が使用可能です。
+In addition, you can also add [SharePoint](~/docs/analytics/datasources/supported-data-sources/SharePoint.md) data sources,
+which means the ability to access any lists or libraries.
 
-<img src="images/dashboards-sharepoint-list.png" alt="Available content in SharePoint datasource account" class="responsive-img" width="80%"/>
+<img src="images/dashboards-sharepoint-list.png" alt="Available content in SharePoint datasource account" class="responsive-img" width="82%"/>
 
 <a name='modify-visualization'></a>
-## 表示形式の変更
+## Changing your Visualization
 
-データ ソースを追加した後、**表示形式エディター**が表示されます。デフォルトでは、柱状表示形式が選択されます。
+Once your data source has been added, you will be taken to the *Visualization Editor*. By default, the Column visualization will be selected.
 
 <img src="images/visualization-editor-creating-dashboards.png" alt="dashboards first visualization in the visualization editor" class="responsive-img" width="85%"/>
 
-Analytics では、情報を可覚化する方法をカスタマイズするためのいくつかのオプションがあります。上部バーの**ピボット アイコン**を選択してオプションにアクセスできます。
+Analytics provides several options to customize the way your information is visualized. You can access the options by selecting the **grid icon** in the top bar.
 
 <img src="images/chart-types-creating-dashboards.png" alt="list with chart types" class="responsive-img" width="75%"/>
 
-表示形式にラベルと値を追加し、右側のペインでプレビューします。必要に応じて、表示形式設定を変更してフィルターを追加できます。
+Add labels and values to your visualization and preview them in the right-hand pane. If necessary, you can change your visualization's settings or add filters to it.
 
 <img src="images/visualization-editor-using-sample-data.png" alt="Editing visualization fields preview" class="responsive-img" width="85%"/>
 
-表示形式を変更した後**ダッシュボード エディター**に移動されます。右上側に **[元に戻す]**、**[やり直し]**、および **[+ 追加]** の分割ボタンが表示されます。これらのボタンの横には、ダッシュボードのオーバーフロー メニューもあります。そこで、ダッシュボードの **[テーマ]** の変更、ダッシュボードを **[更新]**、ダッシュボードを **[貼り付け]**、**[自動レイアウト]** のオン / オフ、ダッシュボードの **[エクスポート]**、またはダッシュボードに **[名前をつけて保存]** ボタンを選択できます。
+Once you have modified the visualization, you will be taken back to the **Dashboard Editor**. You will see **Undo**, **Redo**, and the **+Visualization** split button on the top right-hand corner. Next to these buttons you will also find the overflow menu of the dashboard where you can choose to change the dashboard theme, refresh the dashboard, paste it, switch on/off **Auto Layout**, **export** or **save** the dashboard.
 
-表示形式の右上隅にあるオーバーフロー メニューを使用して、表示形式の **[名前の変更]**、**[編集]**、**[コピー]**、**[複製]** または **[削除]** できます。 
+You can also use the overflow menu in the top right corner of the visualizations to rename, edit, **copy**, **duplicate** or delete them.
 
 >[!NOTE]
->表示形式のコピーと複製の違いは、複製は同じダッシュボード内でのみ機能し、コピー オプションを使用すると、表示形式を同じダッシュボードまたは異なるダッシュボードに配置できることです。
+>The **difference between copying and duplicating** a visualization is that duplicating works only inside the same dashboard and the copy option allows you to put the visualization in the same or a different dashboard.
 
-表示形式をコピーした後、表示形式を貼り付けるダッシュボードのオーバーフロー メニュー内の [貼り付け] オプションを見つけます。
+After copying a visualization, find the *Paste* option inside the overflow menu of the dashboard you want to paste the visualization in.
 
 <img src="images/creating-dashboards-paste-option.png" alt="Paste option in the dashboard overflow menu" class="responsive-img" width="80%"/>
 
 
-## テーマの適用
+## Applying a Theme
 
-ダッシュボードに移動された後、[テーマ] を選択し、以下に示すように **Mountain テーマ**、**Ocean テーマ**、**Aurora テーマ**を切り替えることができます。
+Once you have continued to your dashboard, you can select the overflow menu ⇒ *Theme* and switch between *Mountain Theme*, *Ocean Theme* and *Aurora Theme* as shown below.
 
 <img src="images/creating-dashboards-themes-options.png" alt="Changing the theme of a dashboard" class="responsive-img" width="80%"/>
 
 <a name='save-dashboard'></a>
-## ダッシュボードの保存
+## Save the Dashboard
 
-ダッシュボードの準備後、右上側の**ティック アイコン**を選択してあるいはオーバーフロー メニューの [**名前を付けて保存**] オプションにアクセスして、ダッシュボードを保存します。
+Once your dashboard is ready, save it by either selecting the **tick icon** in the top right-hand corner or by accessing the **Save As** option in the overflow menu.
 
-**[分析]** > **[ダッシュボード]** の下にダッシュボードを保存するか、参加または作成したワークスペースのいずれかを選択できます。
+You can save your dashboard under **My Analytics** > **My Dashboards** or choose any of the workspaces you have joined or created.
 
-ダッシュボードの名前を選択し、準備ができた後 [ここに保存] をクリック/タップします。
+Select a name for your dashboard, and, when ready, click/tap on **Save here**.
 
 <img src="images/creating-dashboards-save-as-dialog.png" alt="Save as dialog while creating dashboards" class="responsive-img" width="65%"/>
 
-**[名前を付けて保存]** メニューで、右上隅にある **[+ リスト]** ボタンと **[+ セクション]** ボタンをクリックして、リストとセクションを作成し、スペースを整理することができます。
+To better organize your space you can create lists and sections by clicking on the *+List* and *+Section* buttons at the top right-hand corner, while in the *Save as* menu.

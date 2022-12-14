@@ -1,59 +1,69 @@
 ---
-title: クラウド ファイルを使用した共有ダッシュボードへのアクセスをリクエストする方法
-_description: データ ソース ファイルとダッシュボードへのアクセス許可を受け取り、付与する方法を学びましょう。
-_language: ja
+title: How to Request Access to Shared Dashboards with Cloud Files
+_description: Learn how to receive and grant access to data source files and dashboards.
 ---
 
-# クラウド ファイルを使用した共有ダッシュボードへのアクセスのリクエスト
+# Requesting Access to Shared Dashboards with Cloud Files
 
-共有されているダッシュボードを開こうとすると、次のいずれかの理由により、そのコンテンツを表示できない場合があります。
+When trying to open а dashboard, which has been shared with you, you
+might be unable to see its content due to one of the following reasons:
 
-  - データ ソースとして使用されているクラウド ファイルがクラウド サービスから**削除されました**。
+  - cloud file used as data source has been **deleted** from the cloud service;
 
-  - ダッシュボードの管理者が、データ ソースとして使用されるクラウド ファイルへのアクセス**許可を取り消しました**。
+  - the owner of the dashboard has **revoked the permissions** they had given you to the cloud file used as data source.
 
-ファイルが**削除されている**場合、共有ダッシュボードをクリックすると、Analytics は次のメッセージを表示します。
+If the file has been **deleted**, Analytics will show you the following
+message when you click the shared dashboard:
 
 <img src="images/message-deleted-source-file.png" alt="Message in Analytics: Can't access this data" class="responsive-img"/>
 
-ファイルへのアクセス許可が**取り消された**場合は、次のように表示されます。
+If your permissions to the file have been **revoked**, you will see:
 
 <img src="images/request-access-button.png" alt="configure Google drive and request access options when access denied" class="responsive-img"/>
 
-## 権限の取り消されたデータ ソース ファイルへのアクセス許可
+## Granting Access to Data Source Files with Revoked Permissions
 
-**[作成者にアクセス許可を要求します]** ボタンをクリックして、拒否されたアクセスについてダッシュボードの管理者に通知します。メール通知も送信されます。
+Click the *Request Access* button to notify the owner of the dashboard
+about your denied access. They will also receive an email notification.
 
-**管理者**が (アプリまたはメールを介して) 通知を開くと、次のダイアログが表示され、データ ソースへの接続を更新するように求められます。
+When **the owner** opens the notification (through the app or email message), they will see the following dialog, prompting them to update
+the connection to the data source:
 
 <img src="images/connections-failed-dialog.png" alt="connections failed dialog" class="responsive-img"/>
 
-管理者が **[更新]** をクリックすると、アクセスが正常に修正されたかどうかを通知するメッセージが表示されます。
+After the owner clicks *Update* they will see a message notifying them
+whether the access has been successfully fixed.
 
-## 取り消された権限の問題に対する代替ソリューション
+## Alternative Solutions to Revoked Permissions Issue
 
-いつでも**管理者に直接連絡して**、アクセス拒否の問題を解決することができます。
+You can always **contact the owner** personally to help you solve the
+denied access issue.
 
-アクセス許可取り消しのシナリオに応じて、2 つの代替ソリューションがあります。
+There are two alternative solutions, depending on the scenarios for
+revoked permissions:
 
-  - 管理者が **Analytics を通じて**権限を取り消しました。
+  - The owner has revoked the permissions **through Analytics**.
 
-    データ ソースへのアクセスを再び許可するには、共有ダッシュボードのオーバーフロー ボタンをクリック/タップする必要があります。その後、*共有* → *アクセスの許可*を選択します。
+    To grant access to the data source again, they need to click/tap the
+    overflow button of the shared dashboard → select *Share* → *Allow
+    Access*.
 
-  - 管理者は、**クラウド プロバイダー**または **Analytics を通じて**ファイルへのアクセスを取り消しました。
+  - The owner has revoked the access to the file **through the cloud provider** or **through Analytics**.
 
-    管理者は、Analytics を終了せずにアクセスを再度有効にできます。これをするには:
+    The owner can re-enable access without exiting Analytics. They need to:
 
-    1.  共有ダッシュボードの*ダッシュボード編集*モードを選択します。
+    1.  Select *Dashboard Edit* mode of the shared dashboard.
 
-    2.  オーバーフロー メニューの **[ファイル アクセスの確認]** ボタンを選択します。
+    2.  Select *Check File Access* button in the overflow menu.
 
         <img src="images/check-file-access-button.png" alt="Check shared access button in the overflow menu" class="responsive-img"/>
 
-    3.  開いたダイアログで **[更新]** を選択します。
+    3.  Select *Update* in the dialog that opens.
 
-        管理者には、接続が復元されたかどうかを通知するメッセージが表示されます。
+        The owner will see a message informing them whether the
+        connections have been restored.
 
-        **ファイルへのアクセスを復元できなかった**場合は、ファイルがクラウドから削除された可能性があります。
+        If **access to the file could not be restored**, the file could
+        have been deleted from the cloud.
 
-    4. **ファイルへのアクセスが復元された**場合は、*ティック アイコン*を選択して変更を保存します。それ以外の場合、ファイルへのアクセスは他のユーザーに対して拒否されます。
+    4. If **access to the file has been restored**, select the *tick icon* to save the change, otherwise, the access to the file will still be denied to other users. 

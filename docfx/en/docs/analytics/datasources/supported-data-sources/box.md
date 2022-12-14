@@ -1,15 +1,19 @@
 # Box
 
-データ ソースとして Box を選択すると、以下のログイン プロンプトが表示されます。
+Upon selecting Box as your data source, you will see the following login
+prompt:
 
 <img src="images/box-login.png" alt="Box login prompt" class="responsive-img"/>
 
-ログイン情報を入力し [承認] を選択します。
+Enter your login credentials and select *Authorize*.
 
-## サポートされるファイル
+## Supported Files
 
-Analytics では、広範な種類のファイルを使用できます。
+When working within Analytics, you will be able to use a wide variety of
+files:
 
-  - **スプレッドシートと表形式データ**: Excel (.xlsls、.xlsx) または CSV、TSV (Analytics 内で動的に使用できます)。
+  - **Spreadsheets & tabular data**: Excel (.xls, .xlsx), CSV, TSV, which you can use
+    dynamically within Analytics.
 
-  - **その他のファイル** プレビュー モードのみで表示されます (画像および PDF やテキストなどのドキュメント ファイルを含む)。
+  - **Other files** (including images or document files such as PDFs,
+    texts, etc.), which will be displayed in a preview mode only.

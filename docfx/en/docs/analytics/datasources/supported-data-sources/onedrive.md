@@ -1,31 +1,31 @@
 ---
-title: OneDrive データ ソースを構成する方法
-_description: OneDrive を Slingshot のデータ ソースとして接続して使用し、結果を向上させる方法を説明します。
-_language: ja
+title: How to configure a OneDrive data source
+_description: Connecting and using OneDrive as a data source in Slingshot to boost your results.
 ---
 
 # OneDrive
 
-Office365 アカウントでサインインしている場合、OneDrive が自動的にデータ ソースに追加されます。
+If you sign in with your Office365 account, you will have your OneDrive automatically added to your data sources.
 
-OneDrive データを使用するには、以下の手順を実行します:
+To use your OneDrive data, follow the steps below:
 
-1. OneDrive を選択すると、Microsoft の**アカウントとパスワード**を入力するよう求められます。資格情報を入力したら、**[サインイン]** を選択します。
+1. Upon selecting your OneDrive, you will be prompt to enter your **account and password** for Microsoft. Once you have entered the crendetials, select **Sign in**.
 
-  <img src="images/microsoft-account-onedrive.png" alt="One Drive Login" class="responsive-img" width="60%"/>
+  <img src="images/microsoft-account-onedrive.png" alt="One Drive Login" class="responsive-img" width="85%"/>
 
+2. By clicking *Continue*, you will be redirected to an *authorization prompt*. Click/tap on **Accept** to continue.
 
-2. **[続行]** をクリックすると、**認証プロンプト**が表示されます。続行するには、**[承諾]** をクリック / タップします。
+  <img src="images/microsoft-onedrive-permissions.png" alt=" A dialog with a set of permissions" class="responsive-img" width="85%"/>
 
-  <img src="images/microsoft-onedrive-permissions.png" alt=" A dialog with a set of permissions" class="responsive-img" width="60%"/>
+After authorizing Analytics to use your data, you can use your *OneDrive* files to build visualizations.
 
+## Supported Files
 
-Analytics にデータの使用を許可した後、*OneDrive* ファイルを使用して表示形式を作成できます。
+When working within Analytics, you will be able to use a wide variety of
+files:
 
-## サポートされるファイル
+  - **Spreadsheets**: Excel (.xls, .xlsx) or CSV, which you can use
+    dynamically within Analytics.
 
-Analytics では、広範な種類のファイルを使用できます。
-
-  - **スプレッドシート**: Excel (.xls、.xlsx) または CSV (Analytics 内で動的に使用できます)。
-
-  - **その他のファイル**: プレビューモードのみで表示されます (画像および PDF やテキストなどのドキュメント ファイルを含む)。
+  - **Other files** (including images or document files such as PDFs,
+    texts, etc.), which will be displayed in a preview mode only.

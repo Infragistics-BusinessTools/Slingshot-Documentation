@@ -1,56 +1,62 @@
-# ダッシュボードを画像としてエクスポート
+# Exporting Dashboards as Images
 
-Analytics では、ダッシュボード全体のスクリーン キャプチャまたは個別の表示形式をエクスポートすることができます。ローカル スペース/モバイル デバイスに配信されるファイルは **png 形式**です。
+Analytics allows you to export a screen capture of your entire dashboard or
+individual visualizations from your dashboard. The files delivered to
+your local space / mobile device are in the **png format**.
 
-## ダッシュボード全体を画像としてエクスポート
+## Exporting an Entire Dashboard as an Image
 
-ダッシュボード全体の画像をエクスポートするには:
+To export an image of your entire dashboard:
 
-1.  ダッシュボードの右上隅にあるオーバーフロー メニューに移動し、**[エクスポート]** を選択します。
+1.  Go to the overflow menu in the upper right-hand corner of the
+    dashboard and select **Export**.
 
-  <img src="images/export-option-overflow-menu.png" alt="Export option in the list of options in the overflow menu" class="responsive-img" width="30%"/>
+  <img src="images/export-option-overflow-menu.png" alt="Export option in the list of options in the overflow menu" class="responsive-img" width="55%"/>
 
+2. Click/tap on **Image**.
 
-2. **[画像]** をクリックまたはタップします。
+  <img src="images/image-export-format.png" alt="Image option in the list of formats" class="responsive-img" width="55%"/>
 
-  <img src="images/image-export-format.png" alt="Image option in the list of formats" class="responsive-img" width="30%"/>
-
-
-3.  **[画像をエクスポート]** ダイアログで、**[画像をエクスポート]** の青いボタンを選択します。
+3.  In the *Export Image* dialog choose the **Export Image** blue button.
 
  <img src="images/export-image-dialog.png" alt="Export image button in the export image dialog" class="responsive-img" width="55%"/>
 
+You can choose the **Copy to clipboard** option to paste the image quickly
+wherever you need without downloading it first.
 
-**[クリップボードへコピー]** オプションを選択すると、ダウンロードすることなく、クリップボードに画像を取り込むことができます。
+## Exporting Individual Visualizations as Images
 
-## 個別の表示形式を画像としてエクスポート
+To export an image of a particular visualization:
 
-ダッシュボード全体の画像をエクスポートするには:
+1.  In dashboard *View mode* **maximize** the selected visualization by
+    clicking/tapping the arrow in its upper right-hand corner.
 
-1.  ダッシュボードの*ビュー モード*で、右上隅の矢印をクリック/タップして、選択した表示形式を**最大化します**。
+    <img src="images/export-visualization.png" alt="Using the arrow from the upper-right corner to open a visualization" class="responsive-img" width="75%"/>
 
-    <img src="images/export-visualization.png" alt="Using the arrow from the upper-right corner to open a visualization" class="responsive-img" width="70%"/>
+2.  Select **Export** and then **Image** in the overflow menu.
 
-2.  **[エクスポート]** を選択し、オーバーフロー メニューで **[画像]** を選択します。
-
-3.  **[画像をエクスポート]** の青いボタンを選択します。
+3.  Select the **Export Image** blue button.
 
 <a name='annotating'></a>
-## 注釈画像
+## Annotating Images
 
-特定の場所に異なる図形のメモやハイライトを含む必要がある場合、**[画像をエクスポート]** メニューでダッシュボードに注釈を追加できます。**注釈セクションにアクセスする**には、**[画像をエクスポート]** ダイアログで鉛筆アイコンを選択します。
+In the *Export Image* menu you can add annotations to your dashboards in
+case you want to include notes or highlight specific areas with
+different shapes. To **access the annotation section**, select the
+pencil icon in the *Export Image* dialog.
 
-<img src="images/export-images-annotation.png" alt="Accessing Image Annotation Menu" class="responsive-img" width="50%"/>
+<img src="images/export-images-annotation.png" alt="Accessing Image Annotation Menu" class="responsive-img" width="55%"/>
 
+In the Annotation menu, you will see a top toolbar with many options
+such as adding shapes and freestyle annotations.
 
-注釈メニューの上部ツールバーには、形状の追加やフリースタイルの注釈など、多くのオプションがあります。
+<img src="images/export-image-toolbar.png" alt=" Toolbar with different shapes options" class="responsive-img" width="80%"/>
 
-<img src="images/export-image-toolbar.png" alt=" Toolbar with different shapes options" class="responsive-img" width="75%"/>
+The text option allows you to add text on top of the image. It provides
+options to customize the text, such as background colors, font weight,
+font size, and font color.
 
+<img src="images/text-option-in-export-image.png" alt="Adding text in image annotation" class="responsive-img" width="80%"/>
 
-テキストのオプションでは画像の上にテキストを追加できます。背景色、フォントの太さ、フォント サイズ、フォント カラーなど、テキストをカスタマイズするオプションを提供します。
-
-<img src="images/text-option-in-export-image.png" alt="Adding text in image annotation" class="responsive-img" width="75%"/>
-
-
-**Android および iOS** デバイスでの画像のエクスポートについては、[ダッシュボードをエクスポート](how-to-export-a-dashboard.html#mobile-devices)トピックを参照してください。
+For exporting images in **Android and iOS** devices, please refer to the
+[Exporting Dashboards](how-to-export-a-dashboard.html#mobile-devices) topic.

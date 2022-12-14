@@ -1,78 +1,119 @@
 ---
-title: REST、OData、および Web リソースを使用した OAuth 2 / OIDC ユーザー認証
-_description: OAuth2、OIDC アカウントを設定し、OData サービス、REST API、または Web を使用しているリソースへのアクセスを許可する方法を説明します。
-_language: ja
+title: OAuth 2 / OIDC User Authentication with REST, OData, and Web Resources
+_description: Ways to set up an OAuth 2 / OIDC account and grant access to your resources when using OData Service, Rest API or Web.
 ---
 
-# REST、OData、およびウェブ リソースを使用した OAuth 2 / OIDC ユーザー認証
+# OAuth 2 / OIDC User Authentication with REST, OData, and Web Resources
 
-[OData フィード](supported-data-sources/odata-feed.html)、[REST API](supported-data-sources/rest-api.html)、または[ウェブ リソース](supported-data-sources/web-resource.html)を使用する場合、リソースの一部が保護される場合があります。この場合、OAuth 2 / OIDC アカウントを設定して、これらのリソースへの Analytics アクセスを許可する必要があります。
+When using [OData Service](supported-data-sources/odata-feed.md), [Rest API](supported-data-sources/rest-api.md) or [Web resources](supported-data-sources/web-resource.md), some of your resources might be protected. In
+this case, you need to grant Analytics access to these resources by setting
+up an OAuth 2 / OIDC account.
 
-## OAuth 2 とは?
+## What is OAuth 2?
 
-OAuth 2.0 は、元の Oauth プロトコルに代わるアクセス許可フレームワークです。通常、ユーザーの資格情報を公開せずに特定のリソースへの制限付きアクセスを許可します。OAuth 1.0 と同様に、このプロトコルは Oauth クライアントと呼ばれるある場所 (サードパーティのアプリケーションまたは Web サイト) から別の場所へのアクセスを可能にします。
+OAuth 2.0 is an authorization framework that supersedes the original
+OAuth protocol. It is commonly used to grant users limited access to
+specific resources, without exposing their credentials. Like OAuth 1.0,
+this protocol enables access from one location (third-party application
+or website) called OAuth client to another location with protected data.
 
-詳細については、[OAuth 2.0 (英語)](https://oauth.net/2/) を参照してください。
+For further information, please refer to
+[OAuth 2.0](https://oauth.net/2/)
 
-## OIDC とは?
+## What is OIDC?
 
-OIDC は OAuth 2.0 プロトコルの上にあるシンプルな ID レイヤーです。OIDC を利用すると、Web サイトまたはアプリケーションは、別のサービスまたはアプリケーション (Google、Office 365 など) のアカウントを使用してユーザーの認証が可能になり、それをもとにコンテンツへのアクセス許可の制御が可能になります。Web サイトまたはアプリケーション側でさまざまなアカウントを保持する必要がなくなります。
+OIDC is a simple identity layer on top of the OAuth 2.0 protocol. OIDC
+enables websites or applications to grant users access to their content
+by authenticating the user through their account in another service or
+application (е.g. Google, Office 365) saving them the trouble of
+maintaining a bunch of different accounts.
 
-詳細については、[OpenID Connect (英語)](https://openid.net/connect/) を参照してください。
+For further information, please refer to [OpenID Connect](https://openid.net/connect/).
 
-## OAuth 2 / OIDC アカウントで保護されたリソースを使用
+## Using protected resources with an OAuth 2 / OIDC Account
 
-OAuth 2 / OIDC アカウントでデータ ソースを使用するには、以下の 4 つの手順を実行する必要があります。
+To use data sources with an OAuth 2 / OIDC аccount you will need to
+perform these 4 steps:
 
-1.  **OAuth クライアント (Analytics) をリソース サーバーに登録する** (これは、Microsoft、Google など、使用したい OAuth で保護されたリソースをホストするサーバーです) 。
+1.  **Register the OAuth Client** (Analytics) on your resource server (this
+    is the server hosting the resource, protected with OAuth, that you
+    want to use - e.g. Microsoft, Google, etc.)
 
-2.  OAuth2 / OIDC アカウントで使用できる Analytics の 3 つの**データ ソース**の 1 つを選択する - [OData フィード](supported-data-sources/odata-feed.html)、[Rest API](supported-data-sources/rest-api.html)、または[ウェブ リソース](supported-data-sources/web-resource.html)。
+2.  Choose one of the three **data sources** in Analytics, which are
+    enabled to work with OAuth 2 / OIDC accounts - [OData Service](supported-data-sources/odata-feed.md), [Rest API](supported-data-sources/rest-api.md) or [Web Resource](supported-data-sources/web-resource.md).
 
-3.  リソース サーバーがクライアントに提供した資格情報を使用して、**Analytics で OAuth 2 / OIDC アカウントを設定する**。
+3.  Use credentials provided for the Client by the resource server to
+    **set up your OAuth 2 / OIDC account in Analytics**
 
-4.  データにアクセスして使用するための**権限を Analytics に付与する**。
+4.  **Give Analytics permissions** to access and use your data.
 
-## OАuth クライアントの登録
+## Registering an OAuth Client
 
-**リソース サーバー** (Microsoft、Google など) に移動し、必要な情報を入力して Analytics を Oauth クライアント/アプリケーションとして登録します。通常、アプリケーションの名前とリダイレクト URL が必要です。
+Navigate to the **resource server** (e.g. Microsoft, Google, etc.) and
+register Analytics as an OAuth Client/Application by filling in the
+required information. Usually the name of the application and a redirect
+URL are required.
 
->[!NOTE]
->リダイレクト URL: Analytics の *OAuth 2 / OIDC アカウントの詳細画面*にリダイレクト URL が表示されます。
+>[!NOTE]***Redirect URL***.
+>Pay attention that the redirect URL is provided in the Analytics's *OAuth 2 / OIDC Account Details* screen.
 
-登録が完了すると、リソース サーバーは Analytics で *OAuth 2 アカウント*を構成するために必要な資格情報を生成します。
+When you complete the registration, the resource server will generate
+the credentials necessary for configuring the *OAuth 2 account* in
+Analytics.
 
-## データ ソースの選択
+## Choosing your data source
 
-1.  Analytics に移動し、**データ ソース** (Odata フィード、Rest API、またはウェブ リソース) **を選択する**。
+1.  Navigate to Analytics and **choose a data source** - *OData Feed*,
+    *Rest API* or *Web Resource*.
 
-2.  データが配置されている *URL* を提供します。
+2.  Provide the *URL* where the data is located.
 
-3.  **[資格情報]** をクリックまたはタップします。
+3.  Click/tap on *Credentials*.
 
-**[+ 資格情報]** をクリックまたはタップしたら、**[資格情報の種類]** ドロップダウン メニューから **[OAuth 2 / OIDC 資格情報]** を選択できます。
+Once you've clicked/tapped on **+ Credentials** you can select *OAuth 2 / OIDC Credentials* from the **Credential Type** dropdown menu:
 
  <img src="images/credential-type-options.png" alt="Accessing OAuth2/OIDC Credentials menu" class="responsive-img" width="55%"/>
 
-## Analytics での OAuth 2 / OIDC アカウントの設定
+## Setting up your OAuth 2 / OIDC account in Analytics
 
-**OAuth 2 / OIDC アカウントの詳細**画面で、リソース サーバーによって Analytics 用に既に生成された資格情報を入力する必要があります。
+In the *OAuth 2 / OIDC Account Details* screen you will need to fill in
+the credentials that are already generated for Analytics by the resource
+server.
 
 <img src="images/required-credentials-oauth2.png" alt="Required Credentials OAuth Account" class="responsive-img" width="55%"/>
 
-以下のフィールドは必須です。
+The following fields are mandatory:
 
-3.  **[トークン Url]**: トークン URLの形式は認証 URL の形式と同様です (例: <https://login.microsoftonline.com/common/oauth2/token>)。
+3.  **Authenticate Url**: The authenticate URL is usually in a format
+    such as: <https://authorization-server.com/oauth2/authorize> (e.g.
+    <https://login.microsoftonline.com/common/oauth2/authorize>).
 
-4.  **[クライアント ID]**: クライアント ID はアプリ (Analytics) の識別子です。その形式は、シンボルのランダムな組み合わせです。Analytics を OAuth クライアントとして最初に登録するときにクライアント ID を受け取ります。
+4.  **Token Url**: The format of the token url is similar to the one of
+    the authenticate url (e.g.
+    <https://login.microsoftonline.com/common/oauth2/token>).
 
-その他のフィールドは Analytics で必須としてマークされませんが、OAuth サービスに応じて以下を提供する必要があります。
+5.  **Client ID**: The Client ID is the identifier for your app
+    (Analytics). Its format is a random combination of symbols. You will
+    receive a Client ID when you first register Analytics as an OAuth
+    Client.
 
-*  **[クライアント シークレット]**: クライアント シークレットは追加の保護として使用されます。その形式は、シンボルのランダムな組み合わせです。
+Other fields are not marked as mandatory in Analytics but depending on your
+OAuth service you might also need to provide the following:
 
-*  **[スコープ]**: スコープ値は、追加のアクセス レベルを要求するために使用されます。値は特定のサービスに依存します。
+*  **Client Secret**: The client secret is used as additional
+    protection. Its format is a random combination of symbols.
 
-*  **[リソース]**: ここで、保護されたデータをホストするサービス (例: <https://infragisticsinc297.sharepoint.com>) に URL を入力する必要があります。
+* **Logout Url**: 
 
-* **追加パラメーター**: 
+*  **Scope**: Scope values are used to request additional levels of
+    access. The values will depend on the particular service.
 
-* データ ソースの**エイリアス**: データ ソース名がアカウントのリストに表示されます。いつでも変更できます。
+*  **Resource**: Here you need to input the url to the service, which
+    hosts the protected data (e.g.
+    <https://infragisticsinc297.sharepoint.com>)
+
+* **Additional Parameters**: 
+
+* **Alias** of the data source: Your data source name will be displayed in the list of accounts. You can always change it.
+
+

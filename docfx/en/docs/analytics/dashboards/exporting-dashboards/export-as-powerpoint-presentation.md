@@ -1,45 +1,62 @@
-# ダッシュボードを PowerPoint 形式としてエクスポート
+# Exporting Dashboards as PowerPoint Presentations
 
-Analytics では、ダッシュボードを PowerPoint 形式でエクスポートできます。各表示形式は、プレゼンテーションの個別のスライドに表示されます。
+Analytics allows you to export your dashboard as a PowerPoint presentation.
+Every visualization that is part of this dashboard will be displayed on
+a separate slide of the presentation.
 
-プレゼンテーションのすべての要素は編集可能であるため、ニーズに合わせて調整できます。
+All the elements of the presentation are editable so that you can tailor
+it to your needs.
 
-ダッシュボードを PowerPoint プレゼンテーションとしてエクスポートするには、次のことを行う必要があります:
+To export a dashboard as a PowerPoint presentation, you need to:
 
-1. ダッシュボード **ビュー モード**に移動し、オーバーフロー メニューをクリックまたはタップします。
-   
-2. **[エクスポート]** を選択し、**[PowerPoint]** をクリックまたはタップします。
+1. Go to the dashboard *View mode* and click/tap on the overflow menu. 
 
- <img src="../images/export-as-powerpoint-option.png" alt="Powerpoint option in the list of export formats" class="responsive-img" width="45%"/>
+2. Choose **Export** and then click/tap on **PowerPoint**. 
 
-3. **[ダッシュボード エクスポート]** ダイアログが開き、プレゼンテーションを設定して特定のスライドに注釈を付けることができます。
+ <img src="../images/export-as-powerpoint-option.png" alt="Powerpoint option in the list of export formats" class="responsive-img" width="60%"/>
 
-## エクスポート設定
+3. The *Export Dashboard* dialog will open, allowing you to set up your
+presentation and annotate specific slides.
+
+## Export Settings
 
 <img src="images/export-dashboard-as-powerpoint.png" alt="Settings for PowerPoint presentation in the Export Dashboard menu" class="responsive-img" width="60%"/>
 
+In the *Export Dashboard* dialog you can manage the following settings:
 
-**[ダッシュボード エクスポート]** ダイアログでは、次の設定を管理できます:
+1.  Change the **main title** of your PowerPoint presentation. The
+    default title is your dashboard's title.
 
-1.  PowerPoint の**主タイトル**を変更します。デフォルトのタイトルは、ダッシュボードのタイトルです。
+2.  Change the **slide's title**. You can also add a description in the **Add Description** box (the second box). The default slide's title is the title of
+    the visualization displayed on the slide.
 
-2.  **スライドのタイトル**を変更します。**[説明の追加]** ボックス (2 番目) に説明を追加することもできます。デフォルトのスライドのタイトルは、スライドに表示される表示形式のタイトルです。
+3.  Manage **Branding** settings options allows you to choose:
 
-3.  **[ブランディング]** 設定オプションの管理では、以下を選択できます。
+    1.  *Author*'s and their *Company*'s name - displayed in the header
+        panel of the slide;
 
-    1.  **[作成者]** とその **[会社名]** - スライドのヘッダー パネルに表示されます;
-
-    2.  **[カラー]** (PowerPoint のメイン カラー) とフッターで表示される会社の **[ロゴ]** - ここでは、次のオプションのいずれかを選択できます:
+    2.  Company's *logo* displayed in the footer and *color* (the main
+        color of the PowerPoint presentation) - here you can choose one
+        of the following options:
 
           - **Analytics**
 
-          - **ユーザーの組織/ワークスペース** - 組織とすべてのワークスペースのブランディング (カラーとロゴ) が設定されることはオプションとして表示されます。ワークスペースのブランディング設定にアクセス/変更する方法については、[ワークスペースの管理](~/jp/workspaces/managing-your-workspace.md)トピックをご覧ください。
+          - **User's organization/workspace** - your organization and all of
+            your workspaces having their branding (logo and color) set up are
+            displayed as options. If you want to know how to
+            access/change your workspace's branding settings, please read the
+            [Managing Workspaces](~/docs/analytics/workspaces/managing-your-workspace.md) topic.
 
-          - **[+ カスタム ブランディング]** - カラーを選択し、選択した*ロゴ*画像をアップロードします。
+          - **Custom** - select a color and upload a *logo* image of
+            your choice.
 
-            >[!NOTE] 
-            >ロゴ画像の要件: ロゴとしてアップロードする画像は、**5 MB** 以下で、jpg、jpeg、png、gif のいずれかの形式である必要があります。
+            >[!NOTE]**Requirements for logo images**.The image you upload for a logo must be no bigger than **5
+            MB** and one of the following formats: jpg, jpeg, png, gif.
 
-4.  リストからページを選択してタイトルを変更し、注釈を付け、あるいは右上隅のチェック アイコンを除いてドキュメントを削除することで、**PowerPoint のスライドを管理**できます。
+4.  You can **manage your PowerPoint slides** by selecting a slide from
+    the list to modify its title, annotate or delete it (by removing the
+    tick icon in the upper right corner).
 
-5.  *鉛筆アイコン*をクリックまたはタップして、選択したスライドに**注釈**を付けます。**注釈設定**の詳細については、[注釈画像](export-as-images.html#注釈画像)を参照してください。
+5.  **Annotate** the selected slide by clicking/tapping the *pencil*
+    icon. For more information about **annotation settings**, please
+    refer to [Annotating images](export-as-images.html#annotating) in the *Exporting Dashboards as Images* topic.

@@ -1,25 +1,28 @@
 ---
-title: Slingshot でフィールドを使用する方法
-_description: データセットのフィールドに変換を簡単に適用するオプションについて説明します。
-_language: ja
+title: How to use Fields in Slingshot 
+_description: Learn to options to easily apply transformations to the fields in your dataset.
 ---
 
-# フィールド
+# Fields
 
-このセクションでは、データセットのフィールドに変換を適用するためのさまざまなオプションについて説明します。フィルターを適用することにより、フィールドの情報をビジネス分析用に最適化できます。必要のないノイズを削除し、最も重要なアスペクトを強調表示して、さまざまな方法で情報を要約します。
+This section describes the different options for applying transformations to the fields in your dataset. By applying filters, you can optimize the information in your fields for your business analysis. Remove any unnecessary noise, highlight the most valuable aspects and summarize information in many useful ways.
 
 <img src="images/visualization-sample-fields.png" alt="Visualization sample that uses different fields.png" class="responsive-img" width="85%"/>
 
-## トピックの概要
+## Topics Overview
 
-いくつかのフィールド設定とフィルタリング オプションがあります。
+There are several field settings and filtering options:
 
-  - ラベルの名前変更、集計、並べ替え、書式、[条件付き書式](conditional-formatting.html)を含む[日付](field-settings.html#date-fields)、[数値](field-settings.html#numeric-fields)および[文字列](field-settings.html#abc-fields)フィールドの設定。
+  - Settings for [date](field-settings.html#date-fields),
+    [numeric](field-settings.html#numeric-fields), and
+    [string](field-settings.html#abc-fields) fields, including label
+    renaming, aggregation, sorting, formatting, and [conditional formatting](conditional-formatting.md).
 
-  - [空値](field-filters-rules.html#empty-values)のフィルター。
+  - Filters for [empty values](field-filters-rules.html#empty-values).
 
-  - [特定の値を選択する](field-filters-rules.html#select-values)ためのフィルター。
+  - Filters to [select specific values](field-filters-rules.html#select-values).
 
-  - [ルール](field-filters-rules.html#rules)でフィルター。
+  - Filters by [Rule](field-filters-rules.html#rules).
 
-データセットがダッシュボード キャンバスに追加されると自動的に表示される[表示形式エディター](~/jp/data-visualizations/visualizations-editor.html)を介して、フィールド設定とルールにアクセスできます。
+Field settings and rules are accessible through the [visualizations editor](~/docs/analytics/data-visualizations/visualizations-editor.md), which is displayed automatically when a
+dataset is added to the dashboard canvas.

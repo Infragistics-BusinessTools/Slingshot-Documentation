@@ -1,12 +1,12 @@
 ---
-title: Slingshot でスプレッドシートを使用する方法
-_description: データのインサイトを最大限に活用するためのスプレッドシートの使用に関するヒントを紹介します。
-_language: ja
+title: How to Work with Spreadsheets in Slingshot 
+_description: Tips and tricks on using Spreadsheets to utilize your data insights in the best way.
 ---
 
-# Analytics スプレッドシートの作業
+# Working With Spreadsheets in Analytics
 
-以下は Analytics でスプレッドシートとの作業のためのヒントがあります。
+Below are a couple of helpful tips and tricks for working with
+spreadsheets within Analytics.
 
 <table>
 <colgroup>
@@ -18,31 +18,31 @@ _language: ja
 <tr class="odd">
 <td><p><img src="images/excel.png" alt="excel" /> <img src="images/csv.png" alt="csv" /><br />
 </p>
-<p><em>Analytics でデータを列に構成し、フィールドをスプレッドシートの最初の行によって名前を付けます。</em> データが列ではなく行で構成される場合、Analytics でフィールドの<a href="#transposing-spreadsheets">入れ替えができます。</a></p>
-<p><a href="~/jp/data-visualizations/visualizations-editor.md">詳細情報</a><br />
+<p><em>Analytics expects your data to be organized in columns</em> and will name fields after the spreadsheet's first row. If your data is organized in rows instead, you can <a href="#transposing-spreadsheets">transpose</a> the fields in Analytics.</p>
+<p><a href="~/docs/analytics/data-visualizations/visualizations-editor.md">LEARN MORE</a><br />
 </p></td>
 <td><p><img src="images/csv.png" alt="csv" /><br />
 </p>
-<p><strong>CSV ファイルを使用するときは、スプレッドシートを書式設定しないでください。</strong>.代わりに Analytics で書式設定 (1000 コンマ分割記号、通貨記号など) を適用します。</p>
-<p><a href="~/jp/data-visualizations/fields/field-settings.md">詳細情報</a><br />
+<p><strong>When working with CSV files, avoid formatting the spreadsheet</strong>. Instead, apply any necessary formatting (1000 comma separators, currency signs, etc.) through Analytics.</p>
+<p><a href="~/docs/analytics/data-visualizations/fields/field-settings.md">LEARN MORE</a><br />
 </p></td>
 <td><p><img src="images/excel.png" alt="excel" /><br />
 </p>
-<p><strong>シリーズが 2 つ以上あるチャートの場合、</strong>Excel ファイルの列順序に関係なく [列]、[行]、および [値] にフィールドをドロップする順序によって<strong>チャートをプロットする方法を決定します</strong>。</p></td>
+<p><strong>For 2 or more series charts, the order in which you drop fields</strong> in "Columns", "Rows" and "Values" <strong>will determine how the chart is plotted</strong>, regardless of the column order in your Excel file.</p></td>
 </tr>
 <tr class="even">
 <td><p><img src="images/excel.png" alt="excel" /> <img src="images/csv.png" alt="csv" /><br />
 </p>
-<p><strong>列に異なるデータ型 </strong> (文字列、数値など) <strong>を結合する場合、Analytics はそれを文字列型の列として使用します。</strong>これは書式設定に影響します。</p></td>
+<p><strong>If columns have different types of data combined</strong> (strings, numbers, etc.), <strong>Analytics will treat them as a column with strings only</strong>. This will affect, among other things, formatting.</p></td>
 <td><p><img src="images/p-lock.png" alt="p lock" /><br />
 </p>
-<p>Analytics でパスワードの保護ファイルおよび非表示範囲がサポートされません。</p></td>
+<p>Password-protected files and hidden ranges are not supported in Analytics.</p></td>
 <td></td>
 </tr>
 </tbody>
 </table>
 
-## データ範囲
+## Data Ranges
 
 <table>
 <colgroup>
@@ -54,18 +54,18 @@ _language: ja
 <tr class="odd">
 <td><p><img src="images/excel.png" alt="excel" /> <img src="images/csv.png" alt="csv" /><br />
 </p>
-<p><em>Excel ファイルはスプレッドシートでデータのカスタム範囲の選択を許可しますが、</em>CSV ファイルはこれを許可しません。特定のデータを選択する場合、常に Excel スプレッドシートを使用します。</p></td>
+<p><em>Excel files allow you to select a custom range of data within your spreadsheet</em>, while CSV do not. If you need to select specific data, make sure you always work with an Excel spreadsheet.</p></td>
 <td><p><img src="images/excel-columns.png" alt="excel columns" /><br />
 </p>
-<p>名前付き範囲を持つスプレッドシートがある場合、<strong>その名前付き範囲をデータ ソースとして選択できます。</strong></p></td>
+<p>If you have a spreadsheet with a named range, you can <strong>choose that specific Named Range as a data source</strong>.</p></td>
 <td><p><img src="images/excel-columns.png" alt="excel columns" /><br />
 </p>
-<p>Excel データが<strong>隣接しない列</strong>にある場合、Analytics は<strong>データの最も多い列</strong>を使用します。</strong>.</p></td>
+<p>If your Excel data is organized in <strong>non-adjacent columns</strong>, Analytics will pick up the <strong>column with most data</strong>.</p></td>
 </tr>
 </tbody>
 </table>
 
-## 日付、数値、およびパーセンテージ
+## Dates, Numbers and Percentages
 
 <table>
 <colgroup>
@@ -77,58 +77,64 @@ _language: ja
 <tr class="odd">
 <td><p><img src="images/reveal-logo.png" alt="reveal logo" /><br />
 </p>
-<p>デフォルトで<strong>2 桁の小数桁があります。</strong>これを変更するには、[フィールド設定] の [小数桁] へアクセスします。</p>
-<p><a href="~/jp/data-visualizations/fields/field-settings.html#numeric-fields">詳細情報</a><br />
+<p>By default, <strong>numbers will have 2 fraction digits</strong>. To change this, access the <em>Formatting</em> menu for the field.</p>
+<p><a href="~/docs/analytics/data-visualizations/fields/field-settings.html#numeric-fields">LEARN MORE</a><br />
 </p></td>
 <td><p><img src="images/top-1000.png" alt="top 1000" /><br />
 </p>
-<p>数値が大きい場合もデフォルトでは桁区切りが無効です。有効にするには、[フィールド設定] の [桁区切りの表示] へアクセスします。</p>
-<p><a href="~/jp/data-visualizations/fields/field-settings.html#numeric-fields">詳細情報</a><br />
+<p>The 1000 separator is disabled by default, even for large numbers. To turn it on, access the <em>Formatting</em> menu.</p>
+<p><a href="~/docs/analytics/data-visualizations/fields/field-settings.html#numeric-fields">LEARN MORE</a><br />
 </p></td>
 <td><p><img src="images/percentage.png" alt="percentage" /><br />
 </p>
-<p>パーセントまたは通貨を表示するには、そのオプションを [タイプ] から選択します。</p>
-<p><a href="~/jp/data-visualizations/fields/field-settings.html#numeric-fields">詳細情報</a><br />
+<p>If you need to show percentages or currencies, you will need to select that option from the Formatting menu.</p>
+<p><a href="~/docs/analytics/data-visualizations/fields/field-settings.html#numeric-fields">LEARN MORE</a><br />
 </p></td>
 </tr>
 <tr class="even">
 <td><p><img src="images/excel.png" alt="excel" /><br />
 </p>
-<p>日付を列ヘッダーに設定するには、Excel が書式設定を使用するために「'」を含みます。デフォルトのヘッダー日付書式は (YYYY-MM-DD 00:00:00 +0000) の省略なしで全体を示す書式です。</p></td>
+<p>If you want a date as a column header, make sure you include a ' so Excel will respect your format. The default date format for headers is the full-length format (YYYY-MM-DD 00:00:00 +0000).</p></td>
 <td><p><img src="images/percentage.png" alt="percentage" /><br />
 </p>
-<p>書式設定がパーセントに変更される場合以外、Excel シートのパーセントは 0 ～ 1 スケールで表示されます。たとえば、39% が 0.39 として表示されます。</p></td>
+<p>Percentages in Excel sheets will be shown in a 0 to 1 scale unless the format is changed to "Percentage". For example, 39% will be displayed as 0.39.</p></td>
 <td></td>
 </tr>
 </tbody>
 </table>
 
 <a name='transposing-spreadsheets'></a>
-## 列を行に転置
+## Transposing Columns to Rows
 
-Microsoft Excel および Google スプレッドシートを使用する場合、転置機能を使用して列を行から切り替えることができます。
+When working with Microsoft Excel and Google Sheets, you can use the
+transpose functionality to switch columns from rows.
 
-この変更を行うには、まず、選択したシートの [データのプレビュー] ボタンをクリックまたはタップする必要があります。
+To make this change, you need to first click/tap on the *Preview Data* button for the chosen sheet.
 
->[!NOTE]
->スプレッドシートの最初の 200 行のみが転置されます。  
+>[!NOTE] **Only the first 200 rows in the spreadsheet will be transposed.** 
 
 <img src="./images/data-source-details-dialog-spreadsheet-sample.png" alt="Spreadsheets Transpose Data Source Menu" class="responsive-img" width="55%"/>
 
-次に、十字ボタンの隣の右上隅に転置アイコンが表示されます。
-それをクリックまたはタップすると、Analytics は列を行に、またはその逆に切り替えます。
+Then you will see a transpose icon in the top right-hand corner next to the
+cross button. Once you click/tap on it, Analytics will switch columns to rows and
+vice-versa.
 
 <img src="images/transposing-action-spreadsheet-columns.png" alt="Transposing Action Spreadsheet" class="responsive-img" width="85%"/>
 
-上記の例では、スプレッドシートの情報は、会社の各従業員の *EmployeeID* を表す列に編成されます。
+In the example above, the information in the spreadsheet will be
+organized in columns expressing the *EmployeeID* for each employee in the
+company.
 
 <img src="images/transposing-action-spreadsheet-rows.png" alt="Transposing Action Final Spreadsheet" class="responsive-img" width="85%"/>
 
-ティック アイコンを選択します。これにより、**[データ ソースの詳細]** メニューに戻ります。ここで、シートの名前が表示され、その左側に、シートが変更されたことを示す新しいアイコンが表示されます。
+Once you are ready, select the tick icon. This will take you back to the *Data Source details* dialog, where you will now see the name of the
+sheet with a new icon to its left indicating that the sheet has been
+modified.
 
 <img src="images/transposed-icon-data-source-details-dialog.png" alt="Transposed icon showing up next to the name of the chosen sheet in the data source details dialog" class="responsive-img" width="55%"/>
 
-## 関連項目
+## See Also
 
-一般的な使用例として、クラウド ファイル共有サービスにあるスプレッドシートでのダッシュボードの構築があります。
-これらのダッシュボードを他のユーザーと正常に共有する方法については、[クラウド ファイルをデータ ソースとするダッシュボードを共有する](~/jp/dashboards/sharing-dashboards/sharing-dashboards-datasource-files-cloud-provider.html)トピックをご覧ください。
+A common use case is building dashboards with spreadsheets located in a
+cloud file sharing service. To learn how to successfully share those
+dashboards with other users, please read [Sharing Dashboards with Cloud Files as a DataSource](~/docs/analytics/dashboards/sharing-dashboards/sharing-dashboards-datasource-files-cloud-provider.md).

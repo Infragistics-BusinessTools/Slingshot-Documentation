@@ -1,102 +1,130 @@
 ---
-title: REST API データ ソースを構成して使用する方法
-_description: REST API データ ソースを Slingshot のデータ ソースとして接続して使用する方法を説明します。
-_language: ja
+title: How to configure and use REST API Data Source 
+_description: Connecting and using REST API data source as a data source in Slingshot.
 ---
 
 # REST API
 
-Analytics の REST API データ ソースを使用すると、GET、POST、および PUT HTTP リクエストを一意の URLに送信して、Web サービス経由でデータを操作できます。
+The REST API data source in Analytics enables you to send GET, POST, and PUT
+HTTP requests to a unique URL in order to manipulate data via a web
+service.
 
-REST API データ ソースは、進行状況を失わずに表示形式を作成している最中に、URL のパラメーターの値を変更するだけで、受信データを変更する可能性も提供します。
+The REST API data source also provides the possibility to change the
+received data by simply changing parameters' values in the URL in the
+midst of creating your visualization without losing your progress.
 
-## REST API とは?
+## What is a REST API?
 
-**API** (アプリケーション プログラム インターフェイス) を使用すると、2 つのソフトウェア プログラムが相互に通信できます。すべての Web サービスは、Web 環境を通じてアクセスされる API です。
+An **API** (Application Program Interface) allows two software programs
+to communicate with each other. All web services are APIs accessed
+through the web environment.
 
-REST API (REST Web サービスとも呼ばれる) は、**REST** (Representational State Transfer) アーキテクチャ上の制約のグループに基づいており、Web 上のコンピューター システム間の通信の標準を提供します。REST アーキテクチャでは、クライアントはリソースを取得または変更するリクエストを送信し、サーバーはこれらの要求への応答を送信します。
+REST APIs (also referred to as REST web services) are based on **REST**
+(Representational State Transfer) - a group of architectural
+constraints, providing standards for communication between computer
+systems on the web. In the REST architecture, clients send requests to
+retrieve or modify resources, and servers send responses to these
+requests.
 
-## REST API への接続
+## Connecting to a REST API
 
-REST API データ ソースを構成するには、以下の情報が必要です。
+To configure a REST API data source, you will need to enter the
+following information:
 
 <img src="images/Configuring-REST-API-Data-Source_All.png" alt="Configuring-REST-API-Data-Source\_All" class="responsive-img"/>
 
-1. データ ソースの**デフォルト名**: データ ソース名は前のダイアログのアカウントのリストに表示されます。デフォルトでは、Analytics は *REST API* という名前を付けます。好みに合わせて変更できます。
+1.  **Default name** of the data source: Your data source name will be displayed in the list of accounts in the previous dialog. By default, Analytics names it *REST API*. You can change it to your preference.
 
 
-2.  **[URL]**: サービスが配置されている URL。
+2.  **URL**: the URL where the service is located.
 
-3.  **[メソッド]**: ドロップダウンメニューから、希望のリクエスト タイプ (*GET*、*POST*、または *PUT*) を選択できます。
+3.  **Method**: from the dropdown menu, you can choose your preferred request type - *GET*, *POST* or *PUT*.
+    > [!NOTE] **Unsupported method**.
+    > If the REST service does not support your method (e.g., POST), you will receive an error message.
 
-    >[!NOTE]
-    >サポートされていないメソッド: メソッド (POST など) が REST サービスでサポートされていない場合、エラー メッセージが表示されます。
+4. **Result Type**: You can specify the file type you expect to be retrieved from the REST API. For example, if you choose *.csv* and the REST API responds with a *JSON*, Analytics will try to parse the file as a *.csv*.
 
-4. **[結果タイプ]**: REST API から取得する予定のファイル タイプを指定できます。たとえば、*.csv* を選択し、REST API が *json* で応答した場合、Analytics はファイルを *.csv* として解析しようとします。
+    If you choose *Auto Detect*, Analytics will use the information about the file (content) type, coming from the REST API to parse the file.  
 
-    [自動検出] を選択した場合、Analytics は REST API からのファイル (コンテンツ) タイプに関する情報を使用してファイルを解析します。
+5.  **Credentials**: after selecting *Credentials*, you will be able to
+    enter the credentials for your REST API or select existing ones if
+    applicable. You can also pick the *No Account* option.
 
-5.  **[資格情報]**: [資格情報] を選択した後、REST API の資格情報を入力するか、既存の資格情報 (適用可能な場合) を選択できます。**[アカウントなし]** オプションを選択することもできます。
+## Working with URL Parameters
 
-## URL パラメーターの使用
+Parameters are options you can pass in your URL to influence the
+response from the web service. You can provide path and query parameters
+in your URL when configuring the REST API data source.
 
-パラメーターは、Web サービスからの応答に影響を与えるために URL で渡すことができるオプションです。REST API データ ソースを構成するときに、URL にパスとクエリのパラメーターを指定できます。
+To use parameters effectively follow the procedure below:
 
-パラメーターを効果的に使用するには、以下の手順に従います。
+1.  **Provide parameters in the URL**. You must put path parameters in
+    *curly braces* and specify query parameters after a *question mark
+    (?)*. You can see in the example below both path, and query
+    parameters are color-coded in *blue* to make them more easily
+    identifiable.
 
-1.  **URL にパラメーターを指定します**。パス パラメーターは*波括弧*で囲み、*疑問符 (?)* の後にクエリ パラメーターを指定する必要があります。以下の例では、パス パラメーターとクエリ パラメーターの両方が*青*で色分けされ、識別しやすくなっています。
+    <img src="images/Parameters-URL-Rest-API.png" alt="Parameters-URL-Rest-API\_All" class="responsive-img"/>
 
-    <img src="images/Parameters-URL-Rest-API_All.png" alt="Parameters-URL-Rest-API" class="responsive-img"/>
+2.  **Add parameters' values**. In the following screen specify the
+    value of each parameter you have added in the URL.
 
-2.  **パラメーター値の追加**。次の画面で、URL に追加した各パラメーターの値を指定します。
+    <img src="images/Parameters-Values-Rest-API.png" alt="Parameters-Values-Rest-API\_All" class="responsive-img"/>
 
-    <img src="images/Parameters-Values-Rest-API_All.png" alt="Parameters-Values-Rest-API" class="responsive-img"/>
+    As a result, the REST API service will respond with the data on the
+    provided URL in a REST compliant format. Generally, you will receive
+    a JSON file:
 
-    その結果、REST API サービスは、提供された URL のデータを REST に準拠する形式で応答します。通常、JSON ファイルを受け取ります。
+    <img src="images/REST-API-Data-Format-Result.png" alt="REST-API-Data-Format-Result\_All" class="responsive-img"/>
 
-    <img src="images/REST-API-Data-Format-Result_All.png" alt="REST-API-Data-Format-Result" class="responsive-img"/>
+    For more information on how to work with a JSON file, please refer
+    to [this topic](~/docs/analytics/datasources/working-files/working-with-json-files.md).
 
-    JSON ファイルの使用方法の詳細については、[このトピック](~/jp/datasources/working-files/working-with-json-files.html)を参照してください。
+    After loading the data, you will continue to the Visualization Editor
+    screen.
+
+    >[!NOTE] **Unsupported File Formats**. 
+    >If the REST API responds with a file format, which is not supported by Analytics (e.g., XML), you will not be able to create visualizations with the data in this file.
+
+3.  **Change the parameters' values without losing your visualization data**. Changing the parameters' values after you have started building your visualization offers a variety of possibilities. For example, you can change the city code path parameter for your weather rest API and have a new dataset loaded for this new city. The information for the visualization you have already built will be automatically updated with the new data. 
+
+    To do this, click on the file icon in the upper-left corner of the *Visualizations Editor* screen.
     
-    データをロードした後、表示形式エディター画面に進みます。
-
->[!NOTE]
->サポートされていないファイル形式: REST API が Analytics でサポートされていないファイル形式 (XML など) で応答する場合、このファイルに含まれるデータを使用して表示形式を作成することはできません。
-
-3.  **表示形式のデータを失わずにパラメーターの値を変更します**。表示形式の構築を開始した後でパラメータの値を変更すると、さまざまな可能性が提供されます。たとえば、weather rest api の都市コード パス パラメータを変更して、この新しい都市の新しいデータセットをロードすることができます。すでに作成した表示形式の情報は、新しいデータで自動的に更新されます。
-
-    これを行うには、表示形式エディター画面のファイル名の横にあるオーバーフロー メニューをクリックしてから、**[編集]** をクリックします。
-
     <img src="images/REST-API-Change-Parameters-Values.png" alt="Rest API Parameters Values changing in the editor" class="responsive-img" />
 
-    開いた画面で、**[REST API パラメーター]** ボタンを*クリック/タップします*。
+    In the screen that opens, *click/tap* the *REST API Parameters* button.
 
     <img src="images/REST-API-Parameters-Button.png" alt="Rest API Parameters button available in editor" class="responsive-img" />
 
-    *ステップ 2* の画面にリダイレクトされます。ここで、パラメーターに新しい値を指定できます。
+    You will be redirected to the screen in *step 2* where you can provide new values to your parameters.
 
 > [!NOTE]
-> **データを失う警告**。
-パラメーターの値を変更すると、エディターで既に作成した表示形式が失われる可能性があります。この場合、[データの読み込み] ボタンをクリック/タップすると、警告メッセージが表示されます。続行する場合は、新しいデータセットがエディターに読み込まれ、表示形式の構築を最初から開始する必要があります。
+> **Losing Your Data Warning**
+Sometimes when you change the values of your parameters, there might be a chance to lose the visualization you already created in the Editor. In this case, а warning message will appear when you *click/tap* the *Load Data* button. If you choose to continue, you will have the new dataset loaded in the editor and you will have to start building your visualization from scratch. 
 
-## メソッドの選択
+## Choosing a Method
 
-REST API データ ソース構成のメソッドは、REST システムのリソースと対話するために使用されるリクエストを表します。リクエストは通常、次のもので構成されます。
+The *Method* in your REST API data source configuration represents a
+request used to interact with resources in a REST system. The request
+generally consists of:
 
-1.  リソースへのパス (**URL**)
+1.  A path to a resource (**URL**)
 
-2.  **HTTP 動詞**:
+2.  **HTTP verb**:
 
-      - *GET* - 特定のリソースを取得する
+      - *GET* - to retrieve a specific resource
 
-      - *POST* - 新しいリソースを作成する
+      - *POST* - to create a new resource
 
-      - *PUT* - 特定のリソースを更新する
+      - *PUT* - update a specific resource
 
-3.  **[ヘッダー]**: ヘッダーにより、クライアントはリクエストに関する情報を渡すことができます。
+3.  A **Header**: allows the client to pass along information about the
+    request
 
-4.  **[ボディ]**: データを含むオプションのメッセージ (*POST* および *PUT* メソッドを使用する場合)。
+4.  A **Body**: an optional message (when using *POST* and *PUT*
+    methods) containing data
 
-    <img src="images/Working-With-Methods_All.png" alt="Working With Methods" class="responsive-img"/>
+    <img src="images/Working-With-Methods.png" alt="Working With Methods" class="responsive-img"/>
 
-リクエストのヘッダーとボディの詳細については、[このリンク (英語)](https://developer.mozilla.org/en-US/docs/Web/HTTP/Messages#Headers) を参照してください。
+For more information about the Header and Body of a request, please
+refer to [this link](https://developer.mozilla.org/en-US/docs/Web/HTTP/Messages#Headers).

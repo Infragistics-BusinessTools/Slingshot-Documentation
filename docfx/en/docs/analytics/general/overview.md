@@ -1,43 +1,45 @@
-# 概要
+# Overview
 
-Analytics は、セルフ サービスのクロスプラットフォーム ビジネス インテリジェンス ツールで、カスタム プログラミングの必要なしにダッシュボード レポートを実行するためのパワーを手に入れます。Analytics を使用すると、ダッシュボードをすばやく作成および編集し、エンタープライズ データ ソースを簡単にクエリおよびフィルターを実行し、データ上に意味のある表示形式を構築し、作業を他の Analytics ユーザーと簡単に共有できます。
+Analytics is a self-service, cross-platform business intelligence tool that puts the power in your hands to do dashboard reporting - all without the
+need for custom programming. With Analytics you can quickly create and edit dashboards, easily query and filter enterprise data sources, build meaningful visualization over data and effortlessly share your work with other Analytics users.
 
-## 一般的なナビゲーション
+## General Navigation
 
-最初に Analytics を開くと、次の画面が表示されます。
+When you first open Analytics, you will be greeted by the following screen:
 
 <img src="images/reveal-initial-view.png" alt="Analytics start screen view" class="responsive-img"/>
 
-以下は、Analytics の最初の画面のメニューと、そこでできることです。
+Below you will find the menus on the initial Analytics screen and what you are able to do there.
 
-1.  **[アイテム/ワークスペース]** - このポップオーバー メニューでは、個人用スペースとメンバーになっているワークスペースにアクセスできます。新しいワークスペースを作成、あるいは既存のワークスペースに参加することもできます。
+1.  **My Stuff/Workspaces** - In this popover menu, you can access your personal space and any workspace you are a member of. You can also create new workspaces or join existing ones. 
 
 > [!NOTE]
-> *[アイテム]*と各ワークスペースの両方の左側のバーで、利用可能な *[ダッシュボード]*、*[お気に入り]*、*[最近]* があることに注意してください。その内容 (ダッシュボード) は、あなたとあなたのワークスペースごとに異なります。それでも、たとえば、2 つ以上のワークスペース間で同じダッシュボードを共有し、ワークスペースから [アイテム] に、またはその逆にダッシュボードをコピーできます。
+> Note that you have *Dashboards*, *Favorites* and *Recent* available in the left bar of both *My Stuff*, and each of your workspaces. Their contents (dashboards) will be different for you and for each of your workspaces. Still, you can have the same dashboard shared between two or more workspaces, for example, or copy a dashboard from a workspace to *My Stuff*, and vice versa.
 
 
-1.  **ダッシュボード** - すべてのダッシュボードの中央のスペースです。必要なダッシュボードを作成、修正、または検索する場合は、ここから始めてください。[アイテム] メニューからこのスペースにアクセスすると、自分で作成した、または共有しているすべてのダッシュボードが表示されます。ワークスペース内のこのスペースにアクセスすると、他のワークスペース メンバーによって作成された、またはワークスペースと共有されているダッシュボードを ([ワークスペースでのロールの権限](~/jp/workspaces/overview.html#members-roles-permissions)に応じて) 表示および/または編集できます。
+1.  **Dashboards** - This is the central space for all dashboards. Start from here when you want to create, revise, or just find a dashboard you need. When accessing this space from the _My Stuff_ menu, you will find all dashboards created by you or shared with you. If you access this space in a workspace, dashboards created by other workspace members, or shared with your workspace are available for you to view and/or edit (depending on your [role permissions in the workspace](~/docs/analytics/workspaces/overview.html#members-roles-permissions)).
 
-  ダッシュボードのコンテンツを開くには、クリックまたはタップするだけです。ダッシュボードの右上隅にあるオーバーフロー ボタンを選択して、編集、共有、削除などの**高度なダッシュボード アクションにアクセスします**。
+  To open the content of a dashboard, you just need to click/tap on it. Select the overflow button in the top right-hand corner of a dashboard to **access advance dashboard actions** such as editing, sharing or deleting.
 
-2.  **[お気に入り]** - *[お気に入り]* モジュールでは、最も重要なダッシュボードが常に手元にあります。
+3.  **Favorites** - Your most important dashboards are always close at hand in the *Favorites* module.
 
-3.  **[最近]** - *[最近]* のモジュールでは、表示または編集したダッシュボードが、最近使用した順に並べ替えられています。
+4.  **Recent** - In the *Recent* module you will find the dashboards you have viewed or edited, sorted by the most recently used.
 
-4.  **ダッシュボードのサンプル** - [サンプル] モジュールには、Analytics のワークスペースによって構成されたダッシュボードがあります。豊富な種類の表示形式により、創造性が刺激され、独自の美しいダッシュボードを作成できます。
+5.  **Dashboard samples** - In the *Samples* module you will find dashboards composed by the Analytics's workspace. Their rich variety of visualizations will inspire your creativity and help you create your own beautiful dashboards. 
 
-5. **+ 新規分割ボタン** - *[+ ダッシュボード]* 分割ボタンを選択すると、新しいダッシュボードの作成を開始できます。
+6.  **+ Dashboard split button** - You can start creating a new dashboard by selecting the *+ Dashboard* split button.
 
-  同じボタンの矢印をクリック/タップすると、2 つのオプションを提供するドロップダウン メニューが開きます。
+  Clicking/tapping the arrow of the same button opens a dropdown menu providing two options:
 
-  - Analytics ダッシュボード (.rdash ファイル) を*アップロードします*。
+  - *Upload* a Analytics dashboard (an .rdash file).
 
-  - 個人用スペースまたは現在参加しているワークスペースに新しい*フォルダー*を作成します。
+  - Create a new *Folder* in your personal space or in the workspace you are currently in.
         
-6.  **ダッシュボード フィルター** - ドロップダウン メニューから、ダッシュボード モジュールに表示するダッシュボードを選択します: すべてのダッシュボード、自分で作成したダッシュボード、あるいは共有しているダッシュボードです。
+7.  **Dashboards filter** - choose from the dropdown menu which dashboards to see in the dashboard module: all, only created by you
+or shared with you.
 
-7.  **通知センター** - ワークスペースまたはダッシュボードの更新を表示するには、ベルのアイコンを選択します。
+8.  **Notifications center** - Select the the bell icon to view any workspace or dashboard updates.
 
-8.  **プロファイル設定** - イニシャル (写真) のアイコンを選択して、Analytics *の一般設定*、*学習のヒン*ト、*ヘルプ センター*にアクセスし、アプリケーションに関する*フィードバック*や質問をします。
+9.  **Profile settings** - Select the icon with your initial (photo) to access Analytics's *general settings*, *learning tips*, *Help center* and *give feedback* or ask any questions related to the application.
 
 

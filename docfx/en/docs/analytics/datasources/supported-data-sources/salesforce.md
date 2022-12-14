@@ -1,59 +1,58 @@
 ---
-title: Salesforce データ ソースの設定方法と使用方法
-_description: Slingshot で Salesforce をデータ ソースとして設定および使用する方法。
-_language: ja
+title: How to set up and use Salesforce Data Source
+_description: Setting up and using Salesforce as a data source in Slingshot.
 ---
 
 # Salesforce
 
-Salesforce データ ソースを選択すると、以下のログイン プロンプトが表示されます。
+Upon selecting the Salesforce data source, you will see the following login prompt:
 
 <img src="../images/salesforce-login.png" alt="Salesforce login prompt" class="responsive-img" width="50%"/>
 
+Enter your login credentials and click on **Log In**.
 
-ログイン情報を入力して [ログイン] をクリックします。
+>[!NOTE] If you have Identity Confirmation activations enabled, you will see a
+prompt to enter the **verification code** sent to you. For more
+information on Identity Confirmation Activations, visit the [Salesforce help](https://help.salesforce.com/articleView?id=security_activation_about.htm&type=5).
 
->[!NOTE] 
-> ID 認証が有効な場合は、送信された**確認コード**を入力するプロンプトが表示されます。ID 認証についての情報は、[Salesforce ヘルプ](https://help.salesforce.com/articleView?id=security_activation_about.htm&type=5)をご覧ください。
+## Setting Up Your Data
 
-## データの設定
-
-ログイン後、次のダイアログで Salesforce データを設定できます。
+After logging in, you can set up your Salesforce data in the following
+dialog:
 
 <img src="../images/salesforce-data-source-details-popular-objects.png" alt="Set up your data dialog" class="responsive-img" width="50%"/>
 
+Here you can choose from:
 
-Slingshot で Salesforce をデータ ソースとして設定および使用する方法。
+  - **Reports** - this category displays all the reports that come from your Salesforce account. 
 
-  - **[レポート]** - このカテゴリには、Salesforce アカウントからのすべてのレポートが表示されます。
+  - **Popular Objects** - this category allows quick selection between the
+    seven most used objects among our users.
 
-  - **[人気のあるオブジェクト]** - このカテゴリでは、ユーザーが最もよく使用する 7 つのオブジェクトをすばやく選択できます。
+  - **All Objects** - this category displays the full list of objects
+    contained in your Salesforce account.  You can use the provided search to find quickly the object you need.
 
-  - **[すべてのオブジェクト]** - このカテゴリには、Salesforce アカウントに含まれるオブジェクトの完全なリストが表示されます。提供されている検索を使用して、必要なオブジェクトをすばやく見つけることができます。
+## Using Reports
 
-## レポートの使用
-
-表示形式エディターで使用するレポートを選択した後、パラメーターの値を設定する必要があります:
+After selecting which report you want to use in the visualization editor, you need to set the values for the parameters:
 
 <img src="../images/salesforce-values-for-parameters-filters.png" alt="A dialog showing filters from Salesforce to be configured" class="responsive-img" width="50%"/>
 
+The parameters you see in the list (**Show me**, **Probability**, etc.) are the filters for your report. Report filters are criteria set to control the data a user sees in their report. In Analytics, the filtered data will be used in your charts in the *Visualization editor*.
 
-リストに表示されるパラメーター (**Show me**、**Probability** など) は、レポートのフィルターです。レポート フィルターは、ユーザーがレポートに表示するデータを制御するために設定された条件です。Analytics では、フィルタリングされたデータは、**表示形式エディター**のチャートで使用されます。
+In the dialog above, filters are preconfigured with the default values from Salesforce. Use the dropdown menu next to each filter to change these values.
 
-上のダイアログでは、フィルターは Salesforce のデフォルト値で事前設定されています。これらの値を変更するには、各フィルターの横にあるドロップダウン メニューを使用します。
-
-その後、データ ソースを **[編集]** を選択することで、表示形式エディターでレポート フィルターの値を変更できます (以下を参照)。
+You can change the report filters' values later in the *Visualization editor* by choosing to **Edit** your data source (as shown below):
 
 <img src="./images/salesforce-edit-option.png" alt="Edit your data source in the Visualization editor" class="responsive-img" width="80%"/>
 
-## 表示形式エディターでの作業
+## Working in the Visualization editor 
 
-データ ソースを追加した後、**表示形式エディター**が表示されます。ここでダッシュボードを作成できます。選択した表示形式に基づいて、さまざまなタイプのフィールドが表示されることに注意してください。
+Once your data source has been added, you will be taken to the *Visualizations Editor*. Here you can build your dashboard.Note that based on the vusialization that you have chosen, you will see different types of fields.
 
 <img src="./images/salesforce-visualization-editor.png" alt="Working in the visualization editor while using the information from a salesforce account" class="responsive-img" width="80%"/>
 
-
-表示形式の準備ができたら、右上隅のチェックマークをクリックまたはタップして、ダッシュボードとして保存できます。以下の例では、ダッシュボードを **[分析]** > **[ダッシュボード]** > **Accounting** に保存しました。
+When you are ready with your visualization, you can click/tap on the checkmark in the top right corner to save it as a dashboard. In this case we saved the dashboard in **My Analytics** > **My Dashboards** > **Accounting**.
 
 <img src="./images/salesforce-my-analytics.png" alt="A salesforce dashboard in the My Analytics section" class="responsive-img" width="80%"/>
 

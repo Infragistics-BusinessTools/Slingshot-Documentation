@@ -1,5 +1,5 @@
-# **リリース ノート**
+# **Release Notes**
 
-- [Java リリース ノート](https://github.com/AnalyticsBi/sdk-samples-java/blob/main/CHANGELOG.md)
-- [WPF リリース ノート](https://help.revealbi.io/jp/wpf/release-notes.html)
-- [ASP.Net リリース ノート](https://help.revealbi.io/jp/web/release-notes.html)
+- [Java Release Notes](https://github.com/AnalyticsBi/sdk-samples-java/blob/main/CHANGELOG.md) 
+- [WPF Release Notes](https://help.revealbi.io/en/wpf/release-notes.html)
+- [ASP.Net Release Notes](https://help.revealbi.io/en/web/release-notes.html) 

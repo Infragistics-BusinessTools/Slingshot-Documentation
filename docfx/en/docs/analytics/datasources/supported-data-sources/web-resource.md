@@ -1,33 +1,39 @@
 ---
-title: Slingshot でウェブ リソースをデータ ソースとして使用する方法
-_description: ウェブ上の任意の仮想ファイルを Slingshot のデータ ソースとして使用して作業を進める方法を学びます。
-_language: ja
+title: How to use Web Resource as a data source in Slingshot 
+_description: Learn how to use any virtual file in the web as a data source in Slingshot to advance your work.
 ---
 
-# ウェブ リソース
+# Web Resource
 
-ウェブ リソースは、ウェブの任意の仮想ファイルで一意の URL アドレスを使用して取得できます。たとえば、Excel スプレッドシート ([サンプル](https://download.infragistics.com/slingshot/samples/Slingshot_Dashboard_Tutorials.xlsx)など) または画像 ([サンプル](http://www.infragistics.com/media/442175/home-header-shots.png)など) です。
+A web resource, as the name suggests, is any virtual file stored in the
+web which you can retrieve by using a unique URL address. It might, for
+example, be an excel spreadsheet (for example, [this one](https://download.infragistics.com/slingshot/samples/Slingshot_Dashboard_Tutorials.xlsx)),
+or an image (for example, [this one](http://www.infragistics.com/media/442175/home-header-shots.png)).
 
-ウェブ リソース データ ソースを構成するには、以下の情報が必要です。
+To configure a Web Resource as a Data Source, you will need to enter the
+following information:
 
 <img src="images/web-resource.png" alt="Configure Web resource connection" class="responsive-img" width="50%"/>
 
-1.  **[URL]**: サービスの URL (ダッシュボード チュートリアルの場合は <https://download.infragistics.com/slingshot/samples/Slingshot_Dashboard_Tutorials.xlsx> など)。
+1.  **URL**: the URL where the service is located (for example,
+    <https://download.infragistics.com/slingshot/samples/Slingshot_Dashboard_Tutorials.xlsx>
+    for the Dashboard tutorials).
 
-2. **[結果タイプ]**: サービスから取得する予定のファイル タイプを指定できます。たとえば、*.csv* を選択し、サービス が *json* で応答した場合、Analytics はファイルを *.csv* として解析しようとします。
+3. **Result Type**: You can specify the file type you expect to be retrieved from the service. For example, if you choose *.csv* and the service responds with a *json*, Analytics will try to parse the file as a *.csv*.
 
-    [自動検出] を選択した場合、Analytics は サービス からのファイル (コンテンツ) タイプに関する情報を使用してファイルを解析します。
+    If you choose *Auto Detect*, Analytics will use the information about the file (content) type, coming from the service to parse the file.  
 
-3.  **資格情報**: ドロップダウン メニューをクリックして、**[+ 資格情報]** を選択できます。その後、次のように入力できます:
+4.  **Credentials**: You can click on the drop-down menu and select **+Credential**. After that you can enter the following:
 
-      - **[資格情報の種類]**: 2 つのオプション - **[汎用資格情報]** または **[OAuth 2 / OIDC 資格情報]**。
+      - **Credential Type**: two options - **Generic Credentials** or **OAuth 2 / OIDC**.
 
-      - **ユーザー名またはドメイン**: ウェブ リソースのユーザー アカウントまたはドメインの名前。
+      - **Username or domain**: the user account for the Web Resource or the name of the domain.
 
-      - **[パスワード]**: ウェブ リソースにアクセスするためのパスワード。
+      - **Password**: the password to access the Web Resource.
 
-  資格情報に変更を加える場合は、ドロップダウン メニューから **[資格情報の管理]** を選択できます。
+  If you want to make some changes to your credentials, you can select **Manage Credentials** from the drop-down menu.
 
-準備ができたら、**[ロードして続行]** を選択します。
+Once ready, select **Load and Continue**.
 
-保護されたウェブ リソースの **OAuth 2 / OIDC アカウント**を設定するには、[このトピック](~/jp/datasources/oauth-2-oidc-user-authentication.html)をお読みください。
+To set up an *OAuth 2 / OIDC account* for a protected web resource,
+please read [this topic](~/docs/analytics/datasources/auth-2-oidc-user-authentication.md).

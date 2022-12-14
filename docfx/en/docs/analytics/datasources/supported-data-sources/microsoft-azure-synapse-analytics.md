@@ -1,75 +1,92 @@
 ---
-title: Microsoft Azure Synapse をデータ ソースとして使用する方法
-_description: Slingshot で Microsoft Azure Synapse データ ソースを構成して使用する方法を説明します。
-_language: ja
+title: How to use Microsoft Azure Synapse as Your Data Source
+_description: Steps to configure and use an Azure Synapse Analytics data source in Slingshot.
 ---
 
 # Microsoft Azure Synapse Analytics
 
-Microsoft Azure Synapse データ ソースは、Analytics 内でビッグ データを処理する際の速度を大幅に向上させます。これにより、大量のデータセットを速度低下することなく表示形式に使用できます。
+The Microsoft Azure Synapse data source provides a significant speed
+increase when processing big data within Analytics. This allows you to use
+massive datasets for your visualizations with no slow down.
 
-## Azure Synapse Analytics データ ソースの設定
+## Configuring an Azure Synapse Analytics Data Source
 
-Microsoft Azure Synapse Analytics データ ソースを設定するには、以下の情報が必要です。
+To configure a Microsoft Azure Synapse Analytics data source, you will
+need to enter the following information:
 
 <img src="../images/microsoft-azure-synapse-analytics-configuration.png" alt="Configuring azure synapse data source dialog" class="responsive-img" width="55%"/>
 
-1. **[サーバー]**: コンピューター名またはサーバーを実行しているコンピューターに割り当てられた IP アドレス。
+1.  **Server**: the computer name or IP address assigned to the computer
+    on which the server is running.
 
-2.  **[ポート]**: 該当する場合、サーバー ポートの詳細。情報が入力されない場合、Analytics はデフォルトでヒント テキスト (1433) のポートに接続します。
+2.  **Port**: if applicable, the server port details. If no information
+    is entered, Analytics will connect to the port in the hint text (1433)
+    by default.
 
-3.  **[資格情報]**: [資格情報] を選択した後、Microsoft Azure Synapse Analytics の資格情報を入力するか、既存の資格情報 (適用可能な場合) を選択できます。
+3.  **Credentials**: after selecting Credentials, you will be able to
+    enter the credentials for your Microsoft Azure Synapse Analytics or
+    select existing one if applicable.
 
-4.  **[データベース]**: アカウントに接続すると、データベースを選択できるようになります。準備ができたら、**[選択して続行]** をクリックまたはタップします。
+4.  **Database**: Once you have connected to your account, you will get your databases to choose from. When you are ready, click/tap on **Select and Continue**.
 
-## サーバー情報を見つける方法
+## How to find your Server Information
 
-以下の手順でサーバーを確認できます。
+You can find your server by following the steps below. Please note that
+the commands should be executed on the server.
 
 
 | WINDOWS                                                                                                         | LINUX                                                                                                         | MAC                                                                  |
 | --------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------- |
-| 1\. ファイル エクスプローラーを開きます。                                                                                     | 1\. ターミナルを開きます。                                                                                          | 1\. システム環境設定を開きます。                                         |
-| 2\. [マイ コンピューター] → [プロパティ] を右クリックします。                                                                   | 2\. **$hostname** を入力します。                                                                                     | 2\. 共有セクションに移動します。                                 |
-| ホスト名は、[コンピューター名、ドメインおよびワークグループの設定] セクションの下に [コンピューター名] として表示されます。 | [ホスト名] と [DNS ドメイン名] が表示されます。Analytics には**ホスト名**のみを含めるようにしてください。| [ホスト名] は、上部の [コンピューター名] の下に表示されます。|
+| 1\. Open the File Explorer.                                                                                     | 1\. Open a Terminal.                                                                                          | 1\. Open System Preferences.                                         |
+| 2\. Right Click on My Computer \> Properties.                                                                   | 2\. Type in **$hostname**                                                                                     | 2\. Navigate to the Sharing Section.                                 |
+| Your Hostname will appear as "Computer Name" under the *Computer name, domain and workgroups settings* section. | Your Hostname will appear along with your DNS domain name. Make sure you only include **Hostname** in Analytics. | Your Hostname will be listed under the "Computer Name" field on top. |
 
-以下の手順で *IP アドレス*も確認できます。コマンドはサーバーで実行する必要があることに注意してください。
+You can find your *IP address* by following the steps below. Please note
+that the commands should be executed on the server.
 
 | WINDOWS                              | LINUX                             | MAC                                                           |
 | ------------------------------------ | --------------------------------- | ------------------------------------------------------------- |
-| 1\. コマンド プロンプトを開きます。           | 1\. ターミナルを開きます。              | 1\. ネットワーク アプリケーションを起動します。                                  |
-| 2\. **ipconfig** を入力します。             | 2\. **$/bin/ifconfig** を入力します。   | 2\. 接続を選択します。                                   |
-| **IPv4 Address** は IP アドレスです。 | **Inet addr** は IP アドレスです。 | **IP アドレス** フィールドに必要な情報が含まれます。 |
+| 1\. Open a Command Prompt.           | 1\. Open a Terminal.              | 1\. Launch your Network app.                                  |
+| 2\. Type in **ipconfig**             | 2\. Type in **$ /bin/ifconfig**   | 2\. Select your connection.                                   |
+| **IPv4 Address** is your IP address. | **Inet addr** is your IP address. | The **IP Address** field will have the necessary information. |
 
-## データの設定
+## Setting Up Your Data 
 
-MS Azure Synapse Analytics でデータベースに接続すると、テーブル全体、特定のビュー、またはストアド プロシージャーからデータを取得することを選択できます。
+Once you connect to a database in MS Azure Synapse Analytics, you can
+choose to retrieve data from an entire table, a particular view or stored procedure.
 
 <img src="./images/data-source-details-microsoft-azure-synapse-analytics.png" alt="A data source details dialog" class="responsive-img" width="55%"/>
 
-Azure Synapse Analytics を使用してテーブル、ビュー、およびストアド プロシージャーを操作することは、MS SQL Server のデータを操作することによく似ています。詳細については、**MS SQL Server データ ソース** トピックの[このセクション](www.slingshotapp.io/en/help/docs/analytics/datasources/supported-data-sources/microsoft-sql-server#setting-up-your-data)を参照してください。
+Working with tables, views and stored procedures when using Azure Synapse Analytics closely resembles
+working with data from MS SQL Server. For more information,
+please refer to [this section](https://wp-staging.slingshotapp.io/en/help/docs/analytics/datasources/supported-data-sources/microsoft-sql-server#setting-up-your-data)
+of the **MS SQL Server data source** topic.
 
-## 表示形式エディターでの作業
+## Working in the Visualization editor
 
-データ ソースを追加した後、表示形式エディターが表示されます。ここでダッシュボードを作成できます。
+Once your data source has been added, you will be taken to the *Visualizations Editor*. Here you can build your dashboard. 
 
-**柱状**表示形式がデフォルトで選択されることに注意してください。それをクリックまたはタップして、別のチャート タイプを選択できます。
+Keep in mind tha the *Column* visualization will be selected by default. You can click/tap on it in order to choose another chart type.
 
 <img src="./images/microsoft-azure-synapse-analytics-visualization-editor.png" alt="Using data from microsoft azure synapse analytics account in the visualization editor" class="responsive-img" width="85%"/>
 
-## 表示形式エディターでの制限事項
+## Limitations in the Visualization Editor
 
-Analytics でビッグ データを操作する場合、数百万のレコードを格納するデータ ソースを処理するために使用される特定のアプローチにより、**表示形式エディター**にはいくつかの制限があります。
+When working with big data in Analytics, there are a couple of limitations
+in the *Visualization Editor* due to the specific approach used to handle
+data sources storing millions of records.
 
-### 計算フィールドで使用できる関数の制限
+### Limitations in Functions Available for Calculated Fields
 
-現在、Azure Synapse Analytics のデータを使用する**計算フィールド**で、使用できる**関数**の数は限られています。
+Currently, only a limited number of **functions** are available for
+*Calculated Fields* using data from Azure Synapse Analytics:
 
-- [Date](https://www.slingshotapp.io/en/help/docs/analytics/data-visualizations/fields/calculated-fields/date) - day; month; year; quarter; monthname; applytimezone; currenttimezone。
-- [論理](~/jp/data-visualizations/fields/calculated-fields/logic.html) - false; true; if; not。
-- [数学](~/jp/data-visualizations/fields/calculated-fields/math.html) - abs; log; log10; sign; sqrt。
-- [文字列](~/jp/data-visualizations/fields/calculated-fields/string.html) - find; len; trim; lower; mid; upper。
+- [Date](https://www.slingshotapp.io/en/help/docs/analytics/data-visualizations/fields/calculated-fields/date) - day; month; year; quarter;monthname; applytimezone; currenttimezone.
 
-### データ ブレンディングの制限
+- [Logic](~/docs/analytics/data-visualizations/fields/calculated-fields/logic.md) - false; true; if; not.
+- [Math](~/docs/analytics/data-visualizations/fields/calculated-fields/math.md) - abs; log; log10; sign; sqrt.
+- [Strings](~/docs/analytics/data-visualizations/fields/calculated-fields/string.md) - find; len; trim; lower; mid; upper.
 
-現在、Azure Synapse Analytics データ ソースからのデータを使用する場合、データ ブレンディング ([データ ソースを 1 つの表示形式に統合](~/jp/datasources/data-blending.md)) は**使用できません**。
+### Limitations in Data Blending
+
+Currently, Data Blending ([combining data sources in one visualization](~/docs/analytics/datasources/data-blending.md)) is **not available** when using data from the Azure Synapse Analytics data source.

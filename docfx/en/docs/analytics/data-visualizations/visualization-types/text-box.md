@@ -1,55 +1,66 @@
-# テキスト ボックス
+# Text Box Visualization
 
-テキスト ボックスの表示形式は、その名前が示すように、テキスト本文とオプションのタイトルで構成されます。データ ソースに接続されていません。テキスト ボックスを使用する一般的なシナリオは、レポートにテキストの概要を追加することです。
+Text box visualizations, as their name suggests, consist of a text body
+and an optional title. They are not connected to a data source. A common
+scenario for using a Text box is adding a text summary to your report.
 
 <img src="images/text-box-summary-example.png" alt="An example of a summary text box added to a dashboard" class="responsive-img"/>
 
-## ダッシュボードにテキスト ボックスを追加
+## Adding a Text Box to Your Dashboard
 
-テキスト ボックスを既存のダッシュボードに追加する方法:
+To add a Text box to an existing dashboard:
 
-1.  ダッシュボードを**編集モード**で開きます。
+1.  Open the dashboard in *Edit mode*.
 
-2.  [+ 追加] の分割ボタンの右にある矢印をクリック/タップして ⇒ [テキスト ボックス] をクリック/タップします。
+2.  Click/Tap the arrow on the right of the *+ Visualization* split
+    button ⇒ *Text Box*.
 
 <img src="images/add-textbox-existing-dashboard.png" alt="Adding a text box in dashboard edit mode" class="responsive-img"/>
 
-テキスト ボックス表示形式を既存のダッシュボードに追加すると、**ダッシュボードの下部**に表示されます。
+When adding a Text box visualization to an existing dashboard, it
+appears **at the bottom of your dashboard**.
 
-## ダッシュボードで最初の表示形式としてテキスト ボックスを作成する方法
+## Creating a Text Box as a First Visualization in a Dashboard
 
-概要または簡単な紹介を表示するテキスト ボックス表示形式を作成してダッシュボードを開始することもできます。テキスト ボックスの作成メニューにアクセスするには、以下の手順を実行します。
+Sometimes you may want to start your dashboard by creating a Text Box
+visualization showing a summary or brief introduction. To access the
+Text Box creation menu, follow the steps below:
 
-1.  Analytics の初期画面の右上にある [+ ダッシュボード] の分割ボタンをクリック/タップします。
+1.  Click/Tap the *+ New* button in the top right corner of
+    Analytics's initial screen.
 
-2.  **[新しい表示形式]** ダイアログが開き、データ ソースを選択するように求められます。
+2.  The *New Visualization* dialog opens and prompts you to select a
+    data source:
 
     <img src="images/new-visualization-dialog.png" alt="New visualization dialog" class="responsive-img"/>
 
-    X をクリック/タップしてダイアログを閉じます。
+    Click/Tap the *X* to close the dialog.
 
-3.  [+ 追加] の分割ボタンにある**矢印**をクリック/タップして ⇒ **[テキスト ボックス]** をクリック/タップします。
+3.  Click/Tap the *arrow* of the *+ Visualization* split button ⇒ *Text
+    Box*:
 
     <img src="images/add-text-box-menu.png" alt="Accessing text box creation in the New Dashboard screen" class="responsive-img"/>
 
-## テキスト ボックス表示形式の作業
+## Working With the Text Box Visualization
 
-新しいテキスト ボックス表示形式を追加すると、以下の空のフォームが表示されます。
+After choosing to add a new Text box visualization, the following empty
+form appears:
 
 <img src="images/text-box-empty-form.png" alt="New text box dialog showing an empty text box form" class="responsive-img"/>
 
-このダイアログでは:
+In this dialog:
 
-  - **小**、**中**、**大**のテキスト サイズを選択できます。
+  - choose between *Small*, *Medium* and *Large* *Text Size*;
 
-  - テキストの配置 (**テキストサイズ** の隣) を選択できます。
-  
-  - **(オプション)** のタイトルを追加できます。
-  
-  - テキスト本文 (**テキストの入力** ボックス) に独自のテキストを記述できます。
+  - select the alignment of the text (next to *Text Size*).
+
+  - *(optional)* add a *Title*;
+
+  - write your own text in the text body (the *Enter text* box);
+
 
 >[!NOTE]
->**書式の制限**
->本文の*テキスト サイズ*と配置のみ選択できます。タイトルがある場合、タイトルはデフォルトのサイズと左揃えになります。
+>**Formatting Restrictions**
+>You can choose *Text Size* and alignment only for your body text. If you have a title, it will keep its default size and left alignment.
 
-**ティック アイコン**をクリックしてテキスト ボックスを保存します。
+Click/Tap the *tick icon* to save your text box.

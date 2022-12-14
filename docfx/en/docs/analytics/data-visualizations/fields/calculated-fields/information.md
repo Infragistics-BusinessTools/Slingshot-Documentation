@@ -1,14 +1,14 @@
 ---
-title: Slingshot で情報計算フィールドを使用する方法 
-_description: 情報計算フィールドで選択したフィールドの値を使用してテストする方法を説明します。
-_language: ja
+title: How to Use Information Calculated Fields in Slingshot 
+_description: Learn how to utilize and test the value of a selected field through Information Calculated Fields.
 ---
 
-# 情報計算フィールド
+# Information Calculated Fields
 
-情報計算フィールドは、指定したフィールドの値のテストに使用します。サイズの大きいスプレッドシートの場合、2 回目の計算を実行する前に作業する情報のタイプを確認できるため、大変便利です。
+Information calculated fields are meant to be used to test the value of
+a selected field. They are particularly useful with large spreadsheets because you can check what type of information you are working with before performing a second calculation.
 
-以下は情報カテゴリに含まれる関数です。
+The functions included in the information category are:
 
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;}
@@ -19,37 +19,39 @@ _language: ja
 </style>
 <table class="tg">
   <tr>
-    <th class="tg-cly1"><span style="font-weight:bold">関数名</span></th>
-    <th class="tg-cly1"><span style="font-weight:bold">構文とサンプル</span></th>
+    <th class="tg-cly1"><span style="font-weight:bold">Function Name</span></th>
+    <th class="tg-cly1"><span style="font-weight:bold">Syntax and Sample</span></th>
   </tr>
   <tr>
-    <td class="tg-cly1" rowspan="2"><span style="font-weight:bold">empty</span>: <span class="gray-snippet-cstm">empty</span> は、空のセルを含む列を挿入するために使用できます。構成する引数はありません。</td>
-    <td class="tg-cly1"><span style="font-weight:bold">構文</span>:  <span class="gray-snippet-cstm">empty()</span></td>
+    <td class="tg-cly1" rowspan="2"><span style="font-weight:bold">empty</span>: <span class="gray-snippet-cstm">empty</span> can be used to insert a column with empty cells. There are no arguments to configure.</td>
+    <td class="tg-cly1"><span style="font-weight:bold">Syntax</span>:  <span class="gray-snippet-cstm">empty()</span></td>
   </tr>
   <tr>
-    <td class="tg-cly1"><span style="font-weight:bold">サンプル</span>:  <span class="gray-snippet-cstm">empty()</span></td>
+    <td class="tg-cly1"><span style="font-weight:bold">Sample</span>:  <span class="gray-snippet-cstm">empty()</span></td>
   </tr>
   <tr>
-    <td class="tg-cly1" rowspan="2"><a href="https://help.revealbi.io/jp/information-calculated-fields#calculated-isempty"><span style="font-weight:bold">isempty</span></a>: <span class="gray-snippet-cstm">isempty</span>は指定した<span class="gray-snippet-cstm">`式`</span>を評価して<span style="font-weight:bold">データ ソースの各行の値が空かどうかをチェックします</span>。</td>
-    <td class="tg-cly1"><span style="font-weight:bold">構文</span>:  <span class="gray-snippet-cstm">isempty({value})</span></td>
+    <td class="tg-cly1" rowspan="2"><a href="https://www.revealbi.io/help/information-calculated-fields#calculated-isempty"><span style="font-weight:bold">isempty</span></a>: <span class="gray-snippet-cstm">isempty</span> evaluates the specified <span class="gray-snippet-cstm">expression</span>, and <span style="font-weight:bold">checks if any row in your data source has empty values</span>.</td>
+    <td class="tg-cly1"><span style="font-weight:bold">Syntax</span>:  <span class="gray-snippet-cstm">isempty({value})</span></td>
   </tr>
   <tr>
-    <td class="tg-cly1"><span style="font-weight:bold">サンプル</span>:  <span class="gray-snippet-cstm">isempty([ResignedDate])</span></td>
+    <td class="tg-cly1"><span style="font-weight:bold">Sample</span>:  <span class="gray-snippet-cstm">isempty([ResignedDate])</span></td>
   </tr>
 </table>
 
 <a name='isempty'></a>
 ## isempty
 
-empty とは異なり、isempty は選択したフィールドおよびデータ シートの各行を確認します。行に値がない場合、出力は 1 です。値がある場合、0 が出力されます。
+Unlike empty, isempty will check the field you select and check every
+row in your datasheet. If there are no values in a row, the output will
+be 1; if there are values, you will see 0.
 
 ### Sample
 
-| 関数名 | 構文             | サンプル                    |
+| Function Name | Syntax             | Sample                    |
 | ------------- | ------------------ | ------------------------- |
 | isempty       | `isempty({value})` | `isempty([ResignedDate])` |
 
-`HR Dataset 2016.xlsx` スプレッドシートの 4 行について確認します。
+Let's look at four lines in the `HR Dataset 2016.xlsx` spreadsheet.
 
 | EmployeeID | FullName          | …​ | Resigned Date   | …​ | Calculated Field |
 | ---------- | ----------------- | -- | --------------- | -- | ---------------- |

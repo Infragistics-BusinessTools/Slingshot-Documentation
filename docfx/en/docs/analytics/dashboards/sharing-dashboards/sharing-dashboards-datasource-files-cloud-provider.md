@@ -1,27 +1,37 @@
 ---
-title: ダッシュボードをクラウド ファイルと共有する方法
-_description: クラウド プロバイダー上のダッシュボードを他のユーザーと共有、およびアクセスを許可する方法を説明します。
-_language: ja
+title: How to Share Dashboards with Cloud Files
+_description: A guide on sharing and granting access to other users to dashboards on a cloud provider.
 ---
 
-# クラウド ファイルをデータ ソースとするダッシュボードを共有する
+# Sharing Dashboards with Cloud Files as a Data Source
 
-ダッシュボードを他の Analytics ユーザーと共有する場合は、ダッシュボードで表示形式を作成するために使用したデータ ソースを考慮する必要があります。データ ソースがクラウド プロバイダーにアップロードされたファイルである場合、ダッシュボードを共有するユーザーは、ファイルへのアクセスを許可しない限り、ダッシュボードを開くことができない場合があります。
+When you share dashboards with other Analytics users, you need to take into
+account the data sources you used to build the visualizations in the
+dashboard. If your data source is a file uploaded on a cloud provider,
+users you share your dashboard with may not be able to open it unless
+you grant them access to the file.
 
-クラウド プロバイダーのデータ ソース ファイルへのアクセスを許可すると、このファイルへの**共有可能なリンク**が作成されます。このファイルをデータ ソースとして使用するダッシュボードは、他のユーザーと共有すると正しく表示されます。リンク自体は、Analytics ユーザーと共有されませんが、暗号化されてサーバーに保存されます。
+When you choose to allow access to a data source file on a cloud
+provider, a **shareable link** to this file is created. Dashboards that
+use this file as a data source will be properly viewed when shared with
+other users. The link itself will not be shared with Analytics users but is
+stored encrypted on our servers.
 
-次の場合に共有可能なリンクを作成できます:
+You can create a shareable link when:
 
-  - [クラウド プロバイダーにアップロードされたファイル](#cloud-data-source-file) を表示形式のデータ ソースとして選択する場合。
+  - [choosing a file uploaded on a cloud provider](#cloud-data-source-file) as a data source for a
+    visualization;
 
-  - クラウド ファイル データ ソースを使用する[ダッシュボードを共有する](#grant-access-shared-dashboard)場合。
+  - [sharing a dashboard](#grant-access-shared-dashboard), which uses a
+    cloud file data source;
 
-  - [ワークスペースに](#save-dashboard-workspace)ダッシュボードを保存する場合。
+  - saving a dashboard [in a workspace](#save-dashboard-workspace).
 
 <a name='cloud-providers'></a>
-## サポートされるクラウド プロバイダー
+## Supported Cloud Providers
 
-次のクラウド プロバイダーにアップロードされたファイルを使用するダッシュボードへのアクセスを許可できます:
+You can grant access to dashboards, which use files uploaded on the
+following cloud providers:
 
   - Google Drive
 
@@ -30,38 +40,45 @@ _language: ja
   - Dropbox
 
 <a name='cloud-data-source-file'></a>
-## クラウド ファイルをデータ ソースとして選択する場合のアクセス許可の付与
+## Granting Access when Choosing a Cloud File as a Data Source
 
-データ ソースを選択した時点でクラウド ファイルへのアクセスを許可して、表示形式を構築できます。[サポートされているクラウド プロバイダー](#cloud-providers)のいずれかにアップロードされたファイルを選択すると、次のダイアログが表示されます。
+You can allow access to a cloud file at the point of selecting your data source to build a visualization. After choosing a file uploaded on one of the [supported cloud providers](#cloud-providers), you will be prompted to the following dialog:
 
 <img src="images/allow-access-box-sharing.png" alt="Allow access checkbox in the Set up your file dialog" class="responsive-img"/>
 
-**[アクセスの許可]** チェックボックスが選択されていることを確認してください。選択されていない場合、共有可能なリンクは無効になります。
+Make sure the *Allow Access* checkbox is selected, otherwise the
+shareable link will be disabled.
 
 <a name='grant-access-shared-dashboard'></a>
-## ダッシュボードの共有時にアクセスを許可する
+## Granting Access when Sharing a Dashboard
 
-他のユーザーと共有するときに、共有可能なリンクが無効になっているクラウド ファイルを使用するダッシュボードへのアクセスを許可できます。
+You can grant access to dashboards that use cloud files with a disabled
+shareable link, when sharing them with other users.
 
-1.  ダッシュボードの*オーバーフロー ボタン*をクリック/タップします。
+1.  Click/tap the *overflow button* of a dashboard.
 
-2.  **[共有]** を選択します。
+2.  Select *Share*.
 
-3.  次のダイアログが開きます:
+3.  The following dialog opens:
 
-    <img src="images/grant-access-share-dashboard-dialog.png" alt="A dialog to grant access to cloud file data sources" width="40%"/>
+    <img src="images/grant-access-share-dashboard-dialog.png" alt="A dialog to grant access to cloud file data sources" class="responsive-img"/>
 
-    **[アクセスの許可]** をクリック/タップして、[ダッシュボードを共有する](share-a-dashboard.html)ユーザーの選択に進みます。
+    Click/Tap *Allow Access* and proceed with selecting users to [share your dashboard](share-a-dashboard.md) with.
 
 <a name='save-dashboard-workspace'></a>
-## ワークスペース内のクラウド ファイル データ ソースを含むダッシュボードの保存
+## Saving a Dashboard with a Cloud File Data Source in a Workspace
 
-クラウド ファイルをデータ ソースとして使用する 1 つ以上の表示形式を含むダッシュボードをワークスペースに保存することができます。これらのデータ ソース ファイルへの共有可能なリンクが作成されていない (無効になっている) 場合、Analytics はアクセスを許可するように求めます。
+You may want to save in your workspace a dashboard, which contains
+one or more visualizations using cloud files as data source. If a
+shareable link to these data source files hasn't been created (has been
+disabled), Analytics will prompt you to allow access:
 
 <img src="images/save-dashboard-disabled-link-workspace.png" alt="Allow access to a dashboard with a disabled link when saving in a workspace" class="responsive-img"/>
 
-これにより、ワークスペースに保存したダッシュボードをすべてのワークスペース メンバーが確実に表示できるようになります。
+This way you make sure all workspace members can view the dashboard you saved
+in your workspace.
 
-## 関連項目
+## See Also
 
-共有されているダッシュボードのコンテンツが表示されない場合は、[クラウド ファイルを使用した共有ダッシュボードへのアクセスのリクエスト](request-access-shared-dashboards-cloud-files.html)をお読みください。
+If you can't see the contents of a dashboard, shared with you, please
+read: [Requesting Access to Shared Dashboards with Cloud Files](request-access-shared-dashboards-cloud-files.md)

@@ -1,42 +1,44 @@
 ---
-title: Marketo をデータ ソースとして使用する方法
-_description: Marketo に接続して Slingshot でデータを使用する方法を説明します。
+title: How to use Marketo as Your Data Source
+_description: Connecting to Marketo to use your data in Slingshot
 ---
 
 # Marketo 
 
-## Marketo への接続
+## Connecting to Marketo 
 
-Marketo の REST API は、2-legged OAuth 2.0 で認証されています。
-Analytics で Marketo データ ソース接続を構成するには、次の接続情報を提供する必要があります: 
+Upon selecting the Marketo data source, you will see the following screen:
 
-<img src="images/add-marketo-as-data-source.png" alt="Data source connection configuring screen" class="responsive-img" width="45%"/>
+<img src="images/add-marketo-as-data-source.png" alt="Data source connection configuring screen" class="responsive-img" width="50%"/>
 
+Marketo’s REST APIs are authenticated with 2-legged OAuth 2.0, so you need to complete the following information to configure your connection:
 
-1. **[URL]** - Marketo 管理パネルにある *ID URL* をここに貼り付けます。
-2. **資格情報**:
-- **クライアント ID** 
-- **クライアント シークレット**
+1. **URL** - paste here the *Identity URL* you will find in your Marketo Admin panel. 
+2. **Credentials**:
+- **Client ID** 
+-  **Client Secret**
 
-Marketo の*管理*パネルには、上記の認証要素が含まれています。それらを見つける方法の詳細については、Marketo のドキュメントの[認証 (英語)](https://developers.marketo.com/rest-api/authentication/) に関する記事をご覧ください。
+Your *Admin* panel in Marketo contains the authentication elements listed above. For more information on how to find them, check the article about [Authentication](https://developers.marketo.com/rest-api/authentication/) in Marketo's documentation. 
 
-## データの設定
+If you need details about how to create the OAuth credentials you need from Marketo to connect, see the article about [Custom Services](https://developers.marketo.com/rest-api/custom-services/?_fsi=oP2ZRHsM) in Marketo's docs. 
 
-ログイン後、次のダイアログで Marketo データを設定できます:
+## Setting Up Your Data
+
+After logging in, you can set up your Marketo data in the following dialog:
 
 <img src="images/marketo-objects.png" alt="A list with objects" class="responsive-img" width="50%"/>
 
-**Activities** と **Leads** オブジェクトでは、**表示形式エディター**に進む前に、データを取得するために *From* および *To* (日付) の 2 つのパラメーターを設定する必要があります。日付範囲は、最初日と最後日を含めて 31 日未満である必要があります。
+**Activities** and **Leads** objects require you to set two parameters - *From* and *To* (dates) to query the data, before you can continue to the *Visualization editor*. The date range must be no more than 31 days, incl. the first and the last day. 
 
 > [!NOTE]
-> **Activities** と **Leads** のオブジェクトからのデータが表示形式エディターに最初に読み込まれるまで、数分かかる場合があることに注意してください。次回は、同じクエリがより速く実行されます。
+> Please, note that you may need to wait up to several minutes until your data from the **Activities** and **Leads** objects is loaded in the *Visualization Editor*.  
 
-## 表示形式エディターでの作業
+## Working in the Visualization Editor
 
-データ ソースを追加した後、表示形式エディターが表示されます。デフォルトでは、**柱状**表示形式が選択されます。それをクリックまたはタップして、別の[チャート タイプ (英語)](https://www.slingshotapp.io/en/help/docs/analytics/visualization-tutorials/overview)を選択できます。選択した表示形式に基づいて、さまざまなタイプのフィールドが表示されることに注意してください。
+Once your data source has been added, you will be taken to the *Visualization Editor*. By default, the *Column* visualization will be selected. You can click/tap on it in order to choose another [chart type](https://www.slingshotapp.io/en/help/docs/analytics/visualization-tutorials/overview). Keep in mind that based on the vusialization that you have chosen, you will see different types of fields.
 
 <img src="images/visualization-editor-marketo.png" alt="Using data from Marketo in the visualization editor" class="responsive-img" width="85%"/>
 
-表示形式の準備ができたら、右上隅のチェックマークをクリックまたはタップして、ダッシュボードとして保存できます。以下の例では、ダッシュボードを **[分析]** > **[ダッシュボード]** > **Marketing** に保存しました。
+When you are ready with your visualization, you can click/tap on the checkmark in the top right corner to save it as a dashboard. In the example below we saved the dashboard in **My Analytics** > **My Dashboards** > **Marketing**.
 
 <img src="images/marketo-my-analytics.png" alt="A Marketo dashboard in My Analytics" class="responsive-img" width="85%"/>

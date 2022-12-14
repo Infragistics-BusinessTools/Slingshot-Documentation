@@ -1,49 +1,50 @@
-# Analytics へのログイン
+# Logging into Analytics
 
-Analytics へようこそ！
-アプリを開くとき、さまざまなログイン オプションが表示されます。
+Welcome to Analytics!  
+When opening the app you'll be met with different login options:
 
 <img src="images/log-in-screen.png" alt="Analytics's log in screen" class="responsive-img"/>
 
-開始前に、Analytics で**組織**に参加できることを考慮してください。組織のメンバーは、組織のメール アドレスでログインする必要があります。Google または Microsoft (O365) を選択し、組織ワークスペースに関連付けられます。または、iCloud (Apple) アカウントの資格情報を使用してログインできます。
+Before jumping in, take into account that in Analytics you can join an **Organization**. If you are a member of an organization, you have to log in with your organization’s email. Choose Google or Microsoft (O365) as needed and you'll be associated with the Оrganization workspace. Alternatively, you can log in using your iCloud (*Apple*) account credentials.
 
 > [!NOTE]
-> 組織ワークスペースの名前は組織と同じ名前になります (会社名など)。
+> The Organization workspace is named after your organization (e.g. your company's name).  
 
-Analytics へのサインインに使用したアカウントに応じて、OneDrive または Google ドライブが[データ ソース](~/jp/datasources/overview.html)のリストに自動的に追加されます。
+Depending on which account you used to sign in Analytics, you will have your OneDrive or Google Drive automatically added to your list of [data sources](~/docs/analytics/datasources/overview.md).
 
-## 初期画面
+## Your First Screen
 
-開始するときに、初期画面が表示されます。
+Once you get in, you are greeted with your first screen:
 
 <img src="images/reveal-initial-view.png" alt="First screen in Analytics with numbering added" class="responsive-img"/>
 
-**アイテム**の個人用スペースで開始します。以下は、この初期画面のクイック リファレンスです。
+You always start in your personal space, **My Stuff**. Below you can find a quick reference for this initial screen:
 
-1.  **[アイテム]** - ここでは、ダッシュボード、お気に入り、最近のもの、事前定義されたサンプルなど、個人用スペースにアクセスできます。
+1.  **My Stuff** - Here you can access your personal space, including dashboards, favorites, recents and predefined samples.
 
-    *  **[ダッシュボード]** - すべてのダッシュボードの中央のスペースです。他のワークスペース メンバーによって作成された必要なダッシュボードを作成、修正、共有または検索する場合は、ここから始めてください。
+    *  *Dashboards* - This is the central hub for all dashboards. Start from here when you want to create, revise, share, or just open a dashboard you need that was created by other workspace members.
 
-    * **[お気に入り]** - 最も重要なダッシュボードを [お気に入り] に保存できます。
+    * *Favorites* - Keep your most important dashboards at hand in *Favorites*.
 
-    * **最近** - [最近] では、表示または編集したダッシュボードが、最近使用した順に並べ替えられています。
+    * *Recent* - In *Recent*, you will find the dashboards you have viewed or edited, sorted by the most recently used.
 
-    * **ダッシュボードのサンプル** - [サンプル] には、Analytics のチームによって構成されたダッシュボードがあります。豊富な種類の表示形式により、創造性が刺激され、独自の美しいダッシュボードを作成できます。
+    * *Dashboard samples* - In *Samples*, you will find dashboards composed by the Analytics's team. Their rich variety of visualizations will inspire your creativity and help you create your own beautiful dashboards.
 
-2.  **[組織とワークスペース]** - 画面の左側で、組織ワークスペースとメンバーである任意のワークスペースにアクセスできます。新しいワークスペースを作成、あるいは既存のワークスペースに参加することもできます。
+2.  **Organization & Workspaces** - On the left side of the screen, you can access the organization workspace plus any other workspace you are a member of. You can also create new workspaces or join existing ones.
 
-3.  **[通知センター]** - ベル アイコンを選択してワークスペースおよびダッシュボードの更新にアクセスします。
+3.  **Notifications center** - Select the the bell icon to access workspace and dashboard updates.
 
-4.  **プロファイル設定** - イニシャル (写真) のアイコンを選択して、Analytics の一般設定、学習のヒント、ヘルプ センターにアクセスし、アプリケーションに関するフィードバックや質問をします。
+4.  **Profile settings** - Select the icon with your initial (photo) to access Analytics's *general settings*, *learning tips*, *Help center* and *give feedback* or ask any questions related to the application.
 
-5.  **[+ ダッシュボード] のボタン** - **[+ ダッシュボード]** ボタンを選択すると、フォルダーを作成するか、ダッシュボードの作成に直接移動できます。また、ここで .rdash ファイル (Analytics ダッシュボード) をアップロードすることもできます。
+5.  **+ New button** - By selecting the *+ New* button, you can create folders or go directly to dashboard creation. In addition, here you can also upload a .rdash file (Analytics dashboard).
 
-アプリケーションの使用を開始すると、以下のようになります。
+Once you start using the application, it will look like this:
 
 <img src="images/reveal-initial-view-content.png" alt="First screen in Analytics with content" class="responsive-img"/>
 
-**フィルター** - ダッシュボードがあれば、ドロップダウン メニューから、ダッシュボード モジュールに表示するダッシュボードを選択します: **すべて**のダッシュボード、自分で作成したダッシュボード、あるいは共有しているダッシュボードです。
+**Filter** - As soon as you have any dashboards, you can choose from the dropdown menu which dashboards to see in the dashboard module: *Everything*, only created by you or shared with you.
 
-## ロールとアクセス許可
+## What About Roles & Permissions?
 
-Analytics では、ユーザーは組織および 1 つ以上のワークスペースに参加できます。ロールとアクセス許可は組織とワークスペースの両方に適用されます。ロールは、ワークスペースまたは組織に関連して Analytics ユーザーに割り当てられた一連のアクセス許可を表します。つまり、組織またはワークスペースに参加するときにすべてのユーザーにロールが割り当てられます。明確なアクセス許可を持つ 3 つの異なるロロール (管理者、メンバー、閲覧者) があります。
+In Analytics, people can join an organization and one or more workspaces. Roles and permissions apply to both organizations and workspaces.  
+Roles represent a set of permissions assigned to a Analytics user in relation to a workspace or an organization. This means every user is assigned a role when joining organizations or workspaces. There are three different roles (owner, member, viewer) with a clear set of permissions each.

@@ -1,12 +1,11 @@
 ---
-title: Slingshot でローソク足の表示形式を作成する方法
-_description: データのローソク足チャートの表示形式を作成する方法を説明します。
-_language: ja
+title: How to Create Candlestick Visualizations in Slingshot
+_description: Get familiar the specifics of creating a Candlestick chart visualization for your data.
 ---
 
-## ローソク足で表示する方法
+## Creating Candlestick Visualizations
 
-このチュートリアルは、サンプル スプレッドシートを使用してローソク足の表示形式を作成する方法を説明します。
+In this tutorial, you will learn how to create a Candlestick chart visualization using a sample spreadsheet.
 
 <table>
 <colgroup>
@@ -18,93 +17,113 @@ _language: ja
 <tr class="odd">
 <td><p><img src="images/CandlestickChart_All.png" alt="CandlestickChart All" width="265" /><br />
 </p>
-<p><a href="#create-candlestick-chart">ローソク足チャート</a><br />
+<p><a href="#create-candlestick-chart">Candlestick Chart</a><br />
 </p></td>
 <td><p><img src="images/CandlestickChartBounds_All.png" alt="CandlestickChartBounds All" width="265" /><br />
 </p>
-<p><a href="#changing-axis-configuration">範囲のローソク足チャート</a><br />
+<p><a href="#changing-axis-configuration">Candlestick Chart with Bounds</a><br />
 </p></td>
 <td><p><img src="images/CandlestickChartLogarithmicAxis_All.png" alt="CandlestickChartLogarithmicAxis All" width="265" /><br />
 </p>
-<p><a href="#setting-logarithmic-axis">対数軸のローソク足チャート</a><br />
+<p><a href="#setting-logarithmic-axis">Candlestick Chart with a Logarithmic Axis</a><br />
 </p></td>
 </tr>
 </tbody>
 </table>
 
-ローソク足チャート ビューのガイドは、以下のリンクから参照してください。
+Access the links below for the Candlestick chart view walkthroughs:
 
-  - [ローソク足チャートを作成する方法](#creating-candlestick-chart)
+  - [How to create a Candlestick chart](#creating-candlestick-chart)
 
-  - [軸の構成を変更する方法](#changing-axis-configuration)
+  - [How to change your axis configuration](#changing-axis-configuration)
 
-  - [軸の構成を対数に変更する方法](#setting-logarithmic-axis)
+  - [How to set your axis configuration to logarithmic](#setting-logarithmic-axis)
 
-## 重要なコンセプト
+## Key Concepts
 
-[OHLC](ohlc-chart.html) チャートとローソク足チャートは各財務データの始値、高値、安値、終値を表します。財務シナリオと株の変動の分析のために役立ちます。このチャートは各垂直軸に始値および終値を表す 2 つの水平線で数値を垂直軸に表します。
+Like [OHLC](ohlc-chart.md) Charts, Candlestick charts are meant to
+show the opening, high, low and closing prices for any financial data.
+They are particularly useful for financial scenarios and stock movement
+analysis. This chart displays numerical values in vertical axes, with
+the two horizontal lines in each vertical axis representing the "Open"
+and "Close" values.
 
-そのため、ローソク足チャートには以下の項目が必要になります。
+Candlestick charts, therefore, require:
 
-  - 通常日付に関連するデータ エディターの **[ラベル] プレースホルダーにドロップする 1 つのフィールド**。
+  - **One field to be dropped into the "Label"** placeholder of the data
+    editor, generally related to dates.
 
-  - Open、High、Low および Close の **4 つの異なるフィールド** データ エディターのカテゴリ。
+  - **Four different fields** in the "Open", "High", "Low", and "Close"
+    categories of the data editor.
 
 <img src="images/candlestick-chart-visualization-settings.png" alt="Candlestick chart visualization settings" class="responsive-img"/>
 
-チャートに追加情報を表示するためのオプションが複数あります。
+There are also different options to add further information to your
+chart:
 
-  - **軸の構成**: 軸の構成でチャートの最大値と最小値を構成できます。デフォルトで最小値は 0 に設定され、最大値は使用されるデータによって設定されます。
+  - **Axis Configuration**: the axis configuration lets you configure
+    the minimum and maximum values for your charts. The minimum value is
+    set to 0 by default and the maximum calculated automatically
+    depending on your values.
 
-  - **対数軸構成**: [対数] ボックスをチェックする場合、値のスケールは通常のリニア スケールを使用する代わりに大きさを使用するリニア スケール以外で計算されます。
+  - **Logarithmic Axis Configuration**: if you check the "Logarithmic"
+    checkbox, the scale for your values will be calculated with a
+    non-linear scale which takes magnitude into account instead of the
+    usual linear scale.
 
-## サンプル データ ソース
+## Sample Data Source
 
-このチュートリアルでは、[Analytics チュートリアル スプレッドシート](https://download.infragistics.com/slingshot/samples/Slingshot_Visualization_Tutorials.xlsx)の OHLC and Candlestick シートを使用します。
+For this tutorial, you will use the "OHLC and Candlestick" sheet in the
+[Analytics Tutorials Spreadsheet](https://download.infragistics.com/slingshot/samples/Slingshot_Visualization_Tutorials.xlsx).
 
 
 >[!NOTE]
->このリリースでは、ローカル ファイルとしての Excel ファイルはサポートされていません。チュートリアルを実行するには、サポートされているクラウド サービスのいずれかにファイルをアップロードするか、[ウェブ リソース](~/jp/datasources/supported-data-sources/web-resource.html)として追加してください。
+>Excel files as local files are not supported in this release. In order to follow these tutorials, make sure you upload the file to one of the supported cloud services or add it as a [Web Resource](~/docs/analytics/datasources/supported-data-sources/web-resource.md).
 
 <a name='creating-candlestick-chart'></a>
-## ローソク足チャートを作成する方法
+## Creating a Candlestick Chart
 
 |                                          |                                                                                                                                           |                                                                                                                                                       |
 | ---------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1\. **表示形式を作成する**           | <img src="images/Tutorials-Create-New-Dashboard.png" alt="Creating new visualization" width="300"/>                                       | [アイテム] で、[+ ダッシュボード] 分割ボタンを選択します。                                                                                            |
-| 2\. **データ ソースを構成する**       | <img src="images/Tutorials-Select-Data-Source.png" alt="Selecting a data source" width="300"/>                                            | **[新しい表示形式]** 画面で、[+ データ ソース] ボタンを選択し、リストからデータ ソースを選択します。                                       |
-| 3\. **チュートリアル スプレッドシートを選択する** | <img src="images/Tutorials-Select-OHLC-Candlestick-Charts-Spreadsheet.png" alt="Seclect OHLC Candlestick Chart spreadsheet" width="300"/> | データ ソースを設定したら、**Analytics チュートリアル スプレッドシート**を選択します。 次に、OHLC and Candlestick シートを選択します。                       |
-| 4\. **表示形式ペインを開く**     | <img src="images/Tutorials-Select-Change-Visualization.png" alt="Seclect Change visualization" width="300"/>                              | 表示形式エディターのトップ バーで**グリッド アイコン**を選択します。                                                                                 |
-| 5\. **表示形式を選択する**        | <img src="images/Tutorials-Charts-Select-Candlestick-Chart.png" alt="Seclect Candlestick chart" width="300"/>                             | デフォルトで、表示形式のタイプはグリッドに設定されています。**[ローソク足]** を選択します。                                                                 |
-| 6\. **データを体系化する**               | <img src="images/Tutorials-CandlestickChart-Organizing-Data.png" alt="Organizing data fields" width="300"/>                               | Date フィールドをラベルにドラッグアンドドロップし、*Open*、*High*、*Low* および *Close* フィールドを対応するプレースホルダーにドラッグアンドドロップします。                      |
-| 7\. **日付集計を変更する**      | <img src="images/Tutorials-CandlestickChart-Changing-Aggregation.png" alt="Changing date aggregation" width="300"/>                       | データ エディターのラベル プレースホルダーで Date フィールドを選択し、**[日付集計]** を **[日]** に変更します。次に、[フィールドの更新] を選択します。 |
+| 1\. **Create a Visualization**           | <img src="images/Tutorials-Create-New-Dashboard.png" alt="Creating new visualization" width="300"/>                                       | In *My Stuff*, select the *+ Dashboard* button.                                                                                            |
+| 2\. **Configure your Data Source**       | <img src="images/Tutorials-Select-Data-Source.png" alt="Selecting a data source" width="300"/>                                            | In the *New Visualization* screen, select the *+ Data Source* button and choose your data source from the list.                                       |
+| 3\. **Select the Tutorials Spreadsheet** | <img src="images/Tutorials-Select-OHLC-Candlestick-Charts-Spreadsheet.png" alt="Seclect OHLC Candlestick Chart spreadsheet" width="300"/> | Once the data source is configured, select the **Analytics Tutorials Spreadsheet**. Then, choose the "OHLC and Candlestick" sheet.                       |
+| 4\. **Open the Visualizations Menu**     | <img src="images/Tutorials-Select-Change-Visualization.png" alt="Seclect Change visualization" width="300"/>                              | Select the **grid icon** in the top bar of the Visualizations Editor.                                                                                 |
+| 5\. **Select your Visualization**        | <img src="images/Tutorials-Charts-Select-Candlestick-Chart.png" alt="Seclect Candlestick chart" width="300"/>                             | By default, the visualization type will be set to *Grid*. Select the **Candlestick**.                                                                 |
+| 6\. **Organize your Data**               | <img src="images/Tutorials-CandlestickChart-Organizing-Data.png" alt="Organizing data fields" width="300"/>                               | Drag and drop the *Date* field into *Label* and the *Open*, *High*, *Low* and *Close* fields in their corresponding placeholder.                      |
+| 7\. **Change the Date Aggregation**      | <img src="images/Tutorials-CandlestickChart-Changing-Aggregation.png" alt="Changing date aggregation" width="300"/>                       | Select the **Date** field in the *Label* placeholder of the data editor, and change the **Date Aggregation** to **Day**. Then, select *Update Field*. |
 
 <a name='changing-axis-configuration'></a>
-## 軸の構成を変更する方法
+## Changing your Axis Configuration
 
-[ゲージの範囲](gauge-views.html#adding-bounds-gauge)と同様に、チャート軸構成でチャート (範囲) の最小値と最大値を設定できます。この機能を使用して、特定のデータ含有や除外ができます。
+Like [gauge bounds](gauge-views.html#adding-bounds-gauge), chart axis
+configuration allows you to set the lowest and highest values in your
+chart. You can use this feature to include or exclude specific data.
 
-以下は軸構成のメニューにアクセスするための手順です。
+In order to access the axis configuration menu:
 
 |                                             |                                                                                               |                                                             |
 | ------------------------------------------- | --------------------------------------------------------------------------------------------- | ----------------------------------------------------------- |
-| 1\. **設定メニューにアクセスする**            | <img src="images/Tutorials-Navigate-Settings.png" alt="Navigating to Settings" width="300"/>  | 表示形式エディターの **[設定]** セクションに移動します。 |
-| 2\. **軸範囲セクションに移動する** | <img src="images/Access-Axis-Configuration.png" alt="Navigating to Axis Bounds" width="300"/> | 変更する設定は **[軸範囲]** です。   |
+| 1\. **Access the Settings Menu**            | <img src="images/Tutorials-Navigate-Settings.png" alt="Navigating to Settings" width="300"/>  | Go to the **Settings** section in the Visualization Editor. |
+| 2\. **Navigate to the Axis Bounds section** | <img src="images/Access-Axis-Configuration.png" alt="Navigating to Axis Bounds" width="300"/> | The settings you will change will be the **Axis Bounds**.   |
 
-最大値または最小値 (または両方) のどれを設定するかに基づいて、以下のオプションの 1 つにアクセスする必要があります。
+Depending on whether you want to set the minimum or maximum value (or
+both), you will need to access one of the following options:
 
-### 最小境界値を変更する
+### Changing the Minimum Bound
 
-デフォルト値は「自動」に設定されています。境界値を変更する場合は、チャートの開始値を入力してください。
+The default value is set to *Auto*. In order to set a different bound, enter the value you want the chart to start with.
 
-### 最大境界値を変更する
+### Changing the Maximum Bound
 
-最大境界値の場合、Analytics が元のデータを使用するためにデフォルトの値は「自動」に設定されます。別の値を設定するには、チャートの上限値を入力します。
+For Maximum bounds, the default will be set to "Automatic" so that
+Analytics uses your original data. In order to set a different one, enter
+the value you want for the chart's top limit.
 
 <a name='setting-logarithmic-axis'></a>
-## 軸を対数軸として設定
+## Setting your Axis Configuration as Logarithmic
 
 |                                        |                                                                                                              |                                                             |
 | -------------------------------------- | ------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------- |
-| 1\. **設定メニューにアクセスする**       | <img src="images/Tutorials-Navigate-Settings.png" alt="Navigating to Settings" width="300"/>                 | 表示形式エディターの **[設定]** セクションに移動します。 |
-| 2\. **軸を対数に変更する** | <img src="images/Access-Candlestick-Axis-Configuration.png" alt="Accessing Axis configuration" width="300"/> | **[軸]** ドロップダウンを開き、**[対数]** を選択します。      |
+| 1\. **Access the Settings Menu**       | <img src="images/Tutorials-Navigate-Settings.png" alt="Navigating to Settings" width="300"/>                 | Go to the **Settings** section of the Visualization Editor. |
+| 2\. **Change the Axis to Logarithmic** | <img src="images/Access-Candlestick-Axis-Configuration.png" alt="Accessing Axis configuration" width="300"/> | Open the **Axis** dropdown and select **Logarithmic**.      |

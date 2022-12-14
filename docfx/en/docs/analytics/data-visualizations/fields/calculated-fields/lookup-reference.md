@@ -1,18 +1,18 @@
 ---
-title: ルックアップおよび参照計算フィールドを使用する方法
-_description: ルックアップおよび参照計算フィールドを使用してダッシュボードの詳細情報を取得する方法を説明します。
-_language: ja
+title: How to use Lookup & Reference Calculated Fields
+_description: Learn how to use Lookup & Reference Calculated Fields to get more details for your dashboards.
 ---
 
-# Lookup & 参照計算フィールド
+# Lookup & Reference Calculated Fields
 
 
-検索/行列フィールドは、現在のスプレッドシートとダッシュボードで動作し、セル、行、ダッシュボード変数へのテキスト参照を返します。
+Lookup and reference fields will allow you to work with your current
+spreadsheet and dashboard, returning text references to cells, rows and
+dashboard variables.
 
->[!NOTE] 
->以下の表のすべてのサンプルは **HR Dataset 2016** スプレッドシートで作成されました。
+>[!NOTE] All samples included in the table below were created with the **HR Dataset 2016.xlsx** spreadsheet.
 
-以下はこの関数に含まれる集計カテゴリです。
+The functions included in the aggregation category are:
 
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;}
@@ -24,37 +24,41 @@ _language: ja
 </style>
 <table class="tg">
   <tr>
-    <th class="tg-yla0">関数名</th>
-    <th class="tg-cly1"><span style="font-weight:bold">構文とサンプル</span></th>
+    <th class="tg-yla0">Function Name</th>
+    <th class="tg-cly1"><span style="font-weight:bold">Syntax and Sample</span></th>
   </tr>
   <tr>
-    <td class="tg-cly1" rowspan="2"><a href="#calc-fields-previous">previous</a>: <span class="gray-snippet-cstm">previous</span> は、<span class="gray-snippet-cstm">式</span>として選択したフィールドの値で結果を取得できます。</td>
-    <td class="tg-cly1"><span style="font-weight:bold">構文</span>: <span class="gray-snippet-cstm">previous({expression},{first value})</span></td>
+    <td class="tg-cly1" rowspan="2"><a href="#calc-fields-previous">previous</a>: <span class="gray-snippet-cstm">previous</span> allows you to get a result with the value of the field you choose as your <span class="gray-snippet-cstm">expression</span>.</td>
+    <td class="tg-cly1"><span style="font-weight:bold">Syntax</span>: <span class="gray-snippet-cstm">previous({expression},{first value})</span></td>
   </tr>
   <tr>
-    <td class="tg-cly1"><span style="font-weight:bold">サンプル</span>:<span class="gray-snippet-cstm"> previous([Wage],1)</span></td>
+    <td class="tg-cly1"><span style="font-weight:bold">Sample</span>:<span class="gray-snippet-cstm"> previous([Wage],1)</span></td>
   </tr>
   <tr>
-    <td class="tg-cly1" rowspan="2"><span style="font-weight:bold">row</span>: <span class="gray-snippet-cstm">row</span> は、データ ソース内のすべての行の現在の行の番号を返します。</td>
-    <td class="tg-cly1"><span style="font-weight:bold">構文</span>:<span class="gray-snippet-cstm"> row()</span></td>
+    <td class="tg-cly1" rowspan="2"><span style="font-weight:bold">row</span>: <span class="gray-snippet-cstm">row</span> returns the number of the current row for every row in your data source.</td>
+    <td class="tg-cly1"><span style="font-weight:bold">Syntax</span>:<span class="gray-snippet-cstm"> row()</span></td>
   </tr>
   <tr>
-    <td class="tg-cly1"><span style="font-weight:bold">サンプル</span>:<span class="gray-snippet-cstm"> row()</span></td>
+    <td class="tg-cly1"><span style="font-weight:bold">Sample</span>:<span class="gray-snippet-cstm"> row()</span></td>
   </tr>
 </table>
 
 <a name='calc-fields-previous'></a>
 ## Previous
 
-previous の計算フィールドでは、`式`で選択したフィールドの値で結果を取得できます。引数を 2 つ設定します。
+The previous calculated field allows you to get a result with the value
+of the field you choose as your `expression`. There are two arguments
+for you to configure:
 
-  - `式`: データ ソースのフィールドの 1 つ。
+  - `expression`: one of the fields in your data source.
 
-  - `最初の値`: デフォルトで空の最初の行の値。
+  - `first value`: the value for your first row, which will be empty by
+    default.
 
-### サンプル
+### Sample
 
-以下は、HR Dataset 2016.xlsx「Employees」シートを抽出したものです。
+The following is an extract of the HR Dataset 2016.xlsx "Employees"
+sheet.
 
 | EMPLOYEEID | FULLNAME          | DEPARTMENT  | OFFICE                    | WAGE     |
 | ---------- | ----------------- | ----------- | ------------------------- | -------- |
@@ -63,11 +67,11 @@ previous の計算フィールドでは、`式`で選択したフィールドの
 | 3.00       | Zimmermann Miller | Development | Cranbury, New Jersey, USA | 73768.00 |
 | 4.00       | Zurcher Reid      | Development | Sofia, Bulgaria           | 36018.00 |
 
-以下の計算フィールドを追加します。
+Let's add the following calculated field:
 
 `previous([Wage],1)`
 
-以下は計算フィールドの結果です。
+The results of the calculated field will be:
 
 | EMPLOYEEID | FULLNAME          | DEPARTMENT  | OFFICE                    | WAGE         | previous Field |
 | ---------- | ----------------- | ----------- | ------------------------- | ------------ | -------------- |
@@ -76,4 +80,6 @@ previous の計算フィールドでは、`式`で選択したフィールドの
 | 3.00       | Zimmermann Miller | Development | Cranbury, New Jersey, USA | **73768.00** | **76865.00**   |
 | 4.00       | Zurcher Reid      | Development | Sofia, Bulgaria           | 36018.00     | **73768.00**   |
 
-表に示すように、2 つ目の行は 2 つ目の行に `[WAGE]` 値を返します。関数で設定したとおり列の最初のセルを `1` で埋めます。
+As seen in the table, the second row returns the `[WAGE]` value for the
+second row, and fills the first cell of the column with `1`, as set in
+your formula.

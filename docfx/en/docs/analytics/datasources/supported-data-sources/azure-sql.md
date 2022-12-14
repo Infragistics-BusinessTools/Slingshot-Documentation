@@ -1,41 +1,43 @@
 ---
-title: Slingshot で Azure SQL データ ソースを構成する方法
-_description: 優れた表示形式に使用するために Azure SQL データ ソースを構成するためのロードマップを紹介します。
-_language: ja
+title: How to configure an Azure SQL data source in Slingshot
+_description: A roadmap to configuring an Azure SQL data source to use it for your great visualizations.
 ---
 
 # Azure SQL
 
-> [!NOTE] 
->**Web の制限**。*Analytics Web* アプリでは、公的にアクセス可能な Azure SQL アドレスにのみ接続できます。Azure SQL アドレスが一般公開 (プライベートまたは会社のイントラネットでホストされているなど) に制限されている場合は、*Analytics Desktop*、*iOS*、または *Android* を使用して接続できます。Analytics を実行しているデバイスは、SQL Server アドレスにアクセスできる必要があります。この制限は、*Analytics Embedded* には適用されません。
+>[!NOTE] **Limitations in Web**. In the *Analytics Web* app, you can connect only to publicly accessible Azure SQL addresses. If your Azure SQL address is restricted for the general public (private or hosted in the company's intranet, for example), you can use *Analytics Desktop*, *iOS* or *Android* to connect to it. The device where you're running Analytics needs to have access to the SQL Server address. This limitation does not apply to *Analytics Embedded*.
 
-## Azure SQL への接続
+## Connecting to Azure SQL
 
-Azure SQL データ ソースを構成するには、以下の情報が必要です。
+To configure an Azure SQL data source, you will need to enter the following information:
 
 <img src="images/add-azure-sql-server-dialog.png" alt="Opening Analytics's AzureSQL data source configuration screen" class="responsive-img" width="50%"/>
 
-1.  **[サーバー]**: コンピューター名またはサーバーを実行しているコンピューターに割り当てられた IP アドレス。
+1.  **Server**: the computer name or IP address assigned to the computer
+    on which the server is running.
 
-2.  **[ポート]**: 該当する場合、サーバー ポートの詳細。情報が入力されない場合、Analytics はデフォルトでヒント テキスト (1433) のポートに接続します。
+2.  **Port**: if applicable, the server port details. If no information
+    is entered, Analytics will connect to the port in the hint text (1433)
+    by default.
 
-3.  **[資格情報]**: [資格情報] を選択した後、Azure SQL の資格情報を入力するか、既存の資格情報 (適用可能な場合) を選択できます。
+3.  **Credentials**: after selecting *Credentials*, you will be able to enter the credentials for Azure SQL or choose existing ones if applicable.
 
-  - **[ユーザー名]**: Azure SQL のユーザー アカウントまたはドメインの名前。
+  - **Username**: the user account for Azure SQL or the name of the domain.
 
-  - **[パスワード]**: Azure SQL にアクセスするためのパスワード。
+  - **Password**: the password to access Azure SQL.
 
-  - **データ ソースのエイリアス**: データ ソース名は、前のダイアログのアカウントのリストに表示されます。デフォルトでは、Analytics は *Microsoft Azure SQL Database* という名前を付けます。好みに合わせて変更できます。
+  - **Alias** of the data source: Your data source name will be displayed in the list of accounts in the previous dialog. By default, Analytics names it *Microsoft Azure SQL Database*. You can change it to your preference.
 
-準備ができたら、**[追加]** を選択してから **[サーバーの追加]** を選択します。
+Once ready, select **Add** and then **Add Server**.
 
-## 詳細情報
+## Further Information
 
-以下の詳細については、Analytics の両データ ソースは同様に機能するため、[**SQL Server**](microsoft-sql-server.html#how-to-find-server) を参照してください。
+Finally, if you want to know more about any of the following:
 
-  - サーバー情報を見つける方法
+  - How to find your Server Information
 
-  - ビューの作業
+  - Working with Views
 
-  - 保管されたプロシージャの作業
+  - Working with Stored Procedures
 
+Please refer to [**SQL Server**](microsoft-sql-server.html#how-to-find-server) as both Analytics data sources work similarly.

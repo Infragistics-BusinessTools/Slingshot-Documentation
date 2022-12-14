@@ -1,100 +1,125 @@
 ---
-title: Oracle データ ソースを構成する方法
-_description: Oracle データ ソースを 2 つのモードで構成して使用する方法を説明します。
-_language: ja
+title: How to configure an Oracle data source
+_description: Learn how to configure and use an Oracle data source in two modes.
 ---
 
 # Oracle
 
->[!NOTE] 
->**Web の制限**。*Analytics Web* アプリでは、公的にアクセス可能な Oracle アドレスにのみ接続できます。Oracle アドレスが一般公開 (プライベートまたは会社のイントラネットでホストされているなど) に制限されている場合は、*Analytics Desktop*、*iOS*、または *Android* を使用して接続できます。Analytics を実行しているデバイスは、Oracle アドレスにアクセスできる必要があります。この制限は、*Analytics Embedded* には適用されません。
+>[!NOTE] **Limitations in Web**. In the *Analytics Web* app, you can connect only to publicly accessible Oracle addresses. If your Oracle address is restricted for the general public (private or hosted in the company's intranet, for example), you can use *Analytics Desktop*, *iOS* or *Android* to connect to it. The device where you're running Analytics needs to have access to this Oracle address. This limitation does not apply to *Analytics Embedded*.
 
-サーバー データベースの設定に基づいて Oracle に接続するための 2 つのモジュールがあります。
+There are two modes you can use to connect to Oracle depending on your
+database's settings:
 
-  - [**SID の使用**](#using-sid): Oracle データベース インスタンスの一意の名前。
+  - [**Using SID**](#using-sid): the unique name of your Oracle database
+    instance.
 
-  - [**サービスの使用**](#using-service): データベース インスタンスへ接続するときに使用されるエイリアス。
+  - [**Using Service**](#using-service): the alias used when connecting
+    to the database instance.
 
 <a name='using-sid'></a>
-## SID を使用した Oracle への接続
+## Connecting to Oracle Using SID
 
-SID を使用して Oracle を構成するには、以下の情報が必要です。
+To configure Oracle using SID, you will need to enter the following
+information:
 
 <img src="images/enter-oracle-details-sid.png" alt="Configure Oracle SID mode details" class="responsive-img" width="50%"/>
 
-1. データ ソースの**デフォルト名**: データ ソース名は前のダイアログのアカウントのリストに表示されます。デフォルトでは、Analytics は *Oracle* という名前を付けます。好みに合わせて変更できます。
+ 1.  **Default name** of the data source: Your data source name will be displayed in the list of accounts in the previous dialog. By default, Analytics names it *Oracle*. You can change it to your preference.
 
 
-2.  **[[サーバー](#how-to-find-server)]**: コンピューター名またはサーバーを実行しているコンピューターに割り当てられた IP アドレス。
+2.  [**Server**](#how-to-find-server): the computer name or IP address
+    assigned to the computer on which the server is running.
 
-3.  **[ポート]**: 該当する場合、サーバー ポートの詳細。情報が入力されない場合、Analytics はデフォルトでヒント テキスト (1521) のポートに接続します。
+3.  **Port**: if applicable, the server port details. If no information
+    is entered, Analytics will connect to the port in the hint text (1521)
+    by default.
 
-4.  **[接続モード]**: SID。
+4.  **Connection Mode**: SID.
 
-5.  **[SID]**: Oracle データベース インスタンスの一意の名前。デフォルトでは、Oracle の SID は orcl です。SID を見つけるには、サーバー マネージャーにログインし select instance from v$thread と入力します。これは ORACLE\_SID を返します。
+5.  **SID**: the unique name of your Oracle database instance. By
+    default, the SID for Oracle is orcl. To find your SID, log into
+    Server Manager and type select instance from v$thread. This will
+    return your ORACLE\_SID.
 
-6.  **[資格情報]**: [資格情報] を選択した後、Oracle サーバーの資格情報を入力するか、既存の資格情報 (適用可能な場合) を選択できます。
+6. **Credentials**: after selecting *Credentials*, you will be able to
+    enter the credentials for your Oracle server or select existing ones
+    if applicable.
 
-      - **ユーザー名**: Oracle サーバーのユーザー アカウントまたはドメインの名前。
+      - **Username**: the user account for the Oracle server or the name of the domain.
 
-      - **パスワード**: Oracle サーバーにアクセスするためのパスワード。
+      - **Password**: the password to access the Oracle server.
 
-      - **エイリアス**: データ ソース アカウントの名前。以前のダイアログのアカウントのリストに表示されます。
+      - **Alias**: the name for your data source account. It will be displayed in the list of accounts in the previous dialog.
 
-    準備ができたら、**[追加]** を選択してから **[サーバーの追加]** を選択します。
+    Once ready, select **Add** and then **Add Server**.
 
 <a name='using-service'></a>
-## サービス を使用した Oracle への接続
+## Connecting to Oracle Using Service
 
-サービスを使用して Oracle を構成するには、以下の情報が必要です。
+To configure Oracle using Service, you will need to enter the following
+information:
 
 <img src="images/add-oracle-server-dialog-service-connection.png" alt="Configure Oracle Service mode details" class="responsive-img" width="50%"/>
 
-1.  **[[サーバー](#how-to-find-server)]**: コンピューター名またはサーバーを実行しているコンピューターに割り当てられた IP アドレス。
+1.  [**Server**](#how-to-find-server): the computer name or IP address
+    assigned to the computer on which the server is running.
 
-2.  **[ポート]**: 該当する場合、サーバー ポートの詳細。情報が入力されない場合、Analytics はデフォルトでヒント テキスト (1521) のポートに接続します。
+2.  **Port**: if applicable, the server port details. If no information
+    is entered, Analytics will connect to the port in the hint text (1521)
+    by default.
 
-3.  **[接続モード]**: サービス。
+3.  **Connection Mode**: Service.
 
-4.  **サービス名**: データベース インスタンスへ接続するときに使用されるエイリアス。サービスを見つけるには、サーバー マネージャーへログインし、dual から select sys\_context('userenv’);,  'service\_name’) を実行します。これは Service\_name を返します。
+4.  **Service Name**: the alias used when connecting to the database
+    instance. To find your Service, log into Server Manager and run
+    select sys\_context('userenv', 'service\_name') from dual;. This
+    will return your Service\_name.
 
-5.  **[資格情報]**: [資格情報] を選択した後、Oracle サーバーの資格情報を入力するか、既存の資格情報 (適用可能な場合) を選択できます。
+5.  **Credentials**: after selecting *Credentials*, you will be able to
+    enter the credentials for your Oracle server or select existing ones
+    if applicable.
 
-      - **ユーザー名**: Oracle サーバーのユーザー アカウントまたはドメインの名前。
+      - **Username**: the user account for the Oracle server or the name of the domain.
 
-      - **パスワード**: Oracle サーバーにアクセスするためのパスワード。
+      - **Password**: the password to access the Oracle server.
 
-      - **エイリアス**: データ ソース アカウントの名前。以前のダイアログのアカウントのリストに表示されます。
+      - **Alias**: the name for your data source account. It will be displayed in the list of accounts in the previous dialog.
 
-    準備ができたら、**[追加]** を選択してから **[サーバーの追加]** を選択します。
+    Once ready, select **Add** and then **Add Server**.
 
 <a name='how-to-find-server'></a>
-## サーバー情報を見つける方法
+## How to find your Server Information
 
-以下の手順でサーバーも確認できます。コマンドはサーバーで実行する必要があることに注意してください。
+You can find your server by following the steps below. Please note that
+the commands should be executed on the server.
 
 | WINDOWS                                                                                                         | LINUX                                                                                                         | MAC                                                                  |
 | --------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------- |
-| 1\. ファイル エクスプローラーを開きます。                                                                                     | 1\. ターミナルを開きます。                                                                                          | 1\. システム環境設定を開きます。                                        |
-| 2\. [マイ コンピューター] → [プロパティ] を右クリックします。                                                                   | 2\. **$hostname** を入力します。                                                                                     | 2\. 共有セクションに移動します。                                 |
-| ホスト名は、[コンピューター名、ドメインおよびワークグループの設定] セクションの下に [コンピューター名] として表示されます。| [ホスト名] と [DNS ドメイン名] が表示されます。Analytics には **ホスト名**のみを含めるようにしてください。| [ホスト名] は、上部の [コンピューター名] の下に表示されます。|
+| 1\. Open the File Explorer.                                                                                     | 1\. Open a Terminal.                                                                                          | 1\. Open System Preferences.                                         |
+| 2\. Right Click on My Computer \> Properties.                                                                   | 2\. Type in **$hostname**                                                                                     | 2\. Navigate to the Sharing Section.                                 |
+| Your Hostname will appear as "Computer Name" under the *Computer name, domain and workgroups settings* section. | Your Hostname will appear along with your DNS domain name. Make sure you only include **Hostname** in Analytics. | Your Hostname will be listed under the "Computer Name" field on top. |
 
-以下の手順で *IP アドレス*も確認できます。コマンドはサーバーで実行する必要があることに注意してください。
+You can find your *IP address* by following the steps below. Please note
+that the commands should be executed on the server.
 
 | WINDOWS                              | LINUX                             | MAC                                                           |
 | ------------------------------------ | --------------------------------- | ------------------------------------------------------------- |
-| 1. コマンド プロンプトを開きます。            | 1. ターミナルを開きます。               | 1. ネットワーク アプリケーションを起動します。                                  |
-| 2. **ipconfig** を入力します。              | 2. **$ /bin/ifconfig** を入力します。    | 2. 接続を選択します。                                    |
-| **IPv4 Address** は IP アドレスです。 | **Inet addr** は IP アドレスです。| **IP アドレス** フィールドに必要な情報が含まれます。|
+| 1. Open a Command Prompt.            | 1. Open a Terminal.               | 1. Launch your Network app.                                   |
+| 2. Type in **ipconfig**              | 2. Type in **$ /bin/ifconfig**    | 2. Select your connection.                                    |
+| **IPv4 Address** is your IP address. | **Inet addr** is your IP address. | The **IP Address** field will have the necessary information. |
 
-## データの設定
+## Setting Up Your Data
 
-Analytics を使用すると、すべてのテーブルから Oracle データを取得できますが、その他にもテーブルまたはテーブルのセットからデータのサブセットを返す特定の[ビュー (英語)](https://docs.oracle.com/cd/B19306_01/server.102/b14220/objects.htm#i440066) を選択することもできます。
+With Analytics, you can retrieve Oracle data from entire tables. Still, you
+can select a particular
+[view](https://docs.oracle.com/cd/B19306_01/server.102/b14220/objects.htm#i440066)
+that returns a subset of data from a table or a set of tables instead.
 
 <img src="images/views-oracle.png" alt="Oracle views dialog" class="responsive-img" width="50%"/>
 
-たとえば、**請求書**ビューには、データベース内のテーブルから取得した営業予測に関する情報が含まれています。
+The **invoices** view, for example, contains information on sales
+projections taken from one of the tables in the database.
 
 <img src="images/oracle-dashboard-example.png" alt="A dashboard sample using Oracle view data" class="responsive-img" width="88%"/>
 
-ビューおよび Oracle の詳細については、[この Web サイト (英語)](https://docs.oracle.com/cd/B19306_01/server.102/b14220/objects.htm#i440066) を参照してください。
+For more information on views and Oracle, visit [this documentation website](https://docs.oracle.com/cd/B19306_01/server.102/b14220/objects.htm#i440066).

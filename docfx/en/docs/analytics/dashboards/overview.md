@@ -1,52 +1,63 @@
 ---
-title: Slingshot ダッシュボード – 知っておくべきこと
-_description: ダッシュボードとは、ダッシュボードを何に使用できるか、ダッシュボードをすばやく簡単に作成する方法。
-_language: ja
+title: Slingshot Dashboards – All You Need to Know
+_description: What are dashboards, what can you use them for and how to create them fast and easy.
 ---
 
-# ダッシュボード
+# Dashboards
 
-ダッシュボードは、最小限の情報を一目でわかるように表示するための迅速かつ簡単な方法です。これは、ビジネスの状態、メトリックス、またはパフォーマンスを伝えるためにレイアウトされた表示形式のコレクションで構成されるデータ可視化です。各表示形式は、ユーザーがデータを理解できるように、さまざまな関連情報を持つことを目的としています。
+Dashboards are a quick and simple way to display minimal information at
+first sight. It is a data visualization composed of a collection of
+visualizations which are laid out to communicate the status, metrics,
+or performance of a business. Each visualization is meant to have
+different pieces of related information, enabling users to make sense of their data.
 
 <img src="images/dashboards-home-page.png" alt="A complete dashboard example" class="responsive-img"/>
 
-## ダッシュボード作成プロセス
+## The Dashboard Creation Process
 
-  - **KPI 目標**: 自分またはアナリストがダッシュボードに何を示し、何を中心にサイクルを回す必要があるかを決定します。
+  - **Discover the KPI**: decide what you or your analysts want to show
+    in your dashboard, and what it needs to revolve around.
 
-  - **ダッシュボードの計画**: 情報をグラフィカルにどのように表現しますか? [グリッド](~/jp/data-visualizations/visualization-types/grid-chart.md)、マップ、[ゲージ](~/jp/data-visualizations/visualization-types/gauge-charts.md)、[カテゴリ チャート](~/jp/data-visualizations/visualization-types/category-charts.md)を使用しますか? [フィルター](~/jp/filters/overview.md)を使用しますか?
+  - **Plan the Dashboard**: how will you represent your information
+    graphically? Will you use a [grid](~/docs/analytics/data-visualizations/visualization-types/grid-chart.md), a map,
+    [gauges](~/docs/analytics/data-visualizations/visualization-types/gauge-charts.md), [category charts](~/docs/analytics/data-visualizations/visualization-types/category-charts.md)?
+    Will you use any [filters](~/docs/analytics/filters/overview.md)?
 
-  - Analytics で使用する**データを準備します**。Analytics で[スプレッドシートを操作する方法](~/jp/datasources/working-files/working-with-spreadsheets.md)の概要を以下に示します。
+  - **Prepare the data** to be used in Analytics. Here is a quick overview
+    of [how to work with spreadsheets](~/docs/analytics/datasources/working-files/working-with-spreadsheets.md) in Analytics.
 
-  - **ダッシュボードの作成**: 完全な手順については、[このトピック](creating-dashboards.md)をご覧ください。
+  - **Create the dashboard**: for a complete walkthrough, read [this topic](creating-dashboards.md).
 
-  - **レビューと反復**: ダッシュボードの準備ができた後、ダッシュボードをレビューして、自分またはアナリストが必要と考える変更を加えることができます。
+  - **Review and iterate**: once your dashboard is ready, you can review
+    it and make any changes you or your analysts deem necessary.
 
-## トピックの概要
+## Topics Overview
 
-Analytics を利用して実行できる機能:
+Within Analytics, you will be able to:
 
-   - [ダッシュボードの作成](creating-dashboards.md)
+   - [Create Dashboards](creating-dashboards.md)
 
-  - [アップロード可能](uploading-dashboards.md)
+  - [Upload Dashboards](uploading-dashboards.md)
 
-  - [ダッシュボードを操作する](dashboards-interactions.md)
+  - [Interact with Dashboards](dashboards-interactions.md)
 
-  - [ダッシュボードのスタイル](dashboard-styling.md)
+  - [Style your Dashboards](dashboard-styling.md)
 
-  - [ダッシュボードを他のダッシュボードまたは URL のリンク](dashboard-linking.md)
+  - [Link Dashboards to other Dashboards or to URLs](dashboard-linking.md)
 
-  - [ダッシュボードの共有](sharing-dashboards/share-a-dashboard.md)
+  - [Share your Dashboards](sharing-dashboards/share-a-dashboard.md)
 
-  - [現在のダッシュボードの管理](managing-dashboards.md)
+  - [Manage your existing Dashboards](managing-dashboards.md)
 
-  - ダッシュボードを[画像](./exporting-dashboards/export-as-images.md)、[PDF ファイル](./exporting-dashboards/export-as-pdf-document.md)、[PowerPoint プレゼンテーション](./exporting-dashboards/export-as-powerpoint-presentation.md)、または [Excel スプレッドシート](./exporting-dashboards/export-as-excel-data-format.md)として[エクスポート](how-to-export-a-dashboard.md)
+  - [Export Dashboards](how-to-export-a-dashboard.md) as [Images](export-as-images.md), [PDF files](export-as-pdft-document.md), [PowerPoint presentations](export-as-powerpoint-presentation.md) or
+  [Excel spreadsheets](export-as-excel-data-format.md)
 
-[ReportPlus の以前のバージョンで作成されたダッシュボード](Uploading-Dashboards.md)をインポートすることもできます。
+You can also import any [dashboards created with previous versions of ReportPlus](Uploading-Dashboards.md).
 
-## ダッシュボード チュートリアル
+## Dashboard Tutorials
 
-チュートリアルで基本をすばやく学び、ダッシュボードを作成するための情報をすばやく得ることができます。
+Learn the basics or refine your dashboard creation skills with tutorials
+designed to get you started and headed in the right direction.
 
 <table>
 <colgroup>

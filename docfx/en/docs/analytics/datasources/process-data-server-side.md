@@ -1,46 +1,47 @@
-# サーバーでデータの処理
+# Processing Data on Server
 
-基本的に、データ ソースに接続すると、サーバー上のすべてのデータがローカルに読み込まれ、ダウンロードされます。このようにして、データセットを並べ替え、フィルタリング、集計、および表示形式に使用することなど、Analytics 内で直接処理できます。
+Basically, when connecting to a data source, all your data on the server is loaded and downloaded locally.  In this way, you have your data set, ready to be directly processed in Analytics - sorted, filtered, aggregated, and used for visualizations.
 
-数百万のレコードが含まれるような非常に大きなデータセットを持つデータ ソースの場合、ローカルで使用するためにデータをダウンロードすることは得策ではありません。その理由で、Analytics では代替アプローチとしてサーバー上で直接データを処理する機能が提供されています。
+For some data sources, with much larger data sets, sometimes involving million of records, downloading the data to work with locally isn't a feasible solution. That's why an alternative approach is available in Analytics: processing the data directly on the server.
 
-## サポートされるデータ ソース
+## Supported Data Sources
 
-Analytics で利用可能なデータ ソースの一部では、サーバー上で直接データを処理するアプローチ**のみ**が使用可能です。以下があります: 
+For some of the available data sources in Analytics, processing data directly on the server is the **only** approach used. These are:
 
 * [Amazon Redshift](https://www.slingshotapp.io/en/help/docs/analytics/datasources/supported-data-sources/redshift)
 * [Google BigQuery](https://www.slingshotapp.io/en/help/docs/analytics/datasources/supported-data-sources/google-bigquery)
 * [MS Azure Synapse Analytics](https://www.slingshotapp.io/en/help/docs/analytics/datasources/supported-data-sources/microsoft-azure-synapse-analytics) 
 * [Snowflake](https://www.slingshotapp.io/en/help/docs/analytics/datasources/supported-data-sources/snowflake)
-* [Amazon Athena](https://www.slingshotapp.io/en/help/docs/analytics/datasources/supported-data-sources/athena)  
+* [Amazon Athena](https://www.slingshotapp.io/en/help/docs/analytics/datasources/supported-data-sources/athena)
 
-サーバーでのデータ処理は、次のデータ ソースに対して**有効**にできるオプションです:
+Processing data on server is an option you can **enable** for the following data sources:
 
-* [MS SQL Server](supported-data-sources/microsoft-sql-server.html)
-* [MySQL](supported-data-sources/mysql.html)
-* [PostgreSQL](supported-data-sources/postgresql.html)
+* [MS SQL Server](supported-data-sources/microsoft-sql-server.md)
+* [MySQL](supported-data-sources/mysql.md)
+* [PostgreSQL](supported-data-sources/postgresql.md)
 
-## サーバー上でデータを処理を有効にする方法は?
+## How to Enable Process Data on Server?
 
-**サーバー上でデータを処理**機能を有効にして、それをサポートするデータ ソース (上記を参照) のいずれかに接続できます。
+You can enable the *Process Data on Server* function while connecting to one of the data sources supporting it.
 
-データ ソースの初期構成を行う方法の詳細については、上記の箇条書きリストで 3 つのデータ ソースのいずれかを選択し、設定方法に関する記事をご覧ください。
-接続を設定すると、**[データ ソースの詳細]** ダイアログが表示されます:
+If you need more information on how to do the initial configuration of the data source, select one of the three data sources in the bullet list above and read the article on how to set it up.
+
+After configuring the connection, the *Data Source Details* dialog will show up:
 
 <img src="images/process-data-on-server-option.png" alt="New Process data on server checkbox added in the Set Up the Database dialog in PostgreSQL" class="responsive-img" width="55%"/>
 
-**[サーバー上でデータを処理]** がデフォルトで有効になっていることに注意してください。データがサーバー上で処理されるときに、制限されている機能 (以下の**制限**を参照) を使用する必要がある場合は、この機能の横にあるチェックボックスをオフにすることを検討してください。
+Notice that the *Process Data on Server* is enabled by default. Consider unchecking the box next to this feature in case you need to use any of the capabilities that are limited (see in *Limitations* below), when your data is processed on the server.
 
-## 制限
+## Limitations
 
-**サーバー上でデータを処理**機能は、全てをローカルにはダウンロード出来ないような、非常に大規模なデータセットで表示形式を構築するのに役立ちます。ただし、この機能により、有効になっているデータ ソースの使用にいくつかの制限が生じます。
+The *Process Data on Server* feature helps you build visualizations over very large datasets, where it would otherwise be unfeasible to download all the data locally. However, this feature introduces some limitations to the use of the data source it's enabled for.  
 
-**[サーバー上でデータを処理]** が有効になっている場合、次の機能は表示形式エディターで**サポートされません**。
+The following capabilities are **not supported** in the Visualization editor when *Process Data on Server* is enabled:
 
-* [データ ソースを 1 つの表示形式に統合](data-blending.html)
-* [Azure ML モデルの統合](ml-integration/azure-machine-learning-models.html)
+* [Data Blending](data-blending.md)
+* [Azure ML models integration](ml-integration/azure-machine-learning-models.md)
 
-表示形式エディターの[事前計算](~/jp/data-visualizations/fields/calculated-fields/overview.html#precalculated[-fields)フィールド機能に制限が適用されます。使用できない関数は、**[計算フィールドの作成]** ダイアログでグレーアウトされます。
-このダイアログで、リンクをクリックして、**サーバー上でデータを処理**機能を無効にすることができます。
+Restrictions are placed on the [Pre-Calculated](~/docs/analytics/data-visualizations/fields/calculated-fields/overview.html#precalculated-fields) fields feature in the Visualization editor. Unavailable functions are greyed out in the *New Calculated Field* dialog.
+In this dialog, you can click on the link to disable the *Process Data on Server* feature.
 
 <img src="images/unavailable-functions-message.png" alt="Disable Process Data on Server prompt in the Calculated Fields dialog" class="responsive-img" width="90%"/>

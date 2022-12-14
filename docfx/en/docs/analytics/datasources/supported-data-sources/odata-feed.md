@@ -1,60 +1,74 @@
 ---
-title: OData サービス データ ソースを構成する方法
-_description: Slingshot で OData Feed を接続して使用し、結果を向上させる方法を説明します。
-_language: ja
+title: How to configure an OData Service data source 
+_description: Connecting and using OData Feed in Slingshot to boost your results.
 ---
 
-# OData フィード
+# OData Feed
 
-## OData フィードへの接続
-
-OData フィードのデータ ソースを設定するには、以下の情報が必要です。
+## Connecting to OData Feed
+To configure an OData Service data source, you will need to enter the
+following information:
 
 <img src="images/add-new-odata-feed.png" alt="Enter OData Service Details dialog" class="responsive-img" width="55%"/>
 
-1.  **[URL]**: サービスの URL (Northwind OData Test Service の <http://services.odata.org/Northwind/Northwind.svc> など)。
+1.  **URL**: the URL where the service is located (for example, <http://services.odata.org/Northwind/Northwind.svc> for the Northwind OData Test Service).
 
-2.  **[資格情報]**: [資格情報] を選択した後、OData Service の資格情報を入力するか、既存の資格情報 (適用可能な場合) を選択できます。
+2.  **Credentials**: after selecting *Credentials*, you will be able to
+    enter the credentials for your OData Service or choose existing ones
+    if applicable.
+    
+      - **Username**: the user account for the OData Service or the name of the domain, if
+        applicable.
 
-      - **[ユーザー名]**: OData Service のユーザー アカウントまたはドメインの名前 (該当する場合)。
+      - **Password**: the password to access the OData Service, if
+        applicable.
+      
+      - **Alias**: Your data source name will be displayed in the list of accounts in the previous dialog. By default, Analytics names it *OData Feed*. You can change it to your preference.
 
-      - **[パスワード]**: OData Service にアクセスするためのパスワード (該当する場合)。
+Once ready, select **Add**.
 
-      - エイリアス: データ ソース名は前のダイアログのアカウントのリストに表示されます。デフォルトでは、Analytics は *OData Feed* という名前を付けます。好みに合わせて変更できます。
+To set up an *OAuth 2 / OIDC account* for a protected OData Service data
+source, please read [this topic](~/docs/analytics/datasources/OAuth-2-OIDC-User-Authentication.md).
 
-準備ができたら、**[追加]** を選択します。
+## Open Type Columns
 
-保護された OData フィード データ ソースの *OAuth 2 / OIDC アカウント*を設定するには、[このトピック](/jp/datasources/OAuth-2-OIDC-User-Authentication.html)を参照してください。
+Analytics supports OData feeds with dynamic [*open type*](https://docs.microsoft.com/en-us/aspnet/web-api/overview/odata-support-in-aspnet-web-api/odata-v4/use-open-types-in-odata-v4)
+columns. After any changes to the dynamic OData feed, you only need to
+refresh the dashboard, and the new data will be picked up.
 
-## オープン型の列
-
-Analytics は、動的な[*オープン型の列*](https://docs.microsoft.com/ja-jp/aspnet/web-api/overview/odata-support-in-aspnet-web-api/odata-v4/use-open-types-in-odata-v4)を持つ OData フィードをサポートします。動的な OData フィードを変更した後、ダッシュボードを更新するだけで新しいデータが取得されます。
-
-以下の例は、動的な Odata サンプルの [1 つ](https://services.odata.org/V3/OData/\(S\(bwrmr2ccg0nex5gmubqxjkkz\)\)/OData.svc/)に基づいて作成されます。
-最初に 3 つのカテゴリを持つ 2 つのフィールド (**ID** および **Name**) の表示形式が作成されました。
+The following example uses
+[one](https://services.odata.org/V3/OData/\(S\(bwrmr2ccg0nex5gmubqxjkkz\)\)/OData.svc/)
+of the dynamic OData samples. A visualization was created initially,
+which had two fields (**ID** and **Name**) with three categories.
 
 <img src="images/odata-feed-visualization-editor.png" alt="ODataOpenTypesSampleV3\_All" class="responsive-img" width="85%"/>
 
-[Postman](https://www.odata.org/getting-started/learning-odata-on-postman/) を通じて、新しいプロパティを持つ新しいレコードがカテゴリ セクションに追加されました。
-変更後、ダッシュボードが更新され、新しいレコードが表示されました。
+
+A new record with a new  Property was added to the Category section through [Postman](https://www.odata.org/getting-started/learning-odata-on-postman/).
+After the changes, the dashboard was refreshed to display the new
+record.
 
 <img src="images/odata-feed-visualization-editor-new-record.png" alt="ODataRefreshedOpenTypeV3\_All" class="responsive-img" width="85%"/>
 
-OData のオープン型の詳細については、[こちら](https://docs.microsoft.com/ja-jp/aspnet/web-api/overview/odata-support-in-aspnet-web-api/odata-v4/use-open-types-in-odata-v4)を参照してください。
+For more information on Open Types in OData, refer to [this article](https://docs.microsoft.com/en-us/aspnet/web-api/overview/odata-support-in-aspnet-web-api/odata-v4/use-open-types-in-odata-v4).
 
-## 関数の使用
+## Working with Functions
 
-OData フィードによって公開されるように設定した関数は、データ ソースの  **[新しい表示形式]** メニューの **[関数]** タブに表示されます。
+Any functions you have configured to be exposed by an OData service will
+appear in the **Visualization Data** menu for your data source under the
+**Functions** tab.
 
 <img src="images/odata-feed-functions.png" alt="OData Functions tab in the Set up your entity dialog" class="responsive-img" width="55%"/>
 
-関数によっては、データを取得するために 1 つ以上の値を入力する必要がある場合があります。V3 OData サンプルには、結果を得るために **rating** の値を入力する必要がある以下のサンプル関数が含まれています。
+Depending on your function, you might need to enter one or more values
+to get your data. The V3 OData sample includes the following sample
+function, where you have to enter a **rating** value to get results.
 
 <img src="images/odata-feed-parameters.png" alt="Setting up rating value of a function and Function preview dialog" class="responsive-img" width="55%"/>
 
-準備ができたら、表示形式エディターは関数条件に一致するデータ ソースのフィールドを読み込みます。
+Once ready, the Visualizations Editor will load the fields in the data
+source which meet the function condition.
 
 <img src="images/odata-feed-get-products-by-rating.png" alt="Odata function used in the Visualization editor" class="responsive-img" width="85%"/>
 
-OData 関数の詳細については、[こちら](https://docs.microsoft.com/ja-jp/aspnet/web-api/overview/odata-support-in-aspnet-web-api/odata-v4/odata-actions-and-functions)を参照してください。
-
+For more information on OData functions, please refer to [this article](https://docs.microsoft.com/en-us/aspnet/web-api/overview/odata-support-in-aspnet-web-api/odata-v4/odata-actions-and-functions).

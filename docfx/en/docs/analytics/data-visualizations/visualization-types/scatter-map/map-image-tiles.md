@@ -1,89 +1,87 @@
 ---
-title: 散布図で画像タイルを使用する方法
-_description: ズーム時に別のマップ レイヤーに切り替えることができる画像タイル機能について説明します。
-_language: ja
+title: How to Use Image Tiles with Scatter Maps
+_description: Learn all about the image tile feature that will allow you to switch to a different map layer upon zooming.
 ---
 
-# 散布マップで画像タイルの使用
+# Using Image Tiles with Scatter Maps
 
-**画像タイル**機能を使用して、ズーム時に Analytics のクリア グレーの背景から別のマップ レイヤーに切り替えることができます。マップ サービス プロバイダーから提供される追加の詳細は、分析のコンテキストを提供します。
+The *image tiles* feature allows you to switch from the clear grey background of Analytics to a different map layer upon zooming. The additional detail coming from the map service provider will provide more context to your analysis.
 
 <img src="images/scatter-map-zoomed-tile-providers.png" alt="Scatter map in Dashboard View mode using zoom" class="responsive-img"/>
 
-**表示形式エディターの設定**で提供される**スライダー**を使用して、画像タイルを使用するために移行するズーム レベルを指定できます。左から右へスライドすると、トランジションの瞬間が最小ズームから最大ズームに変更されます。
+You can use the *slider* provided in the *Visualization Editor Settings* to specify at which zoom level you want to transition to using image tiles. Sliding left to right changes the moment of transition from minimum to maximum zoom. 
  
 <img src="images/tile-source-zoom-slider.png" alt="Zoom level slider in the Visualization Editor Settings" class="responsive-img"/>
 
 
 <a name='adding-image-tiles'></a>
-## マップに画像タイルを追加
+## Adding Image Tiles to Your Maps
 
-画像タイルを使用するには:
+To use image tiles:  
 
-1. 表示形式エディターの [設定] で [背景] に移動し、[画像タイルの使用] ボックスがチェックされていることを確認します。
-2. タイル プロバイダーが構成されていない場合、表示されるバナーのボタンをクリックします (以下のスクリーンショットを参照)。
+1. In the _Visualization Editor_, go to _Settings_ > _Background_ and make sure _Use Image Tiles_ box is checked.  
+2. If no tile provider is configured, click the button in the banner that shows up (see screenshot below). 
 
     <img src="images/configure-tile-provide-banner-button.png" alt="Yellow banner in settings prompting users to configure a tile provider on member or organization level" class="responsive-img"/>
    
-    ここには、タイル プロバイダーを構成するための 3 つのレベルがあります。
+    Here you are presented with three levels to configure a tile provider at: 
 
-    * **メンバー**
-    * **ワークスペース** - このオプションは、ワークスペース内でダッシュボードを作成する場合にのみ表示されます。
-    * **組織** - このオプションは、組織ワークスペースのメンバーである場合、または組織のメンバーであるワークスペース内でダッシュボードを作成する場合にのみ表示されます。
+    * *Member*
+    * *Workspace* - this option only appears when you creatе the dashboard inside a workspace
+    * *Organization* - this option will only appear, if you are part of the Organization workspace or you creatе the dashboard inside a workspace, which is part of the Organization.
 
-3. タイル プロバイダーを設定するレベルを選択します。
+3. Choose the level you prefer to set up a tile provider. 
 
-    開いたダイアログは、すべてのレベルで同様です。このダイアログは、**個人設定**または**ワークスペース/組織の設定**でも確認できます。
+    The dialog that opens is similar for all levels. You can also find this dialog anytime in your *personal settings* or your *workspace's/Organization's settings*. 
 
     <img src="images/tile-provider-settings-personal.png" alt="Map Image Tiles Personal settings" class="responsive-img"/>
 
-    >[!NOTE]
-    >組織/ワークスペース レベルでタイル プロバイダーを設定する: 組織/ワークスペースの*管理者*である場合のみ、組織またはワークスペース レベルでタイル プロバイダーを構成できます。これにより、このワークスペース/組織のすべてのメンバーが構成したタイル プロバイダーを使用できるようになります。
+    >[!NOTE] **Setting up a tile provider at Organizational/workspace level**. 
+    > You can configure a tile provider at the Organizational or workspace level only if you are an *Owner* in the Organization/workspace. This will allow all members of this workspace/Organization use the tile provider you configured. 
 
-4. プロバイダーのドロップダウンで 1 つのオプションを選択します。
+4. For _Provider_ choose one of the options in the dropdown: 
 
     * *Esri*
     * *Bing*
     * *MapBox*
-    * [なし] オプションを選択すると、このレベルでタイル プロバイダーを無効にしますが、Analytics は他のユーザーに通知します (以下のスクリーンショットを参照)。
+    * If you choose the *None* option you will disable the tile provider at this level, but Analytics will let others know about this (shown in the screenshot below).
 
-        <img src="images/provider-disabled-note.png" alt="A Message stating the following: This map is not displayed as intended. You could turn on image tiles by setting up a tile provider." width="40%"/>
+        <img src="images/provider-disabled-note.png" alt="A Message stating the following: This map is not displayed as intended. You could turn on image tiles by setting up a tile provider." class="responsive-img"/>
      
-    * **[指定なし]** オプションは、選択したレベル (個人用、ワークスペース、または組織) でタイル プロバイダーの使用を無効にしますが、他のユーザーに通知しません。以下のバナーは、すべてのレベルで [指定なし] オプションを選択した場合にのみ表示されます。
+    * The *Not Specified* option will also disable using a tile provider at the selected level (personal, workspace or organizational), but without notifying other users. You will only see the following banner if the _Not Specified_ option is selected at all levels: 
     
         <img src="images/not-specified-all-levels-yellow-banner.png" alt="Yellow banner message prompting users to set up a tile provider" class="responsive-img"/>
     
-    ただし、[指定なし] オプションを使用すると、使用するタイル プロバイダーを決定する際に Analytics はこのレベルを無視します。詳細については、[「Analytics は使用するタイル ソース プロバイダーをどのように決定しますか?」](#resolution-process)を参照してください。
+    The _Not Specified_ option, however, makes Analytics ignore this level when determining which tile provider to use. For further details, check [How does Analytics determine which tile source provider to use?](#resolution-process).  
  
-5. 選択したプロバイダーの認証トークンを追加します。トークンはマップ サービス アカウントで確認できます。追加すると、Analytics に保存されます。設定でタイル プロバイダーを無効にした回数に関係なく、再度追加せずに使用できます。
+5. Add the _Authentication Token_ for the selected provider. The token can be found in your map service account. Once you add it, it will be stored in Analytics for future use. You can use it without adding it again no matter how many times you disable the tile provider in your settings.  
 
-6. **個人設定**の場合、ダイアログを閉じると変更が自動的に更新されます。**組織/ワークスペース設定**の場合、**[更新]** をクリック/タップしてダイアログを閉じます。
+6. For *Personal settings*, just close the dialog and your changes will be automatically updated. For *Organization/Workspace settings*, click/tap *Update* and close the dialog.
 
 <a name='resolution-process'></a>
-## Analytics は使用するファイル プロバイダーをどのように決定しますか？
+## How does Analytics determine which file provider to use?
 
-**[画像タイルの使用]** が有効な散布マップを開くと、Analytics は使用するタイル プロバイダーを解決します。タイル プロバイダー (およびその認証トークン)は、個人用、ワークスペース、組織の 3 つのレベルで指定できます (上記の[画像タイルの追加](#adding-image-tiles)セクションを参照)。
+When you open a scatter map where *Use Image Tiles* is enabled, Analytics resolves which tile provider to be used. The tile provider (and its authorization token) can be specified on any of three levels of user settings: Personal, Workspace, Organization (see more in [Adding Image Tiles](#adding-image-tiles) above). 
 
-**タイル プロバイダーが複数のレベルで指定されている**場合はどうなりますか？開いた散布マップにいずれかのタイル プロバイダーが使用されていることがわかります。Analytics はどのように選択しましたか?
+What if a tile provider is **specified on more than one level**? You will notice that one of the tile providers is being used for the scatter map you opened. How did Analytics choose it? 
 
-ダッシュボードの管理者は、他の設定よりも優先される設定を決定する最も重要な要素です。ダッシュボードは、ユーザー、組織、またはワークスペースが管理できます。
+The most important factor in determining which level settings take precedence over the others is who owns the dashboard. A dashboard can be owned by a user, the Organization, or a workspace. 
 
-### ダッシュボードがユーザーまたは組織によって管理されている場合
+### When the dashboard is owned by a user or by the Organization
 
-ダッシュボードがユーザー ([アイテム] スペースで作成) または組織 (組織ダッシュボードのスペースで作成) によって管理されている場合、Analytics は以下のようにタイル プロバイダーを確認します。
+When the dashboard is owned by a user (it's created in the _My Stuff_ space), or by the Organization (it's created in the Organization dashboards' space), Analytics checks for a tile provider, as follows: 
 
-1. **組織**ワークスペースの設定で、ユーザーが組織の一部である場合。
-2. ダッシュボードを開くユーザーの**個人**設定。
+1. In the *Organization* workspace settings, if the user is part of an Organization.
+2. In *Personal* settings of the user opening the dashboard. 
 
-### ダッシュボードがワークスペースによって管理されている場合 
+### When the dashboard is owned by a Workspace 
 
-ワークスペースがダッシュボードを管理している場合、つまりワークスペース ダッシュボードのスペースで作成されている場合、Analytics は以下の設定でタイル プロバイダーを確認します。
+When the dashboard is owned by a workspace, i.e. it's created in a workspace dashboards' space, Analytics checks for a tile provider: 
 
-1. この**ワークスペース**の設定
-2. **組織**の設定で、管理ワークスペースが**組織の一部**である場合。
-3. ダッシュボードを開くユーザーの**個人**設定。
+1. In this *Workspace*'s settings.
+2. In the *Organization* settings when the owning workspace is *part of the Organization*.
+3. In *Personal* settings of the user opening the dashboard.
 
->[!NOTE] 
-> **常にタイル プロバイダーを使用する:**
-> 個人設定でこのチェックボックスをオンにすると、複数レベルのタイル プロバイダーが構成されている場合、Analytics は常にタイル プロバイダーを選択します。これは上記のすべてのシナリオに当てはまります。
+>[!NOTE] **Always use my tile provider**. 
+> Marking this checkbox in your personal settings makes Analytics always choose your tile provider when tile providers on multiple levels are configured. This goes for all the scenarios above. 
 

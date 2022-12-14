@@ -1,56 +1,68 @@
 ---
-title: Slingshot で Google BigQuery データ ソースを使用する方法
-_description: Google BigQuery データ ソースを設定して使用する方法と、速度低下することなく巨大なデータセットを使用する方法を説明します。
-_language: ja
+title: How to use Google BigQuery data source in Slingshot
+_description: Learn how to set up and use Google BigQuery data source and use huge datasets with no slow down.
 ---
 
 # Google BigQuery
 
-Google BigQuery データ ソースは、Analytics 内でビッグ データを処理する際の速度を大幅に向上させます。これにより、速度低下することなく、何百万ものレコードを含むデータセットを表示形式に使用できます。
+The Google BigQuery data source provides a significant speed increase
+when processing big data within Analytics. This allows you to use datasets
+with millions of records for your visualizations with no slow down.
 
-## Google BigQuery への接続
+## Connecting to Google BigQuery
 
-Google BigQuery を選択すると、**Google アカウント**に接続するように求められます。
+Upon selecting Google BigQuery, you will be prompted to connect to your
+**Google account**.
 
-Google アカウントを追加すると、BigQuery データセットにアクセスできるようになります。それらを表示形式に使用するには:
+After you add a Google account, you will have access to your BigQuery
+datasets. To start using them for your visualizations:
 
-1.  **[データ ソースの作成]** ダイアログで**プロジェクトを選択します**。
+1.  **Select a project** in the *New Data Source* dialog that opens:
 
-    <img src="images/google-big-query-projects.png" alt="Select a project in the New Data Source dialog" class="responsive-img" width="50%"/>
+    <img src="images/google-big-query-projects.png" alt="Select a project in the New Data Source dialog" class="responsive-img" width="55%"/>
 
-    >[!NOTE]
-    >BigQuery の一般公開データセットを使ったデモ プロジェクト: 上のスクリーンショットの 2 つの公開 データ プロジェクトは、Analytics チームによって構成されたデモ プロジェクトです。BigQuery データセットを持たないユーザーは表示形式エディターでこのデータ ソースを操作して、ビッグ データがどのように迅速に処理されているかを確認できます。
+    >[!NOTE]    
+    **Demo Public BigQuery Data Projects in Analytics**.
+    The two public data projects in the screenshot above are demo
+    projects configured by the Analytics's team. They allow users with no
+    BigQuery datasets to play with this data source in the Visualization
+    editor and see how swiftly big data is being processed.
 
 
-2.  データ セットの横にある空の円をマークして、**データセットを選択します**。
+2.  **Select a dataset** by marking the empty circle next to it:
 
-    <img src="images/google-big-query-dataset.png" alt="Select a dataset dialog" class="responsive-img" width="50%"/>
+    <img src="images/google-big-query-dataset.png" alt="Select a dataset dialog" class="responsive-img" width="60%"/>
 
-
-3.  データセットから**表を選択します**。右側の*目のアイコン*を使用して、データをプレビューします。
+3.  **Select a table** from the dataset. Use the *eye icon* on the right
+    to preview the data.
 
     <img src="images/google-big-query-tables.png" alt="Select a table dialog" class="responsive-img" width="60%"/>
 
-これで、Google BigQuery から取得したデータを使用して表示形式の構築を開始できる、*表示形式エディター*に移動します。
+You are now directed to the *Visualization editor* where you can start
+building your visualizations with the data retrieved from Google
+BigQuery.
 
- <img src="images/google-big-query-visualization-editor.png" alt="Google Big Query data in the visualization editor" class="responsive-img" width="80%"/>
+ <img src="images/google-big-query-visualization-editor.png" alt="Google Big Query data in the visualization editor" class="responsive-img" width="85%"/>
 
-## 表示形式エディターでの制限事項
+## Limitations in the Visualization Editor
 
-Analytics でビッグ データを操作する場合、数百万のレコードを持つデータ ソースを処理するための特定のアプローチにより、表示形式エディターにはいくつかの制限があります。
+When working with big data in Analytics, there are a couple of limitations
+in the Visualization Editor due to the specific approach used to handle
+data sources storing millions of records.
 
-### 計算フィールドで使用できる関数の制限
+### Limitations in Functions Available for Calculated Fields
 
-現在、BigQuery のデータを使用する*計算フィールド*で、使用できる**関数**の数は限られています。
+Currently, only a limited number of **functions** are available for
+*Calculated Fields* using data from BigQuery:
 
-- [日付](~/jp/data-visualizations/fields/calculated-fields/date.html) - date; time.
+- [Date](~/docs/analytics/data-visualizations/fields/calculated-fields/date.md) - date; time.
 
-- [論理](~/jp/data-visualizations/fields/calculated-fields/logic.html) - false; true; if; not.
+- [Logic](~/docs/analytics/data-visualizations/fields/calculated-fields/logic.md) - false; true; if; not.
 
-- [数学](~/jp/data-visualizations/fields/calculated-fields/math.html) - abs; exp; log; log10; mod; rand; sign; sqrt; trunc.
+- [Math](~/docs/analytics/data-visualizations/fields/calculated-fields/math.md) - abs; exp; log; log10; mod; rand; sign; sqrt; trunc.
 
-- [文字列](~/jp/data-visualizations/fields/calculated-fields/string.html) - find; len; trim; lower; mid; upper.
+- [Strings](~/docs/analytics/data-visualizations/fields/calculated-fields/string.md) - find; len; trim; lower; mid; upper.
 
-### データ ブレンディングの制限
+### Limitations in Data Blending
 
-現在、Google BigQuery データ ソースからのデータを使用する場合、データ ブレンディング ([データ ソースを 1 つの表示形式に統合](~/jp/datasources/data-blending.html)) は**使用できません**。
+Currently, Data Blending ([combining data sources in one visualization](~/docs/analytics/datasources/data-blending.md)) is **not available** when using data from the Google BigQuery data source.

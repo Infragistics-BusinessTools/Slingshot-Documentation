@@ -1,16 +1,17 @@
 ---
-title: 財務チャートを作成して使用する方法
-_description: Slingshot 分析で表示形式に財務チャートを使用する方法を説明します。
-_language: ja
+title: How to Create and Use Financial Charts
+_description: Find out how to use Financial Charts for your visualizations in Slingshot Analytics.
 ---
 
-# 財務チャート
+# Financial Charts
 
-財務チャートは、終日の株価の動き (始値と終値、最高値と最低値) を表すために使用されます。
+Financial charts are used to describe stock price movements during a
+full day (open and close values, and the highest and lowest values).
 
 <img src="images/financial-chart-types.png" alt="Using financial chart in a dashboard" class="responsive-img" width="55%"/>
 
-各ロウソクまたは OHLC セクションの色は、終値が開始値を下回っているか上回っているかを表すためのものです。
+The color for each of the candle or OHLC sections is meant to represent
+whether the closing price is below or above its starting value.
 
 <img src="images/financial-charts-example.png" alt="Financial Charts Sample visualization" class="responsive-img" width="85%"/>
 

@@ -1,29 +1,32 @@
 ---
-title: 表示形式エディターで KPI ゲージを作成する方法
-_description: Slingshot 分析で表示形式に KPI ゲージを使用する方法を説明します。
-_language: ja
+title: How to Create KPI Gauge in Visualizations Editor
+_description: Find out how to use KPI Gauge for your visualizations in Slingshot Analytics.
 ---
 
-# KPI ゲージ
+# KPI Gauge
 
-KPI (Key Performance Indicator: キー パフォーマンス インジケーター) とは、パフォーマンス管理の特定のタイプを表す用語です。KPI は個別のニーズによって変化し、目標に対する進捗や時間軸での傾向など、組織の重要なメトリックスに関する情報を提供します。
+Key Performance Indicators (KPIs) is a measurable value that demonstrates how effectively a company is achieving key business objectives. The indicators vary depending on the specific needs of the viewer, but they always provide
+information over metrics important for the organization, such as the
+progress towards goals and over-time trends.
 
-[テキスト ゲージ](gauge-charts.html#text-gauge) と同様に、KPI ゲージは値列を大きなフォントで表示します。ただし、KPI の値は、前の期間の同じ値に対しても評価されます。
+Similarly to the [Text Gauge](gauge-charts.html#text-gauge), the KPI Gauge
+displays the Value column in a large font. However, the value in the KPI
+is also evaluated against the same value for a previous time period.
 
 <img src="images/pivot-editor-view-kpi-gauge.png" alt="KPI Gauge view in the Visualization editor" class="responsive-img"/>
 
-カテゴリを追加すると、1 つの表示形式に複数の KPI を含めることもできます。
+You can also have multiple KPI's in one visualization if you add a
+Category.
 
 <img src="images/multiple-kpi-gauges.png" alt="Multiple KPI Gauges" class="responsive-img"/>
 
-## インジケータ設定
+## Indicator Settings
 
-KPI ゲージには[スパークライン](sparkline-charts.html)表示形式と同様の設定があり、それを使用して以下を構成できます:
+The KPI gauge has similar settings to the [sparkline](sparkline-charts.md)
+visualization, through which you can configure:
 
-  - **[期間]**: 両方の値を比較するために使用する期間。
-
-  - **[差異の表示]**: 差異を [値]、[パーセンテージ]、または [値とパーセンテージ] の両方として表示するかどうか。
-
-  - **[値の増加を表す色]**: 差異インジケータの色。
+  - **Type**: the time period you will use to compare both values.
+  - **Show difference as**: whether you will display the difference as a value, percentage, or both value and percentage.
+  - **When difference is positive**: the color for the difference indicator.
 
 <img src="images/advanced-settings-kpi-gauge.png" alt="Advanced Settings KPI Gauge" class="responsive-img"/>

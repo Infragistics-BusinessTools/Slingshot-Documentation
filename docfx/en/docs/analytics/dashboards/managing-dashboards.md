@@ -1,41 +1,42 @@
 ---
-title: Slingshot でダッシュボードを管理する方法
-_description: アクセスできるすべての種類のダッシュボードを管理および整理する方法を学びましょう。
-_language: ja
+title: How to Manage Your Dashboards in Slingshot
+_description: Learn how to manage and organize every type of dashboards you have access to.
 ---
 
-# ダッシュボードの管理
+# Managing Your Dashboards
 
-個人用スペースまたはワークスペースでダッシュボードを管理しようとしているかどうかにかかわらず、**[作成済み]** または **[自分と共有済み]** のいずれかをいつでも選択できます。
+Whether you are trying to manage dashboards in your personal space or in
+a Workspace, you will always be able to choose between: *dashboards created by you* or *dashboards shared with you*.
 
 <img src="images/dashboard-options.png" alt="Filter for viewing dashboards" class="responsive-img" width="75%" />
 
-## ダッシュボードの整理
+## Organizing your Dashboards
 
-Analytics を使用すると、ダッシュボードをさまざまな**リスト**および**セクション**に保存および整理できます。セクションはリストを分割したものです。リストには 1 つ以上のセクションを含めることができます。
+Analytics allows you to store and organize your dashboards in different *Lists* and *Sections*. Sections are simply divisions of a list. A list can have one or more sections.
 
-次の手順でセクションを作成できます:
+You can create a section with the following steps:
 
-1. **[ダッシュボード]** の**オーバーフロー** メニューを開きます。
-2. **[セクションの追加]** を選択します。
-3. 名前を付けて、**[作成]** をクリックまたはタップします。
-4. セクションに名前を付けたら、**[+ ダッシュボード]** ボタンを使用してダッシュボードの追加を開始できます。
+1. Open the *overflow* menu of **My Dashboards**.
+2. Choose **Add Section**. 
+3. Name it and click/tap on **Create**.
+4. Once you have named your section, you can start adding dashboards to it with the **+Dashboard** button.
 
 <img src="images/add-section-button.png" alt="Create a section option" class="responsive-img" width="75%"/>
 
-次の手順でリストを作成できます:
+You can create a list with the following steps:
 
-1. **[+ リスト]** ボタンをクリックまたはタップします。
-2. リストに名前を付けます。
-3. **[作成]** をクリックまたはタップします。
-4. リストに名前を付けたら、**[+ ダッシュボード]** ボタンでダッシュボードの追加を開始できます。
+1. Click/tap on on the **+List** button.
+2. Give a name to the list.
+3. Click/tap on **Create**.
+4. Once you have named your list, you can start adding dashboards with the **+Dashboard** button.
 
-## ダッシュボードの移動またはコピー
+## Moving or Copying Dashboards
 
-ダッシュボードのオーバーフロー メニュー アクションを開き、ダッシュボードをコピーするか、**セクション**や**ワークスペース**の間で移動するかを選択します。
+Open the dashboard’s overflow menu actions and choose to copy the dashboard or move it between **sections** and/or **workspaces**.
 
 <img src="images/dashboard-overflow-menu-options.png" alt="Displaying the dashboard’s overflow actions" class="responsive-img" width="75%"/>
 
-ダッシュボードを**データ &amp; 分析のカタログ**に移動することもできます。管理者は、組織全体が表示できるようにダッシュボードを移動できるかどうかを決定します。
+You can also move the dashboard to the *Data and Analytics Catalog*. The administrator will decide if the dashboard can be moved in order for the entire organization to be able to see it.
 
 <img src="images/data-and-analytics-catalog.png" alt="A dialog for moving your dashboard to the Data anf Analytics catalog " class="responsive-img" width= "40%"/>
+

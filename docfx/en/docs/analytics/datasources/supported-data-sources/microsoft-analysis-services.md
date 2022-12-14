@@ -1,123 +1,141 @@
 # Microsoft Analysis Services
 
-Microsoft SQL Analysis Services (SSAS) は、Microsoft SQL Server の OLAP (同時に複数のデータベース システムからの情報のオンライン分析処理) およびデータ マイニング ツールです。
+Microsoft SQL Analysis Services (SSAS) is an OLAP (online analytical
+processing of information from multiple database systems at the same
+time) and data mining tool in Microsoft SQL Server.
 
+>[!NOTE] **Limitations in Web**. In the *Analytics Web* app, you can connect only to publicly accessible Microsoft Analysis Services addresses. If your Analysis Services address is restricted for the general public (private or hosted in the company's intranet, for example), you can use *Analytics Desktop*, *iOS* or *Android* to connect to it. The device where you're running Analytics needs to have access to the Analysis Services address. This limitation does not apply to *Analytics Embedded*.
 
->[!NOTE]
->**Web の制限**。*Analytics Web* アプリでは、公的にアクセス可能な Microsoft Analysis Services アドレスにのみ接続できます。Analysis Services アドレスが一般公開 (プライベートまたは会社のイントラネットでホストされているなど) に制限されている場合は、*Analytics Desktop*、*iOS*、または *Android* を使用して接続できます。Analytics を実行しているデバイスは、Analysis Services アドレスにアクセスできる必要があります。この制限は、*Analytics Embedded* には適用されません。
+## Connecting to Microsoft Analysis Services
 
-## Microsoft Analysis Services への接続
+There are two modes you can use when configuring a Microsoft Analysis
+Services data source depending on your server's settings -
+[*Native*](#native) and [*HTTP*](#http).
 
-Microsoft Analysis Services データ ソースを構成するときにサーバー設定に基づいて使用できるモジュールが 2 つあります - [*Native*](#native) および [*HTTP*](#http)。
-
-Native および HTTP モードの詳細については、[Microsoft Instance Management ヘルプ (英語)](https://learn.microsoft.com/ja-jp/analysis-services/instances/connect-from-client-applications-analysis-services?view=asallproducts-allversions&viewFallbackFrom=sql-server-2017) をご覧ください。
+For more information on both Native and HTTP mode, visit the [Microsoft Instance Management help](https://docs.microsoft.com/en-us/sql/analysis-services/instances/connect-to-analysis-services?view=sql-server-2017).
 
 <a name='native'></a>
-### Native の使用
+### Using Native
 
-Microsoft Analysis Services データ ソースを *Native* モード用に構成するため、以下の情報が必要です。
+To configure the Microsoft Analysis Services data source for *Native*
+mode, you will need to enter the following information:
 
-<img src="../images/native-configuration-microsoft-analysis-services.png" alt="Configure Microsoft Analysis Services connection" class="responsive-img" width="45%"/>
+<img src="../images/native-configuration-microsoft-analysis-services.png" alt="Configure Microsoft Analysis Services connection" class="responsive-img" width="50%"/>
 
+1. **Connection Mode**: two options to chose from: HTTP or Native.
 
-1. **接続モード**: HTTP または Native の 2 つのオプションから選択できます。
+2.  **Server**: this is the hostname or IP address of the computer on
+    which the server is running.
 
-2.  **[サーバー]**: サーバーが実行されているコンピューターのホスト名または IP アドレスです。
-
-    以下の手順で**ホスト名**情報も確認できます。コマンドはサーバー マシンで実行する必要があることに注意してください。
+    You can find the *hostname* by following the steps below. Please
+    note that the commands should be executed on the server machine.
 
     | WINDOWS                                                                                                         | LINUX                                                                                                         | MAC                                                                  |
     | --------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------- |
-    | 1\. ファイル エクスプローラーを開きます。                                                                                     | 1\. ターミナルを開きます。                                                                                          | 1\. システム環境設定を開きます。                                         |
-    | 2\. [マイ コンピューター] → [プロパティ] を右クリックします。                                                                   | 2\. **$hostname** を入力します。                                                                                     | 2\. 共有セクションに移動します。                                 |
-    | ホスト名は、[コンピューター名、ドメインおよびワークグループの設定] セクションの下に [コンピューター名] として表示されます。 | [ホスト名] と [DNS ドメイン名] が表示されます。Analytics には**ホスト名**のみを含めるようにしてください。 | [ホスト名] は、上部の [コンピューター名] の下に表示されます。 |
+    | 1\. Open the File Explorer.                                                                                     | 1\. Open a Terminal.                                                                                          | 1\. Open System Preferences.                                         |
+    | 2\. Right Click on My Computer \> Properties.                                                                   | 2\. Type in **$hostname**                                                                                     | 2\. Navigate to the Sharing Section.                                 |
+    | Your Hostname will appear as "Computer Name" under the *Computer name, domain and workgroups settings* section. | Your Hostname will appear along with your DNS domain name. Make sure you only include **Hostname** in Analytics. | Your Hostname will be listed under the "Computer Name" field on top. |
 
-  以下の手順で *IP アドレス*も確認できます。コマンドはサーバー マシンで実行する必要があることに注意してください。
+    You can find the *IP address* by following the steps below. Please note that the commands should be executed on the server machine.
 
-  | WINDOWS                              | LINUX                             | MAC                                                           |
-  | ------------------------------------ | --------------------------------- | ------------------------------------------------------------- |
-  | 1. コマンド プロンプトを開きます。            | 1. ターミナルを開きます。               | 1. ネットワーク アプリケーションを起動します。                                   |
-  | 2. **ipconfig** を入力します。              | 2. **$ /bin/ifconfig** を入力します。    | 2. 接続を選択します。                                    |
-  | **IPv4 Address** は IP アドレスです。 | **Inet addr** は IP アドレスです。 | **IP アドレス** フィールドに必要な情報が含まれます。 |
+      | WINDOWS                              | LINUX                             | MAC                                                           |
+      | ------------------------------------ | --------------------------------- | ------------------------------------------------------------- |
+      | 1. Open a Command Prompt.            | 1. Open a Terminal.               | 1. Launch your Network app.                                   |
+      | 2. Type in **ipconfig**              | 2. Type in **$ /bin/ifconfig**    | 2. Select your connection.                                    |
+      | **IPv4 Address** is your IP address. | **Inet addr** is your IP address. | The **IP Address** field will have the necessary information. |
 
 
-3.  (オプション) の **[ポート]**: サーバー ポートの詳細。情報が入力されない場合、Analytics はデフォルトでヒント テキスト (2383) のポートに接続します。
+3.  *(Optional)* **Port**: server port details. If no information is
+    entered, Analytics will connect to the port in the hint text (2383) by
+    default.
 
-4.  **[資格情報]**: [資格情報] を選択した後、Microsoft Analysis Services の資格情報を入力するか、既存の資格情報 (適用可能な場合) を選択できます。
+4.  **Credentials**: after selecting *Credentials*, you will be able to
+    enter the credentials for your Microsoft Analysis Services or select
+    existing ones if applicable.
 
 <a name='http'></a>
-### HTTP の使用
+### Using HTTP
 
-Microsoft Analysis Services データ ソースを *HTTP* モード用に構成するため、以下の情報が必要です。
+To configure the Microsoft Analysis Services data source for *HTTP*
+mode, you will need to provide the following information:
 
-<img src="../images/http-configuration-microsoft-analysis-services.png" alt="Configure Microsoft Analysis HTTP mode connection" class="responsive-img" width="45%"/>
+<img src="../images/http-configuration-microsoft-analysis-services.png" alt="Configure Microsoft Analysis HTTP mode connection" class="responsive-img" width="50%"/>
 
+1. **Connection Mode**: two options to chose from: HTTP or Native.
 
-1. **接続モード**: HTTP または Native の 2 つのオプションから選択できます。
+2.  **URL**: the HTTP eService URL to the server. For example,
+    *10.1.0.15/olap/msmdpump.dll*.
 
-2.  **[URL]**: サーバーの HTTP eService URL。例: *10.1.0.15/olap/msmdpump.dll*。
+3.  **Credentials**: credentials of your user account for the Analysis Services server.
 
-3.  **[資格情報]**: Analysis Services サーバーのユーザー アカウントの資格情報。
+## Configuring Databases
 
-## データベースの構成
+After your credentials for the Analysis Services server are verified,
+Analytics will load and show the databases on the server. Select a database and click/tap on **Select and continue** to set it up.
 
-Analysis Services サーバーの資格情報が確認されたら、Analytics はサーバー上のデータベースを読み込んで表示します。データベースを選択し、**[選択して続行]** をクリックまたはタップして設定します。
+Choose a database *cube* and click/tap on **Select Data** to continue to the *Visualizations Editor*.
 
-データベース **キューブ**を選択し、**[データの選択]** をクリック / タップして、表示形式エディターに進みます。
-
-<img src="images/data-source-cubes-microsoft-analysis-services.png" alt="A list of different cubes in the Data Source Details dialog" class="responsive-img" width="45%"/>
+<img src="images/data-source-cubes-microsoft-analysis-services.png" alt="A list of different cubes in the Data Source Details dialog" class="responsive-img" width="50%"/>
 
 <a name='visualization-editor'></a>
-## 表示形式エディターでの作業
+## Working in the Visualization Editor
 
-Microsoft Analysis Services などのキューブ データ ソースを使用してダッシュボードを作成すると、**表示形式エディター**でフィールドが異なって体系化されます (下のスクリーンショットを参照)。キューブのデータ ソースは、キューブのデザイナーが事前に作成した階層と集計で構成されています。
+When you create a dashboard using a cube data source like Microsoft Analysis Services, you will see fields organized differently in the  *Visualizations Editor* (see screenshot below). Cube data sources consist of hierarchies and aggregations, which have been created by the cubes' designers in advance.
 
 <img src="images/visualization-editor-microsoft-analysis-services.png" alt="Using the Microsoft Analysis Service data source information in the visualization editor" class="responsive-img" width="85%"/>
 
+In the screenshot above, you may notice that there is no "Fields" heading on the left. Instead, there are two sections in their own query field:
 
-上のスクリーンショットでは、左側に [フィールド] の見出しがないことに気付くかもしれません。代わりに、クエリ フィールドに 2 つのセクションがあります:
+1.  **Dimensions** (depicted by a cube icon with a pink side):
+    Dimensions are structures used to categorize data that can be
+    measured. Elements in a dimension can be organized by:
 
-1.  **ディメンション** (ピンク色の側面の立方体アイコンで表示): ディメンションは、測定可能なデータを分類するために使用される構造です。ディメンションの要素は、以下の方法で整理できます。
+    a.  **Hierarchies** - when elements in a dimension are organized by
+        hierarchy, you can use the whole hierarchy or part of it,
+        starting from an element at any lower level. For example, if you have a "Geography" dimension organized in "Country → State → City" hierarchy, you are allowed to drag and use only the "State → City" part of this hierarchy.
 
-    a.  **階層** - ディメンション内の要素が階層別に編成されている場合、下位レベルの要素から開始して、階層全体または階層の一部を使用できます。たとえば、「国 → 都道府県 → 都市」階層で編成された「地理」ディメンションがある場合、この階層の「都道府県 → 都市」部分のみをドラッグして使用できます。
+    b.  **Named Sets** (depicted by a folder icon and named "Sets") - an arbitrary collection of elements with a name (e.g. "Top 50 Customers").
 
-    b.  **名前付きセット** (フォルダーアイコンで示され、Sets という名前) - 名前を持つ要素の任意のコレクション (Top 50 Customers など)。
+    c.  **Attributes** - elements are organized in single-level
+        hierarchies (e.g. a "Demographic" attribute, containing groups
+        of elements like "Gender," "Marital Status," etc.)
 
-    c.  **属性** - 要素は単一レベルの階層で編成されます (性別、婚姻状況などの要素のグループを含む「人口統計」属性など)。
-
-2.  **メジャー** (123 アイコンで表示): メジャーは数値データで構成されます。
+2.  **Measures** (depicted by *[123]* icon): Measures consist of numeric data.
 
 <img src="images/pivot-chart-microsoft-analysis-services.png" alt="Using the visualizatio editor with a pivot chart" class="responsive-img" width="85%"/>
 
-
-ディメンションとメジャーの詳細については、[Technet](https://learn.microsoft.com/ja-jp/previous-versions/sql/sql-server-2012/ms174527(v=sql.110)) の記事をご覧ください。
+For more information on dimensions and measures, please visit this
+[Technet article](https://docs.microsoft.com/en-us/previous-versions/sql/sql-server-2012/ms174527\(v=sql.110\)).
 
 <a name='sort-by-caption-setting'></a>
-## キャプション設定で並べ替え
+## Sort by Caption Setting
 
-またキャプションで並べ替えオプションがあり、フィルターの適用をディメンションのラベルまたは対応する値に設定できます。有効にすると、[キャプションにより並べ替える] で、ディメンションがラベルでアルファベット順に並べ替えられます。
+There is also a Sort by Caption option which defines whether the filter
+will be applied to the dimension's labels or to the corresponding
+values. When enabled, *Sort by Caption* sorts the dimensions
+alphabetically by their label.
 
-有効にするには、行または列でディメンションを選択します。[昇順] または [降順] を選択してフィールドの並べ替えを有効にし、[キャプションにより並べ替える] オプションを表示します。
+To enable it, select a dimension in *Rows* or *Columns*. Enable
+*Sorting* for the field by choosing *Ascending* or *Descending* to have
+the *Sort by Caption* option show up:
 
 <img src="../images/sort-by-option-ssas.png" alt="Dialog with the sort by caption option" class="responsive-img" width="35%" />
 
-## 設定
+## Settings 
 
-チャートの種類に応じて、設定でさまざまな変更を行うことができます。この場合、設定メニューから以下を調整できるピボット チャート タイプを使用しました。
-- タイトルの表示
-- テキスト フィールドの配置
-- 数値フィールドの配置
-- 日付フィールドの配置
-- フォント サイズ
-- 総合計の表示
-- 表示形式を他のダッシュボードまたは URL に接続
+Depending on the chart type, you can make different changes in the settings. In this case we used the pivot chart type where you can adjust the following through the settings menu:
+- Show Title
+- Text Fields Alignment
+- Number Fields Alignment
+- Date Fields Alignment
+- Font Size
+- Show Grand Totals
+- Connect the visualization to another dashboard or a URL
 
 
-表示形式エディターの準備ができたら、ダッシュボードを **[分析]** > **[ダッシュボード]** または特定のワークスペースに保存できます。
+When you are ready with the visualization editor, you can save the dashboard in **My Analytics** > **My Dashboards** or in a specific workspace. 
 
 <img src="../images/ssas-dashboard-my-analytics.png" alt="Dasboard with an information from the microsoft analysis services data source in My Analytics" class="responsive-img" width="80%"/>
 
-
-間違った資格情報を入力した場合は、エラー メッセージが表示されます (下のスクリーンショットを参照)。**[Microsoft Analysis Services にログイン]** をクリックして、資格情報を更新できます。これで問題は解決するはずです。
-
+In case you've entered wrong credentials, you will get an error message (screenshot below). You can click on *Log into Microsoft Analysis Services* and update your credentials. That should fix the issue. 
  <img src="../images/microsoft-analysis-services-authentication-failed.png" alt="Displaying the error message authentication failed" class="responsive-img" width="85%"/>

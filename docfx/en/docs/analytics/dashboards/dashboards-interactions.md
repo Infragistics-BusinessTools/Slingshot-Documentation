@@ -1,112 +1,133 @@
 ---
-title: Slingshot でダッシュボードをリンクする方法
-_description: ダッシュボードの表示形式を他のダッシュボードまたは Slingshot の URL に接続する方法を学びましょう。
-_language: ja
+title: How to Link Dashboards in Slingshot
+_description: Learn how to connect the visualizations in a dashboard with other dashboards, or URLs in Slingshot.
 ---
 
-# ダッシュボードの操作
+# Interacting with Dashboards
 
-初期画面でダッシュボードのサムネイル画像をクリックし、既存のダッシュボードを開くことができます。
+You can open existing dashboards by selecting the dashboard thumbnail image in the initial view.
 
 <img src="images/dashboard-opened-edit-mode.png" alt="dashboard opened in edit mode" class="responsive-img"/>
 
-
-さまざまな方法でダッシュボードの表示形式の **UI 操作が**できます。たとえば、表示形式がグリッド チャートの場合、水平方向および垂直方向にスクロールできます。チャート ビューではパン、ズームがサポートされています。また、基になるデータ モデルがサポートしている場合は、ドリル ダウンとドリル アップの実行が可能になります。
+You can **interact** with dashboard visualizations in various ways. For instance, if the visualization is a grid chart, you can scroll horizontally and
+vertically. The chart view supports zooming and panning. Also drill down & drill up actions become possible if the underlying data model supports it.
 
 <a name='maximized-view'></a>
-## 最大化されたビュー
+## Maximized view
 
-ダッシュボードが開くと、表示形式のいずれかにカーソルをホバーし、右上隅の矢印をクリック/タップすることで**最大化**できます。
+Once the dashboard is opened, you can **maximize** any of the dashboard visualizations by hovering over them and click/tap on the arrow in the right top corner.
 
 <img src="images/visualization-maximizing-arrow.png" alt="maximizing arrow in the top right corner" class="responsive-img"/>
 
-最大化されたビューは、より多くの情報の表示を可能にします。
+The maximized view allows a larger display of the information.
 
 <img src="images/maximized-visualization.png" alt="maximized visualization view" class="responsive-img"/>
 
-さらに、このモードでは、右上隅の**小さなチャート アイコン**をタップし、最大化されたビューを他の表示形式に切り替えることができます。エディターで使用されたデータに基づいて、さまざまな表示形式が表示されます。データで適切に機能するチャート タイプのみが提供されます。
+In this mode, you can also switch the maximized view to other visualizations by selecting the **small chart icon** in the top right corner. Different visualizations are displayed based on the data that was used in the editor. Only chart types that work well with your data will be offered.
 
-変更された表示形式を保存する場合は、編集権限を持ち、[ダッシュボード編集モード](#view-edit-mode)で右上隅のチェック アイコンを選択して変更を明示的に保存する必要があります。自分で作成したか、[管理者または変更の権限](~/jp/dashboards/sharing-dashboards/share-a-dashboard.html#access-permissions)で共有しているダッシュボードの編集権限があります。
+If you want to save the changed visualization, you need to have edit permissions, be in [dashboard Edit Mode](#view-edit-mode) and explicitly save the changes by selecting the check icon in the top right corner. You have edit permission for dashboards that are created by you or shared with you with [Owner or Modify permissions](~/docs/analytics/dashboards/sharing-dashboards/share-a-dashboard.html#access-permissions).
 
 <img src="images/chart-change-visualization-view-mode.png" alt="chart change in visualization view mode" class="responsive-img"/>
 
-さらに、表示形式メニューの右上隅にある**チャート アイコン**をクリックすると、ビューを切り替え、チャートの背後のデータを表示できます。
+You can also look at the data behind your chart if you select the **hash sign** icon.
 
 <img src="images/flip-grid.png" alt="flip to grid" class="responsive-img"/>
 
-表示形式のデータ ビハインド表示で並べ替え (昇順または降順) を適用できます。グリッドの並べ替え詳細については、[グリッド チャート](~/jp/data-visualizations/visualization-types/grid-chart.md)トピックをご覧ください。
+When viewing the data behind your visualization, you can apply sorting (ascending or descending). For more information on applying sorting to grids, check the [Grid Chart](~/docs/analytics/data-visualizations/visualization-types/grid-chart.md) topic.
 
-元の表示形式へ戻すために、**[元の形式を表示]** リンクを選択します。
+If, at any point, you want to revert back to the original visualization, you can select the **"Show Original"** link.
 
 <img src="images/change-visualization-show-original.png" alt="show original link" class="responsive-img"/>
 
-## 通常のツールチップ
+## Regular Tooltips
 
-特定の表示形式 (タッチ環境で長押すと) をクリックすると、ツールチップ ポップアップが表示されます。ツールチップは、次のようにチャートの特定のポイントで値を表示するのに役立ちます:
+By clicking on particular visualizations (press and hold in touch environments), you can see tooltips popups. Tooltips help you see values
+at a particular point of your chart like:
 
 <img src="images/tooltips-popups.png" alt="tooltips popups on visualizations" class="responsive-img"/>
 
-通常のツールチップを閉じるには、離れてクリックするかタップしてください。
+To close regular tooltips just click or tap away.
 
-## ツールチップのホバーと十字線
+## Hover Tooltips & Crosshairs
 
-**インタラクション**メニューでは、次の 2 つのオプションを有効にできます: *ツールチップのホバー*と*十字線*。どちらもダッシュボード ビュー モードの場合のみ使用できます。ダッシュボード編集モードでは使用できません。
+You will find two options in the **Interactions** menu: *Hover tooltips* and *Crosshairs*. Only *Hover tooltips* is enabled by default. Both are only available in Dashboard View mode. They can't be used in Dashboard Edit mode.
 
 <img src="images/dashboard-interactions-menu.png" alt="Accessing Analytics's Dashboard Interactions menu" class="responsive-img"/>
 
-  - *ホバー ツールチップ*を有効にすると、データにホバーした際に (タッチ環境で長押しした際に) **ツールチップ** ポップアップが表示されます。
+  - With *Hover Tooltips* enabled, you can see **tooltips** popups when you hover over data (press and hold in touch environments).
 
     <img src="images/tooltips-hover.png" alt="Analytics displays tooltips when hovering over data" class="responsive-img"/>
 
-    データをクリックすると (タッチ環境でドラッグ ツールチップをリリースすると)、ツールチップのインタラクションが適用可能な場合、ドリル ダウン、ドリル アップ、およびリンク済みのダッシュボードなどのインタラクションで **[ツール]** セクションにアクセスできます。
+    By clicking the data (releasing drag tooltips in touch
+    environments), you can access the **Tools** section with tooltip
+    interactions like drill down, drill up, or linked dashboards if
+    applicable.
 
-  - *十字線*を有効にすると、Analytics はツールチップとともに十字線要素を表示します。ツールチップにより多くのコンテキストを与えます。
+  - With *Crosshairs* enabled, Analytics shows crosshairs elements along
+    with the tooltips. Giving more context to the tooltip.
 
     <img src="images/crosshairs-enabled.png" alt="Analytics displays crosshairs along with tooltips" class="responsive-img"/>
 
-十字線は、現在次の表示形式でサポートされています: 散布図、バブル、エリア、ローソク足、折れ線、OHLC、スプライン、スプライン エリア、ステップ エリア、ステップ折れ線。
+Crosshairs are currently supported for the following data
+visualizations: Scatter, Bubble, Area, Candlestick, Line, Ohlc, Spline,
+SplineArea, StepArea, StepLine.
 
-ローソク足と OHLC の表示形式は、水平の十字線のみを表します。垂直十字線を含めると、データ ポイントの線が見えにくくなります。
+Candlestick and OHLC visualizations only display horizontal crosshairs.
+Including a vertical crosshair would make it difficult to see the lines
+on the data point.
 
-## ツールチップの合計
+## Tooltips Totals
 
-ツールチップを表示するときに、カテゴリごとに合計値を表示するように構成できます。
+When displaying tooltips, you can configure them to display total values by Category.
 
 <img src="images/tooltips-totals.png" alt="Analytics Portrait Orientation" class="responsive-img"/>
 
-この機能を有効にするには、次のように、[設定] \> [ツールチップで合計を表示] に移動します:
+To enable this feature, go to *Settings* \> *Show Totals on Tooltip*,
+like shown below:
 
 <img src="images/tooltips-configuration.png" alt="Analytics Portrait Orientation" class="responsive-img"/>
 
-合計を有効にする場合、表示形式で複数の値を表示するためにカテゴリを追加したことを確認してください。
+When enabling totals, make sure you added a Category to show multiple
+values in your visualization.
 
 <a name='view-edit-mode'></a>
-## ビュー & 編集モード
+## View & Edit Modes
 
-ダッシュボードを初めて開いた場合、**ビュー モード**でブラウズすることになります。このモードでは、表示された情報のナビゲーションやフィルタリングが可能ですが、ダッシュボード定義を変更することはできません。
+When first opening a dashboard, you will be browsing it in **View
+mode**. This mode allows you to navigate and filter the information
+displayed in it, but you won't be able to change the dashboard
+definition.
 
-ダッシュボードへの変更を適用するためには、**ダッシュボードの編集モード**に切り替える必要があります。ダッシュボードの右上隅のオーバーフロー メニューから [編集] を選択します。これにより、*自動レイアウト*、ダッシュボード *テーマ*の適用、ダッシュボードのエクスポートなどの編集オプションが有効になります。
+In order to apply changes to a dashboard, you must switch to **Dashboard
+Edit mode**. You can do this by selecting *Edit* from the overflow menu
+in the top right corner of the dashboard. This enables editing options
+such as applying *Auto Layout*, and a dashboard *Theme*.
 
-以下は、*ダッシュボード編集*モードのダッシュボードです:
+Shown below is a dashboard in *Dashboard Edit* mode:
 
 <img src="images/dashboard-opened-edit-mode.png" alt="dashboard opened in edit mode" class="responsive-img"/>
 
-**編集モードを終了するには**、右上隅の*チェック アイコン*を選択するだけです。これにより、**ビュー モード**に戻ります。
+To **exit Edit mode**, you only need to select the *check icon* in the
+top right-hand corner. This switches back to *View Mode*.
 
-## ダッシュボード フィルター
+## Dashboard Filters
 
-ダッシュボードまたは表示形式レベルで情報をフィルターできます。
+It is possible to filter information at a dashboard or a visualization
+level.
 
-  - [**ダッシュボード フィルター**](~/jp/filters/dashboard-filters.html) は、ダッシュボード編集モードを開くと使用できます (このモードにアクセスするには、ダッシュボードのオーバーフロー メニューから **[編集]** を選択します)。画面の左上隅に、現在のダッシュボード フィルターと、新しいフィルターを追加するオプションが表示されます。
+  - [**Dashboard filters**](~/docs/analytics/filters/dashboard-filters.md) are available, when you open Dashboard Edit mode (select *Edit* from the overflow menu of your dashboard to access this mode). In the left top corner of the screen, you will see the current dashboard filters and an option to add new ones.
 
-  - [**表示形式フィルター**](~/jp/filters/Visualization-Filters.html) (つまり、クイック フィルター) は最大化モードで表示されます。これらは、表示形式の名前の下にある表示形式の上部セクションにあります。
+  - [**Visualization filters**](~/docs/analytics/filters/visualization-filters.md) (a.k.a. Quick Filters) are displayed in maximized mode. You can find them in the top section of the visualization under the visualization's name.
 
-ダッシュボードと表示形式フィルターの詳細については、[このセクション](~/jp/filters/overview.html)をご覧ください。
+For more information on dashboard or visualization Filters, check out
+[this section](~/docs/analytics/filters/overview.md).
 
-## 表示形式の自動レイアウト
+## Auto Layout for Visualizations
 
-Analytics の自動レイアウトは、デバイスのサイズ制約と表示形式の量に基づいて、ダッシュボードのすべての表示形式を動的にサイズ変更します。
+Analytics's Auto Layout dynamically sizes all visualizations in your
+dashboard based on the size constraints of your device and on the amount
+of visualizations it has.
 
 <img src="images/auto-layout-dashboard.png" alt="auto layout view and resizing of dashboards" class="responsive-img"/>
 
-自動レイアウトが有効なときに表示形式のサイズを変更するには、隅を下または横にドラッグするだけです。これにより、*自動レイアウト* が自動的にオフになります。
+To start resizing visualizations while Auto Layout is enabled, just drag their corners downwards or to the side. This will automatically turn *Auto Layout* off.

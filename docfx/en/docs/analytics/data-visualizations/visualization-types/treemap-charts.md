@@ -1,84 +1,83 @@
 ---
-title: ツリーマップの表示形式を作成する方法
-_description: Slingshot 分析でツリーマップの表示形式を作成して使用する方法を説明します。
-_language: ja
+title: How to Create Treemap Visualization
+_description: Learn how to create and use Treemap Visualization in Slingshot Analytics.
 ---
 
-# ツリーマップ
+# Treemaps in Analytics
 
-ツリーマップ表示形式は、階層データをネストされた四角形のセットとして表示するために使用されます。各レベルの四角形は、サイズと色が異なります。
+The Treemap visualization is used to display hierarchical data as a set of nested rectangles. Rectangles of each level are of different sizes and colors.
 
-タイル (四角形) の各特性は、データ分析で役割を果たします:
+Each characteristic of the building tiles (rectangles) has a role in the data analysis:
 
-  * **色** - ツリーマップ表示形式で分割されるカテゴリを示します。この特性を定義するために使用されるフィールド データは、数値 (123)、文字列 (ABC)、または日付です。
-  * **サイズ** - 各カテゴリの値を示します。サイズを決定するために使用されるフィールド データは、数値 (123) のみです。
-  * **ラベル** - 表示形式の各四角形のカテゴリと値を表示します (フラット ツリーマップの場合、つまり、階層データがない場合)。階層データを含むツリーマップがある場合、現在のレベルのカテゴリと値を示す追加のラベルがあります。
+  * **Color** - shows the categories by which the treemap visualization is divided. Fields data, used to define this characteristic, can be numerical (_123_), string (_ABC_), or date.
+  * **Size** - shows the value for each category. Fields data, used to determine size, can only be numerical (_123_).
+  * **Label** - shows the category and value for each rectangle in the visualization (for link:#flat-treemap[flat treemaps (i.e. without hierarchical data)]). When you have a link:#hierarchical-treemap[treemap with hierarchical data], there is an additional label showing the category and value for the current level.
 
 <a name='flat-treemap'></a>
-## 階層データなしのツリーマップ表示形式
+## Treemap Visualizations Without Hierarchical Data
 
-以下に示すような**階層データなしの表示形式**を作成できます:
+You can create a **visualization without hierarchical data** like the one shown below:
 
 <img src="images/treemap-chart-example-no-hierarchy.png" alt="An example of a treemap with no hierarchy" class="responsive-img"/>
 
-階層のないツリーマップを使用して、パターンおよび一部と全体の関係を魅力的で明確な方法で表示できます。
+You can use treemaps with no hierarchies to show patterns and part-to-whole relations in an attractive and clear way.
 
-上記の表示形式は、Product ごとの New Sales を表示します。この表示形式を構成するには、次のことを行う必要があります:
+The visualization above displays _New Sales_ by _Product_. To build this visualization you need to do the following:
 
-1. **データ ソースの選択**ダイアログで、**Analytics のサンプル データ**を選択します。
+1. In the _Select Data Source_ dialog, choose *_Analytics Sample Data_*.
 
     <img src="images/data-source-reveal-sample.png" alt="Analytics Sample Data in the list of data sources" class="responsive-img"/>
 
-2. **表示形式エディター**で、**ツリーマップ表示形式**を選択します。
+2. In the _Visualization Editor_ choose the **Tree Map visualization**.
 
     <img src="images/choose-treemap.png" alt="Tree Map visualization in the Change Visualization dialog" class="responsive-img"/>
 
-3. ツリーマップ データ セクションで、**[ラベル]**に Product を、**[値]**に New Sales をドロップします。
+3. In the *Tree Map Data section* drop _Product_ in _Label_, and _New Sales_ in _Value_.
 
-**[ラベル]** (Product) にドロップされたデータは**色**を決定し、5 つの異なる四角形に表示形式を並べます。
+Note that the *data dropped in _Label_ (_Product_) determines the* **color** and tiles the visualization in five different rectangles.
 
-最大のタイルは、最大の New Sales 値を示します。四角形は、**左上 (最大) から右下にサイズで配置されます**。
+The biggest tile indicates the largest _New Sales_ value. Rectangles are *arranged in size from top left (biggest) to right bottom.*
 
-各四角形の**左下のラベル**には、各製品の概算値が丸めて表示されています。正確な値を表示するには、タイルをクリックしてツールチップを表示します (スクリーンショットの例を参照)。
+*The label at the left bottom* of each rectangle shows rounded approximate value for each product. To see exact values, click on a tile to show tooltips (see the screenshot example).
 
-## 階層データのツリーマップ表示形式
+## Treemap Visualizations With Hierarchical Data
 
-階層データの処理は、ツリーマップの当初の目的です。階層に構成できる値のメトリックは 1 つだけですが、カテゴリは無制限です。
+Handling hierarchical data is the treemap's initial purpose. You can have only one value metric, but unlimited different categories, organized into hierarchy.
 
 <img src="images/treemap-hierarchy-example.png" alt="Example of a hierarchical treemap visualization" class="responsive-img"/>
 
-上記の例では、ツリーマップは、Product カテゴリによって決定される 5 つの大きな四角形 (ツリーマップのブランチ) に分割されています。各ブランチには、次のカテゴリ レベル - Territory によって決定された**小さな四角形が含まれています**。下位レベルは表示されません。
+In the example above the treemap is split into five big rectangles (branches of the treemap), determined by the _Product_ category. Each of them *contains smaller rectangles*, determined by the next category level - _Territory_. Lower levels are not presented.
 
-上記の例では、**2 種類のラベル**があることに気づくかもしれません。
+You may notice *two kinds of labels* in the example above:
 
-- 左上の大きな四角形の場合 - 各製品の合計新規販売に関する情報を示します。
-- 左下の小さな四角形の場合 - 特定の国で販売されている各製品の量を示します。
+- for the big rectangles, top left - show information about total new sales of each product;
+- for the smaller rectangles, bottom left - show how much of each product is sold in a particular country.
 
-タイルの色とサイズの特性に関する情報は、[階層なしのツリーマップ](#flat-treemap.html)について述べたものと同様です。
+Information about the color and size characteristics of the tiles is similar to what was said about the [Treemaps without hierarchies](#flat-treemap).
 
-### 階層レベルのドリル アップとドリル ダウン
+### Drilling Up and Down Hierarchy Levels
 
-ツリーマップ表示形式をドリル アップおよびドリル ダウンして、異なる階層レベル間を移動できます。これを行うには、**大きな四角形の領域をクリックします** (含まれるタイルに関係なく)。ツールチップで、**ドリル ダウン/アップ**を選択します。
+You can drill up and down the treemap visualization to navigate between different hierarchy levels. To do this, *click on a big rectangle* area (irregardless of the tiles it contains). In the tooltip, select _Drill Down/Up to_.
 
 <img src="images/drill-down-select.png" alt="Select drill down in tooltip" class="responsive-img"/>
 
-### ツリーマップ レベルの詳細
+### Treemap Levels Specifics
 
-階層の最下部 (**ラベル**にドロップされた最後のフィールド) に到達すると、表示形式は[フラット ツリーマップ](#flat-treemap.html)のようになります。
+When you reach the bottom of the hierarchy (the last field dropped in _Label_), your visualization will look exactly like the [flat treemaps](#flat-treemap.).
 
 <img src="images/total-tooltips-treemap.png" alt="Tooltips in the bottom of a treemap" class="responsive-img"/>
 
-ツリーマップ表示形式の上部 (左側) にある**合計ラベル**は、すべてのレベルで変化します。Totals は、**[ラベル]** の各階層レベルの **[値]** フィールドの変更を反映しています (前の例の合計を比較してください)。上の例の合計ラベルには、日本での製品 B のすべての新規販売が表示されます。
+The *totals label* over the top of the treemap visualization (on the left) changes at every level. The _Totals_ reflect the changes in the _Value_ field for each hierarchy level in _Label_ (compare totals in the previous examples). In the example above the totals label shows all new sales of product B in Japan.
 
-**タイトルのパンくずリスト**を使用して、表示されている現在のレベルを識別します。それらをクリックして移動することもできます (ドリル アップの代わりに)。
+Use the *breadcrumbs in the title* to identify the current level, which is displayed. You can also click on them to navigate (instead of drilling up).
 
-## 表示形式エディター設定の操作
+## Working With the Visualization Editor Settings
 
 <img src="images/settings-section.png" alt="Settings section in the Visualization editor" class="responsive-img"/>
 
-ツリーマップ表示形式の **[設定]** セクションでは、以下を設定できます:
+In the _Settings_ section of the Treemap visualization you can configure the following:
 
-- **タイトルを表示** - 表示形式のタイトルを表示するかどうかを選択します。
-- **値の表示** - カテゴリに関する情報を表示する**ラベル**とさまざまなレベルの四角形の値を表示するかどうかを選択します。
-- **開始色** - 10 色のパレットから開始色を選択します。Analytics は選択に基づいて配色を調整します。
-- **リンク** - 表示形式をダッシュボードまたは URL に接続します。詳細は、「[ダッシュボード リンク](~/jp/dashboards/dashboard-linking.html)」トピックをご覧ください。
+- **Show Title** - choose whether to show the visualization's title;
+- **Show Values** - choose whether to show **labels**, displaying information about categories and values for rectangles at different levels;
+- **Start Color** - choose a start color from a 10-color palette, Analytics will use your choice to adjust a color scheme;
+- **Links** - connect the visualization to a dashboard or URL. For more information, please refer to the [Linking Dashboards](~/docs/analytics/dashboards/dashboard-linking.md) topic.

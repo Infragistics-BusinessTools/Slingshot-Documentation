@@ -1,29 +1,39 @@
-# ダッシュボードを Excel としてエクスポート
+# Exporting Excel 
 
-Analytics では、ダッシュボードに使用されるデータを **Excel 形式**にエクスポートできます。ダッシュボードの各表示形式のデータは、Excel ファイルの別のシートにあります。
+Analytics allows you to export the data used for your dashboards to the
+**Excel format**. Data for every visualization in your dashboard will be
+on a separate sheet in the excel file.
 
 >[!NOTE]
-> **Excel へのエクスポートの制限**。**テーブル データ**、つまり情報を行と列に整理したデータ ソース (スプレッドシート、CSV ファイル、データベース) を使用して、Excel のみのダッシュボードにエクスポートできます。ダッシュボードが画像や html などを使用してデータを表示する場合、Analytics は情報を Excel 形式にエクスポートできません。
+> **Export to Excel limitations**. You can export to Excel only **dashboards using table data**, i.e. data sources organizing information into rows and columns (spreadsheets, CSV files, databases). If your dashboard uses images, html, etc. to visualize data, Analytics will not be able to export the information to the Excel format.
 
-1.  ダッシュボードの右上隅にあるオーバーフロー メニューに移動し、**[エクスポート]** を選択します。
+1.  Go to the overflow menu in the upper right-hand corner of the
+    dashboard and select **Export**.
 
-  <img src="../images/export-option-excel.png" alt="Export option in the overflow menu" class="responsive-img" width="45%"/>
+  <img src="../images/export-option-excel.png" alt="Export option in the overflow menu" class="responsive-img" width="55%"/>
 
-2. 次のダイアログを開きます。
+2. The following dialog will open up:
 
   <img src="images/export-dashboard-as-excel.png" alt="Settings for Excel spreadsheet in the Export Dashboard menu" class="responsive-img" width="55%"/>
 
+This *Export Dashboard* dialog allows you to **select** and **rename**
+the data sheets to be included in your Excel file. Every data sheet
+contains the data for a particular visualization in the dashboard you
+export. You can also **include the visualizations** in your Excel
+document.
 
-この **[ダッシュボード エクスポート]** ダイアログでは、Excel ファイルに含めるデータ シートを**選択**して**名前を変更**できます。各データ シートには、エクスポートするダッシュボードの特定の表示形式のデータが含まれています。Excel ドキュメントに**表示形式を含める**こともできます。
+The *Include Visualization* setting gives you the following options:
 
-**[表示形式をむ]** 設定には、次のオプションがあります:
+  - **Include** - include a dashboard's visualizations on the same sheet
+    as the data for this visualization;
 
-   - **[含む]** - この表示形式のデータと同じシートにダッシュボードの表示形式を含めます。
+  - **On Different Sheets** - include visualizations and their
+    corresponding data on separate sheets;
 
-  - **[別のシート上]** - 別のシートに表示形式とそれに対応するデータを含めます。
-
-  - **[含めない]** - Excel シートに表示形式のデータのみを含めます。
+  - **Don't Include** - include only the visualizations' data in the
+    Excel sheets.
 
 >[!NOTE]
-> **サポートされている表示形式**。次のチャートの表示形式は、Excel シートに**直接含める**ことができます: 柱状、折れ線、棒、エリア、積層型柱状、積層型エリア、円、ドーナツ型、ファンネル、複合、散布図、バブル、スパークライン。
-> 次の表示形式は、Excel シートに含まれる前に類似のタイプに**変換されます**: スプラインとステップ折れ線 ⇒ 折れ線; スプライン エリアとステップ エリア ⇒ エリア。
+> **Supported visualizations**. The following chart visualizations can be **directly included** in the Excel sheets: Column, Line, Bar, Area, StackedColumn, StackedArea, StackedBar, Pie, Doughnut, Funnel, Composite, Scatter, Bubble, Sparklines. 
+
+> The following visualizations are **converted** to similar types before being included in the Excel sheet: Spline and StepLine ⇒ Line; SplineArea and StepArea ⇒ Area.

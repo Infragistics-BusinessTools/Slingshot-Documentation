@@ -1,7 +1,11 @@
-# 画像チャート
+# Image Chart
 
-画像チャートは URL へリクエストして、埋め込みブラウザーに情報と結果を表示します。**データセットの最初の行でのみ**動作し、データ エディター上で **URL として列のコンテンツを表示します**。
+The image chart displays information in an embedded browser by making a request to a URL and displaying the results. It works **only with the first row in the data set**, and **displays the contents of the column set as URL** in the data editor.
 
 <img src="images/visualization-editor-image-view.png" alt="Image Chart in the Visualization editor" class="responsive-img" width="85%"/>
 
-このチャートは、画像、HTML ページ、あるいはテキスト コンテンツを表示するために使用できる、非常に汎用な表示形式オプションです。[URL] フィールド設定がテキスト列に設定されている場合、テキストを表示します。その URL が有効である場合、その URL のコンテンツを取得しページを表示します。
+This chart is a very versatile visualization option which can be used to
+display images, HTML pages, or even text content. If the URL Field
+setting is configured to a text column, it will display the text; if
+it's a valid URL, it will retrieve the contents of that URL and
+display the page.

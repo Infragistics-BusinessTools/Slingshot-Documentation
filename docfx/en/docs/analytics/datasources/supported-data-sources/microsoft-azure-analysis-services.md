@@ -1,50 +1,50 @@
 ---
-title: Azure Analysis Services をデータ ソースとして使用する方法
-_description: Slingshot で Azure Analysis Services データ ソースを構成して使用する方法を説明します。
-_language: ja
+title: How to use Azure Analysis Services as Your Data Source
+_description: Steps to configure and use an Azure Analysis Services data source in Slingshot.
 ---
 
 # Microsoft Azure Analysis Services
 
-Azure Analysis Services は、クラウドでエンタープライズ レベルのデータ モデルを提供するサービス (PaaS) としてのフル マネージド プラットフォームです。Analytics の Azure Analysis データ モデルを使用して、ダッシュボードを作成し、データ分析を実行できるようになりました。
-## Azure Analysis Services への接続
+Azure Analysis Services is a fully managed platform as a service (PaaS) that provides enterprise-grade data models in the cloud. Now, you can use the Azure Analysis data models in Analytics to create dashboards and perform data analysis.
+## Configuring an Azure Analysis Services data source
 
-Analytics で使用される他のデータベース (Microsoft Analysis Services、MySQL、Oracle など) とは異なり、MS Azure Analysis Services は Analytics Web で使用できます。
+Unlike other databases used in Analytics (Microsoft Analysis Services, MySQL, Oracle, etc.), MS Azure Analysis Services can be used in Analytics Web.
 
 >[!NOTE]
->**Azure Analysis Services に初めて接続するときの Web の制限**。
->セキュリティ上の制限により、Azure Analysis Services の初期設定と認証のプロセスは、Analytics Web 上では実行できません。最初に、iOS、Android、またはデスクトップ アプリでこのデータ ソースに接続できます。最初の接続後、この Azure Analysis Services のデータを使用してダッシュボードを作成または編集できます。制限はありません。
+>**Limitations in Web when first connecting to your Azure Analysis Services.**
+>Due to security restrictions, the process of initial configuration and authentication of your Azure Analysis Services cannot be done in Analytics Web. You can initially connect to this data source in the iOS, Android, or Desktop app. After the initial connection, you can create or edit dashboards using data from this Azure Analysis Services with no further limitations.
 
-Azure Analysis Services データ ソースを設定するには、以下の手順を実行する必要があります。
+To configure your Azure Analysis Services data source, you will need to perform the steps below.
 
-1. Microsoft アカウント (Azure Analysis サーバーに関連付けられたアカウント) に資格情報を提供します。 
+1. Provide the credentials to your Microsoft account (the account associated with the Azure Analysis server).  
 
-2. **[Azure SSAS サーバーの追加]** ダイアログで、サーバーへの **URL** を指定します。
+2. Provide a *URL* to your server in the **Add Azure SSAS Server** dialog:
 
     <img src="images/add-azure-ssas-server.png" alt="Configuring an azure analysis services connection" class="responsive-img" width="50%"/>
 
-    要求される _URL_ は、接続するデータ モデルのデータベースを含むサーバーの完全な名前です。Azure ポータルから*サーバー名をコピー*できます。これを行うには、以下にアクセスしてください:
+    The requested **URL** is the full name of the server, which contains the database with the data models you want to connect. You can *copy the server name* from the Azure Portal. To do this, go to:
 
-    *Azure portal* (Azure ポータル) ⇒ 選択したサーバー ⇒ *Overview* (概要) ⇒ *Server Name* (サーバー名)
+    *Azure portal* > selected server > *Overview* > *Server name*
 
-3. Analytics に戻り、サーバー名を *URL* に貼り付けます。**[サーバーの追加]** ボタンをクリックまたはタップすると、有効になります。  
+3. Go back to Analytics and paste the server name in *URL* field. Click/tap on the **Add Server** button, which is now enabled.  
 
-4. サーバーを追加すると、Analytics はサーバー上のデータベースを読み込んで表示します。ここには、データベースで使用可能なすべてのセマンティック モデルのリストが表示されます。モデルを選択し、**[データを選択]** をクリックまたはタップして**表示形式エディター**に進みます。
+4. Once you have added the server, Analytics will load and show the databases on the server. Here you will find a list of all  the available semantic models in your database. Choose a model and click/tap on **Select Data** to continue to the *Visualizations Editor*.
 
    <img src="images/azure-ssas-cubes.png" alt="List of cubes with all the models in them" class="responsive-img" width="60%"/>
 
-## 表示形式エディターでの作業
+## Working in the Visualization editor
 
- ここでは、モデルのデータが 2 つのカテゴリで表示されます:
+ Here you will see the data from your model presented in two categories: 
 
-- **ディメンション**には定性的データ (Country、Name、Product など) が含まれます。
+- *Dimensions* contain qualitative data ("Country", "Name", "Product", etc). 
 
-- **メジャー**は数値データで構成されます。
+- *Measures* consist of numeric data.
 
 <img src="images/azure-ssas-visualization-editor.png" alt="Using azure ssas data in the visualization editor" class="responsive-img" width="75%"/>
 
-デフォルトでは、**柱状**表示形式が選択されます。それをクリックまたはタップして、ドロップダウン メニューから別のチャート タイプを選択できます。
+By default, the *Column* visualization will be selected. You can click/tap on it in order to choose another chart type from the drop-down menu.
 
-表示形式の準備ができたら、右上隅のチェックマークをクリックまたはタップして、ダッシュボードとして保存できます。以下の例では、ダッシュボードを **[分析]** > **[ダッシュボード]** > **Accounting** に保存しました。
+When you are ready with your visualization, you can save it as a dashboard by clicking/tapping on the checkmark in the top right corner. In this case we saved the dashboard in **My Analytics** > **My Dashboards** > **Accounting**.
 
 <img src="images/azure-ssas-my-analytics.png" alt="A dashboard created while using azure ssas data in the My Analytics section" class="responsive-img" width="75%"/>
+

@@ -1,50 +1,56 @@
 ---
-title: Slingshot の BigQuery Machine Learning を使用する方法
-_description: トレーニング済みの機械学習モデル データを使用して表示形式を構築する方法を説明します。
-_language: ja
+title: Using BigQuery Machine Learning in Slingshot
+_description: How to use your trained machine learning models data for building a visualization.
 ---
 
-# Analytics の BigQuery Machine Learning
+# BigQuery Machine Learning in Analytics
 
-Analytics で BigQuery のトレーニング済みの機械学習モデルを使用できます。これまで以上に洗練された情報を取得できます。BigQuery をデータ ソースとして選択し、表示形式を作成し、トレーニング済みの機械学習モデルに接続します。
+You can use your trained machine learning models data from BigQuery in Analytics. Get better insights than ever! Just choose BigQuery as your data source for building a visualization, and use the integration to connect to a trained machine learning model.
 
-たとえば、クライアントに関する特定の情報を使用して、銀行のクライアントの信用リスクを予測するようにトレーニングされた機械学習 (Machine Learning) モデルがあるとします。この機械学習モデルを Analytics で使用して、クライアントの住宅タイプが信用リスクにどのように関連するかについての洞察を与える表示形式を構築できます。
+For example, you may have a machine learning (ML) model that is trained to predict the credit risk for a bank's clients, using specific information about the clients. This ML model can be used in Analytics to build a visualization giving insight about how the clients' housing type relates to their credit risk:
 
 <img src="images/bigquery-machine-learning-model-visualization-example.png" alt="Credit risk by type of Housing example" class="responsive-img"/>
 
 
-## 前提条件
+## Prerequisites
 
-Analytics で BigQuery Machine Learning を使用するには、**トレーニング済みの機械学習モデル**がある **BigQuery データ ソース アカウントに接続する**必要があります。
+To use the BigQuery Machine Learning integration in Analytics, you need to **connect to a BigQuery data source** account, where you have a **trained machine learning model**.
 
-## BigQuery Machine Learning へのアクセス
+## Accessing BigQuery Machine Learning Integration
 
-BigQuery Machine Learning にアクセスするには、以下の手順を実行します。
+To access the BigQuery Machine Learning Integration, follow the steps below:
 
-1. BigQuery データ ソースに接続します。機械学習モデルの予測に必要な情報を含むデータセットを選択します。
+1. Connect to a BigQuery data source. Select the dataset, which contains information necessary for your machine learning model predictions.
 
-    BigQuery データ ソースの詳細については、[Google BigQuery](~/jp/datasources/supported-data-sources/google-bigquery.md) のトピックを参照してください。
+    Please, refer to the [Google BigQuery](~/docs/analytics/datasources/supported-data-sources/google-bigquery.md)  topic for more information on the BigQuery data source.
 
 
-2. 表示形式エディターで、左側のフィールド リストの上にある**脳アイコン**をクリック/タップします。
+2. In the _Visualization editor_, click/tap the **brain icon** located at the top of the _Fields_ list to the left.
 
     <img src="images/brain-icon-bigquery-ml-model.png" alt="Brain icon location in the Visualization editor" class="responsive-img"/>
 
 
-## 機械学習モデルへの接続
+## Connecting to Your Machine Learning model
 
-BigQuery 機械学習モデルに接続するには、以下を実行する必要があります。
+To connect to your BigQuery machine learning model you need to do the following:
 
-1. 開いたダイアログでトレーニング済みの BigQuery モデルから選択します。
+1. Select from your trained BigQuery models in the dialog that opens:
 
-2. 次のダイアログで、Analytics に読み込まれたデータを機械学習モデルで予期される入力にマップする必要があります。
+    <img src="images/ml-models-list-bigquery.png" alt="A dialog displaying a list of bigquery machine learning models" class="responsive-img"/>
 
-    例えば、以下の列があります:
 
-    a. **[入力]**: 左側では、出力情報 (例: Duration) を計算するためにモデルが必要とするデータの種類を表示します。右側で、要求されたデータに一致するデータセットのフィールド (例: _Duration_in_months_) を左側で選択する必要があります。Analytics は、同じ名前を共有する読み込まれた BigQuery データセットのすべてのフィールドをモデルの要求されたデータと自動的に一致させます。
+2. The next dialog requires you to map the data loaded in Analytics to the input expected by your ML model.
 
-    b. **[出力]**: モデルで計算 (予測) する情報を選択します。結果は、表示形式エディターの **データ ソース: (モデル名)** の下に新しいフィールドとして表示されます。**例:** データ ソース: credit_risk_model。
+    <img src="images/ml-model-mapping-input-output.png" alt="Mapping expected input and choosing output" class="responsive-img"/>
 
-    c. (オプション) の **[パラメーター]**: 一部の BigQuery 機械学習モデルでは、出力を計算するために必要なパラメーターの値を入力する必要がある場合があります。この場合、[入力] と [出力] の間に 3 番目の [パラメーター] 列があります。
+    In the dialog above you have the following columns to consider:
 
-BigQuery モデルによって返されたフィールドを表示形式エディターの通常のフィールドとして使用できます。
+    a. **Input** - on the left you see the kind of data the model requires in order to calculate the output information (e.g. _Duration_). On the right, you need to select the fields in your dataset (e.g. _Duration_in_months_) that match the requested data on the left. Analytics automatically matches all fields from the loaded BigQuery dataset, which share the same name with the model's requested data.
+
+    b. **Output** - choose the information you want calculated (predicted) by the model. The result will appear as new fields in the Visualization editor, under _From (name of the model)_, e.g. *From credit_risk_model*.
+
+    c. (_Optional_) **Parameters** - some of your BigQuery models may require you to fill in values for the parameters they need to calculate the output. In this case you will see a third _Parameters_ column between _Input_ and _Output_.
+
+<img src="images/bq-ml-model-final-example.png" alt="Data output loaded from the bigquery model" class="responsive-img"/>
+
+You can use the fields returned by the BigQuery model as regular fields in the Visualization editor.

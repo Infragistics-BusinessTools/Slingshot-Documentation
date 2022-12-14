@@ -1,33 +1,40 @@
 ---
-title: スパークライン チャートの表示形式を作成する方法
-_description: Slingshot 分析でスパークライン チャートの表示形式を作成して使用する方法を説明します。
-_language: ja
+title: How to Create Sparkline Charts Visualization 
+_description: Find out how to create and use Sparkline Charts visualization in Slingshot Analytics.
 ---
 
-# スパークライン チャート
+# Sparkline Charts
 
-スパークライン チャートは、軸、ラベル、またはその他のチャート要素なしでグリッド チャート内にプロットされる小さなチャートで、指定された日付範囲のトレンドとその進行を表します。
+Sparkline charts are small charts plotted within a grid chart, without
+any axes, labels, or other chart elements. They are meant to represent
+trends and their progression in a given date range.
 
 <img src="images/sparkline-chart-dashboard-view.png" alt="Sparkline Chart sample" class="responsive-img"/>
 
-最初の列は表示形式エディターで固定されたままで、情報内の別の列をスクロールできます。
+The first column remains fixed in the Visualizations Editor, allowing
+you to scroll through the different columns in your information.
 
 <img src="images/sparkline-chart-visualizations-editor.png" alt="SparklineChartVisualizationsEditor\_All" class="responsive-img"/>
 
-## スパークラインの詳細設定
+## Advanced Sparkline Settings
 
-表示形式エディターの **[設定]** セクションにアクセスすると、以下のいくつかの設定を変更できます。
+If you access the **Settings** section of the visualizations editor, you
+will be able to modify several settings, including:
 
 <img src="images/sparkline-advanced-chart-settings.png" alt="SparklineAdvancedChartSettings\_All" class="responsive-img"/>
 
-  - テキスト、数値、および日付の**配置**。
+  - **Alignment** for texts, numbers, and dates.
 
-  - グリッド要素の**フォント サイズ**。
+  - **Font sizes** for your grid elements.
 
-  - スパークラインの**チャート タイプ**: 折れ線チャートまたはエリア チャート。
+  - The **type of chart** for your sparkline: line or area charts.
 
-  - 日付の**集計**。
+  - The **Aggregation** for your dates.
 
-  - グリッド内のスパークライン チャートに含める**値の数**。
+  - The **number of values** you want to include in the sparkline chart
+    within the grid.
 
-  - **スパークライン列に含める情報** (最後の 2 つの値やその差など)。さらに、**正の差異を緑または赤で表す**かどうかも選択できます。
+  - The **information you want to include in your sparkline columns**,
+    including the last two values and the difference between them. In
+    addition, you can also choose whether you want to **represent a
+    positive difference in green or red**.

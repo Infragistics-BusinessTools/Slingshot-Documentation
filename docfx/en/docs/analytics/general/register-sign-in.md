@@ -1,17 +1,22 @@
-# Analytics へのログイン
+# Logging into Analytics
 
-アプリケーションをインストールして最初の起動時に以下の画面が表示されます。
+When you first install and open the application, you will be presented with the following screen:
 
 <img src="images/log-in-screen.png" alt="Log in screen" class="responsive-img"/>
 
-Analytics では、Office 365、Google アカウントまたは iCloud (*Apple*) の認証情報を使用してログインできます。インフラジスティックス ユーザーアカウントを作成することもできます。アプリケーションに自動的にログインするには、一度サインインするだけでよいので、複数のパスワードを覚えておく必要はありません。
+In Analytics, you can use your Office 365, Google or iCloud (*Apple*) account credentials to
+log in. You can also create an Infragistics user account. You'll only
+need to sign in once to automatically be logged in to the application,
+so there's no need to remember multiple passwords.
 
-## Office 365 および Google アカウントの権限リクエスト
+## Permissions Requests for Office 365 and Google Accounts
 
-Analytics で **Office 365** アカウントを使用して初めてサインインすると、Analytics にプロファイルを読み取り、アクセスを維持するためのアクセス許可を与えるように求められます。
+When you sign in for the first time in Analytics with your **Office 365**
+account, you will be asked to give permissions to Analytics to read your
+profile and maintain access to it.
 
 <img src="images/limited-permission-sign-in-o365.png" alt="Permissions request sign in with Office 365" class="responsive-img"/>
 
-**Google** アカウントを使用してサインインする場合は、アカウントの資格情報を入力するだけで済みます。
+If you use your **Google** account to sign in, you will only have to type in your account credentials.
 
-Analytics へのサインインに使用したアカウントに応じて、OneDrive または Google ドライブが[データ ソース](~/jp/datasources/overview.html)のリストに自動的に追加されます。さらに、[OneDrive](~/jp/datasources/supported-data-sources/onedrive.md) と [Google ドライブ](~/jp/datasources/supported-data-sources/google-drive.md)を初めて使用するときにのみ、制限された制限付きのアクセス許可を求められます。
+Depending on which account you used to sign in Analytics, you will have your OneDrive or Google Drive automatically added to your list of [data sources](~/docs/analytics/datasources/overview.md). You will be additionally asked for **limited permissions** only the first time you use your [OneDrive](~/docs/analytics/datasources/onedrive.md) and [Google Drive](~/docs/analytics/datasources/google-drive.md).

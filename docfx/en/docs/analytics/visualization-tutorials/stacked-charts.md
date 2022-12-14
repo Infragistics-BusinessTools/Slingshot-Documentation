@@ -1,12 +1,12 @@
 ---
-title: Slingshot で積層型チャートの表示形式を作成する方法
-_description: サンプルス プレッドシートを使用して積層型チャートの表示形式を作成する方法を説明します。
-_language: ja
+title: How to Create Stacked Chart Visualization in Slingshot
+_description: A quick tutorial on creating Stacked Chart visualization using a sample spreadsheet.
 ---
 
-# 積層型チャートを作成する方法
+# Creating Stacked Chart Visualizations
 
-このチュートリアルはサンプル スプレッドシートを使用し積層型チャートを作成する方法を説明します。
+In this tutorial, you will learn how to create stacked chart
+visualizations using a sample spreadsheet.
 
 <table>
 <colgroup>
@@ -18,114 +18,130 @@ _language: ja
 <tr class="odd">
 <td><p><img src="images/charts-stacked-area.png" alt="charts stacked area" /><br />
 </p>
-<p><a href="#create-stacked-chart">積層型エリア チャート</a><br />
+<p><a href="#create-stacked-chart">Stacked Area Chart</a><br />
 </p></td>
 <td><p><img src="images/charts-stacked-bar.png" alt="charts stacked bar" /><br />
 </p>
-<p><a href="#create-stacked-chart">積層型棒チャート</a><br />
+<p><a href="#create-stacked-chart">Stacked Bar Chart</a><br />
 </p></td>
 <td><p><img src="images/charts-stacked-columns.png" alt="charts stacked columns" /><br />
 </p>
-<p><a href="#create-stacked-chart">積層型柱状チャート</a><br />
+<p><a href="#create-stacked-chart">Stacked Columns Chart</a><br />
 </p></td>
 </tr>
 <tr class="even">
 <td><p><img src="images/stacked-columns-bounds.png" alt="stacked columns bounds" /><br />
 </p>
-<p><a href="#change-axis-configuration">しきい値の積層型柱状</a><br />
+<p><a href="#change-axis-configuration">Stacked Column with Bounds</a><br />
 </p></td>
 <td><p><img src="images/stacked-columns-logarithmic.png" alt="stacked columns logarithmic" /><br />
 </p>
-<p><a href="#set-logarithmic-axis">対数を含む積層型柱状チャートの構成</a><br />
+<p><a href="#set-logarithmic-axis">Stacked Column with Logarithmic Configuration</a><br />
 </p></td>
 <td><p><img src="images/stacked-chart-percentage-distribution.png" alt="stacked chart percentage distribution" /><br />
 </p>
-<p><a href="#enable-percentage-distribution">百分率分布を含む積層型柱状チャート</a><br />
+<p><a href="#enable-percentage-distribution">Stacked Column with Percentage Distribution</a><br />
 </p></td>
 </tr>
 </tbody>
 </table>
 
-積層型チャート ビューのガイドは、以下のリンクから参照してください。
+Access the links below for the Stacked Chart view walkthroughs:
 
-  - [積層型柱状チャートを作成する方法](#積層型チャートの作成)
+  - [How to create a Stacked Column chart](#create-stacked-chart)
 
-  - [積層型チャートのタイプを変更する方法](#change-chart-type)
+  - [How to change your Stacked chart type](#change-chart-type)
 
-  - [軸の構成を変更する方法](#change-axis-configuration)
+  - [How to change your axis configuration](#change-axis-configuration)
 
-  - [軸の構成を対数に変更する方法](#set-logarithmic-axis)
+  - [How to set your axis configuration to logarithmic](#set-logarithmic-axis)
 
-  - [百分率分布を有効にする方法](#enable-percentage-distribution)
+  - [How to enable percentage distribution](#enable-percentage-distribution)
 
-## 重要なコンセプト
+## Key Concepts
 
-積層型チャートは、3 つのレイアウトから選択できます - [エリア](#積層型チャートの作成)、[柱状](#積層型チャートの作成)および[棒](#積層型チャートの作成)。
+There are three different layouts to choose from when using stacked
+charts: [area](#create-stacked-chart),
+[column](#create-stacked-chart), and [bar](#create-stacked-chart).
 
-以下の項目も設定できます。
+You can also configure the following settings:
 
-  - **軸の構成**: 軸の構成でチャートの最大値と最小値を構成できます。デフォルトで最小値は 0 に設定され、最大値は使用されるデータによって設定されます。
+  - **Axis Configuration**: the axis configuration lets you configure
+    the minimum and maximum values for your charts. The minimum value is
+    set to 0 by default and the maximum calculated automatically
+    depending on your values.
 
-      - **対数軸構成**: [対数] ボックスをチェックする場合、値のスケールは通常のリニア スケールを使用する代わりに大きさを使用するリニア スケール以外で計算されます。
+      - **Logarithmic Axis Configuration**: if you check the
+        "Logarithmic" checkbox, the scale for your values will be
+        calculated with a non-linear scale which takes magnitude into
+        account instead of the usual linear scale.
 
-## サンプル データ ソース
+## Sample Data Source
 
-このチュートリアルでは [Analytics チュートリアル スプレッドシート](https://download.infragistics.com/slingshot/samples/Slingshot_Visualization_Tutorials.xlsx) の Stacked Charts シートを使用します。
+For this tutorial, you will use the "Stacked Charts" sheet in the
+[Analytics Tutorials Spreadsheet](https://download.infragistics.com/slingshot/samples/Slingshot_Visualization_Tutorials.xlsx).
 
 >[!NOTE]
->このリリースでは、ローカル ファイルとしての Excel ファイルはサポートされていません。チュートリアルを実行するには、サポートされているクラウド サービスのいずれかにファイルをアップロードするか、[ウェブ リソース](datasources/supported-data-sources/web-resource.html)として追加してください。
+Excel files as local files are not supported in this release. In order
+to follow these tutorials, make sure you upload the file to one of the
+supported _cloud services_ or add it as a [Web Resource](datasources/supported-data-sources/web-resource.md).
 
 </div>
 
 <a name='create-stacked-chart'></a>
-## 積層型チャートの作成
+## Creating a Stacked Chart
 
 |                                          |                                                                                                        |                                                                                                                                                                                                                                                 |
 | ---------------------------------------- | ------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1\. **ダッシュボードを作成する**               | <img src="images/Tutorials-Create-New-Dashboard.png" alt="Tutorials-Create-New-Dashboard" class="responsive-img"/>                           | ダッシュボード ビューアーで、[ダッシュボード] 画面の右上隅にある [+ ダッシュボード] ボタンを選択します。                                                                                            |
-| 2\. **データ ソースを構成する**       | <img src="images/Tutorials-Select-Data-Source.png" alt="Tutorials-Select-Data-Source" class="responsive-img"/>                               | [新しい表示形式] ウィンドウで、右下隅の [+ データ ソース] ボタンを選択し、データ ソースを選択します。                                                                                                                                  |
-| 3\. **チュートリアル スプレッドシートを選択する** | <img src="images/Tutorials-Select-Stacked-Charts-Spreadsheet.png" alt="Tutorials-Select-Stacked-Charts-Spreadsheet" class="responsive-img"/> | データ ソースを設定したら、**Analytics チュートリアル スプレッドシート**を選択します。 次に、Stacked Charts シートを選択します。                                                                                                                       |
-| 4\. **表示形式メニューを開く**     | <img src="images/Tutorials-Select-Change-Visualization.png" alt="Tutorials-Select-Change-Visualization" class="responsive-img"/>             | 表示形式エディターのトップ バーで**グリッド アイコン**を選択します。                                                                                                                                                                          |
-| 5\. **表示形式を選択する**        | <img src="images/Tutorials-Stacked-Select-Visualization.png" alt="Tutorials-Stacked-Select-Visualization" class="responsive-img"/>           | デフォルトで、表示形式のタイプは**グリッド**に設定されています。 **積層型**の表示形式のいずれかを選択します。                                                                                                                                           |
-| 6\. **データを構成する**               | <img src="images/Tutorials-Stacked-Charts-Organizing-Data.png" alt="Tutorials-Stacked-Charts-Organizing-Data" class="responsive-img"/>       | 積層型チャートには 2 つ以上のフィールドをデータ エディターの [値] プレースホルダーにドラッグアンドドロップする必要があります。今の例で、1960、2003、2008 と 2010 を [値] へ、Country Name を [ラベル] にドラッグアンドドロップします。 |
+| 1\. **Create a Dashboard**               | <img src="images/Tutorials-Create-New-Dashboard.png" alt="Tutorials-Create-New-Dashboard" class="responsive-img"/>                           | In the dashboard viewer, select the + button in the top right-hand corner of the "My Dashboards" screen. Then, select "Dashboard" from the dropdown.                                                                                            |
+| 2\. **Configure your Data Source**       | <img src="images/Tutorials-Select-Data-Source.png" alt="Tutorials-Select-Data-Source" class="responsive-img"/>                               | In the *New Visualization* window, select the + button in the bottom right corner and select your data source.                                                                                                                                  |
+| 3\. **Select the Tutorials Spreadsheet** | <img src="images/Tutorials-Select-Stacked-Charts-Spreadsheet.png" alt="Tutorials-Select-Stacked-Charts-Spreadsheet" class="responsive-img"/> | Once the data source is configured, select the **Analytics Tutorials Spreadsheet**. Then, choose the "Stacked Charts" sheet.                                                                                                                       |
+| 4\. **Open the Visualizations Menu**     | <img src="images/Tutorials-Select-Change-Visualization.png" alt="Tutorials-Select-Change-Visualization" class="responsive-img"/>             | Select the **grid icon** in the top bar of the Visualizations Editor.                                                                                                                                                                           |
+| 5\. **Select your Visualization**        | <img src="images/Tutorials-Stacked-Select-Visualization.png" alt="Tutorials-Stacked-Select-Visualization" class="responsive-img"/>           | By default, the visualization type will be set to "Grid". Select any of the **stack** visualizations.                                                                                                                                           |
+| 6\. **Organize your Data**               | <img src="images/Tutorials-Stacked-Charts-Organizing-Data.png" alt="Tutorials-Stacked-Charts-Organizing-Data" class="responsive-img"/>       | Stacked charts require two or more fields to be dragged and dropped into the "Values" placeholder of the data editor. In this case, the "1960", "2003", "2008" and "2010" fields have been dropped into "Values" and "Country Name" in "Label". |
 
 <a name='change-chart-type'></a>
-## 積層型チャートのタイプを変更する方法
+## Changing your Stacked Chart Type
 
-必要に応じて、他の積層型チャートを選択できます。以下は作業手順です。
+If needed, you can choose a different type of stacked chart better
+fitted to your needs. In order to do this:
 
 |                                      |                                                                                              |                                                                                                                                      |
 | ------------------------------------ | -------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ |
-| 1\. **表示形式メニューを開く** | <img src="images/Tutorials-Select-Change-Visualization.png" alt="Tutorials-Select-Change-Visualization" class="responsive-img"/>   | 表示形式エディターのトップ バーで**グリッド アイコン**を選択します。                                                                |
-| 2\. **表示形式を選択する**    | <img src="images/Tutorials-Stacked-Select-Visualization.png" alt="Tutorials-Stacked-Select-Visualization" class="responsive-img"/> | 必要な積層型チャートのタイプを選択します。このセクションの上部に[各積層型チャートのタイプのプレビュー](#create-stacked-chart)があります。 |
+| 1\. **Open the Visualizations Menu** | <img src="images/Tutorials-Select-Change-Visualization.png" alt="Tutorials-Select-Change-Visualization" class="responsive-img"/>   | Select the **grid icon** in the top bar of the Visualizations Editor.                                                                |
+| 2\. **Select your Visualization**    | <img src="images/Tutorials-Stacked-Select-Visualization.png" alt="Tutorials-Stacked-Select-Visualization" class="responsive-img"/> | Select the type of stack chart you need. This section has a [preview of every stack chart type](#create-stacked-chart) at the top. |
 
 <a name='change-axis-configuration'></a>
-## 軸の構成を変更する方法
+## Changing your Axis Configuration
 
-[ゲージのバンド](~/jp/data-visualizations/visualization-types/gauge-charts.html#bands-configuration)と同様に、チャート軸構成でチャートの最小と最大値を設定できます。
-この機能を使用して、特定のデータ含有や除外ができます。
+Similarly to the [Gauge bands](~/docs/analytics/data-visualizations/gauge-charts#bands-configuration), the
+chart axis configuration allows you to set the lowest and highest values
+in your chart. You can use this feature to include or exclude specific
+data.
 
 |                                        |                                                                                      |                                                                                                                                       |
 | -------------------------------------- | ------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------- |
-| 1\. **設定を変更する**                | <img src="images/Tutorials-Navigate-Settings.png" alt="Tutorials-Navigate-Settings" class="responsive-img"/>               | 表示形式エディターの **[設定]** セクションに移動します。                                                                           |
-| 2\. **範囲の設定へアクセスする** | <img src="images/Tutorials-Axis-Bounds.png" alt="Tutorials-Axis-Bounds" class="responsive-img"/>                           | [軸範囲] に移動します。                                                                                                              |
-| 3\. **デフォルト選択を変更する**   | <img src="images/Tutorials-Change-Default-Selection.png" alt="Tutorials-Change-Default-Selection" class="responsive-img"/> | 最大値または最小値 (または両方) 値を設定するかどうかに基づいて、チャートの開始値または終了値を入力します。 |
+| 1\. **Change Settings**                | <img src="images/Tutorials-Navigate-Settings.png" alt="Tutorials-Navigate-Settings" class="responsive-img"/>               | Go to the **Settings** section of the Visualization Editor.                                                                           |
+| 2\. **Access the Axis Bounds section** | <img src="images/Tutorials-Axis-Bounds.png" alt="Tutorials-Axis-Bounds" class="responsive-img"/>                           | Navigate to Axis Bounds.                                                                                                              |
+| 3\. **Change the Default selection**   | <img src="images/Tutorials-Change-Default-Selection.png" alt="Tutorials-Change-Default-Selection" class="responsive-img"/> | Depending on whether you want to set the minimum or maximum value (or both), enter the value you want the chart to start or end with. |
 
 <a name='set-logarithmic-axis'></a>
-## 軸構成を対数的としての設定
+## Setting your Axis Configuration as Logarithmic
 
 |                                           |                                                                          |                                                             |
 | ----------------------------------------- | ------------------------------------------------------------------------ | ----------------------------------------------------------- |
-| 1\. **設定を変更する**                   | <img src="images/Tutorials-Navigate-Settings.png" alt="Tutorials-Navigate-Settings" class="responsive-img"/>   | 表示形式エディターの **[設定]** セクションに移動します。 |
-| 2\. **軸のオプションへアクセスする**            | <img src="images/Tutorials-Axis-Bounds.png" alt="Tutorials-Axis-Bounds" class="responsive-img"/>               | 下矢印を選択して、[軸] ドロップダウンを展開します。       |
-| 3\. **軸構成タイプを選択する** | <img src="images/Tutorials-Charts-Logarithmic.png" alt="Tutorials-Charts-Logarithmic" class="responsive-img"/> | [対数] を選択します。                                       |
+| 1\. **Change Settings**                   | <img src="images/Tutorials-Navigate-Settings.png" alt="Tutorials-Navigate-Settings" class="responsive-img"/>   | Go to the **Settings** section of the Visualization Editor. |
+| 2\. **Access the Axis option**            | <img src="images/Tutorials-Axis-Bounds.png" alt="Tutorials-Axis-Bounds" class="responsive-img"/>               | Expand the Axis dropdown by selecting the down arrow.       |
+| 3\. **Select an Axis Configuration type** | <img src="images/Tutorials-Charts-Logarithmic.png" alt="Tutorials-Charts-Logarithmic" class="responsive-img"/> | Select "Logarithmic".                                       |
 
 <a name='enable-percentage-distribution'></a>
-## 百分率分布を有効する方法
+## Enabling Percentage Distribution
 
-積層型チャートに百分率分布も構成できます。このタイプのチャートに値と百分率分布スケールを切り替えます。以下は作業手順です。
+For stacked charts, you can configure the Percentage Distribution. It
+allows you to switch between values and percentage distribution scales
+for those types of charts. In order to do this:
 
 |                                        |                                                                                    |                                                                                           |
 | -------------------------------------- | ---------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------- |
-| 1\. **設定を変更する**                | <img src="images/Tutorials-Navigate-Settings.png" alt="Tutorials-Navigate-Settings" class="responsive-img"/>             | 表示形式エディターの **[設定]** セクションに移動します。                               |
-| 2\. **百分率分布を有効にする** | <img src="images/Tutorials-Percentage-Distribution.png" alt="Tutorials-Percentage-Distribution" class="responsive-img"/> | [パーセンテージの配分] ボックスをチェックして、パーセンテージの配分設定を有効にします。|
+| 1\. **Change Settings**                | <img src="images/Tutorials-Navigate-Settings.png" alt="Tutorials-Navigate-Settings" class="responsive-img"/>             | Go to the **Settings** section of the Visualization Editor.                               |
+| 2\. **Enable Percentage Distribution** | <img src="images/Tutorials-Percentage-Distribution.png" alt="Tutorials-Percentage-Distribution" class="responsive-img"/> | Enable the percentage distribution setting by checking the "Percentage Distribution" box. |

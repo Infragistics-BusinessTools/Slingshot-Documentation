@@ -1,26 +1,30 @@
 ---
-title: ダッシュボード フィルターのプロパティを使用する方法
-_description: ダッシュボード フィルター プロパティをすばやく適用して使用し、表示形式の効果を最大限に高める方法について説明します。
-_language: ja
+title: How to Use Dashboard Filters Properties 
+_description: Learn how to quickly apply and use Dashboard filters properties to achieve maximum effect for your visualization.
 ---
 
-# ダッシュボード フィルターとそのプロパティ
+# Dashboard Filters and Their Properties
 
-## ダッシュボード フィルター プロパティにアクセスする
+## Accessing Dashboard Filter Properties
 
-新しいダッシュボード フィルターを追加するには:
+In order to add a new dashboard filter:
 
-1.  ダッシュボード エディターに移動し、[フィルターの追加] ⇒ [ダッシュボード フィルターの追加] を選択します。
+1.  Go to the *Dashboard editor* and select *Add Filter* ⇒ *Add
+    Dashboard Filter*.
 
-2.  [ダッシュボード フィルター] メニューが開きます。デフォルトで、選択されたデータ ソースは、初めての表示形式で使用されるデータ ソースになります。変更するには、データ ソース名の横にあるオーバーフロー ボタンを選択します。
+2.  The *Dashboard Filter* menu will open. By default, the selected data
+    source will be the data source used in your first visualization. You
+    can configure or change it using the overflow menu next to the data
+    source's name.
 
     <img src="images/dashboard-filter-data-source-menu.png" alt="Selecting Dashboard Filter data source menu" class="responsive-img" width="80%"/>
 
-3.  ダッシュボード フィルターとして使用するデータセットを選択し、[データの選択] をクリック/タップします。
+3.  Choose which dataset to use as a dashboard filter and click/tap
+    *Select Data*.
 
-## フィルター設定の概要
+## Filter Settings Overview
 
-フィルターの以下の設定を変更できます:
+You will be able to change the following settings for the filter:
 
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;}
@@ -31,97 +35,123 @@ _language: ja
 <table class="tg">
   <tr>
     <th class="tg-cly1" rowspan="5"><img src="images/dashboard-filter-dialog.png" alt="Dashboard Filter settings menu" width="400" height="300"></th>
-    <th class="tg-cly1">タイトル。ダッシュボードのタイトルのすぐ下に表示される、ダッシュボード ィルターのタイトル。デフォルトで、これはフィルターとして使用されるフィールド名です。</th>
+    <th class="tg-cly1">Title. The title for the dashboard filter, which will be displayed right under the dashboard title. By default, this is the name of the field that will be used as a filter.</th>
   </tr>
   <tr>
-    <td class="tg-cly1"><a href="#displayed-field">表示フィールド/要素</a>。ダッシュボード フィルターとして使用されるデータセット内のフィールド。</td>
+    <td class="tg-cly1"><a href="#displayed-field">Displayed Field/Element</a>. The field in your dataset, which will be used as a dashboard filter.</td>
   </tr>
   <tr>
-    <td class="tg-cly1"><span style="font-weight:bold">選択</span>。この設定では、次を構成できます。<a href="#multiple-selection">複数選択</a> (一度に複数の値を選択できます) および/または <a href="#required-selection">必須選択</a> (少なくとも 1 つの値を常に選択する必要があります)。</td>
+    <td class="tg-cly1"><span style="font-weight:bold">Selection</span>. This setting allows you to configure: <a href="#multiple-selection">Multiple Selection</a> (more than one value can be selected at a time) and/or <a href="#required-selection">Required Selection</a> (at least one value must always be selected).</td>
   </tr>
   <tr>
-    <td class="tg-cly1"><a href="#data-filters">データ フィルター</a>。この設定により、ダッシュボード フィルターに使用されるデータ ソースに<a href="~/jp/data-visualizations/fields/field-filters-rules.md">フィールド フィルターとルール</a>を適用できます。</td>
+    <td class="tg-cly1"><a href="#data-filters">Data Filters</a>. This setting allows you to apply any <a href="~/docs/analytics/data-visualizations/fields/field-filters-rules.md">field filters and rules</a> to the data source used for the dashboard filter.</td>
   </tr>
   <tr>
-    <td class="tg-cly1"><a href="connecting-dashboard-filters-visualization.md">接続された表示形式</a>。ダッシュボードを表示形式に接続するかどうか。</td>
+    <td class="tg-cly1"><a href="connecting-dashboard-filters-visualization.md">Connected Visualizations</a>. Whether your dashboard will be connected to any visualization or not.</td>
   </tr>
 </table>
 
 <a name='displayed-field'></a>
-## 表示フィールド
+## Displayed Field
 
->[!NOTE] 
->**Microsoft Analysis Services** および **Google アナリティクス**のデータを使用するダッシュボード フィルターの場合、この設定の名前は **[表示する要素]** です。
+>[!NOTE] For dashboard filters using data from *Microsoft Analysis Services* and *Google Analytics*, this setting is named **Displayed Element**.
 
-**表示するフィールド/要素**設定は、ダッシュボード フィルターの値を表示するために使用されるデータセット フィールドを指定します。リスト値は、元のデータセットで複数回表示された場合も繰り返されません。
+The *Displayed Field/Element* setting specifies the dataset field that will be used to display
+the values in the *Dashboard Filters*. Listed values will not be repeated
+even if they appear multiple times in the original dataset.
 
-ダッシュボード フィルター名の隣りのオーバーフロー メニューで [編集] ボタンをクリックして、編集モードで表示列を変更できます。
+You can change the displayed column in *Edit mode* by selecting the *Edit* button in the overflow menu next to the dashboard filter name.
 
 <img src="images/edit-mode-filter.png" alt="Accessing dashboard filter edit mode" class="responsive-img"/>
 
 <a name='multiple-selection'></a>
-## 複数選択
+## Multiple Selection
 
-Analytics は、複数のダッシュボード フィルター値の同時選択をサポートしています。これにより、コレクション内で要素を並べて比較できます。たとえば、[HR ダッシュボード] で複数の選択を有効にすることで、さまざまなオフィスの雇用や欠勤を比較することができます。
+Analytics supports the selection of multiple dashboard filter values
+simultaneously. This is meant to enable side by side comparison between different elements in a collection. For instance, in the *HR Dashboard* dashboard you can compare the hires and absences over time of different
+offices by enabling multiple selection.
 
 <img src="images/multiple-selection-dashboard-filters.png" alt="Filters multiple selections applied to a dashboard" class="responsive-img" width="45%"/>
 
-**[複数選択] を有効する**には、ダッシュボードを編集モードに替える必要があります。⇒ ダッシュボード フィルターのオーバーフロー ニューから [編集] を選択 ⇒ [選択] ⇒ [複数選択] チェックボックスをオンにします。
+In order to **enable "Multiple Selection"**, you must switch the
+dashboard to *Edit* mode ⇒ choose *Edit* from the overflow menu of a
+dashboard filter ⇒ *Selection* ⇒ tick *Multiple Selection* checkbox.
 
 <img src="images/multiple-selection-option-dashboard-filter-dialog.png" alt="Enabling dashboard filters multiple selections" class="responsive-img" width="60%"/>
 
 <a name='required-selection'></a>
-## 必須選択
+## Required Selection
 
-ダッシュボード フィルターで選択オプションを必須または無効にできます。
-デフォルトでは、選択は不要です。選択オプションで、ユーザーがすべてのダッシュボード フィルター値を解除することができ、実行したクエリからフィルターを削除します。クエリはデータ ソースのすべてのデータを取得し、ダッシュボード フィルター行に「選択なし」と表示されます。
+Dashboard filters can be configured to require a selected option or not.
+By default, selections are not required. Making selections optional
+allows the user to uncheck all dashboard filter values, which removes
+the filter from the performed query. The query retrieves all data from
+the data source, and *No Selection* is displayed in the dashboard
+filters row.
 
-**[必須選択] を有効する**には、ダッシュボードを編集モードに替える必要があります。⇒ ダッシュボード フィルターのオーバーフロー ニューから [編集] を選択 ⇒ [選択] ⇒ [必須選択] チェックボックスをオンにします。
+In order to **enable "Required Selection"**, you must switch the
+dashboard to *Edit* mode ⇒ choose *Edit* from the overflow menu of a
+dashboard filter ⇒ *Selection* ⇒ tick *Required Selection* checkbox.
 
 <img src="images/required-selection-option-filters.png" alt="Enabling dashboard filters required selection" class="responsive-img" width="60%"/>
 
 <a name='data-filters'></a>
-## データ フィルター
+## Data Filters
 
-ダッシュボード フィルターに表示されるデータセットのフィールドにフィルターを適用することもできます。これにより、特定のフィールドの null または空の値をフィルター アウトできます ([空の値のフィルター](~/jp/data-visualizations/fields/field-filters-rules.html#empty-values))。[特定の値を選択する](~/jp/data-visualizations/fields/field-filters-rules.html#select-values)か、フィールド タイプに応じてオプションを変更するためにフィールドに[ルール](~/jp/data-visualizations/fields/field-filters-rules.html#rules)を追加することもできます。詳細は、「[フィールド フィルターとルール](~/jp/data-visualizations/fields/field-filters-rules.html)」トピックをご覧ください。
+You can also apply filters to the fields in the dataset displayed in the
+Dashboard Filter. This allows you to filter out null or empty values on
+a specific field ([empty values filter](~/docs/analytics/data-visualizations/fields/field-filters-rules.html#empty-values)). You can also [select specific values](~/docs/analytics/data-visualizations/fields/field-filters-rules.html#select-values), or add
+[rules](~/docs/analytics/data-visualizations/fields/field-filters-rules.html#rules) to your field in order to change the
+options depending on the field type. For more information, visit the
+[field filters and rules](field-filters-rules.md) section.
 
-たとえば、**Fullname** フィールドを使用して **HR ダッシュボード**のデータをフィルタリングする場合、**ダッシュボード フィルター**は会社のすべてのオフィスの従業員リストを表示します。
+For example, if you use the *Fullname* field to filter the data in
+your *HR Dashboard*, the *Dashboard filter* will show a list of all
+employees in all offices of the company:
 
 <img src="images/data-filters-dashboard-filters-hr-dashboard.png" alt="Full name dashboard filter applied to HR Dashboard" class="responsive-img" width="45%"/>
 
-ここでは、特定のオフィスで働いている従業員だけをフィルターとして使用する場合は、**データ フィルター** プロパティを適用でる、たとえば、*London, UK*。それにより、ダッシュボード フィルターには、ロンドンオフィスで働く従業員のリストが表示されます。
+If you want your filter list to contain only employees working in a particular office, e.g.
+*London, UK*, apply a data filter as shown below.
 
-### ダッシュボード フィルターにデータ フィルターを適用
+### Applying a data filter to your dashboard filter
 
-フィルター リストに特定のオフィスで働いている従業員のみ (たとえば、*London, UK*) を含める場合は、以下に示すようにデータ フィルターを適用します。
+To apply field filters and rules to the data source used as a dashboard
+filter and have the dashboard filter show only the employees in the
+*London, UK* office (as in the example above), follow these steps:
 
-1.  ダッシュボード フィルター設定の**データ フィルター**に移動します。
+1.  Go to *Data Filters* in Dashboard Filter settings.
 
-2.  **表示フィールド**プロパティで **Employee Name** を選択します。
+2.  Select *Employee name* for the *Displayed Field* property.
 
-3.  [フィールドを選択] をクリック/タップして、リストから [オフィス] を選択します。
+3.  Click/tap *Select a Field* and choose *Office* from the list.
 
     <img src="images/dashboard-filter-select-data-filter-field.png" alt="Selecting a field for a data filter in the dashboard filter settings menu" class="responsive-img" width="60%"/>
 
-4.  次のダイアログで、適用するフィルター タイプを選択します (この例では、**[値の選択]** を選択します)。
+4.  In the following dialog, select the filter type you want to apply
+    (choose *Select Values* for the purposes of this example):
 
     <img src="images/option-filter-type.png" alt="Dashboard Filters Filter type option" class="responsive-img" width="60%"/>
 
-5.  リストから *London, UK* を選択し、[フィルターの作成] ボタンをクリック/タップします。
+5.  Choose *London, UK* from the list and click/tap the *Create Filter*
+    button.
 
-## Microsoft Analysis Data を使用したダッシュボード フィルター
+## Dashboard Filters Using Microsoft Analysis Data
 
-MS Analysis のダッシュボード フィルターを構成する場合、いくつかの詳細があります (以下のリストを参照)。
+There are some specifics when configuring an MS Analysis dashboard filter.
 
 <img src="images/microsoft-analysis-services-dashboard-filter.png" alt="Dashboard Filter dialog when configuring an SSRS filter" class="responsive-img" width="60%"/>
 
- 1. **表示される要素** - ダッシュボード フィルター値を表示するために **ディメンション**、**階層** または **レベル** データ フィールドを選択できますが、**メジャー** データ フィールドは選択できません。
+ 1. **Displayed Element** - you can select a *Dimension*, *Hierarchy* or *Level* data field to display dashboard filter values, but not a *Measure* data field. 
 
- 2. (オプション) **メジャーにデータがある場合のみ表示** - メジャーを選択して、ダッシュボードのフィルター リストを特定のメジャーのデータを含む値に制限します。
+ 2. (*Optional*) **Show only when Measure has data** - select a *Measure* to limit the dashboard filter list to values that contain data for a certain Measure.
 
-たとえば、上のスクリーンショットに見えるように、**Product** ディメンションは **[表示する要素]** として選択されているため、ダッシュボード フィルターには製品のリスト (自転車、衣服など) のリストが表示されます。
-[メジャーにデータがある場合のみ表示] フィールドの **Interner orders** メジャーを追加選択すると、**Interner orders** メジャーに関する情報を含まないダッシュボード フィルター値を除外します。自転車のインターネット注文がない場合、その製品はダッシュボード フィルター リストに表示されません。
+Look at the screenshot above. In this example, the *Product* Dimension is selected as a *Displayed element*, so the dashboard filter will show a list of products (e.g. bikes, clothes, etc). 
+By additionally selecting the *Internet orders* Measure for *Show only when Measure has data* field, you will exclude dashboard filter values, which do not contain information about the *Internet orders* Measure. So, if there are no internet orders of the product bike, *bike* will not show up as a possible selection in the *Dashboard Filters* list.
 
-## 次の手順 
+## Next Steps 
 
-ダッシュボード フィルターを作成したので、フィルターを適用する**表示形式に接続する**必要があります。詳細は、「[ダッシュボード フィルターを表示形式に接続](connecting-dashboard-filters-visualization.html)」トピックをご覧ください。
+Now that you have already created your dashboard filter, you will need
+to **connect it to the visualizations** you want to apply filtering to.
+To learn more about this, please read [Connecting Dashboard Filters to a Visualization](connecting-dashboard-filters-visualization.md).
+

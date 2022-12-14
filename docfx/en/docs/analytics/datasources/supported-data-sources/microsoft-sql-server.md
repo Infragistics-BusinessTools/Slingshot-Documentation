@@ -1,89 +1,105 @@
 ---
-title: Slingshot で Microsoft SQL Server を構成する方法
-_description: Microsoft SQL Server を構成して使用する方法を説明します。
-_language: ja
+title: How to configure Microsoft SQL Server in Slingshot
+_description: Steps to configuring Microsoft SQL Server and using it to your advantage.
 ---
 
 # Microsoft SQL Server
 
->[!NOTE] 
->**Web の制限**。*Analytics Web* アプリでは、公的にアクセス可能な Microsoft SQL アドレスにのみ接続できます。MS SQL アドレスが一般公開 (プライベートまたは会社のイントラネットでホストされているなど) に制限されている場合は、*Analytics Desktop*、*iOS*、または *Android* を使用して接続できます。Analytics を実行しているデバイスは、SQL Server アドレスにアクセスできる必要があります。この制限は、*Analytics Embedded* には適用されません。
+>[!NOTE] **Limitations in Web**. In the *Analytics Web* app, you can connect only to publicly accessible Microsoft SQL addresses. If your MS SQL address is restricted for the general public (private or hosted in the company's intranet, for example), you can use *Analytics Desktop*, *iOS* or *Android* to connect to it. The device where you're running Analytics needs to have access to the SQL Server address. This limitation does not apply to *Analytics Embedded*.
 
-## MS SQL Server への接続
+## Connecting to MS SQL Server 
 
-Microsoft SQL サーバー データ ソースを構成するには、以下の情報が必要です。
+To configure a Microsoft SQL Server data source, you can set the following information:
 
 <img src="images/enter-microsoft-sql-credentials.png" alt="Enter SQL Server Details" class="responsive-img" width="50%"/>
 
-1. **[[サーバー](#how-to-find-server)]**: コンピューター名またはサーバーを実行しているコンピューターに割り当てられた IP アドレス。
+1.  [**Server**](#how-to-find-server): the computer name or IP address
+    assigned to the computer on which the server is running.
 
-2.  **[ポート]**: 該当する場合、サーバー ポートの詳細。情報が入力されない場合、Analytics はデフォルトでヒント テキスト (1433) のポートに接続します。
+2.  **Port**: if applicable, the server port details. If no information
+    is entered, Analytics will connect to the port in the hint text (1433)
+    by default.
 
-3.  **[資格情報]**: [資格情報] を選択した後、Microsoft SQL Server の資格情報を入力するか、既存の資格情報 (適用可能な場合) を選択できます
+3.  **Credentials**: after selecting *Credentials*, you will be able to enter the credentials for your Microsoft SQL Server or choose existing ones if applicable.
 
-      - **ユーザー名**: SQL Server のユーザー アカウントまたはドメインの名前。
+      - **Username**: the user account for the SQL Server or the name of the domain.
 
-      - **パスワード**: SQL Server にアクセスするためのパスワード。
+      - **Password**: the password to access the SQL Server.
 
-      - **エイリアス**: データ ソース名は前のダイアログのアカウントのリストに表示されます。デフォルトでは、分析は Microsoft SQL Server という名前を付けます。好みに合わせて変更できます。
+      - **Alias**: Your data source name will be displayed in the list of accounts in the previous dialog. By default, Analytics names it Microsoft SQL Server. You can change it to your preference.
 
-    準備ができたら、**[追加]** を選択してから **[サーバーの追加]** を選択します。
+    Once ready, select **Add** and then **Add Server**.
 
 <a name='how-to-find-server'></a>
-## サーバー情報を見つける方法
+## How to find your Server Information
 
-以下の手順でサーバーの確認ができます。コマンドはサーバーで実行する必要があることに注意してください。
+You can find your server by following the steps below. Please note that
+the commands should be executed on the server.
 
 | WINDOWS                                                                                                         | LINUX                                                                                                         | MAC                                                                  |
 | --------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------- |
-| 1\. ファイル エクスプローラーを開きます。                                                                                     | 1\. ターミナルを開きます。                                                                                          | 1\. システム環境設定を開きます。                                         |
-| 2\. マイコンピューターを右クリックしてプロパティを表示します。                                                                   | 2\. **$hostname** と入力します。                                                                                   | 2\. 共有セクションに移動します。                                 |
-| ホスト名は、[コンピューター名、ドメイン、ワークグループ設定] の下に [コンピューター名] として表示されます。 | [ホスト名] と [DNS ドメイン名] が表示されます。Analytics では**ホスト名**のみを含めることに注意してください。 | [ホスト名] は、上部の [コンピューター名] の下に表示されます。 |
+| 1\. Open the File Explorer.                                                                                     | 1\. Open a Terminal.                                                                                          | 1\. Open System Preferences.                                         |
+| 2\. Right Click on My Computer \> Properties.                                                                   | 2\. Type in **$hostname**                                                                                     | 2\. Navigate to the Sharing Section.                                 |
+| Your Hostname will appear as "Computer Name" under the *Computer name, domain and workgroups settings* section. | Your Hostname will appear along with your DNS domain name. Make sure you only include the **Hostname** in Analytics. | Your Hostname will be listed under the "Computer Name" field on top. |
 
-以下の手順で *IP アドレス*も確認できます。コマンドはサーバーで実行する必要があることに注意してください。
+You can find your *IP address* by following the steps below. Please note
+that the commands should be executed on the server.
 
 | WINDOWS                              | LINUX                             | MAC                                                           |
 | ------------------------------------ | --------------------------------- | ------------------------------------------------------------- |
-| 1\. コマンド プロンプトを開きます。           | 1\. ターミナルを開きます。              | 1\. ネットワーク アプリケーションを起動します。                                  |
-| 2\. **ipconfig** と入力します。             | 2\. **$ /bin/ifconfig** と入力します。   | 2\. 接続を選択します。                                   |
-| **IPv4 アドレス** はあなたの IP アドレスです。 | **Inet addr** はあなたの IP アドレスです。 | **IP アドレス** フィールドに必要な情報が提供されます。 |
+| 1\. Open a Command Prompt.           | 1\. Open a Terminal.              | 1\. Launch your Network app.                                  |
+| 2\. Type in **ipconfig**             | 2\. Type in **$ /bin/ifconfig**   | 2\. Select your connection.                                   |
+| **IPv4 Address** is your IP address. | **Inet addr** is your IP address. | The **IP Address** field will have the necessary information. |
 
 <a name='working-with-views'></a>
-## データの設定
+## Setting Up Your Data
 
-### ビューの作業
+### Working with Views
 
-Analytics を使用すると、テーブル全体から SQL Server データを取得できますが、代わりにテーブルまたはテーブルのセットからデータのサブセットを返す、特定の[ビュー](https://docs.microsoft.com/ja-jp/sql/relational-databases/views/views?view=sql-server-2017)を選択することもできます。
+With Analytics, you can retrieve SQL Server data from entire tables, but
+you can also select a particular
+[view](https://docs.microsoft.com/en-us/sql/relational-databases/views/views?view=sql-server-2017)
+that returns a subset of data from a table or a set of tables instead.
 
 <img src="images/microsoft-sql-views.png" alt="SQLServerViews\_All" class="responsive-img" width="60%"/>
 
-以下のサンプルでは、**Invoices** ビューに、SQL Server の **Alphabetical list of products** テーブルのデータの一部が含まれています。
+In the sample below, the **Invoices** view contains
+part of the data in the **Alphabetical list of products** table in the SQL Server.
 
 <img src="images/sample-microsoft-sql.png" alt="AlphabeticalListProductsSQLServer\_All" class="responsive-img" width="85%"/>
 
-ビューおよび MS SQL サーバーの詳細については、[この Web サイト](https://docs.microsoft.com/ja-jp/sql/relational-databases/views/views?view=sql-server-2017)を参照してください。
+For more information on views and MS SQL Server, visit [this documentation website](https://docs.microsoft.com/en-us/sql/relational-databases/views/views?view=sql-server-2017).
 
-### 保管されたプロシージャの作業
+### Working with Stored Procedures
 
-MS SQL では、保管されたプロシージャを利用することで、特定のパラメーターを使用して、リレーショナル データベースで一連のクエリ ステートメントを実行できます。以下は、[Northwind](https://docs.microsoft.com/ja-jp/dotnet/framework/data/adonet/sql/linq/downloading-sample-databases) データを使用してテスト サーバーで実行されるサンプル 保管されたプロシージャのセットです。
+In MS SQL, stored procedures allow users to run a set of query
+statements in a relational database with specific parameters. The
+following are just a set of sample stored procedures running in a test
+server with
+[Northwind](https://docs.microsoft.com/en-us/dotnet/framework/data/adonet/sql/linq/downloading-sample-databases)
+data:
 
 <img src="images/stored-procedures-microsoft-sql.png" alt="SQLStoredProcedures\_All" class="responsive-img" width="55%"/>
 
-たとえば、この保管されたプロシージャは、**Products** テーブルの製品を、**Unit Price** で並べ替えて返します。  **ProductName** の名前は、**TenMostExpensiveProducts** に変更されました。
+This stored procedure, for example, returns the products in the
+**Products** table ordered by their **Unit Price**. The **ProductName**
+has been renamed to **TenMostExpensiveProducts**.
 
 <img src="images/stored-procedures-sample-result.png" alt="StoredProcedureSampleResults\_All" class="responsive-img" width="85%"/>
 
-この場合、保管されたプロシージャは、**Sales by Year** 情報を表示するための開始日と終了日を設定する必要があります。
+In this case, the stored procedure requires users to configure the start and end date to display the **Sales by Year** information.
 
 <img src="images/stored-procedures-parameters-sample.png" alt="StoredProcedureSampleDates\_All" class="responsive-img" width="65%"/>
 
-ストアドプロシージャおよび MS SQL サーバーの詳細については、[この Web サイト](https://docs.microsoft.com/ja-jp/sql/relational-databases/stored-procedures/stored-procedures-database-engine?view=sql-server-2017)を参照してください。
+For more information on Stored Procedures and MS SQL Server, visit [this documentation website](https://docs.microsoft.com/en-us/sql/relational-databases/stored-procedures/stored-procedures-database-engine?view=sql-server-2017).
 
-### Analytics 保管されたプロシージャの制限
+### Limitations for Stored Procedures in Analytics
 
 
-  - 複数の結果セットを返すスト アドプロシージャの場合、最初の結果のみが表示されます。
+  - For stored procedures that return more than one result set, Analytics
+    displays only the first one.
 
-  - 保管されたプロシージャの[出力パラメーター](https://docs.microsoft.com/ja-jp/sql/connect/jdbc/using-a-stored-procedure-with-output-parameters?view=sql-server-2017)は無視されます。
+  - [Output parameters](https://docs.microsoft.com/en-us/sql/connect/jdbc/using-a-stored-procedure-with-output-parameters?view=sql-server-2017)
+    in stored procedures are ignored.
 
-  - 結果セットを返さない保管されたプロシージャはデータ ソース リストに表示されますが、失敗します。
+  - Stored procedures that return no result sets will be listed in the Data Sources list but will fail.

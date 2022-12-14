@@ -1,29 +1,31 @@
-# システム要件
+# System Requirements
 
-以下は、Analytics のすべてのバージョンでサポートされているオペレーティング システムです。
+The following are the supported operating systems for every version of
+Analytics.
 
 ## Android
 
-バージョン 5.0 (Lollipop) 以降。ただし、Kindle Fire を除く。
+Version 5.0 (Lollipop) or higher, except for the Kindle Fire.
 
-## デスクトップ
+## Desktop
 
-Windows 7 SP1 またはそれ以降
+Windows 7 SP1 or newer.
 
-Microsoft .Net 4.6.2 がインストールされている必要があります。.NET Framework のシステム要件の詳細に関して[この Microsoft 記事](https://docs.microsoft.com/ja-jp/dotnet/framework/get-started/system-requirements) をご参照ください。
+Requires Microsoft .Net 4.6.2 installed on your machine. For more
+information on .NET Framework system requirements, check [this Microsoft article](https://docs.microsoft.com/en-us/dotnet/framework/get-started/system-requirements).
 
 ## iOS
 
-iOS バージョン 11 以降
+iOS version 11 or higher.
 
-## ウェブ
+## Web
 
-Analytics の Web 版は以下のブラウザーをサポートします。
+The Web version of Analytics supports the following browsers: 
 
 - *Chrome* 
-- *Edge (Chromium ベース バージョン)*
+- *Edge (Chromium-based version)*
 - *Firefox* 
 - *Safari* 
 
 >[!NOTE]
->モバイル版の Firefox と Chrome はサポートされません。
+>The mobile versions of Firefox and Chrome are not supported.

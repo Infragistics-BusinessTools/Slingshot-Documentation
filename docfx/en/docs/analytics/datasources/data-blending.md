@@ -1,72 +1,77 @@
 ---
-title: Slingshot のデータ ブレンティング
-_description: 1 つの表示形式で複数のデータ ソースを結合する方法を説明します。
-_language: ja
+title: Data Blending in Slingshot 
+_description: How to combine more than one data source in one visualization.
 ---
 
-# データ ソースを 1 つの表示形式に統合
+# Combining Data Sources in one Visualization
 
-同じ Analytics 表示形式の**複数のデータ ソースから値を抽出する**ために、**データ ブレンティング**が必要な場合があります。
+Sometimes you need **Data Blending** to extract value from **more than one data source** in the same Analytics visualization.
 
-たとえば、休暇日数を部署ごとに他の従業員不就業と比較して、それらの変数の相関関係についてインサイトを得ることができます。
+For example, you may want to compare vacation days taken with other
+employee absences by department, to gain insight about the correlation
+of those variables.
 
-<img src="images/data-blending-sample.png" alt="Data Blending Example Visualization" class="responsive-img" width="80%"/>
+<img src="images/data-blending-sample.png" alt="Data Blending Example Visualization" class="responsive-img" width="85%"/>
 
+Follow these steps to combine two data sources in one visualization:
 
-２つの データ ソースを 1 つの表示形式に統合ため、以下の手順を実行します:
+1.  **Open the Data Blending dialog**.
 
-1.  **データ ブレンティングのダイヤログを開く**。
-
-    **[フィールド]** セクションの **[+]** ボタンをクリックもしくはタップし、**[その他のデータ ソース フィールド]** を選択します。
+    Click/Tap the **+** button in the *Fields* section and select
+    **Fields from another Data Source**.
 
      <img src="images/fields-from-another-data-source-option.png" alt="Data Blending Accessing dialog in the Visualization editor" class="responsive-img" width="
      35%"/>
 
-2.  **新しいデータ ソースを選択する**。
+2.  **Choose the new Data Source**.
 
-    統合するデータ ソースに接続します。
+    Connect to the data source that you want to combine.
 
-3.  **JOIN 条件を指定する**。
+3.  **Specify the JOIN Condition**
 
-    2 つのデータ セットを統合するために一致する必要がある等価条件を設定します。
+    Configure the equality condition that needs to match to combine the
+    two data sets.
 
      <img src="images/join-condition-data-blending.png" alt="Data Blending Join Condition selection" class="responsive-img" width="55%"/>
 
+4.  **Choose the fields you want**
 
-4.  **必要なフィールドを選択する**。
+    Specify which are the fields that you want to combine, so you can
+    access them in your visualization.
 
-    結合するフィールドを指定して、表示形式でアクセスできるようにします。
+     <img src="images/data-blending-new-fields.png" alt="Data Blending Choose New Fields option" class="responsive-img" width="60%"/>
 
-     <img src="images/data-blending-new-fields.png" alt="Data Blending Choose New Fields dialog" class="responsive-img" width="60%"/>
+5.  **Select Join Data**
 
+    After merging the two data sets, you can find the new fields at the
+    bottom of the *Fields* section.
 
-5.  **[データの結合] を選択する**。
+     <img src="images/result-data-blending.png" alt="Show Data Blending Result" class="responsive-img" width="85%"/>
 
-    2 つ のデータセットをマージすると、**[フィールド]** セクションの下部に新しいフィールドを確認できます。
-
-     <img src="images/result-data-blending.png" alt="Show Data Blending Result" class="responsive-img" width="70%"/>
-
-
-    上記画像に表示されように、部署 ID を使用する代わりに、部署名で休暇日を表示できるようになりました。
+    As shown in the image above, you can now visualize vacation days by
+    Department name instead of using the internal Department ID.
 
 
-## 結合条件
+## The JOIN Condition
 
-他のデータ ソースからフィールドを追加する場合、実際には 2 つの異なるデータ セットを結合します。Analytics が使用する結合操作は LEFT (OUTER) JOIN です。
+When adding fields from other data sources, you actually join two different data sets. The join operation used by Analytics is LEFT (OUTER)
+JOIN.
 
-以下に、両方のテーブルの DepartmentID (部署 ID) フィールドを使用して、**休暇 (左のテーブル)** と**事業部 (右のテーブル)** のデータセットがどのように結合しているかを示します (平等条件: DepartmentId = DepartmentId)。
+Below you can see how the **Vacation (left table)** and the
+**Departments (right table)** data sets are joined, using the DepartmentId
+field in both tables as the relationship between them (equality condition: DepartmentId = DepartmentId).
 
-**結合操作の前:**
+**Before JOIN operation:**
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col style="width: 45%" />
+<col style="width: 45%" />
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><h4 id="_vacation" style="text-align: center">休暇</h4></td>
-<td><h4 id="_departments" style="text-align: center">事業部</h4></td>
+<td><h4 id="_vacation" style="text-align: center">Vacation</h4></td>
+<td><h4 id="_departments" style="text-align: center">Departments</h4></td>
 </tr>
 <tr class="even">
 <td>
@@ -77,8 +82,8 @@ _language: ja
 </colgroup>
 <thead>
 <tr class="header">
-<th>休暇日数</th>
-<th>部署 ID</th>
+<th>Taken (days)</th>
+<th>DepartmentId</th>
 </tr>
 </thead>
 <tbody>
@@ -99,8 +104,8 @@ _language: ja
 </colgroup>
 <thead>
 <tr class="header">
-<th>部署 ID</th>
-<th>部署名</th>
+<th>DepartmentId</th>
+<th>Department (name)</th>
 </tr>
 </thead>
 <tbody>
@@ -110,7 +115,7 @@ _language: ja
 </tr>
 <tr class="even">
 <td><p>100</p></td>
-<td><p>人事</p></td>
+<td><p>HR</p></td>
 </tr>
 </tbody>
 </table></td>
@@ -118,12 +123,13 @@ _language: ja
 </tbody>
 </table>
 
-**結合操作後:**
+**After JOIN operation:**
 
-| **休暇日数** | **部署 ID** | **部署 ID** | **部署名** |
+| **Taken (days)** | **DepartmentId** | **DepartmentId** | **Department (name)** |
 | ---------------- | ---------------- | ---------------- | --------------------- |
 | 40               | 1                | 1                | CPA                   |
 | 92               | 10               |                  |                       |
 
 
-**注**: LEFT JOIN 操作は、左側のテーブルからすべてのレコードを返し、右側のテーブルから一致するレコードのみを保持します。
+Notice that LEFT JOIN operation returns all records from the left table,
+and keeps only matching records from the right table.

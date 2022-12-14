@@ -1,60 +1,92 @@
 ---
-title: ゲージ チャートを作成して使用する方法
-_description: Slingshot 分析で表示形式にゲージ チャートを使用する方法を説明します。
-_language: ja
+title: How to Create and Use Gauge Charts
+_description: Find out how to use Gauge Charts for your visualizations in Slingshot Analytics.
 ---
 
-# ゲージ チャート
+# Gauge Charts
 
-ゲージ チャートは単一値を表示します。または、それらを範囲しきい値と比較した値のリストを表示します。ゲージはまた、他の範囲の条件付き書式設定を可能にします。5 つの異なるスタイルがあります: [リニア](#linear-gauge)、[円型](#circular-gauge)、[テキスト](#text-gauge)、[KPI](kpi-gauge.html)、[ブレット グラフ](#bullet-graph)。
+The Gauge chart displays a single value, or a list of values, comparing
+them with range thresholds. The gauge also allows for conditional
+formatting of the different ranges. There are four different flavors:
+[Linear](#linear-gauge), [Circular](#circular-gauge),
+[Text](#text-gauge.md), [KPI](kpi-gauge.md) and [Bullet Graph](#bullet-graph) gauges.
 
 <a name='linear-gauge'></a>
-## リニア ゲージ
+## Linear Gauge
 
-リニア ゲージは、ラベル、**[ラベル]** のプレースホルダーの設定から取得された値、および設定 **[値]** のプレースホルダーの値が表示されます。値は、四角形としてチャート化され、バンド内または隣りに数値形式で表示されます。
+The Linear gauge displays a label, the value of which is taken from the
+*Label* placeholder configuration, and a value that comes from the
+configured *Value* placeholder. The value is charted as a rectangle, and
+is also displayed in a numeric format within its bounds or next to it.
 
-このゲージ タイプは、行の値を並べて比較することに適しています。
+This gauge type is suitable to compare the values of different rows side
+by side.
 
 <img src="images/pivot-editor-view-linear-gauge-view.png" alt="linear gauge" class="responsive-img"/>
 
 <a name='circular-gauge'></a>
-## 円型ゲージ
+## Circular Gauge
 
-円型ゲージは、バンドの最小しきい値と最大しきい値、および現在の値を表示します。現在の範囲の色で背景も塗りつぶします。
+The Circular Gauge displays the band's minimum and maximum thresholds, and
+the current value. It also paints the background with the color of the
+current range.
 
 <img src="images/pivot-editor-view-circular-gauge-view.png" alt="Circular gauge chart example in the Visualization editor" class="responsive-img"/>
 
 
 
 <a name='text-gauge'></a>
-## テキスト ゲージ
+## Text Gauge
 
-テキスト ゲージは、大きなフォントで Value 列データを表示します。このタイプは、非常に優先度の高いメトリックに適しています。デフォルトでは、いずれかのフィルターが適用されていない限り、選択データ行が異なるようにゲージは最初のデータ行の値列のデータを表示します。
+The Text Gauge displays the Value column data in a large font. This
+flavor is suitable for very high priority metrics. By default, the gauge
+will visualize the data from the Value column for the first data row
+unless any filters are applied so that the chosen data row is different.
 
 <img src="images/pivot-editor-view-text-gauge-view.png" alt="Text gauge chart example in the Visualization editor" class="responsive-img"/>
 
 <a name='bullet-graph'></a>
-## ブレット グラフ
+## Bullet Graph
 
-ブレット グラフ ゲージは、リニア ゲージに似ていて、**[ラベル]** のプレースホルダーからラベルを表示し、**[値]** のプレースホルダーから値を表示します。値は水平線でチャート化され、数字形式で右側にも表示されます。
+The Bullet is very similar to a Linear gauge; it displays a label from
+the *Label* placeholder and a value from the *Value* placeholder. The
+value is charted as a horizontal line, and it is also displayed on the
+right in a numeric format.
 
-ブレット グラフは新しいビジュアル インジケーターをリニア ゲージに追加します。**[ターゲット]** プレースホルダーの目標値をベースにした垂直マークです。これは新しいインジケーターで数値列から取得されます。**このチャートを構成するには 2 つの数値列とテキスト列が必要です**。
+The Bullet Graph adds a new visual indicator to the Linear gauge, a
+vertical mark that is based on a target value from the *Target*
+placeholder. This new indicator is retrieved from a numeric column,
+meaning that **you need two numeric columns and a text column to configure this chart**.
 
 <img src="images/pivot-editor-view-bullet-graph-gauge-view.png" alt="Bullet graph gauge chart example in the Visualization editor" class="responsive-img"/>
 
-このブレット は、値を左右に並べて比較する際に便利です。また、目標値 (垂直マーク) に対する値 (水平線) からパフォーマンスを評価できます。
+The Bullet is useful for comparing values side by side, while also
+evaluating the performance from the value (horizontal line) against the
+target value (vertical mark).
 
 <a name='bands-configuration'></a>
-## バンドの構成
+## Bands Configuration
 
-すべてのゲージ タイプには共通のバンド範囲構成があり、これは表示形式エディターの **[設定]** セクションにあります。構成ダイアログでは、以下を設定できます:
+All gauge types have a common band range configuration, which you can find in the *Settings* section of the _Visualizations Editor_. The configuration dialog allows you to set:
 
-1. **制限**を設定する。これらの値は自動的に指定された値の列のデータセット内の最大値/最小値として設定されますが、定数値を使用して手動でオーバーライドすることができます。
+1. Set **Limits**. 
+  These values are automatically set as the lowest and
+    highest values in the dataset for the specified value column, but
+    can also be overriden manually with constant values.
 
-2. **条件付き書式**を構成する。
-
-**バンド構成**。このセクションは、ユーザーは 3 つのスペースで範囲を分割するために 2 つのしきい値を設定する必要があります。しきい値は、パーセンテージとして定義または定数値として定義することができます。また、ここに各バンドに関連付ける色を定義する必要があります。デフォルトでは上部のバンドは緑、中央は黄、下部は赤です。
+2. Configure **Conditional Formatting**. 
+   
+**Bands configuration**. This section requires you to establish two
+    thresholds to split the range in three spaces. The thresholds can be
+    defined as percentage or constant values. Additionally, the
+    definition of the color to associate to each band is configured
+    here. By default, the upper band is colored green, the middle
+    yellow, and the lower in red.
 
 <img src="images/pivot-editor-view-gauge-band-settings.png" alt="gauge band configuration in Settings section" class="responsive-img"/>
 
-*バンド構成は、Analytics を通じて適用された書式ではなく*、**元のデータに基づいています**。上の円型ゲージでは、表示形式が数値を表示するように書式設定されていても、元のデータはパーセンテージで表されています。したがって、選択された **[値比較タイプ]** は **[パーセンテージ]** であり、範囲は数値ではなくパーセンテージとして定義されます。
+**Band Configurations are based on your original data**, *not on the
+formatting applied through Analytics*. In the circular gauge above, the
+original data is expressed in percentages, even though the visualization
+was formatted to display a number. Therefore, the selected **Value Comparison Type** is **Percentage**, and the ranges are defined as
+percentages and not numbers.

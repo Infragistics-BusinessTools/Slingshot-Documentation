@@ -1,49 +1,68 @@
 ---
-title: 表示形式にカテゴリ チャートを使用する方法
-_description: カテゴリ チャートを使用して表示形式を向上させる方法を説明します。
-_language: ja
+title: How to Use Category Charts for Visualization
+_description: Find out how to use category charts for making your visualizations truly remarkable.
 ---
 
-# カテゴリ チャート
+# Category Charts
 
-これらのチャートを使用して、カテゴリを定量的情報に関連付けます。
+These charts are used to associate categories with quantitative
+information.
 
 <img src="images/category-charts-list.png" alt="Category charts variations" class="responsive-img" width="85%"/>
 
-データに適している限り、表示形式オプション メニューに表示されたチャート アイコンをどれでも選択できます。Analytics はデータセットの最初の数字の列を選択し、選択したチャート タイプのデータ系列の要件と一致させようと試みます。
+You can select any of the chart icons displayed in the Visualizations
+options menu as long as it is suitable for your data. Analytics will select
+the first numeric columns in the dataset and attempts to match the
+selected chart type data series requirements.
 
 <img src="../images/various-charts-example.png" alt="Various charts visualizations in a dashboard" class="responsive-img" width="88%"/>
 
-たとえば、柱状チャートでは、すべての数値列がチャートに追加されます。Analytics の列の自動選択は、チャートの設定の構成で変更できます。
+For instance, in a Column Chart, all numeric columns are added to the
+chart. The automatic selection of columns done by Analytics can be modified
+in the Chart Settings configuration.
 
-## チャートの近似曲線
+## Chart Trendlines
 
-チャートの設定でトレンドラインの表示を有効にできます。このラインはアルゴリズムに基づいてチャートにラインを表示します。近似曲線でデータセットの傾向を把握し、意思決定のためのしきい値を定義できます。
-サポートされるトレンドラインは、二次フィット、キュービック フィット、四次フィット、対数フィット、指数フィト、べき乗フィット、単純平均、指数平均、修正平均、累加平均、加重平均です。
+Chart settings enable the display of trend lines, which are lines that
+are painted across a chart, based on an algorithm. Trendlines are a very
+simple, yet powerful tool to help you determine trends in datasets, and
+define thresholds for taking action. The supported algorithms are Linear
+Fit, Quadratic Fit, Cubic Fit, Quartic Fit, Logarithmic Fit, Exponential
+Fit, Power Law Fit, Simple Average, Exponential Average, Modified
+Average, Cumulative Average, Weighted Average.
 
 <img src="images/chart-trendline-option.png" alt="Chart trendline options" class="responsive-img" width="88%"/>
 
-## パーセンテージの配分
+## Percentage Distribution
 
-積層型シリーズ チャートにもこの機能を構成できます。0-100 のデフォルト スケールを上書きして、チャートで値のパーセンテージ配分を表示形式できます。
+You can also configure this feature for the *stacked series charts*. It
+will override the 0-100 default scale and allow you to visualize the
+percentage distribution of the values in the chart.
 
 <img src="images/percentage-distribution-option-stacked-series-charts.png" alt="Pivot editor view stacked percentage distribution setting" class="responsive-img" width="88%"/>
 
-## 開始位置とスライス ラベル
+## Start Position and Slice Labels
 
-円チャートおよびドーナツ チャートでチャートのスライスを回転する開始位置を構成し、データの表示順序を変更できます。
+For *Pie* and *Doughnut* charts, you can configure the start position
+for the chart to rotate the slices and change the order in which your
+data is presented.
 
 <img src="images/start-position-setting-doughnut-chart-example.png" alt="Start position setting while using a doughnut chart" class="responsive-img" width="88%"/>
 
-ファンネル、円チャート、およびドーナツ型チャート、値やパーセンテージ、またはその両方を同時に表示するスライス ラベルを構成できます。
+For *Funnel*, *Pie*, and *Doughnut* charts, you can configure slice
+labels in order for the visualization to display values, percentages, or
+both at the same time.
 
 <img src="images/slice-label-setting-doughnut-chart-example.png" alt="Pivot editor slice labels setting" class="responsive-img" width="88%"/>
 
-## 値 0 の要素を表示するために円チャートおよびドーナツ チャートの凡例を有効化
+## Enabling Pie and Doughnut Charts Legends to Show Elements with Value 0
 
-円およびドーナツ チャートの表示形式の凡例には、[ラベル] に選択されたフィールドのすべてのデータ (値 0 の要素を含む) を表示するオプションがあります。
+The pie and doughnut visualization legends give you the option to see
+all the data in the field selected for *Label*, including elements with
+value zero.
 
-この設定を有効にするには、以下の画像のように、表示形式エディターの [設定] に移動し、[0 (ゼロ) 値を凡例に表示] を選択します。
+To enable this setting, go to *Settings* in the Visualization editor and
+select *Show Values of 0 in Legend*, as shown in the screenshot below:
 
 <img src="images/pie-chart-example-legends-value-zero-setting.png" alt="Enabling the legend setting in the visualization editor" class="responsive-img" width="88%"/>
 

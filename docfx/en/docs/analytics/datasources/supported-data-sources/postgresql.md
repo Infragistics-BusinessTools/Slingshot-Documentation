@@ -1,96 +1,104 @@
 ---
-title: PostgreSQL データ ソースの構成方法
-_description: PostgreSQL を Slingshot のデータ ソースとして接続して使用する方法を説明します。
-_language: ja
+title: How to configure a PostgreSQL data source
+_description: Connecting and using PostgreSQL as a data source in Slingshot.
 ---
 
 # PostgreSQL
 
->[!NOTE] 
->**Web の制限**。*Analytics Web* アプリでは、公的にアクセス可能な PostgreSQL アドレスにのみ接続できます。PostgreSQL アドレスが一般公開 (プライベートまたは会社のイントラネットでホストされているなど) に制限されている場合は、*Analytics Desktop*、*iOS*、または *Android* を使用して接続できます。Analytics を実行しているデバイスは、PostgreSQL アドレスにアクセスできる必要があります。この制限は、*Analytics Embedded* には適用されません。
+>[!NOTE] **Limitations in Web**. In the *Analytics Web* app, you can connect only to publicly accessible PostgreSQL addresses. If your PostgreSQL address is restricted for the general public (private or hosted in the company's intranet, for example), you can use *Analytics Desktop*, *iOS* or *Android* to connect to it. The device where you're running Analytics needs to have access to this PostgreSQL address. This limitation does not apply to *Analytics Embedded*.
 
-## PostgreSQL への接続
+## Connecting to PostgreSQL
 
-PostgreSQL サーバー データ ソースを設定するには、以下の情報が必要です。
+To configure a PostgreSQL server data source, you will need to enter the
+following information:
 
-<img src="../images/add-postgresql-as-data-source.png" alt="Configure PostgreSQL data source dialog" class="responsive-img" width="40%"/>
+<img src="../images/add-postgresql-as-data-source.png" alt="Configure PostgreSQL data source dialog" class="responsive-img" width="48%"/>
 
-1.  **[[サーバー](#サーバー情報を見つける方法)]**: コンピューター名またはサーバーを実行しているコンピューターに割り当てられた IP アドレス。
+1.  [**Server**](#how-to-find-server): the computer name or IP address
+    assigned to the computer on which the server is running.
 
-2.  **[ポート]**: 該当する場合、サーバー ポートの詳細。情報が入力されない場合、Analytics はデフォルトでヒント テキスト (5432) のポートに接続します。
+2.  **Port**: if applicable, the server port details. If no information
+    is entered, Analytics will connect to the port in the hint text (5432)
+    by default.
 
-3.  **[資格情報]**: [資格情報] を選択した後、PostgreSQL の資格情報を入力するか、既存の資格情報 (適用可能な場合) を選択できます。
+3.  **Credentials**: after selecting *Credentials*, you will be able to
+    enter the credentials for your PostgreSQL server or select existing
+    ones if applicable.
 
-      - **ユーザー名** または **ドメイン**: PostgreSQL サーバーのユーザー アカウントの名前またはドメインの名前。
+      - **Username** or **Domain**: the name of the user account for the PostgreSQL server or the name of the domain.
 
-      - **[パスワード]**: PostgreSQL サーバーにアクセスするためのパスワード。
+      - **Password**: the password to access the PostgreSQL server.
 
-      - **エイリアス**: データ ソース アカウントの名前。
+      - **Alias**: the name for your data source account.
 
- 準備ができたら、**[サーバーの追加]** を選択します。
+ Once ready, select **Add Server**.
 
 <a name='how-to-find-server'></a>
-## サーバー情報を見つける方法
+## How to find your Server Information
 
-以下の手順でサーバーも確認できます。コマンドはサーバーで実行する必要があることに注意してください。
+You can find your server by following the steps below. Please note that
+the commands should be executed on the server.
 
 | WINDOWS                                                                                                         | LINUX                                                                                                         | MAC                                                                  |
 | --------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------- |
-| 1\. ファイル エクスプローラーを開きます。                                                                                     | 1\. ターミナルを開きます。                                                                                          | 1\. システム環境設定を開きます。                                         |
-| 2\. [マイ コンピューター] → [プロパティ] を右クリックします。                                                                   | 2\. **$hostname** を入力します。                                                                                     | 2\. 共有セクションに移動します。                                 |
-| ホスト名は、[コンピューター名、ドメインおよびワークグループの設定] セクションの下に [コンピューター名] として表示されます。| [ホスト名] と [DNS ドメイン名] が表示されます。Analytics には**ホスト名**のみを含めるようにしてください。| [ホスト名] は、上部の [コンピューター名] の下に表示されます。|
+| 1\. Open the File Explorer.                                                                                     | 1\. Open a Terminal.                                                                                          | 1\. Open System Preferences.                                         |
+| 2\. Right Click on My Computer \> Properties.                                                                   | 2\. Type in **$hostname**                                                                                     | 2\. Navigate to the Sharing Section.                                 |
+| Your Hostname will appear as "Computer Name" under the *Computer name, domain and workgroups settings* section. | Your Hostname will appear along with your DNS domain name. Make sure you only include **Hostname** in Analytics. | Your Hostname will be listed under the "Computer Name" field on top. |
 
-以下の手順で *IP アドレス*を確認できます。コマンドはサーバーで実行する必要があることに注意してください。
+You can find your *IP address* by following the steps below. Please note
+that the commands should be executed on the server.
 
 | WINDOWS                              | LINUX                             | MAC                                                           |
 | ------------------------------------ | --------------------------------- | ------------------------------------------------------------- |
-| 1\. コマンド プロンプトを開きます。           | 1\. ターミナルを開きます。              | 1\. ネットワーク アプリケーションを起動します。                                  |
-| 2\. **ipconfig** を入力します。             | 2\. **$ /bin/ifconfig** を入力します。   | 2\. 接続を選択します。                                   |
-| **IPv4 Address** は IP アドレスです。 | **Inet addr** は IP アドレスです。 | **IP アドレス** フィールドに必要な情報が含まれます。 |
+| 1\. Open a Command Prompt.           | 1\. Open a Terminal.              | 1\. Launch your Network app.                                  |
+| 2\. Type in **ipconfig**             | 2\. Type in **$ /bin/ifconfig**   | 2\. Select your connection.                                   |
+| **IPv4 Address** is your IP address. | **Inet addr** is your IP address. | The **IP Address** field will have the necessary information. |
 
-## データの設定
-### ビューの作業
-
-Analytics を使用すると、テーブル全体から PostgreSQL データを取得できるだけでなく、テーブルまたはテーブルのセットからデータのサブセットを返す特定の[ビュー](https://www.postgresqltutorial.com/postgresql-views/)を選択することもできます。
+## Setting Up Your Data
+### Working with Views
+With Analytics, you can not only retrieve PostgreSQL data from entire tables, but
+you can also select a particular
+[view](https://www.postgresqltutorial.com/postgresql-views/) that
+returns a subset of data from a table or a set of tables instead.
 
 <img src="../images/postgresql-views.png" alt="PostgreSQL views dialog" class="responsive-img" width="55%"/>
 
-上記のサンプルの**請求書**ビューには、PostgreSQL サーバーの **Products** テーブルにあるデータの変更バージョンが含まれています。
+In the sample above, the **invoices** view contains a modified version
+of the data in the **Products** table in the PostgreSQL server.
 
 <img src="../images/postgresql-comparison-table-view.png" alt="Sample dashboard using PostgreSQL invoices view data" class="responsive-img"/>
 
+### Working With Functions
 
-### 関数の使用
+PostgreSQL functions allow you to carry out operations that would normally take several queries and round trips in a single function within the database.
 
-PostgreSQL 関数を使用すると、データベース内の単一の関数で、通常は複数のクエリとラウンド トリップを必要とする操作を実行できます。
-
-以下は、[Northwind](https://docs.microsoft.com/ja-jp/dotnet/framework/data/adonet/sql/linq/downloading-sample-databases) データを使用してテスト サーバーで実行されるサンプル関数のセットです:
+The following are just a set of sample functions running on a test server with [Northwind](https://docs.microsoft.com/en-us/dotnet/framework/data/adonet/sql/linq/downloading-sample-databases) data:
 
 
 <img src="../images/postgresql-functions.png" alt="A dashboard with a table visualization and a view visualization" class="responsive-img" width="55%"/>
 
 
-関数を選択した後、いくつかの追加パラメーターを設定する必要があります。
+After you select a function, you will need to set up some additional parameters. 
 
-この場合、関数は、Sales for period の情報を表示するために開始日と終了日を設定する必要があります。
+In this case, the function requires you to configure the start and end date to display the Sales for period information.
 
 
 <img src="../images/postgresql-sales-for-period.png" alt="Sales for period function parameters" class="responsive-img" width="45%"/>
 
 
-関数と PostgreSQLの 詳細については、この [Web サイト (英語)](https://www.postgresql.org/docs/9.0/sql-createfunction.html) にアクセスしてください。
+For more information on Functions and PostgreSQL, visit this [documentation website](https://www.postgresql.org/docs/9.0/sql-createfunction.html).
 
-## 表示形式エディターでの作業
+## Working in the Visualization editor
 
-データ ソースを追加した後、表示形式エディターが表示されます。ここでダッシュボードを作成できます。選択した表示形式に基づいて、さまざまなタイプのフィールドが表示されることに注意してください。
+Once your data source has been added, you will be taken to the *Visualizations Editor*. Here you can build your dashboard. Note that based on the vusialization that you have chosen, you will see different types of fields.
 
 <img src="./images/postgresql-visualization-editor.png" alt="Working in the visualization editor while using postgresql as a data source." class="responsive-img" width="80%"/>
 
-表示形式の準備ができたら、右上隅のチェックマークをクリックまたはタップして、ダッシュボードとして保存できます。以下の例では、ダッシュボードを **[分析]** > **[ダッシュボード]** > **Customer support** に保存しました。
+When you are ready with your visualization, you can click/tap on the checkmark in the top right corner to save it as a dashboard. In the example below we saved the dashboard in **My Analytics** > **My Dashboards** > **Customer support**.
 
 <img src="./images/postgresql-my-analytics.png" alt="A postgresql dashboard in the My Analytics section" class="responsive-img" width="80%"/>
 
-## Analytics の関数の制限
+## Limitations for Functions in Analytics
 
-* 関数の出力パラメーターは無視されます。
-* 結果セットを返さない関数は、データ ソース リストにリストされますが、失敗します。
+* Output parameters in functions are ignored.
+* Functions that return no result sets will be listed in the Data Sources list, but will fail.

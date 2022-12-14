@@ -1,41 +1,42 @@
 ---
-title: Slingshot でデータ ソース資格情報を管理する方法
-_description: データ ソースへのすべての資格情報にアクセスして管理する方法に関するガイド。
-_language: ja
+title: How to Manage Your Data Source Credentials in Slingshot
+_description: A guide on how to access and manage all your credentials to data sources.
 ---
 
-# データ ソース資格情報の管理
+# Managing Your Data Source Credentials
 
-Analytics で特定のデータ ソースを設定するとき、これらのサービスが情報にアクセスするためのアカウント資格情報を提供する必要があります。今後のアクセスのために、資格情報は暗号化されて Analytics に**自動的に保存されます**。
+When configuring certain data sources in Analytics, you need to provide
+your account credentials for these services to access your information.
+These credentials are encrypted and **automatically stored** by Analytics for future use.
 
-すべての資格情報にアクセスして管理するには、**プロフィール写真** (右上隅) ⇒ **[設定]** ⇒ **[データ ソースの資格情報]** セクションを選択します。
+To access and manage all your credentials, select: your **profile picture** (top right corner) > **Settings** > **Data Source Credentials**.
 
  <img src="images/data-source-credentials-settings.png" alt="A list of data source credentials in the settings menu" class="responsive-img" width="55%"/>
 
-## 新しいアカウント資格情報の追加
+## Adding New Account Credentials
 
-**[データ ソースの資格情報]** セクションでは、すべてのデータ ソース アカウントの資格情報を追加および削除できます。新しいアカウント資格情報を追加するには、次の手順に従ってください。
+In the *Data Source Credentials* section, you can add and remove credentials for all your data sources accounts. To add new account credentials follow the instructions below.
 
-1. **[データ ソースの資格情報]** で、**[+ 新規]** 青いボタン (右上隅) をクリックまたはタップします。 
-2. **[資格情報の追加]** メニューが開きます。
+1. In **Data Source Credentials**, click/tap on the **+ New** blue button (upper right corner).
+2. The **Add Credentials** menu opens:
 
   <img src="images/add-new-data-source-data-source-credentials.png" alt="Add New Account Credentials dialog" class="responsive-img" width="55%"/>
 
-  - **ユーザー名 / ドメイン**: サービスのユーザー名またはドメイン名。
+  Here, you need to fill in the following information:
 
-  - **[パスワード]**: サービスにアクセスするためのパスワード。
+  - **Username/Domain**: the username or the name of the domain for the service.
 
-  - **エイリアス**: これらの資格情報を使用してアクセスするデータ ソースを示すエイリアスを選択します。データ ソースに接続すると、アカウントの一覧に表示されます。
+  - **Password**: the password to access the service.
 
-3. 完了するには、**[追加]** をクリック / タップします。**[データ ソースの資格情報]** のリストの一番下に、新しく保存した資格情報が表示されます。
+  - **Alias**: choose a name, which suggests the data source(s) you are going to access with these credentials. It will be displayed in the list of accounts when connecting to a data source.
 
-## 保存された資格情報の使用
+3. Click/Tap on **Add** to finish the process. You will find your newly saved credentials at the bottom of the list in *Data Source Credentials*.
 
-それらを削除しない限り、資格情報を必要とするデータ ソースを構成するときに、Analytics に保存されているアカウントの資格情報が常にアカウントの一覧に表示されます。
+## Using Your Stored Credentials
+
+Unless you remove them, the accounts' credentials stored in Analytics will always appear in the list of accounts when configuring a data source requiring credentials.
 
 <img src="images/choose-credentials-for-data-source.png" alt="Choose Credentials for a Data Source dialog" class="responsive-img" width="60%"/>
 
-> [!NOTE] 
->役立つヒント! 複数のデータ ソースで使用する予定のすべての資格情報をここに追加して整理するために時間をかけてください。
-
+> [!NOTE] **Useful tip!** Take your time to add and organize here all credentials that you intend to use with multiple data sources. 
 

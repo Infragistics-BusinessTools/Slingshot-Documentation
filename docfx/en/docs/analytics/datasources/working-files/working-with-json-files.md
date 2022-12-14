@@ -1,94 +1,120 @@
 ---
-title: JSON ファイルを使用して Slingshot で表示形式を作成する手順
-_description: JSON ファイルを使用して表示形式を向上し、データ インサイトを向上させる方法を説明します。
-_language: ja
+title: Steps to Using JSON Files to Create Visualizations in Slingshot 
+_description: See how to work with JSON Files to advance your visualizations and drive better data insights.
 ---
 
-# JSON ファイルの作業
+# Working With JSON Files
 
-Analytics では、JSON ファイル データの表示形式をサポートします。
+The JSON format is fully supported in Analytics as your visualizations can
+consume data from any JSON file.
 
-JSON ファイル形式を読み込んだ後、Analytics は使用する可能性のあるデータ構造を提供します。さらに、カスタム データ構造を選択できる[**高度な選択**](#json-advanced-selection)モードがあります。
+After reading your JSON file format, Analytics provides you with possible
+data structures you may want to use. In addition, there is an
+[**Advanced Selection**](#json-advanced-selection) mode where you can
+choose a custom data structure.
 
-## JSON 書式の情報
+## JSON Format Information
 
-JSON (**J**ava**S**cript **O**bject **N**otation) は、データを保存および交換するための自己記述型の軽量な書式です。
+JSON (**J**ava**S**cript **O**bject **N**otation) is a self-describing
+lightweight format for storing and exchanging data.
 
-書式のハイライト:
+Format highlights:
 
-  - JSON の書式は、**データのさまざまな構造を表す**ために使用できます。
+  - JSON, as a format, can be used to **represent many different
+    structures of data**.
 
-  - データは常に**コンマで区切られた名前/値のペア**として配置されます。
+  - Data is always arranged as **name/value pairs, separated by
+    commas**.
 
-  - データ型の表記には、**オブジェクトの波括弧 {}** と**配列の角括弧 \[\]** が含まれます。
+  - Data types' notation includes: curly braces **{} for objects** and
+    **square brackets \[\] for arrays**.
 
-## JSON ファイルの読み込み
+## Loading a JSON file
 
-JSON ファイルのデータを使用する新しい表示形式を作成するには、次の手順に従います。
+Follow these steps to create a new visualization that consumes data from
+your JSON file:
 
-1.  **ファイルを利用できるようにする**。
+1.  **Make your file available**
 
-    JSON ファイルをストレージ プロバイダーのいずれかにアップロードして、後で Analytics からアクセスできるようにします。次の使用可能なオプションから選択できます: Dropbox、OneDrive、Box、Google Drive、および SharePoint。
+    Upload the JSON file to one of your storage providers, so you can
+    later access it from Analytics. You can choose between the following
+    available options: Dropbox, OneDrive, Box, Google Drive, and
+    SharePoint.
 
-2.  **新しい表示形式を作成する**。
+2.  **Create a new visualization**.
 
-    ダッシュボード内で、JSON ファイルのデータを使用する表示形式を作成します。
+    Within your dashboard, create the visualization that will consume
+    data from the JSON file.
 
-3.  **ファイルを参照する**。
+3.  **Locate your file**.
 
-    a.  ファイルのあるストレージ プロバイダーを選択し、ログイン認証情報を提供します。
+    a.  Choose the storage provider with the file and provide your login credentials.
 
-    b.  プロバイダーを参照し、JSON ファイルを選択します。
+    b.  Navigate the provider and select your JSON file.
 
     <img src="images/add-data-file-json.png" alt="A JSON file located in a cloud data source" class="responsive-img" width="85%"/>
 
-4.  **必要なデータ構造を選択する**。
+4.  **Choose the data structure you want**.
 
-    ファイルをスキャンした後、Analytics は選択可能なデータ構造のリストを表示します。
+    After scanning the file, Analytics will show you a list of possible
+    data structures for you to choose.
 
     <img src="images/json-data-source-details-dialog.png" alt="Json Files Choose Data table" class="responsive-img" width="55%"/>
 
-    リストに目的のデータ構造が含まれていない場合は、[**高度な選択モード**](#json-advanced-selection)を使用して、カスタムデータ構造を選択できます。
+    If the list does not include the data structure you want, use the
+    [**Advanced Selection**](#json-advanced-selection) mode where you
+    can choose a custom data structure.
 
-5.  **[データの読み込み]** をクリック / タップする。
+5.  **Click/Tap **Load Data**.
 
-    データ構造を選択し、[データの読み込み] ボタンをクリック / タップして、表示形式エディターを開きます。
+    Once you selected the data structure, click/tap the *Load Data*
+    button to continue to the *Visualizations Editor*.
 
     <img src="images/visualization-editor-json-file-data.png" alt="Json Files Visualizations Editor" class="responsive-img" width="85%"/>
 
 <a name='json-advanced-selection'></a>
-## 高度な選択モード
+## Advanced Selection Mode
 
-JSON ファイルを使用して、さまざまなデータ構造を表すことができます。このため、Analytics では、作業するカスタム データ構造を選択できます。処理したいデータ列を選択した後、それらの上に表示形式を構築することができます。
+JSON files can be used to represent many different data structures.
+Because of this, Analytics allows you to choose a custom data structure for
+you to work with. After selecting the data columns you want to work
+with, you are able to build your visualization upon them.
 
-1.  **高度な選択モードを開く**。
+1.  **Open the Advanced Selection mode**.
 
-    **[+ テーブル]** ボタンをクリック/タップして、**[高度な選選択]** 画面にアクセスします。
+    Click/Tap the **+ Table** button to get access to the *Advanced Selection*
+    screen.
 
     <img src="images/json-data-source-details-table-option.png" alt="Table option for advanced selection in the data source details dialog for json" class="responsive-img" width="55%"/>
 
-2.  **JSON ツリーをナビゲートする**。
+2.  **Navigate the JSON Tree**.
 
-    ノードを展開し、データを選択する最も深いレベルを選択します。
+    Expand the nodes and select the deepest level where you want to
+    select the data.
 
     <img src="images/advanced-selection-json-tree.png" alt="Json Files Navigate Tree" class="responsive-img" width="85%"/>
 
-3.  **ツリー要素とフィールドを選択する**。
-    子の選択を有効にするには、ツリー要素 (オブジェクト **[ ]** または配列 **{ }**) を選択する必要があります。
+3.  **Select the tree elements and fields you want**.
+
+    You need to select a tree element (object **[ ]** or array **{ }**)
+    to enable child selection.
 
     |                                                                             |                                                                                                                                           |
     | --------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- |
-    | <img src="images/unselect-elements-json-file.png" alt="Json Files Unselect Elements" class="responsive-img"/> | 1 つ以上の子の選択後、親要素 (オブジェクトと配列) の選択を解除し、データ構造から除外できます。 |
+    | <img src="images/unselect-elements-json-file.png" alt="Json Files Unselect Elements" class="responsive-img"/> | After selecting one or more children, you can unselect the parent elements (Objects and Arrays) to leave them out of your data structure. |
 
 
-4.  (*オプション*) **テキスト フィールドを日付/時刻または数値に書式設定する**。
+4.  (*Optional*) **Format text fields to Date/Time or Number**
 
-    フィールドを選択すると、Analytics はその値を読み取り、最適な形式を自動検出し、実行する操作を選択できるダイアログを表示します。
+    When selecting a field, Analytics reads its values, autodetects the
+    optimal format, and presents a dialog where you can choose what to
+    do.
 
     <img src="images/different-format-options-json-advanced-selection.png" alt="Json Files Format Fields" class="responsive-img"/>
 
-5.  **[テーブルの作成]** をクリック / タップする。
+5.  **Click/Tap **Create Table**.
 
-    カスタム データ構造を選択後、**[テーブルの作成]** ボタンをクリック / タップして、表示形式エディターを開きます。
+    Once you selected your custom data structure, click/tap the *Create
+    Table* button to continue to the *Visualizations Editor*.
 
     <img src="images/visualization-editor-json-file.png" alt="Using the data from json file to create visualization" class="responsive-img" width="85%"/>

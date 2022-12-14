@@ -1,21 +1,25 @@
 ---
-title: Slingshot で Dropbox をデータ ソースとして構成する方法
-_description: Dropbox を表示形式のために構成、認証、使用するためのロードマップを紹介します。
-_language: ja
+title: How to configure Box as your data source in Slingshot
+_description: A roadmap to configuring, authorizing, and using Box for your visualizations.
 ---
 
 # Dropbox
 
-Dropbox を選択すると、以下のログイン プロンプトが表示されます。
+Upon selecting Dropbox, you will see the following log in prompt.
 
 <img src="images/dropbox-login.png" alt="Dropbox login dialog" class="responsive-img"/>
 
-ログイン情報を入力して [ログイン] を選択します。
+Enter your login credentials and select *Sign In*.
+You will then see an
+authorization prompt; select *Allow* to grant the Analytics application access to files on your Dropbox cloud.
 
-## サポートされるファイル
+## Supported Files
 
-Analytics では、広範な種類のファイルを使用できます。
+When working within Analytics, you will be able to use a wide variety of
+files:
 
-  - **スプレッドシート**: Excel (.xlsls、.xlsx) または CSV (Analytics 内で動的に使用できます)。
+  - **Spreadsheets & tabular data**: Excel (.xls, .xlsx), CSV, TSV, which you can use
+    dynamically within Analytics.
 
-  - **その他のファイル**: プレビュー モードのみで表示されます (画像および PDF やテキストなどのドキュメント ファイルを含む)。
+  - **Other files** (including images or document files such as PDFs,
+    texts, etc.), which will be displayed in a preview mode only.

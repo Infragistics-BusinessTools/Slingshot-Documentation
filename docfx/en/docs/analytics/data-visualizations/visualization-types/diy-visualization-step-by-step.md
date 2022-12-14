@@ -1,17 +1,17 @@
-# 手順に従ってカスタム表示形式の作成
+# Creating a Custom Visualization Step By Step
 
-このセクションでは、カスタム表示形式機能を使用してデータの独自のビューを作成する方法を示します。
+This section shows how to use the Custom Visualization feature to create your own view of your data.
 
-以下のタスクを示します:
+It illustrates the following tasks:
 
--	HTML ファイルを作成し、必要なスクリプト参照を追加します。
+-	Creating an HTML file and adding the necessary script references.
 
--	Analytics (ホスト アプリケーション) に送信された表示データを処理し、イベントを通知するために JavaScript コードを追加します。
+-	Adding JavaScript code in order to handle the visualization data sent to Analytics (the host application) and also signal events.
 
--	受信データを読み込み、そのカスタムな表示を作成します。
+-	Reading incoming data and creating a custom representation of it.
 
-## HTML ファイルを作成する
-jQuery と Analyticsbridgeutils への参照を含む空の html ファイルを作成します。
+## Create the HTML file
+Create an empty html file with references to jQuery and Analytics bridge utils.
 
 ``` js
 <html>
@@ -25,20 +25,20 @@ jQuery と Analyticsbridgeutils への参照を含む空の html ファイルを
 </html>
 ```
 
--	最初の参照 (rplus_bridge_utils.js) は、Analytics が DOM を操作するのに役立ちます。
+-	The first reference (reveal_bridge_utils.js) helps Analytics to manipulate the DOM.
 
--	jquery-1.11.0.min.js は、表示形式をホストに接続します。
+-	jquery-1.11.0.min.js connects the visualization with the host.
 
-必要に応じて、[**reveal_bridge_utils.js ファイルをダウンロード**](https://download.infragistics.com/slingshot/custom-visualization/reveal_bridge_utils.js)してローカルで参照することもできます。
+If you want, you can also [**download the reveal_bridge_utils.js file**](https://download.infragistics.com/slingshot/custom-visualization/reveal_bridge_utils.js) and reference it locally.
 
-## データを受信する準備ができていることをホストに通知する
-2 番目のステップとして、次の目的で必要な javascript コードを追加します。
+## Notify the host the readiness to receive the data
+As a second step, add the necessary javascript code in order to:
 
--	ビューがデータを受け取る準備ができたことをホストに通知します。これを行うには、RPBridgeUtils.notifyExtensionIsReady を呼び出します。
+-	Notify the host that the view is ready to receive the data. We do this by calling RPBridgeUtils.notifyExtensionIsReady.
 
--	dataReady イベント ハンドラーを登録します。これは、データを消費する準備ができた後にホストによって呼び出されます。
+-	Register a “dataReady” event handler, which will be called by the host after the data is ready to be consumed.
 
-このステップの後、コードは次のようになります:
+After this step the code should look similar to:
 
 ``` js
 <html>
@@ -61,10 +61,10 @@ jQuery と Analyticsbridgeutils への参照を含む空の html ファイルを
 </html>
 ```
 
-## カスタム ビューを描画する HTML 要素を作成する
-最後に dataReady 関数に送信したデータを処理して、データを描画するために使用する html タグを動的に生成します。
+## Create the HTML elements that will render the custom view
+Finally, we process the data sent to the dataReady function, and we dynamically generate the html tags used to render the data.
 
-この場合、テーブル行を作成する tabularData.data 配列を反復し、HTML DOM の “myTable” div 内に追加します。
+In this case we iterate over the tabularData.data array creating table rows and then we add it inside "myTable" div in the HTML DOM.
 
 ``` js
 dataReady: function (tabularData) {
@@ -90,7 +90,7 @@ dataReady: function (tabularData) {
    };
 ```
 
-## 全サンプル コード
+## Complete Sample Code
 
 ``` js
 <html>

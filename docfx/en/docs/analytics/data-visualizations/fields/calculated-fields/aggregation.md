@@ -1,23 +1,30 @@
 ---
-title: Slingshot で集計計算フィールドを使用する方法
-_description: 集計数式を使用するさまざまなヒントとコツを説明します。
-_language: ja
+title: How to Use Aggregation Calculated Fields in Slingshot
+_description: Learn how to use Aggregation formulas with different variants and tricks.
 ---
 
-# 集計計算フィールド
+# Aggregation Calculated Fields
 
 
-集計式は元のデータ ソースを操作してその値を分析し、多くの場合、再編成するか、単にそれに含まれる情報を要約する場合に便利です。異なる値 (`average` など) の計算や最大  `max` と `min` の検索に使用することも可能です。そのため、**すべての数式**は**数値フィールドのみで使用します**。
+Aggregation formulas are useful for you to work with your original data
+source in order to dissect its values, often re-organizing, or simply
+summarizing the information contained in it. You can also use them to
+calculate different values you are focused on (`average`, for example),
+find top and bottom values (`max` and `min`), etc. **All formulas are**,
+therefore, **meant to be used with numerical fields only**.
 
-Analytics では、集計計算フィールドに以下が含まれます。
+In Analytics, aggregation calculated fields include:
 
-  - **標準関数**: 各情報は、[関数名] の下の対応するハイパーリンクをクリックします。
+  - **Standard functions**: for information on each one, click the corresponding hyperlink under "Function Name."
 
-  - **if 文を含む標準関数**: [このセクション](#aggregation-if-condition) は、*if 文* [ネスト if 文 を含む](#nested-if-conditions)) の詳細および構成方法について説明します。
+  - **Standard functions with if conditions**: [this section](#aggregation-if-condition) contains a detailed explanation of what an *if condition* is (including [nested if conditions](#nested-if-conditions)) and how you need to structure
+    it.
 
-**注:** *以下の表のすべてのサンプルは HR dashboard サンプルに含まれる [HR Dataset 2016](https://download.infragistics.com/slingshot/samples/HR_Dataset_2016.xlsx)スプレッドシートで作成されました。*
+**Note:** *All samples included in the table below were created with the
+[HR Dataset 2016](http://download.infragistics.com/reportplus/help/samples/HR%20Dataset_2016.xlsx)
+spreadsheet.*
 
-以下はこの関数に含まれる集計カテゴリです。
+The functions included in the aggregation category are:
 
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;}
@@ -29,144 +36,154 @@ Analytics では、集計計算フィールドに以下が含まれます。
 </style>
 <table class="tg" style="undefined;table-layout: fixed">
   <tr>
-    <th class="tg-cly1"><span style="font-weight:bold">関数名と説明</span></th>
-    <th class="tg-cly1"><span style="font-weight:bold">関数の構文とサンプル</span></th>
+    <th class="tg-cly1"><span style="font-weight:bold">Function Name and Description</span></th>
+    <th class="tg-cly1"><span style="font-weight:bold">Function Syntax and Sample</span></th>
   </tr>
   <tr>
-    <td class="tg-cly1" rowspan="2"><a name='average'></a><span style="font-weight:bold">average</span>: <span class="gray-snippet-cstm">average</span> 集計は、選択した<span class="gray-snippet-cstm">式</span>のすべての行の平均値で計算される数値を返します。</td>
-    <td class="tg-cly1"><span style="font-weight:bold">構文</span>: <span class="gray-snippet-cstm">average({expression})</span></td>
+    <td class="tg-cly1" rowspan="2"><a name='average'></a><span style="font-weight:bold">average</span>: The <span class="gray-snippet-cstm">average</span> aggregation will return a number, which will be calculated from the average value of all rows in your selected <span class="gray-snippet-cstm">expression</span>.</td>
+    <td class="tg-cly1"><span style="font-weight:bold">Syntax</span>: <span class="gray-snippet-cstm">average({expression})</span></td>
   </tr>
   <tr>
-    <td class="tg-cly1"><span style="font-weight:bold">サンプル</span>: <span class="gray-snippet-cstm">average([Wage])</span></td>
+    <td class="tg-cly1"><span style="font-weight:bold">Sample</span>: <span class="gray-snippet-cstm">average([Wage])</span></td>
   </tr>
   <tr>
-    <td class="tg-cly1" rowspan="2"><span style="font-weight:bold">averageif</span>: <a href="#aggregation-if-condition">if-条件</a>のある正則関数を使用する場合、結果が条件内で定義される特定の条件を満たす必要があります。</td>
-    <td class="tg-cly1"><span style="font-weight:bold">構文</span>: <span class="gray-snippet-cstm">averageif({expression},{if-condition})</span></td>
+    <td class="tg-cly1" rowspan="2"><span style="font-weight:bold">averageif</span>: Using a regular function with an <a href="#aggregation-if-condition">if-condition</a> means that the results you get need to meet certain criteria, which will be defined within your condition.</td>
+    <td class="tg-cly1"><span style="font-weight:bold">Syntax</span>: <span class="gray-snippet-cstm">averageif({expression},{if-condition})</span></td>
   </tr>
   <tr>
-    <td class="tg-cly1"><span style="font-weight:bold">サンプル</span>: <span class="gray-snippet-cstm">averageif([Wage],[OfficeId]=1)</span></td>
+    <td class="tg-cly1"><span style="font-weight:bold">Sample</span>: <span class="gray-snippet-cstm">averageif([Wage],[OfficeId]=1)</span></td>
   </tr>
   <tr>
-    <td class="tg-cly1" rowspan="2"><span style="font-weight:bold">count</span>: <span class="gray-snippet-cstm">count</span> 集計は、データ ソースの行数である<span style="font-weight:bold">数値</span>を返します。その他の引数は必要ありません。</td>
-    <td class="tg-cly1"><span style="font-weight:bold">構文</span>: <span class="gray-snippet-cstm">count()</span></td>
+    <td class="tg-cly1" rowspan="2"><span style="font-weight:bold">count</span>: The <span class="gray-snippet-cstm">count</span> aggregation will return a number, which is the <span style="font-weight:bold">number</span> of rows in your data source. There are no additional arguments required.</td>
+    <td class="tg-cly1"><span style="font-weight:bold">Syntax</span>: <span class="gray-snippet-cstm">count()</span></td>
   </tr>
   <tr>
-    <td class="tg-0lax"><span style="font-weight:bold">サンプル</span>: <span class="gray-snippet-cstm">count()</span></td>
+    <td class="tg-0lax"><span style="font-weight:bold">Sample</span>: <span class="gray-snippet-cstm">count()</span></td>
   </tr>
   <tr>
-    <td class="tg-0lax" rowspan="2"><span style="font-weight:bold">countif</span>: <a href="#aggregation-if-condition">if-条件</a>のある正則関数を使用する場合、結果が条件内で定義される特定の条件を満たす必要があります。</td>
-    <td class="tg-0lax"><span style="font-weight:bold">構文</span>: <span class="gray-snippet-cstm"> <span class="gray-snippet-cstm">countif({if-condition})</span></td>
+    <td class="tg-0lax" rowspan="2"><span style="font-weight:bold">countif</span>: Using a regular function with an <a href="#aggregation-if-condition">if-condition</a> means that the results you get need to meet certain criteria, which will be defined within your condition.</td>
+    <td class="tg-0lax"><span style="font-weight:bold">Syntax</span>: <span class="gray-snippet-cstm"> <span class="gray-snippet-cstm">countif({if-condition})</span></td>
   </tr>
   <tr>
-    <td class="tg-0lax"><span style="font-weight:bold">サンプル</span>: <span class="gray-snippet-cstm">countif([OfficeId]=1)</span></td>
+    <td class="tg-0lax"><span style="font-weight:bold">Sample</span>: <span class="gray-snippet-cstm">countif([OfficeId]=1)</span></td>
   </tr>
   <tr>
-    <td class="tg-0lax" rowspan="2"><span style="font-weight:bold">max</span>: <span class="gray-snippet-cstm">max</span> 集計は、選択した<span class="gray-snippet-cstm">式</span>の最大値となる<span style="font-weight:bold">数値</span>を返します。</td>
-    <td class="tg-0lax"><span style="font-weight:bold">構文</span>: <span class="gray-snippet-cstm"> max({expression})</span></td>
+    <td class="tg-0lax" rowspan="2"><span style="font-weight:bold">max</span>: The <span class="gray-snippet-cstm">max</span> aggregation will return a number, which is the highest <span style="font-weight:bold">number</span> in your selected <span class="gray-snippet-cstm">expression</span>.</td>
+    <td class="tg-0lax"><span style="font-weight:bold">Syntax</span>: <span class="gray-snippet-cstm"> max({expression})</span></td>
   </tr>
   <tr>
-    <td class="tg-0lax"><span style="font-weight:bold">サンプル</span>: <span class="gray-snippet-cstm"> max([Wage])</span></td>
+    <td class="tg-0lax"><span style="font-weight:bold">Sample</span>: <span class="gray-snippet-cstm"> max([Wage])</span></td>
   </tr>
   <tr>
-    <td class="tg-0lax" rowspan="2"><span style="font-weight:bold">maxif</span>: <a href="#aggregation-if-condition">if-条件</a>のある正則関数を使用する場合、結果が条件内で定義される特定の条件を満たす必要があります。</td>
-    <td class="tg-0lax"><span style="font-weight:bold">構文</span>: <span class="gray-snippet-cstm">maxif({expression},{if-condition})</span></td>
+    <td class="tg-0lax" rowspan="2"><span style="font-weight:bold">maxif</span>: Using a regular function with an <a href="#aggregation-if-condition">if-condition</a> means that the results you get need to meet certain criteria, which will be defined within your condition.</td>
+    <td class="tg-0lax"><span style="font-weight:bold">Syntax</span>: <span class="gray-snippet-cstm">maxif({expression},{if-condition})</span></td>
   </tr>
   <tr>
-    <td class="tg-0lax"><span style="font-weight:bold">サンプル</span>: <span class="gray-snippet-cstm">maxif([Wage],[OfficeId]=1)</span></td>
+    <td class="tg-0lax"><span style="font-weight:bold">Sample</span>: <span class="gray-snippet-cstm">maxif([Wage],[OfficeId]=1)</span></td>
   </tr>
   <tr>
-    <td class="tg-0lax" rowspan="2"><span style="font-weight:bold">min</span>: <span class="gray-snippet-cstm">min</span> 集計は、選択した<span class="gray-snippet-cstm">式</span>の最小値となる<span style="font-weight:bold">数値</span>を返します。</td>
-    <td class="tg-0lax"><span style="font-weight:bold">構文</span>: <span class="gray-snippet-cstm"> min({expression})</span></td>
+    <td class="tg-0lax" rowspan="2"><span style="font-weight:bold">min</span>: The <span class="gray-snippet-cstm">min</span> aggregation will return a number, which is the lowest <span style="font-weight:bold">number</span> in your selected <span class="gray-snippet-cstm">expression</span>.</td>
+    <td class="tg-0lax"><span style="font-weight:bold">Syntax</span>: <span class="gray-snippet-cstm"> min({expression})</span></td>
   </tr>
   <tr>
-    <td class="tg-0lax"><span style="font-weight:bold">サンプル</span>: <span class="gray-snippet-cstm"> min([Wage])</span></td>
+    <td class="tg-0lax"><span style="font-weight:bold">Sample</span>: <span class="gray-snippet-cstm"> min([Wage])</span></td>
   </tr>
   <tr>
-    <td class="tg-0lax" rowspan="2"><span style="font-weight:bold">minif</span>: <a href="#aggregation-if-condition">if-条件</a>のある正則関数を使用する場合、結果が条件内で定義される特定の条件を満たす必要があります。</td>
-    <td class="tg-0lax"><span style="font-weight:bold">構文</span>: <span class="gray-snippet-cstm"> minif({expression},{if-condition})</span></td>
+    <td class="tg-0lax" rowspan="2"><span style="font-weight:bold">minif</span>: Using a regular function with an <a href="#aggregation-if-condition">if-condition</a> means that the results you get need to meet certain criteria, which will be defined within your condition.</td>
+    <td class="tg-0lax"><span style="font-weight:bold">Syntax</span>: <span class="gray-snippet-cstm"> minif({expression},{if-condition})</span></td>
   </tr>
   <tr>
-    <td class="tg-0lax"><span style="font-weight:bold">サンプル</span>: <span class="gray-snippet-cstm"> minif([Wage],[OfficeId]=1)</span></td>
+    <td class="tg-0lax"><span style="font-weight:bold">Sample</span>: <span class="gray-snippet-cstm"> minif([Wage],[OfficeId]=1)</span></td>
   </tr>
   <tr>
-    <td class="tg-0lax" rowspan="2"><span style="font-weight:bold">sum</span>: <span class="gray-snippet-cstm">sum</span> 集計は、選択した<span class="gray-snippet-cstm">式</span>のすべての行の合計として算出された<span style="font-weight:bold">数値</span>を返します。</td>
-    <td class="tg-0lax"><span style="font-weight:bold">構文</span>: <span class="gray-snippet-cstm"> sum({expression})</span></td>
+    <td class="tg-0lax" rowspan="2"><span style="font-weight:bold">sum</span>: The <span class="gray-snippet-cstm">sum</span> aggregation will return a <span style="font-weight:bold">number</span>, which is calculated as the sum of all rows in your selected <span class="gray-snippet-cstm">expression</span>.</td>
+    <td class="tg-0lax"><span style="font-weight:bold">Syntax</span>: <span class="gray-snippet-cstm"> sum({expression})</span></td>
   </tr>
   <tr>
-    <td class="tg-0lax"><span style="font-weight:bold">サンプル</span>: <span class="gray-snippet-cstm"> sum([Wage])</span></td>
+    <td class="tg-0lax"><span style="font-weight:bold">Sample</span>: <span class="gray-snippet-cstm"> sum([Wage])</span></td>
   </tr>
   <tr>
-    <td class="tg-0lax" rowspan="2"><span style="font-weight:bold">sumif</span>: <a href="#aggregation-if-condition">if-条件</a>のある正則関数を使用する場合、結果が条件内で定義される特定の条件を満たす必要があります。</td>
-    <td class="tg-0lax"><span style="font-weight:bold">構文</span>: <span class="gray-snippet-cstm"> sumif({expression},{if-condition})</span></td>
+    <td class="tg-0lax" rowspan="2"><span style="font-weight:bold">sumif</span>: Using a regular function with an if-condition means that the results you get need to meet certain criteria, which will be defined within your condition.</td>
+    <td class="tg-0lax"><span style="font-weight:bold">Syntax</span>: <span class="gray-snippet-cstm"> sumif({expression},{if-condition})</span></td>
   </tr>
   <tr>
-    <td class="tg-0lax"><span style="font-weight:bold">サンプル</span>: <span class="gray-snippet-cstm"> sumif([Wage],[OfficeId]=1)</span></td>
+    <td class="tg-0lax"><span style="font-weight:bold">Sample</span>: <span class="gray-snippet-cstm"> sumif([Wage],[OfficeId]=1)</span></td>
   </tr>
 </table>
 
 
 <a name='aggregation-if-condition'></a>
-## if 文のある計算フィールド
+## Calculated Fields with IF Conditions
 
-`If 条件` のある正則関数 (`式`が必要) を使用する場合、結果が条件内で定義される特定の条件を満たす必要があります。
+Using a regular function (which needs an `expression`) with an
+`if-condition` means that the results you get need to meet a certain
+criteria, which will be defined within your condition.
 
-### 構文
+### Syntax
 
-デフォルトでは、「IF」サフィックスのある関数を選択した際に以下の構成が表示されます。
+By default, you will see the following structure when you select any of
+the functions with the "IF" suffix.
 
 `XXXXXXIF({expression},{if-condition})`
 
-2 つの引数を定義する必要があります。
+There are two arguments that you will need to configure:
 
-  - `式`: データ ソースのフィールドの 1 つを選択します。
+  - `expression`: choose one of the fields in your data source.
 
-  - `if-条件`: if 条件は論理テストの実行が必要です。`if-条件`の`論理テスト`は、集計を計算するための式に必要な条件です。
+  - `if-condition`: the if condition will require that you perform a
+    logical test. The `if-condition` requires a `logical test`, which is
+    the condition your expression needs to meet for the aggregation to
+    be calculated.
 
-### 基本サンプル
+### Basic Samples
 
-たとえば、上記の表の例です。
+For example, let's take a look at the example in the table above:
 
 `averageif([Wage],[OfficeId]=1)`
 
-より明確にするために関数を上記で定義した用語に基づいて区別します。
+For clarification purposes, we will separate the function according to
+the terms we defined above:
 
-| 関数名  | 式 | IF 条件  |
+| Function Name  | Expression | IF Condition  |
 | -------------- | ---------- | ------------- |
 | averageif (…​)  | [Wage]     | [OfficeId]=1) |
 
-以下は数値以外の場合の例です。
+A non-numerical example could be the following:
 
 `sumif([Wage],[Department]="Development")`
 
-説明:
+Where:
 
-| 関数名 | 式 | IF 条件               |
+| Function Name | Expression | IF Condition               |
 | ------------- | ---------- | -------------------------- |
 | sumif (…​)    | [Wage]      | [Department]="Development" |
 
 <a name='nested-if-conditions'></a>
-### ネスト IF 文のサンプル
+### Sample with Nested IF conditions
 
-論理演算子 (AND, OR) を前に使用してネスト IF 文を使用できます。
+You can use nested if conditions by preceding them with a logical
+operator (AND, OR).
 
-以下は if 文が 2 つある例ですが、if 文を使用する際の上限はありません。
+The following is one example with only two if conditions, but you can
+include as many as necessary:
 
 `maxif([Wage], and([OfficeId]=1, [Department]="Development"))`
 
-説明:
+Where:
 
-| 関数名 | 式 | 論理演算子 |
+| Function Name | Expression | Logical Operator |
 | ------------- | ---------- | ---------------- |
 | maxif (…​)     | [Wage]     | and              |
 
-`if 文`のステートメント:
+And the `if-condition` statements are:
 
-| 最初の論理テスト | true の場合の値 | false の場合の値 |
+| First Logical Test | Value if true | Value if false |
 | ------------------ | ------------- | -------------- |
 | [OfficeId]=1       | 1             | 0              |
 
-| 2 番目の論理テスト        | true の場合の値 | false の場合の値 |
+| Second Logical Test        | Value if true | Value if false |
 | -------------------------- | ------------- | -------------- |
 | [Department]="Development" | 1             | 0              |
 
-論理演算子が `and` であるため、実行する `maxif` 集計の両方の条件が true である必要があります。
+Because the logical operator is `and`, both conditions need to be true
+for the `maxif` aggregation to be carried out.

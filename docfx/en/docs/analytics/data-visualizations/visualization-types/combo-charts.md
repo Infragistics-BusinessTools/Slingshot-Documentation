@@ -1,49 +1,60 @@
 ---
-title: 複合チャートを作成して使用する方法
-_description: Slingshot 分析で表示形式に複合チャートを使用する方法を説明します。
-_language: ja
+title: How to Create and Use Combo Charts 
+_description: Find out how to use Combo Charts for your visualizations in Slingshot Analytics.
 ---
 
-# 複合チャート
+# Combo Charts
 
-1 つのチャートに複数の種類のチャートを組み合わせたチャートです。
+This type of chart combines two or more chart types in one single chart.
 
-通常のチャートには、X 軸と Y 軸が 1 つづつ必要です。複合チャートには 2 つの Y 軸があり、同じチャートに 2 種類のデータ ポイントを表示できます。
+Regular charts usually have one X-axis and one Y-axis. Combo charts can
+have two Y-axis, allowing you to display two different types of data
+points in the same chart.
 
-<img src="images/combo-charts-sample.png" alt="Combo chart sample within Analytics" class="responsive-img" width="85%"/>
+<img src="images/combo-chart-example.png" alt="Combo chart sample within Slingshot" class="responsive-img" width="85%"/>
 
-たとえば、上記のように、複合チャートは国の総人口および若い人口を表示して、それらの間の関係を示すことができます。
+E.g., as shown above, a combo chart can display countries' total
+population as well as the young population to show the relationship
+between them.
 
-<img src="images/combo-charts-selection.png" alt="Selecting the Combo Chart visualization in Analytics" class="responsive-img" width="75%"/>
+<img src="images/combo-charts-selection.png" alt="Selecting the Combo Chart visualization in Slingshot" class="responsive-img" width="75%"/>
 
-データ ソースと複合の表示形式を選択した後、デフォルトでは、柱状チャートと折れ線チャートを組み合わせて開始します。最初の画像のように、両方のチャートの [ラベル] と [値] を構成する必要があります。
+After selecting your data source and the *Combo* visualization, by
+default you start with a column chart and a line chart combined. As
+shown in the first image, you need to configure the label and values for
+both charts.
 
-## 複合チャートの設定
+## Settings for Combo Charts
 
-<img src="images/settings-combo-charts.png" alt="Combo Charts configuration settings in Analytics" class="responsive-img" width="85%"/>
+<img src="images/combo-chart-settings.png" alt="Combo Charts configuration settings in Slingshot" class="responsive-img" width="85%"/>
 
-[設定] では:
+In *Settings* you can:
 
-  - **スタイルを選択できます**。
+  - **Choose the Style**.
 
-    タイトルまたは凡例を有効にするか、開始色を選択できます。
+    You can enable the Title, Legend or choose the Start Color.
 
-  - **一方または両方のチャートの表示形式タイプを変更できます**。
+  - **Change the visualization type for one or both charts**.
 
-    7 つの使用可能なタイプ(柱状、積層型柱状、エリア、折れ線、ステップ エリア、ステップ折れ線、スプライン エリア) から選択できます。
+    You can choose between seven available types (Column, Stacked
+    Column, Area, Line, Step Area, Step Line, and Spline Area).
 
-  - **リニア スケールまたは対数を選択できます**。
+  - **Choose between Linear scale or Logarithmic**.
 
-    対数の場合、値のスケールは通常のリニア スケールを使用する代わりに大きさを使用するリニア スケール以外で計算されます。
+    With Logarithmic, the scale for your values will be calculated with
+    a non-linear scale which takes magnitude into account instead of the
+    usual linear scale.
 
-  - **チャートの最小値および最大値を設定できます**。
+  - **Setup the minimum and maximum values for your charts**.
 
-    デフォルトで最小は 0 に設定され、最大値は使用されるデータによって設定されます。
+    Minimum is set to 0 by default and maximum is calculated
+    automatically depending on your values.
 
-  - **両方のチャートの左軸を共有することを選択できます**。
+  - **Choose to share the left axis for both charts**.
 
-    デフォルトでは、左軸と右軸が使用されます。
+    A left and right axis are used by default.
 
-  - **上のチャートを切り替えることができます**。
+  - **Switch the chart on top**.
 
-    Analytics は、背面に表示されるチャートに不透明度を適用し、より透明にします。
+    Analytics applies opacity to the chart displayed behind, to make it
+    visually more transparent.

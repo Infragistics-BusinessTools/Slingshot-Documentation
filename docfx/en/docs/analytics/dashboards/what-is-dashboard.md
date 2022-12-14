@@ -1,7 +1,7 @@
-# ダッシュボードの概要
+# What is a Dashboard?
 
-ダッシュボードは、本質的に、すばやく最小限の情報をシンプルに表示することにより、一目で情報を把握できます。これは、ビジネスのステータス、メトリック、またはパフォーマンスを伝えるために配置された表示形式のコレクションで構成されるデータ 表示形式です。各表示形式は、関連する情報の異なる部分を持つことを意図しており、ユーザーが自分のデータを理解できるようにします。
+A dashboard, in essence, is a quick and simple way to display minimal information at first sight. It is a data visualization composed of a collection of visualizations which are layed out to communicate the status, metrics, or performance of a business. Each visualization is meant to have different pieces of related information, enabling users to make sense of their data.
 
-以下の例は、[表示形式のコレクション](~/jp/data-visualizations/What-is-Visualization.html)で構成されるマーケティング ダッシュボードでマーケティング キャンペーンの活動を示します。
+The following example is a Marketing dashboard made of a [collection of visualizations](~/docs/analytics/data-visualizations/What-is-Visualization.md), which show the efforts involved in a marketing campaign.
 
 <img src="images/dashboard-sample.png" alt="A dashboard sample" class="responsive-img"/>

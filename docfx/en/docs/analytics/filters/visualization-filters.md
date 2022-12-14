@@ -1,35 +1,52 @@
 ---
-title: 表示形式のクイック フィルターを適用する方法
-_description: 表示形式のクイック フィルターを適用して表示形式コンテンツを動的にフィルターする方法を説明します。
-_language: ja
+title: How to Apply Visualization Quick Filters
+_description: Learn how to apply quick visualization filters to dynamically filter your visualization content.
 ---
 
-# 表示形式のクイック フィルター
+# Visualization Quick Filters
 
-表示形式レベルでは、クイック フィルターを適用することもできます。これにより、クイック フィルターの選択が変更されたときに表示形式コンテンツを動的にフィルターできます。これらは、ダッシュボード定義の一部となり、ダッシュボードのユーザーが変更することはできません。
+At a visualization level, you can also apply "quick" filters, which
+allow you to dynamically filter the visualization contents as the quick
+filter selection changes. These become part of the dashboard definition
+and can't be modified by consumers of the dashboard.
 
-クイック フィルターを定義するには、表示形式エディターで表示形式の上にある **[表示形式フィルターの追加]** ボタンを選択します。
+In order to define a quick filter, select the **Add a Visualization Filter** button on top of your visualization in the Visualizations
+Editor:
 
 <img src="images/visualization-quick-filter-example.png" alt="Visualization Quick Filter button in the Visualization Editor" class="responsive-img" width="85%"/>
 
-フィルター オプションは、フィールドのデータ タイプに応じて表示形式フィルター エリアで表示されます。テキスト、数値、日付の 3 つのフィルター ダイアログがあります。作成されたクイック フィルターは、表示形式エディターの表示形式の上に表示されます。
+The filter options displayed in the Visualization Filters area depend on
+the data type of the field. There are three different filter dialogs:
+text, numeric and date fields. Once created, the quick filter will be
+displayed on top of your visualization in the Visualizations Editor.
 
 <img src="images/visualization-filter-visualization-editor.png" alt="List of fields in the visualization editor" class="responsive-img" width="85%"/>
 
-ダッシュボード ビュー モードで表示形式を最大化すると、表示形式のタイトルの下に表示されます。
+When the visualization is maximized in Dashboard View mode, you will see
+it under the visualization's title.
 
 <img src="images/location-visualization-filter.png" alt="The location of the visualization filter in dashboard view maximized" class="responsive-img" width="85%"/>
 
-[ダッシュボード フィルター](dashboard-filters.html)同様に、簡易フィルター セクションが変更されると表示形式コンテンツの動的なフィルターが有効になります。
+As with [Dashboard Filters](dashboard-filters.md), this enables a dynamic
+filtering of the visualization contents as the quick filter selection
+changes.
 
-## フィルターのカスケード
+## Cascading Filters
 
-クイック フィルターで表示される選択可能な値のリストは、以前のクイック フィルター選択に基づいてフィルターされます。左側のフィールドが優先され、右側のフィルターに表示される選択可能な値のリストを決定します。
+The list of possible values displayed to select from in Quick Filters
+will be filtered based on previous Quick Filter selections. Fields on
+the left take precedence and determine the list of possible values on
+filters to the right.
 
-たとえば、以下の例では、*State* フィルターが最初に作成され、*County* フィルターがその後に作成されました。**Colorado** を *State* として選択すると、*County* リストは次のようになります。
+For instance, in the example below, the *State* filter was created
+first, and the *County* filter was created after that one. After
+selecting **Colorado** as a *State*, the *County*
+list was the following:
 
 <img src="images/cascading-filter.png" alt="Cascading Filter for the State Population Dashboard showing counties in Colorado" class="responsive-img" width="85%"/>
 
-ただし、代わりに **Arkansas** を選択した場合、*County* のリストは異なります。
+However, if you select **Arkansas** instead, the list of
+*County* will be a different one.
 
 <img src="images/cascading-filter-second-filter.png" alt="Cascading Filter for the State Population Dashboard showing counties in Arkansas" class="responsive-img" width="85%"/>
+

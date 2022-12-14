@@ -1,33 +1,36 @@
 # Snowflake
 
-## Snowflake への接続
+## Connecting with Snowflake
 
-Snowflake データ ソースを構成するには、最初に次の情報を入力してサーバーに接続する必要があります:
+To configure a Snowflake data source, you first need to connect to the server by entering the following information:
 
 <img src="images/add-snowflake-server.png" alt="Configure Snowflake Server details" class="responsive-img" width="55%"/>
 
-1.  **アカウント**: 領域またはクラウド プロバイダー情報のない Snowflake アカウント。たとえば、_\<account_name\>.us-east-1.snowflakecomputing.com_ ではなく、\<account_name\> のようにする必要があります。
+1.  **Account**: Your snowflake account without the region or cloud provider information. For example, it should be similar to \<account_name\> instead of _\<account_name\>.us-east-1.snowflakecomputing.com_.
 
-2.  **[ホスト]**: 必須ではありませんが、値が指定されていない場合は _\<28/>.snowflakecomputing.com_ が使用されます。米国西部地域にいない場合、またはグローバル URL を使用する場合は、_\<account_name\>.\<region_id\>.snowflakecomputing.com_ の形式でホストを指定する必要があります。
+2.  **Host**: Although not required, if no value is specified _\<account_name\>.snowflakecomputing.com_ will be assumed. If you are not in the US West region or want to use a global url, you need to specify a HOST with the format:  _\<account_name\>.\<region_id\>.snowflakecomputing.com_.
 
-3.  **[資格情報]**: *資格情報*を選択した後、*Snowflake* サーバーの資格情報を入力するか、既存の資格情報 (利用可能な場合) を選択できます。
+3.  **Credentials**: after selecting *Credentials*, you will be able to
+    enter the credentials for your *Snowflake* server or select existing
+    ones if applicable.
 
-    <img src="images/add-snowflake-credentials.png" alt="A dialog where you can add your credentials" class="responsive-img" width="50%"/>
+     <img src="images/add-snowflake-credentials.png" alt="A dialog where you can add your credentials" class="responsive-img" width="50%"/>
 
-- **ユーザー名**: *Snowflake* サーバーのユーザー アカウントまたはドメインの名前。
+    - **Username**: the user account for the *Snowflake* server or the name of the domain.
 
-- **[パスワード]**: *Snowflake*サーバーにアクセスするためのパスワード。
+    - **Password**: the password to access the *Snowflake* server.
 
-- **エイリアス**: データ ソース アカウントの名前。以前のダイアログのアカウントのリストに表示されます。
+    - **Alias**: the name for your data source account. It will be
+        displayed in the list of accounts in the previous dialog.
 
-## Snowflake データ ソースの構成
+## Configuring a Snowflake Data Source
 
-1.  データベースの横にある空の円をマークして、**データベースを選択します**。
+1.  **Select a database** by marking the empty circle next to it:
 
   <img src="images/snowflake-database-dialog.png" alt="Select a database dialog" class="responsive-img" width="55%"/>
 
-2.  データベースから**テーブルを選択します**。右側の空の円の横にあるアイコンを使用して、データをプレビューします。
+2.  **Select a table** from the database. Use the icon on the right, next to the empty circles, to preview the data.
 
   <img src="images/snowflake-data-source-details.png.png" alt="Select a table dialog" class="responsive-img" width="55%"/>
 
-これで、Snowflake から取得したデータを使用して表示形式の構築を開始できる**表示形式エディター**が表示されます。
+You are now directed to the *Visualization editor* where you can start building your visualizations with the data retrieved from Snowflake.

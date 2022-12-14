@@ -1,57 +1,64 @@
-# 通知センター
+# Notifications Center
 
-通知センターは、ワークスペースおよびダッシュボードの変更を通知するように設計されています。アプリケーションの右上の**ベル アイコン**を選択して開きます。
+The Notifications Center is designed to keep you updated of any workspace and
+dashboard changes. Open it by selecting the **bell icon** in the top right section of the application.
 
 <img src="images/in-app-notifications.png" alt="Notification center icon and notifications' list" class="responsive-img"/>
 
-通知を受け取ると、通知のアイコンが変更されます。通知設定によっては、特定の変更を含むアプリ内通知が表示される場合もあります。
+Whenever you receive a notification, you will see a change in the
+notifications' icon. Depending on your notification settings, you might
+also see an in-app notification with the specific change.
 
-通知センターでは次のことができます。
+In the Notification Center you can:
 
-  - 通知を**既読**または**未読**にマークできます。
+  - Mark all notifications as **Read** or **Unread** by selecting the
+    *glasses icon*.
 
-  - さらに、オーバーフロー メニューで **[この種類の通知をミュート]** オプションを選択すると、**通知をオフにできます**。
+  - Additionally, you can **turn off notifications** by selecting the *Mute this type of notification* option in the overflow menu.
 
 <img src="images/notification-center-options.png" alt="Accessing options of notifications in the Notification center" class="responsive-img"/>
 
-## 通知設定
+## Notification Preferences
 
-通知設定は簡単に編集できます。これを行うには、画面の右上隅にあるプロフィール写真をクリック/タップします。次に、**[設定]** ⇒ **[通知]** に移動します。
+You can easily edit your notification preferences. Тo do that, click/tap your profile photo in the top right corner of the screen. Then navigate to *Settings* ⇒ *Notifications*.
 
-## 通知の種類
+## Notification Types
 
-**ワークスペース**および**ダッシュボード**の変更について、3 種類の通知を受け取ることができます。
+You can receive three different types of notifications for both **Workspace**
+and **Dashboard** changes:
 
-  - アカウントに関連付けられたメール アドレスに配信される**メール通知**。
+  - **Email** notifications, which will be delivered to the e-mail address associated with your account.
 
-  - モバイルまたはデスクトップ画面にポップアップ表示される**プッシュ通知**。
+  - **Push** notifications, which will pop up on your mobile or desktop screen.
 
-  - ベル アイコン内に数字で表示される**アプリ内通知**。
+  - **In-App** notifications, displayed with a number inside the bell icon.
 
-通知設定を**編集する**には、ワークスペースまたはダッシュボードの通知の横にある**鉛筆アイコン**を選択します。通知を**オン/オフにする**には、右側の*切り替えボタン*をクリック/タップします。
+To **edit** your notifications preferences, select the *pencil icon* next to workspace or dashboard notifications. To **turn on/off** notifications, click/tap the *toggle button* on the right.
 
-### ワークスペース通知
+### Workspace Notifications
 
-ワークスペースから削除されたとき、またはすでに参加しているワークスペースに新しいメンバーが参加したときに通知を受け取るように Analytics アカウントを構成できます。
+You can configure your Analytics account to receive notifications when you
+are removed from a workspace, or whenever new members join a workspace you are
+already part of.
 
-ワークスペースでは、以下の設定がデフォルトで有効になっています。
+For Workspaces, the following settings are enabled by default:
 
-|                              | メール                                                         | プッシュ | アプリ内                                                         |
+|                              | Email                                                         | Push | In-App                                                         |
 | ---------------------------- | ------------------------------------------------------------- | ---- | -------------------------------------------------------------- |
-| ワークスペースから削除されました。 | <img src="images/enabled-feature.png" alt="enabled feature"/> |      | <img src="images/enabled-feature.png" alt="enabled feature" /> |
-| 新しいメンバーが参加しました。             |                                                               |      | <img src="images/enabled-feature.png" alt="enabled feature" /> |
+| I’m removed from a Workspace | <img src="images/enabled-feature.png" alt="enabled feature"/> |      | <img src="images/enabled-feature.png" alt="enabled feature" /> |
+| New members join             |                                                               |      | <img src="images/enabled-feature.png" alt="enabled feature" /> |
+### Dashboard Notifications
 
-### ダッシュボード通知
+You can configure your account to receive notifications whenever dashboards are shared with you or with a workspace, or when they are updated.
 
-ダッシュボードが自分やワークスペースに共有されたとき、または更新されたときに通知を受け取るようにアカウントを構成できます。
+For Dashboards, the following settings are enabled by default:
 
-ダッシュボードでは、以下の設定がデフォルトで有効になっています。
-
-|                                          | メール                                                         | プッシュ                                                          | アプリ内                                                        |
+|                                          | Email                                                         | Push                                                          | In-App                                                        |
 | ---------------------------------------- | ------------------------------------------------------------- | ------------------------------------------------------------- | ------------------------------------------------------------- |
-| ダッシュボードが共有されました。              |                                                               | <img src="images/enabled-feature.png" alt="enabled feature"/> | <img src="images/enabled-feature.png" alt="enabled feature"/> |
-| フォルダーが共有されました。                 |                                                               | <img src="images/enabled-feature.png" alt="enabled feature"/> | <img src="images/enabled-feature.png" alt="enabled feature"/> |
-| ダッシュボードが参加しているワークスペースと共有されました。 |                                                               | <img src="images/enabled-feature.png" alt="enabled feature"/> | <img src="images/enabled-feature.png" alt="enabled feature"/> |
-| フォルダーが参加しているワークスペースと共有されました。    |                                                               | <img src="images/enabled-feature.png" alt="enabled feature"/> | <img src="images/enabled-feature.png" alt="enabled feature"/> |
-| ダッシュボードが更新されました。                     |                                                               | <img src="images/enabled-feature.png" alt="enabled feature"/> | <img src="images/enabled-feature.png" alt="enabled feature"/> |
-| ダッシュボード アクセスが要求されています。            | <img src="images/enabled-feature.png" alt="enabled feature"/> | <img src="images/enabled-feature.png" alt="enabled feature"/> | <img src="images/enabled-feature.png" alt="enabled feature"/> |
+| Dashboard is shared with me              |                                                               | <img src="images/enabled-feature.png" alt="enabled feature"/> | <img src="images/enabled-feature.png" alt="enabled feature"/> |
+| Folder is shared with me                 |                                                               | <img src="images/enabled-feature.png" alt="enabled feature"/> | <img src="images/enabled-feature.png" alt="enabled feature"/> |
+| Dashboard shared with a Workspace i’m in |                                                               | <img src="images/enabled-feature.png" alt="enabled feature"/> | <img src="images/enabled-feature.png" alt="enabled feature"/> |
+| Folder shared with a Workspace i’m in    |                                                               | <img src="images/enabled-feature.png" alt="enabled feature"/> | <img src="images/enabled-feature.png" alt="enabled feature"/> |
+| Dashboard is updated                     |                                                               | <img src="images/enabled-feature.png" alt="enabled feature"/> | <img src="images/enabled-feature.png" alt="enabled feature"/> |
+| Dashboard access is requested            | <img src="images/enabled-feature.png" alt="enabled feature"/> | <img src="images/enabled-feature.png" alt="enabled feature"/> | <img src="images/enabled-feature.png" alt="enabled feature"/> |
+

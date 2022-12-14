@@ -1,63 +1,69 @@
 ---
-title: Slingshot で Microsoft Reporting Services に接続する方法
-_description: 既存の Microsoft Reporting Services を使用して優れた表示形式を作成する方法を説明します。
-_language: ja
+title: How to connect to Microsoft Reporting Services in Slingshot
+_description: Learn how to use your existing Microsoft Reporting Services to create great visualizations.
 ---
 
 # Microsoft Reporting Services
 
-既存の Microsoft Reporting Services (SSRS) レポートをダッシュボードに PDF ファイルとして埋め込むか、レポートからデータを取得して表示形式を作成して、Analytics で使用できます。
+You can now use your existing Microsoft Reporting Services (SSRS)
+reports in Analytics by embedding them as PDF files in your dashboards or
+simply getting the data from the reports to create a visualization.
 
-## Microsoft Reporting Services への接続
+## Connecting to Microsoft Reporting Services
 
-Microsoft Reporting Services (SSRS) データ ソースを構成するには、以下の情報が必要です。
+To configure a Microsoft Reporting Services (SSRS) Data Source, you will
+need to enter the following information:
 
 <img src="images/add-microsoft-reporting-services-as-data-source.png" alt="Set up menu for Microsoft Reporting Services data source" class="responsive-img" width="50%"/>
 
+1.  **URL**: the URL to the server.
 
-1.  **[URL]**: サーバーの URL。
+2.  **Credentials**: a new dialog will be displayed. You can either
+    enter new credentials for Microsoft Reporting Services or select
+    existing ones if applicable.
 
-2.  **[資格情報]**: 新しいダイアログが表示されます。Microsoft Reporting Services サーバーの新しい資格情報を入力、または既存の情報を入力します。
+## Setting Up Your Report
 
-## レポートの設定
-
-Microsoft Reporting Services レポートへの接続を構成した後、データ ソースの場所を選択すると、以下のダイアログが開き、操作するデータを選択するよう求められます。
+After configuring the connection to your Microsoft Reporting Services
+reports and selecting the data source location, the following dialog will open, prompting you to choose the data you want to work with:
 
 <img src="images/microsoft-reporting-services-data-source-details.png" alt="Select a Report dialog" class="responsive-img" width="55%"/>
 
+The order of reports and folders closely resembles the one in your
+Microsoft Reporting Services account.
 
-レポートとフォルダーの順序は、Microsoft Reporting Services アカウントの順序とよく似ています。
-
-データに応じて、以下に示すようにレポートの特定の **[パラメーター]** を構成する必要があります。
+Depending on your data, you will need to configure specific
+**parameters** for your Reports, as shown below:
 
 <img src="images/microsoft-reporting-services-parameters.png" alt="Set up parameters and choose an output format dialog" class="responsive-img" width="55%"/>
 
+After selecting/filling the parameters for your report, you can choose
+the format in which the report will load in the *Visualization editor*:
 
-レポートのパラメーターを選択/入力した後、レポートを*表示形式エディター*に読み込む形式を選択できます。
+  - *Load as PDF* - You will have your report embedded as a PDF document
+    in the visualization editor. You will be able to scroll, zoom,
+    download or print the pdf inside the Visualization editor.
 
-  - **[PDF として読み込み]** - レポートを PDF 文書として表示形式エディターに埋め込みます。表示形式エディター内で PDF をスクロール、ズーム、ダウンロード、または印刷できます。
+  <img src="images/microsoft-reporting-services-pdf.png" alt="Microsoft reporting services in pdf format in the Visualization editor" class="responsive-img" width="84%"/>
 
-  <img src="images/microsoft-reporting-services-pdf.png" alt="Microsoft reporting services in pdf format in the Visualization editor" class="responsive-img" width="80%"/>
+  - *Load Data* - Your report data will be loaded in the standard
+    format, providing you with fields to build your visualization.
 
+  <img src="images/microsoft-reporting-services-sample-data-visualization-editor.png" alt="Microsoft reporting services data in the Visualization editor" class="responsive-img" width="84%"/>
 
-  - **[データの読み込み]** - レポートのデータは標準形式で読み込まれ、表示形式を作成するためのフィールドを提供します。
+>[!NOTE] **Editing the Data Source in the Visualization editor.**
+>Carefully choose the report format (pdf or data) because once loaded, you will not be able to change it. When you *Edit* your data source, you will only be able to change the configuration of the report's parameters.
 
-  <img src="images/microsoft-reporting-services-sample-data-visualization-editor.png" alt="Microsoft reporting services data in the Visualization editor" class="responsive-img" width="80%"/>
+## Working in the Visualization editor
 
->[!NOTE]
->表示形式エディターでデータ ソースを編集: 読み込み後は変更できないため、レポート形式 (pdf または data) を選択してください。データ ソースを*編集する*場合、レポートのパラメーターの構成のみ変更できます。
+By default, the *Column* visualization will be selected. You can select it in order to choose another chart type. 
 
-## 表示形式エディターでの作業
+<img src="images/microsoft-reporting-services-chart-types.png" alt="List of chart types available while using Microsoft Reporting Services as data source" class="responsive-img" width="63%"/>
 
-デフォルトでは、**柱状**表示形式が選択されます。それを選択して、別のチャート タイプを選択できます。
+Based on the vusialization that you have chosen, you will see different types of fields.
 
-<img src="images/microsoft-reporting-services-chart-types.png" alt="List of chart types available while using Microsoft Reporting Services as data source" class="responsive-img" width="55%"/>
+Once you are ready with your visualization, click/tap on the checkmark in the top right corner to save it as a dashboard. 
 
-
-選択した表示形式に基づいて、さまざまなタイプのフィールドが表示されます。
-
-表示形式の準備ができたら、右上隅のチェックマークをクリックまたはタップして、ダッシュボードとして保存できます。
-
-以下の例では、ダッシュボードを **[分析]** > **[ダッシュボード]** > **Accounting** に保存しました。
+In this case we saved the dashboard in **My Analytics** > **My Dashboards** > **Accounting**.
 
 <img src="images/microsoft-reporting-services-my-analytics-dashboard.png" alt="A dashboard in the My Analytics section created while using Microsoft Reporting Services" class="responsive-img" width="75%"/>

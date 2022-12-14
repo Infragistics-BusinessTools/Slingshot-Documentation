@@ -1,88 +1,94 @@
 ---
-title: Slingshot で Sybase データ ソースを構成する方法
-_description: Slingshot で Sybase データ ソースを構成し、取得してさまざまなダッシュボード ビューで使用する方法を説明します。
-_language: ja
+title: How to Configure a Sybase Data Source in Slingshot
+_description: Learn how to configure your Sybase data source in Slingshot, retrieve it and use it in different dashboard views.
 ---
 
 # Sybase
 
->[!NOTE] 
->**Web の制限**。*Analytics Web* アプリでは、公的にアクセス可能な Sybase アドレスにのみ接続できます。Sybase アドレスが一般公開 (プライベートまたは会社のイントラネットでホストされているなど) に制限されている場合は、*Analytics Desktop*、*iOS*、または *Android* を使用して接続できます。Analytics を実行しているデバイスは、Sybase アドレスにアクセスできる必要があります。この制限は、*Analytics Embedded* には適用されません。 
+>[!NOTE] **Limitations in Web**. In the *Analytics Web* app, you can connect only to publicly accessible Sybase addresses. If your Sybase address is restricted for the general public (private or hosted in the company's intranet, for example), you can use *Analytics Desktop*, *iOS* or *Android* to connect to it. The device where you're running Analytics needs to have access to this Sybase address. This limitation does not apply to *Analytics Embedded*.
 
-## Sybase への接続
-
-Sybase サーバー データ ソースを構成するには、以下の情報が必要です。
+## Connecting to Sybases
+To configure a Sybase server data source, you will need to enter the
+following information:
 
 <img src="images/add-sybase-as-data-source.png" alt="Configure Sybase database connection" width="50%" class="responsive-img"/>
 
+2.  [**Server**](#how-to-find-server): the computer name or IP address
+    assigned to the computer on which the server is running.
 
-1.  **[[サーバー](#サーバー情報を見つける方法)]**: コンピューター名またはサーバーを実行しているコンピューターに割り当てられた IP アドレス。
+3.  **Port**: if applicable, the server port details. If no information
+    is entered, Analytics will connect to the port in the hint text (5000)
+    by default.
 
-2.  **[ポート]**: 該当する場合、サーバー ポートの詳細。情報が入力されない場合、Analytics はデフォルトでヒント テキスト (5000) のポートに接続します。
+4.  **Credentials**: after selecting *Credentials*, you will be able to
+    enter the credentials for your Sybase server or select existing ones
+    if applicable.
 
-3.  **[資格情報]**: [資格情報] を選択した後、Sybase サーバーの資格情報を入力するか、既存の資格情報 (適用可能な場合) を選択できます。
+      - **Username**: the user account for the Sybase server or the name of the domain.
 
-      - **[ユーザー名]**: Sybase サーバーのユーザー アカウントまたはドメインの名前。
-
-      - **[パスワード]**: Sybase サーバーのパスワード。
+      - **Password**: the password to access the Sybase server.
     
-    - **エイリアス**: データ ソース アカウントの名前。以前のダイアログのアカウントのリストに表示されます。
+    - **Alias**: the name for your data source account. It will be
+        displayed in the list of accounts in the previous dialog.
 
-  準備ができたら、**[追加]** を選択してから **[サーバーの追加]** を選択します。
+  Once ready, select **Add** and then **Add Server**.
 
 <a name='how-to-find-server'></a>
-## サーバー情報を見つける方法
+## How to find your Server Information
 
-以下の手順でサーバーも確認できます。コマンドはサーバーで実行する必要があることに注意してください。
+You can find your server by following the steps below. Please note that
+the commands should be executed on the server.
 
 | WINDOWS                                                                                                         | LINUX                                                                                                         | MAC                                                                  |
 | --------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------- |
-| 1\. ファイル エクスプローラーを開きます。                                                                                     | 1\. ターミナルを開きます。                                                                                          | 1\. システム環境設定を開きます。                                         |
-| 2\. マイコンピューターを右クリックしてプロパティを表示します。                                                                   | 2\. **$hostname** と入力します。                                                                                    | 2\. 共有セクションに移動します。                                 |
-| ホスト名は、[コンピューター名、ドメイン、ワークグループ設定] の下に [コンピューター名] として表示されます。 | [ホスト名] と [DNS ドメイン名] が表示されます。Analytics では**ホスト名**のみを含めることに注意してください。| [ホスト名] は、上部の [コンピューター名] の下に表示されます。 |
+| 1\. Open the File Explorer.                                                                                     | 1\. Open a Terminal.                                                                                          | 1\. Open System Preferences.                                         |
+| 2\. Right Click on My Computer \> Properties.                                                                   | 2\. Type in **$hostname**                                                                                     | 2\. Navigate to the Sharing Section.                                 |
+| Your Hostname will appear as "Computer Name" under the *Computer name, domain and workgroups settings* section. | Your Hostname will appear along with your DNS domain name. Make sure you only include **Hostname** in Analytics. | Your Hostname will be listed under the "Computer Name" field on top. |
 
-以下の手順で *IP アドレス*も確認できます。コマンドはサーバーで実行する必要があることに注意してください。
+You can find your *IP address* by following the steps below. Please note
+that the commands should be executed on the server.
 
 | WINDOWS                              | LINUX                             | MAC                                                           |
 | ------------------------------------ | --------------------------------- | ------------------------------------------------------------- |
-| 1\. コマンド プロンプトを開きます。           | 1\. ターミナルを開きます。              | 1\. ネットワーク アプリケーションを起動します。                                  |
-| 2\. **ipconfig** と入力します。            | 2\. **$ /bin/ifconfig** と入力します。  | 2\. 接続を選択します。                                   |
-| **IPv4 アドレス** はあなたの IP アドレスです。 | **Inet addr** はあなたの IP アドレスです。 | **IP アドレス** フィールドに必要な情報が提供されます。 |
+| 1\. Open a Command Prompt.           | 1\. Open a Terminal.              | 1\. Launch your Network app.                                  |
+| 2\. Type in **ipconfig**             | 2\. Type in **$ /bin/ifconfig**   | 2\. Select your connection.                                   |
+| **IPv4 Address** is your IP address. | **Inet addr** is your IP address. | The **IP Address** field will have the necessary information. |
 
-## データの設定
+## Setting Up Your Data
 
-### ビューの作業
+### Working with Views 
 
-Analytics を使用すると、テーブル全体から Sybase データを取得できますが、代わりにテーブルまたはテーブルのセットからデータのサブセットを返す特定の[ビュー (英語)](http://infocenter.sybase.com/help/index.jsp?topic=/com.sybase.infocenter.dc32300.1570/html/sqlug/X29678.htm) を選択することもできます。
+With Analytics, you can retrieve Sybase data from entire tables, but you
+can also select a particular
+[view](http://infocenter.sybase.com/help/index.jsp?topic=/com.sybase.infocenter.dc32300.1570/html/sqlug/X29678.htm)
+that returns a subset of data from a table or a set of tables instead.
 
 <img src="images/sybase-views-list.png" alt="Select from Sybase views dialog" class="responsive-img" width="55%"/>
 
+The **syscacheinfo** view, for example, contains information about the cache, taken from one of the tables in the database.
 
-たとえば、**syscacheinfo** ビューには、データベース内のテーブルの 1 つから取得したキャッシュに関する情報が含まれています。
+<img src="images/sybase-view-visualization.png" alt="Creating a visualization while using a sybase view" class="responsive-img" width="70%"/>
 
-<img src="images/sybase-view-visualization.png" alt="Creating a visualization while using a sybase view" class="responsive-img" width="65%"/>
+For more information on views and Sybase, visit [this documentation website](http://infocenter.sybase.com/help/index.jsp?topic=/com.sybase.infocenter.dc32300.1570/html/sqlug/X29678.htm).
 
+### Working with Stored Procedures
 
-ビューおよび Sybase の詳細については、[このドキュメント Web サイト (英語)](http://infocenter.sybase.com/help/index.jsp?topic=/com.sybase.infocenter.dc32300.1570/html/sqlug/X29678.htm) を参照してください。
+In Sybase, stored procedures allow users to run a set of query
+statements in a relational database with specific parameters. 
 
-### 保管されたプロシージャの作業
+In this case, for example, the stored procedure requires users to set *@name* range value.
 
-Sybase では、保管されたプロシージャを使用すると、特定のパラメーターを使用してリレーショナル データベースで一連のクエリ ステートメントを実行できます。
+<img src="images/stored-procedure-parameters-sybase.png" alt="Stored Procedure select name" class="responsive-img" width="53%"/>
 
-たとえば、この場合、ストアド プロシージャでは、ユーザーが *@name* 範囲値を設定する必要があります。
+For more information on Stored Procedures and Sybase, visit [this documentation website](http://infocenter.sybase.com/help/index.jsp?topic=/com.sybase.infocenter.dc32300.1570/html/sqlug/X39397.htm).
 
-<img src="images/stored-procedure-parameters-sybase.png" alt="Stored Procedure select name" class="responsive-img" width="55%"/>
+## Working in the Visualization editor
 
-
-ストアド プロシージャと Sybase の詳細については、[このドキュメント Web サイト](http://infocenter.sybase.com/help/index.jsp?topic=/com.sybase.infocenter.dc32300.1570/html/sqlug/X39397.htm)を参照してください。
-
-## 表示形式エディターでの作業
-
-データ ソースを追加した後、**表示形式エディター**が表示されます。ここでダッシュボードを作成できます。デフォルトでは、**柱状**表示形式が選択されます。それを選択して、別のチャート タイプを選択できます。
+Once your data source has been added, you will be taken to the *Visualizations Editor*. Here you can build your dashboard. By default, the *Column* visualization will be selected. You can select it in order to choose another chart type.
 
 <img src="images/sybase-visualization-editor.png" alt="Using Sybase data to create a dashboard in the visualization editor" class="responsive-img" width="80%"/>
 
-
-表示形式の準備ができたら、右上隅のチェックマークをクリックまたはタップして、ダッシュボードとして保存できます。以下の例では、ダッシュボードを **[分析]** > **[ダッシュボード]** > **Statistics** に保存しました。
+When you are ready with your visualization, you can save it as a dashboard by clicking/tapping on the checkmark in the top right corner. In this case we saved the dashboard in **My Analytics** > **My Dashboards** > **Statistics**.
 
 <img src="images/sybase-my-analytics.png" alt="Sybase dashboard in My Analytics" class="responsive-img" width="80%"/>
+

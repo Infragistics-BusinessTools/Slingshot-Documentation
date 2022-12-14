@@ -1,101 +1,99 @@
 ---
-title: Slingshot でデータ ソースに接続する方法
-_description: さまざまなエンタープライズ データ ソースに接続して使用する方法を学びます。
-_language: ja
+title: How to Connect to Data Sources in Slingshot 
+_description: Learn how to connect to different enterprise data sources and use them.
 ---
 
-# データ ソース
+# Data Sources
 
-データ ソースはデータの送信元です。Analytics は、さまざまなエンタープライズ データ ソースに接続する機会を提供します。分析ツール、コンテンツ マネージャー、クラウド サービス、CRM、データベース、スプレッドシート、および公開用のデータ ソースから選択できます。
+Data Sources are the places where your data comes from. Analytics provides you with the opportunity to connect to different enterprise data sources. You can choose from analytics tools, content managers, cloud services, CRMs,
+databases, spreadsheets and public data sources.
 
-## データ ソースに接続
+## Connecting to Data Sources
 
-データ ソースから情報を取得し、それを表示形式に使用するには、まずデータ ソースに接続する必要があります。データ ソースに接続すると、**[データ ソース]** メニューに保存され、次に必要になったときにすばやく選択できます。
+To retrieve information from a data source and use it for your visualizations you need to connect to it first. Once you have connected to a data source, it will be saved in the *Data Sources* menu for quick selection next time you need it.
 
-データ ソースに接続するには、以下の手順を実行します:
+To connect to a data source, perform the steps below:
 
-1. **[分析]** またはダッシュボードを作成するワークスペースに移動します。
-2. **[+ ダッシュボード]** または **[ダッシュボードの作成]** **(分析)** の青いボタンをクリックまたはタップします。
+1. Go to **My Analytics** or a workspace where you want to a create a dashboard. 
+2. Click/tap on the **+ Dashboard** or **Create Dashboard** *(My Analytics)* blue button.
 
    <img src="images/data-sources-my-analytics.png" alt="Dashboard button in my analytics" class="responsive-img" width="70%" height="80%"/>
-3. **[データ ソース]** ダイアログに、最近使用したデータ ソースのリストが表示されます。新しい接続を作成するには、右側の **[+ データ ソース]** ボタンを選択します。
+3. In the *+ Visualization* dialog, you will see a list of recently used data sources. To create a new connection, select the **+ Data Source** button on the right.
 
    <img src="images/data-sources-screen.png.png" alt="Sample data sources" class="responsive-img" width="60%"/>
 
-データ ソース プロバイダーを選択すると、データ ソースを**設定**するように求められます。設定に関しては、選択したデータ ソースの設定に関する記事をご覧ください (以下のリストを参照)。
+After selecting a data source provider, you will be prompted to **configure** it. Not sure how to do this? Find out in the article about the chosen data source (see the list below).
 
-   - [Amazon Athena](~/jp/datasources/supported-data-sources/athena.md)
+   - [Amazon Athena](~/docs/analytics/datasources/supported-data-sources/athena.md)
 
-   - [Amazon Redshift](~/jp/datasources/supported-data-sources/redshift.html)
+   - [Amazon Redshift](~/docs/analytics/datasources/supported-data-sources/redshift.md)
 
-   - [Amazon S3](~/jp/datasources/supported-data-sources/amazon-s3.md)
+   - [Amazon S3](~/docs/analytics/datasources/supported-data-sources/amazon-s3.md)
+   - [Box](~/docs/analytics/datasources/supported-data-sources/box.md)
 
-   - [Box](~/jp/datasources/supported-data-sources/box.md)
+   - [Dropbox](~/docs/analytics/datasources/supported-data-sources/dropbox.md)
 
-   - [Dropbox](~/jp/datasources/supported-data-sources/dropbox.md)
+   - [Google Ads](~/docs/analytics/datasources/supported-data-sources/google-ads.md)
+   - [Google Analytics](~/docs/analytics/datasources/supported-data-sources/google-analytics.md)
 
-   - [Google Ads](~/jp/datasources/supported-data-sources/google-ads.md)
+   - [Google BigQuery](~/docs/analytics/datasources/supported-data-sources/google-bigquery.md)
 
-   - [Google Analytics](~/jp/datasources/supported-data-sources/google-analytics.html)
+   - [Google Drive](~/docs/analytics/datasources/supported-data-sources/google-drive.md)
 
-   - [Google BigQuery](~/jp/datasources/supported-data-sources/google-bigquery.html)
+   - [Hubspot](~/docs/analytics/datasources/supported-data-sources/hubspot.md)
 
-   - [Google Drive](~/jp/datasources/supported-data-sources/google-drive.html)
-  
-   - [Hubspot](~/jp/datasources/supported-data-sources/hubspot.html)
-  
-   - [Marketo](~/jp/datasources/supported-data-sources/marketo.html)
+   - [Marketo](~/docs/analytics/datasources/supported-data-sources/marketo.md)
 
-   - [Microsoft Analysis Services](~/jp/datasources/supported-data-sources/microsoft-analysis-services.html)
-  
-   - [Microsoft Azure Analysis Services](~/jp/datasources/supported-data-sources/microsoft-azure-analysis-services.html)
-  
-   - [Microsoft Azure Synapse Analytics](~/jp/datasources/supported-data-sources/microsoft-azure-synapse-analytics.html)
-  
-   - [Microsoft Azure SQL Database](~/jp/datasources/supported-data-sources/azure-sql.md)*
+   - [Microsoft Analysis Services](~/docs/analytics/datasources/supported-data-sources/microsoft-analysis-services/configuring-microsoft-analysis-services.md)*
 
-   - [Microsoft Dynamics CRM](~/jp/datasources/supported-data-sources/microsoft-dynamics-crm.html)
+   - [Microsoft Azure Analysis Services](~/docs/analytics/datasources/supported-data-sources/microsoft-azure-analysis-services.md)
 
-   - [Microsoft Reporting Services (SSRS)](~/jp/datasources/supported-data-sources/microsoft-reporting-services.html)
+   - [Microsoft Azure Synapse Analytics](~/docs/analytics/datasources/supported-data-sources/microsoft-azure-synapse-analytics.md)
+   
+   - [Microsoft Azure SQL Database](~/docs/analytics/datasources/supported-data-sources/azure-sql.md)*
 
-   - [Microsoft SQL Server](~/jp/datasources/supported-data-sources/microsoft-sql-server.html)*
+   - [Microsoft Dynamics CRM](~/docs/analytics/datasources/supported-data-sources/microsoft-dynamics-crm.md)
 
-   - [MySQL](~/jp/datasources/supported-data-sources/mysql.html)*
+   - [Microsoft Reporting Services (SSRS)](~/docs/analytics/datasources/supported-data-sources/microsoft-reporting-services.md)
 
-   - [OData フィード](~/jp/datasources/supported-data-sources/odata-feed.html)
+   - [Microsoft SQL Server](~/docs/analytics/datasources/supported-data-sources/microsoft-sql-server.md)*
 
-   - [OneDrive](~/jp/datasources/supported-data-sources/onedrive.html)
+   - [MySQL](~/docs/analytics/datasources/supported-data-sources/mysql.md)*
 
-   - [Oracle](~/jp/datasources/supported-data-sources/oracle.html)*
+   - [OData Feed](~/docs/analytics/datasources/supported-data-sources/odata-feed.md)
 
-   - [PostgreSQL](~/jp/datasources/supported-data-sources/postgresql.html)*
-  
-   - [Quickbooks](~/jp/datasources/supported-data-sources/quickbooks.html) 
+   - [OneDrive](~/docs/analytics/datasources/supported-data-sources/onedrive.md)
 
-   - [REST API](~/jp/datasources/supported-data-sources/rest-api.html)
+   - [Oracle](~/docs/analytics/datasources/supported-data-sources/oracle.md)*
 
-   - [Salesforce](~/jp/datasources/supported-data-sources/salesforce.html)
+   - [PostgreSQL](~/docs/analytics/datasources/supported-data-sources/postgresql.md)*
 
-   - [SharePoint](~/jp/datasources/supported-data-sources/sharepoint.html)
- 
-   - [Snowflake](~/jp/datasources/supported-data-sources/snowflake.d)
+   - [Quickbooks](~/docs/analytics/datasources/supported-data-sources/quickbooks.md)
 
-   - [Sybase](~/jp/datasources/supported-data-sources/sybase.html)*
+   - [REST API](~/docs/analytics/datasources/supported-data-sources/rest-api.md)
 
-   - [ウェブ リソース](~/jp/datasources/supported-data-sources/web-resource.html)
+   - [Salesforce](~/docs/analytics/datasources/supported-data-sources/salesforce.md)
 
-   - [JSON ファイル](~/jp/datasources/working-files/working-with-json-files.html)
+   - [SharePoint](~/docs/analytics/datasources/supported-data-sources/sharepoint.md)
 
-   - [スプレッドシート](~/jp/datasources/working-files/working-with-spreadsheets.html)
+   - [Snowflake](~/docs/analytics/datasources/supported-data-sources/snowflake.d)
 
-## データ ソースのフィルタリング
+   - [Sybase](~/docs/analytics/datasources/supported-data-sources/sybase.md)*
 
-データ ソースをフィルターするには、右上隅にあるフィルター ボタンをクリックします。
+   - [Web Resource](~/docs/analytics/datasources/supported-data-sources/web-resource.md)
+
+   - [JSON files](~/docs/analytics/datasources/working-files/working-with-json-files.md)
+   
+   - [Spreadsheets](~/docs/analytics/datasources/working-files/working-with-spreadsheets.md)
+
+## Filtering your Data Sources
+
+To filter your data sources, you can click on the filter button in the upper right corner.
 
    <img src="images/data-sources-filter.png" alt="A dialog with filtering options" class="responsive-img" width="60%"/>
 
-## 関連トピック 
+## Related Topics
 
-- まだ接続していないデータ ソースからのデータを使用するダッシュボードを受け取りましたか? [ダッシュボードをデータ ソースに接続](connect-dashboard-to-data-source.html)トピックで開く方法を参照してください。
-- 表示形式の作成途中でデータ ソースを変更することにしましたか? 表示形式エディターで別のデータ ソースに接続する方法については、[表示形式に使用するデータ ソースの変更](changing-data-source-visualization.html)を参照してください。
-- 複数のデータ ソースからのデータを表示形式に使用しますか? [データ ソースを 1 つの表示形式に統合](data-blending.html)を参照してください。
+- You received a dashboard that consumes data from a data source you still haven't connected to? See how to open it in the [Connecting a Dashboard to Its Data Source](connect-dashboard-to-data-source.md) topic.
+- You started creating a visualization, but changed your mind about the data source? Read how to connect to a different data source while you are in the Visualization Editor in [Changing the Data Source for a Visualization](changing-data-source-visualization.md).
+- You want to use data from more than one data source for your visualization? Read the [Combining Data Sources in one Visualization](data-blending.md)

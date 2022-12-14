@@ -1,73 +1,79 @@
 ---
-title: MySQL サーバーのデータ ソースを構成する方法
-_description: Slingshot で MySQL サーバー データ ソースを介して表示形式を作成および使用します。
-_language: ja
+title: How to configure a MySQL server data source
+_description: Create and use visualizations through a MySQL server data source in Slingshot. 
 --- 
 
 # MySQL
 
 
->[!NOTE] 
->**Web の制限**。*Analytics Web* アプリでは、公的にアクセス可能な MySQL アドレスにのみ接続できます。MySQL アドレスが一般公開 (プライベートまたは会社のイントラネットでホストされているなど) に制限されている場合は、*Analytics Desktop*、*iOS*、または *Android* を使用して接続できます。Analytics を実行しているデバイスは、MySQL アドレスにアクセスできる必要があります。この制限は、*Analytics Embedded* には適用されません。
+>[!NOTE] **Limitations in Web**. In the *Analytics Web* app, you can connect only to publicly accessible MySQL addresses. If your MySQL address is restricted for the general public (private or hosted in the company's intranet, for example), you can use *Analytics Desktop*, *iOS* or *Android* to connect to it. The device where you're running Analytics needs to have access to this MySQL address. This limitation does not apply to *Analytics Embedded*.
 
-## MySQL への接続
+## Connecting to MySQL
 
-MySQL サーバー データ ソースを構成するには、以下の情報が必要です。
+To configure a MySQL server data source, you will need to enter the
+following information:
 
 <img src="images/add-mysql-as-data-source.png" alt="Enter MySQL Server Details dialog" class="responsive-img" width="50%"/>
 
+1. [**Server**](#how-to-find-server): the computer name or IP address
+    assigned to the computer on which the server is running.
 
-1. **[[サーバー](#サーバー情報を見つける方法)]**: コンピューター名またはサーバーを実行しているコンピューターに割り当てられた IP アドレス。
+2.  **Port**: if applicable, the server port details. If no information
+    is entered, Analytics will connect to the port in the hint text (3306)
+    by default.
 
-2.  **[ポート]**: 該当する場合、サーバー ポートの詳細。情報が入力されない場合、Analytics はデフォルトでヒント テキスト (3306) のポートに接続します。
+3.  **Credentials**: after selecting *Credentials*, you will be able to
+    enter the credentials for your MySQL server or choose existing ones
+    if applicable.
 
-3.  **[資格情報]**: [資格情報] を選択した後、MySQL サーバーの資格情報を入力するか、既存の資格情報 (適用可能な場合) を選択できます。
+      - **Username**: the user account for the MySQL server or the name of the domain.
 
-      - **[ユーザー名]**: MySQL サーバーのユーザー アカウントまたはドメインの名前。
+      - **Password**: the password to access the MySQL server.
 
-      - **[パスワード]**: MySQL サーバーのパスワード。
+      - **Alias**: the name for your data source account. It will be
+        displayed in the list of accounts in the previous dialog.
 
-      - **エイリアス**: データ ソース アカウントの名前。以前のダイアログのアカウントのリストに表示されます。
-
-    準備ができたら、**[追加]** を選択してから **[サーバーの追加]** を選択します。
+    Once ready, select **Add** and then **Add Server**.
 
 <a name='how-to-find-server'></a>
-## サーバー情報を見つける方法
+## How to find your Server Information
 
-以下の手順でサーバーも確認できます。コマンドはサーバーで実行する必要があることに注意してください。
+You can find your server by following the steps below. Please note that
+the commands should be executed on the server.
 
 | WINDOWS                                                                                                         | LINUX                                                                                                         | MAC                                                                  |
 | --------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------- |
-| 1\. ファイル エクスプローラーを開きます。                                                                                     | 1\. ターミナルを開きます                                                                                          | 1\. システム環境設定を開きます                                         |
-| 2\. マイコンピューターを右クリックしてプロパティを表示します。                                                                   | 2\. **$hostname** と入力します。                                                                                     | 2\. 共有セクションに移動します。                                 |
-| ホスト名は、[コンピューター名、ドメイン、ワークグループ設定] の下に [コンピューター名] として表示されます。 | [ホスト名] と [DNS ドメイン名] が表示されます。Analytics では**ホスト名**のみを含めることに注意してください。 | [ホスト名] は、上部の [コンピューター名] の下に表示されます |
+| 1\. Open the File Explorer.                                                                                     | 1\. Open a Terminal.                                                                                          | 1\. Open System Preferences.                                         |
+| 2\. Right Click on My Computer \> Properties.                                                                   | 2\. Type in **$hostname**                                                                                     | 2\. Navigate to the Sharing Section.                                 |
+| Your Hostname will appear as "Computer Name" under the *Computer name, domain, and workgroups settings* section. | Your Hostname will appear along with your DNS domain name. Make sure you only include **Hostname** in Analytics. | Your Hostname will be listed under the "Computer Name" field on top. |
 
-以下の手順で *IP アドレス*も確認できます。コマンドはサーバーで実行する必要があることに注意してください。
+You can find your *IP address* by following the steps below. Please note
+that the commands should be executed on the server.
 
 | WINDOWS                              | LINUX                             | MAC                                                           |
 | ------------------------------------ | --------------------------------- | ------------------------------------------------------------- |
-| 1\. コマンド プロンプトを開きます。           | 1\. ターミナルを開きます。              | 1\. ネットワーク アプリケーションを起動します。                                  |
-| 2\. **ipconfig** と入力します。             | 2\. **$ /bin/ifconfig** と入力します。   | 2\. 接続を選択します。                                   |
-| **IPv4 アドレス** はあなたの IP アドレスです。 | **Inet addr** はあなたの IP アドレスです。 | **IP アドレス** フィールドに必要な情報が提供されます。 |
+| 1\. Open a Command Prompt.           | 1\. Open a Terminal.              | 1\. Launch your Network app.                                  |
+| 2\. Type in **ipconfig**             | 2\. Type in **$ /bin/ifconfig**   | 2\. Select your connection.                                   |
+| **IPv4 Address** is your IP address. | **Inet addr** is your IP address. | The **IP Address** field will have the necessary information. |
 
-## データの設定
+## Setting Up Your Data
 
-Analytics ではすべてのテーブルから MySQL データを取得できますが、その他にもテーブルまたはテーブルのセットからデータのサブセットを返す特定のビューを選択することもできます。
+With Analytics, you can retrieve MySQL data from entire tables. Still, you can also select a particular view that returns a subset of data from a table or a set of tables instead.
 
-<img src="images/mysql-views.png" alt="MySQL Views section" class="responsive-img" width="60%"/>
+<img src="images/mysql-views.png" alt="MySQL Views section" class="responsive-img" width="55%"/>
 
+In the sample above, the **invoices** view contains a modified version
+of the data in the **products**,**customers**, **orderdetails** and **orders** tables in the MySQL server.
 
-上記のサンプルでは、**invoices** ビューに、MySQL サーバーの **products**、**customers**、**orderdetails**、および **orders** テーブルのデータの変更されたバージョンが含まれています。
+For more information on views and MySQL, visit [this documentation page](https://dev.mysql.com/doc/refman/8.0/en/views.html).
 
-ビューと MySQL の詳細については、[このドキュメント ページ](https://dev.mysql.com/doc/refman/8.0/en/views.html)にアクセスしてください。
+## Working in the Visualization editor
 
-## 表示形式エディターでの作業
-
-テーブルまたはビューを選択すると、**表示形式エディター**に移動します。ここでダッシュボードを作成できます。デフォルトでは、**柱状**表示形式が選択されます。それを選択して、別のチャート タイプを選択できます。
+Once you have chosen your table or view, you will be taken to the *Visualizations Editor*. Here you can build your dashboard. By default, the *Column* visualization will be selected. You can select it in order to choose another chart type.
 
 <img src="images/mysql-visualization-editor.png" alt="Using MySQL as data to create a dashboard in the visualization editor" class="responsive-img" width="85%"/>
 
-
-表示形式エディターの準備ができたら、ダッシュボードを **[分析]** > **[ダッシュボード]** または特定のワークスペースに保存できます。 
+When you are ready with the visualization editor, you can save the dashboard in **My Analytics** > **My Dashboards** or in a specific workspace. 
 
 <img src="images/mysql-my-analytics.png" alt="A dashboard created from a MySQL data source in the My Analytics section" class="responsive-img" width="85%"/>
+
