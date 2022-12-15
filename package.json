@@ -5,7 +5,7 @@
   "scripts": {
     "build:staging": "set NODE_ENV=staging && gulp ci-build",
     "build:prod": "set NODE_ENV=production && gulp ci-build",
-	"build:staging_jp": "set NODE_ENV=staging && gulp ci-build --lang jp",
+	  "build:staging_jp": "set NODE_ENV=staging && gulp ci-build --lang jp",
     "build:prod_jp": "set NODE_ENV=production && gulp ci-build --lang jp",
     "build": "gulp build",
     "start": "gulp serve",
