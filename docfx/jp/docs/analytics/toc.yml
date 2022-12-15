@@ -1,0 +1,103 @@
+- name: ダッシュボード
+  header: true
+- name: 概要
+  href: dashboards/overview.md
+- name: ダッシュボードの作成
+  href: dashboards/creating-dashboards.md
+- name: ダッシュボードのアップロード
+  href: dashboards/uploading-dashboards.md
+- name: ダッシュボードの操作
+  href: dashboards/dashboards-interactions.md
+- name: ダッシュボードの管理
+  href: dashboards/managing-dashboards.md
+- name: ダッシュボードのスタイル設定
+  href: dashboards/dashboard-styling.md
+- name: ダッシュボードのリンク
+  href: dashboards/dashboard-linking.md
+- name: ダッシュボードの共有
+  href: dashboards/sharing-dashboards/toc.yml
+- name: ダッシュボードのエクスポート
+  href: dashboards/exporting-dashboards/toc.yml
+- name: データ ソース
+  header: true
+- name: 概要
+  href: datasources/overview.md
+- name: サポートされているデータ ソース
+  href: datasources/supported-data-sources/toc.yml
+- name: データ ソース資格情報の管理
+  href: datasources/managing-data-source-credentials.md
+- name: 表示形式に使用するデータ ソースの変更
+  href: datasources/changing-data-source-visualization.md
+- name: データ ソースを 1 つの表示形式に統合
+  href: datasources/data-blending.md
+- name: ダッシュボードをデータ ソースに接続
+  href: datasources/connect-dashboard-to-data-source.md
+- name: OAuth 2 / OIDC ユーザー認証
+  href: datasources/oauth-2-oidc-user-authentication.md
+- name: サーバーでデータの処理
+  href: datasources/process-data-server-side.md
+- name: 機械学習の統合
+  href: datasources/ml-integration/toc.yml
+- name: ファイルの作業
+  href: datasources/working-files/toc.yml
+- name: 表示形式
+  header: true
+- name: 概要
+  href: data-visualizations/overview.md
+- name: 表示形式エディターの作業
+  href: data-visualizations/visualizations-editor.md
+- name: 表示形式のタイプ
+  href: data-visualizations/visualization-types/toc.yml
+- name: フィールド
+  href: data-visualizations/fields/toc.yml
+- name: 表示形式の再利用
+  href: data-visualizations/reusing-visualizations.md
+- name: 統計関数
+  href: data-visualizations/statistical-functions.md
+- name: カスタム表示形式
+  href: data-visualizations/visualization-types/diy-visualizations.md
+  items:
+    - name: カスタム表示形式の作成方法
+      href: data-visualizations/visualization-types/diy-visualization-step-by-step.md
+- name: フィルター
+  header: true
+- name: 概要
+  href: filters/overview.md
+- name: ダッシュボード フィルター
+  href: filters/dashboard-filters.md
+- name: ダッシュボード フィルターとそのプロパティ
+  href: filters/dashboard-filters-properties.md
+- name: ダッシュボード フィルターを表示形式に接続
+  href: filters/connecting-dashboard-filters-visualization.md
+- name: フィールド フィルターとルール
+  href: data-visualizations/fields/field-filters-rules.md
+- name: 日付範囲ダッシュボード フィルター
+  href: filters/date-range-filter.md
+- name: 表示形式のクイック フィルター
+  href: filters/visualization-filters.md
+- name: 表示形式のチュートリアル
+  header: true
+- name: 概要
+  href: visualization-tutorials/overview.md
+- name: ローソク足表示形式
+  href: visualization-tutorials/candlestick-chart.md
+- name: ゲージ チャート
+  href: visualization-tutorials/gauge-charts.md
+- name: 画像チャート
+  href: visualization-tutorials/image-chart.md
+- name: KPI ゲージ
+  href: visualization-tutorials/kpi-gauge.md
+- name: OHLC チャート
+  href: visualization-tutorials/ohlc-chart.md
+- name: シンプル シリーズのチャート
+  href: visualization-tutorials/simple-charts.md
+- name: スパークライン チャート
+  href: visualization-tutorials/sparkline-charts.md
+- name: 積層型チャート
+  href: visualization-tutorials/stacked-charts.md
+- name: テキスト ビュー
+  href: visualization-tutorials/text-view.md
+- name: その他のリソース
+  header: true
+- name: 既知の問題
+  href: additional-resources/known-issues.md
