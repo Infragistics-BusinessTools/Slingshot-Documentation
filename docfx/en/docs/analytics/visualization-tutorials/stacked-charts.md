@@ -8,7 +8,7 @@ _description: A quick tutorial on creating Stacked Chart visualization using a s
 In this tutorial, you will learn how to create stacked chart
 visualizations using a sample spreadsheet.
 
-<img src="images/different-stacked-charts-example.png" alt="Tutorials-Create-New-Dashboard" class="responsive-img" width="85%"/>  
+<img src="images/different-stacked-charts-example.png" alt="Tutorials-Create-New-Dashboard" class="responsive-img" width="88%"/>  
 
 Access the links below for the Stacked Chart view walkthroughs:
 
@@ -26,7 +26,7 @@ Access the links below for the Stacked Chart view walkthroughs:
 
 There are three different layouts to choose from when using stacked
 charts: [area](#create-stacked-chart),
-[column](#create-stacked-chart), and [bar](#create-stacked-chart).
+[column](#create-stacked-chart) and [bar](#create-stacked-chart).
 
 You can also configure the following settings:
 
@@ -43,7 +43,7 @@ You can also configure the following settings:
 ## Sample Data Source
 
 For this tutorial, you will use the "Stacked Charts" sheet in the
-[Reveal Tutorials Spreadsheet](https://download.infragistics.com/reportplus/help/samples/Reveal_Visualization_Tutorials.xlsx).
+[Slingshot Visulization Tutorials](https://download.infragistics.com/slingshot/samples/Slingshot_Visualization_Tutorials.xlsx).
 
 >[!NOTE]
 Excel files as local files are not supported in this release. In order
@@ -57,19 +57,19 @@ supported _cloud services_ or add it as a [Web Resource](datasources/supported-d
 
  1. Select the **+ Dashboard** button in *My Analytics*.  
 
-  <img src="images/myanalytics-dashboard-button.png" alt="Dashboard button in the My Analytics section" class="responsive-img"/> 
+  <img src="images/myanalytics-dashboard-button.png" alt="Dashboard button in the My Analytics section" class="responsive-img" width="65%"/> 
                                                       
- 2. Select your data source(**Reveal Tutorials Spreadsheet**) from the list of data sources. If the data source is new, you will need to first add it from the **+ Data Source** button in the top-right corner.     
+ 2. Select your data source(**Slingshot Tutorials Spreadsheet**) from the list of data sources. If the data source is new, you will need to first add it from the **+ Data Source** button in the top-right corner.     
 
-  <img src="images/visualization-tutorials-data-source.png" alt="Tutorials Data Source in the list of already added data sources" class="responsive-img" width="58%"/>
+  <img src="images/visualization-tutorials-data-source.png" alt="Tutorials Data Source in the list of already added data sources" class="responsive-img" width="60%"/>
 
  3. Choose the "Stacked Charts" sheet.               
 
-  <img src="images/stacked-chart-spreadsheet-data-source-details-dialog.png" alt="Stacked Charts Spreadsheet in the tutorial data source" class="responsive-img" width="58%"/>
+  <img src="images/stacked-chart-spreadsheet-data-source-details-dialog.png" alt="Stacked Charts Spreadsheet in the tutorial data source" class="responsive-img" width="60%"/>
   
  4. Select the **grid icon** in the top bar of the Visualizations Editor. By default, the visualization type will be set to *Column*. You can always change it by selecting any of the **stack** visualizations.     
  
-    <img src="images/stacked-chart-types.png" alt="List of all the chart types used for a visualization" class="responsive-img" width="58%"/>                                                                                                    
+    <img src="images/stacked-chart-types.png" alt="List of all the chart types used for a visualization" class="responsive-img" width="60%"/>                                                                                                    
  5. Stacked charts require two or more fields to be dragged and dropped into the "Values" placeholder of the data editor. In this case, the "1960", "2003", "2008" and "2010" fields have been dropped into "Values" and "Country Name" in "Label". 
 
    <img src="images/stacked-charts-organizing-data.png" alt="Organizing the data from the stacked charts spreadsheet" class="responsive-img" width="35%"/>
@@ -84,8 +84,8 @@ data.
 
 |                                        |                                                                                      |                                                                                                                                       |
 | -------------------------------------- | ------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------- |
-| 1\. **Change Settings**                | <img src="images/tutorials-settings.png" alt="Settings section" class="responsive-img"/>               | Go to the **Settings** section of the Visualization Editor.                                                                           |
-| 2\. **Access the Axis Bounds section** | <img src="images/axis-bounds.png" alt="Tutorials-Axis-Bounds" class="responsive-img"/>                           | Navigate to Axis Bounds. Depending on whether you want to set the minimum or maximum value (or both), enter the value you want the chart to start or end with.  |                                                                                                          
+| 1\. **Change Settings**                | <img src="images/tutorials-settings.png" alt="Settings section" class="responsive-img" width="100%"/>               | Go to the **Settings** section of the Visualization Editor.                                                                           |
+| 2\. **Access the Axis Bounds section** | <img src="images/axis-bounds.png" alt="Tutorials-Axis-Bounds" class="responsive-img" width="100%"/>                           | Navigate to Axis Bounds. Depending on whether you want to set the minimum or maximum value (or both), enter the value you want the chart to start or end with.  |                                                                                                          
 
 <a name='set-logarithmic-axis'></a>
 ## Setting your Axis Configuration as Logarithmic

@@ -5,10 +5,10 @@ _description: A quick tutorial on creating an Image Chart visualization using a 
 
 # Creating an Image Chart
 
-In this tutorial, you will learn how to create an Image visualization
+In this tutorial you will learn how to create an Image visualization
 using a sample spreadsheet.
 
-<img src="../images/image-chart-sample.png" alt="A sample showing different image chart visualizations in one dashboard" class="responsive-img"/>
+<img src="../images/image-chart-sample.png" alt="A sample showing different image chart visualizations in one dashboard" class="responsive-img" width="88%"/>
 
 ## Key Concepts
 
@@ -26,11 +26,11 @@ For this tutorial, you will use the "Image Chart" sheet in the [Slingshot Visuli
 
  1. In **My Analytics**, select the **+ Dashboard button** in the top right-hand corner.
 
-    <img src="./images/button-dashboard.png" alt="Tutorials-Create-New-Dashboard" class="responsive-img" width="85%"/> 
+    <img src="./images/button-dashboard.png" alt="Tutorials-Create-New-Dashboard" class="responsive-img" width="65%"/> 
 
  2. A dialog will open, contening a list of already added data source. The Visualization Tutorial file will be there as a data source if you have already used it. In case you haven't added the file, you can click/tap on **+Data Source** > **Data Files** > **+New** >**Upload** >select the file and click/tap on **Select and Continue** to include it in the list.
 
-    <img src="images/select-your-data-source.png" alt="Tutorials-Select-Data-Source" class="responsive-img" width="85%"/>
+    <img src="images/select-your-data-source.png" alt="Tutorials-Select-Data-Source" class="responsive-img" width="65%"/>
 
  3. Once the data source is configured, select the *Image View* sheet.                                
 
@@ -40,6 +40,6 @@ For this tutorial, you will use the "Image Chart" sheet in the [Slingshot Visuli
 
     <img src="../images/list-of-chart-types.png" alt="Tutorial-Image-View-Select" class="responsive-img" width="57%"/>   
                                                       
-5. Drag any of the available fields into **URL**.        
+ 5. Drag any of the available fields into **URL**.        
 
-   <img src="../images/image-chart-data-organization.png" alt="Tutorials-ImageView-Organizing-Data" class="responsive-img" width="57%"/>                                                      
+    <img src="../images/image-chart-data-organization.png" alt="Tutorials-ImageView-Organizing-Data" class="responsive-img" width="57%"/>                                                      
