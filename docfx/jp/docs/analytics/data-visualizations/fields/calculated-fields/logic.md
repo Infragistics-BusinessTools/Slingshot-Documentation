@@ -3,13 +3,13 @@
 
 論理計算フィールドは、データ ソースの 2 つ以上の値の比較に使用できます。値を送信した論理テストに基づいて常に 0 または 1 を返します。
 
-Analytics では、論理計算フィールドは次のとおりです。
+Reveal では、論理計算フィールドは次のとおりです。
 
   - **引数のない関数**: それぞれ 1 と 0 を返す `true()` および `false()`。
 
   - **論理テストのある複素関数**: 各関数の詳細な情報は、以下の表にあるリンクをクリックしてください。
 
-**注:** *以下の表のすべてのサンプルは [HR Dataset 2016](https://download.infragistics.com/slingshot/samples/HR_Dataset_2016.xlsx) スプレッドシートで作成されました。*
+**注:** *以下の表のすべてのサンプルは [HR Dataset 2016](https://download.infragistics.com/reportplus/help/samples/HR%20Dataset_2016.xlsx) スプレッドシートで作成されました。*
 
 以下は論理カテゴリに含まれる関数です。
 <style type="text/css">

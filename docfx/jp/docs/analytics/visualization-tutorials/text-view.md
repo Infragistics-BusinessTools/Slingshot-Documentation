@@ -8,7 +8,7 @@ _language: ja
 
 このチュートリアルはサンプル スプレッドシートを使用しテキスト ビューを作成する方法を説明します。
 
-<img src="images/TextViewSample_All.png" alt="TextViewSample\_All" class="responsive-img"/>
+<img src="images/text-view-sample.png" alt="Visualization sample using text view" class="responsive-img" width="85%"/>
 
 テキスト ビューのガイドは、以下のリンクから参照してください。
 
@@ -18,34 +18,45 @@ _language: ja
 
 ## 重要なコンセプト
 
-テキストビューではキーと値のパターンで情報が表示されますが、**列のラベルとペアになっているデータの最初の行のみが表示されます**。ただし、フィルターを追加して、必要な行が Analytics 表示されるようにすることができます。
+テキストビューではキーと値のパターンで情報が表示されますが、**列のラベルとペアになっているデータの最初の行のみが表示されます**。ただし、フィルターを追加して、必要な行が Reveal 表示されるようにすることができます。
 
 ## サンプル データ ソース
 
-このチュートリアルでは [Analytics チュートリアル スプレッドシート](https://download.infragistics.com/slingshot/samples/Slingshot_Visualization_Tutorials.xlsx) の [Simple Series Charts] シートを使用します。
+このチュートリアルでは [Reveal チュートリアル スプレッドシート](https://download.infragistics.com/reportplus/help/samples/Reveal_Visualization_Tutorials.xlsx) の [Simple Series Charts] シートを使用します。
 
 >[!NOTE]
->このリリースでは、ローカル ファイルとしての Excel ファイルはサポートされていません。チュートリアルを実行するには、サポートされているクラウド サービスのいずれかにファイルをアップロードするか、[ウェブ リソース](datasources/supported-data-sources/web-resource.html)として追加してください。
+>このリリースでは、ローカル ファイルとしての Excel ファイルはサポートされていません。チュートリアルを実行するには、サポートされているクラウド サービスのいずれかにファイルをアップロードするか、[ウェブ リソース](datasources/supported-data-sources/web-resource.md)として追加してください。
 
 <a name='creating-text-view'></a>
 ## テキスト ビューを作成する方法
 
-|                                          |                                                                                                                   |                                                                                                                                                                                                                         |
-| ---------------------------------------- | ----------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1\. **ダッシュボードを作成する**               | <img src="images/Tutorials-Create-New-Dashboard.png" alt="Tutorials-Create-New-Dashboard" class="responsive-img"/>                                      | ダッシュボード ビューアーで、[ダッシュボード] 画面の右上隅にある [+ ダッシュボード] ボタンを選択します。                                                                   |
-| 2\. **データ ソースを構成する**       | <img src="images/Tutorials-Select-Data-Source.png" alt="Tutorials-Select-Data-Source" class="responsive-img"/>                                          | [新しい表示形式] ウィンドウで、右下隅の [+ データ ソース] ボタンを選択し、データ ソースを選択します。                                                                                                         |
-| 3\. **チュートリアル スプレッドシートを選択する** | <img src="images/Tutorials-Select-Simple-Series-Charts-Spreadsheet.png" alt="Tutorials-Select-Simple-Series-Charts-Spreadshee" class="responsive-img"/> | データ ソースを設定したら、**Analytics チュートリアル スプレッドシート**を選択します。 次に、Simple Series Charts シートを選択します。                                                                                        |
-| 4\. **表示形式メニューを開く**     | <img src="images/Tutorials-Select-Change-Visualization.png" alt="Tutorials-Select-Change-Visualization" class="responsive-img"/>                        | 表示形式エディターのトップ バーで**グリッド アイコン**を選択します。                                                                                                                                                   |
-| 5\. **表示形式を選択する**        | <img src="images/Tutorials-Charts-Select-Text-View.png" alt="Tutorials-Charts-Select-Text-View" class="responsive-img"/>                                | デフォルトで、表示形式のタイプは**グリッド**に設定されています。**[テキスト ビュー]** を選択します。                                                                                                                                     |
-| 6\. **データを構成する**               | <img src="images/Tutorials-TextView-Organizing-Data.png" alt="Tutorials-TextView-Organizing-Data" class="responsive-img"/>                              | たとえば、上記のテキスト ビューには、特定の国の人口、平均余命、および出生率が表示されます。Country Name、Population、Life Expectancy、Fertility Rate を [列] にドラッグアンドドロップします。 |
+ 1. Click/tap on the **+ Dashboard** button in the top right-hand corner in *My Analytics*.
+
+    <img src="images/my-analytics-dashboard-button.png" alt="Dashboard button in the my analytics board" class="responsive-img" width="85%"/>                                                         
+ 2. You can choose the data source you want to work with from the list of data sources. If the data source is new, you will need to add it from the **+ Data Source** button.
+
+     <img src="images/tutorials-select-data-source-list.png" alt="A dialog with a list of data sources" class="responsive-img" width="85%"/>                                                         
+ 3. Once the data source is configured, select the **Reveal Tutorials Spreadsheet**. Then, choose the "Simple Series Charts" sheet.  
+
+     <img src="images/tutorials-simple-series-charts-spreadsheet.png" alt="Simple Series Charts Spreadsheed in the data source " class="responsive-img" width="60%"/>                                                                                      
+ 4.  Open the *Visualization Picker* and select **Text View**. By default, the visualization type will be set to **Column**.   
+ 
+      <img src="images/text-view-chart-types.png" alt="Text View in the chart types list" class="responsive-img" width="70%"/>                                                                                                
+ 5. The above text view, for example, displays the population, life expectancy, and fertility rate for a specific country. Drag and drop "Country Name", "Population", "Life Expectancy" and "Fertility Rate" into Columns.
+
+     <img src="images/organizing-data-text-view.png" alt="Organizing data in the data filter for text view" class="responsive-img" width="40%"/>   
 
 <a name='changing-selected-row'></a>
 ## 選択された行を変更する方法
 
-デフォルトで、テキスト ビューはシートの最初の行を表示されます。これを変更するためにフィルターを適用できます。たとえば、テキスト ビューに行 9 (ボスニアおよびヘルツェゴビナ) を表示させます。
+デフォルトで、テキスト ビューはシートの最初の行を表示されます。これを変更するためにフィルターを適用できます。たとえば、テキスト ビューに行 9 (ボスニア・ヘルツェゴビナ) を表示させます。
 
-|                           |                                                                       |                                                                                                                                            |
-| ------------------------- | --------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
-| 1\. **データフィルターを追加する** | <img src="images/SelectFieldTextView_All.png" alt="SelectFieldTextView\_All" class="responsive-img"/>       | Country Name フィールドを [データ フィルター] にドラッグアンドドロップします。                                                                                  |
-| 2\. **フィルターを設定する**   | <img src="images/SelectedValuesTextView_All.png" alt="SelectedValuesTextView\_All" class="responsive-img"/> | [フィルター タイプ] を選択してドロップダウン メニューを有効にしてから [値の選択] を選択します。                                                       |
-| 3\. **値を選択する** | <img src="images/SelectValueTextView2_All.png" alt="SelectValueTextView2\_All" class="responsive-img"/>     | デフォルトでは、すべての値が選択済です。[すべて] のボックスをオフにして、**Bosnia and Herzegovina** のみを選択します。 |
+1. Drag and drop the "Country Name" field into Data Filters.  
+ 
+    <img src="images/select-data-filter-text-view.png" alt="Selecting an example for data filter for the text view" class="responsive-img" width="37%"/>                                                      
+2. Select "Filter Type" to enable the dropdown menu, and then choose **Select Values**. 
+ 
+     <img src="images/data-filter-dialog-select-value-text-view.png" alt="Select Value option from the list of filter types" class="responsive-img" width="40%"/>                                                      
+3. By default, all values will be selected. Uncheck the "All" box, and select only **Bosnia and Herzegovina**. Then, select **Create Filter** 
+
+    <img src="images/data-filter-select-value-example.png" alt="Choosing country from the list of selected values" class="responsive-img" width="40%"/> 

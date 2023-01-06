@@ -9,26 +9,22 @@ _language: ja
 ## Amazon Redshift への接続
 Amazon Redshift のデータ ソースを設定するには、以下の情報が必要です:
 
-<img src="images/enter-amazon-redshift-server-details.png" alt="Configure Redshift Server details" class="responsive-img"/>
+<img src="../images/amazon-redshift-server-dialog.png" alt="Configure Redshift Server details" class="responsive-img" width="50%"/>
 
-1.  データ ソースの **デフォルト名**: データ ソース名は前のダイアログのアカウントのリストに表示されます。デフォルトでは、Analytics は *Amazon Redshift* という名前を付けます。好みに合わせて変更できます。 
+1.  データ ソースの **デフォルト名**: データ ソース名は前のダイアログのアカウントのリストに表示されます。デフォルトでは、Reveal は *Amazon Redshift* という名前を付けます。好みに合わせて変更できます。 
 
 2.  **[[サーバー](#how-to-find-server)]**: コンピューター名またはサーバーを実行しているコンピューターに割り当てられた IP アドレス。
 
-3.  **[Port]**: 該当する場合、サーバー ポートの詳細。情報が入力されない場合、Analytics はデフォルトでヒント テキスト (5432) のポートに接続します。
+3.  **[Port]**: 該当する場合、サーバー ポートの詳細。情報が入力されない場合、Reveal はデフォルトでヒント テキスト (5432) のポートに接続します。
 
-4.  **[資格情報]**: *資格情報*を選択した後、*Redshift* サーバーの資格情報を入力するか、既存の資格情報 (利用可能な場合) を選択できます。
-    
-    
+4.  **[資格情報]**: **資格情報**を選択した後、*Redshift* サーバーの資格情報を入力するか、既存の資格情報 (利用可能な場合) を選択できます。
 
-      - **[名前]**: データ ソース アカウントの名前。以前のダイアログのアカウントのリストに表示されます。
-        
+      - **Username**: the user account for the *Redshift* server or the name of the domain.
 
-      - (オプション) の **[ドメイン]**: ドメイン名 (該当する場合)。
+      - **[パスワード]**: *Redshift* サーバーにアクセスするためのパスワード。
 
-      - **[ユーザー名]**: *Redshift*サーバーのユーザーアカウント。
-
-      - **[パスワード]**: *Redshift*サーバーにアクセスするためのパスワード。
+      - **Alias**: the name for your data source account. It will be
+        displayed in the list of accounts in the previous dialog.
 
 
 <a name='how-to-find-server'></a>
@@ -40,7 +36,7 @@ Amazon Redshift のデータ ソースを設定するには、以下の情報が
 | --------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------- |
 | 1\. ファイル エクスプローラーを開きます。                                                                                     | 1\. ターミナルを開きます。                                                                                          | 1\. システム環境設定を開きます。                                         |
 | 2\. [マイ コンピューター] → [プロパティ] を右クリックします。                                                                   | 2\. **$hostname** を入力します。                                                                                     | 2\. 共有セクションに移動します。                                 |
-| ホスト名は、[コンピューター名、ドメインおよびワークグループの設定] セクションの下に [コンピューター名] として表示されます。 | [ホスト名] と [DNS ドメイン名] が表示されます。Analytics には**ホスト名**のみを含めるようにしてください。| [ホスト名] は、上部の [コンピューター名] の下に表示されます。 |
+| ホスト名は、[コンピューター名、ドメインおよびワークグループの設定] セクションの下に [コンピューター名] として表示されます。 | [ホスト名] と [DNS ドメイン名] が表示されます。Reveal には**ホスト名**のみを含めるようにしてください。| [ホスト名] は、上部の [コンピューター名] の下に表示されます。 |
 
 以下の手順で *IP アドレス*も確認できます。コマンドはサーバーで実行する必要があることに注意してください。
 
@@ -52,12 +48,7 @@ Amazon Redshift のデータ ソースを設定するには、以下の情報が
 
 ## データの設定
 
-Analytics ではすべてのテーブルから *Redshift* データを取得できますが、その他にもテーブルまたはテーブルのセットからデータのサブセットを返す特定の[ビュー](https://docs.aws.amazon.com/redshift/latest/dg/r_CREATE_VIEW.html)を選択することもできます。
+Reveal ではすべてのテーブルから *Redshift* データを取得できますが、その他にもテーブルまたはテーブルのセットからデータのサブセットを返す特定の[ビュー](https://docs.aws.amazon.com/redshift/latest/dg/r_CREATE_VIEW.html)を選択することもできます。
 
-<img src="images/amazon-redshift-views.png" alt="Redshift views dialog" class="responsive-img"/>
-
-上記のスクリーンショットの **motor_vehicle_collisions_time** ビューには、Redshift サーバーの **motor_vehicle_collisions** テーブルにあるデータの変更バージョンが含まれています。 
-以下のスクリーンショットでは、左側の表示形式はテーブルのデータを使用して構築され、右側の表示形式はビューに含まれるデータを使用しています。 
-
-<img src="images/collisions-time-redshift-view-sample.png" alt="Sample dashboard using Redshift tables and view data" class="responsive-img"/>
+<img src="../images/amazon-redshift-tables.png" alt="Redshift tables dialog" class="responsive-img" width="55%"/>
 

@@ -8,112 +8,25 @@ _language: ja
 
 このチュートリアルは、サンプル スプレッドシートを使用してシンプル シリーズのチャートを作成する方法を説明します。
 
-<table>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><img src="images/areachart_all.png" alt="areachart all" /><br />
-</p>
-<p><a href="#create-basic-chart">エリア チャート</a><br />
-</p></td>
-<td><p><img src="images/barchart_all.png" alt="barchart all" /><br />
-</p>
-<p><a href="#create-basic-chart">棒チャート</a><br />
-</p></td>
-<td><p><img src="images/circularradialchart_all.png" alt="circularradialchart all" /><br />
-</p>
-<p><a href="#create-basic-chart">円/ラジアル チャート</a><br />
-</p></td>
-</tr>
-<tr class="even">
-<td><p><img src="images/columnchart_all.png" alt="columnchart all" /><br />
-</p>
-<p><a href="#create-basic-chart">柱状チャート</a><br />
-</p></td>
-<td><p><img src="images/doughnutchart_all.png" alt="doughnutchart all" /><br />
-</p>
-<p><a href="#create-basic-chart">ドーナツ型チャート</a><br />
-</p></td>
-<td><p><img src="images/funnelchart_all.png" alt="funnelchart all" /><br />
-</p>
-<p><a href="#create-basic-chart">ファンネル チャート</a><br />
-</p></td>
-</tr>
-<tr class="odd">
-<td><p><img src="images/linechart_all.png" alt="linechart all" /><br />
-</p>
-<p><a href="#create-basic-chart">折れ線チャート</a><br />
-</p></td>
-<td><p><img src="images/piechart_all.png" alt="piechart all" /><br />
-</p>
-<p><a href="#create-basic-chart">円チャート</a><br />
-</p></td>
-<td><p><img src="images/splineareachart_all.png" alt="splineareachart all" /><br />
-</p>
-<p><a href="#create-basic-chart">スプライン エリア チャート</a><br />
-</p></td>
-</tr>
-<tr class="even">
-<td><p><img src="images/splinechart_all.png" alt="splinechart all" /><br />
-</p>
-<p><a href="#create-basic-chart">スプライン チャート</a><br />
-</p></td>
-<td><p><img src="images/stepareachart_all.png" alt="stepareachart all" /><br />
-</p>
-<p><a href="#create-basic-chart">ステップ エリア チャート</a><br />
-</p></td>
-<td><p><img src="images/steplinechart_all.png" alt="steplinechart all" /><br />
-</p>
-<p><a href="#create-basic-chart">ステップ折れ線チャート</a><br />
-</p></td>
-</tr>
-<tr class="odd">
-<td><p><img src="images/chartquarticfit_all.png" alt="chartquarticfit all" /><br />
-</p>
-<p><a href="#add-trendline-chart">四次フィットトレンドラインのチャート</a><br />
-</p></td>
-<td><p><img src="images/chartbounds_all.png" alt="chartbounds all" /><br />
-</p>
-<p><a href="#change-axis-configuration">しきい値のチャート</a><br />
-</p></td>
-<td><p><img src="images/chartlogarithmicaxis_all.png" alt="chartlogarithmicaxis all" /><br />
-</p>
-<p><a href="#set-logarithmic-axis">対数軸構成のチャート</a><br />
-</p></td>
-</tr>
-<tr class="even">
-<td><p><img src="images/chartstartposition270_all.png" alt="chartstartposition270 all" /><br />
-</p>
-<p><a href="#change-start-position">開始位置が270°のドーナツ型チャート</a><br />
-</p></td>
-<td><p><img src="images/chartslicelabels_all.png" alt="chartslicelabels all" /><br />
-</p>
-<p><a href="#change-slice-labels">値と割合のスライス ラベルが付いたドーナツ型チャート</a><br />
-</p></td>
-<td></td>
-</tr>
-</tbody>
-</table>
+<img src="images/simple-series-charts-example.png" alt="Visualizations made by using simple series charts" class="responsive-img" width="85%"/>
+
+<img src="images/simple-series-charts-example2.png" alt="Visualizations made by using another set of simple series charts" class="responsive-img" width="85%"/>
+
+<img src="images/simple-series-charts-example3.png" alt="Another set of visualizations made with different chart" class="responsive-img" width="85%"/>
 
 シンプル チャート ビューのガイドは、以下のリンクから参照してください。
 
-  - [エリア チャートを作成する方法](#create-basic-chart)
+  - [エリア チャートを作成する方法](https://www.slingshotapp.io/en/help/docs/analytics/visualization-tutorials/simple-charts#creating-your-chart)
 
-  - [チャートのタイプを変更する方法](#changing-chart-type)
+  - [チャートにトレンドラインを追加する方法](https://www.slingshotapp.io/en/help/docs/analytics/visualization-tutorials/simple-charts#adding-a-trendline-to-your-chart)
 
-  - [チャートにトレンドラインを追加する方法](#add-trendline-chart)
+  - [軸の構成を変更する方法](https://www.slingshotapp.io/en/help/docs/analytics/visualization-tutorials/simple-charts#changing-your-axis-configuration)
 
-  - [軸の構成を変更する方法](#change-axis-configuration)
+  - [軸の構成を対数に変更する方法](https://www.slingshotapp.io/en/help/docs/analytics/visualization-tutorials/simple-charts#setting-your-axis-configuration-as-logarithmic)
 
-  - [軸の構成を対数に変更する方法](#set-logarithmic-axis)
+  - [ドーナツ型と円チャートの開始位置の変更方法](https://www.slingshotapp.io/en/help/docs/analytics/visualization-tutorials/simple-charts#changing-the-start-position-for-doughnut-and-pie-charts)
 
-  - [ドーナツ型と円チャートの開始位置の変更方法](#change-start-position)
-
-  - [ファンネル、円とドーナツ型 チャートのスライスのラベルを変更する方法](#change-slice-labels)
+  - [ファンネル、円とドーナツ型 チャートのスライスのラベルを変更する方法](https://www.slingshotapp.io/en/help/docs/analytics/visualization-tutorials/simple-charts#changing-the-slice-labels-for-doughnut-funnel-and-pie-charts)
 
 ## 重要なコンセプト
 
@@ -131,7 +44,7 @@ _language: ja
 
 ## サンプル データ ソース
 
-このチュートリアルでは [Analytics チュートリアル スプレッドシート](https://download.infragistics.com/Analytics/help/samples/Analytics_Dashboard_Tutorials.xlsx). の Simple Series Charts シートを使用します。
+このチュートリアルでは [Reveal チュートリアル スプレッドシート](https://download.infragistics.com/reportplus/help/samples/Reveal_Visualization_Tutorials.xlsx) の Simple Series Charts シートを使用します。
 
 >[!NOTE]
 >このリリースでは、ローカル ファイルとしての Excel ファイルはサポートされていません。チュートリアルを実行するには、サポートされているクラウド サービスのいずれかにファイルをアップロードするか、[ウェブ リソース](~/jp/datasources/supported-datasources/web-resource.md)として追加してください。
@@ -139,24 +52,24 @@ _language: ja
 <a name='create-basic-chart'></a>
 ## チャートの作成
 
-|                                          |                                                                                                                   |                                                                                                                                                                                                |
-| ---------------------------------------- | ----------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1\. **ダッシュボードを作成する**               | <img src="images/Tutorials-Create-New-Dashboard.png" alt="Tutorials-Create-New-Dashboard" class="responsive-img"/>                                      | ダッシュボード ビューアーで、[ダッシュボード] 画面の右上隅にある [+ ダッシュボード] ボタンを選択します。                                           |
-| 2\. **データ ソースを構成する**       | <img src="images/Tutorials-Select-Data-Source.png" alt="Tutorials-Select-Data-Source" class="responsive-img"/>                                          | [新しい表示形式] ウィンドウで、右下隅の [+ データ ソース] ボタンを選択し、データ ソースを選択します。                                                                                |
-| 3\. **チュートリアル スプレッドシートを選択する** | <img src="images/Tutorials-Select-Simple-Series-Charts-Spreadsheet.png" alt="Tutorials-Select-Simple-Series-Charts-Spreadshee" class="responsive-img"/> | データ ソースを設定したら、**Analytics チュートリアル スプレッドシート**を選択します。次に、Simple Series Charts シートを選択します。                                                                |
-| 4\. **表示形式メニューを開く**     | <img src="images/Tutorials-Select-Change-Visualization.png" alt="Tutorials-Select-Change-Visualization" class="responsive-img"/>                        | 表示形式エディターのトップ バーで**グリッド アイコン**を選択します。                                                                                                                         |
-| 5\. **表示形式を選択する**        | <img src="images/Tutorials-Charts-Select-Visualization.png" alt="Tutorials-Charts-Select-Visualization" class="responsive-img"/>                        | デフォルトで、表示形式のタイプは**グリッド**に設定されています。**チャート**の表示形式のいずれかを選択します。                                                                                          |
-| 6\. **データを体系化する**               | <img src="images/Tutorials-Charts-Organizing-Data.png" alt="Tutorials-Charts-Organizing-Data" class="responsive-img"/>                                  | たとえば、上の表のチャートには、選択した国のリストの人口が表示されます。[ラベル] に Country Name フィールド、Population フィールドを [値] にドラッグアンドドロップします。|
+1. Select the **+ Dashboard** button in the top right-hand corner of **My Analytics**.
 
-<a name='changing-basic-chart'></a>
-## チャートのタイプの変更
+   <img src="images/dashboard-button-my-analytics.png" alt="Tutorials-Create-New-Dashboard" class="responsive-img" width="55%"/>                                      
 
-上記のチュートリアルでは、チャートの作成方法を概説しています。必要に応じて別のタイプを選択する場合は、次の手順を実行してください。
+2. Select your data source(**Reveal Tutorials Spreadsheet**) from the list of data sources. If the data source is new, you will need to first add it from the **+ Data Source** button in the top-right corner.
 
-|                                      |                                                                                            |                                                                                                                                 |
-| ------------------------------------ | ------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------- |
-| 1\. **表示形式メニューを開く** | <img src="images/Tutorials-Select-Change-Visualization.png" alt="Tutorials-Select-Change-Visualization" class="responsive-img"/> | 表示形式エディターのトップ バーで**グリッド アイコン**を選択します。                                                          |
-| 2\. **表示形式を選択する**    | <img src="images/Tutorials-Charts-Select-Visualization.png" alt="Tutorials-Charts-Select-Visualization" class="responsive-img"/> | チャートを選択します。このセクションの上部に各チャートのタイプのプレビューがあります。|
+   <img src="images/visualization-tutorials-data-source.png" alt="Selecting a data source from the list of data sources" class="responsive-img" width="55%"/>                                          
+
+3. Choose the **Simple Series Charts** sheet.     
+
+   <img src="images/simple-series-charts-spreadsheet.png" alt="Selecting Simple Series Chart sheet" class="responsive-img" width="55%"/>
+
+4. Open the *Visualization Picker* and select any of the **chart** visualizations. By default, the visualization type will be set to *Column*. 
+
+   <img src="images/chart-types-simple-series-charts.png" alt="List of chart types" class="responsive-img" width="55%"/> 
+ 
+ 5. The charts in the table above, for example, display the population for a select list of countries. Drag and drop the "Country Name" field to "Label" and the "Population" field into "Values".                                                        
+   <img src="images/simple-series-charts-organizing-data.png" alt="Organizing the data from the Simple Series Charts sheet" class="responsive-img" width="35%"/>                                   
 
 <a name='add-trendline-chart'></a>
 ## チャートに近似曲線を追加する
@@ -165,9 +78,8 @@ _language: ja
 
 |                                     |                                                                        |                                                                  |
 | ----------------------------------- | ---------------------------------------------------------------------- | ---------------------------------------------------------------- |
-| 1\. **設定を変更する**             | <img src="images/Tutorials-Navigate-Settings.png" alt="Tutorials-Navigate-Settings" class="responsive-img"/> | 表示形式エディターの **[設定]** セクションに移動します。      |
-| 2\. **チャートの近似曲線へアクセスする** | <img src="images/Tutorials-Expand-Trendlines.png" alt="Tutorials-Expand-Trendlines" class="responsive-img"/> | 下矢印を選択して、[チャートの近似曲線] ドロップダウンを展開します。|
-| 3\. **チャートの近似曲線を選択する**    | <img src="images/Select-Predefined-Trendline.png" alt="Select-Predefined-Trendline" class="responsive-img"/> | Analytics の定義済みの近似曲線の 1 つを選択します。                    |
+| 1\. **設定を変更する**             | <img src="images/settings-tutorials.png" alt="Tutorials-Navigate-Settings" class="responsive-img"/>  | 表示形式エディターの **[設定]** セクションに移動します。      |
+| 2\. **チャートの近似曲線へアクセスする** | <img src="images/chart-trendline-simple-series-charts.png" alt="Chart Trendlines option in the settings" class="responsive-img"/> | Expand the Chart Trendline dropdown by selecting the down arrow to select one of Reveal's predefined trendlines. |
 
 <a name='change-axis-configuration'></a>
 ## 軸の構成の変更
@@ -176,33 +88,29 @@ _language: ja
 
 |                                        |                                                                                      |                                                                                                                                       |
 | -------------------------------------- | ------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------- |
-| 1\. **設定を変更する**                | <img src="images/Tutorials-Navigate-Settings.png" alt="Tutorials-Navigate-Settings" class="responsive-img"/>               | 表示形式エディターの **[設定]** セクションに移動します。                                                                           |
-| 2\. **範囲の設定にアクセスする** | <img src="images/Tutorials-Axis-Bounds.png" alt="Tutorials-Axis-Bounds" class="responsive-img"/>                           | 軸範囲に移動します。                                                                                                              |
-| 3\. **デフォルト選択を変更する**   | <img src="images/Tutorials-Change-Default-Selection.png" alt="Tutorials-Change-Default-Selection" class="responsive-img"/> | 最大値または最小値 (または両方) 値を設定するかどうかに基づいて、チャートの開始値または終了値を入力します。|
+| 1\. **設定を変更する**                | <img src="images/settings-tutorials.png" alt="Tutorials-Navigate-Settings" class="responsive-img"/>                 | 表示形式エディターの **[設定]** セクションに移動します。                                                                           |
+| 2\. **範囲の設定にアクセスする** | <img src="images/axis-bounds-section.png" alt="Axis bounds in the settings options" class="responsive-img"/>                           | Navigate to *Axis Bounds*. Depending on whether you want to set the minimum or maximum value (or both), enter the value you want the chart to start or end with. |
 
 <a name='set-logarithmic-axis'></a>
 ## 軸を対数軸として設定
 
 |                                           |                                                                          |                                                             |
 | ----------------------------------------- | ------------------------------------------------------------------------ | ----------------------------------------------------------- |
-| 1\. **設定を変更する**                   | <img src="images/Tutorials-Navigate-Settings.png" alt="Tutorials-Navigate-Settings" class="responsive-img"/>   | 表示形式エディターの **[設定]** セクションに移動します。|
-| 2\. **軸オプションにアクセスする**            | <img src="images/Tutorials-Axis-Bounds.png" alt="Tutorials-Axis-Bounds" class="responsive-img"/>               | 下矢印を選択して、[軸] ドロップダウンを展開します。       |
-| 3\. **軸構成タイプを選択する** | <img src="images/Tutorials-Charts-Logarithmic.png" alt="Tutorials-Charts-Logarithmic" class="responsive-img"/> |[対数] を選択します。                                       |
+| 1\. **設定を変更する**                   | <img src="images/settings-tutorials.png" alt="Tutorials-Navigate-Settings" class="responsive-img"/>     | 表示形式エディターの **[設定]** セクションに移動します。|
+| 2\. **軸オプションにアクセスする**            | img src="images/axis-logarithmic.png" alt="Tutorials-Axis-Bounds" class="responsive-img"/>               | Expand the Axis dropdown by selecting the down arrow and select *Logarithmic*.      |   
 
 <a name='change-start-position'></a>
 ## ドーナツ型と円チャートの開始位置の変更
 
 |                                                   |                                                                                |                                                                                           |
 | ------------------------------------------------- | ------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------- |
-| 1\. **設定を変更する**                           | <img src="images/Tutorials-Navigate-Settings.png" alt="Tutorials-Navigate-Settings" class="responsive-img"/>         | 表示形式エディターの **[設定]** セクションに移動します。                               |
-| 2\. **開始位置セクションにアクセスする**         | <img src="images/Tutorials-Start-Position.png" alt="Tutorials-Start-Position" class="responsive-img"/>               | 下矢印を選択して、[開始位置] ドロップダウンを展開します。                           |
-| 3\. **開始位置オプションの 1 つを選択する**。 | <img src="images/Tutorials-Select-Start-Position.png" alt="Tutorials-Select-Start-Position" class="responsive-img"/> | チャートに対して、Analytics の事前定義された開始位置 (0°、90°、180°、または 270°) のいずれかを選択します。 |
+| 1\. **設定を変更する**                           | <img src="images/settings-tutorials.png" alt="Tutorials-Navigate-Settings" class="responsive-img"/>           | 表示形式エディターの **[設定]** セクションに移動します。                               |
+| 2\. **開始位置セクションにアクセスする**         | <img src="images/start-position-settings.png" alt="Start position settings" class="responsive-img"/>               | Expand the *Start Position* dropdown by selecting the down arrow. Select one of Reveal's predefined start positions for your chart (0°, 90°, 180° or 270°).                          |
 
 <a name='change-slice-labels'></a>
 ## ドーナツ型、ファンネルと円チャートのスライスのラベルの変更
 
 |                                                |                                                                          |                                                                                                        |
 | ---------------------------------------------- | ------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------ |
-| 1\. **設定を変更する**                        | <img src="images/Tutorials-Navigate-Settings.png" alt="Tutorials-Navigate-Settings" class="responsive-img"/>   | 表示形式エディターの **[設定]** セクションに移動します。                                            |
-| 2\. **スライス ラベルのセクションにアクセスする**         | <img src="images/Tutorials-Slice-Label.png" alt="Tutorials-Slice-Label" class="responsive-img"/>               | 下矢印を選択して、[スライス ラベル] ドロップダウンを展開します。                                          |
-| 3\. **スライス ラベル オプションの 1 つを選択する**。 | <img src="images/Tutorials-Select-Slice-Label.png" alt="Tutorials-Select-Slice-Label" class="responsive-img"/> | Analytics の事前定義されたラベル付けオプション (パーセント、値、または値とパーセント) のいずれかを選択します。 |
+| 1\. **設定を変更する**                        | <img src="images/settings-tutorials.png" alt="Tutorials-Navigate-Settings" class="responsive-img"/>     | 表示形式エディターの **[設定]** セクションに移動します。                                            |
+| 2\. **スライス ラベルのセクションにアクセスする**         | <img src="images/slice-label-settings.png" alt="Tutorials-Slice-Label" class="responsive-img"/>               | Expand the Slice Labels dropdown by selecting the down arrow. Select one of Reveal's predefined labeling options ("Percentage", "Value", or "Value and Percentage").                                       |

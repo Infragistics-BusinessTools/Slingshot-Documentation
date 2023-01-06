@@ -22,12 +22,12 @@ _language: ja
 
 | 関数名              | 関数をテストするためのサンプル データセット                                                               | 式                                                        | サンプル出力                          |
 | -------------------------- | --------------------------------------------------------------------------------------------- | ----------------------------------------------------------------- | -------------------------------------- |
-| **Opposite Value**         | [HR Dataset](https://download.infragistics.com/slingshot/samples/HR_Dataset_2016.xlsx) | \-[Wage]                                                          | \-36,542.00 (for Joan Baez)            |
-| **Age**                    | [HR Dataset](https://download.infragistics.com/slingshot/samples/HR_Dataset_2016.xlsx) | (today()-[BirthDate])/365                                         | 50.13 (for Joan Baez)                  |
-| **Name & Department**      | [HR Dataset](https://download.infragistics.com/slingshot/samples/HR_Dataset_2016.xlsx) | [Fullname]& ", " &[Department]                                    | Joan Baez, Development (for Joan Baez) |
+| **Opposite Value**         | [HR Dataset](https://download.infragistics.com/reportplus/help/samples/HR%20Dataset_2016.xlsx) | \-[Wage]                                                          | \-36,542.00 (for Joan Baez)            |
+| **Age**                    | [HR Dataset](https://download.infragistics.com/reportplus/help/samples/HR%20Dataset_2016.xlsx) | (today()-[BirthDate])/365                                         | 50.13 (for Joan Baez)                  |
+| **Name & Department**      | [HR Dataset](https://download.infragistics.com/reportplus/help/samples/HR%20Dataset_2016.xlsx) | [Fullname]& ", " &[Department]                                    | Joan Baez, Development (for Joan Baez) |
 |**Sales Percentage** | [Sample Data](http://dl.infragistics.com/reportplus/reveal/samples/Samples.xlsx)    | [New Sales]*100/sum([New Sales]) | 9,26% (for Japan)                    |
-| **Name starts with J**     | [HR Dataset](https://download.infragistics.com/slingshot/samples/HR_Dataset_2016.xlsx) | if(find("j",lower([Fullname]),1)=1,"Starts with J",0)             | Starts with J, 0                       |
-| **Deviation from Avg**     | [HR Dataset](https://download.infragistics.com/slingshot/samples/HR_Dataset_2016.xlsx) | [Wage]-average([Wage])                                            | \-50476.71 (for Joan Baez)             |
+| **Name starts with J**     | [HR Dataset](https://download.infragistics.com/reportplus/help/samples/HR%20Dataset_2016.xlsx) | if(find("j",lower([Fullname]),1)=1,"Starts with J",0)             | Starts with J, 0                       |
+| **Deviation from Avg**     | [HR Dataset](https://download.infragistics.com/reportplus/help/samples/HR%20Dataset_2016.xlsx) | [Wage]-average([Wage])                                            | \-50476.71 (for Joan Baez)             |
 
 <a name='converting-unix-timestamps'></a>
 ## Unix 更新日時を使用可能な日付へ変換

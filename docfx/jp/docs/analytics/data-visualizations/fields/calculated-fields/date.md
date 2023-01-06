@@ -131,7 +131,7 @@ _language: ja
     <td class="tg-0lax"><span style="font-weight:bold">サンプル</span>: <span class="gray-snippet-cstm">second(date(2017,12,1,12,33,48))</span></td>
   </tr>
   <tr>
-    <td class="tg-0lax" rowspan="2"><a href="https://help.revealbi.io/jp/date-calculated-fields#date-time">time</a>: time を使用する場合、Analytics は数式に含まれる値に設定した時刻を返します。</td>
+    <td class="tg-0lax" rowspan="2"><a href="https://help.revealbi.io/jp/date-calculated-fields#date-time">time</a>: time を使用する場合、Reveal は数式に含まれる値に設定した時刻を返します。</td>
     <td class="tg-0lax"><span style="font-weight:bold">構文</span>: <span class="gray-snippet-cstm">time({hour},{minute},{second},{millisecond})</span></td>
   </tr>
   <tr>
@@ -220,7 +220,7 @@ _language: ja
 <a name='date-date'></a>
 ## Date
 
-`date` を使用する場合、Analytics は日付セットを数式に含まれる値へ返します。
+`date` を使用する場合、Reveal は日付セットを数式に含まれる値へ返します。
 
 ### 構文
 
@@ -247,7 +247,7 @@ _language: ja
 <a name='date-time'></a>
 ## Time
 
-time を使用する場合、Analytics は数式に含まれる値に設定した時刻を返します。
+time を使用する場合、Reveal は数式に含まれる値に設定した時刻を返します。
 
 ### 構文
 

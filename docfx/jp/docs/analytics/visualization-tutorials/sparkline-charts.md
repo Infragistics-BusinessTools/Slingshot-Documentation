@@ -15,21 +15,21 @@ _language: ja
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p><img src="images/SparklineChartSimple_All.png" alt="SparklineChartSimple All" class="responsive-img"/><br />
+<td><p><img src="images/simple-sparkline-chart.png" alt="SparklineChartSimple All" class="responsive-img"/><br />
 </p>
 <p><a href="#create-sparkline">シンプルなスパークライン</a><br />
 </p></td>
-<td><p><img src="images/SparklineChartArea_All.png" alt="SparklineChartArea All" class="responsive-img"/><br />
+<td><p><img src="images/sparkline-area-chart.png" alt="SparklineChartArea All" class="responsive-img" /><br />
 </p>
 <p><a href="#change-chart-type-sparkline">エリア チャートのスパークライン</a><br />
 </p></td>
 </tr>
 <tr class="even">
-<td><p><img src="images/SparklineDateAggregation_All.png" alt="SparklineDateAggregation All" class="responsive-img"/><br />
+<td><p><img src="images/sparkline-with-day-aggregation.png" alt="SparklineDateAggregation All" class="responsive-img" /><br />
 </p>
 <p><a href="#change-date-aggregation">日の集計のスパークライン</a><br />
 </p></td>
-<td><p><img src="images/SparklineLessColumns_All.png" alt="SparklineLessColumns All" class="responsive-img"/><br />
+<td><p><img src="images/sparkline-with-less-columns-and-area-chart.png" alt="SparklineLessColumns All" class="responsive-img" /><br />
 </p>
 <p><a href="#modify-columns">データ量の少ない柱状およびエリア チャートのスパークライン</a><br />
 </p></td>
@@ -39,13 +39,13 @@ _language: ja
 
 スパークライン チャート ビューのガイドは、以下のリンクから参照してください。
 
-  - [スパークライン チャートの作成](#スパークライン-チャートの作成)
+  - [スパークライン チャートの作成](https://www.slingshotapp.io/en/help/docs/analytics/visualization-tutorials/sparkline-charts#creating-a-sparkline-chart)
 
-  - [スパークラインのチャート タイプを変更する方法](#change-chart-type-sparkline)
+  - [スパークラインのチャート タイプを変更する方法](https://www.slingshotapp.io/en/help/docs/analytics/visualization-tutorials/sparkline-charts#changing-the-chart-type-for-the-sparkline)
 
-  - [日付集計を変更する方法](#change-date-aggregation)
+  - [日付集計を変更する方法](https://www.slingshotapp.io/en/help/docs/analytics/visualization-tutorials/sparkline-charts#changing-the-date-aggregation)
 
-  - [スパークラインの列数を変更する方法](#modify-columns)
+  - [スパークラインの列数を変更する方法](https://www.slingshotapp.io/en/help/docs/analytics/visualization-tutorials/sparkline-charts#modifying-the-amount-of-columns-in-the-sparkline)
 
 ## 重要なコンセプト
 
@@ -70,7 +70,7 @@ _language: ja
 
 ## サンプル データ ソース
 
-このチュートリアルでは [Analytics チュートリアル スプレッドシート](https://download.infragistics.com/slingshot/samples/Slingshot_Visualization_Tutorials.xlsx) の「Sparkline Charts」シートを使用します。
+このチュートリアルでは [Reveal チュートリアル スプレッドシート](https://download.infragistics.com/reportplus/help/samples/Reveal_Visualization_Tutorials.xlsx) の「Sparkline Charts」シートを使用します。
 
 >[!NOTE]
 >このリリースでは、ローカル ファイルとしての Excel ファイルはサポートされていません。チュートリアルを実行するには、サポートされているクラウド サービスのいずれかにファイルをアップロードするか、[ウェブ リソースとして](~/jp/datasources/supported-data-sources/web-resource.md)追加してください。
@@ -78,15 +78,24 @@ _language: ja
 <a name='create-sparkline'></a>
 ## スパークライン チャートの作成
 
-|                                          |                                                                                                                |                                                                                                                                                      |
-| ---------------------------------------- | -------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1\. **ダッシュボードを作成する**               | <img src="images/Tutorials-Create-New-Dashboard.png" alt="Tutorials-Create-New-Dashboard" class="responsive-img"/>                                   | ダッシュボード ビューアーで、[ダッシュボード] 画面の右上隅にある [+ ダッシュボード] ボタンを選択します。 |
-| 2\. **データ ソースを構成する**       | <img src="images/Tutorials-Select-Data-Source.png" alt="Tutorials-Select-Data-Source" class="responsive-img"/>                                       | [新しい表示形式] ウィンドウで、右下隅の [+ データ ソース] ボタンを選択し、データ ソースを選択します。                                      |
-| 3\. **チュートリアル スプレッドシートを選択する** | <img src="images/Tutorials-Select-Sparkline-Charts-Spreadsheet.png" alt="Tutorials-Select-Sparkline-Charts-Spreadsheet.png" class="responsive-img"/> | データ ソースを設定したら、**Analytics チュートリアル スプレッドシート**を選択します。次に、Sparkline Charts シートを選択します。                        |
-| 4\. **表示形式メニューを開く**     | <img src="images/Tutorials-Select-Change-Visualization.png" alt="Tutorials-Select-Change-Visualization" class="responsive-img"/>                     | 表示形式エディターのトップ バーの**グリッド アイコン**を選択します。                                                                                |
-| 5\. **表示形式を選択する**        | <img src="images/Tutorials-Charts-Select-Sparkline-Chart.png" alt="Tutorials-Charts-Select-Sparkline-Chart" class="responsive-img"/>                 | デフォルトで、表示形式のタイプは**グリッド**に設定されています。スパークライン チャートを選択します。                                                           |
-| 6\. **データを構成する**               | <img src="images/Tutorials-SparklineChart-Organizing-Data.png" alt="Tutorials-SparklineChart-Organizing-Data" class="responsive-img"/>               | Date フィールドを [日付] に、Offer を [値] に、Stocks を [カテゴリ] にドラッグアンドドロップします。                                                       |
 
+1. Select the **+ Dashboard** button in the top right-hand corner of **My Analytics**.
+
+   <img src="images/dashboard-button-my-analytics.png" alt="Tutorials-Create-New-Dashboard" class="responsive-img" width="55%"/>  
+
+2. Select your data source(**Reveal Tutorials Spreadsheet**) from the list of data sources. If the data source is new, you will need to first add it from the **+ Data Source** button in the top-right corner.
+
+   <img src="images/visualization-tutorials-data-source.png" alt="Tutorials-Select-Data-Source" class="responsive-img" width="55%"/>                                         
+
+3. Select the *Sparkline Charts* sheet.
+
+   <img src="images/sparkline-charts-spreadsheet.png" alt="Tutorials-Select-Sparkline-Charts-Spreadsheet.png" class="responsive-img" width="55%"/>                         
+
+4. Open the *Visualization Picker* and select the **Sparkline Chart**. By default, the visualization type will be set to **Column**.                                                                             
+  <img src="images/chart-types-sparkline.png" alt="Tutorials-Charts-Select-Sparkline-Chart" class="responsive-img" width="55%"/>                                                                              
+5. Drag and drop the *Date* field into **Date**, *Offer* into **Value** and *Stocks* into **Category**.
+
+   <img src="images/sparkline-charts-organizing-data.png" alt="Tutorials-SparklineChart-Organizing-Data" class="responsive-img" width="35%"/> 
 <a name='change-chart-type-sparkline'></a>
 ## スパークラインのチャート タイプを変更する方法
 
@@ -94,8 +103,8 @@ _language: ja
 
 |                                  |                                                                                        |                                                                     |
 | -------------------------------- | -------------------------------------------------------------------------------------- | ------------------------------------------------------------------- |
-| 1\. **設定メニューへアクセスする** | <img src="images/Tutorials-Navigate-Settings.png" alt="Tutorials-Navigate-Settings" class="responsive-img"/>                 | 表示形式エディターの **[設定]** セクションに移動します。         |
-| 2\. **チャート タイプを変更する**    | <img src="images/Tutorial-Change-Chart-Configuration.png" alt="Tutorial-Change-Chart-Configuration" class="responsive-img"/> | デフォルトで、チャート タイプは [折れ線] に設定されています。[エリア] に設定します。 |
+| 1\. **設定メニューへアクセスする** | <img src="images/sparkline-charts-settings.png" alt="Setting options for sparkline charts" class="responsive-img"/>                 | 表示形式エディターの **[設定]** セクションに移動します。         |
+| 2\. **チャート タイプを変更する**    | <img src="images/area-sparkline-chart.png" alt="Different chart types for Sparkline" class="responsive-img"/> | デフォルトで、チャート タイプは [折れ線] に設定されています。[エリア] に設定します。 |
 
 <a name='change-date-aggregation'></a>
 ## 日付集計の変更
@@ -104,17 +113,17 @@ _language: ja
 
 |                                  |                                                                                                      |                                                                                                                                                      |
 | -------------------------------- | ---------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1\. **設定メニューへアクセスする** | <img src="images/Tutorials-Navigate-Settings.png" alt="Tutorials-Navigate-Settings" class="responsive-img"/>                               | 表示形式エディターの **[設定]** セクションに移動します。                                                                                          |
-| 2\. **集計を変更する**   | <img src="images/Tutorial-Change-Date-Aggregation-Sparkline.png" alt="Tutorial-Change-Date-Aggregation-Sparkline" class="responsive-img"/> | デフォルトで、[表示: 過去] 設定は **[月]** に設定されます。[月] の横のドロップダウンを選択し、[年] または [日] に変更します。|
+| 1\. **設定メニューへアクセスする** | <img src="images/sparkline-charts-settings.png" alt="Tutorials-Navigate-Settings" class="responsive-img"/>                              | 表示形式エディターの **[設定]** セクションに移動します。                                                                                          |
+| 2\. **集計を変更する**   | <img src="images/sparkline-chart-date-aggregation.png" alt="Tutorial-Change-Date-Aggregation-Sparkline" class="responsive-img"/>  | デフォルトで、[表示: 過去] 設定は **[月]** に設定されます。[月] の横のドロップダウンを選択し、[年] または [日] に変更します。|
 
 日付の集計の隣にある数値を変更して、表示するデータを増減できます。
 
 <a name='modify-columns'></a>
 ## スパークラインの列数を変更する方法
 
-Analytics で、表示形式の列数は、過去 2 か月とそれらの差を表示するかどうかによって定義されます。デフォルトで有効になります。以下は削除方法です。
+Reveal で、表示形式の列数は、過去 2 か月とそれらの差を表示するかどうかによって定義されます。デフォルトで有効になります。以下は削除方法です。
 
 |                                      |                                                                                    |                                                                                                                                                          |
 | ------------------------------------ | ---------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1\. **設定メニューへアクセスする**     | <img src="images/Tutorials-Navigate-Settings.png" alt="Tutorials-Navigate-Settings" class="responsive-img"/>             | 表示形式エディターの **[設定]** セクションに移動します。                                                                                              |
-| 2\. **表示列を変更する** | <img src="images/Tutorial-Remove-Columns-Sparkline.png" alt="Tutorial-Remove-Columns-Sparkline" class="responsive-img"/> | どちらもスパークラインに表示しない場合は、**[最後の 2 つの値の列を表示] または [差異のある列を表示] ボックスをオフにします**。|
+| 1\. **設定メニューへアクセスする**     | <img src="images/sparkline-charts-settings.png" alt="Tutorials-Navigate-Settings" class="responsive-img" width="100%"/>             | 表示形式エディターの **[設定]** セクションに移動します。                                                                                              |
+| 2\. **表示列を変更する** | <img src="images/sparkline-chart-columns-options.png" alt="Different options for the columns in the sparkline chart" class="responsive-img" width="100%"/> | どちらもスパークラインに表示しない場合は、**[最後の 2 つの値の列を表示] または [差異のある列を表示] ボックスをオフにします**。|
