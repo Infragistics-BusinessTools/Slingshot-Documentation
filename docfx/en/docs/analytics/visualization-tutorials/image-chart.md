@@ -28,7 +28,7 @@ For this tutorial, you will use the "Image Chart" sheet in the [Slingshot Visuli
 
     <img src="./images/button-dashboard.png" alt="Tutorials-Create-New-Dashboard" class="responsive-img" width="65%"/> 
 
- 2. A dialog will open, contening a list of already added data source. The Visualization Tutorial file will be there as a data source if you have already used it. In case you haven't added the file, you can click/tap on **+Data Source** > **Data Files** > **+New** >**Upload** >select the file and click/tap on **Select and Continue** to include it in the list.
+ 2. A dialog will open, contening a list of already added data source. The Visualization Tutorial file will be there as a data source if you have already used it. In case you haven't added the file, you can click/tap on **+Data Source** -> **Data Files** -> **+New** ->**Upload** -> Select the file -> Click/tap on **Select and Continue** to include it in the list.
 
     <img src="images/select-your-data-source.png" alt="Tutorials-Select-Data-Source" class="responsive-img" width="65%"/>
 
@@ -36,7 +36,7 @@ For this tutorial, you will use the "Image Chart" sheet in the [Slingshot Visuli
 
     <img src="images/select-image-view.png" alt="Tutorials-Select-Image-View-Spreadsheet" class="responsive-img" width="57%"/>
 
- 4. By default, the visualization type will be set to *Column*. Select the *Image* option.      
+ 4. By default, the visualization type will be set to **Column**. Select the **Image** option.      
 
     <img src="../images/list-of-chart-types.png" alt="Tutorial-Image-View-Select" class="responsive-img" width="57%"/>   
                                                       
