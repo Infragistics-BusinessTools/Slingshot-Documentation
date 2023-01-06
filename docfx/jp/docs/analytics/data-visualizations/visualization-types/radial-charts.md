@@ -6,7 +6,7 @@ _language: ja
 
 # ラジアル チャート
 
-[カテゴリ チャート](https://wp-staging.slingshotapp.io/en/help/docs/analytics/data-visualizations/visualization-types/category-charts)と同様に、ラジアル チャートは情報を座標上に表現したものです。
+[カテゴリ チャート](https://www.slingshotapp.io/en/help/docs/analytics/data-visualizations/visualization-types/category-charts)と同様に、ラジアル チャートは情報を座標上に表現したものです。
 
 <img src="images/radial-chart-visualization-editor.png" alt="Using a radial chart to create a visualization" class="responsive-img" width="85%"/>
 
