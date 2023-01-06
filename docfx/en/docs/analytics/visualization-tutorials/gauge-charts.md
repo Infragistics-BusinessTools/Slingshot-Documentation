@@ -66,7 +66,7 @@ For this tutorial, you will use the "Gauge Views" sheet in the [Slingshot Visuli
 
    <img src="images/gauges-chart-types.png" alt="List of chart types" class="responsive-img" width="60%"/>
 
-5. This linear gauge, for example, will display life expectancy per Country. Drag and drop the **Country Name** field to **Label** and one of the year fields into **Values**.
+5. This linear gauge, for example, will display *Life expectancy* per *Country*. Drag and drop the *Country Name* field to **Label** and one of the *Year* fields into **Values**.
   
    <img src="images/organizing-data-gauge-visualization.png" alt="Tutorials-LinearGauge-Data" class="responsive-img" width="35%"/>                         
 
@@ -89,7 +89,7 @@ For this tutorial, you will use the "Gauge Views" sheet in the [Slingshot Visuli
 
    <img src="images/gauges-chart-types.png" alt="List of chart types" class="responsive-img" width="60%"/>
 
-5. This linear gauge, for example, will display life expectancy per Country. Drag and drop the **Country Name** field to **Label** and one of the year fields into **Values**.
+5. This linear gauge, for example, will display *Life expectancy* per *Country*. Drag and drop the *Country Name* field to **Label** and one of the *Year* fields into **Values**.
   
    <img src="images/organizing-data-gauge-visualization.png" alt="Tutorials-LinearGauge-Data" class="responsive-img" width="35%"/> 
 
@@ -112,7 +112,7 @@ displayed in Values:
 
    <img src="images/dashboard-button-my-analytics.png" alt="Tutorials-Create-New-Dashboard" class="responsive-img" width="55%"/>                                      
 
-2. Select your data source(**Reveal Tutorials Spreadsheet**) from the list of data sources. If the data source is new, you will need to first add it from the **+ Data Source** button in the top-right corner.
+2. Select your data source(**Slingshot Tutorials Spreadsheet**) from the list of data sources. If the data source is new, you will need to first add it from the **+ Data Source** button in the top-right corner.
 
    <img src="images/visualization-tutorials-data-source.png" alt="Selecting a data source from the list of data sources" class="responsive-img" width="55%"/>                                          
 
@@ -124,7 +124,7 @@ displayed in Values:
 
    <img src="images/gauges-chart-types.png" alt="List of chart types" class="responsive-img" width="55%"/>
 
-5. This text gauge, for example, will display life expectancy per Country. Drag and drop one of the year fields into "Values", and then the "Country Name" field into "Data Filters". Then, select the specific country you want by selecting the field. 
+5. This text gauge, for example, will display life expectancy per Country. Drag and drop one of the year fields into **Values**, and then the *Country Name* field into **Data Filters**. Then, select the specific country you want by selecting the field. 
 
    <img src="images/text-gauge-organizing-data.png" alt="Organizing the data while using text gauge visualizaiton" class="responsive-img" width="35%"/>
 
@@ -151,15 +151,15 @@ aggregation, [review these instructions](#aggregation-instructions).
 
    <img src="images/gauges-chart-types.png" alt="List of chart types" class="responsive-img" width="55%"/>
 
-5. This bullet graph, for example, will display life expectancy per Country. Drag and drop the *Country Name* field to **Label**, one of the years into **Values** and another year into **Target**.
+5. This bullet graph, for example, will display life expectancy per Country. Drag and drop the *Country Name* field to **Label**, one of the years into **Values** and another *Year* into **Target**.
 
    <img src="images/bullet-graph-organizing-data.png" alt="Organizing data while using a bullet graph" class="responsive-img" width="35%"/>
 
 <a name='adding-bounds-gauge'></a>
 ## Adding Bounds to your Gauge
 
-Bounds allow you to set the lowest and highest values in your gauges; as
-mentioned in [Key Concepts](###ey-concepts), you can change it to exclude
+Bounds allow you to set the lowest and highest values in your gauges. As
+mentioned in [Key Concepts](https://www.slingshotapp.io/en/help/docs/analytics/visualization-tutorials/gauge-charts#key-concepts), you can change it to exclude
 specific data. In order to do this:
 
 |                                                |                                                                        |                                                                                                                                       |

@@ -8,7 +8,7 @@ _description: A quick tutorial on creating Stacked Chart visualization using a s
 In this tutorial, you will learn how to create stacked chart
 visualizations using a sample spreadsheet.
 
-<img src="images/different-stacked-charts-example.png" alt="Tutorials-Create-New-Dashboard" class="responsive-img" width="88%"/>  
+<img src="images/different-stacked-charts-example.png" alt="Tutorials-Create-New-Dashboard" class="responsive-img" width="90%"/>  
 
 Access the links below for the Stacked Chart view walkthroughs:
 
@@ -25,8 +25,8 @@ Access the links below for the Stacked Chart view walkthroughs:
 ## Key Concepts
 
 There are three different layouts to choose from when using stacked
-charts: [area](#create-stacked-chart),
-[column](#create-stacked-chart) and [bar](#create-stacked-chart).
+charts: [Area](#create-stacked-chart),
+[Column](#create-stacked-chart) and [Bar](#create-stacked-chart).
 
 You can also configure the following settings:
 
@@ -42,13 +42,13 @@ You can also configure the following settings:
 
 ## Sample Data Source
 
-For this tutorial, you will use the "Stacked Charts" sheet in the
+For this tutorial, you will use the *Stacked Charts* sheet in the
 [Slingshot Visulization Tutorials](https://download.infragistics.com/slingshot/samples/Slingshot_Visualization_Tutorials.xlsx).
 
 >[!NOTE]
 Excel files as local files are not supported in this release. In order
 to follow these tutorials, make sure you upload the file to one of the
-supported _cloud services_ or add it as a [Web Resource](datasources/supported-data-sources/web-resource.md).
+supported *cloud services* or add it as a [Web Resource](datasources/supported-data-sources/web-resource.md).
 
 </div>
 
@@ -63,14 +63,14 @@ supported _cloud services_ or add it as a [Web Resource](datasources/supported-d
 
   <img src="images/visualization-tutorials-data-source.png" alt="Tutorials Data Source in the list of already added data sources" class="responsive-img" width="60%"/>
 
- 3. Choose the "Stacked Charts" sheet.               
+ 3. Choose the **Stacked Charts** sheet.               
 
   <img src="images/stacked-chart-spreadsheet-data-source-details-dialog.png" alt="Stacked Charts Spreadsheet in the tutorial data source" class="responsive-img" width="60%"/>
   
- 4. Select the **grid icon** in the top bar of the Visualizations Editor. By default, the visualization type will be set to *Column*. You can always change it by selecting any of the **stack** visualizations.     
+ 4. Select the **Grid icon** in the top bar of the Visualizations Editor. By default, the visualization type will be set to *Column*. You can always change it by selecting any of the **stack** visualizations.     
  
     <img src="images/stacked-chart-types.png" alt="List of all the chart types used for a visualization" class="responsive-img" width="60%"/>                                                                                                    
- 5. Stacked charts require two or more fields to be dragged and dropped into the "Values" placeholder of the data editor. In this case, the "1960", "2003", "2008" and "2010" fields have been dropped into "Values" and "Country Name" in "Label". 
+ 5. Stacked charts require two or more fields to be dragged and dropped into the **Values** placeholder of the data editor. In this case, the *1960*, *2003*, *2008* and *2010* fields have been dropped into **Values** and *Country Name* in **Label**. 
 
    <img src="images/stacked-charts-organizing-data.png" alt="Organizing the data from the stacked charts spreadsheet" class="responsive-img" width="35%"/>
 
@@ -105,4 +105,4 @@ for those types of charts. In order to do this:
 |                                        |                                                                                    |                                                                                           |
 | -------------------------------------- | ---------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------- |
 | 1\. **Change Settings**                | <img src="images/tutorials-settings.png" alt="Tutorials-Navigate-Settings" class="responsive-img"/>             | Go to the **Settings** section of the Visualization Editor.                               |
-| 2\. **Enable Percentage Distribution** | <img src="images/percentage-distribution.png" alt="Tutorials-Percentage-Distribution" class="responsive-img"/> | Enable the percentage distribution setting by checking the "Percentage Distribution" box. |
+| 2\. **Enable Percentage Distribution** | <img src="images/percentage-distribution.png" alt="Tutorials-Percentage-Distribution" class="responsive-img"/> | Enable the percentage distribution setting by checking the *Percentage Distribution* box. |

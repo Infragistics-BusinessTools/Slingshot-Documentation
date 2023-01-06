@@ -26,11 +26,11 @@ For this tutorial, you will use the "Image Chart" sheet in the [Slingshot Visuli
 
  1. In **My Analytics**, select the **+ Dashboard button** in the top right-hand corner.
 
-    <img src="./images/button-dashboard.png" alt="Tutorials-Create-New-Dashboard" class="responsive-img" width="65%"/> 
+    <img src="./images/button-dashboard.png" alt="Tutorials-Create-New-Dashboard" class="responsive-img" width="70%"/> 
 
- 2. A dialog will open, contening a list of already added data source. The Visualization Tutorial file will be there as a data source if you have already used it. In case you haven't added the file, you can click/tap on **+Data Source** -> **Data Files** -> **+New** ->**Upload** -> Select the file -> Click/tap on **Select and Continue** to include it in the list.
+ 2. A dialog will open, contening a list of already added data source. The Visualization Tutorial file will be there as a data source if you have already used it. In case you haven't added the file, you can click/tap on **+Data Source** -> **Data Files** -> **+New** -> **Upload** -> Select the file -> Click/tap on **Select and Continue** to include it in the list.
 
-    <img src="images/select-your-data-source.png" alt="Tutorials-Select-Data-Source" class="responsive-img" width="65%"/>
+    <img src="images/select-your-data-source.png" alt="Tutorials-Select-Data-Source" class="responsive-img" width="70%"/>
 
  3. Once the data source is configured, select the *Image View* sheet.                                
 

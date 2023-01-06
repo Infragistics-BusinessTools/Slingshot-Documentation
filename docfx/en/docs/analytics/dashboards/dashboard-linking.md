@@ -31,7 +31,7 @@ To link your dashboard to another dashboard you need to perform the steps below.
 
 2. After preparing the dashboard you are linking to, open the main dashboard where you want to add the link. Select the visualization on which you want the link symbol to appear and open it in the *Visualization Editor*. 
 
-3. Go to *Settings* and select the *+* in *Links* to open the *New Link* dialog: 
+3. Go to **Settings** and select the **+** in *Links* to open the **New Link** dialog: 
 
   <img src="images/connecting-to-another-dashboard-option.png" alt="Dashboard linking sample" class="responsive-img" width="60%"/>
 
@@ -41,15 +41,13 @@ To link your dashboard to another dashboard you need to perform the steps below.
 
   * The **Link Name** which is the title the users will see if they select the grid row or chart element.
 
-  If you have added **dashboard filters** to the target dashboard, then you will also need to connect the dashboard filters to their corresponding fields in the dataset of the visualization you are adding a link to (see below). 
+  If you have added **dashboard filters** to the target dashboard, then you will also need to connect the dashboard filters to their corresponding fields in the dataset of the visualization you are adding a link to (see below). Click **Done** and go back. 
 
   <img src="images/edit-connection-dialog.png" alt="Edit connection dialog where a filter's value can be selected" class="responsive-img" width="60%"/>
 
-  Click *Done* and go back. 
-
 4. Select the **Create Link** blue button. 
 
-The link to the dashboard will appear under *Links* in the *Visualization Editor*. You will notice that the *Trigger* setting has also appeared. See below for more information on [choosing your trigger](#trigger).  
+The link to the dashboard will appear under *Links* in the *Visualization Editor*. You will notice that the *Trigger* setting has also appeared. See below for more information on [choosing your trigger](https://www.slingshotapp.io/en/help/docs/analytics/dashboards/dashboard-linking#choosing-a-trigger).  
 
 ### Adding a URL 
 
