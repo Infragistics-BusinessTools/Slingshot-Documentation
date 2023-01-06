@@ -11,11 +11,11 @@ Amazon Redshift のデータ ソースを設定するには、以下の情報が
 
 <img src="../images/amazon-redshift-server-dialog.png" alt="Configure Redshift Server details" class="responsive-img" width="50%"/>
 
-1.  データ ソースの **デフォルト名**: データ ソース名は前のダイアログのアカウントのリストに表示されます。デフォルトでは、Reveal は *Amazon Redshift* という名前を付けます。好みに合わせて変更できます。 
+1.  データ ソースの **デフォルト名**: データ ソース名は前のダイアログのアカウントのリストに表示されます。デフォルトでは、Slingshot は *Amazon Redshift* という名前を付けます。好みに合わせて変更できます。 
 
 2.  **[[サーバー](#how-to-find-server)]**: コンピューター名またはサーバーを実行しているコンピューターに割り当てられた IP アドレス。
 
-3.  **[Port]**: 該当する場合、サーバー ポートの詳細。情報が入力されない場合、Reveal はデフォルトでヒント テキスト (5432) のポートに接続します。
+3.  **[Port]**: 該当する場合、サーバー ポートの詳細。情報が入力されない場合、Slingshot はデフォルトでヒント テキスト (5432) のポートに接続します。
 
 4.  **[資格情報]**: **資格情報**を選択した後、*Redshift* サーバーの資格情報を入力するか、既存の資格情報 (利用可能な場合) を選択できます。
 
@@ -48,7 +48,7 @@ Amazon Redshift のデータ ソースを設定するには、以下の情報が
 
 ## データの設定
 
-Reveal ではすべてのテーブルから *Redshift* データを取得できますが、その他にもテーブルまたはテーブルのセットからデータのサブセットを返す特定の[ビュー](https://docs.aws.amazon.com/redshift/latest/dg/r_CREATE_VIEW.html)を選択することもできます。
+Slingshot ではすべてのテーブルから *Redshift* データを取得できますが、その他にもテーブルまたはテーブルのセットからデータのサブセットを返す特定の[ビュー](https://docs.aws.amazon.com/redshift/latest/dg/r_CREATE_VIEW.html)を選択することもできます。
 
 <img src="../images/amazon-redshift-tables.png" alt="Redshift tables dialog" class="responsive-img" width="55%"/>
 

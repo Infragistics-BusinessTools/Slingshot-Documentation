@@ -12,7 +12,7 @@ Reveal では、直接アップロードしてコンピューター/デバイス
 2. Click on **My Dashboards**.
 3. Go to the overflow menu and choose **Upload**.
 
-    <img src="images/upload-a-dashboard.png" alt="Upload option" class="responsive-img"/>
+    <img src="images/dashboard-upload-option.png" alt="Upload option" class="responsive-img" width="88%"/>
 
 2.  ローカル ファイルを表示するダイアログが開きます。アップロードするダッシュボードをダブル クリック/タップします。Reveal ダッシュボードのファイル拡張子は **.rdash** です。
 

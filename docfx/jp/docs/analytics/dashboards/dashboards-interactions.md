@@ -41,19 +41,19 @@
 
 ## ツールチップのホバーと十字線
 
-**インタラクション**メニューでは、次の 2 つのオプションを有効にできます: ツールチップのホバーと十字線。どちらもダッシュボード ビュー モードの場合のみ使用できます。ダッシュボード編集モードでは使用できません。
+**インタラクション**メニューでは、次の 2 つのオプションを有効にできます: **ツールチップのホバー**と**十字線**。どちらも**ダッシュボード ビュー** モードの場合のみ使用できます。**ダッシュボード編集モード**では使用できません。
 
-<img src="images/interactions-option.png" alt="Accessing Reveal's Dashboard Interactions option" class="responsive-img" width="85%"/>
+<img src="images/interactions-option.png" alt="Accessing Slingshot's Dashboard Interactions option" class="responsive-img" width="88%"/>
 
   - **ホバー ツールチップ**を有効にすると、データにホバーした際に (タッチ環境で長押しした際に) **ツールチップ** ポップアップが表示されます。
 
-    <img src="images/hover-tooltips.png" alt="Reveal displays tooltips when hovering over data" class="responsive-img" width="85%"/>
+    <img src="images/hover-tooltips.png" alt="Slingshot displays tooltips when hovering over data" class="responsive-img" width="88%"/>
 
     データをクリックすると (タッチ環境でドラッグ ツールチップをリリースすると)、ツールチップのインタラクションが適用可能な場合、ドリル ダウン、ドリル アップ、およびリンク済みのダッシュボードなどのインタラクションで **[ツール]** セクションにアクセスできます。
 
-  - **十字線**を有効にすると、Reveal はツールチップとともに十字線要素を表示します。ツールチップにより多くのコンテキストを与えます。
+  - **十字線**を有効にすると、Slingshot はツールチップとともに十字線要素を表示します。ツールチップにより多くのコンテキストを与えます。
 
-    <img src="images/crosshairs-example.png" alt="Reveal displays crosshairs along with tooltips" class="responsive-img" width="85%"/>
+    <img src="images/crosshairs-example.png" alt="Slingshot displays crosshairs along with tooltips" class="responsive-img" width="85%"/>
 
 十字線は、現在次の表示形式でサポートされています: 散布図、バブル、エリア、ローソク足、折れ線、OHLC、スプライン、スプライン エリア、ステップ エリア、ステップ折れ線。
 
@@ -61,11 +61,11 @@
 
 ツールチップを表示するときに、カテゴリごとに合計値を表示するように構成できます。
 
-<img src="images/tooltips-totals-example.png" alt="Reveal Portrait Orientation" class="responsive-img" width="85%"/>
+<img src="images/tooltips-totals-example.png" alt="Tooltips total values example" class="responsive-img" width="88%"/>
 
-この機能を有効にするには、次のように、[設定] \> [ツールチップで合計を表示] に移動します:
+この機能を有効にするには、次のように、[設定] -> [ツールチップで合計を表示] に移動します:
 
-<img src="images/show-totals-on-tooltip.png" alt="Reveal Portrait Orientation" class="responsive-img" width="85%"/>
+<img src="images/show-totals-on-tooltip.png" alt="Show totals on tooltip option in the settings" class="responsive-img" width="88%"/>
 
 合計を有効にする場合、表示形式で複数の値を表示するためにカテゴリを追加したことを確認してください。
 
@@ -94,8 +94,8 @@
 
 ## 表示形式の自動レイアウト
 
-Analytics の自動レイアウトは、デバイスのサイズ制約と表示形式の量に基づいて、ダッシュボードのすべての表示形式を動的にサイズ変更します。
+Slingshot の自動レイアウトは、デバイスのサイズ制約と表示形式の量に基づいて、ダッシュボードのすべての表示形式を動的にサイズ変更します。
 
 <img src="images/auto-layout-option.png" alt="auto layout view and resizing of dashboards" class="responsive-img" width="85%"/>
 
-自動レイアウトが有効なときに表示形式のサイズを変更するには、隅を下または横にドラッグするだけです。これにより、*自動レイアウト* が自動的にオフになります。
+自動レイアウトが有効なときに表示形式のサイズを変更するには、隅を下または横にドラッグするだけです。これにより、**自動レイアウト**が自動的にオフになります。

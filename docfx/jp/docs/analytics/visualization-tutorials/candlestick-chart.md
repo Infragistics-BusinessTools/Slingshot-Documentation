@@ -38,7 +38,7 @@ _language: ja
 
 ## サンプル データ ソース
 
-このチュートリアルでは、[Reveal チュートリアル スプレッドシート](https://download.infragistics.com/reportplus/help/samples/Reveal_Visualization_Tutorials.xlsx)の OHLC and Candlestick シートを使用します。
+このチュートリアルでは、[Slingshot 表示形式のチュートリアル](https://download.infragistics.com/slingshot/samples/Slingshot_Visualization_Tutorials.xlsx)の 「OHLC and Candlestick」 シートを使用します。
 
 
 >[!NOTE]
@@ -85,7 +85,7 @@ _language: ja
 
 ### 最大境界値を変更する
 
-最大境界値の場合、Reveal が元のデータを使用するためにデフォルトの値は「自動」に設定されます。別の値を設定するには、チャートの上限値を入力します。
+最大境界値の場合、Analytics が元のデータを使用するためにデフォルトの値は「自動」に設定されます。別の値を設定するには、チャートの上限値を入力します。
 
 <a name='setting-logarithmic-axis'></a>
 ## 軸を対数軸として設定

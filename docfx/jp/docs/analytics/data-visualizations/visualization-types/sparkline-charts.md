@@ -18,7 +18,7 @@ _language: ja
 
 表示形式エディターの **[設定]** セクションにアクセスすると、以下のいくつかの設定を変更できます。
 
-<img src="images/sparkline-chart-settings.png" alt="Settings for the sparkline chart" class="responsive-img"/>
+<img src="images/sparkline-chart-settings.png" alt="Settings for the sparkline chart" class="responsive-img" width="87%"/>
 
   - テキスト、数値、および日付の**配置**。
 

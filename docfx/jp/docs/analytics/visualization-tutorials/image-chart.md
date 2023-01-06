@@ -20,13 +20,13 @@ _language: ja
 
 ## サンプル データ ソース
 
-このチュートリアルでは、[Slingshot Visulization Tutorials](https://download.infragistics.com/slingshot/samples/Slingshot_Visualization_Tutorials.xlsx) の「Image Chart」シートを使用します。
+このチュートリアルでは、[Slingshot 表示形式のチュートリアル](https://download.infragistics.com/slingshot/samples/Slingshot_Visualization_Tutorials.xlsx) の 「Image Chart」 シートを使用します。
 
  1. **[分析]** で、右上隅にある **[+ ダッシュボード]** を選択します。
 
     <img src="./images/button-dashboard.png" alt="Tutorials-Create-New-Dashboard" class="responsive-img" width="65%"/> 
 
- 2. ダイアログが開き、すでに追加されているデータ ソースのリストが表示されます。Visualization Tutorial (表示形式チュートリアル) ファイルは、すでに使用している場合はデータ ソースとしてそこにあります。ファイルを追加していない場合は、**[+ データ ソース]** > **[データ ファイル]** > **[+ 新規]** > **[アップロード]** をクリックまたはタップして、ファイルを選択し、**[選択して続行]** ををクリックまたはタップしてリストに含めます。
+ 2. ダイアログが開き、すでに追加されているデータ ソースのリストが表示されます。Visualization Tutorial (表示形式チュートリアル) ファイルは、すでに使用している場合はデータ ソースとしてそこにあります。ファイルを追加していない場合は、**[+ データ ソース]** > **[データ ファイル]** > **[+ 新規]** > **[アップロード]** をクリックまたはタップして > ファイルを選択し、**[選択して続行]** ををクリックまたはタップしてリストに含めます。
 
     <img src="images/select-your-data-source.png" alt="Tutorials-Select-Data-Source" class="responsive-img" width="75%"/>
 
