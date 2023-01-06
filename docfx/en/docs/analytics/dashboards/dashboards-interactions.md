@@ -2,10 +2,10 @@
 
 You can open existing dashboards by selecting the dashboard thumbnail image in the initial view and clicking/tapping on the arrow in the top right corner. Alternatively, you can click/tap on the pencil icon in the upper right corner. 
 
-<img src="images/sample-dashboard.png" alt="A dashboard with its visualizations" class="responsive-img" width="85%"/>
+<img src="images/sample-dashboard.png" alt="A dashboard with its visualizations" class="responsive-img" width="88%"/>
 
 You can **interact** with dashboard visualizations in various ways. For instance, if the visualization is a grid chart, you can scroll horizontally and
-vertically. The chart view supports zooming and panning. Also drill down & drill up actions become possible if the underlying data model supports it.
+vertically. The chart view supports zooming and panning. Also *drill down & drill up* actions become possible if the underlying data model supports it.
 
 <a name='maximized-view'></a>
 ## Maximized view
@@ -14,52 +14,52 @@ Once the dashboard is opened, you can **maximize** any of the dashboard visualiz
 
 The maximized view allows a larger display of the information.
 
-<img src="images/visualization-maximized-view.png" alt="maximized visualization view" class="responsive-img" width="85%"/>
+<img src="images/visualization-maximized-view.png" alt="maximized visualization view" class="responsive-img" width="88%"/>
 
 In this mode, you can also switch the maximized view to other visualizations by selecting the **small chart icon** in the top right corner. Different visualizations are displayed based on the data that was used in the editor. Only chart types that work well with your data will be offered.
 
 If you want to save the changed visualization, you need to have edit permissions, be in [dashboard Edit Mode](#view-edit-mode) and explicitly save the changes by selecting the check icon in the top right corner. You have edit permission for dashboards that are created by you or shared with you with [Owner or Modify permissions](~/en/dashboards/sharing-dashboards/share-a-dashboard.html#access-permissions).
 
-<img src="images/different-chart-options-for-visualization.png" alt="chart change in visualization view mode" class="responsive-img" width="85%"/>
+<img src="images/different-chart-options-for-visualization.png" alt="chart change in visualization view mode" class="responsive-img" width="88%"/>
 
 You can also look at the data behind your chart if you select the **hash sign** icon.
 
-<img src="images/grid-chart-sample.png" alt="flip to grid" class="responsive-img" width="85%"/>
+<img src="images/grid-chart-sample.png" alt="flip to grid" class="responsive-img" width="88%"/>
 
 When viewing the data behind your visualization, you can apply sorting (ascending or descending). For more information on applying sorting to grids, check the [Grid Chart](~/en/data-visualizations/visualization-types/grid-chart.md) topic.
 
-If, at any point, you want to revert back to the original visualization, you can select the **"Show Original"** link.
+If, at any point, you want to revert back to the original visualization, you can select the **Show Original** link.
 
-<img src="images/show-original-option.png" alt="show original option in the list of charts" class="responsive-img" width="85%"/>
+<img src="images/show-original-option.png" alt="show original option in the list of charts" class="responsive-img" width="88%"/>
 
 ## Regular Tooltips
 
 By clicking on particular visualizations (press and hold in touch environments), you can see tooltips popups. Tooltips help you see values
 at a particular point of your chart like:
 
-<img src="images/regular-tooltip.png" alt="tooltips popups on visualizations" class="responsive-img" width="85%"/>
+<img src="images/regular-tooltip.png" alt="tooltips popups on visualizations" class="responsive-img" width="88%"/>
 
 To close regular tooltips just click or tap away.
 
 ## Hover Tooltips & Crosshairs
 
-You will find two options in the **Interactions** menu: *Hover tooltips* and *Crosshairs*. Only *Hover tooltips* is enabled by default. Both are only available in Dashboard View mode. They can't be used in Dashboard Edit mode.
+You will find two options in the **Interactions** menu: *Hover tooltips* and *Crosshairs*. Only *Hover tooltips* is enabled by default. Both are only available in *Dashboard View* mode. They can't be used in *Dashboard Edit mode*.
 
-<img src="images/interactions-option.png" alt="Accessing Reveal's Dashboard Interactions option" class="responsive-img" width="85%"/>
+<img src="images/interactions-option.png" alt="Accessing Slingshot's Dashboard Interactions option" class="responsive-img" width="88%"/>
 
   - With *Hover Tooltips* enabled, you can see **tooltips** popups when you hover over data (press and hold in touch environments).
 
-    <img src="images/hover-tooltips.png" alt="Reveal displays tooltips when hovering over data" class="responsive-img" width="85%"/>
+    <img src="images/hover-tooltips.png" alt="Slingshot displays tooltips when hovering over data" class="responsive-img" width="88%"/>
 
     By clicking the data (releasing drag tooltips in touch
     environments), you can access the **Tools** section with tooltip
-    interactions like drill down, drill up, or linked dashboards if
+    interactions like drill down, drill up or linked dashboards, if
     applicable.
 
-  - With *Crosshairs* enabled, Reveal shows crosshairs elements along
+  - With *Crosshairs* enabled, Slingshot shows crosshairs elements along
     with the tooltips. Giving more context to the tooltip.
 
-    <img src="images/crosshairs-example.png" alt="Reveal displays crosshairs along with tooltips" class="responsive-img" width="85%"/>
+    <img src="images/crosshairs-example.png" alt="Slingshot displays crosshairs along with tooltips" class="responsive-img" width="88%"/>
 
 Crosshairs are currently supported for the following data
 visualizations: Scatter, Bubble, Area, Candlestick, Line, Spline,
@@ -69,12 +69,12 @@ SplineArea, StepArea, StepLine, Candlestick and OHLC.
 
 When displaying tooltips, you can configure them to display total values by Category.
 
-<img src="images/tooltips-totals-example.png" alt="Reveal Portrait Orientation" class="responsive-img" width="85%"/>
+<img src="images/tooltips-totals-example.png" alt="Tooltips total values example" class="responsive-img" width="88%"/>
 
-To enable this feature, go to *Settings* \> *Show Totals on Tooltip*,
+To enable this feature, go to *Settings* -> *Show Totals on Tooltip*,
 like shown below:
 
-<img src="images/show-totals-on-tooltip.png" alt="Reveal Portrait Orientation" class="responsive-img" width="85%"/>
+<img src="images/show-totals-on-tooltip.png" alt="Show totals on tooltip option in the settings" class="responsive-img" width="88%"/>
 
 When enabling totals, make sure you added a Category to show multiple
 values in your visualization.
@@ -84,7 +84,7 @@ values in your visualization.
 
 When first opening a dashboard, you will be browsing it in **View
 mode**. This mode allows you to navigate and filter the information
-displayed in it, but you won't be able to change the dashboard
+displayed in it but you won't be able to change the dashboard
 definition.
 
 In order to apply changes to a dashboard, you must switch to **Dashboard
@@ -93,7 +93,7 @@ in the top right corner of the dashboard. Alternatively, you can click/tap on th
 
 Shown below is a dashboard in *Dashboard Edit* mode:
 
-<img src="images/edit-a-dashboard.png" alt="dashboard opened in edit mode" class="responsive-img" width="85%"/>
+<img src="images/edit-a-dashboard.png" alt="dashboard opened in edit mode" class="responsive-img" width="88%"/>
 
 To **exit Edit mode**, you need to select the *check icon* in the
 top right-hand corner. This switches back to *View Mode*.
@@ -112,10 +112,10 @@ For more information on dashboard or visualization Filters, check out
 
 ## Auto Layout for Visualizations
 
-Reveal's Auto Layout dynamically sizes all visualizations in your
+Slingshot's Auto Layout dynamically sizes all visualizations in your
 dashboard based on the size constraints of your device and on the amount
 of visualizations it has.
 
-<img src="images/auto-layout-option.png" alt="auto layout view and resizing of dashboards" class="responsive-img" width="85%"/>
+<img src="images/auto-layout-option.png" alt="auto layout view and resizing of dashboards" class="responsive-img" width="88%"/>
 
 To start resizing visualizations while Auto Layout is enabled, just drag their corners downwards or to the side. This will automatically turn *Auto Layout* off.
