@@ -60,7 +60,7 @@ data you want to display. This comes in the form of:
 
 ## Sample Data Source
 
-For this tutorial, you will use the "Simple Series Charts" sheet in the [Slingshot Visulization Tutorials](https://download.infragistics.com/slingshot/samples/Slingshot_Visualization_Tutorials.xlsx).
+For this tutorial, you will use the *Simple Series Charts* sheet in the [Slingshot Visulization Tutorials](https://download.infragistics.com/slingshot/samples/Slingshot_Visualization_Tutorials.xlsx).
 
 >[!NOTE]
 >Excel files as local files are not supported in this release. In order to follow these tutorials, make sure you upload the file to one of the supported cloud services or add it as a [Web Resource](~/en/datasources/supported-datasources/web-resource.md).
@@ -84,7 +84,7 @@ For this tutorial, you will use the "Simple Series Charts" sheet in the [Slingsh
 
    <img src="images/chart-types-simple-series-charts.png" alt="List of chart types" class="responsive-img" width="60%"/> 
  
-5. The charts in the table above, for example, display the population for a select list of countries. Drag and drop the "Country Name" field to "Label" and the "Population" field into "Values".                                                        
+5. The charts in the table above, for example, display the population for a select list of countries. Drag and drop the *Country Name* field to **Label** and the *Population* field into **Values**.                                                        
    <img src="images/simple-series-charts-organizing-data.png" alt="Organizing the data from the Simple Series Charts sheet" class="responsive-img" width="35%"/>                                   
 
 <a name='add-trendline-chart'></a>
@@ -118,8 +118,8 @@ data.
 
 |                                           |                                                                          |                                                             |
 | ----------------------------------------- | ------------------------------------------------------------------------ | ----------------------------------------------------------- |
-| 1\. **Change Settings**                   | <img src="images/settings-tutorials.png" alt="Tutorials-Navigate-Settings" class="responsive-img"/>   | Go to the **Settings** section of the Visualization Editor. |
-| 2\. **Access the Axis option**            | <img src="images/axis-logarithmic.png" alt="Tutorials-Axis-Bounds" class="responsive-img"/>               | Expand the Axis dropdown by selecting the down arrow and select *Logarithmic*.      |       
+| 1\. **Change Settings**                   | <img src="images/settings-tutorials.png" alt="Tutorials-Navigate-Settings" class="responsive-img" width="90%"/>   | Go to the **Settings** section of the Visualization Editor. |
+| 2\. **Access the Axis option**            | <img src="images/axis-logarithmic.png" alt="Tutorials-Axis-Bounds" class="responsive-img" width="90%"/>               | Expand the Axis dropdown by selecting the down arrow and select *Logarithmic*.      |       
 
 <a name='change-start-position'></a>
 ## Changing the Start Position for Doughnut and Pie Charts
@@ -127,12 +127,12 @@ data.
 |                                                   |                                                                                |                                                                                           |
 | ------------------------------------------------- | ------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------- |
 | 1\. **Change Settings**                           | <img src="images/settings-tutorials.png" alt="Tutorials-Navigate-Settings" class="responsive-img"/>         | Go to the **Settings** section of the Visualization Editor.                               |
-| 2\. **Access the Start Position section**         | <img src="images/start-position-settings.png" alt="Start position settings" class="responsive-img"/>               | Expand the *Start Position* dropdown by selecting the down arrow. Select one of Reveal's predefined start positions for your chart (0°, 90°, 180° or 270°).                          |
+| 2\. **Access the Start Position section**         | <img src="images/start-position-settings.png" alt="Start position settings" class="responsive-img"/>               | Expand the *Start Position* dropdown by selecting the down arrow. Select one of Slingshot's predefined start positions for your chart (0°, 90°, 180° or 270°).                          |
 
 <a name='change-slice-labels'></a>
-## Changing the Slice Labels for Doughnut, Funnel, and Pie Charts
+## Changing the Slice Labels for Doughnut, Funnel and Pie Charts
 
 |                                                |                                                                          |                                                                                                        |
 | ---------------------------------------------- | ------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------ |
 | 1\. **Change Settings**                        | <img src="images/settings-tutorials.png" alt="Tutorials-Navigate-Settings" class="responsive-img"/>   | Go to the **Settings** section of the Visualization Editor.                                            |
-| 2\. **Access the Slice Label section**         | <img src="images/slice-label-settings.png" alt="Tutorials-Slice-Label" class="responsive-img"/>               | Expand the Slice Labels dropdown by selecting the down arrow. Select one of Reveal's predefined labeling options ("Percentage", "Value", or "Value and Percentage").                                       |
+| 2\. **Access the Slice Label section**         | <img src="images/slice-label-settings.png" alt="Tutorials-Slice-Label" class="responsive-img"/>               | Expand the Slice Labels dropdown by selecting the down arrow. Select one of Slingshot's predefined labeling options (*Percentage*, *Value* or *Value and Percentage*).                                       |

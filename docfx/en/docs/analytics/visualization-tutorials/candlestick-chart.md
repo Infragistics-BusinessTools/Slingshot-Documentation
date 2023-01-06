@@ -23,15 +23,15 @@ Like [OHLC](ohlc-chart.md) Charts, Candlestick charts are meant to
 show the opening, high, low and closing prices for any financial data.
 They are particularly useful for financial scenarios and stock movement
 analysis. This chart displays numerical values in vertical axes, with
-the two horizontal lines in each vertical axis representing the "Open"
-and "Close" values.
+the two horizontal lines in each vertical axis representing the *Open*
+and *Close* values.
 
 Candlestick charts, therefore, require:
 
   - **One field to be dropped into the "Label"** placeholder of the data
     editor, generally related to dates.
 
-  - **Four different fields** in the "Open", "High", "Low", and "Close"
+  - **Four different fields** in the *Open*, *High*, *Low* and *Close*
     categories of the data editor.
 
 <img src="images/candlestick-visualization-editor-example.png" alt="Candlestick chart visualization settings" class="responsive-img" width="87%"/>
@@ -44,7 +44,7 @@ chart:
     set to 0 by default and the maximum calculated automatically
     depending on your values.
 
-  - **Logarithmic Axis Configuration**: If you check the "Logarithmic"
+  - **Logarithmic Axis Configuration**: if you check the "Logarithmic"
     checkbox, the scale for your values will be calculated with a
     non-linear scale which takes magnitude into account instead of the
     usual linear scale.

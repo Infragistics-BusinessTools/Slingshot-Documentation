@@ -6,7 +6,7 @@ _description: Find out how to create and use Sparkline Charts visualization in S
 # Sparkline Charts
 
 Sparkline charts are small charts plotted within a grid chart, without
-any axes, labels, or other chart elements. They are meant to represent
+any axes, labels or other chart elements. They are meant to represent
 trends and their progression in a given date range.
 
 <img src="images/sparkline-chart-example.png" alt="Sparkline Chart sample" class="responsive-img" width="87%"/>

@@ -25,15 +25,15 @@ Like Candlestick Charts, OHLC charts are meant to show the opening,
 high, low and closing prices for any financial data. They are
 particularly useful for financial scenarios and stock movement analysis.
 This chart displays numerical values in vertical axes with the two
-horizontal lines in each vertical axis representing the "Open" and
-"Close" values.
+horizontal lines in each vertical axis representing the *Open* and
+*Close* values.
 
 OHLC charts, therefore, require:
 
-  - **One field to be dropped into the "Label"** placeholder of the data
+  - One field to be dropped into the **Label** placeholder of the data
     editor, generally related to dates.
 
-  - **Four different fields** in the "Open", "High", "Low", and "Close"
+  - Four different fields in the *Open*, *High*, *Low* and *Close*
     categories of the data editor.
 
 <img src="images/ohlc-visualization-editor.png" alt="OHLCChartVisualizationSettings\_All" class="responsive-img" width="88%"/>
@@ -69,7 +69,7 @@ For this tutorial, you will use the "OHLC and Candlestick" sheet in the [Slingsh
 
    <img src="images/visualization-tutorials-data-source.png" alt="Tutorials-Select-Data-Source" class="responsive-img" width="60%"/>                                         
 
- 3. Choose the **OHLC and Candlestick** sheet. 
+3. Choose the **OHLC and Candlestick** sheet. 
 
     <img src="images/ohlc-candlestick-spreadsheet.png" alt="Tutorials-Select-OHLC-Candlestick-Charts-Spreadsheet" class="responsive-img" width="60%"/>                       
 
@@ -77,7 +77,7 @@ For this tutorial, you will use the "OHLC and Candlestick" sheet in the [Slingsh
 
     <img src="images/ohlc-chart-types.png" alt="Tutorials-Select-Change-Visualization" class="responsive-img" width="60%"/>                                
 
- 5. Drag and drop the **Date** field into **Label** and the **Open**, **High**, **Low** and **Close** fields in their corresponding placeholder.
+ 5. Drag and drop the *Date* field into **Label** and the *Open*, *High*, *Low* and *Close* fields in their corresponding placeholder.
 
     <img src="images/ohlc-organizing-data.png" alt="Organizing the data from the data source" class="responsive-img" width="35%"/>                              
 

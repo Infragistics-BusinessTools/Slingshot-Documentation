@@ -31,18 +31,18 @@ The grid chart allows you to change the sorting of your columns
 (ascending or descending) in *Dashboard View mode*. You can do so by selecting the
 arrows icon next to the column name.
 
-<img src="images/grid-chart-sorting.png" alt="Grid Chart Sorting Columns Options" class="responsive-img" width="35%"/>
+<img src="images/grid-chart-sorting.png" alt="Grid Chart Sorting Columns Options" class="responsive-img" width="42%"/>
 
 You can apply more than one sorting criteria. You will see small number
 icons appearing next to the existing column headers. The direction of the
 arrow will help you determine whether you applied ascending or
 descending sorting.
 
-<img src="images/grid-chart-sorting-number-options.png" alt="Sorting View All Numbers" class="responsive-img" width="35%"/>
+<img src="images/grid-chart-sorting-number-options.png" alt="Sorting View All Numbers" class="responsive-img" width="42%"/>
 
 You can also choose to remove any existing sorting options you have
 entered with the *None* or *Clear All* options. If any other sorting
 options remain, the order in which they will be applied will be
 determined by the number next to the column header.
 
-<img src="images/grid-chart-none-sorting-option.png" alt="Sorting View Mode Remove" class="responsive-img" width="35%"/>
+<img src="images/grid-chart-none-sorting-option.png" alt="Sorting View Mode Remove" class="responsive-img" width="42%"/>

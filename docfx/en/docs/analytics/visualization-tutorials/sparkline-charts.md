@@ -52,7 +52,7 @@ Access the links below for the Sparkline chart view walkthroughs:
 Sparkline charts are meant to display trends and their progression in a
 given date range. They are particular useful, like OHLC and Candlestick
 charts, for financial scenarios and stock movement analysis. Sparklines
-display line charts within a grid cell, and require:
+display line charts within a grid cell and require:
 
   - **One field** to be dropped in the **Date** placeholder of the
     data editor.
@@ -96,7 +96,7 @@ in the [Slingshot Visulization Tutorials](https://download.infragistics.com/slin
 
    <img src="images/visualization-tutorials-data-source.png" alt="Tutorials-Select-Data-Source" class="responsive-img" width="60%"/>                                         
 
-3. Select the *Sparkline Charts* sheet.
+3. Select the **Sparkline Charts** sheet.
 
    <img src="images/sparkline-charts-spreadsheet.png" alt="Tutorials-Select-Sparkline-Charts-Spreadsheet.png" class="responsive-img" width="60%"/>                         
 
@@ -106,6 +106,7 @@ in the [Slingshot Visulization Tutorials](https://download.infragistics.com/slin
 5. Drag and drop the *Date* field into **Date**, *Offer* into **Value** and *Stocks* into **Category**.
 
    <img src="images/sparkline-charts-organizing-data.png" alt="Tutorials-SparklineChart-Organizing-Data" class="responsive-img" width="35%"/>                                                                      
+
 <a name='change-chart-type-sparkline'></a>
 ## Changing the Chart Type for the Sparkline
 
@@ -121,13 +122,13 @@ sparkline chart. In order to do this:
 ## Changing the Date Aggregation
 
 By default, the aggregation for your information will be **12 months**.
-You can change this by modifying the "Show Last" settings. In order to
+You can change this by modifying the *Show Last* settings. In order to
 do so:
 
 |                                  |                                                                                                      |                                                                                                                                                      |
 | -------------------------------- | ---------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 1\. **Access the Settings Menu** | <img src="images/sparkline-charts-settings.png" alt="Tutorials-Navigate-Settings" class="responsive-img"/>                               | Go to the **Settings** section of the Visualization Editor.                                                                                          |
-| 2\. **Change the Aggregation**   | <img src="images/sparkline-chart-date-aggregation.png" alt="Tutorial-Change-Date-Aggregation-Sparkline" class="responsive-img"/> | By default, the "Show Last" setting will be set to **Months**. Select the dropdown next to *Months* and change the selection to either *Years* or *Days*. |
+| 2\. **Change the Aggregation**   | <img src="images/sparkline-chart-date-aggregation.png" alt="Tutorial-Change-Date-Aggregation-Sparkline" class="responsive-img"/> | By default, the *Show Last* setting will be set to **Months**. Select the dropdown next to *Months* and change the selection to either *Years* or *Days*. |
 
 You can also choose to display more or less data by changing the number
 next to the date's aggregation.
@@ -135,7 +136,7 @@ next to the date's aggregation.
 <a name='modify-columns'></a>
 ## Modifying the amount of columns in the Sparkline
 
-In Reveal, the amount of columns in the visualization is defined by
+In Slingshot, the amount of columns in the visualization is defined by
 whether or not you want to display the last two months and the
 difference between them. By default, these will be enabled. In order to
 remove them:
