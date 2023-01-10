@@ -79,21 +79,21 @@ _language: ja
 ## スパークライン チャートの作成
 
 
-1. Select the **+ Dashboard** button in the top right-hand corner of **My Analytics**.
+1. **[分析]** セクションの右上隅にある **[+ ダッシュボード]** ボタンを選択します。
 
    <img src="images/dashboard-button-my-analytics.png" alt="Tutorials-Create-New-Dashboard" class="responsive-img" width="55%"/>  
 
-2. Select your data source(**Slingshot tutorials Spreadsheet**) from the list of data sources. If the data source is new, you will need to first add it from the **+ Data Source** button in the top-right corner.
+2. データ ソースのリストからデータ ソース (**Slingshot Tutorials Spreadsheet**) を選択します。データ ソースが新しい場合は、最初に右上隅の **[+ データ ソース]** ボタンから追加する必要があります。
 
    <img src="images/visualization-tutorials-data-source.png" alt="Tutorials-Select-Data-Source" class="responsive-img" width="55%"/>                                         
 
-3. Select the *Sparkline Charts* sheet.
+3. *Sparkline Charts* シートを選択します。
 
    <img src="images/sparkline-charts-spreadsheet.png" alt="Tutorials-Select-Sparkline-Charts-Spreadsheet.png" class="responsive-img" width="55%"/>                         
 
-4. Open the *Visualization Picker* and select the **Sparkline Chart**. By default, the visualization type will be set to **Column**.                                                                             
+4. **表示形式ピッカー**を開き、**スパークライン チャート**を選択します。デフォルトで、表示形式のタイプは**柱状**に設定されています。                                                                             
   <img src="images/chart-types-sparkline.png" alt="Tutorials-Charts-Select-Sparkline-Chart" class="responsive-img" width="55%"/>                                                                              
-5. Drag and drop the *Date* field into **Date**, *Offer* into **Value** and *Stocks* into **Category**.
+5. *Date* フィールドを **[日付]** に、*Offer* を **[値]** に、*Stocks* を **[カテゴリ]** にドラッグ アンド ドロップします。
 
    <img src="images/sparkline-charts-organizing-data.png" alt="Tutorials-SparklineChart-Organizing-Data" class="responsive-img" width="35%"/> 
 <a name='change-chart-type-sparkline'></a>

@@ -44,22 +44,22 @@ _language: ja
 <a name='create-stacked-chart'></a>
 ## 積層型チャートの作成
 
- 1. Select the **+ Dashboard** button in *My Analytics*.  
+ 1. **[分析]** にある **[+ ダッシュボード]** ボタンを選択します。
 
   <img src="images/myanalytics-dashboard-button.png" alt="Dashboard button in the My Analytics section" class="responsive-img"/> 
                                                       
- 2. Select your data source(**Slingshot tutorials Spreadsheet**) from the list of data sources. If the data source is new, you will need to first add it from the **+ Data Source** button in the top-right corner.     
+ 2. データ ソースのリストからデータ ソース (**Slingshot Tutorials Spreadsheet**) を選択します。データ ソースが新しい場合は、最初に右上隅の **[+ データ ソース]** ボタンから追加する必要があります。     
 
   <img src="images/visualization-tutorials-data-source.png" alt="Tutorials Data Source in the list of already added data sources" class="responsive-img" width="58%"/>
 
- 3. Choose the "Stacked Charts" sheet.               
+ 3. *Stacked Charts* シートを選択します。            
 
   <img src="images/stacked-chart-spreadsheet-data-source-details-dialog.png" alt="Stacked Charts Spreadsheet in the tutorial data source" class="responsive-img" width="58%"/>
   
- 4. Select the **grid icon** in the top bar of the Visualizations Editor. By default, the visualization type will be set to *Column*. You can always change it by selecting any of the **stack** visualizations.     
+ 4. 表示形式 エディターのトップ バーで**グリッド アイコン**を選択します。デフォルトで、表示形式のタイプは*柱状*に設定されています。**[積層型]** 表示形式のいずれかを選択することで、いつでも変更できます。     
  
     <img src="images/stacked-chart-types.png" alt="List of all the chart types used for a visualization" class="responsive-img" width="58%"/>                                                                                                    
- 5. Stacked charts require two or more fields to be dragged and dropped into the "Values" placeholder of the data editor. In this case, the "1960", "2003", "2008" and "2010" fields have been dropped into "Values" and "Country Name" in "Label". 
+ 5. 積層型チャートでは、データ エディターの [値] プレースホルダーに 2 つ以上のフィールドをドラッグ アンド ドロップする必要があります。今の例で、「1960」、「2003」、「2008」と「2010」 を [値] へ、「Country Name」を [ラベル] へドラッグアンドドロップします。
 
    <img src="images/stacked-charts-organizing-data.png" alt="Organizing the data from the stacked charts spreadsheet" class="responsive-img" width="35%"/>
 
@@ -72,7 +72,7 @@ _language: ja
 |                                        |                                                                                      |                                                                                                                                       |
 | -------------------------------------- | ------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------- |
 | 1\. **設定を変更する**                | <img src="images/tutorials-settings.png" alt="Settings section" class="responsive-img"/>               | 表示形式エディターの **[設定]** セクションに移動します。                                                                           |
-| 2\. **範囲の設定へアクセスする** | <img src="images/axis-bounds.png" alt="Tutorials-Axis-Bounds" class="responsive-img"/>                           | Navigate to Axis Bounds. Depending on whether you want to set the minimum or maximum value (or both), enter the value you want the chart to start or end with.  |                                                                               
+| 2\. **範囲の設定へアクセスする** | <img src="images/axis-bounds.png" alt="Tutorials-Axis-Bounds" class="responsive-img"/>                           | [軸範囲] に移動します。最大値または最小値 (または両方) 値を設定するかどうかに基づいて、チャートの開始値または終了値を入力します。 |                                                                               
 
 <a name='set-logarithmic-axis'></a>
 ## 軸構成を対数的としての設定
@@ -80,7 +80,7 @@ _language: ja
 |                                           |                                                                          |                                                             |
 | ----------------------------------------- | ------------------------------------------------------------------------ | ----------------------------------------------------------- |
 | 1\. **設定を変更する**                   | <img src="images/tutorials-settings.png" alt="Tutorials-Navigate-Settings" class="responsive-img"/>    | 表示形式エディターの **[設定]** セクションに移動します。 |
-| 2\. **軸のオプションへアクセスする**            | <img src="images/axis-bounds-logarithmic.png" alt="Tutorials-Axis-Bounds" class="responsive-img"/>               | Expand the Axis dropdown by selecting the down arrow. Then select *Logarithmic*.|      
+| 2\. **軸のオプションへアクセスする**            | <img src="images/axis-bounds-logarithmic.png" alt="Tutorials-Axis-Bounds" class="responsive-img"/>               | 下矢印を選択して、軸ドロップダウンを展開します。次に、[対数] を選択します。|      
 
 <a name='enable-percentage-distribution'></a>
 ## 百分率分布を有効する方法

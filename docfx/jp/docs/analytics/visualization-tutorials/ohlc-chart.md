@@ -46,23 +46,23 @@ OHLC チャートとローソク足チャートは各財務データの始値、
 <a name='creating-ohlc-chart'></a>
 ## OHLC チャートを作成する方法
 
-1. Select the **+ Dashboard** button in the top right-hand corner of **My Analytics**.
+1. **[分析]** セクションの右上隅にある **[+ ダッシュボード]** ボタンを選択します。
 
    <img src="images/dashboard-button-my-analytics.png" alt="Tutorials-Create-New-Dashboard" class="responsive-img" width="55%"/>
 
-2. Select your data source(**Slingshot tutorials Spreadsheet**) from the list of data sources. If the data source is new, you will need to first add it from the **+ Data Source** button in the top-right corner.
+2. データ ソースのリストからデータ ソース (**Slingshot Tutorials Spreadsheet**) を選択します。データ ソースが新しい場合は、最初に右上隅の **[+ データ ソース]** ボタンから追加する必要があります。
 
    <img src="images/visualization-tutorials-data-source.png" alt="Tutorials-Select-Data-Source" class="responsive-img" width="55%"/>                                         
 
- 3. Choose the **OHLC and Candlestick** sheet. 
+ 3. *OHLC and Candlestick* シートを選択します。
 
     <img src="images/ohlc-candlestick-spreadsheet.png" alt="Tutorials-Select-OHLC-Candlestick-Charts-Spreadsheet" class="responsive-img" width="55%"/>                       
 
- 4. Open the *Visualization Picker* and select **OHLC**. By default, the visualization type will be set to **Column**.  
+ 4. **表示形式ピッカー**を開き、**OHLC** を選択します。デフォルトで、表示形式のタイプは**柱状**に設定されています。  
 
     <img src="images/ohlc-chart-types.png" alt="Tutorials-Select-Change-Visualization" class="responsive-img" width="55%"/>                                
 
- 5. Drag and drop the **Date** field into **Label** and the **Open**, **High**, **Low** and **Close** fields in their corresponding placeholder.
+ 5. **Date** フィールドを **[ラベル]** にドラッグアンドドロップし、*Open*、*High*、*Low* および *Close* フィールドを対応するプレースホルダーにドラッグアンドドロップします。
 
     <img src="images/ohlc-organizing-data.png" alt="Organizing the data from the data source" class="responsive-img" width="35%"/>
 
