@@ -10,7 +10,7 @@ To configure an Amazon Redshift data source, you will need to enter the followin
 
 <img src="../images/amazon-redshift-server-dialog.png" alt="Configure Redshift Server details" class="responsive-img" width="50%"/>
 
-1.  **Default name** of the data source: Your data source name will be displayed in the list of accounts in the previous dialog. By default, Reveal names it *Amazon Redshift*. You can change it to your preference. 
+1.  **Default name** of the data source: Your data source name will be displayed in the list of accounts in the previous dialog. By default, Slingshot names it *Amazon Redshift*. You can change it to your preference. 
 
 2.  [**Server**](#how-to-find-server): the computer name or IP address assigned to the computer on which the server is running.
 
@@ -51,7 +51,7 @@ that the commands should be executed on the server.
 
 ## Setting Up Your Data
 
-With Reveal, you can retrieve *Redshift* data from entire tables, but you can also select a particular
+With Slingshot, you can retrieve *Redshift* data from entire tables but you can also select a particular
 [view](https://docs.aws.amazon.com/redshift/latest/dg/r_CREATE_VIEW.html) that returns a subset of data from a table or a set of tables instead.
 
 <img src="../images/amazon-redshift-tables.png" alt="Redshift tables dialog" class="responsive-img" width="55%"/>

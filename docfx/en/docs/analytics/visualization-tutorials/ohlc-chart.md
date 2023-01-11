@@ -8,7 +8,7 @@ _description: A quick tutorial on creating OHLC visualizations using a sample sp
 In this tutorial, you will learn how to a OHLC chart visualization using
 a sample spreadsheet.
 
-<img src="images/ohlc-charts-example.png" alt="Tutorials-Select-OHLC-Candlestick-Charts-Spreadsheet" class="responsive-img" width="85%"/>
+<img src="images/ohlc-charts-example.png" alt="Tutorials-Select-OHLC-Candlestick-Charts-Spreadsheet" class="responsive-img" width="88%"/>
 
 
 Access the links below for the OHLC chart view walkthroughs:
@@ -24,19 +24,19 @@ Access the links below for the OHLC chart view walkthroughs:
 Like Candlestick Charts, OHLC charts are meant to show the opening,
 high, low and closing prices for any financial data. They are
 particularly useful for financial scenarios and stock movement analysis.
-This chart displays numerical values in vertical axes, with the two
-horizontal lines in each vertical axis representing the "Open" and
-"Close" values.
+This chart displays numerical values in vertical axes with the two
+horizontal lines in each vertical axis representing the *Open* and
+*Close* values.
 
 OHLC charts, therefore, require:
 
-  - **One field to be dropped into the "Label"** placeholder of the data
+  - One field to be dropped into the **Label** placeholder of the data
     editor, generally related to dates.
 
-  - **Four different fields** in the "Open", "High", "Low", and "Close"
+  - Four different fields in the *Open*, *High*, *Low* and *Close*
     categories of the data editor.
 
-<img src="images/ohlc-visualization-editor.png" alt="OHLCChartVisualizationSettings\_All" class="responsive-img" width="85%"/>
+<img src="images/ohlc-visualization-editor.png" alt="OHLCChartVisualizationSettings\_All" class="responsive-img" width="88%"/>
 
 There are also different options to add further information to your
 chart:
@@ -53,8 +53,7 @@ chart:
 
 ## Sample Data Source
 
-For this tutorial, you will use the "OHLC and Candlestick" sheet in the
-[Reveal Tutorials Spreadsheet](https://download.infragistics.com/reportplus/help/samples/Reveal_Visualization_Tutorials.xlsx).
+For this tutorial, you will use the "OHLC and Candlestick" sheet in the [Slingshot Visulization Tutorials](https://download.infragistics.com/slingshot/samples/Slingshot_Visualization_Tutorials.xlsx).
 
 >[!NOTE]
 >Excel files as local files are not supported in this release. In order to follow these tutorials, make sure you upload the file to one of the supported cloud services or add it as a [Web Resource](~/en/datasources/supported-data-sources/web-resource.md).
@@ -64,21 +63,21 @@ For this tutorial, you will use the "OHLC and Candlestick" sheet in the
 
 1. Select the **+ Dashboard** button in the top right-hand corner of **My Analytics**.
 
-   <img src="images/dashboard-button-my-analytics.png" alt="Tutorials-Create-New-Dashboard" class="responsive-img" width="55%"/>
+   <img src="images/dashboard-button-my-analytics.png" alt="Tutorials-Create-New-Dashboard" class="responsive-img" width="65%"/>
 
-2. Select your data source(**Reveal Tutorials Spreadsheet**) from the list of data sources. If the data source is new, you will need to first add it from the **+ Data Source** button in the top-right corner.
+2. Select your data source(**Slingshot Tutorials Spreadsheet**) from the list of data sources. If the data source is new, you will need to first add it from the **+ Data Source** button in the top-right corner.
 
-   <img src="images/visualization-tutorials-data-source.png" alt="Tutorials-Select-Data-Source" class="responsive-img" width="55%"/>                                         
+   <img src="images/visualization-tutorials-data-source.png" alt="Tutorials-Select-Data-Source" class="responsive-img" width="60%"/>                                         
 
- 3. Choose the **OHLC and Candlestick** sheet. 
+3. Choose the **OHLC and Candlestick** sheet. 
 
-    <img src="images/ohlc-candlestick-spreadsheet.png" alt="Tutorials-Select-OHLC-Candlestick-Charts-Spreadsheet" class="responsive-img" width="55%"/>                       
+    <img src="images/ohlc-candlestick-spreadsheet.png" alt="Tutorials-Select-OHLC-Candlestick-Charts-Spreadsheet" class="responsive-img" width="60%"/>                       
 
  4. Open the *Visualization Picker* and select **OHLC**. By default, the visualization type will be set to **Column**.  
 
-    <img src="images/ohlc-chart-types.png" alt="Tutorials-Select-Change-Visualization" class="responsive-img" width="55%"/>                                
+    <img src="images/ohlc-chart-types.png" alt="Tutorials-Select-Change-Visualization" class="responsive-img" width="60%"/>                                
 
- 5. Drag and drop the **Date** field into **Label** and the **Open**, **High**, **Low** and **Close** fields in their corresponding placeholder.
+ 5. Drag and drop the *Date* field into **Label** and the *Open*, *High*, *Low* and *Close* fields in their corresponding placeholder.
 
     <img src="images/ohlc-organizing-data.png" alt="Organizing the data from the data source" class="responsive-img" width="35%"/>                              
 
