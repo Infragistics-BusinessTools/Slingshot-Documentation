@@ -26,7 +26,7 @@ After your quick access features Slingshot has three tabs for your workspaces, b
     - *[Dashboards](https://www.slingshotapp.io/en/help/docs/analytics/dashboards/overview)*: Add dashboards to workspaces and projects to ensure data-driven decisions.  
     - *[Data sources](https://www.slingshotapp.io/en/help/docs/analytics/datasources/overview)*: Add data sources that members of workspaces or projects need to have access too.
 
-- **Bookmarks**: Keep your most important documents, dashboards, conversations and more, one click away by bookmarking anything in Slingshot.  
+- **[Bookmarks](https://www.slingshotapp.io/en/help/docs/bookmarks)**: Keep your most important documents, dashboards, conversations and more, one click away by bookmarking anything in Slingshot.  
 
 - **[Groups](https://www.slingshotapp.io/en/help/docs/groups)**: Create groups so you can mention, invite and share information faster with a set of people.  
 
@@ -57,7 +57,7 @@ On the top right area of Slingshot you will find the following features:
 
 Get a high-level overview of Slingshot and a glimpse into all of the different features in our Slingshot Product Tour video.  
 
-> [!Video https://www.youtube.com/embed/s5HRJE_iFPI]
+> [!Video https://www.youtube.com/watch?v=ZEnf25u3g3E]
 
 ## Logging into Slingshot  
 When you first launch the Slingshot application you are welcomed with the following sign in options:
@@ -75,6 +75,18 @@ Slingshot was built on top of Microsoft and Google making it the perfect tool to
 2.	Your respective cloud storage provider will automatically be added so you can start pinning and attaching files or create dashboards from any excel file.  
 3.	You will automatically be added to your associated organization.  
 
+## Contact us 
 
+If you have questions or need help with your Slingshot accout, you can reach out to our team. In order to do that, you need to:
+
+1. Log in to your account [here](https://www.infragistics.com/).
+2. Choose **My Account**.
+3. Choose **Support** and then **New Support Request** in order to submit a request.
+
+Our team will send you an email with further instructions or more information regarding your inquiry.
+
+Alternatively, you can start a chat when you click/tap on the chat icon in the lower right corner of the page.
+
+<img src="../images/chat-button.png" alt="Chat button for starting a chat with support" class="responsive-img" width="50%"/>
 
 
