@@ -75,17 +75,17 @@ Slingshot は Microsoft と Google の上に構築されているため、技術
 2.	各クラウド ストレージ プロバイダーが自動的に追加されるため、ファイルのピン固定や添付を開始したり、Excel ファイルからダッシュボードを作成したりできます。  
 3.	関連付けられた組織に自動的に追加されます。  
 
-## Contact us 
+## お問い合わせ
 
-If you have questions or need help with your Slingshot accout, you can reach out to our team. In order to do that, you need to:
+Slingshot アカウントについて質問がある場合やサポートが必要な場合は、当社のチームにお問い合わせください。そのためには:
 
-1. Log in to your account [here](https://www.infragistics.com/).
-2. Choose **My Account**.
-3. Choose **Support** and then **New Support Request** in order to submit a request.
+1. [こちら](https://jp.infragistics.com/)からアカウントにログインします。
+2. **[マイアカウント]** を選択します。
+3. リクエストを送信するには、**[サポート]** を選択してから **[新しいサポートケースの作成]** を選択します。
 
-Our team will send you an email with further instructions or more information regarding your inquiry.
+私たちのチームは、お問い合わせに関する詳細を記載したメールをお送りします。
 
-Alternatively, you can start a chat when you click/tap on the chat icon in the lower right corner of the page.
+または、ページの右下隅にあるチャット アイコンをクリック / タップして、チャットを開始することもできます。
 
 <img src="../images/chat-button.png" alt="Chat button for starting a chat with support" class="responsive-img" width="50%"/>
 

@@ -93,7 +93,7 @@ _language: ja
 
 |                                              |                                                                            |                                                                                           |
 | -------------------------------------------- | -------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------- |
-| 1\. **[値] のフィールド設定にアクセスする** | <img src="images/value-circular-gauge.png" alt="Add-Data-Filter-CircularGauge" class="responsive-img" width="85%"/> | **[値]** のフィールドを選択してアクセスします                                                  |
+| 1\. **[値] のフィールド設定にアクセスする** | <img src="images/value-circular-gauge.png" alt="Add-Data-Filter-CircularGauge" class="responsive-img" width="85%"/> | **[値]** のフィールドを選択してアクセスします。                                                 |
 | 2\. **別の集計を選択する**       | <img src="images/field-settings-aggregation-options.png" alt="CircularGauge-Aggregation" class="responsive-img" width="85%"/>         | **[集計]** のドロップダウンを展開し、別のオプションを選択します (平均値など)。|
 
 

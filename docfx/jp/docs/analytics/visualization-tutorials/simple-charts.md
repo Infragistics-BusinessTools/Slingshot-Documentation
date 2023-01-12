@@ -97,7 +97,7 @@ _language: ja
 |                                           |                                                                          |                                                             |
 | ----------------------------------------- | ------------------------------------------------------------------------ | ----------------------------------------------------------- |
 | 1\. **設定を変更する**                   | <img src="images/settings-tutorials.png" alt="Tutorials-Navigate-Settings" class="responsive-img"/>     | 表示形式エディターの **[設定]** セクションに移動します。|
-| 2\. **軸オプションにアクセスする**            | img src="images/axis-logarithmic.png" alt="Tutorials-Axis-Bounds" class="responsive-img"/>               | 下矢印を選択して [軸] ドロップダウンを展開し、[対数] を選択します。      |   
+| 2\. **軸オプションにアクセスする**            | <img src="images/axis-logarithmic.png" alt="Tutorials-Navigate-Settings" class="responsive-img"/>               | 下矢印を選択して [軸] ドロップダウンを展開し、[対数] を選択します。      |   
 
 <a name='change-start-position'></a>
 ## ドーナツ型と円チャートの開始位置の変更
