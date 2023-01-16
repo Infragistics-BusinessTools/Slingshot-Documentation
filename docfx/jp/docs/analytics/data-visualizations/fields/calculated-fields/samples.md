@@ -65,6 +65,6 @@ _language: ja
 
 `([Revenue 2017]/[Revenue 2016])-1`
 
-数値を使用するか、[パーセンテージとして書式](~/jp/data-visualizations/fields/field-settings.html#numeric-fields)設定できます。
+数値を使用するか、[パーセンテージとして書式](~/jp/docs/analytics/data-visualizations/fields/field-settings.html#numeric-fields)設定できます。
 
 <img src="images/yoy-analysis-percentage-all.png" alt="Comparing Revenue Figures in yoy analysis while using percentage" class="responsive-img" width="85%"/>

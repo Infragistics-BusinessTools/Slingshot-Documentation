@@ -22,4 +22,4 @@ _language: ja
 
   - [ルール](field-filters-rules.html#rules)でフィルター。
 
-データセットがダッシュボード キャンバスに追加されると自動的に表示される[表示形式エディター](~/jp/data-visualizations/visualizations-editor.html)を介して、フィールド設定とルールにアクセスできます。
+データセットがダッシュボード キャンバスに追加されると自動的に表示される[表示形式エディター](~/jp/docs/analytics/data-visualizations/visualizations-editor.html)を介して、フィールド設定とルールにアクセスできます。

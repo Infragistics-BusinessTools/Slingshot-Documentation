@@ -40,7 +40,7 @@ Analytics で利用可能なデータ ソースの一部では、サーバー上
 * [データ ソースを 1 つの表示形式に統合](data-blending.html)
 * [Azure ML モデルの統合](ml-integration/azure-machine-learning-models.html)
 
-表示形式エディターの[事前計算](~/jp/data-visualizations/fields/calculated-fields/overview.html#precalculated[-fields)フィールド機能に制限が適用されます。使用できない関数は、**[計算フィールドの作成]** ダイアログでグレーアウトされます。
+表示形式エディターの[事前計算](~/jp/docs/analytics/data-visualizations/fields/calculated-fields/overview.html#precalculated[-fields)フィールド機能に制限が適用されます。使用できない関数は、**[計算フィールドの作成]** ダイアログでグレーアウトされます。
 このダイアログで、リンクをクリックして、**サーバー上でデータを処理**機能を無効にすることができます。
 
 <img src="images/unavailable-functions-message.png" alt="Disable Process Data on Server prompt in the Calculated Fields dialog" class="responsive-img" width="90%"/>

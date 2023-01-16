@@ -11,6 +11,6 @@ _language: ja
 
 <img src="images/visualization-editor-text-view.png" alt="Text View in the Visualization editor" class="responsive-img" width="85%"/>
 
-[このセクション](~/jp/data-visualizations/fields/conditional-formatting.html)で説明されているように**テキスト ビューは条件付き書式をサポートします**。
+[このセクション](~/jp/docs/analytics/data-visualizations/fields/conditional-formatting.html)で説明されているように**テキスト ビューは条件付き書式をサポートします**。
 
 <img src="images/text-view-conditional-formatting-example.png" alt="Using conditional formatting for a text view visualization" class="responsive-img" width="85%"/>

@@ -42,7 +42,7 @@ _language: ja
 
 
 >[!NOTE]
->このリリースでは、ローカル ファイルとしての Excel ファイルはサポートされていません。チュートリアルを実行するには、サポートされているクラウド サービスのいずれかにファイルをアップロードするか、[ウェブ リソース](~/jp/datasources/supported-data-sources/web-resource.html)として追加してください。
+>このリリースでは、ローカル ファイルとしての Excel ファイルはサポートされていません。チュートリアルを実行するには、サポートされているクラウド サービスのいずれかにファイルをアップロードするか、[ウェブ リソース](~/jp/docs/analytics/datasources/supported-data-sources/web-resource.html)として追加してください。
 
 <a name='creating-candlestick-chart'></a>
 ## ローソク足チャートを作成する方法

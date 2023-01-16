@@ -66,7 +66,7 @@ _language: ja
 <a name='change-axis-configuration'></a>
 ## 軸の構成を変更する方法
 
-[ゲージのバンド](~/jp/data-visualizations/gauge-charts#bands-configuration)と同様に、チャート軸構成でチャートの最小と最大値を設定できます。
+[ゲージのバンド](~/jp/docs/analytics/data-visualizations/gauge-charts#bands-configuration)と同様に、チャート軸構成でチャートの最小と最大値を設定できます。
 この機能を使用して、特定のデータ含有や除外ができます。
 
 |                                        |                                                                                      |                                                                                                                                       |

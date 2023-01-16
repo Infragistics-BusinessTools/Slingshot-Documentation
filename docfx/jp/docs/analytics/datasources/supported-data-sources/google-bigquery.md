@@ -43,14 +43,14 @@ Analytics でビッグ データを操作する場合、数百万のレコード
 
 現在、BigQuery のデータを使用する*計算フィールド*で、使用できる**関数**の数は限られています。
 
-- [日付](~/jp/data-visualizations/fields/calculated-fields/date.html) - date; time.
+- [日付](~/jp/docs/analytics/data-visualizations/fields/calculated-fields/date.html) - date; time.
 
-- [論理](~/jp/data-visualizations/fields/calculated-fields/logic.html) - false; true; if; not.
+- [論理](~/jp/docs/analytics/data-visualizations/fields/calculated-fields/logic.html) - false; true; if; not.
 
-- [数学](~/jp/data-visualizations/fields/calculated-fields/math.html) - abs; exp; log; log10; mod; rand; sign; sqrt; trunc.
+- [数学](~/jp/docs/analytics/data-visualizations/fields/calculated-fields/math.html) - abs; exp; log; log10; mod; rand; sign; sqrt; trunc.
 
-- [文字列](~/jp/data-visualizations/fields/calculated-fields/string.html) - find; len; trim; lower; mid; upper.
+- [文字列](~/jp/docs/analytics/data-visualizations/fields/calculated-fields/string.html) - find; len; trim; lower; mid; upper.
 
 ### データ ブレンディングの制限
 
-現在、Google BigQuery データ ソースからのデータを使用する場合、データ ブレンディング ([データ ソースを 1 つの表示形式に統合](~/jp/datasources/data-blending.html)) は**使用できません**。
+現在、Google BigQuery データ ソースからのデータを使用する場合、データ ブレンディング ([データ ソースを 1 つの表示形式に統合](~/jp/docs/analytics/datasources/data-blending.html)) は**使用できません**。
