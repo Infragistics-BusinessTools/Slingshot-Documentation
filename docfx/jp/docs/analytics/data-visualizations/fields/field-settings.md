@@ -27,7 +27,7 @@ _language: ja
 <a name='date-fields'></a>
 ## 日付フィールド
 
-<img src="images/formatting-date-field.png" alt="Date-Field-Formatting" class="responsive-img" width="45%"/>
+<img src="images/formatting-date-field.png" alt="Date-Field-Formatting" class="responsive-img" width="30%"/>
 
   - **ラベル名の変更**: 表示のみを目的としてフィールド名を変更します。フィールドは常に計算フィールド式で元の名前によって参照されます。名前を変更すると、ラベルを完全に消去し元の値に戻ります。
 
@@ -52,11 +52,11 @@ _language: ja
 <a name='numeric-fields'></a>
 ## 数値フィールド
 
-<img src="images/numeric-field-settings.png" alt="Numeric-Field-Formatting\_All.png" class="responsive-img" width="45%"/>
+<img src="images/numeric-field-settings.png" alt="Numeric-Field-Formatting\_All.png" class="responsive-img" width="30%"/>
 
   - **ラベル名の変更**: 表示のみを目的としてフィールド名を変更します。フィールドは常に計算フィールド式で元の名前によって参照されます。名前を変更すると、ラベルを完全に消去し元の値に戻ります。
 
-  - **集計**: 数値を Reveal で処理する方法 (合計、カウント、平均) を構成します。
+  - **集計**: 数値を分析で処理する方法 (合計、カウント、平均) を構成します。
 
   - **並べ替え**: 数値を昇順または降順で並べ替えます。
 
@@ -77,7 +77,7 @@ _language: ja
 <a name='abc-fields'></a>
 ## 文字列フィールド
 
-<img src="images/string-field-formatting-field-settings-dialog.png" alt="String-Field-Formatting" class="responsive-img" width="45%"/>
+<img src="images/string-field-formatting-field-settings-dialog.png" alt="String-Field-Formatting" class="responsive-img" width="30%"/>
 
   - **ラベル名の変更**: 表示のみを目的としてフィールド名を変更します。フィールドは常に計算フィールド式で元の名前によって参照されます。名前を変更すると、ラベルを完全に消去し元の値に戻ります。
 

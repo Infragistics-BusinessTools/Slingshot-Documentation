@@ -38,7 +38,7 @@ OHLC チャートとローソク足チャートは各財務データの始値、
 
 ## サンプル データ ソース
 
-このチュートリアルでは、[Slingshot 表示形式のチュートリアル](https://download.infragistics.com/slingshot/samples/Slingshot_Visualization_Tutorials.xlsx)の 「OHLC and Candlestick」 シートを使用します。
+このチュートリアルでは、[Slingshot Visualization Tutorials](https://download.infragistics.com/slingshot/samples/Slingshot_Visualization_Tutorials.xlsx) の *OHLC and Candlestick* シートを使用します。
 
 >[!NOTE]
 >このリリースでは、ローカル ファイルとしての Excel ファイルはサポートされていません。チュートリアルを実行するには、サポートされているクラウド サービスのいずれかにファイルをアップロードするか、[ウェブ リソース](~/jp/datasources/supported-data-sources/web-resource.html)として追加してください。

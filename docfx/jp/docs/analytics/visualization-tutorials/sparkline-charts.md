@@ -70,7 +70,7 @@ _language: ja
 
 ## サンプル データ ソース
 
-このチュートリアルでは [Slingshot 表示形式のチュートリアル](https://download.infragistics.com/slingshot/samples/Slingshot_Visualization_Tutorials.xlsx) の 「Sparkline Charts」 シートを使用します。
+このチュートリアルでは [Slingshot Visualization Tutorials](https://download.infragistics.com/slingshot/samples/Slingshot_Visualization_Tutorials.xlsx) の *Sparkline Charts* シートを使用します。
 
 >[!NOTE]
 >このリリースでは、ローカル ファイルとしての Excel ファイルはサポートされていません。チュートリアルを実行するには、サポートされているクラウド サービスのいずれかにファイルをアップロードするか、[ウェブ リソースとして](~/jp/datasources/supported-data-sources/web-resource.md)追加してください。
@@ -121,7 +121,7 @@ _language: ja
 <a name='modify-columns'></a>
 ## スパークラインの列数を変更する方法
 
-Reveal で、表示形式の列数は、過去 2 か月とそれらの差を表示するかどうかによって定義されます。デフォルトで有効になります。以下は削除方法です。
+分析で、表示形式の列数は、過去 2 か月とそれらの差を表示するかどうかによって定義されます。デフォルトで有効になります。以下は削除方法です。
 
 |                                      |                                                                                    |                                                                                                                                                          |
 | ------------------------------------ | ---------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- |

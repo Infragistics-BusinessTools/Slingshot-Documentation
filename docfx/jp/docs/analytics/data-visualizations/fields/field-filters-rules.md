@@ -13,7 +13,7 @@ _language: ja
 <a name='empty-values'></a>
 ## 空値をフィルター
 
-Reveal は特定の列で空値のフィルター構成の設定を有効にすることによって、特定の列に null、または空の値を持つデータ セット内の行をフィルタリングする機能を提供します。
+分析は特定の列で空値のフィルター構成の設定を有効にすることによって、特定の列に null、または空の値を持つデータ セット内の行をフィルタリングする機能を提供します。
 
 <img src="images/data-filter-filter-empty-values-option.png" alt="Filter Empty Values in the list of filter types" class="responsive-img" width="40%"/>
 

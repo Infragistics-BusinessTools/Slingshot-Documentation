@@ -20,7 +20,7 @@ _language: ja
 
 ## サンプル データ ソース
 
-このチュートリアルでは、[Slingshot 表示形式のチュートリアル](https://download.infragistics.com/slingshot/samples/Slingshot_Visualization_Tutorials.xlsx) の 「Image Chart」 シートを使用します。
+このチュートリアルでは、[Slingshot Visualization Tutorials](https://download.infragistics.com/slingshot/samples/Slingshot_Visualization_Tutorials.xlsx) の *Image Chart* シートを使用します。
 
  1. **[分析]** で、右上隅にある **[+ ダッシュボード]** を選択します。
 

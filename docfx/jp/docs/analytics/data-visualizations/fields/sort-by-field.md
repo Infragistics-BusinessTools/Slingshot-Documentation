@@ -6,7 +6,7 @@ _language: ja
 
 # フィールドで並べ替え
 
-Reveal では、データを昇順または降順に並べ替えることで、表示形式のデータの表示方法を変更できます。さらに、元のデータ ソースで選択したフィールドで並べ替えることで、表示形式の外観をさらに制御することもできます。
+[分析] では、データを昇順または降順に並べ替えることで、表示形式のデータの表示方法を変更できます。さらに、元のデータ ソースで選択したフィールドで並べ替えることで、表示形式の外観をさらに制御することもできます。
 
 <img src="images/field-settings-dialog.png" alt="Sorting options in the field settings dialog" class="responsive-img" width="40%"/>
 

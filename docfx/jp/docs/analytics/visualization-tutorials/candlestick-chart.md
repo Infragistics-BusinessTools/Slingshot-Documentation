@@ -38,7 +38,7 @@ _language: ja
 
 ## サンプル データ ソース
 
-このチュートリアルでは、[Slingshot 表示形式のチュートリアル](https://download.infragistics.com/slingshot/samples/Slingshot_Visualization_Tutorials.xlsx)の 「OHLC and Candlestick」 シートを使用します。
+このチュートリアルでは、[Slingshot Visualization Tutorials](https://download.infragistics.com/slingshot/samples/Slingshot_Visualization_Tutorials.xlsx) の *OHLC and Candlestick* シートを使用します。
 
 
 >[!NOTE]
@@ -47,22 +47,22 @@ _language: ja
 <a name='creating-candlestick-chart'></a>
 ## ローソク足チャートを作成する方法
 
-1. Select the **+ Dashboard** button in the top right-hand corner in the **My Analytics** section.
+1. **[分析]** セクションの右上隅にある **[+ ダッシュボード]** ボタンを選択します。
 
    <img src="images/dashboard-button-my-analytics.png" alt="Dashboard button for creating a new dashboard" class="responsive-img" width="55%"/>                                      
 
-2. Select your data source(**Reveal Tutorials Spreadsheet**) from the list of data sources. If the data source is new, you will need to first add it from the **+ Data Source** button in the top-right corner.
+2. データ ソースのリストからデータ ソース (**Slingshot Tutorials Spreadsheet**) を選択します。データ ソースが新しい場合は、最初に右上隅の **[+ データ ソース]** ボタンから追加する必要があります。
 
    <img src="images/visualization-tutorials-data-source.png" alt="Selecting the data source from the list of data sources" class="responsive-img" width="55%"/>                                          
 
- 3. Choose the **OHLC and Candlestick** sheet. 
+ 3. **OHLC and Candlestick** シートを選択します。
   
     <img src="images/ohlc-candlestick-spreadsheet.png" alt="Selecting the OHLC and Candlesticks spreadsheet" class="responsive-img" width="55%"/>
          
-4. Open the *Visualization Picker* and select the **Candlestick** visualization. By default, the visualization type will be set to *Column*. 
+4. **表示形式ピッカー**を開き、**ローソク足**の表示形式を選択します。デフォルトで、表示形式のタイプは**柱状**に設定されています。
 
    <img src="images/candlestick-chart-types.png" alt="List of chart types" class="responsive-img" width="55%"/>                                                             
-5.  Drag and drop the *Date* field into *Label* and the *Open*, *High*, *Low* and *Close* fields in their corresponding placeholder.
+5.  *Date* フィールドを **[ラベル]** にドラッグアンドドロップし、*Open*、*High*、*Low* および *Close* フィールドを対応するプレースホルダーにドラッグアンドドロップします。
   <img src="images/candlestick-organizing-data.png" alt="Organizing data fields" width="35%"/>                                                      
 
 <a name='changing-axis-configuration'></a>

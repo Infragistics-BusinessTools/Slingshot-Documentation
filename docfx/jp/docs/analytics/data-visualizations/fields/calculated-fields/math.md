@@ -39,7 +39,7 @@ MATH カテゴリのすべての関数はオンザフライで計算を実行す
     <td class="tg-cly1"><span style="font-weight:bold">サンプル</span>: <span class="gray-snippet-cstm">exp(8)</span></td>
   </tr>
   <tr>
-    <td class="tg-0lax" rowspan="2"><span style="font-weight:bold">log</span>: <span class="gray-snippet-cstm">log</span> 関数は関数で指定された数を底とする数値の対数を返します。底が入力されていない場合、Reveal は対数の底が 10 であると仮定します。</td>
+    <td class="tg-0lax" rowspan="2"><span style="font-weight:bold">log</span>: <span class="gray-snippet-cstm">log</span> 関数は関数で指定された数を底とする数値の対数を返します。底が入力されていない場合、分析は対数の底が 10 であると仮定します。</td>
     <td class="tg-0lax"><span style="font-weight:bold">構文</span>: <span class="gray-snippet-cstm">log({number},{logbase})</span></td>
   </tr>
   <tr>

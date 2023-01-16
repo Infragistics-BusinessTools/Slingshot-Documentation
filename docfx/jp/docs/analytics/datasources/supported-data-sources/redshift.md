@@ -9,7 +9,7 @@ _language: ja
 ## Amazon Redshift への接続
 Amazon Redshift のデータ ソースを設定するには、以下の情報が必要です:
 
-<img src="../images/amazon-redshift-server-dialog.png" alt="Configure Redshift Server details" class="responsive-img" width="50%"/>
+<img src="../images/amazon-redshift-server-dialog.png" alt="Configure Redshift Server details" class="responsive-img" width="40%"/>
 
 1.  データ ソースの **デフォルト名**: データ ソース名は前のダイアログのアカウントのリストに表示されます。デフォルトでは、Slingshot は *Amazon Redshift* という名前を付けます。好みに合わせて変更できます。 
 
