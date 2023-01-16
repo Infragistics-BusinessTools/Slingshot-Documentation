@@ -14,9 +14,9 @@ _language: ja
 
   - **KPI 目標**: 自分またはアナリストがダッシュボードに何を示し、何を中心にサイクルを回す必要があるかを決定します。
 
-  - **ダッシュボードの計画**: 情報をグラフィカルにどのように表現しますか? [グリッド](~/jp/data-visualizations/visualization-types/grid-chart.md)、マップ、[ゲージ](~/jp/data-visualizations/visualization-types/gauge-charts.md)、[カテゴリ チャート](~/jp/data-visualizations/visualization-types/category-charts.md)を使用しますか? [フィルター](~/jp/filters/overview.md)を使用しますか?
+  - **ダッシュボードの計画**: 情報をグラフィカルにどのように表現しますか? [グリッド](~/jp/docs/analytics/data-visualizations/visualization-types/grid-chart.md)、マップ、[ゲージ](~/jp/docs/analytics/data-visualizations/visualization-types/gauge-charts.md)、[カテゴリ チャート](~/jp/docs/analytics/data-visualizations/visualization-types/category-charts.md)を使用しますか? [フィルター](~/jp/docs/analytics/filters/overview.md)を使用しますか?
 
-  - Analytics で使用する**データを準備します**。Analytics で[スプレッドシートを操作する方法](~/jp/datasources/working-files/working-with-spreadsheets.md)の概要を以下に示します。
+  - Analytics で使用する**データを準備します**。Analytics で[スプレッドシートを操作する方法](~/jp/docs/analytics/datasources/working-files/working-with-spreadsheets.md)の概要を以下に示します。
 
   - **ダッシュボードの作成**: 完全な手順については、[このトピック](creating-dashboards.md)をご覧ください。
 

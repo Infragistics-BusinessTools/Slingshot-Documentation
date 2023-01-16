@@ -10,7 +10,7 @@ Analytics へようこそ！
 > [!NOTE]
 > 組織ワークスペースの名前は組織と同じ名前になります (会社名など)。
 
-Analytics へのサインインに使用したアカウントに応じて、OneDrive または Google ドライブが[データ ソース](~/jp/datasources/overview.html)のリストに自動的に追加されます。
+Analytics へのサインインに使用したアカウントに応じて、OneDrive または Google ドライブが[データ ソース](~/jp/docs/analytics/datasources/overview.html)のリストに自動的に追加されます。
 
 ## 初期画面
 

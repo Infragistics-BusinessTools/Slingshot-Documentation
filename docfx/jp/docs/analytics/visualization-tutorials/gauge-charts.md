@@ -8,57 +8,21 @@ _language: ja
 
 このチュートリアルは、サンプル スプレッドシートを使用してゲージの表示形式を作成する方法を説明します。
 
-<table>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><img src="images/lineargauge-visualization.png" alt="lineargauge visualization" /><br />
-</p>
-<p><a href="#create-linear-gauge">リニア ゲージ</a><br />
-</p></td>
-<td><p><img src="images/circulargauge-visualization.png" alt="circulargauge visualization" /><br />
-</p>
-<p><a href="#create-circular-gauge">円型ゲージ</a><br />
-</p></td>
-<td><p><img src="images/textgauge-visualization.png" alt="textgauge visualization" /><br />
-</p>
-<p><a href="#create-text-gauge">テキスト ゲージ</a><br />
-</p></td>
-</tr>
-<tr class="even">
-<td><p><img src="images/bulletgraphgauge-visualization.png" alt="bulletgraphgauge visualization" /><br />
-</p>
-<p><a href="#create-bullet-graph-gauge">ブレット グラフ</a><br />
-</p></td>
-<td><p><img src="images/lineargauge-boundsconfiguration.png" alt="lineargauge boundsconfiguration" /><br />
-</p>
-<p><a href="#adding-bounds-gauge">範囲構成のリニア ゲージ</a><br />
-</p></td>
-<td><p><img src="images/lineargauge-visualization-bandconfiguration.png" alt="lineargauge visualization bandconfiguration" /><br />
-</p>
-<p><a href="#modify-bands">バンドの色が異なるリニア ゲージ</a><br />
-</p></td>
-</tr>
-</tbody>
-</table>
+<img src="images/different-gauge-visualizations.png" alt="Different Gauge Visualizations" class="responsive-img" width="88%"/>
 
 ゲージ チャートのためのガイドは、以下のリンクから参照してください。
 
-  - [リニア ゲージの作成方法](#create-linear-gauge)
+  - [リニア ゲージの作成方法](https://www.slingshotapp.io/en/help/docs/analytics/visualization-tutorials/gauge-charts#creating-a-linear-gauge)
 
-  - [ラジアル ゲージの作成方法](#create-circular-gauge)
+  - [ラジアル ゲージの作成方法](https://www.slingshotapp.io/en/help/docs/analytics/visualization-tutorials/gauge-charts#creating-a-circular-gauge)
 
-  - [ラベル ゲージの作成方法](#create-text-gauge)
+  - [ラベル ゲージの作成方法](https://www.slingshotapp.io/en/help/docs/analytics/visualization-tutorials/gauge-charts#creating-a-text-gauge)
 
-  - [ブレット グラフ の作成方法](#create-bullet-graph-gauge)
+  - [ブレット グラフ の作成方法](https://www.slingshotapp.io/en/help/docs/analytics/visualization-tutorials/gauge-charts#creating-a-bullet-graph)
 
-  - [ゲージ表示形式に範囲を追加する方法](#adding-bounds-gauge)
+  - [ゲージ表示形式に範囲を追加する方法](https://www.slingshotapp.io/en/help/docs/analytics/visualization-tutorials/gauge-charts#adding-bounds-to-your-gauge)
 
-  - [バンドの色を変更する方法](#modify-bands)
+  - [バンドの色を変更する方法](https://www.slingshotapp.io/en/help/docs/analytics/visualization-tutorials/gauge-charts#changing-band-colors)
 
 <a name='key-concepts'></a>
 ## 重要なコンセプト
@@ -71,81 +35,127 @@ _language: ja
 
 ## サンプル データ ソース
 
-このチュートリアルでは、[Analytics チュートリアル スプレッドシート](https://download.infragistics.com/slingshot/samples/Slingshot_Visualization_Tutorials.xlsx).
+このチュートリアルでは、[Slingshot Visualization Tutorials](https://download.infragistics.com/slingshot/samples/Slingshot_Visualization_Tutorials.xlsx) の *Gauge Views* シートを使用します。
 
 >[!NOTE]
->このリリースでは、ローカル ファイルとしての Excel ファイルはサポートされていません。チュートリアルを実行するには、サポートされているクラウド サービスのいずれかにファイルをアップロードするか、[ウェブ リソース](~/jp/datasources/supported-data-sources/web-resource.html)として追加してください。
+>このリリースでは、ローカル ファイルとしての Excel ファイルはサポートされていません。チュートリアルを実行するには、サポートされているクラウド サービスのいずれかにファイルをアップロードするか、[ウェブ リソース](~/jp/docs/analytics/datasources/supported-data-sources/web-resource.html)として追加してください。
 
 <a name='create-linear-gauge'></a>
 ## リニア ゲージを作成する方法
 
-|                                          |                                                                                            |                                                                                                                                                                       |
-| ---------------------------------------- | ------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1\. **ダッシュボードを作成する**               | <img src="images/Tutorials-Create-New-Dashboard.png" alt="Tutorials-Create-New-Dashboard" class="responsive-img"/>               | ダッシュボード ビューアーで、[ダッシュボード] 画面の右上隅にある [+] ボタンを選択します。次に、ドロップダウンから [ダッシュボード] を選択します。                  |
-| 2\. **データ ソースを構成する**       | <img src="images/Tutorials-Select-Data-Source.png" alt="Tutorials-Select-Data-Source" class="responsive-img"/>                   | [新しい表示形式] ウィンドウで、右下隅の [+] ボタンを選択し、データ ソースを選択します。                                                        |
-| 3\. **チュートリアル スプレッドシートを選択する** | <img src="images/Tutorials-Select-Gauge-Views.png" alt="Tutorials-Select-Gauge-Views" class="responsive-img"/>                   | データ ソースを設定したら、**Analytics チュートリアル スプレッドシート**を選択します。次に、Gauge Views シートを選択し、[データのロード] を選択します。                         |
-| 4\. **表示形式メニューを開く**     | <img src="images/Tutorials-Select-Change-Visualization.png" alt="Tutorials-Select-Change-Visualization" class="responsive-img"/> | 表示形式エディターのトップ バーで**グリッド アイコン**を選択します。                                                                                                 |
-| 5\. **表示形式を選択する**        | <img src="images/Tutorials-Select-Linear-Gauge.png" alt="Tutorials-Select-Linear-Gauge" class="responsive-img"/>                 | デフォルトで、表示形式タイプは**グリッド**に設定されています。[リニア] ゲージを選択してください。                                                                                  |
-| 6\. **データを体系化する**               | <img src="images/Tutorials-LinearGauge-Data.png" alt="Tutorials-LinearGauge-Data" class="responsive-img"/>                       | たとえば、このリニア ゲージは国別で平均寿命を表します。[ラベル] に Country Name フィールド、年フィールドの 1 つを [値] にドラッグアンドドロップします。|
+
+1. **[分析]** セクションの右上隅にある **[+ ダッシュボード]** ボタンを選択します。
+
+   <img src="images/dashboard-button-my-analytics.png" alt="Tutorials-Create-New-Dashboard" class="responsive-img" width="55%"/>                                      
+
+2. データ ソースのリストからデータ ソース (**Slingshot Tutorials Spreadsheet**) を選択します。データ ソースが新しい場合は、最初に右上隅の **[+ データ ソース]** ボタンから追加する必要があります。
+
+   <img src="images/visualization-tutorials-data-source.png" alt="Selecting a data source from the list of data sources" class="responsive-img" width="55%"/>                                          
+
+3. *Gauge Views* シートを選択します。
+  
+   <img src="images/gauge-views.png" alt="Selecting Gauge Views spreadsheet" class="responsive-img" width="55%"/>
+         
+4. **表示形式ピッカー**を開き、**ゲージ**表示形式のいずれかを選択します。デフォルトで、表示形式のタイプは**柱状**に設定されています。 
+
+   <img src="images/gauges-chart-types.png" alt="List of chart types" class="responsive-img" width="55%"/>
+
+5. たとえば、このリニア ゲージは国別で平均寿命を表します。**Country Name** フィールドを **[ラベル]** へ、年フィールドの 1 つを **[値]** へドラッグアンドドロップします。
+  
+   <img src="images/organizing-data-gauge-visualization.png" alt="Tutorials-LinearGauge-Data" class="responsive-img" width="35%"/>                         
 
 <a name='create-circular-gauge'></a>
 ## 円型ゲージを作成する方法
 
-|                                          |                                                                                            |                                                                                                                                                                       |
-| ---------------------------------------- | ------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1\. **ダッシュボードを作成する**               | <img src="images/Tutorials-Create-New-Dashboard.png" alt="Tutorials-Create-New-Dashboard" class="responsive-img"/>               | ダッシュボード ビューアーで、[ダッシュボード] 画面の右上隅にある [+] ボタンを選択します。次に、ドロップダウンから [ダッシュボード] を選択します。                  |
-| 2\. **データ ソースを構成する**       | <img src="images/Tutorials-Select-Data-Source.png" alt="Tutorials-Select-Data-Source" class="responsive-img"/>                   | [新しい表示形式] ウィンドウで、右下隅の [+] ボタンを選択し、データ ソースを選択します。                                                       |
-| 3\. **チュートリアル スプレッドシートを選択する** | <img src="images/Tutorials-Select-Gauge-Views.png" alt="Tutorials-Select-Gauge-Views" class="responsive-img"/>                   | データ ソースを設定したら、**Analytics チュートリアル スプレッドシート**を選択します。次に、Gauge Views シートを選択し、[データのロード] を選択します。                         |
-| 4\. **表示形式メニューを開く**     | <img src="images/Tutorials-Select-Change-Visualization.png" alt="Tutorials-Select-Change-Visualization" class="responsive-img"/> | 表示形式エディターのトップ バーで**グリッド アイコン**を選択します。                                                                                                 |
-| 5\. **表示形式を選択する**        | <img src="images/Tutorials-Select-Linear-Gauge.png" alt="Tutorials-Select-Linear-Gauge" class="responsive-img"/>                 | デフォルトで、表示形式のタイプは**グリッド**に設定されています。[円型] ゲージを選択してください。                                                                                |
-| 6\. **データを体系化する**               | <img src="images/Tutorials-CircularGauge-Data.png" alt="Tutorials-CircularGauge-Data" class="responsive-img"/>                      | 例えば、このラジアル ゲージは国別平均寿命を表します。[ラベル] に Country Name フィールド、年フィールドの 1 つを [値] にドラッグアンドドロップします。|
+1. **[分析]** セクションの右上隅にある **[+ ダッシュボード]** ボタンを選択します。
 
+   <img src="images/dashboard-button-my-analytics.png" alt="Tutorials-Create-New-Dashboard" class="responsive-img" width="55%"/>                                      
 
-円型ゲージは、特に平均値と値の合計の表示に適しています。[値] に表示されるフィールドの集計を変更する手順:
+2. データ ソースのリストからデータ ソース (**Slingshot Tutorials Spreadsheet**) を選択します。データ ソースが新しい場合は、最初に右上隅の **[+ データ ソース]** ボタンから追加する必要があります。
+
+   <img src="images/visualization-tutorials-data-source.png" alt="Selecting a data source from the list of data sources" class="responsive-img" width="55%"/>                                          
+
+3. *Gauge Views* シートを選択します。
+  
+   <img src="images/gauge-views.png" alt="Selecting Gauge Views spreadsheet" class="responsive-img" width="55%"/>
+         
+4. **表示形式ピッカー**を開き、**ゲージ**表示形式のいずれかを選択します。デフォルトで、表示形式のタイプは**柱状**に設定されています。
+
+   <img src="images/gauges-chart-types.png" alt="List of chart types" class="responsive-img" width="55%"/>
+
+5. たとえば、このリニア ゲージは国別で平均寿命を表します。[ラベル] に **Country Name** フィールド、年フィールドの 1 つを **[値[** へドラッグアンドドロップします。
+  
+   <img src="images/organizing-data-gauge-visualization.png" alt="Tutorials-LinearGauge-Data" class="responsive-img" width="35%"/> 
 
 <a name='aggregation-instructions'></a>
 
+円形ゲージは、特に平均値と値の合計の表示に適しています。[値] に表示されるフィールドの集計を変更する手順:
+
 |                                              |                                                                            |                                                                                           |
 | -------------------------------------------- | -------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------- |
-| 1\. **[値] のフィールド設定にアクセスする** | <img src="images/Add-Data-Filter-CircularGauge.png" alt="Add-Data-Filter-CircularGauge" class="responsive-img"/> | **[値]** のフィールドを選択してアクセスします                                                  |
-| 2\. **別の集計を選択する**       | <img src="images/CircularGauge-Aggregation.png" alt="CircularGauge-Aggregation" class="responsive-img"/>         | **[集計]** のドロップダウンを展開し、別のオプションを選択します (平均値など)。|
+| 1\. **[値] のフィールド設定にアクセスする** | <img src="images/value-circular-gauge.png" alt="Add-Data-Filter-CircularGauge" class="responsive-img" width="85%"/> | **[値]** のフィールドを選択してアクセスします。                                                 |
+| 2\. **別の集計を選択する**       | <img src="images/field-settings-aggregation-options.png" alt="CircularGauge-Aggregation" class="responsive-img" width="85%"/>         | **[集計]** のドロップダウンを展開し、別のオプションを選択します (平均値など)。|
 
 
 <a name='create-text-gauge'></a>
 ## テキスト ゲージを作成する方法
 
-|                                          |                                                                                                                   |                                                                                                                                                                                                                                                       |
-| ---------------------------------------- | ----------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1\. **ダッシュボードを作成する**               | <img src="images/Tutorials-Create-New-Dashboard.png" alt="Tutorials-Create-New-Dashboard" class="responsive-img"/>                                      | ダッシュボード ビューアーで、[ダッシュボード] 画面の右上隅にある [+] ボタンを選択します。 次に、ドロップダウンから [ダッシュボード] を選択します。                                                                                                  |
-| 2\. **データ ソースを構成する**       | <img src="images/Tutorials-Select-Data-Source.png" alt="Tutorials-Select-Data-Source" class="responsive-img"/>                                          | [新しい表示形式] ウィンドウで、右下隅の [+] ボタンを選択し、データ ソースを選択します。                                                                                                                                        |
-| 3\. **チュートリアル スプレッドシートを選択する** | <img src="images/Tutorials-Select-Gauge-Views.png" alt="Tutorials-Select-Gauge-Views" class="responsive-img"/> | データ ソースを設定したら、**Analytics チュートリアル スプレッドシート**を選択します。次に、Gauge Views シートを選択します。                                                                                                                               |
-| 4\. **表示形式メニューを開く**     | <img src="images/Tutorials-Select-Change-Visualization.png" alt="Tutorials-Select-Change-Visualization" class="responsive-img"/>                        | 表示形式エディターのトップ バーで**グリッド アイコン**を選択します。                                                                                                                                                                                 |
-| 5\. **表示形式を選択する**        | <img src="images/Tutorials-Select-Text-Gauge.png" alt="Tutorials-Select-Text-Gauge" class="responsive-img"/>                                        | デフォルトで、表示形式のタイプは**グリッド**に設定されています。[テキスト] ゲージを選択してください。                                                                                                                                                                    |
-| 6\. **データを体系化する**               | <img src="images/Tutorials-TextGauge-Organizing-Data.png" alt="Tutorials-TextGauge-Organizing-Data" class="responsive-img"/>                            | 例えば、このテキスト ゲージは国別平均寿命を表します。年フィールドの 1 つを [値] にドラッグアンドドロップし、Country Name フィールドを [データ フィルター] にドラッグアンドドロップします。次に、フィールドを選択して、必要な特定の国を選択します。|
+1. **[分析]** セクションの右上隅にある **[+ ダッシュボード]** ボタンを選択します。
+
+   <img src="images/dashboard-button-my-analytics.png" alt="Tutorials-Create-New-Dashboard" class="responsive-img" width="55%"/>                                      
+
+2. データ ソースのリストからデータ ソース (**Slingshot Tutorials Spreadsheet**) を選択します。データ ソースが新しい場合は、最初に右上隅の **[+ データ ソース]** ボタンから追加する必要があります。
+
+   <img src="images/visualization-tutorials-data-source.png" alt="Selecting a data source from the list of data sources" class="responsive-img" width="55%"/>                                          
+
+3. *Gauge Views* シートを選択します。
+  
+   <img src="images/gauge-views.png" alt="Selecting Gauge Views spreadsheet" class="responsive-img" width="55%"/>
+         
+4. **表示形式ピッカー**を開き、**テキスト ゲージ**を選択します。デフォルトで、表示形式のタイプは**柱状**に設定されています。 
+
+   <img src="images/gauges-chart-types.png" alt="List of chart types" class="responsive-img" width="55%"/>
+
+
+5. 例えば、このテキスト ゲージは国別平均寿命を表します。年フィールドの 1 つを [値] にドラッグアンドドロップし、[Country Name] フィールドを [データ フィルター] にドラッグアンドドロップします。次に、フィールドを選択して、必要な特定の国を選択します。
+
+   <img src="images/text-gauge-organizing-data.png" alt="Organizing the data while using text gauge visualizaiton" class="responsive-img" width="35%"/>
 
 上記の [テキスト ゲージのサンプル] は平均値の集計を使用します。フィールドの集計を変更するために、[この手順](#aggregation-instructions)をご参照ください。
 
 <a name='create-bullet-graph-gauge'></a>
 ## ブレット グラフを作成する方法
 
-|                                          |                                                                                                                   |                                                                                                                                                                                              |
-| ---------------------------------------- | ----------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1\. **ダッシュボードを作成する**               | <img src="images/Tutorials-Create-New-Dashboard.png" alt="Tutorials-Create-New-Dashboard" class="responsive-img"/>                                      | ダッシュボード ビューアーで、[ダッシュボード] 画面の右上隅にある [+] ボタンを選択します。次に、ドロップダウンから [ダッシュボード] を選択します。                                         |
-| 2\. **データ ソースを構成する**       | <img src="images/Tutorials-Select-Data-Source.png" alt="Tutorials-Select-Data-Source" class="responsive-img"/>                                          | [新しい表示形式] ウィンドウで、右下隅の [+] ボタンを選択し、データ ソースを選択します。                                                                               |
-| 3\. **チュートリアル スプレッドシートを選択する** | <img src="images/Tutorials-Select-Gauge-Views.png" alt="Tutorials-Select-Gauge-Views" class="responsive-img"/> | データ ソースを設定したら、**Analytics チュートリアル スプレッドシート**を選択します。次に、Gauge Views シートを選択します。                                                                       |
-| 4\. **表示形式メニューを開く**     | <img src="images/Tutorials-Select-Change-Visualization.png" alt="Tutorials-Select-Change-Visualization" class="responsive-img"/>                        | 表示形式エディターのトップ バーで**グリッド アイコン**を選択します。                                                                                                                        |
-| 5\. **表示形式を選択する**        | <img src="images/Tutorials-Select-Bullet-Graph.png" alt="Tutorials-Select-Bullet-Graph" class="responsive-img"/>                        | デフォルトで、表示形式のタイプは**グリッド**に設定されています。[ブレット グラフ] の表示形式を選択してください。                                                                                           |
-| 6\. **データを体系化する**               | <img src="images/Tutorials-Charts-Organizing-Data.png" alt="Tutorials-Charts-Organizing-Data" class="responsive-img"/>                                  | 例えば、このブレット グラフ は国別平均寿命を表します。[ラベル] に Country Name フィールド、年フィールドの 1 つを [値] に、別の年フィールドを [ターゲット] にドラッグアンドドロップします。|
+1. **[分析]** セクションの右上隅にある **[+ ダッシュボード]** ボタンを選択します。
+
+   <img src="images/dashboard-button-my-analytics.png" alt="Tutorials-Create-New-Dashboard" class="responsive-img" width="55%"/>                                      
+
+2. データ ソースのリストからデータ ソース (**Slingshot Tutorials Spreadsheet**) を選択します。データ ソースが新しい場合は、最初に右上隅の **[+ データ ソース]** ボタンから追加する必要があります。
+
+   <img src="images/visualization-tutorials-data-source.png" alt="Selecting a data source from the list of data sources" class="responsive-img" width="55%"/>                                          
+
+3. *Gauge Views* シートを選択します。
+  
+   <img src="images/gauge-views.png" alt="Selecting Gauge Views spreadsheet" class="responsive-img" width="55%"/>
+         
+4. **表示形式ピッカー**を開き、**バレット グラフ**表示形式のいずれかを選択します。デフォルトで、表示形式のタイプは**柱状**に設定されています。 
+
+   <img src="images/gauges-chart-types.png" alt="List of chart types" class="responsive-img" width="55%"/>
+
+
+5. 例えば、このブレット グラフ は国別平均寿命を表します。*Country Name* フィールドを **[ラベル]** へ、年フィールドの 1 つを **[値]** へ、別の年フィールドを **[ターゲット]** へドラッグアンドドロップします。
+
+   <img src="images/bullet-graph-organizing-data.png" alt="Organizing data while using a bullet graph" class="responsive-img" width="35%"/>
 
 <a name='adding-bounds-gauge'></a>
 ## ゲージの化でしきい値を追加する方法
 
-しきい値を使用すると、ゲージの最小値と最大値を設定できます。[重要なコンセプト](#key-concepts)で述べたように、特定のデータを除外するように変更できます。以下は作業手順です。
+しきい値を使用すると、ゲージの最小値と最大値を設定できます。[重要なコンセプト](#重要なコンセプト)で述べたように、特定のデータを除外するように変更できます。以下は作業手順です。
 
 |                                                |                                                                        |                                                                                                                                       |
 | ---------------------------------------------- | ---------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
-| 1\. **設定を変更する**                        | <img src="images/Tutorials-Navigate-Settings.png" alt="Tutorials-Navigate-Settings" class="responsive-img"/> | 表示形式エディターの **[設定]** セクションに移動します。                                                                           |
-| 2\. **制限のデフォルトの選択を変更する** | <img src="images/Tutorials-Limits-Bounds.png" alt="Tutorials-Limits-Bounds" class="responsive-img"/>         | 最大値または最小値 (または両方) 値を設定するかどうかに基づいて、チャートの開始値または終了値を入力します。|
+| 1\. **設定を変更する**                        | <img src="images/tutorials-settings.png" alt="Tutorials-Navigate-Settings" class="responsive-img"/> | 表示形式エディターの **[設定]** セクションに移動します。                                                                           |
+| 2\. **制限のデフォルトの選択を変更する** | <img src="images/limit-options.png" alt="Tutorials-Limits-Bounds" class="responsive-img"/>         | 最大値または最小値 (または両方) 値を設定するかどうかに基づいて、チャートの開始値または終了値を入力します。|
 
 <a name='modify-bands'></a>
 ## バンドの色の変更
@@ -154,6 +164,5 @@ _language: ja
 
 |                                    |                                                                        |                                                                          |
 | ---------------------------------- | ---------------------------------------------------------------------- | ------------------------------------------------------------------------ |
-| 1\. **設定を変更する**            | <img src="images/Tutorials-Navigate-Settings.png" alt="Tutorials-Navigate-Settings" class="responsive-img"/> | 表示形式エディターの **[設定]** セクションに移動します。              |
-| 2\. **色のドロップダウンを表示する** | <img src="images/Tutorials-Colors-Dropdown.png" alt="Tutorials-Colors-Dropdown" class="responsive-img"/>     | 色を変更する範囲のドロップダウンを展開します。|
-| 3\. **色を選択する**          | <img src="images/Tutorials-Changing-Color.png" alt="Tutorials-Changing-Color" class="responsive-img"/>       | バンドの色として、Analytics の 3 つの定義済み色のいずれかを選択します。      |
+| 1\. **設定を変更する**            | <img src="images/tutorials-settings.png" alt="Tutorials-Navigate-Settings" class="responsive-img"/> | 表示形式エディターの **[設定]** セクションに移動します。              |
+| 2\. **色のドロップダウンを表示する** | <img src="images/band-color-options.png" alt="Tutorials-Colors-Dropdown" class="responsive-img"/>     | 色を変更する範囲のドロップダウンを展開します。バンドの色として、Slingshot の 3 つの事前定義された色のいずれかを選択します。|

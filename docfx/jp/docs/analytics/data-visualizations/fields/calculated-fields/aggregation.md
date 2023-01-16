@@ -9,13 +9,13 @@ _language: ja
 
 集計式は元のデータ ソースを操作してその値を分析し、多くの場合、再編成するか、単にそれに含まれる情報を要約する場合に便利です。異なる値 (`average` など) の計算や最大  `max` と `min` の検索に使用することも可能です。そのため、**すべての数式**は**数値フィールドのみで使用します**。
 
-Analytics では、集計計算フィールドに以下が含まれます。
+[分析] では、集計計算フィールドに以下が含まれます。
 
   - **標準関数**: 各情報は、[関数名] の下の対応するハイパーリンクをクリックします。
 
   - **if 文を含む標準関数**: [このセクション](#aggregation-if-condition) は、*if 文* [ネスト if 文 を含む](#nested-if-conditions)) の詳細および構成方法について説明します。
 
-**注:** *以下の表のすべてのサンプルは HR dashboard サンプルに含まれる [HR Dataset 2016](https://download.infragistics.com/slingshot/samples/HR_Dataset_2016.xlsx)スプレッドシートで作成されました。*
+**注:** *以下の表のすべてのサンプルは HR dashboard サンプルに含まれる [HR Dataset 2016](https://download.infragistics.com/reportplus/help/samples/HR%20Dataset_2016.xlsx)スプレッドシートで作成されました。*
 
 以下はこの関数に含まれる集計カテゴリです。
 

@@ -16,15 +16,15 @@ _language: ja
 
 ## 散布図チャートを作成する方法
 
-<img src="images/scatter-chart-sales-one-color-example.png" alt="Example for a scatter chart visualization" class="responsive-img"/>
+<img src="images/scatter-chart-visualization-editor.png" alt="Example for a scatter chart visualization" class="responsive-img" width="85%"/>
 
-上記の例では、散布図の表示形式は、特定の各*従業員*によって産み出された*新規販売*の数量と*収益*の関係を示しています。
+上記の例では、散布図の表示形式は、特定の各**従業員**によって産み出された**新規販売**の数量と**収益**の関係を示しています。
 
 散布図を作成するには:
 
 1.  **[チャート タイプ]** メニューで **[散布図]** の表示形式を選択します。
 
-    <img src="images/scatter-chart-change-visualization-menu.png" alt="Location of the scatter visualization in the change visualization menu" class="responsive-img"/>
+    <img src="images/chart-types-scatter.png" alt="Location of the scatter visualization in the change visualization menu" class="responsive-img" width="45%"/>
 
 2.  **[X 軸]** と **[Y 軸]** の数値フィールドを選択して、データ ポイントの位置を決定します。
 
@@ -32,17 +32,17 @@ _language: ja
 
 すべてのデータ ポイントには独自の**ツールチップ**があり、クリックすると表示されます。
 
-<img src="images/scatter-chart-tooltips.png" alt="Tooltip shown for a particular data point in the scatter chart" class="responsive-img"/>
+<img src="images/tooltips-scatter-chart.png" alt="Tooltip shown for a particular data point in the scatter chart" class="responsive-img" width="85%"/>
 
 この例では、ツールチップは、データ ポイントが表す特定の従業員に関する情報と、チャートに含まれるそれらの量的なデータを提供します。
 
 ## バブル チャートを作成する方法
 
-<img src="images/bubble-chart-one-color-example.png" alt="An Example of a bubble chart using one color" class="responsive-img"/>
+<img src="images/bubble-chart-visualization-editor.png" alt="An Example of a bubble chart using one color" class="responsive-img" width="85%"/>
 
 1 つの色だけを使用して基本的なバブル チャートを作成するには、次の操作が必要です。
 
-1.  **[チャート タイプ]** メニューで **[バブル]** チャートを選択します。
+1.  **[チャート タイプ]** のリストから **[バブル]** チャートを選択します。
 
 2.  **[X 軸]** と **[Y 軸]** の数値フィールドを選択します。
 
@@ -50,11 +50,11 @@ _language: ja
 
 3.  **[ラベル]** のカテゴリ値を選択します。
 
-    示されているチャートの各バブルは、神経科、心臓科、外科などの*部門*を表しています。
+    示されているチャートの各バブルは、神経科、心臓科、外科などの**部門**を表しています。
 
-4.  *バブル半径*の数値フィールドを選択します。
+4.  **バブル半径**の数値フィールドを選択します。
 
-    例から、各バブルのサイズは各 *Division* の *Treatment Costs* の合計に依存することがわかります。チャート上部の凡例は、チャートの*バブル半径*フィールドの最小値と最大値を示しています。
+    例から、各バブルのサイズは各 *Division* の *Treatment Costs* の合計に依存することがわかります。チャート上部の凡例は、チャートの**バブル半径**フィールドの最小値と最大値を示しています。
 
 バブルをクリックすると、各バブルの特定のデータを示す**ツールチップ**も表示されます。チャートで要素が重複している場合は、小さいバブルをクリックしてツールチップを表示します。
 
@@ -62,7 +62,7 @@ _language: ja
 
 [カテゴリ] フィールドを散布図またはバブル チャートに追加できます。このフィールドの値に応じて、バブルまたは散布ポイントに異なる色が付けられます。
 
-<img src="images/bubble-chart-with-colors-example.png" alt="Example of adding colors to the basic bubble chart" class="responsive-img"/>
+<img src="images/bubble-chart-with-colors.png" alt="Example of adding colors to the basic bubble chart" class="responsive-img" width="85%"/>
 
 上記の例では、*Date* フィールドがカラーボックスに適用されています。色分類を追加すると、部門の数値情報が *2017*、*2018*、*2019* のいずれを参照しているかに応じて、バブルに異なる色が割り当てられます。
 
@@ -70,13 +70,13 @@ _language: ja
 
 ## 散布図とバブル チャートの設定
 
-<img src="images/scatter-bubble-chart-settings.png" alt="Settings for scatter and bubble charts" class="responsive-img"/>
+<img src="images/settings-scatter-bubble-chart.png" alt="Settings for scatter and bubble charts" class="responsive-img" width="85%"/>
 
 *[設定]*:
 
   - **表示形式のスタイルを変更する**。
 
-    表示形式の **[タイトル]** または **[凡例]** を表示するかどうかを選択できます。**[開始色]** を選択すると、1 つの色を使用する場合はデータ スポット/バブルの色が定義されます。**[カラー]** カテゴリを使用するために複数の色が必要な場合、開始色から順番に適用されます。
+    表示形式の **[タイトル]** または **[凡例]** を表示するかどうかを選択できます。**[開始色]** を選択すると、1 つの色を使用する場合はデータ スポット/バブルの色が定義されます。**[カラー]** カテゴリを使用するために複数の色が必要な場合、**[開始色]** から順番に適用されます。
 
   - **[X 軸] と [Y 軸] の [リニア] スケールまたは [対数] スケールのいずれかを選択する**。
 

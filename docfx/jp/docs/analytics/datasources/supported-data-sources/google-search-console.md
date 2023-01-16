@@ -7,7 +7,7 @@ Google Search Console データ ソースを使用すると、Google Search Cons
 ## Google Search Console への接続
 
 1.	データ ソース リストの **[マーケティング、セールス、CRM]** セクションにある **Google Search Console** を選択します。 
-2.	複数のアカウントが表示されている場合は、アクセスしたいデータが保存されているアカウントを選択してください。必要なアカウントがアカウントのリストにない場合は、新しい Google Search Console アカウントを追加することもできます。Google Search Console のアカウントをお持ちでない場合は、[こちら (英語)](https://search.google.com/search-console/about) で作成方法の詳細をご覧ください。
+2.	複数のアカウントが表示されている場合は、アクセスしたいデータが保存されているアカウントを選択してください。必要なアカウントがアカウントのリストにない場合は、新しい Google Search Console アカウントを追加することもできます。*Google Search Console* のアカウントをお持ちでない場合は、[こちら (英語)](https://search.google.com/search-console/about) で作成方法の詳細をご覧ください。
 3.	まだサインインしていない場合は、資格情報の入力を求められます。
 4.	アカウントをデータ ソースに追加する前に、名前の編集、説明の追加、または詳細の編集を選択できます。
 
@@ -18,14 +18,14 @@ Google Search Console データ ソースを使用すると、Google Search Cons
 
 ## 表示形式エディターでの作業
 
-Google Search Console をデータ ソースとして使用すると、*表示形式エディター*のフィールドが異なって表示されることがわかります。
+Google Search Console をデータ ソースとして使用すると、**表示形式エディター**のフィールドが異なって表示されることがわかります。
 
-左側の「フィールド」見出しの代わりに、独自のクエリ フィールドに 2 つのセクションが表示されます。
+左側の**フィールド**見出しの代わりに、独自のクエリ フィールドに 2 つのセクションが表示されます。
 
 <img src="./images/google-search-console-visualization-editor.png" alt="Visualization Editor showing a Google Search Console data cube" class="responsive-img"/>
 
 1.	**ディメンション**: それらはデータの属性です。  
-2.	**メジャー** (123 アイコンで表示): メジャーは数値データで構成されます。たとえば、国名ごとのクリック数を確認できます。
+2.	**メジャー** (123 アイコンで表示): メジャーは数値データで構成されます。たとえば、**Country Name** (国名ごと) のクリック数を確認できます。
 
 ## 日付範囲データ フィルター
 

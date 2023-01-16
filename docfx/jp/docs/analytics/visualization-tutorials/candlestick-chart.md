@@ -8,37 +8,15 @@ _language: ja
 
 このチュートリアルは、サンプル スプレッドシートを使用してローソク足の表示形式を作成する方法を説明します。
 
-<table>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><img src="images/CandlestickChart_All.png" alt="CandlestickChart All" width="265" /><br />
-</p>
-<p><a href="#create-candlestick-chart">ローソク足チャート</a><br />
-</p></td>
-<td><p><img src="images/CandlestickChartBounds_All.png" alt="CandlestickChartBounds All" width="265" /><br />
-</p>
-<p><a href="#changing-axis-configuration">範囲のローソク足チャート</a><br />
-</p></td>
-<td><p><img src="images/CandlestickChartLogarithmicAxis_All.png" alt="CandlestickChartLogarithmicAxis All" width="265" /><br />
-</p>
-<p><a href="#setting-logarithmic-axis">対数軸のローソク足チャート</a><br />
-</p></td>
-</tr>
-</tbody>
-</table>
+<img src="images/different-candlestick-charts.png" alt="A sample with different candlestick charts" class="responsive-img" width="85%"/>
 
 ローソク足チャート ビューのガイドは、以下のリンクから参照してください。
 
-  - [ローソク足チャートを作成する方法](#creating-candlestick-chart)
+  - [ローソク足チャートを作成する方法](https://www.slingshotapp.io/en/help/docs/analytics/visualization-tutorials/candlestick-chart#creating-a-candlestick-chart)
 
-  - [軸の構成を変更する方法](#changing-axis-configuration)
+  - [軸の構成を変更する方法](https://www.slingshotapp.io/en/help/docs/analytics/visualization-tutorials/candlestick-chart#changing-your-axis-configuration)
 
-  - [軸の構成を対数に変更する方法](#setting-logarithmic-axis)
+  - [軸の構成を対数に変更する方法](https://www.slingshotapp.io/en/help/docs/analytics/visualization-tutorials/candlestick-chart#setting-your-axis-configuration-as-logarithmic)
 
 ## 重要なコンセプト
 
@@ -50,7 +28,7 @@ _language: ja
 
   - Open、High、Low および Close の **4 つの異なるフィールド** データ エディターのカテゴリ。
 
-<img src="images/candlestick-chart-visualization-settings.png" alt="Candlestick chart visualization settings" class="responsive-img"/>
+<img src="images/candlestick-visualization-editor-example.png" alt="Candlestick chart visualization settings" class="responsive-img" width="85%"/>
 
 チャートに追加情報を表示するためのオプションが複数あります。
 
@@ -60,24 +38,32 @@ _language: ja
 
 ## サンプル データ ソース
 
-このチュートリアルでは、[Analytics チュートリアル スプレッドシート](https://download.infragistics.com/slingshot/samples/Slingshot_Visualization_Tutorials.xlsx)の OHLC and Candlestick シートを使用します。
+このチュートリアルでは、[Slingshot Visualization Tutorials](https://download.infragistics.com/slingshot/samples/Slingshot_Visualization_Tutorials.xlsx) の *OHLC and Candlestick* シートを使用します。
 
 
 >[!NOTE]
->このリリースでは、ローカル ファイルとしての Excel ファイルはサポートされていません。チュートリアルを実行するには、サポートされているクラウド サービスのいずれかにファイルをアップロードするか、[ウェブ リソース](~/jp/datasources/supported-data-sources/web-resource.html)として追加してください。
+>このリリースでは、ローカル ファイルとしての Excel ファイルはサポートされていません。チュートリアルを実行するには、サポートされているクラウド サービスのいずれかにファイルをアップロードするか、[ウェブ リソース](~/jp/docs/analytics/datasources/supported-data-sources/web-resource.html)として追加してください。
 
 <a name='creating-candlestick-chart'></a>
 ## ローソク足チャートを作成する方法
 
-|                                          |                                                                                                                                           |                                                                                                                                                       |
-| ---------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1\. **表示形式を作成する**           | <img src="images/Tutorials-Create-New-Dashboard.png" alt="Creating new visualization" width="300"/>                                       | [アイテム] で、[+ ダッシュボード] 分割ボタンを選択します。                                                                                            |
-| 2\. **データ ソースを構成する**       | <img src="images/Tutorials-Select-Data-Source.png" alt="Selecting a data source" width="300"/>                                            | **[新しい表示形式]** 画面で、[+ データ ソース] ボタンを選択し、リストからデータ ソースを選択します。                                       |
-| 3\. **チュートリアル スプレッドシートを選択する** | <img src="images/Tutorials-Select-OHLC-Candlestick-Charts-Spreadsheet.png" alt="Seclect OHLC Candlestick Chart spreadsheet" width="300"/> | データ ソースを設定したら、**Analytics チュートリアル スプレッドシート**を選択します。 次に、OHLC and Candlestick シートを選択します。                       |
-| 4\. **表示形式ペインを開く**     | <img src="images/Tutorials-Select-Change-Visualization.png" alt="Seclect Change visualization" width="300"/>                              | 表示形式エディターのトップ バーで**グリッド アイコン**を選択します。                                                                                 |
-| 5\. **表示形式を選択する**        | <img src="images/Tutorials-Charts-Select-Candlestick-Chart.png" alt="Seclect Candlestick chart" width="300"/>                             | デフォルトで、表示形式のタイプはグリッドに設定されています。**[ローソク足]** を選択します。                                                                 |
-| 6\. **データを体系化する**               | <img src="images/Tutorials-CandlestickChart-Organizing-Data.png" alt="Organizing data fields" width="300"/>                               | Date フィールドをラベルにドラッグアンドドロップし、*Open*、*High*、*Low* および *Close* フィールドを対応するプレースホルダーにドラッグアンドドロップします。                      |
-| 7\. **日付集計を変更する**      | <img src="images/Tutorials-CandlestickChart-Changing-Aggregation.png" alt="Changing date aggregation" width="300"/>                       | データ エディターのラベル プレースホルダーで Date フィールドを選択し、**[日付集計]** を **[日]** に変更します。次に、[フィールドの更新] を選択します。 |
+1. **[分析]** セクションの右上隅にある **[+ ダッシュボード]** ボタンを選択します。
+
+   <img src="images/dashboard-button-my-analytics.png" alt="Dashboard button for creating a new dashboard" class="responsive-img" width="55%"/>                                      
+
+2. データ ソースのリストからデータ ソース (**Slingshot Tutorials Spreadsheet**) を選択します。データ ソースが新しい場合は、最初に右上隅の **[+ データ ソース]** ボタンから追加する必要があります。
+
+   <img src="images/visualization-tutorials-data-source.png" alt="Selecting the data source from the list of data sources" class="responsive-img" width="55%"/>                                          
+
+ 3. **OHLC and Candlestick** シートを選択します。
+  
+    <img src="images/ohlc-candlestick-spreadsheet.png" alt="Selecting the OHLC and Candlesticks spreadsheet" class="responsive-img" width="55%"/>
+         
+4. **表示形式ピッカー**を開き、**ローソク足**の表示形式を選択します。デフォルトで、表示形式のタイプは**柱状**に設定されています。
+
+   <img src="images/candlestick-chart-types.png" alt="List of chart types" class="responsive-img" width="55%"/>                                                             
+5.  *Date* フィールドを **[ラベル]** にドラッグアンドドロップし、*Open*、*High*、*Low* および *Close* フィールドを対応するプレースホルダーにドラッグアンドドロップします。
+  <img src="images/candlestick-organizing-data.png" alt="Organizing data fields" width="35%"/>                                                      
 
 <a name='changing-axis-configuration'></a>
 ## 軸の構成を変更する方法
@@ -88,8 +74,8 @@ _language: ja
 
 |                                             |                                                                                               |                                                             |
 | ------------------------------------------- | --------------------------------------------------------------------------------------------- | ----------------------------------------------------------- |
-| 1\. **設定メニューにアクセスする**            | <img src="images/Tutorials-Navigate-Settings.png" alt="Navigating to Settings" width="300"/>  | 表示形式エディターの **[設定]** セクションに移動します。 |
-| 2\. **軸範囲セクションに移動する** | <img src="images/Access-Axis-Configuration.png" alt="Navigating to Axis Bounds" width="300"/> | 変更する設定は **[軸範囲]** です。   |
+| 1\. **設定メニューにアクセスする**            | <img src="images/tutorials-settings.png" alt="Navigating to Settings" width="300"/>  | 表示形式エディターの **[設定]** セクションに移動します。 |
+| 2\. **軸範囲セクションに移動する** | <img src="images/axis-bounds-candlestick.png" alt="Navigating to Axis Bounds" width="300"/> | 変更する設定は **[軸範囲]** です。   |
 
 最大値または最小値 (または両方) のどれを設定するかに基づいて、以下のオプションの 1 つにアクセスする必要があります。
 
@@ -106,5 +92,5 @@ _language: ja
 
 |                                        |                                                                                                              |                                                             |
 | -------------------------------------- | ------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------- |
-| 1\. **設定メニューにアクセスする**       | <img src="images/Tutorials-Navigate-Settings.png" alt="Navigating to Settings" width="300"/>                 | 表示形式エディターの **[設定]** セクションに移動します。 |
-| 2\. **軸を対数に変更する** | <img src="images/Access-Candlestick-Axis-Configuration.png" alt="Accessing Axis configuration" width="300"/> | **[軸]** ドロップダウンを開き、**[対数]** を選択します。      |
+| 1\. **設定メニューにアクセスする**       | <img src="images/tutorials-settings.png" alt="Navigating to Settings" width="300"/>                 | 表示形式エディターの **[設定]** セクションに移動します。 |
+| 2\. **軸を対数に変更する** | <img src="images/axis-logarithmic-candlestick.png" alt="Accessing Axis configuration" width="300"/> | **[軸]** ドロップダウンを開き、**[対数]** を選択します。      |
