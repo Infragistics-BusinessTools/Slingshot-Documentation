@@ -61,6 +61,12 @@ To **create a discussion**:
 
 Now your discussion is created. You can start typing your first message to give more details on the subject. It will also serve as a conversation starter.
 
+If you want to reply to your own messages or messages from other people, you can also do that by clicking/tapping on the reply arrow. It will show up when you hover over a message.
+
+<img src="../images/reply-arrow-discussion.png" alt="Choosing the reply arrow" width="75%" class="responsive-img"/>
+
+>[!NOTE] Reply threading is not supported.
+
 ## How can I share a discussion with another user?
 
 You can follow the steps below in order to share a discussion with another user:
@@ -69,7 +75,16 @@ You can follow the steps below in order to share a discussion with another user:
 3. Once you have selected the users, you can click on **Request To Share**. The owner of the discussion will get notified and can accept or decline the request. In case you are the owner of the discussion, you can add other users while choosing their role permissions and then click/tap on **Update**.
 
 <img src="../images/discussion-shared-with-button.png" alt="Adding users after clickin oh Shared With button" width="40%" class="responsive-img"/>
- 
+
+Another way of sharing a discussion with someone or with a group of people is by mentioning them (you can do that by using the *@ sign* and then typing the username or the email address of the user, or the name of the group). 
+
+If they are not part of the workspace or the project, they won't be able to see the discussion until the owner(of the workspace or the project) grants them access. 
+
+When an owner of a workspace (or a project) opens a discussion and mentions a group, they will be provided with the following options for the discussion history: **Don't share any history, Share the full history and Share today's history**. After chosing how much of the history to provide the group with, they can click/tap on **Grant Access**.
+
+<img src="../images/group-access-history-sharing.png" alt="Group access dialog with different history options" width="40%" class="responsive-img"/>
+
+In case a member of a group (who is not an owner of the workspace or the project) wants to mention the group, they need to first request an access from the owner. When the owner grants permission to the group, the members will be able to see the discussion with its full history. 
 
 ## How can I make sure someone is notified of new answers?
 
@@ -77,7 +92,7 @@ There are subjects where you need the attention of particular people. To make su
 
 >[!NOTE] **Notifying limitations.** You can only notify users who are part of the workspace or project. 
 
-If you have missed the opportunity to use the *Notify* function when creating the discussion, you can later use the **@mention** (use the *@ sign* and start typing the username or the email address of the user) in a message. The mentioned users will be notified about your message, but will not receive any further notifications for new messages unless they opt to *follow* the discussion.
+If you have missed the opportunity to use the *Notify* function when creating the discussion, you can later use the **@mention** in a message. The mentioned users will be notified about your message, but will not receive any further notifications for new messages unless they opt to *follow* the discussion.
 
 ## How can I make sure I am notified of new answers? 
 
