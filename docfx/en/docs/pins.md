@@ -7,9 +7,11 @@ Pins are simple links to different types of resources, including files from clou
 <img src="../images/my-pins.png" alt="Showing a list of pins within Slingshot" class="responsive-img"/>
 
 ## How to Pin Content
-Pinning content is one of the most common ways to share resources within Slingshot. You pin files or analytics dashboards by selecting them from cloud storages, existing pins, content shared with you, or uploading from your device. To pin URLs, you just add the URL and a title.
+Pinning content is one of the most common ways to share resources within Slingshot. You can pin files or analytics dashboards by selecting them from cloud storages, existing pins, content shared with you, or uploading from your device. To pin URLs, you just add the URL and a title. 
 
 <img src="../images/pin-content.png" alt="Pin action in Slingshot" class="responsive-img" width="20%"/>
+
+>[!NOTE] You can also pin dashboards to different workspaces and projects.
 
 ### Pinning from Anywhere
 
@@ -33,6 +35,20 @@ Pinning content is one of the most common ways to share resources within Slingsh
 
 1.	Use the “+Pin” button and then select *URL*. 
 2.	Type or paste the URL and add/change the title if needed.
+
+### Pinning a Dashboard to a workspace or a project
+
+1. Open the workspace or the project that you want to pin a dashboard to.
+2. Open **Dashboards** and click/tap on the **+Dashboard** button.
+3. You will be presented with two options: to pin a dashboard, for example, from *My Dashboards*, or to create a dashboard. To move a dashboard to a workspace or project, click/tap on **Pin**.
+ 
+   <img src="../images/pinning-options-dashboard-workspace.png" class="responsive-img" alt="Choosing a dashboard to pin">
+
+4. The pin dialog will open up. You can select dashboards from different *Locations*, *Filters*, etc.  
+
+   <img src="../images/pinning-dashboard-example.png" class="responsive-img" alt="Choosing a dashboard to pin">
+
+5. When you are ready, click/tap on **Pin**.
 
 ## Organizing your Pins
 The Pins tabs in workspaces and projects have lists of pins, which can be further organized in sections. You can use sections to add divisions and better layout your pins.

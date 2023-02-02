@@ -48,14 +48,20 @@ In order to remind yourself that you need to respond in a chat, you can mark tha
 
 To start a chat, open the chat screen. Then follow the steps below:
 
-1. Click/tap the **+ Start a Chat...** blue button. 
+1. Click/tap the **+ Start a Chat** blue button. 
 
     <img class="responsive-img" src="../images/start-chat.png" alt="Start a chat button" class="responsive-img" width="75%" />
 
 2. Select a user from the list or type a name or email in the *search* box on top.
 3. Click/tap **Chat**. 
 
->[!NOTE] If you don't see the *Start a chat...* button, check whether your chat is [docked](#how-can-i-keep-the-chat-always-visible). In this case, select the **undock** icon next to *Close*.
+>[!NOTE] If you don't see the *Start a chat* button, check whether your chat is [docked](#how-can-i-keep-the-chat-always-visible). In this case, select the **undock** icon next to *Close*.
+
+Keep in mind that you can also reply to your own messages or messages from other people by clicking/tapping on the reply arrow. It will show up when you hover over a message.
+
+<img src="../images/reply-arrow-chat.png" alt="Choosing the reply arrow" width="60%" class="responsive-img"/>
+
+>[!NOTE] Reply threading is not supported.
 
 ## How Can I Start a Group Chat?
 
