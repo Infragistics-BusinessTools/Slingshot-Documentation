@@ -11,7 +11,7 @@
 
 <img src="../images/pin-content.png" alt="Pin action in Slingshot" class="responsive-img" width="20%"/>
 
->[!NOTE] You can also pin dashboards to different workspaces and projects.
+>[!NOTE] ダッシュボードを別のワークスペースやプロジェクトにピン固定することもできます。
 
 ### Slingshot の任意の場所からピン固定
 
@@ -36,19 +36,19 @@
 1.	[+ ピン固定する] ボタンを使用して、[URL] を選択します。 
 2.	URL を入力または貼り付け、必要に応じてタイトルを追加 / 変更します。
 
-### Pinning a Dashboard to a workspace or a project
+### ダッシュボードをワークスペースまたはプロジェクトにピン固定する
 
-1. Open the workspace or the project that you want to pin a dashboard to.
-2. Open **Dashboards** and click/tap on the **+Dashboard** button.
-3. You will be presented with two options: to pin a dashboard, for example, from *My Dashboards*, or to create a dashboard. To move a dashboard to a workspace or project, click/tap on **Pin**.
+1. ダッシュボードをピン固定するワークスペースまたはプロジェクトを開きます。
+2. **[ダッシュボード]** を開き、**[+ ダッシュボード]** ボタンをクリックまたはタップします。
+3. *[ダッシュボード]* などからダッシュボードをピン固定するか、ダッシュボードを作成するかの 2 つのオプションが表示されます。ダッシュボードをワークスペースまたはプロジェクトに移動するには、**[ピン固定]** をクリックまたはタップします。
 
    <img src="../images/pinning-options-dashboard-workspace.png" class="responsive-img" alt="Choosing a dashboard to pin">
 
-4. The pin dialog will open up. You can select dashboards from different *Locations*, *Filters*, etc.  
+4. [ピン固定] ダイアログが開きます。さまざまな*場所*、*フィルター* などからダッシュボードを選択できます。  
 
    <img src="../images/pinning-dashboard-example.png" class="responsive-img" alt="Choosing a dashboard to pin">
 
-5. When you are ready, click/tap on **Pin**.
+5. 準備ができたら、**[ピン固定]** をクリックまたはタップします。
 
 ## ピン固定を整理
 ワークスペースとプロジェクトの [ピン固定] タブにはピン固定のリストがあり、セクションを使用してさらに整理できます。セクションを使用して、ピン固定のリストを分割し、ピン固定をより適切にレイアウトできます。
