@@ -43,7 +43,7 @@
   new: false
 - name: オンボーディング
   href: onboarding.md
-  new: true
+  new: false
 - name: 友達を招待する
   href: invite-friends.md
   new: false
@@ -57,7 +57,7 @@
   header: true
 - name: 新しいウインドウで開く
   href: open-in-new-window.md
-  new: true
+  new: false
 - name: 生産性フロー
   href: productivity-flows.md
 - name: 設定
@@ -89,5 +89,5 @@
   new: false
 - name: リリース ノート
   href: release-notes.md
-- name: Data Limits
+- name: データ制限
   href: data-limits.md
