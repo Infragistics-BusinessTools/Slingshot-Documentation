@@ -1,6 +1,6 @@
 # Release Notes
 
-### 1.0.2720 (Feb-20223)
+### 1.0.2720 (Feb-2023)
 
 #### New Features 
 - Ability for contributors and viewers to mention a user or a group of people who don't have direct access to a discussion
