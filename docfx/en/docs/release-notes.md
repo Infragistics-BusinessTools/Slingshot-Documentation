@@ -1,5 +1,16 @@
 # Release Notes
 
+### 1.0.2720 (iOS and macOS) / 1.0.2720 (Android) / 1.0.2720 (Desktop and Web) (Feb-2023)
+
+### New Features 
+- Ability for contributors and viewers to mention a user or a group of people who don't have direct access to a discussion
+- Friendly dates for upcoming dates (Today, Tomorrow, Monday, Tuesday, etc)
+- Improved Data Charts
+- New colored icons
+- Option to reply to a message in a chat
+- Pin any dashboard to your workspace/projects Dashboards Tab without having to move it there
+- Slingshot's API
+
 ### 1.0.2555 (iOS and macOS) / 1.0.2556 (Android) / 1.0.2560 (Desktop and Web) (Aug-2022)
 
 #### New Features
