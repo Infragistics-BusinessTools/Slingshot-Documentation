@@ -1,8 +1,8 @@
 # Release Notes
 
-### 1.0.2720 (iOS and macOS) / 1.0.2720 (Android) / 1.0.2720 (Desktop and Web) (Feb-2023)
+### 1.0.2720 (Feb-20223)
 
-### New Features 
+#### New Features 
 - Ability for contributors and viewers to mention a user or a group of people who don't have direct access to a discussion
 - Friendly dates for upcoming dates (Today, Tomorrow, Monday, Tuesday, etc)
 - Improved Data Charts
