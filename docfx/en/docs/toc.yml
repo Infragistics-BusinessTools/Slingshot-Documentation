@@ -78,7 +78,13 @@
 - name: Notifications
   href: notifications.md
   updated:  false
-- name: Slingshot's API 
+- name: Subscriptions
+  header: true
+- name: Slingshot Enterprise Subscription
+  href: slingshot-enterprise-subscription.md
+- name: Slingshot Subscription
+  href: slingshot-subscription.md
+- name: API 
   header: true
 - name: API explorer
   href: slingshot-api/api-explorer.md
@@ -89,19 +95,28 @@
   items:
     - name: Task
       href: slingshot-api/rest-api/task.md
+      new: false
+    - name: Dashboard
+      href: slingshot-api/rest-api/dashboard.md
+      new: false 
+    - name: Dashboard List
+      href: slingshot-api/rest-api/dashboardlist.md
+      new: false 
+    - name: Dashboard Section
+      href: slingshot-api/rest-api/dashboard-section.md
       new: false 
     - name: Discussion
       href: slingshot-api/rest-api/discussion.md
       new: false 
-    - name: DiscussionList
+    - name: Discussion List
       href: slingshot-api/rest-api/discussion-list.md
       new: false
-- name: Subscriptions
-  header: true
-- name: Slingshot Enterprise Subscription
-  href: slingshot-enterprise-subscription.md
-- name: Slingshot Subscription
-  href: slingshot-subscription.md
+    - name: Organizations
+      href: slingshot-api/rest-api/organizations.md
+      new: false
+    - name: Pin List
+      href: slingshot-api/rest-api/pin-list.md
+      new: false
 - name: RELEASE INFORMATION
   header: true
   new: false

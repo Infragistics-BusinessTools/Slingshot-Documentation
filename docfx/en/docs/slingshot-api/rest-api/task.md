@@ -18,7 +18,7 @@ When you request to create a task, the request body will have the following cont
 
 Possible responses:
 
-| Error | Description|
+| Code | Description|
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
 | 201 (Created) |You successfully created a discussion list. The newly created DiscussionList (hyperlink) will be returned in the response body. |
 | 400 (Bad Request) |The request was not processed because of missing or malformed parameter(s). Check the errors array in the response to get an idea of what went wrong. |
@@ -60,7 +60,7 @@ Possible responses:
 
 ```
 {
-  "id": "e91e11eg_05536423-2c03-4bf8-89d5-90119971cc44_tk",
+  "id": "{123456}_tk",
   "modified": "2023-01-25T13:58:34.0000000",
   "created": "2023-01-25T13:55:05.0000000",
   "name": "Customer Support",
@@ -69,15 +69,15 @@ Possible responses:
   "priority": "none",
   "assignees": [],
   "user": {
-    "id": "e91e11eg_75a1812c-ce3c-410b-85f8-f9d093be33de_u",
+    "id": "{123456}_u",
     "name": "Ver"
   },
   "taskList": {
-    "id": "e92e11eg_5380a78a-88d9-4cda-ac3f-94fde496f66e",
+    "id": "{123456}",
     "name": "1"
   },
   "taskSection": {
-    "id": "e90e12eg_501390a3-2025-4dd9-a6b1-2b80dedbf50a_tg",
+    "id": "{123456}_tg",
     "name": "Q1"
   },
   "subtasks": []
