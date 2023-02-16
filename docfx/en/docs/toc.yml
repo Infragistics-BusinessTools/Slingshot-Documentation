@@ -96,6 +96,9 @@
     - name: Task
       href: slingshot-api/rest-api/task.md
       new: false
+    - name: Task List
+      href: slingshot-api/rest-api/task-list.md
+      new: false
     - name: Dashboard
       href: slingshot-api/rest-api/dashboard.md
       new: false 
