@@ -99,6 +99,9 @@
     - name: Task List
       href: slingshot-api/rest-api/task-list.md
       new: false
+    - name: User
+      href: slingshot-api/rest-api/user.md
+      new: false
     - name: Dashboard
       href: slingshot-api/rest-api/dashboard.md
       new: false 
