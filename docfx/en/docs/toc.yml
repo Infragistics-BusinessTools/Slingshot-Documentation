@@ -114,8 +114,14 @@
     - name: Organizations
       href: slingshot-api/rest-api/organizations.md
       new: false
+    - name: Pin
+      href: slingshot-api/rest-api/pin.md
+      new: false
     - name: Pin List
       href: slingshot-api/rest-api/pin-list.md
+      new: false
+    - name: Pin Section
+      href: slingshot-api/rest-api/pin-section.md
       new: false
 - name: RELEASE INFORMATION
   header: true

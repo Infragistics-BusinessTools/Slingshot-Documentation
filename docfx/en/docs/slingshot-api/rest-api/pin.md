@@ -138,8 +138,8 @@ Example of a successful response:
   ]
 }
 ```
-
-## Delete a pin
+ 
+## Delete a pin 
 
 You can delete a pin, that is in a pin section, by sending a `DELETE` request to the {base_url}/pins/{pinSectionId}/{pinId} endpoint. 
 
@@ -157,6 +157,50 @@ Possible responses:
 
 ## Pin schema
 
+Schema:
+
+|    Property  | Type            | Attributes           |
+-------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
+| id              | string |  |
+| modified             | string |  |
+| created             | string |  |
+| name               | string | Min = 1, Max = 100 |  
+| pinType |string enum/document (url) | |
+| documentId  |string| OneOf, GroupId = 1|  
+| documentType   |string enum  | OneOf, GroupId = 1| 
+| url |string | OneOf, GroupId = 2|
+
+Example:
+
+```
+{
+  "id": "{123456}_bs",
+  "modified": "2023-02-09T10:32:37.0000000",
+  "created": "2023-02-07T10:24:36.0000000",
+  "name": "Q1",
+  "workspace": {
+    "id": "{123456}_ws",
+    "name": "General Management"
+  },
+  "project": {
+    "id": "{123456}_proj",
+    "name": "vv"
+  },
+  "pinList": {
+    "id": "{123456}_b",
+    "name": "Statistics"
+  },
+  "pins": [
+    {
+      "pinType": "url",
+      "id": "{123456}",
+      "created": "2023-02-09T10:32:37.0000000",
+      "url": "https://my.slingshotapp.io/openBoardSection/{123456}_bs",
+      "name": "Strategy"
+    }
+  ]
+}
+```
 
 
 

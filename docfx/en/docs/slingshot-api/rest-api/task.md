@@ -37,23 +37,23 @@ Possible responses:
 
 |    Property  | Type            | Attributes           |
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| id               | string | ReadOnly |    
-| modified              | string | ReadOnly |  
-| created             | string | ReadOnly |  
-| name               | string | HasCharLimitations, Min CharCount = 1, Max CharCount = 200, RequiredOnCreateOnly |  
+| id               | string |  |    
+| modified              | string |  |  
+| created             | string |  |  
+| name               | string |Min CharCount = 1, Max CharCount = 200|  
 | description              | string | Nullable |  
 | startDate               | string (date-time) |  |  
 | dueDate               | string (date-time) |  |  
-| status              | string (open, progress, review, blocked or completed) | RequiredOnCreateOnly | 
-| priority             | string(none, low, medium or high) | RequiredOnCreateOnly |   
+| status              | string (open, progress, review, blocked or completed) |  | 
+| priority             | string(none, low, medium or high) |  |   
 | assignee               | ListObject<object(AssigneeInfo)>  | |
-| user               | object(DocumentInfo) | ReadOnly |
-| workspace              | object(DocumentInfo) | ReadOnly |
-| project             | object(DocumentInfo) | ReadOnly |
-| taskList            | object(DocumentInfo) | ReadOnly |
-| taskSection      | object(DocumentInfo) | OneOf, RequiredOnCreateOnly |
-| parentTask      | object(DocumentInfo) | OneOf, RequiredOnCreateOnly |
- | subtasks      | ListObject<Object(DocumentInfo)> | OneOf, ReadOnly |
+| user               | object(DocumentInfo) |  |
+| workspace              | object(DocumentInfo) | |
+| project             | object(DocumentInfo) |  |
+| taskList            | object(DocumentInfo) |  |
+| taskSection      | object(DocumentInfo) |  |
+| parentTask      | object(DocumentInfo) |  |
+ | subtasks      | ListObject<Object(DocumentInfo)> |  |
 
 
 **Example:**
