@@ -90,6 +90,8 @@
   href: slingshot-api/api-explorer.md
 - name: Authentication
   href: slingshot-api/authentication.md
+- name: Generic Slingshot Resources
+  href: slingshot-api/generic-slingshot-resources.md
 - name: Rest API 
   new: true
   items:
