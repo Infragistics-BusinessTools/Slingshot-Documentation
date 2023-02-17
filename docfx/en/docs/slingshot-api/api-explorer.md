@@ -5,9 +5,9 @@ You can try it out with the steps mentioned below:
 
 1.	Head [here](https://my.slingshotapp.io/v1/api-browser/index.html) and click on the **Authorize** button that is in the right corner.
 
-2.	A dialog will open up, where you need to enter the value. The value is a combination of the word **[Bearer](https://swagger.io/docs/specification/authentication/bearer-authentication/)** and the **Slingshot’s API Key**. If you don’t have an API key, you can check this article /* will give the link to Authentication*/ in order to create one.
+2.	A dialog will open up, where you need to enter the value. The value is a combination of the word **[Bearer](https://swagger.io/docs/specification/authentication/bearer-authentication/)** and the **Slingshot’s API Key**. If you don’t have an API key, you can check [this](authentication.md) article in order to create one.
 
-   <img src="/images/available-authorizations-dialog.png" alt="bookmarks button" class="responsive-img" width="35%"/>
+   <img src="images/available-authorizations-dialog.png" alt="Available authorizations dialog where the value can be entered" class="responsive-img" width="80%"/>
 
 3.	When you are ready, click on **Authorize** and then **Close** the dialog.
 

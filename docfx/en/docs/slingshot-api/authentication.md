@@ -2,7 +2,6 @@
  
 In order to access your data in Slingshot via the API, you need to first authenticate yourself. To do that, you can create a Slingshot API key. This can be done in the Slingshot app. 
 
-
 ## Creating a Slingshot API Key
 
 To create a Slingshot API Key, you need to:
@@ -15,8 +14,12 @@ To create a Slingshot API Key, you need to:
 
 >[!NOTE] If you select Custom for a component, you can choose from Full Access, Read Only or None. If you select None, that component won’t be visible.
 
+   <img src="images/create-key-dialog.png" alt="Create key dialog where you can make some changes" class="responsive-img" width="80%"/>
+
 6.	Once you have created the key, you can copy the full key code and then close the dialog. 
 
-Note: As the full key can be displayed only once, make sure to securely store it.
+>[!NOTE] As the full key can be displayed only once, make sure to securely store it.
+
+  <img src="images/api-Key.png" alt="api key" class="responsive-img" width="80%"/>
 
 

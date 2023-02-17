@@ -90,8 +90,14 @@
   href: slingshot-api/api-explorer.md
 - name: Authentication
   href: slingshot-api/authentication.md
+- name: Errors
+  href: slingshot-api/errors.md
 - name: Generic Slingshot Resources
   href: slingshot-api/generic-slingshot-resources.md
+- name: Overview
+  href: slingshot-api/overview.md
+- name: Rate Limits
+  href: slingshot-api/rate-limits.md
 - name: Rest API 
   new: true
   items:
