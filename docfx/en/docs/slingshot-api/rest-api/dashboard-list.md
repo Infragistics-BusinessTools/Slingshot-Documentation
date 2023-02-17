@@ -15,15 +15,15 @@ When you request to create a dashboard list, the request body will have the foll
 |    Property  | Type            | Attributes           |
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
 | name               | string | Min = 1, Max = 100 |  
-| user   |DocumentInfo | OneOf|
-| workspace            |DocumentInfo | OneOf|  
- | project    |DocumentInfo | OneOf| 
+| user   |[DocumentInfo](../generic-slingshot-resources.html#document-info-object) | OneOf|
+| workspace            |[DocumentInfo](../generic-slingshot-resources.html#document-info-object)| OneOf|  
+ | project    |[DocumentInfo](../generic-slingshot-resources.html#document-info-object) | OneOf| 
 
 Possible responses:
 
 | Code | Description|
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| 201 (Created) |You successfully created a discussion list. The newly created [DiscussionList](#generic-slingshot-resources.md) (hyperlink) will be returned in the response body. |
+| 201 (Created) |You successfully created a discussion list. The newly created dashboard list will be returned in the response body. |
 | 400 (Bad Request) |The request was not processed because of missing or malformed parameter(s). Check the errors array in the response to get an idea of what went wrong. |
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication.  |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
@@ -61,15 +61,13 @@ You can check all the information about a dashboard list by sending a `GET` requ
 
 `GET`/{base_url}/dashboardlists/{id}
 
-Schema: DashboardList (hyperlink)
-
 Required parameters: the **id** of the dashboard list
 
 Possible responses:
 
 | Code | Description|
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| 200 (Success) |You can view the dashboard list with its dashboards. The requested DashboardList (hyperlink) will be returned in the response body.    |
+| 200 (Success) |You can view the dashboard list with its dashboards. The requested [DashboardList](#dashboardlist-schema) will be returned in the response body.    |
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication. |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
 
@@ -90,7 +88,7 @@ Possible responses:
 
 | Code | Description|
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| 200 (Success) |The dashboards list is updated. The updated DashboardList (hyperlink) will be returned in the response body.  |
+| 200 (Success) |The dashboards list is updated. The updated dashboard list will be returned in the response body.  |
 | 400 (Bad Request) |The request was not processed because of missing or malformed parameter(s). Check the errors array in the response to get an idea of what went wrong. |
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication.  |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
@@ -146,15 +144,13 @@ You can view all the dashboard lists that are in a parent document (workspace, u
 
 `GET` {base_url}/dashboardlists/parent/{id}
 
-Schema: DashboardList(s) (hyperlink)
-
 Required parameters: the **id** of the parent document
 
 Possible responses:
 
 | Code | Description|
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| 200 (Success) |You can view all the dashboard lists in the parent document. The requested DashboardLists(s) (hyperlink) will be returned in the response body in an ItemsObject (hyperlink) array. |
+| 200 (Success) |You can view all the dashboard lists in the parent document. The requested dashboard lists will be returned in the response body in an [ItemsObject](../generic-slingshot-resources.html#item-object) array. |
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication.  |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
 
@@ -165,9 +161,9 @@ Schema:
 |    Property  | Type            | Attributes           |
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
 | name               | string | Min = 1, Max = 100 |  
-| user   |DocumentInfo | |
-| workspace            |DocumentInfo | |  
-| project    |DocumentInfo | | 
+| user   |[DocumentInfo](../generic-slingshot-resources.html#document-info-object)| |
+| workspace            |[DocumentInfo](../generic-slingshot-resources.html#document-info-object) | |  
+| project    |[DocumentInfo](../generic-slingshot-resources.html#document-info-object) | | 
 
 Example: 
 

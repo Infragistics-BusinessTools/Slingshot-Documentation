@@ -13,15 +13,15 @@ When you request to create a pin list, the request body will have the following 
 |    Property  | Type            | Attributes           |
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
 | name               | string | Min = 1, Max = 100 |  
-| user   |DocumentInfo | oneOf|
-| workspace            |DocumentInfo | oneOf|  
- | project    |DocumentInfo | oneOf| 
+| user   |[DocumentInfo](../generic-slingshot-resources.html#document-info-object)| | oneOf|
+| workspace            |[DocumentInfo](../generic-slingshot-resources.html#document-info-object)|| oneOf|  
+ | project    |[DocumentInfo](../generic-slingshot-resources.html#document-info-object)| | oneOf| 
 
 Possible responses:
 
 | Code | Description|
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| 201 (Created) |You successfully created a pin list. The newly created PinList (hyperlink) will be returned in the response body.  |
+| 201 (Created) |You successfully created a pin list. The newly created pin list will be returned in the response body.  |
 | 400 (Bad Request) |The request was not processed because of missing or malformed parameter(s). Check the errors array in the response to get an idea of what went wrong. |
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication.  |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
@@ -64,15 +64,13 @@ You can check all the information about a pin list by sending a `GET` request to
 
 `GET`/{base_url}/pinlists/{id}
 
-Schema: PinList (hyperlink)
-
 Required parameters: the **id** of the pin list
 
 Possible responses:
 
 | Code | Description|
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| 200 (Success) |You can view the pin list. The requested PinList (hyperlink) will be returned in the response body.    |
+| 200 (Success) |You can view the pin list. The requested [PinList](#pinlist-schema) will be returned in the response body.    |
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication. |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
 
@@ -97,7 +95,7 @@ Possible responses:
 
 | Code | Description|
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| 200 (Success) |The pin list is updated. The updated PinList (hyperlink) will be returned in the response body.    |
+| 200 (Success) |The pin list is updated. The updated pin list will be returned in the response body.    |
 | 400 (Bad Request) |The request was not processed because of missing or malformed parameter(s). Check the errors array in the response to get an idea of what went wrong. |
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication. |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
@@ -152,15 +150,13 @@ You can view all the pin lists that are in a parent document (workspace, user or
 
 `GET` {base_url}/pinlists/parent/{id}
 
-Schema: PinList(s) (hyperlink)
-
 Required parameters: the **id** of the parent document
 
 Possible responses:
 
 | Code | Description|
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| 200 (Success) |You can view all the pin lists that are in the parent document. The requested PinList(s) (hyperlink) will be returned in the response body in an ItemsObject (hyperlink) array.    |
+| 200 (Success) |You can view all the pin lists that are in the parent document. The requested [PinList(s)](#pinlist-schema) will be returned in the response body in an [ItemsObject](../generic-slingshot-resources.html#item-object) array.    |
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication. |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
 
@@ -174,10 +170,10 @@ Schema:
 | modified             | string |  |
 | created             | string |  |
 | name               | string | Min = 1, Max = 100 |
-| user            | DocumentInfo |  |
-| workspace            |DocumentInfo | |  
-| project    |DocumentInfo | | 
-| pinSections   |array <DocumentInfo>  | |
+| user            | [DocumentInfo](../generic-slingshot-resources.html#document-info-object)|  |
+| workspace            |[DocumentInfo](../generic-slingshot-resources.html#document-info-object) | |  
+| project    |[DocumentInfo](../generic-slingshot-resources.html#document-info-object) | | 
+| pinSections   |array [DocumentInfo](../generic-slingshot-resources.html#document-info-object)  | |
 
 Example:
 

@@ -90,8 +90,14 @@
   href: slingshot-api/api-explorer.md
 - name: Authentication
   href: slingshot-api/authentication.md
+- name: Errors
+  href: slingshot-api/errors.md
 - name: Generic Slingshot Resources
   href: slingshot-api/generic-slingshot-resources.md
+- name: Overview
+  href: slingshot-api/overview.md
+- name: Rate Limits
+  href: slingshot-api/rate-limits.md
 - name: Rest API 
   new: true
   items:
@@ -101,6 +107,9 @@
     - name: Task List
       href: slingshot-api/rest-api/task-list.md
       new: false
+    - name: Task Section
+      href: slingshot-api/rest-api/task-section.md
+      new: false
     - name: User
       href: slingshot-api/rest-api/user.md
       new: false
@@ -108,7 +117,7 @@
       href: slingshot-api/rest-api/dashboard.md
       new: false 
     - name: Dashboard List
-      href: slingshot-api/rest-api/dashboardlist.md
+      href: slingshot-api/rest-api/dashboard-list.md
       new: false 
     - name: Dashboard Section
       href: slingshot-api/rest-api/dashboard-section.md
