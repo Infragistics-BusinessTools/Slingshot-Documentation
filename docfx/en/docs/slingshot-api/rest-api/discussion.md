@@ -6,7 +6,6 @@ You can create a discussion by sending a `POST` request to the {base_url}/discus
 
 `POST` {base_url}/discussions
 
-Schema: Discussion (hyperlink)
 
 Required parameters: None 
 
@@ -15,13 +14,13 @@ When you request to create a discussion, the request body will have the followin
 |    Property  | Type            | Attributes           |
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
 | name               | string | Min = 1, Max = 100 |  
-| discussionList         |DocumentInfo (link) | |  
+| discussionList         |[DocumentInfo](../generic-slingshot-resources.html#document-info-object) | |  
 
  Possible responses:
 
 | Code | Description|
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| 201 (Created) |You successfully created a discussion. The newly created Discussion (hyperlink) will be returned in the response body. |
+| 201 (Created) |You successfully created a discussion. The newly created discussion will be returned in the response body. |
 | 400 (Bad Request) |The request was not processed because of missing or malformed parameter(s). Check the errors array in the response to get an idea of what went wrong. |
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication.  |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
@@ -64,15 +63,13 @@ You can check a discussion by submitting a GET request to the {base_url}/discuss
  
 `GET` {base_url}/discussions  
 
-Schema: Discussion (hyperlink)
-
 Required parameters: the **id** of the discussion
  
 Possible responses:
 
 | Code | Description|
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| 200 (Success) |You can view the discussion. The requested Discussion (hyperlink) will be returned in the response body.   |
+| 200 (Success) |You can view the discussion. The requested [Discussion](#discussion-schema) will be returned in the response body.   |
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication.  |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
 
@@ -153,15 +150,13 @@ You can view all the discussions for a parent document (workspace, user or a pro
 
 `GET` {base_url}/discussions/parent/{id}
 
-Schema: Discussion (hyperlink)
-
 Required parameters: the **id** of the parent discussion list
 
 Possible responses:
 
 | Code | Description|
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| 200 (Success) |You can view all the discussions that are in the parent document. The requested Discussions (hyperlink) will be returned in the response body.  |
+| 200 (Success) |You can view all the discussions that are in the parent document. The requested discussions will be returned in the response body.  |
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication.  |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
 
@@ -170,8 +165,6 @@ Possible responses:
 You can send a discussion message by submitting a `POST` request to the {base_url}/discussions/{id}/send endpoint.  
 
 `POST` {base_url}/discussions/{id}/send
-
-Schema: Discussion (hyperlink)
 
 Required parameters: the **id** of the discussion
 
@@ -185,7 +178,7 @@ Possible responses:
 
 | Code | Description|
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| 204 (No Content) |The discussion is deleted. |
+| 204 (No Content) |The message is sent. |
 | 400 (Bad Request) |The request was not processed because of missing or malformed parameter(s). Check the errors array in the response to get an idea of what went wrong. |
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication. |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
@@ -204,8 +197,6 @@ You can view all the messages from a discussion by submitting a `GET` request wi
 
 `GET` {base_url}/discussions/{id}/messages
 
-Schema: Discussion (hyperlink)
-
 Required parameters: the **id** of the discussion 
 
 >[!NOTE] In case you don’t set a number of returned messages or a start index, they will be automatically added. The default value for the number of returned messages is 10 and for the start index is 0.
@@ -214,7 +205,7 @@ Possible responses:
 
 |Code | Description|
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| 200 (Success) |You can view all the messages in the discussion. The requested Discussion (hyperlink) messages will be returned in the response body. |
+| 200 (Success) |You can view all the messages in the discussion. The requested [Discussion](#discussion-schema) messages will be returned in the response body. |
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication.  |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
 
@@ -229,10 +220,10 @@ Schema:
 | timestamp           | Double |  |
 | created             | string |  |
 | name               | string |  Min = 1, Max = 100 |  
-| workspace            |DocumentInfo | |  
-| project    |DocumentInfo | | 
-| discussionList             | ChatMesssageInfo(link) |  |
-| lastMessage   |ChatMessageInfo | |
+| workspace            |[DocumentInfo](../generic-slingshot-resources.html#document-info-object)| |  
+| project    |[DocumentInfo](../generic-slingshot-resources.html#document-info-object)| | 
+| discussionList             | [ChatMessageInfo](../generic-slingshot-resources.html#chat-message-info-object ) |  |
+| lastMessage   |[ChatMessageInfo](../generic-slingshot-resources.html#chat-message-info-object ) | |
 
 Example: 
 

@@ -15,13 +15,13 @@ When you request to create a dashboard section, the request body will have the f
 |    Property  | Type            | Attributes           |
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
 | name               | string | Min = 1, Max = 100 | 
-| dashboardList             | DocumentInfo |  |
+| dashboardList             | [DocumentInfo](../generic-slingshot-resources.html#document-info-object) |  |
 
 Possible responses:
 
 | Code | Description|
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| 201 (Created) |You successfully created a dashboards section. The newly created DashboardSection (hyperlink) will be returned in the response body.  |
+| 201 (Created) |You successfully created a dashboards section. The newly created dashboard section will be returned in the response body.  |
 | 400 (Bad Request) |The request was not processed because of missing or malformed parameter(s). Check the errors array in the response to get an idea of what went wrong. |
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication.  |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
@@ -64,15 +64,13 @@ You can check all the information about a dashboard section by sending a `GET` r
 
 `GET`/{base_url}/dashboardsections/{id}
 
-Schema: DashboardSection (hyperlink)
-
 Required parameters: the **id** of the dashboard section
 
 Possible responses:
 
 | Code | Description|
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| 200 (Success) |You can view the dashboards section. The requested DashboardSection (hyperlink) will be returned in the response body.   |
+| 200 (Success) |You can view the dashboards section. The requested [DashboardSection](#dashboardsection-schema) will be returned in the response body.   |
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication. |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
 
@@ -94,7 +92,7 @@ Possible responses:
 
 | Code | Description|
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| 200 (Success) |The dashboards section is updated. The updated DashboardSection (hyperlink) will be returned in the response body.  |
+| 200 (Success) |The dashboards section is updated. The updated dashboard section will be returned in the response body.  |
 | 400 (Bad Request) |The request was not processed because of missing or malformed parameter(s). Check the errors array in the response to get an idea of what went wrong. |
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication.  |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
@@ -149,15 +147,13 @@ You can view all the dashboard section for a parent dashboard list by submitting
 
 `GET` {base_url}/dashboardsections/parent/{id}
 
-Schema: DashboardSection (hyperlink)
-
 Required parameters: the **id** of the dashboard list 
 
 Possible responses:
 
 | Code | Description|
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| 200 (Success) |You can view all the dashboard sections in the parent dashboard list. The requested [DashboardSection(s)](/docfx/en/docs/slingshot-api/generic-slingshot-resources.md) (hyperlink) will be returned in the response body in an ItemsObject (hyperlink) array. |
+| 200 (Success) |You can view all the dashboard sections in the parent dashboard list. The requested [DashboardSection](#dashboardsection-schema) will be returned in the response body in an [ItemsObject](../generic-slingshot-resources.html#document-info-object) array. |
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication.  |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
 
@@ -171,11 +167,11 @@ Schema:
 | modified             | string | |
 | created             | string |  |
 | name               | string | Min = 1, Max = 100 | 
-| user            | DocumentInfo | |
-| workspace            |DocumentInfo | |  
-| project    |DocumentInfo | | 
-| dashboardList             | DocumentInfo |  |
-| dashboards   |array <DocumentInfo>  |  |
+| user            | [DocumentInfo](../generic-slingshot-resources.html#document-info-object) | |
+| workspace            |[DocumentInfo](../generic-slingshot-resources.html#document-info-object) | |  
+| project    |[DocumentInfo](../generic-slingshot-resources.html#document-info-object)| | 
+| dashboardList             | [DocumentInfo](../generic-slingshot-resources.html#document-info-object) |  |
+| dashboards   |array [DocumentInfo](../generic-slingshot-resources.html#document-info-object)  |  |
 
 Example:
 

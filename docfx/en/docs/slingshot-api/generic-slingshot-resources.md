@@ -1,19 +1,25 @@
 # Generic Slingshot resources
 
-Item object - contains an array of objects of type T
+### Item object 
+
+It contains an array of objects of type T.
 
 | Property | Type|
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
 |items|array|
 
-Document Info Object – Contains information about a specific document 
+### Document Info Object 
+
+It contains information about a specific document.
 
 | Property | Type|
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
 |id|string|
 |name|string|
 
-Member Info Object – Contains information about a specific member 
+### Member Info Object 
+
+It contains information about a specific member. 
 
 | Property | Type|
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
@@ -22,7 +28,9 @@ Member Info Object – Contains information about a specific member
 |name|string|
 |role|string Enum (owner, contributor, viewer)|
 
-Assignee Info Object – Contains information about a specific task assignee 
+### Assignee Info Object 
+
+It contains information about a specific task assignee. 
 
 Property | Type|
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
@@ -30,7 +38,9 @@ Property | Type|
 |email|string|
 |name|string|
 
-Chat Message Info Object – Contains information about a specific chat message 
+### Chat Message Info Object 
+
+It contains information about a specific chat message. 
 
 Property | Type|
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |

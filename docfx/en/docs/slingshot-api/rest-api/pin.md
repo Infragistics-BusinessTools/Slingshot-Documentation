@@ -22,7 +22,7 @@ Possible responses:
 
 | Code | Description|
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| 201 (Created) |You successfully created a pin. The newly created Pin (hyperlink) will be returned in the response body.   |
+| 201 (Created) |You successfully created a pin. The newly created pin will be returned in the response body.   |
 | 400 (Bad Request) |The request was not processed because of missing or malformed parameter(s). Check the errors array in the response to get an idea of what went wrong. |
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication.  |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
@@ -74,7 +74,7 @@ You can update a pin in a pin section by sending the `PATCH` request to the {bas
 
 `PATCH`/{base_url}/pins/{pinSectionId}/{pinId}
 
-Required parameters: the **id*8 of the pin section as well as the id of the pin being updated
+Required parameters: the **id** of the pin section as well as the id of the pin being updated
 
 When you request to update a pin in a pin section, the request body will have the following content: 
 
@@ -89,7 +89,7 @@ Possible responses:
 
 | Code | Description|
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| 200 (Success) |The pin is updated. The updated Pin (hyperlink) will be returned in the response body.    |
+| 200 (Success) |The pin is updated. The updated pin will be returned in the response body.    |
 | 400 (Bad Request) |The request was not processed because of missing or malformed parameter(s). Check the errors array in the response to get an idea of what went wrong. |
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication. |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
@@ -103,6 +103,8 @@ Example of a successful request:
 }
 ```
 Example of a successful response: 
+
+```
 {
   "id": "{123456}_bs",
   "modified": "2023-02-09T10:49:24.0000000",

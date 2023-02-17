@@ -13,13 +13,13 @@ When you request to create a pin section, the request body will have the followi
 |    Property  | Type            | Attributes           |
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
 | name               | string | Min = 1, Max = 100 |  
-| pinList   |DocumentInfo | |
+| pinList   |[DocumentInfo](../generic-slingshot-resources.html#document-info-object) | |
 
 Possible responses:
 
 | Code | Description|
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| 201 (Created) |You successfully created a pin section. The newly created PinSection (hyperlink) will be returned in the response body.   |
+| 201 (Created) |You successfully created a pin section. The newly created pin section will be returned in the response body.   |
 | 400 (Bad Request) |The request was not processed because of missing or malformed parameter(s). Check the errors array in the response to get an idea of what went wrong. |
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication.  |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
@@ -65,15 +65,13 @@ Example of a successful response:
 You can check all the information about a pin section by sending a `GET` request to the {base_url}/pinsections/{id}endpoint.
 `GET`/{base_url}/pinsections/{id}
 
-Schema: PinSection (hyperlink)
-
 Required parameters: the **id** of the pin section
 
 Possible responses:
 
 | Code | Description|
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| 200 (Success) |You can view the pin section. The requested PinSection (hyperlink) will be returned in the response body.   |
+| 200 (Success) |You can view the pin section. The requested [PinSection](#pinsection-schema) will be returned in the response body.   |
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication. |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
 
@@ -95,7 +93,7 @@ Possible responses:
 
 | Code | Description|
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| 200 (Success) |The pin section is updated. The updated PinSection (hyperlink) will be returned in the response body.  |
+| 200 (Success) |The pin section is updated. The updated pin section will be returned in the response body.  |
 | 400 (Bad Request) |The request was not processed because of missing or malformed parameter(s). Check the errors array in the response to get an idea of what went wrong. |
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication. |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
@@ -154,15 +152,13 @@ You can view all the pin sections for a parent pin list by submitting a `GET` re
 
 `GET` {base_url}/pinsections/parent/{id}
 
-Schema: PinSection (hyperlink)
-
 Required parameters: the **id** of the parent pin list
 
 Possible responses:
 
 | Code | Description|
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| 200 (Success) |You can view all the pin sections in the parent pin list. The requested PinSection(s) (hyperlink) will be returned in the response body in an ItemsObject (hyperlink) array.    |
+| 200 (Success) |You can view all the pin sections in the parent pin list. The requested [PinSection](#pinsection-schema) will be returned in the response body in an [ItemsObject](../generic-slingshot-resources.html#item-object) array.    |
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication. |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
 
@@ -176,11 +172,11 @@ Schema:
 | modified             | string |  |
 | created             | string |  |
 | name               | string |  Min = 1, Max = 100 |  
-| user             | DocumentInfo | | 
-| workspace            |DocumentInfo | |  
-| project    |DocumentInfo | | 
-| pinList   |DocumentInfo | | 
-| pins   |array <DocumentInfo>  | | 
+| user             | [DocumentInfo](../generic-slingshot-resources.html#document-info-object) | | 
+| workspace            |[DocumentInfo](../generic-slingshot-resources.html#document-info-object) | |  
+| project    |[DocumentInfo](../generic-slingshot-resources.html#document-info-object)| | 
+| pinList   |[DocumentInfo](../generic-slingshot-resources.html#document-info-object)| | 
+| pins   |array [DocumentInfo](../generic-slingshot-resources.html#document-info-object)  | | 
 
 Example:
 

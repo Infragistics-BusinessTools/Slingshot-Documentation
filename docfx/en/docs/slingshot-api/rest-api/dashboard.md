@@ -5,15 +5,13 @@
 You can check all the information about a dashboard by sending a `GET` request to the the {base_url}/dashboards/{id}endpoint.
 `GET`/{base_url}/dashboards/{id}
 
-Schema: Dashboard (hyperlink)
-
 Required parameters: the **id** of the dashboard
 
 Possible responses:
 
 | Code | Description|
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| 200 (Success) |You can view the dashboard. The requested dashboard (hyperlink) will be returned in the response body.  |
+| 200 (Success) |You can view the dashboard. The requested [Dashboard](#dashboard-schema) will be returned in the response body.  |
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication.  |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
 
@@ -35,7 +33,7 @@ Possible responses:
 
 | Code | Description|
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| 200 (Success) |The dashboard is updated. The updated Dashboard (hyperlink) will be returned in the response body.  |
+| 200 (Success) |The dashboard is updated. The updated dashboard will be returned in the response body.  |
 | 400 (Bad Request) |The request was not processed because of missing or malformed parameter(s). Check the errors array in the response to get an idea of what went wrong. |
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication.  |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
@@ -98,11 +96,11 @@ Schema:
 | created             | string |  |
 | name               | string | Min = 1, Max = 100 | 
 | description           | string | Min = 1, Max = 144, Nullable |
-| user            | DocumentInfo |  |
-| workspace            |DocumentInfo | |  
-| project    |DocumentInfo | | 
-| dashboardList             | DocumentInfo |  |
-| dashboardSection   |DocumentInfo |  |
+| user            | [DocumentInfo](../generic-slingshot-resources.html#document-info-object)|  |
+| workspace            |[DocumentInfo](../generic-slingshot-resources.html#document-info-object) | |  
+| project    |[DocumentInfo](../generic-slingshot-resources.html#document-info-object) | | 
+| dashboardList             | [DocumentInfo](../generic-slingshot-resources.html#document-info-object) |  |
+| dashboardSection   |[DocumentInfo](../generic-slingshot-resources.html#document-info-object)|  |
 
 Example:
 

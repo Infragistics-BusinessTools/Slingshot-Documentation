@@ -1,3 +1,4 @@
+
 # Discussion List
 
 ## Create a discussion list
@@ -13,14 +14,14 @@ When you request to create a discussion list, the request body will have the fol
 |    Property  | Type            | Attributes           |
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
 | name               | string | Min = 1, Max = 100 |  
-| workspace            |DocumentInfo | OneOf|  
- | project    |DocumentInfo | OneOf| 
+| workspace            |[DocumentInfo](../generic-slingshot-resources.html#document-info-object)| OneOf|  
+ | project    |[DocumentInfo](../generic-slingshot-resources.html#document-info-object) | OneOf| 
 
  Possible responses:
 
 | Code | Description|
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| 201 (Created) |You successfully created a discussion list. The newly created DiscussionList (hyperlink) will be returned in the response body. |
+| 201 (Created) |You successfully created a discussion list. The newly created discussion list will be returned in the response body. |
 | 400 (Bad Request) |The request was not processed because of missing or malformed parameter(s). Check the errors array in the response to get an idea of what went wrong. |
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication.  |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
@@ -64,15 +65,13 @@ You can check all the information about a discussion list by sending a `GET` req
 
 `GET`/{base_url}/discussionlists/{id}
 
-Schema: DiscussionList (link)
-
 Required parameters: the **id** of the discussion list
 
  Possible responses:
 
 | Code | Description|
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| 200 (Success) |You can view the discussionlist. The requested DiscussionList (hyperlink) will be returned in the response body.   |
+| 200 (Success) |You can view the discussion list. The requested [DiscussionList](#discussionlist-schema) will be returned in the response body.   |
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication.  |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
 
@@ -95,7 +94,7 @@ When you request to update a discussion list, the request body will have the fol
 
 | Code | Description|
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| 200 (Success) |The discussion list is updated. The updated DiscussionList (hyperlink) will be returned in the response body. |
+| 200 (Success) |The discussion list is updated. The updated discussion list will be returned in the response body. |
 | 400 (Bad Request) |The request was not processed because of missing or malformed parameter(s). Check the errors array in the response to get an idea of what went wrong. |
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication.  |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
@@ -150,15 +149,13 @@ You can view all the discussion lists that are in a parent document (workspace, 
 
 `GET` {base_url}/discussionlists/parent/{id}
 
-Schema: DiscussionList (hyperlink)
-
 Required parameters: the **id** of the parent document.
 
 Possible responses:
 
 | Code | Description|
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| 200 (Success) |You can view all the discussion lists in the parent document. The requested DiscussionList(s) (hyperlink) will be returned in the response body in an ItemsObject (hyperlink) array. |
+| 200 (Success) |You can view all the discussion lists in the parent document. The requested [DiscussionList(s)](#discussionlist-schema) will be returned in the response body in an ItemsObject (hyperlink) array. |
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication.  |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
 
@@ -172,10 +169,10 @@ Schema:
 | modified             | string |  |
 | created             | string |  |
 | name               | string | Min = 1, Max = 100 |  
-| workspace            |DocumentInfo | |  
-| project    |DocumentInfo | | 
+| workspace            |[DocumentInfo](../generic-slingshot-resources.html#document-info-object) | |  
+| project    |[DocumentInfo](../generic-slingshot-resources.html#document-info-object) | | 
 | discussionsCount             | int |  |
-| discussions             | array<DocumentInfo> | |
+| discussions             | array[DocumentInfo](../generic-slingshot-resources.html#document-info-object) | |
 
 Example:
 
