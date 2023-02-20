@@ -30,11 +30,11 @@ Example of a successful request:
 
 ```
 {
-  "name": "Q4",
-  "dashboardList": {
-    "id": "{123456}_repo",
-     "name": "Marketing"
-  }
+    "name": "Q4",
+    "dashboardList": {
+        "id": "{123456}_repo",
+        "name": "Marketing"
+    }
 }
 ```
 
@@ -42,19 +42,19 @@ Example of a successful response:
 
 ```
 {
-  "id": "{123456}_f",
-  "modified": "2023-02-06T14:52:33.0000000",
-  "created": "2023-02-06T14:52:33.0000000",
-  "name": "Q4",
-  "user": {
-    "id": "{123456}_u",
-    "name": "Vyara Todorova"
-  },
-  "dashboardList": {
-    "id": "{123456}_repo",
-    "name": "Marketing"
-  },
-  "dashboards": []
+    "id": "{123456}_f",
+    "modified": "2023-02-06T14:52:33.0000000",
+    "created": "2023-02-06T14:52:33.0000000",
+    "name": "Q4",
+    "user": {
+        "id": "{123456}_u",
+        "name": "Vyara Todorova"
+    },
+    "dashboardList": {
+        "id": "{123456}_repo",
+        "name": "Marketing"
+    },
+    "dashboards": []
 }
 ```
 
@@ -101,27 +101,27 @@ Example of a successful request:
 
 ```
 {
-  "name": "Q2"
-  }
+    "name": "Q2"
+}
 ```
 
 Example of a successful response: 
 
 ```
 {
-  "id": "{123456}_f",
-  "modified": "2023-02-06T15:08:45.0000000",
-  "created": "2023-02-06T14:51:44.0000000",
-  "name": "Q2",
-  "user": {
-    "id": "{123456}_u",
-    "name": "Vyara Todorova"
-  },
-  "dashboardList": {
-    "id": "{123456}_repo",
-    "name": "Marketing"
-  },
-  "dashboards": []
+    "id": "{123456}_f",
+    "modified": "2023-02-06T15:08:45.0000000",
+    "created": "2023-02-06T14:51:44.0000000",
+    "name": "Q2",
+    "user": {
+        "id": "{123456}_u",
+        "name": "Vyara Todorova"
+    },
+    "dashboardList": {
+        "id": "{123456}_repo",
+        "name": "Marketing"
+    },
+    "dashboards": []
 }
 ```
 
@@ -177,19 +177,19 @@ Example:
 
 ```
 {
-  "id": "{123456}_f",
-  "modified": "2023-02-06T14:52:33.0000000",
-  "created": "2023-02-06T14:52:33.0000000",
-  "name": "Q4",
-  "user": {
-    "id": "{123456}_u",
-    "name": "Vyara Todorova"
-  },
-  "dashboardList": {
-    "id": "{123456}_repo",
-    "name": "Test"
-  },
-  "dashboards": []
+    "id": "{123456}_f",
+    "modified": "2023-02-06T14:52:33.0000000",
+    "created": "2023-02-06T14:52:33.0000000",
+    "name": "Q4",
+    "user": {
+        "id": "{123456}_u",
+        "name": "Vyara Todorova"
+    },
+    "dashboardList": {
+        "id": "{123456}_repo",
+        "name": "Test"
+    },
+    "dashboards": []
 }
 ```
 

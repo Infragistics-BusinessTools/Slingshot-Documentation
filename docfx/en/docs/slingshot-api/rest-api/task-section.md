@@ -28,11 +28,11 @@ Example of a successful request:
 
 ```
 {
-  "name": "Q3",
-  "taskList": {
-    "id": "{123456}_tg",
-    "name": "3"
-  }
+    "name": "Q3",
+    "taskList": {
+        "id": "{123456}_tg",
+        "name": "3"
+    }
 }
 ```
 
@@ -40,19 +40,19 @@ Example of a successful response:
 
 ```
 {
-  "id": "{123456}_tg",
-  "modified": "2023-02-03T12:03:58.0000000",
-  "created": "2023-02-03T12:03:58.0000000",
-  "name": "Q3",
-  "user": {
-    "id": "{123456}_u",
-    "name": "Vyara Petrova"
-  },
-  "taskList": {
     "id": "{123456}_tg",
-    "name": "3"
-  },
-  "tasks": []
+    "modified": "2023-02-03T12:03:58.0000000",
+    "created": "2023-02-03T12:03:58.0000000",
+    "name": "Q3",
+    "user": {
+        "id": "{123456}_u",
+        "name": "Vyara Petrova"
+    },
+    "taskList": {
+        "id": "{123456}_tg",
+        "name": "3"
+    },
+    "tasks": []
 }
 ```
 
@@ -99,7 +99,7 @@ Example of a successful request:
 
 ```
 {
-  "name": "Support cases"
+    "name": "Support cases"
 }
 ```
 
@@ -107,19 +107,19 @@ Example of a successful response:
 
 ```
 {
-  "id": "{123456}_tg",
-  "modified": "2023-02-03T12:22:07.0000000",
-  "created": "2023-02-03T12:03:58.0000000",
-  "name": "Support cases",
-  "user": {
-    "id": "{123456}_u",
-    "name": "Vyara Petrova"
-  },
-  "taskList": {
     "id": "{123456}_tg",
-    "name": "Support"
-  },
-  "tasks": []
+    "modified": "2023-02-03T12:22:07.0000000",
+    "created": "2023-02-03T12:03:58.0000000",
+    "name": "Support cases",
+    "user": {
+        "id": "{123456}_u",
+        "name": "Vyara Petrova"
+    },
+    "taskList": {
+        "id": "{123456}_tg",
+        "name": "Support"
+    },
+    "tasks": []
 }
 ```
 
@@ -173,19 +173,20 @@ Example:
 
 ```
 {
-  "id": "{123456}_tg",
-  "modified": "2023-01-26T13:44:26.0000000",
-  "created": "2023-01-26T13:44:26.0000000",
-  "name": "Q1",
-  "workspace": {
-    "id": "{123456}_ws",
-    "name": "Customer support"
-  },
-  "taskList": {
     "id": "{123456}_tg",
-    "name": "Feedback"
-  },
-  "tasks": []
+    "modified": "2023-01-26T13:44:26.0000000",
+    "created": "2023-01-26T13:44:26.0000000",
+    "name": "Q1",
+    "workspace": {
+        "id": "{123456}_ws",
+        "name": "Customer support"
+    },
+    "taskList": {
+        "id": "{123456}_tg",
+        "name": "Feedback"
+    },
+    "tasks": []
+}
   ```
 
 

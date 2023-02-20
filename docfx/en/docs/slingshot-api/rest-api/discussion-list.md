@@ -1,4 +1,3 @@
-
 # Discussion List
 
 ## Create a discussion list
@@ -30,11 +29,11 @@ Example of a successful request:
 
 ```
 {
-  "name": "Feedback",
-  "project": {
-    "id": "{123456}_proj",
-    "name": "Customer Support"
-  }
+    "name": "Feedback",
+    "project": {
+        "id": "{123456}_proj",
+        "name": "Customer Support"
+    }
 }
 ```
 
@@ -42,20 +41,20 @@ Example of a successful response:
 
 ```
 {
-  "id": "{123456}",
-  "modified": "2023-02-07T07:43:52.0000000",
-  "created": "2023-02-07T07:43:52.0000000",
-  "name": "Feedback",
-  "workspace": {
-    "id": "{123456}_ws",
-    "name": "General Management"
-  },
-  "project": {
-    "id": "{123456}_proj",
-    "name": "Customer Support"
-  },
-  "discussionsCount": 0,
-  "discussions": []
+    "id": "{123456}",
+    "modified": "2023-02-07T07:43:52.0000000",
+    "created": "2023-02-07T07:43:52.0000000",
+    "name": "Feedback",
+    "workspace": {
+        "id": "{123456}_ws",
+        "name": "General Management"
+    },
+    "project": {
+        "id": "{123456}_proj",
+        "name": "Customer Support"
+    },
+    "discussionsCount": 0,
+    "discussions": []
 }
 ```
 
@@ -103,7 +102,7 @@ Example of a successful request:
 
 ```
 {
-  "name": "Feedback",
+    "name": "Feedback"
 }
 ```
 
@@ -111,20 +110,20 @@ Example of a successful response:
 
 ```
 {
-  "id": "{123456}",
-  "modified": "2023-02-07T07:56:13.0000000",
-  "created": "2023-02-07T07:55:22.0000000",
-  "name": "Feedback",
-  "workspace": {
-    "id": "{123456}_ws",
-    "name": "General Management"
-  },
-  "project": {
-    "id": "{123456}_proj",
-    "name": "Q1"
-  },
-  "discussionsCount": 0,
-  "discussions": []
+    "id": "{123456}",
+    "modified": "2023-02-07T07:56:13.0000000",
+    "created": "2023-02-07T07:55:22.0000000",
+    "name": "Feedback",
+    "workspace": {
+        "id": "{123456}_ws",
+        "name": "General Management"
+    },
+    "project": {
+        "id": "{123456}_proj",
+        "name": "Q1"
+    },
+    "discussionsCount": 0,
+    "discussions": []
 }
 ```
 ## Delete a discussion list
@@ -178,20 +177,20 @@ Example:
 
 ```
 {
-  "id": "{123456}",
-  "modified": "2023-02-07T07:43:52.0000000",
-  "created": "2023-02-07T07:43:52.0000000",
-  "name": "Feedback",
-  "workspace": {
-    "id": "{123456}_ws",
-    "name": "General Management"
-  },
-  "project": {
-    "id": "{123456}_proj",
-    "name": "Customer Support"
-  },
-  "discussionsCount": 0,
-  "discussions": []
+    "id": "{123456}",
+    "modified": "2023-02-07T07:43:52.0000000",
+    "created": "2023-02-07T07:43:52.0000000",
+    "name": "Feedback",
+    "workspace": {
+        "id": "{123456}_ws",
+        "name": "General Management"
+    },
+    "project": {
+        "id": "{123456}_proj",
+        "name": "Customer Support"
+    },
+    "discussionsCount": 0,
+    "discussions": []
 }
 ```
 

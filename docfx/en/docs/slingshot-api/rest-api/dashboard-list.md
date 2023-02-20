@@ -32,26 +32,26 @@ Example of a successful request:
 
 ```
 {
-  "name": "Marketing",
-  "user": {
-    "id": "{123456}_u"
+    "name": "Marketing",
+    "user": {
+      "id": "{123456}_u"
+    }
   }
-}
   ```
 
 Example of a successful response: 
 
 ```
 {
-  "id": "{123456}_repo",
-  "modified": "2023-02-03T14:07:34.0000000",
-  "created": "2023-02-03T14:07:34.0000000",
-  "name": "Marketing",
-  "user": {
-    "id": "{123456}_u",
-    "name": "Teddy Mitkova"
-  },
-  "dashboardSections": []
+    "id": "{123456}_repo",
+    "modified": "2023-02-03T14:07:34.0000000",
+    "created": "2023-02-03T14:07:34.0000000",
+    "name": "Marketing",
+    "user": {
+        "id": "{123456}_u",
+        "name": "Teddy Mitkova"
+    },
+    "dashboardSections": []
 }
 ```
 
@@ -97,7 +97,7 @@ Example of a successful request:
 
 ```
 {
-  "name": "Marketing"
+    "name": "Marketing"
 }
 ```
 
@@ -105,20 +105,20 @@ Example of a successful response:
 
 ```
 {
-  "id": "{123456}_repo",
-  "modified": "2023-02-06T12:34:39.0000000",
-  "created": "2023-02-06T12:08:44.0000000",
-  "name": "Marketing",
-  "user": {
-    "id": "{123456}_u",
-    "name": "Vyara Todorova"
-  },
-  "dashboardSections": [
-    {
-      "id":"{123456}_f",
-      "name": "Q1"
-    }
-  ]
+    "id": "{123456}_repo",
+    "modified": "2023-02-06T12:34:39.0000000",
+    "created": "2023-02-06T12:08:44.0000000",
+    "name": "Marketing",
+    "user": {
+        "id": "{123456}_u",
+        "name": "Vyara Todorova"
+    },
+    "dashboardSections": [
+        {
+            "id": "{123456}_f",
+            "name": "Q1"
+        }
+    ]
 }
 ```
 
@@ -169,15 +169,15 @@ Example:
 
 ```
 {
-  "id": "{123456}_repo",
-  "modified": "2023-02-03T14:07:34.0000000",
-  "created": "2023-02-03T14:07:34.0000000",
-  "name": "Marketing",
-  "user": {
-    "id": "{123456}_u ",
-    "name": "Teddy Mitkova"
-  },
-  "dashboardSections": []
+    "id": "{123456}_repo",
+    "modified": "2023-02-03T14:07:34.0000000",
+    "created": "2023-02-03T14:07:34.0000000",
+    "name": "Marketing",
+    "user": {
+        "id": "{123456}_u ",
+        "name": "Teddy Mitkova"
+    },
+    "dashboardSections": []
 }
 ```
 

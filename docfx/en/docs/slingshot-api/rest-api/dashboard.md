@@ -41,8 +41,9 @@ Possible responses:
 Example of a successful request:
 
 ```
-{"description": "Results",
-  "name": "Results(2022)”
+{
+    "description": "Results",
+    "name": "Results(2022)"
 }
 ```
 
@@ -50,23 +51,23 @@ Example of a successful response:
 
 ```
 {
-  "id": "{123456}",
-  "modified": "2023-02-06T13:39:17.0000000",
-  "created": "2022-09-29T13:07:03.0000000",
-  "name": "Results(2022)",
-  "description": "Results",
-  "user": {
-    "id": "{123456}_u",
-    "name": "Vyara Mihailova"
-  },
-  "dashboardList": {
-    "id": "{123456}_repo",
-    "name": "My Dashboards"
-  },
-  "dashboardSection": {
-    "id": "{123456}_f",
-    "name": "Section 1"
-  }
+    "id": "{123456}",
+    "modified": "2023-02-06T13:39:17.0000000",
+    "created": "2022-09-29T13:07:03.0000000",
+    "name": "Results(2022)",
+    "description": "Results",
+    "user": {
+        "id": "{123456}_u",
+        "name": "Vyara Mihailova"
+    },
+    "dashboardList": {
+        "id": "{123456}_repo",
+        "name": "My Dashboards"
+    },
+    "dashboardSection": {
+        "id": "{123456}_f",
+        "name": "Section 1"
+    }
 }
 ```
 
@@ -106,22 +107,22 @@ Example:
 
 ```
 {
-  "id": "{123456}",
-  "modified": "2023-02-06T12:34:39.0000000",
-  "created": "2022-09-29T13:27:25.0000000",
-  "name": "Absences",
-  "user": {
-    "id": "{123456}_u",
-    "name": "Vyara Todorova"
-  },
-  "dashboardList": {
-    "id": "{123456}_repo",
-    "name": "HR"
-  },
-  "dashboardSection": {
-    "id": "{123456}_f",
-    "name": "June"
-  }
+    "id": "{123456}",
+    "modified": "2023-02-06T12:34:39.0000000",
+    "created": "2022-09-29T13:27:25.0000000",
+    "name": "Absences",
+    "user": {
+        "id": "{123456}_u",
+        "name": "Vyara Todorova"
+    },
+    "dashboardList": {
+        "id": "{123456}_repo",
+        "name": "HR"
+    },
+    "dashboardSection": {
+        "id": "{123456}_f",
+        "name": "June"
+    }
 }
 ```
 

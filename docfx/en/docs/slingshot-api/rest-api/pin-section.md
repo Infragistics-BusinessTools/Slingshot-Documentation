@@ -1,4 +1,4 @@
-# Pin section
+# Pin Section
 
 ## Create a pin section
 
@@ -28,11 +28,11 @@ Example of a successful request:
 
 ```
 {
-  "name": "Q3",
-  "pinList": {
-    "id": "{123456}_b",
-    "name": "Statistics"
-      }
+    "name": "Q3",
+    "pinList": {
+        "id": "{123456}_b",
+        "name": "Statistics"
+    }
 }
 ```
 
@@ -40,23 +40,23 @@ Example of a successful response:
 
 ```
 {
-  "id": "{123456}_bs",
-  "modified": "2023-02-07T10:37:52.0000000",
-  "created": "2023-02-07T10:37:52.0000000",
-  "name": "Q3",
-  "workspace": {
-    "id": "{123456}_ws",
-    "name": "General Management"
-  },
-  "project": {
-    "id": "{123456}_proj",
-    "name": "Support"
-  },
-  "pinList": {
-    "id": "{123456}_b",
-    "name": "Statistics"
-  },
-  "pins": []
+    "id": "{123456}_bs",
+    "modified": "2023-02-07T10:37:52.0000000",
+    "created": "2023-02-07T10:37:52.0000000",
+    "name": "Q3",
+    "workspace": {
+        "id": "{123456}_ws",
+        "name": "General Management"
+    },
+    "project": {
+        "id": "{123456}_proj",
+        "name": "Support"
+    },
+    "pinList": {
+        "id": "{123456}_b",
+        "name": "Statistics"
+    },
+    "pins": []
 }
 ```
 
@@ -102,7 +102,7 @@ Example of a successful request:
 
 ```
 {
-  "name": "Strategy"
+    "name": "Strategy"
 }
 ```
 
@@ -110,23 +110,23 @@ Example of a successful response:
 
 ```
 {
-  "id": "{123456}_bs",
-  "modified": "2023-02-07T11:11:50.0000000",
-  "created": "2023-02-07T10:24:36.0000000",
-  "name": "Strategy",
-  "workspace": {
-    "id": "{123456}_ws",
-    "name": "General Management"
-  },
-  "project": {
-    "id": "{123456}_proj",
-    "name": "vv"
-  },
-  "pinList": {
-    "id": "{123456}_b",
-    "name": "Statistics"
-  },
-  "pins": []
+    "id": "{123456}_bs",
+    "modified": "2023-02-07T11:11:50.0000000",
+    "created": "2023-02-07T10:24:36.0000000",
+    "name": "Strategy",
+    "workspace": {
+        "id": "{123456}_ws",
+        "name": "General Management"
+    },
+    "project": {
+        "id": "{123456}_proj",
+        "name": "vv"
+    },
+    "pinList": {
+        "id": "{123456}_b",
+        "name": "Statistics"
+    },
+    "pins": []
 }
 ```
 
@@ -182,23 +182,23 @@ Example:
 
 ```
 {
-  "id": "{123456}_bs",
-  "modified": "2023-02-07T10:37:52.0000000",
-  "created": "2023-02-07T10:37:52.0000000",
-  "name": "Q3",
-  "workspace": {
-    "id": "123456}_ws",
-    "name": "General Management"
-  },
-  "project": {
-    "id": "123456}_proj",
-    "name": "Support"
-  },
-  "pinList": {
-    "id": "123456}_b",
-    "name": "Statistics"
-  },
-  "pins": []
+    "id": "{123456}_bs",
+    "modified": "2023-02-07T10:37:52.0000000",
+    "created": "2023-02-07T10:37:52.0000000",
+    "name": "Q3",
+    "workspace": {
+        "id": "123456}_ws",
+        "name": "General Management"
+    },
+    "project": {
+        "id": "123456}_proj",
+        "name": "Support"
+    },
+    "pinList": {
+        "id": "123456}_b",
+        "name": "Statistics"
+    },
+    "pins": []
 }
 ```
 
