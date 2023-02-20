@@ -146,6 +146,9 @@
     - name: Project
       href: slingshot-api/rest-api/project.md
       new: false
+    - name: Workspace
+      href: slingshot-api/rest-api/workspace.md
+      new: false
 - name: RELEASE INFORMATION
   header: true
   new: false
