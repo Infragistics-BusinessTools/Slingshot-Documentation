@@ -140,6 +140,15 @@
     - name: Pin Section
       href: slingshot-api/rest-api/pin-section.md
       new: false
+    - name: Private Chat
+      href: slingshot-api/rest-api/private-chat.md
+      new: false
+    - name: Project
+      href: slingshot-api/rest-api/project.md
+      new: false
+    - name: Workspace
+      href: slingshot-api/rest-api/workspace.md
+      new: false
 - name: RELEASE INFORMATION
   header: true
   new: false
