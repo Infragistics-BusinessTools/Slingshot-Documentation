@@ -13,9 +13,9 @@ When you request to create a task, the request body will have the following cont
 |    Property  | Type            | Attributes           |
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
 | name               | string | Min = 1, Max = 100 |
-| user             | DocumentInfo | oneOf| 
-| workspace            |DocumentInfo | oneOf|  
-| project    |DocumentInfo |oneOf|
+| user             |[DocumentInfo](../generic-slingshot-resources.html#document-info-object) | oneOf| 
+| workspace            |[DocumentInfo](../generic-slingshot-resources.html#document-info-object) | oneOf|  
+| project    |[DocumentInfo](../generic-slingshot-resources.html#document-info-object) |oneOf|
 
 Possible responses:
 
