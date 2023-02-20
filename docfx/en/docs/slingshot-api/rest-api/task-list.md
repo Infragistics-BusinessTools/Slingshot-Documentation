@@ -1,4 +1,4 @@
-# Task list
+# Task List
 
 ## Create a task list
 
@@ -30,11 +30,11 @@ Example of a successful request:
 
 ```
 {
-  "name": "Q3",
-  "user": {
-    "id": "{123456}_u",
-    "name": "Vyara Yan"
-  }
+    "name": "Q3",
+    "user": {
+        "id": "{123456}_u",
+        "name": "Vyara Yan"
+    }
 }
 ```
 
@@ -42,15 +42,15 @@ Example of a successful response:
 
 ```
 {
-  "id": "{123456}_tg",
-  "modified": "2023-02-16T11:36:57.0000000",
-  "created": "2023-02-16T11:36:56.0000000",
-  "name": "Q3",
-  "user": {
-    "id": "{123456}_u",
-    "name": "Vyara Yan"
-  },
-  "taskSections": []
+    "id": "{123456}_tg",
+    "modified": "2023-02-16T11:36:57.0000000",
+    "created": "2023-02-16T11:36:56.0000000",
+    "name": "Q3",
+    "user": {
+        "id": "{123456}_u",
+        "name": "Vyara Yan"
+    },
+    "taskSections": []
 }
 ```
 
@@ -96,7 +96,7 @@ Example of a successful request:
 
 ```
 {
-  "name": "Q4"
+    "name": "Q4"
 }
 ```
 
@@ -104,15 +104,15 @@ Example of a successful response:
 
 ```
 {
-  "id": "{123456}_tg",
-  "modified": "2023-02-16T11:49:56.0000000",
-  "created": "2023-02-16T11:36:56.0000000",
-  "name": "Q4",
-  "user": {
-    "id": "{123456}_u",
-    "name": "Vyara Yan"
-  },
-  "taskSections": []
+    "id": "{123456}_tg",
+    "modified": "2023-02-16T11:49:56.0000000",
+    "created": "2023-02-16T11:36:56.0000000",
+    "name": "Q4",
+    "user": {
+        "id": "{123456}_u",
+        "name": "Vyara Yan"
+    },
+    "taskSections": []
 }
 ```
 
@@ -167,30 +167,30 @@ Example:
 
 ```
 {
-  "items": [
-    {
-      "id": "{123456}_tg",
-      "modified": "2023-01-23T15:15:30.0000000",
-      "created": "2023-01-23T15:15:30.0000000",
-      "name": "Workspace Tasks",
-      "workspace": {
-        "id": "{123456}_ws",
-        "name": "Customer support"
-      },
-      "taskSections": []
-    },
-    {
-      "id": "{123456}_tg",
-      "modified": "2023-01-26T08:16:35.0000000",
-      "created": "2023-01-26T08:16:34.0000000",
-      "name": "Feedback",
-      "workspace": {
-        "id": "{123456}_ws",
-        "name": "Marketing"
-      },
-      "taskSections": []
-    }
-  ]	
+    "items": [
+        {
+            "id": "{123456}_tg",
+            "modified": "2023-01-23T15:15:30.0000000",
+            "created": "2023-01-23T15:15:30.0000000",
+            "name": "Workspace Tasks",
+            "workspace": {
+                "id": "{123456}_ws",
+                "name": "Customer support"
+            },
+            "taskSections": []
+        },
+        {
+            "id": "{123456}_tg",
+            "modified": "2023-01-26T08:16:35.0000000",
+            "created": "2023-01-26T08:16:34.0000000",
+            "name": "Feedback",
+            "workspace": {
+                "id": "{123456}_ws",
+                "name": "Marketing"
+            },
+            "taskSections": []
+        }
+    ]
 }
 ```
 

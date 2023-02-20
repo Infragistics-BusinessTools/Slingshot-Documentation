@@ -32,18 +32,18 @@ Example of a successful request:
 
 ```
 {
-  "name": "Marketing",
-  "startDate": "2023-02-08T08:29:02.597Z",
-  "endDate": "2023-02-08T08:29:02.597Z",
-  "status": "none",
-  "members": [
-    {
-      "id": "{123456}_u",
-      "name": "Vyara",
-      "role": "owner"
-    }
-  ],
-  "description": "Q1"
+    "name": "Marketing",
+    "startDate": "2023-02-08T08:29:02.597Z",
+    "endDate": "2023-02-08T08:29:02.597Z",
+    "status": "none",
+    "members": [
+        {
+            "id": "{123456}_u",
+            "name": "Vyara",
+            "role": "owner"
+        }
+    ],
+    "description": "Q1"
 }
 ```
 
@@ -51,46 +51,46 @@ Example of a successful response:
 
 ```
 {
-  "id": "{123456}_ws",
-  "modified": "2023-02-08T08:40:30.0000000",
-  "created": "2023-02-08T08:40:27.0000000",
-  "name": "Marketing",
-  "description": "Q1",
-  "startDate": "2023-02-08T08:29:02.0000000",
-  "endDate": "2023-02-08T08:29:02.0000000",
-  "status": "none",
-  "organization": {
-    "id": "{123456}_org",
-    "name": null
-  },
-  "members": [
-    {
-      "id": "{123456}_u",
-      "role": "owner",
-      "name": "Vyara"
-    }
-  ],
-  "requests": [],
-  "pendingInvites": [],
-  "projects": [],
-  "pinLists": [
-    {
-      "id": "{123456}_ws_d",
-      "name": "Workspace Pins"
-    }
-  ],
-  "taskLists": [
-    {
-      "id": "{123456}_tg",
-      "name": "Workspace Tasks"
-    }
-  ],
-  "discussionLists": [
-    {
-      "id": "{123456}",
-      "name": "Workspace Discussions"
-    }
-  ]
+    "id": "{123456}_ws",
+    "modified": "2023-02-08T08:40:30.0000000",
+    "created": "2023-02-08T08:40:27.0000000",
+    "name": "Marketing",
+    "description": "Q1",
+    "startDate": "2023-02-08T08:29:02.0000000",
+    "endDate": "2023-02-08T08:29:02.0000000",
+    "status": "none",
+    "organization": {
+        "id": "{123456}_org",
+        "name": null
+    },
+    "members": [
+        {
+            "id": "{123456}_u",
+            "role": "owner",
+            "name": "Vyara"
+        }
+    ],
+    "requests": [],
+    "pendingInvites": [],
+    "projects": [],
+    "pinLists": [
+        {
+            "id": "{123456}_ws_d",
+            "name": "Workspace Pins"
+        }
+    ],
+    "taskLists": [
+        {
+            "id": "{123456}_tg",
+            "name": "Workspace Tasks"
+        }
+    ],
+    "discussionLists": [
+        {
+            "id": "{123456}",
+            "name": "Workspace Discussions"
+        }
+    ]
 }
 ```
 
@@ -158,18 +158,18 @@ Example of a successful request:
 
 ```
 {
-  "name": "Management",
-  "startDate": "2023-02-08T09:05:22.195Z",
-  "endDate": "2023-02-08T09:05:22.195Z",
-  "status": "none",
-  "members": [
-    {
-      "id": "{123456}_u",
-      "name": "Vyara",
-      "role": "owner"
-    }
-  ],
-  "description": "2022"
+    "name": "Management",
+    "startDate": "2023-02-08T09:05:22.195Z",
+    "endDate": "2023-02-08T09:05:22.195Z",
+    "status": "none",
+    "members": [
+        {
+            "id": "{123456}_u",
+            "name": "Vyara",
+            "role": "owner"
+        }
+    ],
+    "description": "2022"
 }
 ```
 
@@ -177,47 +177,47 @@ Example of a successful response:
 
 ```
 {
-  "id": "{123456}_ws",
-  "id": "{123456}_ws",
-  "modified": "2023-02-08T09:07:50.0000000",
-  "created": "2023-02-08T08:40:27.0000000",
-  "name": "Management",
-  "description": "2022",
-  "startDate": "2023-02-08T09:05:22.0000000",
-  "endDate": "2023-02-08T09:05:22.0000000",
-  "status": "none",
-  "organization": {
-    "id": "{123456}",
-    "name": "Doe"
-  },
-  "members": [
-    {
-      "id": "{123456}_u",
-      "role": "owner",
-      "name": "Vyara"
-    }
-  ],
-  "requests": [],
-  "pendingInvites": [],
-  "projects": [],
-  "pinLists": [
-    {
-      "id": "{123456}_ws_d",
-      "name": "Workspace Pins"
-    }
-  ],
-  "taskLists": [
-    {
-      "id": "{123456}_tg",
-      "name": "Workspace Tasks"
-    }
-  ],
-  "discussionLists": [
-    {
-      "id": "{123456}",
-      "name": "Workspace Discussions"
-    }
-  ]
+    "id": "{123456}_ws",
+    "id": "{123456}_ws",
+    "modified": "2023-02-08T09:07:50.0000000",
+    "created": "2023-02-08T08:40:27.0000000",
+    "name": "Management",
+    "description": "2022",
+    "startDate": "2023-02-08T09:05:22.0000000",
+    "endDate": "2023-02-08T09:05:22.0000000",
+    "status": "none",
+    "organization": {
+        "id": "{123456}",
+        "name": "Doe"
+    },
+    "members": [
+        {
+            "id": "{123456}_u",
+            "role": "owner",
+            "name": "Vyara"
+        }
+    ],
+    "requests": [],
+    "pendingInvites": [],
+    "projects": [],
+    "pinLists": [
+        {
+            "id": "{123456}_ws_d",
+            "name": "Workspace Pins"
+        }
+    ],
+    "taskLists": [
+        {
+            "id": "{123456}_tg",
+            "name": "Workspace Tasks"
+        }
+    ],
+    "discussionLists": [
+        {
+            "id": "{123456}",
+            "name": "Workspace Discussions"
+        }
+    ]
 }
 ```
 
@@ -260,13 +260,13 @@ Example of a successful request:
 
 ```
 {
-  "items": [
-    {
-      "id": "{123456}_u",
-      "name": "Nik Petrov",
-      "role": "owner"
-    }
-  ]
+    "items": [
+        {
+            "id": "{123456}_u",
+            "name": "Nik Petrov",
+            "role": "owner"
+        }
+    ]
 }
 ```
 
@@ -274,62 +274,62 @@ Example of a successful response:
 
 ```
 {
-  "id": "{123456}_ws",
-  "modified": "2023-02-09T14:51:20.0000000",
-  "created": "2023-01-23T15:15:29.0000000",
-  "name": "Documentation",
-  "organization": {
-    "id": "{123456}_org",
-    "name": null
-  },
-  "members": [
-    {
-      "id": "{123456}_u",
-      "role": "owner",
-      "name": "Vyara",
-      "email": "v@gmail.com"
+    "id": "{123456}_ws",
+    "modified": "2023-02-09T14:51:20.0000000",
+    "created": "2023-01-23T15:15:29.0000000",
+    "name": "Documentation",
+    "organization": {
+        "id": "{123456}_org",
+        "name": null
     },
-    {
-      "id": "{123456}_u",
-      "role": "owner",
-      "name": "Nik Petrov",
-      "email": "n@gmail.com"
-    }
-  ],
-  "requests": [],
-  "pendingInvites": [],
-  "projects": [
-    {
-      "id": "{123456}_proj",
-      "name": "Testing"
-    }
-  ],
-  "pinLists": [
-    {
-      "id": "{123456}_ws_d",
-      "name": "Workspace Pins"
-    }
-  ],
-  "taskLists": [
-    {
-      "id": "{123456}_tg",
-      "name": "Workspace Tasks"
-    },
-    {
-      "id": "{123456}_tg",
-      "name": "Threads"
-    }
-  ],
-  "discussionLists": [
-    {
-      "id": "{123456}",
-      "name": "Workspace Discussions"
-    },
-    {
-      "id": "{123456}",
-      "name": "Feedback"
-    }
-  ]
+    "members": [
+        {
+            "id": "{123456}_u",
+            "role": "owner",
+            "name": "Vyara",
+            "email": "v@gmail.com"
+        },
+        {
+            "id": "{123456}_u",
+            "role": "owner",
+            "name": "Nik Petrov",
+            "email": "n@gmail.com"
+        }
+    ],
+    "requests": [],
+    "pendingInvites": [],
+    "projects": [
+        {
+            "id": "{123456}_proj",
+            "name": "Testing"
+        }
+    ],
+    "pinLists": [
+        {
+            "id": "{123456}_ws_d",
+            "name": "Workspace Pins"
+        }
+    ],
+    "taskLists": [
+        {
+            "id": "{123456}_tg",
+            "name": "Workspace Tasks"
+        },
+        {
+            "id": "{123456}_tg",
+            "name": "Threads"
+        }
+    ],
+    "discussionLists": [
+        {
+            "id": "{123456}",
+            "name": "Workspace Discussions"
+        },
+        {
+            "id": "{123456}",
+            "name": "Feedback"
+        }
+    ]
 }
 ```
 
@@ -356,13 +356,13 @@ Example of a successful request:
 
 ```
 {
-  "items": [
-    {
-      "id": "{123456}_u",
-      "name": "Nick",
-      "role": "owner"
-    }
-  ]
+    "items": [
+        {
+            "id": "{123456}_u",
+            "name": "Nick",
+            "role": "owner"
+        }
+    ]
 }
 ```
 
@@ -370,66 +370,66 @@ Example of a successful response:
 
 ```
 {
-  "id": "{123456}_ws",
-  "modified": "2023-02-13T10:37:36.0000000",
-  "created": "2023-01-23T15:15:29.0000000",
-  "name": "Customer support",
-  "organization": {
-    "id": "{123456}_org",
-    "name": "Doe"
-  },
-  "members": [
-    {
-      "id": "{123456}_u",
-      "role": "owner",
-      "name": "Ver",
-      "email": "v@gmail.com"
+    "id": "{123456}_ws",
+    "modified": "2023-02-13T10:37:36.0000000",
+    "created": "2023-01-23T15:15:29.0000000",
+    "name": "Customer support",
+    "organization": {
+        "id": "{123456}_org",
+        "name": "Doe"
     },
-    {
-      "id": "{123456}_u",
-      "role": "owner",
-      "name": "Nick",
-      "email": "n@gmail.com"
-    }
-  ],
-  "requests": [],
-  "pendingInvites": [],
-  "projects": [
-    {
-      "id": "{123456}_proj",
-      "name": "Feedack"
-    }
-  ],
-  "pinLists": [
-    {
-      "id": "{123456}_ws_d",
-      "name": "Workspace Pins"
-    }
-  ],
-  "taskLists": [
-    {
-      "id": "{123456}_tg",
-      "name": "Workspace Tasks"
-    },
-    {
-      "id": "{123456}_tg",
-      "name": "Q1"
-    }
-  ],
-  "discussionLists": [
-    {
-      "id": "{123456}",
-      "name": "Workspace Discussions"
-    },
-    {
-      "id": "{123456}",
-      "name": "Emails"
-    },
-    {
-      "id": "{123456}",
-      "name": "Chats"
-    }
-  ]
+    "members": [
+        {
+            "id": "{123456}_u",
+            "role": "owner",
+            "name": "Ver",
+            "email": "v@gmail.com"
+        },
+        {
+            "id": "{123456}_u",
+            "role": "owner",
+            "name": "Nick",
+            "email": "n@gmail.com"
+        }
+    ],
+    "requests": [],
+    "pendingInvites": [],
+    "projects": [
+        {
+            "id": "{123456}_proj",
+            "name": "Feedack"
+        }
+    ],
+    "pinLists": [
+        {
+            "id": "{123456}_ws_d",
+            "name": "Workspace Pins"
+        }
+    ],
+    "taskLists": [
+        {
+            "id": "{123456}_tg",
+            "name": "Workspace Tasks"
+        },
+        {
+            "id": "{123456}_tg",
+            "name": "Q1"
+        }
+    ],
+    "discussionLists": [
+        {
+            "id": "{123456}",
+            "name": "Workspace Discussions"
+        },
+        {
+            "id": "{123456}",
+            "name": "Emails"
+        },
+        {
+            "id": "{123456}",
+            "name": "Chats"
+        }
+    ]
 }
 ```
 
@@ -456,13 +456,14 @@ Example of a successful request:
 
 ```
 {
-  "items": [
-    {
-      "id": "{123456}_u",
-      "name": "Nick",
-      "role": "contributor"
-    }
-  ]
+    "items": [
+        {
+            "id": "{123456}_u",
+            "name": "Nick",
+            "role": "contributor"
+        }
+    ]
+}
 
 ```
 
@@ -470,60 +471,60 @@ Example of a successful response:
 
 ```
 {
-  "id": "{123456}_ws",
-  "modified": "2023-02-13T10:25:22.0000000",
-  "created": "2023-01-23T15:15:29.0000000",
-  "name": "Customer Support",
-  "organization": {
-    "id": "{123456}_org",
-    "name": "Doe"
-  },
-  "members": [
-    {
-      "id": "{123456}_u",
-      "role": "owner",
-      "name": "Ver",
-      "email": "v@gmail.com"
-    }
-  ],
-  "requests": [],
-  "pendingInvites": [],
-  "projects": [
-    {
-      "id": "{123456}_proj",
-      "name": "Feedback"
-    }
-  ],
-  "pinLists": [
-    {
-      "id": "{123456}_ws_d",
-      "name": "Workspace Pins"
-    }
-  ],
-  "taskLists": [
-    {
-      "id": "{123456}_tg",
-      "name": "Workspace Tasks"
+    "id": "{123456}_ws",
+    "modified": "2023-02-13T10:25:22.0000000",
+    "created": "2023-01-23T15:15:29.0000000",
+    "name": "Customer Support",
+    "organization": {
+        "id": "{123456}_org",
+        "name": "Doe"
     },
-    {
-      "id": "{123456}_tg",
-      "name": "string"
-    }
-  ],
-  "discussionLists": [
-    {
-      "id": "{123456}",
-      "name": "Workspace Discussions"
-    },
-    {
-      "id": "{123456}",
-      "name": "Email Support"
-    },
-    {
-      "id": "{123456}",
-      "name": "Chat Support"
-    }
-  ]
+    "members": [
+        {
+            "id": "{123456}_u",
+            "role": "owner",
+            "name": "Ver",
+            "email": "v@gmail.com"
+        }
+    ],
+    "requests": [],
+    "pendingInvites": [],
+    "projects": [
+        {
+            "id": "{123456}_proj",
+            "name": "Feedback"
+        }
+    ],
+    "pinLists": [
+        {
+            "id": "{123456}_ws_d",
+            "name": "Workspace Pins"
+        }
+    ],
+    "taskLists": [
+        {
+            "id": "{123456}_tg",
+            "name": "Workspace Tasks"
+        },
+        {
+            "id": "{123456}_tg",
+            "name": "string"
+        }
+    ],
+    "discussionLists": [
+        {
+            "id": "{123456}",
+            "name": "Workspace Discussions"
+        },
+        {
+            "id": "{123456}",
+            "name": "Email Support"
+        },
+        {
+            "id": "{123456}",
+            "name": "Chat Support"
+        }
+    ]
 }
 ```
 
@@ -550,12 +551,12 @@ Example of a successful request:
 
 ```
 {
-  "items": [
-    {
-      "id": "{123456}_u",
-      "role": "owner"
-    }
-  ]
+    "items": [
+        {
+            "id": "{123456}_u",
+            "role": "owner"
+        }
+    ]
 }
 ```
 
@@ -563,60 +564,60 @@ Example of a successful response:
 
 ```
 {
-  "id": "{123456}_ws",
-  "modified": "2023-02-10T14:20:52.0000000",
-  "created": "2023-02-10T14:13:59.0000000",
-  "name": "Workspace",
-  "organization": {
-    "id": "{123456}_org",
-    "name": "Doe"
-  },
-  "members": [
-    {
-      "id": "{123456}_u",
-      "role": "owner",
-      "name": "Nick",
-      "email": "n@gmail.com"
+    "id": "{123456}_ws",
+    "modified": "2023-02-10T14:20:52.0000000",
+    "created": "2023-02-10T14:13:59.0000000",
+    "name": "Workspace",
+    "organization": {
+        "id": "{123456}_org",
+        "name": "Doe"
     },
-    {
-      "id": "{123456}_u",
-      "role": "owner",
-      "name": "Ver",
-      "email": "v@gmail.com"
-    },
-    {
-      "id": "{123456}_u",
-      "role": "owner",
-      "name": "Ron",
-      "email": "r@gmail.com"
-    }
-  ],
-  "requests": [],
-  "pendingInvites": [],
-  "projects": [
-    {
-      "id": "{123456}_proj",
-      "name": "Feedback"
-    }
-  ],
-  "pinLists": [
-    {
-      "id": "{123456}_ws_d",
-      "name": "Workspace Pins"
-    }
-  ],
-  "taskLists": [
-    {
-      "id": "{123456}_tg",
-      "name": "Workspace Tasks"
-    }
-  ],
-  "discussionLists": [
-    {
-      "id": "{123456}",
-      "name": "Workspace Discussions"
-    }
-  ]
+    "members": [
+        {
+            "id": "{123456}_u",
+            "role": "owner",
+            "name": "Nick",
+            "email": "n@gmail.com"
+        },
+        {
+            "id": "{123456}_u",
+            "role": "owner",
+            "name": "Ver",
+            "email": "v@gmail.com"
+        },
+        {
+            "id": "{123456}_u",
+            "role": "owner",
+            "name": "Ron",
+            "email": "r@gmail.com"
+        }
+    ],
+    "requests": [],
+    "pendingInvites": [],
+    "projects": [
+        {
+            "id": "{123456}_proj",
+            "name": "Feedback"
+        }
+    ],
+    "pinLists": [
+        {
+            "id": "{123456}_ws_d",
+            "name": "Workspace Pins"
+        }
+    ],
+    "taskLists": [
+        {
+            "id": "{123456}_tg",
+            "name": "Workspace Tasks"
+        }
+    ],
+    "discussionLists": [
+        {
+            "id": "{123456}",
+            "name": "Workspace Discussions"
+        }
+    ]
 }
 ```
 
@@ -643,12 +644,12 @@ Example of a successful request:
 
 ```
 {
-  "items": [
-    {
-      "id": "{123456}_u",
-      "role": "owner"
-    }
-  ]
+    "items": [
+        {
+            "id": "{123456}_u",
+            "role": "owner"
+        }
+    ]
 }
 ```
 
@@ -656,54 +657,54 @@ Example of a successful response:
 
 ```
 {
-  "id": "{123456}_ws",
-  "modified": "2023-02-10T14:29:09.0000000",
-  "created": "2023-02-10T14:13:59.0000000",
-  "name": "Customer Support",
-  "organization": {
-    "id": "{123456}_org",
-    "name": "Doe"
-  },
-  "members": [
-    {
-      "id": "{123456}_u",
-      "role": "owner",
-      "name": "Nick",
-      "email": "n@gmail.com"
+    "id": "{123456}_ws",
+    "modified": "2023-02-10T14:29:09.0000000",
+    "created": "2023-02-10T14:13:59.0000000",
+    "name": "Customer Support",
+    "organization": {
+        "id": "{123456}_org",
+        "name": "Doe"
     },
-    {
-      "id": "{123456}_u",
-      "role": "owner",
-      "name": "Ver",
-      "email": "v@gmail.com"
-    }
-  ],
-  "requests": [],
-  "pendingInvites": [],
-  "projects": [
-    {
-      "id": "{123456}_proj",
-      "name": "Feedback"
-    }
-  ],
-  "pinLists": [
-    {
-      "id": "{123456}_ws_d",
-      "name": "Workspace Pins"
-    }
-  ],
-  "taskLists": [
-    {
-      "id": "{123456}_tg",
-      "name": "Workspace Tasks"
-    }
-  ],
-  "discussionLists": [
-    {
-      "id": "{123456}",
-      "name": "Workspace Discussions"
-    }
-  ]
+    "members": [
+        {
+            "id": "{123456}_u",
+            "role": "owner",
+            "name": "Nick",
+            "email": "n@gmail.com"
+        },
+        {
+            "id": "{123456}_u",
+            "role": "owner",
+            "name": "Ver",
+            "email": "v@gmail.com"
+        }
+    ],
+    "requests": [],
+    "pendingInvites": [],
+    "projects": [
+        {
+            "id": "{123456}_proj",
+            "name": "Feedback"
+        }
+    ],
+    "pinLists": [
+        {
+            "id": "{123456}_ws_d",
+            "name": "Workspace Pins"
+        }
+    ],
+    "taskLists": [
+        {
+            "id": "{123456}_tg",
+            "name": "Workspace Tasks"
+        }
+    ],
+    "discussionLists": [
+        {
+            "id": "{123456}",
+            "name": "Workspace Discussions"
+        }
+    ]
 }
 ```
 
@@ -735,46 +736,46 @@ Example:
 
 ```
 {
-  "id": "{123456}_ws",
-  "modified": "2023-02-08T08:40:30.0000000",
-  "created": "2023-02-08T08:40:27.0000000",
-  "name": "Marketing",
-  "description": "Q1",
-  "startDate": "2023-02-08T08:29:02.0000000",
-  "endDate": "2023-02-08T08:29:02.0000000",
-  "status": "none",
-  "organization": {
-    "id": "{123456}_org",
-    "name": null
-  },
-  "members": [
-    {
-      "id": "{123456}_u",
-      "role": "owner",
-      "name": "Vyara"
-    }
-  ],
-  "requests": [],
-  "pendingInvites": [],
-  "projects": [],
-  "pinLists": [
-    {
-      "id": "{123456}_ws_d",
-      "name": "Workspace Pins"
-    }
-  ],
-  "taskLists": [
-    {
-      "id": "{123456}_tg",
-      "name": "Workspace Tasks"
-    }
-  ],
-  "discussionLists": [
-    {
-      "id": "{123456}",
-      "name": "Workspace Discussions"
-    }
-  ]
+    "id": "{123456}_ws",
+    "modified": "2023-02-08T08:40:30.0000000",
+    "created": "2023-02-08T08:40:27.0000000",
+    "name": "Marketing",
+    "description": "Q1",
+    "startDate": "2023-02-08T08:29:02.0000000",
+    "endDate": "2023-02-08T08:29:02.0000000",
+    "status": "none",
+    "organization": {
+        "id": "{123456}_org",
+        "name": null
+    },
+    "members": [
+        {
+            "id": "{123456}_u",
+            "role": "owner",
+            "name": "Vyara"
+        }
+    ],
+    "requests": [],
+    "pendingInvites": [],
+    "projects": [],
+    "pinLists": [
+        {
+            "id": "{123456}_ws_d",
+            "name": "Workspace Pins"
+        }
+    ],
+    "taskLists": [
+        {
+            "id": "{123456}_tg",
+            "name": "Workspace Tasks"
+        }
+    ],
+    "discussionLists": [
+        {
+            "id": "{123456}",
+            "name": "Workspace Discussions"
+        }
+    ]
 }
 ```
 

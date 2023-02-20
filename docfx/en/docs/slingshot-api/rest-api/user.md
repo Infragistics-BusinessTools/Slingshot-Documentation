@@ -45,7 +45,7 @@ Example of a successful request:
 
 ```
 {
-  "name": "Ver"
+    "name": "Ver"
 }
 ```
 
@@ -53,61 +53,60 @@ Example of a successful response:
 
 ```
 {
-  "id": "{123456}_u",
-  "modified": "2023-02-09T11:32:11.0000000",
-  "created": "2022-05-18T13:47:52.0000000",
-  "email": "v@gmail.com",
-  "name": "Ver",
-  "locale": "en",
-  "organizations": [
-    {
-      "id": "{123456}_org",
-      "role": "contributor",
-      "name": "Doe",
-      "type": "siblingmember"
-    }
-  ],
-  "workspaces": [
-    {
-      "id": "{123456}_ws",
-      "name": "Customer Support "
-    },
-    {
-      "id": "{123456}_ws",
-      "name": "General Management"
-    },
-    {
-      "id": "{123456}_ws",
-      "name": "Management"
-    }
-  ],
-  "projects": [
-    {
-      "id": "{123456}_proj",
-      "name": "Marketing"
-    },
-  
-    {
-      "id": "{123456}_proj",
-      "name": "HR"
-    }
-  ],
-  "pinLists": [
-    {
-      "id": "{123456}_d",
-      "name": "Personal Pins"
-    }
-  ],
-  "taskLists": [
-    {
-      "id": "{123456}",
-      "name": "Personal Tasks"
-    },
-    {
-      "id": "{123456}_tg",
-      "name": "Feedback"
-    }
-  ]
+    "id": "{123456}_u",
+    "modified": "2023-02-09T11:32:11.0000000",
+    "created": "2022-05-18T13:47:52.0000000",
+    "email": "v@gmail.com",
+    "name": "Ver",
+    "locale": "en",
+    "organizations": [
+        {
+            "id": "{123456}_org",
+            "role": "contributor",
+            "name": "Doe",
+            "type": "siblingmember"
+        }
+    ],
+    "workspaces": [
+        {
+            "id": "{123456}_ws",
+            "name": "Customer Support "
+        },
+        {
+            "id": "{123456}_ws",
+            "name": "General Management"
+        },
+        {
+            "id": "{123456}_ws",
+            "name": "Management"
+        }
+    ],
+    "projects": [
+        {
+            "id": "{123456}_proj",
+            "name": "Marketing"
+        },
+        {
+            "id": "{123456}_proj",
+            "name": "HR"
+        }
+    ],
+    "pinLists": [
+        {
+            "id": "{123456}_d",
+            "name": "Personal Pins"
+        }
+    ],
+    "taskLists": [
+        {
+            "id": "{123456}",
+            "name": "Personal Tasks"
+        },
+        {
+            "id": "{123456}_tg",
+            "name": "Feedback"
+        }
+    ]
 }
 ```
 

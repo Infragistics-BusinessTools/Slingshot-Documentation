@@ -30,11 +30,11 @@ Example of a successful request:
 
 ```
 {
-  "name": "HR",
-  "project": {
-    "id": "{123456}_proj",
-    "name": "Management"
-  }
+    "name": "HR",
+    "project": {
+        "id": "{123456}_proj",
+        "name": "Management"
+    }
 }
 ```
 
@@ -42,19 +42,19 @@ Example of a successful response:
 
 ```
 {
-  "id": "{123456}_b",
-  "modified": "2023-02-07T08:47:54.0000000",
-  "created": "2023-02-07T08:47:54.0000000",
-  "name": "HR",
-  "workspace": {
-    "id": "{123456}_ws",
-    "name": "CEO"
-  },
-  "project": {
-    "id": "{123456}_proj",
-    "name": "Management"
-  },
-  "pinSections": []
+    "id": "{123456}_b",
+    "modified": "2023-02-07T08:47:54.0000000",
+    "created": "2023-02-07T08:47:54.0000000",
+    "name": "HR",
+    "workspace": {
+        "id": "{123456}_ws",
+        "name": "CEO"
+    },
+    "project": {
+        "id": "{123456}_proj",
+        "name": "Management"
+    },
+    "pinSections": []
 }
 ```
 
@@ -104,7 +104,7 @@ Example of a successful request:
 
 ```
 {
-  "name": "Statistics"
+    "name": "Statistics"
 }
 ```
 
@@ -112,19 +112,19 @@ Example of a successful response:
 
 ```
 {
-  "id": "{123456}_b",
-  "modified": "2023-02-07T09:49:25.0000000",
-  "created": "2023-02-07T08:47:54.0000000",
-  "name": "Statistics",
-  "workspace": {
-    "id": "{123456}_ws",
-    "name": "General Management"
-  },
-  "project": {
-    "id": "{123456}_proj",
-    "name": "Customer Support"
-  },
-  "pinSections": []
+    "id": "{123456}_b",
+    "modified": "2023-02-07T09:49:25.0000000",
+    "created": "2023-02-07T08:47:54.0000000",
+    "name": "Statistics",
+    "workspace": {
+        "id": "{123456}_ws",
+        "name": "General Management"
+    },
+    "project": {
+        "id": "{123456}_proj",
+        "name": "Customer Support"
+    },
+    "pinSections": []
 }
 ```
 
@@ -179,18 +179,18 @@ Example:
 
 ```
 {
-  "id": "{123456}_b",
-  "modified": "2023-02-07T08:47:54.0000000",
-  "created": "2023-02-07T08:47:54.0000000",
-  "name": "HR",
-  "workspace": {
-    "id": "{123456}_ws",
-    "name": "General Management"
-  },
-  "project": {
-    "id": "{123456}_proj",
-    "name": "Team 1"
-  },
-  "pinSections": []
+    "id": "{123456}_b",
+    "modified": "2023-02-07T08:47:54.0000000",
+    "created": "2023-02-07T08:47:54.0000000",
+    "name": "HR",
+    "workspace": {
+        "id": "{123456}_ws",
+        "name": "General Management"
+    },
+    "project": {
+        "id": "{123456}_proj",
+        "name": "Team 1"
+    },
+    "pinSections": []
 }
 ```

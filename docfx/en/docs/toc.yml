@@ -86,53 +86,38 @@
   href: slingshot-subscription.md
 - name: API 
   header: true
+- name: Overview
+  href: slingshot-api/overview.md
 - name: API explorer
   href: slingshot-api/api-explorer.md
 - name: Authentication
   href: slingshot-api/authentication.md
-- name: Errors
-  href: slingshot-api/errors.md
 - name: Generic Slingshot Resources
   href: slingshot-api/generic-slingshot-resources.md
-- name: Overview
-  href: slingshot-api/overview.md
 - name: Rate Limits
   href: slingshot-api/rate-limits.md
+- name: Response Codes
+  href: slingshot-api/response-codes.md
 - name: Rest API 
   new: true
-  items:
-    - name: Task
-      href: slingshot-api/rest-api/task.md
-      new: false
-    - name: Task List
-      href: slingshot-api/rest-api/task-list.md
-      new: false
-    - name: Task Section
-      href: slingshot-api/rest-api/task-section.md
-      new: false
-    - name: User
-      href: slingshot-api/rest-api/user.md
-      new: false
-    - name: Dashboard
-      href: slingshot-api/rest-api/dashboard.md
-      new: false 
+  items: 
     - name: Dashboard List
       href: slingshot-api/rest-api/dashboard-list.md
       new: false 
     - name: Dashboard Section
       href: slingshot-api/rest-api/dashboard-section.md
-      new: false 
-    - name: Discussion
-      href: slingshot-api/rest-api/discussion.md
-      new: false 
+      new: false
+    - name: Dashboard
+      href: slingshot-api/rest-api/dashboard.md
+      new: false  
     - name: Discussion List
       href: slingshot-api/rest-api/discussion-list.md
       new: false
+    - name: Discussion
+      href: slingshot-api/rest-api/discussion.md
+      new: false
     - name: Organizations
       href: slingshot-api/rest-api/organizations.md
-      new: false
-    - name: Pin
-      href: slingshot-api/rest-api/pin.md
       new: false
     - name: Pin List
       href: slingshot-api/rest-api/pin-list.md
@@ -140,14 +125,29 @@
     - name: Pin Section
       href: slingshot-api/rest-api/pin-section.md
       new: false
+    - name: Pin
+      href: slingshot-api/rest-api/pin.md
+      new: false
     - name: Private Chat
       href: slingshot-api/rest-api/private-chat.md
       new: false
     - name: Project
       href: slingshot-api/rest-api/project.md
       new: false
+    - name: Task List
+      href: slingshot-api/rest-api/task-list.md
+      new: false
+    - name: Task Section
+      href: slingshot-api/rest-api/task-section.md
+      new: false
+    - name: Task
+      href: slingshot-api/rest-api/task.md
+      new: false
     - name: Workspace
       href: slingshot-api/rest-api/workspace.md
+      new: false
+    - name: User
+      href: slingshot-api/rest-api/user.md
       new: false
 - name: RELEASE INFORMATION
   header: true

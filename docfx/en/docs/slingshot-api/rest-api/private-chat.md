@@ -28,15 +28,14 @@ Example of a successful request:
 
 ```
 {
-  "members": [
-    {
-      "id": "{123456}_u",
-      "name": "Ver",
-      "role": "owner"
-    }
-  ],
-  "name": "Feedback"
-  
+    "members": [
+        {
+            "id": "{123456}_u",
+            "name": "Ver",
+            "role": "owner"
+        }
+    ],
+    "name": "Feedback"
 }
 ```
 
@@ -44,18 +43,18 @@ Example of a successful response:
 
 ```
 {
-  "id": "{123456}_pchat",
-  "modified": "2023-02-09T15:26:48.0000000",
-  "timestamp": 1675956408697.267,
-  "created": "2023-02-09T15:26:48.0000000",
-  "name": "Feedback",
-  "members": [
-    {
-      "id": "{123456}_u",
-      "name": Ver,
-      "role": "owner"
-    }
-  ]
+    "id": "{123456}_pchat",
+    "modified": "2023-02-09T15:26:48.0000000",
+    "timestamp": 1675956408697.267,
+    "created": "2023-02-09T15:26:48.0000000",
+    "name": "Feedback",
+    "members": [
+        {
+            "id": "{123456}_u",
+            "name": "Ver",
+            "role": "owner"
+        }
+    ]
 }
 ```
 
@@ -118,7 +117,7 @@ Example of a successful request:
 
 ```
 {
-  "name": "Check"
+    "name": "Check"
 }
 ```
 
@@ -126,28 +125,28 @@ Example of a successful response:
 
 ```
 {
-  "id": "{123456}_pchat",
-  "modified": "2023-02-20T07:53:06.0000000",
-  "timestamp": 1676879586281.6526,
-  "created": "2022-08-16T09:57:46.0000000",
-  "name": "Feedback",
-  "members": [
-    {
-      "id": "{123456}_u",
-      "name": "Ver",
-      "role": "owner"
-    },
-    {
-      "id": "{123456}_u",
-      "name": "B",
-      "role": "owner"
+    "id": "{123456}_pchat",
+    "modified": "2023-02-20T07:53:06.0000000",
+    "timestamp": 1676879586281.6526,
+    "created": "2022-08-16T09:57:46.0000000",
+    "name": "Feedback",
+    "members": [
+        {
+            "id": "{123456}_u",
+            "name": "Ver",
+            "role": "owner"
+        },
+        {
+            "id": "{123456}_u",
+            "name": "B",
+            "role": "owner"
+        }
+    ],
+    "lastMessage": {
+        "id": "{123456}",
+        "userId": "{123456}_u",
+        "text": "I will double-check."
     }
-  ],
-  "lastMessage": {
-    "id": "{123456}",
-    "userId": "{123456}_u",
-    "text": "I will double-check."
-  }
 }
 ```
 
@@ -215,13 +214,13 @@ Example of a successful request:
 
 ```
 {
-  "items": [
-    {
-      "id": "{123456}_u",
-      “name”: “Nik”,
-      "role": "owner"
-    }
-  ]
+    "items": [
+        {
+            "id": "{123456}_u",
+            "name": "Nik",
+            "role": "owner"
+        }
+    ]
 }
 ```
 
@@ -229,28 +228,28 @@ Example of a successful response:
 
 ```
 {
-  "id": "{123456}_pchat",
-  "modified": "2023-02-10T09:09:23.0000000",
-  "timestamp": 1676020163550.34,
-  "created": "2023-02-09T15:26:48.0000000",
-  "name": "Feedback",
-  "members": [
-    {
-      "id": "{123456}_u",
-      "name": “Vyara”,
-      "role": "owner"
-    },
-    {
-      "id": "{123456}_u",
-      "name": “Nik”,
-      "role": "owner"
+    "id": "{123456}_pchat",
+    "modified": "2023-02-10T09:09:23.0000000",
+    "timestamp": 1676020163550.34,
+    "created": "2023-02-09T15:26:48.0000000",
+    "name": "Feedback",
+    "members": [
+        {
+            "id": "{123456}_u",
+            "name": "Vyara",
+            "role": "owner"
+        },
+        {
+            "id": "{123456}_u",
+            "name": "Nik",
+            "role": "owner"
+        }
+    ],
+    "lastMessage": {
+        "id": "{123456}",
+        "userId": "{123456}_u",
+        "text": "Okay, I will check it again."
     }
-  ],
-"lastMessage": {
-    "id": "{123456}",
-    "userId": "{123456}_u",
-    "text": "Okay, I will check it again."
-  }
 }
 ```
 
@@ -277,13 +276,13 @@ Example of a successful request:
 
 ```
 {
-  "items": [
-    {
-      "id": "{123456}_u",
-      "name": "Nik",
-      "role": "owner"
-    }
-  ]
+    "items": [
+        {
+            "id": "{123456}_u",
+            "name": "Nik",
+            "role": "owner"
+        }
+    ]
 }
 ```
 
@@ -291,23 +290,23 @@ Example of a successful response:
 
 ```
 {
-  "id": "{123456}_pchat",
-  "modified": "2023-02-10T09:41:56.0000000",
-  "timestamp": 1676022116747.258,
-  "created": "2023-02-09T15:26:48.0000000",
-  "name": "Feedback",
-  "members": [
-    {
-      "id": "{123456}_u",
-      "name": Ver,
-      "role": "owner"
+    "id": "{123456}_pchat",
+    "modified": "2023-02-10T09:41:56.0000000",
+    "timestamp": 1676022116747.258,
+    "created": "2023-02-09T15:26:48.0000000",
+    "name": "Feedback",
+    "members": [
+        {
+            "id": "{123456}_u",
+            "name": "Ver",
+            "role": "owner"
+        }
+    ],
+    "lastMessage": {
+        "id": "{123456}",
+        "userId": "{123456}_u",
+        "text": "LeftGroupChat"
     }
-  ],
-  "lastMessage": {
-    "id": "{123456}",
-    "userId": "{123456}_u",
-    "text": "LeftGroupChat"
-  }
 }
 ```
 
@@ -329,28 +328,28 @@ Example:
 
 ```
 {
-  "id": "{123456}_pchat",
-  "modified": "2023-02-10T15:45:21.0000000",
-  "timestamp": 1676043921598.1133,
-  "created": "2023-02-09T15:26:48.0000000",
-  "name": "Feedback",
-  "members": [
-    {
-      "id": "{123456}_u",
-      "name":"Ver",
-      "role": "owner"
-    },
-    {
-      "id": "{123456}_u",
-      "name": "Nik",
-      "role": "owner"
+    "id": "{123456}_pchat",
+    "modified": "2023-02-10T15:45:21.0000000",
+    "timestamp": 1676043921598.1133,
+    "created": "2023-02-09T15:26:48.0000000",
+    "name": "Feedback",
+    "members": [
+        {
+            "id": "{123456}_u",
+            "name": "Ver",
+            "role": "owner"
+        },
+        {
+            "id": "{123456}_u",
+            "name": "Nik",
+            "role": "owner"
+        }
+    ],
+    "lastMessage": {
+        "id": "{123456}",
+        "userId": "{123456}_u",
+        "text": "I will check it."
     }
-  ],
-  "lastMessage": {
-    "id": "{123456}",
-    "userId": "{123456}_u",
-    "text": "I will check it."
-  }
 }
 ```
 

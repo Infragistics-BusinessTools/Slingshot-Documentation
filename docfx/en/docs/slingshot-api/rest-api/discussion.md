@@ -6,7 +6,6 @@ You can create a discussion by sending a `POST` request to the {base_url}/discus
 
 `POST` {base_url}/discussions
 
-
 Required parameters: None 
 
 When you request to create a discussion, the request body will have the following content:  
@@ -29,11 +28,11 @@ Example of a successful request:
 
 ```
 {
-  "name": "Feedback",
-  "discussionList": {
-  "id": "{123456}",
-    "name": "Threads",
-  }
+    "name": "Feedback",
+    "discussionList": {
+        "id": "{123456}",
+        "name": "Threads"
+    }
 }
 ```
 
@@ -41,19 +40,19 @@ Example of a successful response:
 
 ```
 {
-  "id": "{123456}",
-  "modified": "2023-02-03T10:11:36.0000000",
-  "timestamp": 1675419096390.1465,
-  "created": "2023-02-03T10:11:36.0000000",
-  "name": "Feedback",
-  "workspace": {
-    "id": "{123456}_ws",
-    "name": "Documentation"
-  },
-  "discussionList": {
     "id": "{123456}",
-    "name": "Threads"
-  }
+    "modified": "2023-02-03T10:11:36.0000000",
+    "timestamp": 1675419096390.1465,
+    "created": "2023-02-03T10:11:36.0000000",
+    "name": "Feedback",
+    "workspace": {
+        "id": "{123456}_ws",
+        "name": "Documentation"
+    },
+    "discussionList": {
+        "id": "{123456}",
+        "name": "Threads"
+    }
 }
 ```
 
@@ -98,8 +97,8 @@ Possible responses:
 
 Example of a successful request:
 
-```{
-  "name": "Emails"
+{
+    "name": "Emails"
 }
 ```
 
@@ -107,24 +106,24 @@ Example of a successful response:
 
 ```
 {
-  "id": "{123456}",
-  "modified": "2023-02-03T11:42:39.0000000",
-  "timestamp": 1675424559437.8538,
-  "created": "2023-01-27T11:53:13.0000000",
-  "name": "Emails",
-  "workspace": {
-    "id": "{123456}_ws",
-    "name": "Support"
-  },
-  "discussionList": {
     "id": "{123456}",
-    "name": "List 1"
-  },
-  "lastMessage": {
-    "id": "{123456}",
-    "userId": "{123456}_u",
-    "text": "We should check this again."
-  }
+    "modified": "2023-02-03T11:42:39.0000000",
+    "timestamp": 1675424559437.8538,
+    "created": "2023-01-27T11:53:13.0000000",
+    "name": "Emails",
+    "workspace": {
+        "id": "{123456}_ws",
+        "name": "Support"
+    },
+    "discussionList": {
+        "id": "{123456}",
+        "name": "List 1"
+    },
+    "lastMessage": {
+        "id": "{123456}",
+        "userId": "{123456}_u",
+        "text": "We should check this again."
+    }
 }
 ```
 
@@ -187,7 +186,7 @@ Example of a successful request:
 
 ```
 {
-  "text": "I will schedule a meeting for tomorrrow."
+    "text": "I will schedule a meeting for tomorrrow."
 }
 ```
 
@@ -229,19 +228,19 @@ Example:
 
 ```
 {
-  "id": "{123456}",
-  "modified": "2023-02-03T10:11:36.0000000",
-  "timestamp": 1675419096390.1465,
-  "created": "2023-02-03T10:11:36.0000000",
-  "name": "Feedback",
-  "workspace": {
-    "id": "{123456}_ws",
-    "name": "Documentation"
-  },
-  "discussionList": {
     "id": "{123456}",
-    "name": "Threads"
-  }
+    "modified": "2023-02-03T10:11:36.0000000",
+    "timestamp": 1675419096390.1465,
+    "created": "2023-02-03T10:11:36.0000000",
+    "name": "Feedback",
+    "workspace": {
+        "id": "{123456}_ws",
+        "name": "Documentation"
+    },
+    "discussionList": {
+        "id": "{123456}",
+        "name": "Threads"
+    }
 }
 ```
 

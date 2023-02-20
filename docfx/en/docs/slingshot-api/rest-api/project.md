@@ -33,20 +33,20 @@ Example of a successful request:
 
 ```
 {
-  "name": "Customer Support",
-  "startDate": "2023-02-08T09:36:12.627Z",
-  "endDate": "2023-02-08T09:36:12.627Z",
-  "status": "none",
-  "workspace": {
-    "id": "{123456}_ws"
-  },
-  "members": [
-    {
-      "id": "{123456}_u",
-      "role": "owner"
-    }
-  ],
-  "description": "Customer Support Cases"
+    "name": "Customer Support",
+    "startDate": "2023-02-08T09:36:12.627Z",
+    "endDate": "2023-02-08T09:36:12.627Z",
+    "status": "none",
+    "workspace": {
+        "id": "{123456}_ws"
+    },
+    "members": [
+        {
+            "id": "{123456}_u",
+            "role": "owner"
+        }
+    ],
+    "description": "Customer Support Cases"
 }
 ```
 
@@ -54,44 +54,44 @@ Example of a successful response:
 
 ```
 {
-  "id": "{123456}_proj",
-  "modified": "2023-02-08T10:28:43.0000000",
-  "created": "2023-02-08T10:28:43.0000000",
-  "name": "Customer Support",
-  "description": "Customer Support Cases",
-  "startDate": "2023-02-08T09:36:12.0000000",
-  "endDate": "2023-02-08T09:36:12.0000000",
-  "status": "none",
-  "workspace": {
-    "id": "{123456}_ws",
-    "name": "Management"
-  },
-  "members": [
-    {
-      "id": "{123456}_u",
-      "role": "owner"
-    }
-  ],
-  "requests": [],
-  "pendingInvites": [],
-  "pinLists": [
-    {
-      "id": "{123456}_proj_d",
-      "name": "Project Pins"
-    }
-  ],
-  "taskLists": [
-    {
-      "id": "{123456}_tg",
-      "name": "Project Tasks"
-    }
-  ],
-  "discussionLists": [
-    {
-      "id": "{123456}",
-      "name": "Project Discussions"
-    }
-  ]
+    "id": "{123456}_proj",
+    "modified": "2023-02-08T10:28:43.0000000",
+    "created": "2023-02-08T10:28:43.0000000",
+    "name": "Customer Support",
+    "description": "Customer Support Cases",
+    "startDate": "2023-02-08T09:36:12.0000000",
+    "endDate": "2023-02-08T09:36:12.0000000",
+    "status": "none",
+    "workspace": {
+        "id": "{123456}_ws",
+        "name": "Management"
+    },
+    "members": [
+        {
+            "id": "{123456}_u",
+            "role": "owner"
+        }
+    ],
+    "requests": [],
+    "pendingInvites": [],
+    "pinLists": [
+        {
+            "id": "{123456}_proj_d",
+            "name": "Project Pins"
+        }
+    ],
+    "taskLists": [
+        {
+            "id": "{123456}_tg",
+            "name": "Project Tasks"
+        }
+    ],
+    "discussionLists": [
+        {
+            "id": "{123456}",
+            "name": "Project Discussions"
+        }
+    ]
 }
 ```
 
@@ -159,17 +159,17 @@ Example of a successful request:
 
 ```
 {
-  "name": "Feedback",
-  "startDate": "2023-02-08T11:01:23.607Z",
-  "endDate": "2023-02-08T11:01:23.607Z",
-  "status": "none",
-  "members": [
-    {
-      "id": "{123456}_u ",
-      "role": "owner"
-    }
-  ],
-  "description": "Implementing Feedback"
+    "name": "Feedback",
+    "startDate": "2023-02-08T11:01:23.607Z",
+    "endDate": "2023-02-08T11:01:23.607Z",
+    "status": "none",
+    "members": [
+        {
+            "id": "{123456}_u ",
+            "role": "owner"
+        }
+    ],
+    "description": "Implementing Feedback"
 }
 ```
 
@@ -177,45 +177,45 @@ Example of a successful response:
 
 ```
 {
-  "id": "{123456}_proj",
-  "modified": "2023-02-08T11:02:25.0000000",
-  "created": "2023-02-08T10:28:43.0000000",
-  "name": "Feedback",
-  "description": "Implementing Feedback",
-  "startDate": "2023-02-08T11:01:23.0000000",
-  "endDate": "2023-02-08T11:01:23.0000000",
-  "status": "none",
-  "workspace": {
-    "id": "{123456}_ws",
-    "name": "Management"
-  },
-  "members": [
-    {
-      "id": "{123456}_u",
-      "role": "owner",
-      "name": "Vyara Todorova"
-    }
-  ],
-  "requests": [],
-  "pendingInvites": [],
-  "pinLists": [
-    {
-      "id": "{123456}_proj_d",
-      "name": "Project Pins"
-    }
-  ],
-  "taskLists": [
-    {
-      "id": "{123456}_tg",
-      "name": "Project Tasks"
-    }
-  ],
-  "discussionLists": [
-    {
-      "id": "{123456}",
-      "name": "Project Discussions"
-    }
-  ]
+    "id": "{123456}_proj",
+    "modified": "2023-02-08T11:02:25.0000000",
+    "created": "2023-02-08T10:28:43.0000000",
+    "name": "Feedback",
+    "description": "Implementing Feedback",
+    "startDate": "2023-02-08T11:01:23.0000000",
+    "endDate": "2023-02-08T11:01:23.0000000",
+    "status": "none",
+    "workspace": {
+        "id": "{123456}_ws",
+        "name": "Management"
+    },
+    "members": [
+        {
+            "id": "{123456}_u",
+            "role": "owner",
+            "name": "Vyara Todorova"
+        }
+    ],
+    "requests": [],
+    "pendingInvites": [],
+    "pinLists": [
+        {
+            "id": "{123456}_proj_d",
+            "name": "Project Pins"
+        }
+    ],
+    "taskLists": [
+        {
+            "id": "{123456}_tg",
+            "name": "Project Tasks"
+        }
+    ],
+    "discussionLists": [
+        {
+            "id": "{123456}",
+            "name": "Project Discussions"
+        }
+    ]
 }
 ```
 
@@ -260,13 +260,13 @@ Example of a successful request:
 
 ```
 {
-  "items": [
-    {
-      "id": "{123456}_u",
-      "name": "N",
-      "role": "owner"
-    }
-  ]
+    "items": [
+        {
+            "id": "{123456}_u",
+            "name": "N",
+            "role": "owner"
+        }
+    ]
 }
 ```
 
@@ -274,70 +274,70 @@ Example of a successful response:
 
 ```
 {
-  "id": "{123456}_proj",
-  "modified": "2023-02-09T12:15:22.0000000",
-  "created": "2023-02-08T10:28:43.0000000",
-  "name": "Feedback",
-  "description": "Q1",
-  "startDate": "2023-02-08T11:01:23.0000000",
-  "endDate": "2023-02-08T11:01:23.0000000",
-  "status": "none",
-  "workspace": {
-    "id": "{123456}_ws",
-    "name": "Marketing"
-  },
-  "members": [
-    {
-      "id": "{123456}_u",
-      "role": "owner",
-      "name": "Vyara Mitkova"
+    "id": "{123456}_proj",
+    "modified": "2023-02-09T12:15:22.0000000",
+    "created": "2023-02-08T10:28:43.0000000",
+    "name": "Feedback",
+    "description": "Q1",
+    "startDate": "2023-02-08T11:01:23.0000000",
+    "endDate": "2023-02-08T11:01:23.0000000",
+    "status": "none",
+    "workspace": {
+        "id": "{123456}_ws",
+        "name": "Marketing"
     },
-    {
-      "id": "{123456}1_u",
-      "role": "owner",
-      "name": "N",
-      "email": "n@gmail.com "
-    }
-  ],
-  "requests": [],
-  "pendingInvites": [
-    {
-      "id": "{123456}_u",
-      "role": "owner",
-      "name": "Joan",
-      "email": "joan@gmail.com"
-    }
-  ],
-  "pinLists": [
-    {
-      "id": "{123456}_proj_d",
-      "name": "Project Pins"
-    },
-    {
-      "id": "{123456}_b",
-      "name": "Test"
-    },
-    {
-      "id": "{123456}_b",
-      "name": "HR"
-    }
-  ],
-  "taskLists": [
-    {
-      "id": "{123456}_tg",
-      "name": "Project Tasks"
-    }
-  ],
-  "discussionLists": [
-    {
-      "id": "{123456}",
-      "name": "Project Discussions"
-    },
-    {
-      "id": "{123456}",
-      "name": "Support Emails"
-    }
-  ]
+    "members": [
+        {
+            "id": "{123456}_u",
+            "role": "owner",
+            "name": "Vyara Mitkova"
+        },
+        {
+            "id": "{123456}1_u",
+            "role": "owner",
+            "name": "N",
+            "email": "n@gmail.com "
+        }
+    ],
+    "requests": [],
+    "pendingInvites": [
+        {
+            "id": "{123456}_u",
+            "role": "owner",
+            "name": "Joan",
+            "email": "joan@gmail.com"
+        }
+    ],
+    "pinLists": [
+        {
+            "id": "{123456}_proj_d",
+            "name": "Project Pins"
+        },
+        {
+            "id": "{123456}_b",
+            "name": "Test"
+        },
+        {
+            "id": "{123456}_b",
+            "name": "HR"
+        }
+    ],
+    "taskLists": [
+        {
+            "id": "{123456}_tg",
+            "name": "Project Tasks"
+        }
+    ],
+    "discussionLists": [
+        {
+            "id": "{123456}",
+            "name": "Project Discussions"
+        },
+        {
+            "id": "{123456}",
+            "name": "Support Emails"
+        }
+    ]
 }
 ```
 
@@ -364,13 +364,13 @@ Example of a successful request:
 
 ```
 {
-  "items": [
-    {
-      "id": "{123456}_u",
-      "name": "Joan",
-      "role": "contributor" 
-    }
-  ]
+    "items": [
+        {
+            "id": "{123456}_u",
+            "name": "Joan",
+            "role": "contributor"
+        }
+    ]
 }
 ```
 
@@ -378,63 +378,63 @@ Example of a successful response:
 
 ```
 {
-  "id": "{123456}_proj",
-  "modified": "2023-02-09T14:39:08.0000000",
-  "created": "2023-02-08T10:28:43.0000000",
-  "name": "Marketing",
-  "description": "Research",
-  "startDate": "2023-02-08T11:01:23.0000000",
-  "endDate": "2023-02-08T11:01:23.0000000",
-  "status": "none",
-  "workspace": {
-    "id": "{123456}_ws",
-    "name": "Management"
-  },
-  "members": [
-    {
-      "id": "{123456}_u",
-      "role": "owner",
-      "name": "Ver"
+    "id": "{123456}_proj",
+    "modified": "2023-02-09T14:39:08.0000000",
+    "created": "2023-02-08T10:28:43.0000000",
+    "name": "Marketing",
+    "description": "Research",
+    "startDate": "2023-02-08T11:01:23.0000000",
+    "endDate": "2023-02-08T11:01:23.0000000",
+    "status": "none",
+    "workspace": {
+        "id": "{123456}_ws",
+        "name": "Management"
     },
-    {
-      "id": "{123456}_u",
-      "role": "contributor",
-      "name": "Joan",
-      "email": "joan@gmail.com"
-    }
-  ],
-  "requests": [],
-  "pendingInvites": [],
-  "pinLists": [
-    {
-      "id": "{123456}_proj_d",
-      "name": "Project Pins"
-    },
-    {
-      "id": "{123456}_b",
-      "name": "string"
-    },
-    {
-      "id": "{123456}_b",
-      "name": "HR"
-    }
-  ],
-  "taskLists": [
-    {
-      "id": "{123456}_tg",
-      "name": "Project Tasks"
-    }
-  ],
-  "discussionLists": [
-    {
-      "id": "{123456}",
-      "name": "Project Discussions"
-    },
-    {
-      "id": "{123456}",
-      "name": "Testing"
-    }
-  ]
+    "members": [
+        {
+            "id": "{123456}_u",
+            "role": "owner",
+            "name": "Ver"
+        },
+        {
+            "id": "{123456}_u",
+            "role": "contributor",
+            "name": "Joan",
+            "email": "joan@gmail.com"
+        }
+    ],
+    "requests": [],
+    "pendingInvites": [],
+    "pinLists": [
+        {
+            "id": "{123456}_proj_d",
+            "name": "Project Pins"
+        },
+        {
+            "id": "{123456}_b",
+            "name": "string"
+        },
+        {
+            "id": "{123456}_b",
+            "name": "HR"
+        }
+    ],
+    "taskLists": [
+        {
+            "id": "{123456}_tg",
+            "name": "Project Tasks"
+        }
+    ],
+    "discussionLists": [
+        {
+            "id": "{123456}",
+            "name": "Project Discussions"
+        },
+        {
+            "id": "{123456}",
+            "name": "Testing"
+        }
+    ]
 }
 ```
 
@@ -461,13 +461,13 @@ Example of a successful request:
 
 ```
 {
-  "items": [
-    {
-      "id": "{123456}_u",
-      "name": "Nik Georgiev",
-      "role": "owner"
-    }
-  ]
+    "items": [
+        {
+            "id": "{123456}_u",
+            "name": "Nik Georgiev",
+            "role": "owner"
+        }
+    ]
 }
 ```
 
@@ -475,60 +475,60 @@ Example of a successful response:
 
 ```
 {
-  "id": "{123456}_proj",
-  "modified": "2023-02-09T14:14:03.0000000",
-  "created": "2023-02-08T10:28:43.0000000",
-  "name": "Marketing",
-  "description": "Research",
-  "startDate": "2023-02-08T11:01:23.0000000",
-  "endDate": "2023-02-08T11:01:23.0000000",
-  "status": "none",
-  "workspace": {
-    "id": "{123456}_ws",
-    "name": "Documentation"
-  },
-  "members": [
-    {
-      "id": "{123456}_u",
-      "role": "owner",
-      "name": "Ver Petrova"
-    }
-  ],
-  "requests": [],
-  "pendingInvites": [
-    {
-      "id": "{123456}_u",
-      "role": "owner",
-      "name": "Joan Doe",
-      "email": "joan@gmail.com"
-    }
-  ],
-  "pinLists": [
-    {
-      "id": "{123456}_proj_d",
-      "name": "Project Pins"
+    "id": "{123456}_proj",
+    "modified": "2023-02-09T14:14:03.0000000",
+    "created": "2023-02-08T10:28:43.0000000",
+    "name": "Marketing",
+    "description": "Research",
+    "startDate": "2023-02-08T11:01:23.0000000",
+    "endDate": "2023-02-08T11:01:23.0000000",
+    "status": "none",
+    "workspace": {
+        "id": "{123456}_ws",
+        "name": "Documentation"
     },
-    {
-      "id": "{123456}_b",
-      "name": "HR"
-    }
-  ],
-  "taskLists": [
-    {
-      "id": "{123456}_tg",
-      "name": "Project Tasks"
-    }
-  ],
-  "discussionLists": [
-    {
-      "id": "{123456}",
-      "name": "Project Discussions"
-    },
-    {
-      "id": "{123456}",
-      "name": "Test"
-    }
-  ]
+    "members": [
+        {
+            "id": "{123456}_u",
+            "role": "owner",
+            "name": "Ver Petrova"
+        }
+    ],
+    "requests": [],
+    "pendingInvites": [
+        {
+            "id": "{123456}_u",
+            "role": "owner",
+            "name": "Joan Doe",
+            "email": "joan@gmail.com"
+        }
+    ],
+    "pinLists": [
+        {
+            "id": "{123456}_proj_d",
+            "name": "Project Pins"
+        },
+        {
+            "id": "{123456}_b",
+            "name": "HR"
+        }
+    ],
+    "taskLists": [
+        {
+            "id": "{123456}_tg",
+            "name": "Project Tasks"
+        }
+    ],
+    "discussionLists": [
+        {
+            "id": "{123456}",
+            "name": "Project Discussions"
+        },
+        {
+            "id": "{123456}",
+            "name": "Test"
+        }
+    ]
 }
 ```
 
@@ -553,12 +553,12 @@ Example of a successful request:
 
 ```
 {
-  "items": [
-    {
-      "id": "{123456}_u",
-      "role": "owner"
-    }
-  ]
+    "items": [
+        {
+            "id": "{123456}_u",
+            "role": "owner"
+        }
+    ]
 }
 ```
 
@@ -566,54 +566,54 @@ Example of a successful response:
 
 ```
 {
-  "id": "{123456}_proj",
-  "modified": "2023-02-10T14:33:28.0000000",
-  "created": "2023-02-10T14:14:26.0000000",
-  "name": "Feedback",
-  "workspace": {
-    "id": "{123456}_ws",
-    "name": "Customer Support"
-  },
-  "members": [
-    {
-      "id": "{123456}_u",
-      "role": "owner",
-      "name": "Nik Tachev",
-      "email": "n@gmail.com"
+    "id": "{123456}_proj",
+    "modified": "2023-02-10T14:33:28.0000000",
+    "created": "2023-02-10T14:14:26.0000000",
+    "name": "Feedback",
+    "workspace": {
+        "id": "{123456}_ws",
+        "name": "Customer Support"
     },
-    {
-      "id": "{123456}_u",
-      "role": "owner",
-      "name": "Ver",
-      "email": "v@gmail.com"
-    },
-    {
-      "id": "{123456}_u",
-      "role": "owner",
-      "name": "Ron",
-      "email": "r@gmail.com"
-    }
-  ],
-  "requests": [],
-  "pendingInvites": [],
-  "pinLists": [
-    {
-      "id": "{123456}_proj_d",
-      "name": "Project Pins"
-    }
-  ],
-  "taskLists": [
-    {
-      "id": "{123456}_tg",
-      "name": "Project Tasks"
-    }
-  ],
-  "discussionLists": [
-    {
-      "id": "{123456}",
-      "name": "Project Discussions"
-    }
-  ]
+    "members": [
+        {
+            "id": "{123456}_u",
+            "role": "owner",
+            "name": "Nik Tachev",
+            "email": "n@gmail.com"
+        },
+        {
+            "id": "{123456}_u",
+            "role": "owner",
+            "name": "Ver",
+            "email": "v@gmail.com"
+        },
+        {
+            "id": "{123456}_u",
+            "role": "owner",
+            "name": "Ron",
+            "email": "r@gmail.com"
+        }
+    ],
+    "requests": [],
+    "pendingInvites": [],
+    "pinLists": [
+        {
+            "id": "{123456}_proj_d",
+            "name": "Project Pins"
+        }
+    ],
+    "taskLists": [
+        {
+            "id": "{123456}_tg",
+            "name": "Project Tasks"
+        }
+    ],
+    "discussionLists": [
+        {
+            "id": "{123456}",
+            "name": "Project Discussions"
+        }
+    ]
 }
 ```
 
@@ -638,12 +638,12 @@ Example of a successful request:
 
 ```
 {
-  "items": [
-    {
-      "id": "{123456}_u",
-      "role": "owner"
-    }
-  ]
+    "items": [
+        {
+            "id": "{123456}_u",
+            "role": "owner"
+        }
+    ]
 }
 ```
 
@@ -651,48 +651,48 @@ Example of a successful response:
 
 ```
 {
-  "id": "{123456}_proj",
-  "modified": "2023-02-10T14:37:00.0000000",
-  "created": "2023-02-10T14:14:26.0000000",
-  "name": "Feedback",
-  "workspace": {
-    "id": "{123456}_ws",
-    "name": "Customer Support"
-  },
-  "members": [
-    {
-      "id": "{123456}_u",
-      "role": "owner",
-      "name": "Nik Tachev",
-      "email": "n@gmail.com"
+    "id": "{123456}_proj",
+    "modified": "2023-02-10T14:37:00.0000000",
+    "created": "2023-02-10T14:14:26.0000000",
+    "name": "Feedback",
+    "workspace": {
+        "id": "{123456}_ws",
+        "name": "Customer Support"
     },
-    {
-      "id": "{123456}_u",
-      "role": "owner",
-      "name": "Ver",
-      "email": "v@gmail.com"
-    }
-  ],
-  "requests": [],
-  "pendingInvites": [],
-  "pinLists": [
-    {
-      "id": "{123456}_proj_d",
-      "name": "Project Pins"
-    }
-  ],
-  "taskLists": [
-    {
-      "id": "{123456}_tg",
-      "name": "Project Tasks"
-    }
-  ],
-  "discussionLists": [
-    {
-      "id": "{123456}",
-      "name": "Project Discussions"
-    }
-  ]
+    "members": [
+        {
+            "id": "{123456}_u",
+            "role": "owner",
+            "name": "Nik Tachev",
+            "email": "n@gmail.com"
+        },
+        {
+            "id": "{123456}_u",
+            "role": "owner",
+            "name": "Ver",
+            "email": "v@gmail.com"
+        }
+    ],
+    "requests": [],
+    "pendingInvites": [],
+    "pinLists": [
+        {
+            "id": "{123456}_proj_d",
+            "name": "Project Pins"
+        }
+    ],
+    "taskLists": [
+        {
+            "id": "{123456}_tg",
+            "name": "Project Tasks"
+        }
+    ],
+    "discussionLists": [
+        {
+            "id": "{123456}",
+            "name": "Project Discussions"
+        }
+    ]
 }
 ```
 
@@ -722,44 +722,44 @@ Example:
 
 ```
 {
-  "id": "{123456}_proj",
-  "modified": "2023-02-08T10:28:43.0000000",
-  "created": "2023-02-08T10:28:43.0000000",
-  "name": "Customer Support",
-  "description": "Customer Support Cases",
-  "startDate": "2023-02-08T09:36:12.0000000",
-  "endDate": "2023-02-08T09:36:12.0000000",
-  "status": "none",
-  "workspace": {
-    "id": "{123456}_ws",
-    "name": "Management"
-  },
-  "members": [
-    {
-      "id": "{123456}_u",
-      "role": "owner"
-    }
-  ],
-  "requests": [],
-  "pendingInvites": [],
-  "pinLists": [
-    {
-      "id": "{123456}_proj_d",
-      "name": "Project Pins"
-    }
-  ],
-  "taskLists": [
-    {
-      "id": "{123456}_tg",
-      "name": "Project Tasks"
-    }
-  ],
-  "discussionLists": [
-    {
-      "id": "{123456}",
-      "name": "Project Discussions"
-    }
-  ]
+    "id": "{123456}_proj",
+    "modified": "2023-02-08T10:28:43.0000000",
+    "created": "2023-02-08T10:28:43.0000000",
+    "name": "Customer Support",
+    "description": "Customer Support Cases",
+    "startDate": "2023-02-08T09:36:12.0000000",
+    "endDate": "2023-02-08T09:36:12.0000000",
+    "status": "none",
+    "workspace": {
+        "id": "{123456}_ws",
+        "name": "Management"
+    },
+    "members": [
+        {
+            "id": "{123456}_u",
+            "role": "owner"
+        }
+    ],
+    "requests": [],
+    "pendingInvites": [],
+    "pinLists": [
+        {
+            "id": "{123456}_proj_d",
+            "name": "Project Pins"
+        }
+    ],
+    "taskLists": [
+        {
+            "id": "{123456}_tg",
+            "name": "Project Tasks"
+        }
+    ],
+    "discussionLists": [
+        {
+            "id": "{123456}",
+            "name": "Project Discussions"
+        }
+    ]
 }
 ```
 

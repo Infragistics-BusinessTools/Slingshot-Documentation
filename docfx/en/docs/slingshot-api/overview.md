@@ -7,3 +7,6 @@ The Slingshot’s API uses [REST](https://developer.mozilla.org/en-US/docs/Gloss
 Keep in mind that the requests and responses support only one type of character encoding - [UTF-8](https://developer.mozilla.org/en-US/docs/Glossary/UTF-8). 
 
 To start using the Slingshot’s API, you need to first authenticate yourself. [Here](authentication.md) you can find more information about the process of authentication. 
+
+>[!NOTE] We used *{base_url}* in the endpoints of the components. It can be replaced with https://my.slingshotapp.io/v1.
+

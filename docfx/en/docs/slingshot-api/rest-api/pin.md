@@ -31,40 +31,40 @@ Example of a successful request:
 
 ```
 {
-  "url": "https://my.slingshotapp.io/openBoardSection/{123456}_bs",
-  "name": "Strategy",
-  "pinType": "url"
+    "url": "https://my.slingshotapp.io/openBoardSection/{123456}_bs",
+    "name": "Strategy",
+    "pinType": "url"
 }
 ```
 Example of a successful response: 
 
 ```
 {
-  "id": "{123456}_bs",
-  "modified": "2023-02-09T10:32:37.0000000",
-  "created": "2023-02-07T10:24:36.0000000",
-  "name": "Q1",
-  "workspace": {
-    "id": "{123456}_ws",
-    "name": "General Management"
-  },
-  "project": {
-    "id": "{123456}_proj",
-    "name": "vv"
-  },
-  "pinList": {
-    "id": "{123456}_b",
-    "name": "Statistics"
-  },
-  "pins": [
-    {
-      "pinType": "url",
-      "id": "{123456}",
-      "created": "2023-02-09T10:32:37.0000000",
-      "url": "https://my.slingshotapp.io/openBoardSection/{123456}_bs",
-      "name": "Strategy"
-    }
-  ]
+    "id": "{123456}_bs",
+    "modified": "2023-02-09T10:32:37.0000000",
+    "created": "2023-02-07T10:24:36.0000000",
+    "name": "Q1",
+    "workspace": {
+        "id": "{123456}_ws",
+        "name": "General Management"
+    },
+    "project": {
+        "id": "{123456}_proj",
+        "name": "vv"
+    },
+    "pinList": {
+        "id": "{123456}_b",
+        "name": "Statistics"
+    },
+    "pins": [
+        {
+            "pinType": "url",
+            "id": "{123456}",
+            "created": "2023-02-09T10:32:37.0000000",
+            "url": "https://my.slingshotapp.io/openBoardSection/{123456}_bs",
+            "name": "Strategy"
+        }
+    ]
 }
 ```
 
@@ -98,46 +98,46 @@ Example of a successful request:
 
 ```
 {
-  "url": "https://my.slingshotapp.io/openBoardSection/{123456}_bs",
-  "name": "Goals"
+    "url": "https://my.slingshotapp.io/openBoardSection/{123456}_bs",
+    "name": "Goals"
 }
 ```
 Example of a successful response: 
 
 ```
 {
-  "id": "{123456}_bs",
-  "modified": "2023-02-09T10:49:24.0000000",
-  "created": "2023-02-07T10:24:36.0000000",
-  "name": "Strategy",
-  "workspace": {
-    "id": "{123456}_ws",
-    "name": "General Management"
-  },
-  "project": {
-    "id": "{123456}_proj",
-    "name": "vv"
-  },
-  "pinList": {
-    "id": "{123456}_b",
-    "name": "Statistics"
-  },
-  "pins": [
-    {
-      "pinType": "url",
-      "id": "{123456}",
-      "created": "2023-02-09T10:32:37.0000000",
-      "url": "https://my.slingshotapp.io/openBoardSection/{123456}_bs",
-      "name": "Goals"
+    "id": "{123456}_bs",
+    "modified": "2023-02-09T10:49:24.0000000",
+    "created": "2023-02-07T10:24:36.0000000",
+    "name": "Strategy",
+    "workspace": {
+        "id": "{123456}_ws",
+        "name": "General Management"
     },
-    {
-      "pinType": "url",
-      "id": "{123456}",
-      "created": "2023-02-09T10:37:52.0000000",
-      "url": "https://my.slingshotapp.io/openBoardSection/{123456}_bs",
-      "name": "Ideas"
-    }
-  ]
+    "project": {
+        "id": "{123456}_proj",
+        "name": "vv"
+    },
+    "pinList": {
+        "id": "{123456}_b",
+        "name": "Statistics"
+    },
+    "pins": [
+        {
+            "pinType": "url",
+            "id": "{123456}",
+            "created": "2023-02-09T10:32:37.0000000",
+            "url": "https://my.slingshotapp.io/openBoardSection/{123456}_bs",
+            "name": "Goals"
+        },
+        {
+            "pinType": "url",
+            "id": "{123456}",
+            "created": "2023-02-09T10:37:52.0000000",
+            "url": "https://my.slingshotapp.io/openBoardSection/{123456}_bs",
+            "name": "Ideas"
+        }
+    ]
 }
 ```
  
@@ -176,31 +176,31 @@ Example:
 
 ```
 {
-  "id": "{123456}_bs",
-  "modified": "2023-02-09T10:32:37.0000000",
-  "created": "2023-02-07T10:24:36.0000000",
-  "name": "Q1",
-  "workspace": {
-    "id": "{123456}_ws",
-    "name": "General Management"
-  },
-  "project": {
-    "id": "{123456}_proj",
-    "name": "vv"
-  },
-  "pinList": {
-    "id": "{123456}_b",
-    "name": "Statistics"
-  },
-  "pins": [
-    {
-      "pinType": "url",
-      "id": "{123456}",
-      "created": "2023-02-09T10:32:37.0000000",
-      "url": "https://my.slingshotapp.io/openBoardSection/{123456}_bs",
-      "name": "Strategy"
-    }
-  ]
+    "id": "{123456}_bs",
+    "modified": "2023-02-09T10:32:37.0000000",
+    "created": "2023-02-07T10:24:36.0000000",
+    "name": "Q1",
+    "workspace": {
+        "id": "{123456}_ws",
+        "name": "General Management"
+    },
+    "project": {
+        "id": "{123456}_proj",
+        "name": "vv"
+    },
+    "pinList": {
+        "id": "{123456}_b",
+        "name": "Statistics"
+    },
+    "pins": [
+        {
+            "pinType": "url",
+            "id": "{123456}",
+            "created": "2023-02-09T10:32:37.0000000",
+            "url": "https://my.slingshotapp.io/openBoardSection/{123456}_bs",
+            "name": "Strategy"
+        }
+    ]
 }
 ```
 
