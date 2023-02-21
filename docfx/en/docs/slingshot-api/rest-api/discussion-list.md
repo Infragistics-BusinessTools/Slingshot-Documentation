@@ -60,7 +60,7 @@ Example of a successful response:
 
 ## Get a discussion list
 
-You can check all the information about a discussion list by sending a `GET` request to the {base_url}/discussionlists/{id}endpoint.
+You can check all the information about a discussion list by sending a `GET` request to the {base_url}/discussionlists/{id} endpoint.
 
 `GET`/{base_url}/discussionlists/{id}
 
@@ -144,7 +144,7 @@ Possible responses:
 
 ## Get all discussion lists for a parent document 
 
-You can view all the discussion lists that are in a parent document (workspace, user or a project) by submitting a `GET` request with the {base_url}/discussionlists/parent/{id}endpoint.
+You can view all the discussion lists that are in a parent document (workspace, user or a project) by submitting a `GET` request with the {base_url}/discussionlists/parent/{id} endpoint.
 
 `GET` {base_url}/discussionlists/parent/{id}
 

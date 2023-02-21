@@ -97,6 +97,7 @@ Possible responses:
 
 Example of a successful request:
 
+```
 {
     "name": "Emails"
 }

@@ -85,7 +85,7 @@ Required parameters: the **id** of the pin section
 
 When you request to update a pin section, the request body will have the following content: 
 
-    Property  | Type            | Attributes           |
+Property  | Type            | Attributes           |
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
 | name               | string | Min = 1, Max = 100 |  
 

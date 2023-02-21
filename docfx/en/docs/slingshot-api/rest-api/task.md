@@ -344,7 +344,7 @@ Example of a successful response:
 
 ## Task Schema
 
-**Schema:**
+Schema:
 
 |    Property  | Type            | Attributes           |
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
@@ -366,7 +366,7 @@ Example of a successful response:
 | parentTask      | object[DocumentInfo](../generic-slingshot-resources.html#document-info-object) |  |
  | subtasks      | ListObject<Object[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> |  |
 
-**Example:**
+Example:
 
 ```
 {

@@ -74,7 +74,7 @@ You can update a pin in a pin section by sending the `PATCH` request to the {bas
 
 `PATCH`/{base_url}/pins/{pinSectionId}/{pinId}
 
-Required parameters: the **id** of the pin section as well as the id of the pin being updated
+Required parameters: the **id** of the pin section as well as the **id** of the pin being updated
 
 When you request to update a pin in a pin section, the request body will have the following content: 
 
@@ -147,7 +147,7 @@ You can delete a pin, that is in a pin section, by sending a `DELETE` request to
 
 `DELETE`/{base_url}/pins/{pinSectionId}/{pinId}
 
-Required parameters: the **id** of the pin section and the id of the pin being deleted
+Required parameters: the **id** of the pin section and the **id** of the pin being deleted
 
 Possible responses:
 

@@ -310,7 +310,7 @@ Example of a successful response:
 }
 ```
 
-## Private chat schema:
+## Private chat schema
 
 Schema:
 

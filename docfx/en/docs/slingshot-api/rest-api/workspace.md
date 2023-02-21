@@ -708,7 +708,7 @@ Example of a successful response:
 }
 ```
 
-## Workspace schema:
+## Workspace schema
 
 Schema:
 

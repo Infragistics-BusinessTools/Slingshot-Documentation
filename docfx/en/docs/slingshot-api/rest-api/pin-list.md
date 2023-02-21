@@ -146,7 +146,7 @@ Possible responses:
 
 ## Get all pin lists
 
-You can view all the pin lists that are in a parent document (workspace, user or a project) by submitting a `GET` request with the {base_url}/pinlists/parent/{id}endpoint.
+You can view all the pin lists that are in a parent document (workspace, user or a project) by submitting a `GET` request with the {base_url}/pinlists/parent/{id} endpoint.
 
 `GET` {base_url}/pinlists/parent/{id}
 
