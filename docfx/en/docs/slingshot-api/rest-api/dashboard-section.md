@@ -60,7 +60,7 @@ Example of a successful response:
 
 ## Get a dashboard section
 
-You can check all the information about a dashboard section by sending a `GET` request to the the {base_url}/dashboardsections/{id}endpoint.
+You can check all the information about a dashboard section by sending a `GET` request to the the {base_url}/dashboardsections/{id} endpoint.
 
 `GET`/{base_url}/dashboardsections/{id}
 
@@ -143,7 +143,7 @@ Possible responses:
 
 ## Get all dashboard sections for a parent dashboard list 
 
-You can view all the dashboard section for a parent dashboard list by submitting a `GET` request with the {base_url}/dashboardsections/parent/{id}endpoint.
+You can view all the dashboard section for a parent dashboard list by submitting a `GET` request with the {base_url}/dashboardsections/parent/{id} endpoint.
 
 `GET` {base_url}/dashboardsections/parent/{id}
 

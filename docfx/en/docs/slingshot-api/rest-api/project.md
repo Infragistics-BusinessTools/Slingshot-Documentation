@@ -713,10 +713,10 @@ Schema:
 | workspace            |[DocumentInfo](../generic-slingshot-resources.html#document-info-object) | | 
 |members| 	array <[MemberInfo](../generic-slingshot-resources#member-info-object)> | |
 |requests| 	array <[MemberInfo](../generic-slingshot-resources#member-info-object)> | |
-| pendingInvites           | [DocumentInfo](../generic-slingshot-resources.| |html#document-info-object) |  |
+| pendingInvites           | [DocumentInfo](../generic-slingshot-resources.html#document-info-object) |  |
 |pinLists| [DocumentInfo](../generic-slingshot-resources.html#document-info-object)| |
 |taskLists| [DocumentInfo](../generic-slingshot-resources.html#document-info-object)|
-| discussionLists           | [DocumentInfo](../generic-slingshot-resources.| |html#document-info-object)|  |
+| discussionLists           | [DocumentInfo](../generic-slingshot-resources.html#document-info-object)|  |
 
 Example:
 

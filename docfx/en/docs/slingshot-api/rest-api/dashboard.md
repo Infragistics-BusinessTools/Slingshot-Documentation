@@ -2,7 +2,8 @@
 
 ## Get a dashboard
 
-You can check all the information about a dashboard by sending a `GET` request to the the {base_url}/dashboards/{id}endpoint.
+You can check all the information about a dashboard by sending a `GET` request to the the {base_url}/dashboards/{id} endpoint.
+
 `GET`/{base_url}/dashboards/{id}
 
 Required parameters: the **id** of the dashboard
@@ -18,6 +19,7 @@ Possible responses:
 ## Update a dashboard
 
 You can update a dashboard by sending the `PATCH` request to the {base_url}/dashboards/{id} endpoint.  
+
 `PATCH` {base_url}/dashboards/{id}
 
 Required parameters: the **id** of the dashboard
@@ -74,6 +76,7 @@ Example of a successful response:
 ## Delete a dashboard
 
 You can delete a dashboard by sending a `DELETE` request to the {base_url}/dashboards/{id} endpoint. 
+
 `DELETE` {base_url}/dashboards/{id}
 
 Required parameters: the **id** of the dashboard
