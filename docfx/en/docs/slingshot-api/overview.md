@@ -8,5 +8,4 @@ Keep in mind that the requests and responses support only one type of character 
 
 To start using the Slingshot’s API, you need to first authenticate yourself. [Here](authentication.md) you can find more information about the process of authentication. 
 
->[!NOTE] We used *{base_url}* in the endpoints of the components. It can be replaced with https://my.slingshotapp.io/v1.
 

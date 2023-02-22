@@ -92,12 +92,16 @@
   href: slingshot-api/api-explorer.md
 - name: Authentication
   href: slingshot-api/authentication.md
+- name: Explore the Object Hierarchy
+  href: slingshot-api/explore-object-hierarchy.md
 - name: Generic Slingshot Resources
   href: slingshot-api/generic-slingshot-resources.md
 - name: Rate Limits
   href: slingshot-api/rate-limits.md
 - name: Response Codes
   href: slingshot-api/response-codes.md
+- name: Sample
+  href: slingshot-api/sample.md
 - name: Rest API 
   new: true
   items: 

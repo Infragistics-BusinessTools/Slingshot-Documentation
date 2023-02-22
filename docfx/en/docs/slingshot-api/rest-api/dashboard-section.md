@@ -1,12 +1,12 @@
 # Dashboard Section
 
-**{base_url}/dashboardsections endpoint**
+**https://my.slingshotapp.io/v1/dashboardsections endpoint**
 
 ## Create a dashboard section
 
-You can create a dashboard section by sending a `POST` request to the {base_url}/dashboardsections endpoint.  
+You can create a dashboard section by sending a `POST` request to the https://my.slingshotapp.io/v1/dashboardsections endpoint.  
 
-`POST` {base_url}/dashboardsections
+`POST` https://my.slingshotapp.io/v1/dashboardsections
 
 Required parameters: None
 
@@ -60,9 +60,9 @@ Example of a successful response:
 
 ## Get a dashboard section
 
-You can check all the information about a dashboard section by sending a `GET` request to the the {base_url}/dashboardsections/{id} endpoint.
+You can check all the information about a dashboard section by sending a `GET` request to the the https://my.slingshotapp.io/v1/dashboardsections/{id} endpoint.
 
-`GET`/{base_url}/dashboardsections/{id}
+`GET` https://my.slingshotapp.io/v1/dashboardsections/{id}
 
 Required parameters: the **id** of the dashboard section
 
@@ -76,9 +76,9 @@ Possible responses:
 
 ## Update a dashboard section
 
-You can update a specific dashboard section by sending the `PATCH` request to the {base_url}/dashboardsections/{id} endpoint.  
+You can update a specific dashboard section by sending the `PATCH` request to the https://my.slingshotapp.io/v1/dashboardsections/{id} endpoint.  
 
-`PATCH` {base_url}/dashboardsections/{id}
+`PATCH` https://my.slingshotapp.io/v1/dashboardsections/{id}
 
 Required parameters: the **id** of the dashboard section
 
@@ -127,9 +127,9 @@ Example of a successful response:
 
 ## Delete a dashboard section
 
-You can delete a dashboards section by sending a `DELETE` request to the {base_url}/dashboardsections/{id} endpoint. 
+You can delete a dashboards section by sending a `DELETE` request to the https://my.slingshotapp.io/v1/dashboardsections/{id} endpoint. 
 
-`DELETE` {base_url}/dashboardsections/{id}
+`DELETE` https://my.slingshotapp.io/v1/dashboardsections/{id}
 
 Required parameters: the **id** of the dashboard section
 
@@ -143,9 +143,9 @@ Possible responses:
 
 ## Get all dashboard sections for a parent dashboard list 
 
-You can view all the dashboard section for a parent dashboard list by submitting a `GET` request with the {base_url}/dashboardsections/parent/{id} endpoint.
+You can view all the dashboard section for a parent dashboard list by submitting a `GET` request with the https://my.slingshotapp.io/v1/dashboardsections/parent/{id} endpoint.
 
-`GET` {base_url}/dashboardsections/parent/{id}
+`GET` https://my.slingshotapp.io/v1/dashboardsections/parent/{id}
 
 Required parameters: the **id** of the dashboard list 
 

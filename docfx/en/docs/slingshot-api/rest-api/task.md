@@ -20,7 +20,7 @@ When you request to create a task, the request body will have the following cont
 | taskSection   |[DocumentInfo](../generic-slingshot-resources.html#document-info-object)  |oneOf | 
 | parentTask   |[DocumentInfo](../generic-slingshot-resources.html#document-info-object) |oneOf | 
 
-To create a task, you need to provide the *id* and *name* of the parent task section. If you want to create a subtask, you need to first provide the *id* and *name* of the parent task. 
+>[!NOTE]  To create a task, you need to provide the **id** and **name** of the parent task section under the **taskSection** property. Alternatively, if you want to create a subtask, you need to first provide the **id** and **name** of the parent task under the *parentTask* property. Only one can be provided, both *taskSection* and *parentTask* properties being present in the request will result in an error.
 
 Possible responses:
 

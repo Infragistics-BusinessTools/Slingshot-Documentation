@@ -1,6 +1,6 @@
 # Errors
 
-When you submit an API request, an [HTTP](https://developer.mozilla.org/en-US/docs/Web/HTTP) (HyperText Transfer Protocol) response with a status code will be returned. 
+When you submit an API request, an [HTTPS](https://developer.mozilla.org/en-US/docs/Glossary/HTTPS) (Hypertext Transfer Protocol Secure) response with a status code will be returned. 
 
 Sometimes the requests to the API might not be successful. In such cases, you can find information regarding the failure (error message and error code) in the HTTP response status code. The response body is in a [JSON](https://www.json.org/json-en.html) format.
 

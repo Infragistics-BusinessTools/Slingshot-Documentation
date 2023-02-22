@@ -1,12 +1,8 @@
 # Dashboard List
 
-{base_url}/dashboardlists endpoint
+## Create a dashboard list   
 
-## Create a dashboard list 
-
-You can create a dashboard list by sending a `POST` request to the {base_url}/dashboardlists endpoint.   
-
-`POST`/{base_url}/dashboardlists
+<img src="../images/post-request.png" alt="Post request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/>  https://my.slingshotapp.io/v1/dashboardlists
 
 Required parameters: None 
 
@@ -57,9 +53,9 @@ Example of a successful response:
 
 ## Get a dashboard list 
 
-You can check all the information about a dashboard list by sending a `GET` request to the {base_url}/dashboardlists/{id} endpoint.
+You can check all the information about a dashboard list by sending a <img src="../images/get.png" alt="Get request" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> request to the *https://my.slingshotapp.io/v1/dashboardlists/{id}* endpoint.
 
-`GET`/{base_url}/dashboardlists/{id}
+<img src="../images/get.png" alt="Get request" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> https://my.slingshotapp.io/v1/dashboardlists/{id}
 
 Required parameters: the **id** of the dashboard list
 
@@ -73,9 +69,9 @@ Possible responses:
 
 ## Update a dashboard list
 
-You can update a dashboard list by sending the `PATCH` request to the {base_url}/tasklists/{id} endpoint.  
+You can update a dashboard list by sending the <img src="../images/patch.png" alt="Patch request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> request to the https://my.slingshotapp.io/v1/tasklists/{id} endpoint.  
 
-`PATCH` {base_url}/dashboardlists/{id}
+<img src="../images/patch.png" alt="Patch request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> https://my.slingshotapp.io/v1/dashboardlists/{id}
 
 Required parameters: the **id** of the dashboard list
 
@@ -83,7 +79,7 @@ When you request to update a dashboards list, the request body will have the fol
 
 |    Property  | Type            | Attributes           |
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| name               | string | HasCharLimitations, Min = 1, Max = 100 |  
+| name               | string | Min = 1, Max = 100 |  
 
 Possible responses:
 
@@ -125,9 +121,9 @@ Example of a successful response:
 
 ## Delete a dashboard list
 
-You can delete a dashboard list by sending a `DELETE` request to the {base_url}/dashboardlists/{id} endpoint. 
+You can delete a dashboard list by sending a <img src="../images/delete.png" alt="Delete request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> request to the https://my.slingshotapp.io/v1/dashboardlists/{id} endpoint. 
 
-`DELETE` {base_url}/dashboardlists/{id}
+<img src="../images/delete.png" alt="Delete request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> https://my.slingshotapp.io/v1/dashboardlists/{id}
 
 Required parameters: the **id** of the dashboard list
 
@@ -141,9 +137,9 @@ Possible responses:
 
 ## Get all Dashboard Lists for a parent document
 
-You can view all the dashboard lists that are in a parent document (workspace, user or a project) by submitting a `GET` request with the {base_url}/dashboardlists/parent/{id} endpoint.
+You can view all the dashboard lists that are in a parent document (workspace, user or a project) by submitting a <img src="../images/get-all.png" alt="Get all request" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> request with the https://my.slingshotapp.io/v1/dashboardlists/parent/{id} endpoint.
 
-`GET` {base_url}/dashboardlists/parent/{id}
+<img src="../images/get-all.png" alt="Get all request" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> https://my.slingshotapp.io/v1/dashboardlists/parent/{id}
 
 Required parameters: the **id** of the parent document
 
