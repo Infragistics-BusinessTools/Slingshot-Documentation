@@ -1,5 +1,7 @@
 # Task List
 
+You can use tasks in order to better organize your work. For better visibility, you can organize them in different lists.
+
 ## Task list schema
 
 Schema:

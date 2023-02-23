@@ -1,5 +1,7 @@
 # Project
 
+In case you want to have a better overview of different initiatives and processes, bound to a group of people, you can create a project. You can create multiple projects.
+
 ## Project schema
 
 Schema:

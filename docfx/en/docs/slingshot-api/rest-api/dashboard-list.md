@@ -1,5 +1,7 @@
 # Dashboard List
 
+With dashboards you can display information with the help of beautiful visualizations. You can organize them in different lists for better visibility.
+
 ## DashboardList schema
 
 Schema:

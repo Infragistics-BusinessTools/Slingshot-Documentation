@@ -1,5 +1,7 @@
 # User
 
+In the object hierarchy, the *users* objects represent accounts in Slingshot. Every user can find their own information, such as credentials, profile information, settings and content, in their account. 
+
 ## User schema
 
 |    Property  | Type            | Attributes           |

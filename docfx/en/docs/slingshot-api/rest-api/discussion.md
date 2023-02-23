@@ -1,5 +1,7 @@
 # Discussion
 
+Discussions can be created in projects and workspaces. As they are specific to workspaces and projects, you won’t be able to access all of the discussions in Slingshot. You can organize discussions in different lists.
+
 ## Discussion schema
 
 Schema:

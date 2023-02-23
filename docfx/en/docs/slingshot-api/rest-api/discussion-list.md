@@ -1,5 +1,7 @@
 # Discussion List
 
+Discussions can be created in projects and workspaces. You can organize discussions in different lists. Discussion lists are sections dedicated to a specific subject.
+
 ## DiscussionList schema
 
 Schema:

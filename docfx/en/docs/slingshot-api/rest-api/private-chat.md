@@ -1,5 +1,7 @@
 # Pravite Chat
 
+You can use private chats in order to communicate with other users. As they are workspace and project independent, the users don’t need to be a part of your organization. Only you and the users, with whom you communicate with, can see the information in the chat.
+
 ## Private chat schema
 
 Schema:

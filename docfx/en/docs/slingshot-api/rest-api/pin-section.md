@@ -1,5 +1,7 @@
 # Pin Section
 
+Pins are simple links to different types of resources that you can share or access. You can organize them in sections. Sections are divisions of a pin list. You can create multiple sections in one list.
+
 ## PinSection schema
 
 Schema:

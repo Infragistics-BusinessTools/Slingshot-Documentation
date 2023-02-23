@@ -1,5 +1,7 @@
 # Workspace
 
+Workspaces can be viewed as digital workplaces. With workspaces you can collaborate with other users, prioritize work and share different types of content – all in one place. You can create multiple workspaces. One workspace can have many projects.
+
 ## Workspace schema
 
 Schema:

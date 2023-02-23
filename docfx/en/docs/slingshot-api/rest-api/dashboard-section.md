@@ -1,6 +1,6 @@
 # Dashboard Section
 
-**https://my.slingshotapp.io/v1/dashboardsections endpoint**
+With dashboards you can display information with the help of beautiful visualizations. You can organize them in sections. Sections are divisions of a dashboard list. You can create multiple sections in one list.
 
 ## DashboardSection schema
 

@@ -100,8 +100,8 @@
   href: slingshot-api/rate-limits.md
 - name: Response Codes
   href: slingshot-api/response-codes.md
-- name: Sample
-  href: slingshot-api/sample.md
+- name: Samples
+  href: slingshot-api/samples.md
 - name: Rest API 
   new: true
   items: 

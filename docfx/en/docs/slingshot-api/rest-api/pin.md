@@ -1,5 +1,7 @@
 # Pin
 
+Pins are simple links to different types of resources that you can share or access. You can organize them in different lists and sections.
+
 ## Pin schema
 
 Schema:

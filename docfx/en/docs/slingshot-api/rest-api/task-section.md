@@ -1,6 +1,10 @@
 # Task Section
 
+You can use tasks in order to better organize your work. For better visibility, you can organize them in different sections. Sections are divisions of a task list.
+
 ## Task section schema
+
+Schema:
 
 |    Property  | Type            | Attributes           |
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
