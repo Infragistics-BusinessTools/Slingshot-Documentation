@@ -2,11 +2,45 @@
 
 **https://my.slingshotapp.io/v1/dashboardsections endpoint**
 
+## DashboardSection schema
+
+Schema:
+
+|    Property  | Type            | Attributes           |
+-------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
+| id              | string |  |
+| modified             | string | |
+| created             | string |  |
+| name               | string | Min = 1, Max = 100 | 
+| user            | [DocumentInfo](../generic-slingshot-resources.html#document-info-object) | |
+| workspace            |[DocumentInfo](../generic-slingshot-resources.html#document-info-object) | |  
+| project    |[DocumentInfo](../generic-slingshot-resources.html#document-info-object)| | 
+| dashboardList             | [DocumentInfo](../generic-slingshot-resources.html#document-info-object) |  |
+| dashboards   |array [DocumentInfo](../generic-slingshot-resources.html#document-info-object)  |  |
+
+Example:
+
+```
+{
+    "id": "{123456}_f",
+    "modified": "2023-02-06T14:52:33.0000000",
+    "created": "2023-02-06T14:52:33.0000000",
+    "name": "Q4",
+    "user": {
+        "id": "{123456}_u",
+        "name": "Vyara Todorova"
+    },
+    "dashboardList": {
+        "id": "{123456}_repo",
+        "name": "Test"
+    },
+    "dashboards": []
+}
+```
+
 ## Create a dashboard section
 
-You can create a dashboard section by sending a `POST` request to the https://my.slingshotapp.io/v1/dashboardsections endpoint.  
-
-`POST` https://my.slingshotapp.io/v1/dashboardsections
+<img src="../images/post-request.png" alt="Post request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> https://my.slingshotapp.io/v1/dashboardsections
 
 Required parameters: None
 
@@ -60,9 +94,7 @@ Example of a successful response:
 
 ## Get a dashboard section
 
-You can check all the information about a dashboard section by sending a `GET` request to the the https://my.slingshotapp.io/v1/dashboardsections/{id} endpoint.
-
-`GET` https://my.slingshotapp.io/v1/dashboardsections/{id}
+<img src="../images/get.png" alt="Get request" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> https://my.slingshotapp.io/v1/dashboardsections/{id}
 
 Required parameters: the **id** of the dashboard section
 
@@ -74,11 +106,23 @@ Possible responses:
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication. |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
 
-## Update a dashboard section
+## Get all dashboard sections for a parent dashboard list
 
-You can update a specific dashboard section by sending the `PATCH` request to the https://my.slingshotapp.io/v1/dashboardsections/{id} endpoint.  
+<img src="../images/get-all.png" alt="Get all request" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> https://my.slingshotapp.io/v1/dashboardsections/parent/{id}
 
-`PATCH` https://my.slingshotapp.io/v1/dashboardsections/{id}
+Required parameters: the **id** of the dashboard list 
+
+Possible responses:
+
+| Code | Description|
+-------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
+| 200 (Success) |You can view all the dashboard sections in the parent dashboard list. The requested [DashboardSection](#dashboardsection-schema) will be returned in the response body in an [ItemsObject](../generic-slingshot-resources.html#document-info-object) array. |
+| 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication.  |
+| 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
+
+## Update a dashboard section  
+
+<img src="../images/patch.png" alt="Patch request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> https://my.slingshotapp.io/v1/dashboardsections/{id}
 
 Required parameters: the **id** of the dashboard section
 
@@ -127,9 +171,7 @@ Example of a successful response:
 
 ## Delete a dashboard section
 
-You can delete a dashboards section by sending a `DELETE` request to the https://my.slingshotapp.io/v1/dashboardsections/{id} endpoint. 
-
-`DELETE` https://my.slingshotapp.io/v1/dashboardsections/{id}
+<img src="../images/delete.png" alt="Delete request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> https://my.slingshotapp.io/v1/dashboardsections/{id}
 
 Required parameters: the **id** of the dashboard section
 
@@ -140,60 +182,3 @@ Possible responses:
 | 204 (No Content) |The dashboard section is deleted. |
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication. |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
-
-## Get all dashboard sections for a parent dashboard list 
-
-You can view all the dashboard section for a parent dashboard list by submitting a `GET` request with the https://my.slingshotapp.io/v1/dashboardsections/parent/{id} endpoint.
-
-`GET` https://my.slingshotapp.io/v1/dashboardsections/parent/{id}
-
-Required parameters: the **id** of the dashboard list 
-
-Possible responses:
-
-| Code | Description|
--------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| 200 (Success) |You can view all the dashboard sections in the parent dashboard list. The requested [DashboardSection](#dashboardsection-schema) will be returned in the response body in an [ItemsObject](../generic-slingshot-resources.html#document-info-object) array. |
-| 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication.  |
-| 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
-
-## DashboardSection schema
-
-Schema:
-
-|    Property  | Type            | Attributes           |
--------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| id              | string |  |
-| modified             | string | |
-| created             | string |  |
-| name               | string | Min = 1, Max = 100 | 
-| user            | [DocumentInfo](../generic-slingshot-resources.html#document-info-object) | |
-| workspace            |[DocumentInfo](../generic-slingshot-resources.html#document-info-object) | |  
-| project    |[DocumentInfo](../generic-slingshot-resources.html#document-info-object)| | 
-| dashboardList             | [DocumentInfo](../generic-slingshot-resources.html#document-info-object) |  |
-| dashboards   |array [DocumentInfo](../generic-slingshot-resources.html#document-info-object)  |  |
-
-Example:
-
-```
-{
-    "id": "{123456}_f",
-    "modified": "2023-02-06T14:52:33.0000000",
-    "created": "2023-02-06T14:52:33.0000000",
-    "name": "Q4",
-    "user": {
-        "id": "{123456}_u",
-        "name": "Vyara Todorova"
-    },
-    "dashboardList": {
-        "id": "{123456}_repo",
-        "name": "Test"
-    },
-    "dashboards": []
-}
-```
-
-
-
-
-

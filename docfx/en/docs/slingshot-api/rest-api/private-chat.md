@@ -1,10 +1,51 @@
 # Pravite Chat
 
+## Private chat schema
+
+Schema:
+
+|    Property  | Type            | Attributes           |
+-------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
+| id              | string |  |
+| modified             | string |  |
+|timestamp |	double| | 
+| created             | string |  |
+| name               | string |  Min = 1, Max = 100 |  
+|members| 	array <[MemberInfo](..generic-slingshot-resources#member-info-object)> |
+|lastMessage| 	[ChatMessageInfo](..generic-slingshot-resources#chat-message-info-object)| |
+
+Example:
+
+```
+{
+    "id": "{123456}_pchat",
+    "modified": "2023-02-10T15:45:21.0000000",
+    "timestamp": 1676043921598.1133,
+    "created": "2023-02-09T15:26:48.0000000",
+    "name": "Feedback",
+    "members": [
+        {
+            "id": "{123456}_u",
+            "name": "Ver",
+            "role": "owner"
+        },
+        {
+            "id": "{123456}_u",
+            "name": "Nik",
+            "role": "owner"
+        }
+    ],
+    "lastMessage": {
+        "id": "{123456}",
+        "userId": "{123456}_u",
+        "text": "I will check it."
+    }
+}
+```
+
 ## Create a private chat 
 
-You can create a private chat by sending a `POST` request to the {base_url}/privatechats endpoint.  
-
-`POST` {base_url}/privatechats
+<img src="../images/post-request.png" alt="Post request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> https://my.slingshotapp.io/v1/privatechats
 
 Required parameters: None
 
@@ -58,27 +99,9 @@ Example of a successful response:
 }
 ```
 
-## Get all private chats
-
-You can check all your private chats by sending a `GET` request to the {base_url}/privatechats endpoint.
-
-`GET`/{base_url}/privatechats
-
-Required parameters: None
-
-Possible responses:
-
-Code | Description|
--------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| 200 (Success) |You can view all your private chats. The requested [PrivateChat(s)](#private-chat-schema) will be returned in the response body.   |
-| 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication. |
-| 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
-
 ## Get a private chat
 
-You can check a private chat by sending a `GET` request to the {base_url}/privatechats/{id} endpoint.
-
-`GET`/{base_url}/privatechats/{id}
+<img src="../images/get.png" alt="Get request" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> / https://my.slingshotapp.io/v1/privatechats/{id}
 
 Required parameters: the **id** of the private chat 
 
@@ -90,11 +113,39 @@ Code | Description|
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication. |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
 
+## Get all private chats
+
+<img src="../images/get-all.png" alt="Get all request" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> https://my.slingshotapp.io/v1/privatechats
+
+Required parameters: None
+
+Possible responses:
+
+Code | Description|
+-------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
+| 200 (Success) |You can view all your private chats. The requested [PrivateChat(s)](#private-chat-schema) will be returned in the response body.   |
+| 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication. |
+| 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
+
+## Get private chat messages
+
+<img src="../images/get.png" alt="Get request" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> / https://my.slingshotapp.io/v1/privatechats/{id}/messages
+
+Required parameters: the **id** of the private chat
+
+>[!NOTE] In case you don’t set a number of returned messages or a start index, they will be automatically added. The default value for the number of returned messages is 10, and for the start index is 0.
+
+Possible responses:
+
+| Code | Description|
+-------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
+| 200 (Success) |You can view all the messages in the private chat. The requested private chat will be returned in the response body.   |
+| 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication. |
+| 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
+
 ## Update a private chat 
 
-You can update a private chat by sending a `PATCH` request to the {base_url}/privatechats/{id}  endpoint. 
-
-`PATCH`/{base_url}/privatechats/{id}
+<img src="../images/patch.png" alt="Patch request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> https://my.slingshotapp.io/v1/privatechats/{id}
 
 Required parameters: the **id** of the private chat
 
@@ -150,11 +201,9 @@ Example of a successful response:
 }
 ```
 
-## Send a private chat message
+## Send a private chat message  
 
-You can send a private chat by sending a `POST` request to the {base_url}/privatechats/{id}/send endpoint.  
-
-`POST` {base_url}/privatechats/{id}/send
+<img src="../images/post-sending-private-chat.png" alt="Sending private chat with post request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> https://my.slingshotapp.io/v1/privatechats/{id}/send
 
 Required parameters: the **id** of the private chat 
 
@@ -173,29 +222,9 @@ Possible responses:
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication. |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
 
-## Get private chat messages
+## Add members to a private chat 
 
-You can view all the messages that are in a private chat by submitting a `GET` request with the base_url}/privatechats/{id}/messages endpoint.
-
-`GET`/{base_url}/privatechats/{id}/messages
-
-Required parameters: the **id** of the private chat
-
->[!NOTE] In case you don’t set a number of returned messages or a start index, they will be automatically added. The default value for the number of returned messages is 10, and for the start index is 0.
-
-Possible responses:
-
-| Code | Description|
--------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| 200 (Success) |You can view all the messages in the private chat. The requested private chat will be returned in the response body.   |
-| 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication. |
-| 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
-
-## Add members to a private chat
-
-You can add members to a private chat by sending `POST` request to the /{base_url}/privatechats/{id}/members endpoint. 
-
-`POST`/{base_url}/privatechats/{id}/members
+<img src="../images/post-request.png" alt="Post request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> https://my.slingshotapp.io/v1/privatechats/{id}/members
 
 Required parameters: the **id** of the private chat
 
@@ -255,9 +284,7 @@ Example of a successful response:
 
 ## Remove members from a private chat
 
-You can remove members from a private chat by sending a `DELETE` request to the /{base_url}/privatechats/{id}/members endpoint. 
-
-`DELETE`/{base_url}/privatechats/{id}/members
+<img src="../images/delete.png" alt="Delete request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> https://my.slingshotapp.io/v1/privatechats/{id}/members
 
 Required parameters: the **id** of the private chat
 
@@ -309,58 +336,3 @@ Example of a successful response:
     }
 }
 ```
-
-## Private chat schema
-
-Schema:
-
-|    Property  | Type            | Attributes           |
--------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| id              | string |  |
-| modified             | string |  |
-|timestamp |	double| | 
-| created             | string |  |
-| name               | string |  Min = 1, Max = 100 |  
-|members| 	array <[MemberInfo](..generic-slingshot-resources#member-info-object)> |
-|lastMessage| 	[ChatMessageInfo](..generic-slingshot-resources#chat-message-info-object)| |
-
-Example:
-
-```
-{
-    "id": "{123456}_pchat",
-    "modified": "2023-02-10T15:45:21.0000000",
-    "timestamp": 1676043921598.1133,
-    "created": "2023-02-09T15:26:48.0000000",
-    "name": "Feedback",
-    "members": [
-        {
-            "id": "{123456}_u",
-            "name": "Ver",
-            "role": "owner"
-        },
-        {
-            "id": "{123456}_u",
-            "name": "Nik",
-            "role": "owner"
-        }
-    ],
-    "lastMessage": {
-        "id": "{123456}",
-        "userId": "{123456}_u",
-        "text": "I will check it."
-    }
-}
-```
-
-
-
-
-
-
-
-
-
-
-
-

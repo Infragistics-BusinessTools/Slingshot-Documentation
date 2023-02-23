@@ -2,9 +2,7 @@
 
 ## Get all organizations for a current user 
 
-You can view all the organizations you are in by submitting a `GET` request with the {base_url}/ organizations endpoint.
-
-`GET` {base_url}/organizations
+<img src="../images/get-all.png" alt="Get all request" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> https://my.slingshotapp.io/v1/organizations
 
 Required parameters: None
 
@@ -48,4 +46,3 @@ Example of a successful response:
   } ]
 }
 ```
-

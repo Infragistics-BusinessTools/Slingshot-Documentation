@@ -1,10 +1,25 @@
 # User
 
+## User schema
+
+|    Property  | Type            | Attributes           |
+-------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
+| id               | string |  |    
+| modified              | string |  |  
+| created             | string |  | 
+|email| string| |
+| name               | string |Min = 1, Max = 200| 
+|locale|string| 
+|organizations|array<[DocumentInfo](../generic-slingshot-resources.html#document-info-object)>|
+| workspaces             | array<[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | |
+| projects             | array<[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> |  |
+| pinLists           | array<[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> |  |
+| taskLists      | array<[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> |  |
+
+
 ## Get current user document
 
-You can check view your account's information (for example, in which workspaces you take part in) by sending a `GET` request to the {base_url}/user endpoint.
-
-`GET`/{base_url}/user
+<img src="../images/get.png" alt="Get request" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> / https://my.slingshotapp.io/v1/user
 
 Schema: [User](#user-schema)
 
@@ -20,9 +35,7 @@ Possible responses:
 
 ## Update current user document
 
-You can update your user document by sending the `PATCH` request to the {base_url}/user endpoint.  
-
-`PATCH` {base_url}/user
+<img src="../images/patch.png" alt="Patch request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> https://my.slingshotapp.io/v1/user
 
 Required parameters: None
 
@@ -109,24 +122,3 @@ Example of a successful response:
     ]
 }
 ```
-
-## User schema
-
-|    Property  | Type            | Attributes           |
--------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| id               | string |  |    
-| modified              | string |  |  
-| created             | string |  | 
-|email| string| |
-| name               | string |Min = 1, Max = 200| 
-|locale|string| 
-|organizations|array<[DocumentInfo](../generic-slingshot-resources.html#document-info-object)>|
-| workspaces             | array<[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | |
-| projects             | array<[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> |  |
-| pinLists           | array<[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> |  |
-| taskLists      | array<[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> |  |
-
-
-
-
-

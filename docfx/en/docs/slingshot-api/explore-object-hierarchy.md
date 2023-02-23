@@ -7,7 +7,7 @@ With Slingshot you can not only organize your work with the help of different da
 To find out more about how Slingshot works, you can take a look below.
 
 ### Users
-In the object hierarchy, the *users* objects represent accounts in Slingshot. Every account stores all the information, such as credentials, profile information, settings and content, that is owned by the user. 
+In the object hierarchy, the *users* objects represent accounts in Slingshot. Every user can find their own information, such as credentials, profile information, settings and content in their own account. 
 
 - [User](./rest-api/user.md)
 

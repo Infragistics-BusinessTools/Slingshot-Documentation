@@ -1,10 +1,42 @@
 # Task Section
 
+## Task section schema
+
+|    Property  | Type            | Attributes           |
+-------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
+| id               | string |  |    
+| modified              | string |  |  
+| created             | string |  |  
+| name               | string |Min = 1, Max = 100|  
+| user             | [DocumentInfo](../generic-slingshot-resources.html#document-info-object) | | 
+| workspace            |[DocumentInfo](../generic-slingshot-resources.html#document-info-object) | |  
+| project    |[DocumentInfo](../generic-slingshot-resources.html#document-info-object) | | 
+|tasklist|[DocumentInfo](../generic-slingshot-resources.html#document-info-object)||
+| tasks  |array <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)>  | | 
+
+Example:
+
+```
+{
+    "id": "{123456}_tg",
+    "modified": "2023-01-26T13:44:26.0000000",
+    "created": "2023-01-26T13:44:26.0000000",
+    "name": "Q1",
+    "workspace": {
+        "id": "{123456}_ws",
+        "name": "Customer support"
+    },
+    "taskList": {
+        "id": "{123456}_tg",
+        "name": "Feedback"
+    },
+    "tasks": []
+}
+  ```
+
 ## Create a task section
 
-You can create a tasks section by sending a `POST` request to the {base_url}/tasksections endpoint.   
-
-`POST` {base_url}/tasksections 
+<img src="../images/post-request.png" alt="Post request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> https://my.slingshotapp.io/v1/tasksections 
 
 Required parameters: None 
 
@@ -57,10 +89,8 @@ Example of a successful response:
 ```
 
 ## Get a task section
-
-You can check all the information about a tasks section by submitting a `GET` request to the {base_url}/tasksections/{id} endpoint.
  
-`GET` {base_url}/tasksections/{id}
+<img src="../images/get.png" alt="Get request" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/>  https://my.slingshotapp.io/v1/tasksections/{id}
 
 Required parameters: the **id** of the task.  
 
@@ -72,11 +102,23 @@ Possible responses:
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication. |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
 
-## Update a task section 
+## Get all task sections for a parent task list
 
-You can update a tasks section by sending the `PATCH` request to the {base_url}/tasksections/{id} endpoint.  
+<img src="../images/get-all.png" alt="Get all request" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> https://my.slingshotapp.io/v1/tasksections/parent/{id}
 
-`PATCH` {base_url}/tasksections/{id}
+Required parameters: the **id** of the parent task list
+
+Possible responses:
+
+Code | Description|
+-------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
+| 200 (Success) |You can view all the task sections that are in the parent task list. The requested task sections will be returned in the response body.  |
+| 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication. |
+| 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
+
+## Update a task section  
+
+<img src="../images/patch.png" alt="Patch request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> https://my.slingshotapp.io/v1/tasksections/{id}
 
 Required parameters: the **id** of the tasks section
 
@@ -123,11 +165,9 @@ Example of a successful response:
 }
 ```
 
-## Delete a task section
+## Delete a task section 
 
-You can delete a tasks section by sending a `DELETE` request to the {base_url}/tasksections/{id} endpoint. 
-
-`DELETE` {base_url}/tasksections/{id}
+<img src="../images/delete.png" alt="Delete request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> https://my.slingshotapp.io/v1/tasksections/{id}
 
 Required parameters: the **id** of the tasks section.
 
@@ -138,58 +178,3 @@ Possible responses:
 | 204 (No Content) |The task section is deleted. |
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication. |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
-
-## Get all task sections for a parent task list
-
-You can view all the task sections that are a parent tasks list by submitting a `GET` request with the {base_url}/tasksections/parent/{id}endpoint.
-
-`GET` {base_url}/tasksections/parent/{id}
-
-Required parameters: the **id** of the parent task list
-
-Possible responses:
-
-Code | Description|
--------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| 200 (Success) |You can view all the task sections that are in the parent task list. The requested task sections will be returned in the response body.  |
-| 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication. |
-| 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
-
-## Task section schema
-
-|    Property  | Type            | Attributes           |
--------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| id               | string |  |    
-| modified              | string |  |  
-| created             | string |  |  
-| name               | string |Min = 1, Max = 100|  
-| user             | [DocumentInfo](../generic-slingshot-resources.html#document-info-object) | | 
-| workspace            |[DocumentInfo](../generic-slingshot-resources.html#document-info-object) | |  
-| project    |[DocumentInfo](../generic-slingshot-resources.html#document-info-object) | | 
-|tasklist|[DocumentInfo](../generic-slingshot-resources.html#document-info-object)||
-| tasks  |array <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)>  | | 
-
-Example:
-
-```
-{
-    "id": "{123456}_tg",
-    "modified": "2023-01-26T13:44:26.0000000",
-    "created": "2023-01-26T13:44:26.0000000",
-    "name": "Q1",
-    "workspace": {
-        "id": "{123456}_ws",
-        "name": "Customer support"
-    },
-    "taskList": {
-        "id": "{123456}_tg",
-        "name": "Feedback"
-    },
-    "tasks": []
-}
-  ```
-
-
-
-
-

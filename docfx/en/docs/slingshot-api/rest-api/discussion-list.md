@@ -1,10 +1,44 @@
 # Discussion List
 
-## Create a discussion list
+## DiscussionList schema
 
-You can create a list of discussions by sending a `POST` request to the {base_url}/discussionlists endpoint.  
+Schema:
 
-`POST` {base_url}/discussionlists
+|    Property  | Type            | Attributes           |
+-------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
+| id              | string |  |
+| modified             | string |  |
+| created             | string |  |
+| name               | string | Min = 1, Max = 100 |  
+| workspace            |[DocumentInfo](../generic-slingshot-resources.html#document-info-object) | |  
+| project    |[DocumentInfo](../generic-slingshot-resources.html#document-info-object) | | 
+| discussionsCount             | int |  |
+| discussions             | array[DocumentInfo](../generic-slingshot-resources.html#document-info-object) | |
+
+Example:
+
+```
+{
+    "id": "{123456}",
+    "modified": "2023-02-07T07:43:52.0000000",
+    "created": "2023-02-07T07:43:52.0000000",
+    "name": "Feedback",
+    "workspace": {
+        "id": "{123456}_ws",
+        "name": "General Management"
+    },
+    "project": {
+        "id": "{123456}_proj",
+        "name": "Customer Support"
+    },
+    "discussionsCount": 0,
+    "discussions": []
+}
+```
+
+## Create a discussion list  
+
+<img src="../images/post-request.png" alt="Post request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> https://my.slingshotapp.io/v1/discussionlists
 
 Required parameters: None
 
@@ -60,9 +94,7 @@ Example of a successful response:
 
 ## Get a discussion list
 
-You can check all the information about a discussion list by sending a `GET` request to the {base_url}/discussionlists/{id} endpoint.
-
-`GET`/{base_url}/discussionlists/{id}
+<img src="../images/get.png" alt="Get request" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/>  https://my.slingshotapp.io/v1/discussionlists/{id}
 
 Required parameters: the **id** of the discussion list
 
@@ -74,11 +106,23 @@ Required parameters: the **id** of the discussion list
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication.  |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
 
+## Get all discussion lists for a parent document 
+
+<img src="../images/get-all.png" alt="Get all request" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/>  https://my.slingshotapp.io/v1/discussionlists/parent/{id}
+
+Required parameters: the **id** of the parent document.
+
+Possible responses:
+
+| Code | Description|
+-------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
+| 200 (Success) |You can view all the discussion lists in the parent document. The requested [DiscussionList(s)](#discussionlist-schema) will be returned in the response body in an ItemsObject (hyperlink) array. |
+| 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication.  |
+| 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
+
 ## Update a discussion list
 
-You can update a discussion list by sending the `PATCH` request to the {base_url}/discussionlists/{id} endpoint.  
-
-`PATCH` {base_url}/discussionlists/{id}
+<img src="../images/patch.png" alt="Patch request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> https://my.slingshotapp.io/v1/discussionlists/{id}
 
 Required parameters: the **id** of the discussion list
 
@@ -128,9 +172,7 @@ Example of a successful response:
 ```
 ## Delete a discussion list
 
-You can delete a discussion list by sending a `DELETE` request to the {base_url}/discussionlists/{id} endpoint. 
-
-`DELETE` {base_url}/discussionlists/{id}
+<img src="../images/delete.png" alt="Delete request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> https://my.slingshotapp.io/v1/discussionlists/{id}
 
 Required parameters: the **id** of the discussion list
 
@@ -141,74 +183,3 @@ Possible responses:
 | 204 (No Content) |The discussion list is deleted. |
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication..  |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
-
-## Get all discussion lists for a parent document 
-
-You can view all the discussion lists that are in a parent document (workspace, user or a project) by submitting a `GET` request with the {base_url}/discussionlists/parent/{id} endpoint.
-
-`GET` {base_url}/discussionlists/parent/{id}
-
-Required parameters: the **id** of the parent document.
-
-Possible responses:
-
-| Code | Description|
--------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| 200 (Success) |You can view all the discussion lists in the parent document. The requested [DiscussionList(s)](#discussionlist-schema) will be returned in the response body in an ItemsObject (hyperlink) array. |
-| 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication.  |
-| 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
-
-## DiscussionList schema
-
-Schema:
-
-|    Property  | Type            | Attributes           |
--------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| id              | string |  |
-| modified             | string |  |
-| created             | string |  |
-| name               | string | Min = 1, Max = 100 |  
-| workspace            |[DocumentInfo](../generic-slingshot-resources.html#document-info-object) | |  
-| project    |[DocumentInfo](../generic-slingshot-resources.html#document-info-object) | | 
-| discussionsCount             | int |  |
-| discussions             | array[DocumentInfo](../generic-slingshot-resources.html#document-info-object) | |
-
-Example:
-
-```
-{
-    "id": "{123456}",
-    "modified": "2023-02-07T07:43:52.0000000",
-    "created": "2023-02-07T07:43:52.0000000",
-    "name": "Feedback",
-    "workspace": {
-        "id": "{123456}_ws",
-        "name": "General Management"
-    },
-    "project": {
-        "id": "{123456}_proj",
-        "name": "Customer Support"
-    },
-    "discussionsCount": 0,
-    "discussions": []
-}
-```
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

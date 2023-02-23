@@ -1,10 +1,60 @@
 # Task
 
+## Task Schema
+
+Schema:
+
+|    Property  | Type            | Attributes           |
+-------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
+| id               | string |  |    
+| modified              | string |  |  
+| created             | string |  |  
+| name               | string |Min = 1, Max = 200|  
+| description              | string | Nullable |  
+| startDate               | string (date-time) |  |  
+| dueDate               | string (date-time) |  |  
+| status              | string (open, progress, review, blocked or completed) |  | 
+| priority             | string(none, low, medium or high) |  |   
+| assignee               | ListObject[AssigneeInfo](slingshot-api/generic-slingshot-resources.html#assignee-info-object)  | |
+| user               | object[DocumentInfo](../generic-slingshot-resources.html#document-info-object) |  |
+| workspace              | object[DocumentInfo](../generic-slingshot-resources.html#document-info-object) | |
+| project             | object[DocumentInfo](../generic-slingshot-resources.html#document-info-object) |  |
+| taskList            | object[DocumentInfo](../generic-slingshot-resources.html#document-info-object) |  |
+| taskSection      | object[DocumentInfo](../generic-slingshot-resources.html#document-info-object) |  |
+| parentTask      | object[DocumentInfo](../generic-slingshot-resources.html#document-info-object) |  |
+ | subtasks      | ListObject<Object[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> |  |
+
+Example:
+
+```
+{
+    "id": "{123456}_tk",
+    "modified": "2023-01-25T13:58:34.0000000",
+    "created": "2023-01-25T13:55:05.0000000",
+    "name": "Customer Support",
+    "description": "Feedback",
+    "status": "open",
+    "priority": "none",
+    "assignees": [],
+    "user": {
+        "id": "{123456}_u",
+        "name": "Ver"
+    },
+    "taskList": {
+        "id": "{123456}",
+        "name": "1"
+    },
+    "taskSection": {
+        "id": "{123456}_tg",
+        "name": "Q1"
+    },
+    "subtasks": []
+}
+```
+
 ## Create a Task
 
-You can create a task by sending a `POST` request to the {base_url}/tasks endpoint.   
-
-`POST` {base_url}/tasks  
+<img src="../images/post-request.png" alt="Post request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> https://my.slingshotapp.io/v1/tasks  
 
 Required parameters: None 
 
@@ -80,9 +130,7 @@ Example of a successful response:
 
 ## Get a task
 
-You can check all the information about a task when you submit a `GET` request with {base_url}/tasks/{id} as an endpoint.
-
-`GET` {base_url}/tasks  
+<img src="../images/get.png" alt="Get request" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/>  https://my.slingshotapp.io/v1/tasks  
 
 Required parameters: the **id** of the task.  
 
@@ -94,11 +142,23 @@ Possible responses:
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication. |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
 
+## Get all tasks for a parent task section
+
+<img src="../images/get-all.png" alt="Get all request" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> https://my.slingshotapp.io/v1/tasks/parent/{id}
+
+Required parameters: the **id** of the specific task
+
+Possible responses:
+
+Code | Description|
+-------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
+| 200 (Success) |You can view all the tasks in the task section.  |
+| 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication. |
+| 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
+
 ## Update a task list
 
-You can update a task by sending a `PATCH` request to the /{base_url}/tasks/{id}  endpoint. 
-
-`PATCH`/{base_url}/tasks/{id}
+<img src="../images/patch.png" alt="Patch request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> https://my.slingshotapp.io/v1/tasks/{id}
 
 Required parameters: the **id** of the task 
 
@@ -183,9 +243,7 @@ Example of a successful response:
 
 ## Delete a task
 
-You can delete a task by sending a `DELETE` request to the {base_url}/tasks/{id} endpoint. 
-
-`DELETE` {base_url}/tasks/{id}
+<img src="../images/delete.png" alt="Delete request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> https://my.slingshotapp.io/v1/tasks/{id}
 
 Required parameters: the **id** of the specific task
 
@@ -197,26 +255,9 @@ Possible responses:
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication. |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
 
-## Get all tasks for a parent task section
-
-You can view all the tasks that are in a specific task section by submitting a `GET` request with the {base_url}/tasks/parent/{id}endpoint.
-`GET`/{base_url}/tasks/parent/{id}
-
-Required parameters: the **id** of the specific task
-
-Possible responses:
-
-Code | Description|
--------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| 200 (Success) |You can view all the tasks in the task section.  |
-| 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication. |
-| 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
-
 ## Add assignee to a task
 
-You can add assignees to a task by sending `POST` request to the {base_url}/tasks/{id}/assignees endpoint. 
-
-`POST`/{base_url}/tasks/{id}/assignees
+<img src="../images/post-request.png" alt="Post request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> https://my.slingshotapp.io/v1/tasks/{id}/assignees
 
 Required parameters: the **id** of that specific task
 
@@ -281,8 +322,7 @@ Example of a successful response:
 ```
 ## Remove assigness from a task
 
-You can remove assignees from a task with the `DELETE` method and the /{base_url}/tasks/{id}/assignees endpoint.
-`DELETE`/{base_url}/tasks/{id}/assignees
+<img src="../images/delete.png" alt="Delete request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> https://my.slingshotapp.io/v1/tasks/{id}/assignees
 
 Required parameters: the **id** of the task
 
@@ -341,56 +381,3 @@ Example of a successful response:
     ]
 }
 ```
-
-## Task Schema
-
-Schema:
-
-|    Property  | Type            | Attributes           |
--------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| id               | string |  |    
-| modified              | string |  |  
-| created             | string |  |  
-| name               | string |Min = 1, Max = 200|  
-| description              | string | Nullable |  
-| startDate               | string (date-time) |  |  
-| dueDate               | string (date-time) |  |  
-| status              | string (open, progress, review, blocked or completed) |  | 
-| priority             | string(none, low, medium or high) |  |   
-| assignee               | ListObject[AssigneeInfo](slingshot-api/generic-slingshot-resources.html#assignee-info-object)  | |
-| user               | object[DocumentInfo](../generic-slingshot-resources.html#document-info-object) |  |
-| workspace              | object[DocumentInfo](../generic-slingshot-resources.html#document-info-object) | |
-| project             | object[DocumentInfo](../generic-slingshot-resources.html#document-info-object) |  |
-| taskList            | object[DocumentInfo](../generic-slingshot-resources.html#document-info-object) |  |
-| taskSection      | object[DocumentInfo](../generic-slingshot-resources.html#document-info-object) |  |
-| parentTask      | object[DocumentInfo](../generic-slingshot-resources.html#document-info-object) |  |
- | subtasks      | ListObject<Object[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> |  |
-
-Example:
-
-```
-{
-    "id": "{123456}_tk",
-    "modified": "2023-01-25T13:58:34.0000000",
-    "created": "2023-01-25T13:55:05.0000000",
-    "name": "Customer Support",
-    "description": "Feedback",
-    "status": "open",
-    "priority": "none",
-    "assignees": [],
-    "user": {
-        "id": "{123456}_u",
-        "name": "Ver"
-    },
-    "taskList": {
-        "id": "{123456}",
-        "name": "1"
-    },
-    "taskSection": {
-        "id": "{123456}_tg",
-        "name": "Q1"
-    },
-    "subtasks": []
-}
-```
-
