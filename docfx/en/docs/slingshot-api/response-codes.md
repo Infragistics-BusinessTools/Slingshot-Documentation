@@ -14,7 +14,7 @@ The reasons for these errors can vary. Below you can see the different types of 
 | 400 (Bad Request) |The request was not processed because of missing or malformed parameter(s). Check the errors array in the response to get an idea of what went wrong. |
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication.  |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
-|429 (Too Many Requests)|There are too many requests in a given amount of time. For more information about the Slingshot’s API rate limits, head [here](rate-limits.md).|
+|429 (Too Many Requests)|There are too many requests in a given period of time. For more information about the Slingshot’s API rate limits, head [here](rate-limits.md).|
 |500 (Internal Server Error)| Something unexpected has occurred on the Slingshot’s end.|
 
 >[!NOTE] Error 400 (Bad Request) returns error arrays, containing information about what went wrong.

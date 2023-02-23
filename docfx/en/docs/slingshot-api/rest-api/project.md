@@ -1,10 +1,77 @@
 # Project
 
+In case you want to have a better overview of different initiatives and processes, bound to a group of people, you can create a project. You can create multiple projects.
+
+## Project schema
+
+Schema:
+
+|    Property  | Type            | Attributes           |
+-------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
+| id              | string |  |
+| modified             | string |  |
+| created             | string |  |
+| name               | string |  Min = 1, Max = 100 |
+|description|string|Min = 1, Max = 144, Nullable|
+|startDate|string, date-time| |
+|endDate|string, date-time| |
+|status| string, enum (none, ontarget, atrisk, danger completed| | 
+| workspace            |[DocumentInfo](../generic-slingshot-resources.html#document-info-object) | | 
+|members| 	array <[MemberInfo](../generic-slingshot-resources#member-info-object)> | |
+|requests| 	array <[MemberInfo](../generic-slingshot-resources#member-info-object)> | |
+| pendingInvites           | [DocumentInfo](../generic-slingshot-resources.html#document-info-object) |  |
+|pinLists| [DocumentInfo](../generic-slingshot-resources.html#document-info-object)| |
+|taskLists| [DocumentInfo](../generic-slingshot-resources.html#document-info-object)|
+| discussionLists           | [DocumentInfo](../generic-slingshot-resources.html#document-info-object)|  |
+
+Example:
+
+```
+{
+    "id": "{123456}_proj",
+    "modified": "2023-02-08T10:28:43.0000000",
+    "created": "2023-02-08T10:28:43.0000000",
+    "name": "Customer Support",
+    "description": "Customer Support Cases",
+    "startDate": "2023-02-08T09:36:12.0000000",
+    "endDate": "2023-02-08T09:36:12.0000000",
+    "status": "none",
+    "workspace": {
+        "id": "{123456}_ws",
+        "name": "Management"
+    },
+    "members": [
+        {
+            "id": "{123456}_u",
+            "role": "owner"
+        }
+    ],
+    "requests": [],
+    "pendingInvites": [],
+    "pinLists": [
+        {
+            "id": "{123456}_proj_d",
+            "name": "Project Pins"
+        }
+    ],
+    "taskLists": [
+        {
+            "id": "{123456}_tg",
+            "name": "Project Tasks"
+        }
+    ],
+    "discussionLists": [
+        {
+            "id": "{123456}",
+            "name": "Project Discussions"
+        }
+    ]
+}
+```
+
 ## Create a project
 
-You can create a project by sending a `POST` request to the {base_url}/projects endpoint.  
-
-`POST` {base_url}/projects
+<img src="../images/post-request.png" alt="Post request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> https://my.slingshotapp.io/v1/projects
 
 Required parameters: None
 
@@ -95,27 +162,9 @@ Example of a successful response:
 }
 ```
 
-## Get all projects for a current user 
-
-You can view all the projects that you take part in by submitting a `GET` request with the {base_url}/projects endpoint.
-
-`GET` {base_url}/projects
-
-Required parameters: None
-
-Possible responses:
-
-| Code | Description|
--------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| 200 (Success) |You can view all the projects that you take part in. The requested Project(s) (hyperlink) will be returned in the response body in an [ItemsObject](..generic-slingshot-resources#item-object) array. |
-| 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication. |
-| 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
-
 ## Get a project
 
-You can check all the information about a project by sending a `GET` request to the {base_url}/projects/{id}endpoint.
-
-`GET`/{base_url}/projects/{id}
+<img src="../images/get.png" alt="Get request" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> / https://my.slingshotapp.io/v1/projects/{id}
 
 Required parameters: the **id** of the project
 
@@ -127,11 +176,23 @@ Code | Description|
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication. |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
 
-## Update a project
+## Get all projects for a current user 
 
-You can update a project by sending the `PATCH` request to the {base_url}/projects/{id} endpoint.  
+<img src="../images/get-all.png" alt="Get all request" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> https://my.slingshotapp.io/v1/projects
 
-`PATCH` {base_url}/projects/{id}
+Required parameters: None
+
+Possible responses:
+
+| Code | Description|
+-------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
+| 200 (Success) |You can view all the projects that you take part in. The requested Project(s) (hyperlink) will be returned in the response body in an [ItemsObject](..generic-slingshot-resources#item-object) array. |
+| 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication. |
+| 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
+
+## Update a project  
+
+<img src="../images/patch.png" alt="Patch request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> https://my.slingshotapp.io/v1/projects/{id}
 
 Required parameters: the **id** of the project
 
@@ -221,9 +282,7 @@ Example of a successful response:
 
 ## Delete a project
 
-You can delete a project by sending a `DELETE` request to the {base_url}/projects/{id} endpoint. 
-
-`DELETE` {base_url}/projects/{id}
+<img src="../images/delete.png" alt="Delete request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> https://my.slingshotapp.io/v1/projects/{id}
 
 Required parameters: the **id** of the project
 
@@ -237,9 +296,7 @@ Possible responses:
 
 ## Add members to a project
 
-You can add members to a project by sending a `POST` request to the {base_url}/projects/{id}/members endpoint.   
-
-`POST`/{base_url}/projects/{id}/members
+<img src="../images/post-request.png" alt="Post request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> https://my.slingshotapp.io/v1/projects/{id}/members
 
 Required parameters: the **id** of the project 
 
@@ -341,11 +398,9 @@ Example of a successful response:
 }
 ```
 
-## Update members of a project
+## Update members of a project 
 
-You can update members of a project by sending the `PATCH` request to the {base_url}/projects/{id}/members endpoint.  
-
-`PATCH` {base_url}/projects/{id}/members
+<img src="../images/patch.png" alt="Patch request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> https://my.slingshotapp.io/v1/projects/{id}/members
 
 Required parameters: the **id** of the project
 
@@ -438,11 +493,9 @@ Example of a successful response:
 }
 ```
 
-## Remove members from a project
+## Remove members from a project 
 
-You can remove members from a project by sending a `DELETE` request to the {base_url}/projects/{id}/members endpoint. 
-
-`DELETE` {base_url}/projects/{id}/members
+<img src="../images/delete.png" alt="Delete request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> https://my.slingshotapp.io/v1/projects/{id}/members
 
 Required parameters: the **id** of the project
 
@@ -533,10 +586,8 @@ Example of a successful response:
 ```
 
 ## Grant requests access to add members to a project
-
-You can grant requests to add members to a project by sending the `PATCH` request to the {base_url}/projects/{id}/requests endpoint.  
-
-`PATCH`/{base_url}/projects/{id}/requests
+  
+<img src="../images/patch.png" alt="Patch request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> https://my.slingshotapp.io/v1/projects/{id}/requests
 
 Required parameters: the **id** of the project
 
@@ -617,11 +668,9 @@ Example of a successful response:
 }
 ```
 
-## Deny requests to add members to a project
+## Deny requests to add members to a project 
 
-You can deny requests to add members to a project by sending a `DELETE` request to the {base_url}/projects/{id}/requests endpoint. 
-
-`DELETE`/{base_url}/projects/{id}/requests
+<img src="../images/delete.png" alt="Delete request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> https://my.slingshotapp.io/v1/projects/{id}/requests
 
 Required parameters: the **id** of the project
 
@@ -695,77 +744,3 @@ Example of a successful response:
     ]
 }
 ```
-
-## Project schema
-
-Schema:
-
-|    Property  | Type            | Attributes           |
--------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| id              | string |  |
-| modified             | string |  |
-| created             | string |  |
-| name               | string |  Min = 1, Max = 100 |
-|description|string|Min = 1, Max = 144, Nullable|
-|startDate|string, date-time| |
-|endDate|string, date-time| |
-|status| string, enum (none, ontarget, atrisk, danger completed| | 
-| workspace            |[DocumentInfo](../generic-slingshot-resources.html#document-info-object) | | 
-|members| 	array <[MemberInfo](../generic-slingshot-resources#member-info-object)> | |
-|requests| 	array <[MemberInfo](../generic-slingshot-resources#member-info-object)> | |
-| pendingInvites           | [DocumentInfo](../generic-slingshot-resources.html#document-info-object) |  |
-|pinLists| [DocumentInfo](../generic-slingshot-resources.html#document-info-object)| |
-|taskLists| [DocumentInfo](../generic-slingshot-resources.html#document-info-object)|
-| discussionLists           | [DocumentInfo](../generic-slingshot-resources.html#document-info-object)|  |
-
-Example:
-
-```
-{
-    "id": "{123456}_proj",
-    "modified": "2023-02-08T10:28:43.0000000",
-    "created": "2023-02-08T10:28:43.0000000",
-    "name": "Customer Support",
-    "description": "Customer Support Cases",
-    "startDate": "2023-02-08T09:36:12.0000000",
-    "endDate": "2023-02-08T09:36:12.0000000",
-    "status": "none",
-    "workspace": {
-        "id": "{123456}_ws",
-        "name": "Management"
-    },
-    "members": [
-        {
-            "id": "{123456}_u",
-            "role": "owner"
-        }
-    ],
-    "requests": [],
-    "pendingInvites": [],
-    "pinLists": [
-        {
-            "id": "{123456}_proj_d",
-            "name": "Project Pins"
-        }
-    ],
-    "taskLists": [
-        {
-            "id": "{123456}_tg",
-            "name": "Project Tasks"
-        }
-    ],
-    "discussionLists": [
-        {
-            "id": "{123456}",
-            "name": "Project Discussions"
-        }
-    ]
-}
-```
-
-
-
-
-
-
-

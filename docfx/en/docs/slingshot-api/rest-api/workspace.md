@@ -1,10 +1,81 @@
 # Workspace
 
-## Create a workspace
+Workspaces can be viewed as digital workplaces. With workspaces you can collaborate with other users, prioritize work and share different types of content – all in one place. You can create multiple workspaces. One workspace can have many projects.
 
-You can create a workspace by sending a `POST` request to the {base_url}/workspaces endpoint.  
+## Workspace schema
 
-`POST` {base_url}/workspaces
+Schema:
+
+|    Property  | Type            | Attributes           |
+-------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
+| id              | string |  |
+| modified             | string |  |
+| created             | string |  |
+| name               | string |  Min = 1, Max = 100 |
+|description|string|Min = 1, Max = 144, Nullable|
+|startDate|string, date-time| |
+|endDate|string, date-time| |
+|status| string, enum (none, ontarget, atrisk, danger completed| |
+|organization| [DocumentInfo](../generic-slingshot-resources.html#document-info-object)| |  
+|members| 	array <[MemberInfo](../generic-slingshot-resources#member-info-object)> | |
+|requests| 	array <[MemberInfo](../generic-slingshot-resources#member-info-object)> | |
+| pendingInvites           | [DocumentInfo](../generic-slingshot-resources. | |html#document-info-object) |  |
+|projects| [DocumentInfo](../generic-slingshot-resources.html#document-info-object)| |
+|pinLists| [DocumentInfo](../generic-slingshot-resources.html#document-info-object)| |
+|taskLists| [DocumentInfo](../generic-slingshot-resources.html#document-info-object)| |
+| discussionLists           | [DocumentInfo](../generic-slingshot-resources.html#document-info-object)|  |
+
+
+Example:
+
+```
+{
+    "id": "{123456}_ws",
+    "modified": "2023-02-08T08:40:30.0000000",
+    "created": "2023-02-08T08:40:27.0000000",
+    "name": "Marketing",
+    "description": "Q1",
+    "startDate": "2023-02-08T08:29:02.0000000",
+    "endDate": "2023-02-08T08:29:02.0000000",
+    "status": "none",
+    "organization": {
+        "id": "{123456}_org",
+        "name": null
+    },
+    "members": [
+        {
+            "id": "{123456}_u",
+            "role": "owner",
+            "name": "Vyara"
+        }
+    ],
+    "requests": [],
+    "pendingInvites": [],
+    "projects": [],
+    "pinLists": [
+        {
+            "id": "{123456}_ws_d",
+            "name": "Workspace Pins"
+        }
+    ],
+    "taskLists": [
+        {
+            "id": "{123456}_tg",
+            "name": "Workspace Tasks"
+        }
+    ],
+    "discussionLists": [
+        {
+            "id": "{123456}",
+            "name": "Workspace Discussions"
+        }
+    ]
+}
+```
+
+## Create a workspace 
+
+<img src="../images/post-request.png" alt="Post request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> https://my.slingshotapp.io/v1/workspaces
 
 Required parameters: None
 
@@ -94,27 +165,9 @@ Example of a successful response:
 }
 ```
 
-## Get all workspaces for a current user
-
-You can view all the workspaces you are taking part in by submitting a `GET` request with the {base_url}/workspaces endpoint.
-
-`GET` {base_url}/workspaces
-
-Required parameters: None
-
-Possible responses:
-
-| Code | Description|
--------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| 200 (Success) |You can view your workspaces. The requested [Workspaces]() will be returned in the response body in an [ItemsObject](..generic-slingshot-resources#item-object) array. |
-| 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication. |
-| 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
-
 ## Get a workspace
 
-You can view a workspace by submitting a `GET` request with the {base_url}/workspaces/{id} endpoint.
-
-`GET` {base_url}/workspaces/{id}
+<img src="../images/get.png" alt="Get request" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/>  https://my.slingshotapp.io/v1/workspaces/{id}
 
 Required parameters: the **id** of the workspace
 
@@ -126,11 +179,23 @@ Possible responses:
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication. |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
 
+## Get all workspaces for a current user
+
+<img src="../images/get-all.png" alt="Get all request" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> https://my.slingshotapp.io/v1/workspaces
+
+Required parameters: None
+
+Possible responses:
+
+| Code | Description|
+-------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
+| 200 (Success) |You can view your workspaces. The requested [Workspaces]() will be returned in the response body in an [ItemsObject](..generic-slingshot-resources#item-object) array. |
+| 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication. |
+| 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
+
 ## Update a workspace
 
-You can update a workspace by sending the `PATCH` request to the {base_url}/workspaces/{id} endpoint.  
-
-`PATCH` {base_url}/workspaces/{id}
+<img src="../images/patch.png" alt="Patch request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> https://my.slingshotapp.io/v1/workspaces/{id}
 
 Required parameters: the **id** of the workspace
 
@@ -223,9 +288,7 @@ Example of a successful response:
 
 ## Delete a workspace
 
-You can delete a workspace by sending a `DELETE` request to the {base_url}/workspaces/{id} endpoint. 
-
-`DELETE` {base_url}/workspaces/{id}
+<img src="../images/delete.png" alt="Delete request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> https://my.slingshotapp.io/v1/workspaces/{id}
 
 Required parameters: the **id** of the workspace
 
@@ -237,11 +300,9 @@ Possible responses:
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication. |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
 
-## Add members to a workspace
+## Add members to a workspace  
 
-You can add members to a workspace by sending a `POST` request to the {base_url}/workspaces/{id}/members endpoint.  
-
-`POST` {base_url}/workspaces/{id}/members
+<img src="../images/post-request.png" alt="Post request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> https://my.slingshotapp.io/v1/workspaces/{id}/members
 
 Required parameters: the **id** of the workspace
 
@@ -335,9 +396,7 @@ Example of a successful response:
 
 ## Update members of a workspace
 
-You can update members of a workspace by sending the `PATCH` request to the {base_url}/workspaces/{id}/members endpoint.  
-
-`PATCH`/{base_url}/workspaces/{id}/members
+<img src="../images/patch.png" alt="Patch request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> https://my.slingshotapp.io/v1/workspaces/{id}/members
 
 Required parameters: the **id** of the workspace
 
@@ -435,9 +494,7 @@ Example of a successful response:
 
 ## Remove members from a workspace
 
-You can remove members from a workspace by sending a `DELETE` request to the {base_url}/workspaces/{id}/members endpoint. 
-
-`DELETE`/{base_url}/workspaces/{id}/members
+<img src="../images/delete.png" alt="Delete request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> https://my.slingshotapp.io/v1/workspaces/{id}/members
 
 Required parameters: the **id** of the workspace
 
@@ -528,11 +585,9 @@ Example of a successful response:
 }
 ```
 
-## Grant requests to add members to a workspace
+## Grant requests to add members to a workspace  
 
-You can grant requests to add members to a project by sending the `PATCH` request to the {base_url}/workspaces/{id}/requests endpoint.  
-
-`PATCH`/{base_url}/workspaces/{id}/requests
+<img src="../images/patch.png" alt="Patch request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> https://my.slingshotapp.io/v1/workspaces/{id}/requests
 
 Required parameters: the **id** of the workspace
 
@@ -623,9 +678,7 @@ Example of a successful response:
 
 ## Deny requests to add members to a workspace
 
-You can deny requests to add members to a workspace by sending a `DELETE` request to the {base_url}/workspaces/{id}/requests endpoint. 
-
-`DELETE`/{base_url}/workspaces/{id}/requests
+<img src="../images/delete.png" alt="Delete request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> https://my.slingshotapp.io/v1/workspaces/{id}/requests
 
 Required parameters: the **id** of the workspace
 
@@ -707,80 +760,3 @@ Example of a successful response:
     ]
 }
 ```
-
-## Workspace schema
-
-Schema:
-
-|    Property  | Type            | Attributes           |
--------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| id              | string |  |
-| modified             | string |  |
-| created             | string |  |
-| name               | string |  Min = 1, Max = 100 |
-|description|string|Min = 1, Max = 144, Nullable|
-|startDate|string, date-time| |
-|endDate|string, date-time| |
-|status| string, enum (none, ontarget, atrisk, danger completed| |
-|organization| [DocumentInfo](../generic-slingshot-resources.html#document-info-object)| |  
-|members| 	array <[MemberInfo](../generic-slingshot-resources#member-info-object)> | |
-|requests| 	array <[MemberInfo](../generic-slingshot-resources#member-info-object)> | |
-| pendingInvites           | [DocumentInfo](../generic-slingshot-resources. | |html#document-info-object) |  |
-|projects| [DocumentInfo](../generic-slingshot-resources.html#document-info-object)| |
-|pinLists| [DocumentInfo](../generic-slingshot-resources.html#document-info-object)| |
-|taskLists| [DocumentInfo](../generic-slingshot-resources.html#document-info-object)| |
-| discussionLists           | [DocumentInfo](../generic-slingshot-resources.html#document-info-object)|  |
-
-
-Example:
-
-```
-{
-    "id": "{123456}_ws",
-    "modified": "2023-02-08T08:40:30.0000000",
-    "created": "2023-02-08T08:40:27.0000000",
-    "name": "Marketing",
-    "description": "Q1",
-    "startDate": "2023-02-08T08:29:02.0000000",
-    "endDate": "2023-02-08T08:29:02.0000000",
-    "status": "none",
-    "organization": {
-        "id": "{123456}_org",
-        "name": null
-    },
-    "members": [
-        {
-            "id": "{123456}_u",
-            "role": "owner",
-            "name": "Vyara"
-        }
-    ],
-    "requests": [],
-    "pendingInvites": [],
-    "projects": [],
-    "pinLists": [
-        {
-            "id": "{123456}_ws_d",
-            "name": "Workspace Pins"
-        }
-    ],
-    "taskLists": [
-        {
-            "id": "{123456}_tg",
-            "name": "Workspace Tasks"
-        }
-    ],
-    "discussionLists": [
-        {
-            "id": "{123456}",
-            "name": "Workspace Discussions"
-        }
-    ]
-}
-```
-
-
-
-
-
-

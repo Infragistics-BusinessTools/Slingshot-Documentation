@@ -1,10 +1,50 @@
 # Pin Section
 
-## Create a pin section
+Pins are simple links to different types of resources that you can share or access. You can organize them in sections. Sections are divisions of a pin list. You can create multiple sections in one list.
 
-You can create a pin section by sending a `POST` request to the {base_url}/pinsections endpoint.  
+## PinSection schema
 
-`POST` {base_url}/pinsections
+Schema:
+
+|    Property  | Type            | Attributes           |
+-------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
+| id              | string |  |
+| modified             | string |  |
+| created             | string |  |
+| name               | string |  Min = 1, Max = 100 |  
+| user             | [DocumentInfo](../generic-slingshot-resources.html#document-info-object) | | 
+| workspace            |[DocumentInfo](../generic-slingshot-resources.html#document-info-object) | |  
+| project    |[DocumentInfo](../generic-slingshot-resources.html#document-info-object)| | 
+| pinList   |[DocumentInfo](../generic-slingshot-resources.html#document-info-object)| | 
+| pins   |array [DocumentInfo](../generic-slingshot-resources.html#document-info-object)  | | 
+
+Example:
+
+```
+{
+    "id": "{123456}_bs",
+    "modified": "2023-02-07T10:37:52.0000000",
+    "created": "2023-02-07T10:37:52.0000000",
+    "name": "Q3",
+    "workspace": {
+        "id": "123456}_ws",
+        "name": "General Management"
+    },
+    "project": {
+        "id": "123456}_proj",
+        "name": "Support"
+    },
+    "pinList": {
+        "id": "123456}_b",
+        "name": "Statistics"
+    },
+    "pins": []
+}
+```
+
+## Create a pin section 
+
+<img src="../images/post-request.png" alt="Post request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> https://my.slingshotapp.io/v1/pinsections
 
 Required parameters: None
 
@@ -62,8 +102,7 @@ Example of a successful response:
 
 ## Get a pin section
 
-You can check all the information about a pin section by sending a `GET` request to the {base_url}/pinsections/{id}endpoint.
-`GET`/{base_url}/pinsections/{id}
+<img src="../images/get.png" alt="Get request" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> / https://my.slingshotapp.io/v1/pinsections/{id}
 
 Required parameters: the **id** of the pin section
 
@@ -75,11 +114,23 @@ Possible responses:
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication. |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
 
+## Get all pin sections for a parent pin list
+
+<img src="../images/get-all.png" alt="Get all request" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> https://my.slingshotapp.io/v1/pinsections/parent/{id}
+
+Required parameters: the **id** of the parent pin list
+
+Possible responses:
+
+| Code | Description|
+-------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
+| 200 (Success) |You can view all the pin sections in the parent pin list. The requested [PinSection](#pinsection-schema) will be returned in the response body in an [ItemsObject](../generic-slingshot-resources.html#item-object) array.    |
+| 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication. |
+| 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
+
 ## Update a pin section
 
-You can update a pin section by sending the `PATCH` request to the {base_url}/pinsections/{id} endpoint.  
-
-`PATCH` {base_url}/pinsections/{id}
+<img src="../images/patch.png" alt="Patch request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> https://my.slingshotapp.io/v1/pinsections/{id}
 
 Required parameters: the **id** of the pin section
 
@@ -132,9 +183,7 @@ Example of a successful response:
 
 ## Delete a pin section
 
-You can delete a pin section by sending a `DELETE` request to the {base_url}/pinsections/{id} endpoint. 
-
-`DELETE` {base_url}/pinsections/{id}
+<img src="../images/delete.png" alt="Delete request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> https://my.slingshotapp.io/v1/pinsections/{id}
 
 Required parameters: the **id** of the pin section
 
@@ -145,63 +194,3 @@ Possible responses:
 | 204 (No Content) |The pin section is deleted. |
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication. |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
-
-## Get all pin sections for a parent pin list
-
-You can view all the pin sections for a parent pin list by submitting a `GET` request with the {base_url}/pinsections/parent/{id} endpoint.
-
-`GET` {base_url}/pinsections/parent/{id}
-
-Required parameters: the **id** of the parent pin list
-
-Possible responses:
-
-| Code | Description|
--------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| 200 (Success) |You can view all the pin sections in the parent pin list. The requested [PinSection](#pinsection-schema) will be returned in the response body in an [ItemsObject](../generic-slingshot-resources.html#item-object) array.    |
-| 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication. |
-| 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
-
-## PinSection schema
-
-Schema:
-
-|    Property  | Type            | Attributes           |
--------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| id              | string |  |
-| modified             | string |  |
-| created             | string |  |
-| name               | string |  Min = 1, Max = 100 |  
-| user             | [DocumentInfo](../generic-slingshot-resources.html#document-info-object) | | 
-| workspace            |[DocumentInfo](../generic-slingshot-resources.html#document-info-object) | |  
-| project    |[DocumentInfo](../generic-slingshot-resources.html#document-info-object)| | 
-| pinList   |[DocumentInfo](../generic-slingshot-resources.html#document-info-object)| | 
-| pins   |array [DocumentInfo](../generic-slingshot-resources.html#document-info-object)  | | 
-
-Example:
-
-```
-{
-    "id": "{123456}_bs",
-    "modified": "2023-02-07T10:37:52.0000000",
-    "created": "2023-02-07T10:37:52.0000000",
-    "name": "Q3",
-    "workspace": {
-        "id": "123456}_ws",
-        "name": "General Management"
-    },
-    "project": {
-        "id": "123456}_proj",
-        "name": "Support"
-    },
-    "pinList": {
-        "id": "123456}_b",
-        "name": "Statistics"
-    },
-    "pins": []
-}
-```
-
-
-
-
