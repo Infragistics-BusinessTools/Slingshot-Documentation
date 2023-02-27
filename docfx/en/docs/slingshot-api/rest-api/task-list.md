@@ -104,7 +104,7 @@ Example of a successful response:
 
 <img src="../images/get.png" alt="Get request" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/tasklists/{id}***
 
-Required parameters: the **id** of the tasks list.
+Required parameters: the **id** of the tasks list
 
 Possible responses:
 
@@ -118,7 +118,7 @@ Possible responses:
 
 <img src="../images/get-all.png" alt="Get all request" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/tasklists/parent/{id}***
 
-Required parameters: the **id** of the parent document.
+Required parameters: the **id** of the parent document
 
 Possible responses:
 
@@ -177,7 +177,7 @@ Example of a successful response:
 
 <img src="../images/delete.png" alt="Delete request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1}/tasklists/{id}***
 
-Required parameters: the **id** of the task list.
+Required parameters: the **id** of the task list
 
 Possible responses:
 

@@ -103,7 +103,7 @@
 - name: Samples
   href: slingshot-api/samples.md
 - name: Rest API 
-  new: true
+  new: false
   items: 
     - name: Dashboard List
       href: slingshot-api/rest-api/dashboard-list.md

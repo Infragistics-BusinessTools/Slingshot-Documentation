@@ -21,7 +21,8 @@ In the object hierarchy, the *users* objects represent accounts in Slingshot. Ev
 
 ## Get current user document
 
-<img src="../images/get.png" alt="Get request" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/user***
+<img src="../images/get.png" alt="Get request" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> 
+<span class="italic">***htt<area>ps://my.slingshotapp<area>.io/v1/user***</span>
 
 Schema: [User](#user-schema)
 
@@ -37,7 +38,7 @@ Possible responses:
 
 ## Update current user document
 
-<img src="../images/patch.png" alt="Patch request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> https://my.slingshotapp.io/v1/user
+<img src="../images/patch.png" alt="Patch request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> <span class="italic">***htt<area>ps://my.slingshotapp<area>.io/v1/user***</span>
 
 Required parameters: None
 
