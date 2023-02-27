@@ -132,7 +132,8 @@ Example of a successful response:
 
 ## Get a task
 
-<img src="../images/get.png" alt="Get request" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/tasks***
+<img src="../images/get.png" alt="Get request" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> 
+<span class="italic">***htt<area>ps://my.slingshotapp<area>.io/v1/tasks***</span>
 
 Required parameters: the **id** of the task  
 
