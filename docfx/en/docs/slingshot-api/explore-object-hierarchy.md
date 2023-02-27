@@ -11,7 +11,7 @@ In the object hierarchy, the *users* objects represent accounts in Slingshot. Ev
 
 - [User](./rest-api/user.md)
 
-<img src="images/user-structure-diagram.png" alt="organization structure" class="responsive-img" width="55%">
+<img src="images/user-structure-diagram.png" alt="organization structure" class="responsive-img" width="60%">
 
 ### Organizations
 
@@ -19,21 +19,21 @@ Organization is a workspace, where you and your colleagues can find information,
 
 - [Organization](./rest-api/organizations.md)
 
-<img src="images/organization-structure-diagram.png" alt="organization structure" class="responsive-img" width="55%">
+<img src="images/organization-structure.png" alt="organization structure" class="responsive-img" width="60%">
 
 ### Workspaces
 Workspaces can be viewed as digital workplaces. One workspace can contain multiple projects. With workspaces you can collaborate with other users, prioritize work and share different types of content – all in one place. 
 
 - [Workspace](./rest-api/workspace.md)
 
-<img src="images/workspace-structure-diagram.png" alt="workspace structure" class="responsive-img" width="55%">
+<img src="images/workspace-structure.png" alt="workspace structure" class="responsive-img" width="60%">
 
 ### Projects
 In case you want to have a better overview of different initiatives and processes, bound to a group of people, you can create a project.
 
 - [Project](./rest-api/project.md)
 
-<img src="images/project-structure-diagram.png" alt="project structure" class="responsive-img" width="55%">
+<img src="images/project-structure.png" alt="project structure" class="responsive-img" width="60%">
 
 ### Tasks
 You can use tasks in order to better organize your work. For better visibility, you can organize them in different lists and sections.
