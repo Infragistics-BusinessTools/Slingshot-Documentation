@@ -40,7 +40,7 @@ Example:
 
 ## Create a discussion  
 
-<img src="../images/post-request.png" alt="Post request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> https://my.slingshotapp.io/v1/discussions
+<img src="../images/post-request.png" alt="Post request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/discussions***
 
 Required parameters: None 
 
@@ -94,7 +94,7 @@ Example of a successful response:
 
 ## Get a discussion
  
-<img src="../images/get.png" alt="Get request" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/>  https://my.slingshotapp.io/v1/discussions  
+<img src="../images/get.png" alt="Get request" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/>  ***https://my.slingshotapp.io/v1/discussions***
 
 Required parameters: the **id** of the discussion
  
@@ -108,7 +108,7 @@ Possible responses:
 
 ## Get all discussions for a parent document
 
-<img src="../images/get-all.png" alt="Get all request" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> https://my.slingshotapp.io/v1/discussions/parent/{id}
+<img src="../images/get-all.png" alt="Get all request" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/discussions/parent/{id}***
 
 Required parameters: the **id** of the parent discussion list
 
@@ -122,7 +122,7 @@ Possible responses:
 
 ## Get discussion messages
 
-<img src="../images/get-discussion-messages.png" alt="Delete request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> https://my.slingshotapp.io/v1/discussions/{id}/messages
+<img src="../images/get-discussion-messages.png" alt="Delete request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/discussions/{id}/messages***
 
 Required parameters: the **id** of the discussion 
 
@@ -138,7 +138,7 @@ Possible responses:
 
 ## Update a discussion
 
-<img src="../images/patch.png" alt="Patch request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> https://my.slingshotapp.io/v1/discussions/{id}
+<img src="../images/patch.png" alt="Patch request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/discussions/{id}***
 
 Required parameters: the **id** of the discussion 
 
@@ -192,7 +192,7 @@ Example of a successful response:
 
 ## Delete a discussion 
 
-<img src="../images/delete.png" alt="Delete request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> https://my.slingshotapp.io/v1/discussions/{id}
+<img src="../images/delete.png" alt="Delete request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/discussions/{id}***
 
 Required parameters: the **id** of the specific discussion
 
@@ -206,7 +206,7 @@ Possible responses:
 
 ## Send a discussion message
 
-<img src="../images/post-send-discussion-message.png" alt="Send discussion message" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> https://my.slingshotapp.io/v1/discussions/{id}/send
+<img src="../images/post-send-discussion-message.png" alt="Send discussion message" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/discussions/{id}/send***
 
 Required parameters: the **id** of the discussion
 

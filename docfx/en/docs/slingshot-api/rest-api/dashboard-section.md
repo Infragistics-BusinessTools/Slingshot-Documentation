@@ -40,7 +40,7 @@ Example:
 
 ## Create a dashboard section
 
-<img src="../images/post-request.png" alt="Post request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> https://my.slingshotapp.io/v1/dashboardsections
+<img src="../images/post-request.png" alt="Post request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> <span class="italic"> ***htt<area>ps://my.slingshotapp<area>.io/v1/dashboardsections***</span>
 
 Required parameters: None
 
@@ -94,7 +94,7 @@ Example of a successful response:
 
 ## Get a dashboard section
 
-<img src="../images/get.png" alt="Get request" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> https://my.slingshotapp.io/v1/dashboardsections/{id}
+<img src="../images/get.png" alt="Get request" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/dashboardsections/{id}***
 
 Required parameters: the **id** of the dashboard section
 
@@ -108,7 +108,7 @@ Possible responses:
 
 ## Get all dashboard sections for a parent dashboard list
 
-<img src="../images/get-all.png" alt="Get all request" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> https://my.slingshotapp.io/v1/dashboardsections/parent/{id}
+<img src="../images/get-all.png" alt="Get all request" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/dashboardsections/parent/{id}***
 
 Required parameters: the **id** of the dashboard list 
 
@@ -122,7 +122,7 @@ Possible responses:
 
 ## Update a dashboard section  
 
-<img src="../images/patch.png" alt="Patch request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> https://my.slingshotapp.io/v1/dashboardsections/{id}
+<img src="../images/patch.png" alt="Patch request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/dashboardsections/{id}***
 
 Required parameters: the **id** of the dashboard section
 
@@ -171,7 +171,7 @@ Example of a successful response:
 
 ## Delete a dashboard section
 
-<img src="../images/delete.png" alt="Delete request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> https://my.slingshotapp.io/v1/dashboardsections/{id}
+<img src="../images/delete.png" alt="Delete request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/dashboardsections/{id}***
 
 Required parameters: the **id** of the dashboard section
 

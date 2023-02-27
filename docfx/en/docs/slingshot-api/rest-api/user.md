@@ -21,7 +21,7 @@ In the object hierarchy, the *users* objects represent accounts in Slingshot. Ev
 
 ## Get current user document
 
-<img src="../images/get.png" alt="Get request" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> / https://my.slingshotapp.io/v1/user
+<img src="../images/get.png" alt="Get request" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/user***
 
 Schema: [User](#user-schema)
 
