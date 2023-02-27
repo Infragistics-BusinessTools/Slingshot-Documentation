@@ -1,4 +1,4 @@
-# Sample
+# Samples
 
 If you want to see how the Slingshot's API can be used in our data-driven world, you can find our public samples [here] (https://github.com/Infragistics/Slingshot/tree/main/Samples/). 
 

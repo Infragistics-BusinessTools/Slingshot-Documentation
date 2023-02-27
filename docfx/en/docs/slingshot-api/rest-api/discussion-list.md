@@ -40,7 +40,7 @@ Example:
 
 ## Create a discussion list  
 
-<img src="../images/post-request.png" alt="Post request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> https://my.slingshotapp.io/v1/discussionlists
+<img src="../images/post-request.png" alt="Post request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***htt<area>ps://my.slingshotapp<area>.io/v1/discussionlists***</span>
 
 Required parameters: None
 
@@ -96,7 +96,7 @@ Example of a successful response:
 
 ## Get a discussion list
 
-<img src="../images/get.png" alt="Get request" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/>  https://my.slingshotapp.io/v1/discussionlists/{id}
+<img src="../images/get.png" alt="Get request" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/discussionlists/{id}***
 
 Required parameters: the **id** of the discussion list
 
@@ -110,9 +110,9 @@ Required parameters: the **id** of the discussion list
 
 ## Get all discussion lists for a parent document 
 
-<img src="../images/get-all.png" alt="Get all request" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/>  https://my.slingshotapp.io/v1/discussionlists/parent/{id}
+<img src="../images/get-all.png" alt="Get all request" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/discussionlists/parent/{id}***
 
-Required parameters: the **id** of the parent document.
+Required parameters: the **id** of the parent document
 
 Possible responses:
 
@@ -124,7 +124,7 @@ Possible responses:
 
 ## Update a discussion list
 
-<img src="../images/patch.png" alt="Patch request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> https://my.slingshotapp.io/v1/discussionlists/{id}
+<img src="../images/patch.png" alt="Patch request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/discussionlists/{id}***
 
 Required parameters: the **id** of the discussion list
 
@@ -174,7 +174,7 @@ Example of a successful response:
 ```
 ## Delete a discussion list
 
-<img src="../images/delete.png" alt="Delete request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> https://my.slingshotapp.io/v1/discussionlists/{id}
+<img src="../images/delete.png" alt="Delete request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/discussionlists/{id}***
 
 Required parameters: the **id** of the discussion list
 

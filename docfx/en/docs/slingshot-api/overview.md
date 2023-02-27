@@ -8,4 +8,9 @@ Keep in mind that the requests and responses support only one type of character 
 
 To start using the Slingshot’s API, you need to first authenticate yourself. [Here](authentication.md) you can find more information about the process of authentication. 
 
+>[!NOTE] Below, you can find the general hierarchy structure of Slingshot. 
+
+<img src="images/general-hierarchy-structure-example.png" alt="General hierarchy structure sample" class="response-img" width="35%">
+
+To learn more about the specific hierarchy options at each level, you can head [here](explore-object-hierarchy.md).
 

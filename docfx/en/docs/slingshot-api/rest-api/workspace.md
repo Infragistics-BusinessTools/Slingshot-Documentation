@@ -75,7 +75,7 @@ Example:
 
 ## Create a workspace 
 
-<img src="../images/post-request.png" alt="Post request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> https://my.slingshotapp.io/v1/workspaces
+<img src="../images/post-request.png" alt="Post request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***htt<area>ps://my.slingshotapp<area>.io/v1/workspaces***</span>
 
 Required parameters: None
 
@@ -167,7 +167,7 @@ Example of a successful response:
 
 ## Get a workspace
 
-<img src="../images/get.png" alt="Get request" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/>  https://my.slingshotapp.io/v1/workspaces/{id}
+<img src="../images/get.png" alt="Get request" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/workspaces/{id}***
 
 Required parameters: the **id** of the workspace
 
@@ -181,7 +181,7 @@ Possible responses:
 
 ## Get all workspaces for a current user
 
-<img src="../images/get-all.png" alt="Get all request" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> https://my.slingshotapp.io/v1/workspaces
+<img src="../images/get-all.png" alt="Get all request" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/workspaces***
 
 Required parameters: None
 
@@ -195,7 +195,7 @@ Possible responses:
 
 ## Update a workspace
 
-<img src="../images/patch.png" alt="Patch request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> https://my.slingshotapp.io/v1/workspaces/{id}
+<img src="../images/patch.png" alt="Patch request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/workspaces/{id}***
 
 Required parameters: the **id** of the workspace
 
@@ -288,7 +288,7 @@ Example of a successful response:
 
 ## Delete a workspace
 
-<img src="../images/delete.png" alt="Delete request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> https://my.slingshotapp.io/v1/workspaces/{id}
+<img src="../images/delete.png" alt="Delete request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/workspaces/{id}***
 
 Required parameters: the **id** of the workspace
 
@@ -302,7 +302,7 @@ Possible responses:
 
 ## Add members to a workspace  
 
-<img src="../images/post-request.png" alt="Post request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> https://my.slingshotapp.io/v1/workspaces/{id}/members
+<img src="../images/post-request.png" alt="Post request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/workspaces/{id}/members***
 
 Required parameters: the **id** of the workspace
 
@@ -396,7 +396,7 @@ Example of a successful response:
 
 ## Update members of a workspace
 
-<img src="../images/patch.png" alt="Patch request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> https://my.slingshotapp.io/v1/workspaces/{id}/members
+<img src="../images/patch.png" alt="Patch request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/workspaces/{id}/members***
 
 Required parameters: the **id** of the workspace
 
@@ -494,7 +494,7 @@ Example of a successful response:
 
 ## Remove members from a workspace
 
-<img src="../images/delete.png" alt="Delete request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> https://my.slingshotapp.io/v1/workspaces/{id}/members
+<img src="../images/delete.png" alt="Delete request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/workspaces/{id}/members***
 
 Required parameters: the **id** of the workspace
 
@@ -587,7 +587,7 @@ Example of a successful response:
 
 ## Grant requests to add members to a workspace  
 
-<img src="../images/patch.png" alt="Patch request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> https://my.slingshotapp.io/v1/workspaces/{id}/requests
+<img src="../images/patch.png" alt="Patch request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/workspaces/{id}/requests***
 
 Required parameters: the **id** of the workspace
 
@@ -678,7 +678,7 @@ Example of a successful response:
 
 ## Deny requests to add members to a workspace
 
-<img src="../images/delete.png" alt="Delete request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> https://my.slingshotapp.io/v1/workspaces/{id}/requests
+<img src="../images/delete.png" alt="Delete request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/workspaces/{id}/requests***
 
 Required parameters: the **id** of the workspace
 

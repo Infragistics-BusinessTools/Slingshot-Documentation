@@ -44,7 +44,7 @@ Example:
 
 ## Create a pin section 
 
-<img src="../images/post-request.png" alt="Post request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> https://my.slingshotapp.io/v1/pinsections
+<img src="../images/post-request.png" alt="Post request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***htt<area>ps://my.slingshotapp<area>.io/v1/pinsections***</span>
 
 Required parameters: None
 
@@ -102,7 +102,7 @@ Example of a successful response:
 
 ## Get a pin section
 
-<img src="../images/get.png" alt="Get request" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> / https://my.slingshotapp.io/v1/pinsections/{id}
+<img src="../images/get.png" alt="Get request" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/pinsections/{id}***
 
 Required parameters: the **id** of the pin section
 
@@ -116,7 +116,7 @@ Possible responses:
 
 ## Get all pin sections for a parent pin list
 
-<img src="../images/get-all.png" alt="Get all request" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> https://my.slingshotapp.io/v1/pinsections/parent/{id}
+<img src="../images/get-all.png" alt="Get all request" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/pinsections/parent/{id}***
 
 Required parameters: the **id** of the parent pin list
 
@@ -130,7 +130,7 @@ Possible responses:
 
 ## Update a pin section
 
-<img src="../images/patch.png" alt="Patch request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> https://my.slingshotapp.io/v1/pinsections/{id}
+<img src="../images/patch.png" alt="Patch request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/pinsections/{id}***
 
 Required parameters: the **id** of the pin section
 
@@ -183,7 +183,7 @@ Example of a successful response:
 
 ## Delete a pin section
 
-<img src="../images/delete.png" alt="Delete request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> https://my.slingshotapp.io/v1/pinsections/{id}
+<img src="../images/delete.png" alt="Delete request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/pinsections/{id}***
 
 Required parameters: the **id** of the pin section
 

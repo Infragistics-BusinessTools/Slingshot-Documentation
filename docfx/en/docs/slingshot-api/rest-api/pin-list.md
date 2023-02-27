@@ -39,7 +39,7 @@ Example:
 
 ## Create a pin list 
 
-<img src="../images/post-request.png" alt="Post request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> https://my.slingshotapp.io/v1/pinlists
+<img src="../images/post-request.png" alt="Post request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***htt<area>ps://my.slingshotapp<area>.io/v1/pinlists***</span>
 
 Required parameters: None
 
@@ -95,7 +95,7 @@ Example of a successful response:
 
 ## Get a Pin List
 
-<img src="../images/get.png" alt="Get request" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> / https://my.slingshotapp.io/v1/pinlists/{id}
+<img src="../images/get.png" alt="Get request" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/pinlists/{id}***
 
 Required parameters: the **id** of the pin list
 
@@ -109,7 +109,7 @@ Possible responses:
 
 ## Get all pin lists
 
-<img src="../images/get-all.png" alt="Get all request" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> https://my.slingshotapp.io/v1/pinlists/parent/{id}
+<img src="../images/get-all.png" alt="Get all request" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/pinlists/parent/{id}***
 
 Required parameters: the **id** of the parent document
 
@@ -123,7 +123,7 @@ Possible responses:
 
 ## Update a pin list
 
-<img src="../images/patch.png" alt="Patch request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> https://my.slingshotapp.io/v1/pinlists/{id}
+<img src="../images/patch.png" alt="Patch request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/pinlists/{id}***
 
 Required parameters: the **id** of the pin list
 
@@ -175,7 +175,7 @@ Example of a successful response:
 
 ## Delete a pin list
 
-<img src="../images/delete.png" alt="Delete request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> https://my.slingshotapp.io/v1/pinlists/{id}
+<img src="../images/delete.png" alt="Delete request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/pinlists/{id}***
 
 Required parameters: the **id** of the pin list
 

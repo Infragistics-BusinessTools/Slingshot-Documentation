@@ -51,7 +51,7 @@ Example:
 
 ## Create a pin
 
-<img src="../images/post-request.png" alt="Post request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> https://my.slingshotapp.io/v1/pins/{pinSectionId}
+<img src="../images/post-request.png" alt="Post request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***htt<area>ps://my.slingshotapp<area>.io/v1/pins/{pinSectionId}***</span>
 
 Required parameters: The **id** of the pin section 
 
@@ -117,7 +117,7 @@ Example of a successful response:
 
 ## Update a pin 
 
-<img src="../images/patch.png" alt="Patch request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> https://my.slingshotapp.io/v1/pins/{pinSectionId}/{pinId}
+<img src="../images/patch.png" alt="Patch request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/pins/{pinSectionId}/{pinId}***
 
 Required parameters: the **id** of the pin section as well as the **id** of the pin being updated
 
@@ -188,7 +188,7 @@ Example of a successful response:
  
 ## Delete a pin 
 
-<img src="../images/delete.png" alt="Delete request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> https://my.slingshotapp.io/v1/pins/{pinSectionId}/{pinId}
+<img src="../images/delete.png" alt="Delete request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/pins/{pinSectionId}/{pinId}***
 
 Required parameters: the **id** of the pin section and the **id** of the pin being deleted
 

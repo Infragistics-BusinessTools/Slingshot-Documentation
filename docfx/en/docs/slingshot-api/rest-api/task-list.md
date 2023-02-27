@@ -50,7 +50,7 @@ Example:
 
 ## Create a task list 
 
-<img src="../images/post-request.png" alt="Post request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> https://my.slingshotapp.io/v1/tasks  
+<img src="../images/post-request.png" alt="Post request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***htt<area>ps://my.slingshotapp<area>.io/v1/tasks***</span>
 
 Required parameters: None 
 
@@ -102,7 +102,7 @@ Example of a successful response:
 
 ## Get a task list
 
-<img src="../images/get.png" alt="Get request" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> / https://my.slingshotapp.io/v1/tasklists/{id}
+<img src="../images/get.png" alt="Get request" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/tasklists/{id}***
 
 Required parameters: the **id** of the tasks list.
 
@@ -116,7 +116,7 @@ Possible responses:
 
 ## Get all task lists for a parent document
 
-<img src="../images/get-all.png" alt="Get all request" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> https://my.slingshotapp.io/v1/tasklists/parent/{id}
+<img src="../images/get-all.png" alt="Get all request" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/tasklists/parent/{id}***
 
 Required parameters: the **id** of the parent document.
 
@@ -130,7 +130,7 @@ Possible responses:
 
 ## Update a task list  
 
-<img src="../images/patch.png" alt="Patch request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> https://my.slingshotapp.io/v1/tasklists/{id}
+<img src="../images/patch.png" alt="Patch request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/tasklists/{id}***
 
 Required parameters: the **id** of the tasks list
 
@@ -175,7 +175,7 @@ Example of a successful response:
 
 ## Delete a task list
 
-<img src="../images/delete.png" alt="Delete request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> https://my.slingshotapp.io/v1}/tasklists/{id}
+<img src="../images/delete.png" alt="Delete request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1}/tasklists/{id}***
 
 Required parameters: the **id** of the task list.
 
