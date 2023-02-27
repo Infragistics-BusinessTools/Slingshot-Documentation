@@ -15,11 +15,11 @@ Schema:
 |description|string|Min = 1, Max = 144, Nullable|
 |startDate|string, date-time| |
 |endDate|string, date-time| |
-|status| string, enum (none, ontarget, atrisk, danger completed| |
+|status| string, enum (none, ontarget, atrisk, danger completed)| |
 |organization| [DocumentInfo](../generic-slingshot-resources.html#document-info-object)| |  
 |members| 	array <[MemberInfo](../generic-slingshot-resources#member-info-object)> | |
 |requests| 	array <[MemberInfo](../generic-slingshot-resources#member-info-object)> | |
-| pendingInvites           | [DocumentInfo](../generic-slingshot-resources. | |html#document-info-object) |  |
+| pendingInvites           | [DocumentInfo](../generic-slingshot-resources.html#document-info-object) |  |
 |projects| [DocumentInfo](../generic-slingshot-resources.html#document-info-object)| |
 |pinLists| [DocumentInfo](../generic-slingshot-resources.html#document-info-object)| |
 |taskLists| [DocumentInfo](../generic-slingshot-resources.html#document-info-object)| |
@@ -87,7 +87,7 @@ When you request to create a workspace, the request body will have the following
 |description|string|Min = 1, Max = 144, Nullable|
 |startDate|string, date-time| |
 |endDate|string, date-time| |
-|status| string, enum (none, ontarget, atrisk, danger completed| | 
+|status| string, enum (none, ontarget, atrisk, danger completed)| | 
 |members| 	array <[MemberInfo](..generic-slingshot-resources#member-info-object)> | |
 
 Possible responses:
@@ -167,7 +167,8 @@ Example of a successful response:
 
 ## Get a workspace
 
-<img src="../images/get.png" alt="Get request" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/workspaces/{id}***
+<img src="../images/get.png" alt="Get request" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> 
+<span class="italic">***htt<area>ps://my.slingshotapp<area>.io/v1/workspaces/{id}***</span>
 
 Required parameters: the **id** of the workspace
 
@@ -181,7 +182,7 @@ Possible responses:
 
 ## Get all workspaces for a current user
 
-<img src="../images/get-all.png" alt="Get all request" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/workspaces***
+<img src="../images/get-all.png" alt="Get all request" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> <span class="italic">***htt<area>ps://my.slingshotapp<area>.io/v1/workspaces***</span>
 
 Required parameters: None
 
@@ -195,7 +196,8 @@ Possible responses:
 
 ## Update a workspace
 
-<img src="../images/patch.png" alt="Patch request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/workspaces/{id}***
+<img src="../images/patch.png" alt="Patch request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> 
+<span class="italic">***htt<area>ps://my.slingshotapp<area>.io/v1/workspaces/{id}***</span>
 
 Required parameters: the **id** of the workspace
 

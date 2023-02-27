@@ -31,7 +31,7 @@ Example:
 
 ## Create a dashboard list   
 
-<img src="../images/post-request.png" alt="Post request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/>  <span class="italic">***htt<area>ps://my.slingshotapp<area>.io/v1/dashboardlists***</span>
+<img src="../images/post-request.png" alt="Post request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> <span class="italic">***htt<area>ps://my.slingshotapp<area>.io/v1/dashboardlists***</span>
 
 Required parameters: None 
 

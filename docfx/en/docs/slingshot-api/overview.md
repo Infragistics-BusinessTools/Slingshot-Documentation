@@ -10,7 +10,7 @@ To start using the Slingshot’s API, you need to first authenticate yourself. [
 
 >[!NOTE] Below, you can find the general hierarchy structure of Slingshot. 
 
-<img src="images/general-hierarchy-structure-example.png" alt="General hierarchy structure sample" class="response-img" width="35%">
+<img src="images/general-hierarchy-structure-example.png" alt="General hierarchy structure sample" class="response-img" width="25%">
 
 To learn more about the specific hierarchy options at each level, you can head [here](explore-object-hierarchy.md).
 

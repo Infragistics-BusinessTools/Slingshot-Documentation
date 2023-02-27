@@ -72,7 +72,7 @@ When you request to create a task, the request body will have the following cont
 | taskSection   |[DocumentInfo](../generic-slingshot-resources.html#document-info-object)  |oneOf | 
 | parentTask   |[DocumentInfo](../generic-slingshot-resources.html#document-info-object) |oneOf | 
 
->[!NOTE]  To create a task, you need to provide the **id** and **name** of the parent task section under the **taskSection** property. Alternatively, if you want to create a subtask, you need to first provide the **id** and **name** of the parent task under the *parentTask* property. Only one can be provided, both *taskSection* and *parentTask* properties being present in the request will result in an error.
+>[!NOTE]  To create a task, you need to provide the **id** and **name** of the parent task section under the **taskSection** property. Alternatively, if you want to create a subtask, you need to first provide the **id** and **name** of the parent task under the **parentTask** property. Only one can be provided as both taskSection and parentTask properties being present in the request will result in an error.
 
 Possible responses:
 
@@ -134,7 +134,7 @@ Example of a successful response:
 
 <img src="../images/get.png" alt="Get request" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/tasks***
 
-Required parameters: the **id** of the task.  
+Required parameters: the **id** of the task  
 
 Possible responses:
 

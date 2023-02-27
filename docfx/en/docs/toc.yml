@@ -43,7 +43,7 @@
   new: false
 - name: Onboarding
   href: onboarding.md
-  new: true
+  new: false
 - name: Invite Friends
   href: invite-friends.md
   new: false
@@ -57,7 +57,7 @@
   header: true
 - name: Open in New Window
   href: open-in-new-window.md
-  new: true
+  new: false
 - name: Productivity Flows
   href: productivity-flows.md
 - name: SETTINGS
@@ -103,7 +103,7 @@
 - name: Samples
   href: slingshot-api/samples.md
 - name: Rest API 
-  new: true
+  new: false
   items: 
     - name: Dashboard List
       href: slingshot-api/rest-api/dashboard-list.md

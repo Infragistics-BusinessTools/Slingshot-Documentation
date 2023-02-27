@@ -15,7 +15,7 @@ Schema:
 |description|string|Min = 1, Max = 144, Nullable|
 |startDate|string, date-time| |
 |endDate|string, date-time| |
-|status| string, enum (none, ontarget, atrisk, danger completed| | 
+|status| string, enum (none, ontarget, atrisk, danger completed)| | 
 | workspace            |[DocumentInfo](../generic-slingshot-resources.html#document-info-object) | | 
 |members| 	array <[MemberInfo](../generic-slingshot-resources#member-info-object)> | |
 |requests| 	array <[MemberInfo](../generic-slingshot-resources#member-info-object)> | |
@@ -164,7 +164,8 @@ Example of a successful response:
 
 ## Get a project
 
-<img src="../images/get.png" alt="Get request" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/projects/{id}***
+<img src="../images/get.png" alt="Get request" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/>
+<span class="italic">***htt<area>ps://my.slingshotapp<area>.io/v1/projects/{id}***</span>
 
 Required parameters: the **id** of the project
 
@@ -178,7 +179,7 @@ Code | Description|
 
 ## Get all projects for a current user 
 
-<img src="../images/get-all.png" alt="Get all request" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/projects***
+<img src="../images/get-all.png" alt="Get all request" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> <span class="italic">***htt<area>ps://my.slingshotapp<area>.io/v1/projects***</span>
 
 Required parameters: None
 
