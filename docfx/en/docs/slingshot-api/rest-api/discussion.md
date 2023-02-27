@@ -94,7 +94,8 @@ Example of a successful response:
 
 ## Get a discussion
  
-<img src="../images/get.png" alt="Get request" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/>  ***https://my.slingshotapp.io/v1/discussions***
+<img src="../images/get.png" alt="Get request" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> 
+<span class="italic">***htt<area>ps://my.slingshotapp<area>.io/v1/discussions***</span>
 
 Required parameters: the **id** of the discussion
  
@@ -108,7 +109,7 @@ Possible responses:
 
 ## Get all discussions for a parent document
 
-<img src="../images/get-all.png" alt="Get all request" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/discussions/parent/{id}***
+<img src="../images/get-all.png" alt="Get all request" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> <span class="italic">***htt<area>ps://my.slingshotapp<area>.io/v1/discussions/parent/{id}***</span>
 
 Required parameters: the **id** of the parent discussion list
 
