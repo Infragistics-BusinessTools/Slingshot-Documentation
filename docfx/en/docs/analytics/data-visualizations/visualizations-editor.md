@@ -17,7 +17,7 @@ Visualizations are the building blocks of your dashboard. So, when you start cre
 After that, you will be prompted
 to add a new or select an existing [data source](~/docs/analytics/datasources/overview.md).
 
-<img src="images/data-sources-dialog.png" alt="Dialog with a list of data sources" width="60%" class="responsive-img"/>
+<img src="images/data-sources-list.png" alt="Dialog with a list of data sources" width="60%" class="responsive-img"/>
 
 With the data source selected and configured, you will be navigated to the [Visualizations Editor](visualizations-editor.md), where you can start creating your visualization.
 
@@ -33,13 +33,13 @@ Once you have selected and configured your data source, the *Visualization edito
 
 ***2. In the dashboard editing process***
 
-After opening a chosen dashboard and entering *Dashboard Edit mode*, you will be able to **access the Visualizations editor** by selecting **Edit** from a visualization's overflow button. Alternatively you can click/tap on the pencil icon, next to the overflow menu.
+After opening a chosen dashboard and entering *Dashboard Edit mode*, you will be able to **access the Visualizations editor** by selecting **Edit** from a visualization's overflow button. Alternatively, you can click/tap on the pencil icon, next to the overflow menu.
 
 ## Visualizations Editor Overview
 
 Below, you will find a list of all sections of the *Editor* with their capabilities.
 
-<img src="images/panes-of-visualization-editor.png" alt="Panes of the Visualization editor" class="responsive-img" width="85%"/>
+<img src="images/visualizations-editor-sections.png" alt="Sections of the Visualization editor" class="responsive-img" width="85%"/>
 
 1. **Data Section** - this section contains two panels:
 
