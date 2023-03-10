@@ -7,7 +7,7 @@ _language: ja
 # Microsoft SQL Server
 
 >[!NOTE] 
->**Web の制限**。*Analytics Web* アプリでは、公的にアクセス可能な Microsoft SQL アドレスにのみ接続できます。MS SQL アドレスが一般公開 (プライベートまたは会社のイントラネットでホストされているなど) に制限されている場合は、*Analytics Desktop*、*iOS*、または *Android* を使用して接続できます。Analytics を実行しているデバイスは、SQL Server アドレスにアクセスできる必要があります。この制限は、*Analytics Embedded* には適用されません。
+>**Web の制限**。*Slingshot Web* アプリでは、公的にアクセス可能な Microsoft SQL アドレスにのみ接続できます。MS SQL アドレスが一般公開 (プライベートまたは会社のイントラネットでホストされているなど) に制限されている場合は、*Slingshot Desktop*、*iOS*、または *Android* を使用して接続できます。Slingshot を実行しているデバイスは、SQL Server アドレスにアクセスできる必要があります。この制限は、*Slingshot Embedded* には適用されません。
 
 ## MS SQL Server への接続
 
