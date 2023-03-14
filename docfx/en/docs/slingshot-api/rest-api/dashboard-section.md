@@ -8,15 +8,15 @@ Schema:
 
 |    Property  | Type            | Attributes           |
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| id              | string |  |
-| modified             | string | |
-| created             | string |  |
+| id              | string | read-only |
+| modified             | string |read-only |
+| created             | string | read-only |
 | name               | string | min = 1, max = 100 | 
-| user            | object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | |
-| workspace            |object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | |  
-| project    |object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)>| | 
-| dashboardList             | object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> |  |
-| dashboards   |array <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> |  |
+| user            | object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | read-only|
+| workspace            |object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> |read-only |  
+| project    |object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)>| read-only| 
+| dashboardList             | object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | read-only |
+| dashboards   |array <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | read-only |
 
 Example:
 

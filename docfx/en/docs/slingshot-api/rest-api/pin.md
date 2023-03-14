@@ -8,9 +8,9 @@ Schema:
 
 |    Property  | Type            | Attributes           |
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| id              | string |  |
-| modified             | string |  |
-| created             | string |  |
+| id              | string |  read-only|
+| modified             | string | read-only |
+| created             | string | read-only |
 | name               | string | min = 1, max = 100 |  
 | pinType |string enum (“document”, “url”) | |
 | documentId  |string| |  

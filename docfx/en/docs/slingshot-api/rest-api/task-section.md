@@ -8,15 +8,15 @@ Schema:
 
 |    Property  | Type            | Attributes           |
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| id               | string |  |    
-| modified              | string |  |  
-| created             | string |  |  
+| id               | string | read-only |    
+| modified              | string |  read-only|  
+| created             | string |  read-only|  
 | name               | string |min = 1, max = 100|  
-| user             | object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | | 
-| workspace            |object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | |  
-| project    |object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | | 
-|tasklist|object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)>||
-| tasks  |array <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)>  | | 
+| user             | object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> |read-only | 
+| workspace            |object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> |read-only |  
+| project    |object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | read-only| 
+|tasklist|object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)>|read-only|
+| tasks  |array <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)>  | read-only| 
 
 Example:
 
@@ -51,7 +51,7 @@ When you request to create a tasks section, the request body will have the follo
 |    Property  | Type            | Attributes           |
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
 | name               | string |  min = 1, max = 100 |
-|taskList|object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)>| |
+|taskList|object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)>| required|
 
 Possible responses:
 

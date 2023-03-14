@@ -8,22 +8,22 @@ Schema:
 
 |    Property  | Type            | Attributes           |
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| id              | string |  |
-| modified             | string |  |
-| created             | string |  |
+| id              | string | read-only |
+| modified             | string |read-only  |
+| created             | string | read-only |
 | name               | string |  min = 1, max = 100 |
 |description|string|min = 1, max = 144, nullable|
 |startDate|string <DateTime> | |
 |endDate|string <DateTime> | |
 |status| string enum ("none", "ontarget", "atrisk", "danger", "completed")| |
-|organization| object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)>| |  
-|members| 	array <[MemberInfo](../generic-slingshot-resources#member-info-object)> | |
-|requests| 	array <[MemberInfo](../generic-slingshot-resources#member-info-object)> | |
-| pendingInvites           | object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> |  |
-|projects| object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)>| |
-|pinLists| object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)>| |
-|taskLists| object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)>| |
-| discussionLists           | object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)>|  |
+|organization| object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)>| read-only|  
+|members| 	array <[MemberInfo](../generic-slingshot-resources#member-info-object)> | read-only|
+|requests| 	array <[MemberInfo](../generic-slingshot-resources#member-info-object)> | read-only|
+| pendingInvites           | object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> |  read-only|
+|projects| object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)>| read-only|
+|pinLists| object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)>| read-only|
+|taskLists| object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)>|read-only |
+| discussionLists           | object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)>| read-only |
 
 
 Example:
@@ -90,7 +90,7 @@ When you request to create a workspace, the request body will have the following
 |startDate|string <DateTime> | |
 |endDate|string <DateTime> | |
 |status| string enum ("none", "ontarget", "atrisk", "danger", "completed")| | 
-|members| 	array <[MemberInfo](..generic-slingshot-resources#member-info-object)> | |
+|members| 	array <[MemberInfo](..generic-slingshot-resources#member-info-object)> |required |
 
 Possible responses:
 
@@ -218,7 +218,7 @@ When you request to update a workspace, the request body will have the following
 |startDate|string <DateTime> | |
 |endDate|string <DateTime> | |
 |status| string enum ("none", "ontarget", "atrisk", "danger", "completed")| | 
-|members| 	array <[MemberInfo](..generic-slingshot-resources#member-info-object)> | |
+|members| 	array <[MemberInfo](..generic-slingshot-resources#member-info-object)> |required |
 
 Possible responses:
 

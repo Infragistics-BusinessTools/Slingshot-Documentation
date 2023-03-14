@@ -8,23 +8,23 @@ Schema:
 
 |    Property  | Type            | Attributes           |
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| id               | string |  |    
-| modified              | string |  |  
-| created             | string |  |  
+| id               | string | read-only |    
+| modified              | string | read-only |  
+| created             | string | read-only |  
 | name               | string |min = 1, max = 200|  
 | description              | string | nullable |  
 | startDate               | string <DateTime>  |  |  
 | dueDate               | string <DateTime>  |  |  
-| status              | string (open, progress, review, blocked or completed) |  | 
-| priority             | string(none, low, medium or high) |  |   
-| assignee               | ListObject[AssigneeInfo](slingshot-api/generic-slingshot-resources.html#assignee-info-object)  | |
-| user               | object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> |  |
-| workspace              | object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | |
-| project             | object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> |  |
-| taskList            | object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> |  |
-| taskSection      | object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> |  |
-| parentTask      | object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> |  |
- | subtasks      | ListObject<Object[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> |  |
+| status              | string (open, progress, review, blocked or completed) | read-only | 
+| priority             | string(none, low, medium or high) |read-only  |   
+| assignee               | ListObject[AssigneeInfo](slingshot-api/generic-slingshot-resources.html#assignee-info-object)  |read-only |
+| user               | object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | read-only |
+| workspace              | object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | read-only|
+| project             | object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | read-only |
+| taskList            | object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | read-only |
+| taskSection      | object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | read-only |
+| parentTask      | object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | read-only |
+ | subtasks      | ListObject<Object[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | read-only |
 
 Example:
 
@@ -69,8 +69,8 @@ When you request to create a task, the request body will have the following cont
 | name               | string |  min = 1, max = 100 |
 | startDate              | string | |
 | dueDate               | string | |
-| status             | string enum ("open", "progress", "review", "blocked", "completed")| |  
-| priority            | string enum ("none", "low", "medium", "high") | |  
+| status             | string enum ("open", "progress", "review", "blocked", "completed")|required |  
+| priority            | string enum ("none", "low", "medium", "high") |required |  
 | taskSection   |object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)>  |oneOf | 
 | parentTask   |object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> |oneOf | 
 
@@ -181,8 +181,8 @@ When you request to update a task, the request body will have the following cont
 | description              | string | Nullable |  
 | startDate               | string <DateTime>  |  |  
 | dueDate               | string <DateTime>  |  |  
-| status              | string (open, progress, review, blocked or completed) |  | 
-| priority             | string(none, low, medium or high) |  |   
+| status              | string (open, progress, review, blocked or completed) | required | 
+| priority             | string(none, low, medium or high) | required |   
 | assignee               | ListObject[AssigneeInfo](slingshot-api/generic-slingshot-resources.html#assignee-info-object)  | |
 
 Possible responses:

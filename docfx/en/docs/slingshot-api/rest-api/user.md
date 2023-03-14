@@ -6,17 +6,17 @@ In the object hierarchy, the *users* objects represent accounts in Slingshot. Ev
 
 |    Property  | Type            | Attributes           |
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| id               | string |  |    
-| modified              | string |  |  
-| created             | string |  | 
+| id               | string | read-only |    
+| modified              | string | read-only |  
+| created             | string | read-only | 
 |email| string| |
 | name               | string |min = 1, max = 200| 
-|locale|string| 
-|organizations|array<[DocumentInfo](../generic-slingshot-resources.html#document-info-object)>|
-| workspaces             | array<[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | |
-| projects             | array<[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> |  |
-| pinLists           | array<[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> |  |
-| taskLists      | array<[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> |  |
+|locale|string|read-only |
+|organizations|array<[DocumentInfo](../generic-slingshot-resources.html#document-info-object)>|read-only|
+| workspaces             | array<[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | read-only|
+| projects             | array<[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | read-only |
+| pinLists           | array<[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | read-only |
+| taskLists      | array<[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | read-only |
 
 ---
 
