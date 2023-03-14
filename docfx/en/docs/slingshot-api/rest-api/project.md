@@ -2,27 +2,27 @@
 
 In case you want to have a better overview of different initiatives and processes, bound to a group of people, you can create a project. You can create multiple projects.
 
-## Project schema
+## Schema
 
 Schema:
 
 |    Property  | Type            | Attributes           |
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| id              | string |  |
-| modified             | string |  |
-| created             | string |  |
-| name               | string |  Min = 1, Max = 100 |
-|description|string|Min = 1, Max = 144, Nullable|
-|startDate|string, date-time| |
-|endDate|string, date-time| |
-|status| string, enum (none, ontarget, atrisk, danger completed)| | 
-| workspace            |[DocumentInfo](../generic-slingshot-resources.html#document-info-object) | | 
-|members| 	array <[MemberInfo](../generic-slingshot-resources#member-info-object)> | |
-|requests| 	array <[MemberInfo](../generic-slingshot-resources#member-info-object)> | |
-| pendingInvites           | [DocumentInfo](../generic-slingshot-resources.html#document-info-object) |  |
-|pinLists| [DocumentInfo](../generic-slingshot-resources.html#document-info-object)| |
-|taskLists| [DocumentInfo](../generic-slingshot-resources.html#document-info-object)|
-| discussionLists           | [DocumentInfo](../generic-slingshot-resources.html#document-info-object)|  |
+| id              | string | read-only |
+| modified             | string | read-only |
+| created             | string | read-only |
+| name               | string |  min = 1, max = 100 |
+|description|string| min = 1, max = 144, nullable|
+|startDate|string <DateTime> | |
+|endDate|string <DateTime> | |
+|status| string enum ("none", "ontarget", "atrisk", "danger", "completed")| | 
+| workspace            |object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | read-only| 
+|members| 	array <[MemberInfo](../generic-slingshot-resources#member-info-object)> |read-only |
+|requests| 	array <[MemberInfo](../generic-slingshot-resources#member-info-object)> |read-only |
+| pendingInvites           | array <[MemberInfo](..generic-slingshot-resources#member-info-object)> | read-only |
+|pinLists| object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)>| read-only|
+|taskLists| object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)>|read-only |
+| discussionLists           | object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)>| read-only |
 
 Example:
 
@@ -69,6 +69,8 @@ Example:
 }
 ```
 
+---
+
 ## Create a project
 
 <img src="../images/post-request.png" alt="Post request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***htt<area>ps://my.slingshotapp<area>.io/v1/projects***</span>
@@ -79,12 +81,12 @@ When you request to create a project, the request body will have the following c
 
 |    Property  | Type            | Attributes           |
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| name               | string |  Min = 1, Max = 100 |
-|description|string|Min = 1, Max = 144, Nullable|
-|startDate|string, date-time| |
-|endDate|string, date-time| |
-|status| string, enum (none, ontarget, atrisk, danger completed| | 
-| workspace            |[DocumentInfo](../generic-slingshot-resources.html#document-info-object) | | 
+| name               | string |  min = 1, max = 100 |
+|description|string| min = 1, max = 144, nullable|
+|startDate|string <DateTime> | |
+|endDate|string <DateTime> | |
+|status| string enum ("none", "ontarget", "atrisk", "danger", "completed")| | 
+| workspace            |object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> |required | 
 |members| 	array <[MemberInfo](..generic-slingshot-resources#member-info-object)> | |
 
 Possible responses:
@@ -92,11 +94,11 @@ Possible responses:
 | Code | Description|
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
 | 201 (Created) |You successfully created a project. The newly created project will be returned in the response body.  |
-| 400 (Bad Request) |The request was not processed because of missing or malformed parameter(s). Check the errors array in the response to get an idea of what went wrong. |
+| 400 (Bad Request) |The request was not processed because of missing or malformed parameter(s). Check the error array in the response to get an idea of what went wrong. |
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication.  |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
 
-Example of a successful request:
+Example of a successful request body:
 
 ```
 {
@@ -117,7 +119,7 @@ Example of a successful request:
 }
 ```
 
-Example of a successful response: 
+Example of a successful response body: 
 
 ```
 {
@@ -162,6 +164,8 @@ Example of a successful response:
 }
 ```
 
+---
+
 ## Get a project
 
 <img src="../images/get.png" alt="Get request" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/>
@@ -177,6 +181,8 @@ Code | Description|
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication. |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
 
+---
+
 ## Get all projects for a current user 
 
 <img src="../images/get-all.png" alt="Get all request" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> <span class="italic">***htt<area>ps://my.slingshotapp<area>.io/v1/projects***</span>
@@ -191,6 +197,8 @@ Possible responses:
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication. |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
 
+---
+
 ## Update a project  
 
 <img src="../images/patch.png" alt="Patch request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/projects/{id}***
@@ -201,11 +209,11 @@ When you request to update a project, the request body will have the following c
 
 |    Property  | Type            | Attributes           |
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| name               | string |  Min = 1, Max = 100 |
-|description|string|Min = 1, Max = 144, Nullable|
-|startDate|string, date-time| |
-|endDate|string, date-time| |
-|status| string, enum (none, ontarget, atrisk, danger, completed)| |  
+| name               | string |  min = 1, max = 100 |
+|description|string|min = 1, max = 144, nullable|
+|startDate|string <DateTime> | |
+|endDate|string <DateTime> | |
+|status| string enum ("none", "ontarget", "atrisk", "danger", "completed")| |  
 |members| 	array <[MemberInfo](..generic-slingshot-resources#member-info-object)> | |
 
 Possible responses:
@@ -213,11 +221,11 @@ Possible responses:
 | Code | Description|
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
 | 200 (Success) |The project is updated. The updated project will be returned in the response body.   |
-| 400 (Bad Request) |The request was not processed because of missing or malformed parameter(s). Check the errors array in the response to get an idea of what went wrong. |
+| 400 (Bad Request) |The request was not processed because of missing or malformed parameter(s). Check the error array in the response to get an idea of what went wrong. |
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication. |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
 
-Example of a successful request:
+Example of a successful request body:
 
 ```
 {
@@ -235,7 +243,7 @@ Example of a successful request:
 }
 ```
 
-Example of a successful response: 
+Example of a successful response body: 
 
 ```
 {
@@ -281,6 +289,8 @@ Example of a successful response:
 }
 ```
 
+---
+
 ## Delete a project
 
 <img src="../images/delete.png" alt="Delete request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/projects/{id}***
@@ -294,6 +304,8 @@ Possible responses:
 | 204 (No Content) |The project is deleted. |
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication. |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
+
+---
 
 ## Add members to a project
 
@@ -310,11 +322,11 @@ Possible responses:
 | Code | Description|
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
 | 200 (Success) |You successfully added members to the project. The updated project will be returned in the response body.   |
-| 400 (Bad Request) |The request was not processed because of missing or malformed parameter(s). Check the errors array in the response to get an idea of what went wrong. |
+| 400 (Bad Request) |The request was not processed because of missing or malformed parameter(s). Check the error array in the response to get an idea of what went wrong. |
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication. |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
 
-Example of a successful request:
+Example of a successful request body:
 
 ```
 {
@@ -328,7 +340,7 @@ Example of a successful request:
 }
 ```
 
-Example of a successful response:
+Example of a successful response body:
 
 ```
 {
@@ -399,7 +411,9 @@ Example of a successful response:
 }
 ```
 
-## Update members of a project 
+---
+
+## Update members’ roles of a project 
 
 <img src="../images/patch.png" alt="Patch request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/projects/{id}/members***
 
@@ -412,11 +426,11 @@ Possible responses:
 | Code | Description|
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
 | 200 (Success) |The project is updated. The updated project will be returned in the response body.    |
-| 400 (Bad Request) |The request was not processed because of missing or malformed parameter(s). Check the errors array in the response to get an idea of what went wrong. |
+| 400 (Bad Request) |The request was not processed because of missing or malformed parameter(s). Check the error array in the response to get an idea of what went wrong. |
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication. |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
 
-Example of a successful request:
+Example of a successful request body:
 
 ```
 {
@@ -430,7 +444,7 @@ Example of a successful request:
 }
 ```
 
-Example of a successful response:
+Example of a successful response body:
 
 ```
 {
@@ -494,6 +508,8 @@ Example of a successful response:
 }
 ```
 
+---
+
 ## Remove members from a project 
 
 <img src="../images/delete.png" alt="Delete request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/projects/{id}/members***
@@ -507,11 +523,11 @@ Possible responses:
 | Code | Description|
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
 | 200 (Success) |You successfully removed members from the project. The updated project will be returned in the response body.    |
-| 400 (Bad Request) |The request was not processed because of missing or malformed parameter(s). Check the errors array in the response to get an idea of what went wrong. |
+| 400 (Bad Request) |The request was not processed because of missing or malformed parameter(s). Check the error array in the response to get an idea of what went wrong. |
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication. |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
 
-Example of a successful request:
+Example of a successful request body:
 
 ```
 {
@@ -525,7 +541,7 @@ Example of a successful request:
 }
 ```
 
-Example of a successful response:
+Example of a successful response body:
 
 ```
 {
@@ -586,6 +602,8 @@ Example of a successful response:
 }
 ```
 
+---
+
 ## Grant requests access to add members to a project
   
 <img src="../images/patch.png" alt="Patch request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/projects/{id}/requests***
@@ -597,11 +615,11 @@ Request body: [MemberInfo](..generic-slingshot-resources#member-info-object)
 | Code | Description|
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
 | 200 (Success) |You granted access to the project.   |
-| 400 (Bad Request) |The request was not processed because of missing or malformed parameter(s). Check the errors array in the response to get an idea of what went wrong. |
+| 400 (Bad Request) |The request was not processed because of missing or malformed parameter(s). Check the error array in the response to get an idea of what went wrong. |
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication. |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
 
-Example of a successful request:
+Example of a successful request body:
 
 ```
 {
@@ -614,7 +632,7 @@ Example of a successful request:
 }
 ```
 
-Example of a successful response:
+Example of a successful response body:
 
 ```
 {
@@ -669,6 +687,10 @@ Example of a successful response:
 }
 ```
 
+>[!NOTE] Only Owners can grant requests access to add members to a project. 
+
+---
+
 ## Deny requests to add members to a project 
 
 <img src="../images/delete.png" alt="Delete request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/projects/{id}/requests***
@@ -680,11 +702,11 @@ Request body: [MemberInfo](..generic-slingshot-resources#member-info-object)
 | Code | Description|
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
 | 200 (Success) |The requests are denied.   |
-| 400 (Bad Request) |The request was not processed because of missing or malformed parameter(s). Check the errors array in the response to get an idea of what went wrong. |
+| 400 (Bad Request) |The request was not processed because of missing or malformed parameter(s). Check the error array in the response to get an idea of what went wrong. |
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication. |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
 
-Example of a successful request:
+Example of a successful request body:
 
 ```
 {
@@ -697,7 +719,7 @@ Example of a successful request:
 }
 ```
 
-Example of a successful response:
+Example of a successful response body:
 
 ```
 {
@@ -745,3 +767,5 @@ Example of a successful response:
     ]
 }
 ```
+
+>[!NOTE] Only Owners can deny requests access to add members to a project. 

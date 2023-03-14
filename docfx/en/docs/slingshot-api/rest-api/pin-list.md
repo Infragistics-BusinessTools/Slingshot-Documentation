@@ -2,20 +2,20 @@
 
 Pins are simple links to different types of resources that you can share or access. You can organize them in different lists for better visibility.
 
-## PinList schema
+## Schema
 
 Schema:
 
 |    Property  | Type            | Attributes           |
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| id              | string |  |
-| modified             | string |  |
-| created             | string |  |
-| name               | string | Min = 1, Max = 100 |
-| user            | [DocumentInfo](../generic-slingshot-resources.html#document-info-object)|  |
-| workspace            |[DocumentInfo](../generic-slingshot-resources.html#document-info-object) | |  
-| project    |[DocumentInfo](../generic-slingshot-resources.html#document-info-object) | | 
-| pinSections   |array [DocumentInfo](../generic-slingshot-resources.html#document-info-object)  | |
+| id              | string | read-only |
+| modified             | string |read-only  |
+| created             | string |  read-only|
+| name               | string | min = 1, max = 100 |
+| user            | object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)>| read-only |
+| workspace            |object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | read-only|  
+| project    |object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | read-only| 
+| pinSections   |array <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)>  | read-only|
 
 Example:
 
@@ -33,9 +33,16 @@ Example:
         "id": "{123456}_proj",
         "name": "Team 1"
     },
-    "pinSections": []
+    "pinSections": [
+        {
+            "id": "{123456}_bs",
+            "name": "Info"
+        }
+    ]
 }
 ```
+
+---
 
 ## Create a pin list 
 
@@ -47,21 +54,21 @@ When you request to create a pin list, the request body will have the following 
 
 |    Property  | Type            | Attributes           |
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| name               | string | Min = 1, Max = 100 |  
-| user   |[DocumentInfo](../generic-slingshot-resources.html#document-info-object)| | oneOf|
-| workspace            |[DocumentInfo](../generic-slingshot-resources.html#document-info-object)|| oneOf|  
- | project    |[DocumentInfo](../generic-slingshot-resources.html#document-info-object)| | oneOf| 
+| name               | string | min = 1, max = 100 |  
+| user   |object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)>| | oneOf|
+| workspace            |object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)>|| oneOf|  
+ | project    |object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)>| | oneOf| 
 
 Possible responses:
 
 | Code | Description|
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
 | 201 (Created) |You successfully created a pin list. The newly created pin list will be returned in the response body.  |
-| 400 (Bad Request) |The request was not processed because of missing or malformed parameter(s). Check the errors array in the response to get an idea of what went wrong. |
+| 400 (Bad Request) |The request was not processed because of missing or malformed parameter(s). Check the error array in the response to get an idea of what went wrong. |
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication.  |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
 
-Example of a successful request:
+Example of a successful request body:
 
 ```
 {
@@ -73,7 +80,7 @@ Example of a successful request:
 }
 ```
 
-Example of a successful response: 
+Example of a successful response body: 
 
 ```
 {
@@ -89,9 +96,16 @@ Example of a successful response:
         "id": "{123456}_proj",
         "name": "Management"
     },
-    "pinSections": []
+    "pinSections": [
+        {
+            "id": "{123456}_bs",
+            "name": "Research"
+        }
+    ]
 }
 ```
+
+---
 
 ## Get a Pin List
 
@@ -107,6 +121,8 @@ Possible responses:
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication. |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
 
+---
+
 ## Get all pin lists
 
 <img src="../images/get-all.png" alt="Get all request" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/pinlists/parent/{id}***
@@ -121,6 +137,8 @@ Possible responses:
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication. |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
 
+---
+
 ## Update a pin list
 
 <img src="../images/patch.png" alt="Patch request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/pinlists/{id}***
@@ -131,21 +149,18 @@ When you request to update a pin list, the request body will have the following 
 
 |    Property  | Type            | Attributes           |
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| name               | string | Min = 1, Max = 100 |  
-| user   |DocumentInfo | OneOf|
-| workspace            |DocumentInfo | OneOf|  
- | project    |DocumentInfo | OneOf| 
+| name               | string | min = 1, max = 100 |  
 
 Possible responses:
 
 | Code | Description|
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
 | 200 (Success) |The pin list is updated. The updated pin list will be returned in the response body.    |
-| 400 (Bad Request) |The request was not processed because of missing or malformed parameter(s). Check the errors array in the response to get an idea of what went wrong. |
+| 400 (Bad Request) |The request was not processed because of missing or malformed parameter(s). Check the error array in the response to get an idea of what went wrong. |
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication. |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
 
-Example of a successful request:
+Example of a successful request body:
 
 ```
 {
@@ -153,7 +168,7 @@ Example of a successful request:
 }
 ```
 
-Example of a successful response: 
+Example of a successful response body: 
 
 ```
 {
@@ -169,9 +184,16 @@ Example of a successful response:
         "id": "{123456}_proj",
         "name": "Customer Support"
     },
-    "pinSections": []
+    "pinSections": [
+        {
+            "id": "{123456}_bs",
+            "name": "Info"
+        }
+    ]
 }
 ```
+
+---
 
 ## Delete a pin list
 

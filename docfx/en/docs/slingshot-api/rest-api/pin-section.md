@@ -2,21 +2,21 @@
 
 Pins are simple links to different types of resources that you can share or access. You can organize them in sections. Sections are divisions of a pin list. You can create multiple sections in one list.
 
-## PinSection schema
+## Schema
 
 Schema:
 
 |    Property  | Type            | Attributes           |
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| id              | string |  |
-| modified             | string |  |
-| created             | string |  |
-| name               | string |  Min = 1, Max = 100 |  
-| user             | [DocumentInfo](../generic-slingshot-resources.html#document-info-object) | | 
-| workspace            |[DocumentInfo](../generic-slingshot-resources.html#document-info-object) | |  
-| project    |[DocumentInfo](../generic-slingshot-resources.html#document-info-object)| | 
-| pinList   |[DocumentInfo](../generic-slingshot-resources.html#document-info-object)| | 
-| pins   |array [DocumentInfo](../generic-slingshot-resources.html#document-info-object)  | | 
+| id              | string |read-only  |
+| modified             | string | read-only |
+| created             | string | read-only |
+| name               | string |  min = 1, max = 100 |  
+| user             | object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> |read-only | 
+| workspace            |object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | read-only|  
+| project    |object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)>| read-only| 
+| pinList   |object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)>|read-only | 
+| pins   |array <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)>  |read-only | 
 
 Example:
 
@@ -38,9 +38,19 @@ Example:
         "id": "123456}_b",
         "name": "Statistics"
     },
-    "pins": []
+    "pins": [
+        {
+            "pinType": "url",
+            "id": "{123456}",
+            "created": "2023-02-09T10:32:37.0000000",
+            "url": "https://my.slingshotapp.io/openBoardSection/{123456}_bs",
+            "name": "Research"
+        }
+    ]
 }
 ```
+
+---
 
 ## Create a pin section 
 
@@ -52,19 +62,19 @@ When you request to create a pin section, the request body will have the followi
 
 |    Property  | Type            | Attributes           |
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| name               | string | Min = 1, Max = 100 |  
-| pinList   |[DocumentInfo](../generic-slingshot-resources.html#document-info-object) | |
+| name               | string | min = 1, max = 100 |  
+| pinList   |object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)>| required|
 
 Possible responses:
 
 | Code | Description|
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
 | 201 (Created) |You successfully created a pin section. The newly created pin section will be returned in the response body.   |
-| 400 (Bad Request) |The request was not processed because of missing or malformed parameter(s). Check the errors array in the response to get an idea of what went wrong. |
+| 400 (Bad Request) |The request was not processed because of missing or malformed parameter(s). Check the error array in the response to get an idea of what went wrong. |
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication.  |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
 
-Example of a successful request:
+Example of a successful request body:
 
 ```
 {
@@ -76,7 +86,7 @@ Example of a successful request:
 }
 ```
 
-Example of a successful response: 
+Example of a successful response body: 
 
 ```
 {
@@ -96,9 +106,18 @@ Example of a successful response:
         "id": "{123456}_b",
         "name": "Statistics"
     },
-    "pins": []
+    "pins": [
+        {
+            "pinType": "url",
+            "id": "{123456}",
+            "created": "2023-02-09T10:32:37.0000000",
+            "url": "https://my.slingshotapp.io/openBoardSection/{123456}_bs",
+            "name": "Research"
+        }
+    ]
 }
 ```
+---
 
 ## Get a pin section
 
@@ -114,6 +133,8 @@ Possible responses:
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication. |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
 
+---
+
 ## Get all pin sections for a parent pin list
 
 <img src="../images/get-all.png" alt="Get all request" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/pinsections/parent/{id}***
@@ -128,6 +149,8 @@ Possible responses:
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication. |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
 
+---
+
 ## Update a pin section
 
 <img src="../images/patch.png" alt="Patch request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/pinsections/{id}***
@@ -138,18 +161,18 @@ When you request to update a pin section, the request body will have the followi
 
 Property  | Type            | Attributes           |
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| name               | string | Min = 1, Max = 100 |  
+| name               | string | min = 1, max = 100 |  
 
 Possible responses:
 
 | Code | Description|
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
 | 200 (Success) |The pin section is updated. The updated pin section will be returned in the response body.  |
-| 400 (Bad Request) |The request was not processed because of missing or malformed parameter(s). Check the errors array in the response to get an idea of what went wrong. |
+| 400 (Bad Request) |The request was not processed because of missing or malformed parameter(s). Check the error array in the response to get an idea of what went wrong. |
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication. |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
 
-Example of a successful request:
+Example of a successful request body:
 
 ```
 {
@@ -157,7 +180,7 @@ Example of a successful request:
 }
 ```
 
-Example of a successful response: 
+Example of a successful response body: 
 
 ```
 {
@@ -177,9 +200,19 @@ Example of a successful response:
         "id": "{123456}_b",
         "name": "Statistics"
     },
-    "pins": []
+    "pins": [
+        {
+            "pinType": "url",
+            "id": "{123456}",
+            "created": "2023-02-09T10:32:37.0000000",
+            "url": "https://my.slingshotapp.io/openBoardSection/{123456}_bs",
+            "name": "Feedback"
+        }
+    ]
 }
 ```
+
+---
 
 ## Delete a pin section
 

@@ -2,21 +2,21 @@
 
 With dashboards you can display information with the help of beautiful visualizations. You can organize them in sections. Sections are divisions of a dashboard list. You can create multiple sections in one list.
 
-## DashboardSection schema
+## Schema
 
 Schema:
 
 |    Property  | Type            | Attributes           |
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| id              | string |  |
-| modified             | string | |
-| created             | string |  |
-| name               | string | Min = 1, Max = 100 | 
-| user            | [DocumentInfo](../generic-slingshot-resources.html#document-info-object) | |
-| workspace            |[DocumentInfo](../generic-slingshot-resources.html#document-info-object) | |  
-| project    |[DocumentInfo](../generic-slingshot-resources.html#document-info-object)| | 
-| dashboardList             | [DocumentInfo](../generic-slingshot-resources.html#document-info-object) |  |
-| dashboards   |array [DocumentInfo](../generic-slingshot-resources.html#document-info-object)  |  |
+| id              | string | read-only |
+| modified             | string |read-only |
+| created             | string | read-only |
+| name               | string | min = 1, max = 100 | 
+| user            | object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | read-only|
+| workspace            |object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> |read-only |  
+| project    |object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)>| read-only| 
+| dashboardList             | object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | read-only |
+| dashboards   |array <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | read-only |
 
 Example:
 
@@ -38,6 +38,8 @@ Example:
 }
 ```
 
+---
+
 ## Create a dashboard section
 
 <img src="../images/post-request.png" alt="Post request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> <span class="italic"> ***htt<area>ps://my.slingshotapp<area>.io/v1/dashboardsections***</span>
@@ -48,19 +50,19 @@ When you request to create a dashboard section, the request body will have the f
 
 |    Property  | Type            | Attributes           |
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| name               | string | Min = 1, Max = 100 | 
-| dashboardList             | [DocumentInfo](../generic-slingshot-resources.html#document-info-object) |  |
+| name               | string | min = 1, max = 100 | 
+| dashboardList             | object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> |  |
 
 Possible responses:
 
 | Code | Description|
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
 | 201 (Created) |You successfully created a dashboards section. The newly created dashboard section will be returned in the response body.  |
-| 400 (Bad Request) |The request was not processed because of missing or malformed parameter(s). Check the errors array in the response to get an idea of what went wrong. |
+| 400 (Bad Request) |The request was not processed because of missing or malformed parameter(s). Check the error array in the response to get an idea of what went wrong. |
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication.  |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
 
-Example of a successful request:
+Example of a successful request body:
 
 ```
 {
@@ -72,7 +74,7 @@ Example of a successful request:
 }
 ```
 
-Example of a successful response: 
+Example of a successful response body: 
 
 ```
 {
@@ -92,6 +94,8 @@ Example of a successful response:
 }
 ```
 
+---
+
 ## Get a dashboard section
 
 <img src="../images/get.png" alt="Get request" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/dashboardsections/{id}***
@@ -105,6 +109,8 @@ Possible responses:
 | 200 (Success) |You can view the dashboards section. The requested [DashboardSection](#dashboardsection-schema) will be returned in the response body.   |
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication. |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
+
+---
 
 ## Get all dashboard sections for a parent dashboard list
 
@@ -120,6 +126,8 @@ Possible responses:
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication.  |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
 
+---
+
 ## Update a dashboard section  
 
 <img src="../images/patch.png" alt="Patch request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/dashboardsections/{id}***
@@ -130,18 +138,18 @@ When you request to update a dashboard section, the request body will have the f
 
 |    Property  | Type            | Attributes           |
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| name               | string | Min = 1, Max = 100 |  
+| name               | string | min = 1, max = 100 |  
 
 Possible responses:
 
 | Code | Description|
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
 | 200 (Success) |The dashboards section is updated. The updated dashboard section will be returned in the response body.  |
-| 400 (Bad Request) |The request was not processed because of missing or malformed parameter(s). Check the errors array in the response to get an idea of what went wrong. |
+| 400 (Bad Request) |The request was not processed because of missing or malformed parameter(s). Check the error array in the response to get an idea of what went wrong. |
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication.  |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
 
-Example of a successful request:
+Example of a successful request body:
 
 ```
 {
@@ -149,7 +157,7 @@ Example of a successful request:
 }
 ```
 
-Example of a successful response: 
+Example of a successful response body: 
 
 ```
 {
@@ -168,6 +176,8 @@ Example of a successful response:
     "dashboards": []
 }
 ```
+
+---
 
 ## Delete a dashboard section
 

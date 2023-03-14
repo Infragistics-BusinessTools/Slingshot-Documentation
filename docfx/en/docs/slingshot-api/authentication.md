@@ -16,14 +16,19 @@ To create a Slingshot API Key, you need to:
 
 5.	You will be presented with the *Create Key* dialog, where you can name the API Key and set the scope. You can choose between *Full Access*, *Read Only* or *Custom*. 
 
-    >[!NOTE] If you select **Custom** for a component, you can choose from *Full Access*, *Read Only* or *None*. If you select *None*, that component won’t be visible.
-
-    <img src="images/create-key-dialog.png" alt="Create key dialog where you can make some changes" class="responsive-img" width="60%"/>
+    <img src="images/create-key.png" alt="Create key dialog where you can make some changes" class="responsive-img" width="60%"/>
 
 6.	Once you have created the key, you can copy the full key code and then close the dialog. 
 
     >[!NOTE] As the full key can be displayed only once, make sure to securely store it.
 
-    <img src="images/api-Key.png" alt="api key" class="responsive-img" width="60%"/>
+    <img src="images/api-key-example.png" alt="api key" class="responsive-img" width="60%"/>
+
+    >[!NOTE] If you select **Custom** for a component, you can choose from *Full Access*, *Read Only* or *None*. If you select *None*, that component won’t be visible.
+
+    <img src="images/create-key-custom.png" alt="custom options for a component" class="responsive-img" width="60%"/>
+
+
+
 
 

@@ -1,6 +1,6 @@
 # API Explorer
 
-In order to help you test the Slingshot’s API, we created a test environment that you can use in the web browser. 
+In order to help you test the Slingshot API, we created a test environment that you can use in the web browser. 
 You can try it out with the steps mentioned below:
 
 1.	Head [here](https://my.slingshotapp.io/v1/api-browser/index.html) and click on the **Authorize** button that is in the right corner.

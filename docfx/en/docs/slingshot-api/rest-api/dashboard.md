@@ -2,22 +2,22 @@
 
 With dashboards you can display information with the help of beautiful visualizations. They can be used, for example, to show the performance of a business. You can organize them in sections and lists.
 
-## Dashboard schema
+## Schema
 
 Schema:
 
 |    Property  | Type            | Attributes           |
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| id              | string | |
-| modified             | string | |
-| created             | string |  |
-| name               | string | Min = 1, Max = 100 | 
-| description           | string | Min = 1, Max = 144, Nullable |
-| user            | [DocumentInfo](../generic-slingshot-resources.html#document-info-object)|  |
-| workspace            |[DocumentInfo](../generic-slingshot-resources.html#document-info-object) | |  
-| project    |[DocumentInfo](../generic-slingshot-resources.html#document-info-object) | | 
-| dashboardList             | [DocumentInfo](../generic-slingshot-resources.html#document-info-object) |  |
-| dashboardSection   |[DocumentInfo](../generic-slingshot-resources.html#document-info-object)|  |
+| id              | string |read-only |
+| modified             | string |read-only |
+| created             | string | read-only |
+| name               | string | min = 1, max = 100 | 
+| description           | string | min = 1, max = 144, nullable |
+| user            | object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)>| read-only |
+| workspace            |object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> |read-only |  
+| project    |object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> |read-only | 
+| dashboardList             | object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | read-only |
+| dashboardSection   |object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)>|  read-only|
 
 Example:
 
@@ -42,6 +42,8 @@ Example:
 }
 ```
 
+---
+
 ## Get a dashboard
 
 <img src="../images/get.png" alt="Get request" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/dashboards/{id}***
@@ -56,6 +58,8 @@ Possible responses:
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication.  |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
 
+---
+
 ## Update a dashboard
 
 <img src="../images/patch.png" alt="Patch request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/>  ***https://my.slingshotapp.io/v1/dashboards/{id}***
@@ -66,19 +70,19 @@ When you request to update a dashboard, the request body will have the following
 
 |    Property  | Type            | Attributes           |
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| name               | string | Min = 1, Max = 100|  
-| description    |string | Min = 0, Max = 144, Nullable | 
+| name               | string | min = 1, max = 100|  
+| description    |string | min = 0, max = 144, nullable | 
 
 Possible responses:
 
 | Code | Description|
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
 | 200 (Success) |The dashboard is updated. The updated dashboard will be returned in the response body.  |
-| 400 (Bad Request) |The request was not processed because of missing or malformed parameter(s). Check the errors array in the response to get an idea of what went wrong. |
+| 400 (Bad Request) |The request was not processed because of missing or malformed parameter(s). Check the error array in the response to get an idea of what went wrong. |
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication.  |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
 
-Example of a successful request:
+Example of a successful request body:
 
 ```
 {
@@ -87,7 +91,7 @@ Example of a successful request:
 }
 ```
 
-Example of a successful response: 
+Example of a successful response body: 
 
 ```
 {
@@ -110,6 +114,8 @@ Example of a successful response:
     }
 }
 ```
+
+---
 
 ## Delete a dashboard 
 

@@ -2,28 +2,28 @@
 
 Workspaces can be viewed as digital workplaces. With workspaces you can collaborate with other users, prioritize work and share different types of content – all in one place. You can create multiple workspaces. One workspace can have many projects.
 
-## Workspace schema
+## Schema
 
 Schema:
 
 |    Property  | Type            | Attributes           |
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| id              | string |  |
-| modified             | string |  |
-| created             | string |  |
-| name               | string |  Min = 1, Max = 100 |
-|description|string|Min = 1, Max = 144, Nullable|
-|startDate|string, date-time| |
-|endDate|string, date-time| |
-|status| string, enum (none, ontarget, atrisk, danger completed)| |
-|organization| [DocumentInfo](../generic-slingshot-resources.html#document-info-object)| |  
-|members| 	array <[MemberInfo](../generic-slingshot-resources#member-info-object)> | |
-|requests| 	array <[MemberInfo](../generic-slingshot-resources#member-info-object)> | |
-| pendingInvites           | [DocumentInfo](../generic-slingshot-resources.html#document-info-object) |  |
-|projects| [DocumentInfo](../generic-slingshot-resources.html#document-info-object)| |
-|pinLists| [DocumentInfo](../generic-slingshot-resources.html#document-info-object)| |
-|taskLists| [DocumentInfo](../generic-slingshot-resources.html#document-info-object)| |
-| discussionLists           | [DocumentInfo](../generic-slingshot-resources.html#document-info-object)|  |
+| id              | string | read-only |
+| modified             | string |read-only  |
+| created             | string | read-only |
+| name               | string |  min = 1, max = 100 |
+|description|string|min = 1, max = 144, nullable|
+|startDate|string <DateTime> | |
+|endDate|string <DateTime> | |
+|status| string enum ("none", "ontarget", "atrisk", "danger", "completed")| |
+|organization| object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)>| read-only|  
+|members| 	array <[MemberInfo](../generic-slingshot-resources#member-info-object)> | read-only|
+|requests| 	array <[MemberInfo](../generic-slingshot-resources#member-info-object)> | read-only|
+| pendingInvites           | object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> |  read-only|
+|projects| object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)>| read-only|
+|pinLists| object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)>| read-only|
+|taskLists| object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)>|read-only |
+| discussionLists           | object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)>| read-only |
 
 
 Example:
@@ -73,6 +73,8 @@ Example:
 }
 ```
 
+---
+
 ## Create a workspace 
 
 <img src="../images/post-request.png" alt="Post request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***htt<area>ps://my.slingshotapp<area>.io/v1/workspaces***</span>
@@ -83,23 +85,23 @@ When you request to create a workspace, the request body will have the following
 
 |    Property  | Type            | Attributes           |
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| name               | string |  Min = 1, Max = 100 |
-|description|string|Min = 1, Max = 144, Nullable|
-|startDate|string, date-time| |
-|endDate|string, date-time| |
-|status| string, enum (none, ontarget, atrisk, danger completed)| | 
-|members| 	array <[MemberInfo](..generic-slingshot-resources#member-info-object)> | |
+| name               | string |  min = 1, max = 100 |
+|description|string|min = 1, max = 144, nullable|
+|startDate|string <DateTime> | |
+|endDate|string <DateTime> | |
+|status| string enum ("none", "ontarget", "atrisk", "danger", "completed")| | 
+|members| 	array <[MemberInfo](..generic-slingshot-resources#member-info-object)> |required |
 
 Possible responses:
 
 | Code | Description|
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
 | 201 (Created) |You successfully created a workspace. The newly created workspace will be returned in the response body.   |
-| 400 (Bad Request) |The request was not processed because of missing or malformed parameter(s). Check the errors array in the response to get an idea of what went wrong. |
+| 400 (Bad Request) |The request was not processed because of missing or malformed parameter(s). Check the error array in the response to get an idea of what went wrong. |
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication.  |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
 
-Example of a successful request:
+Example of a successful request body:
 
 ```
 {
@@ -118,7 +120,7 @@ Example of a successful request:
 }
 ```
 
-Example of a successful response: 
+Example of a successful response body: 
 
 ```
 {
@@ -165,6 +167,8 @@ Example of a successful response:
 }
 ```
 
+---
+
 ## Get a workspace
 
 <img src="../images/get.png" alt="Get request" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> 
@@ -180,6 +184,8 @@ Possible responses:
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication. |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
 
+---
+
 ## Get all workspaces for a current user
 
 <img src="../images/get-all.png" alt="Get all request" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> <span class="italic">***htt<area>ps://my.slingshotapp<area>.io/v1/workspaces***</span>
@@ -194,6 +200,8 @@ Possible responses:
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication. |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
 
+---
+
 ## Update a workspace
 
 <img src="../images/patch.png" alt="Patch request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> 
@@ -205,23 +213,23 @@ When you request to update a workspace, the request body will have the following
 
 |    Property  | Type            | Attributes           |
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| name               | string |  Min = 1, Max = 100 |
-|description|string|Min = 1, Max = 144, Nullable|
-|startDate|string, date-time| |
-|endDate|string, date-time| |
-|status| string, enum (none, ontarget, atrisk, danger completed| | 
-|members| 	array <[MemberInfo](..generic-slingshot-resources#member-info-object)> | |
+| name               | string |  min = 1, max = 100 |
+|description|string|min = 1, max = 144, nullable|
+|startDate|string <DateTime> | |
+|endDate|string <DateTime> | |
+|status| string enum ("none", "ontarget", "atrisk", "danger", "completed")| | 
+|members| 	array <[MemberInfo](..generic-slingshot-resources#member-info-object)> |required |
 
 Possible responses:
 
 | Code | Description|
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
 | 200 (Success) |The workspace is updated. The updated workspace will be returned in the response body.   |
-| 400 (Bad Request) |The request was not processed because of missing or malformed parameter(s). Check the errors array in the response to get an idea of what went wrong. |
+| 400 (Bad Request) |The request was not processed because of missing or malformed parameter(s). Check the error array in the response to get an idea of what went wrong. |
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication. |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
 
-Example of a successful request:
+Example of a successful request body:
 
 ```
 {
@@ -240,7 +248,7 @@ Example of a successful request:
 }
 ```
 
-Example of a successful response: 
+Example of a successful response body: 
 
 ```
 {
@@ -288,6 +296,8 @@ Example of a successful response:
 }
 ```
 
+---
+
 ## Delete a workspace
 
 <img src="../images/delete.png" alt="Delete request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/workspaces/{id}***
@@ -302,6 +312,8 @@ Possible responses:
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication. |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
 
+---
+
 ## Add members to a workspace  
 
 <img src="../images/post-request.png" alt="Post request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/workspaces/{id}/members***
@@ -315,11 +327,11 @@ Possible responses:
 | Code | Description|
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
 | 200 (Success) |You successfully added members to the workspace.   |
-| 400 (Bad Request) |The request was not processed because of missing or malformed parameter(s). Check the errors array in the response to get an idea of what went wrong. |
+| 400 (Bad Request) |The request was not processed because of missing or malformed parameter(s). Check the error array in the response to get an idea of what went wrong. |
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication. |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
 
-Example of a successful request:
+Example of a successful request body:
 
 ```
 {
@@ -333,7 +345,7 @@ Example of a successful request:
 }
 ```
 
-Example of a successful response:
+Example of a successful response body:
 
 ```
 {
@@ -396,7 +408,9 @@ Example of a successful response:
 }
 ```
 
-## Update members of a workspace
+---
+
+## Update members’ roles of a workspace
 
 <img src="../images/patch.png" alt="Patch request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/workspaces/{id}/members***
 
@@ -409,11 +423,11 @@ Possible responses:
 | Code | Description|
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
 | 200 (Success) |You updated the members of the workspace.   |
-| 400 (Bad Request) |The request was not processed because of missing or malformed parameter(s). Check the errors array in the response to get an idea of what went wrong. |
+| 400 (Bad Request) |The request was not processed because of missing or malformed parameter(s). Check the error array in the response to get an idea of what went wrong. |
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication. |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
 
-Example of a successful request:
+Example of a successful request body:
 
 ```
 {
@@ -427,7 +441,7 @@ Example of a successful request:
 }
 ```
 
-Example of a successful response:
+Example of a successful response body:
 
 ```
 {
@@ -494,6 +508,8 @@ Example of a successful response:
 }
 ```
 
+---
+
 ## Remove members from a workspace
 
 <img src="../images/delete.png" alt="Delete request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/workspaces/{id}/members***
@@ -507,11 +523,11 @@ Possible responses:
 | Code | Description|
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
 | 200 (Success) |You removed members from the workspace.   |
-| 400 (Bad Request) |The request was not processed because of missing or malformed parameter(s). Check the errors array in the response to get an idea of what went wrong. |
+| 400 (Bad Request) |The request was not processed because of missing or malformed parameter(s). Check the error array in the response to get an idea of what went wrong. |
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication. |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
 
-Example of a successful request:
+Example of a successful request body:
 
 ```
 {
@@ -526,7 +542,7 @@ Example of a successful request:
 
 ```
 
-Example of a successful response:
+Example of a successful response body:
 
 ```
 {
@@ -587,6 +603,8 @@ Example of a successful response:
 }
 ```
 
+---
+
 ## Grant requests to add members to a workspace  
 
 <img src="../images/patch.png" alt="Patch request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/workspaces/{id}/requests***
@@ -600,11 +618,11 @@ Possible responses:
 | Code | Description|
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
 | 200 (Success) |You granted access to the users.   |
-| 400 (Bad Request) |The request was not processed because of missing or malformed parameter(s). Check the errors array in the response to get an idea of what went wrong. |
+| 400 (Bad Request) |The request was not processed because of missing or malformed parameter(s). Check the error array in the response to get an idea of what went wrong. |
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication. |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
 
-Example of a successful request:
+Example of a successful request body:
 
 ```
 {
@@ -617,7 +635,7 @@ Example of a successful request:
 }
 ```
 
-Example of a successful response:
+Example of a successful response body:
 
 ```
 {
@@ -678,6 +696,8 @@ Example of a successful response:
 }
 ```
 
+---
+
 ## Deny requests to add members to a workspace
 
 <img src="../images/delete.png" alt="Delete request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/workspaces/{id}/requests***
@@ -691,11 +711,11 @@ Possible responses:
 | Code | Description|
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
 | 200 (Success) |You denied access to the users.   |
-| 400 (Bad Request) |The request was not processed because of missing or malformed parameter(s). Check the errors array in the response to get an idea of what went wrong. |
+| 400 (Bad Request) |The request was not processed because of missing or malformed parameter(s). Check the error array in the response to get an idea of what went wrong. |
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication. |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
 
-Example of a successful request:
+Example of a successful request body:
 
 ```
 {
@@ -708,7 +728,7 @@ Example of a successful request:
 }
 ```
 
-Example of a successful response:
+Example of a successful response body:
 
 ```
 {
@@ -761,4 +781,5 @@ Example of a successful response:
         }
     ]
 }
+
 ```
