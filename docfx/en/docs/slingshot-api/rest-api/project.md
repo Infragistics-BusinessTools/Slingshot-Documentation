@@ -19,7 +19,7 @@ Schema:
 | workspace            |object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | | 
 |members| 	array <[MemberInfo](../generic-slingshot-resources#member-info-object)> | |
 |requests| 	array <[MemberInfo](../generic-slingshot-resources#member-info-object)> | |
-| pendingInvites           | object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> |  |
+| pendingInvites           | array <[MemberInfo](..generic-slingshot-resources#member-info-object)> |  |
 |pinLists| object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)>| |
 |taskLists| object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)>| |
 | discussionLists           | object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)>|  |
@@ -413,7 +413,7 @@ Example of a successful response body:
 
 ---
 
-## Update members of a project 
+## Update members’ roles of a project 
 
 <img src="../images/patch.png" alt="Patch request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/projects/{id}/members***
 
@@ -687,6 +687,8 @@ Example of a successful response body:
 }
 ```
 
+>[!NOTE] Only Owners can grant requests access to add members to a project. 
+
 ---
 
 ## Deny requests to add members to a project 
@@ -765,3 +767,5 @@ Example of a successful response body:
     ]
 }
 ```
+
+>[!NOTE] Only Owners can deny requests access to add members to a project. 

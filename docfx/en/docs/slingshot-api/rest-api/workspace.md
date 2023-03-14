@@ -410,7 +410,7 @@ Example of a successful response body:
 
 ---
 
-## Update members of a workspace
+## Update members’ roles of a workspace
 
 <img src="../images/patch.png" alt="Patch request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/workspaces/{id}/members***
 
@@ -781,4 +781,5 @@ Example of a successful response body:
         }
     ]
 }
+
 ```
