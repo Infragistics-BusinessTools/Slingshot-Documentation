@@ -58,7 +58,7 @@ Possible responses:
 | Code | Description|
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
 | 201 (Created) |You successfully created a task section. The newly created task section will be returned in the response body.  |
-| 400 (Bad Request) |The request was not processed because of missing or malformed parameter(s). Check the errors array in the response to get an idea of what went wrong. |
+| 400 (Bad Request) |The request was not processed because of missing or malformed parameter(s). Check the error array in the response to get an idea of what went wrong. |
 | 403 (Forbidden) |The request cannot be authorized. This can happen when you don’t have the necessary permissions.  |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
 
@@ -145,7 +145,7 @@ Possible responses:
 | Code | Description|
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
 | 200 (Success) |The task section is updated. The updated [TaskSection] will be returned in the response body.   |
-| 400 (Bad Request) |The request was not processed because of missing or malformed parameter(s). Check the errors array in the response to get an idea of what went wrong. |
+| 400 (Bad Request) |The request was not processed because of missing or malformed parameter(s). Check the error array in the response to get an idea of what went wrong. |
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication. |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
 

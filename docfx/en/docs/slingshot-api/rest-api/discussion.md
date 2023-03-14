@@ -8,15 +8,15 @@ Schema:
 
 |    Property  | Type            | Attributes           |
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| id              | string |  |
-| modified             | string |  |
-| timestamp           | double |  |
-| created             | string |  |
+| id              | string | read-only |
+| modified             | string |read-only  |
+| timestamp           | double |  read-only|
+| created             | string | read-only |
 | name               | string |  min = 1, max = 100 |  
-| workspace            |object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)>| |  
-| project    |object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)>| | 
-| discussionList             | [ChatMessageInfo](../generic-slingshot-resources.html#chat-message-info-object ) |  |
-| lastMessage   |[ChatMessageInfo](../generic-slingshot-resources.html#chat-message-info-object ) | |
+| workspace            |object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)>| read-only|  
+| project    |object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)>| read-only| 
+| discussionList             | object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | read-only |
+| lastMessage   |[ChatMessageInfo](../generic-slingshot-resources.html#chat-message-info-object ) | read-only|
 
 Example: 
 
@@ -42,7 +42,7 @@ Example:
 
 ## Create a discussion  
 
-<img src="../images/post-request.png" alt="Post request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/discussions***
+<img src="../images/post-request.png" alt="Post request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> <span class="italic">***htt<area>ps://my.slingshotapp<area>.io/v1/discussion***</span>
 
 Required parameters: None 
 
@@ -51,14 +51,14 @@ When you request to create a discussion, the request body will have the followin
 |    Property  | Type            | Attributes           |
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
 | name               | string | min = 1, max = 100 |  
-| discussionList         |object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | |  
+| discussionList         |object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> |required |  
 
  Possible responses:
 
 | Code | Description|
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
 | 201 (Created) |You successfully created a discussion. The newly created discussion will be returned in the response body. |
-| 400 (Bad Request) |The request was not processed because of missing or malformed parameter(s). Check the errors array in the response to get an idea of what went wrong. |
+| 400 (Bad Request) |The request was not processed because of missing or malformed parameter(s). Check the error array in the response to get an idea of what went wrong. |
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication.  |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
 
@@ -164,7 +164,7 @@ Possible responses:
 | Code | Description|
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
 | 200 (Success) |The discussion is updated. |
-| 400 (Bad Request) |The request was not processed because of missing or malformed parameter(s). Check the errors array in the response to get an idea of what went wrong. |
+| 400 (Bad Request) |The request was not processed because of missing or malformed parameter(s). Check the error array in the response to get an idea of what went wrong. |
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication.  |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
 
@@ -229,14 +229,14 @@ When you request to send a discussion message, the request body will have the fo
 
 |    Property  | Type            | Attributes           |
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| name               | string | min = 1, max = 100 |
+| text              | string | min = 1, max = 100 |
 
 Possible responses:
 
 | Code | Description|
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
 | 204 (No Content) |The message is sent. |
-| 400 (Bad Request) |The request was not processed because of missing or malformed parameter(s). Check the errors array in the response to get an idea of what went wrong. |
+| 400 (Bad Request) |The request was not processed because of missing or malformed parameter(s). Check the error array in the response to get an idea of what went wrong. |
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication. |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
 

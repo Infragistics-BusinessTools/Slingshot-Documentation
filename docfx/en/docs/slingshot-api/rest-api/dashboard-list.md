@@ -8,10 +8,14 @@ Schema:
 
 |    Property  | Type            | Attributes           |
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
+| id              | string | read-only |  
+| modified             | string | read-only |
+| created              | string | read-only |    
 | name               | string | min = 1, max = 100 |  
-| user   |  object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | |
-| workspace            |object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | |  
-| project    |object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | | 
+| user   |  object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> |read-only |
+| workspace            |object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | read-only|  
+| project    |object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> |read-only |
+| dashboardSections          | array <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | read-only |   
 
 Example: 
 
@@ -41,16 +45,16 @@ When you request to create a dashboard list, the request body will have the foll
 |    Property  | Type            | Attributes           |
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
 | name               | string | min = 1, max = 100 |  
-| user   |[DocumentInfo](../generic-slingshot-resources.html#document-info-object) | OneOf|
-| workspace            |[DocumentInfo](../generic-slingshot-resources.html#document-info-object)| OneOf|  
- | project    |[DocumentInfo](../generic-slingshot-resources.html#document-info-object) | OneOf| 
+| user   |[DocumentInfo](../generic-slingshot-resources.html#document-info-object) | read-only|
+| workspace            |[DocumentInfo](../generic-slingshot-resources.html#document-info-object)| read-only|  
+ | project    |[DocumentInfo](../generic-slingshot-resources.html#document-info-object) | read-only| 
 
 Possible responses:
 
 | Code | Description|
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
 | 201 (Created) |You successfully created a dashboard list. The newly created dashboard list will be returned in the response body. |
-| 400 (Bad Request) |The request was not processed because of missing or malformed parameter(s). Check the errors array in the response to get an idea of what went wrong. |
+| 400 (Bad Request) |The request was not processed because of missing or malformed parameter(s). Check the error array in the response to get an idea of what went wrong. |
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication.  |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
 
@@ -60,10 +64,11 @@ Example of a successful request body:
 {
     "name": "Marketing",
     "user": {
-      "id": "{123456}_u"
+        "id": "{123456}_u",
+        "name": "Teddy Mitkova"
     }
-  }
-  ```
+}
+ ```
 
 Example of a successful response body: 
 
@@ -132,7 +137,7 @@ Possible responses:
 | Code | Description|
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
 | 200 (Success) |The dashboards list is updated. The updated dashboard list will be returned in the response body.  |
-| 400 (Bad Request) |The request was not processed because of missing or malformed parameter(s). Check the errors array in the response to get an idea of what went wrong. |
+| 400 (Bad Request) |The request was not processed because of missing or malformed parameter(s). Check the error array in the response to get an idea of what went wrong. |
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication.  |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
 

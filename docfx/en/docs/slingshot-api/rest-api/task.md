@@ -13,8 +13,8 @@ Schema:
 | created             | string |  |  
 | name               | string |min = 1, max = 200|  
 | description              | string | nullable |  
-| startDate               | string (date-time) |  |  
-| dueDate               | string (date-time) |  |  
+| startDate               | string <DateTime>  |  |  
+| dueDate               | string <DateTime>  |  |  
 | status              | string (open, progress, review, blocked or completed) |  | 
 | priority             | string(none, low, medium or high) |  |   
 | assignee               | ListObject[AssigneeInfo](slingshot-api/generic-slingshot-resources.html#assignee-info-object)  | |
@@ -69,8 +69,8 @@ When you request to create a task, the request body will have the following cont
 | name               | string |  min = 1, max = 100 |
 | startDate              | string | |
 | dueDate               | string | |
-| status             | string, Enum ("open" "progress" "review" "blocked" "completed")| |  
-| priority            | string, Enum: ("none" "low" "medium" "high") | |  
+| status             | string enum ("open", "progress", "review", "blocked", "completed")| |  
+| priority            | string enum ("none", "low", "medium", "high") | |  
 | taskSection   |object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)>  |oneOf | 
 | parentTask   |object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> |oneOf | 
 
@@ -81,7 +81,7 @@ Possible responses:
 | Code | Description|
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
 | 201 (Created) |You successfully created a task. The newly created task will be returned in the response body.  |
-| 400 (Bad Request) |The request was not processed because of missing or malformed parameter(s). Check the errors array in the response to get an idea of what went wrong. |
+| 400 (Bad Request) |The request was not processed because of missing or malformed parameter(s). Check the error array in the response to get an idea of what went wrong. |
 | 403 (Forbidden) |The request cannot be authorized. This can happen when you don’t have the necessary permissions.  |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
 
@@ -179,8 +179,8 @@ When you request to update a task, the request body will have the following cont
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |  
 | name               | string |min = 1, max = 200|  
 | description              | string | Nullable |  
-| startDate               | string (date-time) |  |  
-| dueDate               | string (date-time) |  |  
+| startDate               | string <DateTime>  |  |  
+| dueDate               | string <DateTime>  |  |  
 | status              | string (open, progress, review, blocked or completed) |  | 
 | priority             | string(none, low, medium or high) |  |   
 | assignee               | ListObject[AssigneeInfo](slingshot-api/generic-slingshot-resources.html#assignee-info-object)  | |
@@ -190,7 +190,7 @@ Possible responses:
 | Code | Description|
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
 | 200 (Success) |The task is updated. The updated [Task](#task-schema) will be returned in the response body.   |
-| 400 (Bad Request) |The request was not processed because of missing or malformed parameter(s). Check the errors array in the response to get an idea of what went wrong. |
+| 400 (Bad Request) |The request was not processed because of missing or malformed parameter(s). Check the error array in the response to get an idea of what went wrong. |
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication. |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
 
@@ -283,7 +283,7 @@ Possible responses:
 | Code | Description|
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
 | 200 (Success) |You successfully added assignees to the task. The updated task will be returned.   |
-| 400 (Bad Request) |The request was not processed because of missing or malformed parameter(s). Check the errors array in the response to get an idea of what went wrong. |
+| 400 (Bad Request) |The request was not processed because of missing or malformed parameter(s). Check the error array in the response to get an idea of what went wrong. |
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication. |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
 
@@ -350,7 +350,7 @@ Possible responses:
 | Code | Description|
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
 | 200 (Success) |You removed assignees from the task.  |
-| 400 (Bad Request) |The request was not processed because of missing or malformed parameter(s). Check the errors array in the response to get an idea of what went wrong. |
+| 400 (Bad Request) |The request was not processed because of missing or malformed parameter(s). Check the error array in the response to get an idea of what went wrong. |
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication. |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
 

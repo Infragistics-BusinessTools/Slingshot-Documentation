@@ -33,7 +33,12 @@ Example:
         "id": "{123456}_proj",
         "name": "Team 1"
     },
-    "pinSections": []
+    "pinSections": [
+        {
+            "id": "{123456}_bs",
+            "name": "Info"
+        }
+    ]
 }
 ```
 
@@ -59,7 +64,7 @@ Possible responses:
 | Code | Description|
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
 | 201 (Created) |You successfully created a pin list. The newly created pin list will be returned in the response body.  |
-| 400 (Bad Request) |The request was not processed because of missing or malformed parameter(s). Check the errors array in the response to get an idea of what went wrong. |
+| 400 (Bad Request) |The request was not processed because of missing or malformed parameter(s). Check the error array in the response to get an idea of what went wrong. |
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication.  |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
 
@@ -91,7 +96,12 @@ Example of a successful response body:
         "id": "{123456}_proj",
         "name": "Management"
     },
-    "pinSections": []
+    "pinSections": [
+        {
+            "id": "{123456}_bs",
+            "name": "Research"
+        }
+    ]
 }
 ```
 
@@ -140,16 +150,13 @@ When you request to update a pin list, the request body will have the following 
 |    Property  | Type            | Attributes           |
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
 | name               | string | min = 1, max = 100 |  
-| user   |object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | OneOf|
-| workspace            |object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | OneOf|  
- | project    |object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | OneOf| 
 
 Possible responses:
 
 | Code | Description|
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
 | 200 (Success) |The pin list is updated. The updated pin list will be returned in the response body.    |
-| 400 (Bad Request) |The request was not processed because of missing or malformed parameter(s). Check the errors array in the response to get an idea of what went wrong. |
+| 400 (Bad Request) |The request was not processed because of missing or malformed parameter(s). Check the error array in the response to get an idea of what went wrong. |
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication. |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
 
@@ -177,7 +184,12 @@ Example of a successful response body:
         "id": "{123456}_proj",
         "name": "Customer Support"
     },
-    "pinSections": []
+    "pinSections": [
+        {
+            "id": "{123456}_bs",
+            "name": "Info"
+        }
+    ]
 }
 ```
 

@@ -38,8 +38,16 @@ Example:
         "id": "123456}_b",
         "name": "Statistics"
     },
-    "pins": []
-} 
+    "pins": [
+        {
+            "pinType": "url",
+            "id": "{123456}",
+            "created": "2023-02-09T10:32:37.0000000",
+            "url": "https://my.slingshotapp.io/openBoardSection/{123456}_bs",
+            "name": "Research"
+        }
+    ]
+}
 ```
 
 ---
@@ -62,7 +70,7 @@ Possible responses:
 | Code | Description|
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
 | 201 (Created) |You successfully created a pin section. The newly created pin section will be returned in the response body.   |
-| 400 (Bad Request) |The request was not processed because of missing or malformed parameter(s). Check the errors array in the response to get an idea of what went wrong. |
+| 400 (Bad Request) |The request was not processed because of missing or malformed parameter(s). Check the error array in the response to get an idea of what went wrong. |
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication.  |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
 
@@ -98,7 +106,15 @@ Example of a successful response body:
         "id": "{123456}_b",
         "name": "Statistics"
     },
-    "pins": []
+    "pins": [
+        {
+            "pinType": "url",
+            "id": "{123456}",
+            "created": "2023-02-09T10:32:37.0000000",
+            "url": "https://my.slingshotapp.io/openBoardSection/{123456}_bs",
+            "name": "Research"
+        }
+    ]
 }
 ```
 ---
@@ -152,7 +168,7 @@ Possible responses:
 | Code | Description|
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
 | 200 (Success) |The pin section is updated. The updated pin section will be returned in the response body.  |
-| 400 (Bad Request) |The request was not processed because of missing or malformed parameter(s). Check the errors array in the response to get an idea of what went wrong. |
+| 400 (Bad Request) |The request was not processed because of missing or malformed parameter(s). Check the error array in the response to get an idea of what went wrong. |
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication. |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
 
@@ -184,7 +200,15 @@ Example of a successful response body:
         "id": "{123456}_b",
         "name": "Statistics"
     },
-    "pins": []
+    "pins": [
+        {
+            "pinType": "url",
+            "id": "{123456}",
+            "created": "2023-02-09T10:32:37.0000000",
+            "url": "https://my.slingshotapp.io/openBoardSection/{123456}_bs",
+            "name": "Feedback"
+        }
+    ]
 }
 ```
 

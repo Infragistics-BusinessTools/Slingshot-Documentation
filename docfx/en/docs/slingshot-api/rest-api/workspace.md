@@ -13,9 +13,9 @@ Schema:
 | created             | string |  |
 | name               | string |  min = 1, max = 100 |
 |description|string|min = 1, max = 144, nullable|
-|startDate|string, date-time| |
-|endDate|string, date-time| |
-|status| string, enum (none, ontarget, atrisk, danger completed)| |
+|startDate|string <DateTime> | |
+|endDate|string <DateTime> | |
+|status| string enum ("none", "ontarget", "atrisk", "danger", "completed")| |
 |organization| object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)>| |  
 |members| 	array <[MemberInfo](../generic-slingshot-resources#member-info-object)> | |
 |requests| 	array <[MemberInfo](../generic-slingshot-resources#member-info-object)> | |
@@ -87,9 +87,9 @@ When you request to create a workspace, the request body will have the following
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
 | name               | string |  min = 1, max = 100 |
 |description|string|min = 1, max = 144, nullable|
-|startDate|string, date-time| |
-|endDate|string, date-time| |
-|status| string, enum (none, ontarget, atrisk, danger completed)| | 
+|startDate|string <DateTime> | |
+|endDate|string <DateTime> | |
+|status| string enum ("none", "ontarget", "atrisk", "danger", "completed")| | 
 |members| 	array <[MemberInfo](..generic-slingshot-resources#member-info-object)> | |
 
 Possible responses:
@@ -97,7 +97,7 @@ Possible responses:
 | Code | Description|
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
 | 201 (Created) |You successfully created a workspace. The newly created workspace will be returned in the response body.   |
-| 400 (Bad Request) |The request was not processed because of missing or malformed parameter(s). Check the errors array in the response to get an idea of what went wrong. |
+| 400 (Bad Request) |The request was not processed because of missing or malformed parameter(s). Check the error array in the response to get an idea of what went wrong. |
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication.  |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
 
@@ -215,9 +215,9 @@ When you request to update a workspace, the request body will have the following
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
 | name               | string |  min = 1, max = 100 |
 |description|string|min = 1, max = 144, nullable|
-|startDate|string, date-time| |
-|endDate|string, date-time| |
-|status| string, enum (none, ontarget, atrisk, danger completed)| | 
+|startDate|string <DateTime> | |
+|endDate|string <DateTime> | |
+|status| string enum ("none", "ontarget", "atrisk", "danger", "completed")| | 
 |members| 	array <[MemberInfo](..generic-slingshot-resources#member-info-object)> | |
 
 Possible responses:
@@ -225,7 +225,7 @@ Possible responses:
 | Code | Description|
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
 | 200 (Success) |The workspace is updated. The updated workspace will be returned in the response body.   |
-| 400 (Bad Request) |The request was not processed because of missing or malformed parameter(s). Check the errors array in the response to get an idea of what went wrong. |
+| 400 (Bad Request) |The request was not processed because of missing or malformed parameter(s). Check the error array in the response to get an idea of what went wrong. |
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication. |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
 
@@ -327,7 +327,7 @@ Possible responses:
 | Code | Description|
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
 | 200 (Success) |You successfully added members to the workspace.   |
-| 400 (Bad Request) |The request was not processed because of missing or malformed parameter(s). Check the errors array in the response to get an idea of what went wrong. |
+| 400 (Bad Request) |The request was not processed because of missing or malformed parameter(s). Check the error array in the response to get an idea of what went wrong. |
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication. |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
 
@@ -423,7 +423,7 @@ Possible responses:
 | Code | Description|
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
 | 200 (Success) |You updated the members of the workspace.   |
-| 400 (Bad Request) |The request was not processed because of missing or malformed parameter(s). Check the errors array in the response to get an idea of what went wrong. |
+| 400 (Bad Request) |The request was not processed because of missing or malformed parameter(s). Check the error array in the response to get an idea of what went wrong. |
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication. |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
 
@@ -523,7 +523,7 @@ Possible responses:
 | Code | Description|
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
 | 200 (Success) |You removed members from the workspace.   |
-| 400 (Bad Request) |The request was not processed because of missing or malformed parameter(s). Check the errors array in the response to get an idea of what went wrong. |
+| 400 (Bad Request) |The request was not processed because of missing or malformed parameter(s). Check the error array in the response to get an idea of what went wrong. |
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication. |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
 
@@ -618,7 +618,7 @@ Possible responses:
 | Code | Description|
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
 | 200 (Success) |You granted access to the users.   |
-| 400 (Bad Request) |The request was not processed because of missing or malformed parameter(s). Check the errors array in the response to get an idea of what went wrong. |
+| 400 (Bad Request) |The request was not processed because of missing or malformed parameter(s). Check the error array in the response to get an idea of what went wrong. |
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication. |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
 
@@ -711,7 +711,7 @@ Possible responses:
 | Code | Description|
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
 | 200 (Success) |You denied access to the users.   |
-| 400 (Bad Request) |The request was not processed because of missing or malformed parameter(s). Check the errors array in the response to get an idea of what went wrong. |
+| 400 (Bad Request) |The request was not processed because of missing or malformed parameter(s). Check the error array in the response to get an idea of what went wrong. |
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication. |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
 

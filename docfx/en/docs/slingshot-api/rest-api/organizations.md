@@ -23,30 +23,72 @@ Example of a successful response body:
 ```
 {
     "items": [
-      {
-        "id": "{123456}_org",
-        "modified": "2023-02-06T23:17:35.0000000",
-        "created": "2020-09-02T11:46:32.0000000",
-        "name": "Doe",
-        "members": [
-          {
-            "id": "e91e11eg_fe0b4111-c5f2-4111-1c1d-dz011eaf1982_u",
-            "role": "contributor",
-            "name": "George",
-            "email": "g@gmail.com "
-          }
-    ],
-        "workspaces": [],
-        "projects": [],
-        "pinLists": [
-          {
-            "id": "{123456}",
-            "name": "Test"
-          },
-          {
-            "id": "{123456}",
-            "name": "General"
-          } ]
-  } ]
+        {
+            "id": "{123456}_org",
+            "modified": "2023-02-06T23:17:35.0000000",
+            "created": "2020-09-02T11:46:32.0000000",
+            "name": "Doe",
+            "members": [
+                {
+                    "id": "e91e11eg_fe0b4111-c5f2-4111-1c1d-dz011eaf1982_u",
+                    "role": "contributor",
+                    "name": "George",
+                    "email": "g@gmail.com "
+                }
+            ],
+            "workspaces": [
+                {
+                    "id": "{123456}_ws",
+                    "name": "Customer Support "
+                },
+                {
+                    "id": "{123456}_ws",
+                    "name": "General Management"
+                },
+                {
+                    "id": "{123456}_ws",
+                    "name": "Management"
+                }
+            ],
+            "projects": [
+                {
+                    "id": "{123456}_proj",
+                    "name": "Marketing"
+                },
+                {
+                    "id": "{123456}_proj",
+                    "name": "HR"
+                }
+            ],
+            "dashboardLists": [
+                {
+                    "id": "e97e10ef_org_repo"
+                },
+                {
+                    "id": "e97e10ef_org_pr_repo"
+                }
+            ],
+            "pinLists": [
+                {
+                    "id": "{123456}",
+                    "name": "Q1"
+                },
+                {
+                    "id": "{123456}",
+                    "name": "General"
+                }
+            ],
+            "discussionLists": [
+                {
+                    "id": "e97e10ef_2fe3912c-7cdd-47f5-8109-dd4871b6dbe1",
+                    "name": "Feedback"
+                },
+                {
+                    "id": "e97e10ef_ff53341e-f1a2-44ba-be2d-b277bfa5f69e",
+                    "name": "Marketing"
+                }
+            ]
+        }
+    ]
 }
 ```

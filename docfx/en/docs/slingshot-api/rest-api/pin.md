@@ -12,10 +12,10 @@ Schema:
 | modified             | string |  |
 | created             | string |  |
 | name               | string | min = 1, max = 100 |  
-| pinType |string enum/document (url) | |
-| documentId  |string| OneOf, GroupId = 1|  
-| documentType   |string enum  | OneOf, GroupId = 1| 
-| url |string | OneOf, GroupId = 2|
+| pinType |string enum (“document”, “url”) | |
+| documentId  |string| |  
+| documentType   |string enum  | | 
+| url |string | |
 
 Example:
 
@@ -62,7 +62,7 @@ When you request to create a pin, the request body will have the following conte
 |    Property  | Type            | Attributes           |
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
 | name               | string | min = 1, max = 100 |  
-| pinType |string enum/document (url) | |
+| pinType |string enum (“document”, “url”) | |
 | documentId  |string| OneOf, GroupId = 1|  
 | documentType   |string enum  | OneOf, GroupId = 1| 
 | url |string | OneOf, GroupId = 2|
@@ -72,7 +72,7 @@ Possible responses:
 | Code | Description|
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
 | 201 (Created) |You successfully created a pin. The newly created pin will be returned in the response body.   |
-| 400 (Bad Request) |The request was not processed because of missing or malformed parameter(s). Check the errors array in the response to get an idea of what went wrong. |
+| 400 (Bad Request) |The request was not processed because of missing or malformed parameter(s). Check the error array in the response to get an idea of what went wrong. |
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication.  |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
 
@@ -129,17 +129,15 @@ When you request to update a pin in a pin section, the request body will have th
 
 |    Property  | Type            | Attributes           |
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| name               | string | min = 1, max = 100 |  
-| documentId  |string| OneOf, GroupId = 1|  
-| documentType   |string enum  | OneOf, GroupId = 1| 
-| url |string | OneOf, GroupId = 2|
+| name               | string | min = 1, max = 100 |   
+| url |string | |
 
 Possible responses:
 
 | Code | Description|
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
 | 200 (Success) |The pin is updated. The updated pin will be returned in the response body.    |
-| 400 (Bad Request) |The request was not processed because of missing or malformed parameter(s). Check the errors array in the response to get an idea of what went wrong. |
+| 400 (Bad Request) |The request was not processed because of missing or malformed parameter(s). Check the error array in the response to get an idea of what went wrong. |
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication. |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
 
