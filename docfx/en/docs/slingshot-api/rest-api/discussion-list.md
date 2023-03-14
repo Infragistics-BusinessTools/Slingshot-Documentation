@@ -11,11 +11,11 @@ Schema:
 | id              | string |  |
 | modified             | string |  |
 | created             | string |  |
-| name               | string | Min = 1, Max = 100 |  
-| workspace            |[DocumentInfo](../generic-slingshot-resources.html#document-info-object) | |  
-| project    |[DocumentInfo](../generic-slingshot-resources.html#document-info-object) | | 
+| name               | string | min = 1, max = 100 |  
+| workspace            |object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | |  
+| project    |object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | | 
 | discussionsCount             | int |  |
-| discussions             | array[DocumentInfo](../generic-slingshot-resources.html#document-info-object) | |
+| discussions             | array <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | |
 
 Example:
 
@@ -50,9 +50,9 @@ When you request to create a discussion list, the request body will have the fol
 
 |    Property  | Type            | Attributes           |
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| name               | string | Min = 1, Max = 100 |  
-| workspace            |[DocumentInfo](../generic-slingshot-resources.html#document-info-object)| OneOf|  
- | project    |[DocumentInfo](../generic-slingshot-resources.html#document-info-object) | OneOf| 
+| name               | string | min = 1, max = 100 |  
+| workspace            |object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)>| OneOf|  
+ | project    |object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | OneOf| 
 
  Possible responses:
 
@@ -141,7 +141,7 @@ When you request to update a discussion list, the request body will have the fol
 
 |    Property  | Type            | Attributes           |
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| name               | string | Min = 1, Max = 100 |  
+| name               | string | min = 1, max = 100 |  
 
 
  Possible responses:

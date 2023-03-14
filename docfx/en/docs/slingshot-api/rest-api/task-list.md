@@ -11,10 +11,10 @@ Schema:
 | id              | string |  |
 | modified             | string |  |
 | created             | string |  |
-| name               | string |  Min = 1, Max = 100 |  
-| user             | [DocumentInfo](../generic-slingshot-resources.html#document-info-object) | | 
-| workspace            |[DocumentInfo](../generic-slingshot-resources.html#document-info-object) | |  
-| project    |[DocumentInfo](../generic-slingshot-resources.html#document-info-object) | | 
+| name               | string |  min = 1, max = 100 |  
+| user             | object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | | 
+| workspace            |object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | |  
+| project    |object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | | 
 | taskSection   |array <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)>  | | 
 
 Example:
@@ -60,10 +60,10 @@ When you request to create a task, the request body will have the following cont
 
 |    Property  | Type            | Attributes           |
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| name               | string | Min = 1, Max = 100 |
-| user             |[DocumentInfo](../generic-slingshot-resources.html#document-info-object) | oneOf| 
-| workspace            |[DocumentInfo](../generic-slingshot-resources.html#document-info-object) | oneOf|  
-| project    |[DocumentInfo](../generic-slingshot-resources.html#document-info-object) |oneOf|
+| name               | string | min = 1, max = 100 |
+| user             |object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | oneOf| 
+| workspace            |object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | oneOf|  
+| project    |object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)>| oneOf|
 
 Possible responses:
 
@@ -146,7 +146,7 @@ When you request to update a task, the request body will have the following cont
 
 |    Property  | Type            | Attributes           |
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| name               | string | Min = 1, Max = 100 |
+| name               | string | min = 1, max = 100 |
 
 Possible responses:
 

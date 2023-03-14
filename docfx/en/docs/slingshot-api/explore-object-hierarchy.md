@@ -11,7 +11,7 @@ In the object hierarchy, the *users* objects represent accounts in Slingshot. Ev
 
 - [User](./rest-api/user.md)
 
-<img src="images/user-structure-diagram.png" alt="organization structure" class="responsive-img" width="65%">
+<img src="images/user-object-hierarchy.png" alt="user structure" class="responsive-img" width="65%">
 
 ### Organizations
 
@@ -19,14 +19,14 @@ Organization is a workspace, where you and your colleagues can find information,
 
 - [Organization](./rest-api/organizations.md)
 
-<img src="images/organization-structure.png" alt="organization structure" class="responsive-img" width="65%">
+<img src="images/organization-object-hierarchy.png" alt="organization structure" class="responsive-img" width="65%">
 
 ### Workspaces
 Workspaces can be viewed as digital workplaces. One workspace can contain multiple projects. With workspaces you can collaborate with other users, prioritize work and share different types of content – all in one place. 
 
 - [Workspace](./rest-api/workspace.md)
 
-<img src="images/workspace-structure.png" alt="workspace structure" class="responsive-img" width="65%">
+<img src="images/workspace-object-hierarchy.png" alt="workspace structure" class="responsive-img" width="65%">
 
 ### Projects
 In case you want to have a better overview of different initiatives and processes, bound to a group of people, you can create a project.
@@ -38,23 +38,29 @@ In case you want to have a better overview of different initiatives and processe
 ### Tasks
 You can use tasks in order to better organize your work. For better visibility, you can organize them in different lists and sections.
 
-- [Task](./rest-api/task.md) 
-- [Task List](./rest-api/task-list.md) 
+- [Task List](./rest-api/task-list.md)
+
 - [Task Section](./rest-api/task-section.md)
+
+- [Task](./rest-api/task.md) 
 
 ### Pins 
 Pins are simple links to different types of resources that you can share or access. You can organize them in different lists and sections.
 
-- [Pin](./rest-api/pin.md) 
-- [Pin List](./rest-api/pin-list.md) 
+- [Pin List](./rest-api/pin-list.md)
+
 - [Pin Section](./rest-api/pin-section.md)
+
+- [Pin](./rest-api/pin.md) 
 
 ### Dashboards
 With dashboards you can display information with the help of beautiful visualizations. They can be used, for example, to show the performance of a business. You can organize them in sections and lists.
 
-- [Dashboard](./rest-api/dashboard.md) 
-- [Dashboard List](./rest-api/dashboard-list.md) 
+- [Dashboard List](./rest-api/dashboard-list.md)
+
 - [Dashboard Section](./rest-api/dashboard-section.md)
+
+- [Dashboard](./rest-api/dashboard.md) 
 
 ### Private Chats
 You can use private chats in order to communicate with other users. As they are workspace and project independent, the users don’t need to be a part of your organization.
@@ -64,6 +70,8 @@ You can use private chats in order to communicate with other users. As they are 
 ### Discussions
 Discussions can be created in projects and workspaces. As they are specific to workspaces and projects, you won’t be able to access all of the discussions in Slingshot. You can organize discussions in different lists.
 
-- [Discussion](./rest-api/discussion.md) 
 - [Discussion List](./rest-api/discussion-list.md)
+
+- [Discussion](./rest-api/discussion.md) 
+
 

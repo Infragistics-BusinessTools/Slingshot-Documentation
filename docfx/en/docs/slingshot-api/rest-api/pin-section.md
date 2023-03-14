@@ -11,12 +11,12 @@ Schema:
 | id              | string |  |
 | modified             | string |  |
 | created             | string |  |
-| name               | string |  Min = 1, Max = 100 |  
-| user             | [DocumentInfo](../generic-slingshot-resources.html#document-info-object) | | 
-| workspace            |[DocumentInfo](../generic-slingshot-resources.html#document-info-object) | |  
-| project    |[DocumentInfo](../generic-slingshot-resources.html#document-info-object)| | 
-| pinList   |[DocumentInfo](../generic-slingshot-resources.html#document-info-object)| | 
-| pins   |array [DocumentInfo](../generic-slingshot-resources.html#document-info-object)  | | 
+| name               | string |  min = 1, max = 100 |  
+| user             | object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | | 
+| workspace            |object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | |  
+| project    |object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)>| | 
+| pinList   |object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)>| | 
+| pins   |array <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)>  | | 
 
 Example:
 
@@ -54,8 +54,8 @@ When you request to create a pin section, the request body will have the followi
 
 |    Property  | Type            | Attributes           |
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| name               | string | Min = 1, Max = 100 |  
-| pinList   |[DocumentInfo](../generic-slingshot-resources.html#document-info-object) | |
+| name               | string | min = 1, max = 100 |  
+| pinList   |object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)>| |
 
 Possible responses:
 
@@ -145,7 +145,7 @@ When you request to update a pin section, the request body will have the followi
 
 Property  | Type            | Attributes           |
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| name               | string | Min = 1, Max = 100 |  
+| name               | string | min = 1, max = 100 |  
 
 Possible responses:
 

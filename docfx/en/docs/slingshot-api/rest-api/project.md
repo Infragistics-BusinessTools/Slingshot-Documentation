@@ -11,18 +11,18 @@ Schema:
 | id              | string |  |
 | modified             | string |  |
 | created             | string |  |
-| name               | string |  Min = 1, Max = 100 |
-|description|string|Min = 1, Max = 144, Nullable|
+| name               | string |  min = 1, max = 100 |
+|description|string| min = 1, max = 144, nullable|
 |startDate|string, date-time| |
 |endDate|string, date-time| |
 |status| string, enum (none, ontarget, atrisk, danger completed)| | 
-| workspace            |[DocumentInfo](../generic-slingshot-resources.html#document-info-object) | | 
+| workspace            |object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | | 
 |members| 	array <[MemberInfo](../generic-slingshot-resources#member-info-object)> | |
 |requests| 	array <[MemberInfo](../generic-slingshot-resources#member-info-object)> | |
-| pendingInvites           | [DocumentInfo](../generic-slingshot-resources.html#document-info-object) |  |
-|pinLists| [DocumentInfo](../generic-slingshot-resources.html#document-info-object)| |
-|taskLists| [DocumentInfo](../generic-slingshot-resources.html#document-info-object)|
-| discussionLists           | [DocumentInfo](../generic-slingshot-resources.html#document-info-object)|  |
+| pendingInvites           | object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> |  |
+|pinLists| object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)>| |
+|taskLists| object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)>| |
+| discussionLists           | object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)>|  |
 
 Example:
 
@@ -81,12 +81,12 @@ When you request to create a project, the request body will have the following c
 
 |    Property  | Type            | Attributes           |
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| name               | string |  Min = 1, Max = 100 |
-|description|string|Min = 1, Max = 144, Nullable|
+| name               | string |  min = 1, max = 100 |
+|description|string| min = 1, max = 144, nullable|
 |startDate|string, date-time| |
 |endDate|string, date-time| |
-|status| string, enum (none, ontarget, atrisk, danger completed| | 
-| workspace            |[DocumentInfo](../generic-slingshot-resources.html#document-info-object) | | 
+|status| string, enum (none, ontarget, atrisk, danger completed)| | 
+| workspace            |object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | | 
 |members| 	array <[MemberInfo](..generic-slingshot-resources#member-info-object)> | |
 
 Possible responses:
@@ -209,8 +209,8 @@ When you request to update a project, the request body will have the following c
 
 |    Property  | Type            | Attributes           |
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| name               | string |  Min = 1, Max = 100 |
-|description|string|Min = 1, Max = 144, Nullable|
+| name               | string |  min = 1, max = 100 |
+|description|string|min = 1, max = 144, nullable|
 |startDate|string, date-time| |
 |endDate|string, date-time| |
 |status| string, enum (none, ontarget, atrisk, danger, completed)| |  

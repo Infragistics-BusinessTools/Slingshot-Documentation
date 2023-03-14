@@ -11,19 +11,19 @@ Schema:
 | id               | string |  |    
 | modified              | string |  |  
 | created             | string |  |  
-| name               | string |Min = 1, Max = 200|  
-| description              | string | Nullable |  
+| name               | string |min = 1, max = 200|  
+| description              | string | nullable |  
 | startDate               | string (date-time) |  |  
 | dueDate               | string (date-time) |  |  
 | status              | string (open, progress, review, blocked or completed) |  | 
 | priority             | string(none, low, medium or high) |  |   
 | assignee               | ListObject[AssigneeInfo](slingshot-api/generic-slingshot-resources.html#assignee-info-object)  | |
-| user               | object[DocumentInfo](../generic-slingshot-resources.html#document-info-object) |  |
-| workspace              | object[DocumentInfo](../generic-slingshot-resources.html#document-info-object) | |
-| project             | object[DocumentInfo](../generic-slingshot-resources.html#document-info-object) |  |
-| taskList            | object[DocumentInfo](../generic-slingshot-resources.html#document-info-object) |  |
-| taskSection      | object[DocumentInfo](../generic-slingshot-resources.html#document-info-object) |  |
-| parentTask      | object[DocumentInfo](../generic-slingshot-resources.html#document-info-object) |  |
+| user               | object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> |  |
+| workspace              | object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | |
+| project             | object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> |  |
+| taskList            | object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> |  |
+| taskSection      | object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> |  |
+| parentTask      | object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> |  |
  | subtasks      | ListObject<Object[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> |  |
 
 Example:
@@ -66,13 +66,13 @@ When you request to create a task, the request body will have the following cont
 
 |    Property  | Type            | Attributes           |
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| name               | string |  Min = 1, Max = 100 |
+| name               | string |  min = 1, max = 100 |
 | startDate              | string | |
 | dueDate               | string | |
 | status             | string, Enum ("open" "progress" "review" "blocked" "completed")| |  
 | priority            | string, Enum: ("none" "low" "medium" "high") | |  
-| taskSection   |[DocumentInfo](../generic-slingshot-resources.html#document-info-object)  |oneOf | 
-| parentTask   |[DocumentInfo](../generic-slingshot-resources.html#document-info-object) |oneOf | 
+| taskSection   |object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)>  |oneOf | 
+| parentTask   |object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> |oneOf | 
 
 >[!NOTE]  To create a task, you need to provide the **id** and **name** of the parent task section under the **taskSection** property. Alternatively, if you want to create a subtask, you need to first provide the **id** and **name** of the parent task under the **parentTask** property. Only one can be provided as both taskSection and parentTask properties being present in the request will result in an error.
 
@@ -177,7 +177,7 @@ When you request to update a task, the request body will have the following cont
 
 |    Property  | Type            | Attributes           |
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |  
-| name               | string |Min = 1, Max = 200|  
+| name               | string |min = 1, max = 200|  
 | description              | string | Nullable |  
 | startDate               | string (date-time) |  |  
 | dueDate               | string (date-time) |  |  

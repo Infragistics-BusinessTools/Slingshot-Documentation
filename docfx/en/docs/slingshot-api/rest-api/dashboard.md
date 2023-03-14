@@ -11,13 +11,13 @@ Schema:
 | id              | string | |
 | modified             | string | |
 | created             | string |  |
-| name               | string | Min = 1, Max = 100 | 
-| description           | string | Min = 1, Max = 144, Nullable |
-| user            | [DocumentInfo](../generic-slingshot-resources.html#document-info-object)|  |
-| workspace            |[DocumentInfo](../generic-slingshot-resources.html#document-info-object) | |  
-| project    |[DocumentInfo](../generic-slingshot-resources.html#document-info-object) | | 
-| dashboardList             | [DocumentInfo](../generic-slingshot-resources.html#document-info-object) |  |
-| dashboardSection   |[DocumentInfo](../generic-slingshot-resources.html#document-info-object)|  |
+| name               | string | min = 1, max = 100 | 
+| description           | string | min = 1, max = 144, Nullable |
+| user            | object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)>|  |
+| workspace            |object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | |  
+| project    |object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | | 
+| dashboardList             | object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> |  |
+| dashboardSection   |object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)>|  |
 
 Example:
 
@@ -70,8 +70,8 @@ When you request to update a dashboard, the request body will have the following
 
 |    Property  | Type            | Attributes           |
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| name               | string | Min = 1, Max = 100|  
-| description    |string | Min = 0, Max = 144, Nullable | 
+| name               | string | min = 1, max = 100|  
+| description    |string | min = 0, max = 144, nullable | 
 
 Possible responses:
 

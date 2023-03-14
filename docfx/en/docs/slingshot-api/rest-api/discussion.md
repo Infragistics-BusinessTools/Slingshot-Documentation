@@ -10,11 +10,11 @@ Schema:
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
 | id              | string |  |
 | modified             | string |  |
-| timestamp           | Double |  |
+| timestamp           | double |  |
 | created             | string |  |
-| name               | string |  Min = 1, Max = 100 |  
-| workspace            |[DocumentInfo](../generic-slingshot-resources.html#document-info-object)| |  
-| project    |[DocumentInfo](../generic-slingshot-resources.html#document-info-object)| | 
+| name               | string |  min = 1, max = 100 |  
+| workspace            |object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)>| |  
+| project    |object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)>| | 
 | discussionList             | [ChatMessageInfo](../generic-slingshot-resources.html#chat-message-info-object ) |  |
 | lastMessage   |[ChatMessageInfo](../generic-slingshot-resources.html#chat-message-info-object ) | |
 
@@ -50,8 +50,8 @@ When you request to create a discussion, the request body will have the followin
 
 |    Property  | Type            | Attributes           |
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| name               | string | Min = 1, Max = 100 |  
-| discussionList         |[DocumentInfo](../generic-slingshot-resources.html#document-info-object) | |  
+| name               | string | min = 1, max = 100 |  
+| discussionList         |object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | |  
 
  Possible responses:
 
@@ -157,7 +157,7 @@ When you request to update a discussion, the request body will have the followin
 
 |    Property  | Type            | Attributes           |
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| name               | string | Min = 1, Max = 100 |
+| name               | string | min = 1, max = 100 |
 
 Possible responses:
 
@@ -229,7 +229,7 @@ When you request to send a discussion message, the request body will have the fo
 
 |    Property  | Type            | Attributes           |
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| name               | string |Min = 1, Max = 100 |
+| name               | string | min = 1, max = 100 |
 
 Possible responses:
 

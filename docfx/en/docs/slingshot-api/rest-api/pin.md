@@ -11,7 +11,7 @@ Schema:
 | id              | string |  |
 | modified             | string |  |
 | created             | string |  |
-| name               | string | Min = 1, Max = 100 |  
+| name               | string | min = 1, max = 100 |  
 | pinType |string enum/document (url) | |
 | documentId  |string| OneOf, GroupId = 1|  
 | documentType   |string enum  | OneOf, GroupId = 1| 
@@ -61,7 +61,7 @@ When you request to create a pin, the request body will have the following conte
 
 |    Property  | Type            | Attributes           |
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| name               | string | Min = 1, Max = 100 |  
+| name               | string | min = 1, max = 100 |  
 | pinType |string enum/document (url) | |
 | documentId  |string| OneOf, GroupId = 1|  
 | documentType   |string enum  | OneOf, GroupId = 1| 
@@ -129,7 +129,7 @@ When you request to update a pin in a pin section, the request body will have th
 
 |    Property  | Type            | Attributes           |
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| name               | string | Min = 1, Max = 100 |  
+| name               | string | min = 1, max = 100 |  
 | documentId  |string| OneOf, GroupId = 1|  
 | documentType   |string enum  | OneOf, GroupId = 1| 
 | url |string | OneOf, GroupId = 2|

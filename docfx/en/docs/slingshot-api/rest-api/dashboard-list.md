@@ -8,10 +8,10 @@ Schema:
 
 |    Property  | Type            | Attributes           |
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| name               | string | Min = 1, Max = 100 |  
-| user   |[DocumentInfo](../generic-slingshot-resources.html#document-info-object)| |
-| workspace            |[DocumentInfo](../generic-slingshot-resources.html#document-info-object) | |  
-| project    |[DocumentInfo](../generic-slingshot-resources.html#document-info-object) | | 
+| name               | string | min = 1, max = 100 |  
+| user   |  object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | |
+| workspace            |object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | |  
+| project    |object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | | 
 
 Example: 
 
@@ -40,7 +40,7 @@ When you request to create a dashboard list, the request body will have the foll
 
 |    Property  | Type            | Attributes           |
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| name               | string | Min = 1, Max = 100 |  
+| name               | string | min = 1, max = 100 |  
 | user   |[DocumentInfo](../generic-slingshot-resources.html#document-info-object) | OneOf|
 | workspace            |[DocumentInfo](../generic-slingshot-resources.html#document-info-object)| OneOf|  
  | project    |[DocumentInfo](../generic-slingshot-resources.html#document-info-object) | OneOf| 
@@ -125,7 +125,7 @@ When you request to update a dashboards list, the request body will have the fol
 
 |    Property  | Type            | Attributes           |
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| name               | string | Min = 1, Max = 100 |  
+| name               | string | min = 1, max = 100 |  
 
 Possible responses:
 

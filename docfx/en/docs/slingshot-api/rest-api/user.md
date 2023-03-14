@@ -10,7 +10,7 @@ In the object hierarchy, the *users* objects represent accounts in Slingshot. Ev
 | modified              | string |  |  
 | created             | string |  | 
 |email| string| |
-| name               | string |Min = 1, Max = 200| 
+| name               | string |min = 1, max = 200| 
 |locale|string| 
 |organizations|array<[DocumentInfo](../generic-slingshot-resources.html#document-info-object)>|
 | workspaces             | array<[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | |
@@ -49,7 +49,7 @@ When you request to update the document, the request body will have the followin
 
 |    Property  | Type            | Attributes           |
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| name               | string |  Min = 1, Max = 100 |
+| name               | string |  min = 1, max = 100 |
 
 Possible responses:
 

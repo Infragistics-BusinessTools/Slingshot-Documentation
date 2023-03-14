@@ -11,11 +11,11 @@ Schema:
 | id               | string |  |    
 | modified              | string |  |  
 | created             | string |  |  
-| name               | string |Min = 1, Max = 100|  
-| user             | [DocumentInfo](../generic-slingshot-resources.html#document-info-object) | | 
-| workspace            |[DocumentInfo](../generic-slingshot-resources.html#document-info-object) | |  
-| project    |[DocumentInfo](../generic-slingshot-resources.html#document-info-object) | | 
-|tasklist|[DocumentInfo](../generic-slingshot-resources.html#document-info-object)||
+| name               | string |min = 1, max = 100|  
+| user             | object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | | 
+| workspace            |object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | |  
+| project    |object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | | 
+|tasklist|object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)>||
 | tasks  |array <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)>  | | 
 
 Example:
@@ -50,8 +50,8 @@ When you request to create a tasks section, the request body will have the follo
 
 |    Property  | Type            | Attributes           |
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| name               | string |  Min = 1, Max = 100 |
-|taskList|[DocumentInfo](../generic-slingshot-resources.html#document-info-object)| |
+| name               | string |  min = 1, max = 100 |
+|taskList|object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)>| |
 
 Possible responses:
 
@@ -138,7 +138,7 @@ When you request to update a task section, the request body will have the follow
 
 |    Property  | Type            | Attributes           |
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| name               | string |  Min = 1, Max = 100 |
+| name               | string |  min = 1, max = 100 |
 
 Possible responses:
 

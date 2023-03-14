@@ -12,7 +12,7 @@ Schema:
 | modified             | string |  |
 |timestamp |	double| | 
 | created             | string |  |
-| name               | string |  Min = 1, Max = 100 |  
+| name               | string |  min = 1, max = 100 |  
 |members| 	array <[MemberInfo](..generic-slingshot-resources#member-info-object)> |
 |lastMessage| 	[ChatMessageInfo](..generic-slingshot-resources#chat-message-info-object)| |
 
@@ -57,7 +57,7 @@ When you request to create a private chat, the request body will have the follow
 
 |    Property  | Type            | Attributes           |
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| name               | string | Min = 1, Max = 100 |
+| name               | string | min = 1, max = 100 |
 | members         | array <[MemberInfo](..generic-slingshot-resources#member-info-object)>| | 
 
 Possible responses:
@@ -165,7 +165,7 @@ When you request to update a discussion, the request body will have the followin
 
 |    Property  | Type            | Attributes           |
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| name               | string | Min = 1, Max = 100 |
+| name               | string | min = 1, max = 100 |
 
 Possible responses:
 
@@ -225,7 +225,7 @@ When you request to send a private chat, the request body will have the followin
 
 |    Property  | Type            | Attributes           |
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| name               | string | Min = 1, Max = 100 |
+| name               | string | min = 1, max = 100 |
 
 Possible responses:
 
