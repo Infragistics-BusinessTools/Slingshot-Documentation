@@ -2,7 +2,7 @@
 
 You can use private chats in order to communicate with other users. As they are workspace and project independent, the users don’t need to be a part of your organization. Only you and the users, with whom you communicate with, can see the information in the chat.
 
-## Private chat schema
+## Schema
 
 Schema:
 
@@ -45,6 +45,8 @@ Example:
 }
 ```
 
+---
+
 ## Create a private chat 
 
 <img src="../images/post-request.png" alt="Post request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***htt<area>ps://my.slingshotapp<area>.io/v1/privatechats***</span>
@@ -67,7 +69,7 @@ Possible responses:
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication.  |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
 
-Example of a successful request:
+Example of a successful request body:
 
 ```
 {
@@ -82,7 +84,7 @@ Example of a successful request:
 }
 ```
 
-Example of a successful response: 
+Example of a successful response body: 
 
 ```
 {
@@ -101,6 +103,8 @@ Example of a successful response:
 }
 ```
 
+---
+
 ## Get a private chat
 
 <img src="../images/get.png" alt="Get request" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/privatechats/{id}***
@@ -115,6 +119,8 @@ Code | Description|
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication. |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
 
+---
+
 ## Get all private chats
 
 <img src="../images/get-all.png" alt="Get all request" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> <span class="italic">***htt<area>ps://my.slingshotapp<area>.io/v1/privatechats***</span>
@@ -128,6 +134,8 @@ Code | Description|
 | 200 (Success) |You can view all your private chats. The requested [PrivateChat(s)](#private-chat-schema) will be returned in the response body.   |
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication. |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
+
+---
 
 ## Get private chat messages
 
@@ -144,6 +152,8 @@ Possible responses:
 | 200 (Success) |You can view all the messages in the private chat. The requested private chat will be returned in the response body.   |
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication. |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
+
+---
 
 ## Update a private chat 
 
@@ -166,7 +176,7 @@ Possible responses:
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication. |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
 
-Example of a successful request:
+Example of a successful request body:
 
 ```
 {
@@ -174,7 +184,7 @@ Example of a successful request:
 }
 ```
 
-Example of a successful response:
+Example of a successful response body:
 
 ```
 {
@@ -203,6 +213,8 @@ Example of a successful response:
 }
 ```
 
+---
+
 ## Send a private chat message  
 
 <img src="../images/post-sending-private-chat.png" alt="Sending private chat with post request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/privatechats/{id}/send***
@@ -224,6 +236,8 @@ Possible responses:
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication. |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
 
+---
+
 ## Add members to a private chat 
 
 <img src="../images/post-request.png" alt="Post request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/privatechats/{id}/members***
@@ -241,7 +255,7 @@ Possible responses:
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication. |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
 
-Example of a successful request:
+Example of a successful request body:
 
 ```
 {
@@ -255,7 +269,7 @@ Example of a successful request:
 }
 ```
 
-Example of a successful response:
+Example of a successful response body:
 
 ```
 {
@@ -284,6 +298,8 @@ Example of a successful response:
 }
 ```
 
+---
+
 ## Remove members from a private chat
 
 <img src="../images/delete.png" alt="Delete request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/privatechats/{id}/members***
@@ -301,7 +317,7 @@ Possible responses:
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication. |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
 
-Example of a successful request:
+Example of a successful request body:
 
 ```
 {
@@ -315,7 +331,7 @@ Example of a successful request:
 }
 ```
 
-Example of a successful response:
+Example of a successful response body:
 
 ```
 {

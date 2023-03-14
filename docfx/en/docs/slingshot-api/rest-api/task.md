@@ -2,7 +2,7 @@
 
 You can use tasks in order to better organize your work. For better visibility, you can organize them in different lists and sections. 
 
-## Task Schema
+## Schema
 
 Schema:
 
@@ -54,6 +54,8 @@ Example:
 }
 ```
 
+---
+
 ## Create a Task
 
 <img src="../images/post-request.png" alt="Post request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***htt<area>ps://my.slingshotapp<area>.io/v1/tasks***</span>
@@ -83,7 +85,7 @@ Possible responses:
 | 403 (Forbidden) |The request cannot be authorized. This can happen when you don’t have the necessary permissions.  |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
 
-Example of a successful request:
+Example of a successful request body:
 
 ```
 {
@@ -100,7 +102,7 @@ Example of a successful request:
 }
 ```
 
-Example of a successful response:
+Example of a successful response body:
 
 ```
 {
@@ -130,6 +132,8 @@ Example of a successful response:
 }
 ```
 
+---
+
 ## Get a task
 
 <img src="../images/get.png" alt="Get request" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> 
@@ -145,6 +149,8 @@ Possible responses:
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication. |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
 
+---
+
 ## Get all tasks for a parent task section
 
 <img src="../images/get-all.png" alt="Get all request" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/tasks/parent/{id}***
@@ -158,6 +164,8 @@ Code | Description|
 | 200 (Success) |You can view all the tasks in the task section.  |
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication. |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
+
+---
 
 ## Update a task list
 
@@ -186,7 +194,7 @@ Possible responses:
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication. |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
 
-Example of a successful request:
+Example of a successful request body:
 
 ```
 {
@@ -204,7 +212,7 @@ Example of a successful request:
 }
 ```
 
-Example of a successful response:
+Example of a successful response body:
 
 ```
 {
@@ -244,6 +252,8 @@ Example of a successful response:
 }
 ```
 
+---
+
 ## Delete a task
 
 <img src="../images/delete.png" alt="Delete request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/tasks/{id}***
@@ -257,6 +267,8 @@ Possible responses:
 | 204 (No Content) |The task is deleted. |
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication. |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
+
+---
 
 ## Add assignee to a task
 
@@ -275,7 +287,7 @@ Possible responses:
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication. |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
 
-Example of a successful request:
+Example of a successful request body:
 ```
 {
     "items": [
@@ -286,7 +298,7 @@ Example of a successful request:
 }
 ```
 
-Example of a successful response:
+Example of a successful response body:
 
 ```
 {
@@ -323,6 +335,8 @@ Example of a successful response:
     ]
 }
 ```
+
+---
 ## Remove assigness from a task
 
 <img src="../images/delete.png" alt="Delete request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/tasks/{id}/assignees***
@@ -340,7 +354,7 @@ Possible responses:
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication. |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
 
-Example of a successful request:
+Example of a successful request body:
 
 ```
 {
@@ -353,7 +367,7 @@ Example of a successful request:
 }
 ```
 
-Example of a successful response:
+Example of a successful response body:
 
 ```
 {

@@ -2,7 +2,7 @@
 
 Discussions can be created in projects and workspaces. You can organize discussions in different lists. Discussion lists are sections dedicated to a specific subject.
 
-## DiscussionList schema
+## Schema
 
 Schema:
 
@@ -38,6 +38,8 @@ Example:
 }
 ```
 
+---
+
 ## Create a discussion list  
 
 <img src="../images/post-request.png" alt="Post request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> <span class="italic">***htt<area>ps://my.slingshotapp<area>.io/v1/discussionlists***</span>
@@ -61,7 +63,7 @@ When you request to create a discussion list, the request body will have the fol
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication.  |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
 
-Example of a successful request:
+Example of a successful request body:
 
 ```
 {
@@ -73,7 +75,7 @@ Example of a successful request:
 }
 ```
 
-Example of a successful response:
+Example of a successful response body:
 
 ```
 {
@@ -94,6 +96,8 @@ Example of a successful response:
 }
 ```
 
+---
+
 ## Get a discussion list
 
 <img src="../images/get.png" alt="Get request" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> 
@@ -109,6 +113,8 @@ Required parameters: the **id** of the discussion list
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication.  |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
 
+---
+
 ## Get all discussion lists for a parent document 
 
 <img src="../images/get-all.png" alt="Get all request" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/discussionlists/parent/{id}***
@@ -122,6 +128,8 @@ Possible responses:
 | 200 (Success) |You can view all the discussion lists in the parent document. The requested [DiscussionList(s)](#discussionlist-schema) will be returned in the response body in an ItemsObject (hyperlink) array. |
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication.  |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
+
+---
 
 ## Update a discussion list
 
@@ -145,7 +153,7 @@ When you request to update a discussion list, the request body will have the fol
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication.  |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
 
-Example of a successful request:
+Example of a successful request body:
 
 ```
 {
@@ -153,7 +161,7 @@ Example of a successful request:
 }
 ```
 
-Example of a successful response: 
+Example of a successful response body: 
 
 ```
 {
@@ -173,6 +181,9 @@ Example of a successful response:
     "discussions": []
 }
 ```
+
+---
+
 ## Delete a discussion list
 
 <img src="../images/delete.png" alt="Delete request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/discussionlists/{id}***

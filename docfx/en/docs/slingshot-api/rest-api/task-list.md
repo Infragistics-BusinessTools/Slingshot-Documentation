@@ -2,7 +2,7 @@
 
 You can use tasks in order to better organize your work. For better visibility, you can organize them in different lists.
 
-## Task list schema
+## Schema
 
 Schema:
 
@@ -48,6 +48,8 @@ Example:
 }
 ```
 
+---
+
 ## Create a task list 
 
 <img src="../images/post-request.png" alt="Post request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***htt<area>ps://my.slingshotapp<area>.io/v1/tasks***</span>
@@ -72,7 +74,7 @@ Possible responses:
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication.  |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
 
-Example of a successful request:
+Example of a successful request body:
 
 ```
 {
@@ -84,7 +86,7 @@ Example of a successful request:
 }
 ```
 
-Example of a successful response: 
+Example of a successful response body: 
 
 ```
 {
@@ -100,6 +102,8 @@ Example of a successful response:
 }
 ```
 
+---
+
 ## Get a task list
 
 <img src="../images/get.png" alt="Get request" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/tasklists/{id}***
@@ -114,6 +118,8 @@ Possible responses:
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication. |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
 
+---
+
 ## Get all task lists for a parent document
 
 <img src="../images/get-all.png" alt="Get all request" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/tasklists/parent/{id}***
@@ -127,6 +133,8 @@ Possible responses:
 | 200 (Success) |You can view all task lists in the parent document. The requested task list will be returned in the response body in an [ItemsObject](../generic-slingshot-resources.html#item-object) array.  |
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication. |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
+
+---
 
 ## Update a task list  
 
@@ -149,7 +157,7 @@ Possible responses:
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication. |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
 
-Example of a successful request:
+Example of a successful request body:
 
 ```
 {
@@ -157,7 +165,7 @@ Example of a successful request:
 }
 ```
 
-Example of a successful response: 
+Example of a successful response body: 
 
 ```
 {
@@ -172,6 +180,8 @@ Example of a successful response:
     "taskSections": []
 }
 ```
+
+---
 
 ## Delete a task list
 

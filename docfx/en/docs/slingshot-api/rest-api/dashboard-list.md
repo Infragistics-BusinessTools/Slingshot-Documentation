@@ -2,7 +2,7 @@
 
 With dashboards you can display information with the help of beautiful visualizations. You can organize them in different lists for better visibility.
 
-## DashboardList schema
+## Schema
 
 Schema:
 
@@ -28,6 +28,7 @@ Example:
     "dashboardSections": []
 }
 ```
+---
 
 ## Create a dashboard list   
 
@@ -53,7 +54,7 @@ Possible responses:
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication.  |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
 
-Example of a successful request:
+Example of a successful request body:
 
 ```
 {
@@ -64,7 +65,7 @@ Example of a successful request:
   }
   ```
 
-Example of a successful response: 
+Example of a successful response body: 
 
 ```
 {
@@ -80,6 +81,8 @@ Example of a successful response:
 }
 ```
 
+---
+
 ## Get a dashboard list 
 
 <img src="../images/get.png" alt="Get request" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/dashboardlists/{id}***
@@ -94,6 +97,8 @@ Possible responses:
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication. |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
 
+---
+
 ## Get all Dashboard Lists for a parent document
 
 <img src="../images/get-all.png" alt="Get all request" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/dashboardlists/parent/{id}***
@@ -107,6 +112,8 @@ Possible responses:
 | 200 (Success) |You can view all the dashboard lists in the parent document. The requested dashboard lists will be returned in the response body in an [ItemsObject](../generic-slingshot-resources.html#item-object) array. |
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication.  |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
+
+---
 
 ## Update a dashboard list  
 
@@ -129,7 +136,7 @@ Possible responses:
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication.  |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
 
-Example of a successful request:
+Example of a successful request body:
 
 ```
 {
@@ -137,7 +144,7 @@ Example of a successful request:
 }
 ```
 
-Example of a successful response: 
+Example of a successful response body: 
 
 ```
 {
@@ -157,6 +164,8 @@ Example of a successful response:
     ]
 }
 ```
+
+---
 
 ## Delete a dashboard list
 

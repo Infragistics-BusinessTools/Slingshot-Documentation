@@ -2,7 +2,7 @@
 
 Workspaces can be viewed as digital workplaces. With workspaces you can collaborate with other users, prioritize work and share different types of content – all in one place. You can create multiple workspaces. One workspace can have many projects.
 
-## Workspace schema
+## Schema
 
 Schema:
 
@@ -73,6 +73,8 @@ Example:
 }
 ```
 
+---
+
 ## Create a workspace 
 
 <img src="../images/post-request.png" alt="Post request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***htt<area>ps://my.slingshotapp<area>.io/v1/workspaces***</span>
@@ -99,7 +101,7 @@ Possible responses:
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication.  |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
 
-Example of a successful request:
+Example of a successful request body:
 
 ```
 {
@@ -118,7 +120,7 @@ Example of a successful request:
 }
 ```
 
-Example of a successful response: 
+Example of a successful response body: 
 
 ```
 {
@@ -165,6 +167,8 @@ Example of a successful response:
 }
 ```
 
+---
+
 ## Get a workspace
 
 <img src="../images/get.png" alt="Get request" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> 
@@ -180,6 +184,8 @@ Possible responses:
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication. |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
 
+---
+
 ## Get all workspaces for a current user
 
 <img src="../images/get-all.png" alt="Get all request" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> <span class="italic">***htt<area>ps://my.slingshotapp<area>.io/v1/workspaces***</span>
@@ -193,6 +199,8 @@ Possible responses:
 | 200 (Success) |You can view your workspaces. The requested [Workspaces]() will be returned in the response body in an [ItemsObject](..generic-slingshot-resources#item-object) array. |
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication. |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
+
+---
 
 ## Update a workspace
 
@@ -221,7 +229,7 @@ Possible responses:
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication. |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
 
-Example of a successful request:
+Example of a successful request body:
 
 ```
 {
@@ -240,7 +248,7 @@ Example of a successful request:
 }
 ```
 
-Example of a successful response: 
+Example of a successful response body: 
 
 ```
 {
@@ -288,6 +296,8 @@ Example of a successful response:
 }
 ```
 
+---
+
 ## Delete a workspace
 
 <img src="../images/delete.png" alt="Delete request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/workspaces/{id}***
@@ -301,6 +311,8 @@ Possible responses:
 | 204 (No Content) |The workspace is deleted. |
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication. |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
+
+---
 
 ## Add members to a workspace  
 
@@ -319,7 +331,7 @@ Possible responses:
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication. |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
 
-Example of a successful request:
+Example of a successful request body:
 
 ```
 {
@@ -333,7 +345,7 @@ Example of a successful request:
 }
 ```
 
-Example of a successful response:
+Example of a successful response body:
 
 ```
 {
@@ -396,6 +408,8 @@ Example of a successful response:
 }
 ```
 
+---
+
 ## Update members of a workspace
 
 <img src="../images/patch.png" alt="Patch request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/workspaces/{id}/members***
@@ -413,7 +427,7 @@ Possible responses:
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication. |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
 
-Example of a successful request:
+Example of a successful request body:
 
 ```
 {
@@ -427,7 +441,7 @@ Example of a successful request:
 }
 ```
 
-Example of a successful response:
+Example of a successful response body:
 
 ```
 {
@@ -494,6 +508,8 @@ Example of a successful response:
 }
 ```
 
+---
+
 ## Remove members from a workspace
 
 <img src="../images/delete.png" alt="Delete request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/workspaces/{id}/members***
@@ -511,7 +527,7 @@ Possible responses:
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication. |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
 
-Example of a successful request:
+Example of a successful request body:
 
 ```
 {
@@ -526,7 +542,7 @@ Example of a successful request:
 
 ```
 
-Example of a successful response:
+Example of a successful response body:
 
 ```
 {
@@ -587,6 +603,8 @@ Example of a successful response:
 }
 ```
 
+---
+
 ## Grant requests to add members to a workspace  
 
 <img src="../images/patch.png" alt="Patch request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/workspaces/{id}/requests***
@@ -604,7 +622,7 @@ Possible responses:
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication. |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
 
-Example of a successful request:
+Example of a successful request body:
 
 ```
 {
@@ -617,7 +635,7 @@ Example of a successful request:
 }
 ```
 
-Example of a successful response:
+Example of a successful response body:
 
 ```
 {
@@ -678,6 +696,8 @@ Example of a successful response:
 }
 ```
 
+---
+
 ## Deny requests to add members to a workspace
 
 <img src="../images/delete.png" alt="Delete request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/workspaces/{id}/requests***
@@ -695,7 +715,7 @@ Possible responses:
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication. |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
 
-Example of a successful request:
+Example of a successful request body:
 
 ```
 {
@@ -708,7 +728,7 @@ Example of a successful request:
 }
 ```
 
-Example of a successful response:
+Example of a successful response body:
 
 ```
 {

@@ -2,7 +2,7 @@
 
 In the object hierarchy, the *users* objects represent accounts in Slingshot. Every user can find their own information, such as credentials, profile information, settings and content, in their account. 
 
-## User schema
+## Schema
 
 |    Property  | Type            | Attributes           |
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
@@ -18,6 +18,7 @@ In the object hierarchy, the *users* objects represent accounts in Slingshot. Ev
 | pinLists           | array<[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> |  |
 | taskLists      | array<[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> |  |
 
+---
 
 ## Get current user document
 
@@ -35,6 +36,8 @@ Possible responses:
 | 200 (Success) |You can view your account’s information. The requested user document will be returned in the response body.   |
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication. |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
+
+---
 
 ## Update current user document
 
@@ -57,7 +60,7 @@ Possible responses:
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication. |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
 
-Example of a successful request:
+Example of a successful request body:
 
 ```
 {
@@ -65,7 +68,7 @@ Example of a successful request:
 }
 ```
 
-Example of a successful response:
+Example of a successful response body:
 
 ```
 {

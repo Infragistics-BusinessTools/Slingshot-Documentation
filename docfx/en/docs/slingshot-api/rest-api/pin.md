@@ -2,7 +2,7 @@
 
 Pins are simple links to different types of resources that you can share or access. You can organize them in different lists and sections.
 
-## Pin schema
+## Schema
 
 Schema:
 
@@ -49,6 +49,8 @@ Example:
 }
 ```
 
+---
+
 ## Create a pin
 
 <img src="../images/post-request.png" alt="Post request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***htt<area>ps://my.slingshotapp<area>.io/v1/pins/{pinSectionId}***</span>
@@ -74,7 +76,7 @@ Possible responses:
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication.  |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
 
-Example of a successful request:
+Example of a successful request body:
 
 ```
 {
@@ -83,7 +85,7 @@ Example of a successful request:
     "pinType": "url"
 }
 ```
-Example of a successful response: 
+Example of a successful response body: 
 
 ```
 {
@@ -115,6 +117,8 @@ Example of a successful response:
 }
 ```
 
+---
+
 ## Update a pin 
 
 <img src="../images/patch.png" alt="Patch request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/pins/{pinSectionId}/{pinId}***
@@ -139,7 +143,7 @@ Possible responses:
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication. |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
 
-Example of a successful request:
+Example of a successful request body:
 
 ```
 {
@@ -147,7 +151,7 @@ Example of a successful request:
     "name": "Goals"
 }
 ```
-Example of a successful response: 
+Example of a successful response body: 
 
 ```
 {
@@ -186,6 +190,8 @@ Example of a successful response:
 }
 ```
  
+---
+
 ## Delete a pin 
 
 <img src="../images/delete.png" alt="Delete request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/pins/{pinSectionId}/{pinId}***

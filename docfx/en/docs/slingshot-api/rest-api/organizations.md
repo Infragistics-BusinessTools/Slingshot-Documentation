@@ -1,6 +1,8 @@
 # Organizations
 
-Organization is a workspace, where you and your colleagues can find information, uploaded by your company/workplace. 
+Organization is a workspace, where you and your colleagues can find information, uploaded by your company/workplace.
+
+---
 
 ## Get all organizations for a current user 
 
@@ -16,7 +18,7 @@ Possible responses:
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication. |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
 
-Example of a successful response:
+Example of a successful response body:
 
 ```
 {

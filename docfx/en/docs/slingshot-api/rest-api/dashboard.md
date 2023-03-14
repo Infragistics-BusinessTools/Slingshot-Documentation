@@ -2,7 +2,7 @@
 
 With dashboards you can display information with the help of beautiful visualizations. They can be used, for example, to show the performance of a business. You can organize them in sections and lists.
 
-## Dashboard schema
+## Schema
 
 Schema:
 
@@ -42,6 +42,8 @@ Example:
 }
 ```
 
+---
+
 ## Get a dashboard
 
 <img src="../images/get.png" alt="Get request" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/dashboards/{id}***
@@ -55,6 +57,8 @@ Possible responses:
 | 200 (Success) |You can view the dashboard. The requested [Dashboard](#dashboard-schema) will be returned in the response body.  |
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication.  |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
+
+---
 
 ## Update a dashboard
 
@@ -78,7 +82,7 @@ Possible responses:
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication.  |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
 
-Example of a successful request:
+Example of a successful request body:
 
 ```
 {
@@ -87,7 +91,7 @@ Example of a successful request:
 }
 ```
 
-Example of a successful response: 
+Example of a successful response body: 
 
 ```
 {
@@ -110,6 +114,8 @@ Example of a successful response:
     }
 }
 ```
+
+---
 
 ## Delete a dashboard 
 

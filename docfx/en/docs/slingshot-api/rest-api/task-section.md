@@ -2,7 +2,7 @@
 
 You can use tasks in order to better organize your work. For better visibility, you can organize them in different sections. Sections are divisions of a task list.
 
-## Task section schema
+## Schema
 
 Schema:
 
@@ -38,6 +38,8 @@ Example:
 }
   ```
 
+---
+
 ## Create a task section
 
 <img src="../images/post-request.png" alt="Post request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***htt<area>ps://my.slingshotapp<area>.io/v1/tasksections***</span>
@@ -60,7 +62,7 @@ Possible responses:
 | 403 (Forbidden) |The request cannot be authorized. This can happen when you don’t have the necessary permissions.  |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
 
-Example of a successful request:
+Example of a successful request body:
 
 ```
 {
@@ -72,7 +74,7 @@ Example of a successful request:
 }
 ```
 
-Example of a successful response: 
+Example of a successful response body: 
 
 ```
 {
@@ -92,6 +94,8 @@ Example of a successful response:
 }
 ```
 
+---
+
 ## Get a task section
  
 <img src="../images/get.png" alt="Get request" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/tasksections/{id}***
@@ -106,6 +110,8 @@ Possible responses:
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication. |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
 
+---
+
 ## Get all task sections for a parent task list
 
 <img src="../images/get-all.png" alt="Get all request" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/tasksections/parent/{id}***
@@ -119,6 +125,8 @@ Code | Description|
 | 200 (Success) |You can view all the task sections that are in the parent task list. The requested task sections will be returned in the response body.  |
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication. |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
+
+---
 
 ## Update a task section  
 
@@ -141,7 +149,7 @@ Possible responses:
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication. |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
 
-Example of a successful request:
+Example of a successful request body:
 
 ```
 {
@@ -149,7 +157,7 @@ Example of a successful request:
 }
 ```
 
-Example of a successful response: 
+Example of a successful response body: 
 
 ```
 {
@@ -168,6 +176,8 @@ Example of a successful response:
     "tasks": []
 }
 ```
+
+---
 
 ## Delete a task section 
 

@@ -2,7 +2,7 @@
 
 Pins are simple links to different types of resources that you can share or access. You can organize them in different lists for better visibility.
 
-## PinList schema
+## Schema
 
 Schema:
 
@@ -37,6 +37,8 @@ Example:
 }
 ```
 
+---
+
 ## Create a pin list 
 
 <img src="../images/post-request.png" alt="Post request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***htt<area>ps://my.slingshotapp<area>.io/v1/pinlists***</span>
@@ -61,7 +63,7 @@ Possible responses:
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication.  |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
 
-Example of a successful request:
+Example of a successful request body:
 
 ```
 {
@@ -73,7 +75,7 @@ Example of a successful request:
 }
 ```
 
-Example of a successful response: 
+Example of a successful response body: 
 
 ```
 {
@@ -93,6 +95,8 @@ Example of a successful response:
 }
 ```
 
+---
+
 ## Get a Pin List
 
 <img src="../images/get.png" alt="Get request" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/pinlists/{id}***
@@ -107,6 +111,8 @@ Possible responses:
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication. |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
 
+---
+
 ## Get all pin lists
 
 <img src="../images/get-all.png" alt="Get all request" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/pinlists/parent/{id}***
@@ -120,6 +126,8 @@ Possible responses:
 | 200 (Success) |You can view all the pin lists that are in the parent document. The requested [PinList(s)](#pinlist-schema) will be returned in the response body in an [ItemsObject](../generic-slingshot-resources.html#item-object) array.    |
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication. |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
+
+---
 
 ## Update a pin list
 
@@ -145,7 +153,7 @@ Possible responses:
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication. |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
 
-Example of a successful request:
+Example of a successful request body:
 
 ```
 {
@@ -153,7 +161,7 @@ Example of a successful request:
 }
 ```
 
-Example of a successful response: 
+Example of a successful response body: 
 
 ```
 {
@@ -172,6 +180,8 @@ Example of a successful response:
     "pinSections": []
 }
 ```
+
+---
 
 ## Delete a pin list
 

@@ -1,8 +1,8 @@
 # Generic Slingshot resources
 
-### Item object 
+### Items object 
 
-It contains an array of objects of type T.
+It contains an array of objects of type T (*Task, Pin, Discussion, etc…*), and is returned on multiple resource requests (*GetAll*). 
 
 | Property | Type|
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
