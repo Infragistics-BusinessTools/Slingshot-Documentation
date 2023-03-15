@@ -2,9 +2,7 @@
 
 Discussions can be created in projects and workspaces. As they are specific to workspaces and projects, you won’t be able to access all of the discussions in Slingshot. You can organize discussions in different lists.
 
-## Schema
-
-Schema:
+## Schema:
 
 |    Property  | Type            | Attributes           |
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
@@ -18,7 +16,9 @@ Schema:
 | discussionList             | object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | read-only |
 | lastMessage   |[ChatMessageInfo](../generic-slingshot-resources.html#chat-message-info-object ) | read-only|
 
-Example: 
+<br/>
+
+## Example: 
 
 ```
 {
@@ -43,7 +43,7 @@ Example:
 }
 ```
 
----
+<br/>
 
 ## Create a discussion  
 
@@ -99,7 +99,7 @@ Example of a successful response body:
 }
 ```
 
----
+<br/>
 
 ## Get a discussion
  
@@ -116,7 +116,7 @@ Possible responses:
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication.  |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
 
----
+<br/>
 
 ## Get all discussions for a parent document
 
@@ -132,7 +132,7 @@ Possible responses:
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication.  |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
 
----
+<br/>
 
 ## Get discussion messages
 
@@ -150,7 +150,7 @@ Possible responses:
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication.  |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
 
----
+<br/>
 
 ## Update a discussion
 
@@ -206,7 +206,7 @@ Example of a successful response body:
 }
 ```
 
----
+<br/>
 
 ## Delete a discussion 
 
@@ -222,7 +222,7 @@ Possible responses:
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication. |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
 
----
+<br/>
 
 ## Send a discussion message
 
@@ -234,7 +234,7 @@ When you request to send a discussion message, the request body will have the fo
 
 |    Property  | Type            | Attributes           |
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| text              | string | min = 1, max = 100 |
+| text              | string |  |
 
 Possible responses:
 

@@ -2,9 +2,7 @@
 
 With dashboards you can display information with the help of beautiful visualizations. You can organize them in different lists for better visibility.
 
-## Schema
-
-Schema:
+## Schema:
 
 |    Property  | Type            | Attributes           |
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
@@ -15,9 +13,11 @@ Schema:
 | user   |  object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> |read-only |
 | workspace            |object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | read-only|  
 | project    |object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> |read-only |
-| dashboardSections          | array <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | read-only |   
+| dashboardSections          | array <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | read-only |  
 
-Example: 
+<br/>
+
+## Example: 
 
 ```
 {
@@ -32,7 +32,8 @@ Example:
     "dashboardSections": []
 }
 ```
----
+
+<br/>
 
 ## Create a dashboard list   
 
@@ -86,7 +87,7 @@ Example of a successful response body:
 }
 ```
 
----
+<br/>
 
 ## Get a dashboard list 
 
@@ -102,7 +103,7 @@ Possible responses:
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication. |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
 
----
+<br/>
 
 ## Get all Dashboard Lists for a parent document
 
@@ -118,7 +119,7 @@ Possible responses:
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication.  |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
 
----
+<br/>
 
 ## Update a dashboard list  
 
@@ -170,7 +171,7 @@ Example of a successful response body:
 }
 ```
 
----
+<br/>
 
 ## Delete a dashboard list
 

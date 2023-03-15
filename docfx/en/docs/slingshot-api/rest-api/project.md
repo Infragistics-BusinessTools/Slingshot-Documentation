@@ -4,9 +4,7 @@ In case you want to have a better overview of different initiatives and processe
  
 Note that users can have different roles and permissions in a project. [Here](https://www.slingshotapp.io/en/help/docs/security) you can find out more about each role.
 
-## Schema
-
-Schema:
+## Schema:
 
 |    Property  | Type            | Attributes           |
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
@@ -26,7 +24,9 @@ Schema:
 |taskLists| object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)>|read-only |
 | discussionLists           | object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)>| read-only |
 
-Example:
+<br/>
+
+## Example:
 
 ```
 {
@@ -85,7 +85,7 @@ Example:
 }
 ```
 
----
+<br/>
 
 ## Create a project
 
@@ -103,7 +103,7 @@ When you request to create a project, the request body will have the following c
 |endDate|string <DateTime> | |
 |status| string enum ("none", "ontarget", "atrisk", "danger", "completed")| | 
 | workspace            |object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> |required | 
-|members| 	array <[MemberInfo](..generic-slingshot-resources#member-info-object)> | |
+|members| 	array <[MemberInfo](..generic-slingshot-resources#member-info-object)> |required |
 
 Possible responses:
 
@@ -194,7 +194,7 @@ Example of a successful response body:
 }
 ```
 
----
+<br/>
 
 ## Get a project
 
@@ -211,7 +211,7 @@ Code | Description|
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication. |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
 
----
+<br/>
 
 ## Get all projects for a current user 
 
@@ -227,7 +227,7 @@ Possible responses:
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication. |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
 
----
+<br/>
 
 ## Update a project  
 
@@ -244,7 +244,6 @@ When you request to update a project, the request body will have the following c
 |startDate|string <DateTime> | |
 |endDate|string <DateTime> | |
 |status| string enum ("none", "ontarget", "atrisk", "danger", "completed")| |  
-|members| 	array <[MemberInfo](..generic-slingshot-resources#member-info-object)> | |
 
 Possible responses:
 
@@ -263,12 +262,6 @@ Example of a successful request body:
     "startDate": "2023-02-08T11:01:23.607Z",
     "endDate": "2023-02-08T11:01:23.607Z",
     "status": "none",
-    "members": [
-        {
-            "id": "{123456}_u ",
-            "role": "owner"
-        }
-    ],
     "description": "Implementing Feedback"
 }
 ```
@@ -333,7 +326,7 @@ Example of a successful response body:
 }
 ```
 
----
+<br/>
 
 ## Delete a project
 
@@ -349,7 +342,7 @@ Possible responses:
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication. |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
 
----
+<br/>
 
 ## Add members to a project
 
@@ -462,7 +455,7 @@ Example of a successful response body:
 }
 ```
 
----
+<br/>
 
 ## Update members’ roles of a project 
 
@@ -573,7 +566,7 @@ Example of a successful response body:
 }
 ```
 
----
+<br/>
 
 ## Remove members from a project 
 
@@ -674,7 +667,7 @@ Example of a successful response body:
 }
 ```
 
----
+<br/>
 
 ## Grant requests access to add members to a project
   
@@ -775,7 +768,7 @@ Example of a successful response body:
 
 >[!NOTE] Only Owners can grant requests access to add members to a project. 
 
----
+<br/>
 
 ## Deny requests to add members to a project 
 

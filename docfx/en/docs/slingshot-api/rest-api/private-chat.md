@@ -2,9 +2,7 @@
 
 You can use private chats in order to communicate with other users. As they are workspace and project independent, the users don’t need to be a part of your organization. Only you and the users, with whom you communicate with, can see the information in the chat.
 
-## Schema
-
-Schema:
+## Schema:
 
 |    Property  | Type            | Attributes           |
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
@@ -16,7 +14,9 @@ Schema:
 |members| 	array <[MemberInfo](..generic-slingshot-resources#member-info-object)> |read-only|
 |lastMessage| 	[ChatMessageInfo](..generic-slingshot-resources#chat-message-info-object)| |
 
-Example:
+<br/>
+
+## Example:
 
 ```
 {
@@ -45,7 +45,7 @@ Example:
 }
 ```
 
----
+<br/>
 
 ## Create a private chat 
 
@@ -103,7 +103,7 @@ Example of a successful response body:
 }
 ```
 
----
+<br/>
 
 ## Get a private chat
 
@@ -119,7 +119,7 @@ Code | Description|
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication. |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
 
----
+<br/>
 
 ## Get all private chats
 
@@ -135,7 +135,7 @@ Code | Description|
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication. |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
 
----
+<br/>
 
 ## Update a private chat 
 
@@ -195,7 +195,7 @@ Example of a successful response body:
 }
 ```
 
----
+<br/>
 
 ## Get private chat messages
 
@@ -213,7 +213,7 @@ Possible responses:
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication. |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
 
----
+<br/>
 
 ## Send a private chat message  
 
@@ -236,7 +236,7 @@ Possible responses:
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication. |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
 
----
+<br/>
 
 ## Add members to a private chat 
 
@@ -300,7 +300,7 @@ Example of a successful response body:
 
 >[!NOTE] You can assign a member only an owner role.
 
----
+<br/>
 
 ## Remove members from a private chat
 

@@ -1,54 +1,7 @@
 {
-    "id": "{123456}_proj",
-    "modified": "2023-02-08T10:28:43.0000000",
-    "created": "2023-02-08T10:28:43.0000000",
-    "name": "Customer Support",
-    "description": "Customer Support Cases",
-    "startDate": "2023-02-08T09:36:12.0000000",
-    "endDate": "2023-02-08T09:36:12.0000000",
+    "name": "Feedback",
+    "startDate": "2023-02-08T11:01:23.607Z",
+    "endDate": "2023-02-08T11:01:23.607Z",
     "status": "none",
-    "workspace": {
-        "id": "{123456}_ws",
-        "name": "Management"
-    },
-    "members": [
-        {
-            "id": "{123456}_u",
-            "role": "owner"
-        }
-    ],
-    "requests": [
-        {
-            "id": "{123456}_u",
-            "name": "Tim",
-            "email": "t@gmail.com",
-            "role": "owner"
-        }
-    ],
-    "pendingInvites": [
-        {
-            "id": "{123456}_u",
-            "role": "owner",
-            "name": "Joan Doe",
-            "email": "joan@gmail.com"
-        }
-    ],
-    "pinLists": [
-        {
-            "id": "{123456}_proj_d",
-            "name": "Project Pins"
-        }
-    ],
-    "taskLists": [
-        {
-            "id": "{123456}_tg",
-            "name": "Project Tasks"
-        }
-    ],
-    "discussionLists": [
-        {
-            "id": "{123456}",
-            "name": "Project Discussions"
-        }
-    ]
+    "description": "Implementing Feedback"
 }
