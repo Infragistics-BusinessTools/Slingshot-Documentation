@@ -2,9 +2,7 @@
 
 Discussions can be created in projects and workspaces. You can organize discussions in different lists. Discussion lists are sections dedicated to a specific subject.
 
-## Schema
-
-Schema:
+## Schema:
 
 |    Property  | Type            | Attributes           |
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
@@ -17,7 +15,9 @@ Schema:
 | discussionsCount             | int | read-only |
 | discussions             | array <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> |read-only |
 
-Example:
+<br/>
+
+## Example:
 
 ```
 {
@@ -38,7 +38,7 @@ Example:
 }
 ```
 
----
+<br/>
 
 ## Create a discussion list  
 
@@ -96,7 +96,7 @@ Example of a successful response body:
 }
 ```
 
----
+<br/>
 
 ## Get a discussion list
 
@@ -113,7 +113,7 @@ Required parameters: the **id** of the discussion list
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication.  |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
 
----
+<br/>
 
 ## Get all discussion lists for a parent document 
 
@@ -129,7 +129,7 @@ Possible responses:
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication.  |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
 
----
+<br/>
 
 ## Update a discussion list
 
@@ -182,7 +182,7 @@ Example of a successful response body:
 }
 ```
 
----
+<br/>
 
 ## Delete a discussion list
 

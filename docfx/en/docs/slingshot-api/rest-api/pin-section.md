@@ -2,9 +2,7 @@
 
 Pins are simple links to different types of resources that you can share or access. You can organize them in sections. Sections are divisions of a pin list. You can create multiple sections in one list.
 
-## Schema
-
-Schema:
+## Schema:
 
 |    Property  | Type            | Attributes           |
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
@@ -18,7 +16,9 @@ Schema:
 | pinList   |object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)>|read-only | 
 | pins   |array <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)>  |read-only | 
 
-Example:
+<br/>
+
+## Example:
 
 ```
 {
@@ -50,7 +50,7 @@ Example:
 }
 ```
 
----
+<br/>
 
 ## Create a pin section 
 
@@ -117,7 +117,7 @@ Example of a successful response body:
     ]
 }
 ```
----
+<br/>
 
 ## Get a pin section
 
@@ -133,7 +133,7 @@ Possible responses:
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication. |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
 
----
+<br/>
 
 ## Get all pin sections for a parent pin list
 
@@ -149,7 +149,7 @@ Possible responses:
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication. |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
 
----
+<br/>
 
 ## Update a pin section
 
@@ -212,7 +212,7 @@ Example of a successful response body:
 }
 ```
 
----
+<br/>
 
 ## Delete a pin section
 

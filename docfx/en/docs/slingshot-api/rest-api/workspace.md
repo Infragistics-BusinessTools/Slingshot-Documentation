@@ -2,9 +2,9 @@
 
 Workspaces can be viewed as digital workplaces. With workspaces you can collaborate with other users, prioritize work and share different types of content – all in one place. You can create multiple workspaces. One workspace can have many projects.
 
-## Schema
+Note that users can have different roles and permissions in a workspace. [Here](https://www.slingshotapp.io/en/help/docs/security) you can find out more about each role.
 
-Schema:
+## Schema:
 
 |    Property  | Type            | Attributes           |
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
@@ -19,14 +19,15 @@ Schema:
 |organization| object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)>| read-only|  
 |members| 	array <[MemberInfo](../generic-slingshot-resources#member-info-object)> | read-only|
 |requests| 	array <[MemberInfo](../generic-slingshot-resources#member-info-object)> | read-only|
-| pendingInvites           | object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> |  read-only|
+| pendingInvites           | array <[MemberInfo](..generic-slingshot-resources#member-info-object)> |  read-only|
 |projects| object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)>| read-only|
 |pinLists| object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)>| read-only|
 |taskLists| object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)>|read-only |
 | discussionLists           | object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)>| read-only |
 
+<br/>
 
-Example:
+## Example:
 
 ```
 {
@@ -40,7 +41,7 @@ Example:
     "status": "none",
     "organization": {
         "id": "{123456}_org",
-        "name": null
+        "name": "Doe"
     },
     "members": [
         {
@@ -49,9 +50,28 @@ Example:
             "name": "Vyara"
         }
     ],
-    "requests": [],
-    "pendingInvites": [],
-    "projects": [],
+    "requests": [
+        {
+            "id": "{123456}_u",
+            "name": "Tim",
+            "email": "t@gmail.com",
+            "role": "owner"
+        }
+    ],
+    "pendingInvites": [
+        {
+            "id": "{123456}_u",
+            "role": "owner",
+            "name": "Joan",
+            "email": "joan@gmail.com"
+        }
+    ],
+    "projects": [
+        {
+            "id": "{123456}_proj",
+            "name": "Feedback"
+        }
+    ],
     "pinLists": [
         {
             "id": "{123456}_ws_d",
@@ -73,7 +93,7 @@ Example:
 }
 ```
 
----
+<br/>
 
 ## Create a workspace 
 
@@ -143,9 +163,28 @@ Example of a successful response body:
             "name": "Vyara"
         }
     ],
-    "requests": [],
-    "pendingInvites": [],
-    "projects": [],
+    "requests": [
+        {
+            "id": "{123456}_u",
+            "name": "Tim",
+            "email": "t@gmail.com",
+            "role": "owner"
+        }
+    ],
+    "pendingInvites": [
+        {
+            "id": "{123456}_u",
+            "role": "owner",
+            "name": "Joan",
+            "email": "joan@gmail.com"
+        }
+    ],
+    "projects": [
+        {
+            "id": "{123456}_proj",
+            "name": "Feedback"
+        }
+    ],
     "pinLists": [
         {
             "id": "{123456}_ws_d",
@@ -167,7 +206,7 @@ Example of a successful response body:
 }
 ```
 
----
+<br/>
 
 ## Get a workspace
 
@@ -184,7 +223,7 @@ Possible responses:
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication. |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
 
----
+<br/>
 
 ## Get all workspaces for a current user
 
@@ -200,7 +239,7 @@ Possible responses:
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication. |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
 
----
+<br/>
 
 ## Update a workspace
 
@@ -272,9 +311,28 @@ Example of a successful response body:
             "name": "Vyara"
         }
     ],
-    "requests": [],
-    "pendingInvites": [],
-    "projects": [],
+    "requests": [
+        {
+            "id": "{123456}_u",
+            "name": "Tim",
+            "email": "t@gmail.com",
+            "role": "owner"
+        }
+    ],
+    "pendingInvites": [
+        {
+            "id": "{123456}_u",
+            "role": "owner",
+            "name": "Joan",
+            "email": "joan@gmail.com"
+        }
+    ],
+    "projects": [
+        {
+            "id": "{123456}_proj",
+            "name": "Feedback"
+        }
+    ],
     "pinLists": [
         {
             "id": "{123456}_ws_d",
@@ -296,7 +354,7 @@ Example of a successful response body:
 }
 ```
 
----
+<br/>
 
 ## Delete a workspace
 
@@ -312,7 +370,7 @@ Possible responses:
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication. |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
 
----
+<br/>
 
 ## Add members to a workspace  
 
@@ -371,8 +429,22 @@ Example of a successful response body:
             "email": "n@gmail.com"
         }
     ],
-    "requests": [],
-    "pendingInvites": [],
+    "requests": [
+        {
+            "id": "{123456}_u",
+            "name": "Tom",
+            "email": "t@gmail.com",
+            "role": "owner"
+        }
+    ],
+    "pendingInvites": [
+        {
+            "id": "{123456}_u",
+            "role": "owner",
+            "name": "Joan",
+            "email": "joan@gmail.com"
+        }
+    ],
     "projects": [
         {
             "id": "{123456}_proj",
@@ -408,7 +480,7 @@ Example of a successful response body:
 }
 ```
 
----
+<br/>
 
 ## Update members’ roles of a workspace
 
@@ -467,8 +539,22 @@ Example of a successful response body:
             "email": "n@gmail.com"
         }
     ],
-    "requests": [],
-    "pendingInvites": [],
+    "requests": [
+        {
+            "id": "{123456}_u",
+            "name": "Tom",
+            "email": "t@gmail.com",
+            "role": "owner"
+        }
+    ],
+    "pendingInvites": [
+        {
+            "id": "{123456}_u",
+            "role": "owner",
+            "name": "Joan",
+            "email": "joan@gmail.com"
+        }
+    ],
     "projects": [
         {
             "id": "{123456}_proj",
@@ -508,7 +594,7 @@ Example of a successful response body:
 }
 ```
 
----
+<br/>
 
 ## Remove members from a workspace
 
@@ -562,8 +648,22 @@ Example of a successful response body:
             "email": "v@gmail.com"
         }
     ],
-    "requests": [],
-    "pendingInvites": [],
+    "requests": [
+        {
+            "id": "{123456}_u",
+            "name": "Tom",
+            "email": "t@gmail.com",
+            "role": "owner"
+        }
+    ],
+    "pendingInvites": [
+        {
+            "id": "{123456}_u",
+            "role": "owner",
+            "name": "Joan",
+            "email": "joan@gmail.com"
+        }
+    ],
     "projects": [
         {
             "id": "{123456}_proj",
@@ -603,7 +703,7 @@ Example of a successful response body:
 }
 ```
 
----
+<br/>
 
 ## Grant requests to add members to a workspace  
 
@@ -667,8 +767,22 @@ Example of a successful response body:
             "email": "r@gmail.com"
         }
     ],
-    "requests": [],
-    "pendingInvites": [],
+    "requests": [
+        {
+            "id": "{123456}_u",
+            "name": "Tom",
+            "email": "t@gmail.com",
+            "role": "owner"
+        }
+    ],
+    "pendingInvites": [
+        {
+            "id": "{123456}_u",
+            "role": "owner",
+            "name": "Joan",
+            "email": "joan@gmail.com"
+        }
+    ],
     "projects": [
         {
             "id": "{123456}_proj",
@@ -696,7 +810,9 @@ Example of a successful response body:
 }
 ```
 
----
+>[!NOTE] Only Owners can grant requests access to add members to a workspace. 
+
+<br/>
 
 ## Deny requests to add members to a workspace
 
@@ -754,8 +870,22 @@ Example of a successful response body:
             "email": "v@gmail.com"
         }
     ],
-    "requests": [],
-    "pendingInvites": [],
+    "requests": [
+        {
+            "id": "{123456}_u",
+            "name": "Tom",
+            "email": "t@gmail.com",
+            "role": "owner"
+        }
+    ],
+    "pendingInvites": [
+        {
+            "id": "{123456}_u",
+            "role": "owner",
+            "name": "Joan",
+            "email": "joan@gmail.com"
+        }
+    ],
     "projects": [
         {
             "id": "{123456}_proj",
@@ -781,5 +911,6 @@ Example of a successful response body:
         }
     ]
 }
-
 ```
+
+>[!NOTE] Only Owners can deny requests access to add members to a workspace. 

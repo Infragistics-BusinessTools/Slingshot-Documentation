@@ -2,9 +2,7 @@
 
 Pins are simple links to different types of resources that you can share or access. You can organize them in different lists and sections.
 
-## Schema
-
-Schema:
+## Schema:
 
 |    Property  | Type            | Attributes           |
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
@@ -12,12 +10,38 @@ Schema:
 | modified             | string | read-only |
 | created             | string | read-only |
 | name               | string | min = 1, max = 100 |  
-| pinType |string enum (“document”, “url”) | |
-| documentId  |string| |  
-| documentType   |string enum  | | 
-| url |string | |
+| pinType |string enum ("document", "url") |read-only |
+| documentId  |string| read-only|  
+| documentType   |string enum  |read-only | 
+| url |string | read-only|
 
-Example:
+### Document Types
+
+|    Resource | Document Type           | 
+-------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
+| Workspace             | Workspace | 
+|Project                 |Project|
+|Organization           |Organization|
+|User|                  |User|
+|Task List               |TaskList|
+|Task Section|           |TaskSection|
+|Task                     |Task|
+|Pin List                |PinList|
+|Pin Section|            PinSection|
+|Pin|                     Pin|
+|Discussion List|                  |DiscussionList|
+|Discussion              |Discussion|
+|Private Chat|           |PrivateChat|
+|Dashboard List                    |DashboardList|
+|Dashboard Section               |DashboardSection|
+|Dashboard|            Dashboard|
+
+
+
+
+<br/>
+
+## Example:
 
 ```
 {
@@ -49,7 +73,7 @@ Example:
 }
 ```
 
----
+<br/>
 
 ## Create a pin
 
@@ -62,7 +86,7 @@ When you request to create a pin, the request body will have the following conte
 |    Property  | Type            | Attributes           |
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
 | name               | string | min = 1, max = 100 |  
-| pinType |string enum (“document”, “url”) | |
+| pinType |string enum ("document", "url") | |
 | documentId  |string| OneOf, GroupId = 1|  
 | documentType   |string enum  | OneOf, GroupId = 1| 
 | url |string | OneOf, GroupId = 2|
@@ -117,7 +141,7 @@ Example of a successful response body:
 }
 ```
 
----
+<br/>
 
 ## Update a pin 
 
@@ -130,7 +154,7 @@ When you request to update a pin in a pin section, the request body will have th
 |    Property  | Type            | Attributes           |
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
 | name               | string | min = 1, max = 100 |   
-| url |string | |
+| url |string | required|
 
 Possible responses:
 
@@ -188,7 +212,7 @@ Example of a successful response body:
 }
 ```
  
----
+<br/>
 
 ## Delete a pin 
 

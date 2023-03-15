@@ -2,9 +2,7 @@
 
 With dashboards you can display information with the help of beautiful visualizations. They can be used, for example, to show the performance of a business. You can organize them in sections and lists.
 
-## Schema
-
-Schema:
+## Schema:
 
 |    Property  | Type            | Attributes           |
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
@@ -19,7 +17,9 @@ Schema:
 | dashboardList             | object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | read-only |
 | dashboardSection   |object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)>|  read-only|
 
-Example:
+<br/>
+
+## Example:
 
 ```
 {
@@ -42,7 +42,7 @@ Example:
 }
 ```
 
----
+<br/>
 
 ## Get a dashboard
 
@@ -58,7 +58,7 @@ Possible responses:
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication.  |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
 
----
+<br/>
 
 ## Update a dashboard
 
@@ -115,7 +115,7 @@ Example of a successful response body:
 }
 ```
 
----
+<br/>
 
 ## Delete a dashboard 
 

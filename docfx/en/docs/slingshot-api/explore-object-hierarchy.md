@@ -11,7 +11,7 @@ In the object hierarchy, the *users* objects represent accounts in Slingshot. Ev
 
 - [User](./rest-api/user.md)
 
-<img src="images/user-object-hierarchy.png" alt="user structure" class="responsive-img" width="65%">
+<img src="images/user-object-hierarchy-structure.png" alt="user structure" class="responsive-img" width="65%">
 
 ### Organizations
 
@@ -19,7 +19,7 @@ Organization is a workspace, where you and your colleagues can find information,
 
 - [Organization](./rest-api/organizations.md)
 
-<img src="images/organization-object-hierarchy.png" alt="organization structure" class="responsive-img" width="65%">
+<img src="images/organization-object-hierarchy-structure.png" alt="organization structure" class="responsive-img" width="65%">
 
 ### Workspaces
 Workspaces can be viewed as digital workplaces. One workspace can contain multiple projects. With workspaces you can collaborate with other users, prioritize work and share different types of content – all in one place. 

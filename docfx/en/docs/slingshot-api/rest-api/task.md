@@ -2,9 +2,7 @@
 
 You can use tasks in order to better organize your work. For better visibility, you can organize them in different lists and sections. 
 
-## Schema
-
-Schema:
+## Schema:
 
 |    Property  | Type            | Attributes           |
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
@@ -15,18 +13,20 @@ Schema:
 | description              | string | nullable |  
 | startDate               | string <DateTime>  |  |  
 | dueDate               | string <DateTime>  |  |  
-| status              | string (open, progress, review, blocked or completed) | read-only | 
-| priority             | string(none, low, medium or high) |read-only  |   
-| assignee               | ListObject[AssigneeInfo](slingshot-api/generic-slingshot-resources.html#assignee-info-object)  |read-only |
+| status              | string ("open", "progress", "review", "blocked", "completed") | read-only | 
+| priority             | string ("none", "low", "medium", "high") |read-only  |   
+| assignee               | array <[AssigneeInfo](slingshot-api/generic-slingshot-resources.html#assignee-info-object)>  |read-only |
 | user               | object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | read-only |
 | workspace              | object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | read-only|
 | project             | object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | read-only |
 | taskList            | object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | read-only |
 | taskSection      | object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | read-only |
 | parentTask      | object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | read-only |
- | subtasks      | ListObject<Object[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | read-only |
+ | subtasks      | array <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | read-only |
 
-Example:
+ <br/>
+
+## Example:
 
 ```
 {
@@ -50,11 +50,16 @@ Example:
         "id": "{123456}_tg",
         "name": "Q1"
     },
-    "subtasks": []
+    "subtasks": [
+        {
+            "id": "{123456}_tk",
+            "name": "Forum"
+        }
+    ]
 }
 ```
 
----
+<br/>
 
 ## Create a Task
 
@@ -128,11 +133,16 @@ Example of a successful response body:
         "id": "{123456}_tg",
         "name": "Section 1"
     },
-    "subtasks": []
+    "subtasks": [
+        {
+            "id": "{123456}_tk",
+            "name": "Event"
+        }
+    ]
 }
 ```
 
----
+<br/>
 
 ## Get a task
 
@@ -149,7 +159,7 @@ Possible responses:
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication. |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
 
----
+<br/>
 
 ## Get all tasks for a parent task section
 
@@ -165,7 +175,7 @@ Code | Description|
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication. |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
 
----
+<br/>
 
 ## Update a task list
 
@@ -181,9 +191,8 @@ When you request to update a task, the request body will have the following cont
 | description              | string | Nullable |  
 | startDate               | string <DateTime>  |  |  
 | dueDate               | string <DateTime>  |  |  
-| status              | string (open, progress, review, blocked or completed) | required | 
-| priority             | string(none, low, medium or high) | required |   
-| assignee               | ListObject[AssigneeInfo](slingshot-api/generic-slingshot-resources.html#assignee-info-object)  | |
+| status              | string ("open", "progress", "review", "blocked", "completed") | required | 
+| priority             | string ("none", "low", "medium","high") | required |   
 
 Possible responses:
 
@@ -203,12 +212,7 @@ Example of a successful request body:
     "startDate": "2023-02-17T11:33:10.710Z",
     "dueDate": "2023-02-17T11:33:10.710Z",
     "status": "open",
-    "priority": "none",
-    "assignees": [
-        {
-            "id": "{123456}_u"
-        }
-    ]
+    "priority": "none"
 }
 ```
 
@@ -241,18 +245,23 @@ Example of a successful response body:
         "name": "Emails"
     },
     "taskList": {
-        "id": "{123456}",
+        "id": "{123456}_tg",
         "name": "Project Tasks"
     },
     "taskSection": {
-        "id": "{123456}",
+        "id": "{123456}_tg",
         "name": null
     },
-    "subtasks": []
+    "subtasks": [
+        {
+            "id": "{123456}_tk",
+            "name": "Forum"
+        }
+    ]
 }
 ```
 
----
+<br/>
 
 ## Delete a task
 
@@ -268,7 +277,7 @@ Possible responses:
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication. |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
 
----
+<br/>
 
 ## Add assignee to a task
 
@@ -336,7 +345,8 @@ Example of a successful response body:
 }
 ```
 
----
+<br/>
+
 ## Remove assigness from a task
 
 <img src="../images/delete.png" alt="Delete request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/tasks/{id}/assignees***

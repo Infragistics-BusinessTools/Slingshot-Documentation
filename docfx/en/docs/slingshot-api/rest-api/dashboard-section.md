@@ -2,9 +2,7 @@
 
 With dashboards you can display information with the help of beautiful visualizations. You can organize them in sections. Sections are divisions of a dashboard list. You can create multiple sections in one list.
 
-## Schema
-
-Schema:
+## Schema:
 
 |    Property  | Type            | Attributes           |
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
@@ -18,7 +16,9 @@ Schema:
 | dashboardList             | object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | read-only |
 | dashboards   |array <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | read-only |
 
-Example:
+<br/>
+
+## Example:
 
 ```
 {
@@ -38,7 +38,7 @@ Example:
 }
 ```
 
----
+<br/>
 
 ## Create a dashboard section
 
@@ -51,7 +51,7 @@ When you request to create a dashboard section, the request body will have the f
 |    Property  | Type            | Attributes           |
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
 | name               | string | min = 1, max = 100 | 
-| dashboardList             | object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> |  |
+| dashboardList             | object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | required |
 
 Possible responses:
 
@@ -94,7 +94,7 @@ Example of a successful response body:
 }
 ```
 
----
+<br/>
 
 ## Get a dashboard section
 
@@ -110,7 +110,7 @@ Possible responses:
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication. |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
 
----
+<br/>
 
 ## Get all dashboard sections for a parent dashboard list
 
@@ -126,7 +126,7 @@ Possible responses:
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication.  |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
 
----
+<br/>
 
 ## Update a dashboard section  
 
@@ -177,7 +177,7 @@ Example of a successful response body:
 }
 ```
 
----
+<br/>
 
 ## Delete a dashboard section
 

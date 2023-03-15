@@ -2,7 +2,7 @@
 
 In the object hierarchy, the *users* objects represent accounts in Slingshot. Every user can find their own information, such as credentials, profile information, settings and content, in their account. 
 
-## Schema
+## Schema:
 
 |    Property  | Type            | Attributes           |
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
@@ -17,8 +17,64 @@ In the object hierarchy, the *users* objects represent accounts in Slingshot. Ev
 | projects             | array<[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | read-only |
 | pinLists           | array<[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | read-only |
 | taskLists      | array<[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | read-only |
+| dashboardLists      | <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | read-only |
 
----
+<br/>
+
+## Example
+
+```
+{
+    "id": "{123456}_u",
+    "modified": "2023-02-09T11:32:11.0000000",
+    "created": "2022-05-18T13:47:52.0000000",
+    "email": "t@gmail.com",
+    "name": "Tom",
+    "locale": "en",
+    "organizations": [
+        {
+            "id": "{123456}_org",
+            "role": "contributor",
+            "name": "Jack",
+            "type": "siblingmember"
+        }
+    ],
+    "workspaces": [
+        {
+            "id": "{123456}_ws",
+            "name": "Customer Support"
+        }
+    ],
+    "projects": [
+        {
+            "id": "{123456}_proj",
+            "name": "Marketing"
+        },
+        {
+            "id": "{123456}_proj",
+            "name": "Emails"
+        }
+    ],
+    "dashboardLists": [
+        {
+            "id": "{123456}_repo",
+            "name": "Q2"
+        }
+    ],
+    "pinLists": [
+        {
+            "id": "{123456}_d",
+            "name": "Personal Pins"
+        }
+    ],
+    "taskLists": [
+        {
+            "id": "{123456}",
+            "name": "Personal Tasks"
+        }
+    ]
+}
+```
 
 ## Get current user document
 
@@ -37,7 +93,7 @@ Possible responses:
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication. |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
 
----
+<br/>
 
 ## Update current user document
 
@@ -108,6 +164,16 @@ Example of a successful response body:
         {
             "id": "{123456}_proj",
             "name": "HR"
+        }
+    ],
+    "dashboardLists": [
+        {
+            "id": "{123456}_u_repo",
+            "name": "My Dashboards"
+        },
+        {
+            "id": "{123456}_repo",
+            "name": "Q1"
         }
     ],
     "pinLists": [

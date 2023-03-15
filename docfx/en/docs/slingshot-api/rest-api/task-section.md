@@ -2,9 +2,7 @@
 
 You can use tasks in order to better organize your work. For better visibility, you can organize them in different sections. Sections are divisions of a task list.
 
-## Schema
-
-Schema:
+## Schema:
 
 |    Property  | Type            | Attributes           |
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
@@ -18,7 +16,9 @@ Schema:
 |tasklist|object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)>|read-only|
 | tasks  |array <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)>  | read-only| 
 
-Example:
+<br/>
+
+## Example:
 
 ```
 {
@@ -34,11 +34,16 @@ Example:
         "id": "{123456}_tg",
         "name": "Feedback"
     },
-    "tasks": []
+    "tasks": [
+        {
+            "id": "{123456}_tk",
+            "name": "Approval"
+        }
+    ]
 }
   ```
 
----
+<br/>
 
 ## Create a task section
 
@@ -90,11 +95,16 @@ Example of a successful response body:
         "id": "{123456}_tg",
         "name": "3"
     },
-    "tasks": []
+    "tasks": [
+        {
+            "id": "{123456}_tk",
+            "name": "Feedback"
+        }
+    ]
 }
 ```
 
----
+<br/>
 
 ## Get a task section
  
@@ -110,7 +120,7 @@ Possible responses:
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication. |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
 
----
+<br/>
 
 ## Get all task sections for a parent task list
 
@@ -126,7 +136,7 @@ Code | Description|
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication. |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
 
----
+<br/>
 
 ## Update a task section  
 
@@ -173,11 +183,16 @@ Example of a successful response body:
         "id": "{123456}_tg",
         "name": "Support"
     },
-    "tasks": []
+    "tasks": [
+        {
+            "id": "{123456}_tk",
+            "name": "Approval"
+        }
+    ]
 }
 ```
 
----
+<br/>
 
 ## Delete a task section 
 

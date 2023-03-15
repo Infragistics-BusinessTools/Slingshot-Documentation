@@ -2,7 +2,7 @@
 
 Organization is a workspace, where you and your colleagues can find information, uploaded by your company/workplace.
 
----
+<br/>
 
 ## Get all organizations for a current user 
 
