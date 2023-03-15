@@ -1,6 +1,8 @@
 # Project
 
-In case you want to have a better overview of different initiatives and processes, bound to a group of people, you can create a project. You can create multiple projects.
+In case you want to have a better overview of different initiatives and processes, bound to a group of people, you can create a project. You can create multiple projects. 
+ 
+Note that users can have different roles and permissions in a project. [Here](https://www.slingshotapp.io/en/help/docs/security) you can find out more about each role.
 
 ## Schema
 
@@ -46,8 +48,22 @@ Example:
             "role": "owner"
         }
     ],
-    "requests": [],
-    "pendingInvites": [],
+    "requests": [
+        {
+            "id": "{123456}_u",
+            "name": "Tim",
+            "email": "t@gmail.com",
+            "role": "owner"
+        }
+    ],
+    "pendingInvites": [
+        {
+            "id": "{123456}_u",
+            "role": "owner",
+            "name": "Joan Doe",
+            "email": "joan@gmail.com"
+        }
+    ],
     "pinLists": [
         {
             "id": "{123456}_proj_d",
@@ -141,8 +157,22 @@ Example of a successful response body:
             "role": "owner"
         }
     ],
-    "requests": [],
-    "pendingInvites": [],
+    "requests": [
+        {
+            "id": "{123456}_u",
+            "name": "Tim",
+            "email": "t@gmail.com",
+            "role": "owner"
+        }
+    ],
+    "pendingInvites": [
+        {
+            "id": "{123456}_u",
+            "name": "John",
+            "email": "jdoe@gmail.com",
+            "role": "owner"
+        }
+    ],
     "pinLists": [
         {
             "id": "{123456}_proj_d",
@@ -266,8 +296,22 @@ Example of a successful response body:
             "name": "Vyara Todorova"
         }
     ],
-    "requests": [],
-    "pendingInvites": [],
+    "requests": [
+        {
+            "id": "{123456}_u",
+            "name": "Tim",
+            "email": "t@gmail.com",
+            "role": "owner"
+        }
+    ],
+    "pendingInvites": [
+        {
+            "id": "{123456}_u",
+            "name": "John",
+            "email": "jdoe@gmail.com",
+            "role": "owner"
+        }
+    ],
     "pinLists": [
         {
             "id": "{123456}_proj_d",
@@ -369,7 +413,14 @@ Example of a successful response body:
             "email": "n@gmail.com "
         }
     ],
-    "requests": [],
+    "requests": [
+        {
+            "id": "{123456}_u",
+            "name": "Tim",
+            "email": "t@gmail.com",
+            "role": "owner"
+        }
+    ],
     "pendingInvites": [
         {
             "id": "{123456}_u",
@@ -473,8 +524,22 @@ Example of a successful response body:
             "email": "joan@gmail.com"
         }
     ],
-    "requests": [],
-    "pendingInvites": [],
+    "requests": [
+        {
+            "id": "{123456}_u",
+            "name": "Tim",
+            "email": "t@gmail.com",
+            "role": "owner"
+        }
+    ],
+    "pendingInvites": [
+        {
+            "id": "{123456}_u",
+            "role": "owner",
+            "name": "Pete",
+            "email": "p@gmail.com"
+        }
+    ],
     "pinLists": [
         {
             "id": "{123456}_proj_d",
@@ -564,7 +629,14 @@ Example of a successful response body:
             "name": "Ver Petrova"
         }
     ],
-    "requests": [],
+    "requests": [
+        {
+            "id": "{123456}_u",
+            "name": "Tim",
+            "email": "t@gmail.com",
+            "role": "owner"
+        }
+    ],
     "pendingInvites": [
         {
             "id": "{123456}_u",
@@ -664,8 +736,22 @@ Example of a successful response body:
             "email": "r@gmail.com"
         }
     ],
-    "requests": [],
-    "pendingInvites": [],
+    "requests": [
+        {
+            "id": "{123456}_u",
+            "name": "Tim",
+            "email": "t@gmail.com",
+            "role": "owner"
+        }
+    ],
+    "pendingInvites": [
+        {
+            "id": "{123456}_u",
+            "role": "owner",
+            "name": "Joan Doe",
+            "email": "joan@gmail.com"
+        }
+    ],
     "pinLists": [
         {
             "id": "{123456}_proj_d",
@@ -745,8 +831,22 @@ Example of a successful response body:
             "email": "v@gmail.com"
         }
     ],
-    "requests": [],
-    "pendingInvites": [],
+    "requests": [
+        {
+            "id": "{123456}_u",
+            "name": "Tim",
+            "email": "t@gmail.com",
+            "role": "owner"
+        }
+    ],
+    "pendingInvites": [
+        {
+            "id": "{123456}_u",
+            "role": "owner",
+            "name": "Joan Doe",
+            "email": "joan@gmail.com"
+        }
+    ],
     "pinLists": [
         {
             "id": "{123456}_proj_d",

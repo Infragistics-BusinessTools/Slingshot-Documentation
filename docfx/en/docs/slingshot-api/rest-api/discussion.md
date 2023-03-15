@@ -23,17 +23,22 @@ Example:
 ```
 {
     "id": "{123456}",
-    "modified": "2023-02-03T10:11:36.0000000",
-    "timestamp": 1675419096390.1465,
-    "created": "2023-02-03T10:11:36.0000000",
-    "name": "Feedback",
+    "modified": "2023-02-03T11:42:39.0000000",
+    "timestamp": 1675424559437.8538,
+    "created": "2023-01-27T11:53:13.0000000",
+    "name": "Emails",
     "workspace": {
         "id": "{123456}_ws",
-        "name": "Documentation"
+        "name": "Support"
     },
     "discussionList": {
         "id": "{123456}",
-        "name": "Threads"
+        "name": "List 2"
+    },
+    "lastMessage": {
+        "id": "{123456}",
+        "userId": "{123456}_u",
+        "text": "Thanks."
     }
 }
 ```

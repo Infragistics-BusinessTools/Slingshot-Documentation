@@ -34,7 +34,12 @@ Example:
         "id": "{123456}_tg",
         "name": "Feedback"
     },
-    "tasks": []
+    "tasks": [
+        {
+            "id": "{123456}_tk",
+            "name": "Approval"
+        }
+    ]
 }
   ```
 
@@ -90,7 +95,12 @@ Example of a successful response body:
         "id": "{123456}_tg",
         "name": "3"
     },
-    "tasks": []
+    "tasks": [
+        {
+            "id": "{123456}_tk",
+            "name": "Feedback"
+        }
+    ]
 }
 ```
 
@@ -173,7 +183,12 @@ Example of a successful response body:
         "id": "{123456}_tg",
         "name": "Support"
     },
-    "tasks": []
+    "tasks": [
+        {
+            "id": "{123456}_tk",
+            "name": "Approval"
+        }
+    ]
 }
 ```
 

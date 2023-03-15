@@ -42,7 +42,12 @@ Example:
                 "id": "{123456}_ws",
                 "name": "Marketing"
             },
-            "taskSections": []
+            "taskSections": [
+                {
+                    "id": "{123456}_tg",
+                    "name": "Q2"
+                }
+            ]
         }
     ]
 }
@@ -98,7 +103,12 @@ Example of a successful response body:
         "id": "{123456}_u",
         "name": "Vyara Yan"
     },
-    "taskSections": []
+    "taskSections": [
+        {
+            "id": "{123456}_tg",
+            "name": "Q2"
+        }
+    ]
 }
 ```
 
@@ -177,7 +187,12 @@ Example of a successful response body:
         "id": "{123456}_u",
         "name": "Vyara Yan"
     },
-    "taskSections": []
+    "taskSections": [
+        {
+            "id": "{123456}_tg",
+            "name": "Q1"
+        }
+    ]
 }
 ```
 

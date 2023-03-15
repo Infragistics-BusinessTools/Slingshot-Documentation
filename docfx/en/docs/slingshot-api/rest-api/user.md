@@ -17,6 +17,7 @@ In the object hierarchy, the *users* objects represent accounts in Slingshot. Ev
 | projects             | array<[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | read-only |
 | pinLists           | array<[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | read-only |
 | taskLists      | array<[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | read-only |
+| dashboardLists      | <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | read-only |
 
 ---
 
@@ -108,6 +109,16 @@ Example of a successful response body:
         {
             "id": "{123456}_proj",
             "name": "HR"
+        }
+    ],
+    "dashboardLists": [
+        {
+            "id": "{123456}_u_repo",
+            "name": "My Dashboards"
+        },
+        {
+            "id": "{123456}_repo",
+            "name": "Q1"
         }
     ],
     "pinLists": [

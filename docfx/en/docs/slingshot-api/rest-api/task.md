@@ -15,16 +15,16 @@ Schema:
 | description              | string | nullable |  
 | startDate               | string <DateTime>  |  |  
 | dueDate               | string <DateTime>  |  |  
-| status              | string (open, progress, review, blocked or completed) | read-only | 
-| priority             | string(none, low, medium or high) |read-only  |   
-| assignee               | ListObject[AssigneeInfo](slingshot-api/generic-slingshot-resources.html#assignee-info-object)  |read-only |
+| status              | string ("open", "progress", "review", "blocked", "completed") | read-only | 
+| priority             | string ("none", "low", "medium", "high") |read-only  |   
+| assignee               | array <[AssigneeInfo](slingshot-api/generic-slingshot-resources.html#assignee-info-object)>  |read-only |
 | user               | object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | read-only |
 | workspace              | object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | read-only|
 | project             | object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | read-only |
 | taskList            | object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | read-only |
 | taskSection      | object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | read-only |
 | parentTask      | object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | read-only |
- | subtasks      | ListObject<Object[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | read-only |
+ | subtasks      | array <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | read-only |
 
 Example:
 
@@ -50,7 +50,12 @@ Example:
         "id": "{123456}_tg",
         "name": "Q1"
     },
-    "subtasks": []
+    "subtasks": [
+        {
+            "id": "{123456}_tk",
+            "name": "Forum"
+        }
+    ]
 }
 ```
 
@@ -128,7 +133,12 @@ Example of a successful response body:
         "id": "{123456}_tg",
         "name": "Section 1"
     },
-    "subtasks": []
+    "subtasks": [
+        {
+            "id": "{123456}_tk",
+            "name": "Event"
+        }
+    ]
 }
 ```
 
@@ -181,9 +191,9 @@ When you request to update a task, the request body will have the following cont
 | description              | string | Nullable |  
 | startDate               | string <DateTime>  |  |  
 | dueDate               | string <DateTime>  |  |  
-| status              | string (open, progress, review, blocked or completed) | required | 
-| priority             | string(none, low, medium or high) | required |   
-| assignee               | ListObject[AssigneeInfo](slingshot-api/generic-slingshot-resources.html#assignee-info-object)  | |
+| status              | string ("open", "progress", "review", "blocked", "completed") | required | 
+| priority             | string ("none", "low", "medium","high") | required |   
+| assignee               | array <[AssigneeInfo](slingshot-api/generic-slingshot-resources.html#assignee-info-object)>  | |
 
 Possible responses:
 
@@ -241,14 +251,19 @@ Example of a successful response body:
         "name": "Emails"
     },
     "taskList": {
-        "id": "{123456}",
+        "id": "{123456}_tg",
         "name": "Project Tasks"
     },
     "taskSection": {
-        "id": "{123456}",
+        "id": "{123456}_tg",
         "name": null
     },
-    "subtasks": []
+    "subtasks": [
+        {
+            "id": "{123456}_tk",
+            "name": "Forum"
+        }
+    ]
 }
 ```
 
