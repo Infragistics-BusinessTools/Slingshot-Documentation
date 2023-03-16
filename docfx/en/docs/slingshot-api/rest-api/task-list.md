@@ -31,7 +31,12 @@ You can use tasks in order to better organize your work. For better visibility, 
                 "id": "{123456}_ws",
                 "name": "Customer support"
             },
-            "taskSections": []
+            "taskSections": [
+                {
+                    "id": "{123456}_tg",
+                    "name": "Q2"
+                }
+            ]
         },
         {
             "id": "{123456}_tg",

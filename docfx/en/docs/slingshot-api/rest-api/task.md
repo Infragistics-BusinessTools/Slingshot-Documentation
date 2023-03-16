@@ -37,7 +37,13 @@ You can use tasks in order to better organize your work. For better visibility, 
     "description": "Feedback",
     "status": "open",
     "priority": "none",
-    "assignees": [],
+    "assignees": [
+        {
+            "id": "{123456}_u",
+            "name": "Ver",
+            "email": "v@gmai.com"
+        }
+    ],
     "user": {
         "id": "{123456}_u",
         "name": "Ver"
@@ -177,7 +183,7 @@ Code | Description|
 
 <br/>
 
-## Update a task list
+## Update a task 
 
 <img src="../images/patch.png" alt="Patch request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/tasks/{id}***
 
@@ -233,7 +239,7 @@ Example of a successful response body:
         {
             "id": "{123456}_u",
             "name": "Vyara Yan",
-            "email": null
+            "email": "v@gmail.com"
         }
     ],
     "workspace": {
@@ -250,7 +256,7 @@ Example of a successful response body:
     },
     "taskSection": {
         "id": "{123456}_tg",
-        "name": null
+        "name": "Feedback"
     },
     "subtasks": [
         {
@@ -387,7 +393,13 @@ Example of a successful response body:
     "name": "Test test",
     "status": "open",
     "priority": "none",
-    "assignees": [],
+    "assignees": [
+        {
+            "id": "{123456}_u",
+            "name": "Ver",
+            "email": "v@gmai.com"
+        }
+    ],
     "user": {
         "id": "{123456}_u",
         "name": "Vyara Yan"

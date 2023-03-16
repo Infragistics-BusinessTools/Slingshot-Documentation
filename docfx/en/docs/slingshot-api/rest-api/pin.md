@@ -36,9 +36,6 @@ Pins are simple links to different types of resources that you can share or acce
 |Dashboard Section               |DashboardSection|
 |Dashboard|            Dashboard|
 
-
-
-
 <br/>
 
 ## Example:
@@ -87,9 +84,13 @@ When you request to create a pin, the request body will have the following conte
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
 | name               | string | min = 1, max = 100 |  
 | pinType |string enum ("document", "url") | |
-| documentId  |string| OneOf, GroupId = 1|  
-| documentType   |string enum  | OneOf, GroupId = 1| 
-| url |string | OneOf, GroupId = 2|
+| documentId  |string| oneOf, groupId = 1|  
+| documentType   |string enum  | oneOf, groupId = 1| 
+| url |string | oneOf, groupId = 2|
+
+If you decide to use a documentId in the request body, you also need to specify the documentType. Otherwise, you will get an error message. 
+
+If you decide to use a url of a component in the request body, you also need to specify the pinType in order to avoid errors.
 
 Possible responses:
 

@@ -34,7 +34,12 @@ Discussions can be created in projects and workspaces. You can organize discussi
         "name": "Customer Support"
     },
     "discussionsCount": 0,
-    "discussions": []
+    "discussions": [
+        {
+            "id": "{123456}",
+            "name": "Threads"
+        }
+    ]
 }
 ```
 
@@ -92,7 +97,12 @@ Example of a successful response body:
         "name": "Customer Support"
     },
     "discussionsCount": 0,
-    "discussions": []
+    "discussions": [
+        {
+            "id": "{123456}",
+            "name": "Threads"
+        }
+    ]
 }
 ```
 
@@ -178,7 +188,12 @@ Example of a successful response body:
         "name": "Q1"
     },
     "discussionsCount": 0,
-    "discussions": []
+    "discussions": [
+        {
+            "id": "{123456}",
+            "name": "Customer support"
+        }
+    ]
 }
 ```
 
