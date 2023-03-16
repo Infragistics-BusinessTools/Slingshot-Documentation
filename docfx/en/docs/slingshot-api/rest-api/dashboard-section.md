@@ -32,9 +32,14 @@ With dashboards you can display information with the help of beautiful visualiza
     },
     "dashboardList": {
         "id": "{123456}_repo",
-        "name": "Test"
+        "name": "Q2"
     },
-    "dashboards": []
+    "dashboards": [
+        {
+            "id": "{123456}",
+            "name": "Marketing"
+        }
+    ]
 }
 ```
 
@@ -90,7 +95,12 @@ Example of a successful response body:
         "id": "{123456}_repo",
         "name": "Marketing"
     },
-    "dashboards": []
+    "dashboards": [
+        {
+            "id": "{123456}",
+            "name": "Marketing"
+        }
+    ]
 }
 ```
 
@@ -173,7 +183,12 @@ Example of a successful response body:
         "id": "{123456}_repo",
         "name": "Marketing"
     },
-    "dashboards": []
+    "dashboards": [
+        {
+            "id": "{123456}",
+            "name": "HR"
+        }
+    ]
 }
 ```
 

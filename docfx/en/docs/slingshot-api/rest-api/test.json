@@ -1,0 +1,70 @@
+{
+    "id": "{123456}_ws",
+    "modified": "2023-02-10T14:29:09.0000000",
+    "created": "2023-02-10T14:13:59.0000000",
+    "name": "Customer Support",
+    "organization": {
+        "id": "{123456}_org",
+        "name": "Doe"
+    },
+    "members": [
+        {
+            "id": "{123456}_u",
+            "role": "owner",
+            "name": "Nick",
+            "email": "n@gmail.com"
+        },
+        {
+            "id": "{123456}_u",
+            "role": "owner",
+            "name": "Ver",
+            "email": "v@gmail.com"
+        }
+    ],
+    "requests": [
+        {
+            "id": "{123456}_u",
+            "name": "Tom",
+            "email": "t@gmail.com",
+            "role": "owner"
+        }
+    ],
+    "pendingInvites": [
+        {
+            "id": "{123456}_u",
+            "role": "owner",
+            "name": "Joan",
+            "email": "joan@gmail.com"
+        }
+    ],
+    "projects": [
+        {
+            "id": "{123456}_proj",
+            "name": "Feedback"
+        }
+    ],
+    "dashboardLists": [
+        {
+            "id": "{123456}_repo",
+            "name": "Q3"
+        }
+    ],
+    "pinLists": [
+        {
+            "id": "{123456}_ws_d",
+            "name": "Workspace Pins"
+        }
+    ],
+    "taskLists": [
+        {
+            "id": "{123456}_tg",
+            "name": "Workspace Tasks"
+        }
+    ],
+    "discussionLists": [
+        {
+            "id": "{123456}",
+            "name": "Workspace Discussions"
+        }
+    ]
+}

@@ -24,6 +24,7 @@ Note that users can have different roles and permissions in a workspace. [Here](
 |pinLists| object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)>| read-only|
 |taskLists| object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)>|read-only |
 | discussionLists           | object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)>| read-only |
+| dashboardLists      | <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | read-only |
 
 <br/>
 
@@ -70,6 +71,12 @@ Note that users can have different roles and permissions in a workspace. [Here](
         {
             "id": "{123456}_proj",
             "name": "Feedback"
+        }
+    ],
+    "dashboardLists": [
+        {
+            "id": "{123456}_repo",
+            "name": "Q3"
         }
     ],
     "pinLists": [
@@ -154,7 +161,7 @@ Example of a successful response body:
     "status": "none",
     "organization": {
         "id": "{123456}_org",
-        "name": null
+        "name": "Doe"
     },
     "members": [
         {
@@ -183,6 +190,12 @@ Example of a successful response body:
         {
             "id": "{123456}_proj",
             "name": "Feedback"
+        }
+    ],
+    "dashboardLists": [
+        {
+            "id": "{123456}_repo",
+            "name": "Q3"
         }
     ],
     "pinLists": [
@@ -333,6 +346,12 @@ Example of a successful response body:
             "name": "Feedback"
         }
     ],
+    "dashboardLists": [
+        {
+            "id": "{123456}_repo",
+            "name": "Q3"
+        }
+    ],
     "pinLists": [
         {
             "id": "{123456}_ws_d",
@@ -413,7 +432,7 @@ Example of a successful response body:
     "name": "Documentation",
     "organization": {
         "id": "{123456}_org",
-        "name": null
+        "name": "Doe"
     },
     "members": [
         {
@@ -449,6 +468,12 @@ Example of a successful response body:
         {
             "id": "{123456}_proj",
             "name": "Testing"
+        }
+    ],
+    "dashboardLists": [
+        {
+            "id": "{123456}_repo",
+            "name": "Q3"
         }
     ],
     "pinLists": [
@@ -561,6 +586,12 @@ Example of a successful response body:
             "name": "Feedack"
         }
     ],
+    "dashboardLists": [
+        {
+            "id": "{123456}_repo",
+            "name": "Q3"
+        }
+    ],
     "pinLists": [
         {
             "id": "{123456}_ws_d",
@@ -668,6 +699,12 @@ Example of a successful response body:
         {
             "id": "{123456}_proj",
             "name": "Feedback"
+        }
+    ],
+    "dashboardLists": [
+        {
+            "id": "{123456}_repo",
+            "name": "Q3"
         }
     ],
     "pinLists": [
@@ -789,6 +826,12 @@ Example of a successful response body:
             "name": "Feedback"
         }
     ],
+    "dashboardLists": [
+        {
+            "id": "{123456}_repo",
+            "name": "Q3"
+        }
+    ],
     "pinLists": [
         {
             "id": "{123456}_ws_d",
@@ -890,6 +933,12 @@ Example of a successful response body:
         {
             "id": "{123456}_proj",
             "name": "Feedback"
+        }
+    ],
+    "dashboardLists": [
+        {
+            "id": "{123456}_repo",
+            "name": "Q3"
         }
     ],
     "pinLists": [

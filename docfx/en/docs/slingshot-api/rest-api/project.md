@@ -23,6 +23,7 @@ Note that users can have different roles and permissions in a project. [Here](ht
 |pinLists| object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)>| read-only|
 |taskLists| object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)>|read-only |
 | discussionLists           | object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)>| read-only |
+| dashboardLists      | <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | read-only |
 
 <br/>
 
@@ -62,6 +63,12 @@ Note that users can have different roles and permissions in a project. [Here](ht
             "role": "owner",
             "name": "Joan Doe",
             "email": "joan@gmail.com"
+        }
+    ],
+    "dashboardLists": [
+        {
+            "id": "{123456}_repo",
+            "name": "Q2"
         }
     ],
     "pinLists": [
@@ -171,6 +178,12 @@ Example of a successful response body:
             "name": "John",
             "email": "jdoe@gmail.com",
             "role": "owner"
+        }
+    ],
+    "dashboardLists": [
+        {
+            "id": "{123456}_repo",
+            "name": "Q2"
         }
     ],
     "pinLists": [
@@ -305,6 +318,12 @@ Example of a successful response body:
             "role": "owner"
         }
     ],
+    "dashboardLists": [
+        {
+            "id": "{123456}_repo",
+            "name": "Q2"
+        }
+    ],
     "pinLists": [
         {
             "id": "{123456}_proj_d",
@@ -422,6 +441,12 @@ Example of a successful response body:
             "email": "joan@gmail.com"
         }
     ],
+    "dashboardLists": [
+        {
+            "id": "{123456}_repo",
+            "name": "Q2"
+        }
+    ],
     "pinLists": [
         {
             "id": "{123456}_proj_d",
@@ -533,6 +558,12 @@ Example of a successful response body:
             "email": "p@gmail.com"
         }
     ],
+    "dashboardLists": [
+        {
+            "id": "{123456}_repo",
+            "name": "Q2"
+        }
+    ],
     "pinLists": [
         {
             "id": "{123456}_proj_d",
@@ -540,7 +571,7 @@ Example of a successful response body:
         },
         {
             "id": "{123456}_b",
-            "name": "string"
+            "name": "Feedback"
         },
         {
             "id": "{123456}_b",
@@ -638,6 +669,12 @@ Example of a successful response body:
             "email": "joan@gmail.com"
         }
     ],
+    "dashboardLists": [
+        {
+            "id": "{123456}_repo",
+            "name": "Q2"
+        }
+    ],
     "pinLists": [
         {
             "id": "{123456}_proj_d",
@@ -701,68 +738,74 @@ Example of a successful response body:
 
 ```
 {
-    "id": "{123456}_proj",
-    "modified": "2023-02-10T14:33:28.0000000",
-    "created": "2023-02-10T14:14:26.0000000",
-    "name": "Feedback",
-    "workspace": {
-        "id": "{123456}_ws",
-        "name": "Customer Support"
-    },
-    "members": [
-        {
-            "id": "{123456}_u",
-            "role": "owner",
-            "name": "Nik Tachev",
-            "email": "n@gmail.com"
+        "id": "{123456}_proj",
+        "modified": "2023-02-10T14:33:28.0000000",
+        "created": "2023-02-10T14:14:26.0000000",
+        "name": "Feedback",
+        "workspace": {
+            "id": "{123456}_ws",
+            "name": "Customer Support"
         },
-        {
-            "id": "{123456}_u",
-            "role": "owner",
-            "name": "Ver",
-            "email": "v@gmail.com"
-        },
-        {
-            "id": "{123456}_u",
-            "role": "owner",
-            "name": "Ron",
-            "email": "r@gmail.com"
-        }
-    ],
-    "requests": [
-        {
-            "id": "{123456}_u",
-            "name": "Tim",
-            "email": "t@gmail.com",
-            "role": "owner"
-        }
-    ],
-    "pendingInvites": [
-        {
-            "id": "{123456}_u",
-            "role": "owner",
-            "name": "Joan Doe",
-            "email": "joan@gmail.com"
-        }
-    ],
-    "pinLists": [
-        {
-            "id": "{123456}_proj_d",
-            "name": "Project Pins"
-        }
-    ],
-    "taskLists": [
-        {
-            "id": "{123456}_tg",
-            "name": "Project Tasks"
-        }
-    ],
-    "discussionLists": [
-        {
-            "id": "{123456}",
-            "name": "Project Discussions"
-        }
-    ]
+        "members": [
+            {
+                "id": "{123456}_u",
+                "role": "owner",
+                "name": "Nik Tachev",
+                "email": "n@gmail.com"
+            },
+            {
+                "id": "{123456}_u",
+                "role": "owner",
+                "name": "Ver",
+                "email": "v@gmail.com"
+            },
+            {
+                "id": "{123456}_u",
+                "role": "owner",
+                "name": "Ron",
+                "email": "r@gmail.com"
+            }
+        ],
+        "requests": [
+            {
+                "id": "{123456}_u",
+                "name": "Tim",
+                "email": "t@gmail.com",
+                "role": "owner"
+            }
+        ],
+        "pendingInvites": [
+            {
+                "id": "{123456}_u",
+                "role": "owner",
+                "name": "Joan Doe",
+                "email": "joan@gmail.com"
+            }
+        ],
+        "dashboardLists": [
+            {
+                "id": "{123456}_repo",
+                "name": "Q2"
+            }
+        ],
+        "pinLists": [
+            {
+                "id": "{123456}_proj_d",
+                "name": "Project Pins"
+            }
+        ],
+        "taskLists": [
+            {
+                "id": "{123456}_tg",
+                "name": "Project Tasks"
+            }
+        ],
+        "discussionLists": [
+            {
+                "id": "{123456}",
+                "name": "Project Discussions"
+            }
+        ]
 }
 ```
 
@@ -838,6 +881,12 @@ Example of a successful response body:
             "role": "owner",
             "name": "Joan Doe",
             "email": "joan@gmail.com"
+        }
+    ],
+    "dashboardLists": [
+        {
+            "id": "{123456}_repo",
+            "name": "Q2"
         }
     ],
     "pinLists": [

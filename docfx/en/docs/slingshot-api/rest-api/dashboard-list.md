@@ -29,7 +29,12 @@ With dashboards you can display information with the help of beautiful visualiza
         "id": "{123456}_u ",
         "name": "Teddy Mitkova"
     },
-    "dashboardSections": []
+    "dashboardSections": [
+        {
+            "id": "{123456}_f",
+            "name": "June"
+        }
+    ]
 }
 ```
 
@@ -80,10 +85,15 @@ Example of a successful response body:
     "created": "2023-02-03T14:07:34.0000000",
     "name": "Marketing",
     "user": {
-        "id": "{123456}_u",
+        "id": "{123456}_u ",
         "name": "Teddy Mitkova"
     },
-    "dashboardSections": []
+    "dashboardSections": [
+        {
+            "id": "{123456}_f",
+            "name": "May"
+        }
+    ]
 }
 ```
 
