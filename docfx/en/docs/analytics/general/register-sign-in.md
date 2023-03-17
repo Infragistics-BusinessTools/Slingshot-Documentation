@@ -1,8 +1,8 @@
-# Logging into Analytics
+# Logging into Slingshot
 
 When you first install and open the application, you will be presented with the following screen:
 
-<img src="images/slingshot-log-in-screen.png" alt="Log in screen" class="responsive-img"/>
+<img src="images/slingshot-log-in-screen.png" alt="Log in screen" class="responsive-img" width="95%"/>
 
 In Slingshot, you can use your Office 365, Google or iCloud (*Apple*) account credentials to
 log in. You can also create an Infragistics user account. You'll only
