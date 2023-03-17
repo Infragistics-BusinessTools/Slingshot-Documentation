@@ -15,7 +15,7 @@ When you sign in for the first time in Slingshot with your **Office 365**
 account, you will be asked to give permissions to Slingshot to read your
 profile and maintain access to it.
 
-<img src="images/limited-permission-sign-in-o365.png" alt="Permissions request sign in with Office 365" class="responsive-img"/>
+<img src="images/limited-permission-sign-in-o365.png" alt="Permissions request sign in with Office 365" class="responsive-img" width="60%"/>
 
 If you use your **Google** account to sign in, you will only have to type in your account credentials.
 
