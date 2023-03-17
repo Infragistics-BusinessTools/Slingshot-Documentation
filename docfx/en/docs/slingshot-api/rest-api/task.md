@@ -67,7 +67,7 @@ You can use tasks in order to better organize your work. For better visibility, 
 
 <br/>
 
-## Create a Task
+## Create a task
 
 <img src="../images/post-request.png" alt="Post request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***htt<area>ps://my.slingshotapp<area>.io/v1/tasks***</span>
 
