@@ -14,7 +14,7 @@ With dashboards you can display information with the help of beautiful visualiza
 | user            | object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)>| read-only |
 | workspace            |object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> |read-only |  
 | project    |object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> |read-only | 
-| dashboardList             | object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | read-only |
+| dashboardList             | array <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | read-only |
 | dashboardSection   |object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)>|  read-only|
 
 <br/>

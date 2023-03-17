@@ -5,7 +5,7 @@ You can try it out with the steps mentioned below:
 
 1.	Head [here](https://my.slingshotapp.io/v1/api-browser/index.html) and click on the **Authorize** button that is in the right corner.
 
-2.	A dialog will open up, where you need to enter the value. The value is a combination of the word **[Bearer](https://swagger.io/docs/specification/authentication/bearer-authentication/)** and the **Slingshot’s API Key**. If you don’t have an API key, you can check [this](authentication.md) article in order to create one.
+2.	A dialog will open up, where you need to enter the value. The value is a combination of the word **[Bearer](https://swagger.io/docs/specification/authentication/bearer-authentication/)** and the **Slingshot API Key**. If you don’t have an API key, you can check [this](authentication.md) article in order to create one.
 
    <img src="images/available-authorizations-dialog.png" alt="Available authorizations dialog where the value can be entered" class="responsive-img" width="80%"/>
 
@@ -17,5 +17,5 @@ You can try it out with the steps mentioned below:
 
 6.	You will be provided with the Curl, the Request URL and the Response Body, and Response headers. You can also find examples of possible responses.
 
-7.	If needed, you can *Copy* the Curl text to your clipboard. You can also copy the Response body to a clipboard or download it.
+7.	If needed, you can *Copy* the Curl request to your clipboard. You can also copy the Response body to a clipboard or download it.
 

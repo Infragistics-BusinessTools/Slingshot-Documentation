@@ -21,10 +21,10 @@ Note that users can have different roles and permissions in a workspace. [Here](
 |requests| 	array <[MemberInfo](../generic-slingshot-resources#member-info-object)> | read-only|
 | pendingInvites           | array <[MemberInfo](..generic-slingshot-resources#member-info-object)> |  read-only|
 |projects| object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)>| read-only|
-|pinLists| object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)>| read-only|
-|taskLists| object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)>|read-only |
-| discussionLists           | object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)>| read-only |
-| dashboardLists      | <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | read-only |
+|pinLists| array <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)>| read-only|
+|taskLists| array <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)>|read-only |
+| discussionLists           | array <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)>| read-only |
+| dashboardLists      | array <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | read-only |
 
 <br/>
 
@@ -112,12 +112,12 @@ When you request to create a workspace, the request body will have the following
 
 |    Property  | Type            | Attributes           |
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| name               | string |  min = 1, max = 100 |
+| name               | string |  min = 1, max = 100, required |
 |description|string|min = 1, max = 144, nullable|
 |startDate|string <DateTime> | |
 |endDate|string <DateTime> | |
 |status| string enum ("none", "ontarget", "atrisk", "danger", "completed")| | 
-|members| 	array <[MemberInfo](..generic-slingshot-resources#member-info-object)> |required |
+|members| 	array <[MemberInfo](..generic-slingshot-resources#member-info-object)> | |
 
 Possible responses:
 
@@ -270,7 +270,7 @@ When you request to update a workspace, the request body will have the following
 |startDate|string <DateTime> | |
 |endDate|string <DateTime> | |
 |status| string enum ("none", "ontarget", "atrisk", "danger", "completed")| | 
-|members| 	array <[MemberInfo](..generic-slingshot-resources#member-info-object)> |required |
+
 
 Possible responses:
 
@@ -289,13 +289,6 @@ Example of a successful request body:
     "startDate": "2023-02-08T09:05:22.195Z",
     "endDate": "2023-02-08T09:05:22.195Z",
     "status": "none",
-    "members": [
-        {
-            "id": "{123456}_u",
-            "name": "Vyara",
-            "role": "owner"
-        }
-    ],
     "description": "2022"
 }
 ```
@@ -397,7 +390,7 @@ Possible responses:
 
 Required parameters: the **id** of the workspace
 
-Request body: [MemberInfo](..generic-slingshot-resources#member-info-object)
+Request body: ItemsObject <[MemberInfo](..generic-slingshot-resources#member-info-object)>
 
 Possible responses:
 
@@ -513,7 +506,7 @@ Example of a successful response body:
 
 Required parameters: the **id** of the workspace
 
-Request body: [MemberInfo](..generic-slingshot-resources#member-info-object)
+Request body: ItemsObject <[MemberInfo](..generic-slingshot-resources#member-info-object)>
 
 Possible responses:
 
@@ -633,7 +626,7 @@ Example of a successful response body:
 
 Required parameters: the **id** of the workspace
 
-Request body: [MemberInfo](..generic-slingshot-resources#member-info-object)
+Request body: ItemsObject <[MemberInfo](..generic-slingshot-resources#member-info-object)>
 
 Possible responses:
 
@@ -748,7 +741,7 @@ Example of a successful response body:
 
 Required parameters: the **id** of the workspace
 
-Request body: [MemberInfo](..generic-slingshot-resources#member-info-object)
+Request body: ItemsObject <[MemberInfo](..generic-slingshot-resources#member-info-object)>
 
 Possible responses:
 
@@ -863,7 +856,7 @@ Example of a successful response body:
 
 Required parameters: the **id** of the workspace
 
-Request body: [MemberInfo](..generic-slingshot-resources#member-info-object)
+Request body: ItemsObject <[MemberInfo](..generic-slingshot-resources#member-info-object)>
 
 Possible responses:
 

@@ -12,8 +12,8 @@ Pins are simple links to different types of resources that you can share or acce
 | name               | string | min = 1, max = 100 |  
 | pinType |string enum ("document", "url") |read-only |
 | documentId  |string| read-only|  
-| documentType   |string enum  |read-only | 
-| url |string | read-only|
+| documentType   |string enum(see below)  |read-only | 
+| url |string | |
 
 ### Document Types
 
@@ -22,7 +22,6 @@ Pins are simple links to different types of resources that you can share or acce
 | Workspace             | Workspace | 
 |Project                 |Project|
 |Organization           |Organization|
-|User|                  |User|
 |Task List               |TaskList|
 |Task Section|           |TaskSection|
 |Task                     |Task|
@@ -82,11 +81,11 @@ When you request to create a pin, the request body will have the following conte
 
 |    Property  | Type            | Attributes           |
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| name               | string | min = 1, max = 100 |  
-| pinType |string enum ("document", "url") | |
-| documentId  |string| oneOf, groupId = 1|  
-| documentType   |string enum  | oneOf, groupId = 1| 
-| url |string | oneOf, groupId = 2|
+| name               | string | min = 1, max = 100, required |  
+| pinType |string enum ("document", "url") |required |
+| documentId  |string|required, one-of, groupId = 1|  
+| documentType   |string enum  |required, one-of, groupId = 1| 
+| url |string | required, one-of, groupId = 2|
 
 If you decide to use a documentId in the request body, you also need to specify the documentType. Otherwise, you will get an error message. 
 
@@ -155,7 +154,7 @@ When you request to update a pin in a pin section, the request body will have th
 |    Property  | Type            | Attributes           |
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
 | name               | string | min = 1, max = 100 |   
-| url |string | required|
+| url |string | |
 
 Possible responses:
 

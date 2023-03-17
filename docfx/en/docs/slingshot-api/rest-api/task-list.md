@@ -13,7 +13,7 @@ You can use tasks in order to better organize your work. For better visibility, 
 | user             | object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | read-only| 
 | workspace            |object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | read-only|  
 | project    |object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | read-only| 
-| taskSection   |array <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)>  | read-only| 
+| taskSections   |array <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)>  | read-only| 
 
 <br/>
 
@@ -70,10 +70,10 @@ When you request to create a task, the request body will have the following cont
 
 |    Property  | Type            | Attributes           |
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| name               | string | min = 1, max = 100 |
-| user             |object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | oneOf| 
-| workspace            |object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | oneOf|  
-| project    |object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)>| oneOf|
+| name               | string | min = 1, max = 100, required |
+| user             |object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | required, one-of| 
+| workspace            |object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | required, one-of|  
+| project    |object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)>| required, one-of|
 
 Possible responses:
 
