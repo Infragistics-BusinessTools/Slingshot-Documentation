@@ -50,10 +50,10 @@ When you request to create a dashboard list, the request body will have the foll
 
 |    Property  | Type            | Attributes           |
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| name               | string | min = 1, max = 100 |  
+| name               | string | min = 1, max = 100, required |  
 | user   |[DocumentInfo](../generic-slingshot-resources.html#document-info-object) | read-only|
-| workspace            |[DocumentInfo](../generic-slingshot-resources.html#document-info-object)| read-only|  
- | project    |[DocumentInfo](../generic-slingshot-resources.html#document-info-object) | read-only| 
+| workspace            |[DocumentInfo](../generic-slingshot-resources.html#document-info-object)| |  
+ | project    |[DocumentInfo](../generic-slingshot-resources.html#document-info-object) | | 
 
 Possible responses:
 

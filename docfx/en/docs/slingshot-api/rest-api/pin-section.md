@@ -13,7 +13,7 @@ Pins are simple links to different types of resources that you can share or acce
 | user             | object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> |read-only | 
 | workspace            |object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | read-only|  
 | project    |object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)>| read-only| 
-| pinList   |object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)>|read-only | 
+| pinList   |array <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)>|read-only | 
 | pins   |array <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)>  |read-only | 
 
 <br/>
@@ -62,8 +62,8 @@ When you request to create a pin section, the request body will have the followi
 
 |    Property  | Type            | Attributes           |
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| name               | string | min = 1, max = 100 |  
-| pinList   |object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)>| required|
+| name               | string | min = 1, max = 100, required |  
+| pinList   |array <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)>| required|
 
 Possible responses:
 

@@ -13,13 +13,13 @@ You can use tasks in order to better organize your work. For better visibility, 
 | description              | string | nullable |  
 | startDate               | string <DateTime>  |  |  
 | dueDate               | string <DateTime>  |  |  
-| status              | string ("open", "progress", "review", "blocked", "completed") | read-only | 
-| priority             | string ("none", "low", "medium", "high") |read-only  |   
+| status              | string ("open", "progress", "review", "blocked", "completed") |  | 
+| priority             | string ("none", "low", "medium", "high") |  |   
 | assignee               | array <[AssigneeInfo](slingshot-api/generic-slingshot-resources.html#assignee-info-object)>  |read-only |
 | user               | object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | read-only |
 | workspace              | object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | read-only|
 | project             | object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | read-only |
-| taskList            | object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | read-only |
+| taskList            | array <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | read-only |
 | taskSection      | object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | read-only |
 | parentTask      | object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | read-only |
  | subtasks      | array <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | read-only |
@@ -77,13 +77,13 @@ When you request to create a task, the request body will have the following cont
 
 |    Property  | Type            | Attributes           |
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| name               | string |  min = 1, max = 100 |
+| name               | string |  min = 1, max = 100, required |
 | startDate              | string | |
 | dueDate               | string | |
 | status             | string enum ("open", "progress", "review", "blocked", "completed")|required |  
 | priority            | string enum ("none", "low", "medium", "high") |required |  
-| taskSection   |object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)>  |oneOf | 
-| parentTask   |object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> |oneOf | 
+| taskSection   |object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)>  |required, one-of | 
+| parentTask   |object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> |required, one-of | 
 
 >[!NOTE]  To create a task, you need to provide the **id** and **name** of the parent task section under the **taskSection** property. Alternatively, if you want to create a subtask, you need to first provide the **id** and **name** of the parent task under the **parentTask** property. Only one can be provided as both taskSection and parentTask properties being present in the request will result in an error.
 
@@ -194,11 +194,11 @@ When you request to update a task, the request body will have the following cont
 |    Property  | Type            | Attributes           |
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |  
 | name               | string |min = 1, max = 200|  
-| description              | string | Nullable |  
+| description              | string | nullable |  
 | startDate               | string <DateTime>  |  |  
 | dueDate               | string <DateTime>  |  |  
-| status              | string ("open", "progress", "review", "blocked", "completed") | required | 
-| priority             | string ("none", "low", "medium","high") | required |   
+| status              | string ("open", "progress", "review", "blocked", "completed") |  | 
+| priority             | string ("none", "low", "medium","high") |  |   
 
 Possible responses:
 
@@ -291,7 +291,7 @@ Possible responses:
 
 Required parameters: the **id** of that specific task
 
-Request body: [AssigneeInfo](slingshot-api/generic-slingshot-resources.html#assignee-info-object)
+Request body: ItemsObject <[AssigneeInfo](slingshot-api/generic-slingshot-resources.html#assignee-info-object)>
 
 Possible responses:
 
@@ -359,7 +359,7 @@ Example of a successful response body:
 
 Required parameters: the **id** of the task
 
-Request body: [AssigneeInfo](slingshot-api/generic-slingshot-resources.html#assignee-info-object)
+Request body: ItemsObject <[AssigneeInfo](slingshot-api/generic-slingshot-resources.html#assignee-info-object)>
 
 Possible responses:
 

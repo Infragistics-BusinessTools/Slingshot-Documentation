@@ -9,15 +9,15 @@ In the object hierarchy, the *users* objects represent accounts in Slingshot. Ev
 | id               | string | read-only |    
 | modified              | string | read-only |  
 | created             | string | read-only | 
-|email| string| |
+|email| string|read-only |
 | name               | string |min = 1, max = 200| 
 |locale|string|read-only |
-|organizations|array<[DocumentInfo](../generic-slingshot-resources.html#document-info-object)>|read-only|
-| workspaces             | array<[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | read-only|
-| projects             | array<[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | read-only |
-| pinLists           | array<[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | read-only |
-| taskLists      | array<[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | read-only |
-| dashboardLists      | <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | read-only |
+|organizations|array <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)>|read-only|
+| workspaces             | array <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | read-only|
+| projects             | array <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | read-only |
+| pinLists           | array <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | read-only |
+| taskLists      | array <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | read-only |
+| dashboardLists      |array <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | read-only |
 
 <br/>
 
@@ -75,6 +75,8 @@ In the object hierarchy, the *users* objects represent accounts in Slingshot. Ev
     ]
 }
 ```
+
+<br/>
 
 ## Get current user document
 

@@ -13,7 +13,7 @@ You can use tasks in order to better organize your work. For better visibility, 
 | user             | object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> |read-only | 
 | workspace            |object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> |read-only |  
 | project    |object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | read-only| 
-|tasklist|object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)>|read-only|
+|taskList|array <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)>|read-only|
 | tasks  |array <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)>  | read-only| 
 
 <br/>
@@ -55,8 +55,8 @@ When you request to create a tasks section, the request body will have the follo
 
 |    Property  | Type            | Attributes           |
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| name               | string |  min = 1, max = 100 |
-|taskList|object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)>| required|
+| name               | string |  min = 1, max = 100, required |
+|taskList|array <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)>| required|
 
 Possible responses:
 

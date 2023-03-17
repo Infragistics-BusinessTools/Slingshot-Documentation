@@ -13,8 +13,8 @@ Discussions can be created in projects and workspaces. As they are specific to w
 | name               | string |  min = 1, max = 100 |  
 | workspace            |object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)>| read-only|  
 | project    |object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)>| read-only| 
-| discussionList             | object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | read-only |
-| lastMessage   |[ChatMessageInfo](../generic-slingshot-resources.html#chat-message-info-object ) | read-only|
+| discussionList             | array <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | read-only |
+| lastMessage   | object <[ChatMessageInfo](../generic-slingshot-resources.html#chat-message-info-object)> | read-only|
 
 <br/>
 
@@ -55,8 +55,8 @@ When you request to create a discussion, the request body will have the followin
 
 |    Property  | Type            | Attributes           |
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| name               | string | min = 1, max = 100 |  
-| discussionList         |object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> |required |  
+| name               | string | min = 1, max = 100, required |  
+| discussionList         |array <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> |required |  
 
  Possible responses:
 
@@ -152,6 +152,37 @@ Possible responses:
 
 <br/>
 
+## Send a discussion message
+
+<img src="../images/post-send-discussion-message.png" alt="Send discussion message" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/discussions/{id}/send***
+
+Required parameters: the **id** of the discussion
+
+When you request to send a discussion message, the request body will have the following content: 
+
+|    Property  | Type            | Attributes           |
+-------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
+| text              | string |  |
+
+Possible responses:
+
+| Code | Description|
+-------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
+| 204 (No Content) |The message is sent. |
+| 400 (Bad Request) |The request was not processed because of missing or malformed parameter(s). Check the error array in the response to get an idea of what went wrong. |
+| 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication. |
+| 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
+
+Example of a successful request body:
+
+```
+{
+    "text": "I will schedule a meeting for tomorrrow."
+}
+```
+
+<br/>
+
 ## Update a discussion
 
 <img src="../images/patch.png" alt="Patch request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/discussions/{id}***
@@ -221,34 +252,3 @@ Possible responses:
 | 204 (No Content) |The discussion is deleted. |
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication. |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
-
-<br/>
-
-## Send a discussion message
-
-<img src="../images/post-send-discussion-message.png" alt="Send discussion message" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/discussions/{id}/send***
-
-Required parameters: the **id** of the discussion
-
-When you request to send a discussion message, the request body will have the following content: 
-
-|    Property  | Type            | Attributes           |
--------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| text              | string |  |
-
-Possible responses:
-
-| Code | Description|
--------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| 204 (No Content) |The message is sent. |
-| 400 (Bad Request) |The request was not processed because of missing or malformed parameter(s). Check the error array in the response to get an idea of what went wrong. |
-| 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication. |
-| 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
-
-Example of a successful request body:
-
-```
-{
-    "text": "I will schedule a meeting for tomorrrow."
-}
-```

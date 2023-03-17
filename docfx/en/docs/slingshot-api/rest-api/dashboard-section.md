@@ -13,7 +13,7 @@ With dashboards you can display information with the help of beautiful visualiza
 | user            | object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | read-only|
 | workspace            |object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> |read-only |  
 | project    |object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)>| read-only| 
-| dashboardList             | object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | read-only |
+| dashboardList             | array <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | read-only |
 | dashboards   |array <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | read-only |
 
 <br/>
@@ -55,8 +55,8 @@ When you request to create a dashboard section, the request body will have the f
 
 |    Property  | Type            | Attributes           |
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| name               | string | min = 1, max = 100 | 
-| dashboardList             | object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | required |
+| name               | string | min = 1, max = 100, required | 
+| dashboardList             | array <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | required |
 
 Possible responses:
 

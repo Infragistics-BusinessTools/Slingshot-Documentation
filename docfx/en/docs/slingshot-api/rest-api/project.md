@@ -20,10 +20,10 @@ Note that users can have different roles and permissions in a project. [Here](ht
 |members| 	array <[MemberInfo](../generic-slingshot-resources#member-info-object)> |read-only |
 |requests| 	array <[MemberInfo](../generic-slingshot-resources#member-info-object)> |read-only |
 | pendingInvites           | array <[MemberInfo](..generic-slingshot-resources#member-info-object)> | read-only |
-|pinLists| object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)>| read-only|
-|taskLists| object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)>|read-only |
-| discussionLists           | object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)>| read-only |
-| dashboardLists      | <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | read-only |
+|pinLists| array <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)>| read-only|
+|taskLists| array <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)>|read-only |
+| discussionLists           | array <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)>| read-only |
+| dashboardLists      | array <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | read-only |
 
 <br/>
 
@@ -104,13 +104,13 @@ When you request to create a project, the request body will have the following c
 
 |    Property  | Type            | Attributes           |
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| name               | string |  min = 1, max = 100 |
+| name               | string |  min = 1, max = 100, required |
 |description|string| min = 1, max = 144, nullable|
 |startDate|string <DateTime> | |
 |endDate|string <DateTime> | |
 |status| string enum ("none", "ontarget", "atrisk", "danger", "completed")| | 
 | workspace            |object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> |required | 
-|members| 	array <[MemberInfo](..generic-slingshot-resources#member-info-object)> |required |
+|members| 	array <[MemberInfo](..generic-slingshot-resources#member-info-object)> ||
 
 Possible responses:
 
@@ -371,7 +371,7 @@ Required parameters: the **id** of the project
 
 When you request to add members to a project, the request body will have the following content: 
 
-Request body: [MemberInfo](..generic-slingshot-resources#member-info-object)
+Request body: ItemsObject <[MemberInfo](..generic-slingshot-resources#member-info-object)>
 
 Possible responses:
 
@@ -488,7 +488,7 @@ Example of a successful response body:
 
 Required parameters: the **id** of the project
 
-Request body: [MemberInfo](..generic-slingshot-resources#member-info-object)
+Request body: ItemsObject <[MemberInfo](..generic-slingshot-resources#member-info-object)>
 
 Possible responses:
 
@@ -605,7 +605,7 @@ Example of a successful response body:
 
 Required parameters: the **id** of the project
 
-Request body: [MemberInfo](..generic-slingshot-resources#member-info-object)
+Request body: ItemsObject <[MemberInfo](..generic-slingshot-resources#member-info-object)>
 
 Possible responses:
 
@@ -712,7 +712,7 @@ Example of a successful response body:
 
 Required parameters: the **id** of the project
 
-Request body: [MemberInfo](..generic-slingshot-resources#member-info-object)
+Request body: ItemsObject <[MemberInfo](..generic-slingshot-resources#member-info-object)>
 
 | Code | Description|
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
@@ -819,7 +819,7 @@ Example of a successful response body:
 
 Required parameters: the **id** of the project
 
-Request body: [MemberInfo](..generic-slingshot-resources#member-info-object)
+Request body: ItemsObject <[MemberInfo](..generic-slingshot-resources#member-info-object)>
 
 | Code | Description|
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
