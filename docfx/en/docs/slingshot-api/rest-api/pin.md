@@ -23,17 +23,17 @@ Pins are simple links to different types of resources that you can share or acce
 |Project                 |Project|
 |Organization           |Organization|
 |Task List               |TaskList|
-|Task Section|           |TaskSection|
+|Task Section           |TaskSection|
 |Task                     |Task|
 |Pin List                |PinList|
-|Pin Section|            PinSection|
-|Pin|                     Pin|
-|Discussion List|                  |DiscussionList|
+|Pin Section             | PinSection|
+|Pin                     |Pin|
+|Discussion List         |DiscussionList|
 |Discussion              |Discussion|
-|Private Chat|           |PrivateChat|
-|Dashboard List                    |DashboardList|
-|Dashboard Section               |DashboardSection|
-|Dashboard|            Dashboard|
+|Private Chat           |PrivateChat|
+|Dashboard List          |DashboardList|
+|Dashboard Section       |DashboardSection|
+|Dashboard               |Dashboard|
 
 <br/>
 

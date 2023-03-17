@@ -107,7 +107,7 @@ Example of a successful response body:
 
 <br/>
 
-## Get a Pin List
+## Get a pin list
 
 <img src="../images/get.png" alt="Get request" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/pinlists/{id}***
 

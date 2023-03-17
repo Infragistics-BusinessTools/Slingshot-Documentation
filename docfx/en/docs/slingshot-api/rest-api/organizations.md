@@ -2,8 +2,6 @@
 
 Organization is a workspace, where you and your colleagues can find information, uploaded by your company/workplace.
 
-<br/>
-
 ## Get all organizations for a current user 
 
 <img src="../images/get-all.png" alt="Get all request" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> <span class="italic">***htt<area>ps://my.slingshotapp<area>.io/v1/organizations***</span>

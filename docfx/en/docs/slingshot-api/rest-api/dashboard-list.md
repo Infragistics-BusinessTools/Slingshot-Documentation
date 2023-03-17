@@ -115,7 +115,7 @@ Possible responses:
 
 <br/>
 
-## Get all Dashboard Lists for a parent document
+## Get all dashboard lists for a parent document
 
 <img src="../images/get-all.png" alt="Get all request" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/dashboardlists/parent/{id}***
 

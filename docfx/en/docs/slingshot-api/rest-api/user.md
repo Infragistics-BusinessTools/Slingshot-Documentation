@@ -21,7 +21,7 @@ In the object hierarchy, the *users* objects represent accounts in Slingshot. Ev
 
 <br/>
 
-## Example
+## Example:
 
 ```
 {
