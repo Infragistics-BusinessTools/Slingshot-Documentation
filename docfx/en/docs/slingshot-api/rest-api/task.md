@@ -84,7 +84,7 @@ When you request to create a task, the request body will have the following cont
 | priority            | string enum ("none", "low", "medium", "high") |required |  
 | taskSection   |object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)>  |required, one-of | 
 | parentTask   |object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> |required, one-of | 
-|members| 	array <[MemberInfo](..generic-slingshot-resources#member-info-object)> | |
+| assignees               | array <[AssigneeInfo](slingshot-api/generic-slingshot-resources.html#assignee-info-object)>  ||
 
 >[!NOTE]  To create a task, you need to provide the **id** and **name** of the parent task section under the **taskSection** property. Alternatively, if you want to create a subtask, you need to first provide the **id** and **name** of the parent task under the **parentTask** property. Only one can be provided as both taskSection and parentTask properties being present in the request will result in an error.
 
