@@ -112,7 +112,7 @@ When you request to create a workspace, the request body will have the following
 
 |    Property  | Type            | Attributes           |
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| name               | string |  min = 1, max = 100, required |
+| name               | string | required, min = 1, max = 100 |
 |description|string|min = 1, max = 144, nullable|
 |startDate|string <DateTime> | |
 |endDate|string <DateTime> | |

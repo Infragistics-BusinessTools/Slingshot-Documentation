@@ -55,7 +55,7 @@ When you request to create a discussion list, the request body will have the fol
 
 |    Property  | Type            | Attributes           |
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| name               | string | min = 1, max = 100, required |  
+| name               | string | required, min = 1, max = 100 |  
 | workspace            |object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)>| required, one-of|  
  | project    |object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | required, one-of| 
 

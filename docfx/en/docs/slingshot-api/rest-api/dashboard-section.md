@@ -55,7 +55,7 @@ When you request to create a dashboard section, the request body will have the f
 
 |    Property  | Type            | Attributes           |
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| name               | string | min = 1, max = 100, required | 
+| name               | string | required, min = 1, max = 100 | 
 | dashboardList             | object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | required |
 
 Possible responses:
