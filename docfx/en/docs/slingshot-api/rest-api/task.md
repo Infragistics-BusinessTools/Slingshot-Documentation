@@ -22,7 +22,7 @@ You can use tasks in order to better organize your work. For better visibility, 
 | taskList            | object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | read-only |
 | taskSection      | object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | read-only |
 | parentTask      | object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | read-only |
- | subtasks      | array <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | read-only |
+| subtasks      | array <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | read-only |
 
  <br/>
 
