@@ -13,7 +13,7 @@ Discussions can be created in projects and workspaces. As they are specific to w
 | name               | string |  min = 1, max = 100 |  
 | workspace            |object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)>| read-only|  
 | project    |object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)>| read-only| 
-| discussionList             | array <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | read-only |
+| discussionList             | object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | read-only |
 | lastMessage   | object <[ChatMessageInfo](../generic-slingshot-resources.html#chat-message-info-object)> | read-only|
 
 <br/>
@@ -56,7 +56,7 @@ When you request to create a discussion, the request body will have the followin
 |    Property  | Type            | Attributes           |
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
 | name               | string | min = 1, max = 100, required |  
-| discussionList         |array <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> |required |  
+| discussionList         |object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> |required |  
 
  Possible responses:
 
