@@ -20,7 +20,7 @@ Note that users can have different roles and permissions in a workspace. [Here](
 |members| 	array <[MemberInfo](../generic-slingshot-resources#member-info-object)> | read-only|
 |requests| 	array <[MemberInfo](../generic-slingshot-resources#member-info-object)> | read-only|
 | pendingInvites           | array <[MemberInfo](..generic-slingshot-resources#member-info-object)> |  read-only|
-|projects| object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)>| read-only|
+|projects| array <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)>| read-only|
 |pinLists| array <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)>| read-only|
 |taskLists| array <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)>|read-only |
 | discussionLists           | array <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)>| read-only |
@@ -390,7 +390,7 @@ Possible responses:
 
 Required parameters: the **id** of the workspace
 
-Request body: ItemsObject <[MemberInfo](..generic-slingshot-resources#member-info-object)>
+Request body: [ItemsObject](../generic-slingshot-resources.html#item-object) <[MemberInfo](..generic-slingshot-resources#member-info-object)>
 
 Possible responses:
 
@@ -506,7 +506,7 @@ Example of a successful response body:
 
 Required parameters: the **id** of the workspace
 
-Request body: ItemsObject <[MemberInfo](..generic-slingshot-resources#member-info-object)>
+Request body: [ItemsObject](../generic-slingshot-resources.html#item-object) <[MemberInfo](..generic-slingshot-resources#member-info-object)>
 
 Possible responses:
 
@@ -626,7 +626,7 @@ Example of a successful response body:
 
 Required parameters: the **id** of the workspace
 
-Request body: ItemsObject <[MemberInfo](..generic-slingshot-resources#member-info-object)>
+Request body: [ItemsObject](../generic-slingshot-resources.html#item-object) <[MemberInfo](..generic-slingshot-resources#member-info-object)>
 
 Possible responses:
 
@@ -741,7 +741,7 @@ Example of a successful response body:
 
 Required parameters: the **id** of the workspace
 
-Request body: ItemsObject <[MemberInfo](..generic-slingshot-resources#member-info-object)>
+Request body: [ItemsObject](../generic-slingshot-resources.html#item-object) <[MemberInfo](..generic-slingshot-resources#member-info-object)>
 
 Possible responses:
 
@@ -856,7 +856,7 @@ Example of a successful response body:
 
 Required parameters: the **id** of the workspace
 
-Request body: ItemsObject <[MemberInfo](..generic-slingshot-resources#member-info-object)>
+Request body: [ItemsObject](../generic-slingshot-resources.html#item-object) <[MemberInfo](..generic-slingshot-resources#member-info-object)>
 
 Possible responses:
 

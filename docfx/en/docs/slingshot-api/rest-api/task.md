@@ -15,11 +15,11 @@ You can use tasks in order to better organize your work. For better visibility, 
 | dueDate               | string <DateTime>  |  |  
 | status              | string ("open", "progress", "review", "blocked", "completed") |  | 
 | priority             | string ("none", "low", "medium", "high") |  |   
-| assignee               | array <[AssigneeInfo](slingshot-api/generic-slingshot-resources.html#assignee-info-object)>  |read-only |
+| assignee               | object <[AssigneeInfo](slingshot-api/generic-slingshot-resources.html#assignee-info-object)>  |read-only |
 | user               | object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | read-only |
 | workspace              | object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | read-only|
 | project             | object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | read-only |
-| taskList            | array <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | read-only |
+| taskList            | object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | read-only |
 | taskSection      | object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | read-only |
 | parentTask      | object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | read-only |
  | subtasks      | array <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | read-only |
@@ -291,7 +291,7 @@ Possible responses:
 
 Required parameters: the **id** of that specific task
 
-Request body: ItemsObject <[AssigneeInfo](slingshot-api/generic-slingshot-resources.html#assignee-info-object)>
+Request body: [ItemsObject](../generic-slingshot-resources.html#item-object) <[AssigneeInfo](slingshot-api/generic-slingshot-resources.html#assignee-info-object)>
 
 Possible responses:
 
@@ -359,7 +359,7 @@ Example of a successful response body:
 
 Required parameters: the **id** of the task
 
-Request body: ItemsObject <[AssigneeInfo](slingshot-api/generic-slingshot-resources.html#assignee-info-object)>
+Request body: [ItemsObject](../generic-slingshot-resources.html#item-object) <[AssigneeInfo](slingshot-api/generic-slingshot-resources.html#assignee-info-object)>
 
 Possible responses:
 

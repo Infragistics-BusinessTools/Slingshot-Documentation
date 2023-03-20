@@ -51,9 +51,9 @@ When you request to create a dashboard list, the request body will have the foll
 |    Property  | Type            | Attributes           |
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
 | name               | string | min = 1, max = 100, required |  
-| user   |[DocumentInfo](../generic-slingshot-resources.html#document-info-object) | read-only|
-| workspace            |[DocumentInfo](../generic-slingshot-resources.html#document-info-object)| |  
- | project    |[DocumentInfo](../generic-slingshot-resources.html#document-info-object) | | 
+| user   | object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | required, one-of|
+| workspace            | object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)>| required, one-of|  
+ | project    | object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> |required, one-of | 
 
 Possible responses:
 
