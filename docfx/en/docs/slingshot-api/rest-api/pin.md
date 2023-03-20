@@ -81,7 +81,7 @@ When you request to create a pin, the request body will have the following conte
 
 |    Property  | Type            | Attributes           |
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| name               | string | min = 1, max = 100, required |  
+| name               | string | required, min = 1, max = 100 |  
 | pinType |string enum ("document", "url") |required |
 | documentId  |string|required, one-of, groupId = 1|  
 | documentType   |string enum  |required, one-of, groupId = 1| 

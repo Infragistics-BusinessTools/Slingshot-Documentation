@@ -55,7 +55,7 @@ When you request to create a discussion, the request body will have the followin
 
 |    Property  | Type            | Attributes           |
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| name               | string | min = 1, max = 100, required |  
+| name               | string | required, min = 1, max = 100 |  
 | discussionList         |object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> |required |  
 
  Possible responses:

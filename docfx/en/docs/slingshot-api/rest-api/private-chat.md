@@ -57,7 +57,7 @@ When you request to create a private chat, the request body will have the follow
 
 |    Property  | Type            | Attributes           |
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| name               | string | min = 1, max = 100, required |
+| name               | string | required, min = 1, max = 100 |
 | members         | array <[MemberInfo](..generic-slingshot-resources#member-info-object)>|required | 
 
 Possible responses:
