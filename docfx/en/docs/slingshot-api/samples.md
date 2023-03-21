@@ -2,7 +2,7 @@
 
 If you want to see how the Slingshot's API can be used in our data-driven world, you can find our public samples [here] (https://github.com/Infragistics/Slingshot/tree/main/Samples/). 
 
-Alternatively, if you want to manually try out the API, you can do that by using our [API Explorer](api-explorer.md). 
+Altenatively, if you want to manually try out the API, you can do that by using our [API Explorer](api-explorer.md). 
 
 ### Slingshot Outlook Add-in (React) 
 
