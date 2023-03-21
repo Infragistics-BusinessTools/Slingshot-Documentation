@@ -15,7 +15,7 @@ You can try it out with the steps mentioned below:
 
 5.	Depending on your request, you might need to add a parameter. Otherwise, you won’t be able to submit it. When you are ready, click on **Execute**.
 
-6.	You will be provided with the Curl, the Request URL and the Response Body, and Response headers. You can also find examples of possible responses.
+6.	You will be provided with the curl request, the request URL and the response body, and response headers. You can also find examples of possible responses.
 
-7.	If needed, you can *Copy* the Curl request to your clipboard. You can also copy the Response body to a clipboard or download it.
+7.	If needed, you can *Copy* the curl request to your clipboard. You can also copy the response body to a clipboard or download it.
 
