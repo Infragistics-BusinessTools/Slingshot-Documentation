@@ -92,8 +92,8 @@
   href: slingshot-api/api-explorer.md
 - name: Authentication
   href: slingshot-api/authentication.md
-- name: Explore the Object Hierarchy
-  href: slingshot-api/explore-object-hierarchy.md
+- name: Explore the Object Molde
+  href: slingshot-api/explore-object-model.md
 - name: Generic Slingshot Resources
   href: slingshot-api/generic-slingshot-resources.md
 - name: Rate Limits

@@ -1,13 +1,11 @@
-# Explore the Object Hierarchy 
+# Explore the Object Model
 
-In our data-driven world being fast, organized, and being able to communicate with others in an efficient way, is of utmost importance. 
-
-With Slingshot you can not only organize your work with the help of different dashboards, workspaces, projects tasks, pins and bookmarks, but you can also communicate with your team members via chats and discussions. 
+With Slingshot, you can organize your work with the help of different dashboards, workspaces, projects tasks, pins and bookmarks. Besides this, you can also communicate with your team members via chats and discussions. 
 
 To find out more about how Slingshot works, you can take a look below.
 
 ### Users
-In the object hierarchy, the *users* objects represent accounts in Slingshot. Every user can find their own information, such as credentials, profile information, settings and content in their account. 
+In the object model, the *users* objects represent accounts in Slingshot. Every user can find their own information, such as credentials, profile information, settings and content in their account. 
 
 - [User](./rest-api/user.md)
 
