@@ -1,6 +1,6 @@
 # User
 
-In the object hierarchy, the *users* objects represent accounts in Slingshot. Every user can find their own information, such as credentials, profile information, settings and content, in their account. 
+In the object model, the *users* objects represent accounts in Slingshot. Every user can find their own information, such as credentials, profile information, settings and content, in their account. 
 
 ## Schema:
 

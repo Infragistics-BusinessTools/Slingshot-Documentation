@@ -17,5 +17,5 @@ You can try it out with the steps mentioned below:
 
 6.	You will be provided with the curl request, the request URL and the response body, and response headers. You can also find examples of possible responses.
 
-7.	If needed, you can *Copy* the curl request to your clipboard. You can also copy the response body to a clipboard or download it.
+7.	If needed, you can *Copy* the curl request to your clipboard. You can also *Copy* the response body to a clipboard or download it.
 
