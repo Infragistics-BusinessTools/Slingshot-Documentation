@@ -5,7 +5,7 @@ _description: Steps to configuring Microsoft SQL Server and using it to your adv
 
 # Microsoft SQL Server
 
->[!NOTE] **Limitations in Web**. In the *Analytics Web* app, you can connect only to publicly accessible Microsoft SQL addresses. If your MS SQL address is restricted for the general public (private or hosted in the company's intranet, for example), you can use *Analytics Desktop*, *iOS* or *Android* to connect to it. The device where you're running Analytics needs to have access to the SQL Server address. This limitation does not apply to *Analytics Embedded*.
+>[!NOTE] **Limitations in Web**. In the *Slingshot Web* app, you can connect only to publicly accessible Microsoft SQL addresses. If your MS SQL address is restricted for the general public (private or hosted in the company's intranet, for example), you can use *Slingshot Desktop*, *iOS* or *Android* to connect to it. The device, where you're running Slingshot on, needs to have access to the SQL Server address. This limitation does not apply to *Slingshot Embedded*.
 
 ## Connecting to MS SQL Server 
 
