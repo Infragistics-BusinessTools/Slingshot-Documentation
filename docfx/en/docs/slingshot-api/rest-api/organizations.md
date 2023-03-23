@@ -11,7 +11,7 @@ Organization is a workspace, where you and your colleagues can find information,
 | id              | string | read-only |
 | modified             | string |read-only  |
 | created             | string |  read-only|
-| name               | string | min = 1, max = 100 |
+| name               | string | read-only |
 | members            | array <[MemberInfo](../generic-slingshot-resources#member-info-object)> | read-only |
 | workspaces            |array <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | read-only|  
 | projects    |array <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | read-only| 
