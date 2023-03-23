@@ -8,7 +8,7 @@ Keep in mind that the requests and responses support only one type of character 
 
 To start using the API, you need to first authenticate yourself. [Here](authentication.md) you can find more information about the process of authentication. 
 
->[!NOTE] Below, you can find the general Object model of Slingshot. 
+>[!NOTE] Below, you can find the general object model of Slingshot. 
 
 <p align="center">
 <img src="images/hierarchy-structure.png" alt="General hierarchy structure sample" class="response-img" width="28%">
