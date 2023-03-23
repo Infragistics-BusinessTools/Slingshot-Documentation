@@ -2,6 +2,25 @@
 
 Organization is a workspace, where you and your colleagues can find information, uploaded by your company/workplace.
 
+
+
+## Schema:
+
+|    Property  | Type            | Attributes           |
+-------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
+| id              | string | read-only |
+| modified             | string |read-only  |
+| created             | string |  read-only|
+| name               | string | min = 1, max = 100 |
+| members            | array <[MemberInfo](../generic-slingshot-resources#member-info-object)> | read-only |
+| workspaces            |array <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | read-only|  
+| projects    |array <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | read-only| 
+| pinLists   |array <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)>  | read-only|
+| discussionLists  |array <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)>  | read-only|
+| dashboardLists   |array <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)>  | read-only|
+
+<br/>
+
 ## Get all organizations for a current user 
 
 <img src="../images/get-all.png" alt="Get all request" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> <span class="italic">***htt<area>ps://my.slingshotapp<area>.io/v1/organizations***</span>
