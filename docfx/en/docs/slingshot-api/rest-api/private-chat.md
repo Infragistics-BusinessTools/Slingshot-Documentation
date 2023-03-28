@@ -84,9 +84,11 @@ Example of a successful request body:
 }
 ```
 
-Example of a successful response body: 
+<br/>
 
-```
+<div class="fancy-details">
+    <summary><b>Example of a successful response body:</b></summary>
+    <code>
 {
     "id": "{123456}_pchat",
     "modified": "2023-02-09T15:26:48.0000000",
@@ -101,7 +103,8 @@ Example of a successful response body:
         }
     ]
 }
-```
+    </code>
+</div>
 
 <br/>
 
@@ -166,9 +169,11 @@ Example of a successful request body:
 }
 ```
 
-Example of a successful response body:
+<br/>
 
-```
+<div class="fancy-details">
+    <summary><b>Example of a successful response body:</b></summary>
+    <code>
 {
     "id": "{123456}_pchat",
     "modified": "2023-02-20T07:53:06.0000000",
@@ -193,7 +198,8 @@ Example of a successful response body:
         "text": "I will double-check."
     }
 }
-```
+    </code>
+</div>
 
 <br/>
 
@@ -269,9 +275,11 @@ Example of a successful request body:
 }
 ```
 
-Example of a successful response body:
+<br/>
 
-```
+<div class="fancy-details">
+    <summary><b>Example of a successful response body:</b></summary>
+    <code>
 {
     "id": "{123456}_pchat",
     "modified": "2023-02-10T09:09:23.0000000",
@@ -296,7 +304,10 @@ Example of a successful response body:
         "text": "Okay, I will check it again."
     }
 }
-```
+    </code>
+</div>
+
+<br/>
 
 >[!NOTE] You can assign a member only an owner role.
 
@@ -333,9 +344,11 @@ Example of a successful request body:
 }
 ```
 
-Example of a successful response body:
+<br/>
 
-```
+<div class="fancy-details">
+    <summary><b>Example of a successful response body:</b></summary>
+    <code>
 {
     "id": "{123456}_pchat",
     "modified": "2023-02-10T09:41:56.0000000",
@@ -355,4 +368,5 @@ Example of a successful response body:
         "text": "LeftGroupChat"
     }
 }
-```
+    </code>
+</div>

@@ -142,9 +142,11 @@ Example of a successful request body:
 }
 ```
 
-Example of a successful response body: 
+<br/>
 
-```
+<div class="fancy-details">
+    <summary><b>Example of a successful response body:</b></summary>
+    <code>
 {
     "id": "{123456}_proj",
     "modified": "2023-02-08T10:28:43.0000000",
@@ -205,7 +207,8 @@ Example of a successful response body:
         }
     ]
 }
-```
+    </code>
+</div>
 
 <br/>
 
@@ -279,9 +282,11 @@ Example of a successful request body:
 }
 ```
 
-Example of a successful response body: 
+<br/>
 
-```
+<div class="fancy-details">
+    <summary><b>Example of a successful response body:</b></summary>
+    <code>
 {
     "id": "{123456}_proj",
     "modified": "2023-02-08T11:02:25.0000000",
@@ -343,7 +348,8 @@ Example of a successful response body:
         }
     ]
 }
-```
+    </code>
+</div>
 
 <br/>
 
@@ -396,9 +402,11 @@ Example of a successful request body:
 }
 ```
 
-Example of a successful response body:
+<br/>
 
-```
+<div class="fancy-details">
+    <summary><b>Example of a successful response body:</b></summary>
+    <code>
 {
     "id": "{123456}_proj",
     "modified": "2023-02-09T12:15:22.0000000",
@@ -478,7 +486,8 @@ Example of a successful response body:
         }
     ]
 }
-```
+    </code>
+</div>
 
 <br/>
 
@@ -513,9 +522,11 @@ Example of a successful request body:
 }
 ```
 
-Example of a successful response body:
+<br/>
 
-```
+<div class="fancy-details">
+    <summary><b>Example of a successful response body:</b></summary>
+    <code>
 {
     "id": "{123456}_proj",
     "modified": "2023-02-09T14:39:08.0000000",
@@ -595,7 +606,8 @@ Example of a successful response body:
         }
     ]
 }
-```
+    </code>
+</div>
 
 <br/>
 
@@ -630,9 +642,11 @@ Example of a successful request body:
 }
 ```
 
-Example of a successful response body:
+<br/>
 
-```
+<div class="fancy-details">
+    <summary><b>Example of a successful response body:</b></summary>
+    <code>
 {
     "id": "{123456}_proj",
     "modified": "2023-02-09T14:14:03.0000000",
@@ -702,7 +716,8 @@ Example of a successful response body:
         }
     ]
 }
-```
+    </code>
+</div>
 
 <br/>
 
@@ -734,9 +749,11 @@ Example of a successful request body:
 }
 ```
 
-Example of a successful response body:
+<br/>
 
-```
+<div class="fancy-details">
+    <summary><b>Example of a successful response body:</b></summary>
+    <code>
 {
         "id": "{123456}_proj",
         "modified": "2023-02-10T14:33:28.0000000",
@@ -807,7 +824,10 @@ Example of a successful response body:
             }
         ]
 }
-```
+    </code>
+</div>
+
+<br/>
 
 >[!NOTE] Only Owners can grant requests access to add members to a project. 
 
@@ -841,9 +861,11 @@ Example of a successful request body:
 }
 ```
 
-Example of a successful response body:
+<br/>
 
-```
+<div class="fancy-details">
+    <summary><b>Example of a successful response body:</b></summary>
+    <code>
 {
     "id": "{123456}_proj",
     "modified": "2023-02-10T14:37:00.0000000",
@@ -908,6 +930,9 @@ Example of a successful response body:
         }
     ]
 }
-```
+    </code>
+</div>
+
+<br/>
 
 >[!NOTE] Only Owners can deny requests access to add members to a project. 

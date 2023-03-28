@@ -114,9 +114,11 @@ Example of a successful request body:
 }
 ```
 
-Example of a successful response body:
+<br/>
 
-```
+<div class="fancy-details">
+    <summary><b>Example of a successful response body:</b></summary>
+    <code>
 {
     "id": "{123456}_tk",
     "modified": "2023-02-15T15:45:49.0000000",
@@ -147,7 +149,8 @@ Example of a successful response body:
         }
     ]
 }
-```
+    </code>
+</div>
 
 <br/>
 
@@ -223,9 +226,11 @@ Example of a successful request body:
 }
 ```
 
-Example of a successful response body:
+<br/>
 
-```
+<div class="fancy-details">
+    <summary><b>Example of a successful response body:</b></summary>
+    <code>
 {
     "id": "{123456}",
     "modified": "2023-02-17T11:37:22.0000000",
@@ -266,7 +271,8 @@ Example of a successful response body:
         }
     ]
 }
-```
+    </code>
+</div>
 
 <br/>
 
@@ -314,9 +320,11 @@ Example of a successful request body:
 }
 ```
 
-Example of a successful response body:
+<br/>
 
-```
+<div class="fancy-details">
+    <summary><b>Example of a successful response body:</b></summary>
+    <code>
 {
     "id": "{123456}_tk",
     "modified": "2023-02-10T13:55:53.0000000",
@@ -350,7 +358,8 @@ Example of a successful response body:
         }
     ]
 }
-```
+    </code>
+</div>
 
 <br/>
 
@@ -384,9 +393,11 @@ Example of a successful request body:
 }
 ```
 
-Example of a successful response body:
+<br/>
 
-```
+<div class="fancy-details">
+    <summary><b>Example of a successful response body:</b></summary>
+    <code>
 {
     "id": "{123456}_tk",
     "modified": "2023-02-16T15:00:02.0000000",
@@ -420,4 +431,5 @@ Example of a successful response body:
         }
     ]
 }
-```
+    </code>
+</div>

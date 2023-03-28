@@ -86,9 +86,11 @@ Example of a successful request body:
 }
 ```
 
-Example of a successful response body: 
+<br/>
 
-```
+<div class="fancy-details">
+    <summary><b>Example of a successful response body:</b></summary>
+    <code>
 {
     "id": "{123456}_bs",
     "modified": "2023-02-07T10:37:52.0000000",
@@ -116,7 +118,9 @@ Example of a successful response body:
         }
     ]
 }
-```
+    </code>
+</div>
+
 <br/>
 
 ## Get a pin section
@@ -180,9 +184,11 @@ Example of a successful request body:
 }
 ```
 
-Example of a successful response body: 
+<br/>
 
-```
+<div class="fancy-details">
+    <summary><b>Example of a successful response body:</b></summary>
+    <code>
 {
     "id": "{123456}_bs",
     "modified": "2023-02-07T11:11:50.0000000",
@@ -210,7 +216,8 @@ Example of a successful response body:
         }
     ]
 }
-```
+    </code>
+</div>
 
 <br/>
 
