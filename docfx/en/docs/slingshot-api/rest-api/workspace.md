@@ -147,9 +147,11 @@ Example of a successful request body:
 }
 ```
 
-Example of a successful response body: 
+<br/>
 
-```
+<div class="fancy-details">
+    <summary><b>Example of a successful response body:</b></summary>
+    <code>
 {
     "id": "{123456}_ws",
     "modified": "2023-02-08T08:40:30.0000000",
@@ -217,7 +219,9 @@ Example of a successful response body:
         }
     ]
 }
-```
+    </code>
+</div>
+
 
 <br/>
 
@@ -293,9 +297,11 @@ Example of a successful request body:
 }
 ```
 
-Example of a successful response body: 
+<br/>
 
-```
+<div class="fancy-details">
+    <summary><b>Example of a successful response body:</b></summary>
+    <code>
 {
     "id": "{123456}_ws",
     "id": "{123456}_ws",
@@ -364,7 +370,8 @@ Example of a successful response body:
         }
     ]
 }
-```
+    </code>
+</div>
 
 <br/>
 
@@ -415,9 +422,11 @@ Example of a successful request body:
 }
 ```
 
-Example of a successful response body:
+<br/>
 
-```
+<div class="fancy-details">
+    <summary><b>Example of a successful response body:</b></summary>
+    <code>
 {
     "id": "{123456}_ws",
     "modified": "2023-02-09T14:51:20.0000000",
@@ -496,7 +505,8 @@ Example of a successful response body:
         }
     ]
 }
-```
+    </code>
+</div>
 
 <br/>
 
@@ -531,9 +541,11 @@ Example of a successful request body:
 }
 ```
 
-Example of a successful response body:
+<br/>
 
-```
+<div class="fancy-details">
+    <summary><b>Example of a successful response body:</b></summary>
+    <code>
 {
     "id": "{123456}_ws",
     "modified": "2023-02-13T10:37:36.0000000",
@@ -616,7 +628,8 @@ Example of a successful response body:
         }
     ]
 }
-```
+    </code>
+</div>
 
 <br/>
 
@@ -652,9 +665,11 @@ Example of a successful request body:
 
 ```
 
-Example of a successful response body:
+<br/>
 
-```
+<div class="fancy-details">
+    <summary><b>Example of a successful response body:</b></summary>
+    <code>
 {
     "id": "{123456}_ws",
     "modified": "2023-02-13T10:25:22.0000000",
@@ -731,7 +746,8 @@ Example of a successful response body:
         }
     ]
 }
-```
+    </code>
+</div>
 
 <br/>
 
@@ -765,9 +781,11 @@ Example of a successful request body:
 }
 ```
 
-Example of a successful response body:
+<br/>
 
-```
+<div class="fancy-details">
+    <summary><b>Example of a successful response body:</b></summary>
+    <code>
 {
     "id": "{123456}_ws",
     "modified": "2023-02-10T14:20:52.0000000",
@@ -844,7 +862,10 @@ Example of a successful response body:
         }
     ]
 }
-```
+    </code>
+</div>
+
+<br/>
 
 >[!NOTE] Only Owners can grant requests access to add members to a workspace. 
 
@@ -880,9 +901,11 @@ Example of a successful request body:
 }
 ```
 
-Example of a successful response body:
+<br/>
 
-```
+<div class="fancy-details">
+    <summary><b>Example of a successful response body:</b></summary>
+    <code>
 {
     "id": "{123456}_ws",
     "modified": "2023-02-10T14:29:09.0000000",
@@ -953,6 +976,7 @@ Example of a successful response body:
         }
     ]
 }
-```
+    </code>
+</div>
 
 >[!NOTE] Only Owners can deny requests access to add members to a workspace. 

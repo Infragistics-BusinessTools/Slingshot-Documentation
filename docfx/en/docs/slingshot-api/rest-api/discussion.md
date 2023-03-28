@@ -79,9 +79,11 @@ Example of a successful request body:
 }
 ```
 
-Example of a successful response body: 
+<br/>
 
-```
+<div class="fancy-details">
+    <summary><b>Example of a successful response body:</b></summary>
+    <code>
 {
     "id": "{123456}",
     "modified": "2023-02-03T10:11:36.0000000",
@@ -97,7 +99,8 @@ Example of a successful response body:
         "name": "Threads"
     }
 }
-```
+    </code>
+</div>
 
 <br/>
 
@@ -212,9 +215,11 @@ Example of a successful request body:
 }
 ```
 
-Example of a successful response body: 
+<br/>
 
-```
+<div class="fancy-details">
+    <summary><b>Example of a successful response body:</b></summary>
+    <code>
 {
     "id": "{123456}",
     "modified": "2023-02-03T11:42:39.0000000",
@@ -235,7 +240,8 @@ Example of a successful response body:
         "text": "We should check this again."
     }
 }
-```
+    </code>
+</div>
 
 <br/>
 
