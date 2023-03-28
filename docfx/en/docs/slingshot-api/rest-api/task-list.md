@@ -19,7 +19,10 @@ You can use tasks in order to better organize your work. For better visibility, 
 
 ## Example:
 
-```
+
+<div class="fancy-details">
+    <summary><b>Example of a successful response body:</b></summary>
+    <code>
 {
     "items": [
         {
@@ -56,7 +59,8 @@ You can use tasks in order to better organize your work. For better visibility, 
         }
     ]
 }
-```
+    </code>
+</div>
 
 <br/>
 
