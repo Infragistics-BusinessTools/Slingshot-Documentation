@@ -1,4 +1,9 @@
-## Statistical Functions in Analytics
+---
+title: How to Use Statistical Functions 
+_description: Learn how to use the Statistical function to receive more insights from your visualizations.
+---
+
+# Statistical Functions in Analytics
 
 Analytics's Statistical functions allow you to receive more insight from
 your visualizations. They provide you with three types of advanced
@@ -6,12 +11,7 @@ predictive analysis. You can use the [*Time series forecast*](#time-series-forec
 to make predictions, recognize and evaluate trends, or discover outliers
 in your data series.
 
->[!NOTE]
-**Time Series Chart currently not supported**.
->The newly released Time Series chart does not support statistical functions yet. This means you cannot use Time series forecast, Linear regression or Detect outliers for now. It will be supported in the future. Currently, **you can use a Line chart** to achieve a similar result, as shown in the sections below.
-
-
-### Accessing Statistical Functions
+## Accessing Statistical Functions
 
 To apply one of the three *statistical functions* to your visualization
 you need to:
@@ -24,12 +24,12 @@ you need to:
 3.  Click/tap the icon, which appears in the top right section of the
     screen (see below).
 
-<img src="images/statistical-functions-enable-icon.png" alt="Statistical functions icon" width="100%"/>
+<img src="images/statistical-functions-enable-icon.png" alt="Statistical functions icon" class="responsive-img" width="85%"/>
 
 >[!NOTE] **Enabling/Disabling Functions**.
 >You can have only one of the three functions enabled for a visualization at the same time. Click the enabled function again to turn it off or select another function from the list to switch to.
 
-### Statistical Functions Types
+## Statistical Functions Types
 
 The table below explains what every function is used for, the algorithm
 the function uses, and for which visualizations the function can be
@@ -38,18 +38,18 @@ enabled.
 | **Function**            | **Algorithm**            | **What is it used for?**                                                                                                                                                            | **Which visualizations support it?**                                                                                                                      |
 | ----------------------- | ------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Time series forecasting | Exponential smoothing    | To make a forecast of the data, for a given data series. Users can select a time range in the future.                                                                               | [Category charts](visualization-types/category-charts.md): Area, Bar, Column, Line, Spline, Spline Area, Step Area, Step Line                                                  |
-| Linear regression       | Linear regression        | To evaluate a trend by finding the linear relationship between two variables. The algorithm calculates a line, close to most of the points in the chart to show the on-going trend. | [Category charts](visualization-types/category-charts.md): Area, Bar, Column, Line, Spline, Spline Area, Step Area, Step Line; [Scatter and Bubble](visualization-types/scatter-bubble-charts.md) chart |
+| Linear regression       | Linear regression        | To evaluate a trend by finding the linear relationship between two variables. The algorithm calculates a line, close to most of the points in the chart to show the on-going trend. | [Category charts](visualization-types/category-charts.md): Area, Bar, Column, Line, Spline, Spline Area, Step Area, Step Line |
 | Detect outliers         | Interquartile range rule | To detect data that stands out from the rest because of random factors.                                                                                                             | [Category charts](visualization-types/category-charts.md): Area, Column, Line, Spline, Spline Area, Step Area, Step Line; [Scatter](visualization-types/scatter-bubble-charts.md) chart                 |
 
 <a name='time-series-forecast'></a>
-#### Time series forecast
+### Time series forecast
 
 The *Time series forecast* function is used to provide prediction of the
 data for a given data series. In the example below, the function is used
-to provide a forecast of the sales of two products for the next 6
+to provide a forecast of the sales of two products for the next 12
 months.
 
-<img src="images/time-series-forecast-6-months.png" alt="Time series sales forecast for next 6 month" width="100%"/>
+<img src="images/time-series-forecast-visualization-example.png" alt="Time series sales forecast for next 12 month" class="responsive-img" width="85%"/>
 
 To achieve the forecast shown above, perform the following steps:
 
@@ -57,7 +57,7 @@ To achieve the forecast shown above, perform the following steps:
 
 2.  The following settings dialog opens:
 
-    <img src="images/time-series-forecast-settings.png" alt="Time series forecast settings" width="100%"/>
+    <img src="images/time-series-forecast-dialog.png" alt="Time series forecast settings" class="responsive-img" width="85%"/>
 
     Here you need to configure *Season length* and *Periods to
     Forecast*.
@@ -90,14 +90,14 @@ If you check the **visualization's underlying data** after the
 application of the Time series function, you will notice the forecasted
 values are highlighted in yellow (see below).
 
-<img src="images/underlying-data-time-series.png" alt="Underlying data in table format with highlighted forecasted data" width="100%"/>
+<img src="images/underlying-data-time-series.png" alt="Underlying data in table format with highlighted forecasted data" class="responsive-img" width="85%"/>
 
 >[!NOTE]
 **Time series function available only for charts over time**
 >If your visualization does not contain a *Date* field, you will receive an error when you try using the Time series function.
 
 <a name='linear-regression'></a>
-#### Linear regression
+### Linear regression
 
 The Linear regression is a statistical model, attempting to show the
 relationship between two variables with a linear equation. The
@@ -111,7 +111,7 @@ forecast of the data for a selected period of time**. After selecting
 the *Linear regression* function from the *Statistical functions* menu,
 you will see the following dialog:
 
-<img src="images/linear-regression-forecast-settings.png" alt="Forecast settings dialog for the Linear regression function" width="100%"/>
+<img src="images/linear-regression-dialog.png" alt="Forecast settings dialog for the Linear regression function" class="responsive-img" width="85%"/>
 
 For *Periods to forecast* select **the number of days, months or
 years**, for which you want your data predicted. The time unit for the
@@ -122,7 +122,7 @@ Below you can see the *Linear regression* function applied to a
 visualization, where the line is extended for 6 months to show a
 prediction based on the observed tendency:
 
-<img src="images/linear-regression-example.png" alt="Linear regression with a forecast for 6 months" width="100%"/>
+<img src="images/linear-regression-example.png" alt="Linear regression with a forecast for 6 months" class="responsive-img" width="85%"/>
 
 The line rendered across the visualization above shows the extent to
 which changes in the sales (variable placed on the y-axis), can be
@@ -136,14 +136,14 @@ values are highlighted in yellow (as shown in the last screenshot of the
 [Time series forecast](#time-series-forecast)).
 
 <a name='detect-outliers'></a>
-#### Detect outliers
+### Detect outliers
 
 Outliers are extreme values that deviate from other observations on
 data. The *Detect outliers* function shows points that deviate
 considerably from the average values of the rest of the points in the
 data series.
 
-<img src="images/outlier-detection-example.png" alt="Outlier detection applied" width="100%"/>
+<img src="images/outlier-detection-example.png" alt="Outlier detection applied" class="responsive-img" width="85%"/>
 
 In the example above, the detected data points lay far from the rest of
 the distribution and show a sudden rise in sales in a particular moment,

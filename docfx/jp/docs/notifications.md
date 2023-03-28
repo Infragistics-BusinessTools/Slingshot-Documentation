@@ -1,41 +1,39 @@
-## Notifications
+---
+title: Slingshot 通知を管理および使用する方法
+_description: Slingshot の通知の活用と、好みに応じて通知を変更する方法について説明します。
+_language: ja
+---
 
-A notification can be defined as an indicator that a certain event has happened. This is a fairly common feature in smartphones, applications, and websites, they provide new information to the user.
+# 通知
 
-Sometimes notifications can become overwhelming, as an application can consistently send you  notifications that are not worth of your attention. In Slingshot, we definitely want to avoid that feeling, so you start with cautious notifications settings. In any case, you can always modify the settings according to your preferences.
+通知により、Slingshot で見逃しを無くし、注意が必要なことを常に把握できます。
 
-### So, What's a Slingshot Notification?
+<img class="responsive-img" src="../images/notifications-example.png" alt="Showing the Notifications panel within Slingshot" class="responsive-img" width="60%" />
 
-It's an auto-generated indicator that is sent to you to let you know a certain event has happened. There are three different types of notifications, in-app, push, and email. This means that you can get a message that pops up while using Slingshot (in-app notification), a message that pops up on a mobile device (push notification), or even an email. As you can get Slingshot on any platform, tweaking those settings is important to customize your experience.
 
-### Stay informed with Notifications
+## 通知のタイプ
+通知は次の 3 つの形式で提供されます: 
+- **アプリ内** – 右上にある [通知] パネル (ベルのアイコン) のアプリ内に表示される通知。
+- **プッシュ** - これらの通知は、アプリを使用していないときに表示されるクリック可能なポップアップ メッセージです。「バナー」通知とも呼ばれ、モバイル デバイスまたはデスクトップ画面に表示されます。
+- **メール** - アカウントに関連付けられたメール アドレスに配信される通知。
 
-Notifications are designed to keep you updated of any changes on teams, tasks, projects, messages, and dashboards. You can learn, among others, that a task was assigned to you, that you are removed from a team, or even that someone sent a message in a discussion thread you're following.
+## 通知のカスタマイズ化
+Slingshot で通知を受け取る対象を簡単に変更できるため、自分にとって最も重要なものについてのみアラートを受け取ることができます。設定に移動してから [通知] タブに移動すると、受信する通知を編集できます。または、[通知] パネルのオーバーフロー メニューを使用することもできます。
 
-You can access *Notifications* on the top right of the screen as shown below.
+<img class="responsive-img" src="../images/notifications-settings.png" alt="Showing the Notifications panel within Slingshot" class="responsive-img" width="60%" />
 
-<img src="../images/notifications-panel-opened.png" alt="Notifications panel opened in Slingshot" width="100%"/>
+[通知] パネルで、鉛筆アイコンを選択して各カテゴリの詳細を表示するか、カテゴリ全体のオン / オフを切り替えます。
 
-Within the *Notifications* panel, you can mark all notifications as *Read* or *Unread* with the *glasses icon*:
+さらに、一番下にある [デフォルトにリセット] オプションを使用して、デフォルト設定を復元できます。
 
-<img src="../images/notifications-panel-glasses.png" alt="Notifications panel opened in Slingshot, using the glasses icon" width="100%"/>
+<img class="responsive-img" src="../images/notifications-reset-button.png" alt="Reset to default button" class="responsive-img" width="58%" />
 
-Additionally, you can individually mark as *Read* or *Unread* or mute notifications by selecting the _Mute this type of notification_ option in the overflow menu.
+## [通知] パネルの使用
+ここでは、ワークスペース、タスク、メッセージ、メンション、および分析ダッシュボードに関する最新情報を確認できます。これにより、ワークスペースから削除されたとき、フォローしているディスカッション スレッドで誰かがメッセージを送信したとき、自分に割り当てられたタスクがあるときなど、最新の状態に保つことができます。
+右上隅のベル アイコンをクリックすると、[通知] パネルにアクセスできます。
 
-<img src="../images/notifications-panel-overflow.png" alt="Notifications panel opened in Slingshot, using the overflow" width="100%"/>
+[通知] パネル内に、通知はグループで表示され、右側のオーバーフロー メニューを使用して、各グループを個別にミュート / ミュート解除または既読 / 未読としてマークできます。
 
-### How can I change my Notification Settings?
+<img class="responsive-img" src="../images/notifications-overflow-settings.png" alt="Showing the Notifications overflow settings within Slingshot" class="responsive-img" width="25%" />
 
-There are three different types of notifications, in-app, push, and email. In-app notifications are displayed within the app in Notifications panel. Push notifications are displayed as texts near the notification icon. And emails are delivered to the e-mail address associated to your account.
-
-To change your notification settings, go to *Settings*:
-
-<img src="../images/userSettings-opened.png" alt="User Settings menu opened in Slingshot" width="100%"/>
-
- And then navigate to *Notifications*:
-
-<img src="../images/userSettings-notifications.png" alt="Notifications Settings menu opened in Slingshot" width="100%"/>
-
-Finally, for each category you can edit the settings as shown below or use the switch to turn them off entirely.
-
-<img src="../images/userSettings-edit-notifications.png" alt="Editing one of the items in the Notifications Settings tab" width="100%"/>
+[通知] パネルにはデフォルトですべての通知が表示されますが、未読の通知または @メンションのみを表示するように選択できます。これを行うには、パネルの上部に移動し、[表示中: すべて] を選択してドロップダウンを開き、別の値を選択します。

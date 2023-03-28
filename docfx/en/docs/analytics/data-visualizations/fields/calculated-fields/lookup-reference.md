@@ -1,11 +1,16 @@
-## Lookup & Reference Calculated Fields
+---
+title: How to use Lookup & Reference Calculated Fields
+_description: Learn how to use Lookup & Reference Calculated Fields to get more details for your dashboards.
+---
+
+# Lookup & Reference Calculated Fields
 
 
 Lookup and reference fields will allow you to work with your current
 spreadsheet and dashboard, returning text references to cells, rows and
 dashboard variables.
 
->[!NOTE] *All samples included in the table below were created with the **HR Dataset 2016.xlsx** spreadsheet.*
+>[!NOTE] All samples included in the table below were created with the **HR Dataset 2016.xlsx** spreadsheet.
 
 The functions included in the aggregation category are:
 
@@ -39,7 +44,7 @@ The functions included in the aggregation category are:
 </table>
 
 <a name='calc-fields-previous'></a>
-### Previous
+## Previous
 
 The previous calculated field allows you to get a result with the value
 of the field you choose as your `expression`. There are two arguments
@@ -50,7 +55,7 @@ for you to configure:
   - `first value`: the value for your first row, which will be empty by
     default.
 
-#### Sample
+### Sample
 
 The following is an extract of the HR Dataset 2016.xlsx "Employees"
 sheet.

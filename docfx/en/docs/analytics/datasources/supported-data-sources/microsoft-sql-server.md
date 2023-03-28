@@ -1,39 +1,37 @@
-## Microsoft SQL Server
+---
+title: How to configure Microsoft SQL Server in Slingshot
+_description: Steps to configuring Microsoft SQL Server and using it to your advantage.
+---
 
->[!NOTE] **Limitations in Web**. In the *Analytics Web* app, you can connect only to publicly accessible Microsoft SQL addresses. If your MS SQL address is restricted for the general public (private or hosted in the company's intranet, for example), you can use *Analytics Desktop*, *iOS* or *Android* to connect to it. The device where you're running Analytics needs to have access to the SQL Server address. This limitation does not apply to *Analytics Embedded*.
+# Microsoft SQL Server
 
-### Connecting to MS SQL Server 
+>[!NOTE] **Limitations in Web**. In the *Slingshot Web* app, you can connect only to publicly accessible Microsoft SQL addresses. If your MS SQL address is restricted for the general public (private or hosted in the company's intranet, for example), you can use *Slingshot Desktop*, *iOS* or *Android* to connect to it. The device, where you're running Slingshot on, needs to have access to the SQL Server address. This limitation does not apply to *Slingshot Embedded*.
+
+## Connecting to MS SQL Server 
 
 To configure a Microsoft SQL Server data source, you can set the following information:
 
-<img src="images/Enter-SQL-Server-Details.png" alt="Enter SQL Server Details" width="100%"/>
+<img src="images/enter-microsoft-sql-credentials.png" alt="Enter SQL Server Details" class="responsive-img" width="50%"/>
 
-1.  **Default name** of the data source: Your data source name will be displayed in the list of accounts in the previous dialog. By default, Analytics names it *Microsoft SQL Server*. You can change it to your preference.
-
-2.  [**Server**](#how-to-find-server): the computer name or IP address
+1.  [**Server**](#how-to-find-server): the computer name or IP address
     assigned to the computer on which the server is running.
 
-3.  **Port**: if applicable, the server port details. If no information
+2.  **Port**: if applicable, the server port details. If no information
     is entered, Analytics will connect to the port in the hint text (1433)
     by default.
 
-4.  **Credentials**: after selecting *Credentials*, you will be able to enter the credentials for your Microsoft SQL Server or choose existing ones if applicable.
+3.  **Credentials**: after selecting *Credentials*, you will be able to enter the credentials for your Microsoft SQL Server or choose existing ones if applicable.
 
-      - **Name**: the name for your data source account. It will be
-        displayed in the list of accounts in the previous dialog.
-
-      - *(Optional)* **Domain**: the name of the domain, if applicable.
-
-      - **Username**: the user account for the SQL Server.
+      - **Username**: the user account for the SQL Server or the name of the domain.
 
       - **Password**: the password to access the SQL Server.
 
-    Once ready, select **Create Account**. You can verify whether the
-    account is reaching the data source or not by selecting **Test
-    Connection**.
+      - **Alias**: Your data source name will be displayed in the list of accounts in the previous dialog. By default, Analytics names it Microsoft SQL Server. You can change it to your preference.
+
+    Once ready, select **Add** and then **Add Server**.
 
 <a name='how-to-find-server'></a>
-### How to find your Server Information
+## How to find your Server Information
 
 You can find your server by following the steps below. Please note that
 the commands should be executed on the server.
@@ -54,25 +52,25 @@ that the commands should be executed on the server.
 | **IPv4 Address** is your IP address. | **Inet addr** is your IP address. | The **IP Address** field will have the necessary information. |
 
 <a name='working-with-views'></a>
-### Setting Up Your Data
+## Setting Up Your Data
 
-#### Working with Views
+### Working with Views
 
 With Analytics, you can retrieve SQL Server data from entire tables, but
 you can also select a particular
 [view](https://docs.microsoft.com/en-us/sql/relational-databases/views/views?view=sql-server-2017)
 that returns a subset of data from a table or a set of tables instead.
 
-<img src="images/SQLServerViews_All.png" alt="SQLServerViews\_All" width="100%"/>
+<img src="images/microsoft-sql-views.png" alt="SQLServerViews\_All" class="responsive-img" width="60%"/>
 
-In the sample above, the **Alphabetical list of products** view contains
-part of the data in the **Products** table in the SQL Server.
+In the sample below, the **Invoices** view contains
+part of the data in the **Alphabetical list of products** table in the SQL Server.
 
-<img src="images/AlphabeticalListProductsSQLServer_All.png" alt="AlphabeticalListProductsSQLServer\_All" width="100%"/>
+<img src="images/sample-microsoft-sql.png" alt="AlphabeticalListProductsSQLServer\_All" class="responsive-img" width="85%"/>
 
 For more information on views and MS SQL Server, visit [this documentation website](https://docs.microsoft.com/en-us/sql/relational-databases/views/views?view=sql-server-2017).
 
-#### Working with Stored Procedures
+### Working with Stored Procedures
 
 In MS SQL, stored procedures allow users to run a set of query
 statements in a relational database with specific parameters. The
@@ -81,21 +79,21 @@ server with
 [Northwind](https://docs.microsoft.com/en-us/dotnet/framework/data/adonet/sql/linq/downloading-sample-databases)
 data:
 
-<img src="images/SQLStoredProcedures_All.png" alt="SQLStoredProcedures\_All" width="100%"/>
+<img src="images/stored-procedures-microsoft-sql.png" alt="SQLStoredProcedures\_All" class="responsive-img" width="55%"/>
 
 This stored procedure, for example, returns the products in the
 **Products** table ordered by their **Unit Price**. The **ProductName**
 has been renamed to **TenMostExpensiveProducts**.
 
-<img src="images/StoredProcedureSampleResults_All.png" alt="StoredProcedureSampleResults\_All" width="100%"/>
+<img src="images/stored-procedures-sample-result.png" alt="StoredProcedureSampleResults\_All" class="responsive-img" width="85%"/>
 
 In this case, the stored procedure requires users to configure the start and end date to display the **Sales by Year** information.
 
-<img src="images/Stored-Procedure-Sample-Dates.png" alt="StoredProcedureSampleDates\_All" width="100%"/>
+<img src="images/stored-procedures-parameters-sample.png" alt="StoredProcedureSampleDates\_All" class="responsive-img" width="65%"/>
 
 For more information on Stored Procedures and MS SQL Server, visit [this documentation website](https://docs.microsoft.com/en-us/sql/relational-databases/stored-procedures/stored-procedures-database-engine?view=sql-server-2017).
 
-#### Limitations for Stored Procedures in Analytics
+### Limitations for Stored Procedures in Analytics
 
 
   - For stored procedures that return more than one result set, Analytics

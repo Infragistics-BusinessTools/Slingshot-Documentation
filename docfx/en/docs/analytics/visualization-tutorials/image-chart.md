@@ -1,11 +1,16 @@
-## Creating an Image Chart
+---
+title: How to Create an Image Chart in Slingshot 
+_description: A quick tutorial on creating an Image Chart visualization using a sample spreadsheet.
+---
 
-In this tutorial, you will learn how to create an Image visualization
+# Creating an Image Chart
+
+In this tutorial you will learn how to create an Image visualization
 using a sample spreadsheet.
 
-<img src="images/ImageVisualizationDashboard_All.png" alt="ImageVisualizationDashboard\_All.png" width="100%" />
+<img src="../images/image-chart-sample.png" alt="A sample showing different image chart visualizations in one dashboard" class="responsive-img" width="88%"/>
 
-### Key Concepts
+## Key Concepts
 
 As mentioned in the Data Visualization section, the [Image Chart](image-chart.md) displays information in an embedded browser by making
 a request to a URL and displaying the results. The data source,
@@ -15,20 +20,26 @@ therefore, will need to:
 
   - Include it **in the first row of the data set**.
 
-### Sample Data Source
+## Sample Data Source
 
-For this tutorial, you will use the "Image Chart" sheet in the [Analytics Tutorials Spreadsheet](https://download.infragistics.com/reportplus/help/samples/Analytics_Visualization_Tutorials.xlsx).
+For this tutorial, you will use the "Image Chart" sheet in the [Slingshot Visulization Tutorials](https://download.infragistics.com/slingshot/samples/Slingshot_Visualization_Tutorials.xlsx).
 
->[!NOTE]
->Excel files as local files are not supported in this release. In order to follow these tutorials, make sure you upload the file to one of the supported cloud services or add it as a [Web Resource](~/docs/analytics/datasources/supported-data-sources/web-resource.md).
+ 1. In **My Analytics**, select the **+ Dashboard button** in the top right-hand corner.
 
-### Creating an Image Chart
+    <img src="./images/button-dashboard.png" alt="Tutorials-Create-New-Dashboard" class="responsive-img" width="70%"/> 
 
-|                                          |                                                                                                |                                                                                                                                                      |
-| ---------------------------------------- | ---------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1\. **Create a Dashboard**               | <img src="images/Tutorials-Create-New-Dashboard.png" alt="Tutorials-Create-New-Dashboard" width="70%" />                   | In the dashboard viewer, select the + button in the top right-hand corner of the "My Dashboards" screen. Then, select "Dashboard" from the dropdown. |
-| 2\. **Configure your Data Source**       | <img src="images/Tutorials-Select-Data-Source.png" alt="Tutorials-Select-Data-Source" width="70%" />                       | In the *New Visualization* window, select the + button in the bottom right corner and select your data source.                                       |
-| 3\. **Select the Tutorials Spreadsheet** | <img src="images/Tutorials-Select-Image-View-Spreadsheet.png" alt="Tutorials-Select-Image-View-Spreadsheet" width="70%" /> | Once the data source is configured, select the **Analytics Tutorials Spreadsheet**. Then, choose the "Image View" sheet.                                |
-| 4\. **Open the Visualizations Menu**     | <img src="images/Tutorials-Select-Change-Visualization.png" alt="Tutorials-Select-Change-Visualization" width="70%" />     | Select the **grid icon** in the top bar of the Visualizations Editor.                                                                                |
-| 5\. **Select your Visualization**        | <img src="images/tutorial-Image-View-Select.png" alt="Tutorial-Image-View-Select" width="70%" />                           | By default, the visualization type will be set to "Grid". Select the **Image** option.                                                               |
-| 6\. **Organize your Data**               | <img src="images/Tutorials-ImageView-Organizing-Data.png" alt="Tutorials-ImageView-Organizing-Data" width="70%" />         | Drag any of the available fields into **URL**.                                                                                                       |
+ 2. A dialog will open, contening a list of already added data source. The Visualization Tutorial file will be there as a data source if you have already used it. In case you haven't added the file, you can click/tap on **+Data Source** -> **Data Files** -> **+New** -> **Upload** -> Select the file -> Click/tap on **Select and Continue** to include it in the list.
+
+    <img src="images/select-your-data-source.png" alt="Tutorials-Select-Data-Source" class="responsive-img" width="70%"/>
+
+ 3. Once the data source is configured, select the *Image View* sheet.                                
+
+    <img src="images/select-image-view.png" alt="Tutorials-Select-Image-View-Spreadsheet" class="responsive-img" width="57%"/>
+
+ 4. By default, the visualization type will be set to **Column**. Select the **Image** option.      
+
+    <img src="../images/list-of-chart-types.png" alt="Tutorial-Image-View-Select" class="responsive-img" width="57%"/>   
+                                                      
+ 5. Drag any of the available fields into **URL**.        
+
+    <img src="../images/image-chart-data-organization.png" alt="Tutorials-ImageView-Organizing-Data" class="responsive-img" width="57%"/>                                                      

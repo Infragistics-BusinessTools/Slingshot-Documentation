@@ -1,4 +1,9 @@
-## Sharing Dashboards with Cloud Files as a Data Source
+---
+title: How to Share Dashboards with Cloud Files
+_description: A guide on sharing and granting access to other users to dashboards on a cloud provider.
+---
+
+# Sharing Dashboards with Cloud Files as a Data Source
 
 When you share dashboards with other Analytics users, you need to take into
 account the data sources you used to build the visualizations in the
@@ -20,10 +25,10 @@ You can create a shareable link when:
   - [sharing a dashboard](#grant-access-shared-dashboard), which uses a
     cloud file data source;
 
-  - saving a dashboard [in a team](#save-dashboard-team).
+  - saving a dashboard [in a workspace](#save-dashboard-workspace).
 
 <a name='cloud-providers'></a>
-### Supported Cloud Providers
+## Supported Cloud Providers
 
 You can grant access to dashboards, which use files uploaded on the
 following cloud providers:
@@ -35,17 +40,17 @@ following cloud providers:
   - Dropbox
 
 <a name='cloud-data-source-file'></a>
-### Granting Access when Choosing a Cloud File as a Data Source
+## Granting Access when Choosing a Cloud File as a Data Source
 
 You can allow access to a cloud file at the point of selecting your data source to build a visualization. After choosing a file uploaded on one of the [supported cloud providers](#cloud-providers), you will be prompted to the following dialog:
 
-<img src="images/allow-access-box-sharing.png" alt="Allow access checkbox in the Set up your file dialog" width="100%"/>
+<img src="images/allow-access-box-sharing.png" alt="Allow access checkbox in the Set up your file dialog" class="responsive-img"/>
 
 Make sure the *Allow Access* checkbox is selected, otherwise the
 shareable link will be disabled.
 
 <a name='grant-access-shared-dashboard'></a>
-### Granting Access when Sharing a Dashboard
+## Granting Access when Sharing a Dashboard
 
 You can grant access to dashboards that use cloud files with a disabled
 shareable link, when sharing them with other users.
@@ -56,24 +61,24 @@ shareable link, when sharing them with other users.
 
 3.  The following dialog opens:
 
-    <img src="images/grant-access-share-dashboard-dialog.png" alt="A dialog to grant access to cloud file data sources" width="50%"/>
+    <img src="images/grant-access-share-dashboard-dialog.png" alt="A dialog to grant access to cloud file data sources" class="responsive-img"/>
 
-  Click/Tap *Allow Access* and proceed with selecting users to [share your dashboard](share-a-dashboard.md) with.
+    Click/Tap *Allow Access* and proceed with selecting users to [share your dashboard](share-a-dashboard.md) with.
 
-<a name='save-dashboard-team'></a>
-### Saving a Dashboard with a Cloud File Data Source in a Team
+<a name='save-dashboard-workspace'></a>
+## Saving a Dashboard with a Cloud File Data Source in a Workspace
 
-You may want to save in your team's space a dashboard, which contains
+You may want to save in your workspace a dashboard, which contains
 one or more visualizations using cloud files as data source. If a
 shareable link to these data source files hasn't been created (has been
 disabled), Analytics will prompt you to allow access:
 
-<img src="images/save-dashboard-disabled-link-teams_all.png" alt="Allow access to a dashboard with a disabled link when saving in a team" width="100%"/>
+<img src="images/save-dashboard-disabled-link-workspace.png" alt="Allow access to a dashboard with a disabled link when saving in a workspace" class="responsive-img"/>
 
-This way you make sure all team members can view the dashboard you saved
-in your team.
+This way you make sure all workspace members can view the dashboard you saved
+in your workspace.
 
-### See Also
+## See Also
 
 If you can't see the contents of a dashboard, shared with you, please
 read: [Requesting Access to Shared Dashboards with Cloud Files](request-access-shared-dashboards-cloud-files.md)

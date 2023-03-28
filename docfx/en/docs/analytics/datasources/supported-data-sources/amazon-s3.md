@@ -1,12 +1,17 @@
-## Amazon S3
+---
+title: How to Add Amazon S3 to your data sources 
+_description: A step-by-step guide on how to configure an Amazon S3 data source and use it in Slingshot.
+---
+
+# Amazon S3
 
 Amazon Simple Storage Service (S3) is a highly scalable and fast data storage service. Adding Amazon S3 to your data sources allows you to access and analyze your data from S3 directly in Analytics.
 
-### Connecting to Amazon S3 
+## Connecting to Amazon S3 
 
 To configure an Amazon S3 data source, you will need to enter the following information:
 
-<img src="images/configure-amazon-s3-dialog.png" alt="Configure Amazon Athena dialog" width="100%"/>
+<img src="images/configure-amazon-s3-dialog.png" alt="Configure Amazon Athena dialog" class="responsive-img"/>
 
 1.  **Default name** of the data source: Your data source name will be displayed in the list of accounts in the _Select a Data Source_ dialog. By default, Analytics names it *Amazon S3*. You can change it to your preference.
    
@@ -23,7 +28,7 @@ To configure an Amazon S3 data source, you will need to enter the following info
 
 4. Upon successful connection, you will be returned to the previous dialog where the _Continue_ blue button becomes available. After clicking/tapping it, you can start browsing your directories and files in Amazon S3. 
 
-### Supported Files
+## Supported Files
 
 When working within Analytics, you will be able to use a wide variety of files from your Amazon S3 directories:
 

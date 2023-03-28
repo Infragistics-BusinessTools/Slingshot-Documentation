@@ -1,4 +1,9 @@
-## Combining Data Sources in one Visualization
+---
+title: Data Blending in Slingshot 
+_description: How to combine more than one data source in one visualization.
+---
+
+# Combining Data Sources in one Visualization
 
 Sometimes you need **Data Blending** to extract value from **more than one data source** in the same Analytics visualization.
 
@@ -6,16 +11,17 @@ For example, you may want to compare vacation days taken with other
 employee absences by department, to gain insight about the correlation
 of those variables.
 
-<img src="images/data-blending-example.png" alt="Data Blending Example Visualization" width="100%"/>
+<img src="images/data-blending-sample.png" alt="Data Blending Example Visualization" class="responsive-img" width="85%"/>
 
 Follow these steps to combine two data sources in one visualization:
 
 1.  **Open the Data Blending dialog**.
 
     Click/Tap the **+** button in the *Fields* section and select
-    *Fields from another Data Source*.
+    **Fields from another Data Source**.
 
-    <img src="images/data-blending-open-dialog.png" alt="Data Blending Accessing dialog in the Visualization editor" width="100%"/>
+     <img src="images/fields-from-another-data-source-option.png" alt="Data Blending Accessing dialog in the Visualization editor" class="responsive-img" width="
+     35%"/>
 
 2.  **Choose the new Data Source**.
 
@@ -26,27 +32,27 @@ Follow these steps to combine two data sources in one visualization:
     Configure the equality condition that needs to match to combine the
     two data sets.
 
-    <img src="images/data-blending-join-condition.png" alt="Data Blending Join Condition selection" width="100%"/>
+     <img src="images/join-condition-data-blending.png" alt="Data Blending Join Condition selection" class="responsive-img" width="55%"/>
 
 4.  **Choose the fields you want**
 
     Specify which are the fields that you want to combine, so you can
     access them in your visualization.
 
-    <img src="images/data-blending-choose-new-fields.png" alt="Data Blending Choose New Fields dialog" width="100%"/>
+     <img src="images/data-blending-new-fields.png" alt="Data Blending Choose New Fields option" class="responsive-img" width="60%"/>
 
 5.  **Select Join Data**
 
     After merging the two data sets, you can find the new fields at the
     bottom of the *Fields* section.
 
-    <img src="images/data-blending-result.png" alt="Show Data Blending Result" width="100%"/>
+     <img src="images/result-data-blending.png" alt="Show Data Blending Result" class="responsive-img" width="85%"/>
 
     As shown in the image above, you can now visualize vacation days by
     Department name instead of using the internal Department ID.
 
 
-### The JOIN Condition
+## The JOIN Condition
 
 When adding fields from other data sources, you actually join two different data sets. The join operation used by Analytics is LEFT (OUTER)
 JOIN.
@@ -59,8 +65,8 @@ field in both tables as the relationship between them (equality condition: Depar
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col style="width: 45%" />
+<col style="width: 45%" />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -71,8 +77,8 @@ field in both tables as the relationship between them (equality condition: Depar
 <td>
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col style="width: 45%" />
+<col style="width: 45%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -93,8 +99,8 @@ field in both tables as the relationship between them (equality condition: Depar
 </table></td>
 <td><table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col style="width: 45%" />
+<col style="width: 45%" />
 </colgroup>
 <thead>
 <tr class="header">

@@ -1,15 +1,23 @@
-## Uploading Dashboards
+---
+title: How to Upload Dashboards to Slingshot
+_description: See how to work with dashboards saved on your device by directly uploading them.
+--- 
 
-In Analytics, you can also work with dashboards saved on your computer/device by directly uploading them. To do that, perform the following steps:
+# Uploading Dashboards
 
-1.  Select the arrow on the right of the *+ New* button and then *Upload*.
+In Reveal, you can also work with dashboards saved on your computer/device by directly uploading them. To do that, perform the following steps:
 
-    <img src="images/upload-create-folder-menu.png" alt="Upload option" width="100%"/>
+1. Go to **My Analytics**.
+2. Click on **My Dashboards**.
+3. Go to the overflow menu and choose **Upload**.
 
-2.  A dialog showing your local files will open. Double click/tap the
-    dashboard you want to upload. Analytics dashboards' file extension is
+    <img src="images/dashboard-upload-option.png" alt="Upload option" class="responsive-img" width="88%"/>
+
+4.  A dialog showing your local files will open. Double click/tap the
+    dashboard you want to upload. Reveal dashboards' file extension is
     **.rdash**.
+
     >[!NOTE]
-    >**Uploading ReportPlus Dashboards** Analytics also allows you to upload and work with dashboards created in ReportPlus. ReportPlus dashboards' file extension is **.rplus**.
+    >**Uploading ReportPlus Dashboards** Reveal also allows you to upload and work with dashboards created in ReportPlus. ReportPlus dashboards' file extension is **.rplus**.
 
 Your dashboard is now uploaded and ready to be edited and shared with others.

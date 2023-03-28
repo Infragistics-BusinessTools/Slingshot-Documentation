@@ -1,11 +1,16 @@
-## Calculated Fields
+---
+title: How to use Calculated Fields
+_description: Learn how to use Calculated fields and all their types to create a more precise data visualization.
+---
+
+# Calculated Fields
 
 Analytics allows you to define new fields in the data set, named calculated
 fields. These fields are created by using expressions (formulas). An
 expression can be a combination of existing field(s), constant values
 and:
 
-  - [predefined functions](#predefined-functions), and/or
+  - [predefined functions](#predefined-functions) and/or
 
   - [simple math calculations and other functions that are not predefined](#without-predefined-functions).
 
@@ -17,19 +22,19 @@ There are two types of calculated fields:
   - [post-calculated](#postcalculated-fields).
 
 <a name='precalculated-fields'></a>
-### Pre-Calculated Fields
+## Pre-Calculated Fields
 
 Pre-calculated fields are evaluated before executing data editor
 aggregations. This means in order to apply a certain formula, Analytics will go through every record in your field's dataset once or several times. Because of this, pre-calculation is likely to be underperforming in terms of speed when working with large datasets.
 
-To add a new pre-calculated field, click/tap the *+ button* in the
-*Fields* panel:
+To add a new pre-calculated field, click/tap the **+ button** in the
+*Fields* panel and choose **Calculated Field**:
 
-<img src="images/pre-calculated-field-button.png" alt="Pre-calculated field button" width="100%"/>
+<img src="images/calculated-field-option.png" alt="Pre-calculated field option" class="responsive-img" width="85%"/>
 
 The *New Calculated Field* screen will open:
 
-<img src="images/new-calculated-field-screen.png" alt="New calculated field screen" width="100%"/>
+<img src="images/new-calculated-field-dialog.png" alt="New calculated field dialog" class="responsive-img" width="85%"/>
 
 Here you will need to:
 
@@ -45,7 +50,7 @@ Here you will need to:
 The new pre-calculated field will show up at the bottom of your *Fields*
 list:
 
-<img src="images/new-calculated-field-bottom-list.png" alt="New calculated field shown at the bottom of fields list" width="100%"/>
+<img src="images/new-calculated-field-visualization-example.png" alt="New calculated field shown in the column placeholder and in the visualization" class="responsive-img" width="85%"/>
 
 In the example above, the new calculated field is used with a grid
 visualization where no aggregation is being applied on the data fields.
@@ -54,7 +59,7 @@ aggregation (e.g. summarization) will be applied to the already
 calculated records in the pre-calculated field.
 
 <a name='postcalculated-fields'></a>
-### Post-Calculated Fields
+## Post-Calculated Fields
 
 Post-calculated fields can be created when working with *Pivot tables*
 and other visualizations, which execute an aggregation on the data
@@ -66,12 +71,12 @@ To create a post calculated field you will need to:
 1.  Create a visualization (or a *Pivot table*) by adding fields from
     your data source in the *Data editor*.
 
-    <img src="images/post-calculated-fields-data-editor.png" alt="Post calculated fields in the Data editor" width="100%"/>
+    <img src="images/post-calculated-field-example.png" alt="Post calculated fields in the Data editor" class="responsive-img" width="85%"/>
 
 2.  Click/tap the *F(x)* button next to *Values* to open the *New
     Calculated Field* screen:
 
-    <img src="images/post-calculated-field-new-calculated-field-screen.png" alt="Post calculated field new calculated field screen" width="100%"/>
+    <img src="images/post-calculated-field-new-calculated-field-dialog.png" alt="Post calculated field new calculated field screen" class="responsive-img" width="85%"/>
 
 3.  Give a name to your new calculated field and apply a formula to the
     summarized value(s). Pay attention that the list of *Values*
@@ -85,16 +90,16 @@ the *+* button next to *Values*. Since post-calculated fields are
 created only by using aggregated values, you will first need to select
 an aggregation from the dropdown list to be executed on the data field.
 
-<img src="images/post-calculated-field-new-calculated-field-screen-adding-fields.png" alt="Adding fields in the calculated field screen" width="100%"/>
+<img src="images/post-calculated-field-new-calculated-field-dialog-adding-fields.png" alt="Adding fields in the calculated field screen" class="responsive-img" width="85%"/>
 
 You can also skip *step 1*, create your post-calculated fields first or
 use only post-calculated fields in your visualization.
 
 Post-calculation tends to perform better than pre-calculation when
-working with large datasets
+working with large datasets.
 
 <a name='predefined-functions'></a>
-### Using the Predefined Analytics Functions
+## Using the Predefined Analytics Functions
 
 For both pre-calculated and post-calculated fields, you can use one of
 the available functions within Analytics:
@@ -115,6 +120,8 @@ the available functions within Analytics:
     [DAY](date.html#day),
     [FORMATDATE](date.html#formatdate),
     [FQUARTER](date.html#fquarter),
+    [SEMESTER](date.html#semester),
+    [FSEMESTER](date.html#fsemester),
     [FYEAR](date.html#fyear),
     [HOUR](date.html#hour),
     [MILLISECOND](date.html#millisecond),
@@ -122,6 +129,9 @@ the available functions within Analytics:
     [MONTH](date.html#month),
     [MONTHNAME](date.html#monthname),
     [MONTHSHORTNAME](date.html#monthshortname),
+    [APPLYTIMEZONE](date.html#applytimezone),
+    [CURRENTTIMEZONE](date.html#currenttimezone),
+    [DATETIMEFROMUNIXTS](date.html#datetimefromunixts),
     [NOW](date.html#now),
     [QUARTER](date.html#quarter),
     [SECOND](date.html#second),
@@ -174,14 +184,14 @@ the available functions within Analytics:
 >IF conditions have known limitations when included in aggregation functions in pre-calculated fields. The need to go through every record that many times, trying to check an IF condition within an aggregation formula causes underperformance issues, hence it's not supported.
 
 <a name='without-predefined-functions'></a>
-### Creating Calculated Fields without using the predefined functions
+## Creating Calculated Fields without using the predefined functions
 
 You can also create Calculated Fields without using any of the
 predefined functions; for instance, for simple math calculations like
 subtractions, divisions, additions or multiplications. In [this table](samples.md), you will find some examples that do
 not use the predefined functions.
 
-### What to consider when using the Analytics functions
+## What to consider when using the Analytics functions
 
   - **Text strings should be included between quotation marks**.
     Examples include locale ("en") and date formats ("dd/mm/yyyy").

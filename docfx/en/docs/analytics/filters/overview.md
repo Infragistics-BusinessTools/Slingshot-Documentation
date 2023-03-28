@@ -1,4 +1,9 @@
-## Filters
+---
+title: Filters in Slingshot Analytics – All You Need to Know
+_description: Learn all about dashboard filters, add datasets and make each visualization unique in Slingshot Analytics.
+---
+
+# Filters
 
 Dashboard filters allow you to slice the contents of visualizations in a
 dashboard all at once. When you add datasets to the dashboard filters
@@ -11,7 +16,7 @@ be added to enable binding all visualizations of a dashboard. In this
 scenario, the contents of each visualization can be filtered by location
 by the user browsing the information in that dashboard.
 
-<img src="images/dashboard-filters-binding.png" alt="Dashboard filter by location added in the Dashboard editor" width="100%"/>
+<img src="images/sample-dashboard-filters.png" alt="Dashboard filter by location added in the Dashboard editor" class="responsive-img" width="85%"/>
 
 Analytics also supports activating a Date Range as a Dashboard Filter,
 which enables the filtering of all visualizations by a specific period

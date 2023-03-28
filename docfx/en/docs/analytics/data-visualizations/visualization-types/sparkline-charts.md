@@ -1,22 +1,27 @@
-## Sparkline Charts
+---
+title: How to Create Sparkline Charts Visualization 
+_description: Find out how to create and use Sparkline Charts visualization in Slingshot Analytics.
+---
+
+# Sparkline Charts
 
 Sparkline charts are small charts plotted within a grid chart, without
-any axes, labels, or other chart elements. They are meant to represent
+any axes, labels or other chart elements. They are meant to represent
 trends and their progression in a given date range.
 
-<img src="images/sparkline-chart-dashboard-view.png" alt="Sparkline Chart sample" width="100%"/>
+<img src="images/sparkline-chart-example.png" alt="Sparkline Chart sample" class="responsive-img" width="87%"/>
 
 The first column remains fixed in the Visualizations Editor, allowing
 you to scroll through the different columns in your information.
 
-<img src="images/sparkline-chart-visualizations-editor.png" alt="SparklineChartVisualizationsEditor\_All" width="100%"/>
+<img src="images/sparkline-chart-visualization-editor.png" alt="Using the sparkline chart in the visualization editor" class="responsive-img" width="87%"/>
 
-### Advanced Sparkline Settings
+## Advanced Sparkline Settings
 
 If you access the **Settings** section of the visualizations editor, you
 will be able to modify several settings, including:
 
-<img src="images/sparkline-advanced-chart-settings.png" alt="SparklineAdvancedChartSettings\_All" width="100%"/>
+<img src="images/sparkline-chart-settings.png" alt="Settings for the sparkline chart" class="responsive-img" width="87%"/>
 
   - **Alignment** for texts, numbers, and dates.
 

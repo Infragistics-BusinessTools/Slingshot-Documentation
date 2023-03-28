@@ -1,95 +1,113 @@
-## Welcome to the Slingshot Help!
+---
+title: Slingshot Help – Start Here
+_description: Get started with the Slingshot features you soon won’t be able to live and work without.
+---
 
-Slingshot is all about effective collaboration and delivering results on time. It helps you run productive teams across different platforms, while making sure your team is aligned and they back their decisions with real data.  
-Enabling your team to work and collaborate in one place is a tremendous boost to visibility, accountability and trust. All well-known pillars that can be found in high performing teams.
+# Welcome to the Slingshot Help Center
 
-<img src="../images/welcome-main.png" alt="A Personal Overview within Slingshot" width="100%"/>
+Slingshot is the only digital workplace that connects everyone you work with to data – organizes projects, content and chats – to unleash the power of your team.
+
+<img src="../images/welcome-main.png" alt="A Personal Overview within Slingshot" class="responsive-img"/>
 
 So, how can Slingshot do all that for you? Take a look below...
 
-### Slingshot highlights
+## Slingshot highlights
 
-<h4 style="color:#2328B0;">Get quick access to your status and prioritize work across all workspaces</h4>
+##### *Create calm and efficiency across teams, departments, and external clients by making it easier to find and access information*.
 
-<img src="../images/welcome-overview-personal.png" alt="A Personal Overview within Slingshot" width="100%"/>
+With Slingshot you can eliminate the need to constantly switch been multiple applications to find the information you are looking for. Only Slingshot truly aggregates data analytics, project and information management, chat, and goals-based strategy benchmarking – all in one, intuitive app with the people that you work with every day.
 
-Above, you can see that one place where you can visualize your work and organize yourself.  
-All your tasks can be found here and also bookmarks, which are very useful to keep at hand links relevant to you.  
-With bookmarks you can quickly navigate to your workspaces, discussions, dashboards, among others.
+<img src="../images/welcome-workspace-overview.png" alt="Showing a Workspace Overview within Slingshot" class="responsive-img"/>
 
-<h4 style="color:#2328B0;">Keep everyone in the know and make working with others easier</h4>
 
-<img src="../images/welcome-overview-subworkspace.png" alt="Workspace within workspace Overview" width="100%"/>
+##### *Leverage actionable insight by making it easier for your team to utilize data to improve productivity*.
 
-Encourage transparency and trust by making it easy for others to find information. Working together, with strong collaboration and support for each other is possible, even with external clients.
+Slingshot comes packed with a full self-service business intelligence solution. Connect to your data quickly and create beautiful dashboards so you can share insights with your team. And it doesn't stop there, dashboards work seamlessly with Slingshot's Tasks and Collaboration features, making it easier than ever to truly turn insights into action.  
 
-<h4 style="color:#2328B0;">Run higher-performing teams and successful projects</h4>
+<img src="../images/welcome-analytics.png" alt="Showing a dashboard to highlight how analytics works" class="responsive-img"/>
 
-<img src="../images/content-sub-workspace.png" alt="Content in a Slingshot workspace" width="100%"/>
+##### *Achieve better results when everyone is focused and engaged on the same objectives and strategies*.
 
-Slingshot empowers your teams to achieve greater success by keeping everyone aligned, engaged and focused on their work. Workspaces provide your teams with tools to communicate, support each other, and access the resources needed to do their work.
+When everyone is aligned on the same goals, teams can work more strategically to achieve better results and ultimately exceed your business goals.
 
-<img src="../images/welcome-overview-subworkspace.png" alt="A Slingshot projext" width="100%"/>
+##### *Design a culture of ownership and responsibility with better workflow transparency*.
 
-People with expertise in many different areas, often from different teams and sometimes even from outside your organization work together towards a common objective in Slingshot. They can collaborate and communicate with each other, and everyone gets good visibility over a project and all its resources.
+When deadlines, conversations, and data are transparent for everyone to see, accountability will drive projects to be completed on time, so you can illuminate paths to success with smarter insights.
 
-<h4 style="color:#2328B0;">Get more work done with tasks and leverage their functionality and flexibility</h4>
+<img src="../images/welcome-task-timeline.png" alt="Showing the tasks' timeline" class="responsive-img"/>
 
-<img src="../images/welcome-tasks.png" alt="Workspace tasks within Slingshot" width="100%"/>
 
-Use tasks to your advantage to create a healthy work environment that embraces transparency while driving individual accountability.
-Tasks capture all the relevant information you need around a piece of work, including one or multiple assignees, subtasks, priority, start and due dates, and attachments. Plus, you can change how you see tasks as needed by choosing between Kanban, Grid view, and Timeline.
+## How can I get Slingshot?
 
-<h4 style="color:#2328B0;">Keep yourself informed with notifications</h4>
+Slingshot is available on any platform with a seamless experience no matter what device you are on – without sacrificing features. Get Slingshot on the Web, MacOS, Windows, iOS and Android today.  
 
-<img src="../images/welcome-notifications.png" alt="Notifications within Slingshot" width="100%"/>
+<br/>
+<br/>
 
-Get updates on any changes in workspaces, tasks, messages, and analytics. Learn when a task was assigned to you, that you were removed from a workspace, or that someone sent a message in a discussion thread you're following. You can be notified in different ways like pop up messages while using the app (in-app notifications), messages on mobile devices (push notifications), and email notifications.
+<div class="row row-eq-height">
+  <div class="col-sm-12 col-md-4 mb-3">
+    <div class="col h-100 p-4 text-center border rounded shadow-sm"><img src="https://wp-staging.slingshotapp.io/wp-content/uploads/2021/02/mobile-icon.svg" alt="Mobile" width="85" height="85" title="Download Apps" class="lazyloaded" data-was-processed="true" data-ll-status="loaded"><noscript><img src="https://wp-staging.slingshotapp.io/wp-content/uploads/2021/02/mobile-icon.svg" alt="Mobile" width="85" height="85" title="Download Apps"></noscript><p></p>
+    <h3 class="font-weight-bold">Mobile</h3>
+    <p class="px-2">Add and manage tasks on-the-go</p>
+    <p><a href="https://apps.apple.com/us/app/id1457353858" class="trackCTA" aria-label="Download Slingshot on iOS" data-xd-ga-action="Download" data-xd-ga-label="Slingshot iOS" target="_blank" rel="noopener"><img class="mb-2 lazyloaded" title="Slingshot on iOS App Store" src="https://wp-staging.slingshotapp.io/wp-content/uploads/2021/02/app-store-badge.svg" alt="Slingshot on iOS App Store" width="120" height="33" data-was-processed="true" data-ll-status="loaded"><noscript><img class="mb-2" title="Slingshot on iOS App Store" src="https://wp-staging.slingshotapp.io/wp-content/uploads/2021/02/app-store-badge.svg" alt="Slingshot on iOS App Store" width="120" height="33"></noscript></a><br>
+    <a href="https://play.google.com/store/apps/details?id=com.infragistics.slingshot" class="trackCTA" aria-label="Download Slingshot on Android" data-xd-ga-action="Download" data-xd-ga-label="Slingshot Android" target="_blank" rel="noopener"><img title="Slingshot on Android's Google Play Store" src="https://wp-staging.slingshotapp.io/wp-content/uploads/2021/02/google-play-badge.svg" alt="Slingshot on Android's Google Play Store" width="156" height="66" class="lazyloaded" data-was-processed="true" data-ll-status="loaded"><noscript><img title="Slingshot on Android's Google Play Store" src="https://wp-staging.slingshotapp.io/wp-content/uploads/2021/02/google-play-badge.svg" alt="Slingshot on Android's Google Play Store" width="156" height="66"></noscript></a></p>
+    </div>
+  </div>
+  <div class="col-sm-12 col-md-4 mb-3">
+    <div class="col h-100 p-4 text-center border rounded shadow-sm"><img src="https://wp-staging.slingshotapp.io/wp-content/uploads/2021/02/desktop-icon.svg" alt="Desktop" width="85" height="85" title="Download Apps" class="lazyloaded" data-was-processed="true" data-ll-status="loaded"><noscript><img src="https://wp-staging.slingshotapp.io/wp-content/uploads/2021/02/desktop-icon.svg" alt="Desktop" width="85" height="85" title="Download Apps"></noscript><p></p>
+    <h3 class="font-weight-bold">Desktop</h3>
+    <p class="px-2">Launch Slingshot from your dock</p>
+    <p><a href="https://apps.apple.com/us/app/id1457353858" class="trackCTA" aria-label="Download Slingshot on Mac OS" data-xd-ga-action="Download" data-xd-ga-label="Slingshot Desktop macOS" target="_blank" rel="noopener"><img class="mb-3 lazyloaded" title="Slingshot on Mac OS App Store" src="https://wp-staging.slingshotapp.io/wp-content/uploads/2021/02/mac-app-store-badge.svg" alt="Slingshot on Mac OS App Store" width="156" height="41" data-was-processed="true" data-ll-status="loaded"><noscript><img class="mb-3" title="Slingshot on Mac OS App Store" src="https://wp-staging.slingshotapp.io/wp-content/uploads/2021/02/mac-app-store-badge.svg" alt="Slingshot on Mac OS App Store" width="156" height="41"></noscript></a><br>
+    <a href="https://dl.infragistics.com/products/Infragistics/Slingshot/Slingshot.appinstaller" class="trackCTA" aria-label="Download Slingshot on Windows" data-xd-ga-action="Download" data-xd-ga-label="Slingshot Desktop Windows">Download for Windows</a></p>
+    </div>
+  </div>
+  <div class="col-sm-12 col-md-4 mb-3">
+    <div class="col h-100 p-4 text-center border rounded shadow-sm"><img src="https://wp-staging.slingshotapp.io/wp-content/uploads/2021/02/web-icon.svg" alt="Mobile" width="85" height="85" title="Download Apps" class="lazyloaded" data-was-processed="true" data-ll-status="loaded"><noscript><img src="https://wp-staging.slingshotapp.io/wp-content/uploads/2021/02/web-icon.svg" alt="Mobile" width="85" height="85" title="Download Apps"></noscript><p></p>
+    <h3 class="font-weight-bold">Web</h3>
+    <p class="px-2">Manage your tasks from any browser</p>
+    <p><a href="https://my.slingshotapp.io" class="trackCTA" data-xd-ga-action="Download" data-xd-ga-label="Slingshot Web" target="_blank" rel="noopener">Go to Web App</a></p>
+    </div>
+  </div>
+</div>
 
-<h4 style="color:#2328B0;">Access real-time data in context and make better decisions</h4>
+## Supported Languages
 
-<img src="../images/welcome-dashboards.png" alt="Data visualizations within Slingshot" width="100%"/>
+<style type="text/css">
 
-Turn your data into insights by creating and sharing data visualizations. Analytics makes it easy for collaborators to get actionable insights by looking at shared analytics dashboards in their workspaces.  
-You can connect to the most popular data sources such as SharePoint Online, Google Drive, OneDrive, Microsoft Analysis Services, Microsoft SQL Server, CRM, and many more.  
-The dashboards in Analytics are composed of one or more visualizations. And you can build your dashboards choosing between a huge array of visualizations, including grid, gauges (bullet graph, KPI, linear), charts (category, financial, scatter, bubble, treemap), and even maps (choropleth and scatter maps). Category charts include column, bar, area, pie, stacked column, and many more.
+ul.horizontal{
+    width: 900px;
+}
 
-<h4 style="color:#2328B0;">Real-time, organized communication with workspaces members</h4>
+ul.horizontal li{
+    float: left;
+    width: 200px;
+    padding: 2px 0px;
+}
 
-<img src="../images/welcome-discussions.png" alt="Discussions within Slingshot" width="100%"/>
+ul.horizontal:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
 
-Discussions can be used by the members of an organization, or a workspace. Organized in different threads discussions ensure all your communication and collaboration tools are in one place, helping remote teams stay productive no matter where they are.
-With Slingshot's notifications, you can get informed when someone sends a message to you or in a discussion thread you're following.
+<div>
+<ul class="horizontal">
+<li>Chinese(simplified)</li>
+<li>Chinese(traditional)</li>
+<li>Dutch</li>
+<li>English</li>
+<li>French</li>
+<li>German</li>
+<li>Italian</li>
+<li>Japanese</li>
+<li>Korean</li>
+<li>Malaysian</li>
+<li>Portuguese</li>
+<li>Russian</li>
+<li>Spanish</li>
+</ul>
+</div>
 
-<h4 style="color:#2328B0;">Collaborate swiftly and socialize with your colleagues more</h4>
+>[!NOTE] In case a device is set to a language that is not in the list, the default language will be English. 
 
-<img src="../images/welcome-chat.png" alt="An example showing a chat between two users" width="100%" />
-
-The importance of communication for the projects' success is indisputable. Socializing with your co-workers, however, is often underestimated and hard if you are working remotely. Slingshot's chat is here to help you socialize and make your collaboration stronger! 
-
-With Slingshot's chat, you'll be able to have multiple conversations going on at the same time while mixing in text formatting, attachments, emojis, and links. You can have private and group chats and even invite external collaborators. Get some work done swiftly, but don't miss those great water cooler conversations even on a remote team! 
-
-<h4 style="color:#2328B0;">Connect to cloud storages and share content with colleagues or partners</h4>
-
-<img src="../images/board-sample.png" alt="Board example with several sections and groups" width="100%"/>
-
-Slingshot helps you focus on collaboration instead of managing content. You can access content from many cloud providers, using boards to organize that content and securely share it with others.  
-Everyone'll always have the most up-to-date version of documents, eliminating the need to send documents back and forth.
-
-### Where can I get Slingshot?
-
-Slingshot offers you a seamless, almost identical experience no matter what device you are on.
-You can use a web browser or get native applications on iOS, Android, and Desktop, making it easy for you to run productive teams across different devices and platforms.
-
-[Go to Slingshot **Web**](https://my.slingshotapp.io/).
-
-[Get Slingshot **native apps** (Android, iOS, desktop)](https://www.slingshotapp.io/download-apps).
-
-Below you can find the versions supported for each platform:
-
-| PLATFORM | SUPPORT |
-| --- | --- |
-|**Android**|Android 6.0 (Marshmallow) or higher (except the Kindle Fire).|
-|**Desktop**|Any Windows with .NET Framework 4.6 installed. For more information on .NET Framework system requirements, check [this Microsoft article](https://docs.microsoft.com/en-us/dotnet/framework/get-started/system-requirements).|
-|**IOS**|iOS 13 or higher.|
-|**Web**|Chrome, Firefox, Microsoft Edge (excluding Microsoft Edge Legacy), Safari. Web browsers are not supported in mobile devices.|

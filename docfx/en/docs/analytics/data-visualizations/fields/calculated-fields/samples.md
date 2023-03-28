@@ -1,4 +1,9 @@
-## Samples, Tips, and Useful Cases
+---
+title: Tips, Samples and Useful Cases for Calculated Fields
+_description: Check out some useful tips and samples, as well as useful cases you can use in Slingshot data visualization.
+---
+
+# Samples, Tips, and Useful Cases
 
 This topic includes the following information:
 
@@ -9,24 +14,22 @@ This topic includes the following information:
   - [YoY Analysis: Comparing Revenue Figures for a 2 Year Period](#yoy-analysis-revenue)
 
 <a name='basic-sample-expressions'></a>
-### Basic Sample Expressions
+## Basic Sample Expressions
 
 The following are a set of calculated field sample expressions.
 
 
 | Function Name              | Sample Dataset to Test Function                                                               | Expression                                                        | Sample Output                          |
 | -------------------------- | --------------------------------------------------------------------------------------------- | ----------------------------------------------------------------- | -------------------------------------- |
-| **Opposite Value**         | [HR Dataset](https://download.infragistics.com/slingshot/samples/HR_Dataset_2016.xlsx) | \-[Wage]                                                          | \-36,452.00 (for Joan Baez)            |
-| **Age**                    | [HR Dataset](https://download.infragistics.com/slingshot/samples/HR_Dataset_2016.xlsx) | (today()-[BirthDate])/365                                         | 46.12 (for Joan Baez)                  |
-| **Name & Department**      | [HR Dataset](https://download.infragistics.com/slingshot/samples/HR_Dataset_2016.xlsx) | [Fullname]& ", " &[Department]                                    | Joan Baez, Development (for Joan Baez) |
-| <span style="color: #800000" style="font-weight:bold">Sales Percentage</span>           | [Retail Store](https://download.infragistics.com/slingshot/samples/Retail-Store.xlsx)    | [Sales]\*100/sum([Sales])                                         | 7,20% (for Alabama)                    |
-| <span style="color: #004c00" style="font-weight:bold">Sales Percentage 2</span>         | [Retail Store](https://download.infragistics.com/slingshot/samples/Retail-Store.xlsx)    | [Sales2]\*100/sum([Sales2])                                       | 5,05% (for Alabama)                    |
-| **Sales Percentage Delta** | [Retail Store](https://download.infragistics.com/slingshot/samples/Retail-Store.xlsx)    | [Sales Percentage 2]-[Sales Percentage]/([Sales Percentage]\*100) | 4,05% (for Alabama)                    |
-| **Name starts with J**     | [HR Dataset](https://download.infragistics.com/slingshot/samples/HR_Dataset_2016.xlsx) | if(find("j",lower([Fullname]),1)=1,"Starts with J",0)             | Starts with J, 0                       |
-| **Deviation from Avg**     | [HR Dataset](https://download.infragistics.com/slingshot/samples/HR_Dataset_2016.xlsx) | [Wage]-average([Wage])                                            | \-50476.71 (for Joan Baez)             |
+| **Opposite Value**         | [HR Dataset](http://download.infragistics.com/reportplus/help/samples/HR%20Dataset_2016.xlsx) | \-[Wage]                                                          | \-36,542.00 (for Joan Baez)            |
+| **Age**                    | [HR Dataset](http://download.infragistics.com/reportplus/help/samples/HR%20Dataset_2016.xlsx) | (today()-[BirthDate])/365                                         | 50.13 (for Joan Baez)                  |
+| **Name & Department**      | [HR Dataset](http://download.infragistics.com/reportplus/help/samples/HR%20Dataset_2016.xlsx) | [Fullname]& ", " &[Department]                                    | Joan Baez, Development (for Joan Baez) |
+|**Sales Percentage** | [Sample Data](http://dl.infragistics.com/reportplus/reveal/samples/Samples.xlsx)    | [New Sales]*100/sum([New Sales]) | 9,26% (for Japan)                    |
+| **Name starts with J**     | [HR Dataset](http://download.infragistics.com/reportplus/help/samples/HR%20Dataset_2016.xlsx) | if(find("j",lower([Fullname]),1)=1,"Starts with J",0)             | Starts with J, 0                       |
+| **Deviation from Avg**     | [HR Dataset](http://download.infragistics.com/reportplus/help/samples/HR%20Dataset_2016.xlsx) | [Wage]-average([Wage])                                            | \-50476.71 (for Joan Baez)             |
 
 <a name='converting-unix-timestamps'></a>
-### Converting Unix TimeStamps to Usable Dates
+## Converting Unix TimeStamps to Usable Dates
 
 Unix times, defined in the seconds elapsed since January 1st, 1970
 ("Epoch" time) are particularly useful because they represent all
@@ -54,7 +57,7 @@ The timezone can be entered as a number, or you can use one of your
 fields with a number. In either case, it must be GMT time.
 
 <a name='yoy-analysis-revenue'></a>
-### YoY Analysis: Comparing Revenue Figures for a 2 Year Period
+## YoY Analysis: Comparing Revenue Figures for a 2 Year Period
 
 You can create calculated fields, for example, to carry out a simple YOY
 analysis.
@@ -63,7 +66,7 @@ Let's take a look at the following dashboard, which has the different
 divisions for a company and the revenue they represented during two
 different years.
 
-<img src="images/YoyAnalysisRevenue_All.png" alt="YoyAnalysisRevenue\_All" width="100%"/>
+<img src="images/yoy-analysis-revenue-all.png" alt="YoyAnalysisRevenue\_All" class="responsive-img" width="85%"/>
 
 You can compare the two figures by using the following calculated field.
 The "-1" is used to substract the total difference for the year.
@@ -72,4 +75,4 @@ The "-1" is used to substract the total difference for the year.
 
 You can then either keep the number, or [format it as a percentage](~/docs/analytics/data-visualizations/fields/field-settings.html#numeric-fields).
 
-<img src="images/YoyAnalysisPercentage_All.png" alt="YoyAnalysisPercentage\_All" width="100%"/>
+<img src="images/yoy-analysis-percentage-all.png" alt="Comparing Revenue Figures in yoy analysis while using percentage" class="responsive-img" width="85%"/>

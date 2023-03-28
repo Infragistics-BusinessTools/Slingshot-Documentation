@@ -1,14 +1,19 @@
-## Dropbox
+---
+title: How to configure Box as your data source in Slingshot
+_description: A roadmap to configuring, authorizing, and using Box for your visualizations.
+---
+
+# Dropbox
 
 Upon selecting Dropbox, you will see the following log in prompt.
 
-<img src="images/dropbox-login.png" alt="Dropbox login dialog" width="100%"/>
+<img src="images/dropbox-login.png" alt="Dropbox login dialog" class="responsive-img"/>
 
 Enter your login credentials and select *Sign In*.
 You will then see an
 authorization prompt; select *Allow* to grant the Analytics application access to files on your Dropbox cloud.
 
-### Supported Files
+## Supported Files
 
 When working within Analytics, you will be able to use a wide variety of
 files:

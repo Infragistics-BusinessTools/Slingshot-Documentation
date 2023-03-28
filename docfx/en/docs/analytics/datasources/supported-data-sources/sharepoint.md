@@ -1,26 +1,31 @@
-## SharePoint Online
+---
+title: How to set up and use SharePoint аs a Data Source 
+_description: Setting up and using SharePoint as a data source in Slingshot to advance your work.
+---
 
-### Connecting to SharePoint 
+# SharePoint Online
+
+## Connecting to SharePoint 
 
 Upon selecting SharePoint, you will see the following log in prompt.
 
-<img src="images/sharepoint-login.png" alt="SharePoint Login" width="100%"/>
+<img src="images/sharepoint-login.png" alt="SharePoint Login" class="responsive-img"/>
 
 Here you can choose to use the root SharePoint site in your Office365 account. You can also add a _subsite URL_ to directly start browsing its contents. Once connected to a SharePoint subsite, you will be able to quickly access it through your list in the _Select a Data Source_ dialog.
 
 <a name='supported-files'></a>
-### Supported Files
+## Supported Files
 
 When working within Analytics, you will be able to use a wide variety of files from your SharePoint site (subsites):
 
 * *Spreadsheets, JSON files & tabular data* (Excel - .xls, .xlsx; CSV, TSV), which you can use dynamically within Analytics to create chart visualizations.
 * *Other files* (including images or document files such as PDFs, texts, etc.), which will be displayed in a preview mode only.
 
-### Setting Up Your Data
+## Setting Up Your Data
 
 After logging in, you can start browsing your SharePoint data - subsites, libraries, folders, lists, and files (as shown below).
 
-<img src="images/sharepoint-browse-dialog.png" alt="A SharePoint site's browsing dialog showing Subsites, Libraries and lists" width="100%"/>
+<img src="images/sharepoint-browse-dialog.png" alt="A SharePoint site's browsing dialog showing Subsites, Libraries and lists" class="responsive-img"/>
 
 To create a dashboard, you can use the SharePoint data types, listed below.
 
@@ -29,7 +34,7 @@ To create a dashboard, you can use the SharePoint data types, listed below.
 
 2. *SharePoint lists* - you can use the items from all types of SharePoint lists. Set up a SharePoint list by selecting a _SharePoint View_.
 
-  <img src="images/sharepoint-list-data-set-up.png" alt="Setting up your SharePoint list" width="100%"/>
+  <img src="images/sharepoint-list-data-set-up.png" alt="Setting up your SharePoint list" class="responsive-img"/>
 
   >[!NOTE]
   >**Advanced settings - Items per Page.**
@@ -41,11 +46,11 @@ To create a dashboard, you can use the SharePoint data types, listed below.
 
     To do this, you need to open the library and click the _Use Metadata_ button at the top right corner.
 
-    <img src="images/sharepoint-library-metadata-button.png" alt="Use Metadata button in a Sharepoint library" width="100%"/>
+    <img src="images/sharepoint-library-metadata-button.png" alt="Use Metadata button in a Sharepoint library" class="responsive-img"/>
 
     Here you will find the metadata of the library presented as SharePoint lists that you can choose from.
 
-<img src="images/set-up-metadata-list.png" alt="Metadata presented as sharepoint lists" width="100%"/>
+<img src="images/set-up-metadata-list.png" alt="Metadata presented as sharepoint lists" class="responsive-img"/>
 
 >[!NOTE]
 >**Do not confuse Libraries' Metadata in Analytics with "managed metadata" in SharePoint!**

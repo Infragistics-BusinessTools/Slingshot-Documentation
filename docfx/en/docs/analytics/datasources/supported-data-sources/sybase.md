@@ -1,14 +1,17 @@
-## Sybase
+---
+title: How to Configure a Sybase Data Source in Slingshot
+_description: Learn how to configure your Sybase data source in Slingshot, retrieve it and use it in different dashboard views.
+---
+
+# Sybase
 
 >[!NOTE] **Limitations in Web**. In the *Analytics Web* app, you can connect only to publicly accessible Sybase addresses. If your Sybase address is restricted for the general public (private or hosted in the company's intranet, for example), you can use *Analytics Desktop*, *iOS* or *Android* to connect to it. The device where you're running Analytics needs to have access to this Sybase address. This limitation does not apply to *Analytics Embedded*.
 
-### Connecting to Sybases
+## Connecting to Sybases
 To configure a Sybase server data source, you will need to enter the
 following information:
 
-<img src="images/enter-sybase-server-details.png" alt="Configure Sybase database connection" width="100%"/>
-
-1.  **Default name** of the data source: Your data source name will be displayed in the list of accounts in the previous dialog. By default, Analytics names it *Sybase*. You can change it to your preference.
+<img src="images/add-sybase-as-data-source.png" alt="Configure Sybase database connection" width="50%" class="responsive-img"/>
 
 2.  [**Server**](#how-to-find-server): the computer name or IP address
     assigned to the computer on which the server is running.
@@ -21,19 +24,17 @@ following information:
     enter the credentials for your Sybase server or select existing ones
     if applicable.
 
-      - **Name**: the name for your data source account. It will be
-        displayed in the list of accounts in the previous dialog.
-
-      - *(Optional)* **Domain**: the name of the domain, if applicable.
-
-      - **Username**: the user account for the Sybase server.
+      - **Username**: the user account for the Sybase server or the name of the domain.
 
       - **Password**: the password to access the Sybase server.
+    
+    - **Alias**: the name for your data source account. It will be
+        displayed in the list of accounts in the previous dialog.
 
-  Once ready, select **Continue**.
+  Once ready, select **Add** and then **Add Server**.
 
 <a name='how-to-find-server'></a>
-### How to find your Server Information
+## How to find your Server Information
 
 You can find your server by following the steps below. Please note that
 the commands should be executed on the server.
@@ -53,35 +54,41 @@ that the commands should be executed on the server.
 | 2\. Type in **ipconfig**             | 2\. Type in **$ /bin/ifconfig**   | 2\. Select your connection.                                   |
 | **IPv4 Address** is your IP address. | **Inet addr** is your IP address. | The **IP Address** field will have the necessary information. |
 
-### Setting Up Your Data
+## Setting Up Your Data
 
-#### Working with Views 
+### Working with Views 
 
 With Analytics, you can retrieve Sybase data from entire tables, but you
 can also select a particular
 [view](http://infocenter.sybase.com/help/index.jsp?topic=/com.sybase.infocenter.dc32300.1570/html/sqlug/X29678.htm)
 that returns a subset of data from a table or a set of tables instead.
 
-<img src="images/sybase-views.png" alt="Select from Sybase views dialog" width="100%"/>
+<img src="images/sybase-views-list.png" alt="Select from Sybase views dialog" class="responsive-img" width="55%"/>
 
-The **Category Sales for 1997** view, for example, contains information on sales
-projections taken from one of the tables in the database.
+The **syscacheinfo** view, for example, contains information about the cache, taken from one of the tables in the database.
 
-<img src="images/sales-projection-sample.png" alt="Sales Projection Sample dashboard" width="100%"/>
+<img src="images/sybase-view-visualization.png" alt="Creating a visualization while using a sybase view" class="responsive-img" width="70%"/>
 
 For more information on views and Sybase, visit [this documentation website](http://infocenter.sybase.com/help/index.jsp?topic=/com.sybase.infocenter.dc32300.1570/html/sqlug/X29678.htm).
 
-#### Working with Stored Procedures
+### Working with Stored Procedures
 
 In Sybase, stored procedures allow users to run a set of query
-statements in a relational database with specific parameters. The
-following are just a set of sample stored procedures running in a test
-server with data from the master database:
+statements in a relational database with specific parameters. 
 
-<img src="images/sybase-stored-procedures.png" alt="Select from Sybase Stored Procedures dialog" width="100%"/>
+In this case, for example, the stored procedure requires users to set *@name* range value.
 
-In this case, for example, the stored procedure requires users to set some time range values.
-
-<img src="images/stored-procedure-sample-dates.png" alt="Stored Procedure select dates" width="100%"/>
+<img src="images/stored-procedure-parameters-sybase.png" alt="Stored Procedure select name" class="responsive-img" width="53%"/>
 
 For more information on Stored Procedures and Sybase, visit [this documentation website](http://infocenter.sybase.com/help/index.jsp?topic=/com.sybase.infocenter.dc32300.1570/html/sqlug/X39397.htm).
+
+## Working in the Visualization editor
+
+Once your data source has been added, you will be taken to the *Visualizations Editor*. Here you can build your dashboard. By default, the *Column* visualization will be selected. You can select it in order to choose another chart type.
+
+<img src="images/sybase-visualization-editor.png" alt="Using Sybase data to create a dashboard in the visualization editor" class="responsive-img" width="80%"/>
+
+When you are ready with your visualization, you can save it as a dashboard by clicking/tapping on the checkmark in the top right corner. In this case we saved the dashboard in **My Analytics** > **My Dashboards** > **Statistics**.
+
+<img src="images/sybase-my-analytics.png" alt="Sybase dashboard in My Analytics" class="responsive-img" width="80%"/>
+

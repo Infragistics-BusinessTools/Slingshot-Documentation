@@ -1,34 +1,39 @@
-## Data Sources
+---
+title: How to Connect to Data Sources in Slingshot 
+_description: Learn how to connect to different enterprise data sources and use them.
+---
 
+# Data Sources
 
-Data Sources are the places where your data comes from. Analytics provides
-you with the opportunity to connect to different enterprise data sources. You can choose from analytics tools, content managers, cloud services, CRMs,
-databases, spreadsheets, and public data sources.
+Data Sources are the places where your data comes from. Analytics provides you with the opportunity to connect to different enterprise data sources. You can choose from analytics tools, content managers, cloud services, CRMs,
+databases, spreadsheets and public data sources.
 
-The screenshot below displays a number of different data sources the user John Williams has connected to in his account.
+## Connecting to Data Sources
 
-<img src="images/sample-data-sources-screen.png" alt="Sample data sources" width="100%"/>
+To retrieve information from a data source and use it for your visualizations you need to connect to it first. Once you have connected to a data source, it will be saved in the *Data Sources* menu for quick selection next time you need it.
 
-### Connecting to Data Sources
+To connect to a data source, perform the steps below:
 
-To retrieve information from a data source and use it for your visualizations you need to connect to it first. Once you have connected to a data source, it will be saved in the _Select a Data Source_ menu (see the screenshot above) for quick selection next time you need it.
+1. Go to **My Analytics** or a workspace where you want to a create a dashboard. 
+2. Click/tap on the **+ Dashboard** or **Create Dashboard** *(My Analytics)* blue button.
 
-To connect to a data source, perform the steps below.  
+   <img src="images/data-sources-my-analytics.png" alt="Dashboard button in my analytics" class="responsive-img" width="70%" height="80%"/>
+3. In the *+ Visualization* dialog, you will see a list of recently used data sources. To create a new connection, select the **+ Data Source** button on the right.
 
-1. From the *Home screen*, click/tap the **+ New** blue button.
-   <img src="images/start-creating-dashboard-data-source.png" alt="Analytics's home screen" width="100%"/>
-2. In the _New Visualization_ dialog, you will see a list of recently used data sources. To create a new connection, select the **+ Data Source** button on the right.
-   <img src="images/creating-new-visualization.png" alt="Available data sources when creating a new visualization" width="100%"/>
-3. Select a data source provider from the dropdown list.
+   <img src="images/data-sources-screen.png.png" alt="Sample data sources" class="responsive-img" width="60%"/>
 
 After selecting a data source provider, you will be prompted to **configure** it. Not sure how to do this? Find out in the article about the chosen data source (see the list below).
 
+   - [Amazon Athena](~/docs/analytics/datasources/supported-data-sources/athena.md)
+
    - [Amazon Redshift](~/docs/analytics/datasources/supported-data-sources/redshift.md)
 
-   - [Box](~/docs/analytics/datasources/supported-data-sourcesbox.md)
+   - [Amazon S3](~/docs/analytics/datasources/supported-data-sources/amazon-s3.md)
+   - [Box](~/docs/analytics/datasources/supported-data-sources/box.md)
 
    - [Dropbox](~/docs/analytics/datasources/supported-data-sources/dropbox.md)
 
+   - [Google Ads](~/docs/analytics/datasources/supported-data-sources/google-ads.md)
    - [Google Analytics](~/docs/analytics/datasources/supported-data-sources/google-analytics.md)
 
    - [Google BigQuery](~/docs/analytics/datasources/supported-data-sources/google-bigquery.md)
@@ -43,9 +48,9 @@ After selecting a data source provider, you will be prompted to **configure** it
 
    - [Microsoft Azure Analysis Services](~/docs/analytics/datasources/supported-data-sources/microsoft-azure-analysis-services.md)
 
-   - [Microsoft Azure SQL Database](~/docs/analytics/datasources/supported-data-sources/azure-sql.md)*
-
    - [Microsoft Azure Synapse Analytics](~/docs/analytics/datasources/supported-data-sources/microsoft-azure-synapse-analytics.md)
+   
+   - [Microsoft Azure SQL Database](~/docs/analytics/datasources/supported-data-sources/azure-sql.md)*
 
    - [Microsoft Dynamics CRM](~/docs/analytics/datasources/supported-data-sources/microsoft-dynamics-crm.md)
 
@@ -71,17 +76,23 @@ After selecting a data source provider, you will be prompted to **configure** it
 
    - [SharePoint](~/docs/analytics/datasources/supported-data-sources/sharepoint.md)
 
+   - [Snowflake](~/docs/analytics/datasources/supported-data-sources/snowflake.d)
+
    - [Sybase](~/docs/analytics/datasources/supported-data-sources/sybase.md)*
 
    - [Web Resource](~/docs/analytics/datasources/supported-data-sources/web-resource.md)
 
    - [JSON files](~/docs/analytics/datasources/working-files/working-with-json-files.md)
-   - [Spreadsheets]((~/docs/analytics/datasources/working-files/working-with-spreadsheets.md))
+   
+   - [Spreadsheets](~/docs/analytics/datasources/working-files/working-with-spreadsheets.md)
 
->[!NOTE]
-> **Databases** (*) are not supported in the Web version of Analytics.
+## Filtering your Data Sources
 
-### Related Topics
+To filter your data sources, you can click on the filter button in the upper right corner.
+
+   <img src="images/data-sources-filter.png" alt="A dialog with filtering options" class="responsive-img" width="60%"/>
+
+## Related Topics
 
 - You received a dashboard that consumes data from a data source you still haven't connected to? See how to open it in the [Connecting a Dashboard to Its Data Source](connect-dashboard-to-data-source.md) topic.
 - You started creating a visualization, but changed your mind about the data source? Read how to connect to a different data source while you are in the Visualization Editor in [Changing the Data Source for a Visualization](changing-data-source-visualization.md).

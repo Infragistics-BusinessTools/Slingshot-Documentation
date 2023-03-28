@@ -1,38 +1,42 @@
-## Managing Your Data Source Credentials
+---
+title: How to Manage Your Data Source Credentials in Slingshot
+_description: A guide on how to access and manage all your credentials to data sources.
+---
+
+# Managing Your Data Source Credentials
 
 When configuring certain data sources in Analytics, you need to provide
 your account credentials for these services to access your information.
 These credentials are encrypted and **automatically stored** by Analytics for future use.
 
-To access and manage all your credentials, in the home screen, select: your **profile picture** (top right corner) > **Settings** > **Manage Analytics Credentials**.
+To access and manage all your credentials, select: your **profile picture** (top right corner) > **Settings** > **Data Source Credentials**.
 
+ <img src="images/data-source-credentials-settings.png" alt="A list of data source credentials in the settings menu" class="responsive-img" width="55%"/>
 
-### Adding New Account Credentials
+## Adding New Account Credentials
 
-In the _Manage Analytics Credentials_ section, you can create, edit and remove credentials for all your data sources accounts. To add new account credentials follow the instructions below.
+In the *Data Source Credentials* section, you can add and remove credentials for all your data sources accounts. To add new account credentials follow the instructions below.
 
-1. In _Manage Analytics Credentials_, click tap the **+ New** blue button (upper right corner).
-2. The *Account Details* menu opens:
+1. In **Data Source Credentials**, click/tap on the **+ New** blue button (upper right corner).
+2. The **Add Credentials** menu opens:
 
-  <img src="images/add-new-account-credentials.png" alt="Add New Account Credentials dialog" width="100%"/>
+  <img src="images/add-new-data-source-data-source-credentials.png" alt="Add New Account Credentials dialog" class="responsive-img" width="55%"/>
 
   Here, you need to fill in the following information:
 
-  -  **Name**: choose a name, which suggests the data source(s) you are going to access with these credentials. It will be displayed in the *Choose Credentials* dialog when connecting to a data source.
-
-  - *(Optional)* **Domain**: the name of the domain, if applicable.
-
-  - **Username**: the user account for the service.
+  - **Username/Domain**: the username or the name of the domain for the service.
 
   - **Password**: the password to access the service.
 
-3. Click/Tap **Create** to finish. You will find your newly saved credentials at the bottom of the list in _Manage Analytics Credentials_.
+  - **Alias**: choose a name, which suggests the data source(s) you are going to access with these credentials. It will be displayed in the list of accounts when connecting to a data source.
 
-### Using Your Stored Credentials
+3. Click/Tap on **Add** to finish the process. You will find your newly saved credentials at the bottom of the list in *Data Source Credentials*.
 
-Unless you remove them, the accounts' credentials stored in Analytics will always appear in the *Choose Credentials* screen when configuring a data source requiring credentials.
+## Using Your Stored Credentials
 
-<img src="images/choose-credentials-data-source.png" alt="Choose Credentials for a Data Source dialog" width="100%"/>
+Unless you remove them, the accounts' credentials stored in Analytics will always appear in the list of accounts when configuring a data source requiring credentials.
+
+<img src="images/choose-credentials-for-data-source.png" alt="Choose Credentials for a Data Source dialog" class="responsive-img" width="60%"/>
 
 > [!NOTE] **Useful tip!** Take your time to add and organize here all credentials that you intend to use with multiple data sources. 
 

@@ -1,4 +1,4 @@
-## Exporting Dashboards as PDF Documents
+# Exporting Dashboards as PDF Documents
 
 Analytics allows you to export your dashboard as a PDF document. Every
 visualization that is part of this dashboard will be displayed on a
@@ -9,9 +9,9 @@ select: the overflow menu ⇒ *Export* ⇒ *PDF*. The *Export Dashboard*
 dialog will open, allowing you to edit your document and annotate
 specific pages, so that you can tailor it to your needs.
 
-### Export Settings
+## Export Settings
 
-<img src="images/export-settings-pdf.png" alt="Settings for PDF document in the Export Dashboard menu" width="100%"/>
+<img src="images/export-pdf-options.png" alt="Settings for PDF document in the Export Dashboard menu" class="responsive-img" width="59%"/>
 
 In the *Export Dashboard* dialog you can manage the following settings:
 
@@ -31,15 +31,15 @@ In the *Export Dashboard* dialog you can manage the following settings:
         color of the pdf document) - here you can choose one of the
         following options:
 
-          - **Analytics**
+        - **Analytics**
 
-          - **User's organization/team** - your organization and all of
-            your teams having their branding (logo and color) set up are
+        - **User's organization/workspace** - your organization and all of
+            your workspaces having their branding (logo and color) set up are
             displayed as options. If you want to know how to
-            access/change your team's branding settings, please read the
-            [Managing Teams](~/docs/analytics/teams/managing-your-team.md) topic.
+            access/change your workspace's branding settings, please read the
+            [Managing Workspaces](~/docs/analytics/workspaces/managing-your-workspace.md) topic.
 
-          - **Custom** - select a color and upload a *logo* image of your choice.
+        - **Custom** - select a color and upload a *logo* image of your choice.
 
             >[!NOTE] **Requirements for logo images**. The image you upload for a logo must be no bigger than **5 MB** and one of the following formats: jpg, jpeg, png, gif.
 

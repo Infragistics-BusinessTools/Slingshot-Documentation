@@ -1,9 +1,14 @@
-## Choropleth Maps
+---
+title: How to Use Choropleth maps for Visualization
+_description: Find out how to use Choropleth maps to depict statistical data in geographical areas.
+---
+
+# Choropleth Maps
 
 Choropleth maps are widespread thematic maps meant to depict statistical data in divided geographical areas or regions. Each area on the map is filled with a uniform color in relation to a data variable.
 Further in this topic, areas on the map are also called "regions" or "shapes".
 
-<img src="images/choropleth-map-intro-example.png" alt="A choropleth map showing 2016 general elections in the US" width="100%"/>
+<img src="images/presidential-election-2016-map-example.png" alt="A choropleth map showing 2016 general elections in the US" class="responsive-img" width="85%"/>
 
 
 In Analytics, the map type displayed for the choropleth is a standard political map, i.e. the individual shapes in the map can be continents, countries, states, counties, political unions, etc.
@@ -18,7 +23,7 @@ Find how to set the color of your map in the [Choropleth Map Settings](settings-
 
 The choropleth map in Analytics also allows you to [drill down](#drill-down) through your hierarchical data.
 
-### Using the Choropleth Map Visualization
+## Using the Choropleth Map Visualization
 
 Typically, choropleth maps are used to present in a digestible manner public reporting, statistical analysis, and any other information, for which boundaries are important. The choropleths are great for displaying densities (ratios) of quantities, making comparisons of regions, examining trends, discovering patterns and anomalies. For example, you can use the choropleth to find regions on the US map with higher obesity rates, or show how homicide percentage vary across Europe.
 
@@ -28,13 +33,13 @@ If, for example, you compare traffic deaths in different countries only by raw c
 
 Below, you can see a map, showing traffic deaths per 100 000 population in Eastern Asia. Here, you can make realistic conclusions about the driving culture of Asian countries, avoiding the chance to be deluded by the population of bigger countries.
 
-<img src="images/road-traffic-deaths-eastern-asia-example.png" alt="A choropleth map of Eastern Asia showing traffic deaths per 100 000" width="100%"/>
+<img src="images/road-traffic-deaths-eastern-asia-example.png" alt="A choropleth map of Eastern Asia showing traffic deaths per 100 000" class="responsive-img" width="90%"/>
 
 
 Your choice of data for the choropleth map visualization highly depends on the insight you want to provide. If you aim to present the spread of a contagious disease through a region, then the use of raw counts may be more appropriate.
 
 <a name='location-data'></a>
-### Data Requirements for Location Data
+## Data Requirements for Location Data
 
 Analytics has a great variety of predefined maps available for your choropleth visualizations. The minimum information required to provide in your data set is:
 
@@ -47,58 +52,58 @@ To have your location column recognized by Analytics, provide the locations' ful
 
 Find more specific information about the Location format and requirements in [How to prepare Your Data for a Choropleth Map](location-data-requirements.md).
 
-### Creating a Choropleth Map
+## Creating a Choropleth Map
 
 In the example below, we will use a choropleth map to analyse the results of the last presidential elections (2016) in the United States.
 
-To follow this walkthrough, download the [2016 November General Election](https://download.infragistics.com/reveal/help/samples/2016_November_General_Election.xlsx) spreadsheet, upload it to a cloud provider and follow the steps below.
+To follow this walkthrough, download the [2016 November General Election](https://download.infragistics.com/slingshot/help/samples/2016_November_General_Election.xlsx) spreadsheet, upload it to a cloud provider and follow the steps below.
 
 1. Connect to the cloud provider where you uploaded the spreadsheet. For more information on adding a data source in Analytics, visit the [Data Sources](~/docs/analytics/datasources/overview.md) section.
 2. In the visualization editor, select the Choropleth Map visualization:
 
-  <img src="images/select-visualization-choropleth-map.png" alt="Select choropleth map visualization from the Change Visualization menu in the Visualization editor" width="100%"/>
+  <img src="images/chart-types-choropleth.png" alt="Select choropleth map visualization from the list of chart types" class="responsive-img" width="65%"/>
 
-3. In the _Choropleth Data_ section, select the US States map from the _Map_ dropdown  An outline of the United States map will be displayed on the screen.
+3. In the *Choropleth Data* section, select the US States map from the *Map* dropdown  An outline of the United States map will be displayed on the screen.
 
-  <img src="images/select-us-map.png" alt="Select choropleth map visualization from the Change Visualization menu in the Visualization editor" width="100%"/>
+  <img src="images/list-available-maps.png" alt="List of available maps" class="responsive-img" width="85%"/>
 
-4. In the _Location_ placeholder, drop the _State_ or _State Abv_ filed. Both of them contain a list of the US states' names.
+4. In the *Location* placeholder, drop the *State* or *State Abv* filed. Both of them contain a list of the US states' names.
 
-5. For _Values_, select the field containing the quantitative data you want to map. For this example, we will use the _Total Votes (%)_, containing the voting rates in every state.
+5. For *Values*, select the field containing the quantitative data you want to map. For this example, we will use the *Total Votes (%)*, containing the voting rates in every state.
 
-6. Format the _Value_ field to show percentage. Select the _Total Votes (%)_ under _Value_ > _Formatting_ > _Type_ > _Percent_. Find more about formatting fields in the [Field Settings](~/docs/analytics/data-visualizations/fields/field-settings.md) topic.
+6. Format the *Value* field to show percentage. Select the *Total Votes (%)* under *Value* > *Formatting* > *Type* > *Percent*. Find more about formatting fields in the [Field Settings](~/docs/analytics/data-visualizations/fields/field-settings.md) topic.
 
-7. _(Optional)_ Add a filter. For our example, drop the _year_ field in the _Data Filters_ placeholder. Click on the field, select _Filter type_ > _Select Values_ > _2016_.
+7. *(Optional)* You can add a filter when you choose a field in the *Data Filters* placeholder. 
 
-  <img src="images/presidential-election-2016-map.png" alt="Select choropleth map visualization from the Change Visualization menu in the Visualization editor" width="100%"/>
+As a result, you can see the USA map, divided into states. The larger the percent of voters in a state, the more intensive the blue color of the state is.
 
-As a result you can see the USA map, divided into states. The larger the percent of voters in a state, the more intensive the blue color of the state is.
+<img src="images/choropleth-visualization-example.png" alt="Choropleth map visualization" class="responsive-img" width="85%"/>
 
 <a name='map-color'></a>
-### Using the Map Color to Create a Multi-Color Choropleth Map
+## Using the Map Color to Create a Multi-Color Choropleth Map
 
-You can alternatively set the _Map Color_ property to control the color of each area on the map. This is useful to reflect things like which candidate or party had the most/least votes in an area.
+You can alternatively set the *Map Color* property to control the color of each area on the map. This is useful to reflect things like which candidate or party had the most/least votes in an area.
 
-<img src="images/using-color-choropleth-map.png" alt="A choropleth map using the color category" width="100%"/>
+<img src="images/color-choropleth-map-example.png" alt="A choropleth map using the color category" class="responsive-img" width="85%"/>
 
 In the example above, Donald Trump, Hilary Clinton, and "Other" are compared by votes in the 2016 elections. States are colored differently, depending on who won the most votes in the elections.
 
 To change the coloring condition, go to:
 
-_Settings_ > _Color based on_ > _Lowest Value_.
+*Settings* > *Color based on* > *Lowest Value*.
 
 <a name='drill-down'></a>
-### Drilling Up and Down Hierarchy Levels
+## Drilling Up and Down Hierarchy Levels
 
 You can drill up and down your choropleth map areas to dynamically uncover hierarchy levels of your location data.
 
-To enable the drill down option, you need to add more than one data field in the _Location_ placeholder to create subordinate levels. Adding counties under the US states as a new hierarchy level, for example, will allow you to see the big picture at state level and also explore finer details at county level.
+To enable the drill down option, you need to add more than one data field in the *Location* placeholder to create subordinate levels. Adding counties under the US states as a new hierarchy level, for example, will allow you to see the big picture at state level and also explore finer details at county level.
 
-Hovering over a shape on the map will highlight it, and a tooltip will appear (see below). Click on the _Drill down_ option to reveal the map for the next location hierarchy level.  
+Hovering over a shape on the map will highlight it, and a tooltip will appear (see below). Click on the *Drill down* option to reveal the map for the next location hierarchy level.  
 
 
-<img src="images/drill-down-option.png" alt="Drill down to tooltip shown for a state" width="100%"/>  
+<img src="images/drill-down-option-choropleth-map.png" alt="Drill down to tooltip shown for a state" class="responsive-img" width="85%"/>  
   
 >[!NOTE]
 >**Available Maps.**
->You can drill down into maps only if the map for the subordinate level is available. Find the available maps under _Map_ in the _Choropleth Data_ section.
+>You can drill down into maps only if the map for the subordinate level is available. Find the available maps under *Map* in the *Choropleth Data* section.

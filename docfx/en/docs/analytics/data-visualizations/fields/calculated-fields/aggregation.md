@@ -1,4 +1,9 @@
-## Aggregation Calculated Fields
+---
+title: How to Use Aggregation Calculated Fields in Slingshot
+_description: Learn how to use Aggregation formulas with different variants and tricks.
+---
+
+# Aggregation Calculated Fields
 
 
 Aggregation formulas are useful for you to work with your original data
@@ -16,7 +21,7 @@ In Analytics, aggregation calculated fields include:
     it.
 
 **Note:** *All samples included in the table below were created with the
-[HR Dataset 2016](https://download.infragistics.com/slingshot/samples/HR_Dataset_2016.xlsx)
+[HR Dataset 2016](http://download.infragistics.com/reportplus/help/samples/HR%20Dataset_2016.xlsx)
 spreadsheet.*
 
 The functions included in the aggregation category are:
@@ -108,13 +113,13 @@ The functions included in the aggregation category are:
 
 
 <a name='aggregation-if-condition'></a>
-### Calculated Fields with IF Conditions
+## Calculated Fields with IF Conditions
 
 Using a regular function (which needs an `expression`) with an
 `if-condition` means that the results you get need to meet a certain
 criteria, which will be defined within your condition.
 
-#### Syntax
+### Syntax
 
 By default, you will see the following structure when you select any of
 the functions with the "IF" suffix.
@@ -130,7 +135,7 @@ There are two arguments that you will need to configure:
     the condition your expression needs to meet for the aggregation to
     be calculated.
 
-#### Basic Samples
+### Basic Samples
 
 For example, let's take a look at the example in the table above:
 
@@ -154,7 +159,7 @@ Where:
 | sumif (…​)    | [Wage]      | [Department]="Development" |
 
 <a name='nested-if-conditions'></a>
-#### Sample with Nested IF conditions
+### Sample with Nested IF conditions
 
 You can use nested if conditions by preceding them with a logical
 operator (AND, OR).

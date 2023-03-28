@@ -1,4 +1,9 @@
-## Ad-Hoc Hierarchies
+---
+title: Slingshot Ad-hoc Hierarchies – Add, Create and Analyze Faster
+_description: Create new hierarchies in Slingshot and analyze your data in charts, gauges, and grid views.
+---
+
+# Ad-Hoc Hierarchies
 
 
 While Analytics creates hierarchies for Year-Month-Date date fields
@@ -7,7 +12,7 @@ hierarchies allow users to analyze the data in charts, gauges, and grid
 views, allowing users to create new hierarchies with the fields located
 in the **Rows** placeholder of the data editor.
 
-<img src="images/ad-hoc-hierarchies_All.png" alt="Ad Hoc Hierarchies example in the Visualization editor" width="100%"/>
+<img src="images/ad-hoc-hierarchies-example.png" alt="Ad Hoc Hierarchies example in the Visualization editor" class="responsive-img" width="85%"/>
 
 This feature applies to plain data sources (for example, SQL tables,
 Excel spreadsheets or CSV files) and not to multidimensional data
@@ -16,20 +21,20 @@ defined on the server side, and Analytics supports the expand and drill
 operations.
 
 >[!NOTE]
->Ad-hoc hierarchies are **not supported** in text and Radial Gauges, and in web, grid charts, and text views.
+>Ad-hoc hierarchies are **not supported** in *Text*,  *Circular* *Image*, *Grid* and *Text View* charts.
 
-### Enabling Ad-Hoc Hierarchies
+## Enabling Ad-Hoc Hierarchies
 
 To enable ad-hoc hierarchies, just drag and drop a field in the **Add Hierarchy** section of the *Rows* placeholder in the data editor. When you do this, the structure and behavior of the data table will change.
 
-<img src="images/reveal-adhoc-hierarchies_all.png" alt="Analytics Ad-hoc Hierarchies table" width="100%"/>
+<img src="images/ad-hoc-hierarchy-pivot-chart.png" alt="Analytics Ad-hoc Hierarchies table" class="responsive-img" width="85%"/>
 
 As seen in the screenshot above, a single column will replace multiple
 columns. In the example presented in the screenshot, you not only can
 drill up and down, but you can also expand each *Department* to show the
 *Office*.
 
-### Supported Visualizations
+## Supported Visualizations
 
 Ad-hoc hierarchies can be added to all visualizations ***except*** for
 the following ones:

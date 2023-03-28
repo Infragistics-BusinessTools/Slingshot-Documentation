@@ -1,11 +1,16 @@
-## Pivot Table
+---
+title: How to Create Pivot Table Visualization
+_description: Find out how to create and use Pivot Table visualization in Slingshot Analytics.
+---
+
+# Pivot Table
 
 
 The Pivot Table visualization allows users to aggregate information by
 dropping fields in the corresponding placeholders of the *Data*
 sections.
 
-<img src="images/pivot-table-visualizations.png" alt="Pivot Table Visualization" width="100%"/>
+<img src="images/pivot-table-visualizations.png" alt="Pivot Table Visualization" class="responsive-img"/>
 
 When a field is added to the rows, columns, or values data editor
 placeholders, selecting the field displays the summarized settings of
@@ -19,7 +24,7 @@ that field:
     ability to choose the level of detail in the summarization (day,
     month, year).
 
-### What is a Pivot Table?
+## What is a Pivot Table?
 
 A Pivot Table is a data summarization tool, which among other functions
 allows you to automatically count, average and total the data stored in

@@ -1,40 +1,37 @@
-## Notifications
+---
+title: How to Manage and Use Slingshot Notifications
+_description: Get familiar with Slingshot notifications and how to modify them according to your preferences.
+---
 
-A notification can be defined as an indicator that a certain event has happened. This is a fairly common feature in smartphones, applications, and websites, providing new information to the user.
+# Notifications
 
-Sometimes notifications can become overwhelming, as an application can consistently send you  notifications that are not worthy of your attention. In Slingshot, we definitely want to avoid that feeling, so you start with cautious notifications settings. In any case, you can always modify the settings according to your preferences.
+Notifications make sure that nothing goes missed in Slingshot and keep you on top of things that need your attention.
 
-### So, what's a Slingshot notification?
+<img class="responsive-img" src="../images/notifications-example.png" alt="Showing the Notifications panel within Slingshot" class="responsive-img" width="65%" />
 
-It's an auto-generated indicator that is sent to you to let you know a certain event has happened. There are three different types of notifications, in-app, push, and email. This means that you can get a message that pops up while using Slingshot (in-app notification), a message that pops up on a mobile device (push notification), or even an email. As you can get Slingshot on any platform, tweaking those settings is important to customize your experience.
 
-### Stay informed with notifications
+## Types of Notifications
+Notifications come in the following three forms: 
+- **In-App** – Notifications displayed within the app in the Notifications panel, located in the top right (bell icon).
+- **Push** - These notifications are clickable pop-up messages displayed when you are not using the app. They will be shown on your mobile device or on your desktop screen (also called "banner" notifications).
+- **Email** - Notifications delivered to the e-mail address associated with your account.
+Customizing your Notifications
+You can easily change what you are getting notifications for in Slingshot so you only get alerted for what is most important to you. By going into your settings and then the notification tab you can edit the notification you receive. Alternatively, you can use the overflow menu in the Notifications panel.
 
-Notifications are designed to keep you updated of any changes in workspaces, tasks, messages, mentions, and dashboards. You can learn, among others, that a task was assigned to you, that you are removed from a workspace, or even that someone sent a message in a discussion thread you're following.
+<img class="responsive-img" src="../images/notifications-settings.png" alt="Showing the Notifications panel within Slingshot" class="responsive-img" width="65%" />
 
-You can access *Notifications* on the top right of the screen as shown below.
+In the Notifications panel, select the pencil icon to see the details of each category or toggle on/off an entire category.
 
-<img src="../images/notifications-panel-opened.png" alt="Notifications panel opened in Slingshot" width="50%"/>
+Additionally, you can restore the default settings with the *Reset to default* option at the very bottom.
 
-Within the *Notifications* panel, you can use the *Mark all as read* option at the top. You can also use the overflow menu next to each notification to *Mute* it or *Mark as Read/Unread* (see the screenshot below).
+<img class="responsive-img" src="../images/notifications-reset-button.png" alt="Reset to default button" class="responsive-img" width="54%" />
 
-<img src="../images/notifications-panel-overflow.png" alt="Notifications panel opened in Slingshot, using the overflow" width="50%"/>
+## Using the Notifications Panel
+Here you will find updates about workspaces, tasks, messages, mentions, and analytics dashboards. This will keep you up to date with on tasks that have been assigned to you, if you were removed from a workspace, or even if someone sent a message in a discussion thread you're following.
+You can access the Notifications panel by clicking the bell icon in the top right corner.
 
-### How can I change my notifications settings?
+Within the Notifications panel, notifications are shown in groups that you can mute/unmute or mark as read/unread each group separately by using the overflow menu on the right.
 
-There are three different types of notifications, in-app, push, and email. In-app notifications are displayed within the app in a Notifications panel. Push notifications are displayed as texts near the notification icon. And emails are delivered to the e-mail address associated with your account.
+<img class="responsive-img" src="../images/notifications-overflow-settings.png" alt="Showing the Notifications overflow settings within Slingshot" class="responsive-img" width="25%" />
 
-You can change your notification settings by going to your account settings and selecting the *Notifications* tab. 
-Alternatively, you can open the Notifications panel and select *Settings* from the overflow menu in the upper right corner (see in the screenshot below): 
-
-<img src="../images/notifications-settings-location.png" alt="Notifications Settings inside the Notification panel" width="50%"/>
-
- You will be navigated to the *Notifications* tab in your account settings:
-
-<img src="../images/user-settings-notifications.png" alt="Notifications Settings menu opened in Slingshot" width="100%"/>
-
-Finally, for each category you can edit the settings as shown below or use the switch to turn them off entirely.
-
-<img src="../images/edit-notifications-settings.png" alt="Editing one of the items in the Notifications Settings tab" width="100%"/>
-
-The *language* option at the bottom of the categories list allows you to choose between 13 languages for your notifications. 
+The Notifications panel shows all notifications by default, but you can choose to see only Unread notifications or @mentions. To do this, go to the top of the panel and select Showing: All to open the dropdown and then select another value.

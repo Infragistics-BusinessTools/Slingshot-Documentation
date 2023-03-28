@@ -1,16 +1,21 @@
-## Data Visualizations
+---
+title: Data Visualizations in Slingshot – All You Need to Know  
+_description: An overview of how data visualizations work in Slingshot Analytics and how to customize them.
+---
+
+# Data Visualizations
 
 Analytics helps you get the most insight possible out of business data by providing a variety of visualizations.
 
-### What is a Visualization?
+## What is a Visualization?
 
 For users to get the most insight possible out of business data, Analytics provides several options to customize the way information is visualized. These are called "visualizations". Any dashboard is composed of one or more visualizations.
 
 The dashboard shown below contains a wide variety of visualizations, all of which analyze different aspects of Manufacturing.
 
-<img src="images/data-visualizations-example.png" alt="Analytics's log in screen" width="100%"/>
+<img src="images/data-visualizations-example.png" alt="Analytics's log in screen" class="responsive-img"/>
 
-### Choosing the Right Chart Type
+## Choosing the Right Chart Type
 
 In choosing the best chart type you need to look at your data and answer the questions that will help you find out what story you are trying to tell with your visualization.
 
@@ -247,7 +252,7 @@ td {
 
 If you need more information about how to use each of these visualizations, use the hyperlinks in the table.
 
-### Topics Overview
+## Topics Overview
 
 In the _Visualization Types_ dropdown (see the table of contents on the left) you will find an A-Z list of all kinds of charts Analytics provides.
 
@@ -260,11 +265,11 @@ In [Reusing Visualization](reusing-visualizations.md) you will find useful ideas
 In [Statistical Functions](statistical-functions.md) you will find how advanced predictive analysis works in Analytics. See how to use the *Time series forecast*, *Linear regression*, and *Outliers Detection* function to receive more insight from your data.  
 
 
-### Visualization Tutorials
+## Visualization Tutorials
 
 Within this section, you will find basic, step-by-step tutorials for the
 Analytics visualizations. All sections use the Data Visualizations data
-source, which you can download using [this link](https://download.infragistics.com/reportplus/help/samples/Analytics_Visualization_Tutorials.xlsx).
+source, which you can download using [this link](https://download.infragistics.com/slingshot/samples/Slingshot_Visualization_Tutorials.xlsx).
 For specific information on what each visualization supports, visit the **Data Visualizations** section of the documentation.
 
 <table>

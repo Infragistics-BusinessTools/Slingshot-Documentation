@@ -1,0 +1,89 @@
+---
+title: Slingshot で Microsoft SQL Server を構成する方法
+_description: Microsoft SQL Server を構成して使用する方法を説明します。
+_language: ja
+---
+
+# Microsoft SQL Server
+
+>[!NOTE] 
+>**Web の制限**。*Slingshot Web* アプリでは、公的にアクセス可能な Microsoft SQL アドレスにのみ接続できます。MS SQL アドレスが一般公開 (プライベートまたは会社のイントラネットでホストされているなど) に制限されている場合は、*Slingshot Desktop*、*iOS*、または *Android* を使用して接続できます。Slingshot を実行しているデバイスは、SQL Server アドレスにアクセスできる必要があります。この制限は、*Slingshot Embedded* には適用されません。
+
+## MS SQL Server への接続
+
+Microsoft SQL サーバー データ ソースを構成するには、以下の情報が必要です。
+
+<img src="images/enter-microsoft-sql-credentials.png" alt="Enter SQL Server Details" class="responsive-img" width="50%"/>
+
+1. **[[サーバー](#how-to-find-server)]**: コンピューター名またはサーバーを実行しているコンピューターに割り当てられた IP アドレス。
+
+2.  **[ポート]**: 該当する場合、サーバー ポートの詳細。情報が入力されない場合、Analytics はデフォルトでヒント テキスト (1433) のポートに接続します。
+
+3.  **[資格情報]**: [資格情報] を選択した後、Microsoft SQL Server の資格情報を入力するか、既存の資格情報 (適用可能な場合) を選択できます
+
+      - **ユーザー名**: SQL Server のユーザー アカウントまたはドメインの名前。
+
+      - **パスワード**: SQL Server にアクセスするためのパスワード。
+
+      - **エイリアス**: データ ソース名は前のダイアログのアカウントのリストに表示されます。デフォルトでは、分析は Microsoft SQL Server という名前を付けます。好みに合わせて変更できます。
+
+    準備ができたら、**[追加]** を選択してから **[サーバーの追加]** を選択します。
+
+<a name='how-to-find-server'></a>
+## サーバー情報を見つける方法
+
+以下の手順でサーバーの確認ができます。コマンドはサーバーで実行する必要があることに注意してください。
+
+| WINDOWS                                                                                                         | LINUX                                                                                                         | MAC                                                                  |
+| --------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------- |
+| 1\. ファイル エクスプローラーを開きます。                                                                                     | 1\. ターミナルを開きます。                                                                                          | 1\. システム環境設定を開きます。                                         |
+| 2\. マイコンピューターを右クリックしてプロパティを表示します。                                                                   | 2\. **$hostname** と入力します。                                                                                   | 2\. 共有セクションに移動します。                                 |
+| ホスト名は、[コンピューター名、ドメイン、ワークグループ設定] の下に [コンピューター名] として表示されます。 | [ホスト名] と [DNS ドメイン名] が表示されます。Analytics では**ホスト名**のみを含めることに注意してください。 | [ホスト名] は、上部の [コンピューター名] の下に表示されます。 |
+
+以下の手順で *IP アドレス*も確認できます。コマンドはサーバーで実行する必要があることに注意してください。
+
+| WINDOWS                              | LINUX                             | MAC                                                           |
+| ------------------------------------ | --------------------------------- | ------------------------------------------------------------- |
+| 1\. コマンド プロンプトを開きます。           | 1\. ターミナルを開きます。              | 1\. ネットワーク アプリケーションを起動します。                                  |
+| 2\. **ipconfig** と入力します。             | 2\. **$ /bin/ifconfig** と入力します。   | 2\. 接続を選択します。                                   |
+| **IPv4 アドレス** はあなたの IP アドレスです。 | **Inet addr** はあなたの IP アドレスです。 | **IP アドレス** フィールドに必要な情報が提供されます。 |
+
+<a name='working-with-views'></a>
+## データの設定
+
+### ビューの作業
+
+Analytics を使用すると、テーブル全体から SQL Server データを取得できますが、代わりにテーブルまたはテーブルのセットからデータのサブセットを返す、特定の[ビュー](https://docs.microsoft.com/ja-jp/sql/relational-databases/views/views?view=sql-server-2017)を選択することもできます。
+
+<img src="images/microsoft-sql-views.png" alt="SQLServerViews\_All" class="responsive-img" width="60%"/>
+
+以下のサンプルでは、**Invoices** ビューに、SQL Server の **Alphabetical list of products** テーブルのデータの一部が含まれています。
+
+<img src="images/sample-microsoft-sql.png" alt="AlphabeticalListProductsSQLServer\_All" class="responsive-img" width="85%"/>
+
+ビューおよび MS SQL サーバーの詳細については、[この Web サイト](https://docs.microsoft.com/ja-jp/sql/relational-databases/views/views?view=sql-server-2017)を参照してください。
+
+### 保管されたプロシージャの作業
+
+MS SQL では、保管されたプロシージャを利用することで、特定のパラメーターを使用して、リレーショナル データベースで一連のクエリ ステートメントを実行できます。以下は、[Northwind](https://docs.microsoft.com/ja-jp/dotnet/framework/data/adonet/sql/linq/downloading-sample-databases) データを使用してテスト サーバーで実行されるサンプル 保管されたプロシージャのセットです。
+
+<img src="images/stored-procedures-microsoft-sql.png" alt="SQLStoredProcedures\_All" class="responsive-img" width="55%"/>
+
+たとえば、この保管されたプロシージャは、**Products** テーブルの製品を、**Unit Price** で並べ替えて返します。  **ProductName** の名前は、**TenMostExpensiveProducts** に変更されました。
+
+<img src="images/stored-procedures-sample-result.png" alt="StoredProcedureSampleResults\_All" class="responsive-img" width="85%"/>
+
+この場合、保管されたプロシージャは、**Sales by Year** 情報を表示するための開始日と終了日を設定する必要があります。
+
+<img src="images/stored-procedures-parameters-sample.png" alt="StoredProcedureSampleDates\_All" class="responsive-img" width="65%"/>
+
+ストアドプロシージャおよび MS SQL サーバーの詳細については、[この Web サイト](https://docs.microsoft.com/ja-jp/sql/relational-databases/stored-procedures/stored-procedures-database-engine?view=sql-server-2017)を参照してください。
+
+### Analytics 保管されたプロシージャの制限
+
+
+  - 複数の結果セットを返すスト アドプロシージャの場合、最初の結果のみが表示されます。
+
+  - 保管されたプロシージャの[出力パラメーター](https://docs.microsoft.com/ja-jp/sql/connect/jdbc/using-a-stored-procedure-with-output-parameters?view=sql-server-2017)は無視されます。
+
+  - 結果セットを返さない保管されたプロシージャはデータ ソース リストに表示されますが、失敗します。

@@ -1,12 +1,17 @@
-## Time Series Charts
+---
+title: How to Create Time Series Chart Visualization 
+_description: Find out how to create and use Time Series Chart visualization in Slingshot Analytics.
+---
+
+# Time Series Charts
 
 A Time Series chart is used to display data points indexed in time order. It is commonly used to detect trends at a glance, allowing an easy observation of development over time.
 
-<img src="images/time-series-chart.png" alt="Time Series chart within Analytics" width="100%"/>
+<img src="images/time-series-chart.png" alt="Time Series chart within Analytics" class="responsive-img"/>
 
 Very similar to a conventional line chart, the Time Series chart always has a time-based horizontal axis (x-axis).
 
-### Chart Trendlines
+## Chart Trendlines
 
 Chart settings enable the display of trend lines, which are lines that
 are painted across a chart, based on an algorithm. Trendlines are a very
@@ -16,9 +21,9 @@ Fit, Quadratic Fit, Cubic Fit, Quartic Fit, Logarithmic Fit, Exponential
 Fit, Power Law Fit, Simple Average, Exponential Average, Modified
 Average, Cumulative Average, Weighted Average.
 
-<img src="images/time-series-chart-trendlines.png" alt="Chart trendline options in Analytics" width="100%"/>
+<img src="images/time-series-chart-trendlines.png" alt="Chart trendline options in Analytics" class="responsive-img"/>
 
-### Settings for Time Series Charts
+## Settings for Time Series Charts
 
 In *Settings* you can:
 
@@ -38,15 +43,15 @@ Minimum is set to 0 by default and maximum is calculated
   - **Choose Compact Labels**.
 With this setting you avoid redundant label information when you zoom your chart, as shown below.
 
-<img src="images/time-series-chart-compact-labels.png" alt="Compact Lables in Time Series within Analytics" width="100%"/>
+<img src="images/time-series-chart-compact-labels.png" alt="Compact Lables in Time Series within Analytics" class="responsive-img"/>
 
 
-### Zooming and Panning
+## Zooming and Panning
 
 When the Time Series chart is maximized, you can zoom in and out. As shown in the image above, this allows you to focus on a specific time interval and is a clear scenario where using the Compact Labels setting makes sense.
 
 
-### Statistical Functions Currently Not Supported
+## Statistical Functions Currently Not Supported
 
 Analytics provides you with three types of advanced
 predictive analysis. These are *Time series forecast*, *Linear regression* and *Detect outliers*. You can use them to make predictions, recognize and evaluate trends, or discover outliers

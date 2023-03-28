@@ -1,4 +1,4 @@
-## Creating a Custom Visualization Step By Step
+# Creating a Custom Visualization Step By Step
 
 This section shows how to use the Custom Visualization feature to create your own view of your data.
 
@@ -10,13 +10,13 @@ It illustrates the following tasks:
 
 -	Reading incoming data and creating a custom representation of it.
 
-### Create the HTML file
+## Create the HTML file
 Create an empty html file with references to jQuery and Analytics bridge utils.
 
 ``` js
 <html>
    <head>
-      <script type="text/javascript" src="https://download.infragistics.com/reveal/custom-visualization/reveal_bridge_utils.js">
+      <script type="text/javascript" src="https://download.infragistics.com/slingshot/custom-visualization/reveal_bridge_utils.js">
       </script>
       <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
    </head>
@@ -29,9 +29,9 @@ Create an empty html file with references to jQuery and Analytics bridge utils.
 
 -	jquery-1.11.0.min.js connects the visualization with the host.
 
-If you want, you can also [**download the reveal_bridge_utils.js file**](https://download.infragistics.com/reveal/custom-visualization/reveal_bridge_utils.js) and reference it locally.
+If you want, you can also [**download the reveal_bridge_utils.js file**](https://download.infragistics.com/slingshot/custom-visualization/reveal_bridge_utils.js) and reference it locally.
 
-### Notify the host the readiness to receive the data
+## Notify the host the readiness to receive the data
 As a second step, add the necessary javascript code in order to:
 
 -	Notify the host that the view is ready to receive the data. We do this by calling RPBridgeUtils.notifyExtensionIsReady.
@@ -61,7 +61,7 @@ After this step the code should look similar to:
 </html>
 ```
 
-### Create the HTML elements that will render the custom view
+## Create the HTML elements that will render the custom view
 Finally, we process the data sent to the dataReady function, and we dynamically generate the html tags used to render the data.
 
 In this case we iterate over the tabularData.data array creating table rows and then we add it inside "myTable" div in the HTML DOM.
@@ -90,7 +90,7 @@ dataReady: function (tabularData) {
    };
 ```
 
-### Complete Sample Code
+## Complete Sample Code
 
 ``` js
 <html>

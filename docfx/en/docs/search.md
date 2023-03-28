@@ -1,54 +1,43 @@
-## Search title
+---
+title: How to Use Slingshot Search
+_description: Get to know the Slingshot Search functionality to find the right information quickly and efficiently.
+---
 
-If you have been on the Internet at least once, you know it's all about finding the right information! And the search is the tool to help you with this.  
+# Search
 
-### So, what's Search for Slingshot?
+In order to run high performing teams that collaborate with different groups of people, finding the right information is a key feature. Slingshot saves time drilling through endless folder of content or sifting through email to find what you need. Even in Slingshot you need a faster way to find what you need – that’s where search comes in. 
 
-The search provides neatly organized results from everywhere inside Slingshot. The variety of filtering options ensure great precision and quickly finding exactly what you need.
-### How to start my search?
+Slingshot’s search provides neatly organized results from everything within Slingshot. The variety of filtering options ensures great precision and quickly finding exactly what you need.
 
-You can quickly start your search from anywhere - a workspace, tasks, *My Stuff*, etc. 
+<img class="responsive-img" src="../images/search-example.png" alt="Showing Slingshot's search" class="responsive-img" />
 
-1. Click the search box at the top.
-
-    <img src="../images/search-box.png" alt="Search box location in Slingshot" width="100%" />
-
-2. Start typing. Slingshot will start making suggestions. Press _Enter_ / select _Search All Results_ for a full list of results.
-
+## How to Search
+You can quickly start your search from anywhere - a workspace, tasks, My Stuff, etc.
+1. Go to the search box at the top.
+ 
+2. Start typing and Slingshot will start making suggestions. Press Enter / select “Search All Results” for a full list of results.
 3. The search results pane opens on the left.
 
-### Where can I search?
 
-The search results pane shows results from **everywhere** inside Slingshot. The results are displayed separately in five tabs: 
+The search results pane shows results from everywhere inside Slingshot. The results are displayed separately in five tabs:
+- *Workspaces* - results from all workspaces and projects.
+- *Tasks* - results from My Tasks, my assigned tasks and all workspaces and projects are shown.
+- *Messaging* - shows results from messages in the chat and discussions.
+- *Pins* - shows results from all boards in My Stuff, Workspaces and the Organization.
+- *Analytics* - shows results for dashboards and dashboard folders in My Stuff, Workspaces and the Organization.
 
-* *Workspaces* - results come from all workspaces.
-* _Tasks_ - results from tasks in _My Stuff_ and _Workspaces_ are shown. 
-* _Messaging_ - shows results from messages in the chat, discussions and topics.
-* *Content* - shows results from all boards in _My Stuff_, *Workspaces* and the *Organization*.
-* _Analytics_ - shows results for dashboards and dashboard folders in My Stuff, Workspaces and the *Organization*.
+>[!NOTE] In the results pane, you can open the overflow menu and save a result in bookmarks or share it with others.
 
-### Can I share or save results?
+## Filtering Results
+Sometimes you may get too many results and need to refine your search. To help you with this, Slingshot includes a location filter on the top and a second tier of filters under each of the five tabs.
 
-In the results pane, you can open the overflow menu of a result (see the screenshot) and use the *Copy Link* option to share it with others. You can also save results in _Bookmarks_.
+### Filtering by location
+The Location filter (top of the page) is applied to all results no matter which results tab you choose. For example, you can easily search all blocked tasks in two projects located in different workspaces. To do this, just select the two projects in the location dropdown and then in the Tasks tab filter by the Blocked status.
 
-<img src="../images/results-settings.png" alt="results overflow menu" width="50%" />
-### How Can I Filter Results?
+<img class="responsive-img" src="../images/search-filters.png" alt="Showing Slingshot's search and its filters" class="responsive-img" />
 
-You may receive too many results and need to refine your search to find exactly what you need. For this purpose, you will find a second tier of filters under each result tab.
 
-These filters are specific for the selected result type. For example, if you select _Tasks_, you can then use the filter to see only results in _Task Lists_ or to filter by task's creator, assignee, due date, etc.
+### Using More Filters
+These filters are specific to the selected tab and type of result. For example, when selecting the Tasks tab, you can filter results by creator, assignee, due date, etc.
 
-<img src="../images/type-specific-filters.png" alt="tasks specific filters" width="50%" />
-
->[!NOTE] Your filters' settings will be kept for your next search until you close the search results pane or refresh the page. So, if next time your search criteria change don't forget to check your search filters too.
-
-#### Filtering by location
-
-If you need results related to a specific workspace, or from your personal space (_My Stuff_), use the _Location_ filter dropdown just above the result tabs (see below).
-
-> Change the screenshot
-<img src="../images/location-filter-dropdown.png" alt="location filter dropdown" width="50%" />
-
-The _Location_ filter is applied to all results and is not affected by which result tab you chose.
-
-For example, you may want to check all completed tasks containing your search word in the  _Marketing_ and _Sales_ workspaces. To achieve this, first, you need to select these two workspaces in the location dropdown. Then, open the _Tasks_ tab and choose _Completed_ in the status filter.
+Filters are only reset when you close the search results, so you can search multiple times adding and removing filters as needed.

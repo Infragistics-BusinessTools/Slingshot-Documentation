@@ -1,16 +1,21 @@
-## Scatter and Bubble Charts
+---
+title: How to Create Scatter and Bubble Charts Visualization 
+_description: Find out how to create and use Scatter and Bubble Charts visualization in Slingshot Analytics.
+---
 
-### What are Scatter Charts Used for?
+# Scatter and Bubble Charts
+
+## What are Scatter Charts Used for?
 
 Scatter charts are used to represent the relationship between two quantitative measures by plotting data points along the X (horizontal) and Y (vertical) axes. They are particularly useful for demonstrating patterns in large datasests.
 
-### What are Bubble Charts Used for?
+## What are Bubble Charts Used for?
 
 A bubble chart is a variation of a scatter chart in which the data points are replaced with bubbles. Like scatter charts, bubble charts represent the relationship between two quantitative measures as well as a third quantitative measure represented by the size of the bubble. 
 
-### Creating a Scatter Chart
+## Creating a Scatter Chart
 
-<img src="images/scatter-chart-sales-one-color-example.png" alt="Example for a scatter chart visualization" width="100%"/>
+<img src="images/scatter-chart-visualization-editor.png" alt="Example for a scatter chart visualization" class="responsive-img" width="90%"/>
 
 In the example above, the scatter chart visualization shows the
 relationship between the quantity of *New Sales* and the *Revenue* made
@@ -21,7 +26,7 @@ To create a scatter chart:
 1.  Select the *Scatter* visualization in the *Change Visualization*
     menu:
 
-    <img src="images/scatter-chart-change-visualization-menu.png" alt="Location of the scatter visualization in the change visualization menu" width="100%"/>
+    <img src="images/chart-types-scatter.png" alt="Location of the scatter visualization in the change visualization menu" class="responsive-img" width="65%"/>
 
 2.  Choose numerical fields for the *X axis* and *Y axis*, which will
     determine the location of the data points.
@@ -31,19 +36,19 @@ To create a scatter chart:
 Every data point has its own **tooltip**, which shows up when you click
 on it:
 
-<img src="images/scatter-chart-tooltips.png" alt="Tooltip shown for a particular data point in the scatter chart" width="100%"/>
+<img src="images/tooltips-scatter-chart.png" alt="Tooltip shown for a particular data point in the scatter chart" class="responsive-img" width="90%"/>
 
 In this example, the tooltip gives information about a particular
 employee the data point represents, as well as quantitative data for
 them included in the chart.
 
-### Creating a Bubble Chart
+## Creating a Bubble Chart
 
-<img src="images/bubble-chart-one-color-example.png" alt="An Example of a bubble chart using one color" width="100%"/>
+<img src="images/bubble-chart-visualization-editor.png" alt="An Example of a bubble chart using one color" class="responsive-img" width="90%"/>
 
 To create a basic bubble chart, using only one color, you will need to:
 
-1.  Select *Bubble* chart in the *Change Visualization* menu.
+1.  Select *Bubble* chart from the list of *Chart Types*.
 
 2.  Choose numerical fields for your *X axis* and *Y axis*.
 
@@ -63,17 +68,17 @@ To create a basic bubble chart, using only one color, you will need to:
     the chart shows the minimum and maximum value of the *Bubble Radius*
     field in the chart.
 
-Clicking on the bubbles will also provide you with **tooltips** showing
+Clicking on the bubbles will also provide you with *tooltips* showing
 specific data for every particular bubble. If you have overlapping
 elements in your chart, click on the smaller bubble to show its tooltip.
 
-### Adding the Color Category to Scatter and Bubble Charts
+## Adding the Color Category to Scatter and Bubble Charts
 
 You can add a categorical field to the scatter or bubble chart. It will
 color the bubbles or scatter points in different colors depending on the
 values in this field.
 
-<img src="images/bubble-chart-with-colors-example.png" alt="Example of adding colors to the basic bubble chart" width="100%"/>
+<img src="images/bubble-chart-with-colors.png" alt="Example of adding colors to the basic bubble chart" class="responsive-img" width="90%"/>
 
 In the example above, the *Date* field is applied to the *Color* box.
 Adding the color category assigns different colors to the bubbles,
@@ -83,16 +88,16 @@ depending on whether the numerical information for a division refers to
 This has also resulted in displaying more bubbles in the bubble chart
 visualization.
 
-### Settings for Scatter and Bubble Charts
+## Settings for Scatter and Bubble Charts
 
-<img src="images/scatter-bubble-chart-settings.png" alt="Settings for scatter and bubble charts" width="100%"/>
+<img src="images/settings-scatter-bubble-chart.png" alt="Settings for scatter and bubble charts" class="responsive-img" width="90%"/>
 
 In *Settings* you can:
 
   - **Change the Style of your visualization.**
 
     You can select whether you want to show a *Title* or *Legend* for
-    your visualization. Choosing a *Start Color* will define the color of the data points/bubbles. When more than one color is needed due to the use of the *Color Category*, colors are applied sequentially starting at the Start Color.
+    your visualization. Choosing a *Start Color* will define the color of the data points/bubbles. When more than one color is needed due to the use of the *Color Category*, colors are applied sequentially starting at the *Start Color*.
 
   - **Choose between *Linear* and *Logarithmic* scale for the X and Y axis**.
 

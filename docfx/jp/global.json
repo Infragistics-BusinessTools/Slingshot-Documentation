@@ -5,5 +5,10 @@
     "_hasKRLang": false,
     "_ENBaseUrl": "https://www.slingshotapp.io/",
     "_JABaseUrl": "https://www.slingshotapp.io/",
-    "_themeUsage": false
+    "_themeUsage": false,
+    "_initialPage": "docs/welcome-slingshot",
+    "_toc-dir": "docs",
+    "_useRedirects": true,
+    "_enableSearch": true,
+    "_docfxTheme": "slingshot"
 }

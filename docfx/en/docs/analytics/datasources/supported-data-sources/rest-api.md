@@ -1,4 +1,9 @@
-## REST API
+---
+title: How to configure and use REST API Data Source 
+_description: Connecting and using REST API data source as a data source in Slingshot.
+---
+
+# REST API
 
 The REST API data source in Analytics enables you to send GET, POST, and PUT
 HTTP requests to a unique URL in order to manipulate data via a web
@@ -8,7 +13,7 @@ The REST API data source also provides the possibility to change the
 received data by simply changing parameters' values in the URL in the
 midst of creating your visualization without losing your progress.
 
-### What is a REST API?
+## What is a REST API?
 
 An **API** (Application Program Interface) allows two software programs
 to communicate with each other. All web services are APIs accessed
@@ -21,12 +26,12 @@ systems on the web. In the REST architecture, clients send requests to
 retrieve or modify resources, and servers send responses to these
 requests.
 
-### Connecting to a REST API
+## Connecting to a REST API
 
 To configure a REST API data source, you will need to enter the
 following information:
 
-<img src="images/Configuring-REST-API-Data-Source_All.png" alt="Configuring-REST-API-Data-Source\_All" width="100%"/>
+<img src="images/Configuring-REST-API-Data-Source_All.png" alt="Configuring-REST-API-Data-Source\_All" class="responsive-img"/>
 
 1.  **Default name** of the data source: Your data source name will be displayed in the list of accounts in the previous dialog. By default, Analytics names it *REST API*. You can change it to your preference.
 
@@ -45,7 +50,7 @@ following information:
     enter the credentials for your REST API or select existing ones if
     applicable. You can also pick the *No Account* option.
 
-### Working with URL Parameters
+## Working with URL Parameters
 
 Parameters are options you can pass in your URL to influence the
 response from the web service. You can provide path and query parameters
@@ -59,18 +64,18 @@ To use parameters effectively follow the procedure below:
     parameters are color-coded in *blue* to make them more easily
     identifiable.
 
-    <img src="images/Parameters-URL-Rest-API.png" alt="Parameters-URL-Rest-API\_All" width="100%"/>
+    <img src="images/Parameters-URL-Rest-API.png" alt="Parameters-URL-Rest-API\_All" class="responsive-img"/>
 
 2.  **Add parameters' values**. In the following screen specify the
     value of each parameter you have added in the URL.
 
-    <img src="images/Parameters-Values-Rest-API.png" alt="Parameters-Values-Rest-API\_All" width="100%"/>
+    <img src="images/Parameters-Values-Rest-API.png" alt="Parameters-Values-Rest-API\_All" class="responsive-img"/>
 
     As a result, the REST API service will respond with the data on the
     provided URL in a REST compliant format. Generally, you will receive
     a JSON file:
 
-    <img src="images/REST-API-Data-Format-Result.png" alt="REST-API-Data-Format-Result\_All" width="100%"/>
+    <img src="images/REST-API-Data-Format-Result.png" alt="REST-API-Data-Format-Result\_All" class="responsive-img"/>
 
     For more information on how to work with a JSON file, please refer
     to [this topic](~/docs/analytics/datasources/working-files/working-with-json-files.md).
@@ -85,11 +90,11 @@ To use parameters effectively follow the procedure below:
 
     To do this, click on the file icon in the upper-left corner of the *Visualizations Editor* screen.
     
-    <img src="images/REST-API-Change-Parameters-Values.png" alt="Rest API Parameters Values changing in the editor" width="100%" />
+    <img src="images/REST-API-Change-Parameters-Values.png" alt="Rest API Parameters Values changing in the editor" class="responsive-img" />
 
     In the screen that opens, *click/tap* the *REST API Parameters* button.
 
-    <img src="images/REST-API-Parameters-Button.png" alt="Rest API Parameters button available in editor" width="100%" />
+    <img src="images/REST-API-Parameters-Button.png" alt="Rest API Parameters button available in editor" class="responsive-img" />
 
     You will be redirected to the screen in *step 2* where you can provide new values to your parameters.
 
@@ -97,7 +102,7 @@ To use parameters effectively follow the procedure below:
 > **Losing Your Data Warning**
 Sometimes when you change the values of your parameters, there might be a chance to lose the visualization you already created in the Editor. In this case, а warning message will appear when you *click/tap* the *Load Data* button. If you choose to continue, you will have the new dataset loaded in the editor and you will have to start building your visualization from scratch. 
 
-### Choosing a Method
+## Choosing a Method
 
 The *Method* in your REST API data source configuration represents a
 request used to interact with resources in a REST system. The request
@@ -119,7 +124,7 @@ generally consists of:
 4.  A **Body**: an optional message (when using *POST* and *PUT*
     methods) containing data
 
-    <img src="images/Working-With-Methods.png" alt="Working With Methods" width="100%"/>
+    <img src="images/Working-With-Methods.png" alt="Working With Methods" class="responsive-img"/>
 
 For more information about the Header and Body of a request, please
 refer to [this link](https://developer.mozilla.org/en-US/docs/Web/HTTP/Messages#Headers).

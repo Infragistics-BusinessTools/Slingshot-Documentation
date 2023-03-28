@@ -8,14 +8,24 @@
   href: box.md
 - name: Dropbox
   href: dropbox.md
+- name: Facebook
+  href: facebook.md
+- name: Google Ads
+  href: google-ads.md
 - name: Google Analytics
   href: google-analytics.md
 - name: Google BigQuery
   href: google-bigquery.md
 - name: Google Drive
   href: google-drive.md
+  name: Google Search Console
+  href: google-search-console.md
 - name: Hubspot
   href: hubspot.md
+- name: Instagram
+  href: instagram.md
+- name: LinkedIn
+  href: linkedin.md
 - name: Marketo
   href: marketo.md
 - name: Microsoft Analysis Services

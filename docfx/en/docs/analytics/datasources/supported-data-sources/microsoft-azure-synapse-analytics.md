@@ -1,37 +1,35 @@
-## Microsoft Azure Synapse Analytics
+---
+title: How to use Microsoft Azure Synapse as Your Data Source
+_description: Steps to configure and use an Azure Synapse Analytics data source in Slingshot.
+---
+
+# Microsoft Azure Synapse Analytics
 
 The Microsoft Azure Synapse data source provides a significant speed
 increase when processing big data within Analytics. This allows you to use
 massive datasets for your visualizations with no slow down.
 
-### Configuring an Azure Synapse Analytics Data Source
+## Configuring an Azure Synapse Analytics Data Source
 
 To configure a Microsoft Azure Synapse Analytics data source, you will
 need to enter the following information:
 
-<img src="images/synapse-azure-configuration.png" alt="Configuring azure synapse data source dialog" width="100%"/>
+<img src="../images/microsoft-azure-synapse-analytics-configuration.png" alt="Configuring azure synapse data source dialog" class="responsive-img" width="55%"/>
 
-1. **Default name** of the data source: Your data source name will be displayed in the list of accounts in the previous dialog. By default, Analytics names it *Microsoft Azure SQL Synapse Analytics*. You can change it to your preference.
-
-2.  **Server**: the computer name or IP address assigned to the computer
+1.  **Server**: the computer name or IP address assigned to the computer
     on which the server is running.
 
-3.  **Port**: if applicable, the server port details. If no information
+2.  **Port**: if applicable, the server port details. If no information
     is entered, Analytics will connect to the port in the hint text (1433)
     by default.
 
-4.  **Credentials**: after selecting Credentials, you will be able to
+3.  **Credentials**: after selecting Credentials, you will be able to
     enter the credentials for your Microsoft Azure Synapse Analytics or
     select existing one if applicable.
 
-    Once ready, select *Create Account*. You can verify whether the
-    account is reaching the data source or not by selecting Test
-    Connection.
+4.  **Database**: Once you have connected to your account, you will get your databases to choose from. When you are ready, click/tap on **Select and Continue**.
 
-5.  **Database**: Once you connect to your account you will get your databases to choose from.
-Select *Continue*.
-
-### How to find your Server Information
+## How to find your Server Information
 
 You can find your server by following the steps below. Please note that
 the commands should be executed on the server.
@@ -52,31 +50,43 @@ that the commands should be executed on the server.
 | 2\. Type in **ipconfig**             | 2\. Type in **$ /bin/ifconfig**   | 2\. Select your connection.                                   |
 | **IPv4 Address** is your IP address. | **Inet addr** is your IP address. | The **IP Address** field will have the necessary information. |
 
-### Working with Views
+## Setting Up Your Data 
 
 Once you connect to a database in MS Azure Synapse Analytics, you can
-choose to retrieve data from an entire table or a particular view.
+choose to retrieve data from an entire table, a particular view or stored procedure.
 
-Working with views when using Azure Synapse Analytics closely resembles
-working with views when using MS SQL Server. For more information,
-please refer to [this section](Microsoft-SQL-Server.html#working-with-views)
+<img src="./images/data-source-details-microsoft-azure-synapse-analytics.png" alt="A data source details dialog" class="responsive-img" width="55%"/>
+
+Working with tables, views and stored procedures when using Azure Synapse Analytics closely resembles
+working with data from MS SQL Server. For more information,
+please refer to [this section](https://wp-staging.slingshotapp.io/en/help/docs/analytics/datasources/supported-data-sources/microsoft-sql-server#setting-up-your-data)
 of the **MS SQL Server data source** topic.
 
-### Limitations in the Visualization Editor
+## Working in the Visualization editor
+
+Once your data source has been added, you will be taken to the *Visualizations Editor*. Here you can build your dashboard. 
+
+Keep in mind tha the *Column* visualization will be selected by default. You can click/tap on it in order to choose another chart type.
+
+<img src="./images/microsoft-azure-synapse-analytics-visualization-editor.png" alt="Using data from microsoft azure synapse analytics account in the visualization editor" class="responsive-img" width="85%"/>
+
+## Limitations in the Visualization Editor
 
 When working with big data in Analytics, there are a couple of limitations
-in the Visualization Editor due to the specific approach used to handle
+in the *Visualization Editor* due to the specific approach used to handle
 data sources storing millions of records.
 
-#### Limitations in Functions Available for Calculated Fields
+### Limitations in Functions Available for Calculated Fields
 
 Currently, only a limited number of **functions** are available for
 *Calculated Fields* using data from Azure Synapse Analytics:
 
-- [Logic](~/docs/analytics/data-visualizations/fields/calculated-fields/logic-calculated-fields.md) - false; true; not.
-- [Math](~/docs/analytics/data-visualizations/fields/calculated-fields/math-calculated-fields.md) - abs; log; log10; sign; sqrt.
-- [Strings](~/docs/analytics/data-visualizations/fields/calculated-fields/string-calculated-fields.md) - find; len; trim; lower; mid; upper.
+- [Date](https://www.slingshotapp.io/en/help/docs/analytics/data-visualizations/fields/calculated-fields/date) - day; month; year; quarter;monthname; applytimezone; currenttimezone.
 
-#### Limitations in Data Blending
+- [Logic](~/docs/analytics/data-visualizations/fields/calculated-fields/logic.md) - false; true; if; not.
+- [Math](~/docs/analytics/data-visualizations/fields/calculated-fields/math.md) - abs; log; log10; sign; sqrt.
+- [Strings](~/docs/analytics/data-visualizations/fields/calculated-fields/string.md) - find; len; trim; lower; mid; upper.
+
+### Limitations in Data Blending
 
 Currently, Data Blending ([combining data sources in one visualization](~/docs/analytics/datasources/data-blending.md)) is **not available** when using data from the Azure Synapse Analytics data source.

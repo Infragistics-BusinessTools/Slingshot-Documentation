@@ -1,4 +1,9 @@
-## Date Calculated Fields
+---
+title: How to Use Date Calculated Fields in Slingshot
+_description: Learn how to use Date Calculated Fields to output different date and time information.
+---
+
+# Date Calculated Fields
 
 Date formulas can be used to output different date and time information
 in your widget.
@@ -162,15 +167,65 @@ The functions included in the date category are:
   <tr>
     <td class="tg-0lax"><span style="font-weight:bold">Sample</span>: <span class="gray-snippet-cstm">year(date(2017,12,1,12,33,48))</span></td>
   </tr>
+  <tr>
+    <td class="tg-cly1" rowspan="2"><span style="font-weight:bold">semester</span>: Semester uses the datetime syntax and returns the semester of the date(a numer from 1 to 2). 
+ </td>
+    <td class="tg-cly1"><span style="font-weight:bold">Syntax</span>: <span class="gray-snippet-cstm">semester({datetime}) 
+</span></td>
+  </tr>
+  <tr>
+    <td class="tg-cly1"><span style="font-weight:bold">Sample</span>: <span class="gray-snippet-cstm"> semester(datetime(1))
+</span></td>
+  </tr>
+  <tr>
+    <td class="tg-cly1" rowspan="2"><span style="font-weight:bold">fsemester</span>: fsemester uses the date syntax and a second argument, number, and returns the semester of the fiscal year for the given date. 
+ </td>
+    <td class="tg-cly1"><span style="font-weight:bold">Syntax</span>: <span class="gray-snippet-cstm">fsemester({date}, {number}) 
+</span></td>
+  </tr>
+  <tr>
+    <td class="tg-cly1"><span style="font-weight:bold">Sample</span>: <span class="gray-snippet-cstm"> fsemester(date(2015,11,1,11,33,48),1)
+</span></td>
+  </tr>
+ <tr>
+    <td class="tg-cly1" rowspan="2"><span style="font-weight:bold">applytimezone</span>: applytimezone uses the date syntax and a second argument - timezone - and returns a date set to the year, month, day, hour, minute and second of the date parameter for the given time zone 
+ </td>
+    <td class="tg-cly1"><span style="font-weight:bold">Syntax</span>: <span class="gray-snippet-cstm"> applytimezone({date}, {timezone})
+</span></td>
+  </tr>
+  <tr>
+    <td class="tg-cly1"><span style="font-weight:bold">Sample</span>: <span class="gray-snippet-cstm"> applytimezone(date(2015,12,1,10,33,38), ([Timezone]/24))
+</span></td>
+  </tr>
+  <tr>
+    <td class="tg-cly1" rowspan="2"><span style="font-weight:bold">currenttimezone</span>: returns the time zone of the requesting user
+ </td>
+    <td class="tg-cly1"><span style="font-weight:bold">Syntax</span>: <span class="gray-snippet-cstm"> currenttimezone()
+</span></td>
+  </tr>
+  <tr>
+    <td class="tg-cly1"><span style="font-weight:bold">Sample</span>: <span class="gray-snippet-cstm">currenttimezone()
+</span></td>
+  </tr>
+   <tr>
+    <td class="tg-cly1" rowspan="2"><span style="font-weight:bold">datetimefromunixts</span>: datetimefromunixts uses the miliseconds syntax and returns a date time value for the given Unix timestamp.
+ </td>
+    <td class="tg-cly1"><span style="font-weight:bold">Syntax</span>: <span class="gray-snippet-cstm"> datetimefromunixts ({miliseconds})
+</span></td>
+  </tr>
+  <tr>
+    <td class="tg-cly1"><span style="font-weight:bold">Sample</span>: <span class="gray-snippet-cstm">datetimefromunixts(0.001)
+</span></td>
+  </tr>
 </table>
 
 <a name='date-date'></a>
-### Date
+## Date
 
 When you use `date`, Analytics will return a date set to the values you
 include in your formula.
 
-#### Syntax
+### Syntax
 
 By default, you will see the following structure when you select date:
 
@@ -179,7 +234,7 @@ By default, you will see the following structure when you select date:
 All values, including `month`, need to be expressed with numerical
 values.
 
-#### Samples
+### Samples
 
 A formula with the following structure will return "08-Nov-1971 12:59":
 
@@ -196,18 +251,18 @@ sure you respect the order of the elements in the formula:
 | date (…​)      | 1971 | 11    | 08  | **27** | 59     | 08     |
 
 <a name='date-time'></a>
-### Time
+## Time
 
 When you use time, Analytics will return a time set to the values you
 include in your formula.
 
-#### Syntax
+### Syntax
 
 By default, you will see the following structure when you select time:
 
 `time({hour},{minute},{second},{millisecond})`
 
-#### Samples
+### Samples
 
 A formula with the following structure will return "11:08:08":
 
