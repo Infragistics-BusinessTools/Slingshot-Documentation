@@ -1,25 +1,25 @@
-# Dashboard
+# ダッシュボード
 
-With dashboards you can display information with the help of beautiful visualizations. They can be used, for example, to show the performance of a business. You can organize them in sections and lists.
+ダッシュボードを使用すると、美しい視覚化を利用して情報を表示できます。たとえば、ビジネスのパフォーマンスを示すために使用できます。セクションとリストで整理できます。
 
-## Schema:
+## スキーマ:
 
-|    Property  | Type            | Attributes           |
+|    プロパティ  | 型            | 属性           |
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| id              | string |read-only |
-| modified             | string |read-only |
-| created             | string | read-only |
-| name               | string | min = 1, max = 100 | 
-| description           | string | min = 1, max = 144, nullable |
-| user            | object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)>| read-only |
-| workspace            |object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> |read-only |  
-| project    |object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> |read-only | 
-| dashboardList             | object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | read-only |
-| dashboardSection   |object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)>|  read-only|
+| id              | 文字列 |read-only |
+| modified             | 文字列 |read-only |
+| created             | 文字列 | read-only |
+| name               | 文字列 | min = 1, max = 100 | 
+| description           | 文字列 | min = 1, max = 144, nullable |
+| user            | オブジェクト <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)>| read-only |
+| workspace            |オブジェクト <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> |read-only |  
+| project    |オブジェクト <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> |read-only | 
+| dashboardList             | オブジェクト <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | read-only |
+| dashboardSection   |オブジェクト <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)>|  read-only|
 
 <br/>
 
-## Example:
+## 例:
 
 ```
 {
@@ -44,45 +44,45 @@ With dashboards you can display information with the help of beautiful visualiza
 
 <br/>
 
-## Get a dashboard
+## ダッシュボードを取得する
 
 <img src="../images/get.png" alt="Get request" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/dashboards/{id}***
 
-Required parameters: the **id** of the dashboard
+必須パラメーター: ダッシュボードの **id**。
 
-Possible responses:
+可能な応答:
 
-| Code | Description|
+| コード | 説明|
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| 200 (Success) |You can view the dashboard. The requested [Dashboard](#dashboard-schema) will be returned in the response body.  |
-| 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication.  |
-| 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
+| 200 (Success) |ダッシュボードを表示できます。要求された [Dashboard](#dashboard-schema) は、応答本文で返されます。  |
+| 403 (Forbidden) |サーバーは要求を理解していますが、要求を承認できません。これは、たとえば、アクセスせずにオブジェクトを読み込もうとしたときに発生する可能性があります。再認証の必要はありません。 |
+| 404 (Not Found) |要求されたリソースがサーバーで見つかりません。これは、たとえば、指定されたオブジェクトが存在しないことが原因である可能性があります。 |
 
 <br/>
 
-## Update a dashboard
+## ダッシュボードの更新
 
 <img src="../images/patch.png" alt="Patch request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/>  ***https://my.slingshotapp.io/v1/dashboards/{id}***
 
-Required parameters: the **id** of the dashboard
+必須パラメーター: ダッシュボードの **id**。
 
-When you request to update a dashboard, the request body will have the following content: 
+ダッシュボードの更新を要求する場合、要求の本文には次の内容を含めます: 
 
-|    Property  | Type            | Attributes           |
+|    プロパティ  | 型            | 属性           |
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| name               | string | min = 1, max = 100|  
-| description    |string | min = 0, max = 144, nullable | 
+| name               | 文字列 | min = 1, max = 100|  
+| description    |文字列 | min = 0, max = 144, nullable | 
 
-Possible responses:
+可能な応答:
 
-| Code | Description|
+| コード | 説明|
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| 200 (Success) |The dashboard is updated. The updated dashboard will be returned in the response body.  |
-| 400 (Bad Request) |The request was not processed because of missing or malformed parameter(s). Check the error array in the response to get an idea of what went wrong. |
-| 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication.  |
-| 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
+| 200 (Success) |ダッシュボードが更新されました。更新されたダッシュボードは、応答本文で返されます。  |
+| 400 (Bad Request) |パラメーターが欠落しているか、形式が正しくないため、要求は処理されませんでした。応答のエラー配列を確認して、何が問題なのかを把握してください。 |
+| 403 (Forbidden) |サーバーは要求を理解していますが、要求を承認できません。これは、たとえば、アクセスせずにオブジェクトを読み込もうとしたときに発生する可能性があります。再認証の必要はありません。  |
+| 404 (Not Found) |要求されたリソースがサーバーで見つかりません。これは、たとえば、指定されたオブジェクトが存在しないことが原因である可能性があります。 |
 
-Example of a successful request body:
+成功した要求本文の例:
 
 ```
 {
@@ -91,7 +91,7 @@ Example of a successful request body:
 }
 ```
 
-Example of a successful response body: 
+成功した応答本文の例:
 
 ```
 {
@@ -117,16 +117,16 @@ Example of a successful response body:
 
 <br/>
 
-## Delete a dashboard 
+## ダッシュボードの削除 
 
 <img src="../images/delete.png" alt="Delete request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/>  ***https://my.slingshotapp.io/v1/dashboards/{id}***
 
-Required parameters: the **id** of the dashboard
+必須パラメーター: ダッシュボードの **id**。
 
-Possible responses:
+可能な応答:
 
-| Code | Description|
+| コード | 説明|
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| 204 (No Content) |The dashboard is deleted. |
-| 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication. |
-| 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
+| 204 (No Content) |ダッシュボードが削除されました。 |
+| 403 (Forbidden) |サーバーは要求を理解していますが、要求を承認できません。これは、たとえば、アクセスせずにオブジェクトを読み込もうとしたときに発生する可能性があります。再認証の必要はありません。 |
+| 404 (Not Found) |要求されたリソースがサーバーで見つかりません。これは、たとえば、指定されたオブジェクトが存在しないことが原因である可能性があります。 |

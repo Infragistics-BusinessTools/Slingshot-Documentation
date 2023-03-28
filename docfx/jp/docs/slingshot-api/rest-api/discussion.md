@@ -1,24 +1,24 @@
-# Discussion
+# ディスカッション
 
-Discussions can be created in projects and workspaces. As they are specific to workspaces and projects, you won’t be able to access all of the discussions in Slingshot. You can organize discussions in different lists.
+ディスカッションは、プロジェクトとワークスペースで作成できます。ディスカッションはワークスペースとプロジェクトに個別に含まれるものであるため、Slingshot のすべてのディスカッションにアクセスできるわけではありません。さまざまなリストで整理できます。
 
-## Schema:
+## スキーマ:
 
-|    Property  | Type            | Attributes           |
+|    プロパティ  | 型            | 属性           |
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| id              | string | read-only |
-| modified             | string |read-only  |
+| id              | 文字列 | read-only |
+| modified             | 文字列 |read-only  |
 | timestamp           | double |  read-only|
-| created             | string | read-only |
-| name               | string |  min = 1, max = 100 |  
-| workspace            |object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)>| read-only|  
-| project    |object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)>| read-only| 
-| discussionList             | object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | read-only |
-| lastMessage   | object <[ChatMessageInfo](../generic-slingshot-resources.html#chat-message-info-object)> | read-only|
+| created             | 文字列 | read-only |
+| name               | 文字列 |  min = 1, max = 100 |  
+| workspace            |オブジェクト <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)>| read-only|  
+| project    |オブジェクト <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)>| read-only| 
+| discussionList             | オブジェクト <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | read-only |
+| lastMessage   | オブジェクト <[ChatMessageInfo](../generic-slingshot-resources.html#chat-message-info-object)> | read-only|
 
 <br/>
 
-## Example: 
+## 例: 
 
 ```
 {
@@ -45,29 +45,29 @@ Discussions can be created in projects and workspaces. As they are specific to w
 
 <br/>
 
-## Create a discussion  
+## ディスカッションを作成する  
 
 <img src="../images/post-request.png" alt="Post request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> <span class="italic">***htt<area>ps://my.slingshotapp<area>.io/v1/discussion***</span>
 
-Required parameters: None 
+必須パラメーター: なし 
 
-When you request to create a discussion, the request body will have the following content:  
+ディスカッションの作成を要求する場合、要求の本文には次の内容を含めます。  
 
-|    Property  | Type            | Attributes           |
+|    プロパティ  | 型            | 属性           |
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| name               | string | required, min = 1, max = 100 |  
-| discussionList         |object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> |required |  
+| name               | 文字列 | required, min = 1, max = 100 |  
+| discussionList         |オブジェクト <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> |required |  
 
- Possible responses:
+ 必須パラメーター: なし
 
-| Code | Description|
+| コード | 説明|
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| 201 (Created) |You successfully created a discussion. The newly created discussion will be returned in the response body. |
-| 400 (Bad Request) |The request was not processed because of missing or malformed parameter(s). Check the error array in the response to get an idea of what went wrong. |
-| 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication.  |
-| 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
+| 201 (Created) |ディスカッションが正常に作成されました。新しく作成されたディスカッションは、応答本文で返されます。 |
+| 400 (Bad Request) |パラメーターが欠落しているか、形式が正しくないため、要求は処理されませんでした。応答のエラー配列を確認して、何が問題なのかを把握してください。 |
+| 403 (Forbidden) |サーバーは要求を理解していますが、要求を承認できません。これは、たとえば、アクセスせずにオブジェクトを読み込もうとしたときに発生する可能性があります。再認証の必要はありません。  |
+| 404 (Not Found) |要求されたリソースがサーバーで見つかりません。これは、たとえば、指定されたオブジェクトが存在しないことが原因である可能性があります。 |
 
-Example of a successful request body:
+成功した要求本文の例:
 
 ```
 {
@@ -79,7 +79,7 @@ Example of a successful request body:
 }
 ```
 
-Example of a successful response body: 
+成功した応答本文の例: 
 
 ```
 {
@@ -101,79 +101,79 @@ Example of a successful response body:
 
 <br/>
 
-## Get a discussion
+## ディスカッションを取得する
  
 <img src="../images/get.png" alt="Get request" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> 
 <span class="italic">***htt<area>ps://my.slingshotapp<area>.io/v1/discussions***</span>
 
-Required parameters: the **id** of the discussion
+必須パラメーター: ディスカッションの **id**。
  
-Possible responses:
+可能な応答:
 
-| Code | Description|
+| コード | 説明|
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| 200 (Success) |You can view the discussion. The requested [Discussion](#discussion-schema) will be returned in the response body.   |
-| 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication.  |
-| 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
+| 200 (Success) |ディスカッションを表示できます。要求された [Discussion](#discussion-schema) は、応答本文で返されます。   |
+| 403 (Forbidden) |サーバーは要求を理解していますが、要求を承認できません。これは、たとえば、アクセスせずにオブジェクトを読み込もうとしたときに発生する可能性があります。再認証の必要はありません。 |
+| 404 (Not Found) |要求されたリソースがサーバーで見つかりません。これは、たとえば、指定されたオブジェクトが存在しないことが原因である可能性があります。 |
 
 <br/>
 
-## Get all discussions for a parent document
+## 親ドキュメントのすべてのディスカッションを取得する
 
 <img src="../images/get-all.png" alt="Get all request" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> <span class="italic">***htt<area>ps://my.slingshotapp<area>.io/v1/discussions/parent/{id}***</span>
 
-Required parameters: the **id** of the parent discussion list
+必須パラメーター: 親ディスカッション リストの **id****。
 
-Possible responses:
+可能な応答:
 
-| Code | Description|
+| コード | 説明|
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| 200 (Success) |You can view all the discussions that are in the parent document. The requested discussions will be returned in the response body.  |
-| 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication.  |
-| 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
+| 200 (Success) |親ドキュメントのすべてのディスカッションを表示できます。要求されたディスカッションは、応答本文で返されます。  |
+| 403 (Forbidden) |サーバーは要求を理解していますが、要求を承認できません。これは、たとえば、アクセスせずにオブジェクトを読み込もうとしたときに発生する可能性があります。再認証の必要はありません。  |
+| 404 (Not Found) |要求されたリソースがサーバーで見つかりません。これは、たとえば、指定されたオブジェクトが存在しないことが原因である可能性があります。|
 
 <br/>
 
-## Get discussion messages
+## ディスカッション メッセージを取得する
 
 <img src="../images/get-discussion-messages.png" alt="Delete request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/discussions/{id}/messages***
 
-Required parameters: the **id** of the discussion 
+必須パラメーター: ディスカッションの **id**。 
 
->[!NOTE] In case you don’t set a number of returned messages or a start index, they will be automatically added. The default value for the number of returned messages is 10 and for the start index is 0.
+>[!NOTE] 返されるメッセージの数または開始インデックスを設定しない場合、それらのパラメーターは自動的に追加されます。返されるメッセージ数のデフォルト値は 10 で、開始インデックスのデフォルト値は 0 です。
 
-Possible responses:
+可能な応答:
 
-|Code | Description|
+|コード | 説明|
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| 200 (Success) |You can view all the messages in the discussion. The requested [Discussion](#discussion-schema) messages will be returned in the response body. |
-| 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication.  |
-| 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
+| 200 (Success) |ディスカッション内のすべてのメッセージを表示できます。要求された [Discussion](#discussion-schema) メッセージは、応答本文で返されます。 |
+| 403 (Forbidden) |サーバーは要求を理解していますが、要求を承認できません。これは、たとえば、アクセスせずにオブジェクトを読み込もうとしたときに発生する可能性があります。再認証の必要はありません。  |
+| 404 (Not Found) |要求されたリソースがサーバーで見つかりません。これは、たとえば、指定されたオブジェクトが存在しないことが原因である可能性があります。 |
 
 <br/>
 
-## Send a discussion message
+## ディスカッション メッセージを送信する
 
 <img src="../images/post-send-discussion-message.png" alt="Send discussion message" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/discussions/{id}/send***
 
-Required parameters: the **id** of the discussion
+必須パラメーター: ディスカッションの **id**。
 
-When you request to send a discussion message, the request body will have the following content: 
+ディスカッション メッセージの送信を要求する場合、要求の本文には次の内容を含めます。
 
-|    Property  | Type            | Attributes           |
+|    プロパティ  | 型            | 属性           |
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| text              | string |  |
+| text              | 文字列 |  |
 
-Possible responses:
+可能な応答:
 
-| Code | Description|
+| コード | 説明|
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| 204 (No Content) |The message is sent. |
-| 400 (Bad Request) |The request was not processed because of missing or malformed parameter(s). Check the error array in the response to get an idea of what went wrong. |
-| 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication. |
-| 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
+| 204 (No Content) |メッセージが送信されます。 |
+| 400 (Bad Request) |パラメーターが欠落しているか、形式が正しくないため、要求は処理されませんでした。応答のエラー配列を確認して、何が問題なのかを把握してください。 |
+| 403 (Forbidden) |サーバーは要求を理解していますが、要求を承認できません。これは、たとえば、アクセスせずにオブジェクトを読み込もうとしたときに発生する可能性があります。再認証の必要はありません。 |
+| 404 (Not Found) |要求されたリソースがサーバーで見つかりません。これは、たとえば、指定されたオブジェクトが存在しないことが原因である可能性があります。 |
 
-Example of a successful request body:
+成功した要求本文の例:
 
 ```
 {
@@ -183,28 +183,28 @@ Example of a successful request body:
 
 <br/>
 
-## Update a discussion
+## ディスカッションを更新する
 
 <img src="../images/patch.png" alt="Patch request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/discussions/{id}***
 
-Required parameters: the **id** of the discussion 
+必須パラメーター: ディスカッションの **id**。 
 
-When you request to update a discussion, the request body will have the following content
+ディスカッションの更新を要求する場合、要求の本文には次の内容を含めます。
 
-|    Property  | Type            | Attributes           |
+|    プロパティ  | 型            | 属性           |
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| name               | string | min = 1, max = 100 |
+| name               | 文字列 | min = 1, max = 100 |
 
-Possible responses:
+可能な応答:
 
-| Code | Description|
+| コード | 説明|
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| 200 (Success) |The discussion is updated. |
-| 400 (Bad Request) |The request was not processed because of missing or malformed parameter(s). Check the error array in the response to get an idea of what went wrong. |
-| 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication.  |
-| 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
+| 200 (Success) |ディスカッションが更新されました。 |
+| 400 (Bad Request) |パラメーターが欠落しているか、形式が正しくないため、要求は処理されませんでした。応答のエラー配列を確認して、何が問題なのかを把握してください。 |
+| 403 (Forbidden) |サーバーは要求を理解していますが、要求を承認できません。これは、たとえば、アクセスせずにオブジェクトを読み込もうとしたときに発生する可能性があります。再認証の必要はありません。  |
+| 404 (Not Found) |要求されたリソースがサーバーで見つかりません。これは、たとえば、指定されたオブジェクトが存在しないことが原因である可能性があります。|
 
-Example of a successful request body:
+成功した要求本文の例:
 
 ```
 {
@@ -212,7 +212,7 @@ Example of a successful request body:
 }
 ```
 
-Example of a successful response body: 
+成功した応答本文の例: 
 
 ```
 {
@@ -239,16 +239,16 @@ Example of a successful response body:
 
 <br/>
 
-## Delete a discussion 
+## ディスカッションを削除する 
 
 <img src="../images/delete.png" alt="Delete request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/discussions/{id}***
 
-Required parameters: the **id** of the specific discussion
+必須パラメーター: 特定のディスカッションの **id**。
 
-Possible responses:
+可能な応答:
 
-| Code | Description|
+| コード | 説明|
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| 204 (No Content) |The discussion is deleted. |
-| 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication. |
-| 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
+| 204 (No Content) |ディスカッションは削除されます。 |
+| 403 (Forbidden) |サーバーは要求を理解していますが、要求を承認できません。これは、たとえば、アクセスせずにオブジェクトを読み込もうとしたときに発生する可能性があります。再認証の必要はありません。 |
+| 404 (Not Found) |要求されたリソースがサーバーで見つかりません。これは、たとえば、指定されたオブジェクトが存在しないことが原因である可能性があります。 |
