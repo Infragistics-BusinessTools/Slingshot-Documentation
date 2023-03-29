@@ -14,6 +14,6 @@ To start using the API, you need to first authenticate yourself. [Here](authenti
 <img src="images/hierarchy-structure.png" alt="General hierarchy structure sample" class="response-img" width="28%">
 <p align="center">
 
-To learn more about the specific hierarchy options at each level, you can head [here](explore-object-hierarchy.md).
+To learn more about the specific hierarchy options at each level, you can head [here](https://www.slingshotapp.io/en/help/docs/slingshot-api/explore-object-model).
 
 
