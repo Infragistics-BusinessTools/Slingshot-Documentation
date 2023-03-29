@@ -11,8 +11,8 @@ You can use private chats in order to communicate with other users. As they are 
 |timestamp |	double| read-only| 
 | created             | string | read-only |
 | name               | string |  min = 1, max = 100 |  
-|members| 	array <[MemberInfo](..generic-slingshot-resources#member-info-object)> |read-only|
-|lastMessage| object <[ChatMessageInfo](..generic-slingshot-resources#chat-message-info-object)>|read-only |
+|members| 	array <[MemberInfo](../generic-slingshot-resources#member-info-object)> |read-only|
+|lastMessage| object <[ChatMessageInfo](../generic-slingshot-resources#chat-message-info-object)>|read-only |
 
 <br/>
 
@@ -58,7 +58,7 @@ When you request to create a private chat, the request body will have the follow
 |    Property  | Type            | Attributes           |
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
 | name               | string | required, min = 1, max = 100 |
-| members         | array <[MemberInfo](..generic-slingshot-resources#member-info-object)>|required | 
+| members         | array <[MemberInfo](../generic-slingshot-resources#member-info-object)>|required | 
 
 Possible responses:
 
@@ -250,7 +250,7 @@ Possible responses:
 
 Required parameters: the **id** of the private chat
 
-Request body: [ItemsObject](../generic-slingshot-resources.html#item-object) <[MemberInfo](..generic-slingshot-resources#member-info-object)>
+Request body: [ItemsObject](../generic-slingshot-resources.html#item-object) <[MemberInfo](../generic-slingshot-resources#member-info-object)>
 
 Possible responses:
 
@@ -319,7 +319,7 @@ Example of a successful request body:
 
 Required parameters: the **id** of the private chat
 
-Request body: [ItemsObject](../generic-slingshot-resources.html#item-object) <[MemberInfo](..generic-slingshot-resources#member-info-object)>
+Request body: [ItemsObject](../generic-slingshot-resources.html#item-object) <[MemberInfo](../generic-slingshot-resources#member-info-object)>
 
 Possible responses:
 

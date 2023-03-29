@@ -15,7 +15,7 @@ You can use tasks in order to better organize your work. For better visibility, 
 | dueDate               | string <DateTime>  |  |  
 | status              | string ("open", "progress", "review", "blocked", "completed") |  | 
 | priority             | string ("none", "low", "medium", "high") |  |   
-| assignees               | array <[AssigneeInfo](slingshot-api/generic-slingshot-resources.html#assignee-info-object)>  |read-only |
+| assignees               | array <[AssigneeInfo](https://www.slingshotapp.io/en/help/docs/slingshot-api/generic-slingshot-resources#assignee-info-object)>  |read-only |
 | user               | object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | read-only |
 | workspace              | object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | read-only|
 | project             | object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | read-only |
@@ -84,7 +84,7 @@ When you request to create a task, the request body will have the following cont
 | priority            | string enum ("none", "low", "medium", "high") |required |  
 | taskSection   |object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)>  |required, one-of | 
 | parentTask   |object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> |required, one-of | 
-| assignees               | array <[AssigneeInfo](slingshot-api/generic-slingshot-resources.html#assignee-info-object)>  ||
+| assignees               | array <[AssigneeInfo](https://www.slingshotapp.io/en/help/docs/slingshot-api/generic-slingshot-resources#assignee-info-object)>  ||
 
 >[!NOTE]  To create a task, you need to provide the **id** and **name** of the parent task section under the **taskSection** property. Alternatively, if you want to create a subtask, you need to first provide the **id** and **name** of the parent task under the **parentTask** property. Only one can be provided as both taskSection and parentTask properties being present in the request will result in an error.
 
@@ -298,7 +298,7 @@ Possible responses:
 
 Required parameters: the **id** of that specific task
 
-Request body: [ItemsObject](../generic-slingshot-resources.html#item-object) <[AssigneeInfo](slingshot-api/generic-slingshot-resources.html#assignee-info-object)>
+Request body: [ItemsObject](../generic-slingshot-resources.html#item-object) <[AssigneeInfo](https://www.slingshotapp.io/en/help/docs/slingshot-api/generic-slingshot-resources#assignee-info-object)>
 
 Possible responses:
 
@@ -369,7 +369,7 @@ Example of a successful request body:
 
 Required parameters: the **id** of the task
 
-Request body: [ItemsObject](../generic-slingshot-resources.html#item-object) <[AssigneeInfo](slingshot-api/generic-slingshot-resources.html#assignee-info-object)>
+Request body: [ItemsObject](../generic-slingshot-resources.html#item-object) <[AssigneeInfo](https://www.slingshotapp.io/en/help/docs/slingshot-api/generic-slingshot-resources#assignee-info-object)>
 
 Possible responses:
 
