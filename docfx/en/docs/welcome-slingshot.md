@@ -22,7 +22,7 @@ With Slingshot you can eliminate the need to constantly switch been multiple app
 
 ##### *Leverage actionable insight by making it easier for your team to utilize data to improve productivity*.
 
-Slingshot comes packed with a full self-service business intelligence solution. Connect to your data quickly and create beautiful dashboards so you can share insights with your team. And it doesn't stop there, dashboards work seamlessly with Slingshot's Tasks and Collaboration features, making it easier than ever to truly turn insights into action.  
+Slingshot comes packed with a full self-service business intelligence solution. Connect to your data quickly and create beautiful dashboards, so you can share insights with your team. And it doesn't stop there, dashboards work seamlessly with Slingshot's Tasks and Collaboration features, making it easier than ever to truly turn insights into action.  
 
 <img src="../images/welcome-analytics.png" alt="Showing a dashboard to highlight how analytics works" class="responsive-img"/>
 
@@ -39,7 +39,7 @@ When deadlines, conversations, and data are transparent for everyone to see, acc
 
 ## How can I get Slingshot?
 
-Slingshot is available on any platform with a seamless experience no matter what device you are on – without sacrificing features. Get Slingshot on the Web, MacOS, Windows, iOS and Android today.  
+Slingshot is available on any platform with a seamless experience no matter what device you are on – without sacrificing features. Get Slingshot on the Web, macOS, Windows, iOS and Android today.  
 
 <br/>
 <br/>

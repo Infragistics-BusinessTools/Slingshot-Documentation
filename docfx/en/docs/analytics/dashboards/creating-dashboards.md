@@ -20,11 +20,11 @@ The dashboard creation experience in Analytics includes:
 
 You can create a dashboard by clicking/tapping on the **+ Dashboard** or **Create Dashboard** *(My Analytics)* blue button.
 
-   <img src="images/creating-a-dashboard.png" alt="Dashboard button in My Analytics" class="responsive-img" width="80%"/>
+   <img src="images/creating-a-dashboard.png" alt="Dashboard button in My Analytics" class="responsive-img" width="85%"/>
 
 This will prompt the *New Visualization* dialog. Proceed to create a visualization using a data source.
 
-<img src="images/data-sources-list.png" alt="A list of already added data sources" class="responsive-img" width= "62%"/>
+<img src="images/data-sources-list.png" alt="A list of already added data sources" class="responsive-img" width= "67%"/>
 
 <a name='add-data-source'></a>
 ## Add a Data Source
@@ -32,11 +32,11 @@ This will prompt the *New Visualization* dialog. Proceed to create a visualizati
 If your data source is not in the data sources list, select
 the **+ Data Source** button in the top right-hand corner. A new dialog will appear, displaying all data source categories and the available data sources. Feel free to scroll up and down until you see the data source you need.
 
-<img src="images/dashboard-select-your-data-source.png" alt="List with some of the data sources" class="responsive-img" width="80%"/>
+<img src="images/dashboard-select-your-data-source.png" alt="List with some of the data sources" class="responsive-img" width="85%"/>
 
 If your data source is a spreadsheet in a content manager, you will be able to select, for example, the specific sheet that you want to use in your visualization.
 
-<img src="images/dashboards-select-data-sheet.png" alt="select a data sheet from an excel file data source" class="responsive-img" width="55%"/>
+<img src="images/dashboards-select-data-sheet.png" alt="select a data sheet from an excel file data source" class="responsive-img" width="62%"/>
 
 ### Available Content
 
@@ -44,12 +44,12 @@ With Analytics, you can add many content sources, including
 [Dropbox](~/docs/analytics/datasources/supported-data-sources/Dropbox.md), [OneDrive](~/docs/analytics/datasources/supported-data-sources/OneDrive.md), [Box](~/docs/analytics/datasources/supported-data-sources/Box.md) and [Google Drive](~/docs/analytics/datasources/supported-data-sources/Google-Drive.md), which will allow you to browse any folders, files
 or spreadsheets available in them.
 
-<img src="images/dashboards-onedrive-available-content.png" alt="Available content in OneDrive datasource account" class="responsive-img" width="82%"/>
+<img src="images/dashboards-onedrive-available-content.png" alt="Available content in OneDrive datasource account" class="responsive-img" width="87%"/>
 
 In addition, you can also add [SharePoint](~/docs/analytics/datasources/supported-data-sources/SharePoint.md) data sources,
 which means the ability to access any lists or libraries.
 
-<img src="images/dashboards-sharepoint-list.png" alt="Available content in SharePoint datasource account" class="responsive-img" width="82%"/>
+<img src="images/dashboards-sharepoint-list.png" alt="Available content in SharePoint datasource account" class="responsive-img" width="87%"/>
 
 <a name='modify-visualization'></a>
 ## Changing your Visualization
@@ -86,12 +86,12 @@ Once you have continued to your dashboard, you can select the overflow menu ⇒ 
 <a name='save-dashboard'></a>
 ## Save the Dashboard
 
-Once your dashboard is ready, save it by either selecting the **tick icon** in the top right-hand corner or by accessing the **Save As** option in the overflow menu.
+Once your dashboard is ready, save it either by selecting the **tick icon** in the top right-hand corner or by accessing the **Save As** option in the overflow menu.
 
-You can save your dashboard under **My Analytics** > **My Dashboards** or choose any of the workspaces you have joined or created.
+You can save your dashboard under **My Analytics** -> **My Dashboards** or choose any of the workspaces you have joined or created.
 
 Select a name for your dashboard, and, when ready, click/tap on **Save here**.
 
 <img src="images/creating-dashboards-save-as-dialog.png" alt="Save as dialog while creating dashboards" class="responsive-img" width="65%"/>
 
-To better organize your space you can create lists and sections by clicking on the *+List* and *+Section* buttons at the top right-hand corner, while in the *Save as* menu.
+To better organize your space, you can create lists and sections by clicking on the *+List* and *+Section* buttons at the top right-hand corner, while in the *Save as* menu.

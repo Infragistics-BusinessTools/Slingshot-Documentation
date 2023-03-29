@@ -41,7 +41,7 @@ unless any filters are applied so that the chosen data row is different.
 <a name='bullet-graph'></a>
 ## Bullet Graph
 
-The Bullet is very similar to a Linear gauge.It displays a label from
+The Bullet is very similar to a Linear gauge. It displays a label from
 the **Label** placeholder and a value from the **Value** placeholder. The
 value is charted as a horizontal line, and it is also displayed on the
 right in a numeric format.

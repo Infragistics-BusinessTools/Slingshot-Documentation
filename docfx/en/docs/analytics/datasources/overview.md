@@ -10,7 +10,7 @@ databases, spreadsheets and public data sources.
 
 ## Connecting to Data Sources
 
-To retrieve information from a data source and use it for your visualizations you need to connect to it first. Once you have connected to a data source, it will be saved in the *Data Sources* menu for quick selection next time you need it.
+To retrieve information from a data source and use it for your visualizations, you need to connect to it first. Once you have connected to a data source, it will be saved in the *Data Sources* menu for quick selection next time you need it.
 
 To connect to a data source, perform the steps below:
 
@@ -18,7 +18,7 @@ To connect to a data source, perform the steps below:
 2. Click/tap on the **+ Dashboard** blue button.
 
    <img src="images/data-sources-my-analytics.png" alt="Dashboard button in my analytics" class="responsive-img" width="90%"/>
-3. In the *+ Visualization* dialog, you will see a list of recently used data sources. To create a new connection, select the **+ Data Source** button on the right.
+3. In the *+ Visualization* dialog, you will see a list of recently used data sources. To create a new connection, select the **+ Data Source** button in the upper right corner.
 
    <img src="./images/data-sources-list.png" alt="Sample data sources" class="responsive-img" width="70%"/>
 

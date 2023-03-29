@@ -36,9 +36,9 @@ Organization users will benefit from adding descriptions to data fields, making 
 By default you will find "Pending for Review" and another list, most likely called "Dashboards" or "Data Sources", but Organization owners can create more and easily reorganize and move lists, sections and dashboards or data sources just by dragging them.
 
 ## Filtering the Data Catalog
-Using filters allows you to view a set of dashboards or data sources that meet a certain criteria.
+Using filters allows you to view a set of dashboards or data sources that meet certain criteria.
 
-To access the Filters editor just click/tap on the filter icon (top right of the screen), next to the overflow. Alternatively, you can click/tap on the *+Filter* button that is in the *Filters* section, under *Created By Me* and *Shared with Me.*
+To access the **Filter** editor, just click/tap on the filter icon (top right of the screen), next to the overflow. Alternatively, you can click/tap on the *+Filter* button that is in the *Filters* section, under *Created By Me* and *Shared with Me.*
 
 
 To stop filtering dashboards or data sources, click/tap the filter icon to open the Filters dialog. Then, select the Clear button at the bottom to remove the current filters, and Apply to save your changes.
@@ -61,7 +61,7 @@ Organization users that are not owners cannot delete or add content to the Data 
 
 The Data Catalog includes the most trustful information about your company, all data is categorized, properly documented and certified. Naturally, the process of adding new dashboards or data sources to the Data Catalog has several steps to ensure quality and a trustful process. 
 
-**Process in an nutshell:**
+**Process in a nutshell:**
 
 1. User requests to add a data source or dashboard to the Data Catalog.
 2. The dashboard or data source is moved to "Pending for Review".

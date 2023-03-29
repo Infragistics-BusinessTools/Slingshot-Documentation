@@ -22,7 +22,7 @@ appears **at the bottom of your dashboard**. You can move it by dragging it.
 ## Creating a Text Box as a First Visualization in a Dashboard
 
 Sometimes you may want to start your dashboard by creating a Text Box
-visualization showing a summary or brief introduction. To access the
+visualization, showing a summary or brief introduction. To access the
 Text Box creation menu, follow the steps below:
 
 1.  Click/Tap the **+ Dashboard** button in the top right corner of the initial screen.
@@ -46,7 +46,7 @@ In this dialog you can:
 
   - Select the alignment of the text (next to *Text Size*).
 
-   - Write your own text in the text body (the *Enter text* box).
+  - Write your own text in the text body (the *Enter text* box).
 
   - Add a *Title* (optional).
 

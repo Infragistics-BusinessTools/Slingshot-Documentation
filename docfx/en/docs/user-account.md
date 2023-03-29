@@ -27,13 +27,13 @@ Now feel free to explore the different settings and make Slingshot feel like hom
 - Interested in a dark or light theme?
 - Want to reduce the zoom level to fit more in your screen or enlarge it to better see the words and images?
 - Are you often using drag & drop to upload files and want to change the default destination?
-- When opening files (e.g., word and excel documents), would you like to use a native app or open in a browser?
+- When opening files (e.g., Word and Excel documents), would you like to use a native app or open in a browser?
 - Do you want to clear the data cache?
 -  Do you want to export your logs?
 
 <img src="../images/users-account-settings.png" alt="User settings opened" width="60%" class="responsive-img">
 
-In addition, it's a good idea to complete your *profile information* as it will make you recognizable when collaborating with others. Your name, photo, title, etc. are all part of your virtual identity and they add value to the Slingshot's experience. 
+In addition, it's a good idea to complete your *profile information* as it will make you recognizable when collaborating with others. Your name, photo, title, etc. are all part of your virtual identity, and they add value to the Slingshot's experience. 
 
 ## Make the most of the in-app interactions
 

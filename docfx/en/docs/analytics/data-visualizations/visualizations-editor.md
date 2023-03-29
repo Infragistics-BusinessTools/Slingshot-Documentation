@@ -9,10 +9,11 @@ The *Visualizations Editor* is where you create and edit your visualizations in 
 
 ## How Do You Create a Visualization?
 
-Visualizations are the building blocks of your dashboard. So, when you start creating a visualization you can choose between two alternative starting points.
+Visualizations are the building blocks of your dashboard. So, when you start creating a visualization, you can choose between two alternative starting points:
 
 * Start with **creating a new dashboard** where the new visualization will be your first and/or only visualization. To do this, go to **My Analytics** or a workspace and click/tap on the **+Dashboard** blue button.
-* Start by **adding a new visualization** to an already existing dashboard. To do this, open a dashboard in [*Dashboard Edit*](~/docs/analytics/dashboards/dashboards-interactions.html#view-edit-mode) mode and click/tap on the *dashboard* blue split button. (the **+** blue button on mobile devices)
+
+* Start by **adding a new visualization** to an already existing dashboard. To do this, open a dashboard in [*Dashboard Edit*](~/docs/analytics/dashboards/dashboards-interactions.html#view-edit-mode) mode and click/tap on the *dashboard* blue split button (the **+** blue button on mobile devices). 
 
 After that, you will be prompted
 to add a new or select an existing [data source](~/docs/analytics/datasources/overview.md).
@@ -48,15 +49,15 @@ Below, you will find a list of all sections of the *Editor* with their capabilit
 
   b. **Visualization Fields** - Here is where you will drag and drop, or click the *+* mark to see the available fields and select those you want to use for the visualization you are creating.
 
-2. **Settings Section** - this section allows you to customize what you want to show. Each visualization comes with its own settings.
+2. **Settings Section** - This section allows you to customize what you want to show. Each visualization comes with its own settings.
 
-  At the bottom of the *Settings* section you will see the option for links. This is a powerful feature that takes drill down to a whole new level. Read more in the [Dashboard Linking](~/docs/analytics/dashboards/dashboard-linking.md) topic.
+  At the bottom of the *Settings* section you will see the option for links. This is a powerful feature, that takes drill down to a whole new level. Read more in the [Dashboard Linking](~/docs/analytics/dashboards/dashboard-linking.md) topic.
 
-3. **Visualization Picker**, where you can choose your desired visualization and preview the final result. As you switch between the different chart types in the dropdown you will notice the visualization fields section change. The fields building each visualization are different, but they change automatically so you only need to fill them in.
+3. **Visualization Picker** - Here you can choose your desired visualization and preview the final result. As you switch between the different chart types in the dropdown menu, you will notice the visualization fields section change. The fields for each visualization are different, but they change automatically so you only need to fill them in.
 
 4. **Visualization Workspace** - Here is where you will be able to see the visualization you are creating or editing as you drag and drop fields. The visualization won't populate until you have all the necessary fields needed to create that chart type.
 
-5. **Data Source** - The data source that you are currently working with will be displayed here. With a click you can change between the different sheets, tables or views within your source or change your connection to a new source entirely without having to leave the editor. See more in [Changing the Data Source for a Visualization](~/docs/analytics/datasources/changing-data-source-visualization.md) topic.
+5. **Data Source** - The data source that you are currently working with will be displayed here. With a click, you can change between the different sheets, tables or views within your source or change your connection to a new source entirely without having to leave the editor. See more in [Changing the Data Source for a Visualization](~/docs/analytics/datasources/changing-data-source-visualization.md) topic.
 
 Among other things, you will be able to:
 
