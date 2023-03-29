@@ -390,7 +390,7 @@ Possible responses:
 
 Required parameters: the **id** of the workspace
 
-Request body: [ItemsObject](../generic-slingshot-resources.html#item-object) <[MemberInfo](..generic-slingshot-resources#member-info-object)>
+要求本文: [ItemsObject](../generic-slingshot-resources.html#item-object) <[MemberInfo](..generic-slingshot-resources#member-info-object)>
 
 Possible responses:
 
@@ -506,7 +506,7 @@ Example of a successful response body:
 
 Required parameters: the **id** of the workspace
 
-Request body: [ItemsObject](../generic-slingshot-resources.html#item-object) <[MemberInfo](..generic-slingshot-resources#member-info-object)>
+要求本文: [ItemsObject](../generic-slingshot-resources.html#item-object) <[MemberInfo](..generic-slingshot-resources#member-info-object)>
 
 Possible responses:
 
@@ -626,7 +626,7 @@ Example of a successful response body:
 
 Required parameters: the **id** of the workspace
 
-Request body: [ItemsObject](../generic-slingshot-resources.html#item-object) <[MemberInfo](..generic-slingshot-resources#member-info-object)>
+要求本文: [ItemsObject](../generic-slingshot-resources.html#item-object) <[MemberInfo](..generic-slingshot-resources#member-info-object)>
 
 Possible responses:
 
@@ -741,7 +741,7 @@ Example of a successful response body:
 
 Required parameters: the **id** of the workspace
 
-Request body: [ItemsObject](../generic-slingshot-resources.html#item-object) <[MemberInfo](..generic-slingshot-resources#member-info-object)>
+要求本文: [ItemsObject](../generic-slingshot-resources.html#item-object) <[MemberInfo](..generic-slingshot-resources#member-info-object)>
 
 Possible responses:
 
@@ -856,7 +856,7 @@ Example of a successful response body:
 
 Required parameters: the **id** of the workspace
 
-Request body: [ItemsObject](../generic-slingshot-resources.html#item-object) <[MemberInfo](..generic-slingshot-resources#member-info-object)>
+要求本文: [ItemsObject](../generic-slingshot-resources.html#item-object) <[MemberInfo](..generic-slingshot-resources#member-info-object)>
 
 Possible responses:
 

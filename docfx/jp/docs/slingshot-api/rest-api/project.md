@@ -371,7 +371,7 @@ Required parameters: the **id** of the project
 
 When you request to add members to a project, the request body will have the following content: 
 
-Request body: [ItemsObject](../generic-slingshot-resources.html#item-object) <[MemberInfo](..generic-slingshot-resources#member-info-object)>
+要求本文: [ItemsObject](../generic-slingshot-resources.html#item-object) <[MemberInfo](..generic-slingshot-resources#member-info-object)>
 
 Possible responses:
 
@@ -488,7 +488,7 @@ Example of a successful response body:
 
 Required parameters: the **id** of the project
 
-Request body: [ItemsObject](../generic-slingshot-resources.html#item-object) <[MemberInfo](..generic-slingshot-resources#member-info-object)>
+要求本文: [ItemsObject](../generic-slingshot-resources.html#item-object) <[MemberInfo](..generic-slingshot-resources#member-info-object)>
 
 Possible responses:
 
@@ -605,7 +605,7 @@ Example of a successful response body:
 
 Required parameters: the **id** of the project
 
-Request body: [ItemsObject](../generic-slingshot-resources.html#item-object) <[MemberInfo](..generic-slingshot-resources#member-info-object)>
+要求本文: [ItemsObject](../generic-slingshot-resources.html#item-object) <[MemberInfo](..generic-slingshot-resources#member-info-object)>
 
 Possible responses:
 
@@ -712,7 +712,7 @@ Example of a successful response body:
 
 Required parameters: the **id** of the project
 
-Request body: [ItemsObject](../generic-slingshot-resources.html#item-object) <[MemberInfo](..generic-slingshot-resources#member-info-object)>
+要求本文: [ItemsObject](../generic-slingshot-resources.html#item-object) <[MemberInfo](..generic-slingshot-resources#member-info-object)>
 
 | Code | Description|
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
@@ -819,7 +819,7 @@ Example of a successful response body:
 
 Required parameters: the **id** of the project
 
-Request body: [ItemsObject](../generic-slingshot-resources.html#item-object) <[MemberInfo](..generic-slingshot-resources#member-info-object)>
+要求本文: [ItemsObject](../generic-slingshot-resources.html#item-object) <[MemberInfo](..generic-slingshot-resources#member-info-object)>
 
 | Code | Description|
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |

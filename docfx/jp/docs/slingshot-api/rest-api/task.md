@@ -292,7 +292,7 @@ Possible responses:
 
 Required parameters: the **id** of that specific task
 
-Request body: [ItemsObject](../generic-slingshot-resources.html#item-object) <[AssigneeInfo](slingshot-api/generic-slingshot-resources.html#assignee-info-object)>
+要求本文: [ItemsObject](../generic-slingshot-resources.html#item-object) <[AssigneeInfo](slingshot-api/generic-slingshot-resources.html#assignee-info-object)>
 
 Possible responses:
 
@@ -360,7 +360,7 @@ Example of a successful response body:
 
 Required parameters: the **id** of the task
 
-Request body: [ItemsObject](../generic-slingshot-resources.html#item-object) <[AssigneeInfo](slingshot-api/generic-slingshot-resources.html#assignee-info-object)>
+要求本文: [ItemsObject](../generic-slingshot-resources.html#item-object) <[AssigneeInfo](slingshot-api/generic-slingshot-resources.html#assignee-info-object)>
 
 Possible responses:
 
