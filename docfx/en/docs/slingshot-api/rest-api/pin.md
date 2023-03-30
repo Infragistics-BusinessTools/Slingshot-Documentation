@@ -109,9 +109,12 @@ Example of a successful request body:
     "pinType": "url"
 }
 ```
-Example of a successful response body: 
 
-```
+<br/>
+
+<div class="fancy-details">
+    <summary><b>Example of a successful response body:</b></summary>
+    <code>
 {
     "id": "{123456}_bs",
     "modified": "2023-02-09T10:32:37.0000000",
@@ -139,7 +142,8 @@ Example of a successful response body:
         }
     ]
 }
-```
+    </code>
+</div>
 
 <br/>
 
@@ -173,9 +177,12 @@ Example of a successful request body:
     "name": "Goals"
 }
 ```
-Example of a successful response body: 
 
-```
+<br/>
+
+<div class="fancy-details">
+    <summary><b>Example of a successful response body:</b></summary>
+    <code>
 {
     "id": "{123456}_bs",
     "modified": "2023-02-09T10:49:24.0000000",
@@ -210,7 +217,8 @@ Example of a successful response body:
         }
     ]
 }
-```
+    </code>
+</div>
  
 <br/>
 

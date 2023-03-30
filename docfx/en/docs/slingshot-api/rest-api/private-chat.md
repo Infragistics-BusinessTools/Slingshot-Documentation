@@ -11,8 +11,8 @@ You can use private chats in order to communicate with other users. As they are 
 |timestamp |	double| read-only| 
 | created             | string | read-only |
 | name               | string |  min = 1, max = 100 |  
-|members| 	array <[MemberInfo](..generic-slingshot-resources#member-info-object)> |read-only|
-|lastMessage| object <[ChatMessageInfo](..generic-slingshot-resources#chat-message-info-object)>|read-only |
+|members| 	array <[MemberInfo](../generic-slingshot-resources#member-info-object)> |read-only|
+|lastMessage| object <[ChatMessageInfo](../generic-slingshot-resources#chat-message-info-object)>|read-only |
 
 <br/>
 
@@ -58,7 +58,7 @@ When you request to create a private chat, the request body will have the follow
 |    Property  | Type            | Attributes           |
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
 | name               | string | required, min = 1, max = 100 |
-| members         | array <[MemberInfo](..generic-slingshot-resources#member-info-object)>|required | 
+| members         | array <[MemberInfo](../generic-slingshot-resources#member-info-object)>|required | 
 
 Possible responses:
 
@@ -84,9 +84,11 @@ Example of a successful request body:
 }
 ```
 
-Example of a successful response body: 
+<br/>
 
-```
+<div class="fancy-details">
+    <summary><b>Example of a successful response body:</b></summary>
+    <code>
 {
     "id": "{123456}_pchat",
     "modified": "2023-02-09T15:26:48.0000000",
@@ -101,7 +103,8 @@ Example of a successful response body:
         }
     ]
 }
-```
+    </code>
+</div>
 
 <br/>
 
@@ -166,9 +169,11 @@ Example of a successful request body:
 }
 ```
 
-Example of a successful response body:
+<br/>
 
-```
+<div class="fancy-details">
+    <summary><b>Example of a successful response body:</b></summary>
+    <code>
 {
     "id": "{123456}_pchat",
     "modified": "2023-02-20T07:53:06.0000000",
@@ -193,7 +198,8 @@ Example of a successful response body:
         "text": "I will double-check."
     }
 }
-```
+    </code>
+</div>
 
 <br/>
 
@@ -244,7 +250,7 @@ Possible responses:
 
 Required parameters: the **id** of the private chat
 
-Request body: [ItemsObject](../generic-slingshot-resources.html#item-object) <[MemberInfo](..generic-slingshot-resources#member-info-object)>
+Request body: [ItemsObject](../generic-slingshot-resources.html#item-object) <[MemberInfo](../generic-slingshot-resources#member-info-object)>
 
 Possible responses:
 
@@ -269,9 +275,11 @@ Example of a successful request body:
 }
 ```
 
-Example of a successful response body:
+<br/>
 
-```
+<div class="fancy-details">
+    <summary><b>Example of a successful response body:</b></summary>
+    <code>
 {
     "id": "{123456}_pchat",
     "modified": "2023-02-10T09:09:23.0000000",
@@ -296,7 +304,10 @@ Example of a successful response body:
         "text": "Okay, I will check it again."
     }
 }
-```
+    </code>
+</div>
+
+<br/>
 
 >[!NOTE] You can assign a member only an owner role.
 
@@ -308,7 +319,7 @@ Example of a successful response body:
 
 Required parameters: the **id** of the private chat
 
-Request body: [ItemsObject](../generic-slingshot-resources.html#item-object) <[MemberInfo](..generic-slingshot-resources#member-info-object)>
+Request body: [ItemsObject](../generic-slingshot-resources.html#item-object) <[MemberInfo](../generic-slingshot-resources#member-info-object)>
 
 Possible responses:
 
@@ -333,9 +344,11 @@ Example of a successful request body:
 }
 ```
 
-Example of a successful response body:
+<br/>
 
-```
+<div class="fancy-details">
+    <summary><b>Example of a successful response body:</b></summary>
+    <code>
 {
     "id": "{123456}_pchat",
     "modified": "2023-02-10T09:41:56.0000000",
@@ -355,4 +368,5 @@ Example of a successful response body:
         "text": "LeftGroupChat"
     }
 }
-```
+    </code>
+</div>

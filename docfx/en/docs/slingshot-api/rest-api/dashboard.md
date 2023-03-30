@@ -91,9 +91,11 @@ Example of a successful request body:
 }
 ```
 
-Example of a successful response body: 
+<br/>
 
-```
+<div class="fancy-details">
+    <summary><b>Example of a successful response body:</b></summary>
+    <code>
 {
     "id": "{123456}",
     "modified": "2023-02-06T13:39:17.0000000",
@@ -113,7 +115,8 @@ Example of a successful response body:
         "name": "Section 1"
     }
 }
-```
+    </code>
+</div>
 
 <br/>
 

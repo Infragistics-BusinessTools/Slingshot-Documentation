@@ -19,7 +19,7 @@ Note that users can have different roles and permissions in a project. [Here](ht
 | workspace            |object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | read-only| 
 |members| 	array <[MemberInfo](../generic-slingshot-resources#member-info-object)> |read-only |
 |requests| 	array <[MemberInfo](../generic-slingshot-resources#member-info-object)> |read-only |
-| pendingInvites           | array <[MemberInfo](..generic-slingshot-resources#member-info-object)> | read-only |
+| pendingInvites           | array <[MemberInfo](../generic-slingshot-resources#member-info-object)> | read-only |
 |pinLists| array <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)>| read-only|
 |taskLists| array <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)>|read-only |
 | discussionLists           | array <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)>| read-only |
@@ -110,7 +110,7 @@ When you request to create a project, the request body will have the following c
 |endDate|string <DateTime> | |
 |status| string enum ("none", "ontarget", "atrisk", "danger", "completed")| | 
 | workspace            |object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> |required | 
-|members| 	array <[MemberInfo](..generic-slingshot-resources#member-info-object)> ||
+|members| 	array <[MemberInfo](../generic-slingshot-resources#member-info-object)> ||
 
 Possible responses:
 
@@ -142,9 +142,11 @@ Example of a successful request body:
 }
 ```
 
-Example of a successful response body: 
+<br/>
 
-```
+<div class="fancy-details">
+    <summary><b>Example of a successful response body:</b></summary>
+    <code>
 {
     "id": "{123456}_proj",
     "modified": "2023-02-08T10:28:43.0000000",
@@ -205,7 +207,8 @@ Example of a successful response body:
         }
     ]
 }
-```
+    </code>
+</div>
 
 <br/>
 
@@ -236,7 +239,7 @@ Possible responses:
 
 | Code | Description|
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| 200 (Success) |You can view all the projects that you take part in. The requested Project(s) (hyperlink) will be returned in the response body in an [ItemsObject](..generic-slingshot-resources#item-object) array. |
+| 200 (Success) |You can view all the projects that you take part in. The requested Project(s) (hyperlink) will be returned in the response body in an [ItemsObject](../generic-slingshot-resources#item-object) array. |
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication. |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
 
@@ -279,9 +282,11 @@ Example of a successful request body:
 }
 ```
 
-Example of a successful response body: 
+<br/>
 
-```
+<div class="fancy-details">
+    <summary><b>Example of a successful response body:</b></summary>
+    <code>
 {
     "id": "{123456}_proj",
     "modified": "2023-02-08T11:02:25.0000000",
@@ -343,7 +348,8 @@ Example of a successful response body:
         }
     ]
 }
-```
+    </code>
+</div>
 
 <br/>
 
@@ -371,7 +377,7 @@ Required parameters: the **id** of the project
 
 When you request to add members to a project, the request body will have the following content: 
 
-Request body: [ItemsObject](../generic-slingshot-resources.html#item-object) <[MemberInfo](..generic-slingshot-resources#member-info-object)>
+Request body: [ItemsObject](../generic-slingshot-resources.html#item-object) <[MemberInfo](../generic-slingshot-resources#member-info-object)>
 
 Possible responses:
 
@@ -396,9 +402,11 @@ Example of a successful request body:
 }
 ```
 
-Example of a successful response body:
+<br/>
 
-```
+<div class="fancy-details">
+    <summary><b>Example of a successful response body:</b></summary>
+    <code>
 {
     "id": "{123456}_proj",
     "modified": "2023-02-09T12:15:22.0000000",
@@ -478,7 +486,8 @@ Example of a successful response body:
         }
     ]
 }
-```
+    </code>
+</div>
 
 <br/>
 
@@ -488,7 +497,7 @@ Example of a successful response body:
 
 Required parameters: the **id** of the project
 
-Request body: [ItemsObject](../generic-slingshot-resources.html#item-object) <[MemberInfo](..generic-slingshot-resources#member-info-object)>
+Request body: [ItemsObject](../generic-slingshot-resources.html#item-object) <[MemberInfo](../generic-slingshot-resources#member-info-object)>
 
 Possible responses:
 
@@ -513,9 +522,11 @@ Example of a successful request body:
 }
 ```
 
-Example of a successful response body:
+<br/>
 
-```
+<div class="fancy-details">
+    <summary><b>Example of a successful response body:</b></summary>
+    <code>
 {
     "id": "{123456}_proj",
     "modified": "2023-02-09T14:39:08.0000000",
@@ -595,7 +606,8 @@ Example of a successful response body:
         }
     ]
 }
-```
+    </code>
+</div>
 
 <br/>
 
@@ -605,7 +617,7 @@ Example of a successful response body:
 
 Required parameters: the **id** of the project
 
-Request body: [ItemsObject](../generic-slingshot-resources.html#item-object) <[MemberInfo](..generic-slingshot-resources#member-info-object)>
+Request body: [ItemsObject](../generic-slingshot-resources.html#item-object) <[MemberInfo](../generic-slingshot-resources#member-info-object)>
 
 Possible responses:
 
@@ -630,9 +642,11 @@ Example of a successful request body:
 }
 ```
 
-Example of a successful response body:
+<br/>
 
-```
+<div class="fancy-details">
+    <summary><b>Example of a successful response body:</b></summary>
+    <code>
 {
     "id": "{123456}_proj",
     "modified": "2023-02-09T14:14:03.0000000",
@@ -702,7 +716,8 @@ Example of a successful response body:
         }
     ]
 }
-```
+    </code>
+</div>
 
 <br/>
 
@@ -712,7 +727,7 @@ Example of a successful response body:
 
 Required parameters: the **id** of the project
 
-Request body: [ItemsObject](../generic-slingshot-resources.html#item-object) <[MemberInfo](..generic-slingshot-resources#member-info-object)>
+Request body: [ItemsObject](../generic-slingshot-resources.html#item-object) <[MemberInfo](../generic-slingshot-resources#member-info-object)>
 
 | Code | Description|
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
@@ -734,9 +749,11 @@ Example of a successful request body:
 }
 ```
 
-Example of a successful response body:
+<br/>
 
-```
+<div class="fancy-details">
+    <summary><b>Example of a successful response body:</b></summary>
+    <code>
 {
         "id": "{123456}_proj",
         "modified": "2023-02-10T14:33:28.0000000",
@@ -807,7 +824,10 @@ Example of a successful response body:
             }
         ]
 }
-```
+    </code>
+</div>
+
+<br/>
 
 >[!NOTE] Only Owners can grant requests access to add members to a project. 
 
@@ -819,7 +839,7 @@ Example of a successful response body:
 
 Required parameters: the **id** of the project
 
-Request body: [ItemsObject](../generic-slingshot-resources.html#item-object) <[MemberInfo](..generic-slingshot-resources#member-info-object)>
+Request body: [ItemsObject](../generic-slingshot-resources.html#item-object) <[MemberInfo](../generic-slingshot-resources#member-info-object)>
 
 | Code | Description|
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
@@ -841,9 +861,11 @@ Example of a successful request body:
 }
 ```
 
-Example of a successful response body:
+<br/>
 
-```
+<div class="fancy-details">
+    <summary><b>Example of a successful response body:</b></summary>
+    <code>
 {
     "id": "{123456}_proj",
     "modified": "2023-02-10T14:37:00.0000000",
@@ -908,6 +930,9 @@ Example of a successful response body:
         }
     ]
 }
-```
+    </code>
+</div>
+
+<br/>
 
 >[!NOTE] Only Owners can deny requests access to add members to a project. 
