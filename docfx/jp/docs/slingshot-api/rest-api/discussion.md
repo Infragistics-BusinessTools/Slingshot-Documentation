@@ -79,9 +79,11 @@
 }
 ```
 
-成功した応答本文の例: 
+<br/>
 
-```
+<div class="fancy-details">
+    <summary><b>成功した応答本文の例:</b></summary>
+    <code>
 {
     "id": "{123456}",
     "modified": "2023-02-03T10:11:36.0000000",
@@ -97,7 +99,8 @@
         "name": "Threads"
     }
 }
-```
+    </code>
+</div>
 
 <br/>
 
@@ -212,9 +215,11 @@
 }
 ```
 
-成功した応答本文の例: 
+<br/>
 
-```
+<div class="fancy-details">
+    <summary><b>成功した応答本文の例:</b></summary>
+    <code>
 {
     "id": "{123456}",
     "modified": "2023-02-03T11:42:39.0000000",
@@ -235,7 +240,8 @@
         "text": "We should check this again."
     }
 }
-```
+    </code>
+</div>
 
 <br/>
 

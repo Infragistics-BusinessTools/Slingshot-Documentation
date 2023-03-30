@@ -91,9 +91,11 @@
 }
 ```
 
-成功した応答本文の例:
+<br/>
 
-```
+<div class="fancy-details">
+    <summary><b>成功した応答本文の例:</b></summary>
+    <code>
 {
     "id": "{123456}",
     "modified": "2023-02-06T13:39:17.0000000",
@@ -113,7 +115,8 @@
         "name": "Section 1"
     }
 }
-```
+    </code>
+</div>
 
 <br/>
 

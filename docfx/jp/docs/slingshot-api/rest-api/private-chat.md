@@ -1,22 +1,22 @@
-# Private Chat
+# プライベート チャット
 
-You can use private chats in order to communicate with other users. As they are workspace and project independent, the users don’t need to be a part of your organization. Only you and the users, with whom you communicate with, can see the information in the chat.
+他のユーザーと通信するために、プライベート チャットを使用できます。ユーザーはワークスペースやプロジェクトに依存しないため、ユーザーは組織の一員である必要はありません。チャット内の情報を見ることができるのは、通信するユーザーだけです。
 
-## Schema:
+## スキーマ:
 
-|    Property  | Type            | Attributes           |
+|    プロパティ  | 型            | 属性           |
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| id              | string |read-only  |
-| modified             | string |read-only  |
-|timestamp |	double| read-only| 
-| created             | string | read-only |
-| name               | string |  min = 1, max = 100 |  
-|members| 	array <[MemberInfo](..generic-slingshot-resources#member-info-object)> |read-only|
-|lastMessage| object <[ChatMessageInfo](..generic-slingshot-resources#chat-message-info-object)>|read-only |
+| id              | 文字列 |read-only  |
+| modified             | 文字列 |read-only  |
+|timestamp |	倍精度浮動小数点数型 (double) | read-only| 
+| created             | 文字列 | read-only |
+| name               | 文字列 |  min = 1, max = 100 |  
+|members| 	配列 <[MemberInfo](../generic-slingshot-resources#member-info-object)> |read-only|
+|lastMessage| オブジェクト <[ChatMessageInfo](../generic-slingshot-resources#chat-message-info-object)>|read-only |
 
 <br/>
 
-## Example:
+## 例:
 
 ```
 {
@@ -47,29 +47,29 @@ You can use private chats in order to communicate with other users. As they are 
 
 <br/>
 
-## Create a private chat 
+## プライベート チャットを作成する 
 
 <img src="../images/post-request.png" alt="Post request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***htt<area>ps://my.slingshotapp<area>.io/v1/privatechats***</span>
 
-Required parameters: None
+必須パラメーター: なし
 
-When you request to create a private chat, the request body will have the following content:
+プライベート チャットの作成を要求すると、要求本文には次の内容が含まれます。
 
-|    Property  | Type            | Attributes           |
+|    プロパティ  | 型            | 属性           |
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| name               | string | required, min = 1, max = 100 |
-| members         | array <[MemberInfo](..generic-slingshot-resources#member-info-object)>|required | 
+| name               | 文字列 | required, min = 1, max = 100 |
+| members         | 配列 <[MemberInfo](../generic-slingshot-resources#member-info-object)>|required | 
 
-Possible responses:
+可能な応答:
 
-| Code | Description|
+| コード | 説明|
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| 201 (Created) |You successfully created a private chat. The newly created private chat will be returned in the response body.   |
-| 400 (Bad Request) |The request was not processed because of missing or malformed parameter(s). Check the error array in the response to get an idea of what went wrong. |
-| 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication.  |
-| 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
+| 201 (Created) |プライベート チャットが正常に作成されました。新しく作成されたプライベート チャットは、応答本文で返されます。   |
+| 400 (Bad Request) |パラメーターが欠落しているか、形式が正しくないため、要求は処理されませんでした。応答のエラー配列を確認して、何が問題なのかを把握してください。 |
+| 403 (Forbidden) |サーバーは要求を理解していますが、要求を承認できません。これは、たとえば、アクセスせずにオブジェクトを読み込もうとしたときに発生する可能性があります。再認証の必要はありません。  |
+| 404 (Not Found) |要求されたリソースがサーバーで見つかりません。これは、たとえば、指定されたオブジェクトが存在しないことが原因である可能性があります。 |
 
-Example of a successful request body:
+成功した要求本文の例:
 
 ```
 {
@@ -84,9 +84,11 @@ Example of a successful request body:
 }
 ```
 
-Example of a successful response body: 
+<br/>
 
-```
+<div class="fancy-details">
+    <summary><b>成功した応答本文の例:</b></summary>
+    <code>
 {
     "id": "{123456}_pchat",
     "modified": "2023-02-09T15:26:48.0000000",
@@ -101,64 +103,65 @@ Example of a successful response body:
         }
     ]
 }
-```
+    </code>
+</div>
 
 <br/>
 
-## Get a private chat
+## プライベート チャットを取得する
 
 <img src="../images/get.png" alt="Get request" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/privatechats/{id}***
 
-Required parameters: the **id** of the private chat 
+必須パラメーター: プライベート チャットの **id**。
 
-Possible responses:
+可能な応答:
 
-Code | Description|
+コード | 説明|
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| 200 (Success) |You can view the private chat. The requested private chat will be returned in the response body.  |
-| 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication. |
-| 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
+| 200 (Success) |プライベート チャットを表示できます。要求されたプライベート チャットは、応答本文で返されます。  |
+| 403 (Forbidden) |サーバーは要求を理解しますが、要求を承認できません。これは、たとえば、アクセスせずにオブジェクトを読み込もうとしたときに発生する可能性があります。再認証の必要はありません。 |
+| 404 (Not Found) |要求されたリソースがサーバーで見つかりません。これは、たとえば、指定されたオブジェクトが存在しないことが原因である可能性があります。 |
 
 <br/>
 
-## Get all private chats
+## すべてのプライベート チャットを取得する
 
 <img src="../images/get-all.png" alt="Get all request" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> <span class="italic">***htt<area>ps://my.slingshotapp<area>.io/v1/privatechats***</span>
 
-Required parameters: None
+必須パラメーター: なし
 
-Possible responses:
+可能な応答:
 
-Code | Description|
+コード | 説明|
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| 200 (Success) |You can view all your private chats. The requested [PrivateChat(s)](#private-chat-schema) will be returned in the response body.   |
-| 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication. |
-| 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
+| 200 (Success) |すべてのプライベート チャットを表示できます。要求された [PrivateChat(s)](#private-chat-schema) は、応答本文で返されます。   |
+| 403 (Forbidden) |サーバーは要求を理解しますが、要求を承認できません。これは、たとえば、アクセスせずにオブジェクトを読み込もうとしたときに発生する可能性があります。再認証の必要はありません。|
+| 404 (Not Found) |要求されたリソースがサーバーで見つかりません。これは、たとえば、指定されたオブジェクトが存在しないことが原因である可能性があります。 |
 
 <br/>
 
-## Update a private chat 
+## プライベート チャット メッセージを送信する 
 
 <img src="../images/patch.png" alt="Patch request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/privatechats/{id}***
 
-Required parameters: the **id** of the private chat
+必須パラメーター: プライベート チャットの **id**。
 
-When you request to update a discussion, the request body will have the following content: 
+ディスカッションの更新を要求する場合、要求の本文には次の内容を含めます。 
 
-|    Property  | Type            | Attributes           |
+|    プロパティ  | 型            | 属性           |
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| name               | string | min = 1, max = 100 |
+| name               | 文字列 | min = 1, max = 100 |
 
-Possible responses:
+可能な応答:
 
-| Code | Description|
+| コード | 説明|
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| 200 (Success) |You successfully updated the private chat.   |
-| 400 (Bad Request) |The request was not processed because of missing or malformed parameter(s). Check the error array in the response to get an idea of what went wrong. |
-| 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication. |
-| 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
+| 200 (Success) |プライベート チャットが正常に更新されました。   |
+| 400 (Bad Request) |パラメーターが欠落しているか、形式が正しくないため、要求は処理されませんでした。応答のエラー配列を確認して、何が問題なのかを把握してください。 |
+| 403 (Forbidden) |サーバーは要求を理解していますが、要求を承認できません。これは、たとえば、アクセスせずにオブジェクトを読み込もうとしたときに発生する可能性があります。再認証の必要はありません。|
+| 404 (Not Found) |要求されたリソースがサーバーで見つかりません。これは、たとえば、指定されたオブジェクトが存在しないことが原因である可能性があります。 |
 
-Example of a successful request body:
+成功した要求本文の例:
 
 ```
 {
@@ -166,9 +169,11 @@ Example of a successful request body:
 }
 ```
 
-Example of a successful response body:
+<br/>
 
-```
+<div class="fancy-details">
+    <summary><b>成功した応答本文の例:</b></summary>
+    <code>
 {
     "id": "{123456}_pchat",
     "modified": "2023-02-20T07:53:06.0000000",
@@ -193,69 +198,69 @@ Example of a successful response body:
         "text": "I will double-check."
     }
 }
-```
+    </code>
+</div>
 
 <br/>
 
-## Get private chat messages
+## プライベート チャット メッセージを取得する
 
 <img src="../images/get.png" alt="Get request" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> ***<span class="italic">***htt<area>ps://my.slingshotapp<area>.io/v1/privatechats/{id}/messages***</span>***
 
-Required parameters: the **id** of the private chat
+必須パラメーター: プライベート チャットの **id**。
 
->[!NOTE] In case you don’t set a number of returned messages or a start index, they will be automatically added. The default value for the number of returned messages is 10, and for the start index is 0.
+>[!NOTE] 返されるメッセージの数または開始インデックスを設定しない場合、それらのパラメーターは自動的に追加されます。返されるメッセージの数のデフォルト値は 10 で、開始インデックスのデフォルト値は 0 です。
 
-Possible responses:
+可能な応答:
 
-| Code | Description|
+| コード | 説明|
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| 200 (Success) |You can view all the messages in the private chat. The requested private chat will be returned in the response body.   |
-| 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication. |
-| 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
+| 200 (Success) |プライベート チャットですべてのメッセージを表示できます。要求されたプライベート チャットは、応答本文で返されます。   |
+| 403 (Forbidden) |サーバーは要求を理解しますが、要求を承認できません。これは、たとえば、アクセスせずにオブジェクトを読み込もうとしたときに発生する可能性があります。再認証の必要はありません。 |
+| 404 (Not Found) |要求されたリソースがサーバーで見つかりません。これは、たとえば、指定されたオブジェクトが存在しないことが原因である可能性があります。 |
 
 <br/>
 
-## Send a private chat message  
-
+## プライベート チャット メッセージを送信する
 <img src="../images/post-sending-private-chat.png" alt="Sending private chat with post request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/privatechats/{id}/send***
 
-Required parameters: the **id** of the private chat 
+必須パラメーター: プライベート チャットの **id**。 
 
-When you request to send a private chat, the request body will have the following content: 
+プライベート チャットの送信を要求すると、要求本文には次の内容が含まれます。 
 
-|    Property  | Type            | Attributes           |
+|    プロパティ  | 型            | 文字列           |
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| text              | string | min = 1, max = 100 |
+| text              | 文字列 | min = 1, max = 100 |
 
-Possible responses:
+可能な応答:
 
-| Code | Description|
+| コード | 説明|
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| 204 (No Content) |You send a private chat message. |
-| 400 (Bad Request) |The request was not processed because of missing or malformed parameter(s). Check the error array in the response to get an idea of what went wrong. |
-| 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication. |
-| 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
+| 204 (No Content) |プライベート チャット メッセージを送信します。 |
+| 400 (Bad Request) |パラメーターが欠落しているか、形式が正しくないため、要求は処理されませんでした。応答のエラー配列を確認して、何が問題なのかを把握してください。 |
+| 403 (Forbidden) |サーバーは要求を理解していますが、要求を承認できません。これは、たとえば、アクセスせずにオブジェクトを読み込もうとしたときに発生する可能性があります。再認証の必要はありません。 |
+| 404 (Not Found) |要求されたリソースがサーバーで見つかりません。これは、たとえば、指定されたオブジェクトが存在しないことが原因である可能性があります。 |
 
 <br/>
 
-## Add members to a private chat 
+## プライベート チャットにメンバーを追加する 
 
 <img src="../images/post-request.png" alt="Post request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/privatechats/{id}/members***
 
-Required parameters: the **id** of the private chat
+必須パラメーター: プライベート チャットの **id**。
 
-要求本文: [ItemsObject](../generic-slingshot-resources.html#item-object) <[MemberInfo](..generic-slingshot-resources#member-info-object)>
+要求本文: [ItemsObject](../generic-slingshot-resources.html#item-object) <[MemberInfo](../generic-slingshot-resources#member-info-object)>
 
-Possible responses:
+可能な応答:
 
-| Code | Description|
+| コード | 説明|
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| 200 (Success) |You successfully added members to the private chat. The updated private chat will be returned.  |
-| 400 (Bad Request) |The request was not processed because of missing or malformed parameter(s). Check the error array in the response to get an idea of what went wrong. |
-| 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication. |
-| 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
+| 200 (Success) |メンバーをプライベート チャットに追加しました。更新されたプライベート チャットが返されます。  |
+| 400 (Bad Request) |パラメーターが欠落しているか、形式が正しくないため、要求は処理されませんでした。応答のエラー配列を確認して、何が問題なのかを把握してください。 |
+| 403 (Forbidden) |サーバーは要求を理解していますが、要求を承認できません。これは、たとえば、アクセスせずにオブジェクトを読み込もうとしたときに発生する可能性があります。再認証の必要はありません。 |
+| 404 (Not Found) |要求されたリソースがサーバーで見つかりません。これは、たとえば、指定されたオブジェクトが存在しないことが原因である可能性があります。 |
 
-Example of a successful request body:
+成功した要求本文の例:
 
 ```
 {
@@ -269,9 +274,11 @@ Example of a successful request body:
 }
 ```
 
-Example of a successful response body:
+<br/>
 
-```
+<div class="fancy-details">
+    <summary><b>成功した応答本文の例:</b></summary>
+    <code>
 {
     "id": "{123456}_pchat",
     "modified": "2023-02-10T09:09:23.0000000",
@@ -296,30 +303,33 @@ Example of a successful response body:
         "text": "Okay, I will check it again."
     }
 }
-```
-
->[!NOTE] You can assign a member only an owner role.
+    </code>
+</div>
 
 <br/>
 
-## Remove members from a private chat
+>[!NOTE] メンバーには所有者ロールのみを割り当てることができます。
+
+<br/>
+
+## プライベート チャットからメンバーを削除する
 
 <img src="../images/delete.png" alt="Delete request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/privatechats/{id}/members***
 
-Required parameters: the **id** of the private chat
+必須パラメーター: プライベート チャットの **id**。
 
-要求本文: [ItemsObject](../generic-slingshot-resources.html#item-object) <[MemberInfo](..generic-slingshot-resources#member-info-object)>
+要求本文: [ItemsObject](../generic-slingshot-resources.html#item-object) <[MemberInfo](../generic-slingshot-resources#member-info-object)>
 
-Possible responses:
+可能な応答:
 
-| Code | Description|
+| コード | 説明|
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| 200 (Success) |You removed the members from the private chat. |
-| 400 (Bad Request) |The request was not processed because of missing or malformed parameter(s). Check the error array in the response to get an idea of what went wrong. |
-| 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication. |
-| 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
+| 200 (Success) |プライベート チャットからメンバーを削除しました。 |
+| 400 (Bad Request) |パラメーターが欠落しているか、形式が正しくないため、要求は処理されませんでした。応答のエラー配列を確認して、何が問題なのかを把握してください。 |
+| 403 (Forbidden) |サーバーは要求を理解していますが、要求を承認できません。これは、たとえば、アクセスせずにオブジェクトを読み込もうとしたときに発生する可能性があります。再認証の必要はありません。 |
+| 404 (Not Found) |要求されたリソースがサーバーで見つかりません。これは、たとえば、指定されたオブジェクトが存在しないことが原因である可能性があります。 |
 
-Example of a successful request body:
+成功した要求本文の例:
 
 ```
 {
@@ -333,9 +343,11 @@ Example of a successful request body:
 }
 ```
 
-Example of a successful response body:
+<br/>
 
-```
+<div class="fancy-details">
+    <summary><b>成功した応答本文の例:</b></summary>
+    <code>
 {
     "id": "{123456}_pchat",
     "modified": "2023-02-10T09:41:56.0000000",
@@ -355,4 +367,5 @@ Example of a successful response body:
         "text": "LeftGroupChat"
     }
 }
-```
+    </code>
+</div>

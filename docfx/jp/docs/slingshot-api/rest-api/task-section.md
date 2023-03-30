@@ -1,24 +1,24 @@
-# Task Section
+# タスク セクション
 
-You can use tasks in order to better organize your work. For better visibility, you can organize them in different sections. Sections are divisions of a task list.
+作業をより適切に整理するために、タスクを使用できます。見やすくするために、タスクを別のセクションに整理できます。セクションは、タスク リストの分割です。
 
-## Schema:
+## スキーマ:
 
-|    Property  | Type            | Attributes           |
+|    プロパティ  | 型            | 属性           |
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| id               | string | read-only |    
-| modified              | string |  read-only|  
-| created             | string |  read-only|  
-| name               | string |min = 1, max = 100|  
-| user             | object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> |read-only | 
-| workspace            | object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> |read-only |  
-| project    | object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | read-only| 
-|taskList| object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)>|read-only|
-| tasks  | array <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)>  | read-only| 
+| id               | 文字列 | read-only |    
+| modified              | 文字列 |  read-only|  
+| created             | 文字列 |  read-only|  
+| name               | 文字列 |min = 1, max = 100|  
+| user             | オブジェクト <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> |read-only | 
+| workspace            | オブジェクト <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> |read-only |  
+| project    | オブジェクト <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | read-only| 
+|taskList| オブジェクト <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)>|read-only|
+| tasks  | 配列 <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)>  | read-only| 
 
 <br/>
 
-## Example:
+## 例:
 
 ```
 {
@@ -45,29 +45,29 @@ You can use tasks in order to better organize your work. For better visibility, 
 
 <br/>
 
-## Create a task section
+## タスク セクションを作成する
 
 <img src="../images/post-request.png" alt="Post request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***htt<area>ps://my.slingshotapp<area>.io/v1/tasksections***</span>
 
-Required parameters: None 
+必須パラメーター: なし 
 
-When you request to create a tasks section, the request body will have the following content:  
+タスク セクションの作成を要求する場合、要求の本文には次の内容を含めます。  
 
-|    Property  | Type            | Attributes           |
+|    プロパティ  | 型            | 属性           |
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| name               | string | required, min = 1, max = 100 |
-|taskList| object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)>| required|
+| name               | 文字列 | required, min = 1, max = 100 |
+|taskList| オブジェクト <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)>| required|
 
-Possible responses:
+可能な応答:
 
-| Code | Description|
+| コード | 説明|
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| 201 (Created) |You successfully created a task section. The newly created task section will be returned in the response body.  |
-| 400 (Bad Request) |The request was not processed because of missing or malformed parameter(s). Check the error array in the response to get an idea of what went wrong. |
-| 403 (Forbidden) |The request cannot be authorized. This can happen when you don’t have the necessary permissions.  |
-| 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
+| 201 (Created) |タスク セクションが正常に作成されました。新しく作成されたタスク セクションは、応答本文で返されます。  |
+| 400 (Bad Request) |パラメーターが欠落しているか、形式が正しくないため、要求は処理されませんでした。応答のエラー配列を確認して、何が問題なのかを把握してください。 |
+| 403 (Forbidden) |要求を承認できません。これは、必要な権限がない場合に発生する可能性があります。  |
+| 404 (Not Found) |要求されたリソースがサーバーで見つかりません。これは、たとえば、指定されたオブジェクトが存在しないことが原因である可能性があります。 |
 
-Example of a successful request body:
+成功した要求本文の例:
 
 ```
 {
@@ -79,9 +79,11 @@ Example of a successful request body:
 }
 ```
 
-Example of a successful response body: 
+<br/>
 
-```
+<div class="fancy-details">
+    <summary><b>成功した応答本文の例:</b></summary>
+    <code>
 {
     "id": "{123456}_tg",
     "modified": "2023-02-03T12:03:58.0000000",
@@ -102,64 +104,66 @@ Example of a successful response body:
         }
     ]
 }
-```
+    </code>
+</div>
 
 <br/>
 
-## Get a task section
+## タスク セクションを取得する
  
 <img src="../images/get.png" alt="Get request" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/tasksections/{id}***
 
-Required parameters: the **id** of the task  
+必須パラメーター: タスクの **id**。  
 
-Possible responses:
+可能な応答:
 
-| Code | Description|
+| コード | 説明|
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| 200 (Success) |You can view the task section. The requested task section will be returned in the response body.   |
-| 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication. |
-| 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
+| 200 (Success) |タスク セクションを表示できます。要求されたタスク セクションは、応答本文で返されます。   |
+| 403 (Forbidden) |サーバーは要求を理解しますが、要求を承認できません。これは、たとえば、アクセスせずにオブジェクトを読み込もうとしたときに発生する可能性があります。再認証の必要はありません。 |
+| 404 (Not Found) |要求されたリソースがサーバーで見つかりません。これは、たとえば、指定されたオブジェクトが存在しないことが原因である可能性があります。 |
 
 <br/>
 
-## Get all task sections for a parent task list
+## 親タスク リストのすべてのタスク セクションを取得
 
 <img src="../images/get-all.png" alt="Get all request" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/tasksections/parent/{id}***
 
-Required parameters: the **id** of the parent task list
+必須パラメーター: 親タスク リストの **id**。
 
-Possible responses:
+可能な応答:
 
-Code | Description|
+コード | 説明|
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| 200 (Success) |You can view all the task sections that are in the parent task list. The requested task sections will be returned in the response body.  |
-| 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication. |
-| 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
+| 200 (Success) |親タスク リストにあるすべてのタスク セクションを表示できます。要求されたタスク セクションは、応答本文で返されます。  |
+| 403 (Forbidden) |サーバーは要求を理解しますが、要求を承認できません。これは、たとえば、アクセスせずにオブジェクトを読み込もうとしたときに発生する可能性があります。再認証の必要はありません。 |
+| 404 (Not Found) |要求されたリソースがサーバーで見つかりません。これは、たとえば、指定されたオブジェクトが存在しないことが原因である可能性があります。 |
 
 <br/>
 
-## Update a task section  
+## タスク セクションを更新する 
 
 <img src="../images/patch.png" alt="Patch request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/tasksections/{id}***
 
-Required parameters: the **id** of the tasks section
+必須パラメーター: タスク セクションの **id**。
 
-When you request to update a task section, the request body will have the following content: 
+タスク セクションの更新を要求する場合、要求の本文には次の内容を含めます。 
 
-|    Property  | Type            | Attributes           |
+|    プロパティ  | 型            | 属性           |
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| name               | string |  min = 1, max = 100 |
+| name               | 文字列 |  min = 1, max = 100 |
 
-Possible responses:
+可能な応答:
 
-| Code | Description|
+| コード | 説明
+|
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| 200 (Success) |The task section is updated. The updated task section will be returned in the response body.   |
-| 400 (Bad Request) |The request was not processed because of missing or malformed parameter(s). Check the error array in the response to get an idea of what went wrong. |
-| 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication. |
-| 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
+| 200 (Success) |タスク セクションが更新されました。更新されたタスク セクションは、応答本文で返されます。   |
+| 400 (Bad Request) |パラメーターが欠落しているか、形式が正しくないため、要求は処理されませんでした。応答のエラー配列を確認して、何が問題なのかを把握してください。 |
+| 403 (Forbidden) |サーバーは要求を理解していますが、要求を承認できません。これは、たとえば、アクセスせずにオブジェクトを読み込もうとしたときに発生する可能性があります。再認証の必要はありません。 |
+| 404 (Not Found) |要求されたリソースがサーバーで見つかりません。これは、たとえば、指定されたオブジェクトが存在しないことが原因である可能性があります。 |
 
-Example of a successful request body:
+成功した要求本文の例:
 
 ```
 {
@@ -167,9 +171,11 @@ Example of a successful request body:
 }
 ```
 
-Example of a successful response body: 
+<br/>
 
-```
+<div class="fancy-details">
+    <summary><b>成功した応答本文の例:</b></summary>
+    <code>
 {
     "id": "{123456}_tg",
     "modified": "2023-02-03T12:22:07.0000000",
@@ -190,20 +196,21 @@ Example of a successful response body:
         }
     ]
 }
-```
+    </code>
+</div>
 
 <br/>
 
-## Delete a task section 
+## タスク セクションを削除する 
 
 <img src="../images/delete.png" alt="Delete request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/tasksections/{id}***
 
-Required parameters: the **id** of the tasks section
+必須パラメーター: タスク セクションの **id**。
 
-Possible responses:
+可能な応答:
 
-| Code | Description|
+| コード | 説明|
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| 204 (No Content) |The task section is deleted. |
-| 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication. |
-| 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
+| 204 (No Content) |タスク セクションが削除されました。 |
+| 403 (Forbidden) |サーバーは要求を理解しますが、要求を承認できません。これは、たとえば、アクセスせずにオブジェクトを読み込もうとしたときに発生する可能性があります。再認証の必要はありません。 |
+| 404 (Not Found) |要求されたリソースがサーバーで見つかりません。これは、たとえば、指定されたオブジェクトが存在しないことが原因である可能性があります。 |

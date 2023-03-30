@@ -50,7 +50,7 @@
 
 |    プロパティ  | 型            | 属性           |
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| name               | string | required, min = 1, max = 100|  
+| name               | 文字列 | required, min = 1, max = 100|  
 | user   | オブジェクト <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | required, one-of|
 | workspace            | オブジェクト <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)>| required, one-of|  
  | project    | オブジェクト <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> |required, one-of | 
@@ -76,9 +76,11 @@
 }
  ```
 
-成功した応答本文の例: 
+<br/>
 
-```
+<div class="fancy-details">
+    <summary><b>成功した応答本文の例: </b></summary>
+    <code>
 {
     "id": "{123456}_repo",
     "modified": "2023-02-03T14:07:34.0000000",
@@ -95,7 +97,8 @@
         }
     ]
 }
-```
+    </code>
+</div>
 
 <br/>
 
@@ -160,9 +163,11 @@
 }
 ```
 
-成功した応答本文の例: 
+<br/>
 
-```
+<div class="fancy-details">
+    <summary><b>成功した応答本文の例: </b></summary>
+   <code>
 {
     "id": "{123456}_repo",
     "modified": "2023-02-06T12:34:39.0000000",
@@ -179,7 +184,8 @@
         }
     ]
 }
-```
+    </code>
+</div>
 
 <br/>
 

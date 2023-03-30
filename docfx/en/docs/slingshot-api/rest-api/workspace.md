@@ -119,7 +119,7 @@ When you request to create a workspace, the request body will have the following
 |status| string enum ("none", "ontarget", "atrisk", "danger", "completed")| | 
 |members| 	array <[MemberInfo](../generic-slingshot-resources#member-info-object)> | |
 
-Possible responses:
+可能な応答:
 
 | Code | Description|
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
@@ -232,7 +232,7 @@ Example of a successful request body:
 
 Required parameters: the **id** of the workspace
 
-Possible responses:
+可能な応答:
 
 | Code | Description|
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
@@ -248,7 +248,7 @@ Possible responses:
 
 Required parameters: None
 
-Possible responses:
+可能な応答:
 
 | Code | Description|
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
@@ -276,7 +276,7 @@ When you request to update a workspace, the request body will have the following
 |status| string enum ("none", "ontarget", "atrisk", "danger", "completed")| | 
 
 
-Possible responses:
+可能な応答:
 
 | Code | Description|
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
@@ -381,7 +381,7 @@ Example of a successful request body:
 
 Required parameters: the **id** of the workspace
 
-Possible responses:
+可能な応答:
 
 | Code | Description|
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
@@ -399,7 +399,7 @@ Required parameters: the **id** of the workspace
 
 Request body: [ItemsObject](../generic-slingshot-resources.html#item-object) <[MemberInfo](../generic-slingshot-resources#member-info-object)>
 
-Possible responses:
+可能な応答:
 
 | Code | Description|
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
@@ -518,7 +518,7 @@ Required parameters: the **id** of the workspace
 
 Request body: [ItemsObject](../generic-slingshot-resources.html#item-object) <[MemberInfo](../generic-slingshot-resources#member-info-object)>
 
-Possible responses:
+可能な応答:
 
 | Code | Description|
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
@@ -641,7 +641,7 @@ Required parameters: the **id** of the workspace
 
 Request body: [ItemsObject](../generic-slingshot-resources.html#item-object) <[MemberInfo](../generic-slingshot-resources#member-info-object)>
 
-Possible responses:
+可能な応答:
 
 | Code | Description|
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
@@ -759,7 +759,7 @@ Required parameters: the **id** of the workspace
 
 Request body: [ItemsObject](../generic-slingshot-resources.html#item-object) <[MemberInfo](../generic-slingshot-resources#member-info-object)>
 
-Possible responses:
+可能な応答:
 
 | Code | Description|
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
@@ -879,7 +879,7 @@ Required parameters: the **id** of the workspace
 
 Request body: [ItemsObject](../generic-slingshot-resources.html#item-object) <[MemberInfo](../generic-slingshot-resources#member-info-object)>
 
-Possible responses:
+可能な応答:
 
 | Code | Description|
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |

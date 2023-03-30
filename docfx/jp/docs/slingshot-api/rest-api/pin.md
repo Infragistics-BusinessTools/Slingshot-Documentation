@@ -1,43 +1,43 @@
-# Pin
+# ピン固定
 
-Pins are simple links to different types of resources that you can share or access. You can organize them in different lists and sections.
+ピン固定は、共有またはアクセスできるさまざまな種類のリソースへの単純なリンクです。ピン固定をさまざまなリストやセクションに整理できます。
 
-## Schema:
+## スキーマ:
 
-|    Property  | Type            | Attributes           |
+|    プロパティ  | 型            | 属性           |
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| id              | string |  read-only|
-| modified             | string | read-only |
-| created             | string | read-only |
-| name               | string | min = 1, max = 100 |  
-| pinType |string enum ("document", "url") |read-only |
-| documentId  |string| read-only|  
-| documentType   |string enum(see below)  |read-only | 
-| url |string | |
+| id              | 文字列 |  read-only|
+| modified             | 文字列 | read-only |
+| created             | 文字列 | read-only |
+| name               | 文字列 | min = 1, max = 100 |  
+| pinType |文字列列挙体 ("document", "url") |read-only |
+| documentId  |文字列| read-only|  
+| documentType   |文字列列挙体(see below)  |read-only | 
+| url |文字列 | |
 
-### Document Types
+### ドキュメント タイプ
 
-|    Resource | Document Type           | 
+|    リソース | ドキュメント タイプ          | 
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| Workspace             | Workspace | 
-|Project                 |Project|
-|Organization           |Organization|
-|Task List               |TaskList|
-|Task Section           |TaskSection|
-|Task                     |Task|
-|Pin List                |PinList|
-|Pin Section             | PinSection|
-|Pin                     |Pin|
-|Discussion List         |DiscussionList|
-|Discussion              |Discussion|
-|Private Chat           |PrivateChat|
-|Dashboard List          |DashboardList|
-|Dashboard Section       |DashboardSection|
-|Dashboard               |Dashboard|
+|ワークスペース             | Workspace | 
+|プロジェクト                 |Project|
+|組織           |Organization|
+|タスク リスト             |TaskList|
+|タスク セクション          |TaskSection|
+|タスク                     |Task|
+|リストのピン固定                |PinList|
+|セクションのピン固定            | PinSection|
+|ピン固定                     |Pin|
+|ディスカッション リスト         |DiscussionList|
+|ディスカッション             |Discussion|
+|プライベート チャット           |PrivateChat|
+|ダッシュボード リスト          |DashboardList|
+|ダッシュボード セクション       |DashboardSection|
+|ダッシュボード               |Dashboard|
 
 <br/>
 
-## Example:
+## 例:
 
 ```
 {
@@ -71,36 +71,36 @@ Pins are simple links to different types of resources that you can share or acce
 
 <br/>
 
-## Create a pin
+## ピン固定を作成する
 
 <img src="../images/post-request.png" alt="Post request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***htt<area>ps://my.slingshotapp<area>.io/v1/pins/{pinSectionId}***</span>
 
-Required parameters: The **id** of the pin section 
+必須パラメーター: ピン固定セクションの **id**。 
 
-When you request to create a pin, the request body will have the following content: 
+ピン固定の作成を要求する場合、要求の本文には次の内容を含めます。 
 
-|    Property  | Type            | Attributes           |
+|    プロパティ  | 型            | 文字列           |
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| name               | string | required, min = 1, max = 100 |  
-| pinType |string enum ("document", "url") |required |
-| documentId  |string|required, one-of, groupId = 1|  
-| documentType   |string enum  |required, one-of, groupId = 1| 
-| url |string | required, one-of, groupId = 2|
+| name               | 文字列 | required, min = 1, max = 100 |  
+| pinType |文字列列挙体 ("document", "url") |required |
+| documentId  |文字列|required, one-of, groupId = 1|  
+| documentType   |文字列列挙体  |required, one-of, groupId = 1| 
+| url |文字列 | required, one-of, groupId = 2|
 
-If you decide to use a documentId in the request body, you also need to specify the documentType. Otherwise, you will get an error message. 
+要求本文で documentId を使用する場合は、documentType も指定する必要があります。そうしないと、エラー メッセージが表示されます。 
 
-If you decide to use a url of a component in the request body, you also need to specify the pinType in order to avoid errors.
+要求本文でコンポーネントの URL を使用する場合は、エラーを回避するために pinType も指定する必要があります。
 
-Possible responses:
+可能な応答:
 
-| Code | Description|
+| コード | 説明|
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| 201 (Created) |You successfully created a pin. The newly created pin will be returned in the response body.   |
-| 400 (Bad Request) |The request was not processed because of missing or malformed parameter(s). Check the error array in the response to get an idea of what went wrong. |
-| 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication.  |
-| 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
+| 201 (Created) |ピン固定が正常に作成されました。新しく作成されたピン固定は、応答本文で返されます。   |
+| 400 (Bad Request) |パラメーターが欠落しているか、形式が正しくないため、要求は処理されませんでした。応答のエラー配列を確認して、何が問題なのかを把握してください。 |
+| 403 (Forbidden) |サーバーは要求を理解していますが、要求を承認できません。これは、たとえば、アクセスせずにオブジェクトを読み込もうとしたときに発生する可能性があります。再認証の必要はありません。 |
+| 404 (Not Found) |要求されたリソースがサーバーで見つかりません。これは、たとえば、指定されたオブジェクトが存在しないことが原因である可能性があります。 |
 
-Example of a successful request body:
+成功した要求本文の例:
 
 ```
 {
@@ -109,9 +109,12 @@ Example of a successful request body:
     "pinType": "url"
 }
 ```
-Example of a successful response body: 
 
-```
+<br/>
+
+<div class="fancy-details">
+    <summary><b>成功した応答本文の例:</b></summary>
+    <code>
 {
     "id": "{123456}_bs",
     "modified": "2023-02-09T10:32:37.0000000",
@@ -139,33 +142,34 @@ Example of a successful response body:
         }
     ]
 }
-```
+    </code>
+</div>
 
 <br/>
 
-## Update a pin 
+## ピン固定を更新する 
 
 <img src="../images/patch.png" alt="Patch request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/pins/{pinSectionId}/{pinId}***
 
-Required parameters: the **id** of the pin section as well as the **id** of the pin being updated
+必須パラメーター: ピン固定セクションの **id** と更新されるピン固定の **id**。
 
-When you request to update a pin in a pin section, the request body will have the following content: 
+ピン固定セクションの更新を要求する場合、要求の本文には次の内容を含めます。 
 
-|    Property  | Type            | Attributes           |
+|    プロパティ  | 型            | 属性           |
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| name               | string | min = 1, max = 100 |   
-| url |string | |
+| name               | 文字列 | min = 1, max = 100 |   
+| url |文字列 | |
 
-Possible responses:
+可能な応答:
 
-| Code | Description|
+| コード | 説明|
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| 200 (Success) |The pin is updated. The updated pin will be returned in the response body.    |
-| 400 (Bad Request) |The request was not processed because of missing or malformed parameter(s). Check the error array in the response to get an idea of what went wrong. |
-| 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication. |
-| 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
+| 200 (Success) |ピン固定が更新されました。更新されたピン固定は、応答本文で返されます。    |
+| 400 (Bad Request) |パラメーターが欠落しているか、形式が正しくないため、要求は処理されませんでした。応答のエラー配列を確認して、何が問題なのかを把握してください。 |
+| 403 (Forbidden) |サーバーは要求を理解していますが、要求を承認できません。これは、たとえば、アクセスせずにオブジェクトを読み込もうとしたときに発生する可能性があります。再認証の必要はありません。 |
+| 404 (Not Found) |要求されたリソースがサーバーで見つかりません。これは、たとえば、指定されたオブジェクトが存在しないことが原因である可能性があります。 |
 
-Example of a successful request body:
+成功した要求本文の例:
 
 ```
 {
@@ -173,9 +177,12 @@ Example of a successful request body:
     "name": "Goals"
 }
 ```
-Example of a successful response body: 
 
-```
+<br/>
+
+<div class="fancy-details">
+    <summary><b>成功した応答本文の例:</b></summary>
+    <code>
 {
     "id": "{123456}_bs",
     "modified": "2023-02-09T10:49:24.0000000",
@@ -210,20 +217,21 @@ Example of a successful response body:
         }
     ]
 }
-```
+    </code>
+</div>
  
 <br/>
 
-## Delete a pin 
+## ピン固定を削除する 
 
 <img src="../images/delete.png" alt="Delete request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/pins/{pinSectionId}/{pinId}***
 
-Required parameters: the **id** of the pin section and the **id** of the pin being deleted
+必須パラメーター: ピン固定セクションの **id** と削除されるピンの **id**。
 
-Possible responses:
+可能な応答:
 
-| Code | Description|
+| コード | 説明|
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| 204 (No Content) |The pin is deleted. |
-| 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication. |
-| 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
+| 204 (No Content) |ピン固定が削除されました。 |
+| 403 (Forbidden) |サーバーは要求を理解しますが、要求を承認できません。これは、たとえば、アクセスせずにオブジェクトを読み込もうとしたときに発生する可能性があります。再認証の必要はありません。 |
+| 404 (Not Found) |要求されたリソースがサーバーで見つかりません。これは、たとえば、指定されたオブジェクトが存在しないことが原因である可能性があります。 |

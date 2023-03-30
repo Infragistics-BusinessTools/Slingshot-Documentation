@@ -1,41 +1,41 @@
-# Organizations
+# 組織
 
-Organization is a workspace, where you and your colleagues can find information, uploaded by your company/workplace.
+組織はワークスペースであり、会社/職場によってアップロードされた情報を見つけることができます。
 
 
 
-## Schema:
+## スキーマ:
 
-|    Property  | Type            | Attributes           |
+|    プロパティ  | 型            | 属性           |
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| id              | string | read-only |
-| modified             | string |read-only  |
-| created             | string |  read-only|
-| name               | string | read-only |
-| members            | array <[MemberInfo](../generic-slingshot-resources#member-info-object)> | read-only |
-| workspaces            |array <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | read-only|  
-| projects    |array <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | read-only| 
-| pinLists   |array <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)>  | read-only|
-| discussionLists  |array <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)>  | read-only|
-| dashboardLists   |array <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)>  | read-only|
+| id              | 文字列 | read-only |
+| modified             | 文字列 |read-only  |
+| created             | 文字列 |  read-only|
+| name               | 文字列 | read-only |
+| members            | 配列 <[MemberInfo](../generic-slingshot-resources#member-info-object)> | read-only |
+| workspaces            |配列 <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | read-only|  
+| projects    |配列 <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | read-only| 
+| pinLists   |配列 <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)>  | read-only|
+| discussionLists  |配列 <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)>  | read-only|
+| dashboardLists   |配列 <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)>  | read-only|
 
 <br/>
 
-## Get all organizations for a current user 
+## 現在のユーザーのすべての組織を取得する 
 
 <img src="../images/get-all.png" alt="Get all request" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> <span class="italic">***htt<area>ps://my.slingshotapp<area>.io/v1/organizations***</span>
 
-Required parameters: None
+必須パラメーター: なし
 
-Possible responses:
+可能な応答:
 
-| Code | Description|
+| コード | 説明|
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| 200 (Success) |You can view all your organizations. The requested Organizations will be returned in the response body.   |
-| 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication. |
-| 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
+| 200 (Success) |すべての組織を表示できます。要求された組織は、応答本文で返されます。  |
+| 403 (Forbidden) |サーバーは要求を理解しますが、要求を承認できません。これは、たとえば、アクセスせずにオブジェクトを読み込もうとしたときに発生する可能性があります。再認証の必要はありません。 |
+| 404 (Not Found) |要求されたリソースがサーバーで見つかりません。これは、たとえば、指定されたオブジェクトが存在しないことが原因である可能性があります。 |
 
-Example of a successful response body:
+成功した応答本文の例:
 
 ```
 {
