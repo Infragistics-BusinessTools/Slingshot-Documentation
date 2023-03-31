@@ -12,12 +12,12 @@
 |email| 文字列|read-only |
 | name               | 文字列 |min = 1, max = 200| 
 |locale|文字列|read-only |
-|organizations|配列 <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)>|read-only|
-| workspaces             | 配列 <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | read-only|
-| projects             | 配列 <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | read-only |
-| pinLists           | 配列 <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | read-only |
-| taskLists      | 配列 <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | read-only |
-| dashboardLists      |配列 <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | read-only |
+|organizations|配列 <[DocumentInfo](../generic-slingshot-resources.html#ドキュメント情報オブジェクト)>|read-only|
+| workspaces             | 配列 <[DocumentInfo](../generic-slingshot-resources.html#ドキュメント情報オブジェクト)> | read-only|
+| projects             | 配列 <[DocumentInfo](../generic-slingshot-resources.html#ドキュメント情報オブジェクト)> | read-only |
+| pinLists           | 配列 <[DocumentInfo](../generic-slingshot-resources.html#ドキュメント情報オブジェクト)> | read-only |
+| taskLists      | 配列 <[DocumentInfo](../generic-slingshot-resources.html#ドキュメント情報オブジェクト)> | read-only |
+| dashboardLists      |配列 <[DocumentInfo](../generic-slingshot-resources.html#ドキュメント情報オブジェクト)> | read-only |
 
 <br/>
 

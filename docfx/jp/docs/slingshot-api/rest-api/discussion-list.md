@@ -10,10 +10,10 @@
 | modified             | 文字列 |read-only  |
 | created             | 文字列 | read-only |
 | name               | 文字列 | min = 1, max = 100 |  
-| workspace            |オブジェクト <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | read-only|  
-| project    |オブジェクト <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | read-only| 
+| workspace            |オブジェクト <[DocumentInfo](../generic-slingshot-resources.html#ドキュメント情報オブジェクト)> | read-only|  
+| project    |オブジェクト <[DocumentInfo](../generic-slingshot-resources.html#ドキュメント情報オブジェクト)> | read-only| 
 | discussionsCount             | 整数 | read-only |
-| discussions             | 配列 <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> |read-only |
+| discussions             | 配列 <[DocumentInfo](../generic-slingshot-resources.html#ドキュメント情報オブジェクト)> |read-only |
 
 <br/>
 
@@ -56,8 +56,8 @@
 |    プロパティ  | 型            | 属性           |
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
 | name               | 文字列 | required, min = 1, max = 100 |  
-| workspace            |オブジェクト <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)>| required, one-of|  
- | project    |オブジェクト <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | required, one-of| 
+| workspace            |オブジェクト <[DocumentInfo](../generic-slingshot-resources.html#ドキュメント情報オブジェクト)>| required, one-of|  
+ | project    |オブジェクト <[DocumentInfo](../generic-slingshot-resources.html#ドキュメント情報オブジェクト)> | required, one-of| 
 
  可能な応答:
 

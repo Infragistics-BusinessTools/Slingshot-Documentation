@@ -10,11 +10,11 @@
 | modified             | 文字列 | read-only |
 | created             | 文字列 | read-only |
 | name               | 文字列 |  min = 1, max = 100 |  
-| user             | オブジェクト <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> |read-only | 
-| workspace            |オブジェクト <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | read-only|  
-| project    |オブジェクト <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)>| read-only| 
-| pinList   |オブジェクト <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)>|read-only | 
-| pins   |配列 <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)>  |read-only | 
+| user             | オブジェクト <[DocumentInfo](../generic-slingshot-resources.html#ドキュメント情報オブジェクト)> |read-only | 
+| workspace            |オブジェクト <[DocumentInfo](../generic-slingshot-resources.html#ドキュメント情報オブジェクト)> | read-only|  
+| project    |オブジェクト <[DocumentInfo](../generic-slingshot-resources.html#ドキュメント情報オブジェクト)>| read-only| 
+| pinList   |オブジェクト <[DocumentInfo](../generic-slingshot-resources.html#ドキュメント情報オブジェクト)>|read-only | 
+| pins   |配列 <[DocumentInfo](../generic-slingshot-resources.html#ドキュメント情報オブジェクト)>  |read-only | 
 
 <br/>
 
@@ -63,7 +63,7 @@
 |    プロパティ  | 型            | 属性           |
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
 | name               | 文字列 | required, min = 1, max = 100|  
-| pinList   |オブジェクト <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)>| required|
+| pinList   |オブジェクト <[DocumentInfo](../generic-slingshot-resources.html#ドキュメント情報オブジェクト)>| required|
 
 可能な応答:
 
@@ -149,7 +149,7 @@
 
 | コード | 説明|
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| 200 (Success) |親ピン固定リストですべてのピン固定セクションを表示できます。要求された [PinSection](#pinsection-schema) は、[ItemsObject](../generic-slingshot-resources.html#item-object) 配列の応答本文で返されます。    |
+| 200 (Success) |親ピン固定リストですべてのピン固定セクションを表示できます。要求された [PinSection](#pinsection-schema) は、[ItemsObject](../generic-slingshot-resources.html#項目オブジェクト) 配列の応答本文で返されます。    |
 | 403 (Forbidden) |サーバーは要求を理解しますが、要求を承認できません。これは、たとえば、アクセスせずにオブジェクトを読み込もうとしたときに発生する可能性があります。再認証の必要はありません。 |
 | 404 (Not Found) |要求されたリソースがサーバーで見つかりません。これは、たとえば、指定されたオブジェクトが存在しないことが原因である可能性があります。 |
 

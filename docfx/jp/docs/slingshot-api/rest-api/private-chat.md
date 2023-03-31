@@ -11,8 +11,8 @@
 |timestamp |	倍精度浮動小数点数型 (double) | read-only| 
 | created             | 文字列 | read-only |
 | name               | 文字列 |  min = 1, max = 100 |  
-|members| 	配列 <[MemberInfo](../generic-slingshot-resources#member-info-object)> |read-only|
-|lastMessage| オブジェクト <[ChatMessageInfo](../generic-slingshot-resources#chat-message-info-object)>|read-only |
+|members| 	配列 <[MemberInfo](../generic-slingshot-resources.html#member-info-object)> |read-only|
+|lastMessage| オブジェクト <[ChatMessageInfo](../generic-slingshot-resources.html#チャット-メッセージ情報オブジェクト)>|read-only |
 
 <br/>
 
@@ -58,7 +58,7 @@
 |    プロパティ  | 型            | 属性           |
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
 | name               | 文字列 | required, min = 1, max = 100 |
-| members         | 配列 <[MemberInfo](../generic-slingshot-resources#member-info-object)>|required | 
+| members         | 配列 <[MemberInfo](../generic-slingshot-resources.html#member-info-object)>|required | 
 
 可能な応答:
 
@@ -249,7 +249,7 @@
 
 必須パラメーター: プライベート チャットの **id**。
 
-要求本文: [ItemsObject](../generic-slingshot-resources.html#item-object) <[MemberInfo](../generic-slingshot-resources#member-info-object)>
+要求本文: [ItemsObject](../generic-slingshot-resources.html#項目オブジェクト) <[MemberInfo](../generic-slingshot-resources.html#member-info-object)>
 
 可能な応答:
 
@@ -318,7 +318,7 @@
 
 必須パラメーター: プライベート チャットの **id**。
 
-要求本文: [ItemsObject](../generic-slingshot-resources.html#item-object) <[MemberInfo](../generic-slingshot-resources#member-info-object)>
+要求本文: [ItemsObject](../generic-slingshot-resources.html#項目オブジェクト) <[MemberInfo](../generic-slingshot-resources.html#member-info-object)>
 
 可能な応答:
 

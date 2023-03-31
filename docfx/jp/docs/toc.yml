@@ -86,71 +86,71 @@
   href: slingshot-subscription.md
 - name: API 
   header: true
-- name: Overview
+- name: 概要
   href: slingshot-api/overview.md
-- name: API explorer
+- name: API エクスプローラー
   href: slingshot-api/api-explorer.md
-- name: Authentication
+- name: 認証
   href: slingshot-api/authentication.md
-- name: Explore the Object Model
+- name: オブジェクト モデルを調べる
   href: slingshot-api/explore-object-model.md
-- name: Generic Slingshot Resources
+- name: 一般的な Slingshot リソース
   href: slingshot-api/generic-slingshot-resources.md
-- name: Rate Limits
+- name: レート制限
   href: slingshot-api/rate-limits.md
-- name: Response Codes
+- name: 応答コード
   href: slingshot-api/response-codes.md
-- name: Samples
+- name: サンプル
   href: slingshot-api/samples.md
 - name: Rest API
   new: false
   items: 
-    - name: Dashboard List
+    - name: ダッシュボード リスト
       href: slingshot-api/rest-api/dashboard-list.md
       new: false 
-    - name: Dashboard Section
+    - name: ダッシュボード セクション
       href: slingshot-api/rest-api/dashboard-section.md
       new: false
-    - name: Dashboard
+    - name: ダッシュボード
       href: slingshot-api/rest-api/dashboard.md
       new: false  
-    - name: Discussion List
+    - name: ディスカッション リスト
       href: slingshot-api/rest-api/discussion-list.md
       new: false
-    - name: Discussion
+    - name: ディスカッション
       href: slingshot-api/rest-api/discussion.md
       new: false
-    - name: Organizations
+    - name: 組織
       href: slingshot-api/rest-api/organizations.md
       new: false
-    - name: Pin List
+    - name: ピン固定リスト
       href: slingshot-api/rest-api/pin-list.md
       new: false
-    - name: Pin Section
+    - name: ピン固定セクション
       href: slingshot-api/rest-api/pin-section.md
       new: false
-    - name: Pin
+    - name: ピン固定
       href: slingshot-api/rest-api/pin.md
       new: false
-    - name: Private Chat
+    - name: プライベート チャット
       href: slingshot-api/rest-api/private-chat.md
       new: false
-    - name: Project
+    - name: プロジェクト
       href: slingshot-api/rest-api/project.md
       new: false
-    - name: Task List
+    - name: タスク リスト
       href: slingshot-api/rest-api/task-list.md
       new: false
-    - name: Task Section
+    - name: タスク セクション
       href: slingshot-api/rest-api/task-section.md
       new: false
-    - name: Task
+    - name: タスク
       href: slingshot-api/rest-api/task.md
       new: false
-    - name: Workspace
+    - name: ワークスペース
       href: slingshot-api/rest-api/workspace.md
       new: false
-    - name: User
+    - name: ユーザー
       href: slingshot-api/rest-api/user.md
       new: false
 - name: リリース情報
