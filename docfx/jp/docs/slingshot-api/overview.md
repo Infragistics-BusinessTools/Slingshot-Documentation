@@ -1,19 +1,19 @@
-# Overview
+# 概要
 
-In order to access your Slingshot data from another app, for example, a tasks list, a connection between Slingshot and that app has to be established. This connection can be built with the help of the Slingshot API.
+タスク リストなど、別のアプリから Slingshot データにアクセスするには、Slingshot とそのアプリの間の接続を確立する必要があります。この接続は、Slingshot の API を使用して構築できます。
 
-The Slingshot API uses [REST](https://developer.mozilla.org/en-US/docs/Glossary/REST) principles. You can submit HTTP requests and the information will be returned in [JSON](https://www.json.org/json-en.html) format.
+Slingshot の API は [REST](https://developer.mozilla.org/ja/docs/Glossary/REST) 原則を使用します。HTTP リクエストを送信すると、情報が [JSON](https://www.json.org/json-ja.html) 形式で返されます。
 
-Keep in mind that the requests and responses support only one type of character encoding - [UTF-8](https://developer.mozilla.org/en-US/docs/Glossary/UTF-8). 
+リクエストとレスポンスがサポートする文字エンコーディングは [UTF-8](https://developer.mozilla.org/ja/docs/Glossary/UTF-8) の 1 種類のみであることに注意してください。
 
-To start using the API, you need to first authenticate yourself. [Here](authentication.md) you can find more information about the process of authentication. 
+API の使用を開始するには、まず自分自身を認証する必要があります。認証プロセスの詳細については、[こちら](authentication.md)を参照してください。
 
->[!NOTE] Below, you can find the general object model of Slingshot. 
+>[!NOTE] 以下に、Slingshot の一般的なオブジェクト モデルを示します。
 
 <p align="center">
 <img src="images/hierarchy-structure.png" alt="General hierarchy structure sample" class="response-img" width="28%">
 <p align="center">
 
-To learn more about the specific hierarchy options at each level, you can head [here](explore-object-hierarchy.md).
+各レベルの特定の階層オプションの詳細については、[こちら](https://www.slingshotapp.io/en/help/docs/slingshot-api/explore-object-model)にアクセスしてください。
 
 

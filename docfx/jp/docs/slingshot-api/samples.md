@@ -1,9 +1,5 @@
-# Slingshot Outlook Add-in (React) 
+# Slingshot Outlook アドイン (React)
 
-If you want to see how the Slingshot's API can be used in our data-driven world, you can find our public sample [here] (https://github.com/Infragistics/Slingshot/tree/main/Samples/). This sample creates a Microsoft Outlook addin. It gives you the ability to turn any email into a Slingshot task, right from you inbox. 
+データ駆動型の世界で Slingshot の API をどのように使用できるかを確認したい場合は、公開サンプルを[こちら](https://github.com/Infragistics/Slingshot/tree/main/Samples/)で見つけることができます。このサンプルでは、Microsoft Outlook アドインを作成します。受信トレイから直接、あらゆるメールを Slingshot タスクに変換できます。 
 
-Alternatively, if you want to manually try out the API, you can do that by using our [API Explorer](api-explorer.md). 
-
-### Slingshot Outlook Add-in (React) 
-
-You can follow the instructions, described in the [repository](https://github.com/Infragistics/Slingshot/tree/main/Samples/slingshot-outlook-addin-react), in order to create an Outlook add-in, that will give you the ability to turn any email into a Slingshot task right from your inbox. 
+または、API を手動で試してみたい場合は、[API エクスプローラー](api-explorer.md)を使用して実行できます。

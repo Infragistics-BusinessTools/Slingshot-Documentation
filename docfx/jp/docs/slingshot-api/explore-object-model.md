@@ -1,75 +1,75 @@
-# Explore the Object Model
+# オブジェクト モデルを調べる
 
-With Slingshot, you can organize your work with the help of different dashboards, workspaces, projects tasks, pins and bookmarks. Besides this, you can also communicate with your team members via chats and discussions. 
+Slingshot を使用すると、さまざまなダッシュボード、ワークスペース、プロジェクト タスク、ピン固定、ブックマークを使用して作業を整理できます。これに加えて、チャットやディスカッションを介してチーム メンバーと通信することもできます。 
 
-To find out more about how Slingshot works, you can take a look below.
+Slingshot を使用する方法の詳細については、以下をご覧ください。
 
-### Users
-In the object model, the *users* objects represent accounts in Slingshot. Every user can find their own information, such as credentials, profile information, settings and content in their account. 
+### ユーザー
+オブジェクト モデルでは、*users* (ユーザー) オブジェクトは Slingshot のアカウントを表します。すべてのユーザーは、資格情報、プロファイル情報、設定、コンテンツなどの自分の情報を、自分のアカウントで見つけることができます。 
 
-- [User](./rest-api/user.md)
+- [ユーザー](./rest-api/user.md)
 
 <img src="images/user-object-model.png" alt="user structure" class="responsive-img" width="89%">
 
-### Organizations
+### 組織
 
-Organization is a workspace, where you and your colleagues can find information, uploaded by your company/workplace. 
+組織はワークスペースであり、あなたとあなたの同僚が会社/職場によってアップロードされた情報を見つけることができます。 
 
-- [Organization](./rest-api/organizations.md)
+- [組織](./rest-api/organizations.md)
 
 <img src="images/organization-object-model.png" alt="organization structure" class="responsive-img" width="89%">
 
-### Workspaces
-Workspaces can be viewed as digital workplaces. One workspace can contain multiple projects. With workspaces you can collaborate with other users, prioritize work and share different types of content – all in one place. 
+### ワークスペース
+ワークスペースは、デジタル ワークプレイスと見なすことができます。1 つのワークスペースに複数のプロジェクトを含めることができます。ワークスペースを使用すると、他のユーザーとの共同作業、仕事の優先順位付け、さまざまな種類のコンテンツの共有をすべて 1 か所で行うことができます。 
 
-- [Workspace](./rest-api/workspace.md)
+- [ワークスペース](./rest-api/workspace.md)
 
 <img src="images/workspace-object-model.png" alt="workspace structure" class="responsive-img" width="89%">
 
-### Projects
-In case you want to have a better overview of different initiatives and processes, bound to a group of people, you can create a project.
+### プロジェクト
+さまざまな目的とプロセスの概要をよりよく把握したい場合は、プロジェクトを作成できます。
 
-- [Project](./rest-api/project.md)
+- [プロジェクト](./rest-api/project.md)
 
 <img src="images/project-object-model.png" alt="project structure" class="responsive-img" width="62%">
 
-### Tasks
-You can use tasks in order to better organize your work. For better visibility, you can organize them in different lists and sections.
+### タスク
+作業をより適切に整理するために、タスクを使用できます。見やすくするために、それらをさまざまなリストやセクションに整理できます。
 
-- [Task List](./rest-api/task-list.md)
+- [タスク リスト](./rest-api/task-list.md)
 
-- [Task Section](./rest-api/task-section.md)
+- [タスク セクション](./rest-api/task-section.md)
 
-- [Task](./rest-api/task.md) 
+- [タスク](./rest-api/task.md) 
 
-### Pins 
-Pins are simple links to different types of resources that you can share or access. You can organize them in different lists and sections.
+### ピン固定 
+ピン固定は、共有またはアクセスできるさまざまな種類のリソースへの単純なリンクです。それらをさまざまなリストやセクションに整理できます。
 
-- [Pin List](./rest-api/pin-list.md)
+- [リストのピン固定](./rest-api/pin-list.md)
 
-- [Pin Section](./rest-api/pin-section.md)
+- [セクションのピン固定](./rest-api/pin-section.md)
 
-- [Pin](./rest-api/pin.md) 
+- [ピン固定](./rest-api/pin.md) 
 
-### Dashboards
-With dashboards you can display information with the help of beautiful visualizations. They can be used, for example, to show the performance of a business. You can organize them in sections and lists.
+### ダッシュボード
+ダッシュボードを使用すると、美しい視覚化を利用して情報を表示できます。たとえば、ビジネスのパフォーマンスを示すために使用できます。それらをセクションとリストで整理できます。
 
-- [Dashboard List](./rest-api/dashboard-list.md)
+- [ダッシュボード リスト](./rest-api/dashboard-list.md)
 
-- [Dashboard Section](./rest-api/dashboard-section.md)
+- [ダッシュボード セクション](./rest-api/dashboard-section.md)
 
-- [Dashboard](./rest-api/dashboard.md) 
+- [ダッシュボード](./rest-api/dashboard.md) 
 
-### Private Chats
-You can use private chats in order to communicate with other users. As they are workspace and project independent, the users don’t need to be a part of your organization.
+### プライベート チャット
+他のユーザーと通信するために、プライベート チャットを使用できます。ユーザーはワークスペースやプロジェクトに依存しないため、ユーザーは組織の一員である必要はありません。
 
-- [Private Chat](./rest-api/private-chat.md)
+- [プライベート チャット](./rest-api/private-chat.md)
 
-### Discussions
-Discussions can be created in projects and workspaces. As they are specific to workspaces and projects, you won’t be able to access all of the discussions in Slingshot. You can organize discussions in different lists.
+### ディスカッション
+ディスカッションは、プロジェクトとワークスペースで作成できます。ディスカッションはワークスペースとプロジェクトに個別に含まれるものであるため、Slingshot のすべてのディスカッションにアクセスできるわけではありません。さまざまなリストで整理できます。
 
-- [Discussion List](./rest-api/discussion-list.md)
+- [ディスカッション リスト](./rest-api/discussion-list.md)
 
-- [Discussion](./rest-api/discussion.md) 
+- [ディスカッション](./rest-api/discussion.md) 
 
 

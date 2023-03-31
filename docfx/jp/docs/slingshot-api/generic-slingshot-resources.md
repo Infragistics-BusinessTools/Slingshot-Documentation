@@ -1,53 +1,53 @@
-# Generic Slingshot resources
+# 一般的な Slingshot リソース
 
-### Items object 
+### 項目オブジェクト
 
-It contains an array of objects of type T (*Task, Pin, Discussion, etc…*), and is returned on multiple resource requests (*GetAll*). 
+タイプ T のオブジェクトの配列 (**タスク、ピン固定、ディスカッションなど**) を含み、複数のリソース要求 (*GetAll*) で返されます。
 
-| Property | Type|
+| プロパティ | 型|
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-|items|array|
+|items|配列|
 
-### Document Info Object 
+### ドキュメント情報オブジェクト 
 
-It contains information about a specific document.
+特定のドキュメントに関する情報が含まれています。
 
-| Property | Type|
+| プロパティ | 型|
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-|id|string|
-|name|string|
+|id|文字列|
+|name|文字列|
 
-### Member Info Object 
+### メンバー情報オブジェクト
 
-It contains information about a specific member. 
+特定のメンバーに関する情報が含まれています。
 
-| Property | Type|
+| プロパティ | 型|
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-|id|string|
-|email|string|
-|name|string|
-|role|string enum ([owner, contributor, viewer](https://www.slingshotapp.io/en/help/docs/security))|
+|id|文字列|
+|email|文字列|
+|name|文字列|
+|role|文字列列挙体 [(管理者、編集者、閲覧者)](https://www.slingshotapp.io/en/help/docs/security)|
 
-### Assignee Info Object 
+### 割り当て先情報オブジェクト
 
-It contains information about a specific task assignee. 
+特定のタスク割り当て先などのに関する情報が含まれています。
 
-Property | Type|
+プロパティ | 型|
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-|id|string|
-|email|string|
-|name|string|
+|id|文字列|
+|email|文字列|
+|name|文字列|
 
-### Chat Message Info Object 
+### チャット メッセージ情報オブジェクト
 
-It contains information about a specific chat message. 
+特定のチャット メッセージに関する情報が含まれています。 
 
-Property | Type|
+プロパティ | 型|
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-|id|string|
-|userId|string|
+|id|文字列|
+|userId|文字列|
 |timestamp|double|
-|text|string|
+|text|文字列|
 
 
 

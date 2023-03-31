@@ -1,21 +1,21 @@
-# API Explorer
+# API エクスプローラー
 
-In order to help you test the Slingshot API, we created a test environment that you can use in the web browser. 
-You can try it out with the steps mentioned below:
+Slingshot の API のテストを支援するために、Web ブラウザーで使用できるテスト環境を作成しました。 
+以下の手順で試すことができます:
 
-1.	Head [here](https://my.slingshotapp.io/v1/api-browser/index.html) and click on the **Authorize** button that is in the right corner.
+1.	[ここ](https://my.slingshotapp.io/v1/api-browser/index.html)に進み、右隅にある **[Authorize]** (認証) ボタンをクリックします。
 
-2.	A dialog will open up, where you need to enter the value. The value is a combination of the word **[Bearer](https://swagger.io/docs/specification/authentication/bearer-authentication/)** and the **Slingshot API Key**. If you don’t have an API key, you can check [this](authentication.md) article in order to create one.
+2.	値を入力する必要があるダイアログが開きます。値は **[Bearer](https://swagger.io/docs/specification/authentication/bearer-authentication/)** という単語と **Slingshot の API キー**を組み合わせたものです。API キーをお持ちでない場合は、[この記事](authentication.md)を参照して作成してください。
 
    <img src="images/available-authorizations-dialog.png" alt="Available authorizations dialog where the value can be entered" class="responsive-img" width="80%"/>
 
-3.	When you are ready, click on **Authorize** and then **Close** the dialog.
+3.	準備ができたら、**[Authorize]** をクリックし、**[Close]** を選択して、ダイアログを閉じます。
 
-4.	Open the resource you want to test and click on **Try it out**. 
+4.	テストするリソースを開き、**[Try it out]** (試してみる) をクリックします。 
 
-5.	Depending on your request, you might need to add a parameter. Otherwise, you won’t be able to submit it. When you are ready, click on **Execute**.
+5.	リクエストによっては、パラメーターの追加が必要になる場合があります。そうしないと提出できません。準備ができたら、**[Execute]** (実行) をクリックします。
 
-6.	You will be provided with the curl request, the request URL and the response body, and response headers. You can also find examples of possible responses.
+6.	カール、リクエスト URL、レスポンス ボディ、およびレスポンス ヘッダーが提供されます。可能な応答の例も見つけることができます。
 
-7.	If needed, you can *Copy* the curl request to your clipboard. You can also *Copy* the response body to a clipboard or download it.
+7.	必要に応じて、カール テキストをクリップボードに**コピーできます**。応答本文をクリップボードに**コピーしたり**、ダウンロードしたりすることもできます。
 

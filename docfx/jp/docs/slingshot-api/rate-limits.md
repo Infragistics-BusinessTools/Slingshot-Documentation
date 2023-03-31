@@ -1,6 +1,6 @@
-# Rate Limits
+# レート制限
 
-In order for the API to run smoothly, a rate limiter is put into place. There is a rate limit of 150 requests per minute. In case you have exceeded the limit, the following error will show up: 
+API をスムーズに実行するために、レート リミッタが設定されています。1 分あたり 150 リクエストのレート制限があります。制限を超えた場合、次のエラーが表示されます: 
 
 
 ```
@@ -20,5 +20,5 @@ In order for the API to run smoothly, a rate limiter is put into place. There is
 }
 ```
 
->[!NOTE] This quota might change in the future. 
+>[!NOTE] この制限は将来変更される可能性があります。
 
