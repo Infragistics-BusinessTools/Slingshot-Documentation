@@ -17,9 +17,9 @@
 |endDate|文字列 <DateTime> | |
 |status| 文字列列挙体 ("none", "ontarget", "atrisk", "danger", "completed")| |
 |organization| オブジェクト <[DocumentInfo](../generic-slingshot-resources.html#ドキュメント情報オブジェクト)>| read-only|  
-|members| 	配列 <[MemberInfo](../generic-slingshot-resources.html#member-info-object)> | read-only|
-|requests| 	配列 <[MemberInfo](../generic-slingshot-resources.html#member-info-object)> | read-only|
-| pendingInvites           | 配列 <[MemberInfo](../generic-slingshot-resources.html#member-info-object)> |  read-only|
+|members| 	配列 <[MemberInfo](../generic-slingshot-resources.html#メンバー情報オブジェクト)> | read-only|
+|requests| 	配列 <[MemberInfo](../generic-slingshot-resources.html#メンバー情報オブジェクト)> | read-only|
+| pendingInvites           | 配列 <[MemberInfo](../generic-slingshot-resources.html#メンバー情報オブジェクト)> |  read-only|
 |projects| 配列 <[DocumentInfo](../generic-slingshot-resources.html#ドキュメント情報オブジェクト)>| read-only|
 |pinLists| 配列 <[DocumentInfo](../generic-slingshot-resources.html#ドキュメント情報オブジェクト)>| read-only|
 |taskLists| 配列 <[DocumentInfo](../generic-slingshot-resources.html#ドキュメント情報オブジェクト)>|read-only |
@@ -117,7 +117,7 @@
 |startDate|文字列 <DateTime> | |
 |endDate|文字列 <DateTime> | |
 |status| 文字列列挙体 ("none", "ontarget", "atrisk", "danger", "completed")| | 
-|members| 	配列 <[MemberInfo](../generic-slingshot-resources.html#member-info-object)> | |
+|members| 	配列 <[MemberInfo](../generic-slingshot-resources.html#メンバー情報オブジェクト)> | |
 
 可能な応答:
 
@@ -397,7 +397,7 @@
 
 必須パラメーター: ワークスペースの **id**。
 
-要求本文: [ItemsObject](../generic-slingshot-resources.html#項目オブジェクト) <[MemberInfo](../generic-slingshot-resources.html#member-info-object)>
+要求本文: [ItemsObject](../generic-slingshot-resources.html#項目オブジェクト) <[MemberInfo](../generic-slingshot-resources.html#メンバー情報オブジェクト)>
 
 可能な応答:
 
@@ -516,7 +516,7 @@
 
 必須パラメーター: ワークスペースの **id**。
 
-要求本文: [ItemsObject](../generic-slingshot-resources.html#項目オブジェクト) <[MemberInfo](../generic-slingshot-resources.html#member-info-object)>
+要求本文: [ItemsObject](../generic-slingshot-resources.html#項目オブジェクト) <[MemberInfo](../generic-slingshot-resources.html#メンバー情報オブジェクト)>
 
 可能な応答:
 
@@ -639,7 +639,7 @@
 
 必須パラメーター: ワークスペースの **id**。
 
-要求本文: [ItemsObject](../generic-slingshot-resources.html#項目オブジェクト) <[MemberInfo](../generic-slingshot-resources.html#member-info-object)>
+要求本文: [ItemsObject](../generic-slingshot-resources.html#項目オブジェクト) <[MemberInfo](../generic-slingshot-resources.html#メンバー情報オブジェクト)>
 
 可能な応答:
 
@@ -757,7 +757,7 @@
 
 必須パラメーター: ワークスペースの **id**。
 
-要求本文: [ItemsObject](../generic-slingshot-resources.html#項目オブジェクト) <[MemberInfo](../generic-slingshot-resources.html#member-info-object)>
+要求本文: [ItemsObject](../generic-slingshot-resources.html#項目オブジェクト) <[MemberInfo](../generic-slingshot-resources.html#メンバー情報オブジェクト)>
 
 可能な応答:
 
@@ -877,7 +877,7 @@
 
 必須パラメーター: ワークスペースの **id**。
 
-要求本文: [ItemsObject](../generic-slingshot-resources.html#項目オブジェクト) <[MemberInfo](../generic-slingshot-resources.html#member-info-object)>
+要求本文: [ItemsObject](../generic-slingshot-resources.html#項目オブジェクト) <[MemberInfo](../generic-slingshot-resources.html#メンバー情報オブジェクト)>
 
 可能な応答:
 
