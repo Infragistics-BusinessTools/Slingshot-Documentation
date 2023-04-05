@@ -116,7 +116,7 @@ The functions included in the aggregation category are:
 ## Calculated Fields with IF Conditions
 
 Using a regular function (which needs an `expression`) with an
-`if-condition` means that the results you get need to meet a certain
+`if-condition` means that the results you get need to meet  certain
 criteria, which will be defined within your condition.
 
 ### Syntax
@@ -146,7 +146,7 @@ the terms we defined above:
 
 | Function Name  | Expression | IF Condition  |
 | -------------- | ---------- | ------------- |
-| averageif (…​)  | [Wage]     | [OfficeId]=1) |
+| averageif (…​)  | [Wage]     | [OfficeId]=1 |
 
 A non-numerical example could be the following:
 

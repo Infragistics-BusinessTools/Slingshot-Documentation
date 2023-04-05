@@ -25,7 +25,7 @@ You can create a section with the following steps:
 
 You can create a list with the following steps:
 
-1. Click/tap on on the **+List** button.
+1. Click/tap on the **+List** button.
 2. Give a name to the list.
 3. Click/tap on **Create**.
 4. Once you have named your list, you can start adding dashboards with the **+Dashboard** button.

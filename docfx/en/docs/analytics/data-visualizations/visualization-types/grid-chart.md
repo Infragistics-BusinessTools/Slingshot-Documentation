@@ -7,7 +7,7 @@ _description: Find out how to use Grid Charts for your visualizations in Slingsh
 
 ## Working With the Grid Chart in the Visualization Editor
 
-The grid chart is a visualization option for displaying data, which presents the information in a matrix. You can **resize a column's width** by selecting the grid header, which will highlight the whole column. Drag the a side left or right to modify the column's width.
+The grid chart is a visualization option for displaying data, which presents the information in a matrix. You can **resize a column's width** by selecting the grid header, which will highlight the whole column. Drag the side left or right to modify the column's width.
 
 <img src="images/grid-chart-example.png" alt="Resizing a column's width in a grid chart" class="responsive-img" width="85%"/>
 
@@ -33,7 +33,7 @@ arrows icon next to the column name.
 
 <img src="images/grid-chart-sorting.png" alt="Grid Chart Sorting Columns Options" class="responsive-img" width="42%"/>
 
-You can apply more than one sorting criteria. You will see small number
+You can apply more than one sorting criteria. Then, you will see small number
 icons appearing next to the existing column headers. The direction of the
 arrow will help you determine whether you applied ascending or
 descending sorting.

@@ -38,9 +38,9 @@ The *New Calculated Field* screen will open:
 
 Here you will need to:
 
-1.  assign a name to your new pre-calculated field;
+1.  Assign a name to your new pre-calculated field.
 
-2.  enter a *formula* (expression). In the *fields* section you will
+2.  Enter a *Formula* (expression). In the *Fields* section you will
     find a list of all the existing fields to choose from. You can use
     one or more fields to create the formula by clicking on the selected
     field or typing its name in square brackets. Choose one of the
@@ -84,7 +84,7 @@ To create a post calculated field you will need to:
     have been aggregated (*Sum of Spend*, *Sum of Budget*, not: *Spend*,
     *Budget*).
 
-If you need to use other fields from your data source that are not
+If you need to use other fields from your data source, that are not
 included in the *Data editor*, you can add them by clicking/tapping on
 the *+* button next to *Values*. Since post-calculated fields are
 created only by using aggregated values, you will first need to select

@@ -84,7 +84,7 @@ values in your visualization.
 
 When first opening a dashboard, you will be browsing it in **View
 mode**. This mode allows you to navigate and filter the information
-displayed in it but you won't be able to change the dashboard
+displayed in it, but you won't be able to change the dashboard
 definition.
 
 In order to apply changes to a dashboard, you must switch to **Dashboard

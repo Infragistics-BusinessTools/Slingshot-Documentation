@@ -64,7 +64,7 @@ All gauge types have a common band range configuration, which you can find in th
 
 1. Set **Limits**. These values are automatically set as the lowest and
     highest values in the dataset for the specified value column, but
-    can also be overriden manually with constant values.
+    can also be overridden manually with constant values.
 
 2. Configure **[Conditional Formatting](https://slingshotapp.io/en/help/docs/analytics/data-visualizations/fields/conditional-formatting)**. 
 
