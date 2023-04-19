@@ -5,7 +5,7 @@ _description: Guidelines to using Google Analytics to contribute to your data in
 
 # Google Analytics
 
-Google Analytics is one of the most used web analytics services in the
+Google Analytics is one of the most used web analytics services on the
 web, it tracks and reports website traffic. In addition, Google also
 provides an SDK to gather usage data from iOS and Android apps.
 
@@ -13,7 +13,7 @@ provides an SDK to gather usage data from iOS and Android apps.
 
 1.  **Log in**
 
-    1.  Select Google Analytics as your data source and you will see
+    1.  Select Google Analytics as your data source, and you will see
         Google's login screen.
 
     2.  Enter your login credentials and click/tap *Sign In*. You will then
@@ -44,7 +44,7 @@ provides an SDK to gather usage data from iOS and Android apps.
 
     <img src="images/google-analytics-cubes.png" alt="Select a data cube to be used with Analytics's Google Analytics data source" class="responsive-img" width="58%"/>
 
-    You can also configure the *Refresh Data* setting to to the
+    You can also configure the *Refresh Data* setting to the
     following values:
 
       - Always
@@ -96,13 +96,13 @@ Editor*. Your *Goals* are listed as part of the metrics in both
 As you can see in the example above, the titles of your Google Analytics
 *Goals* in Analytics include one or more of the following:
 
-  - a **numeric ID**, from 1 to 20.
+  - A **numeric ID**, from 1 to 20.
 
-  - a **label** at the beginning - this is the name of the goal you
+  - A **label** at the beginning - this is the name of the goal you
     configured for the specific goal, e.g. *Completed Download* for
     *Goal 19*.
 
-  - a goal **type** at the end - e.g. *Completions*, *Abandoned Funnels*, etc.
+  - A goal **type** at the end - e.g. *Completions*, *Abandoned Funnels*, etc.
 
 For more information about Goals, please refer to this Google Analytics
 [help page](https://support.google.com/analytics/answer/1012040?hl=en).

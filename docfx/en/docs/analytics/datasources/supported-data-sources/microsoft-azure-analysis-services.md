@@ -28,7 +28,7 @@ To configure your Azure Analysis Services data source, you will need to perform 
 
 3. Go back to Analytics and paste the server name in *URL* field. Click/tap on the **Add Server** button, which is now enabled.  
 
-4. Once you have added the server, Analytics will load and show the databases on the server. Here you will find a list of all  the available semantic models in your database. Choose a model and click/tap on **Select Data** to continue to the *Visualizations Editor*.
+4. Once you have added the server, Analytics will load and show the databases on the server. Here you will find a list of all the available semantic models in your database. Choose a model and click/tap on **Select Data** to continue to the *Visualizations Editor*.
 
    <img src="images/azure-ssas-cubes.png" alt="List of cubes with all the models in them" class="responsive-img" width="60%"/>
 
@@ -36,7 +36,7 @@ To configure your Azure Analysis Services data source, you will need to perform 
 
  Here you will see the data from your model presented in two categories: 
 
-- *Dimensions* contain qualitative data ("Country", "Name", "Product", etc). 
+- *Dimensions* contain qualitative data ("Country", "Name", "Product", etc.). 
 
 - *Measures* consist of numeric data.
 

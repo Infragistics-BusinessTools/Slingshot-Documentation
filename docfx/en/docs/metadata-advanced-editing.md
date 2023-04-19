@@ -108,7 +108,7 @@ C. **[Certification](certifications.md)** status. The badge icon shows if the da
 
 D. The **data cube types** in your data source. For example, sheets, views, stored procedures, databases, entities, etc. You can switch between the objects. 
 
-E. A **list of data cubes** available . Select the cube to see and modify the data it contains. 
+E. A **list of data cubes** available. Select the cube to see and modify the data it contains. 
 
 F. The data cube's **title**. You can rename the data cube. 
 

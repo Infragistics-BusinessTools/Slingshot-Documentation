@@ -133,7 +133,7 @@ Depending on the chart type, you can make different changes in the settings. In 
 - Connect the visualization to another dashboard or a URL
 
 
-When you are ready with the visualization editor, you can save the dashboard in **My Analytics** > **My Dashboards** or in a specific workspace. 
+When you are ready with the visualization editor, you can save the dashboard in **My Analytics** -> **My Dashboards** or in a specific workspace. 
 
 <img src="../images/ssas-dashboard-my-analytics.png" alt="Dasboard with an information from the microsoft analysis services data source in My Analytics" class="responsive-img" width="80%"/>
 

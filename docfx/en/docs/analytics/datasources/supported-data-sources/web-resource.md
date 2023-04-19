@@ -5,9 +5,9 @@ _description: Learn how to use any virtual file in the web as a data source in S
 
 # Web Resource
 
-A web resource, as the name suggests, is any virtual file stored in the
+A web resource, as the name suggests, is any virtual file stored on the
 web which you can retrieve by using a unique URL address. It might, for
-example, be an excel spreadsheet (for example, [this one](https://download.infragistics.com/slingshot/samples/Slingshot_Dashboard_Tutorials.xlsx)),
+example, be an Excel spreadsheet (for example, [this one](https://download.infragistics.com/slingshot/samples/Slingshot_Dashboard_Tutorials.xlsx)),
 or an image (for example, [this one](http://www.infragistics.com/media/442175/home-header-shots.png)).
 
 To configure a Web Resource as a Data Source, you will need to enter the

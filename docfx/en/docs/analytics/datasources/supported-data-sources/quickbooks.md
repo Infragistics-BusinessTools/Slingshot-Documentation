@@ -30,10 +30,10 @@ Once your data source has been added, you will be taken to the *Visualizations E
 
 <img src="images/quickbooks-charts-list.png" alt="List of chart types while using Quickbooks as a data source" class="responsive-img" width="70%"/>
 
-Based on the vusialization that you have chosen, you will see different types of fields.
+Based on the visualization that you have chosen, you will see different types of fields.
 
 <img src="images/quickbooks-visualization-editor.png" alt="Visualization editor using quickbook as data source" class="responsive-img" width="85%"/>
 
-When you are ready with your visualization, you can click/tap on the checkmark in the top right corner to save it as a dashboard. In this case we saved the dashboard in **My Analytics** > **My Dashboards** > **Accounting**.
+When you are ready with your visualization, you can click/tap on the checkmark in the top right corner to save it as a dashboard. In this case we saved the dashboard in **My Analytics** -> **My Dashboards** -> **Accounting**.
 
 <img src="images/quickbooks-my-analytics.png" alt="Quickbooks dashboard in My Analytics" class="responsive-img" width="85%"/>

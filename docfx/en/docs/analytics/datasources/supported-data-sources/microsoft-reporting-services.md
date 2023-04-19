@@ -42,7 +42,7 @@ the format in which the report will load in the *Visualization editor*:
 
   - *Load as PDF* - You will have your report embedded as a PDF document
     in the visualization editor. You will be able to scroll, zoom,
-    download or print the pdf inside the Visualization editor.
+    download or print the PDF inside the Visualization editor.
 
   <img src="images/microsoft-reporting-services-pdf.png" alt="Microsoft reporting services in pdf format in the Visualization editor" class="responsive-img" width="84%"/>
 
@@ -52,7 +52,7 @@ the format in which the report will load in the *Visualization editor*:
   <img src="images/microsoft-reporting-services-sample-data-visualization-editor.png" alt="Microsoft reporting services data in the Visualization editor" class="responsive-img" width="84%"/>
 
 >[!NOTE] **Editing the Data Source in the Visualization editor.**
->Carefully choose the report format (pdf or data) because once loaded, you will not be able to change it. When you *Edit* your data source, you will only be able to change the configuration of the report's parameters.
+>Carefully choose the report format (PDF or data) because once loaded, you will not be able to change it. When you *Edit* your data source, you will only be able to change the configuration of the report's parameters.
 
 ## Working in the Visualization editor
 
@@ -60,10 +60,10 @@ By default, the *Column* visualization will be selected. You can select it in or
 
 <img src="images/microsoft-reporting-services-chart-types.png" alt="List of chart types available while using Microsoft Reporting Services as data source" class="responsive-img" width="63%"/>
 
-Based on the vusialization that you have chosen, you will see different types of fields.
+Based on the visualization that you have chosen, you will see different types of fields.
 
 Once you are ready with your visualization, click/tap on the checkmark in the top right corner to save it as a dashboard. 
 
-In this case we saved the dashboard in **My Analytics** > **My Dashboards** > **Accounting**.
+In this case we saved the dashboard in **My Analytics** -> **My Dashboards** -> **Accounting**.
 
 <img src="images/microsoft-reporting-services-my-analytics-dashboard.png" alt="A dashboard in the My Analytics section created while using Microsoft Reporting Services" class="responsive-img" width="75%"/>

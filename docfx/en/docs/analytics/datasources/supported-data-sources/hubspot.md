@@ -31,6 +31,6 @@ Once your data source has been added, you will be taken to the *Visualization Ed
 
 <img src="images/hubspot-chart-types.png" alt="List of chart types while using Hubspot as a data source" class="responsive-img" width="80%"/>
 
-Based on the vusialization that you have chosen, you will see different types of fields.
+Based on the visualization that you have chosen, you will see different types of fields.
 
 When you are ready with your visualization, you can click/tap on the checkmark in the top right corner to save it as a dashboard. 

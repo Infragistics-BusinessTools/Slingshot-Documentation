@@ -6,9 +6,9 @@ To configure a Snowflake data source, you first need to connect to the server by
 
 <img src="images/add-snowflake-server.png" alt="Configure Snowflake Server details" class="responsive-img" width="55%"/>
 
-1.  **Account**: Your snowflake account without the region or cloud provider information. For example, it should be similar to \<account_name\> instead of _\<account_name\>.us-east-1.snowflakecomputing.com_.
+1.  **Account**: Your snowflake account without the region or cloud provider information. For example, it should be similar to \<account_name\> instead of *\<account_name\>.us-east-1.snowflakecomputing.com*.
 
-2.  **Host**: Although not required, if no value is specified _\<account_name\>.snowflakecomputing.com_ will be assumed. If you are not in the US West region or want to use a global url, you need to specify a HOST with the format:  _\<account_name\>.\<region_id\>.snowflakecomputing.com_.
+2.  **Host**: Although not required, if no value is specified *\<account_name\>.snowflakecomputing.com* will be assumed. If you are not in the US West region or want to use a global URL, you need to specify a HOST with the format: *\<account_name\>.\<region_id\>.snowflakecomputing.com*.
 
 3.  **Credentials**: after selecting *Credentials*, you will be able to
     enter the credentials for your *Snowflake* server or select existing
