@@ -21,6 +21,17 @@ const removeHTMLExtensionFromSiteMap = () => {
         .pipe(dest(DOCFX_SITE));
 };
 
+const replaceEnvironmentVariables = () => {
+    const environment = process.env.NODE_ENV ? process.env.NODE_ENV.trim() : 'development';
+    const config = require(`./docfx/${LANG}/environment.json`);
+    return src(`${DOCFX_SITE}/**/*.html`)
+        .pipe(replace(/(\{|\%7B)environment:([a-zA-Z]+)(\}|\%7D)/g, function (match, brace1, environmentVarable, brace2) {
+            const value = config[environment][environmentVarable];
+            return value || match;
+        }))
+        .pipe(dest(DOCFX_SITE));
+}
+
 const buildSite = () => {
     return buildDocfx({
         siteDir: DOCFX_SITE,
@@ -68,6 +79,6 @@ const addWatcher = (done) => {
     done();
 }
 
-exports['ci-build'] = series(buildSite, removeHTMLExtensionFromSiteMap);
-exports.build = series(buildSite, removeHTMLExtensionFromSiteMap);
+exports['ci-build'] = series(buildSite, removeHTMLExtensionFromSiteMap, replaceEnvironmentVariables);
+exports.build = series(buildSite, removeHTMLExtensionFromSiteMap, replaceEnvironmentVariables);
 exports.serve = series(this.build, serveSite, addWatcher);
