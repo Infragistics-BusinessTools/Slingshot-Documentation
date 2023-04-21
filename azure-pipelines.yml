@@ -20,6 +20,10 @@ steps:
     Contents: |
       package-lock.json
 - task: CmdLine@2
+  displayName: "dotnet tool restore" 
+  inputs:
+    script: 'dotnet tool restore'
+- task: CmdLine@2
   displayName: Clear npm cache
   condition: ne(variables['cleanNpmCache'], 'false')
   inputs:
