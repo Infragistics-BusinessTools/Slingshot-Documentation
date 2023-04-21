@@ -8,7 +8,7 @@ For a seamless onboarding experience, you should first become familiar with the 
 - **My Tasks**: Pulls together all of the tasks that are assigned to you in Slingshot, from any workspace or project. You can create custom filters that will allow you to prioritize and manage your work across different teams, departments, and projects.
 - **Shared with Me**: Quick access to anything in Slingshot that has been shared with you. You can share, dashboards, lists, discussions, and more.
 - **My Analytics**: Gain deeper insights than ever before with self-service business intelligence. Build dashboards right from the data sources you use every day, access your organizations data catalog and much more. 
-    - *Data Catalogs*: Find the most trustful information about your company, accesssing data that is categorized and certified.
+    - *Data Catalogs*: Find the most trustful information about your company, accessing data that is categorized and certified.
 - **My Pins**: Contains all your links to different resources, including files from cloud storages, URLs, and analytics dashboards.
 
 >[!NOTE] Data Catalogs is an Enterprise level feature.
@@ -72,21 +72,19 @@ Before jumping in, let’s first run through the advantages to the different log
 Slingshot was built on top of Microsoft and Google making it the perfect tool to integrate into your tech stack. Using your business email with one of these providers comes with 3 main advantages:  
 
 1.	All your contacts will be synced and brought into Slingshot making it easier to start inviting users to your workspaces, chat with them and assign them tasks.  
-2.	Your respective cloud storage provider will automatically be added so you can start pinning and attaching files or create dashboards from any excel file.  
+2.	Your respective cloud storage provider will automatically be added so you can start pinning and attaching files or create dashboards from any Excel file.  
 3.	You will automatically be added to your associated organization.  
 
 ## Contact us 
 
-If you have questions or need help with your Slingshot accout, you can reach out to our team. In order to do that, you need to:
+If you have questions or need help with your Slingshot account, you can reach out to our team. In order to do that, you need to:
 
-1. Log in to your account [here](https://www.infragistics.com/).
-2. Choose **My Account**.
-3. Choose **Support** and then **New Support Request** in order to submit a request.
+1. Log in to your account [here](https://account.slingshotapp.io).
+2. Choose **Support** and then **New Support Request** in order to submit a request.
 
 Our team will send you an email with further instructions or more information regarding your inquiry.
 
 Alternatively, you can start a chat when you click/tap on the chat icon in the lower right corner of the page.
 
-<img src="../images/chat-button.png" alt="Chat button for starting a chat with support" class="responsive-img" width="50%"/>
 
 
