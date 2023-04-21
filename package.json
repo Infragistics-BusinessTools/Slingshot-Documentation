@@ -12,7 +12,8 @@
     "build-staging": "set NODE_ENV=staging && gulp build",
     "build-production": "set NODE_ENV=production && gulp build",
     "build-staging_jp": "set NODE_ENV=staging && gulp build --lang jp",
-    "build-production_jp": "set NODE_ENV=production && gulp build --lang jp"
+    "build-production_jp": "set NODE_ENV=production && gulp build --lang jp",
+    "postinstall": "dotnet tool restore"
   },
   "author": "Infragistics",
   "license": "ISC",

@@ -20,10 +20,6 @@ steps:
     Contents: |
       package-lock.json
 - task: CmdLine@2
-  displayName: "dotnet tool restore" 
-  inputs:
-    script: 'dotnet tool restore'
-- task: CmdLine@2
   displayName: Clear npm cache
   condition: ne(variables['cleanNpmCache'], 'false')
   inputs:
@@ -32,6 +28,10 @@ steps:
   displayName: "Npm install" 
   inputs:
     script: 'npm install'
+- task: CmdLine@2
+  displayName: "dotnet tool restore" 
+  inputs:
+    script: 'dotnet tool restore'
 # get the Reveal repo
 - task: CmdLine@2
   displayName: "Update/Fetch submodules" 

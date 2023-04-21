@@ -44,6 +44,8 @@ To install docfx restore it as a dotnet tool:
 dotnet tool restore
 ```
 
+**NOTE**: Performing `npm install` also restores dotnet tool dependencies as a `postinstall` step.
+
 ### Installing dependencies:
 
 Before you can contrinute to this you need to install [Yarn](https://yarnpkg.com/en/) software.
