@@ -2,31 +2,31 @@
 
 You can use tasks in order to better organize your work. For better visibility, you can organize them in different lists and sections. 
 
-## Task Schema
-
-Schema:
+## Schema:
 
 |    Property  | Type            | Attributes           |
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| id               | string |  |    
-| modified              | string |  |  
-| created             | string |  |  
-| name               | string |Min = 1, Max = 200|  
-| description              | string | Nullable |  
-| startDate               | string (date-time) |  |  
-| dueDate               | string (date-time) |  |  
-| status              | string (open, progress, review, blocked or completed) |  | 
-| priority             | string(none, low, medium or high) |  |   
-| assignee               | ListObject[AssigneeInfo](slingshot-api/generic-slingshot-resources.html#assignee-info-object)  | |
-| user               | object[DocumentInfo](../generic-slingshot-resources.html#document-info-object) |  |
-| workspace              | object[DocumentInfo](../generic-slingshot-resources.html#document-info-object) | |
-| project             | object[DocumentInfo](../generic-slingshot-resources.html#document-info-object) |  |
-| taskList            | object[DocumentInfo](../generic-slingshot-resources.html#document-info-object) |  |
-| taskSection      | object[DocumentInfo](../generic-slingshot-resources.html#document-info-object) |  |
-| parentTask      | object[DocumentInfo](../generic-slingshot-resources.html#document-info-object) |  |
- | subtasks      | ListObject<Object[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> |  |
+| id               | string | read-only |    
+| modified              | string | read-only |  
+| created             | string | read-only |  
+| name               | string |min = 1, max = 200|  
+| description              | string | nullable |  
+| startDate               | string <DateTime>  |  |  
+| dueDate               | string <DateTime>  |  |  
+| status              | string ("open", "progress", "review", "blocked", "completed") |  | 
+| priority             | string ("none", "low", "medium", "high") |  |   
+| assignees               | array <[AssigneeInfo](https://www.slingshotapp.io/en/help/docs/slingshot-api/generic-slingshot-resources#assignee-info-object)>  |read-only |
+| user               | object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | read-only |
+| workspace              | object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | read-only|
+| project             | object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | read-only |
+| taskList            | object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | read-only |
+| taskSection      | object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | read-only |
+| parentTask      | object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | read-only |
+| subtasks      | array <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | read-only |
 
-Example:
+ <br/>
+
+## Example:
 
 ```
 {
@@ -37,7 +37,13 @@ Example:
     "description": "Feedback",
     "status": "open",
     "priority": "none",
-    "assignees": [],
+    "assignees": [
+        {
+            "id": "{123456}_u",
+            "name": "Ver",
+            "email": "v@gmai.com"
+        }
+    ],
     "user": {
         "id": "{123456}_u",
         "name": "Ver"
@@ -50,11 +56,18 @@ Example:
         "id": "{123456}_tg",
         "name": "Q1"
     },
-    "subtasks": []
+    "subtasks": [
+        {
+            "id": "{123456}_tk",
+            "name": "Forum"
+        }
+    ]
 }
 ```
 
-## Create a Task
+<br/>
+
+## Create a task
 
 <img src="../images/post-request.png" alt="Post request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***htt<area>ps://my.slingshotapp<area>.io/v1/tasks***</span>
 
@@ -64,13 +77,14 @@ When you request to create a task, the request body will have the following cont
 
 |    Property  | Type            | Attributes           |
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| name               | string |  Min = 1, Max = 100 |
+| name               | string | required, min = 1, max = 100 |
 | startDate              | string | |
 | dueDate               | string | |
-| status             | string, Enum ("open" "progress" "review" "blocked" "completed")| |  
-| priority            | string, Enum: ("none" "low" "medium" "high") | |  
-| taskSection   |[DocumentInfo](../generic-slingshot-resources.html#document-info-object)  |oneOf | 
-| parentTask   |[DocumentInfo](../generic-slingshot-resources.html#document-info-object) |oneOf | 
+| status             | string enum ("open", "progress", "review", "blocked", "completed")|required |  
+| priority            | string enum ("none", "low", "medium", "high") |required |  
+| taskSection   |object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)>  |required, one-of | 
+| parentTask   |object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> |required, one-of | 
+| assignees               | array <[AssigneeInfo](https://www.slingshotapp.io/en/help/docs/slingshot-api/generic-slingshot-resources#assignee-info-object)>  ||
 
 >[!NOTE]  To create a task, you need to provide the **id** and **name** of the parent task section under the **taskSection** property. Alternatively, if you want to create a subtask, you need to first provide the **id** and **name** of the parent task under the **parentTask** property. Only one can be provided as both taskSection and parentTask properties being present in the request will result in an error.
 
@@ -79,11 +93,11 @@ Possible responses:
 | Code | Description|
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
 | 201 (Created) |You successfully created a task. The newly created task will be returned in the response body.  |
-| 400 (Bad Request) |The request was not processed because of missing or malformed parameter(s). Check the errors array in the response to get an idea of what went wrong. |
+| 400 (Bad Request) |The request was not processed because of missing or malformed parameter(s). Check the error array in the response to get an idea of what went wrong. |
 | 403 (Forbidden) |The request cannot be authorized. This can happen when you don’t have the necessary permissions.  |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
 
-Example of a successful request:
+Example of a successful request body:
 
 ```
 {
@@ -100,9 +114,11 @@ Example of a successful request:
 }
 ```
 
-Example of a successful response:
+<br/>
 
-```
+<div class="fancy-details">
+    <summary><b>Example of a successful response body:</b></summary>
+    <code>
 {
     "id": "{123456}_tk",
     "modified": "2023-02-15T15:45:49.0000000",
@@ -126,9 +142,17 @@ Example of a successful response:
         "id": "{123456}_tg",
         "name": "Section 1"
     },
-    "subtasks": []
+    "subtasks": [
+        {
+            "id": "{123456}_tk",
+            "name": "Event"
+        }
+    ]
 }
-```
+    </code>
+</div>
+
+<br/>
 
 ## Get a task
 
@@ -145,6 +169,8 @@ Possible responses:
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication. |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
 
+<br/>
+
 ## Get all tasks for a parent task section
 
 <img src="../images/get-all.png" alt="Get all request" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/tasks/parent/{id}***
@@ -159,7 +185,9 @@ Code | Description|
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication. |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
 
-## Update a task list
+<br/>
+
+## Update a task 
 
 <img src="../images/patch.png" alt="Patch request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/tasks/{id}***
 
@@ -169,24 +197,23 @@ When you request to update a task, the request body will have the following cont
 
 |    Property  | Type            | Attributes           |
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |  
-| name               | string |Min = 1, Max = 200|  
-| description              | string | Nullable |  
-| startDate               | string (date-time) |  |  
-| dueDate               | string (date-time) |  |  
-| status              | string (open, progress, review, blocked or completed) |  | 
-| priority             | string(none, low, medium or high) |  |   
-| assignee               | ListObject[AssigneeInfo](slingshot-api/generic-slingshot-resources.html#assignee-info-object)  | |
+| name               | string |min = 1, max = 200|  
+| description              | string | nullable |  
+| startDate               | string <DateTime>  |  |  
+| dueDate               | string <DateTime>  |  |  
+| status              | string ("open", "progress", "review", "blocked", "completed") |  | 
+| priority             | string ("none", "low", "medium","high") |  |   
 
 Possible responses:
 
 | Code | Description|
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
 | 200 (Success) |The task is updated. The updated [Task](#task-schema) will be returned in the response body.   |
-| 400 (Bad Request) |The request was not processed because of missing or malformed parameter(s). Check the errors array in the response to get an idea of what went wrong. |
+| 400 (Bad Request) |The request was not processed because of missing or malformed parameter(s). Check the error array in the response to get an idea of what went wrong. |
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication. |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
 
-Example of a successful request:
+Example of a successful request body:
 
 ```
 {
@@ -195,18 +222,15 @@ Example of a successful request:
     "startDate": "2023-02-17T11:33:10.710Z",
     "dueDate": "2023-02-17T11:33:10.710Z",
     "status": "open",
-    "priority": "none",
-    "assignees": [
-        {
-            "id": "{123456}_u"
-        }
-    ]
+    "priority": "none"
 }
 ```
 
-Example of a successful response:
+<br/>
 
-```
+<div class="fancy-details">
+    <summary><b>Example of a successful response body:</b></summary>
+    <code>
 {
     "id": "{123456}",
     "modified": "2023-02-17T11:37:22.0000000",
@@ -221,7 +245,7 @@ Example of a successful response:
         {
             "id": "{123456}_u",
             "name": "Vyara Yan",
-            "email": null
+            "email": "v@gmail.com"
         }
     ],
     "workspace": {
@@ -233,16 +257,24 @@ Example of a successful response:
         "name": "Emails"
     },
     "taskList": {
-        "id": "{123456}",
+        "id": "{123456}_tg",
         "name": "Project Tasks"
     },
     "taskSection": {
-        "id": "{123456}",
-        "name": null
+        "id": "{123456}_tg",
+        "name": "Feedback"
     },
-    "subtasks": []
+    "subtasks": [
+        {
+            "id": "{123456}_tk",
+            "name": "Forum"
+        }
+    ]
 }
-```
+    </code>
+</div>
+
+<br/>
 
 ## Delete a task
 
@@ -258,24 +290,26 @@ Possible responses:
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication. |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
 
+<br/>
+
 ## Add assignee to a task
 
 <img src="../images/post-request.png" alt="Post request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/tasks/{id}/assignees***
 
 Required parameters: the **id** of that specific task
 
-Request body: [AssigneeInfo](slingshot-api/generic-slingshot-resources.html#assignee-info-object)
+Request body: [ItemsObject](../generic-slingshot-resources.html#item-object) <[AssigneeInfo](https://www.slingshotapp.io/en/help/docs/slingshot-api/generic-slingshot-resources#assignee-info-object)>
 
 Possible responses:
 
 | Code | Description|
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
 | 200 (Success) |You successfully added assignees to the task. The updated task will be returned.   |
-| 400 (Bad Request) |The request was not processed because of missing or malformed parameter(s). Check the errors array in the response to get an idea of what went wrong. |
+| 400 (Bad Request) |The request was not processed because of missing or malformed parameter(s). Check the error array in the response to get an idea of what went wrong. |
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication. |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
 
-Example of a successful request:
+Example of a successful request body:
 ```
 {
     "items": [
@@ -286,9 +320,11 @@ Example of a successful request:
 }
 ```
 
-Example of a successful response:
+<br/>
 
-```
+<div class="fancy-details">
+    <summary><b>Example of a successful response body:</b></summary>
+    <code>
 {
     "id": "{123456}_tk",
     "modified": "2023-02-10T13:55:53.0000000",
@@ -322,25 +358,29 @@ Example of a successful response:
         }
     ]
 }
-```
+    </code>
+</div>
+
+<br/>
+
 ## Remove assigness from a task
 
 <img src="../images/delete.png" alt="Delete request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/tasks/{id}/assignees***
 
 Required parameters: the **id** of the task
 
-Request body: [AssigneeInfo](slingshot-api/generic-slingshot-resources.html#assignee-info-object)
+Request body: [ItemsObject](../generic-slingshot-resources.html#item-object) <[AssigneeInfo](https://www.slingshotapp.io/en/help/docs/slingshot-api/generic-slingshot-resources#assignee-info-object)>
 
 Possible responses:
 
 | Code | Description|
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
 | 200 (Success) |You removed assignees from the task.  |
-| 400 (Bad Request) |The request was not processed because of missing or malformed parameter(s). Check the errors array in the response to get an idea of what went wrong. |
+| 400 (Bad Request) |The request was not processed because of missing or malformed parameter(s). Check the error array in the response to get an idea of what went wrong. |
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication. |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
 
-Example of a successful request:
+Example of a successful request body:
 
 ```
 {
@@ -353,9 +393,11 @@ Example of a successful request:
 }
 ```
 
-Example of a successful response:
+<br/>
 
-```
+<div class="fancy-details">
+    <summary><b>Example of a successful response body:</b></summary>
+    <code>
 {
     "id": "{123456}_tk",
     "modified": "2023-02-16T15:00:02.0000000",
@@ -363,7 +405,13 @@ Example of a successful response:
     "name": "Test test",
     "status": "open",
     "priority": "none",
-    "assignees": [],
+    "assignees": [
+        {
+            "id": "{123456}_u",
+            "name": "Ver",
+            "email": "v@gmai.com"
+        }
+    ],
     "user": {
         "id": "{123456}_u",
         "name": "Vyara Yan"
@@ -383,4 +431,5 @@ Example of a successful response:
         }
     ]
 }
-```
+    </code>
+</div>

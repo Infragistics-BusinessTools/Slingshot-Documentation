@@ -1,8 +1,8 @@
 # Generic Slingshot resources
 
-### Item object 
+### Items object 
 
-It contains an array of objects of type T.
+It contains an array of objects of type T (*Task, Pin, Discussion, etc…*), and is returned on multiple resource requests (*GetAll*). 
 
 | Property | Type|
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
@@ -26,7 +26,7 @@ It contains information about a specific member.
 |id|string|
 |email|string|
 |name|string|
-|role|string Enum (owner, contributor, viewer)|
+|role|string enum ([owner, contributor, viewer](https://www.slingshotapp.io/en/help/docs/security))|
 
 ### Assignee Info Object 
 

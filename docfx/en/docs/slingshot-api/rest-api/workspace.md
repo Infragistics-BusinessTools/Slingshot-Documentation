@@ -2,31 +2,33 @@
 
 Workspaces can be viewed as digital workplaces. With workspaces you can collaborate with other users, prioritize work and share different types of content – all in one place. You can create multiple workspaces. One workspace can have many projects.
 
-## Workspace schema
+Note that users can have different roles and permissions in a workspace. [Here](https://www.slingshotapp.io/en/help/docs/security) you can find out more about each role.
 
-Schema:
+## Schema:
 
 |    Property  | Type            | Attributes           |
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| id              | string |  |
-| modified             | string |  |
-| created             | string |  |
-| name               | string |  Min = 1, Max = 100 |
-|description|string|Min = 1, Max = 144, Nullable|
-|startDate|string, date-time| |
-|endDate|string, date-time| |
-|status| string, enum (none, ontarget, atrisk, danger completed)| |
-|organization| [DocumentInfo](../generic-slingshot-resources.html#document-info-object)| |  
-|members| 	array <[MemberInfo](../generic-slingshot-resources#member-info-object)> | |
-|requests| 	array <[MemberInfo](../generic-slingshot-resources#member-info-object)> | |
-| pendingInvites           | [DocumentInfo](../generic-slingshot-resources.html#document-info-object) |  |
-|projects| [DocumentInfo](../generic-slingshot-resources.html#document-info-object)| |
-|pinLists| [DocumentInfo](../generic-slingshot-resources.html#document-info-object)| |
-|taskLists| [DocumentInfo](../generic-slingshot-resources.html#document-info-object)| |
-| discussionLists           | [DocumentInfo](../generic-slingshot-resources.html#document-info-object)|  |
+| id              | string | read-only |
+| modified             | string |read-only  |
+| created             | string | read-only |
+| name               | string |  min = 1, max = 100 |
+|description|string|min = 1, max = 144, nullable|
+|startDate|string <DateTime> | |
+|endDate|string <DateTime> | |
+|status| string enum ("none", "ontarget", "atrisk", "danger", "completed")| |
+|organization| object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)>| read-only|  
+|members| 	array <[MemberInfo](../generic-slingshot-resources#member-info-object)> | read-only|
+|requests| 	array <[MemberInfo](../generic-slingshot-resources#member-info-object)> | read-only|
+| pendingInvites           | array <[MemberInfo](../generic-slingshot-resources#member-info-object)> |  read-only|
+|projects| array <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)>| read-only|
+|pinLists| array <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)>| read-only|
+|taskLists| array <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)>|read-only |
+| discussionLists           | array <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)>| read-only |
+| dashboardLists      | array <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | read-only |
 
+<br/>
 
-Example:
+## Example:
 
 ```
 {
@@ -40,7 +42,7 @@ Example:
     "status": "none",
     "organization": {
         "id": "{123456}_org",
-        "name": null
+        "name": "Doe"
     },
     "members": [
         {
@@ -49,9 +51,34 @@ Example:
             "name": "Vyara"
         }
     ],
-    "requests": [],
-    "pendingInvites": [],
-    "projects": [],
+    "requests": [
+        {
+            "id": "{123456}_u",
+            "name": "Tim",
+            "email": "t@gmail.com",
+            "role": "owner"
+        }
+    ],
+    "pendingInvites": [
+        {
+            "id": "{123456}_u",
+            "role": "owner",
+            "name": "Joan",
+            "email": "joan@gmail.com"
+        }
+    ],
+    "projects": [
+        {
+            "id": "{123456}_proj",
+            "name": "Feedback"
+        }
+    ],
+    "dashboardLists": [
+        {
+            "id": "{123456}_repo",
+            "name": "Q3"
+        }
+    ],
     "pinLists": [
         {
             "id": "{123456}_ws_d",
@@ -73,6 +100,8 @@ Example:
 }
 ```
 
+<br/>
+
 ## Create a workspace 
 
 <img src="../images/post-request.png" alt="Post request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***htt<area>ps://my.slingshotapp<area>.io/v1/workspaces***</span>
@@ -83,23 +112,23 @@ When you request to create a workspace, the request body will have the following
 
 |    Property  | Type            | Attributes           |
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| name               | string |  Min = 1, Max = 100 |
-|description|string|Min = 1, Max = 144, Nullable|
-|startDate|string, date-time| |
-|endDate|string, date-time| |
-|status| string, enum (none, ontarget, atrisk, danger completed)| | 
-|members| 	array <[MemberInfo](..generic-slingshot-resources#member-info-object)> | |
+| name               | string | required, min = 1, max = 100 |
+|description|string|min = 1, max = 144, nullable|
+|startDate|string <DateTime> | |
+|endDate|string <DateTime> | |
+|status| string enum ("none", "ontarget", "atrisk", "danger", "completed")| | 
+|members| 	array <[MemberInfo](../generic-slingshot-resources#member-info-object)> | |
 
 Possible responses:
 
 | Code | Description|
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
 | 201 (Created) |You successfully created a workspace. The newly created workspace will be returned in the response body.   |
-| 400 (Bad Request) |The request was not processed because of missing or malformed parameter(s). Check the errors array in the response to get an idea of what went wrong. |
+| 400 (Bad Request) |The request was not processed because of missing or malformed parameter(s). Check the error array in the response to get an idea of what went wrong. |
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication.  |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
 
-Example of a successful request:
+Example of a successful request body:
 
 ```
 {
@@ -118,9 +147,11 @@ Example of a successful request:
 }
 ```
 
-Example of a successful response: 
+<br/>
 
-```
+<div class="fancy-details">
+    <summary><b>Example of a successful response body:</b></summary>
+    <code>
 {
     "id": "{123456}_ws",
     "modified": "2023-02-08T08:40:30.0000000",
@@ -132,7 +163,7 @@ Example of a successful response:
     "status": "none",
     "organization": {
         "id": "{123456}_org",
-        "name": null
+        "name": "Doe"
     },
     "members": [
         {
@@ -141,9 +172,34 @@ Example of a successful response:
             "name": "Vyara"
         }
     ],
-    "requests": [],
-    "pendingInvites": [],
-    "projects": [],
+    "requests": [
+        {
+            "id": "{123456}_u",
+            "name": "Tim",
+            "email": "t@gmail.com",
+            "role": "owner"
+        }
+    ],
+    "pendingInvites": [
+        {
+            "id": "{123456}_u",
+            "role": "owner",
+            "name": "Joan",
+            "email": "joan@gmail.com"
+        }
+    ],
+    "projects": [
+        {
+            "id": "{123456}_proj",
+            "name": "Feedback"
+        }
+    ],
+    "dashboardLists": [
+        {
+            "id": "{123456}_repo",
+            "name": "Q3"
+        }
+    ],
     "pinLists": [
         {
             "id": "{123456}_ws_d",
@@ -163,7 +219,11 @@ Example of a successful response:
         }
     ]
 }
-```
+    </code>
+</div>
+
+
+<br/>
 
 ## Get a workspace
 
@@ -176,9 +236,11 @@ Possible responses:
 
 | Code | Description|
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| 200 (Success) |You can view your workspaces. The requested [Workspaces]() will be returned in the response body in an [ItemsObject](..generic-slingshot-resources#item-object) array. |
+| 200 (Success) |You can view your workspaces. The requested [Workspaces]() will be returned in the response body in an [ItemsObject](../generic-slingshot-resources#item-object) array. |
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication. |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
+
+<br/>
 
 ## Get all workspaces for a current user
 
@@ -190,9 +252,11 @@ Possible responses:
 
 | Code | Description|
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| 200 (Success) |You can view your workspaces. The requested [Workspaces]() will be returned in the response body in an [ItemsObject](..generic-slingshot-resources#item-object) array. |
+| 200 (Success) |You can view your workspaces. The requested [Workspaces]() will be returned in the response body in an [ItemsObject](../generic-slingshot-resources#item-object) array. |
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication. |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
+
+<br/>
 
 ## Update a workspace
 
@@ -205,23 +269,23 @@ When you request to update a workspace, the request body will have the following
 
 |    Property  | Type            | Attributes           |
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| name               | string |  Min = 1, Max = 100 |
-|description|string|Min = 1, Max = 144, Nullable|
-|startDate|string, date-time| |
-|endDate|string, date-time| |
-|status| string, enum (none, ontarget, atrisk, danger completed| | 
-|members| 	array <[MemberInfo](..generic-slingshot-resources#member-info-object)> | |
+| name               | string |  min = 1, max = 100 |
+|description|string|min = 1, max = 144, nullable|
+|startDate|string <DateTime> | |
+|endDate|string <DateTime> | |
+|status| string enum ("none", "ontarget", "atrisk", "danger", "completed")| | 
+
 
 Possible responses:
 
 | Code | Description|
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
 | 200 (Success) |The workspace is updated. The updated workspace will be returned in the response body.   |
-| 400 (Bad Request) |The request was not processed because of missing or malformed parameter(s). Check the errors array in the response to get an idea of what went wrong. |
+| 400 (Bad Request) |The request was not processed because of missing or malformed parameter(s). Check the error array in the response to get an idea of what went wrong. |
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication. |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
 
-Example of a successful request:
+Example of a successful request body:
 
 ```
 {
@@ -229,20 +293,15 @@ Example of a successful request:
     "startDate": "2023-02-08T09:05:22.195Z",
     "endDate": "2023-02-08T09:05:22.195Z",
     "status": "none",
-    "members": [
-        {
-            "id": "{123456}_u",
-            "name": "Vyara",
-            "role": "owner"
-        }
-    ],
     "description": "2022"
 }
 ```
 
-Example of a successful response: 
+<br/>
 
-```
+<div class="fancy-details">
+    <summary><b>Example of a successful response body:</b></summary>
+    <code>
 {
     "id": "{123456}_ws",
     "id": "{123456}_ws",
@@ -264,9 +323,34 @@ Example of a successful response:
             "name": "Vyara"
         }
     ],
-    "requests": [],
-    "pendingInvites": [],
-    "projects": [],
+    "requests": [
+        {
+            "id": "{123456}_u",
+            "name": "Tim",
+            "email": "t@gmail.com",
+            "role": "owner"
+        }
+    ],
+    "pendingInvites": [
+        {
+            "id": "{123456}_u",
+            "role": "owner",
+            "name": "Joan",
+            "email": "joan@gmail.com"
+        }
+    ],
+    "projects": [
+        {
+            "id": "{123456}_proj",
+            "name": "Feedback"
+        }
+    ],
+    "dashboardLists": [
+        {
+            "id": "{123456}_repo",
+            "name": "Q3"
+        }
+    ],
     "pinLists": [
         {
             "id": "{123456}_ws_d",
@@ -286,7 +370,10 @@ Example of a successful response:
         }
     ]
 }
-```
+    </code>
+</div>
+
+<br/>
 
 ## Delete a workspace
 
@@ -302,24 +389,26 @@ Possible responses:
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication. |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
 
+<br/>
+
 ## Add members to a workspace  
 
 <img src="../images/post-request.png" alt="Post request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/workspaces/{id}/members***
 
 Required parameters: the **id** of the workspace
 
-Request body: [MemberInfo](..generic-slingshot-resources#member-info-object)
+Request body: [ItemsObject](../generic-slingshot-resources.html#item-object) <[MemberInfo](../generic-slingshot-resources#member-info-object)>
 
 Possible responses:
 
 | Code | Description|
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
 | 200 (Success) |You successfully added members to the workspace.   |
-| 400 (Bad Request) |The request was not processed because of missing or malformed parameter(s). Check the errors array in the response to get an idea of what went wrong. |
+| 400 (Bad Request) |The request was not processed because of missing or malformed parameter(s). Check the error array in the response to get an idea of what went wrong. |
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication. |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
 
-Example of a successful request:
+Example of a successful request body:
 
 ```
 {
@@ -333,9 +422,11 @@ Example of a successful request:
 }
 ```
 
-Example of a successful response:
+<br/>
 
-```
+<div class="fancy-details">
+    <summary><b>Example of a successful response body:</b></summary>
+    <code>
 {
     "id": "{123456}_ws",
     "modified": "2023-02-09T14:51:20.0000000",
@@ -343,7 +434,7 @@ Example of a successful response:
     "name": "Documentation",
     "organization": {
         "id": "{123456}_org",
-        "name": null
+        "name": "Doe"
     },
     "members": [
         {
@@ -359,12 +450,32 @@ Example of a successful response:
             "email": "n@gmail.com"
         }
     ],
-    "requests": [],
-    "pendingInvites": [],
+    "requests": [
+        {
+            "id": "{123456}_u",
+            "name": "Tom",
+            "email": "t@gmail.com",
+            "role": "owner"
+        }
+    ],
+    "pendingInvites": [
+        {
+            "id": "{123456}_u",
+            "role": "owner",
+            "name": "Joan",
+            "email": "joan@gmail.com"
+        }
+    ],
     "projects": [
         {
             "id": "{123456}_proj",
             "name": "Testing"
+        }
+    ],
+    "dashboardLists": [
+        {
+            "id": "{123456}_repo",
+            "name": "Q3"
         }
     ],
     "pinLists": [
@@ -394,26 +505,29 @@ Example of a successful response:
         }
     ]
 }
-```
+    </code>
+</div>
 
-## Update members of a workspace
+<br/>
+
+## Update members’ roles of a workspace
 
 <img src="../images/patch.png" alt="Patch request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/workspaces/{id}/members***
 
 Required parameters: the **id** of the workspace
 
-Request body: [MemberInfo](..generic-slingshot-resources#member-info-object)
+Request body: [ItemsObject](../generic-slingshot-resources.html#item-object) <[MemberInfo](../generic-slingshot-resources#member-info-object)>
 
 Possible responses:
 
 | Code | Description|
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
 | 200 (Success) |You updated the members of the workspace.   |
-| 400 (Bad Request) |The request was not processed because of missing or malformed parameter(s). Check the errors array in the response to get an idea of what went wrong. |
+| 400 (Bad Request) |The request was not processed because of missing or malformed parameter(s). Check the error array in the response to get an idea of what went wrong. |
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication. |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
 
-Example of a successful request:
+Example of a successful request body:
 
 ```
 {
@@ -427,9 +541,11 @@ Example of a successful request:
 }
 ```
 
-Example of a successful response:
+<br/>
 
-```
+<div class="fancy-details">
+    <summary><b>Example of a successful response body:</b></summary>
+    <code>
 {
     "id": "{123456}_ws",
     "modified": "2023-02-13T10:37:36.0000000",
@@ -453,12 +569,32 @@ Example of a successful response:
             "email": "n@gmail.com"
         }
     ],
-    "requests": [],
-    "pendingInvites": [],
+    "requests": [
+        {
+            "id": "{123456}_u",
+            "name": "Tom",
+            "email": "t@gmail.com",
+            "role": "owner"
+        }
+    ],
+    "pendingInvites": [
+        {
+            "id": "{123456}_u",
+            "role": "owner",
+            "name": "Joan",
+            "email": "joan@gmail.com"
+        }
+    ],
     "projects": [
         {
             "id": "{123456}_proj",
             "name": "Feedack"
+        }
+    ],
+    "dashboardLists": [
+        {
+            "id": "{123456}_repo",
+            "name": "Q3"
         }
     ],
     "pinLists": [
@@ -492,7 +628,10 @@ Example of a successful response:
         }
     ]
 }
-```
+    </code>
+</div>
+
+<br/>
 
 ## Remove members from a workspace
 
@@ -500,18 +639,18 @@ Example of a successful response:
 
 Required parameters: the **id** of the workspace
 
-Request body: [MemberInfo](..generic-slingshot-resources#member-info-object)
+Request body: [ItemsObject](../generic-slingshot-resources.html#item-object) <[MemberInfo](../generic-slingshot-resources#member-info-object)>
 
 Possible responses:
 
 | Code | Description|
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
 | 200 (Success) |You removed members from the workspace.   |
-| 400 (Bad Request) |The request was not processed because of missing or malformed parameter(s). Check the errors array in the response to get an idea of what went wrong. |
+| 400 (Bad Request) |The request was not processed because of missing or malformed parameter(s). Check the error array in the response to get an idea of what went wrong. |
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication. |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
 
-Example of a successful request:
+Example of a successful request body:
 
 ```
 {
@@ -526,9 +665,11 @@ Example of a successful request:
 
 ```
 
-Example of a successful response:
+<br/>
 
-```
+<div class="fancy-details">
+    <summary><b>Example of a successful response body:</b></summary>
+    <code>
 {
     "id": "{123456}_ws",
     "modified": "2023-02-13T10:25:22.0000000",
@@ -546,12 +687,32 @@ Example of a successful response:
             "email": "v@gmail.com"
         }
     ],
-    "requests": [],
-    "pendingInvites": [],
+    "requests": [
+        {
+            "id": "{123456}_u",
+            "name": "Tom",
+            "email": "t@gmail.com",
+            "role": "owner"
+        }
+    ],
+    "pendingInvites": [
+        {
+            "id": "{123456}_u",
+            "role": "owner",
+            "name": "Joan",
+            "email": "joan@gmail.com"
+        }
+    ],
     "projects": [
         {
             "id": "{123456}_proj",
             "name": "Feedback"
+        }
+    ],
+    "dashboardLists": [
+        {
+            "id": "{123456}_repo",
+            "name": "Q3"
         }
     ],
     "pinLists": [
@@ -585,7 +746,10 @@ Example of a successful response:
         }
     ]
 }
-```
+    </code>
+</div>
+
+<br/>
 
 ## Grant requests to add members to a workspace  
 
@@ -593,18 +757,18 @@ Example of a successful response:
 
 Required parameters: the **id** of the workspace
 
-Request body: [MemberInfo](..generic-slingshot-resources#member-info-object)
+Request body: [ItemsObject](../generic-slingshot-resources.html#item-object) <[MemberInfo](../generic-slingshot-resources#member-info-object)>
 
 Possible responses:
 
 | Code | Description|
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
 | 200 (Success) |You granted access to the users.   |
-| 400 (Bad Request) |The request was not processed because of missing or malformed parameter(s). Check the errors array in the response to get an idea of what went wrong. |
+| 400 (Bad Request) |The request was not processed because of missing or malformed parameter(s). Check the error array in the response to get an idea of what went wrong. |
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication. |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
 
-Example of a successful request:
+Example of a successful request body:
 
 ```
 {
@@ -617,9 +781,11 @@ Example of a successful request:
 }
 ```
 
-Example of a successful response:
+<br/>
 
-```
+<div class="fancy-details">
+    <summary><b>Example of a successful response body:</b></summary>
+    <code>
 {
     "id": "{123456}_ws",
     "modified": "2023-02-10T14:20:52.0000000",
@@ -649,12 +815,32 @@ Example of a successful response:
             "email": "r@gmail.com"
         }
     ],
-    "requests": [],
-    "pendingInvites": [],
+    "requests": [
+        {
+            "id": "{123456}_u",
+            "name": "Tom",
+            "email": "t@gmail.com",
+            "role": "owner"
+        }
+    ],
+    "pendingInvites": [
+        {
+            "id": "{123456}_u",
+            "role": "owner",
+            "name": "Joan",
+            "email": "joan@gmail.com"
+        }
+    ],
     "projects": [
         {
             "id": "{123456}_proj",
             "name": "Feedback"
+        }
+    ],
+    "dashboardLists": [
+        {
+            "id": "{123456}_repo",
+            "name": "Q3"
         }
     ],
     "pinLists": [
@@ -676,7 +862,14 @@ Example of a successful response:
         }
     ]
 }
-```
+    </code>
+</div>
+
+<br/>
+
+>[!NOTE] Only Owners can grant requests access to add members to a workspace. 
+
+<br/>
 
 ## Deny requests to add members to a workspace
 
@@ -684,18 +877,18 @@ Example of a successful response:
 
 Required parameters: the **id** of the workspace
 
-Request body: [MemberInfo](..generic-slingshot-resources#member-info-object)
+Request body: [ItemsObject](../generic-slingshot-resources.html#item-object) <[MemberInfo](../generic-slingshot-resources#member-info-object)>
 
 Possible responses:
 
 | Code | Description|
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
 | 200 (Success) |You denied access to the users.   |
-| 400 (Bad Request) |The request was not processed because of missing or malformed parameter(s). Check the errors array in the response to get an idea of what went wrong. |
+| 400 (Bad Request) |The request was not processed because of missing or malformed parameter(s). Check the error array in the response to get an idea of what went wrong. |
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication. |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
 
-Example of a successful request:
+Example of a successful request body:
 
 ```
 {
@@ -708,9 +901,11 @@ Example of a successful request:
 }
 ```
 
-Example of a successful response:
+<br/>
 
-```
+<div class="fancy-details">
+    <summary><b>Example of a successful response body:</b></summary>
+    <code>
 {
     "id": "{123456}_ws",
     "modified": "2023-02-10T14:29:09.0000000",
@@ -734,12 +929,32 @@ Example of a successful response:
             "email": "v@gmail.com"
         }
     ],
-    "requests": [],
-    "pendingInvites": [],
+    "requests": [
+        {
+            "id": "{123456}_u",
+            "name": "Tom",
+            "email": "t@gmail.com",
+            "role": "owner"
+        }
+    ],
+    "pendingInvites": [
+        {
+            "id": "{123456}_u",
+            "role": "owner",
+            "name": "Joan",
+            "email": "joan@gmail.com"
+        }
+    ],
     "projects": [
         {
             "id": "{123456}_proj",
             "name": "Feedback"
+        }
+    ],
+    "dashboardLists": [
+        {
+            "id": "{123456}_repo",
+            "name": "Q3"
         }
     ],
     "pinLists": [
@@ -761,4 +976,7 @@ Example of a successful response:
         }
     ]
 }
-```
+    </code>
+</div>
+
+>[!NOTE] Only Owners can deny requests access to add members to a workspace. 

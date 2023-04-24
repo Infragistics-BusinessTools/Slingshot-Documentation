@@ -2,22 +2,22 @@
 
 Discussions can be created in projects and workspaces. You can organize discussions in different lists. Discussion lists are sections dedicated to a specific subject.
 
-## DiscussionList schema
-
-Schema:
+## Schema:
 
 |    Property  | Type            | Attributes           |
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| id              | string |  |
-| modified             | string |  |
-| created             | string |  |
-| name               | string | Min = 1, Max = 100 |  
-| workspace            |[DocumentInfo](../generic-slingshot-resources.html#document-info-object) | |  
-| project    |[DocumentInfo](../generic-slingshot-resources.html#document-info-object) | | 
-| discussionsCount             | int |  |
-| discussions             | array[DocumentInfo](../generic-slingshot-resources.html#document-info-object) | |
+| id              | string |read-only  |
+| modified             | string |read-only  |
+| created             | string | read-only |
+| name               | string | min = 1, max = 100 |  
+| workspace            |object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | read-only|  
+| project    |object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | read-only| 
+| discussionsCount             | int | read-only |
+| discussions             | array <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> |read-only |
 
-Example:
+<br/>
+
+## Example:
 
 ```
 {
@@ -34,9 +34,16 @@ Example:
         "name": "Customer Support"
     },
     "discussionsCount": 0,
-    "discussions": []
+    "discussions": [
+        {
+            "id": "{123456}",
+            "name": "Threads"
+        }
+    ]
 }
 ```
+
+<br/>
 
 ## Create a discussion list  
 
@@ -48,20 +55,20 @@ When you request to create a discussion list, the request body will have the fol
 
 |    Property  | Type            | Attributes           |
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| name               | string | Min = 1, Max = 100 |  
-| workspace            |[DocumentInfo](../generic-slingshot-resources.html#document-info-object)| OneOf|  
- | project    |[DocumentInfo](../generic-slingshot-resources.html#document-info-object) | OneOf| 
+| name               | string | required, min = 1, max = 100 |  
+| workspace            |object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)>| required, one-of|  
+ | project    |object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | required, one-of| 
 
  Possible responses:
 
 | Code | Description|
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
 | 201 (Created) |You successfully created a discussion list. The newly created discussion list will be returned in the response body. |
-| 400 (Bad Request) |The request was not processed because of missing or malformed parameter(s). Check the errors array in the response to get an idea of what went wrong. |
+| 400 (Bad Request) |The request was not processed because of missing or malformed parameter(s). Check the error array in the response to get an idea of what went wrong. |
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication.  |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
 
-Example of a successful request:
+Example of a successful request body:
 
 ```
 {
@@ -73,9 +80,11 @@ Example of a successful request:
 }
 ```
 
-Example of a successful response:
+<br/>
 
-```
+<div class="fancy-details">
+    <summary><b>Example of a successful response body:</b></summary>
+    <code>
 {
     "id": "{123456}",
     "modified": "2023-02-07T07:43:52.0000000",
@@ -90,9 +99,17 @@ Example of a successful response:
         "name": "Customer Support"
     },
     "discussionsCount": 0,
-    "discussions": []
+    "discussions": [
+        {
+            "id": "{123456}",
+            "name": "Threads"
+        }
+    ]
 }
-```
+ </code>
+</div>
+
+<br/>
 
 ## Get a discussion list
 
@@ -109,6 +126,8 @@ Required parameters: the **id** of the discussion list
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication.  |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
 
+<br/>
+
 ## Get all discussion lists for a parent document 
 
 <img src="../images/get-all.png" alt="Get all request" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/discussionlists/parent/{id}***
@@ -123,6 +142,8 @@ Possible responses:
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication.  |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
 
+<br/>
+
 ## Update a discussion list
 
 <img src="../images/patch.png" alt="Patch request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/discussionlists/{id}***
@@ -133,7 +154,7 @@ When you request to update a discussion list, the request body will have the fol
 
 |    Property  | Type            | Attributes           |
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| name               | string | Min = 1, Max = 100 |  
+| name               | string | min = 1, max = 100 |  
 
 
  Possible responses:
@@ -141,11 +162,11 @@ When you request to update a discussion list, the request body will have the fol
 | Code | Description|
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
 | 200 (Success) |The discussion list is updated. The updated discussion list will be returned in the response body. |
-| 400 (Bad Request) |The request was not processed because of missing or malformed parameter(s). Check the errors array in the response to get an idea of what went wrong. |
+| 400 (Bad Request) |The request was not processed because of missing or malformed parameter(s). Check the error array in the response to get an idea of what went wrong. |
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication.  |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
 
-Example of a successful request:
+Example of a successful request body:
 
 ```
 {
@@ -153,9 +174,11 @@ Example of a successful request:
 }
 ```
 
-Example of a successful response: 
+<br/>
 
-```
+<div class="fancy-details">
+    <summary><b>Example of a successful response body:</b></summary>
+    <code>
 {
     "id": "{123456}",
     "modified": "2023-02-07T07:56:13.0000000",
@@ -170,9 +193,18 @@ Example of a successful response:
         "name": "Q1"
     },
     "discussionsCount": 0,
-    "discussions": []
+    "discussions": [
+        {
+            "id": "{123456}",
+            "name": "Customer support"
+        }
+    ]
 }
-```
+    </code>
+</div>
+
+<br/>
+
 ## Delete a discussion list
 
 <img src="../images/delete.png" alt="Delete request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/discussionlists/{id}***

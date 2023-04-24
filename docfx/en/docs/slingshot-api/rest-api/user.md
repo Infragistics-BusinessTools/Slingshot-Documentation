@@ -1,23 +1,82 @@
 # User
 
-In the object hierarchy, the *users* objects represent accounts in Slingshot. Every user can find their own information, such as credentials, profile information, settings and content, in their account. 
+In the object model, the *users* objects represent accounts in Slingshot. Every user can find their own information, such as credentials, profile information, settings and content, in their account. 
 
-## User schema
+## Schema:
 
 |    Property  | Type            | Attributes           |
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| id               | string |  |    
-| modified              | string |  |  
-| created             | string |  | 
-|email| string| |
-| name               | string |Min = 1, Max = 200| 
-|locale|string| 
-|organizations|array<[DocumentInfo](../generic-slingshot-resources.html#document-info-object)>|
-| workspaces             | array<[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | |
-| projects             | array<[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> |  |
-| pinLists           | array<[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> |  |
-| taskLists      | array<[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> |  |
+| id               | string | read-only |    
+| modified              | string | read-only |  
+| created             | string | read-only | 
+|email| string|read-only |
+| name               | string |min = 1, max = 200| 
+|locale|string|read-only |
+|organizations|array <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)>|read-only|
+| workspaces             | array <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | read-only|
+| projects             | array <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | read-only |
+| pinLists           | array <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | read-only |
+| taskLists      | array <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | read-only |
+| dashboardLists      |array <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | read-only |
 
+<br/>
+
+## Example:
+
+```
+{
+    "id": "{123456}_u",
+    "modified": "2023-02-09T11:32:11.0000000",
+    "created": "2022-05-18T13:47:52.0000000",
+    "email": "t@gmail.com",
+    "name": "Tom",
+    "locale": "en",
+    "organizations": [
+        {
+            "id": "{123456}_org",
+            "role": "contributor",
+            "name": "Jack",
+            "type": "siblingmember"
+        }
+    ],
+    "workspaces": [
+        {
+            "id": "{123456}_ws",
+            "name": "Customer Support"
+        }
+    ],
+    "projects": [
+        {
+            "id": "{123456}_proj",
+            "name": "Marketing"
+        },
+        {
+            "id": "{123456}_proj",
+            "name": "Emails"
+        }
+    ],
+    "dashboardLists": [
+        {
+            "id": "{123456}_repo",
+            "name": "Q2"
+        }
+    ],
+    "pinLists": [
+        {
+            "id": "{123456}_d",
+            "name": "Personal Pins"
+        }
+    ],
+    "taskLists": [
+        {
+            "id": "{123456}",
+            "name": "Personal Tasks"
+        }
+    ]
+}
+```
+
+<br/>
 
 ## Get current user document
 
@@ -36,6 +95,8 @@ Possible responses:
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication. |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
 
+<br/>
+
 ## Update current user document
 
 <img src="../images/patch.png" alt="Patch request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> <span class="italic">***htt<area>ps://my.slingshotapp<area>.io/v1/user***</span>
@@ -46,18 +107,18 @@ When you request to update the document, the request body will have the followin
 
 |    Property  | Type            | Attributes           |
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| name               | string |  Min = 1, Max = 100 |
+| name               | string |  min = 1, max = 100 |
 
 Possible responses:
 
 | Code | Description|
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
 | 200 (Success) |The user document is updated. The updated user document will be returned in the response body.    |
-| 400 (Bad Request) |The request was not processed because of missing or malformed parameter(s). Check the errors array in the response to get an idea of what went wrong. |
+| 400 (Bad Request) |The request was not processed because of missing or malformed parameter(s). Check the error array in the response to get an idea of what went wrong. |
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication. |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
 
-Example of a successful request:
+Example of a successful request body:
 
 ```
 {
@@ -65,9 +126,11 @@ Example of a successful request:
 }
 ```
 
-Example of a successful response:
+<br/>
 
-```
+<div class="fancy-details">
+    <summary><b>Example of a successful response body:</b></summary>
+    <code>
 {
     "id": "{123456}_u",
     "modified": "2023-02-09T11:32:11.0000000",
@@ -107,6 +170,16 @@ Example of a successful response:
             "name": "HR"
         }
     ],
+    "dashboardLists": [
+        {
+            "id": "{123456}_u_repo",
+            "name": "My Dashboards"
+        },
+        {
+            "id": "{123456}_repo",
+            "name": "Q1"
+        }
+    ],
     "pinLists": [
         {
             "id": "{123456}_d",
@@ -124,4 +197,5 @@ Example of a successful response:
         }
     ]
 }
-```
+    </code>
+</div>

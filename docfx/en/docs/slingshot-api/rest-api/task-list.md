@@ -2,22 +2,22 @@
 
 You can use tasks in order to better organize your work. For better visibility, you can organize them in different lists.
 
-## Task list schema
-
-Schema:
+## Schema:
 
 |    Property  | Type            | Attributes           |
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| id              | string |  |
-| modified             | string |  |
-| created             | string |  |
-| name               | string |  Min = 1, Max = 100 |  
-| user             | [DocumentInfo](../generic-slingshot-resources.html#document-info-object) | | 
-| workspace            |[DocumentInfo](../generic-slingshot-resources.html#document-info-object) | |  
-| project    |[DocumentInfo](../generic-slingshot-resources.html#document-info-object) | | 
-| taskSection   |array <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)>  | | 
+| id              | string | read-only |
+| modified             | string | read-only |
+| created             | string | read-only |
+| name               | string |  min = 1, max = 100 |  
+| user             | object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | read-only| 
+| workspace            |object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | read-only|  
+| project    |object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | read-only| 
+| taskSections   |array <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)>  | read-only| 
 
-Example:
+<br/>
+
+## Example:
 
 ```
 {
@@ -31,7 +31,12 @@ Example:
                 "id": "{123456}_ws",
                 "name": "Customer support"
             },
-            "taskSections": []
+            "taskSections": [
+                {
+                    "id": "{123456}_tg",
+                    "name": "Q2"
+                }
+            ]
         },
         {
             "id": "{123456}_tg",
@@ -42,11 +47,18 @@ Example:
                 "id": "{123456}_ws",
                 "name": "Marketing"
             },
-            "taskSections": []
+            "taskSections": [
+                {
+                    "id": "{123456}_tg",
+                    "name": "Q2"
+                }
+            ]
         }
     ]
 }
 ```
+
+<br/>
 
 ## Create a task list 
 
@@ -58,21 +70,21 @@ When you request to create a task, the request body will have the following cont
 
 |    Property  | Type            | Attributes           |
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| name               | string | Min = 1, Max = 100 |
-| user             |[DocumentInfo](../generic-slingshot-resources.html#document-info-object) | oneOf| 
-| workspace            |[DocumentInfo](../generic-slingshot-resources.html#document-info-object) | oneOf|  
-| project    |[DocumentInfo](../generic-slingshot-resources.html#document-info-object) |oneOf|
+| name               | string | required, min = 1, max = 100 |
+| user             |object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | required, one-of| 
+| workspace            |object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | required, one-of|  
+| project    |object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)>| required, one-of|
 
 Possible responses:
 
 | Code | Description|
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
 | 201 (Created) |You successfully created a tasks list. The newly created task list will be returned in the response body.  |
-| 400 (Bad Request) |The request was not processed because of missing or malformed parameter(s). Check the errors array in the response to get an idea of what went wrong. |
+| 400 (Bad Request) |The request was not processed because of missing or malformed parameter(s). Check the error array in the response to get an idea of what went wrong. |
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication.  |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
 
-Example of a successful request:
+Example of a successful request body:
 
 ```
 {
@@ -84,9 +96,11 @@ Example of a successful request:
 }
 ```
 
-Example of a successful response: 
+<br/>
 
-```
+<div class="fancy-details">
+    <summary><b>Example of a successful response body:</b></summary>
+    <code>
 {
     "id": "{123456}_tg",
     "modified": "2023-02-16T11:36:57.0000000",
@@ -96,9 +110,17 @@ Example of a successful response:
         "id": "{123456}_u",
         "name": "Vyara Yan"
     },
-    "taskSections": []
+    "taskSections": [
+        {
+            "id": "{123456}_tg",
+            "name": "Q2"
+        }
+    ]
 }
-```
+    </code>
+</div>
+
+<br/>
 
 ## Get a task list
 
@@ -114,6 +136,8 @@ Possible responses:
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication. |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
 
+<br/>
+
 ## Get all task lists for a parent document
 
 <img src="../images/get-all.png" alt="Get all request" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/tasklists/parent/{id}***
@@ -128,6 +152,8 @@ Possible responses:
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication. |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
 
+<br/>
+
 ## Update a task list  
 
 <img src="../images/patch.png" alt="Patch request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/tasklists/{id}***
@@ -138,18 +164,18 @@ When you request to update a task, the request body will have the following cont
 
 |    Property  | Type            | Attributes           |
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| name               | string | Min = 1, Max = 100 |
+| name               | string | min = 1, max = 100 |
 
 Possible responses:
 
 | Code | Description|
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
 | 200 (Success) |The tasks list is updated. The updated task list will be returned in the response body.   |
-| 400 (Bad Request) |The request was not processed because of missing or malformed parameter(s). Check the errors array in the response to get an idea of what went wrong. |
+| 400 (Bad Request) |The request was not processed because of missing or malformed parameter(s). Check the error array in the response to get an idea of what went wrong. |
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication. |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
 
-Example of a successful request:
+Example of a successful request body:
 
 ```
 {
@@ -157,9 +183,11 @@ Example of a successful request:
 }
 ```
 
-Example of a successful response: 
+<br/>
 
-```
+<div class="fancy-details">
+    <summary><b>Example of a successful response body:</b></summary>
+    <code>
 {
     "id": "{123456}_tg",
     "modified": "2023-02-16T11:49:56.0000000",
@@ -169,9 +197,17 @@ Example of a successful response:
         "id": "{123456}_u",
         "name": "Vyara Yan"
     },
-    "taskSections": []
+    "taskSections": [
+        {
+            "id": "{123456}_tg",
+            "name": "Q1"
+        }
+    ]
 }
-```
+    </code>
+</div>
+
+<br/>
 
 ## Delete a task list
 
