@@ -79,7 +79,7 @@ Slingshot was built on top of Microsoft and Google making it the perfect tool to
 
 If you have questions or need help with your Slingshot account, you can reach out to our team. In order to do that, you need to:
 
-1. Log in to your account [here](https://account.slingshotapp.io).
+1. Log in to your account <a href="https://account.slingshotapp.io" target="_blank">here</a>.
 2. Choose **Support** and then **New Support Request** in order to submit a request.
 
 Our team will send you an email with further instructions or more information regarding your inquiry.
