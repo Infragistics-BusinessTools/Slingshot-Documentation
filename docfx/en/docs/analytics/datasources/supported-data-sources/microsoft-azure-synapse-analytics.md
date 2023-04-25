@@ -66,7 +66,7 @@ of the **MS SQL Server data source** topic.
 
 Once your data source has been added, you will be taken to the *Visualizations Editor*. Here you can build your dashboard. 
 
-Keep in mind tha the *Column* visualization will be selected by default. You can click/tap on it in order to choose another chart type.
+Keep in mind that the *Column* visualization will be selected by default. You can click/tap on it in order to choose another chart type.
 
 <img src="./images/microsoft-azure-synapse-analytics-visualization-editor.png" alt="Using data from microsoft azure synapse analytics account in the visualization editor" class="responsive-img" width="85%"/>
 

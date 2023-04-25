@@ -80,11 +80,11 @@ Another way of sharing a discussion with someone or with a group of people is by
 
 If they are not part of the workspace or the project, they won't be able to see the discussion until the owner(of the workspace or the project) grants them access. 
 
-When an owner of a workspace (or a project) opens a discussion and mentions a group, they will be provided with the following options for the discussion history: **Don't share any history, Share the full history and Share today's history**. After chosing how much of the history to provide the group with, they can click/tap on **Grant Access**.
+When an owner of a workspace (or a project) opens a discussion and mentions a group, they will be provided with the following options for the discussion history: **Don't share any history, Share the full history and Share today's history**. After choosing how much of the history to provide the group with, they can click/tap on **Grant Access**.
 
 <img src="../images/group-access-history-sharing.png" alt="Group access dialog with different history options" width="40%" class="responsive-img"/>
 
-In case a member of a group (who is not an owner of the workspace or the project) wants to mention the group, they need to first request an access from the owner. When the owner grants permission to the group, the members will be able to see the discussion with its full history. 
+In case a member of a group (who is not an owner of the workspace or the project) wants to mention the group, they need to first request access from the owner. When the owner grants permission to the group, the members will be able to see the discussion with its full history. 
 
 ## How can I make sure someone is notified of new answers?
 
@@ -126,6 +126,6 @@ To delete a discussion, navigate to it and select *Delete* in its overflow menu.
 
 ## Rearranging lists of discussions
 
-Whenever you create a new list it will be added at the end of the discussions list. There will be times when you won't be satisfied by the chronological order, for example when you accumulate a several lists. Don't worry about this, because there is an easy and quick way to rearrange them. Just drag them up and down!
+Whenever you create a new list it will be added at the end of the discussions list. There will be times when you won't be satisfied by the chronological order, for example when you accumulate several lists. Don't worry about this, because there is an easy and quick way to rearrange them. Just drag them up and down!
 
 

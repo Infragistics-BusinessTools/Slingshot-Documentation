@@ -33,7 +33,7 @@ For example, the following is a visualization, which displays new support cases 
 
 <img src="images/support-cases-sample.png" alt="Visualization displaying data in an ascending order" class="responsive-img" width="85%"/>
 
-The *Priority* field is a text field so it's ordered A-Z by default. However, if we use business logic, *Priority* values should be ordered as follows: *Low* - *Normal* - *High*. To achieve this, you should have a *Priority Level* column in your data set showing the numeric representation of the priority status (see below). 
+The *Priority* field is a text field, so it's ordered A-Z by default. However, if we use business logic, *Priority* values should be ordered as follows: *Low* - *Normal* - *High*. To achieve this, you should have a *Priority Level* column in your data set showing the numeric representation of the priority status (see below). 
 
 <img src="images/weekly-cases-priority.png" alt="Visualization showing weekly cases ordered by Priority level" class="responsive-img" width="85%"/>
 

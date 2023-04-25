@@ -9,7 +9,7 @@ If you sign in with your Office365 account, you will have your OneDrive automati
 
 To use your OneDrive data, follow the steps below:
 
-1. Upon selecting your OneDrive, you will be prompt to enter your **account and password** for Microsoft. Once you have entered the crendetials, select **Sign in**.
+1. Upon selecting your OneDrive, you will be prompt to enter your **account and password** for Microsoft. Once you have entered the credentials, select **Sign in**.
 
   <img src="images/microsoft-account-onedrive.png" alt="One Drive Login" class="responsive-img" width="85%"/>
 

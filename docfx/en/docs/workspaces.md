@@ -43,7 +43,7 @@ Here are some additional features of workspaces with projects:
 - You can set start dates and due states at the project level.
 - You can set a status on your projects.
 - All your project tasks roll up to the workspace so you can easily run your team scrums.
-- You can share projects with users outside of the workspace for them to have access only to that content.
+- You can share projects with users outside the workspace for them to have access only to that content.
 
 ### Workspace without Projects
 
@@ -67,7 +67,7 @@ Accessing the Settings of the workspace can be done via the overflow menu next t
 
 ## Working with Workspaces and Projects
 
-When a workspace or project is shared with you, it will automatically appear in your navigation side bar. You will also get a notification as long as you didn't turn off the alerts.
+When a workspace or project is shared with you, it will automatically appear in your navigation sidebar. You will also get a notification as long as you didn't turn off the alerts.
 
 ### Creating a Workspace
 
@@ -92,7 +92,7 @@ You can join public workspaces within your organization.
 2.	Search for the workspace you want to join in the “Join or Create a Workspace” modal dialog that pops up.
 3.  Then click the “Join” button on the public workspace of your choice.
 4.	Once you have joined the workspace, it will turn green with a “Joined” notification replacing the “Join” button.
-5.	As this is a public workspace it will automatically appear in your navigation side bar. The owners of the workspace will receive a notification that you have joined and you are now able to collaborate on that workspace.
+5.	As this is a public workspace it will automatically appear in your navigation sidebar. The owners of the workspace will receive a notification that you have joined and you are now able to collaborate on that workspace.
 
 ### Leaving a Workspace
 
@@ -108,7 +108,7 @@ You can delete a workspace by going to the workspace settings and clicking the o
 
 ### Turning Tabs On and Off
 
-By default a workspace is created with all tabs, but you can turn tabs on and off if they are not necessary.
+By default, a workspace is created with all tabs, but you can turn tabs on and off if they are not necessary.
 Slingshot allows you full flexibility in customizing these tabs for your project’s requirements.
 
 <img src="../images/workspaces-edit-tabs.png" alt="Accessing a workspace settings within Slingshot" class="responsive-img" width="70%"/>

@@ -1,10 +1,10 @@
 # Google Ads
 
-The *Google Ads*  data source allows you to access and analyze the data tables from your Google Ads (formerly Google Adwords) account. Create visualizations with your Google Ads data to build a high-level understanding of your advertising efforts.
+The *Google Ads* data source allows you to access and analyze the data tables from your Google Ads (formerly Google Adwords) account. Create visualizations with your Google Ads data to build a high-level understanding of your advertising efforts.
 
 ## Connecting to Google Ads
 
-1. Select *Google Ads* as your data source and you will see Google's login screen.
+1. Select *Google Ads* as your data source, and you will see Google's login screen.
 
 2. If multiple Google accounts are listed, select the account that contains the Google Ads data you want to access. 
 3. Enter your login credentials, if you are not already signed in. 
@@ -19,13 +19,13 @@ The *Google Ads*  data source allows you to access and analyze the data tables f
 
 6. Choose a resource.
 
-    Select the resource that you want to use from one of the two lists: _Popular Resources_ or _All Resources_. Use the search to find quickly what you need.
+    Select the resource that you want to use from one of the two lists: *Popular Resources* or *All Resources*. Use the search to find quickly what you need.
 
     <img src="images/google-ads-resources.png" alt="Set up your resource menu" class="responsive-img"> 
 
    Under each resource you will see a description. It gives information which dimensions from Google Ads are included in this resource. 
 
-   Click  _Select Data_ to continue to the _Visualizations Editor_.
+   Click *Select Data* to continue to the *Visualizations Editor*.
 
 ## Working in the Visualizations Editor 
 
@@ -51,7 +51,7 @@ You may notice that there is no *Fields* heading on the left in the *Data* pane.
 
 In *Data Filters* (see bottom right of the *Data* pane), you will find a date range filter set to *Last 30 days* by default. This means data will be retrieved for the last 30-day period, including *today*.
 
-You can't remove the date filter, but you can change the default date range by clicking on the *Calendar* icon. Select *from* and *to* dates. Alternatively, click/tap the arrow in the upper right corner (see the screenshot ) and pick a date range from the dropdown options:
+You can't remove the date filter, but you can change the default date range by clicking on the *Calendar* icon. Select *from* and *to* dates. Alternatively, click/tap the arrow in the upper right corner (see the screenshot) and pick a date range from the dropdown options:
 
 <img src="images/google-ads-date-range-filter
 .png" alt="Google Ads data in the Visualizations Editor" class="responsive-img">

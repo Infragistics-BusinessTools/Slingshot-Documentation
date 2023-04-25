@@ -5,7 +5,7 @@
 #### New Features 
 - Ability for contributors and viewers to mention a user or a group of people who don't have direct access to a discussion
 
-- Friendly dates for upcoming dates (Today, Tomorrow, Monday, Tuesday, etc)
+- Friendly dates for upcoming dates (Today, Tomorrow, Monday, Tuesday, etc.)
 
 - Improved Data Charts
 
@@ -37,7 +37,7 @@
 
 - New onboarding experience
 
-- x64 version of windows desktop version
+- x64 version of Windows desktop version
 
 #### Bug Fixes and Improvements
 

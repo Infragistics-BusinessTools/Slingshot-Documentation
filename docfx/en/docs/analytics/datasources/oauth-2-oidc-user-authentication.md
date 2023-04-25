@@ -32,7 +32,7 @@ For further information, please refer to [OpenID Connect](https://openid.net/con
 
 ## Using protected resources with an OAuth 2 / OIDC Account
 
-To use data sources with an OAuth 2 / OIDC аccount you will need to
+To use data sources with an OAuth 2 / OIDC account you will need to
 perform these 4 steps:
 
 1.  **Register the OAuth Client** (Analytics) on your resource server (this

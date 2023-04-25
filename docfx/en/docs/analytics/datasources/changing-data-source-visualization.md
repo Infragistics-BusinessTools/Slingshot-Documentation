@@ -8,7 +8,7 @@ _description: A guide to change the linked data sources on a visualization after
 After visualizations are created, it is still possible to change their
 linked data sources. To do this:
 
-1. Access *Dashboard Edit mode* by selecting **Edit** from the overflow menu in the top right hand corner. Alternatively, you can click/tap on the pencil icon.
+1. Access *Dashboard Edit mode* by selecting **Edit** from the overflow menu in the top right-hand corner. Alternatively, you can click/tap on the pencil icon.
 
 2. Click/tap on **Edit** in the overflow menu of a chosen visualization.
 

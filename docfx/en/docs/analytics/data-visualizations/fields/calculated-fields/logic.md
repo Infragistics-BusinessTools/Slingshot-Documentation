@@ -168,7 +168,7 @@ the same syntax:
 
 ### Samples
 
-Let's take a look at the following and and or samples:
+Let's take a look at the following *and* and *or* samples:
 
   - `and([BirthDate]>date(1983,07,15,04,06,55), [Department]="CPA")`
 

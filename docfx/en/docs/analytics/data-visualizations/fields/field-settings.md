@@ -88,7 +88,7 @@ In addition, dragging a specific hierarchy level will show data for that level o
     display.
 
   - **Negative Numbers**: select between enclosing negative numbers in
-    parenthesis or prefixing with the minus (-) sign.
+    parentheses or prefixing with the minus (-) sign.
 
   - **Large Numbers Formatting**: display M for millions and K for
     thousands within the visualization preview in the central pane.

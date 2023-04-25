@@ -6,7 +6,7 @@ When you start using a new app for the very first time, the process of getting u
 
 During the onboarding process, you will be able to set up things, such as your first workspace, project, tasks and even invite your team members to Slingshot.
 
-When you log into your account  for the first time, you will see the following:
+When you log into your account for the first time, you will see the following:
 
 1. A dialog where you can choose your main objectives. You can select as many as you want.
 

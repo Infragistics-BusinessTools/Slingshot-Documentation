@@ -112,7 +112,7 @@ with, you are able to build your visualization upon them.
 
     <img src="images/different-format-options-json-advanced-selection.png" alt="Json Files Format Fields" class="responsive-img"/>
 
-5.  **Click/Tap **Create Table**.
+5.  **Click/Tap on Create Table**.
 
     Once you selected your custom data structure, click/tap the *Create
     Table* button to continue to the *Visualizations Editor*.

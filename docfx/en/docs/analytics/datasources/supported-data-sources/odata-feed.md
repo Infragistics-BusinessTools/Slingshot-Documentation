@@ -44,7 +44,7 @@ which had two fields (**ID** and **Name**) with three categories.
 <img src="images/odata-feed-visualization-editor.png" alt="ODataOpenTypesSampleV3\_All" class="responsive-img" width="85%"/>
 
 
-A new record with a new  Property was added to the Category section through [Postman](https://www.odata.org/getting-started/learning-odata-on-postman/).
+A new record with a new Property was added to the Category section through [Postman](https://www.odata.org/getting-started/learning-odata-on-postman/).
 After the changes, the dashboard was refreshed to display the new
 record.
 

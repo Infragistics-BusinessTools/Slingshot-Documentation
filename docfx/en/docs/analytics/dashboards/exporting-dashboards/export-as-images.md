@@ -2,7 +2,7 @@
 
 Analytics allows you to export a screen capture of your entire dashboard or
 individual visualizations from your dashboard. The files delivered to
-your local space / mobile device are in the **png format**.
+your local space / mobile device are in the **PNG format**.
 
 ## Exporting an Entire Dashboard as an Image
 

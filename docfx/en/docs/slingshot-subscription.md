@@ -48,7 +48,7 @@ You can activate the subscription with the following steps:
 
 ## How can I cancel my Slingshot subscription? 
 
-To cancel your subscription you can head [here](https://customer.infragistics.com/subscriptions?theme=slingshot) and click on **Cancel Subscription**. If you cancel on or before your next billing date, you will not be charged. After cancelling you will revert to the *Free* version of Slingshot.
+To cancel your subscription you can head [here](https://customer.infragistics.com/subscriptions?theme=slingshot) and click on **Cancel Subscription**. If you cancel on or before your next billing date, you will not be charged. After cancelling, you will revert to the *Free* version of Slingshot.
 
 ## Can I still see the discussions that are in workspaces where I am no longer taking part in?
 
@@ -64,7 +64,7 @@ Yes, but they will become read only.
 
 ## What is your refund policy? 
 
-If for any reason you are not happy with Slingshot within 30 days of purchase, you can contact us and we will issue a full refund. 
+If for any reason you are not happy with Slingshot within 30 days of purchase, you can contact us, and we will issue a full refund. 
 
 If you have purchased a monthly subscription and wish to cancel your subscription before your renewal is up – we will refund you for that month!
 

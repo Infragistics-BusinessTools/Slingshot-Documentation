@@ -117,11 +117,11 @@ Text columns support the following type of rules:
 
 Similarly, these rules also take one parameter: the value of the 'starts
 with', or 'equals' that the rule is going to use to evaluate, and is
-entered in a textbox in the same position.
+entered in a text box in the same position.
 
 ## Filtering Fields in Values
 
-You can filter your *Values* by [aggreggation](https://www.slingshotapp.io/en/help/docs/analytics/data-visualizations/fields/calculated-fields/aggregation). Then this value will appear with the same aggregation in the list of fields in the  **Data Filters** placeholder.
+You can filter your *Values* by [aggreggation](https://www.slingshotapp.io/en/help/docs/analytics/data-visualizations/fields/calculated-fields/aggregation). Then this value will appear with the same aggregation in the list of fields in the **Data Filters** placeholder.
 
 <img src="images/data-filters-values-list.png" alt="Data Filters Filtering in the Data Editor" class="responsive-img" width="80%"/>
 
