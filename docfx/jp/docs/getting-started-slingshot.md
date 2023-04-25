@@ -79,7 +79,7 @@ Slingshot は Microsoft と Google の上に構築されているため、技術
 
 Slingshot アカウントについて質問がある場合やサポートが必要な場合は、当社のチームにお問い合わせください。そのためには:
 
-1. [こちら](https://account.slingshotapp.io)からアカウントにログインします。
+1. <a href="https://account.slingshotapp.io" target="_blank">こちら</a>からアカウントにログインします。
 2. **[Support] (サポート)** を選択してから **[New Support Request] (新しいサポートケースの作成)** を選択します。
 
 私たちのチームは、お問い合わせに関する詳細を記載したメールをお送りします。
