@@ -7,7 +7,7 @@ _description: Get familiar with managing tasks to make the most out of your team
 
 When it comes to running a successful project – task management is at the heart of that. You need everything organized in one place to manage tasks throughout the full lifecycle of the project. Setting deadlines, dependencies, and priorities are all essential to ensure projects stay on track and get completed on time.   
 
-There is a task tab available within your workspaces and projects, listing all the tasks assigned to everyone in those workspaces and projects. You can view your own tasks assigned to you with in the *My Tasks* section.
+There is a task tab available within your workspaces and projects, listing all the tasks assigned to everyone in those workspaces and projects. You can view your own tasks assigned to you within the **My Tasks** section.
 
 Learn more about all Slingshots project management features in our short tutorial video:  
 
