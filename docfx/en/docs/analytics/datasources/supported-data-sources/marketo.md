@@ -35,7 +35,7 @@ After logging in, you can set up your Marketo data in the following dialog:
 
 ## Working in the Visualization Editor
 
-Once your data source has been added, you will be taken to the *Visualization Editor*. By default, the *Column* visualization will be selected. You can click/tap on it in order to choose another [chart type](https://www.slingshotapp.io/en/help/docs/analytics/visualization-tutorials/overview). Keep in mind that based on the vusialization that you have chosen, you will see different types of fields.
+Once your data source has been added, you will be taken to the *Visualization Editor*. By default, the *Column* visualization will be selected. You can click/tap on it in order to choose another [chart type](https://www.slingshotapp.io/en/help/docs/analytics/visualization-tutorials/overview). Keep in mind that based on the visualization that you have chosen, you will see different types of fields.
 
 <img src="images/visualization-editor-marketo.png" alt="Using data from Marketo in the visualization editor" class="responsive-img" width="85%"/>
 

@@ -16,7 +16,7 @@ Learn more about all Slingshots project management features in our short tutoria
 
 ## What are Tasks?  
 
-Tasks are a visual representation of work that needs to get done. Within tasks you can store relevant documents, set clear ownership of responsibility, and have threaded conversations so everything is transparent in one place.  
+Tasks are a visual representation of work that needs to get done. Within tasks you can store relevant documents, set clear ownership of responsibility, and have threaded conversations, so everything is transparent in one place.  
 
 ## How to Create a Task  
 
@@ -50,7 +50,7 @@ Tasks are very important for driving the productivity of your teams and projects
 
 ### Task Description
 
- In the task description section you can not only add additional details around your tasks but you can also add images or create numbered and bulleted lists. For emphasis, you can also use the bold or italic font.
+ In the task description section you can not only add additional details around your tasks, but you can also add images or create numbered and bulleted lists. For emphasis, you can also use the bold or italic font.
 
   <img src="../images/task-description-new-features.png" alt="using an image and numbered list in the task description" width="80%" class="responsive-img"/>
 

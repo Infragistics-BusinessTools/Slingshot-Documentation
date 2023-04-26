@@ -1,13 +1,13 @@
 # Linking Dashboards
 
-Slingshot supports dashboard linking which allows you to connect the visualizations in a dashbord with other dashboards or URLs. Imagine you want to provide more details on the information displayed in a visualization - you can use a whole new dashboard to do so. This can be very useful in Company dashboards, for example, where you will be able to establish top-down analysis paths, where you go from a high level overview of the reality of a business to more detailed views with the specifics. 
+Slingshot supports dashboard linking which allows you to connect the visualizations in a dashboard with other dashboards or URLs. Imagine you want to provide more details on the information displayed in a visualization - you can use a whole new dashboard to do so. This can be very useful in Company dashboards, for example, where you will be able to establish top-down analysis paths, where you go from a high level overview of the reality of a business to more detailed views with the specifics. 
 
 Let's take a Company dashboard (see below) which provides key performance indicators for each area of interest in the company. Once you've opened the dashboard, you will notice the **link symbol** on one or more visualizations. 
 
 By clicking/tapping the link symbol, you can open: 
 
-* **another dashboard** (shown in the screenshot below), which gives more specific information related to the visualization or a value in it;
-* **a URL**, which will enable extensibility scenarios such as interacting with third-party web applications as part of the dashboard navigation. 
+* **Another dashboard** (shown in the screenshot below), which gives more specific information related to the visualization or a value in it.
+* **A URL**, which will enable extensibility scenarios such as interacting with third-party web applications as part of the dashboard navigation. 
 
 <img src="images/sample-linked-dashboards.png" alt="Dashboard linking sample" class="responsive-img"/>
 
@@ -55,7 +55,7 @@ Adding a URL is another option in the *New Link* dialog. It enables you to open 
 
 There are two parameters that you need to define:
 
-  - The **URL** the visualization will point to. You will be redirected to it once the lynk symbol is selected.
+  - The **URL** the visualization will point to. You will be redirected to it once the link symbol is selected.
   
   - The **Link Name**, which is the title the users will see if they select the grid row or chart element.
 
@@ -75,13 +75,13 @@ the **Navigate to Wiki** link in the visualization will be redirected to:
 Where `[EmployeeName]` will vary depending on the values in the **EmployeeName** field.
 
 >[!NOTE] **Testing the Example.**
-> To test how adding variables work, use the **Marketing Dashboard**. Choose a *Conversions by Campaign* visualization in it which contains the *CampaignID* data field and add the URL as shown in the screenshot. Save the visualization and in *Dashboard Edit* mode click on different parts of the funnel visualization to see how the url you are redirected to changes. 
+> To test how adding variables work, use the **Marketing Dashboard**. Choose a *Conversions by Campaign* visualization in it which contains the *CampaignID* data field and add the URL as shown in the screenshot. Save the visualization and in *Dashboard Edit* mode click on different parts of the funnel visualization to see how the URL you are redirected to changes. 
 
 <a name= 'trigger'></a>
 ## Choosing a Trigger
 
 After adding your first link to the visualization, the *Trigger* appears under *Links* in *Settings*. Here you can choose between *Value is Selected* and *Visualization is Maximized* as trigger options. 
-You can add as many links to a visualization as you want but they will all have the same trigger enabled. 
+You can add as many links to a visualization as you want, but they will all have the same trigger enabled. 
 
 ### Value is Selected Trigger
 

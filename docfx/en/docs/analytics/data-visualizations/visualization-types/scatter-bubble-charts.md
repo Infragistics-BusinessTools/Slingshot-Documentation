@@ -7,7 +7,7 @@ _description: Find out how to create and use Scatter and Bubble Charts visualiza
 
 ## What are Scatter Charts Used for?
 
-Scatter charts are used to represent the relationship between two quantitative measures by plotting data points along the X (horizontal) and Y (vertical) axes. They are particularly useful for demonstrating patterns in large datasests.
+Scatter charts are used to represent the relationship between two quantitative measures by plotting data points along the X (horizontal) and Y (vertical) axes. They are particularly useful for demonstrating patterns in large datasets.
 
 ## What are Bubble Charts Used for?
 
@@ -70,7 +70,7 @@ To create a basic bubble chart, using only one color, you will need to:
 
 Clicking on the bubbles will also provide you with *tooltips* showing
 specific data for every particular bubble. If you have overlapping
-elements in your chart, click on the smaller bubble to show its tooltip.
+elements in your chart, click/tap on the smaller bubble to show its tooltip.
 
 ## Adding the Color Category to Scatter and Bubble Charts
 
@@ -109,7 +109,7 @@ In *Settings* you can:
     charts, when you want to use a logarithmic scale on the X-axis,
     since the horizontal axis of a scatter chart is always a value axis.
 
-  - **Setup the minimum and maximum values for your charts.**
+  - **Set up the minimum and maximum values for your charts.**
 
     Minimum is set to 0 by default and maximum is calculated
     automatically depending on your values.

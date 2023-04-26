@@ -45,7 +45,7 @@ In *Settings* you can:
     a non-linear scale which takes magnitude into account instead of the
     usual linear scale.
 
-  - **Setup the minimum and maximum values for your charts**.
+  - **Set up the minimum and maximum values for your charts**.
 
     Minimum is set to 0 by default and maximum is calculated
     automatically depending on your values.

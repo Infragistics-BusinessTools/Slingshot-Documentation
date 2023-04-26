@@ -137,4 +137,4 @@ modified.
 
 A common use case is building dashboards with spreadsheets located in a
 cloud file sharing service. To learn how to successfully share those
-dashboards with other users, please read [Sharing Dashboards with Cloud Files as a DataSource](~/docs/analytics/dashboards/sharing-dashboards/sharing-dashboards-datasource-files-cloud-provider.md).
+dashboards with other users, please read [Sharing Dashboards with Cloud Files as a Data Source](~/docs/analytics/dashboards/sharing-dashboards/sharing-dashboards-datasource-files-cloud-provider.md).

@@ -4,15 +4,15 @@ The Advanced Data Sources editor in Slingshot will improve how you and your team
 
 Using the Advanced Editor will help you organize your data sources so that you will be able to:
 
-- quickly find the data you need for your visualizations by hiding irrelevant datasets. 
+- Quickly find the data you need for your visualizations by hiding irrelevant datasets. 
 
-- make the data easy to understand by editing or adding descriptions for data fields.
+- Make the data easy to understand by editing or adding descriptions for data fields.
 
-- automate repetitive actions or avoid confusion by changing the default type of a data field.
+- Automate repetitive actions or avoid confusion by changing the default type of a data field.
 
 Continue reading to learn who can edit the data sources' metadata and how to do it. 
 
->[!NOTE] You cannot edit some data sources due to  [limitations](#advanced-editing-limitations) related to their type or [certification](certifications.md).
+>[!NOTE] You cannot edit some data sources due to [limitations](#advanced-editing-limitations) related to their type or [certification](certifications.md).
 
 ## Accessing the Advanced Editor
 
@@ -45,11 +45,11 @@ Need more information about user roles in Slingshot? Check [Roles & Permissions]
 
 ### Who Can Use the Advanced Editor of a Certified Data Source?
 
-The _Certified_ column on the right of your data sources shows if they are certified or not. For certified data sources you will see one of the three badges: <img src="../images/gold-badge-icon.png" alt="the gold badge icon used in Analytics" width="24px" height="24px" /> gold, <img src="../images/silver-badge-icon.png" alt="the silver badge icon used in Analytics" width="24px" height="24px" /> silver or <img src="../images/bronze-badge-icon.png" alt="the bronze badge icon used in Analytics" width="24px" height="24px" /> bronze. A crossed out badge <img src="../images/not-certified-icon.png" alt="the data sources icon used in Analytics" width="24px" height="24px" /> means the data source is not certified. 
+The *Certified* column on the right of your data sources shows if they are certified or not. For certified data sources you will see one of the three badges: <img src="../images/gold-badge-icon.png" alt="the gold badge icon used in Analytics" width="24px" height="24px" /> gold, <img src="../images/silver-badge-icon.png" alt="the silver badge icon used in Analytics" width="24px" height="24px" /> silver or <img src="../images/bronze-badge-icon.png" alt="the bronze badge icon used in Analytics" width="24px" height="24px" /> bronze. A crossed out badge <img src="../images/not-certified-icon.png" alt="the data sources icon used in Analytics" width="24px" height="24px" /> means the data source is not certified. 
 
 **Only certifiers** can use the Advanced Editor and modify certified data sources. The default hierarchy of certification goes this way: gold > silver > bronze. This means that gold certifiers can modify all certified data sources, and bronze certifiers can modify only bronze certified data sources. 
 
->[!NOTE] If you don't see the _Certified_ column on the right, select the plus icon <img src="../images/plus-icon.png" alt="the plus icon used in Analytics" width="24px" height="24px" /> at the top of the data sources list. Make sure the box next to _Certified_ is checked.  
+>[!NOTE] If you don't see the *Certified* column on the right, select the plus icon <img src="../images/plus-icon.png" alt="the plus icon used in Analytics" width="24px" height="24px" /> at the top of the data sources list. Make sure the box next to *Certified* is checked.  
 
 ## Working with the Advanced Editor 
 
@@ -108,7 +108,7 @@ C. **[Certification](certifications.md)** status. The badge icon shows if the da
 
 D. The **data cube types** in your data source. For example, sheets, views, stored procedures, databases, entities, etc. You can switch between the objects. 
 
-E. A **list of data cubes** available . Select the cube to see and modify the data it contains. 
+E. A **list of data cubes** available. Select the cube to see and modify the data it contains. 
 
 F. The data cube's **title**. You can rename the data cube. 
 
@@ -124,12 +124,12 @@ I. All the available **data** in the selected data cube. You can see and modify 
 
 ### Hiding Data with the Advanced Editor 
 
-The hiding capability is really useful for teams that deal with huge amounts of data. If this data is spread over, let's say, hundreds of spreadsheets, but you usually use only two of them for your visualizations, why digging them up every time? Hiding all unnecessary sheets in the excel file will boost your team's productivity. 
+The hiding capability is really useful for teams that deal with huge amounts of data. If this data is spread over, let's say, hundreds of spreadsheets, but you usually use only two of them for your visualizations, why digging them up every time? Hiding all unnecessary sheets in the Excel file will boost your team's productivity. 
 
 The Advanced Editor allows you to hide: 
 
-- entire data tables and data cubes; 
-- individual data elements such as text and numeric fields, dimensions and measures. 
+- Entire data tables and data cubes.
+- Individual data elements such as text and numeric fields, dimensions and measures. 
 
 If you see the eye icon next to a data element, this means you can hide it by selecting the icon. If you see the closed eye, this means the element is already hidden. 
 
@@ -159,4 +159,4 @@ If necessary, you can once again change the default formatting of the field when
 
 Select the *Override* toggle to be able to modify the formatting settings. 
 
->[!NOTE] If the data source is certified, only certifiers  can change and override the default formatting of numeric data. 
+>[!NOTE] If the data source is certified, only certifiers can change and override the default formatting of numeric data. 
