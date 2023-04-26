@@ -57,7 +57,7 @@ The timezone can be entered as a number, or you can use one of your
 fields with a number. In either case, it must be GMT time.
 
 <a name='yoy-analysis-revenue'></a>
-## YoY Analysis: Comparing Revenue Figures for a 2 Year Period
+## YoY Analysis: Comparing Revenue Figures for a 2-Year Period
 
 You can create calculated fields, for example, to carry out a simple YOY
 analysis.
@@ -69,7 +69,7 @@ different years.
 <img src="images/yoy-analysis-revenue-all.png" alt="YoyAnalysisRevenue\_All" class="responsive-img" width="85%"/>
 
 You can compare the two figures by using the following calculated field.
-The "-1" is used to substract the total difference for the year.
+The "-1" is used to subtract the total difference for the year.
 
 `([Revenue 2017]/[Revenue 2016])-1`
 

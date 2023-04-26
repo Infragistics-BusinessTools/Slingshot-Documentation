@@ -6,4 +6,4 @@ There are size limits server-side when using Slingshot Web regarding the size of
 
 - 200mb when downloading csv/json/excel
 - 10 million cells
-- 64 million characters (adding all the strings in all cells).
+- 64 million characters (adding all the strings in all cells)

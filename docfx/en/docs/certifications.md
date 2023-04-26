@@ -36,7 +36,7 @@ Here you will find the three certification levels, their names and the users, wh
 If you are an *owner* in the Organization, you can: 
 
 * Assign yourself as a certifier to any certification level.
-* Add other users as certifiers - you can assign owners, members, viewers and even user outside of your Organization.
+* Add other users as certifiers - you can assign owners, members, viewers and even users outside of your Organization.
 * Rename the certificates. By default, the certification levels are "*gold*", "*silver*" and "*bronze*". You can give them more descriptive names such as "Sales", "Marketing", "RND", etc.  
 
 Users, who are not owners, can request permission to become certifiers. To do this: 
@@ -71,7 +71,7 @@ When you copy a certified data source or dashboard from one workspace to another
 
 As the certification in *Analytics* is flexible, it is up to you to define your own certification criteria. You can decide what the Gold, Silver and Bronze badge mean to your Organization and even set new names for them. 
 
-Keep in mind they are hierarchical as their names suggest and the hierarchy goes this way: *Gold* > *Silver* > *Bronze*.
+Keep in mind that they are hierarchical as their names suggest, and the hierarchy goes this way: *Gold* > *Silver* > *Bronze*.
 
 >[!Tip] **Pro Tip!** Don't forget to write down the guidelines and distribute them among the users in your Organization! You can *pin* the Guidelines document to your Organization **Pins** section for more visibility. 
 

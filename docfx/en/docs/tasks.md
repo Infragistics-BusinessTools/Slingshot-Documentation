@@ -5,9 +5,9 @@ _description: Get familiar with managing tasks to make the most out of your team
 
 # Tasks
 
-When it comes to running a successful project – task management is at the heart of that. You need everything organized in one place to manage tasks through out the full lifecycle of the project. Setting deadlines, dependencies, and priorities are all essential to ensure projects stay on track and get completed on time.   
+When it comes to running a successful project – task management is at the heart of that. You need everything organized in one place to manage tasks throughout the full lifecycle of the project. Setting deadlines, dependencies, and priorities are all essential to ensure projects stay on track and get completed on time.   
 
-There is a task tab available within your workspaces and projects, listing all the tasks assigned to everyone in those workspaces and projects. You can view your own tasks assigned to you with in the My Tasks section.
+There is a task tab available within your workspaces and projects, listing all the tasks assigned to everyone in those workspaces and projects. You can view your own tasks assigned to you within the **My Tasks** section.
 
 Learn more about all Slingshots project management features in our short tutorial video:  
 
@@ -16,7 +16,7 @@ Learn more about all Slingshots project management features in our short tutoria
 
 ## What are Tasks?  
 
-Tasks are a visual representation of work that needs to get done. Within tasks you can store relevant documents, set clear ownership of responsibility, and have threaded conversations so everything is transparent in one place.  
+Tasks are a visual representation of work that needs to get done. Within tasks you can store relevant documents, set clear ownership of responsibility, and have threaded conversations, so everything is transparent in one place.  
 
 ## How to Create a Task  
 
@@ -50,7 +50,7 @@ Tasks are very important for driving the productivity of your teams and projects
 
 ### Task description
 
- In the task description section you can not only add additional details around your tasks but you can also add images or create numbered and bulleted lists. For emphasis, you can also use the bold or italic font.
+ In the task description section you can not only add additional details around your tasks, but you can also add images or create numbered and bulleted lists. For emphasis, you can also use the bold or italic font.
 
   <img src="../images/task-description-new-features.png" alt="using an image and numbered list in the task description" width="70%" class="responsive-img"/>
 
@@ -68,7 +68,7 @@ Instead of creating a whole new set of tasks, you can save some time and be more
 
  <img src="../images/duplicate-tasks-option.png" alt="task duplication overflow menu" width="70%" class="responsive-img"/>
 
-4.	A dialog will open, where you can choose what you want to keep when you duplicate the task. You can also change the title of the task. If  you decide to keep the same assignees, you’ll be presented with the option to notify them once the task is created.
+4.	A dialog will open, where you can choose what you want to keep when you duplicate the task. You can also change the title of the task. If you decide to keep the same assignees, you’ll be presented with the option to notify them once the task is created.
 
  <img src="../images/duplicate-a-task-filters.png" alt="dialog with task duplication filters" width="35%" class="responsive-img"/>
 
@@ -140,7 +140,7 @@ There are two types of dependency:
 
 ## Task Filters  
 
-Using filters allows you to view a set of tasks that meet a certain criteria. There are filters out-of-the-box and you can also save filters to use them later. 
+Using filters allows you to view a set of tasks that meet certain criteria. There are filters out-of-the-box and you can also save filters to use them later. 
 
 ### Out-of-the-box Filters
 
@@ -166,11 +166,11 @@ To stop filtering tasks, click/tap the filter icon to open the Filters dialog. T
 
 ### Saving Filters
 
-Sometimes you might want to save a filter to use it again in the future. With Slingshot you can save specific filters and later edit them if needed, very useful to keep at hand a list of tasks relevant to you already filtered. 
+Sometimes you might want to save a filter to use it again in the future. With Slingshot, you can save specific filters and later edit them if needed, very useful to keep at hand a list of tasks relevant to you already filtered. 
 
 ### Advanced Filtering
 
-Basic filtering will be sufficient most of the time but you also have additional filtering options with the Advanced rules.  
+Basic filtering will be sufficient most of the time, but you also have additional filtering options with the Advanced rules.  
 
 When the time comes that you need to craft complex filters, you will be able to: 
 

@@ -11,7 +11,7 @@ Upon selecting SharePoint, you will see the following log in prompt.
 
 <img src="images/sharepoint-login.png" alt="SharePoint Login" class="responsive-img"/>
 
-Here you can choose to use the root SharePoint site in your Office365 account. You can also add a _subsite URL_ to directly start browsing its contents. Once connected to a SharePoint subsite, you will be able to quickly access it through your list in the _Select a Data Source_ dialog.
+Here you can choose to use the root SharePoint site in your Office365 account. You can also add a *subsite URL* to directly start browsing its contents. Once connected to a SharePoint subsite, you will be able to quickly access it through your list in the *Select a Data Source* dialog.
 
 <a name='supported-files'></a>
 ## Supported Files
@@ -32,19 +32,19 @@ To create a dashboard, you can use the SharePoint data types, listed below.
 1. *Files* stored in your SharePoint site - see
 [Supported files](#supported-files) above.
 
-2. *SharePoint lists* - you can use the items from all types of SharePoint lists. Set up a SharePoint list by selecting a _SharePoint View_.
+2. *SharePoint lists* - you can use the items from all types of SharePoint lists. Set up a SharePoint list by selecting a *SharePoint View*.
 
   <img src="images/sharepoint-list-data-set-up.png" alt="Setting up your SharePoint list" class="responsive-img"/>
 
   >[!NOTE]
   >**Advanced settings - Items per Page.**
-  >In case you experience an unexpected slowdown or other disturbance while loading the data from your SharePoint list, you may try to configure the _Items per Page_ setting. This is an advanced setting, which allows you to control the data retrieval rate. To improve the speed, you can provide a higher number of items per page. A lower value may help if the information fails to load. The default value of items per page is 5000.
+  >In case you experience an unexpected slowdown or other disturbance while loading the data from your SharePoint list, you may try to configure the *Items per Page* setting. This is an advanced setting, which allows you to control the data retrieval rate. To improve the speed, you can provide a higher number of items per page. A lower value may help if the information fails to load. The default value of items per page is 5000.
 
 3. *Metadata of Document Libraries* - the metadata of a SharePoint library is data about files stored in this library, e.g. files' size, names, type, date of creation/upload. It can be used for analysis of the library.
 
     For example, you may want to provide insight in which period of the year your IT department receives the highest interest from job applicants? Find the document library, where you have uploaded the resumes of the applicants, and use its metadata to create a chart displaying how files in that library evolved over time.
 
-    To do this, you need to open the library and click the _Use Metadata_ button at the top right corner.
+    To do this, you need to open the library and click the *Use Metadata* button in the top right corner.
 
     <img src="images/sharepoint-library-metadata-button.png" alt="Use Metadata button in a Sharepoint library" class="responsive-img"/>
 
@@ -54,4 +54,4 @@ To create a dashboard, you can use the SharePoint data types, listed below.
 
 >[!NOTE]
 >**Do not confuse Libraries' Metadata in Analytics with "managed metadata" in SharePoint!**
-Don't confuse the metadata collected from document libraries that you can use as a datasource in Analytics with "managed metadata", which is created by the user in SharePoint and utilized for organizing and filtering large data lists. Learn more about managed metadata from [this SharePoint documentation topic](https://docs.microsoft.com/en-us/sharepoint/managed-metadata).
+Don't confuse the metadata collected from document libraries that you can use as a data source in Analytics with "managed metadata", which is created by the user in SharePoint and utilized for organizing and filtering large data lists. Learn more about managed metadata from [this SharePoint documentation topic](https://docs.microsoft.com/en-us/sharepoint/managed-metadata).

@@ -90,7 +90,7 @@ For more information on Functions and PostgreSQL, visit this [documentation webs
 
 ## Working in the Visualization editor
 
-Once your data source has been added, you will be taken to the *Visualizations Editor*. Here you can build your dashboard. Note that based on the vusialization that you have chosen, you will see different types of fields.
+Once your data source has been added, you will be taken to the *Visualizations Editor*. Here you can build your dashboard. Note that based on the visualization that you have chosen, you will see different types of fields.
 
 <img src="./images/postgresql-visualization-editor.png" alt="Working in the visualization editor while using postgresql as a data source." class="responsive-img" width="80%"/>
 

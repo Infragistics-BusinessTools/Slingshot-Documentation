@@ -2,7 +2,7 @@
 
 Basically, when connecting to a data source, all your data on the server is loaded and downloaded locally.  In this way, you have your data set, ready to be directly processed in Analytics - sorted, filtered, aggregated, and used for visualizations.
 
-For some data sources, with much larger data sets, sometimes involving million of records, downloading the data to work with locally isn't a feasible solution. That's why an alternative approach is available in Analytics: processing the data directly on the server.
+For some data sources, with much larger data sets, sometimes involving millions of records, downloading the data to work with locally isn't a feasible solution. That's why an alternative approach is available in Analytics: processing the data directly on the server.
 
 ## Supported Data Sources
 

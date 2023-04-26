@@ -20,7 +20,7 @@ If you have bookmarked different things, you can drag and drop them manually to 
 
 ## What can I bookmark?
 
-You can bookmark everything you want to have a quick access to - from task, links, chat messages and discussions, to workspaces, projects, data sources and dashboards. Once the item that you have saved is under **Bookmarks**, you can take different actions directly from the overflow menu depending on the saved item.
+You can bookmark everything you want to have quick access to - from task, links, chat messages and discussions, to workspaces, projects, data sources and dashboards. Once the item that you have saved is under **Bookmarks**, you can take different actions directly from the overflow menu depending on the saved item.
 
 ## How can I remove an item from the bookmarks list?
 

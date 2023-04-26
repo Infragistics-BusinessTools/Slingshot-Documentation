@@ -6,9 +6,9 @@ The *Facebook* data source connector in *Analytics* allows you to bring your Fac
 
 The Facebook data source connector will connect you to your Facebook *Ad accounts* data. Before you try using the Facebook data source in Analytics, make sure that:
 
-* you use a [Facebook for Business ](https://www.facebook.com/business/help/) account;
-* in the [*Ads Manager*](https://www.facebook.com/business/help/200000840044554?id=802745156580214), you have [added, requested or created an *Ad account*](https://www.facebook.com/business/help/910137316041095?id=420299598837059)  for the profile or Facebook page you want to connect;
-* the *Ad account* for the profile/page you want to connect is not deactivated. If you are not sure, use this [Facebook help article](https://www.facebook.com/business/help/1798922733589154) to check and reactivate your Ad account if needed. 
+* You use a [Facebook for Business ](https://www.facebook.com/business/help/) account.
+* In the [*Ads Manager*](https://www.facebook.com/business/help/200000840044554?id=802745156580214), you have [added, requested or created an *Ad account*](https://www.facebook.com/business/help/910137316041095?id=420299598837059) for the profile or Facebook page you want to connect.
+* The *Ad account* for the profile/page you want to connect is not deactivated. If you are not sure, use this [Facebook help article](https://www.facebook.com/business/help/1798922733589154) to check and reactivate your Ad account if needed. 
 
 ## Adding a New Facebook Data Source Account
 
@@ -64,7 +64,7 @@ When ready, click/tap on **Select Data** to continue to the *Visualization Edito
 
 Once your data source has been added, you will be taken to the Visualization Editor. By default, the *Column* visualization will be selected. You can open it in order to choose another chart type from the drop-down menu.
  
-Keep in mind that based on the vusialization that you have chosen, you will see different types of fields.
+Keep in mind that based on the visualization that you have chosen, you will see different types of fields.
 
 <img src="./images/facebook-visualization-editor.png" alt="Using the data from the Facebook data source in the visualization editor" class="responsive-img" width= "88%"/>
 
