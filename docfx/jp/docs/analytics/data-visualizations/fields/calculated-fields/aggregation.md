@@ -132,7 +132,7 @@ _language: ja
 
 | 関数名  | 式 | IF 条件  |
 | -------------- | ---------- | ------------- |
-| averageif (…​)  | [Wage]     | [OfficeId]=1) |
+| averageif (…​)  | [Wage]     | [OfficeId]=1 |
 
 以下は数値以外の場合の例です。
 

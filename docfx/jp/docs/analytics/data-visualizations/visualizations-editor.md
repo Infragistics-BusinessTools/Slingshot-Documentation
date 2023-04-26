@@ -13,12 +13,12 @@ _language: ja
 表示形式は、ダッシュボードの基本要素です。したがって、表示形式の作成を開始するときに、開始点には ２ つの選択肢があります。
 
 * **新しいダッシュボードを作成する**ことから始めます。このダッシュボードでは、新しい表示形式が最初または唯一の表示形式になります。これを行うには、**[分析]** またはワークスペースに移動し、**[+ ダッシュボード]** の青いボタンをクリックまたはタップします。
+
 * 既存のダッシュボードに**新しい表示形式を追加する**ことから始めます。これを行うには、ダッシュボードを[ダッシュボード編集](~/jp/docs/analytics/dashboards/dashboards-interactions.html#view-edit-mode)モードで開き、**[+ 追加]** の青い分割ボタン (モバイルでは **[+]** 青いボタン) をクリックまたはタップします。
 
 その後、新しいデータ ソースを追加するか、既存の[データ ソース](~/jp/docs/analytics/datasources/overview.md)を選択するように求められます。
 
-<img src="images/data-sources-dialog.png" alt="Dialog with a list of data sources" width="55%" class="responsive-img"/>
-
+<img src="images/data-sources-list.png" alt="Dialog with a list of data sources" width="60%" class="responsive-img"/>
 
 データ ソースを選択して構成すると、[表示形式エディター](visualizations-editor.md)に移動し、表示形式の作成を開始できます。
 
@@ -40,20 +40,20 @@ _language: ja
 
 以下は、**エディター**のすべてのセクションとその機能のリストです。
 
-<img src="images/panes-of-visualization-editor.png" alt="Panes of the Visualization editor" class="responsive-img" width="85%"/>
-
+<img src="images/visualizations-editor-sections.png" alt="Sections of the Visualization editor" class="responsive-img" width="85%"/>
 
 1. **[データ] セクション** - このセクションには 2 つのパネルがあります。
 
-    a. **[フィールド]** - データ ソース内で使用可能なすべてのフィールドが左側のパネルに表示されます。各フィールドには、フィールド タイプ (**日付**、**値**、**テキスト**) をユーザーに通知するインジケーターがあります。使用可能なフィールドが 10 を超えると、検索バーが表示されます。このパネルの [+] アイコンを使用すると、[データ ソースをブレンドする](~/jp/docs/analytics/datasources/data-blending.md)か、[フィールドを計算](fields/calculated-fields/overview.html#事前計算フィールド)することができます。**脳**アイコンを使用すると、[BigQuery](~/jp/docs/analytics/datasources/ml-integration/bigquery-machine-learning-models.md) または [Azure](~/jp/docs/analytics/datasources/ml-integration/azure-machine-learning-models.md) の**機械学習モデル**のフィールドを表示形式に使用できます。BigQuery 機械学習モデルは、BigQuery データ ソースでのみ機能することにご注意ください。
+  a. **[フィールド]** - データ ソース内で使用可能なすべてのフィールドが左側のパネルに表示されます。各フィールドには、フィールド タイプ (**日付**、**値**、**テキスト**) をユーザーに通知するインジケーターがあります。使用可能なフィールドが 10 を超えると、検索バーが表示されます。
+       このパネルの [+] アイコンを使用すると、[データ ソースをブレンドする](~/jp/docs/analytics/datasources/data-blending.md)か、[フィールドを計算](fields/calculated-fields/overview.html#事前計算フィールド)することができます。**脳**アイコンを使用すると、[BigQuery](~/jp/docs/analytics/datasources/ml-integration/bigquery-machine-learning-models.md) または [Azure](~/jp/docs/analytics/datasources/ml-integration/azure-machine-learning-models.md) の**機械学習モデル**のフィールドを表示形式に使用できます。BigQuery 機械学習モデルは、BigQuery データ ソースでのみ機能することにご注意ください。
 
-    b.**表示形式フィールド** - ここでフィールドをドラッグアンドドロップするか、**[+]** マークをクリックして使用可能なフィールドから作成する表示形式に使用するフィールドを選択します。
+  b.**表示形式フィールド** - ここでフィールドをドラッグアンドドロップするか、**[+]** マークをクリックして使用可能なフィールドから作成する表示形式に使用するフィールドを選択します。
 
 2. **[設定] セクション** - このセクションでは、表示する内容をカスタマイズできます。各表示形式には独自の設定があります。
-    
+
     **[設定]** セクションの下部に、リンクのオプションが表示されます。これは、ドリル ダウンを全く新しいレベルに到達させる強力な機能です。詳細については、[ダッシュボード リンク](~/jp/docs/analytics/dashboards/dashboard-linking.md)トピックをご覧ください。
 
-3. **表示形式ピッカー** - ここで目的の表示形式を選択して、最終結果をプレビューできます。ドロップダウンでさまざまなチャートの種類を切り替えると、表示形式フィールドのセクションが変更されます。各表示形式を構築するフィールドは異なりますが、入力するだけで自動的に変更されます。
+3. **表示形式ピッカー** - ここで目的の表示形式を選択して、最終結果をプレビューできます。ドロップダウン メニューでさまざまなチャートの種類を切り替えると、表示形式フィールドのセクションが変更されます。各表示形式のフィールドは異なりますが、入力するだけで自動的に変更されます。
 
 4. **表示形式のワークスペース** - フィールドをドラッグアンドドロップしながら作成または編集している表示形式を確認できます。そのチャート タイプを作成するために必要なすべてのフィールドが揃うまで、表示形式は入力されません。
 
@@ -67,4 +67,4 @@ _language: ja
 
   - データの**検索**、**視覚化**、および[**書式設定**](~/jp/docs/analytics/data-visualizations/fields/conditional-formatting.md)。
 
-表示形式の作成を完了したら、**チェック** アイコンを選択して**ダッシュボード エディター**に戻ります。ダッシュボード エディターでは、表示形式をドラッグしてレイアウト、サイズ、配置を操作できます。ダッシュボードの書式設定とスタイル設定の準備ができたら、**チェック** アイコンをもう一度クリック/タップしてダッシュボードを保存します。
+表示形式の作成を完了したら、**チェック** アイコンを選択して**ダッシュボード エディター**に戻ります。ダッシュボード エディターでは、表示形式をドラッグしてレイアウト、サイズ、配置を操作できます。ダッシュボードの書式設定とスタイル設定の準備ができたら、**チェック** アイコンをもう一度クリック / タップしてダッシュボードを保存します。

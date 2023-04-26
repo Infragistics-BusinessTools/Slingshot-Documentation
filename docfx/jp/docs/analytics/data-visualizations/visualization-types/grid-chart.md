@@ -27,7 +27,7 @@ _language: ja
 
 <img src="images/grid-chart-sorting.png" alt="Grid Chart Sorting Columns Options" class="responsive-img" width="50%"/>
 
-複数の並べ替え条件を適用できます。既存の列ヘッダーの横に小さな番号が表示されます。矢印の方向は、昇順または降順のどちらの並べ替えを適用したかを判断するのに役立ちます。
+複数の並べ替え条件を適用できます。次に、既存の列ヘッダーの横に小さな番号が表示されます。矢印の方向は、昇順または降順のどちらの並べ替えを適用したかを判断するのに役立ちます。
 
 <img src="images/grid-chart-sorting-number-options.png" alt="Sorting View All Numbers" class="responsive-img" width="50%"/>
 

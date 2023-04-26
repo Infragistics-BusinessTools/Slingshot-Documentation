@@ -6,15 +6,15 @@ _language: ja
 
 # 表示形式の再利用
 
-表示形式を再利用してダッシュボードの作成をスピード アップできます。必要な表示形式を**コピーし貼り付けて**ください。
+表示形式を再利用してダッシュボードの作成をスピード アップできます。それを行うには、必要な表示形式を**コピーし貼り付ける**だけです。
 
-<img src="images/reusing-visualization.png" alt="Overflow menu of a visualization in a dashboard displayed" class="responsive-img"/>
+<img src="images/reusing-visualization-example.png" alt="Overflow menu of a visualization in a dashboard displayed" class="responsive-img" width="90%"/>
 
 ## 表示形式の複製
 
 ダッシュボード内で元の表示形式と同じものを作成します。既にカスタマイズした表示形式を複製して、複製したデータ セットを調整します。たとえば、以下のチャートはすべてのオフィスの雇用を示し、特定のものを別に表示します。
 
-<img src="images/duplicate-visualization.png" alt="Duplicated visualizations" class="responsive-img"/>
+<img src="images/duplicate-visualization-example.png" alt="Duplicated visualizations" class="responsive-img" width="90%"/>
 
 ## 表示形式のコピーと貼り付け
 
