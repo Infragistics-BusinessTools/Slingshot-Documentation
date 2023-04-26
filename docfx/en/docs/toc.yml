@@ -84,6 +84,10 @@
   href: slingshot-enterprise-subscription.md
 - name: Slingshot Subscription
   href: slingshot-subscription.md
+- name: Templates
+  header: true
+- name: Task Templates
+  href: task-templates.md
 - name: API 
   header: true
 - name: Overview

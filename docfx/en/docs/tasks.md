@@ -34,7 +34,7 @@ Subtasks can be created from inside the task card or from the parent task's over
 
 Tasks are very important for driving the productivity of your teams and projects. Your task card has the following fields:  
 
-<img src="../images/tasks-fields-highlight.png" alt="Task fields highlighted within Slingshot" width="75%" class="responsive-img"/>
+<img src="../images/task-card-example.png" alt="Task card with all fields highlighted within Slingshot" width="80%" class="responsive-img"/>
 
 1.	**Task Title**: Set a clear title for your tasks.  
 2.	**Assignee(s)**: Assign either one person, multiple, group or workspace to a task.  
@@ -48,15 +48,15 @@ Tasks are very important for driving the productivity of your teams and projects
 10.	**Activity**: Have threaded conversations around your tasks in context. 
 11.	**Task Dependencies**: Set clear paths to success for your projects with accountability to user's tasks. 
 
-### Task description
+### Task Description
 
  In the task description section you can not only add additional details around your tasks, but you can also add images or create numbered and bulleted lists. For emphasis, you can also use the bold or italic font.
 
-  <img src="../images/task-description-new-features.png" alt="using an image and numbered list in the task description" width="70%" class="responsive-img"/>
+  <img src="../images/task-description-new-features.png" alt="using an image and numbered list in the task description" width="80%" class="responsive-img"/>
 
 Note that currently these options are available only for macOS Monterey.
 
-## Task duplication
+## Task Duplication
 
 Instead of creating a whole new set of tasks, you can save some time and be more productive by duplicating a task with the steps mentioned below. Keep in mind that only a parent task can be duplicated and will duplicate all the subtasks associated with it. 
 
@@ -66,24 +66,25 @@ Instead of creating a whole new set of tasks, you can save some time and be more
 
 3.	Choose **Duplicate**.
 
- <img src="../images/duplicate-tasks-option.png" alt="task duplication overflow menu" width="70%" class="responsive-img"/>
+ <img src="../images/duplicate-tasks-option.png" alt="task duplication overflow menu" width="80%" class="responsive-img"/>
 
 4.	A dialog will open, where you can choose what you want to keep when you duplicate the task. You can also change the title of the task. If you decide to keep the same assignees, you’ll be presented with the option to notify them once the task is created.
 
  <img src="../images/duplicate-a-task-filters.png" alt="dialog with task duplication filters" width="35%" class="responsive-img"/>
 
 5.	Once you’ve saved your preferences, you will see the task field where you can make changes. 
+
 6.	When you are ready, you can click on **Update**. You can find the task with the subtasks in the **My Tasks** section. 
 
- <img src="../images/duplicate-task-storage.png" alt="where to find the duplicated task" width="78%" class="responsive-img"/>
+ <img src="../images/duplicate-task-storage.png" alt="where to find the duplicated task" width="82%" class="responsive-img"/>
 
 ## Organizing Tasks  
 
-You can organize your tasks into lists to further group them together. Within lists you can also add sections to categorize your lists further. Tasks are movable with drag and drop or the change button within your task card between lists and sections.  
+You can organize your tasks into lists to further group them together. Within lists, you can also add sections to categorize your lists further. Tasks are movable with drag and drop or the change button within your task card between lists and sections.  
 
 ## Task Views
 
-The default view for your tasks is a List. You can choose between three views (List, Kanban, Timeline) to take advantage of a different layout to maximize utility. Use the View Type drop down (top right of the task list) to switch between views.  
+You can choose between three views (List, Kanban, Timeline) to take advantage of a different layout to maximize utility. Use the **View Settings** drop down menu (top right of the task list) to switch between views.  
 
 Within each of the task views you can filter, choose which task fields you want to show and group by status, priority, assignee, or sections.  
 
@@ -91,8 +92,7 @@ Within each of the task views you can filter, choose which task fields you want 
 
 Project manage and update tasks faster from within your list view.  
 
-<img src="../images/Slingshot_Tasks_List_View.png" alt="Task list view within Slingshot" width="65%" class="responsive-img"/>
-
+<img src="../images/Slingshot_Tasks_List_View.png" alt="Task list view within Slingshot" width="72%" class="responsive-img"/>
 
 Use List view if you want to: 
 
@@ -106,7 +106,7 @@ Use List view if you want to:
 
 View your tasks as cards within columns that represent different stages of the Status workflow. You can drag and drop your tasks between columns to change their status.
 
-<img src="../images/Slingshot_Tasks_Kanban_View.png" alt="Task kanban view within Slingshot" width="60%" class="responsive-img"/>
+<img src="../images/Slingshot_Tasks_Kanban_View.png" alt="Task kanban view within Slingshot" width="72%" class="responsive-img"/>
 
 Use Kanban view if you want to:  
 
@@ -118,13 +118,27 @@ Use Kanban view if you want to:
 
 See a clear path for project completion and dependencies by using timeline view. Zoom in or out to see your timeline by days, weeks or months.
 
-<img src="../images/Slingshot_Tasks_Timeline_View.png" alt="Task timeline view within Slingshot" width="65%" class="responsive-img"/>
+<img src="../images/Slingshot_Tasks_Timeline_View.png" alt="Task timeline view within Slingshot" width="72%" class="responsive-img"/>
 
 Use Timeline view if you want to: 
 
 - Visualize several task dependencies at once. 
 
 - Frame tasks in time in a graphical way. 
+
+#### Default Task Views
+
+If you want your team members in a workspace or a project to land on task list, organized in a specific way, you can:
+
+1. Open the dropdown menu of **View Settings**. 
+
+2. Set the **View Type** and the **List Settings** based on your preferences.
+
+<img src="../images/default-view-tasks.png" alt="Default View option in View Settings" width="85%" class="responsive-img"/>
+
+You can always reset the settings to their original state when you choose **Reset to Default View**.
+
+>[!NOTE] Only an **owner** of a workspace or a project can set a default task view. 
 
 #### Task Dependencies
 
@@ -160,7 +174,7 @@ To access the Filters editor just click/tap the filter icon (top right of the sc
 
 In the Filters editor you can create Basic or more Advanced rules. The Basic rules will be enough most of the time, Advanced rules are recommended in the case that you really need to define more complex conditions in your filter. 
 
-To stop filtering tasks, click/tap the filter icon to open the Filters dialog. Then, select the Clear button at the bottom to remove the current filters, and Apply to save your changes. 
+To stop filtering tasks, click/tap the filter icon to open the *Filters* dialog. Then, select the **Clear** button at the bottom to remove the current filters, and **Apply** to save your changes. 
 
 >[!IMPORTANT] **Slingshot Tip**: For those times that you can't find a specific task, try expanding collapsed panels, removing existing filters, and/or adding filters using the properties of the task you want. Remember that the icon changes to help you identify when you have active filters or not.
 
@@ -170,15 +184,15 @@ Sometimes you might want to save a filter to use it again in the future. With Sl
 
 ### Advanced Filtering
 
-Basic filtering will be sufficient most of the time, but you also have additional filtering options with the Advanced rules.  
+Basic filtering will be sufficient most of the time but you also have additional filtering options with the *Advanced* rules.  
 
 When the time comes that you need to craft complex filters, you will be able to: 
 
-- Apply conditions based on fields like Is, Is Not, Is Before, is After, etc. 
+- Apply conditions based on fields like *Is*, *Is Not*, *Is Before*, *Is After*, etc. 
 
-- Use operators like And, Or. 
+- Use operators like *And*, *Or*. 
 
-As an example, the following rules could be created to get all John Williams’ tasks, that were created by other team members (not him), in which the due date is Jun 30, 2022 or before that date, and the description includes the word “Marketing”. 
+As an example, the following rules could be created to get all John Williams’ tasks, that were created by other team members (not him), in which the start date is Jun 28, 2022, the due date is Jun 30, 2022, and the description includes the word “Marketing”. 
 
-<img src="../images/task-filters.png" alt="Advanced Filtering highlighted within Slingshot" class="responsive-img" width="55%"/>
+<img src="../images/advanced-task-filters.png" alt="Advanced Filtering highlighted within Slingshot" class="responsive-img" width="65%"/>
 
