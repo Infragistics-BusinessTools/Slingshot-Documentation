@@ -16,14 +16,16 @@ Learn more about all Slingshots project management features in our short tutoria
 
 ## What are Tasks?  
 
-Tasks are a visual representation of work that needs to get done. Within tasks you can store relevant documents, set clear ownership of responsibility, and have threaded conversations, so everything is transparent in one place.  
+Tasks are a visual representation of work that needs to get done. Within tasks, you can store relevant documents, set clear ownership of responsibility, and have threaded conversations, so everything is transparent in one place.  
 
 ## How to Create a Task  
 
 There are multiple ways to create a task in Slingshot:  
 
 - Using the **+ Task** button will add a task to the bottom of your list.
-- If you are using sections, you can quickly add a task to a section using the inline **+ Task**.  
+
+- If you are using sections, you can quickly add a task to a section using the inline **+ Task**. 
+
 - If you want to insert a task right above or below another, you can do so from that task overflow menu.
 
 Subtasks can be created from inside the task card or from the parent task's overflow menu.
@@ -126,7 +128,7 @@ Use Timeline view if you want to:
 
 - Frame tasks in time in a graphical way. 
 
-#### Default Task Views
+### Default Task Views
 
 If you want your team members in a workspace or a project to land on task list, organized in a specific way, you can:
 
@@ -140,7 +142,7 @@ You can always reset the settings to their original state when you choose **Rese
 
 >[!NOTE] Only an **owner** of a workspace or a project can set a default task view. 
 
-#### Task Dependencies
+### Task Dependencies
 
 Using the timeline view, you can visualize the dependencies between tasks.
 
@@ -174,7 +176,7 @@ To access the Filters editor just click/tap the filter icon (top right of the sc
 
 In the Filters editor you can create Basic or more Advanced rules. The Basic rules will be enough most of the time, Advanced rules are recommended in the case that you really need to define more complex conditions in your filter. 
 
-To stop filtering tasks, click/tap the filter icon to open the *Filters* dialog. Then, select the **Clear** button at the bottom to remove the current filters, and **Apply** to save your changes. 
+To stop filtering tasks, click/tap on the filter icon to open the *Filters* dialog. Then, select the **Clear** button at the bottom to remove the current filters, and **Apply** to save your changes. 
 
 >[!IMPORTANT] **Slingshot Tip**: For those times that you can't find a specific task, try expanding collapsed panels, removing existing filters, and/or adding filters using the properties of the task you want. Remember that the icon changes to help you identify when you have active filters or not.
 
