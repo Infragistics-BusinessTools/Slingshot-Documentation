@@ -23,8 +23,10 @@ Slingshots のすべてのプロジェクト管理機能の詳細については
 
 Slingshot でタスクを作成する方法は複数あります:  
 
-- [+ タスク] ボタンを使用すると、リストの一番下にタスクが追加されます。
-- セクションを使用している場合は、インラインの [+ タスク] を使用してセクションにタスクをすばやく追加できます。  
+- **[+ タスク]** ボタンを使用すると、リストの一番下にタスクが追加されます。
+
+- セクションを使用している場合は、インラインの **[+ タスク]** を使用してセクションにタスクをすばやく追加できます。
+
 - タスクを別のタスクの真上または真下に挿入する場合は、そのタスク オーバーフロー メニューから挿入できます。
 
 サブタスクは、タスク カード内または親タスクのオーバーフロー メニューから作成できます。
@@ -127,7 +129,7 @@ Slingshot でタスクを作成する方法は複数あります:
 
 - グラフィカルな方法で、時間軸でタスクをフレーム化したい場合 
 
-#### Default Task Views
+### Default Task Views
 
 If you want your team members in a workspace or a project to land on task list, organized in a specific way, you can:
 
@@ -141,7 +143,7 @@ You can always reset the settings to their original state when you choose **Rese
 
 >[!NOTE] Only an **owner** of a workspace or a project can set a default task view.
 
-#### タスクの依存関係
+### タスクの依存関係
 
 タイムラインの表示タイプを使用して、タスク間の依存関係を視覚化できます。
 

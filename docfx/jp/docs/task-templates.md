@@ -7,6 +7,7 @@ With Task Templates, you can save time and increase your productivity by reusing
 You can create task templates in different projects, workspaces or in the **My Tasks** section. To access the option to create a task template, you need to:
 
 1.	Open the overflow menu of a specific task (as shown below), a task list or a task section.
+
 2.	Click/tap on **Save as Template**.
 
     <img src="../images/save-as-template-example.png" class="responsive-img" alt="Save as template option in the dropdown menu" width="90%">
@@ -50,21 +51,29 @@ To access your personal task templates or templates that are stored in another l
 In the left panel you can:
 
 - Check the templates that you have used recently.
+
 - Search for templates in different locations (e.g., *My Tasks*, different workspaces or projects).
+
 - Filter the templates by *Created by Me* or *Shared with Me*.
 
 Under **My Templates** you can:
 
 - Alphabetically sort your templates.
+
 - Sort templates by *Last Modified*.
 
 Besides this, you can also open the overflow menu on the right side of each task and take the following actions:
 
 - Open the template.
+
 - Create a *Copy* of the template and *Edit* it. This will lead you to the **Save as Template** dialog where you can make changes before creating a template copy.
+
 - Copy the link to the task template.
+
 - Add the template to **Bookmarks** or remove it from there.
+
 - Share the template.
+
 - Delete the template.
 
   <img src="../images/task-templates-overflow-menu.png" class="responsive-img" alt="Overflow menu with different options for task templates" width="90%"> 
@@ -73,7 +82,8 @@ Besides this, you can also open the overflow menu on the right side of each task
 
 To edit a Task Template, you need to:
 
-1.	Click/tap on the template in order to open it. 
+1.	Click/tap on the template in order to open it.
+
 2.	Click/tap on the pencil icon in the upper right corner.
 
     <img src="../images/edit-task-template-button.png" class="responsive-img" alt="Edit button for task templates" width="90%">
