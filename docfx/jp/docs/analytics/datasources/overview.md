@@ -15,87 +15,93 @@ _language: ja
 データ ソースに接続するには、以下の手順を実行します:
 
 1. **[分析]** またはダッシュボードを作成するワークスペースに移動します。
-2. **[+ ダッシュボード]** または **[ダッシュボードの作成]** **(分析)** の青いボタンをクリックまたはタップします。
+2. **[+ ダッシュボード]** の青いボタンをクリックまたはタップします。
 
-   <img src="images/data-sources-my-analytics.png" alt="Dashboard button in my analytics" class="responsive-img" width="70%" height="80%"/>
-3. **[データ ソース]** ダイアログに、最近使用したデータ ソースのリストが表示されます。新しい接続を作成するには、右側の **[+ データ ソース]** ボタンを選択します。
+   <img src="images/data-sources-my-analytics.png" alt="Dashboard button in my analytics" class="responsive-img" width="90%"/>
+3. **[データ ソース]** ダイアログに、最近使用したデータ ソースのリストが表示されます。新しい接続を作成するには、右上隅にある **[+ データ ソース]** ボタンを選択します。
 
-   <img src="images/data-sources-screen.png.png" alt="Sample data sources" class="responsive-img" width="60%"/>
+   <img src="./images/data-sources-list.png" alt="Sample data sources" class="responsive-img" width="70%"/>
 
 データ ソース プロバイダーを選択すると、データ ソースを**設定**するように求められます。設定に関しては、選択したデータ ソースの設定に関する記事をご覧ください (以下のリストを参照)。
 
    - [Amazon Athena](~/jp/docs/analytics/datasources/supported-data-sources/athena.md)
 
-   - [Amazon Redshift](~/jp/docs/analytics/datasources/supported-data-sources/redshift.html)
-
-   - [Amazon S3](~/jp/docs/analytics/datasources/supported-data-sources/amazon-s3.md)
+   - [Amazon Redshift](~/jp/docs/analytics/datasources/supported-data-sources/redshift.md)
 
    - [Box](~/jp/docs/analytics/datasources/supported-data-sources/box.md)
 
    - [Dropbox](~/jp/docs/analytics/datasources/supported-data-sources/dropbox.md)
 
+   - [Facebook](~/jp/docs/analytics/datasources/supported-data-sources/facebook.md)
+
    - [Google Ads](~/jp/docs/analytics/datasources/supported-data-sources/google-ads.md)
 
-   - [Google Analytics](~/jp/docs/analytics/datasources/supported-data-sources/google-analytics.html)
+   - [Google Analytics](~/jp/docs/analytics/datasources/supported-data-sources/google-analytics.md)
 
-   - [Google BigQuery](~/jp/docs/analytics/datasources/supported-data-sources/google-bigquery.html)
+   - [Google BigQuery](~/jp/docs/analytics/datasources/supported-data-sources/google-bigquery.md)
 
-   - [Google Drive](~/jp/docs/analytics/datasources/supported-data-sources/google-drive.html)
-  
-   - [Hubspot](~/jp/docs/analytics/datasources/supported-data-sources/hubspot.html)
-  
-   - [Marketo](~/jp/docs/analytics/datasources/supported-data-sources/marketo.html)
+   - [Google Drive](~/jp/docs/analytics/datasources/supported-data-sources/google-drive.md)
 
-   - [Microsoft Analysis Services](~/jp/docs/analytics/datasources/supported-data-sources/microsoft-analysis-services.html)
-  
-   - [Microsoft Azure Analysis Services](~/jp/docs/analytics/datasources/supported-data-sources/microsoft-azure-analysis-services.html)
-  
-   - [Microsoft Azure Synapse Analytics](~/jp/docs/analytics/datasources/supported-data-sources/microsoft-azure-synapse-analytics.html)
-  
-   - [Microsoft Azure SQL Database](~/jp/docs/analytics/datasources/supported-data-sources/azure-sql.md)*
+   - [Google Search Console](~/jp/docs/analytics/datasources/supported-data-sources/google-search-console.md)
 
-   - [Microsoft Dynamics CRM](~/jp/docs/analytics/datasources/supported-data-sources/microsoft-dynamics-crm.html)
+   - [Hubspot](~/jp/docs/analytics/datasources/supported-data-sources/hubspot.md)
 
-   - [Microsoft Reporting Services (SSRS)](~/jp/docs/analytics/datasources/supported-data-sources/microsoft-reporting-services.html)
+   - [Instagram](~/jp/docs/analytics/datasources/supported-data-sources/instagram.md)
 
-   - [Microsoft SQL Server](~/jp/docs/analytics/datasources/supported-data-sources/microsoft-sql-server.html)*
+   - [LinkedIn](~/jp/docs/analytics/datasources/supported-data-sources/linkedin.md)
 
-   - [MySQL](~/jp/docs/analytics/datasources/supported-data-sources/mysql.html)*
+   - [Marketo](~/jp/docs/analytics/datasources/supported-data-sources/marketo.md)
 
-   - [OData フィード](~/jp/docs/analytics/datasources/supported-data-sources/odata-feed.html)
+   - [Microsoft Analysis Services](~/jp/docs/analytics/datasources/supported-data-sources/microsoft-analysis-services.md)
 
-   - [OneDrive](~/jp/docs/analytics/datasources/supported-data-sources/onedrive.html)
+   - [Microsoft Azure Analysis Services](~/jp/docs/analytics/datasources/supported-data-sources/microsoft-azure-analysis-services.md)
 
-   - [Oracle](~/jp/docs/analytics/datasources/supported-data-sources/oracle.html)*
+   - [Microsoft Azure Synapse Analytics](~/jp/docs/analytics/datasources/supported-data-sources/microsoft-azure-synapse-analytics.md)
+   
+   - [Microsoft Azure SQL Database](~/jp/docs/analytics/datasources/supported-data-sources/azure-sql.md)
 
-   - [PostgreSQL](~/jp/docs/analytics/datasources/supported-data-sources/postgresql.html)*
-  
-   - [Quickbooks](~/jp/docs/analytics/datasources/supported-data-sources/quickbooks.html) 
+   - [Microsoft Dynamics CRM](~/jp/docs/analytics/datasources/supported-data-sources/microsoft-dynamics-crm.md)
 
-   - [REST API](~/jp/docs/analytics/datasources/supported-data-sources/rest-api.html)
+   - [Microsoft Reporting Services (SSRS)](~/jp/docs/analytics/datasources/supported-data-sources/microsoft-reporting-services.md)
 
-   - [Salesforce](~/jp/docs/analytics/datasources/supported-data-sources/salesforce.html)
+   - [Microsoft SQL Server](~/jp/docs/analytics/datasources/supported-data-sources/microsoft-sql-server.md)
 
-   - [SharePoint](~/jp/docs/analytics/datasources/supported-data-sources/sharepoint.html)
- 
-   - [Snowflake](~/jp/docs/analytics/datasources/supported-data-sources/snowflake.d)
+   - [MySQL](~/jp/docs/analytics/datasources/supported-data-sources/mysql.md)
 
-   - [Sybase](~/jp/docs/analytics/datasources/supported-data-sources/sybase.html)*
+   - [OData フィード](~/jp/docs/analytics/datasources/supported-data-sources/odata-feed.md)
 
-   - [ウェブ リソース](~/jp/docs/analytics/datasources/supported-data-sources/web-resource.html)
+   - [OneDrive](~/jp/docs/analytics/datasources/supported-data-sources/onedrive.md)
 
-   - [JSON ファイル](~/jp/docs/analytics/datasources/working-files/working-with-json-files.html)
+   - [Oracle](~/jp/docs/analytics/datasources/supported-data-sources/oracle.md)
 
-   - [スプレッドシート](~/jp/docs/analytics/datasources/working-files/working-with-spreadsheets.html)
+   - [PostgreSQL](~/jp/docs/analytics/datasources/supported-data-sources/postgresql.md)
+
+   - [Quickbooks](~/jp/docs/analytics/datasources/supported-data-sources/quickbooks.md) 
+
+   - [REST API](~/jp/docs/analytics/datasources/supported-data-sources/rest-api.md)
+
+   - [Salesforce](~/jp/docs/analytics/datasources/supported-data-sources/salesforce.md)
+
+   - [SharePoint](~/jp/docs/analytics/datasources/supported-data-sources/sharepoint.md)
+
+   - [Snowflake](~/jp/docs/analytics/datasources/supported-data-sources/snowflake.md)
+
+   - [Sybase](~/jp/docs/analytics/datasources/supported-data-sources/sybase.md)
+
+   - [ウェブ リソース](~/jp/docs/analytics/datasources/supported-data-sources/web-resource.md)
+
+   - [JSON ファイル](~/jp/docs/analytics/datasources/working-files/working-with-json-files.md)
+   
+   - [スプレッドシート](~/jp/docs/analytics/datasources/working-files/working-with-spreadsheets.md)
 
 ## データ ソースのフィルタリング
 
 データ ソースをフィルターするには、右上隅にあるフィルター ボタンをクリックします。
 
-   <img src="images/data-sources-filter.png" alt="A dialog with filtering options" class="responsive-img" width="60%"/>
+   <img src="images/data-sources-filters.png" alt="A dialog with filtering options" class="responsive-img" width="70%"/>
 
 ## 関連トピック 
 
-- まだ接続していないデータ ソースからのデータを使用するダッシュボードを受け取りましたか? [ダッシュボードをデータ ソースに接続](connect-dashboard-to-data-source.html)トピックで開く方法を参照してください。
-- 表示形式の作成途中でデータ ソースを変更することにしましたか? 表示形式エディターで別のデータ ソースに接続する方法については、[表示形式に使用するデータ ソースの変更](changing-data-source-visualization.html)を参照してください。
-- 複数のデータ ソースからのデータを表示形式に使用しますか? [データ ソースを 1 つの表示形式に統合](data-blending.html)を参照してください。
+- まだ接続していないデータ ソースからのデータを使用するダッシュボードを受け取りましたか? [ダッシュボードをデータ ソースに接続](connect-dashboard-to-data-source.md)トピックで開く方法を参照してください。
+- 表示形式の作成途中でデータ ソースを変更することにしましたか? 表示形式エディターで別のデータ ソースに接続する方法については、[表示形式に使用するデータ ソースの変更](changing-data-source-visualization.md)を参照してください。
+- 複数のデータ ソースからのデータを表示形式に使用しますか? [データ ソースを 1 つの表示形式に統合](data-blending.md)を参照してください。

@@ -45,7 +45,7 @@ Microsoft Reporting Services レポートへの接続を構成した後、デー
   <img src="images/microsoft-reporting-services-sample-data-visualization-editor.png" alt="Microsoft reporting services data in the Visualization editor" class="responsive-img" width="80%"/>
 
 >[!NOTE]
->表示形式エディターでデータ ソースを編集: 読み込み後は変更できないため、レポート形式 (pdf または data) を選択してください。データ ソースを*編集する*場合、レポートのパラメーターの構成のみ変更できます。
+>表示形式エディターでデータ ソースを編集: 読み込み後は変更できないため、レポート形式 (PDF または data) を選択してください。データ ソースを*編集する*場合、レポートのパラメーターの構成のみ変更できます。
 
 ## 表示形式エディターでの作業
 
@@ -58,6 +58,6 @@ Microsoft Reporting Services レポートへの接続を構成した後、デー
 
 表示形式の準備ができたら、右上隅のチェックマークをクリックまたはタップして、ダッシュボードとして保存できます。
 
-以下の例では、ダッシュボードを **[分析]** > **[ダッシュボード]** > **Accounting** に保存しました。
+以下の例では、ダッシュボードを **[分析]** -> **[ダッシュボード]** -> **Accounting** に保存しました。
 
 <img src="images/microsoft-reporting-services-my-analytics-dashboard.png" alt="A dashboard in the My Analytics section created while using Microsoft Reporting Services" class="responsive-img" width="75%"/>
