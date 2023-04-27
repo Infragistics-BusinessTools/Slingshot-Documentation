@@ -1,5 +1,15 @@
 # リリース ノート
 
+### 1.0.2788 (April - 2023)
+
+#### 新機能 
+
+- Adjusted size of various modals in order to take advantage of available space
+
+- Default Task Views: Owners of workspaces and projects can create a default view for tasks, based on View Type (*List, Kanban, Timeline*) and List Settings (*Group By..., Fields, Sort By...*). 
+
+- Task Templates: Blocks of tasks that can be saved as templates for future re-use.
+
 ### 1.0.2720 (2023 年 2 月)
 
 #### 新機能 
@@ -25,7 +35,7 @@
 
 - チャットまたはディスカッションを未読としてマークする機能を追加しました。
 
-- 複数ウィンドウのサポート - 新しいウィンドウで項目を開くオプションを追加しました。
+- 複数ウィンドウのサポート: 新しいウィンドウで項目を開くオプションを追加しました。
 
 ### 1.0.2459 (2022 年 6 月)
 
