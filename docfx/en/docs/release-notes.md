@@ -1,5 +1,15 @@
 # Release Notes
 
+### 1.0.2788 (April - 2023)
+
+#### New Features 
+
+- Adjusted size of various modals in order to take advantage of available space
+
+- Default Task Views: Owners of workspaces and projects can create a default view for tasks, based on View Type (*List, Kanban, Timeline*) and List Settings (*Group By..., Fields, Sort By...*). 
+
+- Task Templates: Blocks of tasks that can be saved as templates for future re-use.
+
 ### 1.0.2720 (Feb - 2023)
 
 #### New Features 
@@ -25,7 +35,7 @@
 
 - Ability to mark a chat or discussion as unread
 
-- Multi-window support - an option to open an item in a new window
+- Multi-window support: An option to open an item in a new window
 
 ### 1.0.2459 (June - 2022)
 
