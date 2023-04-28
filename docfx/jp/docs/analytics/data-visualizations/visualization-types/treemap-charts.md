@@ -25,7 +25,7 @@ _language: ja
 
 上記の表示形式は、*Product* ごとの *New Sales* を表示します。この表示形式を構成するには、次のことを行う必要があります:
 
-1. **[データ ソースの選択]** ダイアログで、**サンプル データ**を選択します。
+1. **[データ ソース]** ダイアログで、**サンプル データ**を選択します。
 
     <img src="images/sample-data.png" alt="Sample Data in the list of data sources" class="responsive-img" width="63%"/>
 

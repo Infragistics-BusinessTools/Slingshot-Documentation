@@ -10,7 +10,7 @@
 
 1.  ダッシュボードを**編集モード**で開きます。
 
-2.  [+ 追加] の分割ボタンの右にある矢印をクリック / タップして、**[テキスト ボックス]** を選択します。
+2.  青い分割ボタンの右側にある矢印をクリック / タップして、**[テキスト ボックス]** を選択します。
 
 <img src="images/add-text-box-to-dashboard.png" alt="Adding a text box in dashboard edit mode" class="responsive-img" width="90%"/>
 
