@@ -87,7 +87,7 @@ Slingshot でタスクを作成する方法は複数あります:
 
 ## タスクの表示タイプ
 
-3 つの表示タイプ (リスト、カンバン、タイムライン) から選択して、利便性ユーティリティを最大化するために異なるレイアウトを利用できます。表示タイプを切り替えるには、**[表示タイプ]** ドロップダウン メニュー (タスク リストの右上) を使用します。  
+3 つの表示タイプ (リスト、カンバン、タイムライン) から選択して、利便性ユーティリティを最大化するために異なるレイアウトを利用できます。表示タイプを切り替えるには、**[表示設定]** ドロップダウン メニュー (タスク リストの右上) を使用します。  
 
 各タスクの表示タイプごとに、フィルタリング、表示するタスク フィールドの選択、状態、優先度、割り当て先、またはセクションによるグループ化を行うことができます。   
 
@@ -129,19 +129,19 @@ Slingshot でタスクを作成する方法は複数あります:
 
 - グラフィカルな方法で、時間軸でタスクをフレーム化したい場合 
 
-### Default Task Views
+### デフォルトのタスク表示
 
-If you want your team members in a workspace or a project to land on task list, organized in a specific way, you can:
+ワークスペースまたはプロジェクトのチーム メンバーに、特定の方法で整理されたタスク リストを初期表示させたい場合は、次のことができます:
 
-1. Open the dropdown menu of **View Settings**. 
+1. **[表示設定]** のドロップダウン メニューを開きます。 
 
-2. Set the **View Type** and the **List Settings** based on your preferences.
+2. 希望する **[表示タイプ]** と **[リスト設定]** を設定します。
 
 <img src="../images/default-view-tasks.png" alt="Default View option in View Settings" width="85%" class="responsive-img"/>
 
-You can always reset the settings to their original state when you choose **Reset to Default View**.
+**[デフォルト ビューにリセット]** を選択すると、いつでも設定を元の状態にリセットできます。
 
->[!NOTE] Only an **owner** of a workspace or a project can set a default task view.
+>[!NOTE] デフォルトのタスク表示を設定できるのは、ワークスペースまたはプロジェクトの**管理者**だけです。
 
 ### タスクの依存関係
 

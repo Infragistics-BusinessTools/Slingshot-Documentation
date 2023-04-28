@@ -23,16 +23,16 @@ _language: ja
 **[設定]** では:
 
   - **デフォルトで表示される要素を非表示にすることができます**。
-    タイトル、凡例、およびツールチップの合計を非表示にすることを選択できます (カテゴリがある場合にのみ使用可能)。You can also choose the starting color and to show or hide different *Axis*. 
+    タイトル、凡例、およびツールチップの合計を非表示にすることを選択できます (カテゴリがある場合にのみ使用可能)。また、開始色を選択して、異なる軸を表示または非表示にすることもできます。 
 
   - **近似曲線を表示できます**。
     チャート設定を使用すると、前のセクションで説明したように、サポートされているさまざまなアルゴリズムから選択して、近似曲線を表示できます。
 
-  - **Sync Axis to the Visible Range**.
+  - **軸を表示範囲に同期できます**。
 
-  - **Show the Automatic Label Rotation**.
+  - **自動的なラベル回転を表示できます**。
 
-  - **Adjust the Zoom Level**.
+  - **ズーム レベルを調整できます**。
 
   - **リニア スケールまたは対数を選択できます**。
 対数の場合、値のスケールは通常のリニア スケールを使用する代わりに大きさを使用するリニア スケール以外で計算されます。
@@ -43,7 +43,7 @@ _language: ja
   - **コンパクトなラベルを選択できます**。
 この設定を使用すると、チャートをズームするときに冗長なラベル情報を回避できます。
 
-- [Connect this visualization to another dashboard or a URL](https://www.slingshotapp.io/en/help/docs/analytics/dashboards/dashboard-linking).
+- [この表示形式を別のダッシュボードまたは URL に接続します](https://www.slingshotapp.io/en/help/docs/analytics/dashboards/dashboard-linking)。
 
 ## ズームとパンニング
 

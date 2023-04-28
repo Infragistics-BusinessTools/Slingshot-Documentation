@@ -1,14 +1,14 @@
 # リリース ノート
 
-### 1.0.2788 (April - 2023)
+### 1.0.2788 (2023 年 4 月)
 
 #### 新機能 
 
-- Adjusted size of various modals in order to take advantage of available space
+- 利用可能なスペースを活用するために、さまざまなモーダルのサイズを調整しました。
 
-- Default Task Views: Owners of workspaces and projects can create a default view for tasks, based on View Type (*List, Kanban, Timeline*) and List Settings (*Group By..., Fields, Sort By...*). 
+- デフォルトのタスク表示: ワークスペースとプロジェクトの管理者は、表示タイプ (**リスト、カンバン、タイムライン**) とリスト設定 (**グループ化、フィールド、並べ替え条件**) に基づいて、タスクのデフォルトの表示を作成できます。 
 
-- Task Templates: Blocks of tasks that can be saved as templates for future re-use.
+- タスク テンプレート: 将来の再利用のためにテンプレートとして保存できるタスクのブロック。
 
 ### 1.0.2720 (2023 年 2 月)
 

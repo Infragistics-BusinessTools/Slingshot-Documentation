@@ -1,98 +1,98 @@
-# Task Templates
+# タスク テンプレート
 
-With Task Templates, you can save time and increase your productivity by reusing already created task templates. You can easily reuse previously created task templates, with the option to choose to keep all the information in a specific task template or adjust it to your teams’ needs.
+タスク テンプレートを使用すると、作成済みのタスク テンプレートを再利用することで、時間を節約し、生産性を向上させることができます。特定のタスク テンプレートにすべての情報を保持するか、チームのニーズに合わせて調整するかを選択するオプションを使用して、以前に作成したタスク テンプレートを簡単に再利用できます。
 
-## How can I create a Task Template?
+## タスク テンプレートを作成する方法
 
-You can create task templates in different projects, workspaces or in the **My Tasks** section. To access the option to create a task template, you need to:
+タスク テンプレートは、さまざまなプロジェクト、ワークスペース、または **[マイ タスク]** セクションで作成できます。タスク テンプレートを作成するオプションにアクセスするには、次のことを行う必要があります:
 
-1.	Open the overflow menu of a specific task (as shown below), a task list or a task section.
+1.	特定のタスク (以下を参照)、タスク リスト、またはタスク セクションのオーバーフロー メニューを開きます。
 
-2.	Click/tap on **Save as Template**.
+2.	**[テンプレートとして保存する]** をクリックまたはタップします。
 
     <img src="../images/save-as-template-example.png" class="responsive-img" alt="Save as template option in the dropdown menu" width="90%">
 
-3. The following dialog will open up. Here you can choose what to keep from the task and use it for the template. When you are ready, click/tap on **Continue**.
+3. 次のダイアログが開きます。ここで、タスクから何を残すかを選択し、それをテンプレートに使用できます。準備ができたら続行、**[続行]** をクリックまたはタップします。
        
    <img src="../images/save-as-template-adjustments.png" class="responsive-img" alt="A list of sections which can be kept for the template" width="90%">  
 
-Before creating the template, you will have the option to:
+テンプレートを作成する前に、次のオプションがあります:
 
-1.	Give a name to the task template in order to create it.
-2.	Add a description. *(optional)*
-3.	Toggle on/off the option to include weekends. *(optional)*
-4.	Choose the **Schedule Type**. Here you can set the Start Date and the Due date. *(optional)*
-5.	Filter tasks. You can filter tasks based on your chosen criteria. *(optional)*
-6.	Open the task, add subtasks to it, or delete it. From here, you can also insert a task right above or below another task. *(optional)*
-7.	Add a new task to use alongside the other tasks for the template. *(optional)*
+1.	タスク テンプレートを作成するため、タスク テンプレートに名前を付ける。
+2.	説明を追加 **(オプション)**。
+3.	[週末を含む] オプションのオン / オフを切り替える **(オプション)**。
+4.	**[スケジュール タイプ]** を選択。ここで、開始日と期日を設定できます **(オプション)**。
+5.	タスクをフィルタリング。選択した基準に基づいてタスクをフィルタリングできます **(オプション)**。
+6.	タスクを開く、サブタスクを追加 / 削除。ここから、別のタスクの真上または真下にタスクを挿入することもできます **(オプション)**。
+7.	テンプレートの他のタスクと一緒に使用する新しいタスクを追加 **(オプション)**。
 
     <img src="../images/save-as-template-dialog.png" class="responsive-img" alt="Different template options" width="90%">  
 
-Once you have created a task template, you can use it in order to create a new task or a set of tasks. 
+タスク テンプレートを作成したら、それを使用して新しいタスクまたは一連のタスクを作成できます。 
 
->[!NOTE] Keep in mind that the option to create task templates is available to *Slingshot* and *Slingshot Enterprise* users.
+>[!NOTE] タスク テンプレートを作成するオプションは、*Slingshot* および *Slingshot Enterprise* ユーザーが利用できることに注意してください。
 
-## How can I access different Task Templates lists?
+## さまざまなタスク テンプレート リストにアクセスする方法
 
-To access your personal task templates or templates that are stored in another location, such as another workspace or project, you can:
+個人のタスク テンプレート、または別のワークスペースやプロジェクトなど、別の場所に保存されているテンプレートにアクセスするには:
 
-1.	Click/tap on the **+Task** split button in the upper right corner and then choose **Add from Template**.
+1.	右上隅の **[+ タスク]** 分割ボタンをクリックまたはタップし、**[テンプレートから追加]** を選択します。
 
     <img src="../images/add-from-template-button.png" class="responsive-img" alt="A list of sections which can be kept for the template" width="90%">  
 
-    Alternatively, you can choose a section -> open the overflow menu -> choose **Add from Template**. 
+    または、セクションを選択 -> オーバーフロー メニューを開く -> **[テンプレートから追加]** を選択します。 
        
     <img src="../images/add-from-template-section.png" class="responsive-img" alt="Add from template option in a task section" width="90%">  
 
-2.	The following dialog will pop up:
+2.	次のダイアログが開きます:
 
     <img src="../images/task-templates-dialog.png" class="responsive-img" alt="A dialog, containing all task templates" width="90%"> 
 
-In the left panel you can:
+左パネルでは、次のことができます:
 
-- Check the templates that you have used recently.
+- 最近使用したテンプレートを確認。
 
-- Search for templates in different locations (e.g., *My Tasks*, different workspaces or projects).
+- さまざまな場所 (*[マイ タスク]*、さまざまなワークスペースまたはプロジェクトなど) でテンプレートを検索。
 
-- Filter the templates by *Created by Me* or *Shared with Me*.
+- *[作成済み]* または *[自分と共有済み]* でテンプレートをフィルタリング。
 
-Under **My Templates** you can:
+**[マイ テンプレート]** では、次のことができます:
 
-- Alphabetically sort your templates.
+- テンプレートをアルファベット順に並べ替える。
 
-- Sort templates by *Last Modified*.
+- テンプレートを *[更新日時]* で並べ替える。
 
-Besides this, you can also open the overflow menu on the right side of each task and take the following actions:
+これに加えて、各タスクの右側にあるオーバーフロー メニューを開いて、次のアクションを実行することもできます:
 
-- Open the template.
+- テンプレートを開く。
 
-- Create a *Copy* of the template and *Edit* it. This will lead you to the **Save as Template** dialog where you can make changes before creating a template copy.
+- *[コピーを作成して編集する]*。これにより、**[テンプレートとして保存]** ダイアログが表示され、テンプレートのコピーを作成する前に変更を加えることができます。
 
-- Copy the link to the task template.
+- タスク テンプレートへのリンクをコピー。
 
-- Add the template to **Bookmarks** or remove it from there.
+- テンプレートを **[ブックマーク]** に追加するか、そこから削除。
 
-- Share the template.
+- テンプレートを共有。
 
-- Delete the template.
+- テンプレートを削除。
 
   <img src="../images/task-templates-overflow-menu.png" class="responsive-img" alt="Overflow menu with different options for task templates" width="90%"> 
 
-## How can I edit a Task Template?
+## タスク テンプレートを編集する方法
 
-To edit a Task Template, you need to:
+タスク テンプレートを編集するには:
 
-1.	Click/tap on the template in order to open it.
+1.	テンプレートをクリックまたはタップして開きます。
 
-2.	Click/tap on the pencil icon in the upper right corner.
+2.	右上隅にある鉛筆アイコンをクリックまたはタップします。
 
     <img src="../images/edit-task-template-button.png" class="responsive-img" alt="Edit button for task templates" width="90%">
 
-3.	The **Task Template** dialog will open up where you can make the necessary changes. When you are ready, click/tap on **Done**.
+3.	**[タスク テンプレート]** ダイアログが開き、必要な変更を加えることができます。準備ができたら、**[完了]** をクリックまたはタップします。
 
      <img src="../images/edit-task-template.png" class="responsive-img" alt="Task template editing options" width="90%">
 
->[!NOTE] Keep in mind that you have the same options for applying changes as in the **Save as Template** dialog.
+>[!NOTE] 変更を適用するためのオプションは、**[テンプレートとして保存する]** ダイアログと同じであることに注意してください。
 
-If you want to find more information about how you can create and use tasks, head [here](https://www.slingshotapp.io/en/help/docs/tasks).
+タスクの作成方法と使用方法の詳細については、[こちら](https://www.slingshotapp.io/en/help/docs/tasks)をご覧ください。
 
