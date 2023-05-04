@@ -84,6 +84,10 @@
   href: slingshot-enterprise-subscription.md
 - name: Slingshot サブスクリプション
   href: slingshot-subscription.md
+- name: テンプレート
+  header: true
+- name: タスク テンプレート
+  href: task-templates.md
 - name: API 
   header: true
 - name: 概要

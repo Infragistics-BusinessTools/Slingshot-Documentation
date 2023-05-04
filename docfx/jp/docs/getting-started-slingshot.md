@@ -79,14 +79,12 @@ Slingshot は Microsoft と Google の上に構築されているため、技術
 
 Slingshot アカウントについて質問がある場合やサポートが必要な場合は、当社のチームにお問い合わせください。そのためには:
 
-1. [こちら](https://jp.infragistics.com/)からアカウントにログインします。
-2. **[マイアカウント]** を選択します。
-3. リクエストを送信するには、**[サポート]** を選択してから **[新しいサポートケースの作成]** を選択します。
+1. <a href="https://account.slingshotapp.io" target="_blank">こちら</a>からアカウントにログインします。
+2. **[Support] (サポート)** を選択してから **[New Support Request] (新しいサポートケースの作成)** を選択します。
 
 私たちのチームは、お問い合わせに関する詳細を記載したメールをお送りします。
 
 または、ページの右下隅にあるチャット アイコンをクリック / タップして、チャットを開始することもできます。
 
-<img src="../images/chat-button.png" alt="Chat button for starting a chat with support" class="responsive-img" width="50%"/>
 
 

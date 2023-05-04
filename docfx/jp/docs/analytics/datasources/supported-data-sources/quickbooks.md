@@ -36,6 +36,6 @@ ID 認証が有効な場合は、送信された*確認コード*を入力する
 
 <img src="images/quickbooks-visualization-editor.png" alt="Visualization editor using quickbook as data source" class="responsive-img" width="85%"/>
 
-表示形式の準備ができたら、右上隅のチェックマークをクリックまたはタップして、ダッシュボードとして保存できます。以下の例では、ダッシュボードを **[分析]** > **[ダッシュボード]** > **Accounting** に保存しました。
+表示形式の準備ができたら、右上隅のチェックマークをクリックまたはタップして、ダッシュボードとして保存できます。以下の例では、ダッシュボードを **[分析]** -> **[ダッシュボード]** -> **Accounting** に保存しました。
 
 <img src="images/quickbooks-my-analytics.png" alt="Quickbooks dashboard in My Analytics" class="responsive-img" width="85%"/>

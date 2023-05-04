@@ -44,7 +44,7 @@
 
    <img src="../images/pinning-options-dashboard-workspace.png" class="responsive-img" alt="Choosing a dashboard to pin">
 
-4. [ピン固定] ダイアログが開きます。さまざまな*場所*、*フィルター* などからダッシュボードを選択できます。  
+4. [ピン固定] ダイアログが開きます。さまざまな*場所*、*フィルター*などからダッシュボードを選択できます。  
 
    <img src="../images/pinning-dashboard-example.png" class="responsive-img" alt="Choosing a dashboard to pin">
 
