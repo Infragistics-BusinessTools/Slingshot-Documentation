@@ -139,7 +139,7 @@ Slingshot でタスクを作成する方法は複数あります:
 
 <img src="../images/default-view-tasks.png" alt="Default View option in View Settings" width="85%" class="responsive-img"/>
 
-**[デフォルト ビューにリセット]** を選択すると、いつでも設定を元の状態にリセットできます。
+**[デフォルトの表示にリセット]** を選択すると、いつでも設定を元の状態にリセットできます。
 
 >[!NOTE] デフォルトのタスク表示を設定できるのは、ワークスペースまたはプロジェクトの**管理者**だけです。
 
