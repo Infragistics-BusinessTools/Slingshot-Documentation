@@ -82,7 +82,15 @@ If you have questions or need help with your Slingshot account, you can reach ou
 1. Log in to your account <a href="https://account.slingshotapp.io" target="_blank">here</a>.
 2. Choose **Support** and then **New Support Request** in order to submit a request.
 
-Our team will send you an email with further instructions or more information regarding your inquiry.
+If you have already logged in to your *Slingshot* account, you can:
+
+1. Open your account settings and click/tap on **Contact Support**.
+
+   <img src="../images/contact-support-settings.png" alt="Slingshot's features on the top right" class="responsive-img" width="30%"/>
+
+2. Click/tap on **New Support Case** in order to give more details regarding your request.
+
+Our team will email you with further instructions or more information regarding your inquiry.
 
 Alternatively, you can start a chat when you click/tap on the chat icon in the lower right corner of the page.
 

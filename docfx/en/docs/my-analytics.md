@@ -33,7 +33,7 @@ You can sort, filter and aggregate your data as you wish. Each chart type provid
 
 ### Interact
 
-Once your dashboard is created, interact with your visualizations with the drill-up/down support. Change visualizations on the fly.
+Once your dashboard is created, interact with your visualizations with the drill-up/down support. 
 
 ### Share
 
@@ -93,13 +93,15 @@ These filters, which can’t be edited or deleted, are:
 
 ### Creating Filters
 
-To access the Filters editor, just click/tap the **+ Filter** icon in the FILTERS section.
+To access the Filters editor, just click/tap the **+ Filter** icon in the *FILTERS* section.
 
 To stop filtering dashboards or data sources, you can:
 
 1. Click/tap on the filter icon to open the *Filters* dialog. 
 2. Select the **Clear** button at the bottom to remove the current filters.
 3. Click/tap on **Apply** to save your changes.
+
+<img src="../images/dashboard-filters-example.png" alt="Data Catalog screen within Slingshot" class="responsive-img"/>
 
 ### Saving Filters
 
