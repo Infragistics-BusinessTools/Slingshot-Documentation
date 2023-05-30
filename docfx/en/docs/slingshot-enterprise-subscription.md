@@ -7,7 +7,7 @@ There are three different tiers available on Slingshot – *Free*, *Slingshot* a
 
 | Permissions | Subscription Admin | Organization Admin | User          |
 | ------------------------------------ | ------------------ | ------------------ | ----------------- |
-| Manage the subscription (activate and/or cancel the Enterprise subscription, invite users to the organization, remove users from the organization) |:white_check_mark:                                 | :x:  | :x:                |
+| Manage the subscription (activate and/or cancel the Enterprise subscription, invite users to the organization, remove users from the organization) | :white_check_mark: | :x:  | :x:  |
 | Enable features within the application | :x:  | :white_check_mark: | :x:                |
 |Use the Slingshot app (Organization Admins will need to create new accounts in order to use the app)                                |  :x:   | :white_check_mark:            | :white_check_mark:               |
 

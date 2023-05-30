@@ -18,9 +18,9 @@ To connect to a data source, perform the steps below:
 2. Click/tap on the **+ Dashboard** blue button.
 
    <img src="images/data-sources-my-analytics.png" alt="Dashboard button in my analytics" class="responsive-img" width="90%"/>
-3. In the *+ Visualization* dialog, you will see a list of recently used data sources. To create a new connection, select the **+ Data Source** button in the upper right corner.
+3. In the *New Visualization* dialog, you will see a list of recently used data sources. To create a new connection, select the **+ Data Source** button in the upper right corner.
 
-   <img src="./images/data-sources-list.png" alt="Sample data sources" class="responsive-img" width="70%"/>
+   <img src="./images/sample-data-new-visualization-dialog.png" alt="Sample data sources" class="responsive-img" width="90%"/>
 
 After selecting a data source provider, you will be prompted to **configure** it. Not sure how to do this? Find out in the article about the chosen data source (see the list below).
 
@@ -98,7 +98,7 @@ After selecting a data source provider, you will be prompted to **configure** it
 
 To filter your data sources, you can click on the filter button in the upper right corner.
 
-   <img src="images/data-sources-filters.png" alt="A dialog with filtering options" class="responsive-img" width="70%"/>
+   <img src="images/data-sources-filter-options.png" alt="A dialog with filtering options" class="responsive-img" width="90%"/>
 
 ## Related Topics
 
