@@ -24,9 +24,9 @@ You can use treemaps with no hierarchies to show patterns and part-to-whole rela
 
 The visualization above displays *New Sales* by *Territory*. To build this visualization, you need to do the following:
 
-1. In the *Select Data Source* dialog, choose *Sample Data*.
+1. In the *New Visualization* dialog, choose *Sample Data*.
 
-    <img src="images/sample-data.png" alt="Sample Data in the list of data sources" class="responsive-img" width="63%"/>
+    <img src="images/sample-data-new-visualization-dialog.png" alt="Sample Data in the list of data sources" class="responsive-img" width="90%"/>
 
 2. In the *Visualization Editor* choose the **Tree Map visualization**.
 
@@ -34,7 +34,7 @@ The visualization above displays *New Sales* by *Territory*. To build this visua
 
 3. In the *Tree Map Data section* drop *Territory* in **Label**, and *New Sales* in **Value**.
 
-Note that the *data dropped in Label* (*Product*) determines the* **color** and tiles the visualization in five different rectangles.
+Note that the *data dropped in Label* (*Product*) determines the **color** and tiles the visualization in five different rectangles.
 
 The biggest tile indicates the largest *New Sales* value. Rectangles are *arranged in size from top left (biggest) to right bottom.*
 
@@ -52,7 +52,7 @@ In the example above, the treemap is split into five big rectangles (branches of
 
 You may notice *two kinds of labels* in the example above:
 
-- For the big rectangles, top left - show information about total new sales of each product;
+- For the big rectangles, top left - show information about total new sales of each product.
 - For the smaller rectangles, bottom left - show how much of each product is sold in a particular country.
 
 Information about the color and size characteristics of the tiles is similar to what was said about the [Treemaps without hierarchies](#flat-treemap).

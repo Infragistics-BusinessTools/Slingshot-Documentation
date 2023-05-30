@@ -24,7 +24,7 @@ You can create a dashboard by clicking/tapping on the **+ Dashboard** or **Creat
 
 This will prompt the *New Visualization* dialog. Proceed to create a visualization using a data source.
 
-<img src="images/data-sources-list.png" alt="A list of already added data sources" class="responsive-img" width= "67%"/>
+<img src="images/new-visualization-screen.png" alt="A list of already added data sources" class="responsive-img" width= "85%"/>
 
 <a name='add-data-source'></a>
 ## Add a Data Source

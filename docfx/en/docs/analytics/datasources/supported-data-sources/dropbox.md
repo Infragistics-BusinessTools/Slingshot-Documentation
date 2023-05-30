@@ -5,13 +5,13 @@ _description: A roadmap to configuring, authorizing, and using Box for your visu
 
 # Dropbox
 
-Upon selecting Dropbox, you will see the following log in prompt.
+Upon selecting Dropbox, you will see the following log in prompt:
 
-<img src="images/dropbox-login.png" alt="Dropbox login dialog" class="responsive-img"/>
+<img src="images/dropbox-data-source.png" alt="Dropbox login dialog" class="responsive-img" width="90%"/>
 
-Enter your login credentials and select *Sign In*.
+You can enter your login credentials and select *Sign In*.
 You will then see an
-authorization prompt; select *Allow* to grant the Analytics application access to files on your Dropbox cloud.
+authorization prompt. To continue, select *Allow* to grant the *Analytics* application access to files on your Dropbox cloud.
 
 ## Supported Files
 

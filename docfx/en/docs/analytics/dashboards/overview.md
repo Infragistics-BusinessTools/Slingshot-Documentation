@@ -53,37 +53,3 @@ Within Analytics, you will be able to:
   [Excel spreadsheets](export-as-excel-data-format.md)
 
 You can also import any [dashboards created with previous versions of ReportPlus](Uploading-Dashboards.md).
-
-## Dashboard Tutorials
-
-Learn the basics or refine your dashboard creation skills with tutorials
-designed to get you started and headed in the right direction.
-
-<table>
-<colgroup>
-<col style="width: 30%" />
-<col style="width: 30%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><img src="images/ThumbnailFinanceDashboard_All.png" alt="ThumbnailFinanceDashboard All" class="responsive-img"/><br />
-</p>
-<p><a href="~/docs/analytics/dashboard-tutorials/finance-dashboard/getting-started.md">Finance Dashboard</a><br />
-</p></td>
-<td><p><img src="images/ThumbnailManufacturingDashboard_All.png" alt="ThumbnailManufacturingDashboard All" class="responsive-img"/><br />
-</p>
-<p><a href="~/docs/analytics/dashboard-tutorials/manufacturing-dashboard/getting-started.md">Manufacturing Dashboard</a><br />
-</p></td>
-</tr>
-<tr class="even">
-<td><p><img src="images/ThumbnailSalesDashboard_All.png" alt="ThumbnailSalesDashboard All" class="responsive-img"/><br />
-</p>
-<p><a href="~/docs/analytics/dashboard-tutorials/sales-dashboard/getting-started.md">Sales Dashboard</a><br />
-</p></td>
-<td><p><img src="images/ThumbnailSocialDashboard_All.png" alt="ThumbnailSocialDashboard All" class="responsive-img"/><br />
-</p>
-<p><a href="~/docs/analytics/dashboard-tutorials/social-dashboard/getting-started.md">Social Dashboard</a><br />
-</p></td>
-</tr>
-</tbody>
-</table>
