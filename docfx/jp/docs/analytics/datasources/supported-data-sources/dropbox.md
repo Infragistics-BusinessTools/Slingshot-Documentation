@@ -8,9 +8,10 @@ _language: ja
 
 Dropbox を選択すると、以下のログイン プロンプトが表示されます。
 
-<img src="images/dropbox-login.png" alt="Dropbox login dialog" class="responsive-img"/>
+<img src="images/dropbox-data-source.png" alt="Dropbox login dialog" class="responsive-img" width="90%"/>
 
 ログイン情報を入力して [ログイン] を選択します。
+認証プロンプトが表示されます。続行するには、[許可] を選択して、*Analytics* アプリケーションに Dropbox クラウド上のファイルへのアクセスを許可します。
 
 ## サポートされるファイル
 
