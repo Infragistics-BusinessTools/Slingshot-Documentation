@@ -1,6 +1,7 @@
 ---
 title: Slingshot 分析 – 必要な知識 
 _description: データを簡単に視覚化して共有できる統合ビジネス インテリジェンス ソリューションである Slingshot の分析機能について説明します。
+_language: ja
 ---
 
 # 分析
