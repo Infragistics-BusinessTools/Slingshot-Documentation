@@ -5,19 +5,19 @@ _description: データを簡単に視覚化して共有できる統合ビジネ
 
 # 分析
 
-With the *My Analytics* section of Slingshot, you can bring the power of BI (business intelligence) into your daily workflow while helping your team make faster data-driven decisions.
+Slingshot の **[分析]** セクションを使用すると、BI (ビジネス インテリジェンス) の力を日常のワークフローに取り入れ、チームがデータに基づいたより迅速な意思決定を行えるようになります。
 
 ## [分析] の内容
 
 データ主導の意思決定を行うために、Slingshot は次の機能を備えています:
 
-- **ダッシュボード** – ダッシュボードを作成または共有して、チームがデータを活用し、生産性を向上できるようにします。Bring multiple data sources into one dashboard to ensure that you have all the information in one place.
-- **Data Sources** - Connect directly to wherever your data comes from, including content managers, cloud services, CRMs, databases, spreadsheets, and more.
-- **Data Catalog** - Find the most trustful information about your company in the list of data catalogs. The data is categorized and certified. 
+- **ダッシュボード** – ダッシュボードを作成または共有して、チームがデータを活用し、生産性を向上できるようにします。複数のデータ ソースを 1 つのダッシュボードに統合して、すべての情報を 1 か所にまとめます。
+- **データソース** - コンテンツ マネージャー、クラウド サービス、CRM、データベース、スプレッドシートなど、データの送信元に直接接続します。
+- **データ カタログ** - データ カタログのリストから、会社に関する最も信頼できる情報を見つけます。データは分類され、認証されます。
 
->[!Note] Data Catalogs are available only to *[Enterprise](https://www.slingshotapp.io/en/help/docs/slingshot-enterprise-subscription)* users.
+>[!Note] データ カタログは *[Enterprise](https://www.slingshotapp.io/en/help/docs/slingshot-enterprise-subscription)* ユーザーのみが利用できます。
 
-データ ソースは表示形式を構成し、表示形式はダッシュボードを構成します。In other words, your data comes from a data source, a visualization connects to that data source and displays the information. In order to increase productivity, dashboards include a collection of visualizations that have different pieces of related information.
+データ ソースは表示形式を構成し、表示形式はダッシュボードを構成します。つまり、データはデータ ソースから取得され、可視化がそのデータ ソースに接続して情報を表示します。 生産性を向上させるために、ダッシュボードには、さまざまな関連情報を含む可視化のコレクションが含まれています。
 
 ## ダッシュボード
 
@@ -27,60 +27,60 @@ With the *My Analytics* section of Slingshot, you can bring the power of BI (bus
 
 ### カスタマイズ
 
-データの並べ替え、フィルター、集計も思い通りにできます! Each chart type provides you with different settings to design your visualizations the way you want them to appear.
+データの並べ替え、フィルター、集計も思い通りにできます! チャートの種類ごとに、視覚化を希望どおりにデザインするためのさまざまな設定が提供されます。
 
-[Read more about the different chart types here!](https://www.slingshotapp.io/en/help/docs/analytics/data-visualizations/overview)
+[さまざまなチャート タイプの詳細については、こちらをご覧ください](https://www.slingshotapp.io/en/help/docs/analytics/data-visualizations/overview)。
 
 ### インタラクション
 
-Once your dashboard is created, interact with your visualizations with the drill-up/down support. 
+ダッシュボードが作成されたら、ドリルアップ / ダウン サポートを使用して可視化を操作します。
 
-### Share
+### 共有
 
-ダッシュボードを他の人と共有し、それらを介して共同作業します。 Different levels of permission types allow you to choose how to share the dashboards and what the access to them can be.
+ダッシュボードを他の人と共有し、それらを介して共同作業します。さまざまなレベルの権限タイプを使用して、ダッシュボードの共有方法とダッシュボードへのアクセスの内容を選択できます。
 
-[Read more about dashboards here!](dashboards/overview)
+[ダッシュボードの詳細については、こちらをご覧ください](dashboards/overview)。
 
 ## データ ソース
 
-人気のあるデータ ソースへ、特別なサーバー設定なしで接続できます。 Get real-time insights by connecting directly to *SharePoint Online*, *Google Drive*, *OneDrive*, *Microsoft Analysis Services*, *Microsoft SQL Server*, *CRM*, and many more. 
+人気のあるデータ ソースへ、特別なサーバー設定なしで接続できます。*SharePoint オンライン*、*Google ドライブ*、*OneDrive*、*Microsoft Analysis Services*、*Microsoft SQL Server*、*CRM* などに直接接続して、リアルタイムなインサイトを取得します。
 
-[Click here for a full list of connectors!](datasources/overview)
+[コネクタの完全なリストについてはここをクリックしてください](datasources/overview)。
 
 ### 接続
 
-To connect right to your data source and build your visualizations, you can follow these steps:
+データ ソースに直接接続して表示形式を構築するには、次の手順に従います: 
 
-1. Click/tap on the **+ Dashboard** or **Create Dashboard** (Getting started section) blue button.
+1. **[+ ダッシュボード]** または **[ダッシュボードの作成]** (作業の開始セクション) の青いボタンをクリックまたはタップします。
 2. 接続するデータ ソースを選択します。
 3. 接続を構成します。これには、ファイルの場所 (スプレッドシートまたは JSON ファイル) の選択や、資格情報 (データ ストレージ、Web リソース、ソーシャル メディア コネクター、データベース) の入力が含まれる場合があります。
 
-[Read more about data sources here!](datasources/overview)
+[データ ソースの詳細については、こちらをご覧ください](datasources/overview)。
 
 ## データ カタログ
 
-Your organization’s data catalog makes it easier for users to quickly find the insights they are searching for. With this feature, *Enterprise* users can access an extensive catalog of dashboards and data sources. 
+組織のデータ カタログを使用すると、ユーザーは探している洞察を簡単にすばやく見つけることができます。この機能により、*Enterprise* ユーザーはダッシュボードとデータ ソースの広範なカタログにアクセスできます。 
 
 認証は、組織内で最も信頼できるデータを見つけるのに役立つため、データ カタログの重要な部分です。これは、どのダッシュボードまたはデータ ソースが信頼でき、検証済みの情報が含まれているかを知るための優れた方法です。ダッシュボードまたはデータ ソースが認証されると、その横に金、銀、または銅のバッジが表示されます。
 
 <img src="../images/data-sources-certified-example.png" alt="Certifications in Slingshot" class="responsive-img"/>
 
-[Read more about data catalog here!](../data-catalog.md)
+[データ カタログの詳細については、こちらをご覧ください](../data-catalog.md)。
 
-## Lists
+## リスト
 
 ダッシュボードとデータ ソースの複数のリストを管理できます。これらのリストは、これらのリソースを整理、管理、および共有するようにデザインされています。
-[ダッシュボード] タブと [データ ソース] タブには、セクションごとに整理できるリストがあります。Sections are useful to add divisions and to better layout your content.
+[ダッシュボード] タブと [データ ソース] タブには、セクションごとに整理できるリストがあります。セクションは、コンテンツを分割してより良くレイアウトする場合に便利です。
 
 <img src="../images/my-analytics-dashboard-lists.png" alt="Data Catalog screen within Slingshot" class="responsive-img"/>
 
 ### 定義済みのリスト
 
-By default, you start with the following lists - *My Dashboards* and *My Data Sources*, but you can create more lists and easily reorganize and move them just by dragging them. 
+デフォルトでは、*My Dashboards* および *My Data Sources* のリストから開始しますが、さらにリストを作成し、ドラッグするだけで簡単に再編成および移動することができます。 
 
-## Filters
+## フィルター
 
-Using filters allows you to view a set of dashboards or data sources that meet certain criteria. There are also filters out-of-the-box that you can save for future re-use.
+フィルターを使用すると、特定の条件を満たすダッシュボードまたはデータ ソースのセットを表示できます。将来の再利用のために保存できる、すぐに使えるフィルターもあります。
 
 ### 定義済みのフィルター
 
@@ -93,16 +93,16 @@ Slingshot には、特定のダッシュボードまたはデータ ソースを
 
 ### フィルターの作成
 
-To access the Filters editor, just click/tap the **+ Filter** icon in the *FILTERS* section.
+フィルター エディターにアクセスするには、*フィルター* セクションの **[+ フィルター]** アイコンをクリック / タップするだけです。
 
-To stop filtering dashboards or data sources, you can:
+ダッシュボードまたはデータ ソースのフィルタリングを停止するには、次の方法があります。
 
-1. Click/tap on the filter icon to open the *Filters* dialog. 
-2. Select the **Clear** button at the bottom to remove the current filters.
-3. Click/tap on **Apply** to save your changes.
+1. フィルター アイコンをクリックまたはタップして、[フィルター] ダイアログを開きます。
+2. 下部にある **[クリア]** ボタンを選択して、現在のフィルターを削除します。
+3. **[適用]** をクリックまたはタップして変更を保存します。
 
 <img src="../images/dashboard-filters-example.png" alt="Data Catalog screen within Slingshot" class="responsive-img"/>
 
 ### フィルターの保存
 
-Sometimes you might want to save a filter in order to use it again in the future. With Slingshot, you can save specific filters and later edit them, if needed. These filters can help keep at hand a list of dashboards or data sources that are relevant to you.
+将来再度使用するためにフィルターを保存したい場合があります。Slingshot を使用すると、特定のフィルターを保存し、必要に応じて後で編集できます。これらのフィルターは、自分に関連するダッシュボードやデータ ソースのリストを手元に置いておくのに役立ちます。
