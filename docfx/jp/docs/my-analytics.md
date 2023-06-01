@@ -39,13 +39,13 @@ Slingshot の **[分析]** セクションを使用すると、BI (ビジネス 
 
 ダッシュボードを他の人と共有し、それらを介して共同作業します。さまざまなレベルの権限タイプを使用して、ダッシュボードの共有方法とダッシュボードへのアクセスの内容を選択できます。
 
-[ダッシュボードの詳細については、こちらをご覧ください](dashboards/overview)。
+[ダッシュボードの詳細については、こちらをご覧ください](https://www.slingshotapp.io/en/help/docs/analytics/dashboards/overview)。
 
 ## データ ソース
 
 人気のあるデータ ソースへ、特別なサーバー設定なしで接続できます。*SharePoint オンライン*、*Google ドライブ*、*OneDrive*、*Microsoft Analysis Services*、*Microsoft SQL Server*、*CRM* などに直接接続して、リアルタイムなインサイトを取得します。
 
-[コネクタの完全なリストについてはここをクリックしてください](datasources/overview)。
+[コネクタの完全なリストについてはここをクリックしてください](https://www.slingshotapp.io/en/help/docs/analytics/datasources/overview)。
 
 ### 接続
 
@@ -55,8 +55,6 @@ Slingshot の **[分析]** セクションを使用すると、BI (ビジネス 
 2. 接続するデータ ソースを選択します。
 3. 接続を構成します。これには、ファイルの場所 (スプレッドシートまたは JSON ファイル) の選択や、資格情報 (データ ストレージ、Web リソース、ソーシャル メディア コネクター、データベース) の入力が含まれる場合があります。
 
-[データ ソースの詳細については、こちらをご覧ください](datasources/overview)。
-
 ## データ カタログ
 
 組織のデータ カタログを使用すると、ユーザーは探している洞察を簡単にすばやく見つけることができます。この機能により、*Enterprise* ユーザーはダッシュボードとデータ ソースの広範なカタログにアクセスできます。 
@@ -65,7 +63,7 @@ Slingshot の **[分析]** セクションを使用すると、BI (ビジネス 
 
 <img src="../images/data-sources-certified-example.png" alt="Certifications in Slingshot" class="responsive-img"/>
 
-[データ カタログの詳細については、こちらをご覧ください](../data-catalog.md)。
+[データ カタログの詳細については、こちらをご覧ください](https://www.slingshotapp.io/en/help/docs/data-catalog)。
 
 ## リスト
 
