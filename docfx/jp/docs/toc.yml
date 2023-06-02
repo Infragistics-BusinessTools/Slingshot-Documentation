@@ -29,7 +29,7 @@
       href: metadata-advanced-editing.md
 - name: 分析
   href: analytics/toc.yml
-  topicHref: analytics/index.md
+  topicHref: my-analytics.md
 - name: コミュニケーション
   href: communication.md
   items:

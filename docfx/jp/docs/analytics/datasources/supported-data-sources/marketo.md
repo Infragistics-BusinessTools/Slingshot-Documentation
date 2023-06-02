@@ -1,6 +1,7 @@
 ---
 title: Marketo をデータ ソースとして使用する方法
 _description: Marketo に接続して Slingshot でデータを使用する方法を説明します。
+_language: ja
 ---
 
 # Marketo 

@@ -18,9 +18,9 @@ _language: ja
 2. **[+ ダッシュボード]** の青いボタンをクリックまたはタップします。
 
    <img src="images/data-sources-my-analytics.png" alt="Dashboard button in my analytics" class="responsive-img" width="90%"/>
-3. **[データ ソース]** ダイアログに、最近使用したデータ ソースのリストが表示されます。新しい接続を作成するには、右上隅にある **[+ データ ソース]** ボタンを選択します。
+3. **[新しい表示形式]** ダイアログに、最近使用したデータ ソースのリストが表示されます。新しい接続を作成するには、右上隅にある **[+ データ ソース]** ボタンを選択します。
 
-   <img src="./images/data-sources-list.png" alt="Sample data sources" class="responsive-img" width="70%"/>
+   <img src="./images/sample-data-new-visualization-dialog.png" alt="Sample data sources" class="responsive-img" width="90%"/>
 
 データ ソース プロバイダーを選択すると、データ ソースを**設定**するように求められます。設定に関しては、選択したデータ ソースの設定に関する記事をご覧ください (以下のリストを参照)。
 
@@ -98,7 +98,7 @@ _language: ja
 
 データ ソースをフィルターするには、右上隅にあるフィルター ボタンをクリックします。
 
-   <img src="images/data-sources-filters.png" alt="A dialog with filtering options" class="responsive-img" width="70%"/>
+   <img src="images/data-sources-filter-options.png" alt="A dialog with filtering options" class="responsive-img" width="90%"/>
 
 ## 関連トピック 
 
