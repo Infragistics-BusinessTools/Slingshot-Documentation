@@ -13,12 +13,12 @@ Visualizations are the building blocks of your dashboard. So, when you start cre
 
 * Start with **creating a new dashboard** where the new visualization will be your first and/or only visualization. To do this, go to **My Analytics** or a workspace and click/tap on the **+Dashboard** blue button.
 
-* Start by **adding a new visualization** to an already existing dashboard. To do this, open a dashboard in [*Dashboard Edit*](~/docs/analytics/dashboards/dashboards-interactions.html#view-edit-mode) mode and click/tap on the *dashboard* blue split button (the **+** blue button on mobile devices). 
+* Start by **adding a new visualization** to an already existing dashboard. To do this, open a dashboard in [*Dashboard Edit*](../dashboards/dashboards-interactions.md#view--edit-modes) mode and click/tap on the *dashboard* blue split button (the **+** blue button on mobile devices). 
 
 After that, you will be prompted
 to add a new or select an existing [data source](~/docs/analytics/datasources/overview.md).
 
-<img src="images/data-sources-list.png" alt="Dialog with a list of data sources" width="60%" class="responsive-img"/>
+<img src="images/new-visualization-screen.png" alt="Dialog with a list of data sources" width="85%" class="responsive-img"/>
 
 With the data source selected and configured, you will be navigated to the [Visualizations Editor](visualizations-editor.md), where you can start creating your visualization.
 
@@ -63,7 +63,7 @@ Among other things, you will be able to:
 
   - [**Sort**](~/docs/analytics/data-visualizations/fields/sort-by-field.md) & [**filter**](~/docs/analytics/filters/visualization-filters.md) data.
 
-  - [**Aggregate data**](~/docs/analytics/data-visualizations/fields/field-settings.md) in the data editor.
+  - [**Aggregate data**](./fields/calculated-fields/aggregation.md) in the data editor.
 
   - **Search**, **Visualize** & [**format**](~/docs/analytics/data-visualizations/fields/conditional-formatting.md) data.
 

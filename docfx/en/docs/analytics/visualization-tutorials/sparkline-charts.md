@@ -5,37 +5,13 @@ _description: A quick tutorial on creating Sparkline Charts visualization using 
 
 # Creating Sparkline Charts
 
-In this tutorial, you will learn how to a Sparkline chart visualization
+In this tutorial, you will learn how to create Sparkline charts visualizations
 using a sample spreadsheet.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><img src="images/simple-sparkline-chart.png" alt="SparklineChartSimple All" class="responsive-img"/><br />
-</p>
-<p><a href="#create-sparkline">Simple Sparkline</a><br />
-</p></td>
-<td><p><img src="images/sparkline-area-chart.png" alt="SparklineChartArea All" class="responsive-img" /><br />
-</p>
-<p><a href="#change-chart-type-sparkline">Sparkline with Area Chart</a><br />
-</p></td>
-</tr>
-<tr class="even">
-<td><p><img src="images/sparkline-with-day-aggregation.png" alt="SparklineDateAggregation All" class="responsive-img" /><br />
-</p>
-<p><a href="#change-date-aggregation">Sparkline with Day Aggregation</a><br />
-</p></td>
-<td><p><img src="images/sparkline-with-less-columns-and-area-chart.png" alt="SparklineLessColumns All" class="responsive-img" /><br />
-</p>
-<p><a href="#modify-columns">Sparkline with less Columns and Area Chart</a><br />
-</p></td>
-</tr>
-</tbody>
-</table>
+<img src="images/simple-sparkline-chart.png" alt="Simple Sparkline Chart example" class="responsive-img" width="80%"/>
+<img src="images/sparkline-area-chart.png" alt="Sparkline Area Chart example" class="responsive-img" width="80%"/>
+<img src="images/sparkline-with-day-aggregation.png" alt="Sparkline with Day Aggregation example" class="responsive-img" width="80%">
+<img src="images/sparkline-with-less-columns-and-area-chart.png" alt="Sparkline with less columns and area chart example" class="responsive-img" width="80%" length="90%"/>
 
 Access the links below for the Sparkline chart view walkthroughs:
 
@@ -82,7 +58,7 @@ For this tutorial, you will use the "Sparkline Charts" sheet
 in the [Slingshot Visulization Tutorials](https://download.infragistics.com/slingshot/samples/Slingshot_Visualization_Tutorials.xlsx).
 
 >[!NOTE]
->Excel files as local files are not supported in this release. In order to follow these tutorials, make sure you upload the file to one of the supported *cloud services* or add it as a [Web Resource](~/en/datasources/supported-data-sources/web-resource.md).
+>Excel files as local files are not supported in this release. In order to follow these tutorials, make sure you upload the file to one of the supported cloud services or add it as a [Web Resource](../datasources/supported-data-sources/web-resource.md).
 
 <a name='create-sparkline'></a>
 ## Creating a Sparkline Chart
@@ -90,15 +66,15 @@ in the [Slingshot Visulization Tutorials](https://download.infragistics.com/slin
 
 1. Select the **+ Dashboard** button in the top right-hand corner of **My Analytics**.
 
-   <img src="images/dashboard-button-my-analytics.png" alt="Tutorials-Create-New-Dashboard" class="responsive-img" width="65%"/>  
+   <img src="images/dashboard-button-my-analytics.png" alt="Tutorials-Create-New-Dashboard" class="responsive-img" width="90%"/>  
 
 2. Select your data source(**Slingshot Tutorials Spreadsheet**) from the list of data sources. If the data source is new, you will need to first add it from the **+ Data Source** button in the top-right corner.
 
-   <img src="images/visualization-tutorials-data-source.png" alt="Tutorials-Select-Data-Source" class="responsive-img" width="60%"/>                                         
+   <img src="images/visualization-tutorials-sample.png" alt="Tutorials-Select-Data-Source" class="responsive-img" width="90%"/>                                         
 
 3. Select the **Sparkline Charts** sheet.
 
-   <img src="images/sparkline-charts-spreadsheet.png" alt="Tutorials-Select-Sparkline-Charts-Spreadsheet.png" class="responsive-img" width="60%"/>                         
+   <img src="images/sparkline-charts-spreadsheet.png" alt="Tutorials-Select-Sparkline-Charts-Spreadsheet.png" class="responsive-img" width="65%"/>                         
 
 4. Open the *Visualization Picker* and select the **Sparkline Chart**. By default, the visualization type will be set to **Column**.                                                                             
   <img src="images/chart-types-sparkline.png" alt="Tutorials-Charts-Select-Sparkline-Chart" class="responsive-img" width="60%"/>                                                     

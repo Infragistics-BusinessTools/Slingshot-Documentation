@@ -5,10 +5,10 @@ _description: A quick tutorial on creating OHLC visualizations using a sample sp
 
 # Creating OHLC Visualizations
 
-In this tutorial, you will learn how to a OHLC chart visualization using
+In this tutorial, you will learn how to create a OHLC chart visualization using
 a sample spreadsheet.
 
-<img src="images/ohlc-charts-example.png" alt="Tutorials-Select-OHLC-Candlestick-Charts-Spreadsheet" class="responsive-img" width="88%"/>
+<img src="images/ohlc-charts-example.png" alt="Tutorials-Select-OHLC-Candlestick-Charts-Spreadsheet" class="responsive-img" width="92%"/>
 
 
 Access the links below for the OHLC chart view walkthroughs:
@@ -56,26 +56,26 @@ chart:
 For this tutorial, you will use the "OHLC and Candlestick" sheet in the [Slingshot Visulization Tutorials](https://download.infragistics.com/slingshot/samples/Slingshot_Visualization_Tutorials.xlsx).
 
 >[!NOTE]
->Excel files as local files are not supported in this release. In order to follow these tutorials, make sure you upload the file to one of the supported cloud services or add it as a [Web Resource](~/en/datasources/supported-data-sources/web-resource.md).
+>Excel files as local files are not supported in this release. In order to follow these tutorials, make sure you upload the file to one of the supported cloud services or add it as a [Web Resource](../datasources/supported-data-sources/web-resource.md).
 
 <a name='creating-ohlc-chart'></a>
 ## Creating a OHLC Chart
 
 1. Select the **+ Dashboard** button in the top right-hand corner of **My Analytics**.
 
-   <img src="images/dashboard-button-my-analytics.png" alt="Tutorials-Create-New-Dashboard" class="responsive-img" width="65%"/>
+   <img src="images/dashboard-button-my-analytics.png" alt="Tutorials-Create-New-Dashboard" class="responsive-img" width="90%"/>
 
 2. Select your data source(**Slingshot Tutorials Spreadsheet**) from the list of data sources. If the data source is new, you will need to first add it from the **+ Data Source** button in the top-right corner.
 
-   <img src="images/visualization-tutorials-data-source.png" alt="Tutorials-Select-Data-Source" class="responsive-img" width="60%"/>                                         
+   <img src="images/visualization-tutorials-sample.png" alt="Tutorials-Select-Data-Source" class="responsive-img" width="90%"/>                                         
 
 3. Choose the **OHLC and Candlestick** sheet. 
 
-    <img src="images/ohlc-candlestick-spreadsheet.png" alt="Tutorials-Select-OHLC-Candlestick-Charts-Spreadsheet" class="responsive-img" width="60%"/>                       
+    <img src="images/ohlc-candlestick-spreadsheet.png" alt="Tutorials-Select-OHLC-Candlestick-Charts-Spreadsheet" class="responsive-img" width="65%"/>                       
 
  4. Open the *Visualization Picker* and select **OHLC**. By default, the visualization type will be set to **Column**.  
 
-    <img src="images/ohlc-chart-types.png" alt="Tutorials-Select-Change-Visualization" class="responsive-img" width="60%"/>                                
+    <img src="images/ohlc-chart-types.png" alt="Tutorials-Select-Change-Visualization" class="responsive-img" width="65%"/>                                
 
  5. Drag and drop the *Date* field into **Label** and the *Open*, *High*, *Low* and *Close* fields in their corresponding placeholder.
 
@@ -84,7 +84,7 @@ For this tutorial, you will use the "OHLC and Candlestick" sheet in the [Slingsh
 <a name='changing-axis-configuration'></a>
 ## Changing your Axis Configuration
 
-Like [gauge bounds](gauge-views.html#adding-bounds-gauge), chart axis
+Like [gauge bounds](../visualization-tutorials/gauge-charts.md#adding-bounds-to-your-gauge), chart axis
 configuration allows you to set the lowest and highest values in your
 chart. You can use this feature to include or exclude specific data.
 

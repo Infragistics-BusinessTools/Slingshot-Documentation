@@ -5,10 +5,10 @@ _description: A quick tutorial on creating Stacked Chart visualization using a s
 
 # Creating Stacked Chart Visualizations
 
-In this tutorial, you will learn how to create stacked chart
+In this tutorial, you will learn how to create Stacked chart
 visualizations using a sample spreadsheet.
 
-<img src="images/different-stacked-charts-example.png" alt="Tutorials-Create-New-Dashboard" class="responsive-img" width="90%"/>  
+<img src="images/different-stacked-charts-example.png" alt="Tutorials-Create-New-Dashboard" class="responsive-img" width="92%"/>  
 
 Access the links below for the Stacked Chart view walkthroughs:
 
@@ -35,7 +35,7 @@ You can also configure the following settings:
     set to 0 by default and the maximum calculated automatically
     depending on your values.
 
-      - **Logarithmic Axis Configuration**: if you check the
+   - **Logarithmic Axis Configuration**: if you check the
         "Logarithmic" checkbox, the scale for your values will be
         calculated with a non-linear scale which takes magnitude into
         account instead of the usual linear scale.
@@ -46,38 +46,36 @@ For this tutorial, you will use the *Stacked Charts* sheet in the
 [Slingshot Visulization Tutorials](https://download.infragistics.com/slingshot/samples/Slingshot_Visualization_Tutorials.xlsx).
 
 >[!NOTE]
-Excel files as local files are not supported in this release. In order
-to follow these tutorials, make sure you upload the file to one of the
-supported *cloud services* or add it as a [Web Resource](datasources/supported-data-sources/web-resource.md).
+>Excel files as local files are not supported in this release. In order to follow these tutorials, make sure you upload the file to one of the supported cloud services or add it as a [Web Resource](../datasources/supported-data-sources/web-resource.md).
 
 </div>
 
 <a name='create-stacked-chart'></a>
 ## Creating a Stacked Chart
 
- 1. Select the **+ Dashboard** button in *My Analytics*.  
+1. Select the **+ Dashboard** button in *My Analytics*.  
 
-  <img src="images/myanalytics-dashboard-button.png" alt="Dashboard button in the My Analytics section" class="responsive-img" width="65%"/> 
+     <img src="images/myanalytics-dashboard-button.png" alt="Dashboard button in the My Analytics section" class="responsive-img" width="90%"/> 
                                                       
- 2. Select your data source(**Slingshot Tutorials Spreadsheet**) from the list of data sources. If the data source is new, you will need to first add it from the **+ Data Source** button in the top-right corner.     
+2. Select your data source (**Slingshot Tutorials Spreadsheet**) from the list of data sources. If the data source is new, you will need to first add it from the **+ Data Source** button in the top-right corner.     
 
-  <img src="images/visualization-tutorials-data-source.png" alt="Tutorials Data Source in the list of already added data sources" class="responsive-img" width="60%"/>
+      <img src="images/visualization-tutorials-sample.png" alt="Tutorials Data Source in the list of already added data sources" class="responsive-img" width="90%"/>
 
- 3. Choose the **Stacked Charts** sheet.               
+3. Choose the **Stacked Charts** sheet.               
 
-  <img src="images/stacked-chart-spreadsheet-data-source-details-dialog.png" alt="Stacked Charts Spreadsheet in the tutorial data source" class="responsive-img" width="60%"/>
+     <img src="images/stacked-chart-spreadsheet-data-source-details-dialog.png" alt="Stacked Charts Spreadsheet in the tutorial data source" class="responsive-img" width="65%"/>
   
- 4. Select the **Grid icon** in the top bar of the Visualizations Editor. By default, the visualization type will be set to *Column*. You can always change it by selecting any of the **stack** visualizations.     
+4. Select the **Grid icon** in the top bar of the Visualizations Editor. By default, the visualization type will be set to *Column*. You can always change it by selecting any of the **stack** visualizations.     
  
-    <img src="images/stacked-chart-types.png" alt="List of all the chart types used for a visualization" class="responsive-img" width="60%"/>                                                                                                    
- 5. Stacked charts require two or more fields to be dragged and dropped into the **Values** placeholder of the data editor. In this case, the *1960*, *2003*, *2008* and *2010* fields have been dropped into **Values** and *Country Name* in **Label**. 
+     <img src="images/stacked-chart-types.png" alt="List of all the chart types used for a visualization" class="responsive-img" width="70%"/>                                                                                                    
+5. Stacked charts require two or more fields to be dragged and dropped into the **Values** placeholder of the data editor. In this case, the *1960*, *2003*, *2008* and *2010* fields have been dropped into **Values** and *Country Name* in **Label**. 
 
-   <img src="images/stacked-charts-organizing-data.png" alt="Organizing the data from the stacked charts spreadsheet" class="responsive-img" width="35%"/>
+    <img src="images/stacked-charts-organizing-data.png" alt="Organizing the data from the stacked charts spreadsheet" class="responsive-img" width="35%"/>
 
 <a name='change-axis-configuration'></a>
 ## Changing your Axis Configuration
 
-Similarly to the [Gauge bands](~/en/data-visualizations/gauge-charts#bands-configuration), the
+Similarly to the [Gauge bands](../data-visualizations/visualization-types/gauge-charts.md#bands-configuration), the
 chart axis configuration allows you to set the lowest and highest values
 in your chart. You can use this feature to include or exclude specific
 data.

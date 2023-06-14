@@ -26,7 +26,7 @@ To create a scatter chart:
 1.  Select the *Scatter* visualization in the *Change Visualization*
     menu:
 
-    <img src="images/chart-types-scatter.png" alt="Location of the scatter visualization in the change visualization menu" class="responsive-img" width="65%"/>
+<img src="images/chart-types-scatter.png" alt="Location of the scatter visualization in the change visualization menu" class="responsive-img" width="80%"/>
 
 2.  Choose numerical fields for the *X axis* and *Y axis*, which will
     determine the location of the data points.

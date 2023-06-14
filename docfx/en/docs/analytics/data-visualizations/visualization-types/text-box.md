@@ -29,9 +29,11 @@ Text Box creation menu, follow the steps below:
 
 2.  The *New Visualization* dialog opens and prompts you to select a data source. Click/tap on the **X** to close the dialog.
 
-    <img src="images/data-sources-list.png" alt="New visualization dialog" class="responsive-img" width="60%"/>
+    <img src="../images/new-visualization-screen.png" alt="New visualization dialog" class="responsive-img" width="90%"/>
 
-3.  Click/tap on the *arrow* of the *+ Visualization* split button ⇒ *Text Box*.
+3.  Click/tap on the *arrow* of the *+ Visualization* split button and select *Text Box*.
+
+    <img src="./images/new-dashboard-text-box.png" alt="New visualization dialog" class="responsive-img" width="90%"/>  
 
 ## Working With the Text Box Visualization
 

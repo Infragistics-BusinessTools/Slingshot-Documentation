@@ -7,7 +7,7 @@ _description: Get familiar the specifics of creating a Candlestick chart visuali
 
 In this tutorial, you will learn how to create a Candlestick chart visualization using a sample spreadsheet.
 
-<img src="images/different-candlestick-charts.png" alt="A sample with different candlestick charts" class="responsive-img" width="87%"/>
+<img src="images/different-candlestick-charts.png" alt="A sample with different candlestick charts" class="responsive-img" width="92%"/>
 
 Access the links below for the Candlestick chart view walkthroughs:
 
@@ -54,33 +54,33 @@ chart:
 For this tutorial, you will use the "OHLC and Candlestick" sheet in the [Slingshot Visulization Tutorials](https://download.infragistics.com/slingshot/samples/Slingshot_Visualization_Tutorials.xlsx).
 
 >[!NOTE]
->Excel files as local files are not supported in this release. In order to follow these tutorials, make sure you upload the file to one of the supported cloud services or add it as a [Web Resource](~/en/datasources/supported-data-sources/web-resource.md).
+>Excel files as local files are not supported in this release. In order to follow these tutorials, make sure you upload the file to one of the supported cloud services or add it as a [Web Resource](../datasources/supported-data-sources/web-resource.md).
 
 <a name='creating-candlestick-chart'></a>
 ## Creating a Candlestick Chart
 
 1. Select the **+ Dashboard** button in the top right-hand corner in the **My Analytics** section.
 
-   <img src="images/dashboard-button-my-analytics.png" alt="Dashboard button for creating a new dashboard" class="responsive-img" width="65%"/>                                      
+   <img src="images/dashboard-button-my-analytics.png" alt="Dashboard button for creating a new dashboard" class="responsive-img" width="90%"/>                                      
 
 2. Select your data source(**Slingshot Tutorials Spreadsheet**) from the list of data sources. If the data source is new, you will need to first add it from the **+ Data Source** button in the top-right corner.
 
-   <img src="images/visualization-tutorials-data-source.png" alt="Selecting the data source from the list of data sources" class="responsive-img" width="60%"/>                                          
+   <img src="images/visualization-tutorials-sample.png" alt="Selecting the data source from the list of data sources" class="responsive-img" width="90%"/>                                          
 
 3. Choose the **OHLC and Candlestick** sheet. 
   
-   <img src="images/ohlc-candlestick-spreadsheet.png" alt="Selecting the OHLC and Candlesticks spreadsheet" class="responsive-img" width="60%"/>
+   <img src="images/ohlc-candlestick-spreadsheet.png" alt="Selecting the OHLC and Candlesticks spreadsheet" class="responsive-img" width="65%"/>
          
 4. Open the *Visualization Picker* and select the **Candlestick** visualization. By default, the visualization type will be set to *Column*. 
 
-   <img src="images/candlestick-chart-types.png" alt="List of chart types" class="responsive-img" width="60%"/>                                                             
+   <img src="images/candlestick-chart-types.png" alt="List of chart types" class="responsive-img" width="65%"/>                                                             
 5.  Drag and drop the *Date* field into *Label* and the *Open*, *High*, *Low* and *Close* fields in their corresponding placeholder.
   <img src="images/candlestick-organizing-data.png" alt="Organizing data fields" width="35%"/>                                                      
 
 <a name='changing-axis-configuration'></a>
 ## Changing your Axis Configuration
 
-Like [gauge bounds](gauge-views.html#adding-bounds-gauge), chart axis
+Like [gauge bounds](../visualization-tutorials/gauge-charts.md#adding-bounds-to-your-gauge), chart axis
 configuration allows you to set the lowest and highest values in your
 chart. You can use this feature to include or exclude specific data.
 
