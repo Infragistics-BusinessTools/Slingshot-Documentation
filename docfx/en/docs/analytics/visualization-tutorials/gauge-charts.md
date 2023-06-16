@@ -5,7 +5,7 @@ _description: A quick tutorial on creating all types of Gauge visualizations usi
 
 # Creating Gauge Visualizations
 
-In this tutorial, you will learn how to create *Gauge visualizations*
+In this tutorial, you will learn how to create *Gauge* visualizations
 using a sample spreadsheet.
 
 <img src="images/different-gauge-visualizations.png" alt="Different Gauge Visualizations" class="responsive-img" width="92%"/>
