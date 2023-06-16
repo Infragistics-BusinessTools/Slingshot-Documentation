@@ -51,7 +51,7 @@ chart:
 
 ## Sample Data Source
 
-For this tutorial, you will use the "OHLC and Candlestick" sheet in the [Slingshot Visualization Tutorials](https://download.infragistics.com/slingshot/samples/Slingshot_Visualization_Tutorials.xlsx).
+For this tutorial, you will use the *OHLC and Candlestick* sheet in the [Slingshot Visualization Tutorials](https://download.infragistics.com/slingshot/samples/Slingshot_Visualization_Tutorials.xlsx).
 
 >[!NOTE]
 >Excel files as local files are not supported in this release. In order to follow these tutorials, make sure you upload the file to one of the supported cloud services or add it as a [Web Resource](../datasources/supported-data-sources/web-resource.md).
@@ -100,7 +100,7 @@ The default value is set to *Auto*. In order to set a different bound, enter the
 
 ### Changing the Maximum Bound
 
-For Maximum bounds, the default will be set to "Automatic" so that
+For Maximum bounds, the default will be set to *Automatic* so that
 Analytics uses your original data. In order to set a different one, enter
 the value you want for the chart's top limit.
 

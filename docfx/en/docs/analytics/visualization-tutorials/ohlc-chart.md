@@ -46,14 +46,14 @@ chart:
     set to 0 by default and the maximum calculated automatically
     depending on your values.
 
-  - **Logarithmic Axis Configuration**: if you check the "Logarithmic"
+  - **Logarithmic Axis Configuration**: if you check the *Logarithmic*
     checkbox, the scale for your values will be calculated with a
     non-linear scale which takes magnitude into account instead of the
     usual linear scale.
 
 ## Sample Data Source
 
-For this tutorial, you will use the "OHLC and Candlestick" sheet in the [Slingshot Visualization Tutorials](https://download.infragistics.com/slingshot/samples/Slingshot_Visualization_Tutorials.xlsx).
+For this tutorial, you will use the *OHLC and Candlestick* sheet in the [Slingshot Visualization Tutorials](https://download.infragistics.com/slingshot/samples/Slingshot_Visualization_Tutorials.xlsx).
 
 >[!NOTE]
 >Excel files as local files are not supported in this release. In order to follow these tutorials, make sure you upload the file to one of the supported cloud services or add it as a [Web Resource](../datasources/supported-data-sources/web-resource.md).
