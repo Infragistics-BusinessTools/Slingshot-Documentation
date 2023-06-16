@@ -53,7 +53,7 @@ chart:
 
 ## Sample Data Source
 
-For this tutorial, you will use the "OHLC and Candlestick" sheet in the [Slingshot Visulization Tutorials](https://download.infragistics.com/slingshot/samples/Slingshot_Visualization_Tutorials.xlsx).
+For this tutorial, you will use the "OHLC and Candlestick" sheet in the [Slingshot Visualization Tutorials](https://download.infragistics.com/slingshot/samples/Slingshot_Visualization_Tutorials.xlsx).
 
 >[!NOTE]
 >Excel files as local files are not supported in this release. In order to follow these tutorials, make sure you upload the file to one of the supported cloud services or add it as a [Web Resource](../datasources/supported-data-sources/web-resource.md).
@@ -84,7 +84,7 @@ For this tutorial, you will use the "OHLC and Candlestick" sheet in the [Slingsh
 <a name='changing-axis-configuration'></a>
 ## Changing your Axis Configuration
 
-Like [gauge bounds](../visualization-tutorials/gauge-charts.md#adding-bounds-to-your-gauge), chart axis
+Like [Gauge bounds](../visualization-tutorials/gauge-charts.md#adding-bounds-to-your-gauge), chart axis
 configuration allows you to set the lowest and highest values in your
 chart. You can use this feature to include or exclude specific data.
 
@@ -100,13 +100,13 @@ both), you will need to access one of the following options:
 
 ### Changing the Minimum Bound
 
-The default value is set to "0". In order to set a different bound,
+The default value is set to *0*. In order to set a different bound,
 enter the value you want the chart to start with.
 
 ### Changing the Maximum Bound
 
-For Maximum bounds, the default will be set to "Automatic" so that
-Reveal uses your original data. In order to set a different one, enter
+For Maximum bounds, the default will be set to *Automatic* so that
+Slingshot uses your original data. In order to set a different one, enter
 the value you want for the chart's top limit.
 
 <a name='setting-logarithmic-axis'></a>

@@ -5,7 +5,7 @@ _description: Configuring an Amazon Athena data source to use unstructured data 
 
 # Amazon Athena 
 
-The Amazon Athena data source in Analytics allows you to access and query unstructured data stored in [Amazon S3](amazon-s3.md), and use it for your visualizations.  
+The Amazon Athena data source in Analytics allows you to access and query unstructured data stored in Amazon S3, and use it for your visualizations.  
 ## Connecting to Amazon Athena
 
 To configure an Amazon Athena data source, you will need to enter the following information:
@@ -22,9 +22,9 @@ To configure an Amazon Athena data source, you will need to enter the following 
 
    For more information about the AWS credentials, please take a look at this [Amazon article](https://docs.aws.amazon.com/general/latest/gr/aws-sec-cred-types.html).
    
- 3. *(Optional)* **Workgroup**: choosing one of your workgroups from the dropdown is *optional*. If you don't specify a workgroup, then the *primary* workgroup (which is the default workgroup in your Athena account) will be automatically selected. 
+ 3. **Workgroup**: choosing one of your workgroups from the dropdown is *optional*. If you don't specify a workgroup, then the *primary* workgroup (which is the default workgroup in your Athena account) will be automatically selected. *(Optional)*
 
- 4. *(Optional)* **Query result location**: this is the directory in *Amazon S3* where the results of your query will be stored. You need to provide a valid *S3* path, e.g.: *s3://query-results-bucket/folder/*. If you don't explicitly specify the path in this dialog, the results will be stored in the output location specified in the selected/default workgroup. If there is no output location created in the workgroup, your Athena query will fail.
+ 4. **Query result location**: this is the directory in *Amazon S3* where the results of your query will be stored. You need to provide a valid *S3* path, e.g.: *s3://query-results-bucket/folder/*. If you don't explicitly specify the path in this dialog, the results will be stored in the output location specified in the selected/default workgroup. If there is no output location created in the workgroup, your Athena query will fail. *(Optional)*
 
     <img src="images/amazon-athena-configuration-dialog.png" alt="Configure Amazon Athena dialog" class="responsive-img" width="50%"/>
   

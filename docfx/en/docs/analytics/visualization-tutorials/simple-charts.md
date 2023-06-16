@@ -5,7 +5,7 @@ _description: A quick tutorial on creating a Simple-Series visualization using a
 
 # Creating Simple-Series Charts
 
-In this tutorial, you will learn how to create Simple-Series charts
+In this tutorial, you will learn how to create *Simple-Series* charts
 visualizations using a sample spreadsheet.
 
 <img src="images/simple-series-charts-example.png" alt="Visualizations made by using simple series charts" class="responsive-img" width="92%"/>
@@ -45,7 +45,7 @@ data you want to display. This comes in the form of:
     set to 0 by default and the maximum calculated automatically
     depending on your values.
 
-      - *Logarithmic Axis Configuration*: if you check the "Logarithmic"
+      - *Logarithmic Axis Configuration*: if you check the *Logarithmic*
         checkbox, the scale for your values will be calculated with a
         non-linear scale which takes magnitude into account instead of
         the usual linear scale.
@@ -60,7 +60,7 @@ data you want to display. This comes in the form of:
 
 ## Sample Data Source
 
-For this tutorial, you will use the *Simple Series Charts* sheet in the [Slingshot Visulization Tutorials](https://download.infragistics.com/slingshot/samples/Slingshot_Visualization_Tutorials.xlsx).
+For this tutorial, you will use the *Simple Series Charts* sheet in the [Slingshot Visualization Tutorials](https://download.infragistics.com/slingshot/samples/Slingshot_Visualization_Tutorials.xlsx).
 
 >[!NOTE]
 >Excel files as local files are not supported in this release. In order to follow these tutorials, make sure you upload the file to one of the supported cloud services or add it as a [Web Resource](../datasources/supported-data-sources/web-resource.md).
@@ -102,7 +102,7 @@ information. In order to do this:
 <a name='change-axis-configuration'></a>
 ## Changing your Axis Configuration
 
-Similarly to the [Gauge bands](../data-visualizations/visualization-types/gauge-charts.md#bands-configuration), the
+Similarly to the [Gauge bounds](../visualization-tutorials/gauge-charts.md#adding-bounds-to-your-gauge), the
 chart axis configuration allows you to set the lowest and highest values
 in your chart. You can use this feature to include or exclude specific
 data.

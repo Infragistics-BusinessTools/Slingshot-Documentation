@@ -5,13 +5,13 @@ _description: A quick tutorial on creating Sparkline Charts visualization using 
 
 # Creating Sparkline Charts
 
-In this tutorial, you will learn how to create Sparkline charts visualizations
+In this tutorial, you will learn how to create *Sparkline* charts visualizations
 using a sample spreadsheet.
 
 <img src="images/simple-sparkline-chart.png" alt="Simple Sparkline Chart example" class="responsive-img" width="80%"/>
 <img src="images/sparkline-area-chart.png" alt="Sparkline Area Chart example" class="responsive-img" width="80%"/>
 <img src="images/sparkline-with-day-aggregation.png" alt="Sparkline with Day Aggregation example" class="responsive-img" width="80%">
-<img src="images/sparkline-with-less-columns-and-area-chart.png" alt="Sparkline with less columns and area chart example" class="responsive-img" width="80%" length="90%"/>
+<img src="images/sparkline-with-less-columns-and-area-chart.png" alt="Sparkline with less columns and area chart example" class="responsive-img" width="70%"/>
 
 Access the links below for the Sparkline chart view walkthroughs:
 
@@ -54,8 +54,8 @@ form of:
 
 ## Sample Data Source
 
-For this tutorial, you will use the "Sparkline Charts" sheet
-in the [Slingshot Visulization Tutorials](https://download.infragistics.com/slingshot/samples/Slingshot_Visualization_Tutorials.xlsx).
+For this tutorial, you will use the *Sparkline Charts* sheet
+in the [Slingshot Visualization Tutorials](https://download.infragistics.com/slingshot/samples/Slingshot_Visualization_Tutorials.xlsx).
 
 >[!NOTE]
 >Excel files as local files are not supported in this release. In order to follow these tutorials, make sure you upload the file to one of the supported cloud services or add it as a [Web Resource](../datasources/supported-data-sources/web-resource.md).

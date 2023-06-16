@@ -50,5 +50,5 @@ In this dialog you can:
 
   - Write your own text in the text body (the *Enter text* box).
 
-  - Add a *Title* (optional).
+  - Add a *Title*. (optional)
 

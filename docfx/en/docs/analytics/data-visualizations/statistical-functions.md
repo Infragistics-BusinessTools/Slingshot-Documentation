@@ -89,7 +89,7 @@ values are highlighted in yellow (see below).
 
 <img src="images/underlying-data-time-series.png" alt="Underlying data in table format with highlighted forecasted data" class="responsive-img" width="85%"/>
 
->[!NOTE] ** The Time series function is available only for charts over time**. If your visualization does not contain a *Date* field, you will receive an error when you try using the Time series function.
+>[!NOTE] **The Time series function is available only for charts over time**. If your visualization does not contain a *Date* field, you will receive an error when you try using the Time series function.
 
 <a name='linear-regression'></a>
 ### Linear regression
