@@ -61,7 +61,7 @@ Your organization’s data catalog makes it easier for users to quickly find the
 
 Certifications are an important part of the data catalog, as they assist you to find the most trusted data within the organization. This is an excellent way to know which dashboards or data sources are reliable and contain verified information. When a dashboard or data source is certified, you will see a gold, silver or bronze colored badge next to it.
 
-<img src="../images/data-sources-certified-example.png" alt="Certifications in Slingshot" class="responsive-img"/>
+<img src="../images/certified-data-source-example.png" alt="Certifications in Slingshot" class="responsive-img"/>
 
 [Read more about data catalog here!](https://www.slingshotapp.io/en/help/docs/data-catalog)
 

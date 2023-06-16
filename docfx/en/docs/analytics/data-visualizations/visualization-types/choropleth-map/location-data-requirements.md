@@ -89,7 +89,7 @@ If your data source information is written in another language, you need to spec
 
 If location information in your data source is written in a different language, you have to translate it outside of Analytics.
 
->[!NOTE]
->**Using a Japanese Data Source with the Japan Map.**
->If you want to use a data source in Japanese to display the Japan map and have all Japanese prefectures mapped, you need to provide the location data in the format shown in [this table](https://ja.wikipedia.org/wiki/%E9%83%BD%E9%81%93%E5%BA%9C%E7%9C%8C#%E4%BA%94%E5%8D%81%E9%9F%B3%E9%A0%86%E3%83%BB%E5%9F%BA%E7%A4%8E%E3%83%87%E3%83%BC%E3%82%BF).
+### Using a Japanese Data Source with the Japan Map
+
+If you want to use a data source in Japanese to display the Japan map and have all Japanese prefectures mapped, you need to provide the location data in the format shown in [this table](https://ja.wikipedia.org/wiki/%E9%83%BD%E9%81%93%E5%BA%9C%E7%9C%8C#%E4%BA%94%E5%8D%81%E9%9F%B3%E9%A0%86%E3%83%BB%E5%9F%BA%E7%A4%8E%E3%83%87%E3%83%BC%E3%82%BF).
 

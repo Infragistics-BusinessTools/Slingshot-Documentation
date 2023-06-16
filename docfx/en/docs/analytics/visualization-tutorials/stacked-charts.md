@@ -5,7 +5,7 @@ _description: A quick tutorial on creating Stacked Chart visualization using a s
 
 # Creating Stacked Chart Visualizations
 
-In this tutorial, you will learn how to create Stacked chart
+In this tutorial, you will learn how to create *Stacked* chart
 visualizations using a sample spreadsheet.
 
 <img src="images/different-stacked-charts-example.png" alt="Tutorials-Create-New-Dashboard" class="responsive-img" width="92%"/>  
@@ -36,14 +36,14 @@ You can also configure the following settings:
     depending on your values.
 
    - **Logarithmic Axis Configuration**: if you check the
-        "Logarithmic" checkbox, the scale for your values will be
+        *Logarithmic* checkbox, the scale for your values will be
         calculated with a non-linear scale which takes magnitude into
         account instead of the usual linear scale.
 
 ## Sample Data Source
 
 For this tutorial, you will use the *Stacked Charts* sheet in the
-[Slingshot Visulization Tutorials](https://download.infragistics.com/slingshot/samples/Slingshot_Visualization_Tutorials.xlsx).
+[Slingshot Visualization Tutorials](https://download.infragistics.com/slingshot/samples/Slingshot_Visualization_Tutorials.xlsx).
 
 >[!NOTE]
 >Excel files as local files are not supported in this release. In order to follow these tutorials, make sure you upload the file to one of the supported cloud services or add it as a [Web Resource](../datasources/supported-data-sources/web-resource.md).
@@ -75,7 +75,7 @@ For this tutorial, you will use the *Stacked Charts* sheet in the
 <a name='change-axis-configuration'></a>
 ## Changing your Axis Configuration
 
-Similarly to the [Gauge bands](../data-visualizations/visualization-types/gauge-charts.md#bands-configuration), the
+Similarly to the [Gauge bounds](../visualization-tutorials/gauge-charts.md#adding-bounds-to-your-gauge), the
 chart axis configuration allows you to set the lowest and highest values
 in your chart. You can use this feature to include or exclude specific
 data.

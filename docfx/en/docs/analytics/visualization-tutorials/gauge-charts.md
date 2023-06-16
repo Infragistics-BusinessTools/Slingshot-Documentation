@@ -5,7 +5,7 @@ _description: A quick tutorial on creating all types of Gauge visualizations usi
 
 # Creating Gauge Visualizations
 
-In this tutorial, you will learn how to create Gauge visualizations
+In this tutorial, you will learn how to create *Gauge visualizations*
 using a sample spreadsheet.
 
 <img src="images/different-gauge-visualizations.png" alt="Different Gauge Visualizations" class="responsive-img" width="92%"/>
@@ -27,7 +27,7 @@ Access the links below for the gauge view walkthroughs:
 <a name='key-concepts'></a>
 ## Key Concepts
 
-There are three different layouts to choose from when using gauge charts:
+There are two different layouts to choose from when using gauge charts:
 
   - **Bounds Configuration**. The bounds configuration for gauges covers
     the lowest and highest possible values in your gauges. It is usually
@@ -41,7 +41,7 @@ There are three different layouts to choose from when using gauge charts:
 
 ## Sample Data Source
 
-For this tutorial, you will use the "Gauge Views" sheet in the [Slingshot Visulization Tutorials](https://download.infragistics.com/slingshot/samples/Slingshot_Visualization_Tutorials.xlsx).
+For this tutorial, you will use the *Gauge Views* sheet in the [Slingshot Visualization Tutorials](https://download.infragistics.com/slingshot/samples/Slingshot_Visualization_Tutorials.xlsx).
 
 >[!NOTE]
 >Excel files as local files are not supported in this release. In order to follow these tutorials, make sure you upload the file to one of the supported cloud services or add it as a [Web Resource](../datasources/supported-data-sources/web-resource.md).

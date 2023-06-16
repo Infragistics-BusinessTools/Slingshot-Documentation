@@ -5,7 +5,7 @@ _description: A quick tutorial on creating an Image Chart visualization using a 
 
 # Creating an Image Chart
 
-In this tutorial you will learn how to create an Image visualization
+In this tutorial you will learn how to create an *Image* visualization
 using a sample spreadsheet.
 
 <img src="../images/image-chart-sample.png" alt="A sample showing different image chart visualizations in one dashboard" class="responsive-img" width="92%"/>
@@ -22,7 +22,7 @@ therefore, will need to:
 
 ## Sample Data Source
 
-For this tutorial, you will use the "Image Chart" sheet in the [Slingshot Visulization Tutorials](https://download.infragistics.com/slingshot/samples/Slingshot_Visualization_Tutorials.xlsx).
+For this tutorial, you will use the *Image Chart* sheet in the [Slingshot Visualization Tutorials](https://download.infragistics.com/slingshot/samples/Slingshot_Visualization_Tutorials.xlsx).
 
  1. In **My Analytics**, select the **+ Dashboard button** in the top right-hand corner.
 

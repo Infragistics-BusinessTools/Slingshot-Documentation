@@ -5,7 +5,7 @@ _description: A quick tutorial on creating a Text View visualization using a sam
 
 # Creating a Text View
 
-In this tutorial you will learn how to create a Text View visualization
+In this tutorial you will learn how to create a *Text View* visualization
 using a sample spreadsheet.
 
 <img src="images/text-view-sample.png" alt="Visualization sample using text view" class="responsive-img" width="88%"/>
@@ -24,7 +24,7 @@ however, add filters to make sure Slingshot displays the row you need.
 
 ## Sample Data Source
 
-For this tutorial, you will use the *Simple Series Charts* sheet in the [Slingshot Visulization Tutorials](https://download.infragistics.com/slingshot/samples/Slingshot_Visualization_Tutorials.xlsx).
+For this tutorial, you will use the *Simple Series Charts* sheet in the [Slingshot Visualization Tutorials](https://download.infragistics.com/slingshot/samples/Slingshot_Visualization_Tutorials.xlsx).
 
 >[!NOTE]
 >Excel files as local files are not supported in this release. In order to follow these tutorials, make sure you upload the file to one of the supported *cloud services* or add it as a [Web Resource](../datasources/supported-data-sources/web-resource.md).

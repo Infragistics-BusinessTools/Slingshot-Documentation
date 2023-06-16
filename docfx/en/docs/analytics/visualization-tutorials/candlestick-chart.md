@@ -5,7 +5,7 @@ _description: Get familiar the specifics of creating a Candlestick chart visuali
 
 ## Creating Candlestick Visualizations
 
-In this tutorial, you will learn how to create a Candlestick chart visualization using a sample spreadsheet.
+In this tutorial, you will learn how to create a *Candlestick chart* visualization using a sample spreadsheet.
 
 <img src="images/different-candlestick-charts.png" alt="A sample with different candlestick charts" class="responsive-img" width="92%"/>
 
@@ -28,7 +28,7 @@ and *Close* values.
 
 Candlestick charts, therefore, require:
 
-  - **One field to be dropped into the "Label"** placeholder of the data
+  - **One field to be dropped into the *Label*** placeholder of the data
     editor, generally related to dates.
 
   - **Four different fields** in the *Open*, *High*, *Low* and *Close*
@@ -51,7 +51,7 @@ chart:
 
 ## Sample Data Source
 
-For this tutorial, you will use the "OHLC and Candlestick" sheet in the [Slingshot Visulization Tutorials](https://download.infragistics.com/slingshot/samples/Slingshot_Visualization_Tutorials.xlsx).
+For this tutorial, you will use the "OHLC and Candlestick" sheet in the [Slingshot Visualization Tutorials](https://download.infragistics.com/slingshot/samples/Slingshot_Visualization_Tutorials.xlsx).
 
 >[!NOTE]
 >Excel files as local files are not supported in this release. In order to follow these tutorials, make sure you upload the file to one of the supported cloud services or add it as a [Web Resource](../datasources/supported-data-sources/web-resource.md).
