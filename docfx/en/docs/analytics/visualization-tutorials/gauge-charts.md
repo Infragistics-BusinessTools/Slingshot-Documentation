@@ -5,10 +5,10 @@ _description: A quick tutorial on creating all types of Gauge visualizations usi
 
 # Creating Gauge Visualizations
 
-In this tutorial, you will learn how to create gauge visualizations
+In this tutorial, you will learn how to create Gauge visualizations
 using a sample spreadsheet.
 
-<img src="images/different-gauge-visualizations.png" alt="Different Gauge Visualizations" class="responsive-img" width="88%"/>
+<img src="images/different-gauge-visualizations.png" alt="Different Gauge Visualizations" class="responsive-img" width="92%"/>
 
 Access the links below for the gauge view walkthroughs:
 
@@ -44,7 +44,7 @@ There are three different layouts to choose from when using gauge charts:
 For this tutorial, you will use the "Gauge Views" sheet in the [Slingshot Visulization Tutorials](https://download.infragistics.com/slingshot/samples/Slingshot_Visualization_Tutorials.xlsx).
 
 >[!NOTE]
->Excel files as local files are not supported in this release. In order to follow these tutorials, make sure you upload the file to one of the supported cloud services or add it as a [Web Resource](~/en/datasources/supported-data-sources/web-resource.md).
+>Excel files as local files are not supported in this release. In order to follow these tutorials, make sure you upload the file to one of the supported cloud services or add it as a [Web Resource](../datasources/supported-data-sources/web-resource.md).
 
 <a name='create-linear-gauge'></a>
 ## Creating a Linear Gauge
@@ -52,19 +52,19 @@ For this tutorial, you will use the "Gauge Views" sheet in the [Slingshot Visuli
 
 1. Select the **+ Dashboard** button in the top right-hand corner in the **My Analytics** section.
 
-   <img src="images/dashboard-button-my-analytics.png" alt="Tutorials-Create-New-Dashboard" class="responsive-img" width="65%"/>                                      
+   <img src="images/dashboard-button-my-analytics.png" alt="Tutorials-Create-New-Dashboard" class="responsive-img" width="90%"/>                                      
 
 2. Select your data source(**Slingshot Tutorials Spreadsheet**) from the list of data sources. If the data source is new, you will need to first add it from the **+ Data Source** button in the top-right corner.
 
-   <img src="images/visualization-tutorials-data-source.png" alt="Selecting a data source from the list of data sources" class="responsive-img" width="60%"/>                                          
+   <img src="images/visualization-tutorials-sample.png" alt="Selecting a data source from the list of data sources" class="responsive-img" width="90%"/>                                          
 
 3. Choose the **Gauge Views** sheet.
   
-   <img src="images/gauge-views.png" alt="Selecting Gauge Views spreadsheet" class="responsive-img" width="60%"/>
+   <img src="images/gauge-views.png" alt="Selecting Gauge Views spreadsheet" class="responsive-img" width="65%"/>
          
 4. Open the *Visualization Picker* and select any of the **Gauges** visualizations. By default, the visualization type will be set to *Column*. 
 
-   <img src="images/gauges-chart-types.png" alt="List of chart types" class="responsive-img" width="60%"/>
+   <img src="images/gauges-chart-types.png" alt="List of chart types" class="responsive-img" width="65%"/>
 
 5. This linear gauge, for example, will display *Life expectancy* per *Country*. Drag and drop the *Country Name* field to **Label** and one of the *Year* fields into **Values**.
   
@@ -75,19 +75,19 @@ For this tutorial, you will use the "Gauge Views" sheet in the [Slingshot Visuli
 
 1. Select the **+ Dashboard** button in the top right-hand corner of **My Analytics**.
 
-   <img src="images/dashboard-button-my-analytics.png" alt="Tutorials-Create-New-Dashboard" class="responsive-img" width="60%"/>                                      
+   <img src="images/dashboard-button-my-analytics.png" alt="Tutorials-Create-New-Dashboard" class="responsive-img" width="90%"/>                                      
 
 2. Select your data source(**Slingshot Tutorials Spreadsheet**) from the list of data sources. If the data source is new, you will need to first add it from the **+ Data Source** button in the top-right corner.
 
-   <img src="images/visualization-tutorials-data-source.png" alt="Selecting a data source from the list of data sources" class="responsive-img" width="60%"/>                                          
+   <img src="images/visualization-tutorials-sample.png" alt="Selecting a data source from the list of data sources" class="responsive-img" width="90%"/>                                          
 
 3. Choose the **Gauge Views** sheet.
   
-   <img src="images/gauge-views.png" alt="Selecting Gauge Views spreadsheet" class="responsive-img" width="60%"/>
+   <img src="images/gauge-views.png" alt="Selecting Gauge Views spreadsheet" class="responsive-img" width="65%"/>
          
 4. Open the *Visualization Picker* and select any of the **Gauges** visualizations. By default, the visualization type will be set to *Column*. 
 
-   <img src="images/gauges-chart-types.png" alt="List of chart types" class="responsive-img" width="60%"/>
+   <img src="images/gauges-chart-types.png" alt="List of chart types" class="responsive-img" width="65%"/>
 
 5. This linear gauge, for example, will display *Life expectancy* per *Country*. Drag and drop the *Country Name* field to **Label** and one of the *Year* fields into **Values**.
   
@@ -110,19 +110,19 @@ displayed in Values:
 
 1. Select the **+ Dashboard** button in the top right-hand corner of **My Analytics**.
 
-   <img src="images/dashboard-button-my-analytics.png" alt="Tutorials-Create-New-Dashboard" class="responsive-img" width="55%"/>                                      
+   <img src="images/dashboard-button-my-analytics.png" alt="Tutorials-Create-New-Dashboard" class="responsive-img" width="90%"/>                                      
 
 2. Select your data source(**Slingshot Tutorials Spreadsheet**) from the list of data sources. If the data source is new, you will need to first add it from the **+ Data Source** button in the top-right corner.
 
-   <img src="images/visualization-tutorials-data-source.png" alt="Selecting a data source from the list of data sources" class="responsive-img" width="55%"/>                                          
+   <img src="images/visualization-tutorials-sample.png" alt="Selecting a data source from the list of data sources" class="responsive-img" width="90%"/>                                          
 
 3. Choose the **Gauge Views** sheet.
   
-   <img src="images/gauge-views.png" alt="Selecting Gauge Views spreadsheet" class="responsive-img" width="55%"/>
+   <img src="images/gauge-views.png" alt="Selecting Gauge Views spreadsheet" class="responsive-img" width="65%"/>
          
 4. Open the *Visualization Picker* and select the *Text Gauge*. By default, the visualization type will be set to *Column*. 
 
-   <img src="images/gauges-chart-types.png" alt="List of chart types" class="responsive-img" width="55%"/>
+   <img src="images/gauges-chart-types.png" alt="List of chart types" class="responsive-img" width="65%"/>
 
 5. This text gauge, for example, will display life expectancy per Country. Drag and drop one of the year fields into **Values**, and then the *Country Name* field into **Data Filters**. Then, select the specific country you want by selecting the field. 
 
@@ -130,26 +130,26 @@ displayed in Values:
 
 The text gauge sample above utilizes
 the average aggregation. In order to learn how to change your field's
-aggregation, [review these instructions](#aggregation-instructions).
+aggregation, [review these instructions](../data-visualizations/fields/calculated-fields/aggregation.md).
 
 <a name='create-bullet-graph-gauge'></a>
 ## Creating a Bullet Graph
 
 1. Select the **+ Dashboard** button in the top right-hand corner of **My Analytics**.
 
-   <img src="images/dashboard-button-my-analytics.png" alt="Tutorials-Create-New-Dashboard" class="responsive-img" width="55%"/>                                      
+   <img src="images/dashboard-button-my-analytics.png" alt="Tutorials-Create-New-Dashboard" class="responsive-img" width="90%"/>                                      
 
 2. Select your data source(**Slingshot Tutorials Spreadsheet**) from the list of data sources. If the data source is new, you will need to first add it from the **+ Data Source** button in the top-right corner.
 
-   <img src="images/visualization-tutorials-data-source.png" alt="Selecting a data source from the list of data sources" class="responsive-img" width="55%"/>                                          
+   <img src="images/visualization-tutorials-sample.png" alt="Selecting a data source from the list of data sources" class="responsive-img" width="90%"/>                                          
 
 3. Choose the **Gauge Views** sheet.
   
-   <img src="images/gauge-views.png" alt="Selecting Gauge Views spreadsheet" class="responsive-img" width="55%"/>
+   <img src="images/gauge-views.png" alt="Selecting Gauge Views spreadsheet" class="responsive-img" width="65%"/>
          
 4. Open the *Visualization Picker* and select any of the *Bullet Graph* visualizations. By default, the visualization type will be set to *Column*. 
 
-   <img src="images/gauges-chart-types.png" alt="List of chart types" class="responsive-img" width="55%"/>
+   <img src="images/gauges-chart-types.png" alt="List of chart types" class="responsive-img" width="60%"/>
 
 5. This bullet graph, for example, will display life expectancy per Country. Drag and drop the *Country Name* field to **Label**, one of the years into **Values** and another *Year* into **Target**.
 

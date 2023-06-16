@@ -8,11 +8,11 @@ _description: A quick tutorial on creating an Image Chart visualization using a 
 In this tutorial you will learn how to create an Image visualization
 using a sample spreadsheet.
 
-<img src="../images/image-chart-sample.png" alt="A sample showing different image chart visualizations in one dashboard" class="responsive-img" width="88%"/>
+<img src="../images/image-chart-sample.png" alt="A sample showing different image chart visualizations in one dashboard" class="responsive-img" width="92%"/>
 
 ## Key Concepts
 
-As mentioned in the Data Visualization section, the [Image Chart](image-chart.md) displays information in an embedded browser by making
+As mentioned in the Data Visualization section, the Image Chart displays information in an embedded browser by making
 a request to a URL and displaying the results. The data source,
 therefore, will need to:
 
@@ -26,11 +26,11 @@ For this tutorial, you will use the "Image Chart" sheet in the [Slingshot Visuli
 
  1. In **My Analytics**, select the **+ Dashboard button** in the top right-hand corner.
 
-    <img src="./images/button-dashboard.png" alt="Tutorials-Create-New-Dashboard" class="responsive-img" width="70%"/> 
+    <img src="./images/button-dashboard.png" alt="Tutorials-Create-New-Dashboard" class="responsive-img" width="80%"/> 
 
- 2. A dialog will open, containing a list of already added data source. The Visualization Tutorial file will be there as a data source if you have already used it. In case you haven't added the file, you can click/tap on **+Data Source** -> **Data Files** -> **+New** -> **Upload** -> Select the file -> Click/tap on **Select and Continue** to include it in the list.
+ 2. A dialog will open, containing a list of already added data source. The Visualization Tutorial file will be there as a data source if you have already used it. In case you haven't added the file, you can click/tap on **+Data Source** ⇒ **Data Files** ⇒ **+New** ⇒ **Upload** ⇒ Select the file ⇒ Click/tap on **Select and Continue** to include it in the list.
 
-    <img src="images/select-your-data-source.png" alt="Tutorials-Select-Data-Source" class="responsive-img" width="70%"/>
+    <img src="images/select-your-data-source.png" alt="Tutorials-Select-Data-Source" class="responsive-img" width="80%"/>
 
  3. Once the data source is configured, select the *Image View* sheet.                                
 

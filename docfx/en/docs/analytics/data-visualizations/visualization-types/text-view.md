@@ -15,6 +15,6 @@ specifications, a person's contact information, etc.
 
 <img src="images/visualization-editor-text-view.png" alt="Text View in the Visualization editor" class="responsive-img" width="87%"/>
 
-The *Text View* supports *conditional formatting*, as explained in [this section](~/en/data-visualizations/fields/conditional-formatting.md).
+The *Text View* supports *conditional formatting*, as explained in [this section](../fields/conditional-formatting.md).
 
 <img src="images/text-view-conditional-formatting-example.png" alt="Using conditional formatting for a text view visualization" class="responsive-img" width="87%"/>
