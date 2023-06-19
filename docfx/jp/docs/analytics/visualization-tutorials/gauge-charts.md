@@ -6,7 +6,7 @@ _language: ja
 
 # ゲージで表示形式を作成する方法
 
-このチュートリアルは、サンプル スプレッドシートを使用してゲージの表示形式を作成する方法を説明します。
+このチュートリアルは、サンプル スプレッドシートを使用して**ゲージ**の表示形式を作成する方法を説明します。
 
 <img src="images/different-gauge-visualizations.png" alt="Different Gauge Visualizations" class="responsive-img" width="88%"/>
 
@@ -38,7 +38,7 @@ _language: ja
 このチュートリアルでは、[Slingshot Visualization Tutorials](https://download.infragistics.com/slingshot/samples/Slingshot_Visualization_Tutorials.xlsx) の *Gauge Views* シートを使用します。
 
 >[!NOTE]
->このリリースでは、ローカル ファイルとしての Excel ファイルはサポートされていません。チュートリアルを実行するには、サポートされているクラウド サービスのいずれかにファイルをアップロードするか、[ウェブ リソース](~/jp/docs/analytics/datasources/supported-data-sources/web-resource.html)として追加してください。
+>このリリースでは、ローカル ファイルとしての Excel ファイルはサポートされていません。チュートリアルを実行するには、サポートされているクラウド サービスのいずれかにファイルをアップロードするか、[ウェブ リソース](../datasources/supported-data-sources/web-resource.md)として追加してください。
 
 <a name='create-linear-gauge'></a>
 ## リニア ゲージを作成する方法
@@ -50,7 +50,7 @@ _language: ja
 
 2. データ ソースのリストからデータ ソース (**Slingshot Tutorials Spreadsheet**) を選択します。データ ソースが新しい場合は、最初に右上隅の **[+ データ ソース]** ボタンから追加する必要があります。
 
-   <img src="images/visualization-tutorials-data-source.png" alt="Selecting a data source from the list of data sources" class="responsive-img" width="55%"/>                                          
+   <img src="images/visualization-tutorials-sample.png"  alt="Selecting a data source from the list of data sources" class="responsive-img" width="55%"/>                                          
 
 3. *Gauge Views* シートを選択します。
   
@@ -73,7 +73,7 @@ _language: ja
 
 2. データ ソースのリストからデータ ソース (**Slingshot Tutorials Spreadsheet**) を選択します。データ ソースが新しい場合は、最初に右上隅の **[+ データ ソース]** ボタンから追加する必要があります。
 
-   <img src="images/visualization-tutorials-data-source.png" alt="Selecting a data source from the list of data sources" class="responsive-img" width="55%"/>                                          
+   <img src="images/visualization-tutorials-sample.png" alt="Selecting a data source from the list of data sources" class="responsive-img" width="55%"/>                                          
 
 3. *Gauge Views* シートを選択します。
   
@@ -106,7 +106,7 @@ _language: ja
 
 2. データ ソースのリストからデータ ソース (**Slingshot Tutorials Spreadsheet**) を選択します。データ ソースが新しい場合は、最初に右上隅の **[+ データ ソース]** ボタンから追加する必要があります。
 
-   <img src="images/visualization-tutorials-data-source.png" alt="Selecting a data source from the list of data sources" class="responsive-img" width="55%"/>                                          
+   <img src="images/visualization-tutorials-sample.png" alt="Selecting a data source from the list of data sources" class="responsive-img" width="55%"/>                                          
 
 3. *Gauge Views* シートを選択します。
   
@@ -121,7 +121,7 @@ _language: ja
 
    <img src="images/text-gauge-organizing-data.png" alt="Organizing the data while using text gauge visualizaiton" class="responsive-img" width="35%"/>
 
-上記の [テキスト ゲージのサンプル] は平均値の集計を使用します。フィールドの集計を変更するために、[この手順](#aggregation-instructions)をご参照ください。
+上記の [テキスト ゲージのサンプル] は平均値の集計を使用します。フィールドの集計を変更するために、[この手順](../data-visualizations/fields/calculated-fields/aggregation.md)をご参照ください。
 
 <a name='create-bullet-graph-gauge'></a>
 ## ブレット グラフを作成する方法
@@ -132,7 +132,7 @@ _language: ja
 
 2. データ ソースのリストからデータ ソース (**Slingshot Tutorials Spreadsheet**) を選択します。データ ソースが新しい場合は、最初に右上隅の **[+ データ ソース]** ボタンから追加する必要があります。
 
-   <img src="images/visualization-tutorials-data-source.png" alt="Selecting a data source from the list of data sources" class="responsive-img" width="55%"/>                                          
+   <img src="images/visualization-tutorials-sample.png" alt="Selecting a data source from the list of data sources" class="responsive-img" width="55%"/>                                          
 
 3. *Gauge Views* シートを選択します。
   

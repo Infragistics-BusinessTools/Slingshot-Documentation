@@ -6,7 +6,7 @@ _language: ja
 
 ## ローソク足で表示する方法
 
-このチュートリアルは、サンプル スプレッドシートを使用してローソク足の表示形式を作成する方法を説明します。
+このチュートリアルは、サンプル スプレッドシートを使用して**ローソク足**の表示形式を作成する方法を説明します。
 
 <img src="images/different-candlestick-charts.png" alt="A sample with different candlestick charts" class="responsive-img" width="85%"/>
 
@@ -42,7 +42,7 @@ _language: ja
 
 
 >[!NOTE]
->このリリースでは、ローカル ファイルとしての Excel ファイルはサポートされていません。チュートリアルを実行するには、サポートされているクラウド サービスのいずれかにファイルをアップロードするか、[ウェブ リソース](~/jp/docs/analytics/datasources/supported-data-sources/web-resource.html)として追加してください。
+>このリリースでは、ローカル ファイルとしての Excel ファイルはサポートされていません。チュートリアルを実行するには、サポートされているクラウド サービスのいずれかにファイルをアップロードするか、[ウェブ リソース](../datasources/supported-data-sources/web-resource.md)として追加してください。
 
 <a name='creating-candlestick-chart'></a>
 ## ローソク足チャートを作成する方法
@@ -53,7 +53,7 @@ _language: ja
 
 2. データ ソースのリストからデータ ソース (**Slingshot Tutorials Spreadsheet**) を選択します。データ ソースが新しい場合は、最初に右上隅の **[+ データ ソース]** ボタンから追加する必要があります。
 
-   <img src="images/visualization-tutorials-data-source.png" alt="Selecting the data source from the list of data sources" class="responsive-img" width="55%"/>                                          
+   <img src="images/visualization-tutorials-sample.png" alt="Selecting the data source from the list of data sources" class="responsive-img" width="55%"/>                                          
 
  3. **OHLC and Candlestick** シートを選択します。
   
@@ -68,7 +68,7 @@ _language: ja
 <a name='changing-axis-configuration'></a>
 ## 軸の構成を変更する方法
 
-[ゲージの範囲](gauge-views.html#adding-bounds-gauge)と同様に、チャート軸構成でチャート (範囲) の最小値と最大値を設定できます。この機能を使用して、特定のデータ含有や除外ができます。
+[ゲージの範囲](../visualization-tutorials/gauge-charts.md#adding-bounds-to-your-gauge)と同様に、チャート軸構成でチャート (範囲) の最小値と最大値を設定できます。この機能を使用して、特定のデータ含有や除外ができます。
 
 以下は軸構成のメニューにアクセスするための手順です。
 
@@ -85,7 +85,7 @@ _language: ja
 
 ### 最大境界値を変更する
 
-最大境界値の場合、Analytics が元のデータを使用するためにデフォルトの値は「自動」に設定されます。別の値を設定するには、チャートの上限値を入力します。
+最大境界値の場合、Analytics が元のデータを使用するためにデフォルトの値は **[自動]** に設定されます。別の値を設定するには、チャートの上限値を入力します。
 
 <a name='setting-logarithmic-axis'></a>
 ## 軸を対数軸として設定

@@ -14,11 +14,11 @@ _language: ja
 
 * **新しいダッシュボードを作成する**ことから始めます。このダッシュボードでは、新しい表示形式が最初または唯一の表示形式になります。これを行うには、**[分析]** またはワークスペースに移動し、**[+ ダッシュボード]** の青いボタンをクリックまたはタップします。
 
-* 既存のダッシュボードに**新しい表示形式を追加する**ことから始めます。これを行うには、ダッシュボードを[ダッシュボード編集](~/jp/docs/analytics/dashboards/dashboards-interactions.html#view-edit-mode)モードで開き、**[+ 追加]** の青い分割ボタン (モバイルでは **[+]** 青いボタン) をクリックまたはタップします。
+* 既存のダッシュボードに**新しい表示形式を追加する**ことから始めます。これを行うには、ダッシュボードを[ダッシュボード編集](../dashboards/dashboards-interactions.md#view--edit-modes)モードで開き、**[+ 追加]** の青い分割ボタン (モバイルでは **[+]** 青いボタン) をクリックまたはタップします。
 
 その後、新しいデータ ソースを追加するか、既存の[データ ソース](~/jp/docs/analytics/datasources/overview.md)を選択するように求められます。
 
-<img src="images/data-sources-list.png" alt="Dialog with a list of data sources" width="60%" class="responsive-img"/>
+<img src="images/new-visualization-screen.png" alt="Dialog with a list of data sources" width="85%" class="responsive-img"/>
 
 データ ソースを選択して構成すると、[表示形式エディター](visualizations-editor.md)に移動し、表示形式の作成を開始できます。
 
@@ -63,7 +63,7 @@ _language: ja
 
   - [**データの並べ替え**](~/jp/docs/analytics/data-visualizations/fields/sort-by-field.md)と[**フィルタリング**](~/jp/docs/analytics/filters/visualization-filters.md)。
 
-  - データ エディターで[**データの集計**](~/jp/docs/analytics/data-visualizations/fields/field-settings.md)。
+  - データ エディターで[**データの集計**](./fields/calculated-fields/aggregation.md)。
 
   - データの**検索**、**視覚化**、および[**書式設定**](~/jp/docs/analytics/data-visualizations/fields/conditional-formatting.md)。
 

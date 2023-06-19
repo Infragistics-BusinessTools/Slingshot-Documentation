@@ -24,10 +24,12 @@
 
 2.  **[新しい表示形式]** ダイアログが開き、データ ソースを選択するように求められます。**[X]** をクリックまたはタップして、ダイアログを閉じます。
 
-    <img src="images/data-sources-list.png" alt="New visualization dialog" class="responsive-img" width="60%"/>
+    <img src="../images/new-visualization-screen.png" alt="New visualization dialog" class="responsive-img" width="90%"/>
 
 3.  [+ 追加] の分割ボタンにある**矢印**をクリック / タップして ⇒ **[テキスト ボックス]** を選択します。
 
+    <img src="./images/new-dashboard-text-box.png" alt="New visualization dialog" class="responsive-img" width="90%"/>
+    
 ## テキスト ボックス表示形式の作業
 
 新しいテキスト ボックス表示形式を追加すると、以下の空のフォームが表示されます。

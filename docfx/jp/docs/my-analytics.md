@@ -62,7 +62,7 @@ Slingshot の **[分析]** セクションを使用すると、BI (ビジネス 
 
 認証は、組織内で最も信頼できるデータを見つけるのに役立つため、データ カタログの重要な部分です。これは、どのダッシュボードまたはデータ ソースが信頼でき、検証済みの情報が含まれているかを知るための優れた方法です。ダッシュボードまたはデータ ソースが認証されると、その横に金、銀、または銅のバッジが表示されます。
 
-<img src="../images/data-sources-certified-example.png" alt="Certifications in Slingshot" class="responsive-img"/>
+<img src="../images/certified-data-source-example.png" alt="Certifications in Slingshot" class="responsive-img"/>
 
 [データ カタログの詳細については、こちらをご覧ください](https://www.slingshotapp.io/en/help/docs/data-catalog)。
 

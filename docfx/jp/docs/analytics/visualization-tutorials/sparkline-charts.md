@@ -6,36 +6,12 @@ _language: ja
 
 # スパークライン チャートを作成する方法
 
-このチュートリアルは、サンプル スプレッドシートを使用してスパークライン チャートを作成する方法を説明します。
+このチュートリアルは、サンプル スプレッドシートを使用してスパークライン チャートの表示形式を作成する方法を説明します。
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><p><img src="images/simple-sparkline-chart.png" alt="SparklineChartSimple All" class="responsive-img"/><br />
-</p>
-<p><a href="#create-sparkline">シンプルなスパークライン</a><br />
-</p></td>
-<td><p><img src="images/sparkline-area-chart.png" alt="SparklineChartArea All" class="responsive-img" /><br />
-</p>
-<p><a href="#change-chart-type-sparkline">エリア チャートのスパークライン</a><br />
-</p></td>
-</tr>
-<tr class="even">
-<td><p><img src="images/sparkline-with-day-aggregation.png" alt="SparklineDateAggregation All" class="responsive-img" /><br />
-</p>
-<p><a href="#change-date-aggregation">日の集計のスパークライン</a><br />
-</p></td>
-<td><p><img src="images/sparkline-with-less-columns-and-area-chart.png" alt="SparklineLessColumns All" class="responsive-img" /><br />
-</p>
-<p><a href="#modify-columns">データ量の少ない柱状およびエリア チャートのスパークライン</a><br />
-</p></td>
-</tr>
-</tbody>
-</table>
+<img src="images/simple-sparkline-chart.png" alt="Simple Sparkline Chart example" class="responsive-img" width="80%"/>
+<img src="images/sparkline-area-chart.png" alt="Sparkline Area Chart example" class="responsive-img" width="80%"/>
+<img src="images/sparkline-with-day-aggregation.png" alt="Sparkline with Day Aggregation example" class="responsive-img" width="80%">
+<img src="images/sparkline-with-less-columns-and-area-chart.png" alt="Sparkline with less columns and area chart example" class="responsive-img" width="70%"/>
 
 スパークライン チャート ビューのガイドは、以下のリンクから参照してください。
 
@@ -73,7 +49,7 @@ _language: ja
 このチュートリアルでは [Slingshot Visualization Tutorials](https://download.infragistics.com/slingshot/samples/Slingshot_Visualization_Tutorials.xlsx) の *Sparkline Charts* シートを使用します。
 
 >[!NOTE]
->このリリースでは、ローカル ファイルとしての Excel ファイルはサポートされていません。チュートリアルを実行するには、サポートされている**クラウド サービス**のいずれかにファイルをアップロードするか、[ウェブ リソースとして](~/jp/docs/analytics/datasources/supported-data-sources/web-resource.md)追加してください。
+>このリリースでは、ローカル ファイルとしての Excel ファイルはサポートされていません。チュートリアルを実行するには、サポートされている**クラウド サービス**のいずれかにファイルをアップロードするか、[ウェブ リソースとして](../datasources/supported-data-sources/web-resource.md)追加してください。
 
 <a name='create-sparkline'></a>
 ## スパークライン チャートの作成
@@ -85,7 +61,7 @@ _language: ja
 
 2. データ ソースのリストからデータ ソース (**Slingshot Tutorials Spreadsheet**) を選択します。データ ソースが新しい場合は、最初に右上隅の **[+ データ ソース]** ボタンから追加する必要があります。
 
-   <img src="images/visualization-tutorials-data-source.png" alt="Tutorials-Select-Data-Source" class="responsive-img" width="55%"/>                                         
+   <img src="images/visualization-tutorials-sample.png" alt="Tutorials-Select-Data-Source" class="responsive-img" width="55%"/>                                         
 
 3. *Sparkline Charts* シートを選択します。
 

@@ -6,7 +6,7 @@ _language: ja
 
 # シンプル シリーズのチャートを作成する方法
 
-このチュートリアルは、サンプル スプレッドシートを使用してシンプル シリーズのチャートを作成する方法を説明します。
+このチュートリアルは、サンプル スプレッドシートを使用して**シンプル シリーズ** チャートの表示形式を作成する方法を説明します。
 
 <img src="images/simple-series-charts-example.png" alt="Visualizations made by using simple series charts" class="responsive-img" width="85%"/>
 
@@ -47,7 +47,7 @@ _language: ja
 このチュートリアルでは [Slingshot Visualization Tutorials](https://download.infragistics.com/slingshot/samples/Slingshot_Visualization_Tutorials.xlsx) の *Simple Series Charts* シートを使用します。
 
 >[!NOTE]
->このリリースでは、ローカル ファイルとしての Excel ファイルはサポートされていません。チュートリアルを実行するには、サポートされているクラウド サービスのいずれかにファイルをアップロードするか、[ウェブ リソース](~/jp/docs/analytics/datasources/supported-datasources/web-resource.md)として追加してください。
+>このリリースでは、ローカル ファイルとしての Excel ファイルはサポートされていません。チュートリアルを実行するには、サポートされているクラウド サービスのいずれかにファイルをアップロードするか、[ウェブ リソース](../datasources/supported-data-sources/web-resource.md)として追加してください。
 
 <a name='create-basic-chart'></a>
 ## チャートの作成
@@ -58,7 +58,7 @@ _language: ja
 
 2. データ ソースのリストからデータ ソース (**Slingshot Tutorials Spreadsheet**) を選択します。データ ソースが新しい場合は、最初に右上隅の **[+ データ ソース]** ボタンから追加する必要があります。
 
-   <img src="images/visualization-tutorials-data-source.png" alt="Selecting a data source from the list of data sources" class="responsive-img" width="55%"/>                                          
+   <img src="images/visualization-tutorials-sample.png" alt="Selecting a data source from the list of data sources" class="responsive-img" width="55%"/>                                          
 
 3. *Simple Series Charts* シートを選択します。     
 
@@ -84,7 +84,7 @@ _language: ja
 <a name='change-axis-configuration'></a>
 ## 軸の構成の変更
 
-[ゲージのバンド](~/jp/docs/analytics/data-visualizations/visualization-types/gauge-charts.html#bands-configuration)と同様に、チャート軸構成でチャートの最小と最大値を設定できます。この機能を使用して、特定のデータ含有や除外ができます。
+[ゲージのバンド](../visualization-tutorials/gauge-charts.md#adding-bounds-to-your-gauge)と同様に、チャート軸構成でチャートの最小と最大値を設定できます。この機能を使用して、特定のデータ含有や除外ができます。
 
 |                                        |                                                                                      |                                                                                                                                       |
 | -------------------------------------- | ------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------- |
