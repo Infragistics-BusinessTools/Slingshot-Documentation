@@ -6,15 +6,15 @@ _language: ja
 
 # テキスト ビューを作成する方法
 
-このチュートリアルはサンプル スプレッドシートを使用しテキスト ビューを作成する方法を説明します。
+このチュートリアルはサンプル スプレッドシートを使用し**テキスト ビュー**を作成する方法を説明します。
 
 <img src="images/text-view-sample.png" alt="Visualization sample using text view" class="responsive-img" width="85%"/>
 
 テキスト ビューのガイドは、以下のリンクから参照してください。
 
-  - [基本的なテキスト ビューを作成する方法](#creating-text-view)
+  - [基本的なテキスト ビューを作成する方法](#creating-a-text-view-1)
 
-  - [選択された行を変更する方法](#changing-selected-row)
+  - [選択された行を変更する方法](#changing-the-selected-row)
 
 ## 重要なコンセプト
 
@@ -25,7 +25,7 @@ _language: ja
 このチュートリアルでは [Slingshot Visualization Tutorials](https://download.infragistics.com/slingshot/samples/Slingshot_Visualization_Tutorials.xlsx) の *Simple Series Charts* シートを使用します。
 
 >[!NOTE]
->このリリースでは、ローカル ファイルとしての Excel ファイルはサポートされていません。チュートリアルを実行するには、サポートされているクラウド サービスのいずれかにファイルをアップロードするか、[ウェブ リソース](datasources/supported-data-sources/web-resource.md)として追加してください。
+>このリリースでは、ローカル ファイルとしての Excel ファイルはサポートされていません。チュートリアルを実行するには、サポートされているクラウド サービスのいずれかにファイルをアップロードするか、[ウェブ リソース](../datasources/supported-data-sources/web-resource.md)として追加してください。
 
 <a name='creating-text-view'></a>
 ## テキスト ビューを作成する方法
@@ -38,7 +38,7 @@ _language: ja
      <img src="images/tutorials-select-data-source-list.png" alt="A dialog with a list of data sources" class="responsive-img" width="85%"/>                                                         
  3. データ ソースを構成したら、**Slingshot tutorials Spreadsheet** を選択します。次に、*Simple Series Charts* シートを選択します。 
 
-     <img src="images/tutorials-simple-series-charts-spreadsheet.png" alt="Simple Series Charts Spreadsheed in the data source " class="responsive-img" width="60%"/>                                                                                      
+     <img src="images/visualization-tutorials-sample.png" alt="Simple Series Charts Spreadsheed in the data source " class="responsive-img" width="60%"/>                                                                                      
  4.  **表示形式ピッカー**を開き、**テキスト ビュー**を選択します。デフォルトで、表示形式のタイプは**柱状**に設定されています。  
  
       <img src="images/text-view-chart-types.png" alt="Text View in the chart types list" class="responsive-img" width="70%"/>                                                                                                

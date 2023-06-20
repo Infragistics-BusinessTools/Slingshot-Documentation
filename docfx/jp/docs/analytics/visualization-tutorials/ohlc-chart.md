@@ -10,6 +10,7 @@ _language: ja
 
 <img src="images/ohlc-charts-example.png" alt="Tutorials-Select-OHLC-Candlestick-Charts-Spreadsheet" class="responsive-img" width="85%"/>
 
+
 OHLC チャート ビューのガイドは、以下のリンクから参照してください。
 
   - [OHLC 足チャートを作成する方法](https://www.slingshotapp.io/en/help/docs/analytics/visualization-tutorials/ohlc-chart#creating-a-ohlc-chart)
@@ -41,7 +42,7 @@ OHLC チャートとローソク足チャートは各財務データの始値、
 このチュートリアルでは、[Slingshot Visualization Tutorials](https://download.infragistics.com/slingshot/samples/Slingshot_Visualization_Tutorials.xlsx) の *OHLC and Candlestick* シートを使用します。
 
 >[!NOTE]
->このリリースでは、ローカル ファイルとしての Excel ファイルはサポートされていません。チュートリアルを実行するには、サポートされているクラウド サービスのいずれかにファイルをアップロードするか、[ウェブ リソース](~/jp/docs/analytics/datasources/supported-data-sources/web-resource.html)として追加してください。
+>このリリースでは、ローカル ファイルとしての Excel ファイルはサポートされていません。チュートリアルを実行するには、サポートされているクラウド サービスのいずれかにファイルをアップロードするか、[ウェブ リソース](../datasources/supported-data-sources/web-resource.md)として追加してください。
 
 <a name='creating-ohlc-chart'></a>
 ## OHLC チャートを作成する方法
@@ -52,7 +53,7 @@ OHLC チャートとローソク足チャートは各財務データの始値、
 
 2. データ ソースのリストからデータ ソース (**Slingshot Tutorials Spreadsheet**) を選択します。データ ソースが新しい場合は、最初に右上隅の **[+ データ ソース]** ボタンから追加する必要があります。
 
-   <img src="images/visualization-tutorials-data-source.png" alt="Tutorials-Select-Data-Source" class="responsive-img" width="55%"/>                                         
+   <img src="images/visualization-tutorials-sample.png" alt="Tutorials-Select-Data-Source" class="responsive-img" width="55%"/>                                         
 
  3. *OHLC and Candlestick* シートを選択します。
 
@@ -69,7 +70,7 @@ OHLC チャートとローソク足チャートは各財務データの始値、
 <a name='changing-axis-configuration'></a>
 ## 軸の構成の変更
 
-[ゲージの範囲](gauge-views.html#adding-bounds-gauge)と同様に、チャート軸構成でチャートの最小と最大値を設定できます。この機能を使用して、特定のデータ含有や除外ができます。
+[ゲージの範囲](../visualization-tutorials/gauge-charts.md#adding-bounds-to-your-gauge)と同様に、チャート軸構成でチャートの最小と最大値を設定できます。この機能を使用して、特定のデータ含有や除外ができます。
 
 以下は軸構成のメニューへアクセスするための手順です。
 
@@ -80,13 +81,13 @@ OHLC チャートとローソク足チャートは各財務データの始値、
 
 最大値または最小値 (または両方) のどれを設定するかに基づいて、以下のオプションの 1 つへアクセスする必要があります。
 
-### 最小の限界を変更します。
+### 最小の限界を変更
 
-デフォルトの値は 0 です。別の境界を設定するには、チャートの開始値を入力します。
+デフォルトの値は *0* です。別の境界を設定するには、チャートの開始値を入力します。
 
-### 最大値を変更します。
+### 最大値を変更
 
-最大値のデフォルトは [自動] に設定されているため、Reveal は元のデータを使用します。別の値を設定するには、チャートの上限に設定する値を入力します。
+最大値のデフォルトは **[自動]** に設定されているため、Slingshot は元のデータを使用します。別の値を設定するには、チャートの上限に設定する値を入力します。
 
 <a name='setting-logarithmic-axis'></a>
 ## 軸構成を対数的としての設定

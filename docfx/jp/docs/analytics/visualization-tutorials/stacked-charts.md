@@ -6,7 +6,7 @@ _language: ja
 
 # 積層型チャートを作成する方法
 
-このチュートリアルはサンプル スプレッドシートを使用し積層型チャートを作成する方法を説明します。
+このチュートリアルはサンプル スプレッドシートを使用し**積層型**チャートを作成する方法を説明します。
 
 <img src="images/different-stacked-charts-example.png" alt="Tutorials-Create-New-Dashboard" class="responsive-img" width="85%"/>  
 
@@ -37,7 +37,7 @@ _language: ja
 このチュートリアルでは [Slingshot Visualization Tutorials](https://download.infragistics.com/slingshot/samples/Slingshot_Visualization_Tutorials.xlsx) の *Stacked Charts* シートを使用します。
 
 >[!NOTE]
->このリリースでは、ローカル ファイルとしての Excel ファイルはサポートされていません。チュートリアルを実行するには、サポートされているクラウド サービスのいずれかにファイルをアップロードするか、[ウェブ リソース](datasources/supported-data-sources/web-resource.html)として追加してください。
+>このリリースでは、ローカル ファイルとしての Excel ファイルはサポートされていません。チュートリアルを実行するには、サポートされているクラウド サービスのいずれかにファイルをアップロードするか、[ウェブ リソース](../datasources/supported-data-sources/web-resource.md)として追加してください。
 
 </div>
 
@@ -50,7 +50,7 @@ _language: ja
                                                       
  2. データ ソースのリストからデータ ソース (**Slingshot Tutorials Spreadsheet**) を選択します。データ ソースが新しい場合は、最初に右上隅の **[+ データ ソース]** ボタンから追加する必要があります。     
 
-  <img src="images/visualization-tutorials-data-source.png" alt="Tutorials Data Source in the list of already added data sources" class="responsive-img" width="58%"/>
+      <img src="images/visualization-tutorials-sample.png" alt="Tutorials Data Source in the list of already added data sources" class="responsive-img" width="58%"/>
 
  3. *Stacked Charts* シートを選択します。            
 
@@ -66,7 +66,7 @@ _language: ja
 <a name='change-axis-configuration'></a>
 ## 軸の構成を変更する方法
 
-[ゲージのバンド](~/jp/docs/analytics/data-visualizations/gauge-charts#bands-configuration)と同様に、チャート軸構成でチャートの最小と最大値を設定できます。
+[ゲージのバンド](../visualization-tutorials/gauge-charts.md#adding-bounds-to-your-gauge)と同様に、チャート軸構成でチャートの最小と最大値を設定できます。
 この機能を使用して、特定のデータ含有や除外ができます。
 
 |                                        |                                                                                      |                                                                                                                                       |
