@@ -102,7 +102,7 @@ ul.horizontal:after {
 <li>Italian</li>
 <li>Japanese</li>
 <li>Korean</li>
-<li>Malaysian</li>
+<li>Malay</li>
 <li>Portuguese</li>
 <li>Russian</li>
 <li>Spanish</li>
