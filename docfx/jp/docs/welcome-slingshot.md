@@ -103,7 +103,7 @@ ul.horizontal:after {
 <li>イタリア語</li>
 <li>日本語</li>
 <li>韓国語</li>
-<li>マレーシア語</li>
+<li>マレー語</li>
 <li>ポルトガル語</li>
 <li>ロシア語</li>
 <li>スペイン語</li>
