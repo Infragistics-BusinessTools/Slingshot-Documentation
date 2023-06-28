@@ -29,7 +29,6 @@
       href: metadata-advanced-editing.md
 - name: My Analytics
   href: analytics/toc.yml
-  topicHref: my-analytics.md
 - name: Communication
   href: communication.md
   items:
