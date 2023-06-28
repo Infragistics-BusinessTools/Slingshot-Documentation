@@ -15,7 +15,7 @@ In order to make data-driven decisions, Slingshot is on your side with the follo
 - **Data Sources** - Connect directly to wherever your data comes from, including content managers, cloud services, CRMs, databases, spreadsheets, and more.
 - **Data Catalog** - Find the most trustful information about your company in the list of data catalogs. The data is categorized and certified. 
 
->[!Note] Data Catalogs are available only to *[Enterprise](https://www.slingshotapp.io/en/help/docs/slingshot-enterprise-subscription)* users.
+>[!Note] Data Catalogs are available only to *[Enterprise](slingshot-enterprise-subscription.md)* users.
 
 Data Sources make up visualizations and visualizations make up dashboards. In other words, your data comes from a data source, a visualization connects to that data source and displays the information. In order to increase productivity, dashboards include a collection of visualizations that have different pieces of related information.
 
@@ -23,13 +23,13 @@ Data Sources make up visualizations and visualizations make up dashboards. In ot
 
 With an intuitive drag and drop interface, Slingshot makes it simple to create dashboards within minutes. Choose from more than 40 different visualizations to present your data and tell your story the best way.
 
-<img src="../images/my-analytics-dashboard-example.png" alt="Customizing a data visualization in Slingshot" class="responsive-img"/>
+<img src="../../images/my-analytics-dashboard-example.png" alt="Customizing a data visualization in Slingshot" class="responsive-img"/>
 
 ### Customize
 
 You can sort, filter and aggregate your data as you wish. Each chart type provides you with different settings to design your visualizations the way you want them to appear.
 
-[Read more about the different chart types here!](https://www.slingshotapp.io/en/help/docs/analytics/data-visualizations/overview)
+[Read more about the different chart types here!](./analytics/data-visualizations/overview.md)
 
 ### Interact
 
@@ -39,13 +39,13 @@ Once your dashboard is created, interact with your visualizations with the drill
 
 Share your dashboards with others and collaborate over them. Different levels of permission types allow you to choose how to share the dashboards and what the access to them can be.
 
-[Read more about dashboards here!](https://www.slingshotapp.io/en/help/docs/analytics/dashboards/overview)
+[Read more about dashboards here!](./analytics/dashboards/overview.md)
 
 ## Data Sources
 
 Connect to the most popular data sources without setting anything up on the server. Get real-time insights by connecting directly to *SharePoint Online*, *Google Drive*, *OneDrive*, *Microsoft Analysis Services*, *Microsoft SQL Server*, *CRM*, and many more. 
 
-[Click here for a full list of connectors!](https://www.slingshotapp.io/en/help/docs/analytics/datasources/overview)
+[Click here for a full list of connectors!](./analytics/datasources/overview.md)
 
 ### Connect
 
@@ -61,16 +61,16 @@ Your organization’s data catalog makes it easier for users to quickly find the
 
 Certifications are an important part of the data catalog, as they assist you to find the most trusted data within the organization. This is an excellent way to know which dashboards or data sources are reliable and contain verified information. When a dashboard or data source is certified, you will see a gold, silver or bronze colored badge next to it.
 
-<img src="../images/certified-data-source-example.png" alt="Certifications in Slingshot" class="responsive-img"/>
+<img src="../../images/certified-data-source-example.png" alt="Certifications in Slingshot" class="responsive-img"/>
 
-[Read more about data catalog here!](https://www.slingshotapp.io/en/help/docs/data-catalog)
+[Read more about data catalog here!](data-catalog.md)
 
 ## Lists
 
 You can manage multiple lists of dashboards and data sources, which are designed to organize, manage and share those resources.
 The Dashboards and Data Sources tabs have lists that can be further organized in sections. Sections are useful to add divisions and to better layout your content.
 
-<img src="../images/my-analytics-dashboard-lists.png" alt="Data Catalog screen within Slingshot" class="responsive-img"/>
+<img src="../../images/my-analytics-dashboard-lists.png" alt="Data Catalog screen within Slingshot" class="responsive-img"/>
 
 ### Out-of-the-box Lists
 
@@ -99,7 +99,7 @@ To stop filtering dashboards or data sources, you can:
 2. Select the **Clear** button at the bottom to remove the current filters.
 3. Click/tap on **Apply** to save your changes.
 
-<img src="../images/dashboard-filters-example.png" alt="Data Catalog screen within Slingshot" class="responsive-img"/>
+<img src="../../images/dashboard-filters-example.png" alt="Data Catalog screen within Slingshot" class="responsive-img"/>
 
 ### Saving Filters
 
