@@ -13,7 +13,7 @@ For users to get the most insight possible out of business data, Analytics provi
 
 The dashboard shown below contains a wide variety of visualizations, all of which analyze different aspects of Manufacturing.
 
-<img src="images/data-visualizations-example.png" alt="Analytics's log in screen" class="responsive-img"/>
+<img src="images/example-data-visualizations.png" alt="Analytics's log in screen" class="responsive-img"/>
 
 ## Choosing the Right Chart Type
 
