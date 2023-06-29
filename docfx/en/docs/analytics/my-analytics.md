@@ -15,7 +15,7 @@ In order to make data-driven decisions, Slingshot is on your side with the follo
 - **Data Sources** - Connect directly to wherever your data comes from, including content managers, cloud services, CRMs, databases, spreadsheets, and more.
 - **Data Catalog** - Find the most trustful information about your company in the list of data catalogs. The data is categorized and certified. 
 
->[!Note] Data Catalogs are available only to *[Enterprise](slingshot-enterprise-subscription.md)* users.
+>[!Note] Data Catalogs are available only to *[Enterprise](../slingshot-enterprise-subscription.md)* users.
 
 Data Sources make up visualizations and visualizations make up dashboards. In other words, your data comes from a data source, a visualization connects to that data source and displays the information. In order to increase productivity, dashboards include a collection of visualizations that have different pieces of related information.
 
@@ -29,7 +29,7 @@ With an intuitive drag and drop interface, Slingshot makes it simple to create d
 
 You can sort, filter and aggregate your data as you wish. Each chart type provides you with different settings to design your visualizations the way you want them to appear.
 
-[Read more about the different chart types here!](./analytics/data-visualizations/overview.md)
+[Read more about the different chart types here!](../analytics/data-visualizations/overview.md)
 
 ### Interact
 
@@ -39,13 +39,13 @@ Once your dashboard is created, interact with your visualizations with the drill
 
 Share your dashboards with others and collaborate over them. Different levels of permission types allow you to choose how to share the dashboards and what the access to them can be.
 
-[Read more about dashboards here!](./analytics/dashboards/overview.md)
+[Read more about dashboards here!](../analytics/dashboards/overview.md)
 
 ## Data Sources
 
 Connect to the most popular data sources without setting anything up on the server. Get real-time insights by connecting directly to *SharePoint Online*, *Google Drive*, *OneDrive*, *Microsoft Analysis Services*, *Microsoft SQL Server*, *CRM*, and many more. 
 
-[Click here for a full list of connectors!](./analytics/datasources/overview.md)
+[Click here for a full list of connectors!](../analytics/datasources/overview.md)
 
 ### Connect
 
@@ -63,7 +63,7 @@ Certifications are an important part of the data catalog, as they assist you to 
 
 <img src="../../images/certified-data-source-example.png" alt="Certifications in Slingshot" class="responsive-img"/>
 
-[Read more about data catalog here!](data-catalog.md)
+[Read more about data catalog here!](../data-catalog.md)
 
 ## Lists
 
