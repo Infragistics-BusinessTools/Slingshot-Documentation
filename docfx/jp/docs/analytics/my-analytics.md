@@ -16,7 +16,7 @@ Slingshot の **[分析]** セクションを使用すると、BI (ビジネス 
 - **データソース** - コンテンツ マネージャー、クラウド サービス、CRM、データベース、スプレッドシートなど、データの送信元に直接接続します。
 - **データ カタログ** - データ カタログのリストから、会社に関する最も信頼できる情報を見つけます。データは分類され、認証されます。
 
->[!Note] データ カタログは *[Enterprise](https://www.slingshotapp.io/en/help/docs/slingshot-enterprise-subscription)* ユーザーのみが利用できます。
+>[!Note] データ カタログは *[Enterprise](../slingshot-enterprise-subscription.md)* ユーザーのみが利用できます。
 
 データ ソースは表示形式を構成し、表示形式はダッシュボードを構成します。つまり、データはデータ ソースから取得され、可視化がそのデータ ソースに接続して情報を表示します。 生産性を向上させるために、ダッシュボードには、さまざまな関連情報を含む可視化のコレクションが含まれています。
 
@@ -24,13 +24,13 @@ Slingshot の **[分析]** セクションを使用すると、BI (ビジネス 
 
 直感的なドラッグ＆ドロップ インターフェイスを備えた Slingshot は、数分でダッシュボードを簡単に作成できます。40 以上の異なる表示形式から選択して、データを提示し、ストーリーを最良の方法で伝えます。
 
-<img src="../images/my-analytics-dashboard-example.png" alt="Customizing a data visualization in Slingshot" class="responsive-img"/>
+<img src="../../images/my-analytics-dashboard-example.png" alt="Customizing a data visualization in Slingshot" class="responsive-img"/>
 
 ### カスタマイズ
 
 データの並べ替え、フィルター、集計も思い通りにできます! チャートの種類ごとに、視覚化を希望どおりにデザインするためのさまざまな設定が提供されます。
 
-[さまざまなチャート タイプの詳細については、こちらをご覧ください](https://www.slingshotapp.io/en/help/docs/analytics/data-visualizations/overview)。
+[さまざまなチャート タイプの詳細については、こちらをご覧ください](../analytics/data-visualizations/overview.md)。
 
 ### インタラクション
 
@@ -40,13 +40,13 @@ Slingshot の **[分析]** セクションを使用すると、BI (ビジネス 
 
 ダッシュボードを他の人と共有し、それらを介して共同作業します。さまざまなレベルの権限タイプを使用して、ダッシュボードの共有方法とダッシュボードへのアクセスの内容を選択できます。
 
-[ダッシュボードの詳細については、こちらをご覧ください](https://www.slingshotapp.io/en/help/docs/analytics/dashboards/overview)。
+[ダッシュボードの詳細については、こちらをご覧ください](../analytics/dashboards/overview.md)。
 
 ## データ ソース
 
 人気のあるデータ ソースへ、特別なサーバー設定なしで接続できます。*SharePoint オンライン*、*Google ドライブ*、*OneDrive*、*Microsoft Analysis Services*、*Microsoft SQL Server*、*CRM* などに直接接続して、リアルタイムなインサイトを取得します。
 
-[コネクタの完全なリストについてはここをクリックしてください](https://www.slingshotapp.io/en/help/docs/analytics/datasources/overview)。
+[コネクタの完全なリストについてはここをクリックしてください](../analytics/datasources/overview.md)。
 
 ### 接続
 
@@ -62,16 +62,16 @@ Slingshot の **[分析]** セクションを使用すると、BI (ビジネス 
 
 認証は、組織内で最も信頼できるデータを見つけるのに役立つため、データ カタログの重要な部分です。これは、どのダッシュボードまたはデータ ソースが信頼でき、検証済みの情報が含まれているかを知るための優れた方法です。ダッシュボードまたはデータ ソースが認証されると、その横に金、銀、または銅のバッジが表示されます。
 
-<img src="../images/certified-data-source-example.png" alt="Certifications in Slingshot" class="responsive-img"/>
+<img src="../../images/certified-data-source-example.png" alt="Certifications in Slingshot" class="responsive-img"/>
 
-[データ カタログの詳細については、こちらをご覧ください](https://www.slingshotapp.io/en/help/docs/data-catalog)。
+[データ カタログの詳細については、こちらをご覧ください](../data-catalog.md)。
 
 ## リスト
 
 ダッシュボードとデータ ソースの複数のリストを管理できます。これらのリストは、これらのリソースを整理、管理、および共有するようにデザインされています。
 [ダッシュボード] タブと [データ ソース] タブには、セクションごとに整理できるリストがあります。セクションは、コンテンツを分割してより良くレイアウトする場合に便利です。
 
-<img src="../images/my-analytics-dashboard-lists.png" alt="Data Catalog screen within Slingshot" class="responsive-img"/>
+<img src="../../images/my-analytics-dashboard-lists.png" alt="Data Catalog screen within Slingshot" class="responsive-img"/>
 
 ### 定義済みのリスト
 
@@ -100,7 +100,7 @@ Slingshot には、特定のダッシュボードまたはデータ ソースを
 2. 下部にある **[クリア]** ボタンを選択して、現在のフィルターを削除します。
 3. **[適用]** をクリックまたはタップして変更を保存します。
 
-<img src="../images/dashboard-filters-example.png" alt="Data Catalog screen within Slingshot" class="responsive-img"/>
+<img src="../../images/dashboard-filters-example.png" alt="Data Catalog screen within Slingshot" class="responsive-img"/>
 
 ### フィルターの保存
 
