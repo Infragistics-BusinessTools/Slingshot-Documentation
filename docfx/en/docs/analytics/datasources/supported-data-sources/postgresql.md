@@ -88,7 +88,7 @@ In this case, the function requires you to configure the start and end date to d
 
 For more information on Functions and PostgreSQL, visit this [documentation website](https://www.postgresql.org/docs/9.0/sql-createfunction.html).
 
-## Working in the Visualization editor
+## Working in the Visualization Editor
 
 Once your data source has been added, you will be taken to the *Visualizations Editor*. Here you can build your dashboard. Note that based on the visualization that you have chosen, you will see different types of fields.
 

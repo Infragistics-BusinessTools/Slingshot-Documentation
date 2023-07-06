@@ -67,7 +67,7 @@ of the data in the **products**,**customers**, **orderdetails** and **orders** t
 
 For more information on views and MySQL, visit [this documentation page](https://dev.mysql.com/doc/refman/8.0/en/views.html).
 
-## Working in the Visualization editor
+## Working in the Visualization Editor
 
 Once you have chosen your table or view, you will be taken to the *Visualizations Editor*. Here you can build your dashboard. By default, the *Column* visualization will be selected. You can select it in order to choose another chart type.
 

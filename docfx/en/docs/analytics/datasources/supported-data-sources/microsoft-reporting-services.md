@@ -54,7 +54,7 @@ the format in which the report will load in the *Visualization editor*:
 >[!NOTE] **Editing the Data Source in the Visualization editor.**
 >Carefully choose the report format (PDF or data) because once loaded, you will not be able to change it. When you *Edit* your data source, you will only be able to change the configuration of the report's parameters.
 
-## Working in the Visualization editor
+## Working in the Visualization Editor
 
 By default, the *Column* visualization will be selected. You can select it in order to choose another chart type. 
 

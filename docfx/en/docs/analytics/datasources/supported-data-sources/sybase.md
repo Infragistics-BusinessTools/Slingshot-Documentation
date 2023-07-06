@@ -82,7 +82,7 @@ In this case, for example, the stored procedure requires users to set *@name* ra
 
 For more information on Stored Procedures and Sybase, visit [this documentation website](http://infocenter.sybase.com/help/index.jsp?topic=/com.sybase.infocenter.dc32300.1570/html/sqlug/X39397.htm).
 
-## Working in the Visualization editor
+## Working in the Visualization Editor
 
 Once your data source has been added, you will be taken to the *Visualizations Editor*. Here you can build your dashboard. By default, the *Column* visualization will be selected. You can select it in order to choose another chart type.
 

@@ -62,7 +62,7 @@ working with data from MS SQL Server. For more information,
 please refer to [this section](https://wp-staging.slingshotapp.io/en/help/docs/analytics/datasources/supported-data-sources/microsoft-sql-server#setting-up-your-data)
 of the **MS SQL Server data source** topic.
 
-## Working in the Visualization editor
+## Working in the Visualization Editor
 
 Once your data source has been added, you will be taken to the *Visualizations Editor*. Here you can build your dashboard. 
 

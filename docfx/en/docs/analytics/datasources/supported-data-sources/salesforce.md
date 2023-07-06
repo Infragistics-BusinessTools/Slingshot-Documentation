@@ -46,13 +46,13 @@ You can change the report filters' values later in the *Visualization editor* by
 
 <img src="./images/salesforce-edit-option.png" alt="Edit your data source in the Visualization editor" class="responsive-img" width="80%"/>
 
-## Working in the Visualization editor 
+## Working in the Visualization Editor 
 
-Once your data source has been added, you will be taken to the *Visualizations Editor*. Here you can build your dashboard.Note that based on the visualization that you have chosen, you will see different types of fields.
+Once your data source has been added, you will be taken to the *Visualizations Editor*. Here you can build your dashboard. Note that based on the visualization that you have chosen, you will see different types of fields.
 
 <img src="./images/salesforce-visualization-editor.png" alt="Working in the visualization editor while using the information from a salesforce account" class="responsive-img" width="80%"/>
 
-When you are ready with your visualization, you can click/tap on the checkmark in the top right corner to save it as a dashboard. In this case we saved the dashboard in **My Analytics** > **My Dashboards** > **Accounting**.
+When you are ready with your visualization, you can click/tap on the checkmark in the top right corner to save it as a dashboard. In this case we saved the dashboard in **My Analytics** ⇒ **My Dashboards** ⇒ **Accounting**.
 
 <img src="./images/salesforce-my-analytics.png" alt="A salesforce dashboard in the My Analytics section" class="responsive-img" width="80%"/>
 
