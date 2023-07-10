@@ -47,7 +47,7 @@ steps:
   inputs:
     script: 'npm run build:staging'
 - task: PublishBuildArtifacts@1
-  condition: or(eq($(Build.SourceBranchName), 'master'), eq(variables.forcePublishArtifacts, true))
+  condition: or(eq(variables['Build.SourceBranchName'], 'master'), eq(variables.forcePublishArtifacts, true))
   displayName: "Copy staging artifacts to builds server"
   inputs:
     PathtoPublish: 'docfx\en'
@@ -60,7 +60,7 @@ steps:
   inputs:
     script: 'npm run build:prod'
 - task: PublishBuildArtifacts@1
-  condition: or(eq($(Build.SourceBranchName), 'master'), eq(variables.forcePublishArtifacts, true))
+  condition: or(eq(variables['Build.SourceBranchName'], 'master'), eq(variables.forcePublishArtifacts, true))
   displayName: "Copy production artifacts to builds server"
   inputs:
     PathtoPublish: 'docfx\en'
@@ -74,7 +74,7 @@ steps:
   inputs:
     script: 'npm run build:staging_jp'
 - task: PublishBuildArtifacts@1
-  condition: or(eq($(Build.SourceBranchName), 'master'), eq(variables.forcePublishArtifacts, true))
+  condition: or(eq(variables['Build.SourceBranchName'], 'master'), eq(variables.forcePublishArtifacts, true))
   displayName: "Copy staging JP artifacts to builds server"
   inputs:
     PathtoPublish: 'docfx\jp'
@@ -87,7 +87,7 @@ steps:
   inputs:
     script: 'npm run build:prod_jp'
 - task: PublishBuildArtifacts@1
-  condition: or(eq($(Build.SourceBranchName), 'master'), eq(variables.forcePublishArtifacts, true))
+  condition: or(eq(variables['Build.SourceBranchName'], 'master'), eq(variables.forcePublishArtifacts, true))
   displayName: "Copy production artifacts to builds server"
   inputs:
     PathtoPublish: 'docfx\jp'
