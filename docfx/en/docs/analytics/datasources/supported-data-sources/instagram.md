@@ -15,7 +15,7 @@ To add an *Instagram* data source to your list, follow the steps described below
 
 5.	A dialog will open, where you can change the name of the data source, add a description, see if the data source is [certified](../../../certifications.md) (available to *Enterprise* users), and edit the details. 
 
-    <img src="./images/instagram-edit-data-source.png" alt="Edit data source dialog" class="responsive-img" width="50%"/>
+    <img src="./images/add-instagram-account.png" alt="Edit data source dialog" class="responsive-img" width="50%"/>
 
 6. Choose the pages you want to use for your dashboard and click on **Select Data**.
 
@@ -23,7 +23,7 @@ To add an *Instagram* data source to your list, follow the steps described below
 
 Once you have chosen/added your data source, in this case the Instagram Business account, you’ll be able to manage the data in the *Visualization Editor*. 
 
-<img src="./images/visualization-editor-instagram.png" alt="Instagram visualization editor" class="responsive-img" width="90%"/>
+<img src="./images/visualization-editor-instagram-as-data-source.png" alt="Instagram visualization editor" class="responsive-img" width="90%"/>
 
 You will be presented with two sections in their own query field:
 
@@ -37,7 +37,7 @@ You can filter your data by selecting a specific date range. Keep in mind that t
 
 To change the date range, you can click on the filter and then click on the arrow in the upper right corner.
 
-<img src="./images/date-range-instagram.png" alt="Instagram date range options" class="responsive-img" width="90%"/>
+<img src="./images/date-range-data-filter-instagram.png" alt="Instagram date range options" class="responsive-img" width="90%"/>
 
 ## Settings
 

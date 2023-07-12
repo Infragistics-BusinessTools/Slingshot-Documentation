@@ -13,7 +13,7 @@ _description: Create and use visualizations through a MySQL server data source i
 To configure a MySQL server data source, you will need to enter the
 following information:
 
-<img src="images/add-mysql-as-data-source.png" alt="Enter MySQL Server Details dialog" class="responsive-img" width="50%"/>
+<img src="images/add-mysql-server-dialog.png" alt="Enter MySQL Server Details dialog" class="responsive-img" width="50%"/>
 
 1. [**Server**](#how-to-find-server): the computer name or IP address
     assigned to the computer on which the server is running.

@@ -11,7 +11,7 @@ _description: A roadmap to configuring an Azure SQL data source to use it for yo
 
 To configure an Azure SQL data source, you will need to enter the following information:
 
-<img src="images/add-azure-sql-server-dialog.png" alt="Opening Analytics's AzureSQL data source configuration screen" class="responsive-img" width="50%"/>
+<img src="images/azure-sql-server-configuration.png" alt="Opening Analytics's AzureSQL data source configuration screen" class="responsive-img" width="50%"/>
 
 1.  **Server**: the computer name or IP address assigned to the computer
     on which the server is running.

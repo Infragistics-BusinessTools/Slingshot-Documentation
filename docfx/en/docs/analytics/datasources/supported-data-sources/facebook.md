@@ -34,17 +34,17 @@ To add a *Facebook* data source to your list, follow the steps described below:
 
 6. In the last dialog that opens, you can change the Ad Account name, add an appropriate description, see if the data source is certified (available to *Enterprise* users), and edit the details. Adding appropriate descriptions helps all users navigate through long lists and find the data sources they are searching for. Select *Add Data Source* to finish the process.
 
-   <img src="./images/add-data-source-facebook.png" alt="A dialog in which you can add a Facebook Ad account" width="53%" />
+   <img src="./images/add-facebook-ad-account.png" alt="A dialog in which you can add a Facebook Ad account" width="53%" />
 
    You will see your new Facebook Ad account connection added to your recently used Data Sources.
 
-<img src="./images/data-sources-list.png" alt="Facebook Ad account connection in the list of data sources" width="88%" />
+<img src="./images/data-sources-list-facebook.png" alt="Facebook Ad account connection in the list of data sources" width="88%" />
 
 ## Setting Up Your Data
 
 From the Data Sources list, select the Facebook Ad account you want to connect. You will see the *Data Source details* dialog, which allows you to review and set up your data (look at the screenshot below). 
 
-<img src="./images/data-source-details-facebook.png" alt="the data sources details dialog" class="responsive-img" width= "50%"/>
+<img src="./images/facebook-data-source-details-dialog.png" alt="the data sources details dialog" class="responsive-img" width= "50%"/>
 
 Here you will find the following data source details: 
 
@@ -78,7 +78,7 @@ When ready, click/tap on **Select Data** to continue to the *Visualization Edito
 
 Once your data source has been added, you will be taken to the Visualization Editor. 
 
-<img src="./images/facebook-visualization-editor.png" alt="Using the data from the Facebook data source in the visualization editor" class="responsive-img" width= "88%"/>
+<img src="./images/visualization-editor-facebook.png" alt="Using the data from the Facebook data source in the visualization editor" class="responsive-img" width= "88%"/>
 
 By default, the *Column* visualization will be selected. You can click/tap on it in order to choose another chart type from the drop-down menu. 
 

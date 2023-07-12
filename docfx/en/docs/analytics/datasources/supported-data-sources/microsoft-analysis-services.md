@@ -10,9 +10,9 @@ time) and data mining tool in Microsoft SQL Server.
 
 There are two modes you can use when configuring a Microsoft Analysis
 Services data source depending on your server's settings -
-[*Native*](#native) and [*HTTP*](#http).
+[*Native*](#using-native) and [*HTTP*](#using-http).
 
-For more information on both Native and HTTP mode, visit the [Microsoft Instance Management help](https://docs.microsoft.com/en-us/sql/analysis-services/instances/connect-to-analysis-services?view=sql-server-2017).
+For more information on both Native and HTTP mode, visit the <a href="https://docs.microsoft.com/en-us/sql/analysis-services/instances/connect-to-analysis-services?view=sql-server-2017" target="_blank">Microsoft Instance Management help</a>.
 
 <a name='native'></a>
 ### Using Native
@@ -20,7 +20,7 @@ For more information on both Native and HTTP mode, visit the [Microsoft Instance
 To configure the Microsoft Analysis Services data source for *Native*
 mode, you will need to enter the following information:
 
-<img src="../images/native-configuration-microsoft-analysis-services.png" alt="Configure Microsoft Analysis Services connection" class="responsive-img" width="50%"/>
+<img src="./images/microsoft-ssas-server-native.png" alt="Configure Microsoft Analysis Services connection" class="responsive-img" width="50%"/>
 
 1. **Connection Mode**: two options to chose from: HTTP or Native.
 
@@ -59,7 +59,7 @@ mode, you will need to enter the following information:
 To configure the Microsoft Analysis Services data source for *HTTP*
 mode, you will need to provide the following information:
 
-<img src="../images/http-configuration-microsoft-analysis-services.png" alt="Configure Microsoft Analysis HTTP mode connection" class="responsive-img" width="50%"/>
+<img src="./images/microsoft-ssas-server-dialog.png" alt="Configure Microsoft Analysis HTTP mode connection" class="responsive-img" width="50%"/>
 
 1. **Connection Mode**: two options to chose from: HTTP or Native.
 
@@ -73,16 +73,16 @@ mode, you will need to provide the following information:
 After your credentials for the Analysis Services server are verified,
 Analytics will load and show the databases on the server. Select a database and click/tap on **Select and continue** to set it up.
 
-Choose a database *cube* and click/tap on **Select Data** to continue to the *Visualizations Editor*.
+Choose a database *cube* and click/tap on **Select Data** to continue to the *Visualization Editor*.
 
-<img src="images/data-source-cubes-microsoft-analysis-services.png" alt="A list of different cubes in the Data Source Details dialog" class="responsive-img" width="50%"/>
+<img src="images/microsoft-analysis-services-cubes.png" alt="A list of different cubes in the Data Source Details dialog" class="responsive-img" width="50%"/>
 
 <a name='visualization-editor'></a>
 ## Working in the Visualization Editor
 
-When you create a dashboard using a cube data source like Microsoft Analysis Services, you will see fields organized differently in the  *Visualizations Editor* (see screenshot below). Cube data sources consist of hierarchies and aggregations, which have been created by the cubes' designers in advance.
+When you create a dashboard using a cube data source like Microsoft Analysis Services, you will see fields organized differently in the *Visualization Editor* (see screenshot below). Cube data sources consist of hierarchies and aggregations, which have been created by the cubes' designers in advance.
 
-<img src="images/visualization-editor-microsoft-analysis-services.png" alt="Using the Microsoft Analysis Service data source information in the visualization editor" class="responsive-img" width="85%"/>
+<img src="images/microsoft-analysis-services-visualization-editor.png" alt="Using the Microsoft Analysis Service data source information in the visualization editor" class="responsive-img" width="85%"/>
 
 In the screenshot above, you may notice that there is no "Fields" heading on the left. Instead, there are two sections in their own query field:
 
@@ -94,18 +94,17 @@ In the screenshot above, you may notice that there is no "Fields" heading on the
         hierarchy, you can use the whole hierarchy or part of it,
         starting from an element at any lower level. For example, if you have a "Geography" dimension organized in "Country → State → City" hierarchy, you are allowed to drag and use only the "State → City" part of this hierarchy.
 
-    b.  **Named Sets** (depicted by a folder icon and named "Sets") - an arbitrary collection of elements with a name (e.g. "Top 50 Customers").
-
-    c.  **Attributes** - elements are organized in single-level
+    b.  **Attributes** - elements are organized in single-level
         hierarchies (e.g. a "Demographic" attribute, containing groups
         of elements like "Gender," "Marital Status," etc.)
+    
+    c.  **Named Sets** (depicted by a folder icon and named "Sets") - an arbitrary collection of elements with a name (e.g. "Top 50 Customers").
 
 2.  **Measures** (depicted by *[123]* icon): Measures consist of numeric data.
 
-<img src="images/pivot-chart-microsoft-analysis-services.png" alt="Using the visualizatio editor with a pivot chart" class="responsive-img" width="85%"/>
+<img src="./images/microsoft-analysis-services-pivot-chart.png" alt="Using the visualization editor with a pivot chart" class="responsive-img" width="85%"/>
 
-For more information on dimensions and measures, please visit this
-[Technet article](https://docs.microsoft.com/en-us/previous-versions/sql/sql-server-2012/ms174527\(v=sql.110\)).
+For more information on dimensions and measures, please visit this <a href="https://docs.microsoft.com/en-us/previous-versions/sql/sql-server-2012/ms174527\(v=sql.110\" target="_blank">Technet article</a>.
 
 <a name='sort-by-caption-setting'></a>
 ## Sort by Caption Setting
@@ -133,7 +132,7 @@ Depending on the chart type, you can make different changes in the settings. In 
 - Connect the visualization to another dashboard or a URL
 
 
-When you are ready with the visualization editor, you can save the dashboard in **My Analytics** -> **My Dashboards** or in a specific workspace. 
+When you are ready with the visualization editor, you can save the dashboard in **My Analytics** ⇒ **My Dashboards**, a project or in a specific workspace. 
 
 <img src="../images/ssas-dashboard-my-analytics.png" alt="Dasboard with an information from the microsoft analysis services data source in My Analytics" class="responsive-img" width="80%"/>
 
