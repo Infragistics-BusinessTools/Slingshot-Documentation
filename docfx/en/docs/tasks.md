@@ -172,21 +172,41 @@ These filters, which can’t be edited or deleted, are:
 
 ### Creating Filters
 
-To access the Filters editor just click/tap the filter icon (top right of the screen), next to the overflow. 
+In order to create a new filter, you can:
 
-In the Filters editor you can create Basic or more Advanced rules. The Basic rules will be enough most of the time, Advanced rules are recommended in the case that you really need to define more complex conditions in your filter. 
+1. Click/tap on **+Filter** under *Filters*.
 
-To stop filtering tasks, click/tap on the filter icon to open the *Filters* dialog. Then, select the **Clear** button at the bottom to remove the current filters, and **Apply** to save your changes. 
+<img class="responsive-img" src="../images/task-filter.png" width="90%" alt="Filter option">
+
+2. Choose what to include in your filter.
+
+3. Click/tap on **Apply**.
+
+In the Filter's editor you can create Basic or more Advanced rules. 
+
+The Basic rules will be enough most of the time. 
+
+Advanced rules are recommended in the case that you really need to define more complex conditions in your filter. 
+
+If you want to change the way tasks are being filtered, you can make different adjustments to your filter. For example, if you want to filter only by the status **In Progress**, you can:
+
+1. Click/tap on the filter icon to open the *Filters* dialog. 
+
+2. Uncheck **To Do**.
+
+3. Select **Apply** to save your changes. 
+
+<img class="responsive-img" src="../images/task-filters-demo.gif" width="90%" alt="Filter options">
 
 >[!IMPORTANT] **Slingshot Tip**: For those times that you can't find a specific task, try expanding collapsed panels, removing existing filters, and/or adding filters using the properties of the task you want. Remember that the icon changes to help you identify when you have active filters or not.
-
-### Saving Filters
-
-Sometimes you might want to save a filter to use it again in the future. With Slingshot, you can save specific filters and later edit them if needed, very useful to keep at hand a list of tasks relevant to you already filtered. 
 
 ### Advanced Filtering
 
 Basic filtering will be sufficient most of the time but you also have additional filtering options with the *Advanced* rules.  
+
+To open the advanced filters, you can open the Filter's editor and choose **Switch to Advanced**.
+
+<img class="responsive-img" src="../images/advanced-filters.png" width="90%" alt="Filter options">
 
 When the time comes that you need to craft complex filters, you will be able to: 
 
@@ -194,7 +214,7 @@ When the time comes that you need to craft complex filters, you will be able to:
 
 - Use operators like *And*, *Or*. 
 
-As an example, the following rules could be created to get all John Williams’ tasks, that were created by other team members (not him), in which the start date is Jun 28, 2022, the due date is Jun 30, 2022, and the description includes the word “Marketing”. 
+As an example, the following rules could be created to get all John Williams’ tasks, that include the word “Marketing” in their description. 
 
-<img src="../images/advanced-task-filters.png" alt="Advanced Filtering highlighted within Slingshot" class="responsive-img" width="65%"/>
+<img src="../images/advanced-filters-example.png" alt="Advanced Filtering highlighted within Slingshot" class="responsive-img" width="90%"/>
 
