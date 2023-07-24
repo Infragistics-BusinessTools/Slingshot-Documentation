@@ -29,6 +29,8 @@ need to enter the following information:
 
 4.  **Database**: Once you have connected to your account, you will get your databases to choose from. When you are ready, click/tap on **Select and Continue**.
 
+<img src="./images/azure-synapse-databases.png" alt="List of Azure Synapse Databases" class="responsive-img" width="55%"/>
+
 ## How to find your Server Information
 
 You can find your server by following the steps below. Please note that
@@ -55,20 +57,20 @@ that the commands should be executed on the server.
 Once you connect to a database in MS Azure Synapse Analytics, you can
 choose to retrieve data from an entire table, a particular view or stored procedure.
 
-<img src="./images/data-source-details-microsoft-azure-synapse-analytics.png" alt="A data source details dialog" class="responsive-img" width="55%"/>
+<img src="./images/data-source-details-azure-synapse.png" alt="A data source details dialog containing tables, views and stored procedures" class="responsive-img" width="55%"/>
 
 Working with tables, views and stored procedures when using Azure Synapse Analytics closely resembles
 working with data from MS SQL Server. For more information,
-please refer to [this section](https://wp-staging.slingshotapp.io/en/help/docs/analytics/datasources/supported-data-sources/microsoft-sql-server#setting-up-your-data)
+please refer to [this section](microsoft-sql-server.md)
 of the **MS SQL Server data source** topic.
 
 ## Working in the Visualization Editor
 
-Once your data source has been added, you will be taken to the *Visualizations Editor*. Here you can build your dashboard. 
+Once your data source has been added, you will be taken to the *Visualization Editor*. Here you can build your dashboard. 
 
 Keep in mind that the *Column* visualization will be selected by default. You can click/tap on it in order to choose another chart type.
 
-<img src="./images/microsoft-azure-synapse-analytics-visualization-editor.png" alt="Using data from microsoft azure synapse analytics account in the visualization editor" class="responsive-img" width="85%"/>
+<img src="./images/visualization-editor-azure-synapse.png" alt="Using data from microsoft azure synapse analytics account in the visualization editor" class="responsive-img" width="85%"/>
 
 ## Limitations in the Visualization Editor
 
