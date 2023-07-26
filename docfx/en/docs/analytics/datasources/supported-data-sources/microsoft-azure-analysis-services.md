@@ -32,7 +32,7 @@ To configure your Azure Analysis Services data source, you will need to perform 
 
    <img src="images/azure-ssas-cubes.png" alt="List of cubes with all the models in them" class="responsive-img" width="60%"/>
 
-## Working in the Visualization editor
+## Working in the Visualization Editor
 
  Here you will see the data from your model presented in two categories: 
 

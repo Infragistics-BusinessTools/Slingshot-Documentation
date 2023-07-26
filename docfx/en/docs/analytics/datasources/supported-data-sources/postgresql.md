@@ -12,9 +12,9 @@ _description: Connecting and using PostgreSQL as a data source in Slingshot.
 To configure a PostgreSQL server data source, you will need to enter the
 following information:
 
-<img src="../images/add-postgresql-as-data-source.png" alt="Configure PostgreSQL data source dialog" class="responsive-img" width="48%"/>
+<img src="./images/add-postgresql-server-dialog.png" alt="Configure PostgreSQL data source dialog" class="responsive-img" width="48%"/>
 
-1.  [**Server**](#how-to-find-server): the computer name or IP address
+1.  [**Server**](#how-to-find-your-server-information): the computer name or IP address
     assigned to the computer on which the server is running.
 
 2.  **Port**: if applicable, the server port details. If no information
@@ -58,10 +58,10 @@ that the commands should be executed on the server.
 ### Working with Views
 With Analytics, you can not only retrieve PostgreSQL data from entire tables, but
 you can also select a particular
-[view](https://www.postgresqltutorial.com/postgresql-views/) that
+<a href="https://www.postgresqltutorial.com/postgresql-views/" target="_blank">view</a> that
 returns a subset of data from a table or a set of tables instead.
 
-<img src="../images/postgresql-views.png" alt="PostgreSQL views dialog" class="responsive-img" width="55%"/>
+<img src="./images/postgresql-views.png" alt="PostgreSQL views dialog" class="responsive-img" width="55%"/>
 
 In the sample above, the **invoices** view contains a modified version
 of the data in the **Products** table in the PostgreSQL server.
@@ -72,10 +72,10 @@ of the data in the **Products** table in the PostgreSQL server.
 
 PostgreSQL functions allow you to carry out operations that would normally take several queries and round trips in a single function within the database.
 
-The following are just a set of sample functions running on a test server with [Northwind](https://docs.microsoft.com/en-us/dotnet/framework/data/adonet/sql/linq/downloading-sample-databases) data:
+The following are just a set of sample functions running on a test server with <a href="https://docs.microsoft.com/en-us/dotnet/framework/data/adonet/sql/linq/downloading-sample-databases" target="_blank">Northwind</a> data:
 
 
-<img src="../images/postgresql-functions.png" alt="A dashboard with a table visualization and a view visualization" class="responsive-img" width="55%"/>
+<img src="./images/postgresql-functions.png" alt="A dashboard with a table visualization and a view visualization" class="responsive-img" width="55%"/>
 
 
 After you select a function, you will need to set up some additional parameters. 
@@ -83,18 +83,18 @@ After you select a function, you will need to set up some additional parameters.
 In this case, the function requires you to configure the start and end date to display the Sales for period information.
 
 
-<img src="../images/postgresql-sales-for-period.png" alt="Sales for period function parameters" class="responsive-img" width="45%"/>
+<img src="./images/postgresql-parameters.png" alt="Sales for period function parameters" class="responsive-img" width="45%"/>
 
 
-For more information on Functions and PostgreSQL, visit this [documentation website](https://www.postgresql.org/docs/9.0/sql-createfunction.html).
+For more information on Functions and PostgreSQL, visit this <a href="https://www.postgresql.org/docs/9.0/sql-createfunction.html" target="_blank">documentation website</a>.
 
-## Working in the Visualization editor
+## Working in the Visualization Editor
 
-Once your data source has been added, you will be taken to the *Visualizations Editor*. Here you can build your dashboard. Note that based on the visualization that you have chosen, you will see different types of fields.
+Once your data source has been added, you will be taken to the *Visualization Editor*. Here you can build your dashboard. Note that based on the visualization that you have chosen, you will see different types of fields.
 
-<img src="./images/postgresql-visualization-editor.png" alt="Working in the visualization editor while using postgresql as a data source." class="responsive-img" width="80%"/>
+<img src="./images/visualization-editor-postgresql.png" alt="Working in the visualization editor while using postgresql as a data source." class="responsive-img" width="80%"/>
 
-When you are ready with your visualization, you can click/tap on the checkmark in the top right corner to save it as a dashboard. In the example below we saved the dashboard in **My Analytics** > **My Dashboards** > **Customer support**.
+When you are ready with your visualization, you can click/tap on the checkmark in the top right corner to save it as a dashboard. In the example below we saved the dashboard in **My Analytics** ⇒ **My Dashboards** ⇒ **Customer support**.
 
 <img src="./images/postgresql-my-analytics.png" alt="A postgresql dashboard in the My Analytics section" class="responsive-img" width="80%"/>
 

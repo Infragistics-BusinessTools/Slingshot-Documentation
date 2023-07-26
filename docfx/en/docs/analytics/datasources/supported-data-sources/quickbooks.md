@@ -24,7 +24,7 @@ Here you can choose the Quickbooks entities you need from:
 - *Common Entities* - this category allows quick selection between the  most used entities among our users;
 - *All Entities*- this category displays the full list of entities contained in your Quickbooks account. You can use the provided search to find quickly the entity you need.
 
-## Working in the Visualization editor
+## Working in the Visualization Editor
 
 Once your data source has been added, you will be taken to the *Visualizations Editor*. By default, the *Column* visualization will be selected. You can select it in order to choose another chart type. 
 

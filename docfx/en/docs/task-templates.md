@@ -40,29 +40,25 @@ To access your personal task templates or templates that are stored in another l
 
     <img src="../images/add-from-template-button.png" class="responsive-img" alt="A list of sections which can be kept for the template" width="90%">  
 
-    Alternatively, you can choose a section -> open the overflow menu -> choose **Add from Template**. 
+    Alternatively, you can choose a section ⇒ open the overflow menu ⇒ choose **Add from Template**. 
        
     <img src="../images/add-from-template-section.png" class="responsive-img" alt="Add from template option in a task section" width="90%">  
 
 2.	The following dialog will pop up:
 
-    <img src="../images/task-templates-dialog.png" class="responsive-img" alt="A dialog, containing all task templates" width="90%"> 
+    <img src="../images/task-templates.png" class="responsive-img" alt="A dialog, containing all task templates" width="90%"> 
 
 In the left panel you can:
 
-- Check the templates that you have used recently.
+- Check all your task templates.
 
-- Search for templates in different locations (e.g., *My Tasks*, different workspaces or projects).
+- Check the templates that you have recently used.
 
 - Filter the templates by *Created by Me* or *Shared with Me*.
 
-Under **My Templates** you can:
+If you want to search a template by its name, you can use the search bar in the upper right corner.
 
-- Alphabetically sort your templates.
-
-- Sort templates by *Last Modified*.
-
-Besides this, you can also open the overflow menu on the right side of each task and take the following actions:
+Besides this, you can also open the overflow menu on the right side of each task template and take the following actions:
 
 - Open the template.
 
@@ -76,7 +72,7 @@ Besides this, you can also open the overflow menu on the right side of each task
 
 - Delete the template.
 
-  <img src="../images/task-templates-overflow-menu.png" class="responsive-img" alt="Overflow menu with different options for task templates" width="90%"> 
+  <img src="../images/task-template-options.png" class="responsive-img" alt="Overflow menu with different options for task templates" width="90%"> 
 
 ## How can I edit a Task Template?
 

@@ -11,9 +11,9 @@ _description: Learn how to configure your Sybase data source in Slingshot, retri
 To configure a Sybase server data source, you will need to enter the
 following information:
 
-<img src="images/add-sybase-as-data-source.png" alt="Configure Sybase database connection" width="50%" class="responsive-img"/>
+<img src="images/add-sybase-server-dialog.png" alt="Configure Sybase database connection" width="50%" class="responsive-img"/>
 
-2.  [**Server**](#how-to-find-server): the computer name or IP address
+2.  [**Server**](#how-to-find-your-server-information): the computer name or IP address
     assigned to the computer on which the server is running.
 
 3.  **Port**: if applicable, the server port details. If no information
@@ -60,35 +60,35 @@ that the commands should be executed on the server.
 
 With Analytics, you can retrieve Sybase data from entire tables, but you
 can also select a particular
-[view](http://infocenter.sybase.com/help/index.jsp?topic=/com.sybase.infocenter.dc32300.1570/html/sqlug/X29678.htm)
+<a href="http://infocenter.sybase.com/help/index.jsp?topic=/com.sybase.infocenter.dc32300.1570/html/sqlug/X29678.htm" target="_blank">view</a>
 that returns a subset of data from a table or a set of tables instead.
 
-<img src="images/sybase-views-list.png" alt="Select from Sybase views dialog" class="responsive-img" width="55%"/>
+<img src="images/views-sybase.png" alt="Select from Sybase views dialog" class="responsive-img" width="55%"/>
 
 The **syscacheinfo** view, for example, contains information about the cache, taken from one of the tables in the database.
 
 <img src="images/sybase-view-visualization.png" alt="Creating a visualization while using a sybase view" class="responsive-img" width="70%"/>
 
-For more information on views and Sybase, visit [this documentation website](http://infocenter.sybase.com/help/index.jsp?topic=/com.sybase.infocenter.dc32300.1570/html/sqlug/X29678.htm).
+For more information on views and Sybase, visit <a href="http://infocenter.sybase.com/help/index.jsp?topic=/com.sybase.infocenter.dc32300.1570/html/sqlug/X29678.htm" target="_blank">this documentation website</a>.
 
 ### Working with Stored Procedures
 
 In Sybase, stored procedures allow users to run a set of query
 statements in a relational database with specific parameters. 
 
-In this case, for example, the stored procedure requires users to set *@name* range value.
+In this case, for example, the stored procedure requires users to set **@name** range value.
 
 <img src="images/stored-procedure-parameters-sybase.png" alt="Stored Procedure select name" class="responsive-img" width="53%"/>
 
-For more information on Stored Procedures and Sybase, visit [this documentation website](http://infocenter.sybase.com/help/index.jsp?topic=/com.sybase.infocenter.dc32300.1570/html/sqlug/X39397.htm).
+For more information on Stored Procedures and Sybase, visit <a href="http://infocenter.sybase.com/help/index.jsp?topic=/com.sybase.infocenter.dc32300.1570/html/sqlug/X39397.htm" target="_blank">this documentation website</a>.
 
-## Working in the Visualization editor
+## Working in the Visualization Editor
 
-Once your data source has been added, you will be taken to the *Visualizations Editor*. Here you can build your dashboard. By default, the *Column* visualization will be selected. You can select it in order to choose another chart type.
+Once your data source has been added, you will be taken to the *Visualization Editor*. Here you can build your dashboard. By default, the *Column* visualization will be selected. You can select it in order to choose another chart type.
 
-<img src="images/sybase-visualization-editor.png" alt="Using Sybase data to create a dashboard in the visualization editor" class="responsive-img" width="80%"/>
+<img src="images/visualization-editor-sybase.png" alt="Using Sybase data to create a dashboard in the visualization editor" class="responsive-img" width="80%"/>
 
-When you are ready with your visualization, you can save it as a dashboard by clicking/tapping on the checkmark in the top right corner. In this case we saved the dashboard in **My Analytics** > **My Dashboards** > **Statistics**.
+When you are ready with your visualization, you can save it as a dashboard by clicking/tapping on the checkmark in the top right corner. In this case we saved the dashboard in **My Analytics** ⇒ **My Dashboards** ⇒ **Statistics**.
 
 <img src="images/sybase-my-analytics.png" alt="Sybase dashboard in My Analytics" class="responsive-img" width="80%"/>
 

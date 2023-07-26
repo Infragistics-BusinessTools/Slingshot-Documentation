@@ -39,7 +39,7 @@ Here you can choose the Microsoft Dynamics CRM entities you need from:
 - Popular Entities - this category allows quick selection between the most used entities among users;
 - All Entities- this category displays the full list of entities contained in your Microsoft Dynamics CRM account. You can use the provided search to find quickly the entity you need.
 
-## Working in the Visualization editor
+## Working in the Visualization Editor
 
 Once you have chosen your entity, you will be taken to the *Visualizations Editor*. Here you can build your dashboard. 
 

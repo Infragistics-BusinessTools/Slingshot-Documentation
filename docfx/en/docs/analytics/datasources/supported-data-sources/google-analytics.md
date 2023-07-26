@@ -57,7 +57,7 @@ provides an SDK to gather usage data from iOS and Android apps.
        
 After your credentials are verified, Analytics will take you to the *Visualizations Editor*.
 
-## Working in the Visualizations Editor
+## Working in the Visualization Editor
 
 When you create a dashboard with information coming from Google Analytics, you will see fields organized differently (see screenshot below).
 

@@ -27,7 +27,7 @@ The *Google Ads* data source allows you to access and analyze the data tables fr
 
    Click *Select Data* to continue to the *Visualizations Editor*.
 
-## Working in the Visualizations Editor 
+## Working in the Visualization Editor 
 
 When you create a dashboard with information coming from Google Ads, you will see fields in the Visualizations Editor are organized differently (as shown in the screenshot below).
 

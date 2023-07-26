@@ -14,7 +14,7 @@ simply getting the data from the reports to create a visualization.
 To configure a Microsoft Reporting Services (SSRS) Data Source, you will
 need to enter the following information:
 
-<img src="images/add-microsoft-reporting-services-as-data-source.png" alt="Set up menu for Microsoft Reporting Services data source" class="responsive-img" width="50%"/>
+<img src="./images/microsoft-reporting-services.png" alt="Set up menu for Microsoft Reporting Services data source" class="responsive-img" width="50%"/>
 
 1.  **URL**: the URL to the server.
 
@@ -35,7 +35,7 @@ Microsoft Reporting Services account.
 Depending on your data, you will need to configure specific
 **parameters** for your Reports, as shown below:
 
-<img src="images/microsoft-reporting-services-parameters.png" alt="Set up parameters and choose an output format dialog" class="responsive-img" width="55%"/>
+<img src="images/parameters-microsoft-reporting-services.png" alt="Set up parameters and choose an output format dialog" class="responsive-img" width="55%"/>
 
 After selecting/filling the parameters for your report, you can choose
 the format in which the report will load in the *Visualization editor*:
@@ -49,21 +49,22 @@ the format in which the report will load in the *Visualization editor*:
   - *Load Data* - Your report data will be loaded in the standard
     format, providing you with fields to build your visualization.
 
-  <img src="images/microsoft-reporting-services-sample-data-visualization-editor.png" alt="Microsoft reporting services data in the Visualization editor" class="responsive-img" width="84%"/>
+  <img src="images/visualization-editor-microsoft-reporting-services.png" alt="Microsoft reporting services data in the Visualization editor" class="responsive-img" width="84%"/>
 
 >[!NOTE] **Editing the Data Source in the Visualization editor.**
 >Carefully choose the report format (PDF or data) because once loaded, you will not be able to change it. When you *Edit* your data source, you will only be able to change the configuration of the report's parameters.
 
-## Working in the Visualization editor
+## Working in the Visualization Editor
 
 By default, the *Column* visualization will be selected. You can select it in order to choose another chart type. 
 
-<img src="images/microsoft-reporting-services-chart-types.png" alt="List of chart types available while using Microsoft Reporting Services as data source" class="responsive-img" width="63%"/>
+<img src="images/chart-types-microsoft-reporting-services.png" alt="List of chart types available while using Microsoft Reporting Services as data source" class="responsive-img" width="63%"/>
 
 Based on the visualization that you have chosen, you will see different types of fields.
 
 Once you are ready with your visualization, click/tap on the checkmark in the top right corner to save it as a dashboard. 
 
-In this case we saved the dashboard in **My Analytics** -> **My Dashboards** -> **Accounting**.
+In this case we saved the dashboard in **My Analytics** 
+⇒ **My Dashboards** ⇒ **Accounting**.
 
 <img src="images/microsoft-reporting-services-my-analytics-dashboard.png" alt="A dashboard in the My Analytics section created while using Microsoft Reporting Services" class="responsive-img" width="75%"/>

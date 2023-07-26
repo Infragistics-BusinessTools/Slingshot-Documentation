@@ -11,9 +11,9 @@ _description: Steps to configuring Microsoft SQL Server and using it to your adv
 
 To configure a Microsoft SQL Server data source, you can set the following information:
 
-<img src="images/enter-microsoft-sql-credentials.png" alt="Enter SQL Server Details" class="responsive-img" width="50%"/>
+<img src="images/add-microsoft-sql-server-dialog.png" alt="Enter SQL Server Details in the dialog" class="responsive-img" width="50%"/>
 
-1.  [**Server**](#how-to-find-server): the computer name or IP address
+1.  [**Server**](#connecting-to-ms-sql-server): the computer name or IP address
     assigned to the computer on which the server is running.
 
 2.  **Port**: if applicable, the server port details. If no information
@@ -58,40 +58,39 @@ that the commands should be executed on the server.
 
 With Analytics, you can retrieve SQL Server data from entire tables, but
 you can also select a particular
-[view](https://docs.microsoft.com/en-us/sql/relational-databases/views/views?view=sql-server-2017)
+<a href="https://docs.microsoft.com/en-us/sql/relational-databases/views/views?view=sql-server-2017/" target="_blank">view</a>
 that returns a subset of data from a table or a set of tables instead.
 
-<img src="images/microsoft-sql-views.png" alt="SQLServerViews\_All" class="responsive-img" width="60%"/>
+<img src="images/views-microsoft-sql.png" alt="Views in Microsoft SQL" class="responsive-img" width="60%"/>
 
 In the sample below, the **Invoices** view contains
 part of the data in the **Alphabetical list of products** table in the SQL Server.
 
-<img src="images/sample-microsoft-sql.png" alt="AlphabeticalListProductsSQLServer\_All" class="responsive-img" width="85%"/>
+<img src="images/sample-microsoft-sql.png" alt="Sample showing the use of Microsoft SQL views in Slingshot" class="responsive-img" width="85%"/>
 
-For more information on views and MS SQL Server, visit [this documentation website](https://docs.microsoft.com/en-us/sql/relational-databases/views/views?view=sql-server-2017).
+For more information on views and MS SQL Server, visit <a href="https://docs.microsoft.com/en-us/sql/relational-databases/views/views?view=sql-server-2017" target="_blank">this documentation website</a>.
 
 ### Working with Stored Procedures
 
 In MS SQL, stored procedures allow users to run a set of query
 statements in a relational database with specific parameters. The
 following are just a set of sample stored procedures running in a test
-server with
-[Northwind](https://docs.microsoft.com/en-us/dotnet/framework/data/adonet/sql/linq/downloading-sample-databases)
-data:
+server with <a href="https://docs.microsoft.com/en-us/dotnet/framework/data/adonet/sql/linq/downloading-sample-databases" target="_blank">
+Northwind</a> data:
 
-<img src="images/stored-procedures-microsoft-sql.png" alt="SQLStoredProcedures\_All" class="responsive-img" width="55%"/>
+<img src="images/stored-procedures-microsoft-sql.png" alt="Microsoft SQL stored procedures list" class="responsive-img" width="55%"/>
 
 This stored procedure, for example, returns the products in the
 **Products** table ordered by their **Unit Price**. The **ProductName**
 has been renamed to **TenMostExpensiveProducts**.
 
-<img src="images/stored-procedures-sample-result.png" alt="StoredProcedureSampleResults\_All" class="responsive-img" width="85%"/>
+<img src="images/stored-procedures-sample-result.png" alt="Using Microsoft SQL stored procedure in Slingshot" class="responsive-img" width="85%"/>
 
-In this case, the stored procedure requires users to configure the start and end date to display the **Sales by Year** information.
+In this case, the stored procedure requires users to add the order ID in order display the **CustOrdersDetail** information.
 
-<img src="images/stored-procedures-parameters-sample.png" alt="StoredProcedureSampleDates\_All" class="responsive-img" width="65%"/>
+<img src="images/stored-procedures-parameters-example.png" alt="Stored Procedure Parameters example" class="responsive-img" width="65%"/>
 
-For more information on Stored Procedures and MS SQL Server, visit [this documentation website](https://docs.microsoft.com/en-us/sql/relational-databases/stored-procedures/stored-procedures-database-engine?view=sql-server-2017).
+For more information on Stored Procedures and MS SQL Server, visit <a href="https://docs.microsoft.com/en-us/sql/relational-databases/stored-procedures/stored-procedures-database-engine?view=sql-server-2017" target="_blank">this documentation website</a>.
 
 ### Limitations for Stored Procedures in Analytics
 
@@ -99,7 +98,6 @@ For more information on Stored Procedures and MS SQL Server, visit [this documen
   - For stored procedures that return more than one result set, Analytics
     displays only the first one.
 
-  - [Output parameters](https://docs.microsoft.com/en-us/sql/connect/jdbc/using-a-stored-procedure-with-output-parameters?view=sql-server-2017)
-    in stored procedures are ignored.
+  - <a href="https://docs.microsoft.com/en-us/sql/connect/jdbc/using-a-stored-procedure-with-output-parameters?view=sql-server-2017" target="_blank">Output parameters</a> in stored procedures are ignored.
 
   - Stored procedures that return no result sets will be listed in the Data Sources list but will fail.

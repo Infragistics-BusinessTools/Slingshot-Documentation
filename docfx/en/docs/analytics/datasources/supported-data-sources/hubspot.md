@@ -25,7 +25,7 @@ Here you will find a list of your Hubspot **Objects**. In big lists, use the *Se
 >**Calendar Objects**.
 >Calendar Events objects require you to set two parameters - *from* and *to* (dates) to query the data, before you can continue to the Visualization editor. 
 
-## Working in the Visualization editor
+## Working in the Visualization Editor
 
 Once your data source has been added, you will be taken to the *Visualization Editor*. Note that the *Column* visualization will be selected by default. You can click/tap on it in order to choose another chart type from the drop-down menu.
 

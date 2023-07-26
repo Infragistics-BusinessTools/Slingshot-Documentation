@@ -15,7 +15,7 @@ The LinkedIn data source allows you to connect your *LinkedIn Ads account* to Sl
 
 7. Click on **Add Data Source** to connect the account to your Slingshot account.
 
-## Working in the Visualizations editor
+## Working in the Visualization Editor
 
 When you create a dashboard with information coming from a LinkedIn Ads account, you will see that there are two sections in their own fields.    
 
