@@ -12,7 +12,7 @@ To configure an Amazon Redshift data source, you will need to enter the followin
 
 1.  **Default name** of the data source: Your data source name will be displayed in the list of accounts in the previous dialog. By default, Slingshot names it *Amazon Redshift*. You can change it to your preference. 
 
-2.  [**Server**](#connecting-to-amazon-redshift): the computer name or IP address assigned to the computer on which the server is running.
+2.  [**Server**](#how-to-find-your-server-information): the computer name or IP address assigned to the computer on which the server is running.
 
 3.  **Port**: if applicable, the server port details. If no information is entered, Reveal will connect to the port in the hint text (5432) by default.
 
@@ -51,7 +51,7 @@ that the commands should be executed on the server.
 
 ## Setting Up Your Data
 
-With Slingshot, you can retrieve *Redshift* data from entire tables, but you can also select a particular <a href="https://docs.aws.amazon.com/redshift/latest/dg/r_CREATE_VIEW.html/" target="_blank">
+With Slingshot, you can retrieve *Redshift* data from entire tables, but you can also select a particular <a href="https://docs.aws.amazon.com/redshift/latest/dg/r_CREATE_VIEW.html" target="_blank">
 view</a> that returns a subset of data from a table or a set of tables instead.
 
 <img src="./images/amazon-redshift-tables.png" alt="Redshift tables dialog" class="responsive-img" width="55%"/>

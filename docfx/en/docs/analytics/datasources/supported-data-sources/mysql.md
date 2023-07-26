@@ -15,7 +15,7 @@ following information:
 
 <img src="images/add-mysql-server-dialog.png" alt="Enter MySQL Server Details dialog" class="responsive-img" width="50%"/>
 
-1. [**Server**](#how-to-find-server): the computer name or IP address
+1. [**Server**](#how-to-find-your-server-information): the computer name or IP address
     assigned to the computer on which the server is running.
 
 2.  **Port**: if applicable, the server port details. If no information
@@ -65,7 +65,7 @@ With Analytics, you can retrieve MySQL data from entire tables. Still, you can a
 In the sample above, the **invoices** view contains a modified version
 of the data in the **products**,**customers**, **orderdetails** and **orders** tables in the MySQL server.
 
-For more information on views and MySQL, visit [this documentation page](https://dev.mysql.com/doc/refman/8.0/en/views.html).
+For more information on views and MySQL, visit <a href="https://dev.mysql.com/doc/refman/8.0/en/views.html" target="_blank">this documentation page</a>.
 
 ## Working in the Visualization Editor
 
@@ -73,7 +73,7 @@ Once you have chosen your table or view, you will be taken to the *Visualization
 
 <img src="images/mysql-visualization-editor.png" alt="Using MySQL as data to create a dashboard in the visualization editor" class="responsive-img" width="85%"/>
 
-When you are ready with the visualization editor, you can save the dashboard in **My Analytics** > **My Dashboards** or in a specific workspace. 
+When you are ready with the visualization editor, you can save the dashboard in **My Analytics** ⇒ **My Dashboards** or in a specific workspace. 
 
 <img src="images/mysql-my-analytics.png" alt="A dashboard created from a MySQL data source in the My Analytics section" class="responsive-img" width="85%"/>
 

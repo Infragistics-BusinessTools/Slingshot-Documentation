@@ -83,7 +83,7 @@ After you select a function, you will need to set up some additional parameters.
 In this case, the function requires you to configure the start and end date to display the Sales for period information.
 
 
-<img src="./images/postgresql-parameters.png" alt="Sales for period function parameters" class="responsive-img" width="45%"/>
+<img src="./images/postgresql-parameters.png" alt="Sales for period function parameters" class="responsive-img" width="55%"/>
 
 
 For more information on Functions and PostgreSQL, visit this <a href="https://www.postgresql.org/docs/9.0/sql-createfunction.html" target="_blank">documentation website</a>.

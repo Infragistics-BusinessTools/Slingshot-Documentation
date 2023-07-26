@@ -104,8 +104,6 @@ In the screenshot above, you may notice that there is no "Fields" heading on the
 
 <img src="./images/microsoft-analysis-services-pivot-chart.png" alt="Using the visualization editor with a pivot chart" class="responsive-img" width="85%"/>
 
-For more information on dimensions and measures, please visit this <a href="https://docs.microsoft.com/en-us/previous-versions/sql/sql-server-2012/ms174527\(v=sql.110\" target="_blank">Technet article</a>.
-
 <a name='sort-by-caption-setting'></a>
 ## Sort by Caption Setting
 

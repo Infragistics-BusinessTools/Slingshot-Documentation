@@ -36,13 +36,16 @@ After logging in, you can set up your Microsoft Dynamics CRM data in the followi
 
 Here you can choose the Microsoft Dynamics CRM entities you need from:
 
-- Popular Entities - this category allows quick selection between the most used entities among users;
+- Popular Entities - this category allows quick selection between the most used entities among users.
+
 - All Entities- this category displays the full list of entities contained in your Microsoft Dynamics CRM account. You can use the provided search to find quickly the entity you need.
 
 ## Working in the Visualization Editor
 
-Once you have chosen your entity, you will be taken to the *Visualizations Editor*. Here you can build your dashboard. 
+Once you have chosen your entity, you will be taken to the *Visualization Editor*. Here you can build your dashboard. 
 
 By default, the *Column* visualization will be selected. You can select it in order to choose another chart type.
 
 <img src="images/microsoft-dynamics-visualization-editor.png" alt="Using the data from Microsoft Dynamics CRM in the visualization editor" class="responsive-img" width="85%"/>
+
+When you are ready with the visualization editor, you can save the dashboard in **My Analytics** ⇒ **My Dashboards**, a project or in a specific workspace by clicking/tapping on the checkmark in the upper right corner. 

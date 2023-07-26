@@ -47,7 +47,9 @@ The *Slingshot* templates are organized based on different industries/department
 In order to set up your data source, in this case we chose Google Search Console, you need to:
 
 1.	Click/tap on **+ Google Search Console**.
+
 <img src="../images/dashboard-setup-template.png" alt="connecting dashboard to a data source" class="responsive-img" width="90%" />
+
 2.	Enter the credentials for your data source account.
 
 3.	Click/tap on **Add Data Source**.

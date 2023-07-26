@@ -30,11 +30,11 @@ To add a *Facebook* data source to your list, follow the steps described below:
 
 5. In the next dialog, you will be presented with one or more Facebook Ad Accounts to choose from. Select the account that you want to analyze and click/tap on **Select and Continue**.
 
-   <img src="./images/facebook-ad-accounts-list.png" alt="list with different Facebook ad accounts" width="53%" />
+<img src="./images/facebook-ad-accounts-list.png" alt="list with different Facebook ad accounts" width="53%" />
 
 6. In the last dialog that opens, you can change the Ad Account name, add an appropriate description, see if the data source is certified (available to *Enterprise* users), and edit the details. Adding appropriate descriptions helps all users navigate through long lists and find the data sources they are searching for. Select *Add Data Source* to finish the process.
 
-   <img src="./images/add-facebook-ad-account.png" alt="A dialog in which you can add a Facebook Ad account" width="53%" />
+<img src="./images/add-facebook-ad-account.png" alt="A dialog in which you can add a Facebook Ad account" width="53%" />
 
    You will see your new Facebook Ad account connection added to your recently used Data Sources.
 

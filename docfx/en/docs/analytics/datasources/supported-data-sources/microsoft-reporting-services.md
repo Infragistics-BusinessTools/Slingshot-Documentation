@@ -58,7 +58,7 @@ the format in which the report will load in the *Visualization editor*:
 
 By default, the *Column* visualization will be selected. You can select it in order to choose another chart type. 
 
-<img src="images/chart-types-microsoft-reporting-services.png" alt="List of chart types available while using Microsoft Reporting Services as data source" class="responsive-img" width="63%"/>
+<img src="images/chart-types-microsoft-reporting-services.png" alt="List of chart types available while using Microsoft Reporting Services as data source" class="responsive-img" width="68%"/>
 
 Based on the visualization that you have chosen, you will see different types of fields.
 

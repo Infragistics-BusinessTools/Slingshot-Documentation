@@ -182,11 +182,7 @@ In order to create a new filter, you can:
 
 3. Click/tap on **Apply**.
 
-In the Filter's editor you can create Basic or more Advanced rules. 
-
-The Basic rules will be enough most of the time. 
-
-Advanced rules are recommended in the case that you really need to define more complex conditions in your filter. 
+In the Filter's editor you can create Basic or more Advanced rules. The Basic rules will be enough most of the time. Advanced rules are recommended in the case that you really need to define more complex conditions in your filter. 
 
 If you want to change the way tasks are being filtered, you can make different adjustments to your filter. For example, if you want to filter only by the status **In Progress**, you can:
 
