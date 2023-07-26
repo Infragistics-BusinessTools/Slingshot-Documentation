@@ -1,5 +1,16 @@
 # Release Notes
 
+### 1.0.2839 (July - 2023)
+
+#### New Features 
+
+- Improved Task Filters 
+
+- New icons for Data Sources 
+
+- Out of the box Templates for Workspaces, Projects and Dashboards
+
+- Task Templates: Users can now see all their templates under the *All* section in the *Task Templates* dialog and search for them by name. 
 ### 1.0.2793 (April - 2023)
 
 #### New Features 
