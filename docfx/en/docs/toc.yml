@@ -85,8 +85,14 @@
   href: slingshot-subscription.md
 - name: Templates
   header: true
+- name: Dashboard Templates
+  href: dashboard-templates.md
+- name: Project Templates
+  href: project-templates.md
 - name: Task Templates
   href: task-templates.md
+- name: Workspace Templates
+  href: workspace-templates.md
 - name: API 
   header: true
 - name: Overview

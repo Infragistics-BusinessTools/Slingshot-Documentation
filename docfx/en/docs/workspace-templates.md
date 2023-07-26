@@ -25,13 +25,15 @@ In the left panel you can:
 The Slingshot templates are organized based on different industries/departments. To use a template, you need to: 
 
 1.	Open one of the lists in the left panel.
+
 2.	Click/tap on a template that best fits your needs. 
+
 3.	You will be presented with a preview of how the workspace will look like. In this case we chose the **Recruiting** template.
 
 <img src="../images/workspace-template-example.png" alt="Example of a workspace template" class="responsive-img" width="90%" />
 
-4.	Here you find a brief description of what’s inside the template, what it includes and who created it. You can also use the left/right arrows to see the thumbnails of each component (in this case *Tasks* and *Discussions*). This can give you a better overview of how your workspace will look like.
-5.	When you are ready, click/tap on **Use Template**.
+4.	Here you find a brief description of what’s inside the template, what it includes and who created it. You can also use the left/right arrows to see the thumbnails of each component (in this case *Tasks* and *Discussions*). This can give you a better overview of how your workspace will look like. When you are ready, click/tap on **Use Template**.
+
 6.	You will be presented with a dialog, where you can change the title of your project and change the description by clicking/tapping on each text box. You can also set the starting date for the workspace from the drop-down menu. The starting date will also be used for configuring the task dates. 
 
 <img src="../images/new-workspace-dialog.png" alt="Creating a new workspace from a template" class="responsive-img" width="90%" />

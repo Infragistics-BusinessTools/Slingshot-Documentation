@@ -2,6 +2,8 @@
 
 ### 1.0.2839 (July - 2023)
 
+#### New Features 
+
 - Improved Task Filters 
 
 - New icons for Data Sources 

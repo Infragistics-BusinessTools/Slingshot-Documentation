@@ -28,7 +28,7 @@ The *Slingshot* templates are organized based on different industries/department
 
 2.	Click/tap on a template that best fits your needs. 
 
-3.	You will be presented with a preview of how the dashboard will look like. In this case we choose the **Keyword Performance** template that uses *Google Search Console* as a data source.
+3.	You will be presented with a preview of how the dashboard will look like. In this case, we chose the **Keyword Performance** template that uses *Google Search Console* as a data source.
 
 <img src="../images/dashboard-template-preview-keyword-performance.png" alt="dashboard template example" class="responsive-img" width="90%" />
 
@@ -42,14 +42,14 @@ The *Slingshot* templates are organized based on different industries/department
 
 7.	Before setting up the dashboard, you will need to connect the template to your data source. 
 
-<img src="../images/dashboard-setup-template.png" alt="connecting dashboard to a data source" class="responsive-img" width="90%" />
-
 ## Setting up your Data Source 
 
-In order to set up your data source, in this case Google Search Console, you need to:
+In order to set up your data source, in this case we chose Google Search Console, you need to:
 
 1.	Click/tap on **+ Google Search Console**.
+<img src="../images/dashboard-setup-template.png" alt="connecting dashboard to a data source" class="responsive-img" width="90%" />
 2.	Enter the credentials for your data source account.
+
 3.	Click/tap on **Add Data Source**.
 
 <img src="../images/add-account-dashboard-templates.png" alt="adding a data source to the dashboard" class="responsive-img" width="90%" />
