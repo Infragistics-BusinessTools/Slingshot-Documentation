@@ -16,7 +16,7 @@ need to enter the following information:
 
 <img src="../images/microsoft-azure-synapse-analytics-configuration.png" alt="Configuring azure synapse data source dialog" class="responsive-img" width="55%"/>
 
-1.  **Server**: the computer name or IP address assigned to the computer
+1.  **[Server](#how-to-find-your-server-information)**: the computer name or IP address assigned to the computer
     on which the server is running.
 
 2.  **Port**: if applicable, the server port details. If no information

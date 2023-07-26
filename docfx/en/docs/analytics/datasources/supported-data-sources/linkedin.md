@@ -7,7 +7,7 @@ The LinkedIn data source allows you to connect your *LinkedIn Ads account* to Sl
 1.	Click on the **+Dashboard** button under the **My Analytics** section.
 2.	Click on the **+Data Source** button.
 3.	Select LinkedIn that is under **Social Media** in the **Data Sources** list.
-4.	Log in to your LinkedIn Ads account. In case you don’t have one, you can check [this](https://www.linkedin.com/help/linkedin/answer/a426102/create-an-ad-account?lang=en) article for more information about how you can create an Ads account.
+4.	Log in to your LinkedIn Ads account. In case you don’t have one, you can check <a href="https://www.linkedin.com/help/linkedin/answer/a426102/create-an-ad-account?lang=en" target="_blank">this</a> article for more information about how you can create an Ads account.
 5.	If you have different LinkedIn Ads accounts, you can choose **+Add** in order to include another account.
 6.	In the dialog that opens, you can change the LinkedIn Ads Account name, add a description or choose which details you want to see included in the dashboard.
 
@@ -46,7 +46,7 @@ In this case we chose the *Pie* chart where you can make the following changes t
 
 <img src="./images/linkedIn-visualization-editor-settings.png" alt="settings in the linkedIn visualization editor" class="responsive-img" width="90%"/>
 
-When you are ready with the visualization editor, you can save the dashboard in **My Analytics**>**My Dashboards** or in a specific workspace.
+When you are ready with the visualization editor, you can save the dashboard in **My Analytics** ⇒ **My Dashboards** or in a specific workspace.
 
 <img src="./images/linkedIn-dashboard.png" alt="LinkedIn dashboard in the dasboard section" class="responsive-img" width="90%"/>
 

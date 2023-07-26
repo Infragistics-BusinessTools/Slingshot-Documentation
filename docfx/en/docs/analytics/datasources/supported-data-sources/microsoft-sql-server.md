@@ -13,7 +13,7 @@ To configure a Microsoft SQL Server data source, you can set the following infor
 
 <img src="images/add-microsoft-sql-server-dialog.png" alt="Enter SQL Server Details in the dialog" class="responsive-img" width="50%"/>
 
-1.  [**Server**](#connecting-to-ms-sql-server): the computer name or IP address
+1.  [**Server**](#how-to-find-your-server-information): the computer name or IP address
     assigned to the computer on which the server is running.
 
 2.  **Port**: if applicable, the server port details. If no information

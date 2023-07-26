@@ -38,7 +38,7 @@ The *Slingshot templates* are organized based on different industries/department
 
 4.	Here you find a brief description of what’s inside the template, what it includes and who created it. You can also use the left/right arrows to see the thumbnails of each component (in this case *Tasks* and *Discussions*). This can give you a better overview of how your project will look like. When you are ready, click/tap on **Use Template**.
 
-6.	You will be presented with a dialog, where you can change the title of your project and change the description by clicking/tapping on each text box. You can also save the project in a specific *Workspace* and set the starting date for the project from the drop-down menu. The starting date will also be used for configuring the task dates. 
+5.	You will be presented with a dialog, where you can change the title of your project and change the description by clicking/tapping on each text box. You can also save the project in a specific *Workspace* and set the starting date for the project from the drop-down menu. The starting date will also be used for configuring the task dates. 
 
 <img src="../images/new-project-project-templates.png" alt="creating a new project from a template" class="responsive-img" width="90%" />
 
