@@ -42,6 +42,6 @@ The *Slingshot templates* are organized based on different industries/department
 
 <img src="../images/new-project-project-templates.png" alt="creating a new project from a template" class="responsive-img" width="90%" />
 
-7.	When you are ready, click/tap on **Create**.
+6.	When you are ready, click/tap on **Create**.
 
 If you want to find more information about how you can create and use projects, head [here](./workspaces.md#workspace-hierarchy).
