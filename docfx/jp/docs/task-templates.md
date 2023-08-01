@@ -40,29 +40,25 @@
 
     <img src="../images/add-from-template-button.png" class="responsive-img" alt="A list of sections which can be kept for the template" width="90%">  
 
-    または、セクションを選択 -> オーバーフロー メニューを開く -> **[テンプレートから追加]** を選択します。 
+    または、セクションを選択 ⇒ オーバーフロー メニューを開く ⇒ **[テンプレートから追加]** を選択します。 
        
     <img src="../images/add-from-template-section.png" class="responsive-img" alt="Add from template option in a task section" width="90%">  
 
 2.	次のダイアログが開きます:
 
-    <img src="../images/task-templates-dialog.png" class="responsive-img" alt="A dialog, containing all task templates" width="90%"> 
+    <img src="../images/task-templates.png" class="responsive-img" alt="A dialog, containing all task templates" width="90%">  
 
 左パネルでは、次のことができます:
 
+- すべてのタスク テンプレートを確認。
+
 - 最近使用したテンプレートを確認。
 
-- さまざまな場所 (*[マイ タスク]*、さまざまなワークスペースまたはプロジェクトなど) でテンプレートを検索。
+- **[作成済み]** または **[自分と共有済み]** でテンプレートをフィルタリング。
 
-- *[作成済み]* または *[自分と共有済み]* でテンプレートをフィルタリング。
+If you want to search a template by its name, you can use the search bar in the upper right corner.
 
-**[マイ テンプレート]** では、次のことができます:
-
-- テンプレートをアルファベット順に並べ替える。
-
-- テンプレートを *[更新日時]* で並べ替える。
-
-これに加えて、各タスクの右側にあるオーバーフロー メニューを開いて、次のアクションを実行することもできます:
+これに加えて、各タスク テンプレートの右側にあるオーバーフロー メニューを開いて、次のアクションを実行することもできます:
 
 - テンプレートを開く。
 
@@ -76,7 +72,7 @@
 
 - テンプレートを削除。
 
-  <img src="../images/task-templates-overflow-menu.png" class="responsive-img" alt="Overflow menu with different options for task templates" width="90%"> 
+  <img src="../images/task-template-options.png" class="responsive-img" alt="Overflow menu with different options for task templates" width="90%"> 
 
 ## タスク テンプレートを編集する方法
 

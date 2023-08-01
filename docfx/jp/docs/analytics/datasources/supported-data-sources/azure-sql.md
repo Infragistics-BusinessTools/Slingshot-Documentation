@@ -13,7 +13,7 @@ _language: ja
 
 Azure SQL データ ソースを構成するには、以下の情報が必要です。
 
-<img src="images/add-azure-sql-server-dialog.png" alt="Opening Analytics's AzureSQL data source configuration screen" class="responsive-img" width="50%"/>
+<img src="images/azure-sql-server-configuration.png" alt="Opening Analytics's AzureSQL data source configuration screen" class="responsive-img" width="50%"/>
 
 1.  **[サーバー]**: コンピューター名またはサーバーを実行しているコンピューターに割り当てられた IP アドレス。
 

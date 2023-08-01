@@ -85,8 +85,14 @@
   href: slingshot-subscription.md
 - name: テンプレート
   header: true
+- name: ダッシュボード テンプレート
+  href: dashboard-templates.md
+- name: プロジェクト テンプレート
+  href: project-templates.md
 - name: タスク テンプレート
   href: task-templates.md
+- name: ワークスペース テンプレート
+  href: workspace-templates.md
 - name: API 
   header: true
 - name: 概要

@@ -9,11 +9,11 @@ _language: ja
 ## Amazon Redshift への接続
 Amazon Redshift のデータ ソースを設定するには、以下の情報が必要です:
 
-<img src="../images/amazon-redshift-server-dialog.png" alt="Configure Redshift Server details" class="responsive-img" width="40%"/>
+<img src="./images/add-amazon-redshift-credentials.png" alt="Configure Redshift Server details" class="responsive-img" width="50%"/>
 
 1.  データ ソースの **デフォルト名**: データ ソース名は前のダイアログのアカウントのリストに表示されます。デフォルトでは、Slingshot は *Amazon Redshift* という名前を付けます。好みに合わせて変更できます。 
 
-2.  **[[サーバー](#how-to-find-server)]**: コンピューター名またはサーバーを実行しているコンピューターに割り当てられた IP アドレス。
+2.  [**サーバー**](#how-to-find-your-server-information): コンピューター名またはサーバーを実行しているコンピューターに割り当てられた IP アドレス。
 
 3.  **[Port]**: 該当する場合、サーバー ポートの詳細。情報が入力されない場合、Slingshot はデフォルトでヒント テキスト (5432) のポートに接続します。
 
@@ -47,7 +47,18 @@ Amazon Redshift のデータ ソースを設定するには、以下の情報が
 
 ## データの設定
 
-Slingshot ではすべてのテーブルから *Redshift* データを取得できますが、その他にもテーブルまたはテーブルのセットからデータのサブセットを返す特定の[ビュー](https://docs.aws.amazon.com/redshift/latest/dg/r_CREATE_VIEW.html)を選択することもできます。
+Slingshot ではすべてのテーブルから *Redshift* データを取得できますが、その他にもテーブルまたはテーブルのセットからデータのサブセットを返す特定の<a href="https://docs.aws.amazon.com/redshift/latest/dg/r_CREATE_VIEW.html" target="_blank">ビュー</a>を選択することもできます。
 
-<img src="../images/amazon-redshift-tables.png" alt="Redshift tables dialog" class="responsive-img" width="55%"/>
+<img src="./images/amazon-redshift-tables.png" alt="Redshift tables dialog" class="responsive-img" width="55%"/>
 
+## 表示形式エディターでの作業
+
+Once your data source has been added, you will be taken to the Visualization Editor. 
+
+<img src="./images/amazon-redshift-visualization-editor.png" alt="Using the data from the Facebook data source in the visualization editor" class="responsive-img" width= "88%"/>
+
+By default, the *Column* visualization will be selected. You can click/tap on it in order to choose another chart type from the drop-down menu. 
+
+When you are ready with the visualization editor, you can save the dashboard in **My Analytics** ⇒ **My Dashboards**, a specific workspace or a project by clicking/tapping on the checkmark in the upper right corner. 
+
+If you want to find more information about the data sources, you can head [here](../../datasources/overview.md). 
