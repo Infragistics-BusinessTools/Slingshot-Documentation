@@ -56,7 +56,7 @@
 
 - **[作成済み]** または **[自分と共有済み]** でテンプレートをフィルタリング。
 
-If you want to search a template by its name, you can use the search bar in the upper right corner.
+テンプレートを名前で検索する場合は、右上隅の検索バーから検索できます。
 
 これに加えて、各タスク テンプレートの右側にあるオーバーフロー メニューを開いて、次のアクションを実行することもできます:
 

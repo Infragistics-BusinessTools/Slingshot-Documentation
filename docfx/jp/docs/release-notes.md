@@ -4,13 +4,13 @@
 
 #### 新機能 
 
-- Improved Task Filters 
+- タスク フィルターの改善 
 
-- New icons for Data Sources 
+- データソースの新しいアイコン
 
-- Out of the box Templates for Workspaces, Projects and Dashboards
+- ワークスペース、プロジェクト、ダッシュボード用のすぐに使えるテンプレート
 
-- Task Templates: Users can now see all their templates under the *All* section in the *Task Templates* dialog and search for them by name.
+- タスク テンプレート: [タスク テンプレート] ダイアログの **[すべて]** セクションにすべてのテンプレートが表示され、名前で検索できるようになりました。
 ### 1.0.2793 (2023 年 4 月)
 
 #### 新機能 
