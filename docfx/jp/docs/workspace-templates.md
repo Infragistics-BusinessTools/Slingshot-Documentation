@@ -1,45 +1,45 @@
-# Workspace Templates 
+# ワークスペース テンプレート 
 
-With Workspace Templates, you can quickly create workspaces for your teams - with just a few clicks. 
+ワークスペース テンプレートを使用すると、数回クリックするだけで、チーム用のワークスペースをすばやく作成できます。 
 
-## How can I access different Workspace Templates lists?
+## さまざまなワークスペース テンプレート リストにアクセスする方法
 
-To access the predefined Slingshots templates, you can:
+定義済みの Slingshot テンプレートにアクセスする手順は次の通りです:
 
-1.	Click/tap on the **+Add** button next to **Workspaces** in the left panel.
+1.	左側のパネルの **[ワークスペース]** の横にある **[+追加]** ボタンをクリックまたはタップします。
 
-2.	Click/tap on **See All Templates**.
+2.	**[すべてのテンプレートを見る]** をクリックまたはタップします。
 
-3.	The following dialog will pop up:
+3.	次のダイアログが開きます:
 
 <img src="../images/workspace-templates.png" alt="workspace templates" class="responsive-img" width="90%" />
 
-In the left panel you can:
+左パネルでは、次のことができます:
 
-- Check/use the templates that you have recently used.
+- 最近使用したテンプレートを確認/使用します。
 
-- Check/use a template from the *Slingshot Templates*.
+- Slingshot テンプレートからテンプレートを確認/使用します。
 
-## How can I use a Workspace Template?
+## ワークスペース テンプレートを使用する方法
 
-The Slingshot templates are organized based on different industries/departments. To use a template, you need to: 
+Slingshot のテンプレートは、さまざまな業界/部署に基づいて編成されています。テンプレートを使用するには: 
 
-1.	Open one of the lists in the left panel.
+1.	左側のパネルでリストの 1 つを開きます。
 
-2.	Click/tap on a template that best fits your needs. 
+2.	要件に最適なテンプレートをクリック/タップします。 
 
-3.	You will be presented with a preview of how the workspace will look like. In this case we chose the **Recruiting** template.
+3.	ワークスペースの外観のプレビューが表示されます。この場合、**Recruiting** テンプレートを選択しました。
 
 <img src="../images/workspace-template-example.png" alt="Example of a workspace template" class="responsive-img" width="90%" />
 
-4.	Here you find a brief description of what’s inside the template, what it includes and who created it. You can also use the left/right arrows to see the thumbnails of each component (in this case *Tasks* and *Discussions*). This can give you a better overview of how your workspace will look like. When you are ready, click/tap on **Use Template**.
+4.	こちらには、テンプレートの内容と作成者についての簡単な説明が表示されます。左矢印/右矢印を使用して、各コンポーネント (この場合は*タスク*と*ディスカッション*) のサムネイルを表示することもできます。これにより、ワークスペースがどのように見えるかについてより適切な概要が得られます。準備ができたら、**[テンプレートを使用]** をクリックまたはタップします。
 
-5.	You will be presented with a dialog, where you can change the title of your project and change the description by clicking/tapping on each text box. You can also set the starting date for the workspace from the drop-down menu. The starting date will also be used for configuring the task dates. 
+5.	ダイアログが表示され、各テキスト ボックスをクリック/タップしてプロジェクトのタイトルを変更したり、説明を変更したりできます。ドロップダウン メニューからワークスペースの開始日を設定することもできます。開始日はタスクの日付の構成にも使用されます。 
 
 <img src="../images/new-workspace-dialog.png" alt="Creating a new workspace from a template" class="responsive-img" width="90%" />
 
-6.	When you are ready, click/tap on **Create**.
+6.	準備ができたら、**[作成]** をクリックまたはタップします。
 
-If you want to find more information about how you can create and use workspaces, head [here](./workspaces.md).
+ワークスペースの作成方法と使用方法の詳細については、[こちら](./workspaces.md)をご覧ください。
 
 

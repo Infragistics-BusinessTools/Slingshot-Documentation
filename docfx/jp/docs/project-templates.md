@@ -1,47 +1,47 @@
-# Project Templates 
+# プロジェクト テンプレート 
 
-With Project Templates, you can quickly create projects for your teams. You can reuse the templates whenever you need them. 
+プロジェクト テンプレートを使用すると、チーム用のプロジェクトをすばやく作成できます。テンプレートは、必要なときにいつでも再利用できます。 
 
-## How can I access different Project Templates lists?
+## さまざまなプロジェクト テンプレート リストにアクセスする方法
 
-In order to access the templates, you need to:
+テンプレートにアクセスする方法:
 
-1.	Open the list of projects in your workspace.
+1.	ワークスペース内のプロジェクトのリストを開きます。
 
-2.	Click/tap on the **+Project** button.
+2.	**[+プロジェクト]** ボタンをクリックまたはタップします。
 
-3.	Select **See All Templates**.
+3.	**[すべてのテンプレートを見る]** を選択します。
 
 <img src="../images/see-all-project-templates-button.png" alt="see all templates button" class="responsive-img" width="90%" />
 
-4.	The following dialog will pop up:
+4.	次のダイアログが開きます:
 
 <img src="../images/project-templates.png" alt="project templates" class="responsive-img" width="90%" />
 
-In the left panel you can:
+左パネルでは、次のことができます:
 
-- Check/use the templates that you have recently used.
+- 最近使用したテンプレートを確認/使用します。
 
-- Check/use a template from the *Slingshot Templates*.
+- Slingshot テンプレートからテンプレートを確認/使用します。
 
-## How can I use a Project Template?
+## プロジェクト テンプレートを使用する方法
 
-The *Slingshot templates* are organized based on different industries/departments. To use a template, you need to:
+Slingshot のテンプレートは、さまざまな業界/部署に基づいて編成されています。テンプレートを使用するには:
 
-1.	Open one of the lists in the left panel.
+1.	左側のパネルでリストの 1 つを開きます。
 
-2.	Click/tap on a template that best fits your needs. 
+2.	要件に最適なテンプレートをクリック/タップします。 
 
-3.	You will be presented with a preview of how the project will look like. In this case we choose the **Project Management** template.
+3.	プロジェクトの外観のプレビューが表示されます。この場合、**Project Management** テンプレートを選択します。
 
 <img src="../images/project-template-preview.png" alt="preview of a project template" class="responsive-img" width="90%" />
 
-4.	Here you find a brief description of what’s inside the template, what it includes and who created it. You can also use the left/right arrows to see the thumbnails of each component (in this case *Tasks* and *Discussions*). This can give you a better overview of how your project will look like. When you are ready, click/tap on **Use Template**.
+4.	こちらには、テンプレートの内容と作成者についての簡単な説明が表示されます。左矢印/右矢印を使用して、各コンポーネント (この場合は*タスク*と*ディスカッション*) のサムネイルを表示することもできます。これにより、プロジェクトがどのように見えるかについてより適切な概要が得られます。準備ができたら、**[テンプレートを使用]** をクリックまたはタップします。
 
-5.	You will be presented with a dialog, where you can change the title of your project and change the description by clicking/tapping on each text box. You can also save the project in a specific *Workspace* and set the starting date for the project from the drop-down menu. The starting date will also be used for configuring the task dates. 
+5.	ダイアログが表示され、各テキスト ボックスをクリック/タップしてプロジェクトのタイトルを変更したり、説明を変更したりできます。プロジェクトを特定のワークスペースに保存し、ドロップダウン メニューからプロジェクトの開始日を設定することもできます。開始日はタスクの日付の構成にも使用されます。 
 
 <img src="../images/new-project-project-templates.png" alt="creating a new project from a template" class="responsive-img" width="90%" />
 
-6.	When you are ready, click/tap on **Create**.
+6.	準備ができたら、**[作成]** をクリックまたはタップします。
 
-If you want to find more information about how you can create and use projects, head [here](./workspaces.md#workspace-hierarchy).
+プロジェクトの作成方法と使用方法の詳細については、[こちら](./workspaces.md#workspace-hierarchy)をご覧ください。
