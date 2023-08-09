@@ -54,11 +54,11 @@ Slingshot のテンプレートは、さまざまな業界/部署に基づいて
 
 3.	**[データ ソースの追加]** をクリックまたはタップします。
 
-<img src="../images/add-account-dashboard-templates.png" alt="adding a data source to the dashboard" class="responsive-img" width="90%" />
+<img src="../images/add-account-dashboard-templates.png" alt="adding a data source to the dashboard" class="responsive-img" width="50%" />
 
-4. データ ソースの場所を選択し、**[保存]** をクリックまたはタップします。この場合、場所として **[My Data Sources]** を選択しました。
+4. データ ソースの場所を選択し、**[保存]** をクリックまたはタップします。この場合、場所として **[データ ソース]** を選択しました。
 
-<img src="../images/data-source-location-dashboard-template.png" alt="Selecting a data source location" class="responsive-img" width="90%" />
+<img src="../images/data-source-location-dashboard-template.png" alt="Selecting a data source location" class="responsive-img" width="60%" />
 
 5.	ダッシュボードを作成する前に、使用するサイトを選択できます。準備ができたら、**[データの選択]** をクリックまたはタップして、表示形式にデータを入力できるようにします。
 
