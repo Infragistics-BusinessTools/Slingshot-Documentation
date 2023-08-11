@@ -6,7 +6,7 @@
 
 ダッシュボード テンプレート リストにアクセスする方法:
 
-1.	[分析] の下にある **[+ダッシュボード]** ボタンをクリックまたはタップします。
+1.	[分析] の下にある **[+ ダッシュボード]** ボタンをクリックまたはタップします。
 
 2.	**[すべてのテンプレートを見る]** をクリックまたはタップします。
 
@@ -62,9 +62,9 @@ Slingshot のテンプレートは、さまざまな業界/部署に基づいて
 
 5.	ダッシュボードを作成する前に、使用するサイトを選択できます。準備ができたら、**[データの選択]** をクリックまたはタップして、表示形式にデータを入力できるようにします。
 
-<img src="../images/data-source-details-dashboard-template.png" alt="Selecting a site from the data source" class="responsive-img" width="90%" />
+<img src="../images/data-source-details-dashboard-template.png" alt="Selecting a site from the data source" class="responsive-img" width="60%" />
 
->[!Note] すぐにデータ ソースに接続しなくても、テンプレートを使用してダッシュボードを作成できます。後でダッシュボードを開くと、情報を追加して表示形式を作成するためにデータ ソースを選択するよう求められます。
+>[!NOTE] すぐにデータ ソースに接続しなくても、テンプレートを使用してダッシュボードを作成できます。後でダッシュボードを開くと、情報を追加して表示形式を作成するためにデータ ソースを選択するよう求められます。
 
 ダッシュボードの作成方法と使用方法の詳細については、[こちら](./analytics/dashboards/overview.md)をご覧ください。
 
