@@ -53,7 +53,7 @@ Slingshot で Salesforce をデータ ソースとして設定および使用す
 <img src="./images/salesforce-visualization-editor.png" alt="Working in the visualization editor while using the information from a salesforce account" class="responsive-img" width="80%"/>
 
 
-表示形式の準備ができたら、右上隅のチェックマークをクリックまたはタップして、ダッシュボードとして保存できます。以下の例では、ダッシュボードを **[分析]** > **[ダッシュボード]** > **Accounting** に保存しました。
+表示形式の準備ができたら、右上隅のチェックマークをクリックまたはタップして、ダッシュボードとして保存できます。以下の例では、ダッシュボードを **[分析]** ⇒ **[ダッシュボード]** ⇒ **Accounting** に保存しました。
 
 <img src="./images/salesforce-my-analytics.png" alt="A salesforce dashboard in the My Analytics section" class="responsive-img" width="80%"/>
 

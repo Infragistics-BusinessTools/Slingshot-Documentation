@@ -9,11 +9,11 @@ _language: ja
 ## Amazon Redshift への接続
 Amazon Redshift のデータ ソースを設定するには、以下の情報が必要です:
 
-<img src="../images/amazon-redshift-server-dialog.png" alt="Configure Redshift Server details" class="responsive-img" width="40%"/>
+<img src="./images/add-amazon-redshift-credentials.png" alt="Configure Redshift Server details" class="responsive-img" width="50%"/>
 
 1.  データ ソースの **デフォルト名**: データ ソース名は前のダイアログのアカウントのリストに表示されます。デフォルトでは、Slingshot は *Amazon Redshift* という名前を付けます。好みに合わせて変更できます。 
 
-2.  **[[サーバー](#how-to-find-server)]**: コンピューター名またはサーバーを実行しているコンピューターに割り当てられた IP アドレス。
+2.  [**サーバー**](#how-to-find-your-server-information): コンピューター名またはサーバーを実行しているコンピューターに割り当てられた IP アドレス。
 
 3.  **[Port]**: 該当する場合、サーバー ポートの詳細。情報が入力されない場合、Slingshot はデフォルトでヒント テキスト (5432) のポートに接続します。
 
@@ -47,7 +47,18 @@ Amazon Redshift のデータ ソースを設定するには、以下の情報が
 
 ## データの設定
 
-Slingshot ではすべてのテーブルから *Redshift* データを取得できますが、その他にもテーブルまたはテーブルのセットからデータのサブセットを返す特定の[ビュー](https://docs.aws.amazon.com/redshift/latest/dg/r_CREATE_VIEW.html)を選択することもできます。
+Slingshot ではすべてのテーブルから *Redshift* データを取得できますが、その他にもテーブルまたはテーブルのセットからデータのサブセットを返す特定の<a href="https://docs.aws.amazon.com/redshift/latest/dg/r_CREATE_VIEW.html" target="_blank">ビュー</a>を選択することもできます。
 
-<img src="../images/amazon-redshift-tables.png" alt="Redshift tables dialog" class="responsive-img" width="55%"/>
+<img src="./images/amazon-redshift-tables.png" alt="Redshift tables dialog" class="responsive-img" width="55%"/>
 
+## 表示形式エディターでの作業
+
+データ ソースを追加した後、表示形式エディターが表示されます。
+
+<img src="./images/amazon-redshift-visualization-editor.png" alt="Using the data from the Facebook data source in the visualization editor" class="responsive-img" width= "88%"/>
+
+デフォルトでは、**柱状**表示形式が選択されます。それをクリックまたはタップして、ドロップダウン メニューから別のチャート タイプを選択できます。
+
+表示形式エディターの準備ができたら、右上隅のチェックマークをクリックまたはタップして、**[分析]** ⇒ **[ダッシュボード]**、特定のワークスペース、またはプロジェクトにダッシュボードを保存できます。
+
+データ ソースの詳細については、[ここ](../../datasources/overview.md)を参照してください。

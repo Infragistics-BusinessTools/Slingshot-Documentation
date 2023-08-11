@@ -14,10 +14,9 @@ _language: ja
 
 MySQL サーバー データ ソースを構成するには、以下の情報が必要です。
 
-<img src="images/add-mysql-as-data-source.png" alt="Enter MySQL Server Details dialog" class="responsive-img" width="50%"/>
+<img src="images/add-mysql-server-dialog.png" alt="Enter MySQL Server Details dialog" class="responsive-img" width="50%"/>
 
-
-1. **[[サーバー](#サーバー情報を見つける方法)]**: コンピューター名またはサーバーを実行しているコンピューターに割り当てられた IP アドレス。
+1. [**サーバー**](#how-to-find-your-server-information): コンピューター名またはサーバーを実行しているコンピューターに割り当てられた IP アドレス。
 
 2.  **[ポート]**: 該当する場合、サーバー ポートの詳細。情報が入力されない場合、Analytics はデフォルトでヒント テキスト (3306) のポートに接続します。
 
@@ -56,10 +55,9 @@ Analytics ではすべてのテーブルから MySQL データを取得できま
 
 <img src="images/mysql-views.png" alt="MySQL Views section" class="responsive-img" width="60%"/>
 
-
 上記のサンプルでは、**invoices** ビューに、MySQL サーバーの **products**、**customers**、**orderdetails**、および **orders** テーブルのデータの変更されたバージョンが含まれています。
 
-ビューと MySQL の詳細については、[このドキュメント ページ](https://dev.mysql.com/doc/refman/8.0/en/views.html)にアクセスしてください。
+ビューと MySQL の詳細については、<a href="https://dev.mysql.com/doc/refman/8.0/en/views.html" target="_blank">このドキュメント ページ</a>にアクセスしてください。
 
 ## 表示形式エディターでの作業
 
@@ -67,7 +65,7 @@ Analytics ではすべてのテーブルから MySQL データを取得できま
 
 <img src="images/mysql-visualization-editor.png" alt="Using MySQL as data to create a dashboard in the visualization editor" class="responsive-img" width="85%"/>
 
-
-表示形式エディターの準備ができたら、ダッシュボードを **[分析]** > **[ダッシュボード]** または特定のワークスペースに保存できます。 
+表示形式エディターの準備ができたら、ダッシュボードを **[分析]** ⇒ **[ダッシュボード]** または特定のワークスペースに保存できます。 
 
 <img src="images/mysql-my-analytics.png" alt="A dashboard created from a MySQL data source in the My Analytics section" class="responsive-img" width="85%"/>
+

@@ -10,7 +10,7 @@ _language: ja
 
 ウェブ リソース データ ソースを構成するには、以下の情報が必要です。
 
-<img src="images/web-resource.png" alt="Configure Web resource connection" class="responsive-img" width="50%"/>
+<img src="images/add-content-from-web-dialog.png" alt="Configure Web resource connection" class="responsive-img" width="50%"/>
 
 1.  **[URL]**: サービスの URL (ダッシュボード チュートリアルの場合は <https://download.infragistics.com/slingshot/samples/Slingshot_Dashboard_Tutorials.xlsx> など)。
 
