@@ -4,7 +4,7 @@ With Workspace Templates, you can quickly create workspaces for your teams - wit
 
 ## How can I access different Workspace Templates lists?
 
-To access the predefined Slingshots templates, you can:
+To access the predefined Slingshots templates, you can: 
 
 1.	Click/tap on the **+Add** button next to **Workspaces** in the left panel.
 
