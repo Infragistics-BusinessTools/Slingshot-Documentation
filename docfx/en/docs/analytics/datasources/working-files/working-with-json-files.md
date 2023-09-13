@@ -10,7 +10,7 @@ consume data from any JSON file.
 
 After reading your JSON file format, Analytics provides you with possible
 data structures you may want to use. In addition, there is an
-[**Advanced Selection**](#json-advanced-selection) mode where you can
+[**Advanced Selection**](#advanced-selection-mode) mode where you can
 choose a custom data structure.
 
 ## JSON Format Information
@@ -20,7 +20,7 @@ lightweight format for storing and exchanging data.
 
 Format highlights:
 
-  - JSON, as a format, can be used to **represent many different
+  - JSON, as a format, can be used to **represent different
     structures of data**.
 
   - Data is always arranged as **name/value pairs, separated by
@@ -34,7 +34,7 @@ Format highlights:
 Follow these steps to create a new visualization that consumes data from
 your JSON file:
 
-1.  **Make your file available**
+1.  **Make your file available**.
 
     Upload the JSON file to one of your storage providers, so you can
     later access it from Analytics. You can choose between the following
@@ -57,7 +57,7 @@ your JSON file:
 4.  **Choose the data structure you want**.
 
     After scanning the file, Analytics will show you a list of possible
-    data structures for you to choose.
+    data structures for you to choose from.
 
     <img src="images/json-data-source-details-dialog.png" alt="Json Files Choose Data table" class="responsive-img" width="55%"/>
 
@@ -65,20 +65,20 @@ your JSON file:
     [**Advanced Selection**](#json-advanced-selection) mode where you
     can choose a custom data structure.
 
-5.  **Click/Tap **Load Data**.
+5.  **Click/Tap on Load Data**.
 
     Once you selected the data structure, click/tap the *Load Data*
-    button to continue to the *Visualizations Editor*.
+    button to continue to the *Visualization Editor*.
 
     <img src="images/visualization-editor-json-file-data.png" alt="Json Files Visualizations Editor" class="responsive-img" width="85%"/>
 
 <a name='json-advanced-selection'></a>
 ## Advanced Selection Mode
 
-JSON files can be used to represent many different data structures.
+JSON files can be used to represent different data structures.
 Because of this, Analytics allows you to choose a custom data structure for
 you to work with. After selecting the data columns you want to work
-with, you are able to build your visualization upon them.
+with, you can build your visualization upon them. To do that, you need to:
 
 1.  **Open the Advanced Selection mode**.
 
@@ -104,7 +104,7 @@ with, you are able to build your visualization upon them.
     | <img src="images/unselect-elements-json-file.png" alt="Json Files Unselect Elements" class="responsive-img"/> | After selecting one or more children, you can unselect the parent elements (Objects and Arrays) to leave them out of your data structure. |
 
 
-4.  (*Optional*) **Format text fields to Date/Time or Number**
+4.  (*Optional*) **Format text fields to Date/Time or Number**.
 
     When selecting a field, Analytics reads its values, autodetects the
     optimal format, and presents a dialog where you can choose what to
@@ -115,6 +115,6 @@ with, you are able to build your visualization upon them.
 5.  **Click/Tap on Create Table**.
 
     Once you selected your custom data structure, click/tap the *Create
-    Table* button to continue to the *Visualizations Editor*.
+    Table* button to continue to the *Visualization Editor*.
 
     <img src="images/visualization-editor-json-file.png" alt="Using the data from json file to create visualization" class="responsive-img" width="85%"/>

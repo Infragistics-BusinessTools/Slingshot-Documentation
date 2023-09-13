@@ -19,7 +19,7 @@ datasets. To start using them for your visualizations:
 
 1.  **Select a project** in the *New Data Source* dialog that opens:
 
-    <img src="images/google-big-query-projects.png" alt="Select a project in the New Data Source dialog" class="responsive-img" width="55%"/>
+    <img src="images/google-big-query-projects-list.png" alt="Select a project in the New Data Source dialog" class="responsive-img" width="55%"/>
 
     >[!NOTE]    
     **Demo Public BigQuery Data Projects in Analytics**.
@@ -31,18 +31,18 @@ datasets. To start using them for your visualizations:
 
 2.  **Select a dataset** by marking the empty circle next to it:
 
-    <img src="images/google-big-query-dataset.png" alt="Select a dataset dialog" class="responsive-img" width="60%"/>
+    <img src="images/dataset-google-big-query.png" alt="Select a dataset dialog" class="responsive-img" width="60%"/>
 
 3.  **Select a table** from the dataset. Use the *eye icon* on the right
     to preview the data.
 
-    <img src="images/google-big-query-tables.png" alt="Select a table dialog" class="responsive-img" width="60%"/>
+    <img src="images/google-big-query-tables-list.png" alt="Select a table dialog" class="responsive-img" width="60%"/>
 
 You are now directed to the *Visualization editor* where you can start
 building your visualizations with the data retrieved from Google
 BigQuery.
 
- <img src="images/google-big-query-visualization-editor.png" alt="Google Big Query data in the visualization editor" class="responsive-img" width="85%"/>
+ <img src="images/visualization-editor-google-big-query.png" alt="Google Big Query data in the visualization editor" class="responsive-img" width="85%"/>
 
 ## Limitations in the Visualization Editor
 

@@ -1,4 +1,4 @@
-# Generic Slingshot resources
+# Generic Slingshot Resources
 
 ### Items object 
 
