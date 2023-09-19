@@ -10,13 +10,16 @@
 
 2. **[製品のフィードバック]** をタップ/クリックします。
 
- <img src="../images/feedback-button.png" alt="Showing where the give feedback button is" class="responsive-img"/>
+ <img src="../images/give-feedback-button.png" alt="Feedback button in the user account settings" class="responsive-img" width="35%"/>
 
-3. ウィンドウがポップアップし、以下の操作を実行できます:
+3. ウィンドウがポップアップし、次のことができます:
 
 - Slingshot を使用した感想、追加または改善して欲しい機能やオプションについてお聞かせください。
-- アプリのスクリーンショットを添付することができます。テキストの追加や特定の領域を指す矢印の使用など、さまざまなツールを使用して編集することもできます。 
+
+- アプリのスクリーンショットを添付することができます。テキストの追加や特定の領域を指す矢印の使用など、さまざまなツールを使用して編集することもできます。
+
 - ニュースレターにサインアップできます。
+
 - システム情報を含めることができます。常にこの情報をフィードバックに含めることをお勧めします。これにより、問題の概要をより適切に把握することができます。
 
  <img src="../images/feedback-options.png" alt="Showing what the give feedback options are" width="45%" class="responsive-img"/>
