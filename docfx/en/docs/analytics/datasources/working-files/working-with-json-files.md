@@ -5,10 +5,10 @@ _description: See how to work with JSON Files to advance your visualizations and
 
 # Working With JSON Files
 
-The JSON format is fully supported in Analytics as your visualizations can
+The JSON format is fully supported in Slingshot as your visualizations can
 consume data from any JSON file.
 
-After reading your JSON file format, Analytics provides you with possible
+After reading your JSON file format, you will be presented you with possible
 data structures you may want to use. In addition, there is an
 [**Advanced Selection**](#advanced-selection-mode) mode where you can
 choose a custom data structure.
@@ -37,60 +37,55 @@ your JSON file:
 1.  **Make your file available**.
 
     Upload the JSON file to one of your storage providers, so you can
-    later access it from Analytics. You can choose between the following
+    later access it from Slingshot. You can choose between the following
     available options: Dropbox, OneDrive, Box, Google Drive, and
     SharePoint.
 
-2.  **Create a new visualization**.
+2.  **Locate your file**.
 
-    Within your dashboard, create the visualization that will consume
-    data from the JSON file.
+    2.1.  Choose the storage provider with the file and provide your login credentials.
 
-3.  **Locate your file**.
-
-    a.  Choose the storage provider with the file and provide your login credentials.
-
-    b.  Navigate the provider and select your JSON file.
+    2.2.  Navigate the provider and select your JSON file.
 
     <img src="images/add-data-file-json.png" alt="A JSON file located in a cloud data source" class="responsive-img" width="85%"/>
 
-4.  **Choose the data structure you want**.
+3.  **Choose the data structure you want**.
 
-    After scanning the file, Analytics will show you a list of possible
+    Once you've added the file to your list of data sources, you will be presented with a list of possible
     data structures for you to choose from.
 
-    <img src="images/json-data-source-details-dialog.png" alt="Json Files Choose Data table" class="responsive-img" width="55%"/>
+    <img src="images/json-data-list-of-tables.png" alt="Json Files Choose Data table" class="responsive-img" width="58%"/>
 
     If the list does not include the data structure you want, use the
     [**Advanced Selection**](#json-advanced-selection) mode where you
     can choose a custom data structure.
 
-5.  **Click/Tap on Load Data**.
+4.  **Click/Tap on Select Data**.
 
-    Once you selected the data structure, click/tap the *Load Data*
+    Once you selected the data structure, click/tap the *Select Data*
     button to continue to the *Visualization Editor*.
 
-    <img src="images/visualization-editor-json-file-data.png" alt="Json Files Visualizations Editor" class="responsive-img" width="85%"/>
+    <img src="images/visualization-editor-json.png" alt="Json Files Visualizations Editor" class="responsive-img" width="85%"/>
 
 <a name='json-advanced-selection'></a>
 ## Advanced Selection Mode
 
 JSON files can be used to represent different data structures.
-Because of this, Analytics allows you to choose a custom data structure for
+Because of this, Slingshot allows you to choose a custom data structure for
 you to work with. After selecting the data columns you want to work
 with, you can build your visualization upon them. To do that, you need to:
 
 1.  **Open the Advanced Selection mode**.
 
-    Click/Tap the **+ Table** button to get access to the *Advanced Selection*
+    Click/Tap on **+ Table** in order to get access to the *Advanced Selection*
     screen.
 
-    <img src="images/json-data-source-details-table-option.png" alt="Table option for advanced selection in the data source details dialog for json" class="responsive-img" width="55%"/>
+    <img src="images/json-file-table-option.png" alt="Table option for advanced selection in the data source details dialog for json" class="responsive-img" width="58%"/>
 
 2.  **Navigate the JSON Tree**.
 
     Expand the nodes and select the deepest level where you want to
-    select the data.
+    select the data from.
 
     <img src="images/advanced-selection-json-tree.png" alt="Json Files Navigate Tree" class="responsive-img" width="85%"/>
 
@@ -101,12 +96,12 @@ with, you can build your visualization upon them. To do that, you need to:
 
     |                                                                             |                                                                                                                                           |
     | --------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- |
-    | <img src="images/unselect-elements-json-file.png" alt="Json Files Unselect Elements" class="responsive-img"/> | After selecting one or more children, you can unselect the parent elements (Objects and Arrays) to leave them out of your data structure. |
+    | <img src="images/json-advanced-selection-elements-unselect.png" alt="Json Files Unselect Elements" class="responsive-img"/> | After selecting one or more children, you can unselect the parent elements (Objects and Arrays) to leave them out of your data structure. |
 
 
 4.  (*Optional*) **Format text fields to Date/Time or Number**.
 
-    When selecting a field, Analytics reads its values, autodetects the
+    When selecting a field, Slingshot reads its values, autodetects the
     optimal format, and presents a dialog where you can choose what to
     do.
 
@@ -114,7 +109,7 @@ with, you can build your visualization upon them. To do that, you need to:
 
 5.  **Click/Tap on Create Table**.
 
-    Once you selected your custom data structure, click/tap the *Create
-    Table* button to continue to the *Visualization Editor*.
+    Once you've selected your custom data structure, click/tap on *Create Table* to continue to the *Visualization Editor*.
+    
+    <img src="images/json-tree-create-table.png" alt="Json Files Format Fields" class="responsive-img"/>
 
-    <img src="images/visualization-editor-json-file.png" alt="Using the data from json file to create visualization" class="responsive-img" width="85%"/>
