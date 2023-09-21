@@ -10,12 +10,12 @@ _description: Connecting and using OData Feed in Slingshot to boost your results
 To configure an OData Service data source, you will need to enter the
 following information:
 
-<img src="images/odata-feed-details-dialog.png" alt="Enter OData Service Details dialog" class="responsive-img" width="55%"/>
+<img src="images/odata-feed-details-dialog.png" alt="Enter OData Service Details dialog" class="responsive-img" width="52%"/>
 
 1.  **URL**: the URL where the service is located (for example, <http://services.odata.org/Northwind/Northwind.svc> for the Northwind OData Test Service).
 
 2.  **Credentials**: after selecting *Credentials*, you will be able to
-    enter the credentials for your OData Service or choose existing ones
+    enter the credentials for your OData Service or choose existing ones,
     if applicable.
     
       - **Username**: the user account for the OData Service or the name of the domain, if

@@ -2,8 +2,6 @@
 
 Groups in Slingshot enable you to work faster with a set of people that share a common purpose. Typical examples include Product leads, Designers in your Marketing team, the Executive Team, etc. With groups, you can @mention in discussions, invite to workspaces, assign tasks and share dashboards faster with a set of people.
 
-<img class="responsive-img" src="../images/groups-starting.png" alt="Showing groups within Slingshot" class="responsive-img"/>
-
 ## What can you do with a Group?
 
 With *Groups* you can:
@@ -24,13 +22,16 @@ To create a group, you need to:
 
 2. Select the **+ Add** button.
 
+<img class="responsive-img" src="../images/groups-add-button.png" alt="Add button">
+
 3. Enter a name for your group and start adding members.
 
 4. When you are ready, select **Create**.
 
-<img class="responsive-img" src="../images/group-example.png" alt="An example of a created group in the left navigation panel" width="35%">
+<img class="responsive-img" src="../images/create-group.png" alt="New group dialog" class="responsive-img"/>
 
->[!Note] Keep in mind that the *Groups* feature is available to *Slingshot Enterprise* users.
+
+>[!Note] Keep in mind that the *Groups* feature is available only to *Slingshot Enterprise* users.
 
 ## Group Members and Permissions
 

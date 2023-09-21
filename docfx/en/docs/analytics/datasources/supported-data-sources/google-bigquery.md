@@ -14,26 +14,18 @@ with millions of records for your visualizations with no slow down.
 Upon selecting Google BigQuery, you will be prompted to connect to your
 **Google account**.
 
-After you add a Google account, you will have access to your BigQuery
-datasets. To start using them for your visualizations:
+Once you've added a Google account, you will have access to your BigQuery
+datasets. To start using them for your visualizations, you need to:
 
-1.  **Select a project** in the *New Data Source* dialog that opens:
+1.  **Select a project** in the *New Data Source* dialog that opens up:
 
-    <img src="images/google-big-query-projects-list.png" alt="Select a project in the New Data Source dialog" class="responsive-img" width="55%"/>
-
-    >[!NOTE]    
-    **Demo Public BigQuery Data Projects in Analytics**.
-    The two public data projects in the screenshot above are demo
-    projects configured by the Analytics's team. They allow users with no
-    BigQuery datasets to play with this data source in the Visualization
-    editor and see how swiftly big data is being processed.
-
+    <img src="images/google-big-query-projects-list.png" alt="Select a project in the New Data Source dialog" class="responsive-img" width="60%"/>
 
 2.  **Select a dataset** by marking the empty circle next to it:
 
     <img src="images/dataset-google-big-query.png" alt="Select a dataset dialog" class="responsive-img" width="60%"/>
 
-3.  **Select a table** from the dataset. Use the *eye icon* on the right
+3.  **Select a table** from the dataset. Use the *magnifying glass* icon on the right
     to preview the data.
 
     <img src="images/google-big-query-tables-list.png" alt="Select a table dialog" class="responsive-img" width="60%"/>
