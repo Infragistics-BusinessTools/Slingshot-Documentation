@@ -9,10 +9,7 @@ When it comes to running a successful project – task management is at the hear
 
 There is a task tab available within your workspaces and projects, listing all the tasks assigned to everyone in those workspaces and projects. You can view your own tasks assigned to you within the **My Tasks** section.
 
-Learn more about all Slingshots project management features in our short tutorial video:  
-
-> [!Video https://www.youtube.com/embed/D1yqDISM5PM]
-
+<img src="../images/my-tasks.png" alt="My tasks assigned tasks" width="90%" class="responsive-img"/>
 
 ## What are Tasks?  
 
@@ -36,25 +33,33 @@ Subtasks can be created from inside the task card or from the parent task's over
 
 Tasks are very important for driving the productivity of your teams and projects. Your task card has the following fields:  
 
-<img src="../images/task-card-example.png" alt="Task card with all fields highlighted within Slingshot" width="80%" class="responsive-img"/>
+<img src="../images/task-fields.png" alt="Task card with all fields highlighted within Slingshot" width="80%" class="responsive-img"/>
 
-1.	**Task Title**: Set a clear title for your tasks.  
-2.	**Assignee(s)**: Assign either one person, multiple, group or workspace to a task.  
-3.	**Start Date & Due Date**: Set clear expectations on deadlines with start and due dates.  
-4.	**Status**: Set the status of the task such as In Review, In Progress or Completed.
-5.	**Attachments**: Add documents and files directly from your cloud providers or using drag and drop.  
-6.	**URLs**: Attach URLs to your tasks for reference.  
-7.	**Priority**: Set priorities for your teams so they can better manage their workloads effectively.
-8.	**Subtasks**: Create subtasks to slice your work better.
-9.	**Description**: Add further details around your tasks so the assignee(s) can understand what needs to get done.
-10.	**Activity**: Have threaded conversations around your tasks in context. 
-11.	**Task Dependencies**: Set clear paths to success for your projects with accountability to user's tasks. 
+1.	**Task Title**: Set a clear title for your tasks. 
+
+2.  **Description**: Add further details around your tasks so the assignee(s) can understand what needs to get done.
+
+3.	**Status**: Set the status of the task such as In Review, In Progress or Completed.
+
+4.	**Priority**: Set priorities for your teams so they can better manage their workloads effectively.
+
+5.	**Assignee(s)**: Assign either one person, multiple, group or workspace to a task. 
+
+6.	**Start Date & Due Date**: Set clear expectations on deadlines with start and due dates.  
+
+7.	**Attachments**: Add documents and files (for example, URLs, dashboards or data sources) to the task. 
+
+8.	**Activity**: Have threaded conversations around your tasks in context.
+
+If you want to add subtasks or dependencies to the task, you can scroll down in the task card.
+
+<img src="../images/task-fields-subtasks-dependencies.png" alt="Subtasks and dependencies in a task card" width="80%" class="responsive-img"/>
 
 ### Task Description
 
- In the task description section you can not only add additional details around your tasks, but you can also add images or create numbered and bulleted lists. For emphasis, you can also use the bold or italic font.
+ In the task description section, you can add additional details around your tasks with the help of different text formatting tools. You can also add URLs, as well as emojis.
 
-  <img src="../images/task-description-new-features.png" alt="using an image and numbered list in the task description" width="80%" class="responsive-img"/>
+  <img src="../images/task-description.png" alt="using an image and numbered list in the task description" width="65%" class="responsive-img"/>
 
 Note that currently these options are available only for macOS Monterey.
 
@@ -86,9 +91,23 @@ You can organize your tasks into lists to further group them together. Within li
 
 ## Task Views
 
-You can choose between three views (List, Kanban, Timeline) to take advantage of a different layout to maximize utility. Use the **View Settings** drop down menu (top right of the task list) to switch between views.  
+You can choose between four views (Calendar, List, Kanban, Timeline) to take advantage of a different layout to maximize utility. Use the **View Settings** drop-down menu (top right of the task list) to switch between views.  
 
-Within each of the task views you can filter, choose which task fields you want to show and group by status, priority, assignee, or sections.  
+Within each of the task views you can filter the tasks in a way that best suits your teams' goals.
+
+### Calendar  
+
+View your tasks on the calendar in order to have a better overview of your teams' schedules and their progress on tasks.
+
+<img src="../images/tasks-calendar-view.png" alt="Calendar view within Slingshot" width="75%" class="responsive-img"/>
+
+Use Calendar view if you want to: 
+
+- Change the *Start Date* and the *Due Date* with a simple drag and drop.
+
+- Pick a single date for a task with just one click.
+
+- Have a quick glimpse of unscheduled tasks. (To view your unscheduled tasks, click/tap on the three dot menu next to the View Type and choose **Show Unscheduled Items**.)
 
 ### List
 
