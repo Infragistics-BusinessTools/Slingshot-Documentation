@@ -10,10 +10,7 @@ _language: ja
 
 ワークスペースとプロジェクト内で使用可能なタスク タブがあり、それらのワークスペースとプロジェクトの全員に割り当てられたすべてのタスクが一覧表示されます。[マイタスク] セクションで、自分に割り当てられている自分のタスクを表示できます。
 
-Slingshot のすべてのプロジェクト管理機能の詳細については、短いチュートリアル ビデオをご覧ください。  
-
-> [!Video https://www.youtube.com/embed/D1yqDISM5PM]
-
+<img src="../images/my-tasks.png" alt="My tasks assigned tasks" width="90%" class="responsive-img"/>
 
 ## タスクとは?
 
@@ -37,25 +34,33 @@ Slingshot でタスクを作成する方法は複数あります:
 
 タスクは、チームやプロジェクトの生産性を高めるために非常に重要です。タスク カードには次のフィールドがあります:
 
-<img src="../images/task-card-example.png" alt="Task card with all fields highlighted within Slingshot" width="80%" class="responsive-img"/>
+<img src="../images/task-fields.png" alt="Task card with all fields highlighted within Slingshot" width="80%" class="responsive-img"/>
 
-1.	**タスクの名前**: タスクに明確なタイトルを設定します。  
-2.	**割り当て先**: 1 人、複数、グループ、またはワークスペースをタスクに割り当てられます。  
-3.	**開始日と期日**: 開始日と期日を使用して、期限に明確な期待値を設定します。  
-4.	**状態**: [レビュー中]、[作業中]、[完了] などのタスクの状態を設定します。
-5.	**添付**: クラウド プロバイダーから直接、またはドラッグアンドドロップを使用してドキュメントとファイルを追加します。  
-6.	**URL**: 参照用にタスクに URL を添付します。  
-7.	**優先度**: チームの優先度事項を設定して、チームがワークロードをより効果的に管理できるようにします。
-8.	**サブタスク**: サブタスクを作成して、作業をより適切に分割します。
-9.	**説明**: 何を行う必要があるかを担当者が理解できるように、タスクに関する詳細を追加します。
-10.	**アクティビティ**: 状況に応じて、タスクに関するスレッド化された会話を行います。 
-11.	**タスクの依存関係**: ユーザーのタスクに対する説明責任を持って、プロジェクトの成功への明確な道筋を設定します。 
+1.	**タスクの名前**: タスクに明確なタイトルを設定します。
+
+2.  **説明**: 何を行う必要があるかを担当者が理解できるように、タスクに関する詳細を追加します。
+
+3.	**状態**: [レビュー中]、[作業中]、[完了] などのタスクの状態を設定します。
+
+4.	**優先度**: チームの優先度事項を設定して、チームがワークロードをより効果的に管理できるようにします。
+
+5.	**割り当て先**: 1 人、複数、グループ、またはワークスペースをタスクに割り当てられます。
+
+6.	**開始日と期日**: 開始日と期日を使用して、期限に明確な期待値を設定します。
+
+7.	**状態**: [レビュー中]、[作業中]、[完了] などのタスクの状態を設定します。
+
+8.	**アクティビティ**: 状況に応じて、タスクに関するスレッド化された会話を行います。
+
+If you want to add subtasks or dependencies to the task, you can scroll down in the task card.
+
+<img src="../images/task-fields-subtasks-dependencies.png" alt="Subtasks and dependencies in a task card" width="80%" class="responsive-img"/>
 
 ### タスクの説明
 
- タスクの説明セクションでは、タスクの詳細を追加できるだけでなく、画像の追加や番号付きリストや黒丸付きリストの作成もできます。強調するために、太字または斜体フォントを使用することもできます。
+In the task description section, you can add additional details around your tasks with the help of different text formatting tools. You can also add URLs, as well as emojis.
 
-  <img src="../images/task-description-new-features.png" alt="using an image and numbered list in the task description" width="70%" class="responsive-img"/>
+  <img src="../images/task-description.png" alt="using an image and numbered list in the task description" width="65%" class="responsive-img"/>
 
 現在、これらのオプションは macOS Monterey でのみ使用できることに注意してください。
 
@@ -87,9 +92,23 @@ Slingshot でタスクを作成する方法は複数あります:
 
 ## タスクの表示タイプ
 
-3 つの表示タイプ (リスト、カンバン、タイムライン) から選択して、利便性ユーティリティを最大化するために異なるレイアウトを利用できます。表示タイプを切り替えるには、**[表示設定]** ドロップダウン メニュー (タスク リストの右上) を使用します。  
+4 つの表示タイプ (カレンダー、リスト、カンバン、タイムライン) から選択して、利便性ユーティリティを最大化するために異なるレイアウトを利用できます。表示タイプを切り替えるには、**[表示設定]** ドロップダウン メニュー (タスク リストの右上) を使用します。  
 
-各タスクの表示タイプごとに、フィルタリング、表示するタスク フィールドの選択、状態、優先度、割り当て先、またはセクションによるグループ化を行うことができます。   
+Within each of the task views you can filter the tasks in a way that best suits your teams' goals.
+
+### カレンダー
+
+View your tasks on the calendar in order to have a better overview of your teams' schedules and their progress on tasks.
+
+<img src="../images/tasks-calendar-view.png" alt="Calendar view within Slingshot" width="75%" class="responsive-img"/>
+
+Use Calendar view if you want to:
+
+- Change the *Start Date* and the *Due Date* with a simple drag and drop.
+
+- Pick a single date for a task with just one click.
+
+- Have a quick glimpse of unscheduled tasks. (To view your unscheduled tasks, click/tap on the three dot menu next to the View Type and choose **Show Unscheduled Items**.)
 
 ### リスト
 
