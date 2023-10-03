@@ -4,11 +4,11 @@
 
 ## オンボーディング プロセスの構成 
 
-During the onboarding process, you will be able to choose an industry, department and template in order to set up things in Slingshot.
+オンボーディング プロセス中に、Slingshot で設定するために業界、部門、テンプレートを選択できます。
 
 アカウントに初めてログインすると、以下のダイアログが表示されます。
 
-1. A dialog where you can select your industry. In case you don't see it in the options, you can click on **Other** and add it manually.
+1. 業界を選択できるダイアログ。オプションに表示されない場合は、**[その他]** をクリックして手動で追加できます。
 
  <img src="../images/industry-onboarding.png" alt="Dialog with list of industries" width="70%" class="responsive-img"/>
 
@@ -16,13 +16,13 @@ During the onboarding process, you will be able to choose an industry, departmen
 
  <img src="../images/onboarding-departments.png" alt="Dialog with a list of departments" width="85%" class="responsive-img"/>
 
-3. After specifying your department, you will be presented with a list of out-of-the-box templates. You can choose a template to help you set your working space. 
+3. 部門を指定すると、すぐに使えるテンプレートのリストが表示されます。作業スペースの設定に役立つテンプレートを選択できます。 
 
  <img src="../images/onboarding-templates.png" alt="Dialog with a list of templates" width="85%" class="responsive-img"/>
 
  >[!NOTE] If you're invited to Slingshot, for example, via chat, you will be able to choose only your industry and department.
 
-4. When you are done with the onboarding process, you will land on a project in your workspace to get you started faster.
+4. オンボーディング プロセスが完了すると、ワークスペース内のプロジェクトに移動して、より迅速に開始できるようになります。
 
  <img src="../images/completed-onboarding-example.png" alt="Result of a completed onboarding " width="85%" class="responsive-img"/>
 

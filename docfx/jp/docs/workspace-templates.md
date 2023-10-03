@@ -4,7 +4,7 @@
 
 ## さまざまなワークスペース テンプレート リストにアクセスする方法
 
-To access the out-of-the-box Slingshots templates, you can: 
+定義済みの Slingshot テンプレートにアクセスする手順は次の通りです:
 
 1.	左側のパネルの **[ワークスペース]** の横にある **[+ 追加]** ボタンをクリックまたはタップします。
 
@@ -14,21 +14,21 @@ To access the out-of-the-box Slingshots templates, you can:
 
 <img src="../images/workspace-templates-dialog.png" alt="workspace templates" class="responsive-img" width="90%" />
 
-In the left panel, you can do the following:
+左側のパネルでは、次の操作を行うことができます:
 
-- Check all of your templates.
+- すべてのテンプレートを確認。
 
-- Check the templates that you have recently used.
+- 最近使用したテンプレートを確認。
 
-- View all the featured templates.
+- すべての注目のテンプレートを表示。
 
-- Use a template from the *Slingshot Templates*.
+- **Slingshot のテンプレート**を使用。
 
-- Locate where you have stored your templates.
+- テンプレートを保存した場所を見つける。
 
-- Filter the templates by *Created by Me* or *Shared with Me*.
+- [作成済み] または [共有済み] でテンプレートをフィルタリング。
 
-## How can I use an out-of-the-box Workspace Template?
+## すぐに使えるワークスペース テンプレートを使用する方法
 
 Slingshot のテンプレートは、さまざまな業界/部署に基づいて編成されています。テンプレートを使用するには: 
 
@@ -48,35 +48,35 @@ Slingshot のテンプレートは、さまざまな業界/部署に基づいて
 
 6.	準備ができたら、**[作成]** をクリックまたはタップします。
 
-## How can I create a custom Workspace Template? 
+## カスタム ワークスペース テンプレートを作成する方法
 
-In order to create a custom workspace template, you need to:
+カスタム ワークスペース テンプレートを作成するには、次のことを行う必要があります：
 
-1.	Open the overflow menu next to the workspace you want to use as a template.
+1.	テンプレートとして使用するワークスペースの横にあるオーバーフロー メニューを開きます。
 
-2.	Click/tap on **Save as Template**.
+2.	**[テンプレートとして保存する]** をクリックまたはタップします。
 
 <img src="../images/workspace-save-as-template-option.png" alt="Save as template option for workspaces" class="responsive-img" width="90%" />
 
-3.	The following dialog will open up. Here you can choose what to keep from the workspace in order to use it for the template. When you are ready, click/tap on **Save**.
+3.	次のダイアログが開きます。ここでは、テンプレートに使用するためにワークスペースから何を保持するかを選択できます。準備ができたら、**[保存]** をクリックまたはタップします。
 
 <img src="../images/workspace-save-as-template-dialog.png" alt="Save as template dialog for workspaces" class="responsive-img" width="90%" />
 
-4.	Once you have created the template, you can find it in the *Workspace Templates lists* when you click/tap on **See all Templates** (next to *Workspaces* in the left panel). The custom template will show up under **Personal Templates**. 
+4.	テンプレートを作成したら、**[すべてのテンプレートを見る]** (左側のパネルの [ワークスペース] の横) をクリックまたはタップすると、ワークスペース テンプレート リストでそのテンプレートを見つけることができます。カスタム テンプレートは **[個人用テンプレート]** の下に表示されます。
 
 <img src="../images/workspace-templates-personal-templates.png" alt="Personal workspace templates under Location" class="responsive-img" width="90%" />
 
-Besides this, you can also open the overflow menu on the right side of the workspace template, that you have created, and take the following actions:
+これに加えて、作成したワークスペース テンプレートの右側にあるオーバーフロー メニューを開いて、次のアクションを実行することもできます:
 
--	Open the template.
+-	テンプレートを開く。
 
--	Copy the link to the template.
+-	テンプレートへのリンクをコピー。
 
--	Add the template to *Bookmarks* or remove it from there.
+-	テンプレートを [ブックマーク] に追加するか、そこから削除。
 
--	Share the template.
+-	テンプレートを共有。
 
--   Delete the template.
+-   テンプレートを削除。
 
 ワークスペースの作成方法と使用方法の詳細については、[こちら](./workspaces.md)をご覧ください。
 

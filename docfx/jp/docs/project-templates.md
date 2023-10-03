@@ -18,21 +18,21 @@
 
 <img src="../images/project-templates-dialog.png" alt="project templates" class="responsive-img" width="90%" />
 
-In the left panel, you can do the following:
+左側のパネルでは、次の操作を行うことができます:
 
-- Check all of your templates.
+- すべてのテンプレートを確認。
 
-- Check the templates that you have recently used.
+- 最近使用したテンプレートを確認。
 
-- View all the featured templates.
+- すべての注目のテンプレートを表示。
 
-- Use a template from the *Slingshot Templates*.
+- **Slingshot のテンプレート**を使用。
 
-- Locate where you have stored your templates.
+- テンプレートを保存した場所を見つける。
 
-- Filter the templates by *Created by Me* or *Shared with Me*.
+- **[作成済み]** または **[共有済み]** でテンプレートをフィルタリング。
 
-## How can I use an out-of-the-box Project Template?
+## すぐに使えるプロジェクト テンプレートを使用する方法
 
 Slingshot のテンプレートは、さまざまな業界/部署に基づいて編成されています。テンプレートを使用するには:
 
@@ -52,38 +52,38 @@ Slingshot のテンプレートは、さまざまな業界/部署に基づいて
 
 6.	準備ができたら、**[作成]** をクリックまたはタップします。
 
-## How can I create a custom Project Template? 
+## カスタム プロジェクト テンプレートを作成する方法
 
-To create a custom project template, you need to:
+カスタム プロジェクト テンプレートを作成するには、次のことを行う必要があります:
 
-1.	Open the overflow menu of the project you want to use for the template.
+1.	テンプレートに使用するプロジェクトのオーバーフロー メニューを開きます。
 
-2.	Click/tap on **Save as Template**. 
+2.	**[テンプレートとして保存する]** をクリックまたはタップします。
 
 <img src="../images/save-as-template-option-project.png" alt="save as template option for a project" class="responsive-img" width="90%" />
 
-3. The following dialog will open up. Here you can choose what to keep from the project in order to use it for the template. You can also choose where to store the template from the drop-down menu in the left panel of the dialog. When you are ready, click /tap on **Save**.
+3. 次のダイアログが開きます。ここでは、テンプレートに使用するためにプロジェクトから何を保持するかを選択できます。ダイアログの左側のパネルにあるドロップダウン メニューからテンプレートを保存する場所を選択することもできます。準備ができたら、**[保存]** をクリックまたはタップします。
 
 <img src="../images/project-save-as-template-dialog.png" alt="Save as template dialog for a project" class="responsive-img" width="90%" />
 
-4.	Once you have created the template, you can open your list of projects in a workspace and click/tap on **See all Templates**. 
+4.	テンプレートを作成したら、ワークスペースでプロジェクトのリストを開き、**[すべてのテンプレートを見る]** をクリックまたはタップします。
 
 <img src="../images/project-see-all-templates.png" alt="See all project templates option" class="responsive-img" width="90%" />
 
-You can find the template under **Locations** in one of the sections. In the example below, we saved the template with the title *Email Marketing* in the **Marketing** workspace.
+テンプレートは、いずれかのセクションの **[位置]** にあります。以下の例では、*Email Marketing* というタイトルのテンプレートを **Marketing** ワークスペースに保存しました。
 
 <img src="../images/project-template-location-example.png" alt="Example of a stored template in a location" class="responsive-img" width="90%" />
 
-Besides this, you can also open the overflow menu on the right side of the project template, that you have created, and take the following actions:
+これに加えて、作成したプロジェクト テンプレートの右側にあるオーバーフロー メニューを開いて、次のアクションを実行することもできます:
 
--	Open the template.
+-	テンプレートを開く。
 
--	Copy the link to the template.
+-	テンプレートへのリンクをコピー。
 
--	Add the template to *Bookmarks* or remove it from there.
+-	テンプレートを **[ブックマーク]** に追加するか、そこから削除。
 
--	Share the template.
+-	テンプレートを共有。
 
--	Delete the template.
+-	テンプレートを削除。
 
 プロジェクトの作成方法と使用方法の詳細については、[こちら](./workspaces.md#workspace-hierarchy)をご覧ください。

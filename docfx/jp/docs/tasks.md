@@ -52,13 +52,13 @@ Slingshot でタスクを作成する方法は複数あります:
 
 8.	**アクティビティ**: 状況に応じて、タスクに関するスレッド化された会話を行います。
 
-If you want to add subtasks or dependencies to the task, you can scroll down in the task card.
+タスクにサブタスクまたは依存関係を追加する場合は、タスク カードを下にスクロールします。
 
 <img src="../images/task-fields-subtasks-dependencies.png" alt="Subtasks and dependencies in a task card" width="80%" class="responsive-img"/>
 
 ### タスクの説明
 
-In the task description section, you can add additional details around your tasks with the help of different text formatting tools. You can also add URLs, as well as emojis.
+タスクの説明セクションでは、さまざまなテキスト書式設定ツールを使用して、タスクに関する詳細を追加できます。URL や絵文字を追加することもできます。
 
   <img src="../images/task-description.png" alt="using an image and numbered list in the task description" width="65%" class="responsive-img"/>
 
@@ -94,21 +94,21 @@ In the task description section, you can add additional details around your task
 
 4 つの表示タイプ (カレンダー、リスト、カンバン、タイムライン) から選択して、利便性ユーティリティを最大化するために異なるレイアウトを利用できます。表示タイプを切り替えるには、**[表示設定]** ドロップダウン メニュー (タスク リストの右上) を使用します。  
 
-Within each of the task views you can filter the tasks in a way that best suits your teams' goals.
+各タスク ビュー内で、チームの目標に最も適した方法でタスクをフィルタリングできます。
 
 ### カレンダー
 
-View your tasks on the calendar in order to have a better overview of your teams' schedules and their progress on tasks.
+チームのスケジュールとタスクの進捗状況をよりよく把握するために、カレンダー上でタスクを表示します。
 
 <img src="../images/tasks-calendar-view.png" alt="Calendar view within Slingshot" width="75%" class="responsive-img"/>
 
-Use Calendar view if you want to:
+次の場合は、カレンダー ビューを使用します:
 
-- Change the *Start Date* and the *Due Date* with a simple drag and drop.
+- 簡単なドラッグ アンド ドロップで**開始日**と**期日**を変更したい場合。
 
-- Pick a single date for a task with just one click.
+- ワンクリックでタスクの単一の日付を選択したい場合。
 
-- Have a quick glimpse of unscheduled tasks. (To view your unscheduled tasks, click/tap on the three dot menu next to the View Type and choose **Show Unscheduled Items**.)
+- スケジュールされていないタスクをざっと確認したい場合。(スケジュールされていないタスクを表示するには、[表示設定] の横にある 3 点メニューをクリックまたはタップし、**[予定外の項目を表示]** を選択します。)
 
 ### リスト
 
