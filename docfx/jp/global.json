@@ -1,10 +1,10 @@
 {
     "_navBarTitle": "Slingshot",
     "_navBarTitleHref": "https://www.slingshotapp.io/",
-    "_currentBaseUrl": "https://www.slingshotapp.io/",
+    "_currentBaseUrl": "https://www.slingshotapp.io/help/",
     "_hasKRLang": false,
-    "_ENBaseUrl": "https://www.slingshotapp.io/",
-    "_JABaseUrl": "https://www.slingshotapp.io/",
+    "_ENBaseUrl": "https://www.slingshotapp.io/help/",
+    "_JABaseUrl": "https://www.slingshotapp.io/help/",
     "_themeUsage": false,
     "_initialPage": "docs/welcome-slingshot",
     "_toc-dir": "docs",
