@@ -125,7 +125,7 @@ steps:
   condition: or(eq(variables['Build.SourceBranchName'], 'master'), eq(variables.forcePublishArtifacts, true))
   displayName: Publish staging JP site
   inputs:
-    PathtoPublish: '$(Build.ArtifactStagingDirectory)\staging\jp\_site'
+    PathtoPublish: '$(Build.ArtifactStagingDirectory)\staging\jp'
     ArtifactName: 'docs_staging_site_jp'
     publishLocation: 'Container'
 
