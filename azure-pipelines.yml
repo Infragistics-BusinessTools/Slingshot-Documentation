@@ -46,9 +46,19 @@ steps:
   displayName: "Build Slingshot docfx (Staging)" 
   inputs:
     script: 'npm run build:staging'
+
 - task: PublishBuildArtifacts@1
   condition: or(eq(variables['Build.SourceBranchName'], 'master'), eq(variables.forcePublishArtifacts, true))
-  displayName: "Copy staging artifacts to builds server"
+  displayName: Archive and publish staging EN site
+  inputs:
+    PathtoPublish: '$(Build.SourcesDirectory)\docfx\en\_site'
+    ArtifactName: 'docs_staging_site_en'
+    publishLocation: 'Container'
+    StoreAsTar: true
+
+- task: PublishBuildArtifacts@1
+  condition: or(eq(variables['Build.SourceBranchName'], 'master'), eq(variables.forcePublishArtifacts, true))
+  displayName: "Copy staging artifacts to local builds server"
   inputs:
     PathtoPublish: 'docfx\en'
     ArtifactName: 'docs_staging'
@@ -59,9 +69,19 @@ steps:
   displayName: "Build Slingshot docfx (Production)" 
   inputs:
     script: 'npm run build:prod'
+
 - task: PublishBuildArtifacts@1
   condition: or(eq(variables['Build.SourceBranchName'], 'master'), eq(variables.forcePublishArtifacts, true))
-  displayName: "Copy production artifacts to builds server"
+  displayName: Archive and publish production EN site
+  inputs:
+    PathtoPublish: '$(Build.SourcesDirectory)\docfx\en\_site'
+    ArtifactName: 'docs_production_site_en'
+    publishLocation: 'Container'
+    StoreAsTar: true
+
+- task: PublishBuildArtifacts@1
+  condition: or(eq(variables['Build.SourceBranchName'], 'master'), eq(variables.forcePublishArtifacts, true))
+  displayName: "Copy production artifacts to local builds server"
   inputs:
     PathtoPublish: 'docfx\en'
     ArtifactName: 'docs_production'
@@ -73,9 +93,19 @@ steps:
   displayName: "Build Slingshot docfx (Staging JP)" 
   inputs:
     script: 'npm run build:staging_jp'
+
 - task: PublishBuildArtifacts@1
   condition: or(eq(variables['Build.SourceBranchName'], 'master'), eq(variables.forcePublishArtifacts, true))
-  displayName: "Copy staging JP artifacts to builds server"
+  displayName: Archive and publish staging JP site
+  inputs:
+    PathtoPublish: '$(Build.SourcesDirectory)\docfx\jp\_site'
+    ArtifactName: 'docs_staging_site_jp'
+    publishLocation: 'Container'
+    StoreAsTar: true
+
+- task: PublishBuildArtifacts@1
+  condition: or(eq(variables['Build.SourceBranchName'], 'master'), eq(variables.forcePublishArtifacts, true))
+  displayName: "Copy staging JP artifacts to local builds server"
   inputs:
     PathtoPublish: 'docfx\jp'
     ArtifactName: 'docs_staging_jp'
@@ -86,9 +116,18 @@ steps:
   displayName: "Build Slingshot docfx (Production JP)" 
   inputs:
     script: 'npm run build:prod_jp'
+
 - task: PublishBuildArtifacts@1
   condition: or(eq(variables['Build.SourceBranchName'], 'master'), eq(variables.forcePublishArtifacts, true))
-  displayName: "Copy production artifacts to builds server"
+  displayName: Archive and publish production JP site
+  inputs:
+    PathtoPublish: '$(Build.SourcesDirectory)\docfx\jp\_site'
+    ArtifactName: 'docs_production_site_jp'
+    publishLocation: 'Container'
+    StoreAsTar: true
+- task: PublishBuildArtifacts@1
+  condition: or(eq(variables['Build.SourceBranchName'], 'master'), eq(variables.forcePublishArtifacts, true))
+  displayName: "Copy production artifacts to local builds server"
   inputs:
     PathtoPublish: 'docfx\jp'
     ArtifactName: 'docs_production_jp'
