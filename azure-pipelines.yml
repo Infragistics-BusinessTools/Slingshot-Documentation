@@ -53,8 +53,8 @@ steps:
   inputs:
     rootFolderOrFile: '$(Build.SourcesDirectory)\docfx\en\_site'
     includeRootFolder: false
-    archiveType: 'zip'
-    archiveFile: '$(Build.ArtifactStagingDirectory)\staging\en\staging_site_en.zip'
+    archiveType: 'tar'
+    archiveFile: '$(Build.ArtifactStagingDirectory)\staging\en\staging_site_en.tar.gz'
     replaceExistingArchive: true
 
 - task: PublishBuildArtifacts@1
@@ -85,8 +85,8 @@ steps:
   inputs:
     rootFolderOrFile: '$(Build.SourcesDirectory)\docfx\en\_site'
     includeRootFolder: false
-    archiveType: 'zip'
-    archiveFile: '$(Build.ArtifactStagingDirectory)\production\en\production_site_en.zip'
+    archiveType: 'tar'
+    archiveFile: '$(Build.ArtifactStagingDirectory)\production\en\production_site_en.tar.gz'
     replaceExistingArchive: true
 - task: PublishBuildArtifacts@1
   condition: or(eq(variables['Build.SourceBranchName'], 'master'), eq(variables.forcePublishArtifacts, true))
@@ -117,8 +117,8 @@ steps:
   inputs:
     rootFolderOrFile: '$(Build.SourcesDirectory)\docfx\jp\_site'
     includeRootFolder: false
-    archiveType: 'zip'
-    archiveFile: '$(Build.ArtifactStagingDirectory)\staging\jp\staging_site_jp.zip'
+    archiveType: 'tar'
+    archiveFile: '$(Build.ArtifactStagingDirectory)\staging\jp\staging_site_jp.tar.gz'
     replaceExistingArchive: true
 
 - task: PublishBuildArtifacts@1
@@ -149,8 +149,8 @@ steps:
   inputs:
     rootFolderOrFile: '$(Build.SourcesDirectory)\docfx\jp\_site'
     includeRootFolder: false
-    archiveType: 'zip'
-    archiveFile: '$(Build.ArtifactStagingDirectory)\production\jp\production_site_jp.zip'
+    archiveType: 'tar'
+    archiveFile: '$(Build.ArtifactStagingDirectory)\production\jp\production_site_jp.tar.gz'
     replaceExistingArchive: true
 
 - task: PublishBuildArtifacts@1
