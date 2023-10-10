@@ -2,6 +2,7 @@ const { series, watch, src, dest, parallel} = require('gulp');
 const { buildDocfx } = require('igniteui-docfx-template');
 const slash = require('slash');
 const replace = require('gulp-replace');
+const insert = require('gulp-insert');
 const path = require('path');
 const browserSync = require('browser-sync').create();
 const argv = require('yargs').argv;
@@ -19,6 +20,27 @@ const removeHTMLExtensionFromSiteMap = () => {
     return src([DOCFX_SITE + '/sitemap.xml'])
         .pipe(replace(/\.html/g, ''))
         .pipe(dest(DOCFX_SITE));
+};
+
+const addNoIndexTag = (done) => {
+    const environment = process.env.NODE_ENV ? process.env.NODE_ENV.trim() : 'development';
+    if (environment !== 'production') {
+        return src(`${DOCFX_SITE}/**/*.html`)
+        .pipe(insert.transform(function (contents, file) {
+            const headTagRegex = /<head[\s\S]*?>/i;
+            const match = contents.match(headTagRegex);
+    
+            if (match) {
+              const metaTag = '<meta name="robots" content="noindex, nofollow" />';
+              const modifiedContents = contents.replace(match[0], match[0] + metaTag);
+              return modifiedContents;
+            }
+    
+            return contents;
+        }))
+        .pipe(dest(DOCFX_SITE));
+    }
+    done();
 };
 
 const replaceEnvironmentVariables = () => {
@@ -79,6 +101,6 @@ const addWatcher = (done) => {
     done();
 }
 
-exports['ci-build'] = series(buildSite, removeHTMLExtensionFromSiteMap, replaceEnvironmentVariables);
-exports.build = series(buildSite, removeHTMLExtensionFromSiteMap, replaceEnvironmentVariables);
+exports['ci-build'] = series(buildSite, addNoIndexTag, removeHTMLExtensionFromSiteMap, replaceEnvironmentVariables);
+exports.build = series(buildSite, addNoIndexTag, removeHTMLExtensionFromSiteMap, replaceEnvironmentVariables);
 exports.serve = series(this.build, serveSite, addWatcher);
