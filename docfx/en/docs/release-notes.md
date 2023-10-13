@@ -1,5 +1,17 @@
 # Release Notes
 
+### (October - 2023)
+
+#### New Features 
+
+- Ability to create custom *Project* and *Workspace* templates 
+
+- Ability to review tasks in a *Calendar* view
+
+- Improved *Onboarding* experience
+
+- Redesigned *Task* Dialog
+
 ### 1.0.2839 (July - 2023)
 
 #### New Features 
@@ -8,7 +20,7 @@
 
 - New icons for Data Sources 
 
-- Out of the box Templates for Workspaces, Projects and Dashboards
+- Out-of-the-box Templates for Workspaces, Projects and Dashboards
 
 - Task Templates: Users can now see all their templates under the *All* section in the *Task Templates* dialog and search for them by name. 
 ### 1.0.2793 (April - 2023)

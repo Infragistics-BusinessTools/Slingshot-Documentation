@@ -78,6 +78,8 @@ Besides this, you can also open the overflow menu on the right side of the works
 
 -   Delete the template.
 
+>[!Note] Keep in mind that the option to create custom workspace templates is available to Slingshot and Slingshot Enterprise users.
+
 If you want to find more information about how you can create and use workspaces, head [here](./workspaces.md).
 
 
