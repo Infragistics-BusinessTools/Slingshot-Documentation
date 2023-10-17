@@ -86,4 +86,6 @@ Slingshot のテンプレートは、さまざまな業界/部署に基づいて
 
 -	テンプレートを削除。
 
+>[!Note] カスタム プロジェクト テンプレートを作成するオプションは、Slingshot および Slingshot Enterprise ユーザーが利用できることに注意してください。
+
 プロジェクトの作成方法と使用方法の詳細については、[こちら](./workspaces.md#workspace-hierarchy)をご覧ください。
