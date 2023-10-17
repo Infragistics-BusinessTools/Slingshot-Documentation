@@ -46,9 +46,28 @@ steps:
   displayName: "Build Slingshot docfx (Staging)" 
   inputs:
     script: 'npm run build:staging'
+
+- task: ArchiveFiles@2
+  condition: or(eq(variables['Build.SourceBranchName'], 'master'), eq(variables.forcePublishArtifacts, true))
+  displayName: Archive staging EN site
+  inputs:
+    rootFolderOrFile: '$(Build.SourcesDirectory)\docfx\en\_site'
+    includeRootFolder: false
+    archiveType: 'tar'
+    archiveFile: '$(Build.ArtifactStagingDirectory)\staging\en\staging_site_en.tar.gz'
+    replaceExistingArchive: true
+
 - task: PublishBuildArtifacts@1
   condition: or(eq(variables['Build.SourceBranchName'], 'master'), eq(variables.forcePublishArtifacts, true))
-  displayName: "Copy staging artifacts to builds server"
+  displayName: Publish staging EN site
+  inputs:
+    PathtoPublish: '$(Build.ArtifactStagingDirectory)\staging\en'
+    ArtifactName: 'docs_staging_site_en'
+    publishLocation: 'Container'
+
+- task: PublishBuildArtifacts@1
+  condition: or(eq(variables['Build.SourceBranchName'], 'master'), eq(variables.forcePublishArtifacts, true))
+  displayName: "Copy staging artifacts to local builds server"
   inputs:
     PathtoPublish: 'docfx\en'
     ArtifactName: 'docs_staging'
@@ -59,9 +78,27 @@ steps:
   displayName: "Build Slingshot docfx (Production)" 
   inputs:
     script: 'npm run build:prod'
+
+- task: ArchiveFiles@2
+  condition: or(eq(variables['Build.SourceBranchName'], 'master'), eq(variables.forcePublishArtifacts, true))
+  displayName: Archive production EN site
+  inputs:
+    rootFolderOrFile: '$(Build.SourcesDirectory)\docfx\en\_site'
+    includeRootFolder: false
+    archiveType: 'tar'
+    archiveFile: '$(Build.ArtifactStagingDirectory)\production\en\production_site_en.tar.gz'
+    replaceExistingArchive: true
 - task: PublishBuildArtifacts@1
   condition: or(eq(variables['Build.SourceBranchName'], 'master'), eq(variables.forcePublishArtifacts, true))
-  displayName: "Copy production artifacts to builds server"
+  displayName: Publish production EN site
+  inputs:
+    PathtoPublish: '$(Build.ArtifactStagingDirectory)\production\en'
+    ArtifactName: 'docs_production_site_en'
+    publishLocation: 'Container'
+
+- task: PublishBuildArtifacts@1
+  condition: or(eq(variables['Build.SourceBranchName'], 'master'), eq(variables.forcePublishArtifacts, true))
+  displayName: "Copy production artifacts to local builds server"
   inputs:
     PathtoPublish: 'docfx\en'
     ArtifactName: 'docs_production'
@@ -73,9 +110,28 @@ steps:
   displayName: "Build Slingshot docfx (Staging JP)" 
   inputs:
     script: 'npm run build:staging_jp'
+
+- task: ArchiveFiles@2
+  condition: or(eq(variables['Build.SourceBranchName'], 'master'), eq(variables.forcePublishArtifacts, true))
+  displayName: Archive staging JP site
+  inputs:
+    rootFolderOrFile: '$(Build.SourcesDirectory)\docfx\jp\_site'
+    includeRootFolder: false
+    archiveType: 'tar'
+    archiveFile: '$(Build.ArtifactStagingDirectory)\staging\jp\staging_site_jp.tar.gz'
+    replaceExistingArchive: true
+
 - task: PublishBuildArtifacts@1
   condition: or(eq(variables['Build.SourceBranchName'], 'master'), eq(variables.forcePublishArtifacts, true))
-  displayName: "Copy staging JP artifacts to builds server"
+  displayName: Publish staging JP site
+  inputs:
+    PathtoPublish: '$(Build.ArtifactStagingDirectory)\staging\jp'
+    ArtifactName: 'docs_staging_site_jp'
+    publishLocation: 'Container'
+
+- task: PublishBuildArtifacts@1
+  condition: or(eq(variables['Build.SourceBranchName'], 'master'), eq(variables.forcePublishArtifacts, true))
+  displayName: "Copy staging JP artifacts to local builds server"
   inputs:
     PathtoPublish: 'docfx\jp'
     ArtifactName: 'docs_staging_jp'
@@ -86,9 +142,28 @@ steps:
   displayName: "Build Slingshot docfx (Production JP)" 
   inputs:
     script: 'npm run build:prod_jp'
+
+- task: ArchiveFiles@2
+  condition: or(eq(variables['Build.SourceBranchName'], 'master'), eq(variables.forcePublishArtifacts, true))
+  displayName: Archive production JP site
+  inputs:
+    rootFolderOrFile: '$(Build.SourcesDirectory)\docfx\jp\_site'
+    includeRootFolder: false
+    archiveType: 'tar'
+    archiveFile: '$(Build.ArtifactStagingDirectory)\production\jp\production_site_jp.tar.gz'
+    replaceExistingArchive: true
+
 - task: PublishBuildArtifacts@1
   condition: or(eq(variables['Build.SourceBranchName'], 'master'), eq(variables.forcePublishArtifacts, true))
-  displayName: "Copy production artifacts to builds server"
+  displayName: Publish production JP site
+  inputs:
+    PathtoPublish: '$(Build.ArtifactStagingDirectory)\production\jp'
+    ArtifactName: 'docs_production_site_jp'
+    publishLocation: 'Container'
+
+- task: PublishBuildArtifacts@1
+  condition: or(eq(variables['Build.SourceBranchName'], 'master'), eq(variables.forcePublishArtifacts, true))
+  displayName: "Copy production artifacts to local builds server"
   inputs:
     PathtoPublish: 'docfx\jp'
     ArtifactName: 'docs_production_jp'
