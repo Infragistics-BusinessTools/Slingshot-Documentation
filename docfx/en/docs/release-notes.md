@@ -1,6 +1,6 @@
 # Release Notes
 
-### (October - 2023)
+### 1.0.2892.0 (October - 2023)
 
 #### New Features 
 
