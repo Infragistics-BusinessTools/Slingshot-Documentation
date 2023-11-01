@@ -60,7 +60,7 @@ Slingshot のテンプレートは、さまざまな業界/部署に基づいて
 
 3.	次のダイアログが開きます。ここでは、テンプレートに使用するためにワークスペースから何を保持するかを選択できます。準備ができたら、**[保存]** をクリックまたはタップします。
 
-<img src="../images/workspace-save-as-template-dialog.png" alt="Save as template dialog for workspaces" class="responsive-img" width="90%" />
+<img src="../images/workspace-save-as-template-dialog.png" alt="Save as template dialog for workspaces" class="responsive-img" width="60%" />
 
 4.	テンプレートを作成したら、**[すべてのテンプレートを見る]** (左側のパネルの [ワークスペース] の横) をクリックまたはタップすると、ワークスペース テンプレート リストでそのテンプレートを見つけることができます。カスタム テンプレートは **[個人用テンプレート]** の下に表示されます。
 
