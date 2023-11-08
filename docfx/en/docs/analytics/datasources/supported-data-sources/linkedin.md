@@ -4,16 +4,25 @@ The LinkedIn data source allows you to connect your *LinkedIn Ads account* to Sl
 
 ## Connecting a LinkedIn Ads account to Slingshot
 
-1.	Click on the **+Dashboard** button under the **My Analytics** section.
+1.	Click on the **+Dashboard** button under the **My Analytics** section and choose **Blank Dashboard**.
+
+<img src="./images/linkedin-blank-dashboard-button.png" alt="Blank dashboard button" width="90%" class="responsive-img"/>
+
 2.	Click on the **+Data Source** button.
+
 3.	Select LinkedIn that is under **Social Media** in the **Data Sources** list.
+
+   <img src="./images/data-sources-list-linkedin.png" alt="LinkedIn in the data sources list" width="90%" class="responsive-img"/>
+
 4.	Log in to your LinkedIn Ads account. In case you don’t have one, you can check <a href="https://www.linkedin.com/help/linkedin/answer/a426102/create-an-ad-account?lang=en" target="_blank">this</a> article for more information about how you can create an Ads account.
+
 5.	If you have different LinkedIn Ads accounts, you can choose **+Add** in order to include another account.
-6.	In the dialog that opens, you can change the LinkedIn Ads Account name, add a description or choose which details you want to see included in the dashboard.
 
-    <img src="./images/linkedin-data-source-dialog.png" alt="Dialog for adding LinkedIn as a data source" width="55%" class="responsive-img"/>
+6.	In the dialog that opens, you can change the LinkedIn Ads Account name, add a description, certify the data source, and select the location for the data source.
 
-7. Click on **Add Data Source** to connect the account to your Slingshot account.
+    <img src="./images/add-linkedin-account-dialog.png" alt="Dialog for adding LinkedIn account to the list od data sources" width="90%" class="responsive-img"/>
+
+7. Click/tap on **Add Data Source** to connect the account to your Slingshot account.
 
 ## Working in the Visualization Editor
 
@@ -22,32 +31,49 @@ When you create a dashboard with information coming from a LinkedIn Ads account,
 <img src="./images/linkedin-visualization-editor.png" alt="LinkedIn visualization editor dialog" class="responsive-img" width="90%"/>
 
 1.	**Dimensions**: They are the attributes of your data.
+
 2.	**Measures** (depicted by 123 icon): They consist of numeric data. For example, you can see the number of clicks by regions.
 
-## The Data Range Data Filter
+## The Date Range Data Filter
 
-This filter can’t be removed but you can change the date range. The date filter is set to *Last 30 days* by default.
+This filter can’t be removed, but you can change the date range. The date filter is set to *Last 30 days* by default.
 
-If you want to change it, you can click on the arrow in the upper right corner (see the screenshot below) and pick a date range from the dropdown menu or create a custom one when you click on the first option.
+If you want to change it, you can click on the arrow in the upper right corner (see the screenshot below) and pick a date range from the dropdown menu. You can also create a custom one when you click on the first option.
 
-<img src="./images/linkedIn-date-range.png" alt="date range in the visualization editor for LinkedIn" class="responsive-img" width="90%"/>
+<img src="./images/linkedin-date-range.png" alt="date range in the visualization editor for LinkedIn" class="responsive-img" width="90%"/>
 
 ## Settings
 
 Depending on the chart type that you are using, you will be able to make different changes in the settings. You can find more information about the different chart types in the data visualizations section [here](https://www.slingshotapp.io/en/help/docs/analytics/data-visualizations/visualizations-editor).
 
-In this case we chose the *Pie* chart where you can make the following changes through the settings menu: 
+In this case we used the *Column* chart where you can make the following changes through the settings menu: 
 
 - Show or hide the title
-- Align the text fields, number fields and the date fields
-- Choose the font size (small, medium, large)
-- Activate Show Grand totals
+
+- Show the *Legend*
+
+- Choose the *Start Color* 
+
+- Select which *Axis* to display
+
+- Show *Totals on Tooltip* 
+
+- Choose a *Chart Trendline*
+
+- Sync Axis to the Visible Range
+
+- Adjust the *Zoom Level*
+
+- Choose between a *Linear* or *Logarithmic* Axis
+
+- Adjust the *Axis Bounds*
+
 - Connect this visualization to another dashboard or a URI. You can check [this](https://www.slingshotapp.io/en/help/docs/analytics/dashboards/dashboard-linking) article for more information about how to link dashboards.
 
-<img src="./images/linkedIn-visualization-editor-settings.png" alt="settings in the linkedIn visualization editor" class="responsive-img" width="90%"/>
+<img src="./images/linkedIn-settings.gif" alt="settings in the linkedIn visualization editor" class="responsive-img" width="90%"/>
 
 When you are ready with the visualization editor, you can save the dashboard in **My Analytics** ⇒ **My Dashboards** or in a specific workspace.
 
-<img src="./images/linkedIn-dashboard.png" alt="LinkedIn dashboard in the dasboard section" class="responsive-img" width="90%"/>
+<img src="./images/my-analytics-linkedin-dashboard.png" alt="LinkedIn dashboard in the dasboard section" class="responsive-img" width="90%"/>
 
 If you want to find more information about the data sources, you can head [here](https://www.slingshotapp.io/en/help/docs/analytics/datasources/overview). 

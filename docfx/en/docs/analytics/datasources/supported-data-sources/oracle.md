@@ -22,10 +22,9 @@ database's settings:
 To configure Oracle using SID, you will need to enter the following
 information:
 
-<img src="images/enter-oracle-details-sid.png" alt="Configure Oracle SID mode details" class="responsive-img" width="50%"/>
+<img src="images/add-oracle-credentials-sid.png" alt="Configure Oracle SID mode details" class="responsive-img" width="50%"/>
 
  1.  **Default name** of the data source: Your data source name will be displayed in the list of accounts in the previous dialog. By default, Analytics names it *Oracle*. You can change it to your preference.
-
 
 2.  [**Server**](#how-to-find-server): the computer name or IP address
     assigned to the computer on which the server is running.
@@ -59,7 +58,7 @@ information:
 To configure Oracle using Service, you will need to enter the following
 information:
 
-<img src="images/add-oracle-server-dialog-service-connection.png" alt="Configure Oracle Service mode details" class="responsive-img" width="50%"/>
+<img src="images/add-oracle-credentials-service.png" alt="Configure Oracle Service mode details" class="responsive-img" width="50%"/>
 
 1.  [**Server**](#how-to-find-server): the computer name or IP address
     assigned to the computer on which the server is running.
@@ -110,16 +109,16 @@ that the commands should be executed on the server.
 
 ## Setting Up Your Data
 
-With Analytics, you can retrieve Oracle data from entire tables. Still, you
-can select a particular
-[view](https://docs.oracle.com/cd/B19306_01/server.102/b14220/objects.htm#i440066)
+With Analytics, you can retrieve Oracle data from entire tables. You can also select a particular
+<a href="https://docs.oracle.com/cd/B19306_01/server.102/b14220/objects.htm#i440066" target="_blank">view</a>
 that returns a subset of data from a table or a set of tables instead.
 
-<img src="images/views-oracle.png" alt="Oracle views dialog" class="responsive-img" width="50%"/>
+<img src="images/oracle-views.png" alt="Oracle views dialog" class="responsive-img" width="50%"/>
 
 The **invoices** view, for example, contains information on sales
 projections taken from one of the tables in the database.
 
-<img src="images/oracle-dashboard-example.png" alt="A dashboard sample using Oracle view data" class="responsive-img" width="88%"/>
+<img src="images/oracle-views-visualization-editor-example.png" alt="A dashboard sample using Oracle view data" class="responsive-img" width="88%"/>
 
-For more information on views and Oracle, visit [this documentation website](https://docs.oracle.com/cd/B19306_01/server.102/b14220/objects.htm#i440066).
+For more information on views and Oracle, visit <a href="https://docs.oracle.com/cd/B19306_01/server.102/b14220/objects.htm#i440066" target="_blank">this documentation website</a>.
+
