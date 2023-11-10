@@ -12,15 +12,23 @@
 
 3.	次のダイアログが開きます:
 
-<img src="../images/workspace-templates.png" alt="workspace templates" class="responsive-img" width="90%" />
+<img src="../images/workspace-templates-dialog.png" alt="workspace templates" class="responsive-img" width="90%" />
 
-左パネルでは、次のことができます:
+左側のパネルでは、次の操作を行うことができます:
 
-- 最近使用したテンプレートを確認/使用します。
+- すべてのテンプレートを確認。
 
-- Slingshot テンプレートからテンプレートを確認/使用します。
+- 最近使用したテンプレートを確認。
 
-## ワークスペース テンプレートを使用する方法
+- すべての注目のテンプレートを表示。
+
+- **Slingshot のテンプレート**を使用。
+
+- テンプレートを保存した場所を見つける。
+
+- [作成済み] または [共有済み] でテンプレートをフィルタリング。
+
+## すぐに使えるワークスペース テンプレートを使用する方法
 
 Slingshot のテンプレートは、さまざまな業界/部署に基づいて編成されています。テンプレートを使用するには: 
 
@@ -39,6 +47,38 @@ Slingshot のテンプレートは、さまざまな業界/部署に基づいて
 <img src="../images/new-workspace-dialog.png" alt="Creating a new workspace from a template" class="responsive-img" width="90%" />
 
 6.	準備ができたら、**[作成]** をクリックまたはタップします。
+
+## カスタム ワークスペース テンプレートを作成する方法
+
+カスタム ワークスペース テンプレートを作成するには、次のことを行う必要があります：
+
+1.	テンプレートとして使用するワークスペースの横にあるオーバーフロー メニューを開きます。
+
+2.	**[テンプレートとして保存する]** をクリックまたはタップします。
+
+<img src="../images/workspace-save-as-template-option.png" alt="Save as template option for workspaces" class="responsive-img" width="90%" />
+
+3.	次のダイアログが開きます。ここでは、テンプレートに使用するためにワークスペースから何を保持するかを選択できます。準備ができたら、**[保存]** をクリックまたはタップします。
+
+<img src="../images/workspace-save-as-template-dialog.png" alt="Save as template dialog for workspaces" class="responsive-img" width="60%" />
+
+4.	テンプレートを作成したら、**[すべてのテンプレートを見る]** (左側のパネルの [ワークスペース] の横) をクリックまたはタップすると、ワークスペース テンプレート リストでそのテンプレートを見つけることができます。カスタム テンプレートは **[個人用テンプレート]** の下に表示されます。
+
+<img src="../images/workspace-templates-personal-templates.png" alt="Personal workspace templates under Location" class="responsive-img" width="90%" />
+
+これに加えて、作成したワークスペース テンプレートの右側にあるオーバーフロー メニューを開いて、次のアクションを実行することもできます:
+
+-	テンプレートを開く。
+
+-	テンプレートへのリンクをコピー。
+
+-	テンプレートを [ブックマーク] に追加するか、そこから削除。
+
+-	テンプレートを共有。
+
+-   テンプレートを削除。
+
+>[!Note] カスタム ワークスペース テンプレートを作成するオプションは、Slingshot および Slingshot Enterprise ユーザーが利用できることに注意してください。
 
 ワークスペースの作成方法と使用方法の詳細については、[こちら](./workspaces.md)をご覧ください。
 
