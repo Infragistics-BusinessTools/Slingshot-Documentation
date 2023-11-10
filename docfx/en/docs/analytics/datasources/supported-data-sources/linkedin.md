@@ -4,15 +4,15 @@ The LinkedIn data source allows you to connect your *LinkedIn Ads account* to Sl
 
 ## Connecting a LinkedIn Ads account to Slingshot
 
-1.	Click on the **+Dashboard** button under the **My Analytics** section and choose **Blank Dashboard**.
+1.	Click/tap on the **+Dashboard** button under the *My Analytics* section and choose **Blank Dashboard**.
 
 <img src="./images/linkedin-blank-dashboard-button.png" alt="Blank dashboard button" width="90%" class="responsive-img"/>
 
-2.	Click on the **+Data Source** button.
+2.	Click/tap on the **+Data Source** button.
 
-3.	Select LinkedIn that is under **Social Media** in the **Data Sources** list.
+3.	Select *LinkedIn* that is under **Social Media** in the Data Sources list.
 
-   <img src="./images/data-sources-list-linkedin.png" alt="LinkedIn in the data sources list" width="90%" class="responsive-img"/>
+<img src="./images/data-sources-list-linkedin.png" alt="LinkedIn in the data sources list" class="responsive-img" width="90%"/>
 
 4.	Log in to your LinkedIn Ads account. In case you don’t have one, you can check <a href="https://www.linkedin.com/help/linkedin/answer/a426102/create-an-ad-account?lang=en" target="_blank">this</a> article for more information about how you can create an Ads account.
 
@@ -20,7 +20,7 @@ The LinkedIn data source allows you to connect your *LinkedIn Ads account* to Sl
 
 6.	In the dialog that opens, you can change the LinkedIn Ads Account name, add a description, certify the data source, and select the location for the data source.
 
-    <img src="./images/add-linkedin-account-dialog.png" alt="Dialog for adding LinkedIn account to the list od data sources" width="90%" class="responsive-img"/>
+ <img src="./images/add-linkedin-account-dialog.png" alt="Dialog for adding LinkedIn account to the list od data sources" class="responsive-img" width="90%"/>
 
 7. Click/tap on **Add Data Source** to connect the account to your Slingshot account.
 

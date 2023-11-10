@@ -14,29 +14,25 @@ In order to connect your Google Ads account to Slingshot, you need to:
 
 3. Enter your login credentials, if you are not already signed in. 
 
-4. In the authorization prompt, select *Allow*.
+4. Select *Allow* in the authorization prompt.
 
-5. Choose a *Google Ads* account.  
+5. Choose a *Google Ads* account. If your Google account is connected to several Google Ads accounts, select the one you want to use in the following dialog.
 
-    If your Google account is connected to several Google Ads accounts, select the one you want to use in the following dialog.
+<img src="images/choose-google-ads-account.png" alt="A dialog where you need to choose your Google Ads account" class="responsive-img" width="60%">
 
-    <img src="images/choose-google-ads-account.png" alt="A dialog where you need to choose your Google Ads account" class="responsive-img">
+6. Choose a resource from one of the two lists: *Popular Resources* or *All Resources*. Use the search to find quickly what you need.
 
-6. Choose a resource.
+>[!NOTE] Under each resource you will see a description. It gives information which dimensions from Google Ads are included in that specific resource. 
 
-    Select the resource that you want to use from one of the two lists: *Popular Resources* or *All Resources*. Use the search to find quickly what you need.
+<img src="images/google-ads-resources.png" alt="Set up your resource menu" class="responsive-img" width="60%"> 
 
-    <img src="images/google-ads-resources.png" alt="Set up your resource menu" class="responsive-img"> 
-
-   Under each resource you will see a description. It gives information which dimensions from Google Ads are included in this resource. 
-
-   When you are ready, click/tap on **Select Data** to continue to the *Visualization Editor*.
+7. When you are ready, click/tap on **Select Data** to continue to the *Visualization Editor*.
 
 ## Working in the Visualization Editor 
 
 When you create a dashboard with information coming from Google Ads, you will see that fields in the Visualization Editor are organized differently (as shown in the screenshot below).
 
-<img src="images/google-ads-visualization-editor.png" alt="Google Ads data in the Visualization Editor" class="responsive-img">
+<img src="images/google-ads-visualization-editor.png" alt="Google Ads data in the Visualization Editor" class="responsive-img" width="90%">
 
 You may notice that there is no *Fields* heading on the left in the *Data* pane. Instead, there are two sections in their own query field:
 
@@ -58,7 +54,7 @@ In *Data Filters* (see bottom right of the *Data* pane), you will find a date ra
 You can't remove the date filter, but you can change the default date range by clicking/tapping on the arrow in the upper right corner (see the screenshot) and pick a date range from the dropdown options.
 
 <img src="images/google-ads-date-range-filter
-.png" alt="Google Ads data in the Visualization Editor" class="responsive-img">
+.png" alt="Google Ads data in the Visualization Editor" class="responsive-img" width="90%">
 
 >[!NOTE] **Data retrieved for *Today*.** If you choose *Today* from the date range options, keep in mind the date range starts at 12:00:00 a.m. and all data will be retrieved up until the current time. This means that the results may vary between runs throughout the day as the data in Google Ads is being updated continuously.  
 

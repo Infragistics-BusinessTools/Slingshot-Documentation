@@ -17,6 +17,7 @@ database's settings:
     to the database instance.
 
 <a name='using-sid'></a>
+
 ## Connecting to Oracle Using SID
 
 To configure Oracle using SID, you will need to enter the following
@@ -30,7 +31,7 @@ information:
     assigned to the computer on which the server is running.
 
 3.  **Port**: if applicable, the server port details. If no information
-    is entered, Analytics will connect to the port in the hint text (1521)
+    is entered, Analytics will connect to the port in the hint text (*1521*)
     by default.
 
 4.  **Connection Mode**: SID.
@@ -49,22 +50,21 @@ information:
       - **Password**: the password to access the Oracle server.
 
       - **Alias**: the name for your data source account. It will be displayed in the list of accounts in the previous dialog.
-
-    Once ready, select **Add** and then **Add Server**.
+7.  Once ready, select **Add** and then **Add Server**.
 
 <a name='using-service'></a>
-## Connecting to Oracle Using Service
 
-To configure Oracle using Service, you will need to enter the following
-information:
+## Connecting to Oracle Using Service 
 
-<img src="images/add-oracle-credentials-service.png" alt="Configure Oracle Service mode details" class="responsive-img" width="50%"/>
+To configure Oracle using Service, you will need to enter the following information:
+
+<img src="images/add-oracle-credentials-service.png" alt="Configure Oracle Service mode details" class="responsive-img" width="80%"/>
 
 1.  [**Server**](#how-to-find-server): the computer name or IP address
     assigned to the computer on which the server is running.
 
 2.  **Port**: if applicable, the server port details. If no information
-    is entered, Analytics will connect to the port in the hint text (1521)
+    is entered, Analytics will connect to the port in the hint text (*1521*)
     by default.
 
 3.  **Connection Mode**: Service.
@@ -83,8 +83,7 @@ information:
       - **Password**: the password to access the Oracle server.
 
       - **Alias**: the name for your data source account. It will be displayed in the list of accounts in the previous dialog.
-
-    Once ready, select **Add** and then **Add Server**.
+6. Once ready, select **Add** and then **Add Server**.
 
 <a name='how-to-find-server'></a>
 ## How to find your Server Information
@@ -109,8 +108,7 @@ that the commands should be executed on the server.
 
 ## Setting Up Your Data
 
-With Analytics, you can retrieve Oracle data from entire tables. You can also select a particular
-<a href="https://docs.oracle.com/cd/B19306_01/server.102/b14220/objects.htm#i440066" target="_blank">view</a>
+With Analytics, you can retrieve Oracle data from entire tables. You can also select a particular view
 that returns a subset of data from a table or a set of tables instead.
 
 <img src="images/oracle-views.png" alt="Oracle views dialog" class="responsive-img" width="50%"/>
