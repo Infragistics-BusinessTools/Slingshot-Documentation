@@ -7,3 +7,5 @@
 - CSV/JSON/Excel をダウンロードする場合は 200mb
 - 1000 万のセル
 - 6400 万文字 (すべてのセルにすべての文字列を追加)
+
+In case you want to increase the limit, you can log in to your account <a href="https://account.slingshotapp.io" target="_blank">here</a> and submit a request. Our team will assist you further.
