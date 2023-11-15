@@ -65,4 +65,4 @@ _language: ja
 
 ### タスクの状態
 
-Under the *Task Status*, you can find a list of all members in a current project or workspace and their progress on different tasks. Keep in mind that every workspace include all tasks from that specific workspace as well as all its projects.
+[タスク の状態] の下に、現在のプロジェクトまたはワークスペース内のすべてのメンバーのリストと、さまざまなタスクの進行状況が表示されます。ワークスペースには、その特定のワークスペースのタスクと、そのプロジェクトのタスクが含まれることに注意してください。

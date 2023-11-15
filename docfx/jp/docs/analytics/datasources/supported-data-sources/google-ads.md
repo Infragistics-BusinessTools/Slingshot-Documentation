@@ -4,29 +4,29 @@ Google 広告データ ソースを使用すると、Google 広告 (以前の Go
 
 ## Google 広告に接続する
 
-In order to connect your Google Ads account to Slingshot, you need to:
+Google 広告アカウントを Slingshot に接続するには、次の操作を行う必要があります:
 
-1. Select *Google Ads* from the data sources list. 
+1. データ ソース リストから **Google 広告** を選択します。
 
 <img src="images/google-ads-data-sources-list.png" alt="Google Ads in the list of data sources" class="responsive-img">
 
-2. Google's login screen will pop up. If multiple Google accounts are listed, select the account that contains the Google Ads data you want to access. 
+2. Google のログイン画面が表示されます。複数の Google アカウントが表示されている場合は、アクセスする Google 広告データが含まれているアカウントを選択します。
 
-3. Enter your login credentials, if you are not already signed in. 
+3. まだサインインしていない場合は、ログイン資格情報を入力します。
 
-4. Select *Allow* in the authorization prompt.
+4. 認証プロンプトで **[許可]** を選択します。
 
-5. Choose a *Google Ads* account. If your Google account is connected to several Google Ads accounts, select the one you want to use in the following dialog.
+5. **Google 広告**アカウントを選択します。Google アカウントが複数の Google 広告アカウントに接続されている場合は、次のダイアログで使用するアカウントを選択します。
 
 <img src="images/choose-google-ads-account.png" alt="A dialog where you need to choose your Google Ads account" class="responsive-img" width="60%">
 
-6. Choose a resource from one of the two lists: *Popular Resources* or *All Resources*. Use the search to find quickly what you need.
+6. 2 つのリストのいずれかからリソースを選択します: [人気のリソース] または [すべてのリソース]。検索を使用して、必要なものをすばやく見つけます。
 
->[!NOTE] Under each resource you will see a description. It gives information which dimensions from Google Ads are included in that specific resource. 
+>[!NOTE] 各リソースの下に説明が表示されます。Google 広告のどのディメンションが特定のリソースに含まれているかについての情報を提供します。
 
 <img src="images/google-ads-resources.png" alt="Set up your resource menu" class="responsive-img" width="60%"> 
 
-7. When you are ready, click/tap on **Select Data** to continue to the *Visualization Editor*.
+7. 準備ができたら、**[データの選択]** をクリックまたはタップして表示形式エディターに進みます。
 
 ## 表示形式エディターでの作業 
 
