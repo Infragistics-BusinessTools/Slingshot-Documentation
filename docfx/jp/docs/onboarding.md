@@ -20,7 +20,7 @@
 
  <img src="../images/onboarding-templates.png" alt="Dialog with a list of templates" width="85%" class="responsive-img"/>
 
- >[!NOTE] If you're invited to Slingshot, for example, via chat, you will be able to choose only your industry and department.
+ >[!NOTE] たとえばチャット経由で Slingshot に招待された場合は、自分の業界と部門のみを選択できます。
 
 4. オンボーディング プロセスが完了すると、ワークスペース内のプロジェクトに移動して、より迅速に開始できるようになります。
 
