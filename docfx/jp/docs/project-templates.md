@@ -16,15 +16,23 @@
 
 4.	次のダイアログが開きます:
 
-<img src="../images/project-templates.png" alt="project templates" class="responsive-img" width="90%" />
+<img src="../images/project-templates-dialog.png" alt="project templates" class="responsive-img" width="90%" />
 
-左パネルでは、次のことができます:
+左側のパネルでは、次の操作を行うことができます:
 
-- 最近使用したテンプレートを確認/使用します。
+- すべてのテンプレートを確認。
 
-- Slingshot テンプレートからテンプレートを確認/使用します。
+- 最近使用したテンプレートを確認。
 
-## プロジェクト テンプレートを使用する方法
+- すべての注目のテンプレートを表示。
+
+- **Slingshot のテンプレート**を使用。
+
+- テンプレートを保存した場所を見つける。
+
+- **[作成済み]** または **[共有済み]** でテンプレートをフィルタリング。
+
+## すぐに使えるプロジェクト テンプレートを使用する方法
 
 Slingshot のテンプレートは、さまざまな業界/部署に基づいて編成されています。テンプレートを使用するには:
 
@@ -43,5 +51,41 @@ Slingshot のテンプレートは、さまざまな業界/部署に基づいて
 <img src="../images/new-project-project-templates.png" alt="creating a new project from a template" class="responsive-img" width="90%" />
 
 6.	準備ができたら、**[作成]** をクリックまたはタップします。
+
+## カスタム プロジェクト テンプレートを作成する方法
+
+カスタム プロジェクト テンプレートを作成するには、次のことを行う必要があります:
+
+1.	テンプレートに使用するプロジェクトのオーバーフロー メニューを開きます。
+
+2.	**[テンプレートとして保存する]** をクリックまたはタップします。
+
+<img src="../images/save-as-template-option-project.png" alt="save as template option for a project" class="responsive-img" width="90%" />
+
+3. 次のダイアログが開きます。ここでは、テンプレートに使用するためにプロジェクトから何を保持するかを選択できます。ダイアログの左側のパネルにあるドロップダウン メニューからテンプレートを保存する場所を選択することもできます。準備ができたら、**[保存]** をクリックまたはタップします。
+
+<img src="../images/project-save-as-template-dialog.png" alt="Save as template dialog for a project" class="responsive-img" width="90%" />
+
+4.	テンプレートを作成したら、ワークスペースでプロジェクトのリストを開き、**[すべてのテンプレートを見る]** をクリックまたはタップします。
+
+<img src="../images/project-see-all-templates.png" alt="See all project templates option" class="responsive-img" width="90%" />
+
+テンプレートは、いずれかのセクションの **[位置]** にあります。以下の例では、*Email Marketing* というタイトルのテンプレートを **Marketing** ワークスペースに保存しました。
+
+<img src="../images/project-template-location-example.png" alt="Example of a stored template in a location" class="responsive-img" width="90%" />
+
+これに加えて、作成したプロジェクト テンプレートの右側にあるオーバーフロー メニューを開いて、次のアクションを実行することもできます:
+
+-	テンプレートを開く。
+
+-	テンプレートへのリンクをコピー。
+
+-	テンプレートを **[ブックマーク]** に追加するか、そこから削除。
+
+-	テンプレートを共有。
+
+-	テンプレートを削除。
+
+>[!Note] カスタム プロジェクト テンプレートを作成するオプションは、Slingshot および Slingshot Enterprise ユーザーが利用できることに注意してください。
 
 プロジェクトの作成方法と使用方法の詳細については、[こちら](./workspaces.md#workspace-hierarchy)をご覧ください。
