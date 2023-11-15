@@ -35,7 +35,7 @@ Your personal overview is located on the top left of the screen. In *My Overview
 
 - **Your Mentions** – @mentions directed at you from anywhere in Slingshot.
 
-<img src="../images/my-overview.png" alt="Showing a Workspace Overview within Slingshot" class="responsive-img"/>
+<img src="../images/my-overview.png" alt="My Overview" class="responsive-img"/>
 
 ## Workspace and Project Overviews
 
