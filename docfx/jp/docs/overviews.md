@@ -36,7 +36,7 @@ _language: ja
 
 - **[メンション]** – Slingshot での @メンション。
 
-<img src="../images/my-overview.png" alt="Showing a Workspace Overview within Slingshot" class="responsive-img"/>
+<img src="../images/my-overview.png" alt="My Overview" class="responsive-img"/>
 
 ## ワークスペースとプロジェクトの概要
 
