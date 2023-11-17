@@ -4,7 +4,13 @@ There are three different tiers available on Slingshot – *Free*, *Slingshot* a
 
 ## How can I activate the Slingshot subscription trial?
 
-In case you haven’t activated a Slingshot subscription before, you will be eligible for the 28-day free trial. You can activate it with the following steps:
+In case you haven’t activated a Slingshot subscription before, you will be eligible for the 28-day free trial. If you are using Slingshot on desktop or web, the 28-day free trial will be activated automatically. 
+
+If you're using Slingshot on macOS, iOS, or Android, you can head <a href="https://www.slingshotapp.io/en/help/docs/welcome-slingshot#how-can-i-get-slingshot" target="_blank">here</a>, choose your platform and follow the steps in order to activate the trial.
+
+## How can I reactivate my Slingshot subscription?
+
+You can activate it with the following steps:
 
 1.	Log in to your *Slingshot* account.
 
@@ -18,15 +24,13 @@ In case you haven’t activated a Slingshot subscription before, you will be eli
 
 <img src="../images/portal-purchase-slingshot.png" alt="A portal where you can complete your purchase" width="80%" class="responsive-img"/>
 
-When the trial expires, your account will be automatically enrolled in the Slingshot subscription. You can cancel before the trial expires in order not to be charged.
-
->[NOTE] If you start using Slingshot on desktop or web, you can skip the steps mentioned above. The 28-day trial will be activated automatically. There is also no need for cancelling the subscription. Your account will automatically revert to the Free version once the trial has expired.
-
-Before your account reverts to the free Slingshot version, you can choose 2 workspaces to have full access to. All the other workspaces, that you are a part of, will become read only.
-
 ## How can I cancel my Slingshot subscription? 
 
 To cancel your subscription you can head <a href="https://customer.infragistics.com/subscriptions?theme=slingshot" target="_blank">here</a> and click on **Cancel Subscription**. If you cancel on or before your next billing date, you will not be charged. After cancelling, your account will revert to the *Free* version of Slingshot.
+
+## What will happen with my workspaces when my account reverts to the Free Slingshot version?
+
+Before your account reverts to the free Slingshot version, you can choose 2 workspaces to have full access to. All the other workspaces, that you are a part of, will become read only.
 
 ## How can I invite users to my workspaces?
 
