@@ -1,54 +1,50 @@
 # Slingshot のサブスクリプション
 
-Slingshot には、**無料**、**Slingshot**、および **Slingshot Enterprise** (Slingshot エンタープライズ) の 3 つの異なるレベルがあります。 
-
-新規ユーザーは、アカウントが無料利用枠に設定され、2 つのワークスペースと 1 つのプロジェクトにアクセスできます。
-*Slingshot* サブスクリプションでは、ワークスペースとプロジェクトを制限なしに作成して使用できます。 
-
-Slingshot サブスクリプションを有効にして使用する方法の詳細については、以下をご覧ください。
+Slingshot には、**無料**、**Slingshot**、および **Slingshot Enterprise** (Slingshot エンタープライズ) の 3 つの異なるレベルがあります。*Slingshot* サブスクリプションの詳細については、以下でご覧いただけます。
 
 ## Slingshot サブスクリプションのトライアル版を有効にするにはどうすればよいですか?
 
-以前に Slingshot サブスクリプションを有効にしたことがない場合は、15 日間のトライアル版を利用できます。次の手順で有効化できます:
-1.	*Slingshot* アカウントにログインします。
-2.	プロフィール設定を開きます。
-3.	**[トライアルの開始]** をクリックまたはタップします。
+以前に Slingshot サブスクリプションを有効にしたことがない場合は、28 日間のトライアル版を利用できます。 デスクトップまたは Web で Slingshot を使用している場合、28 日間の無料トライアルが自動的に有効になります。
 
-<img src="../images/start-trial-button.png" alt="Start trial button in the profile settings" width="30%" class="responsive-img"/>
+macOS、iOS、または Android で Slingshot を使用している場合は、<a href="https://www.slingshotapp.io/jp/help/docs/welcome-slingshot#how-can-i-get-slingshot" target="_blank">ここ</a>にアクセスしてプラットフォームを選択し、手順に従って試用版をアクティブ化できます。
+
+## Slingshot サブスクリプションを再度アクティブにするにはどうすればよいですか?
+
+次の手順で有効化できます:
+
+1.	*Slingshot* アカウントにログインします。
+
+2.	プロファイル設定を開き、**[設定]** をクリックまたはタップして、アプリの設定を開きます。
+
+3.	**[サブスクリプション]** をクリックまたはタップし、次に **[アップグレード]** をクリックまたはタップします。
+
+4.	次に、*Slingshot* ライセンスと *Slingshot エンタープライズ* ライセンスのどちらかを選択するよう求められます。
+
+5.	*Slingshot* サブスクリプションを選択すると、*Slingshot ポータル*に移動し、そこで購入を完了できます。
+
+<img src="../images/portal-purchase-slingshot.png" alt="A portal where you can complete your purchase" width="80%" class="responsive-img"/>
+
+## Slingshot のサブスクリプションをキャンセルするにはどうすればよいですか?
+
+サブスクリプションをキャンセルするには、<a href="https://customer.infragistics.com/subscriptions?theme=slingshot" target="_blank">ここ</a>にアクセスして **[Cancel Subscription] (サブスクリプションをキャンセル)** をクリックしてください。 次回の請求日までにキャンセルした場合、請求は行われません。 キャンセルすると、アカウントは、Slingshot の*無料版*に戻ります。
+
+## アカウントが Slingshot の無料版に戻ると、ワークスペースはどうなりますか?
+
+アカウントが無料版の Slingshot に戻る前に、完全なアクセス権を持つ 2 つのワークスペースを選択できます。参加している他のすべてのワークスペースは読み取り専用になります。
 
 ## ユーザーをワークスペースに招待するにはどうすればよいですか?
 
 ワークスペースの横にあるオーバーフロー メニューをクリックして、**[共有ユーザー]** を選択します。
 
-<img src="../images/shared-with-button-workspaces.png" alt="Shared with option in the list of options for workspaces" width="70%" class="responsive-img"/>
+<img src="../images/shared-with-button-workspaces.png" alt="Shared with option in the list of options for workspaces" width="75%" class="responsive-img"/>
 
-ダイアログが表示されるので、**[+ 追加]** ボタンをクリックまたはタップして、名前またはメール アドレスでメンバーを追加します。
+ダイアログが表示されるので、そこで **[+ 追加]** ボタンをクリックまたはタップして、名前またはメール アドレスでメンバーを追加できます。
 
 <img src="../images/adding-members-workspaces.png" alt="A dialog where you can type in the name or the email of a user who you want to add" width="55%" class="responsive-img"/>
 
 ## ワークスペースに何人のユーザーを招待できますか?
 
 ワークスペースに招待できるユーザー数に制限はありません。
-
-## トライアル期間が終了すると、アカウントはどうなりますか?
-
-トライアル期間が終了すると、アカウントは無料版の Slingshot に戻ります。完全なアクセス権を持つ 2 つのワークスペースを選択できます。参加している他のすべてのワークスペースは読み取り専用になります。
-
-## トライアル期間が終了した後、Slingshot サブスクリプションを有効にするにはどうすればよいですか?
-
-次の手順でサブスクリプションを有効化できます:
-
-1.	*Slingshot* アカウントにログインします。
-2.	プロファイル設定を開き、**[設定]** をクリックまたはタップして、アプリの設定を開きます。
-3.	**[サブスクリプション]**、**[アップグレード]** の順にクリックまたはタップします。
-4.	 次に、*Slingshot* ライセンスと *Slingshot Enterprise* ライセンスのどちらかを選択するよう求められます。
-5.	*Slingshot* サブスクリプションを選択すると、購入を完了することができる *Slingshot ポータル*に移動します。
-
-<img src="../images/portal-purchase-slingshot.png" alt="A portal where you can complete your purchase" width="80%" class="responsive-img"/>
-
-## Slingshot のサブスクリプションをキャンセルするにはどうすればよいですか? 
-
-サブスクリプションをキャンセルするには、[こちら](https://customer.infragistics.com/subscriptions?theme=slingshot)に進み、**[Cancel Subscription]** (サブスクリプションのキャンセル) をクリックします。次回の請求日までにキャンセルした場合、請求は行われません。キャンセルすると、Slingshot の**無料**版に戻ります。
 
 ## 参加しなくなったワークスペースのディスカッションを引き続き見ることはできますか?
 
