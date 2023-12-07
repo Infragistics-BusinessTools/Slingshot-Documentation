@@ -17,7 +17,7 @@ So, how can Slingshot do all that for you? Take a look below...
 
 With Slingshot you can eliminate the need to constantly switch been multiple applications to find the information you are looking for. Only Slingshot truly aggregates data analytics, project and information management, chat, and goals-based strategy benchmarking – all in one, intuitive app with the people that you work with every day.
 
-<img src="../images/welcome-workspace-overview.png" alt="Showing a Workspace Overview within Slingshot" class="responsive-img"/>
+<img src="../images/example-workspace-overview.png" alt="Showing a Workspace Overview within Slingshot" class="responsive-img"/>
 
 
 ##### *Leverage actionable insight by making it easier for your team to utilize data to improve productivity*.
