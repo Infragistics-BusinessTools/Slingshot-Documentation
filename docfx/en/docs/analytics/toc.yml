@@ -47,7 +47,7 @@
 - name: Overview
   href: data-visualizations/overview.md
 - name: Working with the Visualizations Editor
-  href: data-visualizations/visualizations-editor.md
+  href: data-visualizations/visualization-editor.md
 - name: Visualization Types
   href: data-visualizations/visualization-types/toc.yml
 - name: Fields

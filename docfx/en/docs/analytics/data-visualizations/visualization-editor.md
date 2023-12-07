@@ -3,9 +3,9 @@ title: How to Use the Visualizations Editor
 _description: Find out how to create and edit your visualizations and use a great variety of options.
 ---
 
-# Visualizations Editor
+# Visualization Editor
 
-The *Visualizations Editor* is where you create and edit your visualizations in Analytics. Here you will find the data from your dataset aggregated and prepared for use as well as great variety of visualizations to build with it.
+The *Visualization Editor* is where you create and edit your visualizations in Analytics. Here you will find the data from your dataset aggregated and prepared for use as well as great variety of visualizations to build with it.
 
 ## How Do You Create a Visualization?
 
@@ -20,11 +20,11 @@ to add a new or select an existing [data source](~/docs/analytics/datasources/ov
 
 <img src="images/new-visualization-screen.png" alt="Dialog with a list of data sources" width="85%" class="responsive-img"/>
 
-With the data source selected and configured, you will be navigated to the [Visualizations Editor](visualizations-editor.md), where you can start creating your visualization.
+With the data source selected and configured, you will be navigated to the [Visualization Editor](visualizations-editor.md), where you can start creating your visualization.
 
 The *Visualization editor* will help you get the most desired view using your data.
 
-## Accessing the Visualizations Editor
+## Accessing the Visualization Editor
 
 You can access the Visualization editor in two ways:
 
@@ -34,9 +34,9 @@ Once you have selected and configured your data source, the *Visualization edito
 
 ***2. In the dashboard editing process***
 
-After opening a chosen dashboard and entering *Dashboard Edit mode*, you will be able to **access the Visualizations editor** by selecting **Edit** from a visualization's overflow button. Alternatively, you can click/tap on the pencil icon, next to the overflow menu.
+After opening a chosen dashboard and entering *Dashboard Edit mode*, you will be able to **access the Visualization editor** by selecting **Edit** from a visualization's overflow button. Alternatively, you can click/tap on the pencil icon, next to the overflow menu.
 
-## Visualizations Editor Overview
+## Visualization Editor Overview
 
 Below, you will find a list of all sections of the *Editor* with their capabilities.
 
