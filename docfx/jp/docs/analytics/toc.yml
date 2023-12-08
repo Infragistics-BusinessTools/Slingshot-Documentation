@@ -47,7 +47,7 @@
 - name: 概要
   href: data-visualizations/overview.md
 - name: 表示形式エディターの作業
-  href: data-visualizations/visualizations-editor.md
+  href: data-visualizations/visualization-editor.md
 - name: 表示形式のタイプ
   href: data-visualizations/visualization-types/toc.yml
 - name: フィールド
