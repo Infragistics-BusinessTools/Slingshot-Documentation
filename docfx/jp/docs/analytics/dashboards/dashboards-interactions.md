@@ -17,7 +17,7 @@
 
 さらに、このモードでは、右上隅の**小さなチャート アイコン**をタップし、最大化されたビューを他の表示形式に切り替えることができます。エディターで使用されたデータに基づいて、さまざまな表示形式が表示されます。データで適切に機能するチャート タイプのみが提供されます。
 
-変更された表示形式を保存する場合は、編集権限を持ち、[ダッシュボード編集モード](#view-edit-mode)で右上隅のチェック アイコンを選択して変更を明示的に保存する必要があります。自分で作成したか、[管理者または変更の権限](~/jp/docs/analytics/dashboards/sharing-dashboards/share-a-dashboard.html#access-permissions)で共有しているダッシュボードの編集権限があります。
+変更された表示形式を保存する場合は、編集権限を持ち、[ダッシュボード編集モード](#ビュー--編集モード)で右上隅のチェック アイコンを選択して変更を明示的に保存する必要があります。自分で作成したか、[管理者または変更の権限](~/docs/analytics/dashboards/sharing-dashboards/share-a-dashboard.md#access-permissions)で共有しているダッシュボードの編集権限があります。
 
 <img src="images/different-chart-options-for-visualization.png" alt="chart change in visualization view mode" class="responsive-img" width="85%"/>
 
@@ -25,7 +25,7 @@
 
 <img src="images/grid-chart-sample.png" alt="flip to grid" class="responsive-img" width="85%"/>
 
-表示形式のデータ ビハインド表示で並べ替え (昇順または降順) を適用できます。グリッドの並べ替え詳細については、[グリッド チャート](~/jp/docs/analytics/data-visualizations/visualization-types/grid-chart.md)トピックをご覧ください。
+表示形式のデータ ビハインド表示で並べ替え (昇順または降順) を適用できます。グリッドの並べ替え詳細については、[グリッド チャート](~/docs/analytics/data-visualizations/visualization-types/grid-chart.md)トピックをご覧ください。
 
 元の表示形式へ戻すために、**[元の形式を表示]** リンクを選択します。
 
@@ -86,11 +86,11 @@
 
 ダッシュボードまたは表示形式レベルで情報をフィルターできます。
 
-  - [**ダッシュボード フィルター**](~/jp/docs/analytics/filters/dashboard-filters.html) は、ダッシュボード編集モードを開くと使用できます (このモードにアクセスするには、ダッシュボードのオーバーフロー メニューから **[編集]** を選択します)。画面の左上隅に、現在のダッシュボード フィルターと、新しいフィルターを追加するオプションが表示されます。
+  - [**ダッシュボード フィルター**](~/docs/analytics/filters/dashboard-filters.html) は、ダッシュボード編集モードを開くと使用できます (このモードにアクセスするには、ダッシュボードのオーバーフロー メニューから **[編集]** を選択します)。画面の左上隅に、現在のダッシュボード フィルターと、新しいフィルターを追加するオプションが表示されます。
 
-  - [**表示形式フィルター**](~/jp/docs/analytics/filters/Visualization-Filters.html) (つまり、クイック フィルター) は最大化モードで表示されます。これらは、表示形式の名前の下にある表示形式の上部セクションにあります。
+  - [**表示形式フィルター**](~/docs/analytics/filters/Visualization-Filters.html) (つまり、クイック フィルター) は最大化モードで表示されます。これらは、表示形式の名前の下にある表示形式の上部セクションにあります。
 
-ダッシュボードと表示形式フィルターの詳細については、[このセクション](~/jp/docs/analytics/filters/overview.html)をご覧ください。
+ダッシュボードと表示形式フィルターの詳細については、[このセクション](~/docs/analytics/filters/overview.html)をご覧ください。
 
 ## 表示形式の自動レイアウト
 

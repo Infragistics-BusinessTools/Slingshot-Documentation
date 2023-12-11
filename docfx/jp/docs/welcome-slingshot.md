@@ -94,8 +94,8 @@ ul.horizontal:after {
 
 <div>
 <ul class="horizontal">
-<li>中国語(簡体)</li>
-<li>中国語(繁体)</li>
+<li>中国語 (簡体)</li>
+<li>中国語 (繁体)</li>
 <li>オランダ語</li>
 <li>英語</li>
 <li>フランス語</li>

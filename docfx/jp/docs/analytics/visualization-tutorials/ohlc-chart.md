@@ -13,11 +13,11 @@ _language: ja
 
 OHLC チャート ビューのガイドは、以下のリンクから参照してください。
 
-  - [OHLC 足チャートを作成する方法](https://www.slingshotapp.io/en/help/docs/analytics/visualization-tutorials/ohlc-chart#creating-a-ohlc-chart)
+  - [OHLC 足チャートを作成する方法](https://www.slingshotapp.io/ja/help/docs/analytics/visualization-tutorials/ohlc-チャートを作成する方法)
 
-  - [軸の構成を変更する方法](https://www.slingshotapp.io/en/help/docs/analytics/visualization-tutorials/ohlc-chart#changing-your-axis-configuration)
+  - [軸の構成を変更する方法](https://www.slingshotapp.io/ja/help/docs/analytics/visualization-tutorials/ohlc-chart#軸の構成の変更)
 
-  - [軸の構成を対数に変更する方法](https://www.slingshotapp.io/en/help/docs/analytics/visualization-tutorials/ohlc-chart#setting-your-axis-configuration-as-logarithmic)
+  - [軸の構成を対数に変更する方法](https://www.slingshotapp.io/ja/help/docs/analytics/visualization-tutorials/ohlc-chart#軸構成を対数的としての設定)
 
 ## 重要なコンセプト
 
@@ -70,7 +70,7 @@ OHLC チャートとローソク足チャートは各財務データの始値、
 <a name='changing-axis-configuration'></a>
 ## 軸の構成の変更
 
-[ゲージの範囲](../visualization-tutorials/gauge-charts.md#adding-bounds-to-your-gauge)と同様に、チャート軸構成でチャートの最小と最大値を設定できます。この機能を使用して、特定のデータ含有や除外ができます。
+[ゲージの範囲](../visualization-tutorials/gauge-charts.md#ゲージ表示形式に範囲を追加する方法)と同様に、チャート軸構成でチャートの最小と最大値を設定できます。この機能を使用して、特定のデータ含有や除外ができます。
 
 以下は軸構成のメニューへアクセスするための手順です。
 

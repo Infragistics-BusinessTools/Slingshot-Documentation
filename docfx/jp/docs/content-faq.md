@@ -73,7 +73,7 @@ Slingshot を使用すると、さまざまなクラウド ストレージから
 
 <img src="../images/file-permissions-dialog.png" alt="A dialog showing the three file permission types" width="75%" class="responsive-img" />
 
-ここでは、以下の 3 つの許可タイプから選択できます。
+こちらでは、以下の 3 つの許可タイプから選択できます。
 
  - **すべてのユーザーがアクセス可能** - すべての Slingshot ユーザーがファイルにアクセスできます。
  - **自動アクセス** - ワークスペースのすべてのユーザーがファイルにアクセスできます。

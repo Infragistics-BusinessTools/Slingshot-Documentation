@@ -103,6 +103,6 @@ _language: ja
 
 ## 値のフィールドのフィルタリング
 
-[集計](https://www.slingshotapp.io/en/help/docs/analytics/data-visualizations/fields/calculated-fields/aggregation)で**値**をフィルタリングできます。次に、この値は **[データ フィルター]** プレースホルダーのフィールドのリストに同じ集計で表示されます。
+[集計](https://www.slingshotapp.io/ja/help/docs/analytics/data-visualizations/fields/calculated-fields/aggregation)で**値**をフィルタリングできます。次に、この値は **[データ フィルター]** プレースホルダーのフィールドのリストに同じ集計で表示されます。
 
 <img src="images/data-filters-values-list.png" alt="Data Filters Filtering in the Data Editor" class="responsive-img" width="80%"/>

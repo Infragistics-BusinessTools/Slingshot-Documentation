@@ -24,4 +24,4 @@
 
  <img src="../images/feedback-options.png" alt="Showing what the give feedback options are" width="45%" class="responsive-img"/>
 
-ユーザー アカウントおよび設定にあるその他のオプションの詳細については、[こちら](https://www.slingshotapp.io/jp/help/docs/user-account)をクリックしてください。
+ユーザー アカウントおよび設定にあるその他のオプションの詳細については、[こちら](https://www.slingshotapp.io/ja/help/docs/user-account)をクリックしてください。

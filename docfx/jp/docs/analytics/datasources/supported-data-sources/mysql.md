@@ -16,7 +16,7 @@ MySQL サーバー データ ソースを構成するには、以下の情報が
 
 <img src="images/add-mysql-server-dialog.png" alt="Enter MySQL Server Details dialog" class="responsive-img" width="50%"/>
 
-1. [**サーバー**](#how-to-find-your-server-information): コンピューター名またはサーバーを実行しているコンピューターに割り当てられた IP アドレス。
+1. [**サーバー**](#サーバー情報を見つける方法): コンピューター名またはサーバーを実行しているコンピューターに割り当てられた IP アドレス。
 
 2.  **[ポート]**: 該当する場合、サーバー ポートの詳細。情報が入力されない場合、Analytics はデフォルトでヒント テキスト (3306) のポートに接続します。
 
@@ -57,7 +57,7 @@ Analytics ではすべてのテーブルから MySQL データを取得できま
 
 上記のサンプルでは、**invoices** ビューに、MySQL サーバーの **products**、**customers**、**orderdetails**、および **orders** テーブルのデータの変更されたバージョンが含まれています。
 
-ビューと MySQL の詳細については、<a href="https://dev.mysql.com/doc/refman/8.0/en/views.html" target="_blank">このドキュメント ページ</a>にアクセスしてください。
+ビューと MySQL の詳細については、<a href="https://dev.mysql.com/doc/refman/8.0/ja/views.html" target="_blank">このドキュメント ページ</a>にアクセスしてください。
 
 ## 表示形式エディターでの作業
 

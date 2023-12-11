@@ -15,7 +15,7 @@
 | dueDate               | 文字列 <DateTime>  |  |  
 | status              | 文字列 ("open", "progress", "review", "blocked", "completed") |  | 
 | priority             | 文字列 ("none", "low", "medium", "high") |  |   
-| assignees               | 配列 <[AssigneeInfo](https://www.slingshotapp.io/en/help/docs/slingshot-api/generic-slingshot-resources#assignee-info-object)>  |read-only |
+| assignees               | 配列 <[AssigneeInfo](https://www.slingshotapp.io/ja/help/docs/slingshot-api/generic-slingshot-resources#assignee-info-object)>  |read-only |
 | user               | オブジェクト <[DocumentInfo](../generic-slingshot-resources.html#ドキュメント情報オブジェクト)> | read-only |
 | workspace              | オブジェクト <[DocumentInfo](../generic-slingshot-resources.html#ドキュメント情報オブジェクト)> | read-only|
 | project             | オブジェクト <[DocumentInfo](../generic-slingshot-resources.html#ドキュメント情報オブジェクト)> | read-only |
@@ -84,7 +84,7 @@
 | priority            | 文字列列挙体 ("none", "low", "medium", "high") |required |  
 | taskSection   |オブジェクト <[DocumentInfo](../generic-slingshot-resources.html#ドキュメント情報オブジェクト)>  |required, one-of | 
 | parentTask   |オブジェクト <[DocumentInfo](../generic-slingshot-resources.html#ドキュメント情報オブジェクト)> |required, one-of | 
-| assignees               | 配列 <[AssigneeInfo](https://www.slingshotapp.io/en/help/docs/slingshot-api/generic-slingshot-resources#assignee-info-object)>  ||
+| assignees               | 配列 <[AssigneeInfo](https://www.slingshotapp.io/ja/help/docs/slingshot-api/generic-slingshot-resources#割り当て先情報オブジェクト)>  ||
 
 >[!NOTE]  タスクを作成するには、親タスク セクションの **id** と**名前**を **taskSection** プロパティに指定する必要があります。または、サブタスクを作成する場合は、まず、**parentTask** プロパティで親タスクの **id** と**名前**を指定する必要があります。taskSection プロパティと parentTask プロパティの両方が要求に存在するとエラーが発生するため、指定できるのは 1 つだけです。
 
@@ -298,7 +298,7 @@
 
 必須パラメーター: 特定のタスクの **id**。
 
-要求本文: [ItemsObject](../generic-slingshot-resources.html#項目オブジェクト) <[AssigneeInfo](https://www.slingshotapp.io/en/help/docs/slingshot-api/generic-slingshot-resources#assignee-info-object)>
+要求本文: [ItemsObject](../generic-slingshot-resources.html#項目オブジェクト) <[AssigneeInfo](https://www.slingshotapp.io/ja/help/docs/slingshot-api/generic-slingshot-resources#割り当て先情報オブジェクト)>
 
 可能な応答:
 
@@ -369,7 +369,7 @@
 
 必須パラメーター: タスクの **id**。
 
-要求本文: [ItemsObject](../generic-slingshot-resources.html#項目オブジェクト) <[AssigneeInfo](https://www.slingshotapp.io/en/help/docs/slingshot-api/generic-slingshot-resources#assignee-info-object)>
+要求本文: [ItemsObject](../generic-slingshot-resources.html#項目オブジェクト) <[AssigneeInfo](https://www.slingshotapp.io/ja/help/docs/slingshot-api/generic-slingshot-resources#割り当て先情報オブジェクト)>
 
 可能な応答:
 

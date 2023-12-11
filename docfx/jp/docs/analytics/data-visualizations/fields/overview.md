@@ -14,12 +14,12 @@ _language: ja
 
 いくつかのフィールド設定とフィルタリング オプションがあります。
 
-  - ラベルの名前変更、集計、並べ替え、書式、[条件付き書式](conditional-formatting.html)を含む[日付](field-settings.html#date-fields)、[数値](field-settings.html#numeric-fields)および[文字列](field-settings.html#abc-fields)フィールドの設定。
+  - ラベルの名前変更、集計、並べ替え、書式、[条件付き書式](conditional-formatting.html)を含む[日付](field-settings.html#日付フィールド)、[数値](field-settings.html#数値フィールド)および[文字列](field-settings.html#文字列フィールド)フィールドの設定。
 
-  - [空値](field-filters-rules.html#empty-values)のフィルター。
+  - [空値](field-filters-rules.html#空値をフィルター)のフィルター。
 
-  - [特定の値を選択する](field-filters-rules.html#select-values)ためのフィルター。
+  - [特定の値を選択する](field-filters-rules.html#値の選択)ためのフィルター。
 
-  - [ルール](field-filters-rules.html#rules)でフィルター。
+  - [ルール](field-filters-rules.html#ルールでフィルタリング)でフィルター。
 
-データセットがダッシュボード キャンバスに追加されると自動的に表示される[表示形式エディター](~/jp/docs/analytics/data-visualizations/visualizations-editor.html)を介して、フィールド設定とルールにアクセスできます。
+データセットがダッシュボード キャンバスに追加されると自動的に表示される[表示形式エディター](~/docs/analytics/data-visualizations/visualizations-editor.html)を介して、フィールド設定とルールにアクセスできます。

@@ -22,7 +22,7 @@ Slingshot 内のセキュリティとデータ プライバシーの詳細につ
 
 アプリケーションの動作と全体的なエクスペリエンスは、プロファイル情報と設定を調整することで大幅に変更できます。ニーズに合わせてエクスペリエンスをカスタマイズしてみてください。これを行うには、[設定] に移動します。
 
-<img src="../images/user-account-settings-drop-down-menu.png" alt="Settings location" width="60%" class="responsive-img">
+<img src="../images/user-account-settings-drop-down-menu.png" alt="Settings location" width="30%" class="responsive-img">
 
 ここで、さまざまな設定を自由に試して、Slingshot を自分の好みに合わせてください。
 - ダークまたはライト テーマに変えたいですか?

@@ -12,17 +12,17 @@ _language: ja
 
 ゲージ チャートのためのガイドは、以下のリンクから参照してください。
 
-  - [リニア ゲージの作成方法](https://www.slingshotapp.io/en/help/docs/analytics/visualization-tutorials/gauge-charts#creating-a-linear-gauge)
+  - [リニア ゲージの作成方法](https://www.slingshotapp.io/ja/help/docs/analytics/visualization-tutorials/gauge-charts#リニア-ゲージを作成する方法)
 
-  - [ラジアル ゲージの作成方法](https://www.slingshotapp.io/en/help/docs/analytics/visualization-tutorials/gauge-charts#creating-a-circular-gauge)
+  - [ラジアル ゲージの作成方法](https://www.slingshotapp.io/ja/help/docs/analytics/visualization-tutorials/gauge-charts#円型ゲージを作成する方法)
 
-  - [ラベル ゲージの作成方法](https://www.slingshotapp.io/en/help/docs/analytics/visualization-tutorials/gauge-charts#creating-a-text-gauge)
+  - [ラベル ゲージの作成方法](https://www.slingshotapp.io/ja/help/docs/analytics/visualization-tutorials/gauge-charts#テキスト-ゲージを作成する方法)
 
-  - [ブレット グラフ の作成方法](https://www.slingshotapp.io/en/help/docs/analytics/visualization-tutorials/gauge-charts#creating-a-bullet-graph)
+  - [ブレット グラフ の作成方法](https://www.slingshotapp.io/ja/help/docs/analytics/visualization-tutorials/gauge-charts#ブレット-グラフを作成する方法)
 
-  - [ゲージ表示形式に範囲を追加する方法](https://www.slingshotapp.io/en/help/docs/analytics/visualization-tutorials/gauge-charts#adding-bounds-to-your-gauge)
+  - [ゲージ表示形式に範囲を追加する方法](https://www.slingshotapp.io/ja/help/docs/analytics/visualization-tutorials/gauge-charts#ゲージ表示形式に範囲を追加する方法)
 
-  - [バンドの色を変更する方法](https://www.slingshotapp.io/en/help/docs/analytics/visualization-tutorials/gauge-charts#changing-band-colors)
+  - [バンドの色を変更する方法](https://www.slingshotapp.io/ja/help/docs/analytics/visualization-tutorials/gauge-charts#バンドの色の変更)
 
 <a name='key-concepts'></a>
 ## 重要なコンセプト
@@ -148,7 +148,7 @@ _language: ja
    <img src="images/bullet-graph-organizing-data.png" alt="Organizing data while using a bullet graph" class="responsive-img" width="35%"/>
 
 <a name='adding-bounds-gauge'></a>
-## ゲージの化でしきい値を追加する方法
+## ゲージ表示形式に範囲を追加する方法
 
 しきい値を使用すると、ゲージの最小値と最大値を設定できます。[重要なコンセプト](#重要なコンセプト)で述べたように、特定のデータを除外するように変更できます。以下は作業手順です。
 

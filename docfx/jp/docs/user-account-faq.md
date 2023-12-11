@@ -10,7 +10,7 @@
 
 ## どのようなサブスクリプション プランがありますか?
 
-利用可能なプランについては、[料金](https://www.slingshotapp.io/pricing)をご覧ください。
+利用可能なプランについては、[価格](https://www.slingshotapp.io/ja/pricing)をご覧ください。
 
 
 ## Slingshot ユーザーア カウントはどの程度安全ですか?

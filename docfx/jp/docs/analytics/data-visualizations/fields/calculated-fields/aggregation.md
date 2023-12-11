@@ -13,7 +13,7 @@ _language: ja
 
   - **標準関数**: 各情報は、[関数名] の下の対応するハイパーリンクをクリックします。
 
-  - **if 文を含む標準関数**: [このセクション](#aggregation-if-condition) は、*if 文* [ネスト if 文 を含む](#nested-if-conditions)) の詳細および構成方法について説明します。
+  - **if 文を含む標準関数**: [このセクション](#aggregation#if-文のある計算フィールド) は、*if 文* [ネスト if 文 を含む](#ネスト-if-文のサンプル)) の詳細および構成方法について説明します。
 
 **注:** *以下の表のすべてのサンプルは HR dashboard サンプルに含まれる [HR Dataset 2016](https://download.infragistics.com/reportplus/help/samples/HR%20Dataset_2016.xlsx)スプレッドシートで作成されました。*
 

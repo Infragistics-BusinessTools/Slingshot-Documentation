@@ -6,7 +6,7 @@ Slingshot には、**無料**、**Slingshot**、および **Slingshot Enterprise
 
 以前に Slingshot サブスクリプションを有効にしたことがない場合は、28 日間のトライアル版を利用できます。 デスクトップまたは Web で Slingshot を使用している場合、28 日間の無料トライアルが自動的に有効になります。
 
-macOS、iOS、または Android で Slingshot を使用している場合は、<a href="https://www.slingshotapp.io/jp/help/docs/welcome-slingshot#how-can-i-get-slingshot" target="_blank">ここ</a>にアクセスしてプラットフォームを選択し、手順に従って試用版をアクティブ化できます。
+macOS、iOS、または Android で Slingshot を使用している場合は、<a href="https://www.slingshotapp.io/ja/help/docs/welcome-slingshot#slingshot-を入手する方法" target="_blank">こちら</a>にアクセスしてプラットフォームを選択し、手順に従って試用版をアクティブ化できます。
 
 ## Slingshot サブスクリプションを再度アクティブにするにはどうすればよいですか?
 
@@ -26,7 +26,7 @@ macOS、iOS、または Android で Slingshot を使用している場合は、<
 
 ## Slingshot のサブスクリプションをキャンセルするにはどうすればよいですか?
 
-サブスクリプションをキャンセルするには、<a href="https://customer.infragistics.com/subscriptions?theme=slingshot" target="_blank">ここ</a>にアクセスして **[Cancel Subscription] (サブスクリプションをキャンセル)** をクリックしてください。 次回の請求日までにキャンセルした場合、請求は行われません。 キャンセルすると、アカウントは、Slingshot の*無料版*に戻ります。
+サブスクリプションをキャンセルするには、<a href="https://customer.infragistics.com/subscriptions?theme=slingshot" target="_blank">こちら</a>にアクセスして **[Cancel Subscription] (サブスクリプションをキャンセル)** をクリックしてください。 次回の請求日までにキャンセルした場合、請求は行われません。 キャンセルすると、アカウントは、Slingshot の*無料版*に戻ります。
 
 ## アカウントが Slingshot の無料版に戻ると、ワークスペースはどうなりますか?
 

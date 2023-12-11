@@ -31,7 +31,7 @@ Azure SQL データ ソースを構成するには、以下の情報が必要で
 
 ## 詳細情報
 
-以下の詳細については、Analytics の両データ ソースは同様に機能するため、[**SQL Server**](microsoft-sql-server.html#how-to-find-server) を参照してください。
+以下の詳細については、Analytics の両データ ソースは同様に機能するため、[**SQL Server**](microsoft-sql-server.html#サーバー情報を見つける方法) を参照してください。
 
   - サーバー情報を見つける方法
 

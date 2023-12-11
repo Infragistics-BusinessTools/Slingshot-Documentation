@@ -14,7 +14,7 @@ Microsoft Azure Synapse Analytics データ ソースを設定するには、以
 
 <img src="../images/microsoft-azure-synapse-analytics-configuration.png" alt="Configuring azure synapse data source dialog" class="responsive-img" width="55%"/>
 
-1. **[サーバー](#how-to-find-your-server-information)**: コンピューター名またはサーバーを実行しているコンピューターに割り当てられた IP アドレス。
+1. **[サーバー](#サーバー情報を見つける方法)**: コンピューター名またはサーバーを実行しているコンピューターに割り当てられた IP アドレス。
 
 2.  **[ポート]**: 該当する場合、サーバー ポートの詳細。情報が入力されない場合、Analytics はデフォルトでヒント テキスト (1433) のポートに接続します。
 
@@ -67,11 +67,11 @@ Analytics でビッグ データを操作する場合、数百万のレコード
 
 現在、Azure Synapse Analytics のデータを使用する**計算フィールド**で、使用できる**関数**の数は限られています。
 
-- [Date](https://www.slingshotapp.io/en/help/docs/analytics/data-visualizations/fields/calculated-fields/date) - day; month; year; quarter; monthname; applytimezone; currenttimezone。
-- [論理](~/jp/docs/analytics/data-visualizations/fields/calculated-fields/logic.html) - false; true; if; not。
-- [数学](~/jp/docs/analytics/data-visualizations/fields/calculated-fields/math.html) - abs; log; log10; sign; sqrt。
-- [文字列](~/jp/docs/analytics/data-visualizations/fields/calculated-fields/string.html) - find; len; trim; lower; mid; upper。
+- [日付](~/docs/analytics/data-visualizations/fields/calculated-fields/date.html) - day; month; year; quarter; monthname; applytimezone; currenttimezone。
+- [論理](~/docs/analytics/data-visualizations/fields/calculated-fields/logic.html) - false; true; if; not。
+- [数学](~/docs/analytics/data-visualizations/fields/calculated-fields/math.html) - abs; log; log10; sign; sqrt。
+- [文字列](~/docs/analytics/data-visualizations/fields/calculated-fields/string.html) - find; len; trim; lower; mid; upper。
 
 ### データ ブレンディングの制限
 
-現在、Azure Synapse Analytics データ ソースからのデータを使用する場合、データ ブレンディング ([データ ソースを 1 つの表示形式に統合](~/jp/docs/analytics/datasources/data-blending.md)) は**使用できません**。
+現在、Azure Synapse Analytics データ ソースからのデータを使用する場合、データ ブレンディング ([データ ソースを 1 つの表示形式に統合](~/docs/analytics/datasources/data-blending.md)) は**使用できません**。

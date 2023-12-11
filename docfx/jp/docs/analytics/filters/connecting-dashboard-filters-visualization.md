@@ -17,7 +17,7 @@ _language: ja
 
 <img src="images/visualization-editor-dashboard-filter.png" alt="dashboard filters in the visualization editor" class="responsive-img" width="70%"/>
 
-いずれの場合もダッシュボード フィルター データセットのフィールドへリンクするルールを追加してバインドが定義されます。([フィールドのバインド](#field-binding))
+いずれの場合もダッシュボード フィルター データセットのフィールドへリンクするルールを追加してバインドが定義されます。([フィールドのバインド](#フィールドのバインド))
 表示形式エディターまたは [ダッシュボード フィルター] メニューで [切断] を選択すると、表示形式のバインドをいつでも削除できます。
 
 <img src="images/disconnect-option-dashboard-filter.png" alt="Option to disconnect dashboard filters from a visualization" class="responsive-img" width="60%"/>
@@ -46,7 +46,7 @@ _language: ja
 
 ## パラメーター バインド
 
-パラメーター ([REST](~/jp/docs/analytics/datasources/supported-data-sources/rest-api.html)、[OData](~/jp/docs/analytics/datasources/supported-data-sources/odata-feed.html) および [MS SQL Server](~/jp/docs/analytics/datasources/supported-data-sources/microsoft-sql-server.html) ストアド ロシージャ) を使用するデータ ソースの場合、ダッシュボード フィルターをパラメーターに接続する必要があります。そのため、可覚化のフィルター データを変更すると、接続されたパラメーターで選択した値で更新されます。
+パラメーター ([REST](~/docs/analytics/datasources/supported-data-sources/rest-api.html)、[OData](~/docs/analytics/datasources/supported-data-sources/odata-feed.html) および [MS SQL Server](~/docs/analytics/datasources/supported-data-sources/microsoft-sql-server.html) ストアド ロシージャ) を使用するデータ ソースの場合、ダッシュボード フィルターをパラメーターに接続する必要があります。そのため、可覚化のフィルター データを変更すると、接続されたパラメーターで選択した値で更新されます。
 
 ダッシュボード フィルターをパラメーターに接続するには、[フィールド バインド](#フィールドのバインド)の手順に従います。データ ソース パラメーターは、[フィルター接続の編集] ダイアログの表示形式ドロップダウン リストの下部にあります。
 

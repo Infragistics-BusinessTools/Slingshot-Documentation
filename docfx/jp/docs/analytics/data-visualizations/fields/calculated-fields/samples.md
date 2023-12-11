@@ -8,11 +8,11 @@ _language: ja
 
 このトピックは、以下の情報を含みます。
 
-  - [ベーシックなサンプル式](#basic-sample-expressions)
+  - [ベーシックなサンプル式](#ベーシックなサンプル式)
 
-  - [Unix 更新日時を使用可能な日付へ変換](#converting-unix-timestamps)
+  - [Unix 更新日時を使用可能な日付へ変換](#unix-更新日時を使用可能な日付へ変換)
 
-  - [YoY 解析: 売上を 2 年期間の比較](#yoy-analysis-revenue)
+  - [YoY 解析: 売上を 2 年期間の比較](#yoy-解析-売上を-2-年期間の比較)
 
 <a name='basic-sample-expressions'></a>
 ## ベーシックなサンプル式
@@ -65,6 +65,6 @@ _language: ja
 
 `([Revenue 2017]/[Revenue 2016])-1`
 
-数値を使用するか、[パーセンテージとして書式](~/jp/docs/analytics/data-visualizations/fields/field-settings.html#numeric-fields)設定できます。
+数値を使用するか、[パーセンテージとして書式](~/docs/analytics/data-visualizations/fields/field-settings.html#numeric-fields)設定できます。
 
 <img src="images/yoy-analysis-percentage-all.png" alt="Comparing Revenue Figures in yoy analysis while using percentage" class="responsive-img" width="85%"/>

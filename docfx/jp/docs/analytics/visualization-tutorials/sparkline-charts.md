@@ -15,13 +15,13 @@ _language: ja
 
 スパークライン チャート ビューのガイドは、以下のリンクから参照してください。
 
-  - [スパークライン チャートの作成](https://www.slingshotapp.io/en/help/docs/analytics/visualization-tutorials/sparkline-charts#creating-a-sparkline-chart)
+  - [スパークライン チャートの作成](https://www.slingshotapp.io/ja/help/docs/analytics/visualization-tutorials/sparkline-charts#スパークライン-チャートの作成)
 
-  - [スパークラインのチャート タイプを変更する方法](https://www.slingshotapp.io/en/help/docs/analytics/visualization-tutorials/sparkline-charts#changing-the-chart-type-for-the-sparkline)
+  - [スパークラインのチャート タイプを変更する方法](https://www.slingshotapp.io/ja/help/docs/analytics/visualization-tutorials/sparkline-charts#スパークラインのチャート-タイプを変更する方法)
 
-  - [日付集計を変更する方法](https://www.slingshotapp.io/en/help/docs/analytics/visualization-tutorials/sparkline-charts#changing-the-date-aggregation)
+  - [日付集計を変更する方法](https://www.slingshotapp.io/ja/help/docs/analytics/visualization-tutorials/sparkline-charts#日付集計の変更)
 
-  - [スパークラインの列数を変更する方法](https://www.slingshotapp.io/en/help/docs/analytics/visualization-tutorials/sparkline-charts#modifying-the-amount-of-columns-in-the-sparkline)
+  - [スパークラインの列数を変更する方法](https://www.slingshotapp.io/ja/help/docs/analytics/visualization-tutorials/sparkline-charts#スパークラインの列数を変更する方法)
 
 ## 重要なコンセプト
 
