@@ -26,4 +26,4 @@
 
  <img src="../images/completed-onboarding-example.png" alt="Result of a completed onboarding " width="85%" class="responsive-img"/>
 
-Slingshot が提供するすべての機能の詳細については、[こちら](https://www.slingshotapp.io/learning-center)を参照してください。
+Slingshot が提供するすべての機能の詳細については、[こちら](https://www.slingshotapp.io/ja/learning-center)を参照してください。

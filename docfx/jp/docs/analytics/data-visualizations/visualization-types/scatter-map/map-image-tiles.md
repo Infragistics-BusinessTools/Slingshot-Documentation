@@ -53,7 +53,7 @@ _language: ja
     
         <img src="images/not-specified-all-levels-yellow-banner.png" alt="Yellow banner message prompting users to set up a tile provider" class="responsive-img"/>
     
-    ただし、[指定なし] オプションを使用すると、使用するタイル プロバイダーを決定する際に Analytics はこのレベルを無視します。詳細については、[「Analytics は使用するタイル ソース プロバイダーをどのように決定しますか?」](#resolution-process)を参照してください。
+    ただし、[指定なし] オプションを使用すると、使用するタイル プロバイダーを決定する際に Analytics はこのレベルを無視します。詳細については、[「Analytics は使用するタイル ソース プロバイダーをどのように決定しますか?」](#analytics-は使用するファイル-プロバイダーをどのように決定しますか)を参照してください。
  
 5. 選択したプロバイダーの認証トークンを追加します。トークンはマップ サービス アカウントで確認できます。追加すると、Analytics に保存されます。設定でタイル プロバイダーを無効にした回数に関係なく、再度追加せずに使用できます。
 

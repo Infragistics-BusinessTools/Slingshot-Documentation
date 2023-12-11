@@ -16,17 +16,17 @@ _language: ja
 
 シンプル チャート ビューのガイドは、以下のリンクから参照してください。
 
-  - [エリア チャートを作成する方法](https://www.slingshotapp.io/en/help/docs/analytics/visualization-tutorials/simple-charts#creating-your-chart)
+  - [エリア チャートを作成する方法](https://www.slingshotapp.io/ja/help/docs/analytics/visualization-tutorials/simple-charts#チャートの作成)
 
-  - [チャートにトレンドラインを追加する方法](https://www.slingshotapp.io/en/help/docs/analytics/visualization-tutorials/simple-charts#adding-a-trendline-to-your-chart)
+  - [チャートにトレンドラインを追加する方法](https://www.slingshotapp.io/ja/help/docs/analytics/visualization-tutorials/simple-charts#チャートに近似曲線を追加する)
 
-  - [軸の構成を変更する方法](https://www.slingshotapp.io/en/help/docs/analytics/visualization-tutorials/simple-charts#changing-your-axis-configuration)
+  - [軸の構成を変更する方法](https://www.slingshotapp.io/ja/help/docs/analytics/visualization-tutorials/simple-charts#軸の構成の変更)
 
-  - [軸の構成を対数に変更する方法](https://www.slingshotapp.io/en/help/docs/analytics/visualization-tutorials/simple-charts#setting-your-axis-configuration-as-logarithmic)
+  - [軸の構成を対数に変更する方法](https://www.slingshotapp.io/ja/help/docs/analytics/visualization-tutorials/simple-charts#軸構成を対数的としての設定)
 
-  - [ドーナツ型と円チャートの開始位置の変更方法](https://www.slingshotapp.io/en/help/docs/analytics/visualization-tutorials/simple-charts#changing-the-start-position-for-doughnut-and-pie-charts)
+  - [ドーナツ型と円チャートの開始位置の変更方法](https://www.slingshotapp.io/ja/help/docs/analytics/visualization-tutorials/simple-charts#ドーナツ型と円チャートの開始位置の変更)
 
-  - [ファンネル、円とドーナツ型 チャートのスライスのラベルを変更する方法](https://www.slingshotapp.io/en/help/docs/analytics/visualization-tutorials/simple-charts#changing-the-slice-labels-for-doughnut-funnel-and-pie-charts)
+  - [ファンネル、円とドーナツ型 チャートのスライスのラベルを変更する方法](https://www.slingshotapp.io/ja/help/docs/analytics/visualization-tutorials/simple-charts#ドーナツ型ファンネルと円チャートのスライスのラベルの変更)
 
 ## 重要なコンセプト
 
@@ -84,7 +84,7 @@ _language: ja
 <a name='change-axis-configuration'></a>
 ## 軸の構成の変更
 
-[ゲージのバンド](../visualization-tutorials/gauge-charts.md#adding-bounds-to-your-gauge)と同様に、チャート軸構成でチャートの最小と最大値を設定できます。この機能を使用して、特定のデータ含有や除外ができます。
+[ゲージのバンド](../visualization-tutorials/gauge-charts.md#ゲージ表示形式に範囲を追加する方法)と同様に、チャート軸構成でチャートの最小と最大値を設定できます。この機能を使用して、特定のデータ含有や除外ができます。
 
 |                                        |                                                                                      |                                                                                                                                       |
 | -------------------------------------- | ------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------- |

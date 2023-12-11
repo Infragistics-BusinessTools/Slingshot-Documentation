@@ -26,7 +26,7 @@
 |id|文字列|
 |email|文字列|
 |name|文字列|
-|role|文字列列挙体 [(管理者、編集者、閲覧者)](https://www.slingshotapp.io/en/help/docs/security)|
+|role|文字列列挙体 [(管理者、編集者、閲覧者)](https://www.slingshotapp.io/ja/help/docs/security)|
 
 ### 割り当て先情報オブジェクト
 

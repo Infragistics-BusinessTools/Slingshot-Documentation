@@ -14,4 +14,4 @@ Slingshot で **Office 365** アカウントを使用して初めてサインイ
 
 **Google** アカウントを使用してサインインする場合は、アカウントの資格情報を入力するだけで済みます。
 
-サインインに使用したアカウントに応じて、OneDrive または Google ドライブが[データ ソース](https://www.slingshotapp.io/en/help/docs/analytics/datasources/overview)のリストに自動的に追加されます。さらに、[OneDrive](https://www.slingshotapp.io/en/help/docs/analytics/datasources/supported-data-sources/onedrive) と [Google ドライブ](https://www.slingshotapp.io/en/help/docs/analytics/datasources/supported-data-sources/google-drive)を初めて使用するときにのみ、制限された制限付きのアクセス許可を求められます。
+サインインに使用したアカウントに応じて、OneDrive または Google ドライブが[データ ソース](https://www.slingshotapp.io/ja/help/docs/analytics/datasources/overview)のリストに自動的に追加されます。さらに、[OneDrive](https://www.slingshotapp.io/ja/help/docs/analytics/datasources/supported-data-sources/onedrive) と [Google ドライブ](https://www.slingshotapp.io/ja/help/docs/analytics/datasources/supported-data-sources/google-drive)を初めて使用するときにのみ、制限された制限付きのアクセス許可を求められます。

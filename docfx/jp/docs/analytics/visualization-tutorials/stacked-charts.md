@@ -12,15 +12,15 @@ _language: ja
 
 積層型チャート ビューのガイドは、以下のリンクから参照してください。
 
-  - [積層型柱状チャートを作成する方法](https://www.slingshotapp.io/en/help/docs/analytics/visualization-tutorials/stacked-charts#creating-a-stacked-chart)
+  - [積層型柱状チャートを作成する方法](https://www.slingshotapp.io/ja/help/docs/analytics/visualization-tutorials/stacked-charts#積層型チャートの作成)
 
   - [積層型チャートのタイプを変更する方法](#change-chart-type)
 
-  - [軸の構成を変更する方法](https://www.slingshotapp.io/en/help/docs/analytics/visualization-tutorials/stacked-charts#changing-your-axis-configuration)
+  - [軸の構成を変更する方法](https://www.slingshotapp.io/ja/help/docs/analytics/visualization-tutorials/stacked-charts#軸の構成を変更する方法)
 
-  - [軸の構成を対数に変更する方法](https://www.slingshotapp.io/en/help/docs/analytics/visualization-tutorials/stacked-charts#setting-your-axis-configuration-as-logarithmic)
+  - [軸の構成を対数に変更する方法](https://www.slingshotapp.io/ja/help/docs/analytics/visualization-tutorials/stacked-charts#軸構成を対数的としての設定)
 
-  - [百分率分布を有効にする方法](https://www.slingshotapp.io/en/help/docs/analytics/visualization-tutorials/stacked-charts#enabling-percentage-distribution)
+  - [百分率分布を有効にする方法](https://www.slingshotapp.io/ja/help/docs/analytics/visualization-tutorials/stacked-charts#百分率分布を有効する方法)
 
 ## 重要なコンセプト
 
@@ -47,26 +47,27 @@ _language: ja
  1. **[分析]** にある **[+ ダッシュボード]** ボタンを選択します。
 
   <img src="images/myanalytics-dashboard-button.png" alt="Dashboard button in the My Analytics section" class="responsive-img"/> 
-                                                      
+
  2. データ ソースのリストからデータ ソース (**Slingshot Tutorials Spreadsheet**) を選択します。データ ソースが新しい場合は、最初に右上隅の **[+ データ ソース]** ボタンから追加する必要があります。     
 
-      <img src="images/visualization-tutorials-sample.png" alt="Tutorials Data Source in the list of already added data sources" class="responsive-img" width="58%"/>
+  <img src="images/visualization-tutorials-sample.png" alt="Tutorials Data Source in the list of already added data sources" class="responsive-img" width="58%"/>
 
  3. *Stacked Charts* シートを選択します。            
 
   <img src="images/stacked-chart-spreadsheet-data-source-details-dialog.png" alt="Stacked Charts Spreadsheet in the tutorial data source" class="responsive-img" width="58%"/>
-  
+
  4. 表示形式 エディターのトップ バーで**グリッド アイコン**を選択します。デフォルトで、表示形式のタイプは*柱状*に設定されています。**[積層型]** 表示形式のいずれかを選択することで、いつでも変更できます。     
- 
-    <img src="images/stacked-chart-types.png" alt="List of all the chart types used for a visualization" class="responsive-img" width="58%"/>                                                                                                    
+
+  <img src="images/stacked-chart-types.png" alt="List of all the chart types used for a visualization" class="responsive-img" width="58%"/>
+
  5. 積層型チャートでは、データ エディターの [値] プレースホルダーに 2 つ以上のフィールドをドラッグ アンド ドロップする必要があります。今の例で、「1960」、「2003」、「2008」と「2010」 を [値] へ、「Country Name」を [ラベル] へドラッグアンドドロップします。
 
-   <img src="images/stacked-charts-organizing-data.png" alt="Organizing the data from the stacked charts spreadsheet" class="responsive-img" width="35%"/>
+  <img src="images/stacked-charts-organizing-data.png" alt="Organizing the data from the stacked charts spreadsheet" class="responsive-img" width="35%"/>
 
 <a name='change-axis-configuration'></a>
 ## 軸の構成を変更する方法
 
-[ゲージのバンド](../visualization-tutorials/gauge-charts.md#adding-bounds-to-your-gauge)と同様に、チャート軸構成でチャートの最小と最大値を設定できます。
+[ゲージのバンド](../visualization-tutorials/gauge-charts.md#ゲージ表示形式に範囲を追加する方法)と同様に、チャート軸構成でチャートの最小と最大値を設定できます。
 この機能を使用して、特定のデータ含有や除外ができます。
 
 |                                        |                                                                                      |                                                                                                                                       |

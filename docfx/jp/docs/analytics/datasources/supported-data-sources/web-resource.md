@@ -30,4 +30,4 @@ _language: ja
 
 準備ができたら、**[ロードして続行]** を選択します。
 
-保護されたウェブ リソースの **OAuth 2 / OIDC アカウント**を設定するには、[このトピック](~/jp/docs/analytics/datasources/oauth-2-oidc-user-authentication.html)をお読みください。
+保護されたウェブ リソースの **OAuth 2 / OIDC アカウント**を設定するには、[このトピック](~/docs/analytics/datasources/oauth-2-oidc-user-authentication.html)をお読みください。

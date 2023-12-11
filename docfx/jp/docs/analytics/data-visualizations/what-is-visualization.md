@@ -12,23 +12,23 @@
 
 上記のダッシュボードでは、以下の表示形式タイプが表示されます。
 
-  - **Productivity**: [テキスト ゲージ](~/jp/docs/analytics/data-visualizations/visualization-types/Gauge-Views.html#text-gauge)
+  - **Productivity**: [テキスト ゲージ](~/docs/analytics/data-visualizations/visualization-types/Gauge-Views.html#text-gauge)
 
-  - **Units Lost**: [テキスト ゲージ](~/jp/docs/analytics/data-visualizations/visualization-types/Gauge-Views.html#text-gauge)
+  - **Units Lost**: [テキスト ゲージ](~/docs/analytics/data-visualizations/visualization-types/Gauge-Views.html#text-gauge)
 
-  - **Cost of Labor vs Revenue**: [折れ線チャート](~/jp/docs/analytics/data-visualizations/visualization-types/category-charts.html)
+  - **Cost of Labor vs Revenue**: [折れ線チャート](~/docs/analytics/data-visualizations/visualization-types/category-charts.html)
 
-  - **Units Produced by Line**: [柱状チャート](~/jp/docs/analytics/data-visualizations/visualization-types/category-charts.html)
+  - **Units Produced by Line**: [柱状チャート](~/docs/analytics/data-visualizations/visualization-types/category-charts.html)
 
-  - **Operators Available**: [ドーナツ型チャート](~/jp/docs/analytics/data-visualizations/visualization-types/category-charts.html)
+  - **Operators Available**: [ドーナツ型チャート](~/docs/analytics/data-visualizations/visualization-types/category-charts.html)
 
-  - **Line 1 Efficiency**: [円型ゲージ](~/jp/docs/analytics/data-visualizations/visualization-types/gauge-charts.html)
+  - **Line 1 Efficiency**: [円型ゲージ](~/docs/analytics/data-visualizations/visualization-types/gauge-charts.html)
 
-  - **Line 2 Efficiency**: [円型ゲージ](~/jp/docs/analytics/data-visualizations/visualization-types/gauge-charts.html)
+  - **Line 2 Efficiency**: [円型ゲージ](~/docs/analytics/data-visualizations/visualization-types/gauge-charts.html)
 
 ## 表示形式の作成方法
 
-[+] 記号を選択して新しいダッシュボードを追加すると、新しい[データ ソース](~/jp/docs/analytics/datasources/overview.md)または既存のデータ ソースを入力するよう求められます。表示形式の作成にはじめに行う必要のある手順です。
+[+] 記号を選択して新しいダッシュボードを追加すると、新しい[データ ソース](~/docs/analytics/datasources/overview.md)または既存のデータ ソースを入力するよう求められます。表示形式の作成にはじめに行う必要のある手順です。
 
 <img src="images/creating-new-visualization.png" alt="Creating a new visualization dialog" class="responsive-img"/>
 

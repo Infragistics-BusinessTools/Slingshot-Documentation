@@ -43,7 +43,7 @@ _language: ja
   - **コンパクトなラベルを選択できます**。
 この設定を使用すると、チャートをズームするときに冗長なラベル情報を回避できます。
 
-- [この表示形式を別のダッシュボードまたは URL に接続します](https://www.slingshotapp.io/en/help/docs/analytics/dashboards/dashboard-linking)。
+- [この表示形式を別のダッシュボードまたは URL に接続します](https://www.slingshotapp.io/ja/help/docs/analytics/dashboards/dashboard-linking)。
 
 ## ズームとパンニング
 
@@ -51,4 +51,4 @@ _language: ja
 
 ## 統計関数
 
-Analytics は 3 種類の高度な予測分析を提供します。これらは、**[時系列予測](https://www.slingshotapp.io/en/help/docs/analytics/data-visualizations/statistical-functions#time-series-forecast)**、**[線形回帰](https://www.slingshotapp.io/en/help/docs/analytics/data-visualizations/statistical-functions#linear-regression)**、および**[外れ値の検出](https://www.slingshotapp.io/en/help/docs/analytics/data-visualizations/statistical-functions#detect-outliers)**です。それらを使用して、データ シリーズで予測を行い、傾向を認識して評価し、外れ値を検出できます。
+Analytics は 3 種類の高度な予測分析を提供します。これらは、[時系列予測](https://www.slingshotapp.io/ja/help/docs/analytics/data-visualizations/statistical-functions#時系列予測)、[線形回帰](https://www.slingshotapp.io/ja/help/docs/analytics/data-visualizations/statistical-functions#線形回帰)、および[外れ値の検出](https://www.slingshotapp.io/ja/help/docs/analytics/data-visualizations/statistical-functions#外れ値の検出)です。それらを使用して、データ シリーズで予測を行い、傾向を認識して評価し、外れ値を検出できます。

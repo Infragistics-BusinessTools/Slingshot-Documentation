@@ -3,7 +3,7 @@
 Slingshot の API のテストを支援するために、Web ブラウザーで使用できるテスト環境を作成しました。 
 以下の手順で試すことができます:
 
-1.	[ここ](https://my.slingshotapp.io/v1/api-browser/index.html)に進み、右隅にある **[Authorize]** (認証) ボタンをクリックします。
+1.	[こちら](https://my.slingshotapp.io/v1/api-browser/index.html)に進み、右隅にある **[Authorize]** (認証) ボタンをクリックします。
 
 2.	値を入力する必要があるダイアログが開きます。値は **[Bearer](https://swagger.io/docs/specification/authentication/bearer-authentication/)** という単語と **Slingshot の API キー**を組み合わせたものです。API キーをお持ちでない場合は、[この記事](authentication.md)を参照して作成してください。
 

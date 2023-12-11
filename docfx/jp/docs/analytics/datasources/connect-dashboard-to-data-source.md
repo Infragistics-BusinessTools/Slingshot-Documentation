@@ -6,7 +6,7 @@ _language: ja
 
 # ダッシュボードをデータ ソースに接続
 
-[分析] では、ダッシュボードの作成[前](overview.html)または作成後にデータ ソースに接続できます。データ ソースへの接続は、ダッシュボード作成プロセスの一部です。ただし、すでに作成されているが、まだデータ ソースに接続されていないダッシュボードを持つ場合があります。これが発生する可能性のあるシナリオは 2 つあります - [共有しているダッシュボード](~/jp/docs/analytics/dashboards/sharing-dashboards/share-a-dashboard.html)の場合と自分で [分析] に[アプロードしたダッシュボード](~/jp/docs/analytics/dashboards/uploading-dashboards.html)の場合です。
+[分析] では、ダッシュボードの作成[前](overview.html)または作成後にデータ ソースに接続できます。データ ソースへの接続は、ダッシュボード作成プロセスの一部です。ただし、すでに作成されているが、まだデータ ソースに接続されていないダッシュボードを持つ場合があります。これが発生する可能性のあるシナリオは 2 つあります - [共有しているダッシュボード](~/docs/analytics/dashboards/sharing-dashboards/share-a-dashboard.html)の場合と自分で [分析] に[アプロードしたダッシュボード](~/docs/analytics/dashboards/uploading-dashboards.html)の場合です。
 
 アプリケーションにまだ追加していないデータ ソースを使用して作成されたダッシュボードは、初めて開いたときに次のようになります: 
 
@@ -24,7 +24,7 @@ _language: ja
 <img src="images/final-dashboard-own-data-source-example.png" alt="Final look of the dashboard after connecting to its data source" class="responsive-img" width="88%"/>
 
 >[!NOTE]
-> **[データ ソースの接続]** ダイアログに、データ ソースの資格情報のリストがある場合があります (下のスクリーンショットを参照)。これらは、他のソース アカウントへのログインに使用した資格情報、または[分析の資格情報の管理](~/jp/docs/analytics/datasources/managing-data-source-credentials.html)メニューで事前に追加した資格情報です。
+> **[データ ソースの接続]** ダイアログに、データ ソースの資格情報のリストがある場合があります (下のスクリーンショットを参照)。これらは、他のソース アカウントへのログインに使用した資格情報、または[分析の資格情報の管理](~/docs/analytics/datasources/managing-data-source-credentials.html)メニューで事前に追加した資格情報です。
 
 <img src="images/connect-data-source-dialog.png" alt="A list of ready credentials in the Connect Data Source dialog" class="responsive-img" width="55%"/>
 
@@ -32,6 +32,6 @@ _language: ja
 
 ## 関連トピック 
 
-* **ダッシュボードの編集**。ダッシュボードをデータ ソースに接続して表示できるようになると、ダッシュボードを編集することもできます。これを行うには、オーバーフロー メニューからダッシュボード編集モードにアクセスします。詳細については、[ダッシュボードを操作する](~/jp/docs/analytics/dashboards/dashboards-interactions.html)トピックをご覧ください。
+* **ダッシュボードの編集**。ダッシュボードをデータ ソースに接続して表示できるようになると、ダッシュボードを編集することもできます。これを行うには、オーバーフロー メニューからダッシュボード編集モードにアクセスします。詳細については、[ダッシュボードを操作する](~/docs/analytics/dashboards/dashboards-interactions.html)トピックをご覧ください。
 
-* **共有ダッシュボードへのアクセス許可**。たった今データ ソースに接続したダッシュボードは、おそらく [分析] で共有されていました。ダッシュボードで実行できる操作を決定する 3 種類のアクセス許可があることをご存知でしたか? [ダッシュボードの共有](~/jp/docs/analytics/dashboards/sharing-dashboards/share-a-dashboard.html)トピックで、これとその他の詳細について学びます。
+* **共有ダッシュボードへのアクセス許可**。たった今データ ソースに接続したダッシュボードは、おそらく [分析] で共有されていました。ダッシュボードで実行できる操作を決定する 3 種類のアクセス許可があることをご存知でしたか? [ダッシュボードの共有](~/docs/analytics/dashboards/sharing-dashboards/share-a-dashboard.html)トピックで、これとその他の詳細について学びます。

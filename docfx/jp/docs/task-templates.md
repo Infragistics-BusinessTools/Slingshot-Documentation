@@ -90,5 +90,5 @@
 
 >[!NOTE] 変更を適用するためのオプションは、**[テンプレートとして保存する]** ダイアログと同じであることに注意してください。
 
-タスクの作成方法と使用方法の詳細については、[こちら](https://www.slingshotapp.io/en/help/docs/tasks)をご覧ください。
+タスクの作成方法と使用方法の詳細については、[こちら](https://www.slingshotapp.io/ja/help/docs/tasks)をご覧ください。
 
