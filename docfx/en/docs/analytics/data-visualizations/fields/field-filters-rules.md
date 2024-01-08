@@ -7,8 +7,8 @@ _description: Learn how to apply filters or rules to your dataset in Slingshot w
 
 You can also apply filters or rules to the fields in your dataset. In
 order to do so, you will need to add a field to the **Data Filters**
-placeholder in the lower section of the data editor. Then, select field
-from the dropdown to access the *Data Filter* window.
+placeholder in the lower section of the data editor. Then, select a field
+from the dropdown menu to access the *Data Filter* window.
 
 <img src="images/data-filter-visualization-editor.png" alt="Adding data filter fields list" class="responsive-img" width="70%"/>
 

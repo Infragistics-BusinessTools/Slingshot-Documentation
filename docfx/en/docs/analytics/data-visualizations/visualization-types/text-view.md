@@ -17,4 +17,4 @@ specifications, a person's contact information, etc.
 
 The *Text View* supports *conditional formatting*, as explained in [this section](../fields/conditional-formatting.md).
 
-<img src="images/text-view-conditional-formatting-example.png" alt="Using conditional formatting for a text view visualization" class="responsive-img" width="87%"/>
+<img src="images/text-view-conditional-formatting.png" alt="Using conditional formatting for a text view visualization" class="responsive-img" width="87%"/>

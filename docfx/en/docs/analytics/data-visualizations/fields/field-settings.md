@@ -13,7 +13,7 @@ data.
 
 In order to apply formatting or filter to your data, you must select the
 specific field you want to modify in the corresponding placeholder
-(*Category*, *Columns*, *Label*, *Rows* and *Values*. There are three
+(*Category*, *Columns*, *Label*, *Rows* and *Values*). There are three
 types of fields, each of which has their own formatting and filter
 options:
 

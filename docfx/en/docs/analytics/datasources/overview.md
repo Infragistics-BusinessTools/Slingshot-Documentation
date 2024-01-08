@@ -14,7 +14,7 @@ To retrieve information from a data source and use it for your visualizations, y
 
 To connect to a data source, perform the steps below:
 
-1. Go to **My Analytics** or a workspace where you want to a create a dashboard. 
+1. Go to **My Analytics** or a workspace where you want to  create a dashboard. 
 2. Click/tap on the **+ Dashboard** blue button.
 
    <img src="images/data-sources-my-analytics.png" alt="Dashboard button in my analytics" class="responsive-img" width="90%"/>
@@ -37,6 +37,8 @@ After selecting a data source provider, you will be prompted to **configure** it
    - [Google Ads](~/docs/analytics/datasources/supported-data-sources/google-ads.md)
 
    - [Google Analytics](~/docs/analytics/datasources/supported-data-sources/google-analytics.md)
+
+   - [Google Analytics 4](~/docs/analytics/datasources/supported-data-sources/google-analytics4.md)
 
    - [Google BigQuery](~/docs/analytics/datasources/supported-data-sources/google-bigquery.md)
 
@@ -103,5 +105,7 @@ To filter your data sources, you can click on the filter button in the upper rig
 ## Related Topics
 
 - You received a dashboard that consumes data from a data source you still haven't connected to? See how to open it in the [Connecting a Dashboard to Its Data Source](connect-dashboard-to-data-source.md) topic.
+
 - You started creating a visualization, but changed your mind about the data source? Read how to connect to a different data source while you are in the Visualization Editor in [Changing the Data Source for a Visualization](changing-data-source-visualization.md).
+
 - You want to use data from more than one data source for your visualization? Read the [Combining Data Sources in one Visualization](data-blending.md)

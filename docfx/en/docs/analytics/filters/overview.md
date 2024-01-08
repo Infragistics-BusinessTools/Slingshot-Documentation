@@ -25,7 +25,7 @@ of time.
 The following sections will cover:
 
   - [Dashboard Filters](dashboard-filters.md) in both the *Dashboard* and
-    the *Visualizations editor*
+    the *Visualization editor*
 
   - [Dashboard Filter configurable properties](dashboard-filters-properties.md), including:
 

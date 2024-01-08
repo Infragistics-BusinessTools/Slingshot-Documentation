@@ -16,7 +16,7 @@ spreadsheets within Analytics.
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p><img src="images/excel.png" alt="excel" /> <img src="images/csv.png" alt="csv" /><br />
+<td><p><img src="images/excel.png" alt="excel" /> <img src="images/csv.png" alt="csv"/><br />
 </p>
 <p><em>Analytics expects your data to be organized in columns</em> and will name fields after the spreadsheet's first row. If your data is organized in rows instead, you can <a href="#transposing-spreadsheets">transpose</a> the fields in Analytics.</p>
 <p><a href="~/docs/analytics/data-visualizations/visualizations-editor.md">LEARN MORE</a><br />
@@ -113,19 +113,19 @@ To make this change, you need to first click/tap on the *Preview Data* button fo
 
 >[!NOTE] **Only the first 200 rows in the spreadsheet will be transposed.** 
 
-<img src="./images/data-source-details-dialog-spreadsheet-sample.png" alt="Spreadsheets Transpose Data Source Menu" class="responsive-img" width="55%"/>
+<img src="./images/data-source-details-dialog-spreadsheet-sample.png" alt="Spreadsheets Transpose Data Source Menu" class="responsive-img" width="80%"/>
 
 Then you will see a transpose icon in the top right-hand corner next to the
 cross button. Once you click/tap on it, Analytics will switch columns to rows and
 vice-versa.
 
-<img src="images/transposing-action-spreadsheet-columns.png" alt="Transposing Action Spreadsheet" class="responsive-img" width="85%"/>
+<img src="images/transposing-action-spreadsheet-columns.png" alt="Transposing Action Spreadsheet" class="responsive-img" width="90%"/>
 
 In the example above, the information in the spreadsheet will be
 organized in columns expressing the *EmployeeID* for each employee in the
 company.
 
-<img src="images/transposing-action-spreadsheet-rows.png" alt="Transposing Action Final Spreadsheet" class="responsive-img" width="85%"/>
+<img src="images/transposing-action-spreadsheet-rows.png" alt="Transposing Action Final Spreadsheet" class="responsive-img" width="90%"/>
 
 Once you are ready, select the tick icon. This will take you back to the *Data Source details* dialog, where you will now see the name of the
 sheet with a new icon to its left indicating that the sheet has been

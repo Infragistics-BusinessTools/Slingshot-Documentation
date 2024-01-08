@@ -32,7 +32,7 @@ This will prompt the *New Visualization* dialog. Proceed to create a visualizati
 If your data source is not in the data sources list, select
 the **+ Data Source** button in the top right-hand corner. A new dialog will appear, displaying all data source categories and the available data sources. Feel free to scroll up and down until you see the data source you need.
 
-<img src="images/dashboard-select-your-data-source.png" alt="List with some of the data sources" class="responsive-img" width="85%"/>
+<img src="images/select-your-data-source.png" alt="List with some of the data sources" class="responsive-img" width="85%"/>
 
 If your data source is a spreadsheet in a content manager, you will be able to select, for example, the specific sheet that you want to use in your visualization.
 
@@ -60,11 +60,11 @@ Once your data source has been added, you will be taken to the *Visualization Ed
 
 Analytics provides several options to customize the way your information is visualized. You can access the options by selecting the **grid icon** in the top bar.
 
-<img src="images/chart-types-creating-dashboards.png" alt="list with chart types" class="responsive-img" width="75%"/>
+<img src="images/creating-dashboards-chart-types.png" alt="list with chart types" class="responsive-img" width="78%"/>
 
 Add labels and values to your visualization and preview them in the right-hand pane. If necessary, you can change your visualization's settings or add filters to it.
 
-<img src="images/sample-data-visualization-editor.png" alt="Editing visualization fields preview" class="responsive-img" width="85%"/>
+<img src="images/visualization-editor-sample-data.png" alt="Editing visualization fields preview" class="responsive-img" width="85%"/>
 
 Once you have modified the visualization, you will be taken back to the **Dashboard Editor**. You will see **Undo**, **Redo**, and the **+Visualization** split button on the top right-hand corner. Next to these buttons you will also find the overflow menu of the dashboard where you can choose to change the dashboard theme, refresh the dashboard, paste it, switch on/off **Auto Layout**, **export** or **save** the dashboard.
 
