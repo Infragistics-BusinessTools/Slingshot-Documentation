@@ -70,6 +70,8 @@ Slingshot is available on any platform with a seamless experience no matter what
   </div>
 </div>
 
+>[!NOTE] Slingshot is compatible with the two most recent versions of macOS.
+
 ## Supported Languages
 
 <style type="text/css">

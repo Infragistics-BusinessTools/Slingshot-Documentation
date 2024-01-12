@@ -17,7 +17,7 @@ E.g., as shown above, a combo chart can display countries' total
 population as well as the young population to show the relationship
 between them.
 
-<img src="images/combo-charts-selection.png" alt="Selecting the Combo Chart visualization in Slingshot" class="responsive-img" width="75%"/>
+<img src="images/combo-chart-selection.png" alt="Selecting the Combo Chart visualization in Slingshot" class="responsive-img" width="85%"/>
 
 After selecting your data source and the *Combo* visualization, by
 default you start with a column chart and a line chart combined. As
@@ -26,13 +26,17 @@ both charts.
 
 ## Settings for Combo Charts
 
-<img src="images/combo-chart-settings.png" alt="Combo Charts configuration settings in Slingshot" class="responsive-img" width="85%"/>
+<img src="images/combo-chart-settings.gif" alt="Combo Charts configuration settings in Slingshot" class="responsive-img" width="85%"/>
 
 In *Settings* you can:
 
   - **Choose the Style**.
 
     You can enable the Title, Legend or choose the Start Color.
+
+  - **Enable the Automatic Label Rotation**
+
+  - **Adjust the Zoom Level**
 
   - **Change the visualization type for one or both charts**.
 
@@ -58,3 +62,5 @@ In *Settings* you can:
 
     Analytics applies opacity to the chart displayed behind, to make it
     visually more transparent.
+
+  - **[Connect this visualization to another dashboard or a URL](/docfx/en/docs/analytics/dashboards/dashboard-linking.md)**

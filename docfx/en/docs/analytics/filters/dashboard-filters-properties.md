@@ -17,39 +17,26 @@ In order to add a new dashboard filter:
     can configure or change it using the overflow menu next to the data
     source's name.
 
-    <img src="images/dashboard-filter-data-source-menu.png" alt="Selecting Dashboard Filter data source menu" class="responsive-img" width="80%"/>
+  <img src="images/dashboard-filter-data-source-menu.png" alt="Selecting Dashboard Filter data source menu" class="responsive-img" width="90%"/>
 
-3.  Choose which dataset to use as a dashboard filter and click/tap
+3.  Choose which dataset to use as a dashboard filter and click/tap on
     *Select Data*.
 
 ## Filter Settings Overview
 
 You will be able to change the following settings for the filter:
 
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
-.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
-.tg .tg-cly1{text-align:left;vertical-align:middle}
-</style>
-<table class="tg">
-  <tr>
-    <th class="tg-cly1" rowspan="5"><img src="images/dashboard-filter-dialog.png" alt="Dashboard Filter settings menu" width="400" height="300"></th>
-    <th class="tg-cly1">Title. The title for the dashboard filter, which will be displayed right under the dashboard title. By default, this is the name of the field that will be used as a filter.</th>
-  </tr>
-  <tr>
-    <td class="tg-cly1"><a href="#displayed-field">Displayed Field/Element</a>. The field in your dataset, which will be used as a dashboard filter.</td>
-  </tr>
-  <tr>
-    <td class="tg-cly1"><span style="font-weight:bold">Selection</span>. This setting allows you to configure: <a href="#multiple-selection">Multiple Selection</a> (more than one value can be selected at a time) and/or <a href="#required-selection">Required Selection</a> (at least one value must always be selected).</td>
-  </tr>
-  <tr>
-    <td class="tg-cly1"><a href="#data-filters">Data Filters</a>. This setting allows you to apply any <a href="~/docs/analytics/data-visualizations/fields/field-filters-rules.md">field filters and rules</a> to the data source used for the dashboard filter.</td>
-  </tr>
-  <tr>
-    <td class="tg-cly1"><a href="connecting-dashboard-filters-visualization.md">Connected Visualizations</a>. Whether your dashboard will be connected to any visualization or not.</td>
-  </tr>
-</table>
+<img src="images/dashboard-filter-dialog.png" alt="Dashboard Filter settings menu" class="responsive-img" width="60%">
+
+- Title. The title for the dashboard filter, which will be displayed right under the dashboard title. By default, this is the name of the field that will be used as a filter.</th>
+
+- <a href="#displayed-field">Displayed Field/Element</a>. The field in your dataset, which will be used as a dashboard filter.
+
+- Selection. This setting allows you to configure: <a href="#multiple-selection">Multiple Selection</a> (more than one value can be selected at a time) and/or <a href="#required-selection">Required Selection</a> (at least one value must always be selected).
+
+- <a href="#data-filters">Data Filters</a>. This setting allows you to apply any <a href="~/docs/analytics/data-visualizations/fields/field-filters-rules.md">field filters and rules</a> to the data source used for the dashboard filter.
+
+- <a href="connecting-dashboard-filters-visualization.md">Connected Visualizations</a>. Whether your dashboard will be connected to any visualization or not.
 
 <a name='displayed-field'></a>
 ## Displayed Field
@@ -71,13 +58,13 @@ Analytics supports the selection of multiple dashboard filter values
 simultaneously. This is meant to enable side by side comparison between different elements in a collection. For instance, in the *HR Dashboard* dashboard you can compare the hires and absences over time of different
 offices by enabling multiple selection.
 
-<img src="images/multiple-selection-dashboard-filters.png" alt="Filters multiple selections applied to a dashboard" class="responsive-img" width="45%"/>
+<img src="images/multiple-selection-dashboard-filters.png" alt="Filters multiple selections applied to a dashboard" class="responsive-img" width="50%"/>
 
 In order to **enable "Multiple Selection"**, you must switch the
 dashboard to *Edit* mode ⇒ choose *Edit* from the overflow menu of a
 dashboard filter ⇒ *Selection* ⇒ tick *Multiple Selection* checkbox.
 
-<img src="images/multiple-selection-option-dashboard-filter-dialog.png" alt="Enabling dashboard filters multiple selections" class="responsive-img" width="60%"/>
+<img src="images/multiple-selection-option-dashboard-filter-dialog.png" alt="Enabling dashboard filters multiple selections" class="responsive-img" width="90%"/>
 
 <a name='required-selection'></a>
 ## Required Selection
@@ -93,7 +80,7 @@ In order to **enable "Required Selection"**, you must switch the
 dashboard to *Edit* mode ⇒ choose *Edit* from the overflow menu of a
 dashboard filter ⇒ *Selection* ⇒ tick *Required Selection* checkbox.
 
-<img src="images/required-selection-option-filters.png" alt="Enabling dashboard filters required selection" class="responsive-img" width="60%"/>
+<img src="images/required-selection-option-filters.png" alt="Enabling dashboard filters required selection" class="responsive-img" width="90%"/>
 
 <a name='data-filters'></a>
 ## Data Filters
@@ -124,23 +111,23 @@ filter and have the dashboard filter show only the employees in the
 
 2.  Select *Employee name* for the *Displayed Field* property.
 
-3.  Click/tap *Select a Field* and choose *Office* from the list.
+3.  Click/tap on *Select a Field* and choose *Office* from the list.
 
-    <img src="images/dashboard-filter-select-data-filter-field.png" alt="Selecting a field for a data filter in the dashboard filter settings menu" class="responsive-img" width="60%"/>
+  <img src="images/dashboard-filters-select-data-filter-field.png" alt="Selecting a field for a data filter in the dashboard filter settings menu" class="responsive-img" width="90%"/>
 
 4.  In the following dialog, select the filter type you want to apply
     (choose *Select Values* for the purposes of this example):
 
-    <img src="images/option-filter-type.png" alt="Dashboard Filters Filter type option" class="responsive-img" width="60%"/>
+  <img src="images/filter-types.png" alt="Dashboard Filters Filter type option" class="responsive-img" width="90%"/>
 
-5.  Choose *London, UK* from the list and click/tap the *Create Filter*
+5.  Choose *London, UK* from the list and click/tap on the *Create Filter*
     button.
 
 ## Dashboard Filters Using Microsoft Analysis Data
 
 There are some specifics when configuring an MS Analysis dashboard filter.
 
-<img src="images/microsoft-analysis-services-dashboard-filter.png" alt="Dashboard Filter dialog when configuring an SSRS filter" class="responsive-img" width="60%"/>
+<img src="images/microsoft-analysis-services-dashboard-filter.png" alt="Dashboard Filter dialog when configuring an SSRS filter" class="responsive-img" width="90%"/>
 
  1. **Displayed Element** - you can select a *Dimension*, *Hierarchy* or *Level* data field to display dashboard filter values, but not a *Measure* data field. 
 

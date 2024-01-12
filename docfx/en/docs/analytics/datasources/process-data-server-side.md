@@ -28,7 +28,7 @@ If you need more information on how to do the initial configuration of the data 
 
 After configuring the connection, the *Data Source Details* dialog will show up:
 
-<img src="images/process-data-on-server-option.png" alt="New Process data on server checkbox added in the Set Up the Database dialog in PostgreSQL" class="responsive-img" width="55%"/>
+<img src="images/process-data-on-server-option.png" alt=" Process data on server checkbox in the Set Up the Database dialog in PostgreSQL" class="responsive-img" width="55%"/>
 
 Notice that the *Process Data on Server* is enabled by default. Consider unchecking the box next to this feature in case you need to use any of the capabilities that are limited (see in *Limitations* below), when your data is processed on the server.
 

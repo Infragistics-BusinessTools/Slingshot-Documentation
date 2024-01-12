@@ -25,7 +25,7 @@ overflow button next to the dashboard filter and select **Delete**.
 
 <img src="images/delete-filter-option.png" alt="Removing a dashboard filter with the delete option" class="responsive-img" width="85%"/>
 
-## Dashboard Filters and the Visualizations Editor
+## Dashboard Filters and the Visualization Editor
 
 Once there is at least one Dashboard Filter or Date filter defined in the Dashboard
 Editor, you will be able to bind the data in that Dashboard Filter or the Date filter to a

@@ -18,13 +18,13 @@ two ways:
     individual visualization, even after the dashboard filter has been
     created.
 
-<img src="images/visualization-editor-dashboard-filter.png" alt="dashboard filters in the visualization editor" class="responsive-img" width="80%"/>
+<img src="images/visualization-editor-dashboard-filter.png" alt="dashboard filters in the visualization editor" class="responsive-img" width="85%"/>
 
 In both cases, binding is defined by adding rules that link a field in
 the dashboard filter dataset with a corresponding field in the
 visualization's dataset ([**field binding**](#field-binding)). You can
-always remove a visualization's binding selecting **Disconnect** in the
-Visualizations Editor or the Dashboard Filter menu.
+always remove a visualization's binding by selecting **Disconnect** in the
+Visualization Editor or the Dashboard Filter menu.
 
 <img src="images/disconnect-option-dashboard-filter.png" alt="Option to disconnect dashboard filters from a visualization" class="responsive-img" width="60%"/>
 

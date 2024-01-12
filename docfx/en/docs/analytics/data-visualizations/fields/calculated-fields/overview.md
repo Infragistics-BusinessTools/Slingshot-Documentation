@@ -16,10 +16,9 @@ and:
 
 There are two types of calculated fields:
 
-  - [pre-calculated](#precalculated-fields) (also called "calculated"),
-    and
+  - [pre-calculated](#precalculated-fields) (also called "calculated")
 
-  - [post-calculated](#postcalculated-fields).
+  - [post-calculated](#postcalculated-fields)
 
 <a name='precalculated-fields'></a>
 ## Pre-Calculated Fields
@@ -30,11 +29,11 @@ aggregations. This means in order to apply a certain formula, Analytics will go 
 To add a new pre-calculated field, click/tap the **+ button** in the
 *Fields* panel and choose **Calculated Field**:
 
-<img src="images/calculated-field-option.png" alt="Pre-calculated field option" class="responsive-img" width="85%"/>
+<img src="images/calculated-field-option.png" alt="Pre-calculated field option" class="responsive-img" width="90%"/>
 
 The *New Calculated Field* screen will open:
 
-<img src="images/new-calculated-field-dialog.png" alt="New calculated field dialog" class="responsive-img" width="85%"/>
+<img src="images/new-calculated-field-dialog.png" alt="New calculated field dialog" class="responsive-img" width="90%"/>
 
 Here you will need to:
 
@@ -50,11 +49,11 @@ Here you will need to:
 The new pre-calculated field will show up at the bottom of your *Fields*
 list:
 
-<img src="images/new-calculated-field-visualization-example.png" alt="New calculated field shown in the column placeholder and in the visualization" class="responsive-img" width="85%"/>
+<img src="images/new-calculated-field-visualization-example.png" alt="New calculated field shown in the column placeholder and in the visualization" class="responsive-img" width="90%"/>
 
 In the example above, the new calculated field is used with a grid
 visualization where no aggregation is being applied on the data fields.
-Pre-calculated fields can also be used with *Pivot grids*. In this case,
+Pre-calculated fields can also be used with *Pivot Grids*. In this case,
 aggregation (e.g. summarization) will be applied to the already
 calculated records in the pre-calculated field.
 
@@ -63,7 +62,7 @@ calculated records in the pre-calculated field.
 
 Post-calculated fields can be created when working with *Pivot tables*
 and other visualizations, which execute an aggregation on the data
-fields in the *Data editor*. Post-calculated fields are always built by
+fields in the *Data Editor*. Post-calculated fields are always built by
 applying a formula on already summarized values.
 
 To create a post calculated field you will need to:
@@ -71,12 +70,12 @@ To create a post calculated field you will need to:
 1.  Create a visualization (or a *Pivot table*) by adding fields from
     your data source in the *Data editor*.
 
-    <img src="images/post-calculated-field-example.png" alt="Post calculated fields in the Data editor" class="responsive-img" width="85%"/>
+  <img src="images/post-calculated-field-example.png" alt="Post calculated fields in the Data editor" class="responsive-img" width="90%"/>
 
 2.  Click/tap the *F(x)* button next to *Values* to open the *New
     Calculated Field* screen:
 
-    <img src="images/post-calculated-field-new-calculated-field-dialog.png" alt="Post calculated field new calculated field screen" class="responsive-img" width="85%"/>
+  <img src="images/post-calculated-field-new-calculated-field-dialog.png" alt="Post calculated field new calculated field screen" class="responsive-img" width="90%"/>
 
 3.  Give a name to your new calculated field and apply a formula to the
     summarized value(s). Pay attention that the list of *Values*
@@ -85,12 +84,12 @@ To create a post calculated field you will need to:
     *Budget*).
 
 If you need to use other fields from your data source, that are not
-included in the *Data editor*, you can add them by clicking/tapping on
+included in the *Data Editor*, you can add them by clicking/tapping on
 the *+* button next to *Values*. Since post-calculated fields are
 created only by using aggregated values, you will first need to select
 an aggregation from the dropdown list to be executed on the data field.
 
-<img src="images/post-calculated-field-new-calculated-field-dialog-adding-fields.png" alt="Adding fields in the calculated field screen" class="responsive-img" width="85%"/>
+<img src="images/post-calculated-field-new-calculated-field-dialog-adding-fields.png" alt="Adding fields in the calculated field screen" class="responsive-img" width="90%"/>
 
 You can also skip *step 1*, create your post-calculated fields first or
 use only post-calculated fields in your visualization.
@@ -105,80 +104,80 @@ For both pre-calculated and post-calculated fields, you can use one of
 the available functions within Analytics:
 
   - [**Aggregation**](aggregation.md):
-    [AVERAGE](aggregation.html#average),
-    [AVERAGEIF](aggregation.html#averageif),
-    [COUNT](aggregation.html#count),
-    [COUNTIF](aggregation.html#countif),
-    [MAX](aggregation.html#max),
-    [MAXIF](aggregation.html#maxif),
-    [MIN](aggregation.html#min),
-    [MINIF](aggregation.html#minif).
+    [average](aggregation.html#average),
+    [averageif](aggregation.html#averageif),
+    [count](aggregation.html#count),
+    [countif](aggregation.html#countif),
+    [max](aggregation.html#max),
+    [maxif](aggregation.html#maxif),
+    [min](aggregation.html#min),
+    [minif](aggregation.html#minif).
 
   - [**Date**](date.md):
-    [DATE](date.html#date-date),
-    [DATEVALUE](date.html#datevalue),
-    [DAY](date.html#day),
-    [FORMATDATE](date.html#formatdate),
-    [FQUARTER](date.html#fquarter),
-    [SEMESTER](date.html#semester),
-    [FSEMESTER](date.html#fsemester),
-    [FYEAR](date.html#fyear),
-    [HOUR](date.html#hour),
-    [MILLISECOND](date.html#millisecond),
-    [MINUTE](date.html#minute),
-    [MONTH](date.html#month),
-    [MONTHNAME](date.html#monthname),
-    [MONTHSHORTNAME](date.html#monthshortname),
-    [APPLYTIMEZONE](date.html#applytimezone),
-    [CURRENTTIMEZONE](date.html#currenttimezone),
-    [DATETIMEFROMUNIXTS](date.html#datetimefromunixts),
-    [NOW](date.html#now),
-    [QUARTER](date.html#quarter),
-    [SECOND](date.html#second),
-    [TIME](date.html#date-time),
-    [TODAY](date.html#today),
-    [WEEKDAY](date.html#weekday),
-    [WEEKNUM](date.html#weeknum),
-    [YEAR](date.html#year).
+    [date](date.html#date-date),
+    [datevalue](date.html#datevalue),
+    [day](date.html#day),
+    [formatdate](date.html#formatdate),
+    [fquarter](date.html#fquarter),
+    [semester](date.html#semester),
+    [fsemester](date.html#fsemester),
+    [fyear](date.html#fyear),
+    [hour](date.html#hour),
+    [millisecond](date.html#millisecond),
+    [minute](date.html#minute),
+    [month](date.html#month),
+    [monthname](date.html#monthname),
+    [monthshortname](date.html#monthshortname),
+    [applytimezone](date.html#applytimezone),
+    [currenttimezone](date.html#currenttimezone),
+    [datetimefromunixts](date.html#datetimefromunixts),
+    [now](date.html#now),
+    [quarter](date.html#quarter),
+    [second](date.html#second),
+    [time](date.html#date-time),
+    [today](date.html#today),
+    [weekday](date.html#weekday),
+    [weeknum](date.html#weeknum),
+    [year](date.html#year).
 
   - [**Information**](information.md):
-    [EMPTY](information.html#empty),
-    [ISEMPTY](information.html#isempty).
+    [empty](information.html#empty),
+    [isempty](information.html#isempty).
 
   - [**Logic**](logic.md):
-    [AND](logic.html#and),
-    [FALSE](logic.html#false),
-    [IF](logic.html#if),
-    [NOT](logic.html#not),
-    [OR](logic.html#or),
-    [TRUE](logic.html#true).
+    [and](logic.html#and),
+    [false](logic.html#false),
+    [if](logic.html#if),
+    [not](logic.html#not),
+    [or](logic.html#or),
+    [true](logic.html#true).
 
   - [**Lookup & Reference**](lookup-reference.md):
-    [PREVIOUS](lookup-reference.html#previous),
-    [ROW](lookup-reference.html#row).
+    [previous](lookup-reference.html#previous),
+    [row](lookup-reference.html#row).
 
   - [**Math**](math.md):
-    [ABS](math.html#abs),
-    [EXP](math.html#exp),
-    [LOG](math.html#log),
-    [LOG10](math.html#log10),
-    [MOD](math.html#mod),
-    [RAND](math.html#rand),
-    [RANDBETWEEN](math.html#randbetween),
-    [SIGN](math.html#sign),
-    [SQRT](math.html#sqrt),
-    [TRUNC](math.html#trunc).
+    [abs](math.html#abs),
+    [exp](math.html#exp),
+    [log](math.html#log),
+    [log10](math.html#log10),
+    [mod](math.html#mod),
+    [rand](math.html#rand),
+    [randbetween](math.html#randbetween),
+    [sign](math.html#sign),
+    [sqrt](math.html#sqrt),
+    [trunc](math.html#trunc).
 
   - [**String**](string.md):
-    [CONCATENATE](string.html#concatenate),
-    [FIND](string.html#find),
-    [LEN](string.html#len),
-    [LOWER](string.html#lower),
-    [MID](string.html#mid),
-    [REPLACE](string.html#replace),
-    [SORTINTERVAL](string.html#sortinterval),
-    [TRIM](string.html#trim),
-    [UPPER](string.html#upper).
+    [concatenate](string.html#concatenate),
+    [find](string.html#find),
+    [len](string.html#len),
+    [lower](string.html#lower),
+    [mid](string.html#mid),
+    [replace](string.html#replace),
+    [sortinterval](string.html#sortinterval),
+    [trim](string.html#trim),
+    [upper](string.html#upper).
 
 >[!NOTE] **Limitations to IF Conditions**.
 >IF conditions have known limitations when included in aggregation functions in pre-calculated fields. The need to go through every record that many times, trying to check an IF condition within an aggregation formula causes underperformance issues, hence it's not supported.

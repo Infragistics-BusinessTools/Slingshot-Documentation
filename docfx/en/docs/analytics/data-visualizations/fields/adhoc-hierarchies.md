@@ -17,11 +17,11 @@ in the **Rows** placeholder of the data editor.
 This feature applies to plain data sources (for example, SQL tables,
 Excel spreadsheets or CSV files) and not to multidimensional data
 sources like Analysis Services. For those cases, the hierarchies are
-defined on the server side, and Analytics supports the expand and drill
+defined on the server side, and Analytics supports the *expand* and *drill*
 operations.
 
 >[!NOTE]
->Ad-hoc hierarchies are **not supported** in *Text*,  *Circular* *Image*, *Grid* and *Text View* charts.
+>Ad-hoc hierarchies are **not supported** in *Text*, *Circular* *Image*, *Grid* and *Text View* charts.
 
 ## Enabling Ad-Hoc Hierarchies
 

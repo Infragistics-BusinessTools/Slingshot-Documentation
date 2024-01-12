@@ -11,7 +11,7 @@ trends and their progression in a given date range.
 
 <img src="images/sparkline-chart-example.png" alt="Sparkline Chart sample" class="responsive-img" width="87%"/>
 
-The first column remains fixed in the Visualizations Editor, allowing
+The first column remains fixed in the Visualization Editor, allowing
 you to scroll through the different columns in your information.
 
 <img src="images/sparkline-chart-visualization-editor.png" alt="Using the sparkline chart in the visualization editor" class="responsive-img" width="87%"/>
