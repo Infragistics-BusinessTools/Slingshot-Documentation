@@ -10,7 +10,7 @@ order to do so, you will need to add a field to the **Data Filters**
 placeholder in the lower section of the data editor. Then, select a field
 from the dropdown menu to access the *Data Filter* window.
 
-<img src="images/data-filter-visualization-editor.png" alt="Adding data filter fields list" class="responsive-img" width="70%"/>
+<img src="images/data-filter-visualization-editor.png" alt="Adding data filter fields list" class="responsive-img" width="85%"/>
 
 <a name='empty-values'></a>
 ## Filter Empty Values
@@ -123,5 +123,5 @@ entered in a text box in the same position.
 
 You can filter your *Values* by [aggreggation](https://www.slingshotapp.io/en/help/docs/analytics/data-visualizations/fields/calculated-fields/aggregation). Then this value will appear with the same aggregation in the list of fields in the **Data Filters** placeholder.
 
-<img src="images/data-filters-values-list.png" alt="Data Filters Filtering in the Data Editor" class="responsive-img" width="80%"/>
+<img src="images/data-filters-values-list.png" alt="Data Filters Filtering in the Data Editor" class="responsive-img" width="85%"/>
 

@@ -17,7 +17,7 @@ In order to add a new dashboard filter:
     can configure or change it using the overflow menu next to the data
     source's name.
 
-  <img src="images/dashboard-filter-data-source-menu.png" alt="Selecting Dashboard Filter data source menu" class="responsive-img" width="80%"/>
+  <img src="images/dashboard-filter-data-source-menu.png" alt="Selecting Dashboard Filter data source menu" class="responsive-img" width="90%"/>
 
 3.  Choose which dataset to use as a dashboard filter and click/tap on
     *Select Data*.
@@ -26,7 +26,7 @@ In order to add a new dashboard filter:
 
 You will be able to change the following settings for the filter:
 
-<img src="images/dashboard-filter-dialog.png" alt="Dashboard Filter settings menu" class="responsive-img" width="50%">
+<img src="images/dashboard-filter-dialog.png" alt="Dashboard Filter settings menu" class="responsive-img" width="60%">
 
 - Title. The title for the dashboard filter, which will be displayed right under the dashboard title. By default, this is the name of the field that will be used as a filter.</th>
 
@@ -58,13 +58,13 @@ Analytics supports the selection of multiple dashboard filter values
 simultaneously. This is meant to enable side by side comparison between different elements in a collection. For instance, in the *HR Dashboard* dashboard you can compare the hires and absences over time of different
 offices by enabling multiple selection.
 
-<img src="images/multiple-selection-dashboard-filters.png" alt="Filters multiple selections applied to a dashboard" class="responsive-img" width="45%"/>
+<img src="images/multiple-selection-dashboard-filters.png" alt="Filters multiple selections applied to a dashboard" class="responsive-img" width="50%"/>
 
 In order to **enable "Multiple Selection"**, you must switch the
 dashboard to *Edit* mode ⇒ choose *Edit* from the overflow menu of a
 dashboard filter ⇒ *Selection* ⇒ tick *Multiple Selection* checkbox.
 
-<img src="images/multiple-selection-option-dashboard-filter-dialog.png" alt="Enabling dashboard filters multiple selections" class="responsive-img" width="60%"/>
+<img src="images/multiple-selection-option-dashboard-filter-dialog.png" alt="Enabling dashboard filters multiple selections" class="responsive-img" width="90%"/>
 
 <a name='required-selection'></a>
 ## Required Selection
@@ -80,7 +80,7 @@ In order to **enable "Required Selection"**, you must switch the
 dashboard to *Edit* mode ⇒ choose *Edit* from the overflow menu of a
 dashboard filter ⇒ *Selection* ⇒ tick *Required Selection* checkbox.
 
-<img src="images/required-selection-option-filters.png" alt="Enabling dashboard filters required selection" class="responsive-img" width="60%"/>
+<img src="images/required-selection-option-filters.png" alt="Enabling dashboard filters required selection" class="responsive-img" width="90%"/>
 
 <a name='data-filters'></a>
 ## Data Filters
@@ -113,12 +113,12 @@ filter and have the dashboard filter show only the employees in the
 
 3.  Click/tap on *Select a Field* and choose *Office* from the list.
 
-  <img src="images/dashboard-filters-select-data-filter-field.png" alt="Selecting a field for a data filter in the dashboard filter settings menu" class="responsive-img" width="60%"/>
+  <img src="images/dashboard-filters-select-data-filter-field.png" alt="Selecting a field for a data filter in the dashboard filter settings menu" class="responsive-img" width="90%"/>
 
 4.  In the following dialog, select the filter type you want to apply
     (choose *Select Values* for the purposes of this example):
 
-  <img src="images/filter-types.png" alt="Dashboard Filters Filter type option" class="responsive-img" width="60%"/>
+  <img src="images/filter-types.png" alt="Dashboard Filters Filter type option" class="responsive-img" width="90%"/>
 
 5.  Choose *London, UK* from the list and click/tap on the *Create Filter*
     button.
@@ -127,7 +127,7 @@ filter and have the dashboard filter show only the employees in the
 
 There are some specifics when configuring an MS Analysis dashboard filter.
 
-<img src="images/microsoft-analysis-services-dashboard-filter.png" alt="Dashboard Filter dialog when configuring an SSRS filter" class="responsive-img" width="60%"/>
+<img src="images/microsoft-analysis-services-dashboard-filter.png" alt="Dashboard Filter dialog when configuring an SSRS filter" class="responsive-img" width="90%"/>
 
  1. **Displayed Element** - you can select a *Dimension*, *Hierarchy* or *Level* data field to display dashboard filter values, but not a *Measure* data field. 
 

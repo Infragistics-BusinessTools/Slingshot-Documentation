@@ -10,7 +10,7 @@ The Pivot Table visualization allows users to aggregate information by
 dropping fields in the corresponding placeholders of the *Data*
 sections.
 
-<img src="images/pivot-table.png" alt="Pivot Table Visualization" class="responsive-img"/>
+<img src="images/pivot-table.png" alt="Pivot Table Visualization" class="responsive-img" width="90%"/>
 
 When a field is added to the rows, columns, or values data editor
 placeholders, selecting the field displays the summarized settings of
