@@ -8,7 +8,7 @@ _description: Learn how to use Dashboard edit mode to add new dashboard filters 
 The dashboard filters dataset is defined by entering *Dashboard edit*
 mode. To add a new dataset, just select the *Add Filter* button.
 
-<img src="images/filter-options-dashboard.png" alt="List of different filter options for dashboards" class="responsive-img" width="85%"/>
+<img src="images/filter-options-dashboard.png" alt="List of different filter options for dashboards" class="responsive-img" width="90%"/>
 
 This will result in the display of a list with the possible dashboard
 filters to be applied. You can choose between:
@@ -23,7 +23,7 @@ filters to be applied. You can choose between:
 To remove a dataset from the dashboard filters list, just select the
 overflow button next to the dashboard filter and select **Delete**.
 
-<img src="images/delete-filter-option.png" alt="Removing a dashboard filter with the delete option" class="responsive-img" width="85%"/>
+<img src="images/delete-filter-option.png" alt="Removing a dashboard filter with the delete option" class="responsive-img" width="90%"/>
 
 ## Dashboard Filters and the Visualization Editor
 
@@ -31,7 +31,7 @@ Once there is at least one Dashboard Filter or Date filter defined in the Dashbo
 Editor, you will be able to bind the data in that Dashboard Filter or the Date filter to a
 visualization by selecting **Connect** under the filter's name. 
 
-<img src="images/dashboard-filter-connection-option-visualization-editor.png" alt="Connecting to a dashboard filter in the visualization editor" class="responsive-img" width="85%"/>
+<img src="images/dashboard-filter-connection-option-visualization-editor.png" alt="Connecting to a dashboard filter in the visualization editor" class="responsive-img" width="90%"/>
 
 Alternatively, you can connect the data in the *Date filter* dialog or in the *Dashboard filter* dialog.
 

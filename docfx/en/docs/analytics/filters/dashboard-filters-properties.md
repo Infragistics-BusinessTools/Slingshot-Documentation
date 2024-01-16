@@ -49,7 +49,7 @@ even if they appear multiple times in the original dataset.
 
 You can change the displayed column in *Edit mode* by selecting the *Edit* button in the overflow menu next to the dashboard filter name.
 
-<img src="images/edit-mode-filter.png" alt="Accessing dashboard filter edit mode" class="responsive-img"/>
+<img src="images/edit-mode-filter.png" alt="Accessing dashboard filter edit mode" class="responsive-img" width="90%"/>
 
 <a name='multiple-selection'></a>
 ## Multiple Selection
