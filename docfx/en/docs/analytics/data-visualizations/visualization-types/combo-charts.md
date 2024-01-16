@@ -11,13 +11,13 @@ Regular charts usually have one X-axis and one Y-axis. Combo charts can
 have two Y-axis, allowing you to display two different types of data
 points in the same chart.
 
-<img src="images/combo-chart-example.png" alt="Combo chart sample within Slingshot" class="responsive-img" width="85%"/>
+<img src="images/combo-chart-example.png" alt="Combo chart sample within Slingshot" class="responsive-img" width="90%"/>
 
 E.g., as shown above, a combo chart can display countries' total
 population as well as the young population to show the relationship
 between them.
 
-<img src="images/combo-chart-selection.png" alt="Selecting the Combo Chart visualization in Slingshot" class="responsive-img" width="85%"/>
+<img src="images/combo-chart-selection.png" alt="Selecting the Combo Chart visualization in Slingshot" class="responsive-img" width="90%"/>
 
 After selecting your data source and the *Combo* visualization, by
 default you start with a column chart and a line chart combined. As
@@ -26,7 +26,7 @@ both charts.
 
 ## Settings for Combo Charts
 
-<img src="images/combo-chart-settings.gif" alt="Combo Charts configuration settings in Slingshot" class="responsive-img" width="85%"/>
+<img src="images/combo-chart-settings.gif" alt="Combo Charts configuration settings in Slingshot" class="responsive-img" width="90%"/>
 
 In *Settings* you can:
 

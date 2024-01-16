@@ -9,14 +9,14 @@ _description: Find out how to use Grid Charts for your visualizations in Slingsh
 
 The grid chart is a visualization option for displaying data, which presents the information in a matrix. You can **resize a column's width** by selecting the grid header, which will highlight the whole column. Drag the side left or right to modify the column's width.
 
-<img src="images/grid-chart-example.png" alt="Resizing a column's width in a grid chart" class="responsive-img" width="85%"/>
+<img src="images/grid-chart-example.png" alt="Resizing a column's width in a grid chart" class="responsive-img" width="90%"/>
 
 You can adjust the size of your font by going to the **Settings**
 section and choosing a different size. The default one is *Small*. The
 *Medium* size will increase the size by 2px, whereas *Large* will
 increase it by 4px.
 
-<img src="images/grid-chart-font-sizes.png" alt="Different options for the font size" class="responsive-img" width="85%"/>
+<img src="images/grid-chart-font-sizes.png" alt="Different options for the font size" class="responsive-img" width="90%"/>
 
 You can also set the first column to be in a fixed position by checking
 the *Fix First Column* option under **Settings**. This is particularly

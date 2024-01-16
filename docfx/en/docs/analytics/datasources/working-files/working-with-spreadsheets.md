@@ -113,7 +113,7 @@ To make this change, you need to first click/tap on the *Preview Data* button fo
 
 >[!NOTE] **Only the first 200 rows in the spreadsheet will be transposed.** 
 
-<img src="./images/data-source-details-dialog-spreadsheet-sample.png" alt="Spreadsheets Transpose Data Source Menu" class="responsive-img" width="80%"/>
+<img src="./images/data-source-details-dialog-spreadsheet-sample.png" alt="Spreadsheets Transpose Data Source Menu" class="responsive-img" width="90%"/>
 
 Then you will see a transpose icon in the top right-hand corner next to the
 cross button. Once you click/tap on it, Analytics will switch columns to rows and

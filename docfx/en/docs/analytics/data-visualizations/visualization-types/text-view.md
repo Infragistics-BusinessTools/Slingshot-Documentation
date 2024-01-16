@@ -13,8 +13,8 @@ that's the only row displayed, so it's the one picked up by the Text
 View. This approach is suitable when you want to help the viewer digest the attributes of a single entity easily. Examples include product
 specifications, a person's contact information, etc.
 
-<img src="images/visualization-editor-text-view.png" alt="Text View in the Visualization editor" class="responsive-img" width="87%"/>
+<img src="images/visualization-editor-text-view.png" alt="Text View in the Visualization editor" class="responsive-img" width="90%"/>
 
 The *Text View* supports *conditional formatting*, as explained in [this section](../fields/conditional-formatting.md).
 
-<img src="images/text-view-conditional-formatting.png" alt="Using conditional formatting for a text view visualization" class="responsive-img" width="87%"/>
+<img src="images/text-view-conditional-formatting.png" alt="Using conditional formatting for a text view visualization" class="responsive-img" width="90%"/>

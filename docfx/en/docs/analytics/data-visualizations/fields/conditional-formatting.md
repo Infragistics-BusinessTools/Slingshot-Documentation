@@ -10,7 +10,7 @@ cell (or rows for [Text Views](~/docs/analytics/data-visualizations/visualizatio
 in a numeric column. For instance, values in the lower 50% range of a
 grid can be colored with a red adorner to signal very low values.
 
-<img src="images/conditional-formatting-pivot-table-view.png" alt="Pivot table view conditional formatting in the Visualization editor" class="responsive-img" width="85%"/>
+<img src="images/conditional-formatting-pivot-table-view.png" alt="Pivot table view conditional formatting in the Visualization editor" class="responsive-img" width="90%"/>
 
 The conditional formatting configuration allows you to establish styling
 rules per ranges of data up to three ranges (typically used for styling,
@@ -19,7 +19,7 @@ information, low values might be a good or bad signal, so you have the
 flexibility to configure the styling in the way that makes the most
 sense in your situation.
 
-<img src="images/text-view-conditional-formatting-example.png" alt="Text view conditional formatting showing Marketing Metrics Visualization" class="responsive-img" width="85%"/>
+<img src="images/text-view-conditional-formatting-example.png" alt="Text view conditional formatting showing Marketing Metrics Visualization" class="responsive-img" width="90%"/>
 
 ## Enabling Conditional Formatting
 

@@ -9,7 +9,7 @@ This section describes the different options for applying
 transformations to datasets, such as sorting, filtering, and aggregating
 data.
 
-<img src="images/data-filters-currency-sample.png" alt="data-filters-currency" class="responsive-img" width="85%"/>
+<img src="images/data-filters-currency-sample.png" alt="data-filters-currency" class="responsive-img" width="90%"/>
 
 In order to apply formatting or filter to your data, you must select the
 specific field you want to modify in the corresponding placeholder
@@ -54,16 +54,16 @@ Date Fields aggregation is displayed as a hierarchical list in the Fields sectio
 
 When you drag and drop a Date field in the Pivot Editor, all the hierarchy is automatically displayed (see below).
 
-<img src="images/date-fields-hierarchy.png" alt="Showing the date field hierarchy functionality in Analytics" class="responsive-img" width="85%"/>
+<img src="images/date-fields-hierarchy.png" alt="Showing the date field hierarchy functionality in Analytics" class="responsive-img" width="90%"/>
 
 In addition, dragging a specific hierarchy level will show data for that level only, as shown below.
 
-<img src="images/date-field-hierarchy-level-example.png" alt="Dragging part of the hierarchy of a date field in Analytics" class="responsive-img" width="85%"/>
+<img src="images/date-field-hierarchy-level-example.png" alt="Dragging part of the hierarchy of a date field in Analytics" class="responsive-img" width="90%"/>
 
 <a name='numeric-fields'></a>
 ## Numeric Fields
 
-<img src="images/numeric-field-settings.png" alt="Numeric-Field-Formatting\_All.png" class="responsive-img" width="45%"/>
+<img src="images/numeric-field-settings.png" alt="Numeric-Field-Formatting\_All.png" class="responsive-img" width="41%"/>
 
   - **Label renaming**: rename your fields for display purposes only.
     Fields are always referenced by their original name in calculated
@@ -108,7 +108,7 @@ In addition, dragging a specific hierarchy level will show data for that level o
 <a name='abc-fields'></a>
 ## String Fields
 
-<img src="images/string-field-formatting-field-settings-dialog.png" alt="String-Field-Formatting" class="responsive-img" width="45%"/>
+<img src="images/string-field-formatting-field-settings-dialog.png" alt="String-Field-Formatting" class="responsive-img" width="41%"/>
 
   - **Label renaming**: rename your fields for display purposes only.
     Fields are always referenced by their original name in calculated
