@@ -16,7 +16,7 @@ _language: ja
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p><img src="images/excel.png" alt="excel" /> <img src="images/csv.png" alt="csv" /><br />
+<td><p><img src="images/excel.png" alt="excel" /> <img src="images/csv.png" alt="csv"/><br />
 </p>
 <p><em>Analytics でデータを列に構成し、フィールドをスプレッドシートの最初の行によって名前を付けます。</em> データが列ではなく行で構成される場合、Analytics でフィールドの<a href="#列を行に転置">入れ替えができます。</a></p>
 <p><a href="~/docs/analytics/data-visualizations/visualizations-editor.md">詳細情報</a><br />

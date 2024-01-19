@@ -22,30 +22,17 @@ _language: ja
 
 フィルターの以下の設定を変更できます:
 
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
-.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
-.tg .tg-cly1{text-align:left;vertical-align:middle}
-</style>
-<table class="tg">
-  <tr>
-    <th class="tg-cly1" rowspan="5"><img src="images/dashboard-filter-dialog.png" alt="Dashboard Filter settings menu" width="400" height="300"></th>
-    <th class="tg-cly1">タイトル。ダッシュボードのタイトルのすぐ下に表示される、ダッシュボード ィルターのタイトル。デフォルトで、これはフィルターとして使用されるフィールド名です。</th>
-  </tr>
-  <tr>
-    <td class="tg-cly1"><a href="#displayed-field">表示フィールド/要素</a>。ダッシュボード フィルターとして使用されるデータセット内のフィールド。</td>
-  </tr>
-  <tr>
-    <td class="tg-cly1"><span style="font-weight:bold">選択</span>。この設定では、次を構成できます。<a href="#multiple-selection">複数選択</a> (一度に複数の値を選択できます) および/または <a href="#required-selection">必須選択</a> (少なくとも 1 つの値を常に選択する必要があります)。</td>
-  </tr>
-  <tr>
-    <td class="tg-cly1"><a href="#data-filters">データ フィルター</a>。この設定により、ダッシュボード フィルターに使用されるデータ ソースに<a href="~/docs/analytics/data-visualizations/fields/field-filters-rules.md">フィールド フィルターとルール</a>を適用できます。</td>
-  </tr>
-  <tr>
-    <td class="tg-cly1"><a href="connecting-dashboard-filters-visualization.md">接続された表示形式</a>。ダッシュボードを表示形式に接続するかどうか。</td>
-  </tr>
-</table>
+<img src="images/dashboard-filter-dialog.png" alt="Dashboard Filter settings menu" class="responsive-img" width="60%">
+
+- タイトル。ダッシュボードのタイトルのすぐ下に表示される、ダッシュボード ィルターのタイトル。デフォルトで、これはフィルターとして使用されるフィールド名です。</th>
+
+- <a href="#displayed-field">表示フィールド/要素</a>。ダッシュボード フィルターとして使用されるデータセット内のフィールド。
+
+- 選択。この設定では、次を構成できます。<a href="#multiple-selection">複数選択</a> (一度に複数の値を選択できます) および/または<a href="#required-selection">必須選択</a> (少なくとも 1 つの値を常に選択する必要があります)。
+
+- <a href="#data-filters">データ フィルター</a>。この設定により、ダッシュボード フィルターに使用されるデータ ソースに<a href="~/docs/analytics/data-visualizations/fields/field-filters-rules.md">フィールド フィルターとルール</a>を適用できます。
+
+- <a href="connecting-dashboard-filters-visualization.md">接続された表示形式</a>。ダッシュボードを表示形式に接続するかどうか。
 
 <a name='displayed-field'></a>
 ## 表示フィールド
@@ -101,11 +88,11 @@ Analytics は、複数のダッシュボード フィルター値の同時選択
 
 3.  [フィールドを選択] をクリック/タップして、リストから [オフィス] を選択します。
 
-    <img src="images/dashboard-filter-select-data-filter-field.png" alt="Selecting a field for a data filter in the dashboard filter settings menu" class="responsive-img" width="60%"/>
+    <img src="images/dashboard-filters-select-data-filter-field.png" alt="Selecting a field for a data filter in the dashboard filter settings menu" class="responsive-img" width="60%"/>
 
 4.  次のダイアログで、適用するフィルター タイプを選択します (この例では、**[値の選択]** を選択します)。
 
-    <img src="images/option-filter-type.png" alt="Dashboard Filters Filter type option" class="responsive-img" width="60%"/>
+    <img src="images/filter-types.png" alt="Dashboard Filters Filter type option" class="responsive-img" width="60%"/>
 
 5.  リストから *London, UK* を選択し、[フィルターの作成] ボタンをクリック/タップします。
 

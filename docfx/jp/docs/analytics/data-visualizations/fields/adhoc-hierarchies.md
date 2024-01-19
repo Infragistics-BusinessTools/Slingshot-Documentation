@@ -11,7 +11,7 @@ _language: ja
 <img src="images/ad-hoc-hierarchies-example.png" alt="Ad Hoc Hierarchies example in the Visualization editor" class="responsive-img" width="85%"/>
 
 この機能は、Analysis Services などの多次元データ ソースではなく、プレーン データ ソース (SQLテーブル、Excel スプレッドシート、CSVファイルなど) に適用されます。
-これらの場合、階層はサーバー側で定義され、分析は展開およびドリル操作をサポートします。
+これらの場合、階層はサーバー側で定義され、分析は**展開**および**ドリル**操作をサポートします。
 
 >[!NOTE]
 >アドホック階層は、テキスト、円型、画像、グリッド、およびテキスト ビューチャートでは**サポートされていません**。
