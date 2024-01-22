@@ -27,7 +27,7 @@ Analytics で利用可能なデータ ソースの一部では、サーバー上
 データ ソースの初期構成を行う方法の詳細については、上記の箇条書きリストで 3 つのデータ ソースのいずれかを選択し、設定方法に関する記事をご覧ください。
 接続を設定すると、**[データ ソースの詳細]** ダイアログが表示されます:
 
-<img src="images/process-data-on-server-option.png" alt="New Process data on server checkbox added in the Set Up the Database dialog in PostgreSQL" class="responsive-img" width="55%"/>
+<img src="images/process-data-on-server-option.png" alt=" Process data on server checkbox in the Set Up the Database dialog in PostgreSQL" class="responsive-img" width="55%"/>
 
 **[サーバー上でデータを処理]** がデフォルトで有効になっていることに注意してください。データがサーバー上で処理されるときに、制限されている機能 (以下の**制限**を参照) を使用する必要がある場合は、この機能の横にあるチェックボックスをオフにすることを検討してください。
 

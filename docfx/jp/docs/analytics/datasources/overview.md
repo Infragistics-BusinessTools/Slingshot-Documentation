@@ -38,6 +38,8 @@ _language: ja
 
    - [Google Analytics](~/docs/analytics/datasources/supported-data-sources/google-analytics.md)
 
+   - [Google Analytics 4](~/docs/analytics/datasources/supported-data-sources/google-analytics4.md)
+
    - [Google BigQuery](~/docs/analytics/datasources/supported-data-sources/google-bigquery.md)
 
    - [Google Drive](~/docs/analytics/datasources/supported-data-sources/google-drive.md)
@@ -103,5 +105,7 @@ _language: ja
 ## 関連トピック 
 
 - まだ接続していないデータ ソースからのデータを使用するダッシュボードを受け取りましたか? [ダッシュボードをデータ ソースに接続](connect-dashboard-to-data-source.md)トピックで開く方法を参照してください。
+
 - 表示形式の作成途中でデータ ソースを変更することにしましたか? 表示形式エディターで別のデータ ソースに接続する方法については、[表示形式に使用するデータ ソースの変更](changing-data-source-visualization.md)を参照してください。
+
 - 複数のデータ ソースからのデータを表示形式に使用しますか? [データ ソースを 1 つの表示形式に統合](data-blending.md)を参照してください。

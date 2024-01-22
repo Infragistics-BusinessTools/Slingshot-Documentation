@@ -13,4 +13,4 @@ _language: ja
 
 [このセクション](../fields/conditional-formatting.md)で説明されているように**テキスト ビューは条件付き書式をサポートします**。
 
-<img src="images/text-view-conditional-formatting-example.png" alt="Using conditional formatting for a text view visualization" class="responsive-img" width="85%"/>
+<img src="images/text-view-conditional-formatting.png" alt="Using conditional formatting for a text view visualization" class="responsive-img" width="85%"/>
