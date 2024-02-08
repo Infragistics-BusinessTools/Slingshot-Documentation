@@ -197,39 +197,29 @@ In order to create a new filter, you can:
 
 <img class="responsive-img" src="../images/task-filter.png" width="90%" alt="Filter option">
 
-2. Choose what to include in your filter.
+2. Add the name of the filter and choose what to include in it.
 
-3. Click/tap on **Apply**.
+<img class="responsive-img" src="../images/filter-options-tasks.png" width="90%" alt="Filter options">
 
-In the Filter's editor you can create Basic or more Advanced rules. The Basic rules will be enough most of the time. Advanced rules are recommended in the case that you really need to define more complex conditions in your filter. 
+3. Click/tap on **Save**.
 
 If you want to change the way tasks are being filtered, you can make different adjustments to your filter. For example, if you want to filter only by the status **In Progress**, you can:
 
-1. Click/tap on the filter icon to open the *Filters* dialog. 
+1. Click/tap on the overflow menu next to the chosen filter.
 
-2. Uncheck **To Do**.
+2. Choose **Edit** from the drop-down menu.
 
-3. Select **Apply** to save your changes. 
+3. Change the status to **In Progress**.
+
+4. Select **Save** to save your changes. 
 
 <img class="responsive-img" src="../images/task-filters-demo.gif" width="90%" alt="Filter options">
 
 >[!IMPORTANT] **Slingshot Tip**: For those times that you can't find a specific task, try expanding collapsed panels, removing existing filters, and/or adding filters using the properties of the task you want. Remember that the icon changes to help you identify when you have active filters or not.
 
-### Advanced Filtering
+You can also add more rules to the filter from the **+Rule** button.
 
-Basic filtering will be sufficient most of the time but you also have additional filtering options with the *Advanced* rules.  
+As an example, the following rules could be created to get all John Williams’ tasks, that include the word “Deadline” in their description. 
 
-To open the advanced filters, you can open the Filter's editor and choose **Switch to Advanced**.
-
-<img class="responsive-img" src="../images/advanced-filters.png" width="90%" alt="Filter options">
-
-When the time comes that you need to craft complex filters, you will be able to: 
-
-- Apply conditions based on fields like *Is*, *Is Not*, *Is Before*, *Is After*, etc. 
-
-- Use operators like *And*, *Or*. 
-
-As an example, the following rules could be created to get all John Williams’ tasks, that include the word “Marketing” in their description. 
-
-<img src="../images/advanced-filters-example.png" alt="Advanced Filtering highlighted within Slingshot" class="responsive-img" width="90%"/>
+<img src="../images/advanced-filters.png" alt="Advanced Filtering highlighted within Slingshot" class="responsive-img" width="90%"/>
 
