@@ -34,4 +34,4 @@ Within the Notifications panel, notifications are shown in groups that you can m
 
 <img class="responsive-img" src="../images/notifications-overflow-settings.png" alt="Showing the Notifications overflow settings within Slingshot" class="responsive-img" width="25%" />
 
-The Notifications panel shows all notifications by default, but you can choose to see only Unread notifications or @mentions. To do this, go to the top of the panel and select Showing: All to open the dropdown and then select another value.
+The Notifications panel shows all notifications by default, but you can choose to see only Unread notifications or @mentions. To do this, go to the top of the panel and select Showing: All to open the drop-down and then select another value.

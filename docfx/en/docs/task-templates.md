@@ -10,7 +10,7 @@ You can create task templates in different projects, workspaces or in the **My T
 
 2.	Click/tap on **Save as Template**.
 
-    <img src="../images/save-as-template-example.png" class="responsive-img" alt="Save as template option in the dropdown menu" width="90%">
+    <img src="../images/save-as-template-example.png" class="responsive-img" alt="Save as template option in the drop-down menu" width="90%">
 
 3. The following dialog will open up. Here you can choose what to keep from the task and use it for the template. When you are ready, click/tap on **Continue**.
        

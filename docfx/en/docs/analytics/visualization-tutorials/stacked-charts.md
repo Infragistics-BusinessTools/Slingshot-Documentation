@@ -91,7 +91,7 @@ data.
 |                                           |                                                                          |                                                             |
 | ----------------------------------------- | ------------------------------------------------------------------------ | ----------------------------------------------------------- |
 | 1\. **Change Settings**                   | <img src="images/tutorials-settings.png" alt="Tutorials-Navigate-Settings" class="responsive-img"/>   | Go to the **Settings** section of the Visualization Editor. |
-| 2\. **Access the Axis option**            | <img src="images/axis-bounds-logarithmic.png" alt="Tutorials-Axis-Bounds" class="responsive-img"/>               | Expand the Axis dropdown by selecting the down arrow. Then select *Logarithmic*.|      
+| 2\. **Access the Axis option**            | <img src="images/axis-bounds-logarithmic.png" alt="Tutorials-Axis-Bounds" class="responsive-img"/>               | Expand the Axis drop-down by selecting the down arrow. Then select *Logarithmic*.|      
 
 <a name='enable-percentage-distribution'></a>
 ## Enabling Percentage Distribution

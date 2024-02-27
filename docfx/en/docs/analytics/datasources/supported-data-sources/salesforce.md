@@ -40,7 +40,7 @@ After selecting which report you want to use in the visualization editor, you ne
 
 The parameters you see in the list (**Show me**, **Probability**, etc.) are the filters for your report. Report filters are criteria set to control the data a user sees in their report. In Analytics, the filtered data will be used in your charts in the *Visualization editor*.
 
-In the dialog above, filters are preconfigured with the default values from Salesforce. Use the dropdown menu next to each filter to change these values.
+In the dialog above, filters are preconfigured with the default values from Salesforce. Use the drop-down menu next to each filter to change these values.
 
 You can change the report filters' values later in the *Visualization editor* by choosing to **Edit** your data source (as shown below):
 

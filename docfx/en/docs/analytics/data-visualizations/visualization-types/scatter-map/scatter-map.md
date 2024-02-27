@@ -57,7 +57,7 @@ However, if you aim to show the correlation between two  values for individual l
 
 ## Scatter Maps Zoom
 
-Scatter maps allow you to zoom in and focus on an area, where the markers are more densely plotted, or such that is not part of the _Map_ dropdown (e.g. the Balkan Peninsula). You can even save the zoomed area and keep this view in the dashboard.
+Scatter maps allow you to zoom in and focus on an area, where the markers are more densely plotted, or such that is not part of the _Map_ drop-down (e.g. the Balkan Peninsula). You can even save the zoomed area and keep this view in the dashboard.
 
 When the map is [maximized](~/docs/analytics/dashboards/dashboards-interactions.html#maximized-view), you can zoom in and out in *Dashboard View mode* or in the *Visualization Editor* too.
 
@@ -101,7 +101,7 @@ The ***"There is no data to display."*** message may appear in the Visualization
 
 You can create dot maps by using only the *Latitude* and *Longitude* data from your data set. If your data source does not contain these fields, you can add them from another data source. See how to do this in [Combining Data Sources in One Visualization](~/docs/analytics/datasources/data-blending.md).
 
-You also need to choose one of the predefined maps from the *Map* dropdown in the _Scatter Map Data_ section.  
+You also need to choose one of the predefined maps from the *Map* drop-down in the _Scatter Map Data_ section.  
 
 Additionally, the optional Label placeholder can be populated to replace the default tooltip text of latitude and longitude with the associated Label-field value in the data. In the screenshot above, the dots are located on the map based on the airports' addresses, but you can also use the airports' names for the tooltip text.
 
@@ -146,7 +146,7 @@ For **basic dot and bubble maps** using uniform colored markers, you can select 
 
 For **scatter maps colored by category** you can choose to _Use different markers_. If you enable this function, Analytics will automatically create a unique marker for each category by using combinations between colors and symbols such as squares, triangles, dots, stars, octagons, etc.
 
-For **scatter maps colored by value** you can configure the coloring scheme. You will see three options in the _Color as_ dropdown:
+For **scatter maps colored by value** you can configure the coloring scheme. You will see three options in the _Color as_ drop-down:
 
 <img src="images/color-as-scheme-options
 .png" alt="Color as options in the Style Settings section" class="responsive-img"/>

@@ -87,7 +87,7 @@ If you need to use other fields from your data source, that are not
 included in the *Data Editor*, you can add them by clicking/tapping on
 the *+* button next to *Values*. Since post-calculated fields are
 created only by using aggregated values, you will first need to select
-an aggregation from the dropdown list to be executed on the data field.
+an aggregation from the drop-down list to be executed on the data field.
 
 <img src="images/post-calculated-field-new-calculated-field-dialog-adding-fields.png" alt="Adding fields in the calculated field screen" class="responsive-img" width="90%"/>
 

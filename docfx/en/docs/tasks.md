@@ -151,7 +151,7 @@ Use Timeline view if you want to:
 
 If you want your team members in a workspace or a project to land on task list, organized in a specific way, you can:
 
-1. Open the dropdown menu of **View Settings**. 
+1. Open the drop-down menu of **View Settings**. 
 
 2. Set the **View Type** and the **List Settings** based on your preferences.
 

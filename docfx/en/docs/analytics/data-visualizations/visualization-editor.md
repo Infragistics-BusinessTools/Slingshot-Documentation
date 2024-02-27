@@ -53,7 +53,7 @@ Below, you will find a list of all sections of the *Editor* with their capabilit
 
   At the bottom of the *Settings* section you will see the option for links. This is a powerful feature, that takes drill down to a whole new level. Read more in the [Dashboard Linking](~/docs/analytics/dashboards/dashboard-linking.md) topic.
 
-3. **Visualization Picker** - Here you can choose your desired visualization and preview the final result. As you switch between the different chart types in the dropdown menu, you will notice the visualization fields section change. The fields for each visualization are different, but they change automatically so you only need to fill them in.
+3. **Visualization Picker** - Here you can choose your desired visualization and preview the final result. As you switch between the different chart types in the drop-down menu, you will notice the visualization fields section change. The fields for each visualization are different, but they change automatically so you only need to fill them in.
 
 4. **Visualization Workspace** - Here is where you will be able to see the visualization you are creating or editing as you drag and drop fields. The visualization won't populate until you have all the necessary fields needed to create that chart type.
 

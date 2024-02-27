@@ -102,7 +102,7 @@ displayed in Values:
 |                                              |                                                                            |                                                                                           |
 | -------------------------------------------- | -------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------- |
 | 1\. **Access Field Settings for your Value** | <img src="images/value-circular-gauge.png" alt="Add-Data-Filter-CircularGauge" class="responsive-img" width="85%"/> | Select the field in **Value** to access                                                  |
-| 2\. **Choose a different Aggregation**       | <img src="images/field-settings-aggregation-options.png" alt="CircularGauge-Aggregation" class="responsive-img" width="85%"/>         | Expand the **Aggregation** dropdown and select a different option (for example, Average). |
+| 2\. **Choose a different Aggregation**       | <img src="images/field-settings-aggregation-options.png" alt="CircularGauge-Aggregation" class="responsive-img" width="85%"/>         | Expand the **Aggregation** drop-down and select a different option (for example, Average). |
 
 
 <a name='create-text-gauge'></a>
@@ -177,5 +177,5 @@ so:
 |                                    |                                                                        |                                                                          |
 | ---------------------------------- | ---------------------------------------------------------------------- | ------------------------------------------------------------------------ |
 | 1\. **Change Settings**            | <img src="images/tutorials-settings.png" alt="Tutorials-Navigate-Settings" class="responsive-img"/> | Go to the **Settings** section of the Visualization Editor.              |
-| 2\. **Access the Colors dropdown** | <img src="images/band-color-options.png" alt="Tutorials-Colors-Dropdown" class="responsive-img"/>     | Expand the dropdown of the range for which you want to change the color. Select one of Slingshot's three predefined colors for your band color.|
+| 2\. **Access the Colors drop-down** | <img src="images/band-color-options.png" alt="Tutorials-Colors-Drop-down" class="responsive-img"/>     | Expand the drop-down of the range for which you want to change the color. Select one of Slingshot's three predefined colors for your band color.|
 

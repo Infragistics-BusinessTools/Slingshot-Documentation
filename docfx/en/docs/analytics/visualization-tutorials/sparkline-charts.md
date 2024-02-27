@@ -104,7 +104,7 @@ do so:
 |                                  |                                                                                                      |                                                                                                                                                      |
 | -------------------------------- | ---------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 1\. **Access the Settings Menu** | <img src="images/sparkline-charts-settings.png" alt="Tutorials-Navigate-Settings" class="responsive-img"/>                               | Go to the **Settings** section of the Visualization Editor.                                                                                          |
-| 2\. **Change the Aggregation**   | <img src="images/sparkline-chart-date-aggregation.png" alt="Tutorial-Change-Date-Aggregation-Sparkline" class="responsive-img"/> | By default, the *Show Last* setting will be set to **Months**. Select the dropdown next to *Months* and change the selection to either *Years* or *Days*. |
+| 2\. **Change the Aggregation**   | <img src="images/sparkline-chart-date-aggregation.png" alt="Tutorial-Change-Date-Aggregation-Sparkline" class="responsive-img"/> | By default, the *Show Last* setting will be set to **Months**. Select the drop-down next to *Months* and change the selection to either *Years* or *Days*. |
 
 You can also choose to display more or less data by changing the number
 next to the date's aggregation.

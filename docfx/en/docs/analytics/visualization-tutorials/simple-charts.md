@@ -38,7 +38,7 @@ data you want to display. This comes in the form of:
     relationship between your variables or the overall direction your
     information is taking. There are several algorithms, also known as
     regressions, which you can apply to your charts; you can select them
-    within the *Chart Trendline* dropdown.
+    within the *Chart Trendline* drop-down.
 
   - **Axis Configuration**: the axis configuration lets you configure
     the minimum and maximum values for your charts. The minimum value is
@@ -97,7 +97,7 @@ information. In order to do this:
 |                                     |                                                                        |                                                                  |
 | ----------------------------------- | ---------------------------------------------------------------------- | ---------------------------------------------------------------- |
 | 1\. **Change Settings**             | <img src="images/settings-tutorials.png" alt="Tutorials-Navigate-Settings" class="responsive-img"/> | Go to the **Settings** section of the Visualization Editor.      |
-| 2\. **Access the Chart Trendlines** | <img src="images/chart-trendline-simple-series-charts.png" alt="Chart Trendlines option in the settings" class="responsive-img"/> | Expand the Chart Trendline dropdown by selecting the down arrow to select one of Slingshot's predefined trendlines. |
+| 2\. **Access the Chart Trendlines** | <img src="images/chart-trendline-simple-series-charts.png" alt="Chart Trendlines option in the settings" class="responsive-img"/> | Expand the Chart Trendline drop-down by selecting the down arrow to select one of Slingshot's predefined trendlines. |
 
 <a name='change-axis-configuration'></a>
 ## Changing your Axis Configuration
@@ -119,7 +119,7 @@ data.
 |                                           |                                                                          |                                                             |
 | ----------------------------------------- | ------------------------------------------------------------------------ | ----------------------------------------------------------- |
 | 1\. **Change Settings**                   | <img src="images/settings-tutorials.png" alt="Tutorials-Navigate-Settings" class="responsive-img" width="90%"/>   | Go to the **Settings** section of the Visualization Editor. |
-| 2\. **Access the Axis option**            | <img src="images/axis-logarithmic.png" alt="Tutorials-Axis-Bounds" class="responsive-img" width="90%"/>               | Expand the Axis dropdown by selecting the down arrow and select *Logarithmic*.      |       
+| 2\. **Access the Axis option**            | <img src="images/axis-logarithmic.png" alt="Tutorials-Axis-Bounds" class="responsive-img" width="90%"/>               | Expand the Axis drop-down by selecting the down arrow and select *Logarithmic*.      |       
 
 <a name='change-start-position'></a>
 ## Changing the Start Position for Doughnut and Pie Charts
@@ -127,7 +127,7 @@ data.
 |                                                   |                                                                                |                                                                                           |
 | ------------------------------------------------- | ------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------- |
 | 1\. **Change Settings**                           | <img src="images/settings-tutorials.png" alt="Tutorials-Navigate-Settings" class="responsive-img"/>         | Go to the **Settings** section of the Visualization Editor.                               |
-| 2\. **Access the Start Position section**         | <img src="images/start-position-settings.png" alt="Start position settings" class="responsive-img"/>               | Expand the *Start Position* dropdown by selecting the down arrow. Select one of Slingshot's predefined start positions for your chart (0°, 90°, 180° or 270°).                          |
+| 2\. **Access the Start Position section**         | <img src="images/start-position-settings.png" alt="Start position settings" class="responsive-img"/>               | Expand the *Start Position* drop-down by selecting the down arrow. Select one of Slingshot's predefined start positions for your chart (0°, 90°, 180° or 270°).                          |
 
 <a name='change-slice-labels'></a>
 ## Changing the Slice Labels for Doughnut, Funnel and Pie Charts
@@ -135,4 +135,4 @@ data.
 |                                                |                                                                          |                                                                                                        |
 | ---------------------------------------------- | ------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------ |
 | 1\. **Change Settings**                        | <img src="images/settings-tutorials.png" alt="Tutorials-Navigate-Settings" class="responsive-img"/>   | Go to the **Settings** section of the Visualization Editor.                                            |
-| 2\. **Access the Slice Label section**         | <img src="images/slice-label-settings.png" alt="Tutorials-Slice-Label" class="responsive-img"/>               | Expand the Slice Labels dropdown by selecting the down arrow. Select one of Slingshot's predefined labeling options (*Percentage*, *Value* or *Value and Percentage*).                                       |
+| 2\. **Access the Slice Label section**         | <img src="images/slice-label-settings.png" alt="Tutorials-Slice-Label" class="responsive-img"/>               | Expand the Slice Labels drop-down by selecting the down arrow. Select one of Slingshot's predefined labeling options (*Percentage*, *Value* or *Value and Percentage*).                                       |

@@ -16,7 +16,7 @@ The *Sort by field* option is part of the fields settings, but is hidden by defa
 
 1. Select a field under the *Label* placeholder. 
 2. In *Field Settings*, choose *Ascending* or *Descending* for *Sorting*. 
-3. *Sort by field* shows under the *Sorting* setting. You can choose a field from the dropdown on the right (as shown above).
+3. *Sort by field* shows under the *Sorting* setting. You can choose a field from the drop-down on the right (as shown above).
  
 For more practical information, take a look at the following examples
 that showcase this functionality:

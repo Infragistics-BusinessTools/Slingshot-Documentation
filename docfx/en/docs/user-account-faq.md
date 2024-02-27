@@ -51,8 +51,8 @@ Here you need to complete the following information about yourself:
 * **Name** - this is your display name in Slingshot and the name by which others will recognize and *@mention* you. You can change your name by clicking/tapping on it. Select *Rename* when ready.
 * **Title** - this is your job title (for example, Accountant) or role in the organization (for example, CFO). To add your title, click/tap on it. Select *Set* when ready. 
 * **Photo** - your photo will help your collaborators in Slingshot know who you are. Your profile photo is always 64x64 pixels, square images will be scaled down or up. You can upload a file from your computer, take the photo with your device's camera or choose it from your device's storage.
-* **Industry** - this is information concerning your organization. Select from the dropdown on the right or type your industry and click/tap *Ok*. 
-* **Department** - this is the organization department where you belong. Select from the dropdown on the right or type your department and click/tap *Ok*.
+* **Industry** - this is information concerning your organization. Select from the drop-down on the right or type your industry and click/tap *Ok*. 
+* **Department** - this is the organization department where you belong. Select from the drop-down on the right or type your department and click/tap *Ok*.
 
 When you are finished, just close the dialog. Your changes will be saved.  
 

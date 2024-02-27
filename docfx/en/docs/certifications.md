@@ -64,9 +64,9 @@ Each data source or dashboard can be certified individually in the workspace whe
 
 2. Select the *Data Sources* or *Dashboards* tab. 
 
-3. Click/tap the <img src="../images/not-certified-icon.png" alt="the data sources icon used in Analytics" width="24px" height="24px" /> badge icon for the data source or dashboard you want to certify and choose a badge from the dropdown menu. 
+3. Click/tap the <img src="../images/not-certified-icon.png" alt="the data sources icon used in Analytics" width="24px" height="24px" /> badge icon for the data source or dashboard you want to certify and choose a badge from the drop-down menu. 
 
-The certificates are hierarchical. This means that certifiers who are with <img src="../images/gold-badge-icon.png" alt="the gold badge icon used in Analytics" width="24px" height="24px" /> *Gold* will also see the <img src="../images/silver-badge-icon.png" alt="the silver badge icon used in Analytics" width="24px" height="24px" /> *Silver* and <img src="../images/bronze-badge-icon.png" alt="the bronze badge icon used in Analytics" width="24px" height="24px" /> *Bronze* badges available in the dropdown menu. And *Bronze* certifiers will only see the bronze badge available. 
+The certificates are hierarchical. This means that certifiers who are with <img src="../images/gold-badge-icon.png" alt="the gold badge icon used in Analytics" width="24px" height="24px" /> *Gold* will also see the <img src="../images/silver-badge-icon.png" alt="the silver badge icon used in Analytics" width="24px" height="24px" /> *Silver* and <img src="../images/bronze-badge-icon.png" alt="the bronze badge icon used in Analytics" width="24px" height="24px" /> *Bronze* badges available in the drop-down menu. And *Bronze* certifiers will only see the bronze badge available. 
 
 >[!NOTE] Keep in mind that if two data source in two workspaces are named the same, the certifier has to certify them in each of the workspaces individually. The certificate will not be transferred automatically as the certifier has to first make sure they contain the same information.
 

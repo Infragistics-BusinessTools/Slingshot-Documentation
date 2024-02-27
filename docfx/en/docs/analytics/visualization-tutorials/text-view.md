@@ -58,7 +58,7 @@ text view display row 9 (Bosnia and Herzegovina).
 1. Drag and drop the *Country Name* field into **Data Filters**.  
  
     <img src="images/select-data-filter-text-view.png" alt="Selecting an example for data filter for the text view" class="responsive-img" width="32%"/>                                                      
-2. Select *Filter Type* to enable the dropdown menu and then choose **Select Values**. 
+2. Select *Filter Type* to enable the drop-down menu and then choose **Select Values**. 
  
      <img src="images/data-filter-dialog-select-value-text-view.png" alt="Select Value option from the list of filter types" class="responsive-img" width="40%"/>                                                      
 3. By default, all values will be selected. Uncheck the *All* box and select only **Bosnia and Herzegovina**. Then, select **Create Filter**. 

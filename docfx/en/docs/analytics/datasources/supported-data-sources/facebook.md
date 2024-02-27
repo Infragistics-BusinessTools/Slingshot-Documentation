@@ -60,11 +60,11 @@ Here you will find the following data source details:
 
 - Who (users and workspaces) has access to it 
 
-- How often the data is refreshed. To change the time period, select the dropdown menu on the right.
+- How often the data is refreshed. To change the time period, select the drop-down menu on the right.
 
 The settings under **Set up your data** help you choose what data to load in the *Visualization Editor*.
 
-- <a href="https://www.facebook.com/business/help/2198119873776795?id=768381033531365" target="_blank">*Attribution Window*</a> - You can select it in order to show data for a specific time period from the dropdown list.
+- <a href="https://www.facebook.com/business/help/2198119873776795?id=768381033531365" target="_blank">*Attribution Window*</a> - You can select it in order to show data for a specific time period from the drop-down list.
 
 - *Action Report Time* - You can choose it in order to have data reported *on impression*, *on conversion* and *mixed*.
 

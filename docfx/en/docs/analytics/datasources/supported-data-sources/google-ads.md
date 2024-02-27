@@ -51,7 +51,7 @@ You may notice that there is no *Fields* heading on the left in the *Data* pane.
 
 In *Data Filters* (see bottom right of the *Data* pane), you will find a date range filter set to *Last 30 days* by default. This means data will be retrieved for the last 30-day period, including *today*.
 
-You can't remove the date filter, but you can change the default date range by clicking/tapping on the arrow in the upper right corner (see the screenshot) and pick a date range from the dropdown options.
+You can't remove the date filter, but you can change the default date range by clicking/tapping on the arrow in the upper right corner (see the screenshot) and pick a date range from the drop-down options.
 
 <img src="images/google-ads-date-range-filter
 .png" alt="Google Ads data in the Visualization Editor" class="responsive-img" width="90%">

@@ -25,7 +25,7 @@ Right before completing the process of adding a new data source, you can access 
 To open the Advanced Editor for data sources that are already added in the <img src="../images/data-source-icon.png" alt="the data sources icon used in Analytics" width="24px" height="24px" /> *Data Sources* list, follow the steps below. 
 
 1. Select the <img src="../images/overflow-icon.png" alt="the overflow icon used in Analytics" width="24px" height="24px" /> overflow menu next to the data source.
-2. Choose <img src="../images/pencil-icon.png" alt="the overflow icon used in Analytics" width="24px" height="24px" /> *Edit Details* from the dropdown. 
+2. Choose <img src="../images/pencil-icon.png" alt="the overflow icon used in Analytics" width="24px" height="24px" /> *Edit Details* from the drop-down. 
 
 You may need to provide username and password for the selected dataset before you continue to the Advanced Editor. 
 
@@ -39,7 +39,7 @@ Check the table below to find out who can use the Advanced Editor of the data so
 | **Contributor** | :x:                                                                                                                    | :white_check_mark:                                                                                                           |
 | **VIEWER** | :x:                                                                                                                    | :x:                                                                                                                          |
 
-The table shows that the owners can use the Advanced Editor to modify data sources both in the Organization and in a workspace. The viewers have no permissions to modify data sources so they can't access the Advanced Editor. 
+The table shows that the owners can use the Advanced Editor to modify data sources both in the Organization and in a workspace. The viewers have no permissions to modify data sources, so they can't access the Advanced Editor. 
 
 Need more information about user roles in Slingshot? Check [Roles & Permissions](~/docs/security#roles-and-permissions).
 

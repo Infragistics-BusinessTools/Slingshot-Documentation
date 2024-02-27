@@ -42,7 +42,7 @@ Once you start using the application, it will look like this:
 
 <img src="images/reveal-initial-view-content.png" alt="First screen in Analytics with content" class="responsive-img"/>
 
-**Filter** - As soon as you have any dashboards, you can choose from the dropdown menu which dashboards to see in the dashboard module: *Everything*, only created by you or shared with you.
+**Filter** - As soon as you have any dashboards, you can choose from the drop-down menu which dashboards to see in the dashboard module: *Everything*, only created by you or shared with you.
 
 ## What About Roles & Permissions?
 

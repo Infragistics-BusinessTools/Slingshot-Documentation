@@ -66,7 +66,7 @@ To follow this walkthrough, download the [2016 November General Election](https:
 
   <img src="images/chart-types-choropleth.png" alt="Select choropleth map visualization from the list of chart types" class="responsive-img" width="75%"/>
 
-3. In the *Choropleth Data* section, select the US States map from the *Map* dropdown menu. An outline of the United States map will be displayed on the screen.
+3. In the *Choropleth Data* section, select the US States map from the *Map* drop-down menu. An outline of the United States map will be displayed on the screen.
 
   <img src="images/list-available-maps.png" alt="List of available maps" class="responsive-img" width="85%"/>
 

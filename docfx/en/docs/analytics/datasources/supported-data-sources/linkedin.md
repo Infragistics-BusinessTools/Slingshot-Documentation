@@ -38,7 +38,7 @@ When you create a dashboard with information coming from a LinkedIn Ads account,
 
 This filter can’t be removed, but you can change the date range. The date filter is set to *Last 30 days* by default.
 
-If you want to change it, you can click on the arrow in the upper right corner (see the screenshot below) and pick a date range from the dropdown menu. You can also create a custom one when you click on the first option.
+If you want to change it, you can click on the arrow in the upper right corner (see the screenshot below) and pick a date range from the drop-down menu. You can also create a custom one when you click on the first option.
 
 <img src="./images/linkedin-date-range.png" alt="date range in the visualization editor for LinkedIn" class="responsive-img" width="90%"/>
 

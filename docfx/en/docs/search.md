@@ -26,13 +26,13 @@ The search results pane shows results from everywhere inside Slingshot. The resu
 - *Pins* - shows results from all boards in My Stuff, Workspaces and the Organization.
 - *Analytics* - shows results for dashboards and dashboard folders in My Stuff, Workspaces and the Organization.
 
->[!NOTE] In the results pane, you can open the overflow menu and save a result in bookmarks or share it with others.
+>[!NOTE] In the *results* pane, you can open the overflow menu and save a result in bookmarks or share it with others.
 
 ## Filtering Results
 Sometimes you may get too many results and need to refine your search. To help you with this, Slingshot includes a location filter on the top and a second tier of filters under each of the five tabs.
 
 ### Filtering by location
-The Location filter (top of the page) is applied to all results no matter which results tab you choose. For example, you can easily search all blocked tasks in two projects located in different workspaces. To do this, just select the two projects in the location dropdown and then in the Tasks tab filter by the Blocked status.
+The Location filter (top of the page) is applied to all results no matter which results tab you choose. For example, you can easily search all blocked tasks in two projects located in different workspaces. To do this, just select the two projects in the location drop-down and then in the Tasks tab filter by the Blocked status.
 
 <img class="responsive-img" src="../images/search-filters.png" alt="Showing Slingshot's search and its filters" class="responsive-img" />
 

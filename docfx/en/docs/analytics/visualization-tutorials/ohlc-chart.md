@@ -115,4 +115,4 @@ the value you want for the chart's top limit.
 |                                        |                                                                                                       |                                                             |
 | -------------------------------------- | ----------------------------------------------------------------------------------------------------- | ----------------------------------------------------------- |
 | 1\. **Access the Settings Menu**       | <img src="images/tutorials-settings.png" alt="Tutorials-Navigate-Settings" class="responsive-img"/>                                | Go to the **Settings** section of the Visualization Editor. |
-| 2\. **Change the Axis to Logarithmic** | <img src="images/ohlc-candlestick-logarithmic-axis.png" alt="Tutorial-Access-OHLC-Axis-Configuration" class="responsive-img"/> | Open the **Axis** dropdown and select **Logarithmic**.      |
+| 2\. **Change the Axis to Logarithmic** | <img src="images/ohlc-candlestick-logarithmic-axis.png" alt="Tutorial-Access-OHLC-Axis-Configuration" class="responsive-img"/> | Open the **Axis** drop-down and select **Logarithmic**.      |
