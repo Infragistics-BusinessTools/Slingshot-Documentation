@@ -8,10 +8,12 @@ _description: See how to work with dashboards saved on your device by directly u
 In Reveal, you can also work with dashboards saved on your computer/device by directly uploading them. To do that, perform the following steps:
 
 1. Go to **My Analytics**.
+
 2. Click on **My Dashboards**.
+
 3. Go to the overflow menu and choose **Upload**.
 
-    <img src="images/dashboard-upload-option.png" alt="Upload option" class="responsive-img" width="88%"/>
+    <img src="images/dashboard-upload-option.png" alt="Upload dashboard option" class="responsive-img" width="88%"/>
 
 4.  A dialog showing your local files will open. Double click/tap the
     dashboard you want to upload. Reveal dashboards' file extension is

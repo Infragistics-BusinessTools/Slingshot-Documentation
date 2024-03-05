@@ -50,7 +50,7 @@ by selecting a new one from the dropdown menu next to their name.
 *Share* dialog and selecting **Remove** from the dropdown menu next to any
 member's name.
 
-<img src="images/shared-with-remove-option.png" alt="Remove sharing button" class="responsive-img" width="80%"/>
+<img src="images/shared-with-remove-option.png" alt="Remove a member option" class="responsive-img" width="80%"/>
 
 In general, a user can have one of the following permissions:
 

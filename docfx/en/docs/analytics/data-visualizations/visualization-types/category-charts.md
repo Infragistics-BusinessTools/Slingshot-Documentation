@@ -8,7 +8,7 @@ _description: Find out how to use category charts for making your visualizations
 These charts are used to associate categories with quantitative
 information.
 
-<img src="images/category-charts-list.png" alt="Category charts variations" class="responsive-img" width="85%"/>
+<img src="images/category-charts-list.png" alt="Category charts list" class="responsive-img" width="85%"/>
 
 You can select any of the chart icons displayed in the Visualizations
 options menu as long as it is suitable for your data. Analytics will select
