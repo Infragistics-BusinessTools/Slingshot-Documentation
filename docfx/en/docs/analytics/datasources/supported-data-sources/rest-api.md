@@ -31,10 +31,9 @@ requests.
 To configure a REST API data source, you will need to enter the
 following information:
 
-<img src="images/Configuring-REST-API-Data-Source_All.png" alt="Configuring-REST-API-Data-Source\_All" class="responsive-img"/>
+<img src="images/Configuring-REST-API-Data-Source_All.png" alt="Configuring a Rest API data source" class="responsive-img"/>
 
 1.  **Default name** of the data source: Your data source name will be displayed in the list of accounts in the previous dialog. By default, Analytics names it *REST API*. You can change it to your preference.
-
 
 2.  **URL**: the URL where the service is located.
 
@@ -64,18 +63,18 @@ To use parameters effectively follow the procedure below:
     parameters are color-coded in *blue* to make them more easily
     identifiable.
 
-    <img src="images/Parameters-URL-Rest-API.png" alt="Parameters-URL-Rest-API\_All" class="responsive-img"/>
+    <img src="images/Parameters-URL-Rest-API.png" alt="Setting up Rest API parameters" class="responsive-img"/>
 
 2.  **Add parameters' values**. In the following screen specify the
     value of each parameter you have added in the URL.
 
-    <img src="images/Parameters-Values-Rest-API.png" alt="Parameters-Values-Rest-API\_All" class="responsive-img"/>
+    <img src="images/Parameters-Values-Rest-API.png" alt="Setting up Rest API Parameters Values" class="responsive-img"/>
 
     As a result, the REST API service will respond with the data on the
     provided URL in a REST compliant format. Generally, you will receive
     a JSON file:
 
-    <img src="images/REST-API-Data-Format-Result.png" alt="REST-API-Data-Format-Result\_All" class="responsive-img"/>
+    <img src="images/REST-API-Data-Format-Result.png" alt="REST API Data Format Results" class="responsive-img"/>
 
     For more information on how to work with a JSON file, please refer
     to [this topic](~/docs/analytics/datasources/working-files/working-with-json-files.md).
@@ -90,11 +89,11 @@ To use parameters effectively follow the procedure below:
 
     To do this, click on the file icon in the upper-left corner of the *Visualizations Editor* screen.
     
-    <img src="images/REST-API-Change-Parameters-Values.png" alt="Rest API Parameters Values changing in the editor" class="responsive-img" />
+    <img src="images/REST-API-Change-Parameters-Values.png" alt="Rest API Parameters Values changing in the Visualization Editor" class="responsive-img" />
 
     In the screen that opens, *click/tap* the *REST API Parameters* button.
 
-    <img src="images/REST-API-Parameters-Button.png" alt="Rest API Parameters button available in editor" class="responsive-img" />
+    <img src="images/REST-API-Parameters-Button.png" alt="Rest API Parameters button available in Visualization Editor" class="responsive-img" />
 
     You will be redirected to the screen in *step 2* where you can provide new values to your parameters.
 
@@ -124,7 +123,7 @@ generally consists of:
 4.  A **Body**: an optional message (when using *POST* and *PUT*
     methods) containing data
 
-    <img src="images/Working-With-Methods.png" alt="Working With Methods" class="responsive-img"/>
+    <img src="images/Working-With-Methods.png" alt="Working With Methods for Rest API" class="responsive-img"/>
 
 For more information about the Header and Body of a request, please
 refer to [this link](https://developer.mozilla.org/en-US/docs/Web/HTTP/Messages#Headers).

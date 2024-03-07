@@ -7,7 +7,7 @@ _description: Get familiar the specifics of creating a Candlestick chart visuali
 
 In this tutorial, you will learn how to create a *Candlestick chart* visualization using a sample spreadsheet.
 
-<img src="images/different-candlestick-charts.png" alt="A sample with different candlestick charts" class="responsive-img" width="92%"/>
+<img src="images/different-candlestick-charts.png" alt="Dashboard consisting of different candlestick chart visualizations" class="responsive-img" width="92%"/>
 
 Access the links below for the Candlestick chart view walkthroughs:
 
@@ -65,17 +65,17 @@ For this tutorial, you will use the *OHLC and Candlestick* sheet in the [Slingsh
 
 2. Select your data source(**Slingshot Tutorials Spreadsheet**) from the list of data sources. If the data source is new, you will need to first add it from the **+ Data Source** button in the top-right corner.
 
-   <img src="images/visualization-tutorials-sample.png" alt="Selecting the data source from the list of data sources" class="responsive-img" width="90%"/>                                          
+   <img src="images/visualization-tutorials-sample.png" alt="Selecting example spreadsheet from the list of data sources" class="responsive-img" width="90%"/>                                          
 
 3. Choose the **OHLC and Candlestick** sheet. 
   
-   <img src="images/ohlc-candlestick-spreadsheet.png" alt="Selecting the OHLC and Candlesticks spreadsheet" class="responsive-img" width="65%"/>
+   <img src="images/ohlc-candlestick-spreadsheet.png" alt="OHLC and Candlesticks sheet in an Excel spreadsheet" class="responsive-img" width="65%"/>
          
 4. Open the *Visualization Picker* and select the **Candlestick** visualization. By default, the visualization type will be set to *Column*. 
 
    <img src="images/candlestick-chart-types.png" alt="List of chart types" class="responsive-img" width="65%"/>                                                             
 5.  Drag and drop the *Date* field into *Label* and the *Open*, *High*, *Low* and *Close* fields in their corresponding placeholder.
-  <img src="images/candlestick-organizing-data.png" alt="Organizing data fields" width="35%"/>                                                      
+   <img src="images/candlestick-organizing-data.png" alt="Organizing candlestick data fields" width="35%"/>                                                      
 
 <a name='changing-axis-configuration'></a>
 ## Changing your Axis Configuration
@@ -109,5 +109,5 @@ the value you want for the chart's top limit.
 
 |                                        |                                                                                                              |                                                             |
 | -------------------------------------- | ------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------- |
-| 1\. **Access the Settings Menu**       | <img src="images/tutorials-settings.png" alt="Navigating to Settings" width="300"/>                 | Go to the **Settings** section of the Visualization Editor. |
-| 2\. **Change the Axis to Logarithmic** | <img src="images/axis-logarithmic-candlestick.png" alt="Accessing Axis configuration" width="300"/> | Open the **Axis** dropdown and select **Logarithmic**.      |
+| 1\. **Access the Settings Menu**       | <img src="images/tutorials-settings.png" alt="Settings menu in a visualization" width="300"/>                 | Go to the **Settings** section of the Visualization Editor. |
+| 2\. **Change the Axis to Logarithmic** | <img src="images/axis-logarithmic-candlestick.png" alt="Axis configuration in Settings" width="300"/> | Open the **Axis** dropdown and select **Logarithmic**.      |

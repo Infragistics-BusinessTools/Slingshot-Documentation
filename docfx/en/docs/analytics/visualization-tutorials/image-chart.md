@@ -8,7 +8,7 @@ _description: A quick tutorial on creating an Image Chart visualization using a 
 In this tutorial you will learn how to create an *Image* visualization
 using a sample spreadsheet.
 
-<img src="../images/image-chart-sample.png" alt="A sample showing different image chart visualizations in one dashboard" class="responsive-img" width="92%"/>
+<img src="../images/image-chart-sample.png" alt="Different image chart visualizations in one dashboard" class="responsive-img" width="92%"/>
 
 ## Key Concepts
 
@@ -26,20 +26,20 @@ For this tutorial, you will use the *Image Chart* sheet in the [Slingshot Visual
 
  1. In **My Analytics**, select the **+ Dashboard button** in the top right-hand corner.
 
-    <img src="./images/button-dashboard.png" alt="Tutorials-Create-New-Dashboard" class="responsive-img" width="80%"/> 
+    <img src="./images/button-dashboard.png" alt="New dashboard button in My Analytics" class="responsive-img" width="80%"/> 
 
  2. A dialog will open, containing a list of already added data source. The Visualization Tutorial file will be there as a data source if you have already used it. In case you haven't added the file, you can click/tap on **+Data Source** ⇒ **Data Files** ⇒ **+New** ⇒ **Upload** ⇒ Select the file ⇒ Click/tap on **Select and Continue** to include it in the list.
 
-    <img src="images/select-your-data-source.png" alt="Tutorials-Select-Data-Source" class="responsive-img" width="80%"/>
+    <img src="images/select-your-data-source.png" alt="Selecting a data source from the data sources list" class="responsive-img" width="80%"/>
 
  3. Once the data source is configured, select the *Image View* sheet.                                
 
-    <img src="images/select-image-view.png" alt="Tutorials-Select-Image-View-Spreadsheet" class="responsive-img" width="57%"/>
+    <img src="images/select-image-view.png" alt="Image View sheet in Excel Spreadsheet" class="responsive-img" width="57%"/>
 
  4. By default, the visualization type will be set to **Column**. Select the **Image** option.      
 
-    <img src="../images/list-of-chart-types.png" alt="Tutorial-Image-View-Select" class="responsive-img" width="57%"/>   
+    <img src="../images/list-of-chart-types.png" alt="Image View in the Chart types" class="responsive-img" width="57%"/>   
                                                       
  5. Drag any of the available fields into **URL**.        
 
-    <img src="../images/image-chart-data-organization.png" alt="Tutorials-ImageView-Organizing-Data" class="responsive-img" width="57%"/>                                                      
+    <img src="../images/image-chart-data-organization.png" alt="Organizing data in Image View by dragging fields into URL" class="responsive-img" width="57%"/>                                                      

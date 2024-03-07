@@ -8,7 +8,7 @@ _description: A quick tutorial on creating all types of Gauge visualizations usi
 In this tutorial, you will learn how to create *Gauge* visualizations
 using a sample spreadsheet.
 
-<img src="images/different-gauge-visualizations.png" alt="Different Gauge Visualizations" class="responsive-img" width="92%"/>
+<img src="images/different-gauge-visualizations.png" alt="Example of different Gauge Visualizations" class="responsive-img" width="92%"/>
 
 Access the links below for the gauge view walkthroughs:
 
@@ -52,7 +52,7 @@ For this tutorial, you will use the *Gauge Views* sheet in the [Slingshot Visual
 
 1. Select the **+ Dashboard** button in the top right-hand corner in the **My Analytics** section.
 
-   <img src="images/dashboard-button-my-analytics.png" alt="Tutorials-Create-New-Dashboard" class="responsive-img" width="90%"/>                                      
+   <img src="images/dashboard-button-my-analytics.png" alt="New dashboard button in My Analytics" class="responsive-img" width="90%"/>                                      
 
 2. Select your data source(**Slingshot Tutorials Spreadsheet**) from the list of data sources. If the data source is new, you will need to first add it from the **+ Data Source** button in the top-right corner.
 
@@ -68,14 +68,14 @@ For this tutorial, you will use the *Gauge Views* sheet in the [Slingshot Visual
 
 5. This linear gauge, for example, will display *Life expectancy* per *Country*. Drag and drop the *Country Name* field to **Label** and one of the *Year* fields into **Values**.
   
-   <img src="images/organizing-data-gauge-visualization.png" alt="Tutorials-LinearGauge-Data" class="responsive-img" width="35%"/>                         
+   <img src="images/organizing-data-gauge-visualization.png" alt="Linear Gauge visualization in the chart types list" class="responsive-img" width="35%"/>                         
 
 <a name='create-circular-gauge'></a>
 ## Creating a Circular Gauge
 
 1. Select the **+ Dashboard** button in the top right-hand corner of **My Analytics**.
 
-   <img src="images/dashboard-button-my-analytics.png" alt="Tutorials-Create-New-Dashboard" class="responsive-img" width="90%"/>                                      
+   <img src="images/dashboard-button-my-analytics.png" alt="New dashboard button in My Analytics" class="responsive-img" width="90%"/>                                      
 
 2. Select your data source(**Slingshot Tutorials Spreadsheet**) from the list of data sources. If the data source is new, you will need to first add it from the **+ Data Source** button in the top-right corner.
 
@@ -91,7 +91,7 @@ For this tutorial, you will use the *Gauge Views* sheet in the [Slingshot Visual
 
 5. This linear gauge, for example, will display *Life expectancy* per *Country*. Drag and drop the *Country Name* field to **Label** and one of the *Year* fields into **Values**.
   
-   <img src="images/organizing-data-gauge-visualization.png" alt="Tutorials-LinearGauge-Data" class="responsive-img" width="35%"/> 
+   <img src="images/organizing-data-gauge-visualization.png" alt="Gauge visualization in the chart types list" class="responsive-img" width="35%"/> 
 
 <a name='aggregation-instructions'></a>
 
@@ -110,7 +110,7 @@ displayed in Values:
 
 1. Select the **+ Dashboard** button in the top right-hand corner of **My Analytics**.
 
-   <img src="images/dashboard-button-my-analytics.png" alt="Tutorials-Create-New-Dashboard" class="responsive-img" width="90%"/>                                      
+   <img src="images/dashboard-button-my-analytics.png" alt="New dashboard button in My Analytics" class="responsive-img" width="90%"/>                                      
 
 2. Select your data source(**Slingshot Tutorials Spreadsheet**) from the list of data sources. If the data source is new, you will need to first add it from the **+ Data Source** button in the top-right corner.
 
@@ -137,7 +137,7 @@ aggregation, [review these instructions](../data-visualizations/fields/calculate
 
 1. Select the **+ Dashboard** button in the top right-hand corner of **My Analytics**.
 
-   <img src="images/dashboard-button-my-analytics.png" alt="Tutorials-Create-New-Dashboard" class="responsive-img" width="90%"/>                                      
+   <img src="images/dashboard-button-my-analytics.png" alt="New dashboard button in My Analytics" class="responsive-img" width="90%"/>                                      
 
 2. Select your data source(**Slingshot Tutorials Spreadsheet**) from the list of data sources. If the data source is new, you will need to first add it from the **+ Data Source** button in the top-right corner.
 

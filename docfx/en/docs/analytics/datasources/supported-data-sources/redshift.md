@@ -60,7 +60,7 @@ view</a> that returns a subset of data from a table or a set of tables instead.
 
 Once your data source has been added, you will be taken to the Visualization Editor. 
 
-<img src="./images/amazon-redshift-visualization-editor.png" alt="Using the data from the Facebook data source in the visualization editor" class="responsive-img" width= "88%"/>
+<img src="./images/amazon-redshift-visualization-editor.png" alt="Using Facebook data in the Visualization Editor" class="responsive-img" width= "88%"/>
 
 By default, the *Column* visualization will be selected. You can click/tap on it in order to choose another chart type from the drop-down menu. 
 

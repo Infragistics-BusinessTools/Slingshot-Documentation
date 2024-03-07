@@ -20,7 +20,7 @@ Each visualization has a **Log into** button (*it can be accessed when you click
 
 The complete dashboard will be displayed in *Dashboard View* mode. 
 
-<img src="images/final-dashboard-own-data-source-example.png" alt="Final look of the dashboard after connecting to its data source" class="responsive-img" width="88%"/>
+<img src="images/final-dashboard-own-data-source-example.png" alt="Example of a connected dashboard" class="responsive-img" width="88%"/>
 
 In the *Connect Data Source* dialog, you may have a list of data source credentials (see screenshot below). These are credentials you have used to log into other source accounts, or that you have added in advance in the [Manage Analytics Credentials](~/docs/analytics/datasources/managing-data-source-credentials.md) menu.
 

@@ -16,25 +16,25 @@ spreadsheets within Analytics.
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p><img src="images/excel.png" alt="excel" /> <img src="images/csv.png" alt="csv"/><br />
+<td><p><img src="images/excel.png" alt="excel icon" /> <img src="images/csv.png" alt="csv icon"/><br />
 </p>
 <p><em>Analytics expects your data to be organized in columns</em> and will name fields after the spreadsheet's first row. If your data is organized in rows instead, you can <a href="#transposing-spreadsheets">transpose</a> the fields in Analytics.</p>
 <p><a href="~/docs/analytics/data-visualizations/visualizations-editor.md">LEARN MORE</a><br />
 </p></td>
-<td><p><img src="images/csv.png" alt="csv" /><br />
+<td><p><img src="images/csv.png" alt="csv icon" /><br />
 </p>
 <p><strong>When working with CSV files, avoid formatting the spreadsheet</strong>. Instead, apply any necessary formatting (1000 comma separators, currency signs, etc.) through Analytics.</p>
 <p><a href="~/docs/analytics/data-visualizations/fields/field-settings.md">LEARN MORE</a><br />
 </p></td>
-<td><p><img src="images/excel.png" alt="excel" /><br />
+<td><p><img src="images/excel.png" alt="excel icon" /><br />
 </p>
 <p><strong>For 2 or more series charts, the order in which you drop fields</strong> in "Columns", "Rows" and "Values" <strong>will determine how the chart is plotted</strong>, regardless of the column order in your Excel file.</p></td>
 </tr>
 <tr class="even">
-<td><p><img src="images/excel.png" alt="excel" /> <img src="images/csv.png" alt="csv" /><br />
+<td><p><img src="images/excel.png" alt="excel icon" /> <img src="images/csv.png" alt="csv icon" /><br />
 </p>
 <p><strong>If columns have different types of data combined</strong> (strings, numbers, etc.), <strong>Analytics will treat them as a column with strings only</strong>. This will affect, among other things, formatting.</p></td>
-<td><p><img src="images/p-lock.png" alt="p lock" /><br />
+<td><p><img src="images/p-lock.png" alt="p lock icon" /><br />
 </p>
 <p>Password-protected files and hidden ranges are not supported in Analytics.</p></td>
 <td></td>
@@ -52,7 +52,7 @@ spreadsheets within Analytics.
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p><img src="images/excel.png" alt="excel" /> <img src="images/csv.png" alt="csv" /><br />
+<td><p><img src="images/excel.png" alt="excel" /> <img src="images/csv.png" alt="csv icon" /><br />
 </p>
 <p><em>Excel files allow you to select a custom range of data within your spreadsheet</em>, while CSV do not. If you need to select specific data, make sure you always work with an Excel spreadsheet.</p></td>
 <td><p><img src="images/excel-columns.png" alt="excel columns" /><br />
@@ -80,22 +80,22 @@ spreadsheets within Analytics.
 <p>By default, <strong>numbers will have 2 fraction digits</strong>. To change this, access the <em>Formatting</em> menu for the field.</p>
 <p><a href="~/docs/analytics/data-visualizations/fields/field-settings.html#numeric-fields">LEARN MORE</a><br />
 </p></td>
-<td><p><img src="images/top-1000.png" alt="top 1000" /><br />
+<td><p><img src="images/top-1000.png" alt="top 1000 icon" /><br />
 </p>
 <p>The 1000 separator is disabled by default, even for large numbers. To turn it on, access the <em>Formatting</em> menu.</p>
 <p><a href="~/docs/analytics/data-visualizations/fields/field-settings.html#numeric-fields">LEARN MORE</a><br />
 </p></td>
-<td><p><img src="images/percentage.png" alt="percentage" /><br />
+<td><p><img src="images/percentage.png" alt="percentage icon" /><br />
 </p>
 <p>If you need to show percentages or currencies, you will need to select that option from the Formatting menu.</p>
 <p><a href="~/docs/analytics/data-visualizations/fields/field-settings.html#numeric-fields">LEARN MORE</a><br />
 </p></td>
 </tr>
 <tr class="even">
-<td><p><img src="images/excel.png" alt="excel" /><br />
+<td><p><img src="images/excel.png" alt="excel icon" /><br />
 </p>
 <p>If you want a date as a column header, make sure you include a ' so Excel will respect your format. The default date format for headers is the full-length format (YYYY-MM-DD 00:00:00 +0000).</p></td>
-<td><p><img src="images/percentage.png" alt="percentage" /><br />
+<td><p><img src="images/percentage.png" alt="percentage icon" /><br />
 </p>
 <p>Percentages in Excel sheets will be shown in a 0 to 1 scale unless the format is changed to "Percentage". For example, 39% will be displayed as 0.39.</p></td>
 <td></td>
@@ -131,7 +131,7 @@ Once you are ready, select the tick icon. This will take you back to the *Data S
 sheet with a new icon to its left indicating that the sheet has been
 modified.
 
-<img src="images/transposed-icon-data-source-details-dialog.png" alt="Transposed icon showing up next to the name of the chosen sheet in the data source details dialog" class="responsive-img" width="55%"/>
+<img src="images/transposed-icon-data-source-details-dialog.png" alt="Transposed icon next to the name of the chosen sheet in the data source details dialog" class="responsive-img" width="55%"/>
 
 ## See Also
 

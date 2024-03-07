@@ -32,7 +32,7 @@ Once ready, select **Add**.
 
 After logging in, you can set up your Microsoft Dynamics CRM data in the following dialog:
 
-<img src="images/microsoft-dynamics-crm-details.png" alt="A dialog containing lists of entities" class="responsive-img" width="57%"/>
+<img src="images/microsoft-dynamics-crm-details.png" alt="A dialog containing Microsoft Dynamics CRM lists of entities" class="responsive-img" width="57%"/>
 
 Here you can choose the Microsoft Dynamics CRM entities you need from:
 
@@ -46,6 +46,6 @@ Once you have chosen your entity, you will be taken to the *Visualization Editor
 
 By default, the *Column* visualization will be selected. You can select it in order to choose another chart type.
 
-<img src="images/microsoft-dynamics-visualization-editor.png" alt="Using the data from Microsoft Dynamics CRM in the visualization editor" class="responsive-img" width="85%"/>
+<img src="images/microsoft-dynamics-visualization-editor.png" alt="Using the data from Microsoft Dynamics CRM in the Visualization Editor" class="responsive-img" width="85%"/>
 
 When you are ready with the visualization editor, you can save the dashboard in **My Analytics** ⇒ **My Dashboards**, a project or in a specific workspace by clicking/tapping on the checkmark in the upper right corner. 

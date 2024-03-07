@@ -15,7 +15,7 @@ To use your OneDrive data, follow the steps below:
 
 2. By clicking *Continue*, you will be redirected to an *authorization prompt*. Click/tap on **Accept** to continue.
 
-  <img src="images/microsoft-onedrive-permissions.png" alt=" A dialog with a set of permissions" class="responsive-img" width="85%"/>
+  <img src="images/microsoft-onedrive-permissions.png" alt=" A dialog with a set of permissions for OneDrive" class="responsive-img" width="85%"/>
 
 After authorizing Analytics to use your data, you can use your *OneDrive* files to build visualizations.
 

@@ -7,6 +7,7 @@ The Instagram data source allows you to connect your *Instagram Business account
 To add an *Instagram* data source to your list, follow the steps described below:
 
 1.	Click on the **+Dashboard** button under the **My Analytics** section.
+
 2.	Click on the **+Data Source** button.
 
 3.	Select **Instagram** as your data source. You can find it under **Social Media** in the data sources list. 
@@ -15,7 +16,7 @@ To add an *Instagram* data source to your list, follow the steps described below
 
 5.	A dialog will open, where you can change the name of the data source, add a description, see if the data source is [certified](../../../certifications.md) (available to *Enterprise* users), and edit the details. 
 
-    <img src="./images/add-instagram-account.png" alt="Edit data source dialog" class="responsive-img" width="50%"/>
+    <img src="./images/add-instagram-account.png" alt="Add an Instagram Account" class="responsive-img" width="50%"/>
 
 6. Choose the pages you want to use for your dashboard and click on **Select Data**.
 
@@ -69,7 +70,7 @@ In the example below, we used the Column chart type which has the following sett
 
 - [Connect this visualization to another dashboard or a URL](../../dashboards/dashboard-linking.md)
 
-<img src="./images/instagram-settings-options.png" alt="Options in the instagram settings" class="responsive-img" width="47%"/>
+<img src="./images/instagram-settings-options.png" alt="Options for Instagram in the Visualization Editor Settings" class="responsive-img" width="47%"/>
 
 When you are ready with the visualization editor, you can save the dashboard in **My Analytics** ⇒ **My Dashboards**, a specific workspace or a project. 
 

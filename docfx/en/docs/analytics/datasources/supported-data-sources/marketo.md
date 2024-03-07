@@ -26,7 +26,7 @@ If you need details about how to create the OAuth credentials you need, check ou
 
 After logging in, you can set up your Marketo data in the following dialog:
 
-<img src="images/marketo-objects.png" alt="A list with objects" class="responsive-img" width="50%"/>
+<img src="images/marketo-objects.png" alt="A list of Marketo objects" class="responsive-img" width="50%"/>
 
 **Activities** and **Leads** objects require you to set two parameters - *From* and *To* (dates) to query the data, before you can continue to the *Visualization editor*. The date range must be no more than 31 days, incl. the first and the last day. 
 
@@ -37,7 +37,7 @@ After logging in, you can set up your Marketo data in the following dialog:
 
 Once your data source has been added, you will be taken to the *Visualization Editor*. By default, the *Column* visualization will be selected. You can click/tap on it in order to choose another [chart type](../../visualization-tutorials/overview.md). Keep in mind that based on the visualization that you have chosen, you will see different types of fields.
 
-<img src="images/marketo-visualization-editor.png" alt="Using data from Marketo in the visualization editor" class="responsive-img" width="85%"/>
+<img src="images/marketo-visualization-editor.png" alt="Using data from Marketo in the Visualization Editor" class="responsive-img" width="85%"/>
 
 When you are ready with your visualization, you can click/tap on the checkmark in the top right corner to save it as a dashboard. In the example below we saved the dashboard in **My Analytics** ⇒ **My Dashboards** ⇒ **Marketing**.
 

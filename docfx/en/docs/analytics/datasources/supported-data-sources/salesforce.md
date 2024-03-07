@@ -20,7 +20,7 @@ information on Identity Confirmation Activations, visit the [Salesforce help](ht
 After logging in, you can set up your Salesforce data in the following
 dialog:
 
-<img src="../images/salesforce-data-source-details-popular-objects.png" alt="Set up your data dialog" class="responsive-img" width="50%"/>
+<img src="../images/salesforce-data-source-details-popular-objects.png" alt="Set up your Salesforce" class="responsive-img" width="50%"/>
 
 Here you can choose from:
 
@@ -34,9 +34,9 @@ Here you can choose from:
 
 ## Using Reports
 
-After selecting which report you want to use in the visualization editor, you need to set the values for the parameters:
+After selecting which report you want to use in the Visualization Editor, you need to set the values for the parameters:
 
-<img src="../images/salesforce-values-for-parameters-filters.png" alt="A dialog showing filters from Salesforce to be configured" class="responsive-img" width="50%"/>
+<img src="../images/salesforce-values-for-parameters-filters.png" alt="Setting up values for Salesforce parameters" class="responsive-img" width="50%"/>
 
 The parameters you see in the list (**Show me**, **Probability**, etc.) are the filters for your report. Report filters are criteria set to control the data a user sees in their report. In Analytics, the filtered data will be used in your charts in the *Visualization editor*.
 
@@ -44,15 +44,15 @@ In the dialog above, filters are preconfigured with the default values from Sale
 
 You can change the report filters' values later in the *Visualization editor* by choosing to **Edit** your data source (as shown below):
 
-<img src="./images/salesforce-edit-option.png" alt="Edit your data source in the Visualization editor" class="responsive-img" width="80%"/>
+<img src="./images/salesforce-edit-option.png" alt="Edit your Salesforce data source in the Visualization Editor" class="responsive-img" width="80%"/>
 
 ## Working in the Visualization Editor 
 
-Once your data source has been added, you will be taken to the *Visualizations Editor*. Here you can build your dashboard. Note that based on the visualization that you have chosen, you will see different types of fields.
+Once your data source has been added, you will be taken to the *Visualization Editor*. Here you can build your dashboard. Note that based on the visualization that you have chosen, you will see different types of fields.
 
-<img src="./images/salesforce-visualization-editor.png" alt="Working in the visualization editor while using the information from a salesforce account" class="responsive-img" width="80%"/>
+<img src="./images/salesforce-visualization-editor.png" alt="Working in the Visualization Editor while using the information from a salesforce account" class="responsive-img" width="80%"/>
 
 When you are ready with your visualization, you can click/tap on the checkmark in the top right corner to save it as a dashboard. In this case we saved the dashboard in **My Analytics** ⇒ **My Dashboards** ⇒ **Accounting**.
 
-<img src="./images/salesforce-my-analytics.png" alt="A salesforce dashboard in the My Analytics section" class="responsive-img" width="80%"/>
+<img src="./images/salesforce-my-analytics.png" alt="A salesforce dashboard in the My Analytics" class="responsive-img" width="80%"/>
 

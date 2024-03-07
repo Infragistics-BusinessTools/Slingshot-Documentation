@@ -17,14 +17,14 @@ Analytics offers multiple components for visualizing data, including the grid ch
 <table class="tg">
 <thead>
   <tr>
-    <th class="tg-x3gl"><br>Table with custom fonts, titles, and widths<br><img src="images/HRDashboardEmployeesDIY_All.png" alt="Image" width="343" height="275"></th>
-    <th class="tg-x3gl"><br>Choropleth map of the population for United States by state<br><img src="images/StatePopulation_all.png" alt="Image" width="400" height="275"></th>
+    <th class="tg-x3gl"><br>Table with custom fonts, titles, and widths<br><img src="images/HRDashboardEmployeesDIY_All.png" alt="Example of a table with custom fonts, titles and widths" width="343" height="275"></th>
+    <th class="tg-x3gl"><br>Choropleth map of the population for United States by state<br><img src="images/StatePopulation_all.png" alt="Choropleth map presenting United States by state" width="400" height="275"></th>
   </tr>
 </thead>
 <tbody>
   <tr>
-    <td class="tg-spkm"><br>Choropleth map of the population for Brazil by state<br><img src="images/BrazilStatePopulation_all.png" alt="Image" width="343" height="275"></td>
-    <td class="tg-2ovq"><br>Choropleth map of worldwide GDP<br><img src="images/WorldPopulationGDP_All.png" alt="Image" width="400" height="275"></td>
+    <td class="tg-spkm"><br>Choropleth map of the population for Brazil by state<br><img src="images/BrazilStatePopulation_all.png" alt="Choropleth map presenting the population for Brazil by state" width="343" height="275"></td>
+    <td class="tg-2ovq"><br>Choropleth map of worldwide GDP<br><img src="images/WorldPopulationGDP_All.png" alt="Example of a choropleth map of worldwide GDP" width="400" height="275"></td>
   </tr>
 </tbody>
 </table>
