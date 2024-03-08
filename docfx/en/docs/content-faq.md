@@ -97,12 +97,12 @@ Then, in the dropdown choose between:
 
 Files in personal and workspace cloud storages will be opened with the default application. However, for files that are pinned on a board in *Content*, you can always choose from their menu which application to use to open them (see the screenshot below). 
 
-<img src="../images/content-open-file.png" alt="Opening a Word file" class="responsive-img" />
+<img src="../images/content-open-file.png" alt="Open Word file" class="responsive-img" />
 ## How to edit files?
 
 Depending on the platform you're on, you can use different applications to edit your files. As Slingshot relies on invoking 3rd party applications to do the job, it's entirely up to you.
 
-<img src="../images/content-edit-file.png" alt="Editing or downloading a Word file" class="responsive-img"/>
+<img src="../images/content-edit-file.png" alt="Edit or download a Word file" class="responsive-img"/>
 
 In any case, you can always download the file to your computer or device.
 

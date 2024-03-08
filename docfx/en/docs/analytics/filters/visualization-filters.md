@@ -20,7 +20,7 @@ the data type of the field. There are three different filter dialogs:
 text, numeric and date fields. Once created, the quick filter will be
 displayed on top of your visualization in the Visualization Editor.
 
-<img src="images/visualization-filter-visualization-editor.png" alt="List of fields in the visualization editor" class="responsive-img" width="90%"/>
+<img src="images/visualization-filter-visualization-editor.png" alt="List of fields in the Visualization Editor" class="responsive-img" width="90%"/>
 
 When the visualization is maximized in Dashboard View mode, you will see
 it under the visualization's title.

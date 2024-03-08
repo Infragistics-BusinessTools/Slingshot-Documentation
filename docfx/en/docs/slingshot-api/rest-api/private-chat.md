@@ -49,7 +49,7 @@ You can use private chats in order to communicate with other users. As they are 
 
 ## Create a private chat 
 
-<img src="../images/post-request.png" alt="Post request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***htt<area>ps://my.slingshotapp<area>.io/v1/privatechats***</span>
+<img src="../images/post-request.png" alt="Post request for a private chat" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***htt<area>ps://my.slingshotapp<area>.io/v1/privatechats***</span>
 
 Required parameters: None
 
@@ -110,7 +110,7 @@ Example of a successful request body:
 
 ## Get a private chat
 
-<img src="../images/get.png" alt="Get request" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/privatechats/{id}***
+<img src="../images/get.png" alt="Get request for a private chat" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/privatechats/{id}***
 
 Required parameters: the **id** of the private chat 
 
@@ -126,7 +126,7 @@ Code | Description|
 
 ## Get all private chats
 
-<img src="../images/get-all.png" alt="Get all request" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> <span class="italic">***htt<area>ps://my.slingshotapp<area>.io/v1/privatechats***</span>
+<img src="../images/get-all.png" alt="Get all request for private chats" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> <span class="italic">***htt<area>ps://my.slingshotapp<area>.io/v1/privatechats***</span>
 
 Required parameters: None
 
@@ -142,7 +142,7 @@ Code | Description|
 
 ## Update a private chat 
 
-<img src="../images/patch.png" alt="Patch request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/privatechats/{id}***
+<img src="../images/patch.png" alt="Patch request for a private chat" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/privatechats/{id}***
 
 Required parameters: the **id** of the private chat
 
@@ -205,7 +205,7 @@ Example of a successful request body:
 
 ## Get private chat messages
 
-<img src="../images/get.png" alt="Get request" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> ***<span class="italic">***htt<area>ps://my.slingshotapp<area>.io/v1/privatechats/{id}/messages***</span>***
+<img src="../images/get.png" alt="Get request for a private chat" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> ***<span class="italic">***htt<area>ps://my.slingshotapp<area>.io/v1/privatechats/{id}/messages***</span>***
 
 Required parameters: the **id** of the private chat
 
@@ -223,7 +223,7 @@ Possible responses:
 
 ## Send a private chat message  
 
-<img src="../images/post-sending-private-chat.png" alt="Sending private chat with post request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/privatechats/{id}/send***
+<img src="../images/post-sending-private-chat.png" alt="Send private chat with post request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/privatechats/{id}/send***
 
 Required parameters: the **id** of the private chat 
 
@@ -246,7 +246,7 @@ Possible responses:
 
 ## Add members to a private chat 
 
-<img src="../images/post-request.png" alt="Post request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/privatechats/{id}/members***
+<img src="../images/post-request.png" alt="Post request for adding members to a private chat" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/privatechats/{id}/members***
 
 Required parameters: the **id** of the private chat
 
@@ -315,7 +315,7 @@ Example of a successful request body:
 
 ## Remove members from a private chat
 
-<img src="../images/delete.png" alt="Delete request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/privatechats/{id}/members***
+<img src="../images/delete.png" alt="Delete request for removing members from a private chat" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/privatechats/{id}/members***
 
 Required parameters: the **id** of the private chat
 

@@ -4,7 +4,6 @@ There are three different tiers available on Slingshot – *Free*, *Slingshot* a
 
 ## What role can I have while using the Slingshot Enterprise subscription?
 
-
 | Permissions | Subscription Admin | Organization Admin | User          |
 | ------------------------------------ | ------------------ | ------------------ | ----------------- |
 | Manage the subscription (activate and/or cancel the Enterprise subscription, invite users to the organization, remove users from the organization) | :white_check_mark: | :x:  | :x:  |
@@ -18,8 +17,11 @@ There are three different tiers available on Slingshot – *Free*, *Slingshot* a
 You can activate a Slingshot Enterprise subscription with the following steps:
 
 1.	Log in to your *Slingshot* account.
+
 2.	Go to your profile settings and choose **Subscriptions**.
+
 3.	Click/tap on **Upgrade** to be presented with the pricing page.
+
 4.	Click/tap on **Buy Now** to select your number of seats and complete your purchase. 
 
 <img src="../images/enterprise-subscription-purchase.png" alt="Information required for completing the purchase" width="70%" class="responsive-img"/>
@@ -31,6 +33,7 @@ You can activate a Slingshot Enterprise subscription with the following steps:
 The *Subscription Admin* can send an invite to that user for the organization. To do that, you can give the steps mentioned below a go:
 
 1.	Go to the customer portal and click on **Subscriptions**.
+
 2.	Choose **Manage users**.
 
  <img src="../images/manage-users-slingshot-enterprise-subscription.png" alt="Manage users option in the subscriptions section" width="70%" class="responsive-img"/>
@@ -59,13 +62,13 @@ You can contact our support team by clicking on **Contact Us** or submit a new s
 
  The subscription owner/admin can cancel the Slingshot Enterprise subscription from the Slingshot portal.
 
- <img src="../images/cancel-subscription-option.png" alt="The option to cancel a subscription in the portal " width="65%" class="responsive-img"/>
+ <img src="../images/cancel-subscription-option.png" alt="The option to cancel a subscription in the portal" width="65%" class="responsive-img"/>
 
  ## If a user gets removed from an organization in the app, what will happen to the user’s account?
 
  The account of the user will be deactivated but the data will be retained for the organization. The *Organization Admin* can manage the list that contains all the deactivated users from the **Shared with Me** section in the *Edit Organization* dialog.
 
-<img src="../images/deactivated-users.png" alt="List of deactivated users in the edit organization settings " class="responsive-img" width="45%"/>
+<img src="../images/deactivated-users.png" alt="List of deactivated users in the Edit Organization settings " class="responsive-img" width="45%"/>
 
 ## Can a user join different Slingshot Enterprise subscriptions?
 

@@ -34,7 +34,7 @@ You are now directed to the *Visualization editor* where you can start
 building your visualizations with the data retrieved from Google
 BigQuery.
 
- <img src="images/visualization-editor-google-big-query.png" alt="Google Big Query data in the visualization editor" class="responsive-img" width="85%"/>
+ <img src="images/visualization-editor-google-big-query.png" alt="Google Big Query data in the Visualization Editor" class="responsive-img" width="85%"/>
 
 ## Limitations in the Visualization Editor
 

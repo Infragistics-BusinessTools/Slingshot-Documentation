@@ -9,7 +9,7 @@ When configuring certain data sources in Analytics, you need to provide
 your account credentials for these services to access your information.
 These credentials are encrypted and **automatically stored** by Analytics for future use.
 
-To access and manage all your credentials, select: your **profile picture** (top right corner) -> **Settings** -> **Data Source Credentials**.
+To access and manage all your credentials, select: your **profile picture** (top right corner) ⇒ **Settings** ⇒ **Data Source Credentials**.
 
  <img src="images/data-source-credentials-settings.png" alt="A list of data source credentials in the settings menu" class="responsive-img" width="55%"/>
 

@@ -20,7 +20,7 @@ The LinkedIn data source allows you to connect your *LinkedIn Ads account* to Sl
 
 6.	In the dialog that opens, you can change the LinkedIn Ads Account name, add a description, certify the data source, and select the location for the data source.
 
- <img src="./images/add-linkedin-account-dialog.png" alt="Dialog for adding LinkedIn account to the list od data sources" class="responsive-img" width="90%"/>
+ <img src="./images/add-linkedin-account-dialog.png" alt="Dialog for adding LinkedIn account to the list of data sources" class="responsive-img" width="90%"/>
 
 7. Click/tap on **Add Data Source** to connect the account to your Slingshot account.
 
@@ -28,7 +28,7 @@ The LinkedIn data source allows you to connect your *LinkedIn Ads account* to Sl
 
 When you create a dashboard with information coming from a LinkedIn Ads account, you will see that there are two sections in their own fields.    
 
-<img src="./images/linkedin-visualization-editor.png" alt="LinkedIn visualization editor dialog" class="responsive-img" width="90%"/>
+<img src="./images/linkedin-visualization-editor.png" alt="LinkedIn Visualization Editor" class="responsive-img" width="90%"/>
 
 1.	**Dimensions**: They are the attributes of your data.
 
@@ -40,7 +40,7 @@ This filter can’t be removed, but you can change the date range. The date filt
 
 If you want to change it, you can click on the arrow in the upper right corner (see the screenshot below) and pick a date range from the dropdown menu. You can also create a custom one when you click on the first option.
 
-<img src="./images/linkedin-date-range.png" alt="date range in the visualization editor for LinkedIn" class="responsive-img" width="90%"/>
+<img src="./images/linkedin-date-range.png" alt="Date range in the Visualization Editor for LinkedIn" class="responsive-img" width="90%"/>
 
 ## Settings
 
@@ -70,10 +70,10 @@ In this case we used the *Column* chart where you can make the following changes
 
 - Connect this visualization to another dashboard or a URI. You can check [this](https://www.slingshotapp.io/en/help/docs/analytics/dashboards/dashboard-linking) article for more information about how to link dashboards.
 
-<img src="./images/linkedIn-settings.gif" alt="settings in the linkedIn visualization editor" class="responsive-img" width="90%"/>
+<img src="./images/linkedIn-settings.gif" alt="Settings in the LinkedIn Visualization Editor" class="responsive-img" width="90%"/>
 
 When you are ready with the visualization editor, you can save the dashboard in **My Analytics** ⇒ **My Dashboards** or in a specific workspace.
 
-<img src="./images/my-analytics-linkedin-dashboard.png" alt="LinkedIn dashboard in the dasboard section" class="responsive-img" width="90%"/>
+<img src="./images/my-analytics-linkedin-dashboard.png" alt="LinkedIn dashboard in a dasboard section" class="responsive-img" width="90%"/>
 
 If you want to find more information about the data sources, you can head [here](https://www.slingshotapp.io/en/help/docs/analytics/datasources/overview). 

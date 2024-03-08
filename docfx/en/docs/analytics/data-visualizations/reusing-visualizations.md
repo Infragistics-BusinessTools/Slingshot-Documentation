@@ -17,7 +17,7 @@ Sometimes, you need to duplicate an already customized visualization and
 then tweak the duplicate's data set. For example, the charts below show
 *Hires Over Time* for all offices and a specific one separately.
 
-<img src="images/duplicate-visualization-example.png" alt="Duplicated visualizations" class="responsive-img" width="90%"/>
+<img src="images/duplicate-visualization-example.png" alt="Example of duplicated visualizations" class="responsive-img" width="90%"/>
 
 ## Copying and Pasting a Visualization
 

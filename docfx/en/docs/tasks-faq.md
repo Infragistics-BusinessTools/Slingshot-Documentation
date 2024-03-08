@@ -36,17 +36,17 @@ To open a task, just click/tap over it.
 
 You can always create a **new task** with the button on the top right of the screen, no matter the view type you have selected (*List*, *Kanban*, or *Timeline*).
 
-<img src="../images/tasks-new.png" alt="Creating a new task within Slingshot" class="responsive-img"/>
+<img src="../images/tasks-new.png" alt="Create a new task within Slingshot" class="responsive-img"/>
 
 As shown above, there are always other _+ Task_ buttons depending on the *view type*.
 
 You can directly create a new **subtask** using the main task's overflow menu, as shown below.
 
-<img src="../images/tasks-new-subtasks-menu.png" alt="Creating a new subtask from the overflow menu in Slingshot" class="responsive-img"/>
+<img src="../images/tasks-new-subtasks-menu.png" alt="Create a new subtask from the overflow menu in Slingshot" class="responsive-img"/>
 
 Alternatively, you can create subtasks for a task that is already opened:
 
-<img src="../images/tasks-new-subtasks-from-task.png" alt="Creating a new subtask within a Slingshot task" width="75%" class="responsive-img"/>
+<img src="../images/tasks-new-subtasks-from-task.png" alt="Create a new subtask within a Slingshot task" width="75%" class="responsive-img"/>
 
 Having the task opened also allows you to insert new subtasks and this way reorder the existing subtasks (see below)
 
@@ -76,7 +76,7 @@ The **most reliable method** is to open a task by clicking/tapping it (or throug
 
 A **faster method** is to just click/tap the property value you want to change, like shown below with the _Status_ property.
 
-<img src="../images/tasks-change-property.png" alt="Slingshot task being updated by changing its status" class="responsive-img"/>
+<img src="../images/tasks-change-property.png" alt="Change of properties in a task" class="responsive-img"/>
 
 <a name="show-hide-property"></a>
 ## How can I show/hide properties?
@@ -85,8 +85,7 @@ Tasks have many field properties that can be displayed when in the *List* and *K
 
 To show/hide properties, click/tap the **overflow** button on top (next to the *+New* button) > **Fields** and select from the list of properties (as shown below).
 
-<img src="../images/tasks-fields.png" alt="Accessing task fields within Slingshot" class="responsive-img"/>
-
+<img src="../images/tasks-fields.png" alt="Access task fields within Slingshot" class="responsive-img"/>
 
 <a name="tasks-filters"></a>
 ## How can I filter tasks?
@@ -102,7 +101,7 @@ Sometimes you might want to save a filter and use it again in the future. This a
 
 To create and save a filter use _+ Filter_ as shown below.
 
-<img src="../images/tasks-filters-new.png" alt="Creating tasks filters within Slingshot" class="responsive-img"/>
+<img src="../images/tasks-filters-new.png" alt="Create tasks filters within Slingshot" class="responsive-img"/>
 
 Slingshot has a few filters out-of-the-box: _My Tasks_, _Due this Week_, and _Overdue_ (shown in the screenshot above). But at any time you can create new custom filters or edit existing custom filters.
 
@@ -110,7 +109,7 @@ Keep in mind that filters you create and save in a workspace will be visible not
 
 In addition, you can save a filter you just created on the spot using _Save As Filter_, as shown below.
 
-<img src="../images/tasks-filters-save.png" alt="Saving tasks filters on the fly within Slingshot" class="responsive-img"/>
+<img src="../images/tasks-filters-save.png" alt="Save tasks filters on the fly within Slingshot" class="responsive-img"/>
 
 To stop filtering tasks, click/tap the **filter icon** to open the **Filters** dialog. Then, select the **Clear** button at the bottom to remove the current filters, and **Apply** to save your changes. 
 
@@ -120,7 +119,7 @@ For those times that you can't find a specific task, try expanding collapsed pan
 
 You can choose between three different visualizations (_List_, _Kanban_, _Timeline_), depending on what you want to achieve.
 
-<img src="../images/tasks-visualizations.png" alt="Switching visualizations within Slingshot" class="responsive-img"/>
+<img src="../images/tasks-visualizations.png" alt="Switch visualizations within Slingshot" class="responsive-img"/>
 
 By default, you view your tasks as a straightforward **List**, which is often good enough. Most of the screenshots in this documentation present tasks in the *List* view. This is so because most of the time the preferred view type does not affect how *Tasks* are used and managed. When it does, we will show the differences in each view. 
 
@@ -141,7 +140,7 @@ You can even show/hide weekends by checking the **Show Weekends** box in the ove
 
 You will notice a hook on both corners of each task on the timeline. Drag the left hook of a task and connect it to another task (see in the screenshot below). With this, you will add a *waiting on* [**dependency**](#how-can-i-make-a-task-depend-on-another-task) to the first task. Use the right hook to add a blocking dependency. 
 
-<img src="../images/tasks-visualizations-timeline-settings.png" alt="Adjusting the Timeline view in Slingshot" class="responsive-img"/>
+<img src="../images/tasks-visualizations-timeline-settings.png" alt="Adjust the Timeline view in Slingshot" class="responsive-img"/>
 
 ## How can I group my tasks? 
 
@@ -206,7 +205,7 @@ The ability to add **Attachments** ensures that Slingshot captures all the relev
 
 Each task can include one or more attachments, including images, documents, or links for specific tasks and subtasks.
 
-<img src="../images/tasks-attachments.png" alt="Displaying a Slingshot task with attachments" width="75%" class="responsive-img"/>
+<img src="../images/tasks-attachments.png" alt="Display a Slingshot task with attachments" width="75%" class="responsive-img"/>
 
 Files attached can be opened, downloaded, or detached (unpinned) from the task.
 
@@ -215,7 +214,7 @@ Files attached can be opened, downloaded, or detached (unpinned) from the task.
 
 To attach a file, open a task and click/tap the clip icon as shown below.
 
-<img src="../images/tasks-attachments-new.png" alt="Adding attachments to a Slingshot task" width="75%" class="responsive-img"/>
+<img src="../images/tasks-attachments-new.png" alt="Add attachments to a Slingshot task" width="75%" class="responsive-img"/>
 
 ## How to create a task from a discussion or a chat message?
 
@@ -223,6 +222,6 @@ Slingshot ensures all your communication and collaboration tools are in one plac
 
 Improve your productivity by creating tasks from your messages as shown below:
 
-<img src="../images/tasks-discussions.png" alt="Adding a new Slingshot task from a topic in a discussion" class="responsive-img"/>
+<img src="../images/tasks-discussions.png" alt="Add a new Slingshot task from a topic in a discussion" class="responsive-img"/>
 
 You can use any discussion or private/group chat message to start quickly. After selecting where you want to add your task from the message, you will have the message automatically added to the description of your new task. 

@@ -7,7 +7,8 @@ _description: Learn how to configure your Sybase data source in Slingshot, retri
 
 >[!NOTE] **Limitations in Web**. In the *Analytics Web* app, you can connect only to publicly accessible Sybase addresses. If your Sybase address is restricted for the general public (private or hosted in the company's intranet, for example), you can use *Analytics Desktop*, *iOS* or *Android* to connect to it. The device where you're running Analytics needs to have access to this Sybase address. This limitation does not apply to *Analytics Embedded*.
 
-## Connecting to Sybases
+## Connecting to Sybase
+
 To configure a Sybase server data source, you will need to enter the
 following information:
 
@@ -67,7 +68,7 @@ that returns a subset of data from a table or a set of tables instead.
 
 The **syscacheinfo** view, for example, contains information about the cache, taken from one of the tables in the database.
 
-<img src="images/sybase-view-visualization.png" alt="Creating a visualization while using a sybase view" class="responsive-img" width="75%"/>
+<img src="images/sybase-view-visualization.png" alt="Example of a Sybase view visualization" class="responsive-img" width="75%"/>
 
 For more information on views and Sybase, visit <a href="http://infocenter.sybase.com/help/index.jsp?topic=/com.sybase.infocenter.dc32300.1570/html/sqlug/X29678.htm" target="_blank">this documentation website</a>.
 
@@ -78,7 +79,7 @@ statements in a relational database with specific parameters.
 
 In this case, for example, the stored procedure requires users to set @name range value.
 
-<img src="images/stored-procedure-parameters-sybase.png" alt="Stored Procedure select name" class="responsive-img" width="57%"/>
+<img src="images/stored-procedure-parameters-sybase.png" alt="Sett a range value for Sybase stored procedure up" class="responsive-img" width="57%"/>
 
 For more information on Stored Procedures and Sybase, visit <a href="http://infocenter.sybase.com/help/index.jsp?topic=/com.sybase.infocenter.dc32300.1570/html/sqlug/X39397.htm" target="_blank">this documentation website</a>.
 
@@ -86,7 +87,7 @@ For more information on Stored Procedures and Sybase, visit <a href="http://info
 
 Once your data source has been added, you will be taken to the *Visualization Editor*. Here you can build your dashboard. By default, the *Column* visualization will be selected. You can select it in order to choose another chart type.
 
-<img src="images/visualization-editor-sybase.png" alt="Using Sybase data to create a dashboard in the visualization editor" class="responsive-img" width="80%"/>
+<img src="images/visualization-editor-sybase.png" alt=" Sybase data in the Visualization Editor" class="responsive-img" width="80%"/>
 
 When you are ready with your visualization, you can save it as a dashboard by clicking/tapping on the checkmark in the top right corner. In this case we saved the dashboard in **My Analytics** ⇒ **My Dashboards** ⇒ **Statistics**.
 

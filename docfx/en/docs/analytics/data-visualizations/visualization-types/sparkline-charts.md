@@ -9,7 +9,7 @@ Sparkline charts are small charts plotted within a grid chart, without
 any axes, labels or other chart elements. They are meant to represent
 trends and their progression in a given date range.
 
-<img src="images/sparkline-chart-example.png" alt="Sparkline Chart sample" class="responsive-img" width="87%"/>
+<img src="images/sparkline-chart-example.png" alt="Sparkline Chart example" class="responsive-img" width="87%"/>
 
 The first column remains fixed in the Visualization Editor, allowing
 you to scroll through the different columns in your information.

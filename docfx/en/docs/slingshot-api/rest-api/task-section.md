@@ -47,7 +47,7 @@ You can use tasks in order to better organize your work. For better visibility, 
 
 ## Create a task section
 
-<img src="../images/post-request.png" alt="Post request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***htt<area>ps://my.slingshotapp<area>.io/v1/tasksections***</span>
+<img src="../images/post-request.png" alt="Post request for a task section" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***htt<area>ps://my.slingshotapp<area>.io/v1/tasksections***</span>
 
 Required parameters: None 
 
@@ -111,7 +111,7 @@ Example of a successful request body:
 
 ## Get a task section
  
-<img src="../images/get.png" alt="Get request" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/tasksections/{id}***
+<img src="../images/get.png" alt="Get request for a task section" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/tasksections/{id}***
 
 Required parameters: the **id** of the task  
 
@@ -127,7 +127,7 @@ Possible responses:
 
 ## Get all task sections for a parent task list
 
-<img src="../images/get-all.png" alt="Get all request" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/tasksections/parent/{id}***
+<img src="../images/get-all.png" alt="Get all request for task sections" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/tasksections/parent/{id}***
 
 Required parameters: the **id** of the parent task list
 
@@ -143,7 +143,7 @@ Code | Description|
 
 ## Update a task section  
 
-<img src="../images/patch.png" alt="Patch request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/tasksections/{id}***
+<img src="../images/patch.png" alt="Patch request for a task section" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/tasksections/{id}***
 
 Required parameters: the **id** of the tasks section
 
@@ -202,7 +202,7 @@ Example of a successful request body:
 
 ## Delete a task section 
 
-<img src="../images/delete.png" alt="Delete request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/tasksections/{id}***
+<img src="../images/delete.png" alt="Delete request for a task section" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/tasksections/{id}***
 
 Required parameters: the **id** of the tasks section
 

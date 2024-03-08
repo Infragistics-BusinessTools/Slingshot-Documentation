@@ -80,7 +80,7 @@ To follow this walkthrough, download the [2016 November General Election](https:
 
 As a result, you can see the USA map, divided into states. The larger the percent of voters in a state, the more intensive the blue color of the state is.
 
-<img src="images/choropleth-visualization-example.png" alt="Choropleth map visualization" class="responsive-img" width="85%"/>
+<img src="images/choropleth-visualization-example.png" alt="Choropleth map visualization example" class="responsive-img" width="85%"/>
 
 <a name='map-color'></a>
 ## Using the Map Color to Create a Multi-Color Choropleth Map

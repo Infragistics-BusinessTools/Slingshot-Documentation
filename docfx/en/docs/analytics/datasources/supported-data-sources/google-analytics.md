@@ -55,7 +55,7 @@ provides an SDK to gather usage data from iOS and Android apps.
 
       - Once a week
        
-After your credentials are verified, Analytics will take you to the *Visualizations Editor*.
+After your credentials are verified, Analytics will take you to the *Visualization Editor*.
 
 ## Working in the Visualization Editor
 
@@ -91,7 +91,7 @@ You can use *Goals* defined in Google Analytics in the *Visualization
 Editor*. Your *Goals* are listed as part of the metrics in both
 **Dimensions** and **Measures** data types.
 
-<img src="images/goals-google-analytics.png" alt="goals google analytics option" class="responsive-img" width="50%"/>
+<img src="images/goals-google-analytics.png" alt="Goals in Google Analytics" class="responsive-img" width="50%"/>
 
 As you can see in the example above, the titles of your Google Analytics
 *Goals* in Analytics include one or more of the following:

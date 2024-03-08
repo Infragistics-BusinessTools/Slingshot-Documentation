@@ -42,14 +42,14 @@ The following example uses
 of the dynamic OData samples. A visualization was created initially,
 which had two fields (**ID** and **Name**) with four categories.
 
-<img src="images/visualization-editor-odata-feed.png" alt="ODataOpenTypesSampleV3\_All" class="responsive-img" width="85%"/>
+<img src="images/visualization-editor-odata-feed.png" alt="Odata Feed data in the Visualization Editor" class="responsive-img" width="85%"/>
 
 
 A new record with a new Property was added to the Category section through <a href="https://www.odata.org/getting-started/learning-odata-on-postman/" target="_blank">Postman</a>.
 After the changes, the dashboard was refreshed to display the new
 record.
 
-<img src="images/odata-feed-new-record-example.png" alt="ODataRefreshedOpenTypeV3\_All" class="responsive-img" width="85%"/>
+<img src="images/odata-feed-new-record-example.png" alt="New OData Feed record in the Visualization Editor" class="responsive-img" width="85%"/>
 
 For more information on Open Types in OData, refer to <a href="https://docs.microsoft.com/en-us/aspnet/web-api/overview/odata-support-in-aspnet-web-api/odata-v4/use-open-types-in-odata-v4" target="_blank">this article</a>.
 
@@ -63,11 +63,11 @@ Depending on your function, you might need to enter one or more values
 to get your data. The V3 OData sample includes the following sample
 function, where you have to enter a **rating** value to get results.
 
-<img src="images/odata-feed-function.png" alt="Setting up rating value of a function and Function preview dialog" class="responsive-img" width="55%"/>
+<img src="images/odata-feed-function.png" alt="Set up of rating value of a OData Feed function" class="responsive-img" width="55%"/>
 
 Once ready, the *Visualization Editor* will load the fields in the data
 source which meet the function condition.
 
-<img src="images/odata-feed-visualization-editor-function.png" alt="Odata function used in the Visualization editor" class="responsive-img" width="85%"/>
+<img src="images/odata-feed-visualization-editor-function.png" alt="Odata function used in the Visualization Editor" class="responsive-img" width="85%"/>
 
 For more information on OData functions, please refer to <a href="https://docs.microsoft.com/en-us/aspnet/web-api/overview/odata-support-in-aspnet-web-api/odata-v4/odata-actions-and-functions" target="_blank">this article</a>.

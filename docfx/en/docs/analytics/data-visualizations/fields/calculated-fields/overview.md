@@ -29,7 +29,7 @@ aggregations. This means in order to apply a certain formula, Analytics will go 
 To add a new pre-calculated field, click/tap the **+ button** in the
 *Fields* panel and choose **Calculated Field**:
 
-<img src="images/calculated-field-option.png" alt="Pre-calculated field option" class="responsive-img" width="90%"/>
+<img src="images/calculated-field-option.png" alt="Pre-calculated field option in data editor for a dashboard" class="responsive-img" width="90%"/>
 
 The *New Calculated Field* screen will open:
 
