@@ -66,7 +66,7 @@ returns a subset of data from a table or a set of tables instead.
 In the sample above, the **invoices** view contains a modified version
 of the data in the **Products** table in the PostgreSQL server.
 
-<img src="../images/postgresql-comparison-table-view.png" alt="Example dashboard using PostgreSQL invoices view data" class="responsive-img"/>
+<img src="../images/postgresql-comparison-table-view.png" alt="Example of dashboard using PostgreSQL invoices view data" class="responsive-img"/>
 
 ### Working With Functions
 

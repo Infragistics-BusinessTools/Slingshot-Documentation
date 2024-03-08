@@ -17,7 +17,7 @@ You can enter your login credentials and click on *Log In*.
 
 After logging in, you can set up your Hubspot data in the following dialog:
 
-<img src="../images/hubspot-data-source-details.png" alt="Set up your hubspot data" class="responsive-img" width="55%"/>
+<img src="../images/hubspot-data-source-details.png" alt="Set up your Hubspot data" class="responsive-img" width="55%"/>
 
 Here you will find a list of your Hubspot **Objects**. In big lists, use the *Search* to find quickly the object you need.
 

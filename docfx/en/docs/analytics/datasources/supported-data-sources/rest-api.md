@@ -31,7 +31,7 @@ requests.
 To configure a REST API data source, you will need to enter the
 following information:
 
-<img src="images/Configuring-REST-API-Data-Source_All.png" alt="Configuring a Rest API data source" class="responsive-img"/>
+<img src="images/Configuring-REST-API-Data-Source_All.png" alt="Configure a Rest API data source" class="responsive-img"/>
 
 1.  **Default name** of the data source: Your data source name will be displayed in the list of accounts in the previous dialog. By default, Analytics names it *REST API*. You can change it to your preference.
 
@@ -63,12 +63,12 @@ To use parameters effectively follow the procedure below:
     parameters are color-coded in *blue* to make them more easily
     identifiable.
 
-    <img src="images/Parameters-URL-Rest-API.png" alt="Setting up Rest API parameters" class="responsive-img"/>
+    <img src="images/Parameters-URL-Rest-API.png" alt="Set up Rest API parameters" class="responsive-img"/>
 
 2.  **Add parameters' values**. In the following screen specify the
     value of each parameter you have added in the URL.
 
-    <img src="images/Parameters-Values-Rest-API.png" alt="Setting up Rest API Parameters Values" class="responsive-img"/>
+    <img src="images/Parameters-Values-Rest-API.png" alt="Set up Rest API Parameters Values" class="responsive-img"/>
 
     As a result, the REST API service will respond with the data on the
     provided URL in a REST compliant format. Generally, you will receive
@@ -123,7 +123,7 @@ generally consists of:
 4.  A **Body**: an optional message (when using *POST* and *PUT*
     methods) containing data
 
-    <img src="images/Working-With-Methods.png" alt="Working With Methods for Rest API" class="responsive-img"/>
+    <img src="images/Working-With-Methods.png" alt="Methods for Rest API" class="responsive-img"/>
 
 For more information about the Header and Body of a request, please
 refer to [this link](https://developer.mozilla.org/en-US/docs/Web/HTTP/Messages#Headers).

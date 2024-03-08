@@ -20,7 +20,7 @@ To configure your Azure Analysis Services data source, you will need to perform 
 
 2. Provide a *URL* to your server in the **Add Azure SSAS Server** dialog:
 
-    <img src="images/add-azure-ssas-server.png" alt="Configuring an Azure Analysis Services connection" class="responsive-img" width="50%"/>
+    <img src="images/add-azure-ssas-server.png" alt="Configure an Azure Analysis Services connection" class="responsive-img" width="50%"/>
 
     The requested **URL** is the full name of the server, which contains the database with the data models you want to connect. You can *copy the server name* from the Azure Portal. To do this, go to:
 
@@ -40,7 +40,7 @@ To configure your Azure Analysis Services data source, you will need to perform 
 
 - *Measures* consist of numeric data.
 
-<img src="images/azure-ssas-visualization-editor.png" alt="Using Azure SSAS data in the Visualization Editor" class="responsive-img" width="75%"/>
+<img src="images/azure-ssas-visualization-editor.png" alt="Azure SSAS data in the Visualization Editor" class="responsive-img" width="75%"/>
 
 By default, the *Column* visualization will be selected. You can click/tap on it in order to choose another chart type from the drop-down menu.
 

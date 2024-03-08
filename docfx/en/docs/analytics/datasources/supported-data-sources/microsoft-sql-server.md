@@ -84,7 +84,7 @@ This stored procedure, for example, returns the products in the
 **Products** table ordered by their **Unit Price**. The **ProductName**
 has been renamed to **TenMostExpensiveProducts**.
 
-<img src="images/stored-procedures-sample-result.png" alt="Using Microsoft SQL Stored Procedure in Slingshot" class="responsive-img" width="85%"/>
+<img src="images/stored-procedures-sample-result.png" alt="Example of Microsoft SQL Stored Procedure dashboard" class="responsive-img" width="85%"/>
 
 In this case, the stored procedure requires users to add the order ID in order display the **CustOrdersDetail** information.
 

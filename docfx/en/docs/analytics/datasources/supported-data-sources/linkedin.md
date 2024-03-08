@@ -70,7 +70,7 @@ In this case we used the *Column* chart where you can make the following changes
 
 - Connect this visualization to another dashboard or a URI. You can check [this](https://www.slingshotapp.io/en/help/docs/analytics/dashboards/dashboard-linking) article for more information about how to link dashboards.
 
-<img src="./images/linkedIn-settings.gif" alt="settings in the LinkedIn Visualization Editor" class="responsive-img" width="90%"/>
+<img src="./images/linkedIn-settings.gif" alt="Settings in the LinkedIn Visualization Editor" class="responsive-img" width="90%"/>
 
 When you are ready with the visualization editor, you can save the dashboard in **My Analytics** ⇒ **My Dashboards** or in a specific workspace.
 

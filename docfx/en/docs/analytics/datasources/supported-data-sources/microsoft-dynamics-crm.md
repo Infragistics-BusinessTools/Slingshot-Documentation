@@ -46,6 +46,6 @@ Once you have chosen your entity, you will be taken to the *Visualization Editor
 
 By default, the *Column* visualization will be selected. You can select it in order to choose another chart type.
 
-<img src="images/microsoft-dynamics-visualization-editor.png" alt="Using the data from Microsoft Dynamics CRM in the Visualization Editor" class="responsive-img" width="85%"/>
+<img src="images/microsoft-dynamics-visualization-editor.png" alt="Microsoft Dynamics CRM data in the Visualization Editor" class="responsive-img" width="85%"/>
 
 When you are ready with the visualization editor, you can save the dashboard in **My Analytics** ⇒ **My Dashboards**, a project or in a specific workspace by clicking/tapping on the checkmark in the upper right corner. 

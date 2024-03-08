@@ -14,7 +14,7 @@ massive datasets for your visualizations with no slow down.
 To configure a Microsoft Azure Synapse Analytics data source, you will
 need to enter the following information:
 
-<img src="../images/microsoft-azure-synapse-analytics-configuration.png" alt="Configuring Azure Synapse data source dialog" class="responsive-img" width="55%"/>
+<img src="../images/microsoft-azure-synapse-analytics-configuration.png" alt="Configure Azure Synapse data source dialog" class="responsive-img" width="55%"/>
 
 1.  **[Server](#how-to-find-your-server-information)**: the computer name or IP address assigned to the computer
     on which the server is running.
@@ -70,7 +70,7 @@ Once your data source has been added, you will be taken to the *Visualization Ed
 
 Keep in mind that the *Column* visualization will be selected by default. You can click/tap on it in order to choose another chart type.
 
-<img src="./images/visualization-editor-azure-synapse.png" alt="Using data from Microsoft Azure Synapse analytics account in the Visualization Editor" class="responsive-img" width="85%"/>
+<img src="./images/visualization-editor-azure-synapse.png" alt="Microsoft Azure Synapse data in the Visualization Editor" class="responsive-img" width="85%"/>
 
 ## Limitations in the Visualization Editor
 
