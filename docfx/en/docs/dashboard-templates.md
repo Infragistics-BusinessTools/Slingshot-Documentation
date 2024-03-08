@@ -30,7 +30,7 @@ The *Slingshot* templates are organized based on different industries/department
 
 3.	You will be presented with a preview of how the dashboard will look like. In this case, we chose the **Keyword Performance** template that uses *Google Search Console* as a data source.
 
-<img src="../images/dashboard-template-preview-keyword-performance.png" alt="dashboard template example" class="responsive-img" width="90%" />
+<img src="../images/dashboard-template-preview-keyword-performance.png" alt="Dashboard template example" class="responsive-img" width="90%" />
 
 4.	Here you can check how many visualizations the dashboard contains, the type of data source that it uses, and see who created it. 
 
@@ -38,7 +38,7 @@ The *Slingshot* templates are organized based on different industries/department
 
 6.	You will be presented with a dialog where you can change the title of your dashboard and add a description by clicking/tapping on each text box.
 
-<img src="../images/new-dashboard-dialog.png" alt="new dashboard dialog" class="responsive-img" width="90%" />
+<img src="../images/new-dashboard-dialog.png" alt="New dashboard dialog" class="responsive-img" width="90%" />
 
 7.	Before setting up the dashboard, you will need to connect the template to your data source. 
 
@@ -48,21 +48,21 @@ In order to set up your data source, in this case we chose Google Search Console
 
 1.	Click/tap on **+ Google Search Console**.
 
-<img src="../images/dashboard-setup-template.png" alt="connecting dashboard to a data source" class="responsive-img" width="90%" />
+<img src="../images/dashboard-setup-template.png" alt="Connect dashboard to a data source" class="responsive-img" width="90%" />
 
 2.	Enter the credentials for your data source account.
 
 3.	Click/tap on **Add Data Source**.
 
-<img src="../images/add-account-dashboard-templates.png" alt="adding a data source to the dashboard" class="responsive-img" width="90%" />
+<img src="../images/add-account-dashboard-templates.png" alt="Add a data source to the dashboard" class="responsive-img" width="90%" />
 
 4. Select a location for your data source and click/tap on **Save**. In this case, we’ve selected **My Data Sources** as a location.
 
-<img src="../images/data-source-location-dashboard-template.png" alt="Selecting a data source location" class="responsive-img" width="90%" />
+<img src="../images/data-source-location-dashboard-template.png" alt="Select a data source location" class="responsive-img" width="90%" />
 
 5.	Before creating the dashboard, you can choose which site to use. When you are ready, click/tap on **Select Data**, so the visualizations can be populated with the data.
 
-<img src="../images/data-source-details-dashboard-template.png" alt="Selecting a site from the data source" class="responsive-img" width="90%" />
+<img src="../images/data-source-details-dashboard-template.png" alt="Select a site from the data source" class="responsive-img" width="90%" />
 
 >[!Note] You can create a dashboard with the help of a template without immediately connecting it to a data source. When you open the dashboard at a later point, you will be prompted to pick a data source in order to add the information and to create visualizations.
 

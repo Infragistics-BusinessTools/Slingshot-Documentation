@@ -7,7 +7,7 @@ _description: Ensure fluency in collaboration by getting familiar with Slingshot
 
 A workspace in Slingshot can be defined as a digital workplace where groups of people - within or outside your organization - gather to work on a common objective. Workspaces allow you to collaborate, prioritize work, share content and knowledge and even gleam insights from data in a transparent way.
 
-<img src="../images/example-workspace-overview.png" alt="Showing a Workspace Overview within Slingshot" class="responsive-img"/>
+<img src="../images/example-workspace-overview.png" alt="Example of a Workspace Overview within Slingshot" class="responsive-img"/>
 
 ## What’s In a Workspace?
 
@@ -31,7 +31,7 @@ In order to run a high performing team, you need to have everything in one app f
 
 Now that you understand all the possibilities within workspaces and projects, you should have a better idea how to organize around key initiatives. Workspaces can be a single flat space or have hierarchy to further breakdown and organize into projects.
 
-<img src="../images/workspace-projects-example.png" alt="Workspace with different projects" class="responsive-img"/>
+<img src="../images/workspace-projects-example.png" alt="Example of a Workspace with different projects" class="responsive-img"/>
 
 We understand that everyone organizes differently, so Slingshot is designed to allow you full flexibility. For more ideas on organizing your data, check out our Solutions page <a href="https://www.slingshotapp.io/solutions" target="_blank">Solutions page</a>! There are pros and use cases for each of these approaches when you are creating your workspace.
 
@@ -74,7 +74,7 @@ You can also manage your members and their roles from within the workspace setti
 
 Accessing the *Settings* of the workspace can be done via the overflow menu next to the workspace name.
 
-<img src="../images/workspace-settings.png" alt="Accessing a workspace settings within Slingshot" class="responsive-img"/>
+<img src="../images/workspace-settings.png" alt="Workspace settings within Slingshot" class="responsive-img"/>
 
 ## Working with Workspaces and Projects
 
@@ -88,7 +88,7 @@ Creating a new workspace in Slingshot can be done in just a few easy steps!
 
 2. Enter the information for your workspace, turn off any tabs that don’t fit the workspace use case, then click/tap on the **Create** button. Keep in mind that you can also set up the privacy of your workspace if you are part of an organization. 
 
-<img src="../images/workspace-setup.png" alt="Setting a workspace up" class="responsive-img"/>
+<img src="../images/workspace-setup.png" alt="Set a workspace up" class="responsive-img"/>
 
 3.	Next, add members to your workspace. You can also do this later by closing the dialog box.
 
@@ -98,7 +98,7 @@ And that’s it! You have successfully created your first workspace and shared i
 
 You can add projects from the project tab using the blue **+ Project** button. From here, you will follow the same steps as [Creating a Workspace](#creating-a-workspace).
 
-<img src="../images/add-project.png" alt="Adding a project in a workspace" class="responsive-img"/>
+<img src="../images/add-project.png" alt="Add a project in a workspace" class="responsive-img"/>
 
 >[!NOTE] Keep in mind that all members of the Workspace will have access to the projects within it. However, you can share a project with people external to the workspace or even your organization. They will only have access to that project and not the workspace.
 
@@ -137,7 +137,7 @@ You can delete a workspace by going to the workspace settings and clicking the o
 By default, a workspace is created with all tabs, but you can turn tabs on and off if they are not necessary.
 Slingshot allows you full flexibility in customizing these tabs for your project’s requirements.
 
-<img src="../images/edit-tabs.png" alt="Accessing a workspace settings within Slingshot" class="responsive-img"/>
+<img src="../images/edit-tabs.png" alt="Access a workspace settings within Slingshot" class="responsive-img"/>
 
 If you need to turn on/off a tab, you can easily do so from the pencil icon on the tab menu.
 

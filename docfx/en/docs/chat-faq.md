@@ -19,7 +19,7 @@ Unlike discussions, the private chat is workspace and project independent. This 
 
 In the top bar, right next to your profile picture, you will see the **chat message icon**. Click/tap the icon to open the chat screen. 
 
-<img class="responsive-img" src="../images/chat-icon.png" alt="Chat icon location" class="responsive-img" width="90%" />
+<img class="responsive-img" src="../images/chat-icon.png" alt="Chat icon" class="responsive-img" width="90%" />
 
 <a name='chat-dock'></a>
 
@@ -28,7 +28,7 @@ In the top bar, right next to your profile picture, you will see the **chat mess
 In Slingshot, you can keep your chat hidden or opened on the right while going through your tasks, for example. 
 To switch from hidden to always opened and vice versa, select the *dock/undock* icon next to *Close* (see screenshot below).
 
-<img class="responsive-img" src="../images/dock-undock-icon-chat.png" alt="Dock/Undock icon location" class="responsive-img" width="90%"/>
+<img class="responsive-img" src="../images/dock-undock-icon-chat.png" alt="Dock/Undock icon" class="responsive-img" width="90%"/>
 
 When the chat is *docked*, you will always see it on the right. In this mode, you can see either the last chat room opened or the list of ongoing chats. 
 
@@ -62,7 +62,7 @@ To start a chat, open the chat screen. Then follow the steps below:
 
 Keep in mind that you can also reply to your own messages or messages from other people by clicking/tapping on the reply arrow. It will show up when you hover over a message.
 
-<img src="../images/reply-arrow-chat.png" alt="Choosing the reply arrow" width="90%" class="responsive-img"/>
+<img src="../images/reply-arrow-chat.png" alt="Reply arrow" width="90%" class="responsive-img"/>
 
 >[!NOTE] Reply threading is not supported.
 
@@ -86,7 +86,7 @@ You can rename your group chats to better differentiate between group chats with
 
 You can manage the members of a group chat by selecting the *group* icon on top of your chat room. 
 
-<img class="responsive-img" src="../images/group-chat-manage-members.png" alt="Members icon plus a list of group members opened" class="responsive-img" width="90%" />
+<img class="responsive-img" src="../images/group-chat-manage-members.png" alt="Group icon" class="responsive-img" width="90%" />
 
 You will see the chat members in a dropdown. Use the *trash* icon next to their names if you want to remove somebody. Every participant in a group chat can remove other members from the chat. Removed members will continue seeing the history of the chat but they will not have access to new messages. 
 

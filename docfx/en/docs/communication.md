@@ -11,7 +11,7 @@ While collaborating in teams or projects, people from different workspaces or ev
 
 It's a way of communication used by members of an organization, a workspace, or a project. Being organized in different threads, discussions ensure all your communication, and collaboration tools are in one place, making remote teams stay productive no matter where they are.
 
-<img src="../images/discussions-thread.png" alt="A Slingshot discussion thread displayed" class="responsive-img" width="80%"/>
+<img src="../images/discussions-thread.png" alt="Example of a Slingshot discussion thread" class="responsive-img" width="80%"/>
 
 You can have multiple discussions going on at the same time while mixing in text formatting, attachments, emojis, and links. Plus you can react to conversations and even create [tasks](https://www.slingshotapp.io/en/help/docs/tasks) from messages.
 

@@ -30,7 +30,7 @@ For this tutorial, you will use the *Image Chart* sheet in the [Slingshot Visual
 
  2. A dialog will open, containing a list of already added data source. The Visualization Tutorial file will be there as a data source if you have already used it. In case you haven't added the file, you can click/tap on **+Data Source** ⇒ **Data Files** ⇒ **+New** ⇒ **Upload** ⇒ Select the file ⇒ Click/tap on **Select and Continue** to include it in the list.
 
-    <img src="images/select-your-data-source.png" alt="Selecting a data source from the data sources list" class="responsive-img" width="80%"/>
+    <img src="images/select-your-data-source.png" alt="Select a data source from the data sources list" class="responsive-img" width="80%"/>
 
  3. Once the data source is configured, select the *Image View* sheet.                                
 
@@ -38,8 +38,8 @@ For this tutorial, you will use the *Image Chart* sheet in the [Slingshot Visual
 
  4. By default, the visualization type will be set to **Column**. Select the **Image** option.      
 
-    <img src="../images/list-of-chart-types.png" alt="Image View in the Chart types" class="responsive-img" width="57%"/>   
+    <img src="../images/list-of-chart-types.png" alt="Image View in the list of Chart types" class="responsive-img" width="57%"/>   
                                                       
  5. Drag any of the available fields into **URL**.        
 
-    <img src="../images/image-chart-data-organization.png" alt="Organizing data in Image View by dragging fields into URL" class="responsive-img" width="57%"/>                                                      
+    <img src="../images/image-chart-data-organization.png" alt="Organize data in Image View by dragging fields into URL" class="responsive-img" width="57%"/>                                                      
