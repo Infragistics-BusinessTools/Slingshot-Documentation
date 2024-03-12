@@ -20,7 +20,7 @@ You can access the Data Sources Advanced Editor by editing an existing data sour
 
 Right before completing the process of adding a new data source, you can access the Advanced Editor by selecting the *Edit Details* button (see below).
 
-<img src="../images/add-datasheet-dialog.png" alt="Adding a data sheet dialog showing the advanced info editing button" class="responsive-img" width="80%" />
+<img src="../images/edit-details-data-source.png" alt="Adding a data sheet dialog showing the advanced info editing button" class="responsive-img" width="80%" />
 
 To open the Advanced Editor for data sources that are already added in the <img src="../images/data-source-icon.png" alt="the data sources icon used in Analytics" width="24px" height="24px" /> *Data Sources* list, follow the steps below. 
 
@@ -63,7 +63,6 @@ Most of the Slingshot data sources contain table data. Let's take a look at the 
 
 <img src="../images/advanced-editor-table-data.png" alt="Advanced editor of table data annotated" class="responsive-img" width="75%" />
 
-
 A. The data source's **icon** and **title**. You can rename the data source. 
 
 B. A **description** box. If you add text here, it will appear right under the data source in the data sources list. 
@@ -76,14 +75,14 @@ E. A **list of datasets** you can edit. Select the dataset to see and modify the
 
 F. The dataset's **title**. You can rename the dataset. 
 
-G. The dataset's **description**. The description will appear under the dataset's name in the data source details. It will help users decide which dataset to choose for their visualizations. 
-
-H. All the available **data fields** in the selected dataset. By hovering over the <img src="../images/info-icon.png" alt="the info icon used in Analytics" width="24px" height="24px" />  info icon, you will find out about a field's name, description, records in the first five rows, and original name and description. You can modify the information about each field - read below for more details. You can reorder the fields by dragging the dotted area next to each field. 
-
-I. **Preview** of the data table. The preview shows the first 15 rows of the data table. There are two tabs in the preview: 
+G. **Preview** of the data table. The preview shows the first 15 rows of the data table. There are two tabs in the preview: 
     
 * *Catalog info* - shows a preview of the data table in its latest state;
 * *Original* - shows the original data table before any changes made with the Advanced editor. 
+
+H. The dataset's **description**. The description will appear under the dataset's name in the data source details. It will help users decide which dataset to choose for their visualizations. 
+
+I. All the available **data fields** in the selected dataset. By hovering over the <img src="../images/info-icon.png" alt="the info icon used in Analytics" width="24px" height="24px" />  info icon, you will find out about a field's name, description, records in the first five rows, and original name and description. You can modify the information about each field - read below for more details. You can reorder the fields by dragging the dotted area next to each field. 
 
 ### The Advanced Editor for Data Cubes
 
@@ -104,19 +103,17 @@ A. The data source's **icon** and **title**. You can rename the data source.
 
 B. A **description** box. If you add text here, it will appear right under the data source in the data sources list. 
 
-C. **[Certification](certifications.md)** status. The badge icon shows if the data source is certified or not. If you are a certifier, you can select the icon and change the certification status.
+C. The **data cube types** in your data source. For example, sheets, views, stored procedures, databases, entities, etc. You can switch between the objects. 
 
-D. The **data cube types** in your data source. For example, sheets, views, stored procedures, databases, entities, etc. You can switch between the objects. 
+D. A **list of data cubes** available. Select the cube to see and modify the data it contains. 
 
-E. A **list of data cubes** available. Select the cube to see and modify the data it contains. 
+E. The data cube's **title**. You can rename the data cube. 
 
-F. The data cube's **title**. You can rename the data cube. 
+F. The data cube's **description**. The description will appear under the data cube's name in the data source details. It will help users decide which data cube to choose for their visualizations. 
 
-G. The data cube's **description**. The description will appear under the data cube's name in the data source details. It will help users decide which data cube to choose for their visualizations. 
+G. Dimensions and Measures are separated in **two data columns** for easier navigation. 
 
-H. Dimensions and Measures are separated in **two data columns** for easier navigation. 
-
-I. All the available **data** in the selected data cube. You can see and modify the information of all dimensions, measures and of each element inside a dimension/measure. Hovering over the <img src="../images/info-icon.png" alt="the info icon used in Analytics" width="24px" height="24px" />  info icon, will show you the "unique name of the element", and a description of the dimension/measure. You can modify this information. You can't reorder the elements.
+H. All the available **data** in the selected data cube. You can see and modify the information of all dimensions, measures and of each element inside a dimension/measure. Hovering over the <img src="../images/info-icon.png" alt="the info icon used in Analytics" width="24px" height="24px" />  info icon, will show you the "unique name of the element", and a description of the dimension/measure. You can modify this information. You can't reorder the elements.
 
 **Data preview is not available** for cubes.
 
@@ -129,6 +126,7 @@ The hiding capability is really useful for teams that deal with huge amounts of 
 The Advanced Editor allows you to hide: 
 
 - Entire data tables and data cubes.
+
 - Individual data elements such as text and numeric fields, dimensions and measures. 
 
 If you see the eye icon next to a data element, this means you can hide it by selecting the icon. If you see the closed eye, this means the element is already hidden. 
@@ -151,11 +149,13 @@ Select the <img src="../images/pencil-icon.png" alt="the pencil icon used in Ana
 
 After changing the formatting, the data table or data cube that contain the numeric data will be colored in <span style="color:#8054DB;"><b>purple</b></span>. 
 
+<img src="../images/changed-data.png" alt="Changed data in purple" class="responsive-img" width="80%" />
+
 The icon in front of the numeric field will also change to a currency symbol or percent sign accordingly. This change will be visible in the Visualization editor as well (see below).
 
-If necessary, you can once again change the default formatting of the field when using it in the *Visualizations editor*. To do this, drag the field to the *Values* placeholder and click/tap to open the *Field Settings* dialog (see below). 
+If necessary, you can once again change the default formatting of the field when using it in the *Visualization editor*. To do this, drag the field to the *Values* placeholder and click/tap to open the *Field Settings* dialog (see below). 
 
-<img src="../images/percent-default-formatting.png" alt="The format icon changed in the Visualization Editor" class="responsive-img" width="60%" />
+<img src="../images/field-settings.png" alt="The format icon changed in the Visualization Editor" class="responsive-img" width="80%" />
 
 Select the *Override* toggle to be able to modify the formatting settings. 
 
