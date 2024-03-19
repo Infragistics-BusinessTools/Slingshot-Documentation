@@ -14,7 +14,7 @@ Slingshot の組織に所属している場合、リストのデータ ソース
 
 ワークスペースのデータ ソースまたはダッシュボードには、認証済みのものと未認証のものがあります。データ ソースまたはダッシュボードが認証されると、隣に金色、銀色、または銅色のバッジが表示されます (以下のスクリーンショットを参照)。 
 
-<img src="../images/certified-data-source.png" alt="An excel file with a gold badge located in the certified column" class="responsive-img" width="65%"/>
+<img src="../images/certified-data-source.png" alt="An excel file with a gold badge located in the certified column" class="responsive-img" width="70%"/>
 
 データ ソースまたはダッシュボードが認証されているかどうかがわからない場合は、リストの右上にあるプラス アイコン <img src="../images/plus-icon-48.png" alt="アナリティクスで使用されるプラス アイコン" width="24px" height="24px" /> を選択します。**[認証済み]** 列のボックスがチェックされていることを確認してください。  
 
@@ -52,7 +52,7 @@ Slingshot の組織に所属している場合、リストのデータ ソース
 
 3. **[許可の要求]** をクリック / タップします (以下のスクリーンショットを参照)。
 
-<img src="../images/not-certified-message.png" alt="The Request permission button for the certificate" class="responsive-img" width="65%" />
+<img src="../images/not-certified-message.png" alt="The Request permission button for the certificate" class="responsive-img" width="70%" />
 
 1. すべての組織の管理者にメールが送信され、ユーザーがデータ ソースまたはダッシュボードを認証するための承認を求めることを通知します。 
 
