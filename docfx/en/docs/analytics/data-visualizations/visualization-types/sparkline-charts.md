@@ -38,3 +38,5 @@ will be able to modify several settings, including:
     including the last two values and the difference between them. In
     addition, you can also choose whether you want to **represent a
     positive difference in green or red**.
+  
+  - Connect the visualization to another dashboard or a URL

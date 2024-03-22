@@ -24,7 +24,7 @@ The complete dashboard will be displayed in *Dashboard View* mode.
 
 In the *Connect Data Source* dialog, you may have a list of data source credentials (see screenshot below). These are credentials you have used to log into other source accounts, or that you have added in advance in the [Manage Analytics Credentials](~/docs/analytics/datasources/managing-data-source-credentials.md) menu.
 
-<img src="images/connect-data-source-dialog.png" alt="A list of ready credentials in the Connect Data Source dialog" class="responsive-img" width="55%"/>
+<img src="images/connect-data-source-dialog.png" alt="A list of ready credentials in the Connect Data Source dialog" class="responsive-img" width="88%"/>
 
 If there are visualizations in the dashboard, which are created with another data source, you will still need to connect them to their data source to view them.
 
