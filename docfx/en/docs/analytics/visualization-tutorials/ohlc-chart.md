@@ -10,7 +10,6 @@ a sample spreadsheet.
 
 <img src="images/ohlc-charts-example.png" alt="Tutorials-Select-OHLC-Candlestick-Charts-Spreadsheet" class="responsive-img" width="92%"/>
 
-
 Access the links below for the OHLC chart view walkthroughs:
 
   - [How to create an OHLC chart](https://www.slingshotapp.io/en/help/docs/analytics/visualization-tutorials/ohlc-chart#creating-a-ohlc-chart)
@@ -63,11 +62,11 @@ For this tutorial, you will use the *OHLC and Candlestick* sheet in the [Slingsh
 
 1. Select the **+ Dashboard** button in the top right-hand corner of **My Analytics**.
 
-   <img src="images/dashboard-button-my-analytics.png" alt="Tutorials-Create-New-Dashboard" class="responsive-img" width="90%"/>
+   <img src="images/new-dashboard-button.png" alt="Tutorials-Create-New-Dashboard" class="responsive-img" width="90%"/>
 
-2. Select your data source(**Slingshot Tutorials Spreadsheet**) from the list of data sources. If the data source is new, you will need to first add it from the **+ Data Source** button in the top-right corner.
+2. Select your data source (**Slingshot Tutorials Spreadsheet**) from the list of data sources. If the data source is new, you will need to first add it from the **+ Data Source** button in the top-right corner.
 
-   <img src="images/visualization-tutorials-sample.png" alt="Tutorials-Select-Data-Source" class="responsive-img" width="90%"/>                                         
+   <img src="images/visualization-tutorials-data-sources-list.png" alt="Tutorials-Select-Data-Source" class="responsive-img" width="90%"/>                                         
 
 3. Choose the **OHLC and Candlestick** sheet. 
 
@@ -79,7 +78,7 @@ For this tutorial, you will use the *OHLC and Candlestick* sheet in the [Slingsh
 
  5. Drag and drop the *Date* field into **Label** and the *Open*, *High*, *Low* and *Close* fields in their corresponding placeholder.
 
-    <img src="images/ohlc-organizing-data.png" alt="Organizing the data from the data source" class="responsive-img" width="35%"/>                              
+    <img src="images/ohlc-organizing-data.png" alt="Organizing the data from the data source" class="responsive-img" width="65%"/>                              
 
 <a name='changing-axis-configuration'></a>
 ## Changing your Axis Configuration

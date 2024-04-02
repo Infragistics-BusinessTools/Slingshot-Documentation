@@ -66,11 +66,11 @@ in the [Slingshot Visualization Tutorials](https://download.infragistics.com/sli
 
 1. Select the **+ Dashboard** button in the top right-hand corner of **My Analytics**.
 
-   <img src="images/dashboard-button-my-analytics.png" alt="Tutorials-Create-New-Dashboard" class="responsive-img" width="90%"/>  
+   <img src="images/new-dashboard-button.png" alt="Tutorials-Create-New-Dashboard" class="responsive-img" width="90%"/>  
 
-2. Select your data source(**Slingshot Tutorials Spreadsheet**) from the list of data sources. If the data source is new, you will need to first add it from the **+ Data Source** button in the top-right corner.
+2. Select your data source (**Slingshot Tutorials Spreadsheet**) from the list of data sources. If the data source is new, you will need to first add it from the **+ Data Source** button in the top-right corner.
 
-   <img src="images/visualization-tutorials-sample.png" alt="Tutorials-Select-Data-Source" class="responsive-img" width="90%"/>                                         
+   <img src="images/visualization-tutorials-data-sources-list.png" alt="Tutorials-Select-Data-Source" class="responsive-img" width="90%"/>                                         
 
 3. Select the **Sparkline Charts** sheet.
 
@@ -81,7 +81,7 @@ in the [Slingshot Visualization Tutorials](https://download.infragistics.com/sli
   
 5. Drag and drop the *Date* field into **Date**, *Offer* into **Value** and *Stocks* into **Category**.
 
-   <img src="images/sparkline-charts-organizing-data.png" alt="Tutorials-SparklineChart-Organizing-Data" class="responsive-img" width="35%"/>                                                                      
+   <img src="images/sparkline-charts-organizing-data.png" alt="Tutorials-SparklineChart-Organizing-Data" class="responsive-img" width="60%"/>                                                                      
 
 <a name='change-chart-type-sparkline'></a>
 ## Changing the Chart Type for the Sparkline

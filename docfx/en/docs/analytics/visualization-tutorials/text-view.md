@@ -34,10 +34,10 @@ For this tutorial, you will use the *Simple Series Charts* sheet in the [Slingsh
 
  1. Click/tap on the **+ Dashboard** button in the top right-hand corner in *My Analytics*.
 
-    <img src="images/my-analytics-dashboard-button.png" alt="Dashboard button in the my analytics board" class="responsive-img" width="90%"/>                                                         
+    <img src="images/new-dashboard-button.png" alt="Dashboard button in the my analytics board" class="responsive-img" width="90%"/>                                                         
  2. You can choose the data source you want to work with from the list of data sources. If the data source is new, you will need to add it from the **+ Data Source** button.
 
-     <img src="images/visualization-tutorials-sample.png" alt="A dialog with a list of data sources" class="responsive-img" width="90%"/>                                                         
+     <img src="images/visualization-tutorials-data-sources-list.png" alt="A dialog with a list of data sources" class="responsive-img" width="90%"/>                                                         
  3. Once the data source is configured, select the **Slingshot Tutorials Spreadsheet**. Then, choose the *Simple Series Charts* sheet.  
 
      <img src="images/tutorials-simple-series-charts-spreadsheet.png" alt="Simple Series Charts Spreadsheed in the data source " class="responsive-img" width="60%"/>                                                                                      
@@ -46,7 +46,7 @@ For this tutorial, you will use the *Simple Series Charts* sheet in the [Slingsh
       <img src="images/text-view-chart-types.png" alt="Text View in the chart types list" class="responsive-img" width="70%"/>                                                                                                
  5. The above text view, for example, displays the Population, Life expectancy and Fertility rate for a specific country. Drag and drop *Country Name*, *Population*, *Life Expectancy* and *Fertility Rate* into **Columns**.
 
-     <img src="images/organizing-data-text-view.png" alt="Organizing data in the data filter for text view" class="responsive-img" width="35%"/>        
+     <img src="images/organizing-data-text-view.png" alt="Organizing data in the data filter for text view" class="responsive-img" width="60%"/>        
 
 <a name='changing-selected-row'></a>
 ## Changing the Selected Row
@@ -57,10 +57,14 @@ text view display row 9 (Bosnia and Herzegovina).
 
 1. Drag and drop the *Country Name* field into **Data Filters**.  
  
-    <img src="images/select-data-filter-text-view.png" alt="Selecting an example for data filter for the text view" class="responsive-img" width="32%"/>                                                      
+    <img src="images/select-data-filter-text-view.png" alt="Selecting an example for data filter for the text view" class="responsive-img" width="60%"/>                                                      
 2. Select *Filter Type* to enable the drop-down menu and then choose **Select Values**. 
  
-     <img src="images/data-filter-dialog-select-value-text-view.png" alt="Select Value option from the list of filter types" class="responsive-img" width="40%"/>                                                      
+     <img src="images/data-filter-dialog-select-value-text-view.png" alt="Select Value option from the list of filter types" class="responsive-img" width="60%"/>                                                      
 3. By default, all values will be selected. Uncheck the *All* box and select only **Bosnia and Herzegovina**. Then, select **Create Filter**. 
 
-    <img src="images/data-filter-select-value-example.png" alt="Choosing country from the list of selected values" class="responsive-img" width="40%"/> 
+    <img src="images/data-filter-select-value-example.png" alt="Choosing country from the list of selected values" class="responsive-img" width="60%"/> 
+
+4. The new info will be displayed in the Visualization Editor.
+
+   <img src="images/new-selected-value-visualization-editor.png" alt="New selected value displayed in the Visualization Editor" class="responsive-img" width="60%"/> 

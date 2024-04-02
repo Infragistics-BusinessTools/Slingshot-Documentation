@@ -70,22 +70,22 @@ For this tutorial, you will use the *Simple Series Charts* sheet in the [Slingsh
 
 1. Select the **+ Dashboard** button in the top right-hand corner of **My Analytics**.
 
-   <img src="images/dashboard-button-my-analytics.png" alt="Tutorials-Create-New-Dashboard" class="responsive-img" width="90%"/>                                      
+   <img src="images/new-dashboard-button.png" alt="Tutorials-Create-New-Dashboard" class="responsive-img" width="90%"/>                                      
 
-2. Select your data source(**Slingshot Tutorials Spreadsheet**) from the list of data sources. If the data source is new, you will need to first add it from the **+ Data Source** button in the top-right corner.
+2. Select your data source (**Slingshot Tutorials Spreadsheet**) from the list of data sources. If the data source is new, you will need to first add it from the **+ Data Source** button in the top-right corner.
 
-   <img src="images/visualization-tutorials-sample.png" alt="Selecting a data source from the list of data sources" class="responsive-img" width="90%"/>                                          
+   <img src="images/visualization-tutorials-data-sources-list.png" alt="Selecting a data source from the list of data sources" class="responsive-img" width="90%"/>                                          
 
 3. Choose the **Simple Series Charts** sheet.     
 
    <img src="images/simple-series-charts-spreadsheet.png" alt="Selecting Simple Series Chart sheet" class="responsive-img" width="65%"/>
 
-4. Open the *Visualization Picker* and select any of the **chart** visualizations. By default, the visualization type will be set to *Column*. 
+4. Open the *Visualization Picker* and select any of the *chart* visualizations under **Category**. By default, the visualization type will be set to *Column*. 
 
    <img src="images/chart-types-simple-series-charts.png" alt="List of chart types" class="responsive-img" width="70%"/> 
  
 5. The charts in the table above, for example, display the population for a select list of countries. Drag and drop the *Country Name* field to **Label** and the *Population* field into **Values**.                                                        
-   <img src="images/simple-series-charts-organizing-data.png" alt="Organizing the data from the Simple Series Charts sheet" class="responsive-img" width="35%"/>                                   
+   <img src="images/simple-series-charts-organizing-data.png" alt="Organizing the data from the Simple Series Charts sheet" class="responsive-img" width="70%"/>                                   
 
 <a name='add-trendline-chart'></a>
 ## Adding a Trendline to your Chart

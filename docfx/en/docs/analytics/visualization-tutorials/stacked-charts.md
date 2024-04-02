@@ -55,22 +55,22 @@ For this tutorial, you will use the *Stacked Charts* sheet in the
 
 1. Select the **+ Dashboard** button in *My Analytics*.  
 
-     <img src="images/myanalytics-dashboard-button.png" alt="Dashboard button in the My Analytics section" class="responsive-img" width="90%"/> 
+     <img src="images/new-dashboard-button.png" alt="Dashboard button in the My Analytics section" class="responsive-img" width="90%"/> 
                                                       
 2. Select your data source (**Slingshot Tutorials Spreadsheet**) from the list of data sources. If the data source is new, you will need to first add it from the **+ Data Source** button in the top-right corner.     
 
-      <img src="images/visualization-tutorials-sample.png" alt="Tutorials Data Source in the list of already added data sources" class="responsive-img" width="90%"/>
+      <img src="images/visualization-tutorials-data-sources-list.png" alt="Tutorials Data Source in the list of already added data sources" class="responsive-img" width="90%"/>
 
 3. Choose the **Stacked Charts** sheet.               
 
      <img src="images/stacked-chart-spreadsheet-data-source-details-dialog.png" alt="Stacked Charts Spreadsheet in the tutorial data source" class="responsive-img" width="65%"/>
   
-4. Select the **Grid icon** in the top bar of the Visualizations Editor. By default, the visualization type will be set to *Column*. You can always change it by selecting any of the **stack** visualizations.     
+4. Select the **Grid icon** in the top bar of the Visualization Editor. By default, the visualization type will be set to *Column*. You can always change it by selecting any of the **stack** visualizations.     
  
      <img src="images/stacked-chart-types.png" alt="List of all the chart types used for a visualization" class="responsive-img" width="70%"/>                                                                                                    
 5. Stacked charts require two or more fields to be dragged and dropped into the **Values** placeholder of the data editor. In this case, the *1960*, *2003*, *2008* and *2010* fields have been dropped into **Values** and *Country Name* in **Label**. 
 
-    <img src="images/stacked-charts-organizing-data.png" alt="Organizing the data from the stacked charts spreadsheet" class="responsive-img" width="35%"/>
+    <img src="images/stacked-charts-organizing-data.png" alt="Organizing the data from the stacked charts spreadsheet" class="responsive-img" width="75%"/>
 
 <a name='change-axis-configuration'></a>
 ## Changing your Axis Configuration

@@ -34,7 +34,7 @@ Candlestick charts, therefore, require:
   - **Four different fields** in the *Open*, *High*, *Low* and *Close*
     categories of the data editor.
 
-<img src="images/candlestick-visualization-editor-example.png" alt="Candlestick chart visualization settings" class="responsive-img" width="87%"/>
+<img src="images/candlestick-visualization-editor-example.png" alt="Candlestick chart visualization editor" class="responsive-img" width="87%"/>
 
 There are also different options to add further information to your
 chart:
@@ -63,9 +63,9 @@ For this tutorial, you will use the *OHLC and Candlestick* sheet in the [Slingsh
 
    <img src="images/dashboard-button-my-analytics.png" alt="Dashboard button for creating a new dashboard" class="responsive-img" width="90%"/>                                      
 
-2. Select your data source(**Slingshot Tutorials Spreadsheet**) from the list of data sources. If the data source is new, you will need to first add it from the **+ Data Source** button in the top-right corner.
+2. Select your data source (**Slingshot Tutorials Spreadsheet**) from the list of data sources. If the data source is new, you will need to first add it from the **+ Data Source** button in the top-right corner.
 
-   <img src="images/visualization-tutorials-sample.png" alt="Selecting the data source from the list of data sources" class="responsive-img" width="90%"/>                                          
+   <img src="images/visualization-tutorials-data-sources-list.png" alt="Selecting the data source from the list of data sources" class="responsive-img" width="90%"/>                                          
 
 3. Choose the **OHLC and Candlestick** sheet. 
   
@@ -75,7 +75,7 @@ For this tutorial, you will use the *OHLC and Candlestick* sheet in the [Slingsh
 
    <img src="images/candlestick-chart-types.png" alt="List of chart types" class="responsive-img" width="65%"/>                                                             
 5.  Drag and drop the *Date* field into *Label* and the *Open*, *High*, *Low* and *Close* fields in their corresponding placeholder.
-  <img src="images/candlestick-organizing-data.png" alt="Organizing data fields" width="35%"/>                                                      
+  <img src="images/candlestick-organizing-data.png" alt="Organizing data fields" width="65%"/>                                                      
 
 <a name='changing-axis-configuration'></a>
 ## Changing your Axis Configuration
