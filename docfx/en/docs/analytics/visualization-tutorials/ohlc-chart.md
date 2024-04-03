@@ -10,7 +10,6 @@ a sample spreadsheet.
 
 <img src="images/ohlc-charts-example.png" alt="Example of OHLC charts" class="responsive-img" width="92%"/>
 
-
 Access the links below for the OHLC chart view walkthroughs:
 
   - [How to create an OHLC chart](https://www.slingshotapp.io/en/help/docs/analytics/visualization-tutorials/ohlc-chart#creating-a-ohlc-chart)
@@ -65,7 +64,7 @@ For this tutorial, you will use the *OHLC and Candlestick* sheet in the [Slingsh
 
    <img src="images/dashboard-button-my-analytics.png" alt="New Dashboard button in My Analytics" class="responsive-img" width="90%"/>
 
-2. Select your data source(**Slingshot Tutorials Spreadsheet**) from the list of data sources. If the data source is new, you will need to first add it from the **+ Data Source** button in the top-right corner.
+2. Select your data source (**Slingshot Tutorials Spreadsheet**) from the list of data sources. If the data source is new, you will need to first add it from the **+ Data Source** button in the top-right corner.
 
    <img src="images/visualization-tutorials-sample.png" alt="Select Slingshot Tutorials Spreadsheet as a data source" class="responsive-img" width="90%"/>                                         
 

@@ -36,7 +36,7 @@ In the *Data Source Credentials* section, you can add and remove credentials for
 
 Unless you remove them, the accounts' credentials stored in Analytics will always appear in the list of accounts when configuring a data source requiring credentials.
 
-<img src="images/choose-credentials-for-data-source.png" alt="Choose Credentials for a Data Source dialog" class="responsive-img" width="60%"/>
+<img src="images/stored-credentials-data-sources-list.png" alt="Example of stored credentials for a data source" class="responsive-img" width="60%"/>
 
 > [!NOTE] **Useful tip!** Take your time to add and organize here all credentials that you intend to use with multiple data sources. 
 

@@ -37,7 +37,7 @@ When your location data is in Japanese, Analytics translates it in English to co
 
 If you use a Japanese dataset in Analytics, and your Language and Regional settings are not set to Japanese, then you need to use the *Data is written in* setting to help Analytics recognize the language of your dataset by switching to Japanese (*ja*):
 
-<img src="images/data-is-written-in-option.png" alt="Choosing Japanese from the dropdown menu of the Data is written in option" class="responsive-img" width="85%"/>
+<img src="images/data-is-written-in-option.png" alt="Choosing Japanese from the drop-down menu of the Data is written in option" class="responsive-img" width="85%"/>
 
 
 ### Language of Labels

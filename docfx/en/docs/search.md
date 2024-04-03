@@ -21,7 +21,6 @@ You can quickly start your search from anywhere - a workspace, tasks, My Stuff, 
 
 3. The search results pane opens on the left.
 
-
 The search results pane shows results from everywhere inside Slingshot. The results are displayed separately in five tabs:
 
 - *Workspaces* - results from all workspaces and projects.
@@ -34,7 +33,7 @@ The search results pane shows results from everywhere inside Slingshot. The resu
 
 - *Analytics* - shows results for dashboards and dashboard folders in My Stuff, Workspaces and the Organization.
 
->[!NOTE] In the results pane, you can open the overflow menu and save a result in bookmarks or share it with others.
+>[!NOTE] In the *results* pane, you can open the overflow menu and save a result in bookmarks or share it with others.
 
 ## Filtering Results
 

@@ -8,7 +8,7 @@ _description: Learn how to change the display of data in a visualization to furt
 Analytics allows you to change how the data in a visualization is displayed by sorting the data in ascending or descending order. In addition, it is
 also possible to further control how a visualization looks with sorting by selected fields in your original data source. 
 
-<img src="images/field-settings-dialog.png" alt="Sorting options in the field settings dialog" class="responsive-img" width="40%"/>
+<img src="images/field-settings-dialog.png" alt="Sorting options in the field settings dialog" class="responsive-img" width="85%"/>
 
 ## Enabling Sort by Field 
 
@@ -16,7 +16,7 @@ The *Sort by field* option is part of the fields settings, but is hidden by defa
 
 1. Select a field under the *Label* placeholder. 
 2. In *Field Settings*, choose *Ascending* or *Descending* for *Sorting*. 
-3. *Sort by field* shows under the *Sorting* setting. You can choose a field from the dropdown on the right (as shown above).
+3. *Sort by field* shows under the *Sorting* setting. You can choose a field from the drop-down on the right (as shown above).
  
 For more practical information, take a look at the following examples
 that showcase this functionality:
@@ -31,17 +31,11 @@ that showcase this functionality:
 There are scenarios where you would like to order a field by using business logic instead of ordering it alphabetically. 
 For example, the following is a visualization, which displays new support cases an ascending order.
 
-<img src="images/support-cases-sample.png" alt="Visualization displaying data in an ascending order" class="responsive-img" width="85%"/>
+<img src="images/support-cases-example.png" alt="Visualization displaying data in an ascending order" class="responsive-img" width="85%"/>
 
 The *Priority* field is a text field, so it's ordered A-Z by default. However, if we use business logic, *Priority* values should be ordered as follows: *Low* - *Normal* - *High*. To achieve this, you should have a *Priority Level* column in your data set showing the numeric representation of the priority status (see below). 
 
 <img src="images/weekly-cases-priority.png" alt="Visualization showing weekly cases ordered by Priority level" class="responsive-img" width="85%"/>
-
-Organize the information in your chart by priority level without actually
-dragging and dropping *Priority Level* field into the data editor by using the
-*Sort By* field option.
-
-<img src="images/sorting-by-priority-sample.png" alt="Sorting the information by priority in the sort by field option" class="responsive-img" width="40%"/>
 
 <a name='string-date-chr-order'></a>
 ## Ordering String Dates in Chronological Order
@@ -67,4 +61,4 @@ data editor, and select your desired sorting.
 Once done, select **Update Field**. Your information will now be ordered
 in chronological order.
 
-<img src="images/financial-metrics-sample.png" alt="Visualization of data sorted by chronological order" class="responsive-img" width="85%"/>
+<img src="images/financial-metrics-example.png" alt="Visualization of data sorted by chronological order" class="responsive-img" width="85%"/>

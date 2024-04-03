@@ -254,7 +254,7 @@ If you need more information about how to use each of these visualizations, use 
 
 ## Topics Overview
 
-In the _Visualization Types_ dropdown (see the table of contents on the left) you will find an A-Z list of all kinds of charts Analytics provides.
+In the _Visualization Types_ drop-down (see the table of contents on the left) you will find an A-Z list of all kinds of charts Analytics provides.
 
 In [Working with the Visualizations Editor](visualizations-editor.md) you will be introduced to the Visualizations Editor's main parts and will also learn how to start creating your first visualization.
 

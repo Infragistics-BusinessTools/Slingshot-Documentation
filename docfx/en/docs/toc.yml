@@ -54,6 +54,9 @@
   new: false 
 - name: Productivity Tips
   header: true
+- name: Data Limits
+  href: data-limits.md
+  new: false
 - name: Open in New Window
   href: open-in-new-window.md
   new: false
@@ -167,5 +170,3 @@
   new: false
 - name: Release Notes
   href: release-notes.md
-- name: Data Limits
-  href: data-limits.md

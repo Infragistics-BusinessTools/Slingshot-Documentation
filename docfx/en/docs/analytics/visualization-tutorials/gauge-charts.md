@@ -54,15 +54,15 @@ For this tutorial, you will use the *Gauge Views* sheet in the [Slingshot Visual
 
    <img src="images/dashboard-button-my-analytics.png" alt="New dashboard button in My Analytics" class="responsive-img" width="90%"/>                                      
 
-2. Select your data source(**Slingshot Tutorials Spreadsheet**) from the list of data sources. If the data source is new, you will need to first add it from the **+ Data Source** button in the top-right corner.
+2. Select your data source (**Slingshot Tutorials Spreadsheet**) from the list of data sources. If the data source is new, you will need to first add it from the **+ Data Source** button in the top-right corner.
 
-   <img src="images/visualization-tutorials-sample.png" alt="Selecting a data source from the list of data sources" class="responsive-img" width="90%"/>                                          
+   <img src="images/visualization-tutorials-data-sources-list.png" alt="Selecting a data source from the list of data sources" class="responsive-img" width="90%"/>                                          
 
 3. Choose the **Gauge Views** sheet.
   
    <img src="images/gauge-views.png" alt="Selecting Gauge Views spreadsheet" class="responsive-img" width="65%"/>
          
-4. Open the *Visualization Picker* and select any of the **Gauges** visualizations. By default, the visualization type will be set to *Column*. 
+4. Open the *Visualization Picker* and select **Linear Gauge**. 
 
    <img src="images/gauges-chart-types.png" alt="List of chart types" class="responsive-img" width="65%"/>
 
@@ -77,15 +77,15 @@ For this tutorial, you will use the *Gauge Views* sheet in the [Slingshot Visual
 
    <img src="images/dashboard-button-my-analytics.png" alt="New dashboard button in My Analytics" class="responsive-img" width="90%"/>                                      
 
-2. Select your data source(**Slingshot Tutorials Spreadsheet**) from the list of data sources. If the data source is new, you will need to first add it from the **+ Data Source** button in the top-right corner.
+2. Select your data source (**Slingshot Tutorials Spreadsheet**) from the list of data sources. If the data source is new, you will need to first add it from the **+ Data Source** button in the top-right corner.
 
-   <img src="images/visualization-tutorials-sample.png" alt="Selecting a data source from the list of data sources" class="responsive-img" width="90%"/>                                          
+   <img src="images/visualization-tutorials-data-sources-list.png" alt="Selecting a data source from the list of data sources" class="responsive-img" width="90%"/>                                          
 
 3. Choose the **Gauge Views** sheet.
   
    <img src="images/gauge-views.png" alt="Selecting Gauge Views spreadsheet" class="responsive-img" width="65%"/>
          
-4. Open the *Visualization Picker* and select any of the **Gauges** visualizations. By default, the visualization type will be set to *Column*. 
+4. Open the *Visualization Picker* and select **Circular Gauge**.
 
    <img src="images/gauges-chart-types.png" alt="List of chart types" class="responsive-img" width="65%"/>
 
@@ -102,7 +102,7 @@ displayed in Values:
 |                                              |                                                                            |                                                                                           |
 | -------------------------------------------- | -------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------- |
 | 1\. **Access Field Settings for your Value** | <img src="images/value-circular-gauge.png" alt="Add-Data-Filter-CircularGauge" class="responsive-img" width="85%"/> | Select the field in **Value** to access                                                  |
-| 2\. **Choose a different Aggregation**       | <img src="images/field-settings-aggregation-options.png" alt="CircularGauge-Aggregation" class="responsive-img" width="85%"/>         | Expand the **Aggregation** dropdown and select a different option (for example, Average). |
+| 2\. **Choose a different Aggregation**       | <img src="images/field-settings-aggregation-options.png" alt="CircularGauge-Aggregation" class="responsive-img" width="85%"/>         | Expand the **Aggregation** drop-down and select a different option (for example, Average). |
 
 
 <a name='create-text-gauge'></a>
@@ -112,21 +112,21 @@ displayed in Values:
 
    <img src="images/dashboard-button-my-analytics.png" alt="New dashboard button in My Analytics" class="responsive-img" width="90%"/>                                      
 
-2. Select your data source(**Slingshot Tutorials Spreadsheet**) from the list of data sources. If the data source is new, you will need to first add it from the **+ Data Source** button in the top-right corner.
+2. Select your data source (**Slingshot Tutorials Spreadsheet**) from the list of data sources. If the data source is new, you will need to first add it from the **+ Data Source** button in the top-right corner.
 
-   <img src="images/visualization-tutorials-sample.png" alt="Selecting a data source from the list of data sources" class="responsive-img" width="90%"/>                                          
+   <img src="images/visualization-tutorials-data-sources-list.png" alt="Selecting a data source from the list of data sources" class="responsive-img" width="90%"/>                                          
 
 3. Choose the **Gauge Views** sheet.
   
    <img src="images/gauge-views.png" alt="Selecting Gauge Views spreadsheet" class="responsive-img" width="65%"/>
          
-4. Open the *Visualization Picker* and select the *Text Gauge*. By default, the visualization type will be set to *Column*. 
+4. Open the *Visualization Picker* and select **Text Gauge**. 
 
    <img src="images/gauges-chart-types.png" alt="List of chart types" class="responsive-img" width="65%"/>
 
 5. This text gauge, for example, will display life expectancy per Country. Drag and drop one of the year fields into **Values**, and then the *Country Name* field into **Data Filters**. Then, select the specific country you want by selecting the field. 
 
-   <img src="images/text-gauge-organizing-data.png" alt="Organizing the data while using text gauge visualizaiton" class="responsive-img" width="35%"/>
+   <img src="images/text-gauge-organizing-data.png" alt="Organizing the data while using text gauge visualizaiton" class="responsive-img" width="65%"/>
 
 The text gauge sample above utilizes
 the average aggregation. In order to learn how to change your field's
@@ -139,21 +139,21 @@ aggregation, [review these instructions](../data-visualizations/fields/calculate
 
    <img src="images/dashboard-button-my-analytics.png" alt="New dashboard button in My Analytics" class="responsive-img" width="90%"/>                                      
 
-2. Select your data source(**Slingshot Tutorials Spreadsheet**) from the list of data sources. If the data source is new, you will need to first add it from the **+ Data Source** button in the top-right corner.
+2. Select your data source (**Slingshot Tutorials Spreadsheet**) from the list of data sources. If the data source is new, you will need to first add it from the **+ Data Source** button in the top-right corner.
 
-   <img src="images/visualization-tutorials-sample.png" alt="Selecting a data source from the list of data sources" class="responsive-img" width="90%"/>                                          
+   <img src="images/visualization-tutorials-data-sources-list.png" alt="Selecting a data source from the list of data sources" class="responsive-img" width="90%"/>                                          
 
 3. Choose the **Gauge Views** sheet.
   
    <img src="images/gauge-views.png" alt="Selecting Gauge Views spreadsheet" class="responsive-img" width="65%"/>
          
-4. Open the *Visualization Picker* and select any of the *Bullet Graph* visualizations. By default, the visualization type will be set to *Column*. 
+4. Open the *Visualization Picker* and select **Bullet Graph**. 
 
    <img src="images/gauges-chart-types.png" alt="List of chart types" class="responsive-img" width="60%"/>
 
 5. This bullet graph, for example, will display life expectancy per Country. Drag and drop the *Country Name* field to **Label**, one of the years into **Values** and another *Year* into **Target**.
 
-   <img src="images/bullet-graph-organizing-data.png" alt="Organizing data while using a bullet graph" class="responsive-img" width="35%"/>
+   <img src="images/bullet-graph-organizing-data.png" alt="Organizing data while using a bullet graph" class="responsive-img" width="65%"/>
 
 <a name='adding-bounds-gauge'></a>
 ## Adding Bounds to your Gauge
@@ -177,5 +177,5 @@ so:
 |                                    |                                                                        |                                                                          |
 | ---------------------------------- | ---------------------------------------------------------------------- | ------------------------------------------------------------------------ |
 | 1\. **Change Settings**            | <img src="images/tutorials-settings.png" alt="Tutorials-Navigate-Settings" class="responsive-img"/> | Go to the **Settings** section of the Visualization Editor.              |
-| 2\. **Access the Colors dropdown** | <img src="images/band-color-options.png" alt="Tutorials-Colors-Dropdown" class="responsive-img"/>     | Expand the dropdown of the range for which you want to change the color. Select one of Slingshot's three predefined colors for your band color.|
+| 2\. **Access the Colors drop-down** | <img src="images/band-color-options.png" alt="Tutorials-Colors-Drop-down" class="responsive-img"/>     | Expand the drop-down of the range for which you want to change the color. Select one of Slingshot's three predefined colors for your band color.|
 

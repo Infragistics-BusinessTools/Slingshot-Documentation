@@ -16,11 +16,11 @@ With the help of structured and insightful dashboards, you can see how your SEO 
 
 4.	Before adding the account to your data sources, you can choose to edit the name, give a description or edit the details.
 
-    <img src="./images/google-search-add-account.png" alt="Google Search Console add account dialog" width="52%" class="responsive-img"/>
+    <img src="./images/google-search-console-add-account.png" alt="Google Search Console add account dialog" width="90%" class="responsive-img"/>
 
 5.	Choose the sites you want to use for your dashboard and then click/tap on **Select Data**.
 
-    <img src="./images/sites-list-google-search-console.png" alt="Google Search Console account with its list of sites" width="52%" class="responsive-img"/>
+    <img src="./images/sites-list-google-search-console.png" alt="Google Search Console account with its list of sites" width="90%" class="responsive-img"/>
 
 6.	Once you have saved the changes, you will see the file in your **Data Sources** list.
 

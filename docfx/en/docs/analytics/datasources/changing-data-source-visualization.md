@@ -14,7 +14,7 @@ linked data sources. To do this:
 
  <img src="images/edit-option-visualization.png" alt="Select edit mode of a visualization" class="responsive-img" width="80%"/>
 
-3. You will see your current data source listed in the *Data* section. In order to change it, select the overflow button next to the data source
+3. You will see your current data source listed in the *Data* section. In order to change it, select the overflow menu next to the data source
 name and click/tap on **Edit**.
 
  <img src="images/edit-option-data-source.png" alt="Edit option of current data source" class="responsive-img" width="80%" />
@@ -23,7 +23,7 @@ name and click/tap on **Edit**.
 current data source. You can choose another collection of data from the same data source or click/tap on **Change data source** next to your data
 source's name and choose a different data source.
 
-  <img src="images/change-data-source-button.png" alt="Current data source swap button" class="responsive-img" width="60%"/>
+  <img src="images/change-data-source-swap-option.png" alt="Current data source swap option" class="responsive-img" width="80%"/>
 
 5. Once you have chosen the data source, a **Data Source Details** dialog will open up. Here you can select the information you want to use for the visualization editor. The data already present in the editor will be completely replaced by the data in your new data source.
 

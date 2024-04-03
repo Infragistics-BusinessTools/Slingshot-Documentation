@@ -8,7 +8,7 @@ To create a Slingshot API Key, you need to:
 
 1.	Log in to your **Slingshot** account.
 
-2.	Open **Settings** from the dropdown menu next to your profile.
+2.	Open **Settings** from the drop-down menu next to your profile.
 
 3.	Open **API keys**. Here you will have a list of all the API keys that you have created.
 

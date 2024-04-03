@@ -6,7 +6,7 @@ date range and filtering the whole dashboard. In order to enable the
 date range in the dashboard filters section, you will need to select the
 **Add Date Filter** option in the **Add Filter** menu.
 
-<img src="images/date-filter-option.png" alt="Date filter option in the filter dropdown menu for a visualization" class="responsive-img" width="85%"/>
+<img src="images/date-filter-option.png" alt="Date filter option in the filter drop-down menu for a visualization" class="responsive-img" width="85%"/>
 
 Once the date dashboard filter is enabled, it becomes available for use
 in the [visualization binding](connecting-dashboard-filters-visualization.md)
@@ -19,7 +19,7 @@ expressions.
 Analytics offers a variety of pre-set date ranges (including Last 30, 7, or
 365 days, among others) but you might want to define your range to see
 data within a specific date range. Selecting the
-**Custom Date Range** in the *Date Filter* dropdown to see a calendar with
+**Custom Date Range** in the *Date Filter* drop-down to see a calendar with
 personalized day, month and age options.
 
 <img src="images/custom-date-range-date-filter.png" alt="Custom Date Range calendar" class="responsive-img" width="70%"/>

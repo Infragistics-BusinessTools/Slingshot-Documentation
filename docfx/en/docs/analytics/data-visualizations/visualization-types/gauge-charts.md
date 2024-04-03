@@ -17,7 +17,7 @@ The Linear gauge displays a label, the value of which is taken from the
 configured **Value** placeholder. The value is charted as a rectangle, and
 is also displayed in a numeric format within its bounds or next to it. This gauge type is suitable for comparing the values of different rows side by side.
 
-<img src="images/linear-gauge-example.png" alt="Linear gauge chart example in the Visualization editor" class="responsive-img"/>
+<img src="images/linear-chart-example.png" alt="Linear gauge chart example in the Visualization editor" class="responsive-img"/>
 
 <a name='circular-gauge'></a>
 ## Circular Gauge

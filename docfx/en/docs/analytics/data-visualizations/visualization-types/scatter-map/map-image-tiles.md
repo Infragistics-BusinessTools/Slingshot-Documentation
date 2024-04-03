@@ -39,7 +39,7 @@ To use image tiles:
     >[!NOTE] **Setting up a tile provider at Organizational/workspace level**. 
     > You can configure a tile provider at the Organizational or workspace level only if you are an *Owner* in the Organization/workspace. This will allow all members of this workspace/Organization use the tile provider you configured. 
 
-4. For _Provider_ choose one of the options in the dropdown: 
+4. For _Provider_ choose one of the options in the drop-down: 
 
     * *Esri*
     * *Bing*

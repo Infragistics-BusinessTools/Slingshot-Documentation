@@ -36,7 +36,7 @@ disabled by default.
 
   - **Data Ranges**: the three ranges you will use to style your data.
     For all ranges, you can select one of the pre-defined indicators and
-    colors in the dropdown.
+    colors in the drop-down.
 
       - **Value comparison type**: whether you want the ranges to be
         percentages or numbers.

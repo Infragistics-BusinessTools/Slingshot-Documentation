@@ -44,10 +44,10 @@ To share a dashboard created by you with individual users you need to:
 **You can change the access level for users at any time when you are the owner of the dashboard** by accessing
 the *Share* menu. You will see a list of all users you have shared the
 dashboard with and their access level. You can change their access level
-by selecting a new one from the dropdown menu next to their name.
+by selecting a new one from the drop-down menu next to their name.
 
 **When you are the owner of the dashboard, you can also unshare it at any time** by accessing the
-*Share* dialog and selecting **Remove** from the dropdown menu next to any
+*Share* dialog and selecting **Remove** from the drop-down menu next to any
 member's name.
 
 <img src="images/shared-with-remove-option.png" alt="Remove a member option" class="responsive-img" width="80%"/>

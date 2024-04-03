@@ -38,7 +38,7 @@ data you want to display. This comes in the form of:
     relationship between your variables or the overall direction your
     information is taking. There are several algorithms, also known as
     regressions, which you can apply to your charts; you can select them
-    within the *Chart Trendline* dropdown.
+    within the *Chart Trendline* drop-down.
 
   - **Axis Configuration**: the axis configuration lets you configure
     the minimum and maximum values for your charts. The minimum value is
@@ -72,7 +72,7 @@ For this tutorial, you will use the *Simple Series Charts* sheet in the [Slingsh
 
    <img src="images/dashboard-button-my-analytics.png" alt="New Dashboard button in My Analytics" class="responsive-img" width="90%"/>                                      
 
-2. Select your data source(**Slingshot Tutorials Spreadsheet**) from the list of data sources. If the data source is new, you will need to first add it from the **+ Data Source** button in the top-right corner.
+2. Select your data source (**Slingshot Tutorials Spreadsheet**) from the list of data sources. If the data source is new, you will need to first add it from the **+ Data Source** button in the top-right corner.
 
    <img src="images/visualization-tutorials-sample.png" alt="Select Slingshot Tutorials Spreadsheet from the list of data sources" class="responsive-img" width="90%"/>                                          
 
@@ -80,7 +80,7 @@ For this tutorial, you will use the *Simple Series Charts* sheet in the [Slingsh
 
    <img src="images/simple-series-charts-spreadsheet.png" alt="Selecting Simple Series Chart sheet" class="responsive-img" width="65%"/>
 
-4. Open the *Visualization Picker* and select any of the **chart** visualizations. By default, the visualization type will be set to *Column*. 
+4. Open the *Visualization Picker* and select any of the *chart* visualizations under **Category**. By default, the visualization type will be set to *Column*. 
 
    <img src="images/chart-types-simple-series-charts.png" alt="List of chart types" class="responsive-img" width="70%"/> 
  

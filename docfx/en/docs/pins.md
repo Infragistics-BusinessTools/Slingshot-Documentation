@@ -74,8 +74,7 @@ In the Overviews tabs you have a single list of pins, which are meant to be key 
 ## Cloud Storages
 
 In Slingshot, you can add new connections to the following cloud storage providers:
-
-- GoogleDrive
+- Google Drive
 
 - OneDrive
 
@@ -124,7 +123,7 @@ Here, you can choose between the following three permission types:
  - **All Can Access** - all Slingshot users can access the file.
 
  - **Automatic Access** - all users in the workspace can access the file.
-
+ 
  - **Request Access** - all users, including the users in the workspace have to request access from the owner.
 
 > [!NOTE] Giving access to a file in Slingshot means you give view and edit permissions to the file. 
