@@ -22,4 +22,4 @@ data within a specific date range. Selecting the
 **Custom Date Range** in the *Date Filter* drop-down to see a calendar with
 personalized day, month and age options.
 
-<img src="images/custom-date-range-date-filter.png" alt="Custom Date Range calendar displayed" class="responsive-img" width="70%"/>
+<img src="images/custom-date-range-date-filter.png" alt="Custom Date Range calendar" class="responsive-img" width="70%"/>

@@ -14,13 +14,13 @@ Once the dashboard is opened, you can **maximize** any of the dashboard visualiz
 
 The maximized view allows a larger display of the information.
 
-<img src="images/visualization-maximized-view.png" alt="maximized visualization view" class="responsive-img" width="88%"/>
+<img src="images/visualization-maximized-view.png" alt="Maximized visualization view for dashboards" class="responsive-img" width="88%"/>
 
 In this mode, you can also switch the maximized view to other visualizations by selecting the **small chart icon** in the top right corner. Different visualizations are displayed based on the data that was used in the editor. Only chart types that work well with your data will be offered.
 
 If you want to save the changed visualization, you need to have edit permissions, be in [dashboard Edit Mode](https://www.slingshotapp.io/en/help/docs/analytics/dashboards/dashboards-interactions#view--edit-modes) and explicitly save the changes by selecting the check icon in the top right corner. You have edit permission for dashboards that are created by you or shared with you with [Owner or Modify permissions](~/en/dashboards/sharing-dashboards/share-a-dashboard.html#access-permissions).
 
-<img src="images/different-chart-options-for-visualization.png" alt="chart change in visualization view mode" class="responsive-img" width="88%"/>
+<img src="images/different-chart-options-for-visualization.png" alt="Chart types in visualization view mode" class="responsive-img" width="88%"/>
 
 You can also look at the data behind your chart if you select the **hash sign** icon.
 

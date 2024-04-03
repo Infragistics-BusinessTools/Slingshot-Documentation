@@ -22,11 +22,11 @@ To create a Slingshot API Key, you need to:
 
     >[!NOTE] As the full key can be displayed only once, make sure to securely store it.
 
-    <img src="images/api-key-example.png" alt="api key" class="responsive-img" width="60%"/>
+    <img src="images/api-key-example.png" alt="API key" class="responsive-img" width="60%"/>
 
     >[!NOTE] If you select **Custom** for a component, you can choose from *Full Access*, *Read Only* or *None*. If you select *None*, that component won’t be visible.
 
-    <img src="images/create-key-custom.png" alt="custom options for a component" class="responsive-img" width="60%"/>
+    <img src="images/create-key-custom.png" alt="Custom options for a component" class="responsive-img" width="60%"/>
 
 
 

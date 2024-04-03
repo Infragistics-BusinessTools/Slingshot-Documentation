@@ -47,74 +47,74 @@ td {
   <tr>
     <td><b>Compare Data</b></td>
     <td>
-      <img src="images/Bar-Chart.png" alt="Bar Chart" /><br/>
+      <img src="images/Bar-Chart.png" alt="Bar Chart icon" /><br/>
       <a href="visualization-types/category-charts.md">Bar</a>
     </td>
     <td>
-      <img src="images/Column-Chart.png" alt="Column Chart" /><br/>
+      <img src="images/Column-Chart.png" alt="Column Chart icon" /><br/>
       <a href="visualization-types/category-charts.md">Column</a>
     </td>
     <td>
-      <img src="images/Area-Chart.png" alt="Area Chart" /><br/>
+      <img src="images/Area-Chart.png" alt="Area Chart icon" /><br/>
       <a href="visualization-types/category-charts.md">Area</a>
     </td>
     <td>
-      <img src="images/Spline-Chart.png" alt="Spline Chart" /><br/>
+      <img src="images/Spline-Chart.png" alt="Spline Chart icon" /><br/>
       <a href="visualization-types/category-charts.md">Spline</a>
     </td>
     <td>
-      <img src="images/Combo-chart.png" alt="Combo Chart" /><br/>
+      <img src="images/Combo-chart.png" alt="Combo Chart icon" /><br/>
       <a href="visualization-types/combo-charts.md">Combo</a>
     </td>
     <td>
-      <img src="images/Circular-chart.png" alt="Circular Gauge" /><br/>
+      <img src="images/Circular-chart.png" alt="Circular Gauge icon" /><br/>
       <a href="visualization-types/gauge-charts.html#circular-gauge">Circular Gauge</a>
     </td>
     <td>
-      <img src="images/Spline-Area-chart.png" alt="Spline with Area Chart" /><br/>
+      <img src="images/Spline-Area-chart.png" alt="Spline with Area Chart icon" /><br/>
       <a href="visualization-types/category-charts.md">Spline Area</a>
     </td>
     <td>
-      <img src="images/OHLC-chart.png" alt="OHLC Chart" /><br/>
+      <img src="images/OHLC-chart.png" alt="OHLC Chart icon" /><br/>
       <a href="visualization-types/financial-charts.md">OHLC</a>
     </td>
     <td>
-      <img src="images/Candlestick-chart.png" alt="Candlestick Chart" /><br/>
+      <img src="images/Candlestick-chart.png" alt="Candlestick Chart icon" /><br/>
       <a href="visualization-types/financial-charts.md">Candlestick</a>
     </td>
     <td>
-      <img src="images/time-series-chart.png" alt="Time Series Chart" /><br/>
+      <img src="images/time-series-chart.png" alt="Time Series Chart icon" /><br/>
       <a href="visualization-types/time-series-charts.md">Time Series</a>
     </td>
   </tr>
   <tr>
     <td><b>Part to Whole</b></td>
     <td>
-      <img src="images/Stacked-Column-Chart.png" alt="Stacked Column Chart" /><br/>
+      <img src="images/Stacked-Column-Chart.png" alt="Stacked Column Chart icon" /><br/>
       <a href="visualization-types/category-charts.md">Stacked Column</a>
     </td>
     <td>
-      <img src="images/Stacked-Bar-Chart.png" alt="Stacked Bar Chart" /><br/>
+      <img src="images/Stacked-Bar-Chart.png" alt="Stacked Bar Chart icon" /><br/>
       <a href="visualization-types/category-charts.md">Stacked Bar</a>
     </td>
     <td>
-      <img src="images/Stacked-Area-Chart.png" alt="Stacked Area Chart" /><br/>
+      <img src="images/Stacked-Area-Chart.png" alt="Stacked Area Chart icon" /><br/>
       <a href="visualization-types/category-charts.md">Stacked Area</a>
     </td>
     <td>
-      <img src="images/Pie-Chart.png" alt="Pie Chart" /><br/>
+      <img src="images/Pie-Chart.png" alt="Pie Chart icon" /><br/>
       <a href="visualization-types/category-charts.md">Pie</a>
     </td>
     <td>
-      <img src="images/Doughnut-Chart.png" alt="Dougnut Chart" /><br/>
+      <img src="images/Doughnut-Chart.png" alt="Dougnut Chart icon" /><br/>
       <a href="visualization-types/category-charts.md">Dougnut</a>
     </td>
     <td>
-      <img src ="images/funnel-chart.png" alt="Funnel Chart" /><br/>
+      <img src ="images/funnel-chart.png" alt="Funnel Chart icon" /><br/>
       <a href="visualization-types/category-charts.md">Funnel</a>
     </td>
     <td>
-      <img src ="images/treemap-chart.png" alt="Treemap Chart" /><br/>
+      <img src ="images/treemap-chart.png" alt="Treemap Chart icon" /><br/>
       <a href="visualization-types/treemap-charts.md">Treemap</a>
     </td>
     <td />
@@ -124,19 +124,19 @@ td {
   <tr>
     <td><b>Data Distribution</b></td>
     <td>
-      <img src="images/step-area-Chart.png" alt="Step Area Chart" /><br/>
+      <img src="images/step-area-Chart.png" alt="Step Area Chart icon" /><br/>
       <a href="visualization-types/category-charts.md">Step Area</a>
     </td>
     <td>
-      <img src="images/Stacked-Column-Chart.png" alt="Stacked Column Chart" /><br/>
+      <img src="images/Stacked-Column-Chart.png" alt="Stacked Column Chart icon" /><br/>
       <a href="visualization-types/category-charts.md">Stacked Column</a>
     </td>
     <td>
-      <img src="images/scatter-Chart.png" alt="Scatter Chart" /><br/>
+      <img src="images/scatter-Chart.png" alt="Scatter Chart icon" /><br/>
       <a href="visualization-types/scatter-bubble-charts.md">Scatter</a>
     </td>
     <td>
-      <img src="images/bubble-Chart.png" alt="Bubble Chart" /><br/>
+      <img src="images/bubble-Chart.png" alt="Bubble Chart icon" /><br/>
       <a href="visualization-types/scatter-bubble-charts.md">Bubble</a>
     </td>
     <td />
@@ -148,31 +148,31 @@ td {
   <tr>
     <td><b>Data Trend Analysis<b/></td>
     <td>
-      <img src="images/line-chart.png" alt="Line Chart" /><br/>
+      <img src="images/line-chart.png" alt="Line Chart icon" /><br/>
       <a href="visualization-types/category-charts.md">Line</a>
     </td>
     <td>
-      <img src="images/spline-Chart.png" alt="Spline Chart" /><br/>
+      <img src="images/spline-Chart.png" alt="Spline Chart icon" /><br/>
       <a href="visualization-types/category-charts.md">Spline</a>
     </td>
     <td>
-      <img src="images/Combo-Chart.png" alt="Combo Chart" /><br/>
+      <img src="images/Combo-Chart.png" alt="Combo Chart icon" /><br/>
       <a href="visualization-types/combo-charts.md">Combo</a>
     </td>
     <td>
-      <img src="images/ohlc-Chart.png" alt="OHLC Chart" /><br/>
+      <img src="images/ohlc-Chart.png" alt="OHLC Chart icon" /><br/>
       <a href="visualization-types/financial-charts.md">OHLC</a>
     </td>
     <td>
-      <img src="images/candlestick-Chart.png" alt="Candlestick Chart" /><br/>
+      <img src="images/candlestick-Chart.png" alt="Candlestick Chart icon" /><br/>
       <a href="visualization-types/financial-charts.md">Candlestick</a>
     </td>
     <td>
-      <img src="images/radial-Chart.png" alt="Radial Chart" /><br/>
+      <img src="images/radial-Chart.png" alt="Radial Chart icon" /><br/>
       <a href="visualization-types/radial-charts.md">Radial</a>
     </td>
     <td>
-      <img src="images/time-series-chart.png" alt="Time Series Chart" /><br/>
+      <img src="images/time-series-chart.png" alt="Time Series Chart icon" /><br/>
       <a href="visualization-types/time-series-charts.md">Time Series</a>
     </td>
     <td />
@@ -182,15 +182,15 @@ td {
   <tr>
   <td><b>Data Relationships</b></td>
   <td>
-    <img src="images/scatter-chart.png" alt="Scatter Chart" /><br/>
+    <img src="images/scatter-chart.png" alt="Scatter Chart icon" /><br/>
     <a href="visualization-types/scatter-bubble-charts.md">Scatter</a>
   </td>
   <td>
-    <img src="images/Bubble-chart.png" alt="Bubble Chart" /><br/>
+    <img src="images/Bubble-chart.png" alt="Bubble Chart icon" /><br/>
     <a href="visualization-types/scatter-bubble-charts.md">Bubble</a>
   </td>
   <td>
-    <img src="images/line-chart.png" alt="Line Chart" /><br/>
+    <img src="images/line-chart.png" alt="Line Chart icon" /><br/>
     <a href="visualization-types/category-charts.md">Line</a>
   </td>
   <td />
@@ -204,23 +204,23 @@ td {
   <tr>
   <td><b>KPIs and Gauges</b></td>
   <td>
-    <img src="images/bullet-graph-gauge.png" alt="Bullet Graph Gauge" /><br/>
+    <img src="images/bullet-graph-gauge.png" alt="Bullet Graph Gauge icon" /><br/>
     <a href="visualization-types/gauge-charts.html#bullet-graph">Bullet Graph</a>
   </td>
   <td>
-    <img src="images/linear-gauge.png" alt="Linear Gauge" /><br/>
+    <img src="images/linear-gauge.png" alt="Linear Gauge icon" /><br/>
     <a href="visualization-types/gauge-charts.html#linear-gauge">Linear</a>
   </td>
   <td>
-    <img src="images/text-gauge.png" alt="Text Chart" /><br/>
+    <img src="images/text-gauge.png" alt="Text Chart icon" /><br/>
     <a href="visualization-types/gauge-charts.html#text-gauge">Text</a>
   </td>
   <td>
-    <img src="images/kpi.png" alt="KPI Gauge" /><br/>
+    <img src="images/kpi.png" alt="KPI Gauge icon" /><br/>
     <a href="visualization-types/kpi-gauge.md">KPI</a>
   </td>
   <td>
-    <img src="images/circular-gauge.png" alt="Circular Gauge" /><br/>
+    <img src="images/circular-gauge.png" alt="Circular Gauge icon" /><br/>
     <a href="visualization-types/gauge-charts.html#circular-gauge">Circular</a>
   </td>
   <td />
@@ -232,11 +232,11 @@ td {
   <tr>
   <td><b>Geospatial Data</b></td>
   <td>
-    <img src="images/choropleth-map.png" alt="Choropleth Map" /><br/>
+    <img src="images/choropleth-map.png" alt="Choropleth Map icon" /><br/>
     <a href="visualization-types/choropleth-map/choropleth-map.md">Choropleth Map</a>
   </td>
   <td>
-    <img src="images/scatter-map.png" alt="Scatter Map" /><br/>
+    <img src="images/scatter-map.png" alt="Scatter Map icon" /><br/>
     <a href="visualization-types/scatter-map/scatter-map.md">Scatter Map</a>
   </td>
   <td />
@@ -282,111 +282,111 @@ For specific information on what each visualization supports, visit the **Data V
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p><img src="images/Area-Chart.png" alt="Area Chart" /><br />
+<td><p><img src="images/Area-Chart.png" alt="Area Chart icon" /><br />
 </p>
 <p><a href="~/docs/analytics/visualization-tutorials/simple-charts.md">Area</a><br />
 </p></td>
-<td><p><img src="images/Bar-Chart.png" alt="Bar Chart" /><br />
+<td><p><img src="images/Bar-Chart.png" alt="Bar Chart icon" /><br />
 </p>
 <p><a href="~/docs/analytics/visualization-tutorials/simple-charts.md">Bar</a><br />
 </p></td>
-<td><p><img src="images/Bullet-Graph-Gauge.png" alt="Bullet Graph Gauge" /><br />
+<td><p><img src="images/Bullet-Graph-Gauge.png" alt="Bullet Graph Gauge icon" /><br />
 </p>
 <p><a href="~/docs/analytics/visualization-tutorials/gauge-charts.md">Bullet Graph</a><br />
 </p></td>
-<td><p><img src="images/Candlestick-Chart.png" alt="Candlestick Chart" /><br />
+<td><p><img src="images/Candlestick-Chart.png" alt="Candlestick Chart icon" /><br />
 </p>
 <p><a href="~/docs/analytics/visualization-tutorials/candlestick-chart.md">Candlestick</a><br />
 </p></td>
-<td><p><img src="images/Circular-Gauge.png" alt="Circular Gauge" /><br />
+<td><p><img src="images/Circular-Gauge.png" alt="Circular Gauge icon" /><br />
 </p>
 <p><a href="~/docs/analytics/visualization-tutorials/gauge-charts.md">Circular</a><br />
 </p></td>
 </tr>
 <tr class="even">
-<td><p><img src="images/Column-Chart.png" alt="Column Chart" /><br />
+<td><p><img src="images/Column-Chart.png" alt="Column Chart icon" /><br />
 </p>
 <p><a href="~/docs/analytics/visualization-tutorials/simple-charts.md">Column</a><br />
 </p></td>
-<td><p><img src="images/Doughnut-Chart.png" alt="Doughnut Chart" /><br />
+<td><p><img src="images/Doughnut-Chart.png" alt="Doughnut Chart icon" /><br />
 </p>
 <p><a href="~/docs/analytics/visualization-tutorials/simple-charts.md">Doughnut</a><br />
 </p></td>
-<td><p><img src="images/Funnel-Chart.png" alt="Funnel Chart" /><br />
+<td><p><img src="images/Funnel-Chart.png" alt="Funnel Chart icon" /><br />
 </p>
 <p><a href="~/docs/analytics/visualization-tutorials/simple-charts.md">Funnel</a><br />
 </p></td>
-<td><p><img src="images/image-view.png" alt="Image Chart" /><br />
+<td><p><img src="images/image-view.png" alt="Image Chart icon" /><br />
 </p>
 <p><a href="~/docs/analytics/visualization-tutorials/image-chart.md">Image</a><br />
 </p></td>
-<td><p><img src="images/kpi.png" alt="kpi" /><br />
+<td><p><img src="images/kpi.png" alt="kpi icon" /><br />
 </p>
 <p><a href="~/docs/analytics/visualization-tutorials/kpi-gauge.md">KPI</a><br />
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><img src="images/Line-Chart.png" alt="Line Chart" /><br />
+<td><p><img src="images/Line-Chart.png" alt="Line Chart icon" /><br />
 </p>
 <p><a href="~/docs/analytics/visualization-tutorials/simple-charts.md">Line</a><br />
 </p></td>
-<td><p><img src="images/Linear-Gauge.png" alt="Linear Gauge" /><br />
+<td><p><img src="images/Linear-Gauge.png" alt="Linear Gauge icon" /><br />
 </p>
 <p><a href="~/docs/analytics/visualization-tutorials/gauge-charts.md">Linear</a><br />
 </p></td>
-<td><p><img src="images/OHLC-Chart.png" alt="OHLC Chart" /><br />
+<td><p><img src="images/OHLC-Chart.png" alt="OHLC Chart icon" /><br />
 </p>
 <p><a href="~/docs/analytics/visualization-tutorials/ohlc-chart.md">OHLC</a><br />
 </p></td>
-<td><p><img src="images/Pie-Chart.png" alt="Pie Chart" /><br />
+<td><p><img src="images/Pie-Chart.png" alt="Pie Chart icon" /><br />
 </p>
 <p><a href="~/docs/analytics/visualization-tutorials/simple-charts.md">Pie</a><br />
 </p></td>
-<td><p><img src="images/radial-Chart.png" alt="Radial Chart" /><br />
+<td><p><img src="images/radial-Chart.png" alt="Radial Chart icon" /><br />
 </p>
 <p><a href="~/docs/analytics/visualization-tutorials/simple-charts.md">Radial</a><br />
 </p></td>
 </tr>
 <tr class="even">
-<td><p><img src="images/Sparkline-Chart.png" alt="Sparkline Chart" /><br />
+<td><p><img src="images/Sparkline-Chart.png" alt="Sparkline Chart icon" /><br />
 </p>
 <p><a href="~/docs/analytics/visualization-tutorials/sparkline-charts.md">Sparkline</a><br />
 </p></td>
-<td><p><img src="images/Spline-Chart.png" alt="Spline Chart" /><br />
+<td><p><img src="images/Spline-Chart.png" alt="Spline Chart icon" /><br />
 </p>
 <p><a href="~/docs/analytics/visualization-tutorials/simple-charts.md">Spline</a><br />
 </p></td>
-<td><p><img src="images/Spline-Area.png" alt="Spline Area" /><br />
+<td><p><img src="images/Spline-Area.png" alt="Spline Area icon" /><br />
 </p>
 <p><a href="~/docs/analytics/visualization-tutorials/simple-charts.md">Spline with Area</a><br />
 </p></td>
-<td><p><img src="images/Stacked-Area-Chart.png" alt="Stacked Area Chart" /><br />
+<td><p><img src="images/Stacked-Area-Chart.png" alt="Stacked Area Chart icon" /><br />
 </p>
 <p><a href="~/docs/analytics/visualization-tutorials/stacked-charts.md">Stacked Area</a><br />
 </p></td>
-<td><p><img src="images/Stacked-Bar-Chart.png" alt="Stacked Bar Chart" /><br />
+<td><p><img src="images/Stacked-Bar-Chart.png" alt="Stacked Bar Chart icon" /><br />
 </p>
 <p><a href="~/docs/analytics/visualization-tutorials/stacked-charts.md">Stacked Bar</a><br />
 </p></td>
 </tr>
 <tr class="odd">
-<td><p><img src="images/Stacked-Column-Chart.png" alt="Stacked Column Chart" /><br />
+<td><p><img src="images/Stacked-Column-Chart.png" alt="Stacked Column Chart icon" /><br />
 </p>
 <p><a href="~/docs/analytics/visualization-tutorials/stacked-charts.md">Stacked Column</a><br />
 </p></td>
-<td><p><img src="images/Step-Area-Chart.png" alt="Step Area Chart" /><br />
+<td><p><img src="images/Step-Area-Chart.png" alt="Step Area Chart icon" /><br />
 </p>
 <p><a href="~/docs/analytics/visualization-tutorials/simple-charts.md">Step Area</a><br />
 </p></td>
-<td><p><img src="images/Step-Line-Chart.png" alt="Step Line Chart" /><br />
+<td><p><img src="images/Step-Line-Chart.png" alt="Step Line Chart icon" /><br />
 </p>
 <p><a href="~/docs/analytics/visualization-tutorials/simple-charts.md">Step Line</a><br />
 </p></td>
-<td><p><img src="images/Text-Gauge.png" alt="Text Gauge" /><br />
+<td><p><img src="images/Text-Gauge.png" alt="Text Gauge icon" /><br />
 </p>
 <p><a href="~/docs/analytics/visualization-tutorials/gauge-charts.md">Text</a><br />
 </p></td>
-<td><p><img src="images/Text-View.png" alt="Text View" /><br />
+<td><p><img src="images/Text-View.png" alt="Text View icon" /><br />
 </p>
 <p><a href="~/docs/analytics/visualization-tutorials/text-view.md">Text View</a><br />
 </p></td>

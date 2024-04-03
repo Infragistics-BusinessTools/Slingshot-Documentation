@@ -49,18 +49,26 @@ select your profile image > *Settings* > *Profile Information*
 Here you need to complete the following information about yourself: 
 
 * **Name** - this is your display name in Slingshot and the name by which others will recognize and *@mention* you. You can change your name by clicking/tapping on it. Select *Rename* when ready.
-* **Title** - this is your job title (for example, Accountant) or role in the organization (for example, CFO). To add your title, click/tap on it. Select *Set* when ready. 
+
+* **Title** - this is your job title (for example, Accountant) or role in the organization (for example, CFO). 
+To add your title, click/tap on it. Select *Set* when ready.
+
 * **Photo** - your photo will help your collaborators in Slingshot know who you are. Your profile photo is always 64x64 pixels, square images will be scaled down or up. You can upload a file from your computer, take the photo with your device's camera or choose it from your device's storage.
-* **Industry** - this is information concerning your organization. Select from the drop-down on the right or type your industry and click/tap *Ok*. 
-* **Department** - this is the organization department where you belong. Select from the drop-down on the right or type your department and click/tap *Ok*.
+
+* **Industry** - this is information concerning your organization. Select from the dropdown on the right or type your industry and click/tap *Ok*. 
+
+* **Department** - this is the organization department where you belong. Select from the dropdown on the right or type your department and click/tap *Ok*.
 
 When you are finished, just close the dialog. Your changes will be saved.  
 
 ## How can I change my language?
 
 Slingshot will detect and apply the language and regional settings configured in the different platforms, including:
+
 - Web browser
+
 - Windows
+
 - Mobile devices (Android and iOS)
 
 The available languages are English, German, Spanish, French, Italian, Japanese, Korean, Malay, Dutch, Portuguese, Russian, Chinese (Traditional and Simplified).
@@ -75,10 +83,12 @@ Alternatively, you can open the Notifications panel and select *Settings* from t
 <img src="../images/user-settings-notifications.png" alt="Notifications Settings menu opened in Slingshot" width="75%" class="responsive-img"/>
 
 ## What are the dashboard settings?
+
 Dashboards are part of your *Analytics* space in Slingshot.
 Find more about Dashboards in [Dashboards Overview](analytics/dashboards/overview.md).
 For more information about tooltips and crosshair settings, go to [Interacting with Dashboards](analytics/dashboards/dashboards-interactions.md)
 
 ## What are Data source credentials?
+
 In Analytics, when you connect to a data source for the first time, your credentials (user name, password and domain) are stored in this *Data Source Credentials*. Because of this, you can reuse them in the future.
 For more information about data sources, go to [Data Sources Overview](analytics/datasources/overview.md). 

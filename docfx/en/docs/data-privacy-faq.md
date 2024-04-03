@@ -43,7 +43,7 @@ If you have a [personal account](roles-permissions-faq.html#what-about-users-wit
 
 select your profile image > *Settings* > *Data Privacy* > *Delete my Data* (as shown in the screenshot below).
 
-<img src="../images/delete-profile-data-settings.png" alt="Deleting your profile data from the Settings menu" class="responsive-img">
+<img src="../images/delete-profile-data-settings.png" alt="Delete your profile data from the Settings menu" class="responsive-img">
 
 If you are the only owner of any workspace in Slingshot, you will be asked to assign new owners before your profile is deleted. 
 
@@ -105,7 +105,7 @@ If you have a [personal account](roles-permissions-faq.md#what-about-users-with-
 
 select your profile image > *Settings* > *Data Privacy* > *Export my Data* (as shown in the screenshot below).
 
-<img src="../images/export-profile-data-settings.png" alt="Exporting your profile data from the Settings menu" class="responsive-img">
+<img src="../images/export-profile-data-settings.png" alt="Export your profile data from the Settings menu" class="responsive-img">
 
 >[!NOTE] If you are an Organization member *Data Privacy* is not available in your *Settings* menu.  
 

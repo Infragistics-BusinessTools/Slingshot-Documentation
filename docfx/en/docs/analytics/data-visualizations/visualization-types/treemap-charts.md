@@ -20,7 +20,7 @@ Each characteristic of the building tiles (rectangles) has a role in the data an
 
 You can create a **visualization without hierarchical data** like the one shown below:
 
-<img src="./images/treemap-visualization-without-hierarchical-data-example.png" alt="An example of a treemap with no hierarchy" class="responsive-img" width="90%"/>
+<img src="./images/treemap-visualization-without-hierarchical-data-example.png" alt="Example of a treemap with no hierarchy" class="responsive-img" width="90%"/>
 
 You can use treemaps with no hierarchies to show patterns and part-to-whole relations in an attractive and clear way.
 

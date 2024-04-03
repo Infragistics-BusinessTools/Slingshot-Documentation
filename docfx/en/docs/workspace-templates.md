@@ -12,7 +12,7 @@ To access the out-of-the-box Slingshots templates, you can:
 
 3.	The following dialog will pop up:
 
-<img src="../images/workspace-templates-dialog.png" alt="workspace templates" class="responsive-img" width="90%" />
+<img src="../images/workspace-templates-dialog.png" alt="Workspace templates dialog" class="responsive-img" width="90%" />
 
 In the left panel, you can do the following:
 
@@ -38,13 +38,13 @@ The Slingshot templates are organized based on different industries/departments.
 
 3.	You will be presented with a preview of how the workspace will look like. In this case we chose the **Recruiting** template.
 
-<img src="../images/workspace-template-example.png" alt="Example of a workspace template" class="responsive-img" width="90%" />
+<img src="../images/workspace-template-example.png" alt="Preview of a workspace template" class="responsive-img" width="90%" />
 
 4.	Here you find a brief description of what’s inside the template, what it includes and who created it. You can also use the left/right arrows to see the thumbnails of each component (in this case *Tasks* and *Discussions*). This can give you a better overview of how your workspace will look like. When you are ready, click/tap on **Use Template**.
 
 5.	You will be presented with a dialog, where you can change the title of your project and change the description by clicking/tapping on each text box. You can also set the starting date for the workspace from the drop-down menu. The starting date will also be used for configuring the task dates. 
 
-<img src="../images/new-workspace-dialog.png" alt="Creating a new workspace from a template" class="responsive-img" width="90%" />
+<img src="../images/new-workspace-dialog.png" alt="Create a new workspace from a template" class="responsive-img" width="90%" />
 
 6.	When you are ready, click/tap on **Create**.
 

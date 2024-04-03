@@ -14,7 +14,7 @@ massive datasets for your visualizations with no slow down.
 To configure a Microsoft Azure Synapse Analytics data source, you will
 need to enter the following information:
 
-<img src="../images/microsoft-azure-synapse-analytics-configuration.png" alt="Configuring azure synapse data source dialog" class="responsive-img" width="55%"/>
+<img src="../images/microsoft-azure-synapse-analytics-configuration.png" alt="Configure Azure Synapse data source dialog" class="responsive-img" width="55%"/>
 
 1.  **[Server](#how-to-find-your-server-information)**: the computer name or IP address assigned to the computer
     on which the server is running.
@@ -57,7 +57,7 @@ that the commands should be executed on the server.
 Once you connect to a database in MS Azure Synapse Analytics, you can
 choose to retrieve data from an entire table, a particular view or stored procedure.
 
-<img src="./images/data-source-details-azure-synapse.png" alt="A data source details dialog containing tables, views and stored procedures" class="responsive-img" width="55%"/>
+<img src="./images/data-source-details-azure-synapse.png" alt="Lists of Microsoft Azure Synapse tables, views and stored procedures" class="responsive-img" width="55%"/>
 
 Working with tables, views and stored procedures when using Azure Synapse Analytics closely resembles
 working with data from MS SQL Server. For more information,
@@ -70,7 +70,7 @@ Once your data source has been added, you will be taken to the *Visualization Ed
 
 Keep in mind that the *Column* visualization will be selected by default. You can click/tap on it in order to choose another chart type.
 
-<img src="./images/visualization-editor-azure-synapse.png" alt="Using data from microsoft azure synapse analytics account in the visualization editor" class="responsive-img" width="85%"/>
+<img src="./images/visualization-editor-azure-synapse.png" alt="Microsoft Azure Synapse data in the Visualization Editor" class="responsive-img" width="85%"/>
 
 ## Limitations in the Visualization Editor
 

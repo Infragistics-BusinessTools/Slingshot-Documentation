@@ -20,7 +20,7 @@ _language: ja
 
 ## 複合チャートの設定
 
-<img src="images/combo-chart-settings.png" alt="Combo Charts configuration settings in Slingshot" class="responsive-img" width="85%"/>
+<img src="images/combo-chart-settings.gif" alt="Combo Charts configuration settings in Slingshot" class="responsive-img" width="85%"/>
 
 [設定] では:
 

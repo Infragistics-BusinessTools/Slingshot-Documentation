@@ -82,7 +82,7 @@ Choose a database *cube* and click/tap on **Select Data** to continue to the *Vi
 
 When you create a dashboard using a cube data source like Microsoft Analysis Services, you will see fields organized differently in the *Visualization Editor* (see screenshot below). Cube data sources consist of hierarchies and aggregations, which have been created by the cubes' designers in advance.
 
-<img src="images/microsoft-analysis-services-visualization-editor.png" alt="Using the Microsoft Analysis Service data source information in the visualization editor" class="responsive-img" width="85%"/>
+<img src="images/microsoft-analysis-services-visualization-editor.png" alt="Microsoft Analysis Service data source information in the Visualization Editor" class="responsive-img" width="85%"/>
 
 In the screenshot above, you may notice that there is no "Fields" heading on the left. Instead, there are two sections in their own query field:
 
@@ -102,7 +102,7 @@ In the screenshot above, you may notice that there is no "Fields" heading on the
 
 2.  **Measures** (depicted by *[123]* icon): Measures consist of numeric data.
 
-<img src="./images/microsoft-analysis-services-pivot-chart.png" alt="Using the visualization editor with a pivot chart" class="responsive-img" width="85%"/>
+<img src="./images/microsoft-analysis-services-pivot-chart.png" alt="Pivot Chart using data from Microsoft Analysis Services" class="responsive-img" width="85%"/>
 
 <a name='sort-by-caption-setting'></a>
 ## Sort by Caption Setting
@@ -116,7 +116,7 @@ To enable it, select a dimension in *Rows* or *Columns*. Enable
 *Sorting* for the field by choosing *Ascending* or *Descending* to have
 the *Sort by Caption* option show up:
 
-<img src="../images/sort-by-option-ssas.png" alt="Dialog with the sort by caption option" class="responsive-img" width="35%" />
+<img src="../images/sort-by-option-ssas.png" alt="Dialog with the Sort by Caption option" class="responsive-img" width="35%" />
 
 ## Settings 
 
@@ -132,7 +132,7 @@ Depending on the chart type, you can make different changes in the settings. In 
 
 When you are ready with the visualization editor, you can save the dashboard in **My Analytics** ⇒ **My Dashboards**, a project or in a specific workspace. 
 
-<img src="../images/ssas-dashboard-my-analytics.png" alt="Dasboard with an information from the microsoft analysis services data source in My Analytics" class="responsive-img" width="80%"/>
+<img src="../images/ssas-dashboard-my-analytics.png" alt="Dasboard with an information from the Microsoft Analysis Services data source in My Analytics" class="responsive-img" width="80%"/>
 
 In case you've entered wrong credentials, you will get an error message (screenshot below). You can click on *Log into Microsoft Analysis Services* and update your credentials. That should fix the issue. 
- <img src="../images/microsoft-analysis-services-authentication-failed.png" alt="Displaying the error message authentication failed" class="responsive-img" width="85%"/>
+ <img src="../images/microsoft-analysis-services-authentication-failed.png" alt="Error message for failed authentication" class="responsive-img" width="85%"/>

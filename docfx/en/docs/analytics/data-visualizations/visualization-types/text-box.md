@@ -33,7 +33,7 @@ Text Box creation menu, follow the steps below:
 
 3.  Click/tap on the *arrow* of the *+ Visualization* split button and select *Text Box*.
 
-    <img src="./images/new-dashboard-text-box.png" alt="New visualization dialog" class="responsive-img" width="90%"/>  
+    <img src="./images/new-dashboard-text-box.png" alt="Text box visualization" class="responsive-img" width="90%"/>  
 
 ## Working With the Text Box Visualization
 

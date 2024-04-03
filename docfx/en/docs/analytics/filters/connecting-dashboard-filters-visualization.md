@@ -18,7 +18,7 @@ two ways:
     individual visualization, even after the dashboard filter has been
     created.
 
-<img src="images/visualization-editor-dashboard-filter.png" alt="dashboard filters in the visualization editor" class="responsive-img" width="90%"/>
+<img src="images/visualization-editor-dashboard-filter.png" alt="Dashboard filters in the Visualization Editor" class="responsive-img" width="90%"/>
 
 In both cases, binding is defined by adding rules that link a field in
 the dashboard filter dataset with a corresponding field in the

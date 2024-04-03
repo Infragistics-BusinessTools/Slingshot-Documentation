@@ -12,7 +12,9 @@ With the *My Analytics* section of Slingshot, you can bring the power of BI (bus
 In order to make data-driven decisions, Slingshot is on your side with the following features:
 
 - **Dashboards** – Create or share dashboards so your team can utilize data and improve productivity. Bring multiple data sources into one dashboard to ensure that you have all the information in one place.
+
 - **Data Sources** - Connect directly to wherever your data comes from, including content managers, cloud services, CRMs, databases, spreadsheets, and more.
+
 - **Data Catalog** - Find the most trustful information about your company in the list of data catalogs. The data is categorized and certified. 
 
 >[!Note] Data Catalogs are available only to *[Enterprise](../slingshot-enterprise-subscription.md)* users.
@@ -23,7 +25,7 @@ Data Sources make up visualizations and visualizations make up dashboards. In ot
 
 With an intuitive drag and drop interface, Slingshot makes it simple to create dashboards within minutes. Choose from more than 40 different visualizations to present your data and tell your story the best way.
 
-<img src="../../images/my-analytics-dashboard-example.png" alt="Customizing a data visualization in Slingshot" class="responsive-img"/>
+<img src="../../images/my-analytics-dashboard-example.png" alt="Example of a custom data visualization in Slingshot" class="responsive-img"/>
 
 ### Customize
 
@@ -52,7 +54,9 @@ Connect to the most popular data sources without setting anything up on the serv
 To connect right to your data source and build your visualizations, you can follow these steps:
 
 1. Click/tap on the **+ Dashboard** or **Create Dashboard** (Getting started section) blue button.
+
 2. Select the data source you want to connect.
+
 3. Configure the connection. This might include selecting the file’s location (spreadsheet or JSON file) or enter credentials (data storages, web resources, social media connectors, databases).
 
 ## Data Catalog
@@ -96,7 +100,9 @@ To access the Filters editor, just click/tap the **+ Filter** icon in the *FILTE
 To stop filtering dashboards or data sources, you can:
 
 1. Click/tap on the filter icon to open the *Filters* dialog. 
+
 2. Select the **Clear** button at the bottom to remove the current filters.
+
 3. Click/tap on **Apply** to save your changes.
 
 <img src="../../images/dashboard-filters-example.png" alt="Data Catalog screen within Slingshot" class="responsive-img"/>

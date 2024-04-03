@@ -63,10 +63,10 @@ that returns a subset of data from a table or a set of tables instead.
 
 <img src="images/views-microsoft-sql.png" alt="Views in Microsoft SQL" class="responsive-img" width="60%"/>
 
-In the sample below, the **Invoices** view contains
+In the example below, the **Invoices** view contains
 part of the data in the **Alphabetical list of products** table in the SQL Server.
 
-<img src="images/sample-microsoft-sql.png" alt="Sample showing the use of Microsoft SQL views in Slingshot" class="responsive-img" width="85%"/>
+<img src="images/sample-microsoft-sql.png" alt="Dashboard presenting data from Microsoft SQL views" class="responsive-img" width="85%"/>
 
 For more information on views and MS SQL Server, visit <a href="https://docs.microsoft.com/en-us/sql/relational-databases/views/views?view=sql-server-2017" target="_blank">this documentation website</a>.
 
@@ -78,17 +78,17 @@ following are just a set of sample stored procedures running in a test
 server with <a href="https://docs.microsoft.com/en-us/dotnet/framework/data/adonet/sql/linq/downloading-sample-databases" target="_blank">
 Northwind</a> data:
 
-<img src="images/stored-procedures-microsoft-sql.png" alt="Microsoft SQL stored procedures list" class="responsive-img" width="55%"/>
+<img src="images/stored-procedures-microsoft-sql.png" alt="Microsoft SQL Stored Procedures list" class="responsive-img" width="55%"/>
 
 This stored procedure, for example, returns the products in the
 **Products** table ordered by their **Unit Price**. The **ProductName**
 has been renamed to **TenMostExpensiveProducts**.
 
-<img src="images/stored-procedures-sample-result.png" alt="Using Microsoft SQL stored procedure in Slingshot" class="responsive-img" width="85%"/>
+<img src="images/stored-procedures-sample-result.png" alt="Example of Microsoft SQL Stored Procedure dashboard" class="responsive-img" width="85%"/>
 
 In this case, the stored procedure requires users to add the order ID in order display the **CustOrdersDetail** information.
 
-<img src="images/stored-procedures-parameters-example.png" alt="Stored Procedure Parameters example" class="responsive-img" width="65%"/>
+<img src="images/stored-procedures-parameters-example.png" alt="Microsoft SQL Stored Procedure Parameters example" class="responsive-img" width="65%"/>
 
 For more information on Stored Procedures and MS SQL Server, visit <a href="https://docs.microsoft.com/en-us/sql/relational-databases/stored-procedures/stored-procedures-database-engine?view=sql-server-2017" target="_blank">this documentation website</a>.
 

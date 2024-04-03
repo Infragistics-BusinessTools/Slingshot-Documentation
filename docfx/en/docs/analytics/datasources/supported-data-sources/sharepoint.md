@@ -9,7 +9,7 @@ _description: Setting up and using SharePoint as a data source in Slingshot to a
 
 Upon selecting SharePoint, you will see the following log in prompt.
 
-<img src="images/sharepoint-login.png" alt="SharePoint Login" class="responsive-img"/>
+<img src="images/sharepoint-login.png" alt="SharePoint Login screen" class="responsive-img"/>
 
 Here you can choose to use the root SharePoint site in your Office365 account. You can also add a *subsite URL* to directly start browsing its contents. Once connected to a SharePoint subsite, you will be able to quickly access it through your list in the *Select a Data Source* dialog.
 
@@ -50,7 +50,7 @@ To create a dashboard, you can use the SharePoint data types, listed below.
 
     Here you will find the metadata of the library presented as SharePoint lists that you can choose from.
 
-<img src="images/set-up-metadata-list.png" alt="Metadata presented as sharepoint lists" class="responsive-img"/>
+<img src="images/set-up-metadata-list.png" alt="Metadata presented as Sharepoint lists" class="responsive-img"/>
 
 >[!NOTE]
 >**Do not confuse Libraries' Metadata in Analytics with "managed metadata" in SharePoint!**

@@ -18,7 +18,7 @@ In the *Settings* section of the Choropleth map visualization you can configure 
   - *Color as* - here you can choose between:
 
       * *Range of Values* - use a range of seven colors as a color scheme and fill the regions depending on the data value;
-      * *Single Color* - use one color to display all regions that contain data. Regions, where information is missing, are grey.
+      * *Single Color* - use one color to display all regions that contain data. Regions, where information is missing, are gray.
 
     >[!NOTE]
     >If you have added a field in the *Map Color* placeholder, then the *Color as* in the *Settings* will change to *Color based on*. Find more about using the Map Color to create choropleth maps [here](./Choropleth-map.md#using-the-map-color-to-create-a-multi-color-choropleth-map).

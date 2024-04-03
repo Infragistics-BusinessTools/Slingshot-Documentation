@@ -12,7 +12,7 @@ visualizations using a sample spreadsheet.
 
 <img src="images/simple-series-charts-example2.png" alt="Visualizations made by using another set of simple series charts" class="responsive-img" width="92%"/>
 
-<img src="images/simple-series-charts-example3.png" alt="Another set of visualizations made with different chart" class="responsive-img" width="92%"/>
+<img src="images/simple-series-charts-example3.png" alt="Another set of visualizations made with different charts" class="responsive-img" width="92%"/>
 
 Access the links below for the Simple chart view walkthroughs:
 
@@ -70,11 +70,11 @@ For this tutorial, you will use the *Simple Series Charts* sheet in the [Slingsh
 
 1. Select the **+ Dashboard** button in the top right-hand corner of **My Analytics**.
 
-   <img src="images/new-dashboard-button.png" alt="Tutorials-Create-New-Dashboard" class="responsive-img" width="90%"/>                                      
+   <img src="images/dashboard-button-my-analytics.png" alt="New Dashboard button in My Analytics" class="responsive-img" width="90%"/>                                      
 
 2. Select your data source (**Slingshot Tutorials Spreadsheet**) from the list of data sources. If the data source is new, you will need to first add it from the **+ Data Source** button in the top-right corner.
 
-   <img src="images/visualization-tutorials-data-sources-list.png" alt="Selecting a data source from the list of data sources" class="responsive-img" width="90%"/>                                          
+   <img src="images/visualization-tutorials-sample.png" alt="Select Slingshot Tutorials Spreadsheet from the list of data sources" class="responsive-img" width="90%"/>                                          
 
 3. Choose the **Simple Series Charts** sheet.     
 
@@ -85,7 +85,7 @@ For this tutorial, you will use the *Simple Series Charts* sheet in the [Slingsh
    <img src="images/chart-types-simple-series-charts.png" alt="List of chart types" class="responsive-img" width="70%"/> 
  
 5. The charts in the table above, for example, display the population for a select list of countries. Drag and drop the *Country Name* field to **Label** and the *Population* field into **Values**.                                                        
-   <img src="images/simple-series-charts-organizing-data.png" alt="Organizing the data from the Simple Series Charts sheet" class="responsive-img" width="70%"/>                                   
+   <img src="images/simple-series-charts-organizing-data.png" alt="Organize data from Simple Series Charts sheet" class="responsive-img" width="35%"/>                                   
 
 <a name='add-trendline-chart'></a>
 ## Adding a Trendline to your Chart
@@ -96,8 +96,8 @@ information. In order to do this:
 
 |                                     |                                                                        |                                                                  |
 | ----------------------------------- | ---------------------------------------------------------------------- | ---------------------------------------------------------------- |
-| 1\. **Change Settings**             | <img src="images/settings-tutorials.png" alt="Tutorials-Navigate-Settings" class="responsive-img"/> | Go to the **Settings** section of the Visualization Editor.      |
-| 2\. **Access the Chart Trendlines** | <img src="images/chart-trendline-simple-series-charts.png" alt="Chart Trendlines option in the settings" class="responsive-img"/> | Expand the Chart Trendline drop-down by selecting the down arrow to select one of Slingshot's predefined trendlines. |
+| 1\. **Change Settings**             | <img src="images/settings-tutorials.png" alt="Settings Menu" class="responsive-img"/> | Go to the **Settings** section of the Visualization Editor.      |
+| 2\. **Access the Chart Trendlines** | <img src="images/chart-trendline-simple-series-charts.png" alt="Chart Trendlines option in the settings" class="responsive-img"/> | Expand the Chart Trendline dropdown by selecting the down arrow to select one of Slingshot's predefined trendlines. |
 
 <a name='change-axis-configuration'></a>
 ## Changing your Axis Configuration
@@ -109,8 +109,8 @@ data.
 
 |                                        |                                                                                      |                                                                                                                                       |
 | -------------------------------------- | ------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------- |
-| 1\. **Change Settings**                | <img src="images/settings-tutorials.png" alt="Tutorials-Navigate-Settings" class="responsive-img"/>               | Go to the **Settings** section of the Visualization Editor.                                                                           |
-| 2\. **Access the Axis Bounds section** | <img src="images/axis-bounds-section.png" alt="Axis bounds in the settings options" class="responsive-img"/>                           | Navigate to *Axis Bounds*. Depending on whether you want to set the minimum or maximum value (or both), enter the value you want the chart to start or end with. |
+| 1\. **Change Settings**                | <img src="images/settings-tutorials.png" alt="Settings Menu" class="responsive-img"/>               | Go to the **Settings** section of the Visualization Editor.                                                                           |
+| 2\. **Access the Axis Bounds section** | <img src="images/axis-bounds-section.png" alt="Axis bounds in the Settings menu" class="responsive-img"/>                           | Navigate to *Axis Bounds*. Depending on whether you want to set the minimum or maximum value (or both), enter the value you want the chart to start or end with. |
 
 
 <a name='set-logarithmic-axis'></a>
@@ -118,21 +118,21 @@ data.
 
 |                                           |                                                                          |                                                             |
 | ----------------------------------------- | ------------------------------------------------------------------------ | ----------------------------------------------------------- |
-| 1\. **Change Settings**                   | <img src="images/settings-tutorials.png" alt="Tutorials-Navigate-Settings" class="responsive-img" width="90%"/>   | Go to the **Settings** section of the Visualization Editor. |
-| 2\. **Access the Axis option**            | <img src="images/axis-logarithmic.png" alt="Tutorials-Axis-Bounds" class="responsive-img" width="90%"/>               | Expand the Axis drop-down by selecting the down arrow and select *Logarithmic*.      |       
+| 1\. **Change Settings**                   | <img src="images/settings-tutorials.png" alt="Settings Menu" class="responsive-img" width="90%"/>   | Go to the **Settings** section of the Visualization Editor. |
+| 2\. **Access the Axis option**            | <img src="images/axis-logarithmic.png" alt="Axis Bounds in Settings Menu" class="responsive-img" width="90%"/>               | Expand the Axis dropdown by selecting the down arrow and select *Logarithmic*.      |       
 
 <a name='change-start-position'></a>
 ## Changing the Start Position for Doughnut and Pie Charts
 
 |                                                   |                                                                                |                                                                                           |
 | ------------------------------------------------- | ------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------- |
-| 1\. **Change Settings**                           | <img src="images/settings-tutorials.png" alt="Tutorials-Navigate-Settings" class="responsive-img"/>         | Go to the **Settings** section of the Visualization Editor.                               |
-| 2\. **Access the Start Position section**         | <img src="images/start-position-settings.png" alt="Start position settings" class="responsive-img"/>               | Expand the *Start Position* drop-down by selecting the down arrow. Select one of Slingshot's predefined start positions for your chart (0°, 90°, 180° or 270°).                          |
+| 1\. **Change Settings**                           | <img src="images/settings-tutorials.png" alt="Settings Menu" class="responsive-img"/>         | Go to the **Settings** section of the Visualization Editor.                               |
+| 2\. **Access the Start Position section**         | <img src="images/start-position-settings.png" alt="Start Position section in Settings Menu" class="responsive-img"/>               | Expand the *Start Position* dropdown by selecting the down arrow. Select one of Slingshot's predefined start positions for your chart (0°, 90°, 180° or 270°).                          |
 
 <a name='change-slice-labels'></a>
 ## Changing the Slice Labels for Doughnut, Funnel and Pie Charts
 
 |                                                |                                                                          |                                                                                                        |
 | ---------------------------------------------- | ------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------ |
-| 1\. **Change Settings**                        | <img src="images/settings-tutorials.png" alt="Tutorials-Navigate-Settings" class="responsive-img"/>   | Go to the **Settings** section of the Visualization Editor.                                            |
-| 2\. **Access the Slice Label section**         | <img src="images/slice-label-settings.png" alt="Tutorials-Slice-Label" class="responsive-img"/>               | Expand the Slice Labels drop-down by selecting the down arrow. Select one of Slingshot's predefined labeling options (*Percentage*, *Value* or *Value and Percentage*).                                       |
+| 1\. **Change Settings**                        | <img src="images/settings-tutorials.png" alt="Settings Menu" class="responsive-img"/>   | Go to the **Settings** section of the Visualization Editor.                                            |
+| 2\. **Access the Slice Label section**         | <img src="images/slice-label-settings.png" alt="Slice Label section in Settings Menu" class="responsive-img"/>               | Expand the Slice Labels dropdown by selecting the down arrow. Select one of Slingshot's predefined labeling options (*Percentage*, *Value* or *Value and Percentage*).                                       |

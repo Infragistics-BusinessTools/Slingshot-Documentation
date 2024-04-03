@@ -21,7 +21,7 @@ For more information about security and data privacy within Slingshot, go to [Se
 
 The app behavior and overall experience can be greatly modified by tweaking your profile information and settings. As a good practice, try customizing your experience to better suit your needs. To do this, navigate to Settings.
 
-<img src="../images/user-account-settings-drop-down-menu.png" alt="Settings location" width="80%" class="responsive-img">
+<img src="../images/user-account-settings-drop-down-menu.png" alt="Settings location in a user's account" width="60%" class="responsive-img">
 
 Now feel free to explore the different settings and make Slingshot feel like home:
 
@@ -37,7 +37,7 @@ Now feel free to explore the different settings and make Slingshot feel like hom
 
 - Do you want to export your logs?
 
-<img src="../images/users-account-settings.png" alt="User settings opened" width="60%" class="responsive-img">
+<img src="../images/users-account-settings.png" alt="Example of user settings opened" width="60%" class="responsive-img">
 
 In addition, it's a good idea to complete your *profile information* as it will make you recognizable when collaborating with others. Your name, photo, title, etc. are all part of your virtual identity, and they add value to the Slingshot's experience. 
 

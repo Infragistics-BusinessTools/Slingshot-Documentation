@@ -9,7 +9,7 @@ When it comes to running a successful project – task management is at the hear
 
 There is a task tab available within your workspaces and projects, listing all the tasks assigned to everyone in those workspaces and projects. You can view your own tasks assigned to you within the **My Tasks** section.
 
-<img src="../images/my-tasks.png" alt="My tasks assigned tasks" width="90%" class="responsive-img"/>
+<img src="../images/my-tasks.png" alt="Assigned tasks in My Tasks section" width="90%" class="responsive-img"/>
 
 ## What are Tasks?  
 
@@ -59,7 +59,7 @@ If you want to add subtasks or dependencies to the task, you can scroll down in 
 
  In the task description section, you can add additional details around your tasks with the help of different text formatting tools. You can also add URLs, as well as emojis.
 
-  <img src="../images/task-description.png" alt="using an image and numbered list in the task description" width="65%" class="responsive-img"/>
+  <img src="../images/task-description.png" alt="Example of a task description" width="65%" class="responsive-img"/>
 
 Note that currently these options are available only for macOS Monterey.
 
@@ -73,17 +73,17 @@ Instead of creating a whole new set of tasks, you can save some time and be more
 
 3.	Choose **Duplicate**.
 
- <img src="../images/duplicate-tasks-option.png" alt="task duplication overflow menu" width="80%" class="responsive-img"/>
+ <img src="../images/duplicate-tasks-option.png" alt="Task duplication overflow menu" width="80%" class="responsive-img"/>
 
 4.	A dialog will open, where you can choose what you want to keep when you duplicate the task. You can also change the title of the task. If you decide to keep the same assignees, you’ll be presented with the option to notify them once the task is created.
 
- <img src="../images/duplicate-a-task-filters.png" alt="dialog with task duplication filters" width="35%" class="responsive-img"/>
+ <img src="../images/duplicate-a-task-filters.png" alt="Dialog with task duplication filters" width="35%" class="responsive-img"/>
 
 5.	Once you’ve saved your preferences, you will see the task field where you can make changes. 
 
 6.	When you are ready, you can click on **Update**. You can find the task with the subtasks in the **My Tasks** section. 
 
- <img src="../images/duplicate-task-storage.png" alt="where to find the duplicated task" width="82%" class="responsive-img"/>
+ <img src="../images/duplicate-task-storage.png" alt="Example of stored duplicated tasks" width="82%" class="responsive-img"/>
 
 ## Organizing Tasks  
 
@@ -113,7 +113,7 @@ Use Calendar view if you want to:
 
 Project manage and update tasks faster from within your list view.  
 
-<img src="../images/Slingshot_Tasks_List_View.png" alt="Task list view within Slingshot" width="72%" class="responsive-img"/>
+<img src="../images/Slingshot_Tasks_List_View.png" alt="Task List View within Slingshot" width="72%" class="responsive-img"/>
 
 Use List view if you want to: 
 
@@ -127,7 +127,7 @@ Use List view if you want to:
 
 View your tasks as cards within columns that represent different stages of the Status workflow. You can drag and drop your tasks between columns to change their status.
 
-<img src="../images/Slingshot_Tasks_Kanban_View.png" alt="Task kanban view within Slingshot" width="72%" class="responsive-img"/>
+<img src="../images/Slingshot_Tasks_Kanban_View.png" alt="Task Kanban View within Slingshot" width="72%" class="responsive-img"/>
 
 Use Kanban view if you want to:  
 
@@ -139,7 +139,7 @@ Use Kanban view if you want to:
 
 See a clear path for project completion and dependencies by using timeline view. Zoom in or out to see your timeline by days, weeks or months.
 
-<img src="../images/Slingshot_Tasks_Timeline_View.png" alt="Task timeline view within Slingshot" width="72%" class="responsive-img"/>
+<img src="../images/Slingshot_Tasks_Timeline_View.png" alt="Task Timeline View within Slingshot" width="72%" class="responsive-img"/>
 
 Use Timeline view if you want to: 
 
@@ -195,41 +195,31 @@ In order to create a new filter, you can:
 
 1. Click/tap on **+Filter** under *Filters*.
 
-<img class="responsive-img" src="../images/task-filter.png" width="90%" alt="Filter option">
+<img class="responsive-img" src="../images/task-filter.png" width="90%" alt="New filter option">
 
-2. Choose what to include in your filter.
+2. Add the name of the filter and choose what to include in it.
 
-3. Click/tap on **Apply**.
+<img class="responsive-img" src="../images/filter-options-tasks.png" width="90%" alt="Different fields that can be added to a new filter">
 
-In the Filter's editor you can create Basic or more Advanced rules. The Basic rules will be enough most of the time. Advanced rules are recommended in the case that you really need to define more complex conditions in your filter. 
+3. Click/tap on **Save**.
 
 If you want to change the way tasks are being filtered, you can make different adjustments to your filter. For example, if you want to filter only by the status **In Progress**, you can:
 
-1. Click/tap on the filter icon to open the *Filters* dialog. 
+1. Click/tap on the overflow menu next to the chosen filter.
 
-2. Uncheck **To Do**.
+2. Choose **Edit** from the drop-down menu.
 
-3. Select **Apply** to save your changes. 
+3. Change the status to **In Progress**.
 
-<img class="responsive-img" src="../images/task-filters-demo.gif" width="90%" alt="Filter options">
+4. Select **Save** to save your changes. 
+
+<img class="responsive-img" src="../images/task-filters-demo.gif" width="90%" alt="Demo presenting the steps for creating a filter">
 
 >[!IMPORTANT] **Slingshot Tip**: For those times that you can't find a specific task, try expanding collapsed panels, removing existing filters, and/or adding filters using the properties of the task you want. Remember that the icon changes to help you identify when you have active filters or not.
 
-### Advanced Filtering
+You can also add more rules to the filter from the **+Rule** button.
 
-Basic filtering will be sufficient most of the time but you also have additional filtering options with the *Advanced* rules.  
+As an example, the following rules could be created to get all John Williams’ tasks, that include the word “Deadline” in their description. 
 
-To open the advanced filters, you can open the Filter's editor and choose **Switch to Advanced**.
-
-<img class="responsive-img" src="../images/advanced-filters.png" width="90%" alt="Filter options">
-
-When the time comes that you need to craft complex filters, you will be able to: 
-
-- Apply conditions based on fields like *Is*, *Is Not*, *Is Before*, *Is After*, etc. 
-
-- Use operators like *And*, *Or*. 
-
-As an example, the following rules could be created to get all John Williams’ tasks, that include the word “Marketing” in their description. 
-
-<img src="../images/advanced-filters-example.png" alt="Advanced Filtering highlighted within Slingshot" class="responsive-img" width="90%"/>
+<img src="../images/advanced-filters.png" alt="Advanced Filtering highlighted within Slingshot" class="responsive-img" width="90%"/>
 

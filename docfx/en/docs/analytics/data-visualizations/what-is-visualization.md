@@ -4,7 +4,7 @@ Visualizations are individual pieces of information. Any dashboard is
 composed by one or more visualizations. The image below shows the
 quantity of units produced by different lines in a [Column Chart](category-charts.md) visualization.
 
-<img src="images/SampleVisualization_Desktop.png" alt="SampleVisualization\_Desktop" class="responsive-img"/>
+<img src="images/SampleVisualization_Desktop.png" alt="Example of a column chart visualization" class="responsive-img"/>
 
 ## How are Visualizations presented?
 

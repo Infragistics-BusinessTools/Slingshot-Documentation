@@ -8,7 +8,7 @@ With the help of structured and insightful dashboards, you can see how your SEO 
 
 1.	Select **Google Search Console** that is under **Marketing, Sales and CRMs** section in the data source list. 
 
-    <img src="./images/select-your-data-source-dialog.png" alt="Google Search Console add account dialog" width="90%" class="responsive-img"/>
+    <img src="./images/select-your-data-source-dialog.png" alt="Google Search Console in the list of data sources" width="90%" class="responsive-img"/>
 
 2.	In case there are multiple accounts listed, choose the one that stores the data you want to access. You can also add a new *Google Search Console* account if the one that you need is not in the list of accounts. In case you don’t have a Google Search Console account, you can head <a href="https://search.google.com/search-console/about" target="_blank">here</a> for more information about how you can create one.
 
@@ -42,7 +42,7 @@ This filter can’t be removed but you can change the default date range. The da
 
 If you want to change it, you can click on the arrow in the upper right corner (see the screenshot below) and pick a date range from the drop-down menu or create a custom one when you click on the first option.
 
-<img src="./images/google-search-console-date-range.png" alt="Date range dialog" class="responsive-img" width="90%"/>
+<img src="./images/google-search-console-date-range.png" alt="Date range dialog for Google Search Console in the data panel" class="responsive-img" width="90%"/>
 
 ## Settings
 
@@ -72,7 +72,7 @@ Depending on the chart type, you can make different changes in the settings. In 
 
 - [Connect this visualization to another dashboard or a URL](../../dashboards/dashboard-linking.md)
 
-<img src="./images/google-search-console-settings.png" alt="Google Search Console Settings" class="responsive-img" width="90%"/>
+<img src="./images/google-search-console-settings.png" alt="Google Search Console Visualization Editor Settings" class="responsive-img" width="90%"/>
 
 When you are ready with the visualization editor, you can save the dashboard in *My Analytics ⇒ My Dashboards*, in a specific workspace or a project. 
 

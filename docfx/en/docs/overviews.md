@@ -43,7 +43,7 @@ When running projects and teams, you need to get the big picture to act quickly 
 
 The Overview can give both Project Managers and Leaders an overall status (*On Target, At Risk, Danger, Completed*), *Start* and *Due* date, and make key content top of mind to members. 
 
-<img src="../images/workspace-overview.png" alt="Showing a Workspace Overview within Slingshot" class="responsive-img"/>
+<img src="../images/workspace-overview.png" alt="Example of a Workspace Overview within Slingshot" class="responsive-img"/>
 
 ### Details
 

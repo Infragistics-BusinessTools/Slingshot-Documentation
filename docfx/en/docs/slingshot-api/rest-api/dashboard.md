@@ -46,7 +46,7 @@ With dashboards you can display information with the help of beautiful visualiza
 
 ## Get a dashboard
 
-<img src="../images/get.png" alt="Get request" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/dashboards/{id}***
+<img src="../images/get.png" alt="Get request for a dashboard" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/dashboards/{id}***
 
 Required parameters: the **id** of the dashboard
 
@@ -62,7 +62,7 @@ Possible responses:
 
 ## Update a dashboard
 
-<img src="../images/patch.png" alt="Patch request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/>  ***https://my.slingshotapp.io/v1/dashboards/{id}***
+<img src="../images/patch.png" alt="Patch request for a dashboard" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/>  ***https://my.slingshotapp.io/v1/dashboards/{id}***
 
 Required parameters: the **id** of the dashboard
 
@@ -122,7 +122,7 @@ Example of a successful request body:
 
 ## Delete a dashboard 
 
-<img src="../images/delete.png" alt="Delete request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/>  ***https://my.slingshotapp.io/v1/dashboards/{id}***
+<img src="../images/delete.png" alt="Delete request for a dashboard" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/>  ***https://my.slingshotapp.io/v1/dashboards/{id}***
 
 Required parameters: the **id** of the dashboard
 

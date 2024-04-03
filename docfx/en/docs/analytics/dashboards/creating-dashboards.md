@@ -36,7 +36,7 @@ the **+ Data Source** button in the top right-hand corner. A new dialog will app
 
 If your data source is a spreadsheet in a content manager, you will be able to select, for example, the specific sheet that you want to use in your visualization.
 
-<img src="images/dashboards-select-data-sheet.png" alt="select a data sheet from an excel file data source" class="responsive-img" width="62%"/>
+<img src="images/dashboards-select-data-sheet.png" alt="Select a data sheet from an excel file data source" class="responsive-img" width="62%"/>
 
 ### Available Content
 
@@ -56,11 +56,11 @@ which means the ability to access any lists or libraries.
 
 Once your data source has been added, you will be taken to the *Visualization Editor*. By default, the Column visualization will be selected.
 
-<img src="images/visualization-editor-creating-dashboards.png" alt="dashboards first visualization in the visualization editor" class="responsive-img" width="90%"/>
+<img src="images/visualization-editor-creating-dashboards.png" alt="Dashboards first visualization in the visualization editor" class="responsive-img" width="90%"/>
 
 Analytics provides several options to customize the way your information is visualized. You can access the options by selecting the **grid icon** in the top bar.
 
-<img src="images/creating-dashboards-chart-types.png" alt="list with chart types" class="responsive-img" width="78%"/>
+<img src="images/creating-dashboards-chart-types.png" alt="Chart types list" class="responsive-img" width="78%"/>
 
 Add labels and values to your visualization and preview them in the right-hand pane. If necessary, you can change your visualization's settings or add filters to it.
 

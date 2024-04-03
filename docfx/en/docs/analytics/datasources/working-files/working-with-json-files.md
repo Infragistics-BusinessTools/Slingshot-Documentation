@@ -54,7 +54,7 @@ your JSON file:
     Once you've added the file to your list of data sources, you will be presented with a list of possible
     data structures for you to choose from.
 
-    <img src="images/json-data-list-of-tables.png" alt="Json Files Choose Data table" class="responsive-img" width="58%"/>
+    <img src="images/json-data-list-of-tables.png" alt="List of Json File tables" class="responsive-img" width="58%"/>
 
     If the list does not include the data structure you want, use the
     [**Advanced Selection**](#json-advanced-selection) mode where you

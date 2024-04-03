@@ -7,7 +7,7 @@ _description: Get familiar the specifics of creating a Candlestick chart visuali
 
 In this tutorial, you will learn how to create a *Candlestick chart* visualization using a sample spreadsheet.
 
-<img src="images/different-candlestick-charts.png" alt="A sample with different candlestick charts" class="responsive-img" width="92%"/>
+<img src="images/different-candlestick-charts.png" alt="Dashboard consisting of different candlestick chart visualizations" class="responsive-img" width="92%"/>
 
 Access the links below for the Candlestick chart view walkthroughs:
 
@@ -69,7 +69,7 @@ For this tutorial, you will use the *OHLC and Candlestick* sheet in the [Slingsh
 
 3. Choose the **OHLC and Candlestick** sheet. 
   
-   <img src="images/ohlc-candlestick-spreadsheet.png" alt="Selecting the OHLC and Candlesticks spreadsheet" class="responsive-img" width="65%"/>
+   <img src="images/ohlc-candlestick-spreadsheet.png" alt="OHLC and Candlesticks sheet in an Excel spreadsheet" class="responsive-img" width="65%"/>
          
 4. Open the *Visualization Picker* and select the **Candlestick** visualization. By default, the visualization type will be set to *Column*. 
 
@@ -109,5 +109,5 @@ the value you want for the chart's top limit.
 
 |                                        |                                                                                                              |                                                             |
 | -------------------------------------- | ------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------- |
-| 1\. **Access the Settings Menu**       | <img src="images/tutorials-settings.png" alt="Navigating to Settings" width="300"/>                 | Go to the **Settings** section of the Visualization Editor. |
-| 2\. **Change the Axis to Logarithmic** | <img src="images/axis-logarithmic-candlestick.png" alt="Accessing Axis configuration" width="300"/> | Open the **Axis** drop-down and select **Logarithmic**.      |
+| 1\. **Access the Settings Menu**       | <img src="images/tutorials-settings.png" alt="Settings menu in a visualization" width="300"/>                 | Go to the **Settings** section of the Visualization Editor. |
+| 2\. **Change the Axis to Logarithmic** | <img src="images/axis-logarithmic-candlestick.png" alt="Axis configuration in Settings" width="300"/> | Open the **Axis** dropdown and select **Logarithmic**.      |

@@ -8,7 +8,7 @@ _description: A quick tutorial on creating Stacked Chart visualization using a s
 In this tutorial, you will learn how to create *Stacked* chart
 visualizations using a sample spreadsheet.
 
-<img src="images/different-stacked-charts-example.png" alt="Tutorials-Create-New-Dashboard" class="responsive-img" width="92%"/>  
+<img src="images/different-stacked-charts-example.png" alt="Example of different Stacked Charts types" class="responsive-img" width="92%"/>  
 
 Access the links below for the Stacked Chart view walkthroughs:
 
@@ -59,18 +59,18 @@ For this tutorial, you will use the *Stacked Charts* sheet in the
                                                       
 2. Select your data source (**Slingshot Tutorials Spreadsheet**) from the list of data sources. If the data source is new, you will need to first add it from the **+ Data Source** button in the top-right corner.     
 
-      <img src="images/visualization-tutorials-data-sources-list.png" alt="Tutorials Data Source in the list of already added data sources" class="responsive-img" width="90%"/>
+      <img src="images/visualization-tutorials-sample.png" alt="Slingshot Tutorials Spreadsheet added to the list of  data sources" class="responsive-img" width="90%"/>
 
 3. Choose the **Stacked Charts** sheet.               
 
-     <img src="images/stacked-chart-spreadsheet-data-source-details-dialog.png" alt="Stacked Charts Spreadsheet in the tutorial data source" class="responsive-img" width="65%"/>
+     <img src="images/stacked-chart-spreadsheet-data-source-details-dialog.png" alt="Stacked Charts sheet in the tutorial data source" class="responsive-img" width="65%"/>
   
 4. Select the **Grid icon** in the top bar of the Visualization Editor. By default, the visualization type will be set to *Column*. You can always change it by selecting any of the **stack** visualizations.     
  
-     <img src="images/stacked-chart-types.png" alt="List of all the chart types used for a visualization" class="responsive-img" width="70%"/>                                                                                                    
+     <img src="images/stacked-chart-types.png" alt="Grid icon in the list of Chart Types" class="responsive-img" width="70%"/>                                                                                                    
 5. Stacked charts require two or more fields to be dragged and dropped into the **Values** placeholder of the data editor. In this case, the *1960*, *2003*, *2008* and *2010* fields have been dropped into **Values** and *Country Name* in **Label**. 
 
-    <img src="images/stacked-charts-organizing-data.png" alt="Organizing the data from the stacked charts spreadsheet" class="responsive-img" width="75%"/>
+    <img src="images/stacked-charts-organizing-data.png" alt="Organize Stacked Charts spreadsheet data" class="responsive-img" width="35%"/>
 
 <a name='change-axis-configuration'></a>
 ## Changing your Axis Configuration
@@ -82,16 +82,16 @@ data.
 
 |                                        |                                                                                      |                                                                                                                                       |
 | -------------------------------------- | ------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------- |
-| 1\. **Change Settings**                | <img src="images/tutorials-settings.png" alt="Settings section" class="responsive-img" width="100%"/>               | Go to the **Settings** section of the Visualization Editor.                                                                           |
-| 2\. **Access the Axis Bounds section** | <img src="images/axis-bounds.png" alt="Tutorials-Axis-Bounds" class="responsive-img" width="100%"/>                           | Navigate to Axis Bounds. Depending on whether you want to set the minimum or maximum value (or both), enter the value you want the chart to start or end with.  |                                                                                                          
+| 1\. **Change Settings**                | <img src="images/tutorials-settings.png" alt="Settings menu" class="responsive-img" width="100%"/>               | Go to the **Settings** section of the Visualization Editor.                                                                           |
+| 2\. **Access the Axis Bounds section** | <img src="images/axis-bounds.png" alt="Axis Bounds section in Settings Menu" class="responsive-img" width="100%"/>                           | Navigate to Axis Bounds. Depending on whether you want to set the minimum or maximum value (or both), enter the value you want the chart to start or end with.  |                                                                                                          
 
 <a name='set-logarithmic-axis'></a>
 ## Setting your Axis Configuration as Logarithmic
 
 |                                           |                                                                          |                                                             |
 | ----------------------------------------- | ------------------------------------------------------------------------ | ----------------------------------------------------------- |
-| 1\. **Change Settings**                   | <img src="images/tutorials-settings.png" alt="Tutorials-Navigate-Settings" class="responsive-img"/>   | Go to the **Settings** section of the Visualization Editor. |
-| 2\. **Access the Axis option**            | <img src="images/axis-bounds-logarithmic.png" alt="Tutorials-Axis-Bounds" class="responsive-img"/>               | Expand the Axis drop-down by selecting the down arrow. Then select *Logarithmic*.|      
+| 1\. **Change Settings**                   | <img src="images/tutorials-settings.png" alt="Settings Menu" class="responsive-img"/>   | Go to the **Settings** section of the Visualization Editor. |
+| 2\. **Access the Axis option**            | <img src="images/axis-bounds-logarithmic.png" alt="Axis Bounds in Settings Menu" class="responsive-img"/>               | Expand the Axis dropdown by selecting the down arrow. Then select *Logarithmic*.|      
 
 <a name='enable-percentage-distribution'></a>
 ## Enabling Percentage Distribution
@@ -102,5 +102,5 @@ for those types of charts. In order to do this:
 
 |                                        |                                                                                    |                                                                                           |
 | -------------------------------------- | ---------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------- |
-| 1\. **Change Settings**                | <img src="images/tutorials-settings.png" alt="Tutorials-Navigate-Settings" class="responsive-img"/>             | Go to the **Settings** section of the Visualization Editor.                               |
-| 2\. **Enable Percentage Distribution** | <img src="images/percentage-distribution.png" alt="Tutorials-Percentage-Distribution" class="responsive-img"/> | Enable the percentage distribution setting by checking the *Percentage Distribution* box. |
+| 1\. **Change Settings**                | <img src="images/tutorials-settings.png" alt="Settings Menu" class="responsive-img"/>             | Go to the **Settings** section of the Visualization Editor.                               |
+| 2\. **Enable Percentage Distribution** | <img src="images/percentage-distribution.png" alt="Option for Percentage Distribution in the Settings Menu" class="responsive-img"/> | Enable the percentage distribution setting by checking the *Percentage Distribution* box. |

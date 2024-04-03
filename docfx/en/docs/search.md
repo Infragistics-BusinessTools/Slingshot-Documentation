@@ -9,7 +9,7 @@ In order to run high performing teams that collaborate with different groups of 
 
 Slingshot’s search provides neatly organized results from everything within Slingshot. The variety of filtering options ensures great precision and quickly finding exactly what you need.
 
-<img class="responsive-img" src="../images/search-example.png" alt="Showing Slingshot's search" class="responsive-img" />
+<img class="responsive-img" src="../images/search-example.png" alt="Slingshot's search bar" class="responsive-img" />
 
 ## How to Search
 
@@ -39,11 +39,11 @@ The search results pane shows results from everywhere inside Slingshot. The resu
 
 Sometimes you may get too many results and need to refine your search. To help you with this, Slingshot includes a location filter on the top and a second tier of filters under each of the five tabs.
 
-### Filtering by location
+## Filtering by location
 
-The Location filter (top of the page) is applied to all results no matter which results tab you choose. For example, you can easily search all blocked tasks in two projects located in different workspaces. To do this, just select the two projects in the location drop-down and then in the Tasks tab filter by the Blocked status.
+The Location filter (top of the page) is applied to all results no matter which results tab you choose. For example, you can easily search all blocked tasks in two projects located in different workspaces. To do this, just select the two projects in the location dropdown and then in the Tasks tab filter by the Blocked status.
 
-<img class="responsive-img" src="../images/search-filters.png" alt="Showing Slingshot's search and its filters" class="responsive-img" />
+<img class="responsive-img" src="../images/search-filters.png" alt="Slingshot's search and its filters" class="responsive-img" />
 
 ### Using More Filters
 
