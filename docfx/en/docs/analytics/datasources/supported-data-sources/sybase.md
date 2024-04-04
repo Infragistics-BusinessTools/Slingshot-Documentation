@@ -70,8 +70,6 @@ The **syscacheinfo** view, for example, contains information about the cache, ta
 
 <img src="images/sybase-view-visualization.png" alt="Example of a Sybase view visualization" class="responsive-img" width="75%"/>
 
-For more information on views and Sybase, visit <a href="http://infocenter.sybase.com/help/index.jsp?topic=/com.sybase.infocenter.dc32300.1570/html/sqlug/X29678.htm" target="_blank">this documentation website</a>.
-
 ### Working with Stored Procedures
 
 In Sybase, stored procedures allow users to run a set of query

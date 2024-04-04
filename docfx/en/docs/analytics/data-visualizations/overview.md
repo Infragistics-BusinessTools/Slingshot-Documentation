@@ -256,7 +256,7 @@ If you need more information about how to use each of these visualizations, use 
 
 In the _Visualization Types_ drop-down (see the table of contents on the left) you will find an A-Z list of all kinds of charts Analytics provides.
 
-In [Working with the Visualizations Editor](visualizations-editor.md) you will be introduced to the Visualizations Editor's main parts and will also learn how to start creating your first visualization.
+In [Working with the Visualization Editor](../data-visualizations/visualization-editor.md) you will be introduced to the Visualization Editor's main parts and will also learn how to start creating your first visualization.
 
 In the [_Fields_](fields/overview.md) topics you will find more information on how to aggregate, filter and highlight the most valuable aspects of the data fields you are using to build your visualization.
 

@@ -57,7 +57,7 @@ your JSON file:
     <img src="images/json-data-list-of-tables.png" alt="List of Json File tables" class="responsive-img" width="58%"/>
 
     If the list does not include the data structure you want, use the
-    [**Advanced Selection**](#json-advanced-selection) mode where you
+    [**Advanced Selection**](#advanced-selection-mode) mode where you
     can choose a custom data structure.
 
 4.  **Click/Tap on Select Data**.

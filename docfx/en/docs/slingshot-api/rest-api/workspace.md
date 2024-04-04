@@ -228,7 +228,7 @@ Example of a successful request body:
 ## Get a workspace
 
 <img src="../images/get.png" alt="Get request for a workspace" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> 
-<span class="italic">***htt<area>ps://my.slingshotapp<area>.io/v1/workspaces/{id}***</span>
+<span class="italic">***https://my.slingshotapp.io/v1/workspaces/{id}***</span>
 
 Required parameters: the **id** of the workspace
 
@@ -261,7 +261,7 @@ Possible responses:
 ## Update a workspace
 
 <img src="../images/patch.png" alt="Patch request for a workspace" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> 
-<span class="italic">***htt<area>ps://my.slingshotapp<area>.io/v1/workspaces/{id}***</span>
+<span class="italic">***https://my.slingshotapp.io/v1/workspaces/{id}***</span>
 
 Required parameters: the **id** of the workspace
 

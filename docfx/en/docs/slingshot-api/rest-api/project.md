@@ -215,7 +215,7 @@ Example of a successful request body:
 ## Get a project
 
 <img src="../images/get.png" alt="Get request for a project" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/>
-<span class="italic">***htt<area>ps://my.slingshotapp<area>.io/v1/projects/{id}***</span>
+<span class="italic">***https://my.slingshotapp.io/v1/projects/{id}***</span>
 
 Required parameters: the **id** of the project
 

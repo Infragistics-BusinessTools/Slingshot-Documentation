@@ -81,7 +81,7 @@ In the object model, the *users* objects represent accounts in Slingshot. Every 
 ## Get current user document
 
 <img src="../images/get.png" alt="Get request for a user document" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> 
-<span class="italic">***htt<area>ps://my.slingshotapp<area>.io/v1/user***</span>
+<span class="italic">***https://my.slingshotapp.io/v1/user***</span>
 
 Schema: [User](#user-schema)
 

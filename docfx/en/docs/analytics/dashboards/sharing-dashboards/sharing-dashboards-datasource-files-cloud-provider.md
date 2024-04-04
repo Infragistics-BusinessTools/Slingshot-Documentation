@@ -19,13 +19,13 @@ stored encrypted on our servers.
 
 You can create a shareable link when:
 
-  - [choosing a file uploaded on a cloud provider](#cloud-data-source-file) as a data source for a
+  - [choosing a file uploaded on a cloud provider](#granting-access-when-choosing-a-cloud-file-as-a-data-source) as a data source for a
     visualization;
 
-  - [sharing a dashboard](#grant-access-shared-dashboard), which uses a
+  - [sharing a dashboard](#granting-access-when-sharing-a-dashboard), which uses a
     cloud file data source;
 
-  - saving a dashboard [in a workspace](#save-dashboard-workspace).
+  - saving a dashboard [in a workspace](#saving-a-dashboard-with-a-cloud-file-data-source-in-a-workspace).
 
 <a name='cloud-providers'></a>
 ## Supported Cloud Providers
@@ -42,7 +42,7 @@ following cloud providers:
 <a name='cloud-data-source-file'></a>
 ## Granting Access when Choosing a Cloud File as a Data Source
 
-You can allow access to a cloud file at the point of selecting your data source to build a visualization. After choosing a file uploaded on one of the [supported cloud providers](#cloud-providers), you will be prompted to the following dialog:
+You can allow access to a cloud file at the point of selecting your data source to build a visualization. After choosing a file uploaded on one of the [supported cloud providers](#supported-cloud-providers), you will be prompted to the following dialog:
 
 <img src="images/allow-access-box-sharing.png" alt="Allow access checkbox in the Set up your file dialog" class="responsive-img"/>
 
@@ -63,7 +63,7 @@ shareable link, when sharing them with other users.
 
     <img src="images/grant-access-share-dashboard-dialog.png" alt="A dialog to grant access to cloud file data sources" class="responsive-img"/>
 
-    Click/Tap *Allow Access* and proceed with selecting users to [share your dashboard](share-a-dashboard.md) with.
+    Click/Tap *Allow Access* and proceed with selecting users to [share your dashboard](/docfx/en/docs/analytics/dashboards/sharing-dashboards/share-a-dashboard.md) with.
 
 <a name='save-dashboard-workspace'></a>
 ## Saving a Dashboard with a Cloud File Data Source in a Workspace

@@ -18,8 +18,8 @@ spreadsheets within Analytics.
 <tr class="odd">
 <td><p><img src="images/excel.png" alt="excel icon" /> <img src="images/csv.png" alt="csv icon"/><br />
 </p>
-<p><em>Analytics expects your data to be organized in columns</em> and will name fields after the spreadsheet's first row. If your data is organized in rows instead, you can <a href="#transposing-spreadsheets">transpose</a> the fields in Analytics.</p>
-<p><a href="~/docs/analytics/data-visualizations/visualizations-editor.md">LEARN MORE</a><br />
+<p><em>Analytics expects your data to be organized in columns</em> and will name fields after the spreadsheet's first row. If your data is organized in rows instead, you can transpose the fields in Analytics.</p>
+<p><a href="#transposing-columns-to-rows">LEARN MORE</a><br />
 </p></td>
 <td><p><img src="images/csv.png" alt="csv icon" /><br />
 </p>

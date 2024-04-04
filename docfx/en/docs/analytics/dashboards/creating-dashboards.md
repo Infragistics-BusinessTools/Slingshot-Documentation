@@ -7,13 +7,13 @@ _description: A 4-step guide on how to easily create dashboards in Slingshot and
 
 The dashboard creation experience in Analytics includes:
 
-1.  [Accessing the Dashboard creation menu](#access-dashboard-creation-menu).
+1.  [Accessing the Dashboard creation menu](#access-the-dashboard-creation-menu).
 
-2.  [Adding a Data Source](#add-data-source).
+2.  [Adding a Data Source](#add-a-data-source).
 
-3.  [Changing the Visualization](#modify-visualization) *(optional*).
+3.  [Changing the Visualization](#changing-your-visualization) *(optional*).
 
-4.  [Saving the Dashboard](#save-dashboard).
+4.  [Saving the Dashboard](#save-the-dashboard).
 
 <a name='access-dashboard-creation-menu'></a>
 ## Access the Dashboard Creation Menu

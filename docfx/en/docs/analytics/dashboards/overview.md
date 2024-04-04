@@ -49,7 +49,7 @@ Within Analytics, you will be able to:
 
   - [Manage your existing Dashboards](managing-dashboards.md)
 
-  - [Export Dashboards](how-to-export-a-dashboard.md) as [Images](export-as-images.md), [PDF files](export-as-pdft-document.md), [PowerPoint presentations](export-as-powerpoint-presentation.md) or
-  [Excel spreadsheets](export-as-excel-data-format.md)
+  - [Export Dashboards](./exporting-dashboards/how-to-export-a-dashboard.md) as [Images](./exporting-dashboards/export-as-images.md), [PDF files](./exporting-dashboards/export-as-pdf-document.md), [PowerPoint presentations](./exporting-dashboards/export-as-powerpoint-presentation.md) or
+  [Excel spreadsheets](./exporting-dashboards/export-as-excel-data-format.md)
 
 You can also import any [dashboards created with previous versions of ReportPlus](Uploading-Dashboards.md).
