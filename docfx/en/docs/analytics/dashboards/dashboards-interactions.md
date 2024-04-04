@@ -18,7 +18,7 @@ The maximized view allows a larger display of the information.
 
 In this mode, you can also switch the maximized view to other visualizations by selecting the **small chart icon** in the top right corner. Different visualizations are displayed based on the data that was used in the editor. Only chart types that work well with your data will be offered.
 
-If you want to save the changed visualization, you need to have edit permissions, be in [dashboard Edit Mode](https://www.slingshotapp.io/en/help/docs/analytics/dashboards/dashboards-interactions#view--edit-modes) and explicitly save the changes by selecting the check icon in the top right corner. You have edit permission for dashboards that are created by you or shared with you with [Owner or Modify permissions](/docfx/en/docs/file-permissions-faq.md).
+If you want to save the changed visualization, you need to have edit permissions, be in [dashboard Edit Mode](https://www.slingshotapp.io/en/help/docs/analytics/dashboards/dashboards-interactions#view--edit-modes) and explicitly save the changes by selecting the check icon in the top right corner. You have edit permission for dashboards that are created by you or shared with you with [Owner or Modify permissions](/docfx/en/docs/security.md).
 
 <img src="images/different-chart-options-for-visualization.png" alt="Chart types in visualization view mode" class="responsive-img" width="88%"/>
 
