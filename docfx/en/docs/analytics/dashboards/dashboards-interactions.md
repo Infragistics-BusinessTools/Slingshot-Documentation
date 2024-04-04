@@ -18,7 +18,7 @@ The maximized view allows a larger display of the information.
 
 In this mode, you can also switch the maximized view to other visualizations by selecting the **small chart icon** in the top right corner. Different visualizations are displayed based on the data that was used in the editor. Only chart types that work well with your data will be offered.
 
-If you want to save the changed visualization, you need to have edit permissions, be in [dashboard Edit Mode](https://www.slingshotapp.io/en/help/docs/analytics/dashboards/dashboards-interactions#view--edit-modes) and explicitly save the changes by selecting the check icon in the top right corner. You have edit permission for dashboards that are created by you or shared with you with [Owner or Modify permissions](/docfx/en/docs/security.md).
+If you want to save the changed visualization, you need to have edit permissions, be in [dashboard Edit Mode](#view--edit-modes) and explicitly save the changes by selecting the check icon in the top right corner. You have edit permission for dashboards that are created by you or shared with you with [Owner or Modify permissions](../../security.md).
 
 <img src="images/different-chart-options-for-visualization.png" alt="Chart types in visualization view mode" class="responsive-img" width="88%"/>
 
@@ -26,7 +26,7 @@ You can also look at the data behind your chart if you select the **hash sign** 
 
 <img src="images/grid-chart-sample.png" alt="flip to grid" class="responsive-img" width="88%"/>
 
-When viewing the data behind your visualization, you can apply sorting (ascending or descending). For more information on applying sorting to grids, check the [Grid Chart](/docfx/en/docs/analytics/data-visualizations/visualization-types/grid-chart.md) topic.
+When viewing the data behind your visualization, you can apply sorting (ascending or descending). For more information on applying sorting to grids, check the [Grid Chart](../data-visualizations/visualization-types/grid-chart.md) topic.
 
 If, at any point, you want to revert back to the original visualization, you can select the **Show Original** link.
 
@@ -103,12 +103,12 @@ top right-hand corner. This switches back to *View Mode*.
 It is possible to filter information at a dashboard or a visualization
 level.
 
-  - [**Dashboard filters**](/docfx/en/docs/analytics/filters/dashboard-filters.md) are available, when you open Dashboard Edit mode (select *Edit* from the overflow menu of your dashboard to access this mode). In the left top corner of the screen, you will see the current dashboard filters and an option to add new ones.
+  - [**Dashboard filters**](../filters/dashboard-filters.md) are available, when you open Dashboard Edit mode (select *Edit* from the overflow menu of your dashboard to access this mode). In the left top corner of the screen, you will see the current dashboard filters and an option to add new ones.
 
-  - [**Visualization filters**](/docfx/en/docs/analytics/filters/visualization-filters.md) (a.k.a. Quick Filters) are displayed in maximized mode. You can find them in the top section of the visualization under the visualization's name.
+  - [**Visualization filters**](../filters/visualization-filters.md) (a.k.a. Quick Filters) are displayed in maximized mode. You can find them in the top section of the visualization under the visualization's name.
 
 For more information on dashboard or visualization Filters, check out
-[this section](/docfx/en/docs/analytics/filters/overview.md).
+[this section](../filters/overview.md).
 
 ## Auto Layout for Visualizations
 
