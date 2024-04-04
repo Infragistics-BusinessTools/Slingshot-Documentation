@@ -44,7 +44,7 @@ If you want to change it, you can click on the arrow in the upper right corner (
 
 ## Settings
 
-Depending on the chart type that you are using, you will be able to make different changes in the settings. You can find more information about the different chart types in the data visualizations section [here](/docfx/en/docs/analytics/data-visualizations/overview.md).
+Depending on the chart type that you are using, you will be able to make different changes in the settings. You can find more information about the different chart types in the data visualizations section [here](../../data-visualizations/overview.md).
 
 In this case we used the *Column* chart where you can make the following changes through the settings menu: 
 

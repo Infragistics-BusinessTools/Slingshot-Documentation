@@ -37,7 +37,7 @@ In the *Export Dashboard* dialog you can manage the following settings:
             your workspaces having their branding (logo and color) set up are
             displayed as options. If you want to know how to
             access/change your workspace's branding settings, please read the
-            [Managing Workspaces](/docfx/en/docs/workspaces.md) topic.
+            [Managing Workspaces](../../../workspaces.md) topic.
 
         - **Custom** - select a color and upload a *logo* image of your choice.
 

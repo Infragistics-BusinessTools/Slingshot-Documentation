@@ -37,7 +37,7 @@ To share a dashboard created by you with individual users you need to:
 
 2.  **Choose the users** you want to share the dashboard with - Enter the e-mail addresses or the names of the people you want to invite and click/tap on **Done**.
 
-3.  After selecting the users, click/tap on **Update**. The dashboard will be shared automatically with the selected users if they are part of your [Organization](/docfx/en/docs/roles-permissions-faq.md). Other users will be able to see the dashboard in the **Shared with Me** section after they have accepted the invitation.
+3.  After selecting the users, click/tap on **Update**. The dashboard will be shared automatically with the selected users if they are part of your [Organization](../../../security.md). Other users will be able to see the dashboard in the **Shared with Me** section after they have accepted the invitation.
 
   <img src="images/add-users-sharing-dashboards.png" alt="Choosing with whom to share a dashboard" class="responsive-img" width="80%"/>
 
@@ -78,7 +78,7 @@ a dashboard from the *Dashboards* section in *My Analytics* or *Workspaces* tab.
 Then follow the steps in [Sharing your Own Dashboards with Other Users](#sharing-your-own-dashboards-with-other-users).
 
 >[!NOTE]
->You can share a dashboard with any public workspace that is part of the [Organization](/docfx/en/docs/roles-permissions-faq.md), whether you are a member of it or not. You can also share with private workspaces that you are a member of.
+>You can share a dashboard with any public workspace that is part of the [Organization](../../../security.md), whether you are a member of it or not. You can also share with private workspaces that you are a member of.
 
 ## See Also
 

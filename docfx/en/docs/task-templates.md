@@ -96,5 +96,5 @@ To edit a Task Template, you need to:
 
 >[!NOTE] Keep in mind that you have the same options for applying changes as in the **Save as Template** dialog.
 
-If you want to find more information about how you can create and use tasks, head [here](/docfx/en/docs/tasks.md#how-to-create-a-task).
+If you want to find more information about how you can create and use tasks, head [here](tasks.md#how-to-create-a-task).
 
