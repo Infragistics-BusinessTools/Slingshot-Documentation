@@ -68,8 +68,6 @@ part of the data in the **Alphabetical list of products** table in the SQL Serve
 
 <img src="images/sample-microsoft-sql.png" alt="Dashboard presenting data from Microsoft SQL views" class="responsive-img" width="85%"/>
 
-For more information on views and MS SQL Server, visit <a href="https://docs.microsoft.com/en-us/sql/relational-databases/views/views?view=sql-server-2017" target="_blank">this documentation website</a>.
-
 ### Working with Stored Procedures
 
 In MS SQL, stored procedures allow users to run a set of query

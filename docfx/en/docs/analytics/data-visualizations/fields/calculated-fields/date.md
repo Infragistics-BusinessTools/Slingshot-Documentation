@@ -28,7 +28,7 @@ The functions included in the date category are:
     <th class="tg-cly1"><span style="font-weight:bold">Syntax and Sample</span></th>
   </tr>
   <tr>
-    <td class="tg-cly1" rowspan="2"><a href="https://www.revealbi.io/help/date-calculated-fields#date-date">date</a>: date will return a date set to the values you include in your formula.</td>
+    <td class="tg-cly1" rowspan="2">date: date will return a date set to the values you include in your formula.</td>
     <td class="tg-cly1"><span style="font-weight:bold">Syntax</span>: <span class="gray-snippet-cstm">date({year},{month},{day},{hour},{minute},{second})</span></td>
   </tr>
   <tr>
@@ -133,7 +133,7 @@ The functions included in the date category are:
     <td class="tg-0lax"><span style="font-weight:bold">Sample</span>: <span class="gray-snippet-cstm">second(date(2017,12,1,12,33,48))</span></td>
   </tr>
   <tr>
-    <td class="tg-0lax" rowspan="2"><a href="https://www.revealbi.io/help/date-calculated-fields#date-time">time</a>: When you use time, Analytics will return a time set to the values you include in your formula.</td>
+    <td class="tg-0lax" rowspan="2">time: When you use time, Analytics will return a time set to the values you include in your formula.</td>
     <td class="tg-0lax"><span style="font-weight:bold">Syntax</span>: <span class="gray-snippet-cstm">time({hour},{minute},{second},{millisecond})</span></td>
   </tr>
   <tr>

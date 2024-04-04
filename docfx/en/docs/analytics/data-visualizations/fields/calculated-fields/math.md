@@ -34,7 +34,7 @@ The functions in this category are:
     <td class="tg-cly1"><span style="font-weight:bold">Sample</span>: <span class="gray-snippet-cstm">abs(-3)</span></td>
   </tr>
   <tr>
-    <td class="tg-cly1" rowspan="2"><span style="font-weight:bold">exp</span>: <span class="gray-snippet-cstm">exp</span> returns e (<a href="https://www.nde-ed.org/EducationResources/Math/Math-e.php">Euler's Number</a>) raised to a value you enter.</td>
+    <td class="tg-cly1" rowspan="2"><span style="font-weight:bold">exp</span>: <span class="gray-snippet-cstm">exp</span> returns e (Euler's Number) raised to a value you enter.</td>
     <td class="tg-cly1"><span style="font-weight:bold">Syntax</span>: <span class="gray-snippet-cstm">exp({number})</span></td>
   </tr>
   <tr>

@@ -35,7 +35,7 @@ After logging in, you can set up your Marketo data in the following dialog:
 
 ## Working in the Visualization Editor
 
-Once your data source has been added, you will be taken to the *Visualization Editor*. By default, the *Column* visualization will be selected. You can click/tap on it in order to choose another [chart type](../../visualization-tutorials/overview.md). Keep in mind that based on the visualization that you have chosen, you will see different types of fields.
+Once your data source has been added, you will be taken to the *Visualization Editor*. By default, the *Column* visualization will be selected. You can click/tap on it in order to choose another [chart type](../../data-visualizations/overview.md). Keep in mind that based on the visualization that you have chosen, you will see different types of fields.
 
 <img src="images/marketo-visualization-editor.png" alt="Marketo data in the Visualization Editor" class="responsive-img" width="85%"/>
 

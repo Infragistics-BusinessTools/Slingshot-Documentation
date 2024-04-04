@@ -51,8 +51,6 @@ record.
 
 <img src="images/odata-feed-new-record-example.png" alt="New OData Feed record in the Visualization Editor" class="responsive-img" width="85%"/>
 
-For more information on Open Types in OData, refer to <a href="https://docs.microsoft.com/en-us/aspnet/web-api/overview/odata-support-in-aspnet-web-api/odata-v4/use-open-types-in-odata-v4" target="_blank">this article</a>.
-
 ## Working with Functions
 
 Any functions you have configured to be exposed by an OData service will

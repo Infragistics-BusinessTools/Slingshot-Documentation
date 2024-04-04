@@ -45,7 +45,7 @@ In the *Export Dashboard* dialog you can manage the following settings:
             your workspaces having their branding (logo and color) set up are
             displayed as options. If you want to know how to
             access/change your workspace's branding settings, please read the
-            [Managing Workspaces](~/docs/analytics/workspaces/managing-your-workspace.md) topic.
+            [Managing Workspaces](/docfx/en/docs/workspaces.md) topic.
 
           - **Custom** - select a color and upload a *logo* image of
             your choice.
@@ -59,4 +59,4 @@ In the *Export Dashboard* dialog you can manage the following settings:
 
 5.  **Annotate** the selected slide by clicking/tapping the *pencil*
     icon. For more information about **annotation settings**, please
-    refer to [Annotating images](export-as-images.html#annotating) in the *Exporting Dashboards as Images* topic.
+    refer to [Annotating images](./export-as-images.md#annotating-images) in the *Exporting Dashboards as Images* topic.

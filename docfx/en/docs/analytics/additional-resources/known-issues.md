@@ -2,7 +2,7 @@
 
   - [Only Web](#web)
 
-  - [Issues Affecting All Platforms](#issues-all-platforms)
+  - [Issues Affecting All Platforms](#issues-affecting-all-platforms)
 
 <a name='web'></a>
 ## Web

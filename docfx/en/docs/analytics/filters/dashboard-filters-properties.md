@@ -90,7 +90,7 @@ Dashboard Filter. This allows you to filter out null or empty values on
 a specific field ([empty values filter](~/docs/analytics/data-visualizations/fields/field-filters-rules.html#empty-values)). You can also [select specific values](~/docs/analytics/data-visualizations/fields/field-filters-rules.html#select-values), or add
 [rules](~/docs/analytics/data-visualizations/fields/field-filters-rules.html#rules) to your field in order to change the
 options depending on the field type. For more information, visit the
-[field filters and rules](field-filters-rules.md) section.
+[field filters and rules](../data-visualizations/fields/field-filters-rules.md) section.
 
 For example, if you use the *Fullname* field to filter the data in
 your *HR Dashboard*, the *Dashboard filter* will show a list of all

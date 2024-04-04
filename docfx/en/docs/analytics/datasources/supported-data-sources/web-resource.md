@@ -36,4 +36,4 @@ following information:
 Once ready, select **Load and Continue**.
 
 To set up an *OAuth 2 / OIDC account* for a protected web resource,
-please read [this topic](~/docs/analytics/datasources/auth-2-oidc-user-authentication.md).
+please read [this topic](../../datasources/oauth-2-oidc-user-authentication.md).

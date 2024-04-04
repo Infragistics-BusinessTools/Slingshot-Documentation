@@ -21,9 +21,9 @@ The *Sort by field* option is part of the fields settings, but is hidden by defa
 For more practical information, take a look at the following examples
 that showcase this functionality:
 
-  - [Ordering Support Cases by Priority](#by-priority)
+  - [Ordering Support Cases by Priority](#ordering-support-cases-by-priority)
 
-  - [Ordering String Dates in Chronological Order](#string-date-chr-order)
+  - [Ordering String Dates in Chronological Order](#ordering-string-dates-in-chronological-order)
 
 <a name='by-priority'></a>
 ## Ordering Support Cases by Priority

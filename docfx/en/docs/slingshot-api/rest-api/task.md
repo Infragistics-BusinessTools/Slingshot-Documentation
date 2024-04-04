@@ -157,7 +157,7 @@ Example of a successful request body:
 ## Get a task
 
 <img src="../images/get.png" alt="Get request for a task" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> 
-<span class="italic">***htt<area>ps://my.slingshotapp<area>.io/v1/tasks***</span>
+<span class="italic">***https://my.slingshotapp.io/v1/tasks***</span>
 
 Required parameters: the **id** of the task  
 

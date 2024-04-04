@@ -9,9 +9,9 @@ This topic includes the following information:
 
   - [Basic Sample Expressions](#basic-sample-expressions)
 
-  - [Converting Unix TimeStamps to Usable Dates](#converting-unix-timestamps)
+  - [Converting Unix TimeStamps to Usable Dates](#converting-unix-timestamps-to-usable-dates)
 
-  - [YoY Analysis: Comparing Revenue Figures for a 2 Year Period](#yoy-analysis-revenue)
+  - [YoY Analysis: Comparing Revenue Figures for a 2 Year Period](#yoy-analysis-comparing-revenue-figures-for-a-2-year-period)
 
 <a name='basic-sample-expressions'></a>
 ## Basic Sample Expressions
