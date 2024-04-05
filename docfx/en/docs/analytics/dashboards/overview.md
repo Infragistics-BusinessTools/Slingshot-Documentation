@@ -35,7 +35,7 @@ different pieces of related information, enabling users to make sense of their d
 
 Within Analytics, you will be able to:
 
-   - [Create Dashboards](creating-dashboards.md)
+  - [Create Dashboards](creating-dashboards.md)
 
   - [Upload Dashboards](uploading-dashboards.md)
 
@@ -52,4 +52,4 @@ Within Analytics, you will be able to:
   - [Export Dashboards](./exporting-dashboards/how-to-export-a-dashboard.md) as [Images](./exporting-dashboards/export-as-images.md), [PDF files](./exporting-dashboards/export-as-pdf-document.md), [PowerPoint presentations](./exporting-dashboards/export-as-powerpoint-presentation.md) or
   [Excel spreadsheets](./exporting-dashboards/export-as-excel-data-format.md)
 
-You can also import any [dashboards created with previous versions of ReportPlus](Uploading-Dashboards.md).
+You can also import any [dashboards created with previous versions of ReportPlus](../dashboards/uploading-dashboards.md).

@@ -41,12 +41,12 @@ If your data source is a spreadsheet in a content manager, you will be able to s
 ### Available Content
 
 With Analytics, you can add many content sources, including
-[Dropbox](~/docs/analytics/datasources/supported-data-sources/Dropbox.md), [OneDrive](~/docs/analytics/datasources/supported-data-sources/OneDrive.md), [Box](~/docs/analytics/datasources/supported-data-sources/Box.md) and [Google Drive](~/docs/analytics/datasources/supported-data-sources/Google-Drive.md), which will allow you to browse any folders, files
+[Dropbox](../datasources/supported-data-sources/dropbox.md), [OneDrive](../datasources/supported-data-sources/onedrive.md), [Box](../datasources/supported-data-sources/box.md) and [Google Drive](../datasources/supported-data-sources/google-drive.md), which will allow you to browse any folders, files
 or spreadsheets available in them.
 
 <img src="images/dashboards-onedrive-available-content.png" alt="Available content in OneDrive datasource account" class="responsive-img" width="90%"/>
 
-In addition, you can also add [SharePoint](~/docs/analytics/datasources/supported-data-sources/SharePoint.md) data sources,
+In addition, you can also add [SharePoint](../datasources/supported-data-sources/sharepoint.md) data sources,
 which means the ability to access any lists or libraries.
 
 <img src="images/dashboards-sharepoint-list.png" alt="Available content in SharePoint datasource account" class="responsive-img" width="90%"/>
