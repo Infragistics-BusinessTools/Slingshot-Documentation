@@ -128,7 +128,7 @@ Here, you can choose between the following three permission types:
 
 > [!NOTE] Giving access to a file in Slingshot means you give view and edit permissions to the file. 
 
-Learn more about each file permissions type and how to manage members' access in [this topic](file-permissions-faq.md). 
+Learn more about each file permissions type and how to manage members' access in [this topic](security.md). 
 
 ### Using Drag and Drop
 You can use drag and drop to quickly add files or links from an external source into Slingshot's lists. The files added to Slingshot are uploaded to a folder named Slingshot uploads in the cloud storage of your preference.
