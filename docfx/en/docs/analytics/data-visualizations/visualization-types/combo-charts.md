@@ -63,4 +63,4 @@ In *Settings* you can:
     Analytics applies opacity to the chart displayed behind, to make it
     visually more transparent.
 
-  - **[Connect this visualization to another dashboard or a URL](/docfx/en/docs/analytics/dashboards/dashboard-linking.md)**
+  - **[Connect this visualization to another dashboard or a URL](../../dashboards/dashboard-linking.md)**
