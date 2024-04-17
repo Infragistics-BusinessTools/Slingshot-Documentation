@@ -17,7 +17,7 @@ Unlike discussions, the private chat is workspace and project independent. This 
 
 ## How Can I Access my Chat?
 
-In the top bar, right next to your profile picture, you will see the **chat message icon**. Click/tap the icon to open the chat screen. 
+In the top bar, right next to your profile picture, you will see the **chat message icon**. Click/tap on the icon to open the chat screen. 
 
 <img class="responsive-img" src="../images/chat-icon.png" alt="Chat icon" class="responsive-img" width="90%" />
 
@@ -88,7 +88,7 @@ You can manage the members of a group chat by selecting the *group* icon on top 
 
 <img class="responsive-img" src="../images/group-chat-manage-members.png" alt="Group icon" class="responsive-img" width="90%" />
 
-You will see the chat members in a dropdown. Use the *trash* icon next to their names if you want to remove somebody. Every participant in a group chat can remove other members from the chat. Removed members will continue seeing the history of the chat but they will not have access to new messages. 
+You will see the chat members in a drop-down. Use the *trash* icon next to their names if you want to remove somebody. Every participant in a group chat can remove other members from the chat. Removed members will continue seeing the history of the chat but they will not have access to new messages. 
 
 Next to your name you will find the *leave* icon. You can leave a chat anytime. 
 
@@ -100,7 +100,7 @@ When adding members, you will notice a **History** setting at the bottom of the 
 
 <img class="responsive-img" src="../images/chat-history-options.png" alt="Choose chat history to show new members" width="90%">
 
-The following 3 options appear in the dropdown when collapsed: 
+The following 3 options appear in the drop-down when collapsed: 
 
 - *Don't share any history*
 
@@ -125,7 +125,7 @@ Of course, if you don't have an Organization, then you will have to add all user
 
 Once you lose interest, you can leave or mute a chat in Slingshot.  
 
-**Leaving** a chat is an option for group chats only. Each member can leave a group chat when they decide they no longer need to participate in the conversation. The members, who left, cannot receive new messages anymore, but they still have access to the chat history. To leave a group chat, click/tap it to **open** ⇒ **Members icon on top** ⇒ **leave icon** next to your name.
+**Leaving** a chat is an option for group chats only. Each member can leave a group chat when they decide they no longer need to participate in the conversation. The members, who left, cannot receive new messages anymore, but they still have access to the chat history. To leave a group chat, click/tap on it to **open** ⇒ **Members icon on top** ⇒ **leave icon** next to your name.
 
 Normally, the chat icon on top shows the total number of unread chat messages. When you **mute** a private or group chat, its new messages are no longer added to that count. This is the option for you if you do not want to follow the conversation anymore, but you still want to have access to it. 
 To mute a chat, click on its **overflow menu** ⇒ **Mute Notifications**. 

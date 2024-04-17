@@ -21,7 +21,7 @@ For more information about security and data privacy within Slingshot, go to [Se
 
 The app behavior and overall experience can be greatly modified by tweaking your profile information and settings. As a good practice, try customizing your experience to better suit your needs. To do this, navigate to Settings.
 
-<img src="../images/user-account-settings-drop-down-menu.png" alt="Settings location in a user's account" width="60%" class="responsive-img">
+<img src="../images/user-account-settings-drop-down-menu.png" alt="Settings location in a user's account" width="90%" class="responsive-img">
 
 Now feel free to explore the different settings and make Slingshot feel like home:
 

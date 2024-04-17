@@ -41,7 +41,7 @@ Using filters allows you to view a set of dashboards or data sources that meet c
 To access the **Filter** editor, just click/tap on the filter icon (top right of the screen), next to the overflow. Alternatively, you can click/tap on the *+Filter* button that is in the *Filters* section, under *Created By Me* and *Shared with Me.*
 
 
-To stop filtering dashboards or data sources, click/tap the filter icon to open the Filters dialog. Then, select the Clear button at the bottom to remove the current filters, and Apply to save your changes.
+To stop filtering dashboards or data sources, click/tap on the filter icon to open the Filters dialog. Then, select the Clear button at the bottom to remove the current filters, and Apply to save your changes.
 
 <img src="../images/data-sources-filters.png" alt="Different filters in the data catalog" width="35%" class="responsive-img"/>
 
@@ -76,7 +76,7 @@ Below you can find a more detailed explanation of each step of the process:
 1. **A user starts a request to add content to the organization's Data Catalog**.  
    The Slingshot user has a dashboard or data source located in My Analytics, a workspace, or a project. Wants to make that content available for the whole organization and starts the process for doing so.
    
-   A. Click/tap the dashboard's overflow (top right) and select "Move to Data & Analytics Catalog".  
+   A. Click/tap on the dashboard's overflow (top right) and select "Move to Data & Analytics Catalog".  
    <img src="../images/data-catalog-dashboard-overflow.png" alt="Data Catalog dashboard overflow within Slingshot" class="responsive-img"/>  
    B. Write a message for the Org owner describing your request. Here you can also choose if you want to keep a copy of your dashboard or data source in the original location.  
    <img src="../images/data-catalog-request.png" alt="Data Catalog dashboard request within Slingshot" class="responsive-img" width="35%"/>  

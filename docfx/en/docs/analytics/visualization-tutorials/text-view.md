@@ -43,10 +43,10 @@ For this tutorial, you will use the *Simple Series Charts* sheet in the [Slingsh
      <img src="images/tutorials-simple-series-charts-spreadsheet.png" alt="Simple Series Charts Spreadsheed in the example data source " class="responsive-img" width="60%"/>                                                                                      
  4.  Open the *Visualization Picker* and select **Text View**. By default, the visualization type will be set to **Column**.   
  
-      <img src="images/text-view-chart-types.png" alt="Text View in the Chart Types list" class="responsive-img" width="70%"/>                                                                                                
+      <img src="images/text-view-chart-types.png" alt="Text View in the Chart Types list" class="responsive-img" width="90%"/>                                                                                                
  5. The above text view, for example, displays the Population, Life expectancy and Fertility rate for a specific country. Drag and drop *Country Name*, *Population*, *Life Expectancy* and *Fertility Rate* into **Columns**.
 
-     <img src="images/organizing-data-text-view.png" alt="Organize Text View data" class="responsive-img" width="35%"/>        
+     <img src="images/organizing-data-text-view.png" alt="Organize Text View data" class="responsive-img" width="90%"/>        
 
 <a name='changing-selected-row'></a>
 ## Changing the Selected Row
@@ -57,10 +57,10 @@ text view display row 9 (Bosnia and Herzegovina).
 
 1. Drag and drop the *Country Name* field into **Data Filters**.  
  
-    <img src="images/select-data-filter-text-view.png" alt="Select a data filter for Text View" class="responsive-img" width="32%"/>                                                      
+    <img src="images/select-data-filter-text-view.png" alt="Select a data filter for Text View" class="responsive-img" width="90%"/>                                                      
 2. Select *Filter Type* to enable the dropdown menu and then choose **Select Values**. 
  
-     <img src="images/data-filter-dialog-select-value-text-view.png" alt="Select Value option from the list of Filter Types" class="responsive-img" width="40%"/>                                                      
+     <img src="images/data-filter-dialog-select-value-text-view.png" alt="Select Value option from the list of Filter Types" class="responsive-img" width="90%"/>                                                      
 3. By default, all values will be selected. Uncheck the *All* box and select only **Bosnia and Herzegovina**. Then, select **Create Filter**. 
 
-    <img src="images/data-filter-select-value-example.png" alt="Choose country from the list of Selected Values" class="responsive-img" width="40%"/> 
+    <img src="images/data-filter-select-value-example.png" alt="Choose country from the list of Selected Values" class="responsive-img" width="90%"/> 

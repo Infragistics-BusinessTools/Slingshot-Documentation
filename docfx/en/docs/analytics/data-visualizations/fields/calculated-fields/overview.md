@@ -26,7 +26,7 @@ There are two types of calculated fields:
 Pre-calculated fields are evaluated before executing data editor
 aggregations. This means in order to apply a certain formula, Analytics will go through every record in your field's dataset once or several times. Because of this, pre-calculation is likely to be underperforming in terms of speed when working with large datasets.
 
-To add a new pre-calculated field, click/tap the **+ button** in the
+To add a new pre-calculated field, click/tap on the **+ button** in the
 *Fields* panel and choose **Calculated Field**:
 
 <img src="images/calculated-field-option.png" alt="Pre-calculated field option in data editor for a dashboard" class="responsive-img" width="90%"/>
@@ -72,7 +72,7 @@ To create a post calculated field you will need to:
 
   <img src="images/post-calculated-field-example.png" alt="Post calculated fields in the Data editor" class="responsive-img" width="90%"/>
 
-2.  Click/tap the *F(x)* button next to *Values* to open the *New
+2.  Click/tap on the *F(x)* button next to *Values* to open the *New
     Calculated Field* screen:
 
   <img src="images/post-calculated-field-new-calculated-field-dialog.png" alt="Post calculated field new calculated field screen" class="responsive-img" width="90%"/>

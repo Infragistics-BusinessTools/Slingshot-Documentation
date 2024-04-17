@@ -64,11 +64,11 @@ For this tutorial, you will use the *Gauge Views* sheet in the [Slingshot Visual
          
 4. Open the *Visualization Picker* and select **Linear Gauge**. 
 
-   <img src="images/gauges-chart-types.png" alt="List of chart types" class="responsive-img" width="65%"/>
+   <img src="images/gauges-chart-types.png" alt="List of chart types" class="responsive-img" width="90%"/>
 
 5. This linear gauge, for example, will display *Life expectancy* per *Country*. Drag and drop the *Country Name* field to **Label** and one of the *Year* fields into **Values**.
   
-   <img src="images/organizing-data-gauge-visualization.png" alt="Linear Gauge visualization in the chart types list" class="responsive-img" width="35%"/>                         
+   <img src="images/organizing-data-gauge-visualization.png" alt="Linear Gauge visualization in the chart types list" class="responsive-img" width="90%"/>                         
 
 <a name='create-circular-gauge'></a>
 ## Creating a Circular Gauge
@@ -87,11 +87,11 @@ For this tutorial, you will use the *Gauge Views* sheet in the [Slingshot Visual
          
 4. Open the *Visualization Picker* and select **Circular Gauge**.
 
-   <img src="images/gauges-chart-types.png" alt="List of chart types" class="responsive-img" width="65%"/>
+   <img src="images/gauges-chart-types.png" alt="List of chart types" class="responsive-img" width="90%"/>
 
 5. This linear gauge, for example, will display *Life expectancy* per *Country*. Drag and drop the *Country Name* field to **Label** and one of the *Year* fields into **Values**.
   
-   <img src="images/organizing-data-gauge-visualization.png" alt="Gauge visualization in the chart types list" class="responsive-img" width="35%"/> 
+   <img src="images/organizing-data-gauge-visualization.png" alt="Gauge visualization in the chart types list" class="responsive-img" width="90%"/> 
 
 <a name='aggregation-instructions'></a>
 
@@ -122,11 +122,11 @@ displayed in Values:
          
 4. Open the *Visualization Picker* and select **Text Gauge**. 
 
-   <img src="images/gauges-chart-types.png" alt="List of chart types" class="responsive-img" width="65%"/>
+   <img src="images/gauges-chart-types.png" alt="List of chart types" class="responsive-img" width="90%"/>
 
 5. This text gauge, for example, will display life expectancy per Country. Drag and drop one of the year fields into **Values**, and then the *Country Name* field into **Data Filters**. Then, select the specific country you want by selecting the field. 
 
-   <img src="images/text-gauge-organizing-data.png" alt="Organizing the data while using text gauge visualizaiton" class="responsive-img" width="65%"/>
+   <img src="images/text-gauge-organizing-data.png" alt="Organizing the data while using text gauge visualizaiton" class="responsive-img" width="90%"/>
 
 The text gauge sample above utilizes
 the average aggregation. In order to learn how to change your field's
@@ -149,11 +149,11 @@ aggregation, [review these instructions](../data-visualizations/fields/calculate
          
 4. Open the *Visualization Picker* and select **Bullet Graph**. 
 
-   <img src="images/gauges-chart-types.png" alt="List of chart types" class="responsive-img" width="60%"/>
+   <img src="images/gauges-chart-types.png" alt="List of chart types" class="responsive-img" width="90%"/>
 
 5. This bullet graph, for example, will display life expectancy per Country. Drag and drop the *Country Name* field to **Label**, one of the years into **Values** and another *Year* into **Target**.
 
-   <img src="images/bullet-graph-organizing-data.png" alt="Organizing data while using a bullet graph" class="responsive-img" width="65%"/>
+   <img src="images/bullet-graph-organizing-data.png" alt="Organizing data while using a bullet graph" class="responsive-img" width="90%"/>
 
 <a name='adding-bounds-gauge'></a>
 ## Adding Bounds to your Gauge

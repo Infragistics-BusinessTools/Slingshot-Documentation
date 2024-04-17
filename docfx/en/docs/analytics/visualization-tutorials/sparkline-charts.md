@@ -8,10 +8,10 @@ _description: A quick tutorial on creating Sparkline Charts visualization using 
 In this tutorial, you will learn how to create *Sparkline* charts visualizations
 using a sample spreadsheet.
 
-<img src="images/simple-sparkline-chart.png" alt="Simple Sparkline Chart example" class="responsive-img" width="80%"/>
-<img src="images/sparkline-area-chart.png" alt="Sparkline Area Chart example" class="responsive-img" width="80%"/>
-<img src="images/sparkline-with-day-aggregation.png" alt="Sparkline with Day Aggregation example" class="responsive-img" width="80%">
-<img src="images/sparkline-with-less-columns-and-area-chart.png" alt="Sparkline with less columns and area chart example" class="responsive-img" width="70%"/>
+<img src="images/simple-sparkline-chart.png" alt="Simple Sparkline Chart example" class="responsive-img" width="85%"/>
+<img src="images/sparkline-area-chart.png" alt="Sparkline Area Chart example" class="responsive-img" width="85%"/>
+<img src="images/sparkline-with-day-aggregation.png" alt="Sparkline with Day Aggregation example" class="responsive-img" width="85%">
+<img src="images/sparkline-with-less-columns-and-area-chart.png" alt="Sparkline with less columns and area chart example" class="responsive-img" width="75%"/>
 
 Access the links below for the Sparkline chart view walkthroughs:
 
@@ -77,11 +77,11 @@ in the [Slingshot Visualization Tutorials](https://download.infragistics.com/sli
    <img src="images/sparkline-charts-spreadsheet.png" alt="Select Sparkline Charts Spreadsheet.png" class="responsive-img" width="65%"/>                         
 
 4. Open the *Visualization Picker* and select the **Sparkline Chart**. By default, the visualization type will be set to **Column**.                                                                             
-  <img src="images/chart-types-sparkline.png" alt="Select Sparkline Chart from Chart Types list" class="responsive-img" width="60%"/>                                                     
+  <img src="images/chart-types-sparkline.png" alt="Select Sparkline Chart from Chart Types list" class="responsive-img" width="90%"/>                                                     
   
 5. Drag and drop the *Date* field into **Date**, *Offer* into **Value** and *Stocks* into **Category**.
 
-   <img src="images/sparkline-charts-organizing-data.png" alt="Organize SparklineChart Data" class="responsive-img" width="35%"/>                                                                      
+   <img src="images/sparkline-charts-organizing-data.png" alt="Organize SparklineChart Data" class="responsive-img" width="90%"/>                                                                      
 
 <a name='change-chart-type-sparkline'></a>
 ## Changing the Chart Type for the Sparkline

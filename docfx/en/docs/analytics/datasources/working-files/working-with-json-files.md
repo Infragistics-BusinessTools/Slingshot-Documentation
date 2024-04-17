@@ -60,9 +60,9 @@ your JSON file:
     [**Advanced Selection**](#advanced-selection-mode) mode where you
     can choose a custom data structure.
 
-4.  **Click/Tap on Select Data**.
+4.  **Click/tap on Select Data**.
 
-    Once you selected the data structure, click/tap the *Select Data*
+    Once you selected the data structure, click/tap on the *Select Data*
     button to continue to the *Visualization Editor*.
 
     <img src="images/visualization-editor-json.png" alt="Json Files Visualizations Editor" class="responsive-img" width="85%"/>
@@ -77,7 +77,7 @@ with, you can build your visualization upon them. To do that, you need to:
 
 1.  **Open the Advanced Selection mode**.
 
-    Click/Tap on **+ Table** in order to get access to the *Advanced Selection*
+    Click/tap on **+ Table** in order to get access to the *Advanced Selection*
     screen.
 
     <img src="images/json-file-table-option.png" alt="Table option for advanced selection in the data source details dialog for json" class="responsive-img" width="58%"/>
@@ -107,7 +107,7 @@ with, you can build your visualization upon them. To do that, you need to:
 
     <img src="images/different-format-options-json-advanced-selection.png" alt="Json Files Format Fields" class="responsive-img"/>
 
-5.  **Click/Tap on Create Table**.
+5.  **Click/tap on Create Table**.
 
     Once you've selected your custom data structure, click/tap on *Create Table* to continue to the *Visualization Editor*.
     

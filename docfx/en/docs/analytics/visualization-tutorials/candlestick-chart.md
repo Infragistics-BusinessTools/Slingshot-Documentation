@@ -73,9 +73,9 @@ For this tutorial, you will use the *OHLC and Candlestick* sheet in the [Slingsh
          
 4. Open the *Visualization Picker* and select the **Candlestick** visualization. By default, the visualization type will be set to *Column*. 
 
-   <img src="images/candlestick-chart-types.png" alt="List of chart types" class="responsive-img" width="65%"/>                                                             
+   <img src="images/candlestick-chart-types.png" alt="List of chart types" class="responsive-img" width="85%"/>                                                             
 5.  Drag and drop the *Date* field into *Label* and the *Open*, *High*, *Low* and *Close* fields in their corresponding placeholder.
-  <img src="images/candlestick-organizing-data.png" alt="Organizing data fields" width="65%"/>                                                      
+  <img src="images/candlestick-organizing-data.png" alt="Organizing data fields" width="85%"/>                                                      
 
 <a name='changing-axis-configuration'></a>
 ## Changing your Axis Configuration

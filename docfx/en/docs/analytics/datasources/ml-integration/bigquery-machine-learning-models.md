@@ -25,7 +25,7 @@ To access the BigQuery Machine Learning Integration, follow the steps below:
     Please, refer to the [Google BigQuery](~/docs/analytics/datasources/supported-data-sources/google-bigquery.md)  topic for more information on the BigQuery data source.
 
 
-2. In the _Visualization editor_, click/tap the **brain icon** located at the top of the _Fields_ list to the left.
+2. In the _Visualization editor_, click/tap on the **brain icon** located at the top of the _Fields_ list to the left.
 
     <img src="images/brain-icon-bigquery-ml-model.png" alt="Brain icon location in the Visualization editor" class="responsive-img"/>
 

@@ -50,7 +50,7 @@ Users, who are not owners, can request permission to become certifiers. To do th
 
 2. Select the badge in the *Certified* column of any data source. 
 
-3. Click/tap *Request Permission* (see the screenshot below).
+3. Click/tap on *Request Permission* (see the screenshot below).
 
 <img src="../images/not-certified-message.png" alt="Request permission button for the certificate" class="responsive-img" width="90%" />
 
@@ -64,7 +64,7 @@ Each data source or dashboard can be certified individually in the workspace whe
 
 2. Select the *Data Sources* or *Dashboards* tab. 
 
-3. Click/tap the <img src="../images/not-certified-icon.png" alt="Data Sources icon used in Analytics" width="24px" height="24px" /> badge icon for the data source or dashboard you want to certify and choose a badge from the dropdown menu. 
+3. Click/tap on the <img src="../images/not-certified-icon.png" alt="Data Sources icon used in Analytics" width="24px" height="24px" /> badge icon for the data source or dashboard you want to certify and choose a badge from the dropdown menu. 
 
 The certificates are hierarchical. This means that certifiers who are with <img src="../images/gold-badge-icon.png" alt="Gold badge icon used in Analytics" width="24px" height="24px" /> *Gold* will also see the <img src="../images/silver-badge-icon.png" alt="Silver badge icon used in Analytics" width="24px" height="24px" /> *Silver* and <img src="../images/bronze-badge-icon.png" alt="Bronze badge icon used in Analytics" width="24px" height="24px" /> *Bronze* badges available in the dropdown menu. And *Bronze* certifiers will only see the bronze badge available. 
 
