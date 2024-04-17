@@ -34,7 +34,7 @@ below:
     information related to the data your machine learning model
     predicts.
 
-2.  In the *Visualization editor*, click/tap the **brain icon** located
+2.  In the *Visualization editor*, click/tap on the **brain icon** located
     at the top of the *Fields* list to the left. Then choose **Azure
     Machine Learning**.
 

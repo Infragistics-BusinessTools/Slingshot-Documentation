@@ -60,7 +60,7 @@ target value (vertical mark).
 <a name='bands-configuration'></a>
 ## Bands Configuration
 
-All gauge types have a common band range configuration, which you can find in the **Settings** section of the *Visualizations Editor*. The configuration dialog allows you to:
+All gauge types have a common band range configuration, which you can find in the **Settings** section of the *Visualization Editor*. The configuration dialog allows you to:
 
 1. Set **Limits**. These values are automatically set as the lowest and
     highest values in the dataset for the specified value column, but

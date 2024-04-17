@@ -21,7 +21,7 @@ you need to:
 2.  **Maximize** a visualization (by clicking the *arrow* icon in its
     top right corner).
 
-3.  Click/tap the icon, which appears in the top right section of the
+3.  Click/tap on the icon, which appears in the top right section of the
     screen (see below).
 
 <img src="images/statistical-functions-enable-icon.png" alt="Statistical functions icon" class="responsive-img" width="85%"/>

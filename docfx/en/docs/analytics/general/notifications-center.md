@@ -20,7 +20,7 @@ In the Notification Center you can:
 
 ## Notification Preferences
 
-You can easily edit your notification preferences. Тo do that, click/tap your profile photo in the top right corner of the screen. Then navigate to *Settings* ⇒ *Notifications*.
+You can easily edit your notification preferences. Тo do that, click/tap on your profile photo in the top right corner of the screen. Then navigate to *Settings* ⇒ *Notifications*.
 
 ## Notification Types
 
@@ -33,7 +33,7 @@ and **Dashboard** changes:
 
   - **In-App** notifications, displayed with a number inside the bell icon.
 
-To **edit** your notifications preferences, select the *pencil icon* next to workspace or dashboard notifications. To **turn on/off** notifications, click/tap the *toggle button* on the right.
+To **edit** your notifications preferences, select the *pencil icon* next to workspace or dashboard notifications. To **turn on/off** notifications, click/tap on the *toggle button* on the right.
 
 ### Workspace Notifications
 

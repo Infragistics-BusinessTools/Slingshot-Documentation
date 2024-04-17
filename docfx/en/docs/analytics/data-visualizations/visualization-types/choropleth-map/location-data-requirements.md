@@ -83,6 +83,7 @@ Analytics doesn't recognize the language of your data source automatically.
 If your data source information is written in another language, you need to specify it by:
 
 1. Opening the *Settings* and clicking/tapping on **Data is written in**.
+
 2. Selecting a language from the drop-down menu.
 
 >[!NOTE] Currently, the Choropleth Map in Analytics supports English and Japanese.

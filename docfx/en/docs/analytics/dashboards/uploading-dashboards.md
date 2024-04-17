@@ -15,7 +15,7 @@ In Reveal, you can also work with dashboards saved on your computer/device by di
 
     <img src="images/dashboard-upload-option.png" alt="Upload dashboard option" class="responsive-img" width="88%"/>
 
-4.  A dialog showing your local files will open. Double click/tap the
+4.  A dialog showing your local files will open. Double click/tap on the
     dashboard you want to upload. Reveal dashboards' file extension is
     **.rdash**.
 

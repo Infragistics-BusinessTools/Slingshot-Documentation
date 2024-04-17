@@ -95,7 +95,7 @@ These filters, which can’t be edited or deleted, are:
 
 ### Creating Filters
 
-To access the Filters editor, just click/tap the **+ Filter** icon in the *FILTERS* section.
+To access the Filters editor, just click/tap on the **+ Filter** icon in the *FILTERS* section.
 
 To stop filtering dashboards or data sources, you can:
 

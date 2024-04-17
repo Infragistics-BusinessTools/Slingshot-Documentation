@@ -74,7 +74,7 @@ All the properties of a task, such as a title, assignees, dependencies, status, 
 
 The **most reliable method** is to open a task by clicking/tapping it (or through the overflow button and then _Open_).
 
-A **faster method** is to just click/tap the property value you want to change, like shown below with the _Status_ property.
+A **faster method** is to just click/tap on the property value you want to change, like shown below with the _Status_ property.
 
 <img src="../images/tasks-change-property.png" alt="Change of properties in a task" class="responsive-img"/>
 
@@ -83,7 +83,7 @@ A **faster method** is to just click/tap the property value you want to change, 
 
 Tasks have many field properties that can be displayed when in the *List* and *Kanban* view. By default, you can only see the *Title*, *Assignee*, and *Due Date* of a task before opening it.
 
-To show/hide properties, click/tap the **overflow** button on top (next to the *+New* button) > **Fields** and select from the list of properties (as shown below).
+To show/hide properties, click/tap on the **overflow** button on top (next to the *+New* button) > **Fields** and select from the list of properties (as shown below).
 
 <img src="../images/tasks-fields.png" alt="Access task fields within Slingshot" class="responsive-img"/>
 
@@ -111,7 +111,7 @@ In addition, you can save a filter you just created on the spot using _Save As F
 
 <img src="../images/tasks-filters-save.png" alt="Save tasks filters on the fly within Slingshot" class="responsive-img"/>
 
-To stop filtering tasks, click/tap the **filter icon** to open the **Filters** dialog. Then, select the **Clear** button at the bottom to remove the current filters, and **Apply** to save your changes. 
+To stop filtering tasks, click/tap on the **filter icon** to open the **Filters** dialog. Then, select the **Clear** button at the bottom to remove the current filters, and **Apply** to save your changes. 
 
 For those times that you can't find a specific task, try expanding collapsed panels, removing existing filters, and/or adding filters using the properties of the task you want. Remember that the icon changes to help you identify when you have active filters or not.
 
@@ -177,7 +177,7 @@ This is very important as it makes it easy for you to focus on your work, not pl
 
 You can move tasks between tasks lists in the same workspace or between lists inside different sub-workspaces under the same parent workspace. A task is always moved with all its subtasks. 
 
-To move a task, simply open it and click/tap the *Change* blue button right over the task name (see the screenshot below). Choose a new location by navigating to the workspace and list where you want to move your task. When finished, you will find your task at the bottom of the tasks list. 
+To move a task, simply open it and click/tap on the *Change* blue button right over the task name (see the screenshot below). Choose a new location by navigating to the workspace and list where you want to move your task. When finished, you will find your task at the bottom of the tasks list. 
 
 <img src="../images/change-button-inside-task.png" alt="Change button location" width="75%" class="responsive-img"/>
 
@@ -212,7 +212,7 @@ Files attached can be opened, downloaded, or detached (unpinned) from the task.
 > [!NOTE]
 > Attaching files to tasks is similar to pinning files to boards. You can link content from a personal or a workspace cloud storage, in both cases attachments are never stored in Slingshot.
 
-To attach a file, open a task and click/tap the clip icon as shown below.
+To attach a file, open a task and click/tap on the clip icon as shown below.
 
 <img src="../images/tasks-attachments-new.png" alt="Add attachments to a Slingshot task" width="75%" class="responsive-img"/>
 

@@ -20,7 +20,7 @@ You can access the Data Sources Advanced Editor by editing an existing data sour
 
 Right before completing the process of adding a new data source, you can access the Advanced Editor by selecting the *Edit Details* button (see below).
 
-<img src="../images/add-datasheet-dialog.png" alt="Advanced info editing button" class="responsive-img" width="80%" />
+<img src="../images/add-datasheet-dialog.png" alt="Advanced info editing button" class="responsive-img" width="85%" />
 
 To open the Advanced Editor for data sources that are already added in the <img src="../images/data-source-icon.png" alt="Data sources icon used in Analytics" width="24px" height="24px" /> *Data Sources* list, follow the steps below. 
 
@@ -61,7 +61,7 @@ Most of the Slingshot data sources contain table data. Let's take a look at the 
 
 >[!NOTE] This screenshot is just an example containing all the elements of the Advanced editor.
 
-<img src="../images/advanced-editor-table-data.png" alt="Advanced editor of table data annotated" class="responsive-img" width="75%" />
+<img src="../images/advanced-editor-table-data.png" alt="Advanced editor of table data annotated" class="responsive-img" width="85%" />
 
 A. The data source's **icon** and **title**. You can rename the data source. 
 
@@ -101,7 +101,7 @@ Unlike table data sources, data cubes enable data to be modeled and viewed in mu
 
 Let's take a look at a screenshot showing the advanced editor of a *Google Analytics* data source. 
 
-<img src="../images/advanced-editor-cubes-annotated.png" alt="Advanced editor for cubes annotated" class="responsive-img" width="75%" />
+<img src="../images/advanced-editor-cubes-annotated.png" alt="Advanced editor for cubes annotated" class="responsive-img" width="85%" />
 
 A. The data source's **icon** and **title**. You can rename the data source. 
 
@@ -139,7 +139,7 @@ If you see the eye icon next to a data element, this means you can hide it by se
 
 Select the <img src="../images/pencil-icon.png" alt="the pencil icon used in Analytics" width="24px" height="24px" /> pencil icon next to a data field or a dimension or measure element. This will open the field settings on the right. 
 
-<img src="../images/advanced-editor-field-settings.png" alt="Advanced editor field settings dialog" class="responsive-img" width="75%" />
+<img src="../images/advanced-editor-field-settings.png" alt="Advanced editor field settings dialog" class="responsive-img" width="85%" />
 
 In the *Catalog info* tab, you will be able to change the name and the description of the data field. Switch to the *Original* tab to see the name and description of the field before any changes made with the Advanced Editor. 
 
@@ -153,13 +153,13 @@ Select the <img src="../images/pencil-icon.png" alt="Pencil icon used in Analyti
 
 After changing the formatting, the data table or data cube that contain the numeric data will be colored in <span style="color:#8054DB;"><b>purple</b></span>. 
 
-<img src="../images/changed-data.png" alt="Changed data in purple" class="responsive-img" width="80%" />
+<img src="../images/changed-data.png" alt="Changed data in purple" class="responsive-img" width="85%" />
 
 The icon in front of the numeric field will also change to a currency symbol or percent sign accordingly. This change will be visible in the Visualization editor as well (see below).
 
 If necessary, you can once again change the default formatting of the field when using it in the *Visualization editor*. To do this, drag the field to the *Values* placeholder and click/tap to open the *Field Settings* dialog (see below). 
 
-<img src="../images/percent-default-formatting.png" alt="Format icon changed in the Visualization Editor" class="responsive-img" width="60%" />
+<img src="../images/percent-default-formatting.png" alt="Format icon changed in the Visualization Editor" class="responsive-img" width="65%" />
 
 Select the *Override* toggle to be able to modify the formatting settings. 
 

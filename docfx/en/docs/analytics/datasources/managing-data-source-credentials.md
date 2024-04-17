@@ -30,7 +30,7 @@ In the *Data Source Credentials* section, you can add and remove credentials for
 
   - **Alias**: choose a name, which suggests the data source(s) you are going to access with these credentials. It will be displayed in the list of accounts when connecting to a data source.
 
-3. Click/Tap on **Add** to finish the process. You will find your newly saved credentials at the bottom of the list in *Data Source Credentials*.
+3. Click/tap on **Add** to finish the process. You will find your newly saved credentials at the bottom of the list in *Data Source Credentials*.
 
 ## Using Your Stored Credentials
 

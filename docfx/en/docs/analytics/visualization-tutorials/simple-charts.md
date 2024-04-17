@@ -82,10 +82,10 @@ For this tutorial, you will use the *Simple Series Charts* sheet in the [Slingsh
 
 4. Open the *Visualization Picker* and select any of the *chart* visualizations under **Category**. By default, the visualization type will be set to *Column*. 
 
-   <img src="images/chart-types-simple-series-charts.png" alt="List of chart types" class="responsive-img" width="70%"/> 
+   <img src="images/chart-types-simple-series-charts.png" alt="List of chart types" class="responsive-img" width="90%"/> 
  
 5. The charts in the table above, for example, display the population for a select list of countries. Drag and drop the *Country Name* field to **Label** and the *Population* field into **Values**.                                                        
-   <img src="images/simple-series-charts-organizing-data.png" alt="Organize data from Simple Series Charts sheet" class="responsive-img" width="35%"/>                                   
+   <img src="images/simple-series-charts-organizing-data.png" alt="Organize data from Simple Series Charts sheet" class="responsive-img" width="90%"/>                                   
 
 <a name='add-trendline-chart'></a>
 ## Adding a Trendline to your Chart

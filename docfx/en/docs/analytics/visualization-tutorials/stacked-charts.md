@@ -67,10 +67,10 @@ For this tutorial, you will use the *Stacked Charts* sheet in the
   
 4. Select the **Grid icon** in the top bar of the Visualization Editor. By default, the visualization type will be set to *Column*. You can always change it by selecting any of the **stack** visualizations.     
  
-     <img src="images/stacked-chart-types.png" alt="Grid icon in the list of Chart Types" class="responsive-img" width="70%"/>                                                                                                    
+     <img src="images/stacked-chart-types.png" alt="Grid icon in the list of Chart Types" class="responsive-img" width="90%"/>                                                                                                    
 5. Stacked charts require two or more fields to be dragged and dropped into the **Values** placeholder of the data editor. In this case, the *1960*, *2003*, *2008* and *2010* fields have been dropped into **Values** and *Country Name* in **Label**. 
 
-    <img src="images/stacked-charts-organizing-data.png" alt="Organize Stacked Charts spreadsheet data" class="responsive-img" width="35%"/>
+    <img src="images/stacked-charts-organizing-data.png" alt="Organize Stacked Charts spreadsheet data" class="responsive-img" width="90%"/>
 
 <a name='change-axis-configuration'></a>
 ## Changing your Axis Configuration
