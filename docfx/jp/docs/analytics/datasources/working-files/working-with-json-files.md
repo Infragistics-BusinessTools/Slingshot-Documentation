@@ -42,7 +42,7 @@ JSON ファイルのデータを使用する新しい表示形式を作成する
 
     ファイルをデータ ソースのリストに追加すると、選択できるデータ構造のリストが表示されます。
 
-    <img src="images/json-data-list-of-tables.png" alt="Json Files Choose Data table" class="responsive-img" width="58%"/>
+    <img src="images/json-data-list-of-tables.png" alt="List of Json File tables" class="responsive-img" width="58%"/>
 
     リストに目的のデータ構造が含まれていない場合は、[**高度な選択モード**](#高度な選択モード)を使用して、カスタムデータ構造を選択できます。
 

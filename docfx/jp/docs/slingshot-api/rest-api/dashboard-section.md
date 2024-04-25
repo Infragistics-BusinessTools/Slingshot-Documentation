@@ -47,7 +47,7 @@
 
 ## ダッシュボード セクションを作成する
 
-<img src="../images/post-request.png" alt="Post request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> <span class="italic"> ***htt<area>ps://my.slingshotapp<area>.io/v1/dashboardsections***</span>
+<img src="../images/post-request.png" alt="Post request for a dashboard section" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> <span class="italic"> ***https://my.slingshotapp.io/v1/dashboardsections***</span>
 
 必須パラメーター: なし
 
@@ -111,7 +111,7 @@
 
 ## ダッシュボード セクションを取得する
 
-<img src="../images/get.png" alt="Get request" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/dashboardsections/{id}***
+<img src="../images/get.png" alt="Get request for a dashboard section" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/dashboardsections/{id}***
 
 必須パラメーター: ダッシュボード セクションの **id**。
 
@@ -127,7 +127,7 @@
 
 ## 親ダッシュボード リストのすべてのダッシュボード セクションを取得する
 
-<img src="../images/get-all.png" alt="Get all request" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/dashboardsections/parent/{id}***
+<img src="../images/get-all.png" alt="Get all request for dashboard sections" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/dashboardsections/parent/{id}***
 
 必須パラメーター: ダッシュボード リストの **id**。 
 
@@ -143,7 +143,7 @@
 
 ## ダッシュボード セクションを更新する  
 
-<img src="../images/patch.png" alt="Patch request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/dashboardsections/{id}***
+<img src="../images/patch.png" alt="Patch request for a dashboard section" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/dashboardsections/{id}***
 
 必須パラメーター: ダッシュボード セクションの **id**。
 
@@ -202,7 +202,7 @@
 
 ## ダッシュボード セクションを削除する
 
-<img src="../images/delete.png" alt="Delete request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/dashboardsections/{id}***
+<img src="../images/delete.png" alt="Delete request for a dashboard section" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/dashboardsections/{id}***
 
 必須パラメーター: ダッシュボード セクションの **id**。
 

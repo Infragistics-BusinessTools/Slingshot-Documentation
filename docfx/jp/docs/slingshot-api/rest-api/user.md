@@ -80,8 +80,8 @@
 
 ## 現在のユーザー ドキュメントを取得する
 
-<img src="../images/get.png" alt="Get request" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> 
-<span class="italic">***htt<area>ps://my.slingshotapp<area>.io/v1/user***</span>
+<img src="../images/get.png" alt="Get request for a user document" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> 
+<span class="italic">***https://my.slingshotapp.io/v1/user***</span>
 
 スキーマ: [User](#user-schema)
 
@@ -99,7 +99,7 @@
 
 ## 現在のユーザー ドキュメントを更新する
 
-<img src="../images/patch.png" alt="Patch request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> <span class="italic">***htt<area>ps://my.slingshotapp<area>.io/v1/user***</span>
+<img src="../images/patch.png" alt="Patch request for a current user document" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> <span class="italic">***https://my.slingshotapp.io/v1/user***</span>
 
 必須パラメーター: なし
 

@@ -104,7 +104,7 @@
 
 ## ワークスペースの作成 
 
-<img src="../images/post-request.png" alt="Post request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***htt<area>ps://my.slingshotapp<area>.io/v1/workspaces***</span>
+<img src="../images/post-request.png" alt="Post request for a workspace" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/workspaces***</span>
 
 必須パラメーター: なし
 
@@ -227,8 +227,8 @@
 
 ## ワークスペースを取得する
 
-<img src="../images/get.png" alt="Get request" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> 
-<span class="italic">***htt<area>ps://my.slingshotapp<area>.io/v1/workspaces/{id}***</span>
+<img src="../images/get.png" alt="Get request for a workspace" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> 
+<span class="italic">***https://my.slingshotapp.io/v1/workspaces/{id}***</span>
 
 必須パラメーター: ワークスペースの **id**。
 
@@ -244,7 +244,7 @@
 
 ## 現在のユーザーのすべてのワークスペースを取得する
 
-<img src="../images/get-all.png" alt="Get all request" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> <span class="italic">***htt<area>ps://my.slingshotapp<area>.io/v1/workspaces***</span>
+<img src="../images/get-all.png" alt="Get all request for workspaces for a current user" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> <span class="italic">***https://my.slingshotapp.io/v1/workspaces***</span>
 
 必須パラメーター: なし
 
@@ -261,7 +261,7 @@
 ## ワークスペースを更新する
 
 <img src="../images/patch.png" alt="Patch request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> 
-<span class="italic">***htt<area>ps://my.slingshotapp<area>.io/v1/workspaces/{id}***</span>
+<span class="italic">***https://my.slingshotapp.io/v1/workspaces/{id}***</span>
 
 必須パラメーター: ワークスペースの **id**。
 
@@ -377,7 +377,7 @@
 
 ## ワークスペースの削除
 
-<img src="../images/delete.png" alt="Delete request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/workspaces/{id}***
+<img src="../images/delete.png" alt="Delete request for a workspace" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/workspaces/{id}***
 
 必須パラメーター: ワークスペースの **id**。
 
@@ -393,7 +393,7 @@
 
 ## ワークスペースにメンバーを追加する  
 
-<img src="../images/post-request.png" alt="Post request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/workspaces/{id}/members***
+<img src="../images/post-request.png" alt="Post request for adding members to a workspace" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/workspaces/{id}/members***
 
 必須パラメーター: ワークスペースの **id**。
 
@@ -512,7 +512,7 @@
 
 ## ワークスペースのメンバーのロールを更新する
 
-<img src="../images/patch.png" alt="Patch request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/workspaces/{id}/members***
+<img src="../images/patch.png" alt="Patch request for updating members' roles of a workspace" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/workspaces/{id}/members***
 
 必須パラメーター: ワークスペースの **id**。
 
@@ -635,7 +635,7 @@
 
 ## ワークスペースからメンバーを削除する
 
-<img src="../images/delete.png" alt="Delete request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/workspaces/{id}/members***
+<img src="../images/delete.png" alt="Delete request for removing members from a workspace" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/workspaces/{id}/members***
 
 必須パラメーター: ワークスペースの **id**。
 
@@ -753,7 +753,7 @@
 
 ## メンバーをワークスペースに追加する要求を許可する  
 
-<img src="../images/patch.png" alt="Patch request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/workspaces/{id}/requests***
+<img src="../images/patch.png" alt="Patch request for granting requests to add members to a workspace" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/workspaces/{id}/requests***
 
 必須パラメーター: ワークスペースの **id**。
 
@@ -873,7 +873,7 @@
 
 ## ワークスペースにメンバーを追加する要求を拒否する
 
-<img src="../images/delete.png" alt="Delete request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/workspaces/{id}/requests***
+<img src="../images/delete.png" alt="Delete request for denying requests to add memberst to a workspace" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/workspaces/{id}/requests***
 
 必須パラメーター: ワークスペースの **id**。
 

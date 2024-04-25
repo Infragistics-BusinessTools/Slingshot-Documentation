@@ -73,7 +73,7 @@
 
 ## ピン固定を作成する
 
-<img src="../images/post-request.png" alt="Post request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***htt<area>ps://my.slingshotapp<area>.io/v1/pins/{pinSectionId}***</span>
+<img src="../images/post-request.png" alt="Post request for a pin" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/pins/{pinSectionId}***</span>
 
 必須パラメーター: ピン固定セクションの **id**。 
 
@@ -149,7 +149,7 @@
 
 ## ピン固定を更新する 
 
-<img src="../images/patch.png" alt="Patch request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/pins/{pinSectionId}/{pinId}***
+<img src="../images/patch.png" alt="Patch request for a pin" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/pins/{pinSectionId}/{pinId}***
 
 必須パラメーター: ピン固定セクションの **id** と更新されるピン固定の **id**。
 
@@ -224,7 +224,7 @@
 
 ## ピン固定を削除する 
 
-<img src="../images/delete.png" alt="Delete request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/pins/{pinSectionId}/{pinId}***
+<img src="../images/delete.png" alt="Delete request for a pin" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/pins/{pinSectionId}/{pinId}***
 
 必須パラメーター: ピン固定セクションの **id** と削除されるピンの **id**。
 

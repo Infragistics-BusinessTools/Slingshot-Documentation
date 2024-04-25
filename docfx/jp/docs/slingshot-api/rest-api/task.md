@@ -69,7 +69,7 @@
 
 ## タスクを作成する
 
-<img src="../images/post-request.png" alt="Post request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***htt<area>ps://my.slingshotapp<area>.io/v1/tasks***</span>
+<img src="../images/post-request.png" alt="Post request for a task" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/tasks***</span>
 
 必須パラメーター: なし 
 
@@ -156,8 +156,8 @@
 
 ## タスクを取得する
 
-<img src="../images/get.png" alt="Get request" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> 
-<span class="italic">***htt<area>ps://my.slingshotapp<area>.io/v1/tasks***</span>
+<img src="../images/get.png" alt="Get request for a task" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> 
+<span class="italic">***https://my.slingshotapp.io/v1/tasks***</span>
 
 必須パラメーター: タスクの **id**。  
 
@@ -173,7 +173,7 @@
 
 ## 親タスク セクションのすべてのタスクを取得
 
-<img src="../images/get-all.png" alt="Get all request" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/tasks/parent/{id}***
+<img src="../images/get-all.png" alt="Get all request for tasks for a parent task section" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/tasks/parent/{id}***
 
 必須パラメーター: 特定のタスクの **id**。
 
@@ -189,7 +189,7 @@
 
 ## タスクを更新する 
 
-<img src="../images/patch.png" alt="Patch request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/tasks/{id}***
+<img src="../images/patch.png" alt="Patch request for a task" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/tasks/{id}***
 
 必須パラメーター: タスクの **id**。 
 
@@ -278,7 +278,7 @@
 
 ## タスクを削除する
 
-<img src="../images/delete.png" alt="Delete request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/tasks/{id}***
+<img src="../images/delete.png" alt="Delete request for a task" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/tasks/{id}***
 
 必須パラメーター: 特定のタスクの **id**。
 
@@ -294,7 +294,7 @@
 
 ## タスクに割り当て先を追加する
 
-<img src="../images/post-request.png" alt="Post request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/tasks/{id}/assignees***
+<img src="../images/post-request.png" alt="Post request for adding assignee to task" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/tasks/{id}/assignees***
 
 必須パラメーター: 特定のタスクの **id**。
 
@@ -365,7 +365,7 @@
 
 ## タスクから割り当て先を削除する
 
-<img src="../images/delete.png" alt="Delete request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/tasks/{id}/assignees***
+<img src="../images/delete.png" alt="Delete request for removing assignees from a task" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/tasks/{id}/assignees***
 
 必須パラメーター: タスクの **id**。
 

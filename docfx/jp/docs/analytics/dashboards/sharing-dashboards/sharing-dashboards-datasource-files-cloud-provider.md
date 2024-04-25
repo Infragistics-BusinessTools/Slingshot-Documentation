@@ -51,7 +51,7 @@ _language: ja
 
     <img src="images/grant-access-share-dashboard-dialog.png" alt="A dialog to grant access to cloud file data sources" width="40%"/>
 
-    **[アクセスの許可]** をクリック/タップして、[ダッシュボードを共有する](share-a-dashboard.html)ユーザーの選択に進みます。
+    **[アクセスの許可]** をクリック/タップして、[ダッシュボードを共有する](../sharing-dashboards/share-a-dashboard.md)ユーザーの選択に進みます。
 
 <a name='save-dashboard-workspace'></a>
 ## ワークスペース内のクラウド ファイル データ ソースを含むダッシュボードの保存
@@ -64,4 +64,4 @@ _language: ja
 
 ## 関連項目
 
-共有されているダッシュボードのコンテンツが表示されない場合は、[クラウド ファイルを使用した共有ダッシュボードへのアクセスのリクエスト](request-access-shared-dashboards-cloud-files.html)をお読みください。
+共有されているダッシュボードのコンテンツが表示されない場合は、[クラウド ファイルを使用した共有ダッシュボードへのアクセスのリクエスト](request-access-shared-dashboards-cloud-files.md)をお読みください。

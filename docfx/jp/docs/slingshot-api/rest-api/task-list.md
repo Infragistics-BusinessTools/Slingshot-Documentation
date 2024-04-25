@@ -62,7 +62,7 @@
 
 ## タスク リストを作成する 
 
-<img src="../images/post-request.png" alt="Post request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***htt<area>ps://my.slingshotapp<area>.io/v1/tasks***</span>
+<img src="../images/post-request.png" alt="Post request for a task list" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/tasks***</span>
 
 必須パラメーター: なし 
 
@@ -124,7 +124,7 @@
 
 ## タスク リストを取得する
 
-<img src="../images/get.png" alt="Get request" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/tasklists/{id}***
+<img src="../images/get.png" alt="Get request for a task list" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/tasklists/{id}***
 
 必須パラメーター: タスク リストの **id**。
 
@@ -156,7 +156,7 @@
 
 ## タスク リストを更新する  
 
-<img src="../images/patch.png" alt="Patch request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/tasklists/{id}***
+<img src="../images/patch.png" alt="Patch request for a task list" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/tasklists/{id}***
 
 必須パラメーター: タスク リストの **id**。
 
@@ -211,7 +211,7 @@
 
 ## タスク リストを削除する
 
-<img src="../images/delete.png" alt="Delete request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/tasklists/{id}***
+<img src="../images/delete.png" alt="Delete request for a task list" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/tasklists/{id}***
 
 必須パラメーター: タスク リストの **id**。
 

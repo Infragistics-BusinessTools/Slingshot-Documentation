@@ -8,7 +8,9 @@ _language: ja
 
 このセクションでは、並べ替え、フィルター処理、データの集計などデータセットへの変換を適用するためのさまざまなオプションについて説明します。
 
-<img src="images/data-filters-currency-sample.png" alt="Data Filters Currency" class="responsive-img" width="88%"/>
+
+<img src="images/dashboard-date-fields-example.png" alt="Example of a dashboard using date fields" class="responsive-img" width="88%"/>
+
 
 データにフォーマットまたはフィルターを適用するには、対応するプレースホルダー (*カテゴリ*、*列*、*ラベル*、*行*、および*値*) で変更する特定のフィールドを選択する必要があります。フィールドには 3 つのタイプがあり、それぞれに独自のフォーマットおよびフィルター オプションがあります:
 
@@ -27,7 +29,7 @@ _language: ja
 <a name='date-fields'></a>
 ## 日付フィールド
 
-<img src="images/formatting-date-field.png" alt="Date-Field-Formatting" class="responsive-img" width="30%"/>
+<img src="images/formatting-date-field.png" alt="Date Field Formatting in the Field Settings dialog" class="responsive-img" width="30%"/>
 
   - **ラベル名の変更**: 表示のみを目的としてフィールド名を変更します。フィールドは常に計算フィールド式で元の名前によって参照されます。名前を変更すると、ラベルを完全に消去し元の値に戻ります。
 
@@ -52,7 +54,7 @@ _language: ja
 <a name='numeric-fields'></a>
 ## 数値フィールド
 
-<img src="images/numeric-field-settings.png" alt="Numeric-Field-Formatting\_All.png" class="responsive-img" width="30%"/>
+<img src="images/numeric-field-settings.png" alt="Numeric Field Formatting in the Field Settings dialog.png" class="responsive-img" width="30%"/>
 
   - **ラベル名の変更**: 表示のみを目的としてフィールド名を変更します。フィールドは常に計算フィールド式で元の名前によって参照されます。名前を変更すると、ラベルを完全に消去し元の値に戻ります。
 
@@ -77,7 +79,7 @@ _language: ja
 <a name='abc-fields'></a>
 ## 文字列フィールド
 
-<img src="images/string-field-formatting-field-settings-dialog.png" alt="String-Field-Formatting" class="responsive-img" width="30%"/>
+<img src="images/string-field-formatting-field-settings-dialog.png" alt="String Field Formatting in the Field Settings dialog" class="responsive-img" class="responsive-img" width="30%"/>
 
   - **ラベル名の変更**: 表示のみを目的としてフィールド名を変更します。フィールドは常に計算フィールド式で元の名前によって参照されます。名前を変更すると、ラベルを完全に消去し元の値に戻ります。
 

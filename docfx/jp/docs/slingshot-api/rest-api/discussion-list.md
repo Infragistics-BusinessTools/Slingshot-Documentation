@@ -47,7 +47,7 @@
 
 ## ディスカッション リストを作成する  
 
-<img src="../images/post-request.png" alt="Post request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> <span class="italic">***htt<area>ps://my.slingshotapp<area>.io/v1/discussionlists***</span>
+<img src="../images/post-request.png" alt="Post request for a discussion list" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> <span class="italic">***https://my.slingshotapp.io/v1/discussionlists***</span>
 
 必須パラメーター: なし
 
@@ -113,8 +113,8 @@
 
 ## ディスカッション リストを取得する
 
-<img src="../images/get.png" alt="Get request" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> 
-<span class="italic">***htt<area>ps://my.slingshotapp<area>.io/v1/discussionlists/{id}***</span>
+<img src="../images/get.png" alt="Get request for a discussion list" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> 
+<span class="italic">***https://my.slingshotapp.io/v1/discussionlists/{id}***</span>
 
 必須パラメーター: ディスカッション リストの **id**。
 
@@ -130,7 +130,7 @@
 
 ## 親ドキュメントのすべてのディスカッション リストを取得する
 
-<img src="../images/get-all.png" alt="Get all request" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/discussionlists/parent/{id}***
+<img src="../images/get-all.png" alt="Get all request for discussion lists" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/discussionlists/parent/{id}***
 
 必須パラメーター: 親ドキュメントの **id**。
 
@@ -146,7 +146,7 @@
 
 ## ディスカッション リストを更新する
 
-<img src="../images/patch.png" alt="Patch request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/discussionlists/{id}***
+<img src="../images/patch.png" alt="Patch request for a discussion list" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/discussionlists/{id}***
 
 必須パラメーター: ディスカッション リストの **id**。
 
@@ -207,7 +207,7 @@
 
 ## ディスカッション リストを削除する
 
-<img src="../images/delete.png" alt="Delete request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/discussionlists/{id}***
+<img src="../images/delete.png" alt="Delete request for a discussion list" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/discussionlists/{id}***
 
 必須パラメーター: ディスカッション リストの **id**。
 

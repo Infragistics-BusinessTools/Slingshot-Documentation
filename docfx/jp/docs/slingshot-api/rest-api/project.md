@@ -96,7 +96,7 @@
 
 ## プロジェクトを作成
 
-<img src="../images/post-request.png" alt="Post request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***htt<area>ps://my.slingshotapp<area>.io/v1/projects***</span>
+<img src="../images/post-request.png" alt="Post request for a project" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/projects***</span>
 
 必須パラメーター: なし
 
@@ -214,8 +214,8 @@
 
 ## プロジェクトを取得する
 
-<img src="../images/get.png" alt="Get request" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/>
-<span class="italic">***htt<area>ps://my.slingshotapp<area>.io/v1/projects/{id}***</span>
+<img src="../images/get.png" alt="Get request for a project" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/>
+<span class="italic">***https://my.slingshotapp.io/v1/projects/{id}***</span>
 
 必須パラメーター: プロジェクトの **id**。
 
@@ -231,7 +231,7 @@
 
 ## 現在のユーザーのすべてのプロジェクトを取得する 
 
-<img src="../images/get-all.png" alt="Get all request" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> <span class="italic">***htt<area>ps://my.slingshotapp<area>.io/v1/projects***</span>
+<img src="../images/get-all.png" alt="Get all request for projects for a current user" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> <span class="italic">***https://my.slingshotapp.io/v1/projects***</span>
 
 必須パラメーター: なし
 
@@ -247,7 +247,7 @@
 
 ## プロジェクトを更新する  
 
-<img src="../images/patch.png" alt="Patch request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/projects/{id}***
+<img src="../images/patch.png" alt="Patch request for a project" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/projects/{id}***
 
 必須パラメーター: プロジェクトの **id**。
 
@@ -355,7 +355,7 @@
 
 ## プロジェクトを削除する
 
-<img src="../images/delete.png" alt="Delete request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/projects/{id}***
+<img src="../images/delete.png" alt="Delete request for a project" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/projects/{id}***
 
 必須パラメーター: プロジェクトの **id**。
 
@@ -371,7 +371,7 @@
 
 ## プロジェクトにメンバーを追加する
 
-<img src="../images/post-request.png" alt="Post request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/projects/{id}/members***
+<img src="../images/post-request.png" alt="Post request for adding members to a project" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/projects/{id}/members***
 
 必須パラメーター: プロジェクトの **id**。 
 
@@ -493,7 +493,7 @@
 
 ## プロジェクトのメンバーのロールを更新する 
 
-<img src="../images/patch.png" alt="Patch request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/projects/{id}/members***
+<img src="../images/patch.png" alt="Patch request for updating members' roles of a project" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/projects/{id}/members***
 
 必須パラメーター: プロジェクトの **id**。
 
@@ -613,7 +613,7 @@
 
 ## ワークプロジェクトからメンバーを削除する 
 
-<img src="../images/delete.png" alt="Delete request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/projects/{id}/members***
+<img src="../images/delete.png" alt="Delete request for removing members from a project" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/projects/{id}/members***
 
 必須パラメーター: プロジェクトの **id**。
 
@@ -723,7 +723,7 @@
 
 ## プロジェクトにメンバーを追加するためのアクセス権を要求に付与する
   
-<img src="../images/patch.png" alt="Patch request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/projects/{id}/requests***
+<img src="../images/patch.png" alt="Patch request for granting requests access to add members to a project" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/projects/{id}/requests***
 
 必須パラメーター: プロジェクトの **id**。
 
@@ -835,7 +835,7 @@
 
 ## プロジェクトにメンバーを追加する要求を拒否する
 
-<img src="../images/delete.png" alt="Delete request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/projects/{id}/requests***
+<img src="../images/delete.png" alt="Delete request for denying requests to add members to a project" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/projects/{id}/requests***
 
 必須パラメーター: プロジェクトの **id**。
 

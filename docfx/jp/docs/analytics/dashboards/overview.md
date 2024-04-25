@@ -14,9 +14,9 @@ _language: ja
 
   - **KPI 目標**: 自分またはアナリストがダッシュボードに何を示し、何を中心にサイクルを回す必要があるかを決定します。
 
-  - **ダッシュボードの計画**: 情報をグラフィカルにどのように表現しますか? [グリッド](~/docs/analytics/data-visualizations/visualization-types/grid-chart.md)、マップ、[ゲージ](~/docs/analytics/data-visualizations/visualization-types/gauge-charts.md)、[カテゴリ チャート](~/docs/analytics/data-visualizations/visualization-types/category-charts.md)を使用しますか? [フィルター](~/docs/analytics/filters/overview.md)を使用しますか?
+  - **ダッシュボードの計画**: 情報をグラフィカルにどのように表現しますか? [グリッド](../data-visualizations/visualization-types/grid-chart.md)、マップ、[ゲージ](../data-visualizations/visualization-types/gauge-charts.md)、[カテゴリ チャート](../data-visualizations/visualization-types/category-charts.md)を使用しますか? [フィルター](../filters/overview.md)を使用しますか?
 
-  - Analytics で使用する**データを準備します**。Analytics で[スプレッドシートを操作する方法](~/docs/analytics/datasources/working-files/working-with-spreadsheets.md)の概要を以下に示します。
+  - Analytics で使用する**データを準備します**。Analytics で[スプレッドシートを操作する方法](../datasources/working-files/working-with-spreadsheets.md)の概要を以下に示します。
 
   - **ダッシュボードの作成**: 完全な手順については、[このトピック](creating-dashboards.md)をご覧ください。
 
@@ -26,7 +26,7 @@ _language: ja
 
 Analytics を利用して実行できる機能:
 
-   - [ダッシュボードの作成](creating-dashboards.md)
+  - [ダッシュボードの作成](creating-dashboards.md)
 
   - [アップロード可能](uploading-dashboards.md)
 
@@ -40,6 +40,6 @@ Analytics を利用して実行できる機能:
 
   - [現在のダッシュボードの管理](managing-dashboards.md)
 
-  - ダッシュボードを[画像](./exporting-dashboards/export-as-images.md)、[PDF ファイル](./exporting-dashboards/export-as-pdf-document.md)、[PowerPoint プレゼンテーション](./exporting-dashboards/export-as-powerpoint-presentation.md)、または [Excel スプレッドシート](./exporting-dashboards/export-as-excel-data-format.md)として[エクスポート](how-to-export-a-dashboard.md)
+  - ダッシュボードを[画像](./exporting-dashboards/export-as-images.md)、[PDF ファイル](./exporting-dashboards/export-as-pdf-document.md)、[PowerPoint プレゼンテーション](./exporting-dashboards/export-as-powerpoint-presentation.md)、または [Excel スプレッドシート](./exporting-dashboards/export-as-excel-data-format.md)
 
-[ReportPlus の以前のバージョンで作成されたダッシュボード](Uploading-Dashboards.md)をインポートすることもできます。
+[ReportPlus の以前のバージョンで作成されたダッシュボード](../dashboards/uploading-dashboards.md)をインポートすることもできます。

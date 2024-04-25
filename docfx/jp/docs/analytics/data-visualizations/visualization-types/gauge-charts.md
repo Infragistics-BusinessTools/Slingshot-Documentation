@@ -13,7 +13,7 @@ _language: ja
 
 リニア ゲージは、ラベル、**[ラベル]** のプレースホルダーの設定から取得された値、および設定 **[値]** のプレースホルダーの値が表示されます。値は、四角形としてチャート化され、バンド内または隣りに数値形式で表示されます。このゲージ タイプは、行の値を並べて比較することに適しています。
 
-<img src="images/linear-gauge-example.png" alt="Linear gauge chart example in the Visualization editor" class="responsive-img"/>
+<img src="images/linear-chart-example.png" alt="Linear gauge chart example in the Visualization editor" class="responsive-img"/>
 
 <a name='circular-gauge'></a>
 ## 円型ゲージ

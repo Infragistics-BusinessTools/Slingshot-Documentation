@@ -25,7 +25,7 @@ _language: ja
 
 新しい計算フィールドを追加するには、[フィールド] パネルの **[+] ボタン**をクリック / タップし、**[集計フィールド]** を選択します。
 
-<img src="images/calculated-field-option.png" alt="Pre-calculated field option" class="responsive-img" width="85%"/>
+<img src="images/calculated-field-option.png" alt="Pre-calculated field option in data editor for a dashboard" class="responsive-img" width="85%"/>
 
 [計算フィールドの作成] 画面が開きます。
 

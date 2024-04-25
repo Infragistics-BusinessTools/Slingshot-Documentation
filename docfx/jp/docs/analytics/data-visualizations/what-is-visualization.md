@@ -2,7 +2,7 @@
 
 表示形式は、個々の情報です。すべてのダッシュボードは 1 つ以上の表示形式で構成されます。以下の画像は、[柱状チャート](category-charts.html)による表示形式でさまざまな線によって生成される単位量を示しています。
 
-<img src="images/SampleVisualization_Desktop.png" alt="SampleVisualization\_Desktop" class="responsive-img"/>
+<img src="images/SampleVisualization_Desktop.png" alt="Example of a column chart visualization" class="responsive-img"/>
 
 ## 表示形式はどのように表示されますか？
 

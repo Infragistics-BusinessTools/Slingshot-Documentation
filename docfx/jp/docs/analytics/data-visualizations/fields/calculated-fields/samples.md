@@ -59,7 +59,7 @@ _language: ja
 
 以下のダッシュボードを参照します。会社の事業部および 2 年間の売上を表示します。
 
-<img src="images/yoy-analysis-revenue-all.png" alt="YoyAnalysisRevenue\_All" class="responsive-img" width="85%"/>
+<img src="images/yoy-analysis-revenue-all.png" alt="Dashboard showing a comparision between Revenue Figures for a 2-Year Period" class="responsive-img" width="85%"/>
 
 以下の計算フィールドを使用して 2 つの数値を比較できます。「-1」は年の違いを減算します。
 

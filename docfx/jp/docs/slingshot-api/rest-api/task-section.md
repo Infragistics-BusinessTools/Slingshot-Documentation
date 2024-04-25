@@ -47,7 +47,7 @@
 
 ## タスク セクションを作成する
 
-<img src="../images/post-request.png" alt="Post request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***htt<area>ps://my.slingshotapp<area>.io/v1/tasksections***</span>
+<img src="../images/post-request.png" alt="Post request for a task section" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/tasksections***</span>
 
 必須パラメーター: なし 
 
@@ -111,7 +111,7 @@
 
 ## タスク セクションを取得する
  
-<img src="../images/get.png" alt="Get request" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/tasksections/{id}***
+<img src="../images/get.png" alt="Get request for a task section" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/tasksections/{id}***
 
 必須パラメーター: タスクの **id**。  
 
@@ -127,7 +127,7 @@
 
 ## 親タスク リストのすべてのタスク セクションを取得
 
-<img src="../images/get-all.png" alt="Get all request" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/tasksections/parent/{id}***
+<img src="../images/get-all.png" alt="Get all request for task sections" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/tasksections/parent/{id}***
 
 必須パラメーター: 親タスク リストの **id**。
 
@@ -143,7 +143,7 @@
 
 ## タスク セクションを更新する 
 
-<img src="../images/patch.png" alt="Patch request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/tasksections/{id}***
+<img src="../images/patch.png" alt="Patch request for a task section" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/tasksections/{id}***
 
 必須パラメーター: タスク セクションの **id**。
 
@@ -202,7 +202,7 @@
 
 ## タスク セクションを削除する 
 
-<img src="../images/delete.png" alt="Delete request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/tasksections/{id}***
+<img src="../images/delete.png" alt="Delete request for a task section" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/tasksections/{id}***
 
 必須パラメーター: タスク セクションの **id**。
 

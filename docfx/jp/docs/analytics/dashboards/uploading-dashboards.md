@@ -9,10 +9,12 @@ _language: ja
 [分析] では、直接アップロードしてコンピューター/デバイスに保存されたダッシュボードを操作することもできます。これを行うには、次のステップを実行します。
 
 1. **[分析]** に移動します。
+
 2. **[ダッシュボード]** をクリックします。
+
 3. オーバーフロー メニューに移動し、**[アップロード]** を選択します。
 
-    <img src="images/dashboard-upload-option.png" alt="Upload option" class="responsive-img" width="88%"/>
+    <img src="images/dashboard-upload-option.png" alt="Upload dashboard option" class="responsive-img" width="88%"/>
 
 2.  ローカル ファイルを表示するダイアログが開きます。アップロードするダッシュボードをダブル クリック/タップします。Reveal ダッシュボードのファイル拡張子は **.rdash** です。
 

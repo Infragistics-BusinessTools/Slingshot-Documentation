@@ -20,7 +20,7 @@ _language: ja
 
 <img src="images/new-visualization-screen.png" alt="Dialog with a list of data sources" width="85%" class="responsive-img"/>
 
-データ ソースを選択して構成すると、[表示形式エディター](visualizations-editor.md)に移動し、表示形式の作成を開始できます。
+データ ソースを選択して構成すると、[表示形式エディター](../data-visualizations/visualization-editor.md)に移動し、表示形式の作成を開始できます。
 
 表示形式エディターは、データを使用して最も望ましいビューを作成するのに役立ちます。
 
@@ -40,7 +40,7 @@ _language: ja
 
 以下は、**エディター**のすべてのセクションとその機能のリストです。
 
-<img src="images/visualizations-editor-sections.png" alt="Sections of the Visualization editor" class="responsive-img" width="85%"/>
+<img src="images/visualization-editor-sections.png" alt="Sections of the Visualization editor" class="responsive-img" width="85%"/>
 
 1. **[データ] セクション** - このセクションには 2 つのパネルがあります。
 

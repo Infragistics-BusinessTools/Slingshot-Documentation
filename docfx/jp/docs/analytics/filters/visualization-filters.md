@@ -14,7 +14,7 @@ _language: ja
 
 フィルター オプションは、フィールドのデータ タイプに応じて表示形式フィルター エリアで表示されます。テキスト、数値、日付の 3 つのフィルター ダイアログがあります。作成されたクイック フィルターは、表示形式エディターの表示形式の上に表示されます。
 
-<img src="images/visualization-filter-visualization-editor.png" alt="List of fields in the visualization editor" class="responsive-img" width="85%"/>
+<img src="images/visualization-filter-visualization-editor.png" alt="List of fields in the Visualization Editor" class="responsive-img" width="85%"/>
 
 ダッシュボード ビュー モードで表示形式を最大化すると、表示形式のタイトルの下に表示されます。
 

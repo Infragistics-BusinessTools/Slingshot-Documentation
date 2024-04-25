@@ -47,7 +47,7 @@
 
 ## ディスカッションを作成する  
 
-<img src="../images/post-request.png" alt="Post request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> <span class="italic">***htt<area>ps://my.slingshotapp<area>.io/v1/discussion***</span>
+<img src="../images/post-request.png" alt="Post request for a discussion" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> <span class="italic">***https://my.slingshotapp.io/v1/discussion***</span>
 
 必須パラメーター: なし 
 
@@ -106,8 +106,8 @@
 
 ## ディスカッションを取得する
  
-<img src="../images/get.png" alt="Get request" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> 
-<span class="italic">***htt<area>ps://my.slingshotapp<area>.io/v1/discussions***</span>
+<img src="../images/get.png" alt="Get request for a discussion" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> 
+<span class="italic">***https://my.slingshotapp.io/v1/discussions***</span>
 
 必須パラメーター: ディスカッションの **id**。
  
@@ -123,7 +123,7 @@
 
 ## 親ドキュメントのすべてのディスカッションを取得する
 
-<img src="../images/get-all.png" alt="Get all request" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> <span class="italic">***htt<area>ps://my.slingshotapp<area>.io/v1/discussions/parent/{id}***</span>
+<img src="../images/get-all.png" alt="Get all request for discussions" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> <span class="italic">***https://my.slingshotapp.io/v1/discussions/parent/{id}***</span>
 
 必須パラメーター: 親ディスカッション リストの **id****。
 
@@ -139,7 +139,7 @@
 
 ## ディスカッション メッセージを取得する
 
-<img src="../images/get-discussion-messages.png" alt="Delete request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/discussions/{id}/messages***
+<img src="../images/get-discussion-messages.png" alt="Delete request for a discussion" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/discussions/{id}/messages***
 
 必須パラメーター: ディスカッションの **id**。 
 
@@ -157,7 +157,7 @@
 
 ## ディスカッション メッセージを送信する
 
-<img src="../images/post-send-discussion-message.png" alt="Send discussion message" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/discussions/{id}/send***
+<img src="../images/post-send-discussion-message.png" alt="Send discussion message for discussion" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/discussions/{id}/send***
 
 必須パラメーター: ディスカッションの **id**。
 
@@ -188,7 +188,7 @@
 
 ## ディスカッションを更新する
 
-<img src="../images/patch.png" alt="Patch request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/discussions/{id}***
+<img src="../images/patch.png" alt="Patch request for a discussion" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/discussions/{id}***
 
 必須パラメーター: ディスカッションの **id**。 
 
@@ -247,7 +247,7 @@
 
 ## ディスカッションを削除する 
 
-<img src="../images/delete.png" alt="Delete request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/discussions/{id}***
+<img src="../images/delete.png" alt="Delete request for a discussion" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/discussions/{id}***
 
 必須パラメーター: 特定のディスカッションの **id**。
 

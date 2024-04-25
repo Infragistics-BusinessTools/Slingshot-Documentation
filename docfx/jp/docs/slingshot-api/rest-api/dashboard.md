@@ -46,7 +46,7 @@
 
 ## ダッシュボードを取得する
 
-<img src="../images/get.png" alt="Get request" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/dashboards/{id}***
+<img src="../images/get.png" alt="Get request for a dashboard" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/dashboards/{id}***
 
 必須パラメーター: ダッシュボードの **id**。
 
@@ -62,7 +62,7 @@
 
 ## ダッシュボードの更新
 
-<img src="../images/patch.png" alt="Patch request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/>  ***https://my.slingshotapp.io/v1/dashboards/{id}***
+<img src="../images/patch.png" alt="Patch request for a dashboard" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/>  ***https://my.slingshotapp.io/v1/dashboards/{id}***
 
 必須パラメーター: ダッシュボードの **id**。
 
@@ -122,7 +122,7 @@
 
 ## ダッシュボードの削除 
 
-<img src="../images/delete.png" alt="Delete request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/>  ***https://my.slingshotapp.io/v1/dashboards/{id}***
+<img src="../images/delete.png" alt="Delete request for a dashboard" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/>  ***https://my.slingshotapp.io/v1/dashboards/{id}***
 
 必須パラメーター: ダッシュボードの **id**。
 

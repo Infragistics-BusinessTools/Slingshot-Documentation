@@ -38,7 +38,7 @@ _language: ja
 
 ## バブル チャートを作成する方法
 
-<img src="images/bubble-chart-visualization-editor.png" alt="An Example of a bubble chart using one color" class="responsive-img" width="85%"/>
+<img src="images/bubble-chart-visualization-editor.png" alt="Example of a bubble chart using one color" class="responsive-img" width="85%"/>
 
 1 つの色だけを使用して基本的なバブル チャートを作成するには、次の操作が必要です。
 
