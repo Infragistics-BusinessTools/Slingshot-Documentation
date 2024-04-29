@@ -32,7 +32,7 @@ MATH カテゴリのすべての関数はオンザフライで計算を実行す
     <td class="tg-cly1"><span style="font-weight:bold">サンプル</span>: <span class="gray-snippet-cstm">abs(-3)</span></td>
   </tr>
   <tr>
-    <td class="tg-cly1" rowspan="2"><span style="font-weight:bold">exp</span>: <span class="gray-snippet-cstm">exp</span> 関数は e (<a href="https://www.nde-ed.org/EducationResources/Math/Math-e.php">Euler の数値</a>) を入力した値で乗した値を返します。</td>
+    <td class="tg-cly1" rowspan="2"><span style="font-weight:bold">exp</span>: <span class="gray-snippet-cstm">exp</span> 関数は e (Euler の数値) を入力した値で乗した値を返します。</td>
     <td class="tg-cly1"><span style="font-weight:bold">構文</span>: <span class="gray-snippet-cstm">exp({number})</span></td>
   </tr>
   <tr>

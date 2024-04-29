@@ -16,13 +16,13 @@
 | status              | 文字列 ("open", "progress", "review", "blocked", "completed") |  | 
 | priority             | 文字列 ("none", "low", "medium", "high") |  |   
 | assignees               | 配列 <[AssigneeInfo](https://www.slingshotapp.io/ja/help/docs/slingshot-api/generic-slingshot-resources#assignee-info-object)>  |read-only |
-| user               | オブジェクト <[DocumentInfo](../generic-slingshot-resources.html#ドキュメント情報オブジェクト)> | read-only |
-| workspace              | オブジェクト <[DocumentInfo](../generic-slingshot-resources.html#ドキュメント情報オブジェクト)> | read-only|
-| project             | オブジェクト <[DocumentInfo](../generic-slingshot-resources.html#ドキュメント情報オブジェクト)> | read-only |
-| taskList            | オブジェクト <[DocumentInfo](../generic-slingshot-resources.html#ドキュメント情報オブジェクト)> | read-only |
-| taskSection      | オブジェクト <[DocumentInfo](../generic-slingshot-resources.html#ドキュメント情報オブジェクト)> | read-only |
-| parentTask      | オブジェクト <[DocumentInfo](../generic-slingshot-resources.html#ドキュメント情報オブジェクト)> | read-only |
-| subtasks      | 配列 <[DocumentInfo](../generic-slingshot-resources.html#ドキュメント情報オブジェクト)> | read-only |
+| user               | オブジェクト <[DocumentInfo](../generic-slingshot-resources.md#ドキュメント情報オブジェクト)> | read-only |
+| workspace              | オブジェクト <[DocumentInfo](../generic-slingshot-resources.md#ドキュメント情報オブジェクト)> | read-only|
+| project             | オブジェクト <[DocumentInfo](../generic-slingshot-resources.md#ドキュメント情報オブジェクト)> | read-only |
+| taskList            | オブジェクト <[DocumentInfo](../generic-slingshot-resources.md#ドキュメント情報オブジェクト)> | read-only |
+| taskSection      | オブジェクト <[DocumentInfo](../generic-slingshot-resources.md#ドキュメント情報オブジェクト)> | read-only |
+| parentTask      | オブジェクト <[DocumentInfo](../generic-slingshot-resources.md#ドキュメント情報オブジェクト)> | read-only |
+| subtasks      | 配列 <[DocumentInfo](../generic-slingshot-resources.md#ドキュメント情報オブジェクト)> | read-only |
 
  <br/>
 
@@ -69,7 +69,7 @@
 
 ## タスクを作成する
 
-<img src="../images/post-request.png" alt="Post request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***htt<area>ps://my.slingshotapp<area>.io/v1/tasks***</span>
+<img src="../images/post-request.png" alt="Post request for a task" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/tasks***</span>
 
 必須パラメーター: なし 
 
@@ -82,8 +82,8 @@
 | dueDate               | 文字列 | |
 | status             | 文字列列挙体 ("open", "progress", "review", "blocked", "completed")|required |  
 | priority            | 文字列列挙体 ("none", "low", "medium", "high") |required |  
-| taskSection   |オブジェクト <[DocumentInfo](../generic-slingshot-resources.html#ドキュメント情報オブジェクト)>  |required, one-of | 
-| parentTask   |オブジェクト <[DocumentInfo](../generic-slingshot-resources.html#ドキュメント情報オブジェクト)> |required, one-of | 
+| taskSection   |オブジェクト <[DocumentInfo](../generic-slingshot-resources.md#ドキュメント情報オブジェクト)>  |required, one-of | 
+| parentTask   |オブジェクト <[DocumentInfo](../generic-slingshot-resources.md#ドキュメント情報オブジェクト)> |required, one-of | 
 | assignees               | 配列 <[AssigneeInfo](https://www.slingshotapp.io/ja/help/docs/slingshot-api/generic-slingshot-resources#割り当て先情報オブジェクト)>  ||
 
 >[!NOTE]  タスクを作成するには、親タスク セクションの **id** と**名前**を **taskSection** プロパティに指定する必要があります。または、サブタスクを作成する場合は、まず、**parentTask** プロパティで親タスクの **id** と**名前**を指定する必要があります。taskSection プロパティと parentTask プロパティの両方が要求に存在するとエラーが発生するため、指定できるのは 1 つだけです。
@@ -156,8 +156,8 @@
 
 ## タスクを取得する
 
-<img src="../images/get.png" alt="Get request" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> 
-<span class="italic">***htt<area>ps://my.slingshotapp<area>.io/v1/tasks***</span>
+<img src="../images/get.png" alt="Get request for a task" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> 
+<span class="italic">***https://my.slingshotapp.io/v1/tasks***</span>
 
 必須パラメーター: タスクの **id**。  
 
@@ -173,7 +173,7 @@
 
 ## 親タスク セクションのすべてのタスクを取得
 
-<img src="../images/get-all.png" alt="Get all request" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/tasks/parent/{id}***
+<img src="../images/get-all.png" alt="Get all request for tasks for a parent task section" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/tasks/parent/{id}***
 
 必須パラメーター: 特定のタスクの **id**。
 
@@ -189,7 +189,7 @@
 
 ## タスクを更新する 
 
-<img src="../images/patch.png" alt="Patch request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/tasks/{id}***
+<img src="../images/patch.png" alt="Patch request for a task" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/tasks/{id}***
 
 必須パラメーター: タスクの **id**。 
 
@@ -278,7 +278,7 @@
 
 ## タスクを削除する
 
-<img src="../images/delete.png" alt="Delete request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/tasks/{id}***
+<img src="../images/delete.png" alt="Delete request for a task" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/tasks/{id}***
 
 必須パラメーター: 特定のタスクの **id**。
 
@@ -294,11 +294,11 @@
 
 ## タスクに割り当て先を追加する
 
-<img src="../images/post-request.png" alt="Post request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/tasks/{id}/assignees***
+<img src="../images/post-request.png" alt="Post request for adding assignee to task" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/tasks/{id}/assignees***
 
 必須パラメーター: 特定のタスクの **id**。
 
-要求本文: [ItemsObject](../generic-slingshot-resources.html#項目オブジェクト) <[AssigneeInfo](https://www.slingshotapp.io/ja/help/docs/slingshot-api/generic-slingshot-resources#割り当て先情報オブジェクト)>
+要求本文: [ItemsObject](../generic-slingshot-resources.md#項目オブジェクト) <[AssigneeInfo](https://www.slingshotapp.io/ja/help/docs/slingshot-api/generic-slingshot-resources#割り当て先情報オブジェクト)>
 
 可能な応答:
 
@@ -365,11 +365,11 @@
 
 ## タスクから割り当て先を削除する
 
-<img src="../images/delete.png" alt="Delete request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/tasks/{id}/assignees***
+<img src="../images/delete.png" alt="Delete request for removing assignees from a task" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/tasks/{id}/assignees***
 
 必須パラメーター: タスクの **id**。
 
-要求本文: [ItemsObject](../generic-slingshot-resources.html#項目オブジェクト) <[AssigneeInfo](https://www.slingshotapp.io/ja/help/docs/slingshot-api/generic-slingshot-resources#割り当て先情報オブジェクト)>
+要求本文: [ItemsObject](../generic-slingshot-resources.md#項目オブジェクト) <[AssigneeInfo](https://www.slingshotapp.io/ja/help/docs/slingshot-api/generic-slingshot-resources#割り当て先情報オブジェクト)>
 
 可能な応答:
 

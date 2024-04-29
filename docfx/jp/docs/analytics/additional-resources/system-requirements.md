@@ -10,7 +10,7 @@
 
 Windows 7 SP1 またはそれ以降
 
-Microsoft .Net 4.6.2 がインストールされている必要があります。.NET Framework のシステム要件の詳細に関して[この Microsoft 記事](https://docs.microsoft.com/ja-jp/dotnet/framework/get-started/system-requirements) をご参照ください。
+Microsoft .Net 4.6.2 がインストールされている必要があります。.NET Framework のシステム要件の詳細に関して[この Microsoft 記事](https://docs.microsoft.com/ja-jp/dotnet/framework/get-started/system-requirements)をご参照ください。
 
 ## iOS
 

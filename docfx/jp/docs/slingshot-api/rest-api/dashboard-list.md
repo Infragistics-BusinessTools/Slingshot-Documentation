@@ -10,10 +10,10 @@
 | modified             | 文字列 | read-only |
 | created              | 文字列 | read-only |    
 | name               | 文字列 | min = 1, max = 100 |  
-| user   |  オブジェクト <[DocumentInfo](../generic-slingshot-resources.html#ドキュメント情報オブジェクト)> |read-only |
-| workspace            |オブジェクト <[DocumentInfo](../generic-slingshot-resources.html#ドキュメント情報オブジェクト)> | read-only|  
-| project    |オブジェクト <[DocumentInfo](../generic-slingshot-resources.html#ドキュメント情報オブジェクト)> |read-only |
-| dashboardSections          | 配列 <[DocumentInfo](../generic-slingshot-resources.html#ドキュメント情報オブジェクト)> | read-only |  
+| user   |  オブジェクト <[DocumentInfo](../generic-slingshot-resources.md#ドキュメント情報オブジェクト)> |read-only |
+| workspace            |オブジェクト <[DocumentInfo](../generic-slingshot-resources.md#ドキュメント情報オブジェクト)> | read-only|  
+| project    |オブジェクト <[DocumentInfo](../generic-slingshot-resources.md#ドキュメント情報オブジェクト)> |read-only |
+| dashboardSections          | 配列 <[DocumentInfo](../generic-slingshot-resources.md#ドキュメント情報オブジェクト)> | read-only |  
 
 <br/>
 
@@ -42,7 +42,7 @@
 
 ## ダッシュボード リストを作成する   
 
-<img src="../images/post-request.png" alt="Post request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> <span class="italic">***htt<area>ps://my.slingshotapp<area>.io/v1/dashboardlists***</span>
+<img src="../images/post-request.png" alt="Post request for a dashboard list" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> <span class="italic">***https://my.slingshotapp.io/v1/dashboardlists***</span>
 
 必須パラメーター: なし 
 
@@ -51,9 +51,9 @@
 |    プロパティ  | 型            | 属性           |
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
 | name               | 文字列 | required, min = 1, max = 100|  
-| user   | オブジェクト <[DocumentInfo](../generic-slingshot-resources.html#ドキュメント情報オブジェクト)> | required, one-of|
-| workspace            | オブジェクト <[DocumentInfo](../generic-slingshot-resources.html#ドキュメント情報オブジェクト)>| required, one-of|  
- | project    | オブジェクト <[DocumentInfo](../generic-slingshot-resources.html#ドキュメント情報オブジェクト)> |required, one-of | 
+| user   | オブジェクト <[DocumentInfo](../generic-slingshot-resources.md#ドキュメント情報オブジェクト)> | required, one-of|
+| workspace            | オブジェクト <[DocumentInfo](../generic-slingshot-resources.md#ドキュメント情報オブジェクト)>| required, one-of|  
+ | project    | オブジェクト <[DocumentInfo](../generic-slingshot-resources.md#ドキュメント情報オブジェクト)> |required, one-of | 
 
 可能な応答:
 
@@ -104,7 +104,7 @@
 
 ## ダッシュボード リストを取得する 
 
-<img src="../images/get.png" alt="Get request" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/dashboardlists/{id}***
+<img src="../images/get.png" alt="Get request for a dashboard list" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/dashboardlists/{id}***
 
 必須パラメーター: ダッシュボード リストの **id**。
 
@@ -120,7 +120,7 @@
 
 ## 親ドキュメントのすべてのダッシュボード リストを取得する
 
-<img src="../images/get-all.png" alt="Get all request" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/dashboardlists/parent/{id}***
+<img src="../images/get-all.png" alt="Get all request for dashboard lists" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/dashboardlists/parent/{id}***
 
 必須パラメーター: 親ドキュメントの **id**。
 
@@ -128,7 +128,7 @@
 
 | コード | 説明|
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| 200 (Success) |親ドキュメントのすべてのダッシュボード リストを表示できます。要求されたダッシュボード リストは、[ItemsObject](../generic-slingshot-resources.html#項目オブジェクト) 配列の応答本文で返されます。 |
+| 200 (Success) |親ドキュメントのすべてのダッシュボード リストを表示できます。要求されたダッシュボード リストは、[ItemsObject](../generic-slingshot-resources.md#項目オブジェクト) 配列の応答本文で返されます。 |
 | 403 (Forbidden) |サーバーは要求を理解していますが、要求を承認できません。これは、たとえば、アクセスせずにオブジェクトを読み込もうとしたときに発生する可能性があります。再認証の必要はありません。  |
 | 404 (Not Found) |要求されたリソースがサーバーで見つかりません。これは、たとえば、指定されたオブジェクトが存在しないことが原因である可能性があります。 |
 
@@ -136,7 +136,7 @@
 
 ## ダッシュボード リストを更新する  
 
-<img src="../images/patch.png" alt="Patch request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/dashboardlists/{id}***
+<img src="../images/patch.png" alt="Patch request for a  dashboard list" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/dashboardlists/{id}***
 
 必須パラメーター: ダッシュボード リストの **id**。
 
@@ -191,7 +191,7 @@
 
 ## ダッシュボード リストを削除する
 
-<img src="../images/delete.png" alt="Delete request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/dashboardlists/{id}***
+<img src="../images/delete.png" alt="Delete request for a dashboard list" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/dashboardlists/{id}***
 
 必須パラメーター: ダッシュボード リストの **id**。
 

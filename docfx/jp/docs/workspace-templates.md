@@ -12,7 +12,7 @@
 
 3.	次のダイアログが開きます:
 
-<img src="../images/workspace-templates-dialog.png" alt="workspace templates" class="responsive-img" width="90%" />
+<img src="../images/workspace-templates-dialog.png" alt="Workspace templates dialog" class="responsive-img" width="90%" />
 
 左側のパネルでは、次の操作を行うことができます:
 
@@ -38,13 +38,13 @@ Slingshot のテンプレートは、さまざまな業界/部署に基づいて
 
 3.	ワークスペースの外観のプレビューが表示されます。この場合、**Recruiting** テンプレートを選択しました。
 
-<img src="../images/workspace-template-example.png" alt="Example of a workspace template" class="responsive-img" width="90%" />
+<img src="../images/workspace-template-example.png" alt="Preview of a workspace template" class="responsive-img" width="90%" />
 
 4.	こちらには、テンプレートの内容と作成者についての簡単な説明が表示されます。左矢印/右矢印を使用して、各コンポーネント (この場合は**タスク**と**ディスカッション**) のサムネイルを表示することもできます。これにより、ワークスペースがどのように見えるかについてより適切な概要が得られます。準備ができたら、**[テンプレートを使用]** をクリックまたはタップします。
 
 5.	ダイアログが表示され、各テキスト ボックスをクリック/タップしてプロジェクトのタイトルを変更したり、説明を変更したりできます。ドロップダウン メニューからワークスペースの開始日を設定することもできます。開始日はタスクの日付の構成にも使用されます。 
 
-<img src="../images/new-workspace-dialog.png" alt="Creating a new workspace from a template" class="responsive-img" width="90%" />
+<img src="../images/new-workspace-dialog.png" alt="Create a new workspace from a template" class="responsive-img" width="90%" />
 
 6.	準備ができたら、**[作成]** をクリックまたはタップします。
 
@@ -80,6 +80,6 @@ Slingshot のテンプレートは、さまざまな業界/部署に基づいて
 
 >[!Note] カスタム ワークスペース テンプレートを作成するオプションは、Slingshot および Slingshot Enterprise ユーザーが利用できることに注意してください。
 
-ワークスペースの作成方法と使用方法の詳細については、[こちら](./workspaces.md)をご覧ください。
+ワークスペースの作成方法と使用方法の詳細については、[こちら](./workspaces.md#ワークスペースの作成)をご覧ください。
 
 

@@ -10,20 +10,25 @@
 
 2.	**[テンプレートとして保存する]** をクリックまたはタップします。
 
-    <img src="../images/save-as-template-example.png" class="responsive-img" alt="Save as template option in the dropdown menu" width="90%">
+    <img src="../images/save-as-template-example.png" class="responsive-img" alt="Save as template option in the dropdown menu of a task" width="90%">
 
 3. 次のダイアログが開きます。ここで、タスクから何を残すかを選択し、それをテンプレートに使用できます。準備ができたら続行、**[続行]** をクリックまたはタップします。
        
-   <img src="../images/save-as-template-adjustments.png" class="responsive-img" alt="A list of sections which can be kept for the template" width="90%">  
+   <img src="../images/save-as-template-adjustments.png" class="responsive-img" alt="A list of sections that can be kept for the template" width="90%">  
 
 テンプレートを作成する前に、次のオプションがあります:
 
 1.	タスク テンプレートを作成するため、タスク テンプレートに名前を付ける。
 2.	説明を追加 **(オプション)**。
+
 3.	[週末を含む] オプションのオン / オフを切り替える **(オプション)**。
+
 4.	**[スケジュール タイプ]** を選択。ここで、開始日と期日を設定できます **(オプション)**。
+
 5.	タスクをフィルタリング。選択した基準に基づいてタスクをフィルタリングできます **(オプション)**。
+
 6.	タスクを開く、サブタスクを追加 / 削除。ここから、別のタスクの真上または真下にタスクを挿入することもできます **(オプション)**。
+
 7.	テンプレートの他のタスクと一緒に使用する新しいタスクを追加 **(オプション)**。
 
     <img src="../images/save-as-template-dialog.png" class="responsive-img" alt="Different template options" width="90%">  
@@ -38,15 +43,15 @@
 
 1.	右上隅の **[+ タスク]** 分割ボタンをクリックまたはタップし、**[テンプレートから追加]** を選択します。
 
-    <img src="../images/add-from-template-button.png" class="responsive-img" alt="A list of sections which can be kept for the template" width="90%">  
+    <img src="../images/add-from-template-button.png" class="responsive-img" alt="A list of sections that can be kept for the template" width="90%">  
 
     または、セクションを選択 ⇒ オーバーフロー メニューを開く ⇒ **[テンプレートから追加]** を選択します。 
        
-    <img src="../images/add-from-template-section.png" class="responsive-img" alt="Add from template option in a task section" width="90%">  
+    <img src="../images/add-from-template-section.png" class="responsive-img" alt="Add from Template option in a task section" width="90%">  
 
 2.	次のダイアログが開きます:
 
-    <img src="../images/task-templates.png" class="responsive-img" alt="A dialog, containing all task templates" width="90%">  
+    <img src="../images/task-templates.png" class="responsive-img" alt="A dialog containing all task templates" width="90%">  
 
 左パネルでは、次のことができます:
 
@@ -90,5 +95,5 @@
 
 >[!NOTE] 変更を適用するためのオプションは、**[テンプレートとして保存する]** ダイアログと同じであることに注意してください。
 
-タスクの作成方法と使用方法の詳細については、[こちら](https://www.slingshotapp.io/ja/help/docs/tasks)をご覧ください。
+タスクの作成方法と使用方法の詳細については、[こちら](tasks.md#タスクを作成する方法)をご覧ください。
 

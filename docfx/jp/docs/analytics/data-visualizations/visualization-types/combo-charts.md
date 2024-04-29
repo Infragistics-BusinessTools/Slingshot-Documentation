@@ -52,4 +52,4 @@ _language: ja
 
     Analytics は、背面に表示されるチャートに不透明度を適用し、より透明にします。
 
-  - **[この表示形式を別のダッシュボードまたは URL に接続します](/docfx/jp/docs/analytics/dashboards/dashboard-linking.md)**
+  - **[この表示形式を別のダッシュボードまたは URL に接続します](../../dashboards/dashboard-linking.md)**

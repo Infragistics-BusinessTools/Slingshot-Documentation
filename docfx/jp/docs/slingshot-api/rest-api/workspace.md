@@ -16,15 +16,15 @@
 |startDate|文字列 <DateTime> | |
 |endDate|文字列 <DateTime> | |
 |status| 文字列列挙体 ("none", "ontarget", "atrisk", "danger", "completed")| |
-|organization| オブジェクト <[DocumentInfo](../generic-slingshot-resources.html#ドキュメント情報オブジェクト)>| read-only|  
-|members| 	配列 <[MemberInfo](../generic-slingshot-resources.html#メンバー情報オブジェクト)> | read-only|
-|requests| 	配列 <[MemberInfo](../generic-slingshot-resources.html#メンバー情報オブジェクト)> | read-only|
-| pendingInvites           | 配列 <[MemberInfo](../generic-slingshot-resources.html#メンバー情報オブジェクト)> |  read-only|
-|projects| 配列 <[DocumentInfo](../generic-slingshot-resources.html#ドキュメント情報オブジェクト)>| read-only|
-|pinLists| 配列 <[DocumentInfo](../generic-slingshot-resources.html#ドキュメント情報オブジェクト)>| read-only|
-|taskLists| 配列 <[DocumentInfo](../generic-slingshot-resources.html#ドキュメント情報オブジェクト)>|read-only |
-| discussionLists           | 配列 <[DocumentInfo](../generic-slingshot-resources.html#ドキュメント情報オブジェクト)>| read-only |
-| dashboardLists      | 配列 <[DocumentInfo](../generic-slingshot-resources.html#ドキュメント情報オブジェクト)> | read-only |
+|organization| オブジェクト <[DocumentInfo](../generic-slingshot-resources.md#ドキュメント情報オブジェクト)>| read-only|  
+|members| 	配列 <[MemberInfo](../generic-slingshot-resources.md#メンバー情報オブジェクト)> | read-only|
+|requests| 	配列 <[MemberInfo](../generic-slingshot-resources.md#メンバー情報オブジェクト)> | read-only|
+| pendingInvites           | 配列 <[MemberInfo](../generic-slingshot-resources.md#メンバー情報オブジェクト)> |  read-only|
+|projects| 配列 <[DocumentInfo](../generic-slingshot-resources.md#ドキュメント情報オブジェクト)>| read-only|
+|pinLists| 配列 <[DocumentInfo](../generic-slingshot-resources.md#ドキュメント情報オブジェクト)>| read-only|
+|taskLists| 配列 <[DocumentInfo](../generic-slingshot-resources.md#ドキュメント情報オブジェクト)>|read-only |
+| discussionLists           | 配列 <[DocumentInfo](../generic-slingshot-resources.md#ドキュメント情報オブジェクト)>| read-only |
+| dashboardLists      | 配列 <[DocumentInfo](../generic-slingshot-resources.md#ドキュメント情報オブジェクト)> | read-only |
 
 <br/>
 
@@ -104,7 +104,7 @@
 
 ## ワークスペースの作成 
 
-<img src="../images/post-request.png" alt="Post request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***htt<area>ps://my.slingshotapp<area>.io/v1/workspaces***</span>
+<img src="../images/post-request.png" alt="Post request for a workspace" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/workspaces***</span>
 
 必須パラメーター: なし
 
@@ -117,7 +117,7 @@
 |startDate|文字列 <DateTime> | |
 |endDate|文字列 <DateTime> | |
 |status| 文字列列挙体 ("none", "ontarget", "atrisk", "danger", "completed")| | 
-|members| 	配列 <[MemberInfo](../generic-slingshot-resources.html#メンバー情報オブジェクト)> | |
+|members| 	配列 <[MemberInfo](../generic-slingshot-resources.md#メンバー情報オブジェクト)> | |
 
 可能な応答:
 
@@ -227,8 +227,8 @@
 
 ## ワークスペースを取得する
 
-<img src="../images/get.png" alt="Get request" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> 
-<span class="italic">***htt<area>ps://my.slingshotapp<area>.io/v1/workspaces/{id}***</span>
+<img src="../images/get.png" alt="Get request for a workspace" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> 
+<span class="italic">***https://my.slingshotapp.io/v1/workspaces/{id}***</span>
 
 必須パラメーター: ワークスペースの **id**。
 
@@ -236,7 +236,7 @@
 
 | コード | 説明|
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| 200 (Success) |ワークスペースを表示できます。要求された [Workspaces]() は、[ItemsObject](../generic-slingshot-resources.html#項目オブジェクト) 配列の応答本文で返されます。 |
+| 200 (Success) |ワークスペースを表示できます。要求された [Workspaces]() は、[ItemsObject](../generic-slingshot-resources.md#項目オブジェクト) 配列の応答本文で返されます。 |
 | 403 (Forbidden) |サーバーは要求を理解しますが、要求を承認できません。これは、たとえば、アクセスせずにオブジェクトを読み込もうとしたときに発生する可能性があります。再認証の必要はありません。 |
 | 404 (Not Found) |要求されたリソースがサーバーで見つかりません。これは、たとえば、指定されたオブジェクトが存在しないことが原因である可能性があります。 |
 
@@ -244,7 +244,7 @@
 
 ## 現在のユーザーのすべてのワークスペースを取得する
 
-<img src="../images/get-all.png" alt="Get all request" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> <span class="italic">***htt<area>ps://my.slingshotapp<area>.io/v1/workspaces***</span>
+<img src="../images/get-all.png" alt="Get all request for workspaces for a current user" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> <span class="italic">***https://my.slingshotapp.io/v1/workspaces***</span>
 
 必須パラメーター: なし
 
@@ -252,7 +252,7 @@
 
 | コード | 説明|
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| 200 (Success) |ワークスペースを表示できます。要求された [Workspaces]() は、[ItemsObject](../generic-slingshot-resources.html#項目オブジェクト) 配列の応答本文で返されます。 |
+| 200 (Success) |ワークスペースを表示できます。要求された [Workspaces]() は、[ItemsObject](../generic-slingshot-resources.md#項目オブジェクト) 配列の応答本文で返されます。 |
 | 403 (Forbidden) |サーバーは要求を理解しますが、要求を承認できません。これは、たとえば、アクセスせずにオブジェクトを読み込もうとしたときに発生する可能性があります。再認証の必要はありません。 |
 | 404 (Not Found) |要求されたリソースがサーバーで見つかりません。これは、たとえば、指定されたオブジェクトが存在しないことが原因である可能性があります。 |
 
@@ -261,7 +261,7 @@
 ## ワークスペースを更新する
 
 <img src="../images/patch.png" alt="Patch request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> 
-<span class="italic">***htt<area>ps://my.slingshotapp<area>.io/v1/workspaces/{id}***</span>
+<span class="italic">***https://my.slingshotapp.io/v1/workspaces/{id}***</span>
 
 必須パラメーター: ワークスペースの **id**。
 
@@ -377,7 +377,7 @@
 
 ## ワークスペースの削除
 
-<img src="../images/delete.png" alt="Delete request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/workspaces/{id}***
+<img src="../images/delete.png" alt="Delete request for a workspace" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/workspaces/{id}***
 
 必須パラメーター: ワークスペースの **id**。
 
@@ -393,11 +393,11 @@
 
 ## ワークスペースにメンバーを追加する  
 
-<img src="../images/post-request.png" alt="Post request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/workspaces/{id}/members***
+<img src="../images/post-request.png" alt="Post request for adding members to a workspace" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/workspaces/{id}/members***
 
 必須パラメーター: ワークスペースの **id**。
 
-要求本文: [ItemsObject](../generic-slingshot-resources.html#項目オブジェクト) <[MemberInfo](../generic-slingshot-resources.html#メンバー情報オブジェクト)>
+要求本文: [ItemsObject](../generic-slingshot-resources.md#項目オブジェクト) <[MemberInfo](../generic-slingshot-resources.md#メンバー情報オブジェクト)>
 
 可能な応答:
 
@@ -512,11 +512,11 @@
 
 ## ワークスペースのメンバーのロールを更新する
 
-<img src="../images/patch.png" alt="Patch request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/workspaces/{id}/members***
+<img src="../images/patch.png" alt="Patch request for updating members' roles of a workspace" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/workspaces/{id}/members***
 
 必須パラメーター: ワークスペースの **id**。
 
-要求本文: [ItemsObject](../generic-slingshot-resources.html#項目オブジェクト) <[MemberInfo](../generic-slingshot-resources.html#メンバー情報オブジェクト)>
+要求本文: [ItemsObject](../generic-slingshot-resources.md#項目オブジェクト) <[MemberInfo](../generic-slingshot-resources.md#メンバー情報オブジェクト)>
 
 可能な応答:
 
@@ -635,11 +635,11 @@
 
 ## ワークスペースからメンバーを削除する
 
-<img src="../images/delete.png" alt="Delete request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/workspaces/{id}/members***
+<img src="../images/delete.png" alt="Delete request for removing members from a workspace" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/workspaces/{id}/members***
 
 必須パラメーター: ワークスペースの **id**。
 
-要求本文: [ItemsObject](../generic-slingshot-resources.html#項目オブジェクト) <[MemberInfo](../generic-slingshot-resources.html#メンバー情報オブジェクト)>
+要求本文: [ItemsObject](../generic-slingshot-resources.md#項目オブジェクト) <[MemberInfo](../generic-slingshot-resources.md#メンバー情報オブジェクト)>
 
 可能な応答:
 
@@ -753,11 +753,11 @@
 
 ## メンバーをワークスペースに追加する要求を許可する  
 
-<img src="../images/patch.png" alt="Patch request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/workspaces/{id}/requests***
+<img src="../images/patch.png" alt="Patch request for granting requests to add members to a workspace" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/workspaces/{id}/requests***
 
 必須パラメーター: ワークスペースの **id**。
 
-要求本文: [ItemsObject](../generic-slingshot-resources.html#項目オブジェクト) <[MemberInfo](../generic-slingshot-resources.html#メンバー情報オブジェクト)>
+要求本文: [ItemsObject](../generic-slingshot-resources.md#項目オブジェクト) <[MemberInfo](../generic-slingshot-resources.md#メンバー情報オブジェクト)>
 
 可能な応答:
 
@@ -873,11 +873,11 @@
 
 ## ワークスペースにメンバーを追加する要求を拒否する
 
-<img src="../images/delete.png" alt="Delete request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/workspaces/{id}/requests***
+<img src="../images/delete.png" alt="Delete request for denying requests to add memberst to a workspace" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/workspaces/{id}/requests***
 
 必須パラメーター: ワークスペースの **id**。
 
-要求本文: [ItemsObject](../generic-slingshot-resources.html#項目オブジェクト) <[MemberInfo](../generic-slingshot-resources.html#メンバー情報オブジェクト)>
+要求本文: [ItemsObject](../generic-slingshot-resources.md#項目オブジェクト) <[MemberInfo](../generic-slingshot-resources.md#メンバー情報オブジェクト)>
 
 可能な応答:
 

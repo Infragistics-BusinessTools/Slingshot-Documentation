@@ -54,6 +54,9 @@
   new: false
 - name: 生産性向上のヒント
   header: true
+- name: データ制限
+  href: data-limits.md
+  new: false
 - name: 新しいウインドウで開く
   href: open-in-new-window.md
   new: false
@@ -167,5 +170,3 @@
   new: false
 - name: リリース ノート
   href: release-notes.md
-- name: データ制限
-  href: data-limits.md

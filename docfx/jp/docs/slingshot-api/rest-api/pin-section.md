@@ -10,11 +10,11 @@
 | modified             | 文字列 | read-only |
 | created             | 文字列 | read-only |
 | name               | 文字列 |  min = 1, max = 100 |  
-| user             | オブジェクト <[DocumentInfo](../generic-slingshot-resources.html#ドキュメント情報オブジェクト)> |read-only | 
-| workspace            |オブジェクト <[DocumentInfo](../generic-slingshot-resources.html#ドキュメント情報オブジェクト)> | read-only|  
-| project    |オブジェクト <[DocumentInfo](../generic-slingshot-resources.html#ドキュメント情報オブジェクト)>| read-only| 
-| pinList   |オブジェクト <[DocumentInfo](../generic-slingshot-resources.html#ドキュメント情報オブジェクト)>|read-only | 
-| pins   |配列 <[DocumentInfo](../generic-slingshot-resources.html#ドキュメント情報オブジェクト)>  |read-only | 
+| user             | オブジェクト <[DocumentInfo](../generic-slingshot-resources.md#ドキュメント情報オブジェクト)> |read-only | 
+| workspace            |オブジェクト <[DocumentInfo](../generic-slingshot-resources.md#ドキュメント情報オブジェクト)> | read-only|  
+| project    |オブジェクト <[DocumentInfo](../generic-slingshot-resources.md#ドキュメント情報オブジェクト)>| read-only| 
+| pinList   |オブジェクト <[DocumentInfo](../generic-slingshot-resources.md#ドキュメント情報オブジェクト)>|read-only | 
+| pins   |配列 <[DocumentInfo](../generic-slingshot-resources.md#ドキュメント情報オブジェクト)>  |read-only | 
 
 <br/>
 
@@ -54,7 +54,7 @@
 
 ## ピン固定セクションを作成する 
 
-<img src="../images/post-request.png" alt="Post request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***htt<area>ps://my.slingshotapp<area>.io/v1/pinsections***</span>
+<img src="../images/post-request.png" alt="Post request for a pin section" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/pinsections***</span>
 
 必須パラメーター: なし
 
@@ -63,7 +63,7 @@
 |    プロパティ  | 型            | 属性           |
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
 | name               | 文字列 | required, min = 1, max = 100|  
-| pinList   |オブジェクト <[DocumentInfo](../generic-slingshot-resources.html#ドキュメント情報オブジェクト)>| required|
+| pinList   |オブジェクト <[DocumentInfo](../generic-slingshot-resources.md#ドキュメント情報オブジェクト)>| required|
 
 可能な応答:
 
@@ -125,7 +125,7 @@
 
 ## ピン固定セクションを取得する
 
-<img src="../images/get.png" alt="Get request" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/pinsections/{id}***
+<img src="../images/get.png" alt="Get request for a pin section" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/pinsections/{id}***
 
 必須パラメーター: ピン固定セクションの **id**。
 
@@ -141,7 +141,7 @@
 
 ## 親ピン固定リストのすべてのピン固定セクションを取得
 
-<img src="../images/get-all.png" alt="Get all request" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/pinsections/parent/{id}***
+<img src="../images/get-all.png" alt="Get all request for pin sections" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/pinsections/parent/{id}***
 
 必須パラメーター: 親ピン固定リストの **id**。
 
@@ -149,7 +149,7 @@
 
 | コード | 説明|
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| 200 (Success) |親ピン固定リストですべてのピン固定セクションを表示できます。要求された [PinSection](#pinsection-schema) は、[ItemsObject](../generic-slingshot-resources.html#項目オブジェクト) 配列の応答本文で返されます。    |
+| 200 (Success) |親ピン固定リストですべてのピン固定セクションを表示できます。要求された [PinSection](#pinsection-schema) は、[ItemsObject](../generic-slingshot-resources.md#項目オブジェクト) 配列の応答本文で返されます。    |
 | 403 (Forbidden) |サーバーは要求を理解しますが、要求を承認できません。これは、たとえば、アクセスせずにオブジェクトを読み込もうとしたときに発生する可能性があります。再認証の必要はありません。 |
 | 404 (Not Found) |要求されたリソースがサーバーで見つかりません。これは、たとえば、指定されたオブジェクトが存在しないことが原因である可能性があります。 |
 
@@ -157,7 +157,7 @@
 
 ## ピン固定セクションを更新する
 
-<img src="../images/patch.png" alt="Patch request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/pinsections/{id}***
+<img src="../images/patch.png" alt="Patch request for a pin section" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/pinsections/{id}***
 
 必須パラメーター: ピン固定セクションの **id**。
 
@@ -223,7 +223,7 @@
 
 ## ピン固定セクションを削除する
 
-<img src="../images/delete.png" alt="Delete request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/pinsections/{id}***
+<img src="../images/delete.png" alt="Delete request for a pin section" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/pinsections/{id}***
 
 必須パラメーター: ピン固定セクションの **id**。
 

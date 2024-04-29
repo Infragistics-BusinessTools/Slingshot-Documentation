@@ -10,11 +10,11 @@
 2.	提供されたオプションから **[ブックマーク]** を選択します。 
 3.	タスクやダッシュボードをブックマークに追加すると、左側のパネルの [ワークスペース] および [グループ] の隣にある **[ブックマーク]** セクションに追加されたブックマークが表示されます。
 
-<img src="../images/bookmarks.png" alt="bookmarks button" class="responsive-img" width="35%"/>
+<img src="../images/bookmarks.png" alt="Bookmarks button" class="responsive-img" width="35%"/>
 
 または、**[概要]** をクリックしても、ブックマークにアクセスできます。
 
-<img src="../images/bookmarks-my-overview.png" alt="bookmarks in my overview" class="responsive-img" width="70%" />
+<img src="../images/bookmarks-my-overview.png" alt="Bookmarks in My Overview" class="responsive-img" width="70%" />
 
 多くの項目をブックマークしている場合は、手動でドラッグアンドドロップしてリストを整理できます。
 
@@ -30,6 +30,6 @@
 2.	オーバーフロー メニューを開きます。
 3.	**[ブックマークの削除]** を選択します。
 
-<img src="../images/remove-bookmark-option.png" alt="How to remove a bookmark" class="responsive-img" width="35%"/>
+<img src="../images/remove-bookmark-option.png" alt="Remove bookmark option" class="responsive-img" width="35%"/>
 
 または、項目を開いてオーバーフロー メニューをクリックし、**[ブックマークの削除]** を選択します。 

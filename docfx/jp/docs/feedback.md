@@ -22,6 +22,6 @@
 
 - システム情報を含めることができます。常にこの情報をフィードバックに含めることをお勧めします。これにより、問題の概要をより適切に把握することができます。
 
- <img src="../images/feedback-options.png" alt="Showing what the give feedback options are" width="45%" class="responsive-img"/>
+ <img src="../images/feedback-options.png" alt="Feedback options" width="45%" class="responsive-img"/>
 
 ユーザー アカウントおよび設定にあるその他のオプションの詳細については、[こちら](https://www.slingshotapp.io/ja/help/docs/user-account)をクリックしてください。

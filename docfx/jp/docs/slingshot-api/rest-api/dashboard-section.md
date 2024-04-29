@@ -10,11 +10,11 @@
 | modified             | 文字列 |read-only |
 | created             | 文字列 | read-only |
 | name               | 文字列 | min = 1, max = 100 | 
-| user            | オブジェクト <[DocumentInfo](../generic-slingshot-resources.html#ドキュメント情報オブジェクト)> | read-only|
-| workspace            |オブジェクト <[DocumentInfo](../generic-slingshot-resources.html#ドキュメント情報オブジェクト)> |read-only |  
-| project    |オブジェクト <[DocumentInfo](../generic-slingshot-resources.html#ドキュメント情報オブジェクト)>| read-only| 
-| dashboardList             | オブジェクト <[DocumentInfo](../generic-slingshot-resources.html#ドキュメント情報オブジェクト)> | read-only |
-| dashboards   |配列 <[DocumentInfo](../generic-slingshot-resources.html#ドキュメント情報オブジェクト)> | read-only |
+| user            | オブジェクト <[DocumentInfo](../generic-slingshot-resources.md#ドキュメント情報オブジェクト)> | read-only|
+| workspace            |オブジェクト <[DocumentInfo](../generic-slingshot-resources.md#ドキュメント情報オブジェクト)> |read-only |  
+| project    |オブジェクト <[DocumentInfo](../generic-slingshot-resources.md#ドキュメント情報オブジェクト)>| read-only| 
+| dashboardList             | オブジェクト <[DocumentInfo](../generic-slingshot-resources.md#ドキュメント情報オブジェクト)> | read-only |
+| dashboards   |配列 <[DocumentInfo](../generic-slingshot-resources.md#ドキュメント情報オブジェクト)> | read-only |
 
 <br/>
 
@@ -47,7 +47,7 @@
 
 ## ダッシュボード セクションを作成する
 
-<img src="../images/post-request.png" alt="Post request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> <span class="italic"> ***htt<area>ps://my.slingshotapp<area>.io/v1/dashboardsections***</span>
+<img src="../images/post-request.png" alt="Post request for a dashboard section" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> <span class="italic"> ***https://my.slingshotapp.io/v1/dashboardsections***</span>
 
 必須パラメーター: なし
 
@@ -56,7 +56,7 @@
 |    プロパティ  | 型            | 属性           |
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
 | name               | 文字列 | required, min = 1, max = 100 | 
-| dashboardList             | オブジェクト <[DocumentInfo](../generic-slingshot-resources.html#ドキュメント情報オブジェクト)> | required |
+| dashboardList             | オブジェクト <[DocumentInfo](../generic-slingshot-resources.md#ドキュメント情報オブジェクト)> | required |
 
 可能な応答:
 
@@ -111,7 +111,7 @@
 
 ## ダッシュボード セクションを取得する
 
-<img src="../images/get.png" alt="Get request" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/dashboardsections/{id}***
+<img src="../images/get.png" alt="Get request for a dashboard section" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/dashboardsections/{id}***
 
 必須パラメーター: ダッシュボード セクションの **id**。
 
@@ -127,7 +127,7 @@
 
 ## 親ダッシュボード リストのすべてのダッシュボード セクションを取得する
 
-<img src="../images/get-all.png" alt="Get all request" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/dashboardsections/parent/{id}***
+<img src="../images/get-all.png" alt="Get all request for dashboard sections" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/dashboardsections/parent/{id}***
 
 必須パラメーター: ダッシュボード リストの **id**。 
 
@@ -135,7 +135,7 @@
 
 | コード | 説明|
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| 200 (Success) |親ダッシュボード リストですべてのダッシュボード セクションを表示できます。要求された [DashboardSection](#dashboardsection-schema) は、[ItemsObject](../generic-slingshot-resources.html#ドキュメント情報オブジェクト) 配列の応答本文で返されます。 |
+| 200 (Success) |親ダッシュボード リストですべてのダッシュボード セクションを表示できます。要求された [DashboardSection](#dashboardsection-schema) は、[ItemsObject](../generic-slingshot-resources.md#ドキュメント情報オブジェクト) 配列の応答本文で返されます。 |
 | 403 (Forbidden) |サーバーは要求を理解していますが、要求を承認できません。これは、たとえば、アクセスせずにオブジェクトを読み込もうとしたときに発生する可能性があります。再認証の必要はありません。  |
 | 404 (Not Found) |要求されたリソースがサーバーで見つかりません。これは、たとえば、指定されたオブジェクトが存在しないことが原因である可能性があります。 |
 
@@ -143,7 +143,7 @@
 
 ## ダッシュボード セクションを更新する  
 
-<img src="../images/patch.png" alt="Patch request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/dashboardsections/{id}***
+<img src="../images/patch.png" alt="Patch request for a dashboard section" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/dashboardsections/{id}***
 
 必須パラメーター: ダッシュボード セクションの **id**。
 
@@ -202,7 +202,7 @@
 
 ## ダッシュボード セクションを削除する
 
-<img src="../images/delete.png" alt="Delete request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/dashboardsections/{id}***
+<img src="../images/delete.png" alt="Delete request for a dashboard section" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/dashboardsections/{id}***
 
 必須パラメーター: ダッシュボード セクションの **id**。
 

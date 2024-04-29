@@ -28,7 +28,7 @@
 
 3.  [+ 追加] の分割ボタンにある**矢印**をクリック / タップして ⇒ **[テキスト ボックス]** を選択します。
 
-    <img src="./images/new-dashboard-text-box.png" alt="New visualization dialog" class="responsive-img" width="90%"/>
+    <img src="./images/new-dashboard-text-box.png" alt="Text box visualization" class="responsive-img" width="90%"/> 
     
 ## テキスト ボックス表示形式の作業
 

@@ -8,7 +8,7 @@ _language: ja
 
 このチュートリアルは、サンプル スプレッドシートを使用して**ローソク足**の表示形式を作成する方法を説明します。
 
-<img src="images/different-candlestick-charts.png" alt="A sample with different candlestick charts" class="responsive-img" width="85%"/>
+<img src="images/different-candlestick-charts.png" alt="Dashboard consisting of different candlestick chart visualizations" class="responsive-img" width="85%"/>
 
 ローソク足チャート ビューのガイドは、以下のリンクから参照してください。
 
@@ -20,7 +20,7 @@ _language: ja
 
 ## 重要なコンセプト
 
-[OHLC](ohlc-chart.html) チャートとローソク足チャートは各財務データの始値、高値、安値、終値を表します。財務シナリオと株の変動の分析のために役立ちます。このチャートは各垂直軸に始値および終値を表す 2 つの水平線で数値を垂直軸に表します。
+[OHLC](ohlc-chart.md) チャートとローソク足チャートは各財務データの始値、高値、安値、終値を表します。財務シナリオと株の変動の分析のために役立ちます。このチャートは各垂直軸に始値および終値を表す 2 つの水平線で数値を垂直軸に表します。
 
 そのため、ローソク足チャートには以下の項目が必要になります。
 
@@ -28,7 +28,7 @@ _language: ja
 
   - Open、High、Low および Close の **4 つの異なるフィールド** データ エディターのカテゴリ。
 
-<img src="images/candlestick-visualization-editor-example.png" alt="Candlestick chart visualization settings" class="responsive-img" width="85%"/>
+<img src="images/candlestick-visualization-editor-example.png" alt="Candlestick chart visualization editor" class="responsive-img" width="85%"/>
 
 チャートに追加情報を表示するためのオプションが複数あります。
 
@@ -49,21 +49,22 @@ _language: ja
 
 1. **[分析]** セクションの右上隅にある **[+ ダッシュボード]** ボタンを選択します。
 
-   <img src="images/dashboard-button-my-analytics.png" alt="Dashboard button for creating a new dashboard" class="responsive-img" width="55%"/>                                      
+   <img src="images/dashboard-button-my-analytics.png" alt="Dashboard button for creating a new dashboard" class="responsive-img" width="80%"/>
 
 2. データ ソースのリストからデータ ソース (**Slingshot Tutorials Spreadsheet**) を選択します。データ ソースが新しい場合は、最初に右上隅の **[+ データ ソース]** ボタンから追加する必要があります。
 
-   <img src="images/visualization-tutorials-sample.png" alt="Selecting the data source from the list of data sources" class="responsive-img" width="55%"/>                                          
+    <img src="images/visualization-tutorials-data-sources-list.png" alt="Selecting the data source from the list of data sources" class="responsive-img" width="80%"/>
 
  3. **OHLC and Candlestick** シートを選択します。
-  
-    <img src="images/ohlc-candlestick-spreadsheet.png" alt="Selecting the OHLC and Candlesticks spreadsheet" class="responsive-img" width="55%"/>
-         
+
+    <img src="images/ohlc-candlestick-spreadsheet.png" alt="OHLC and Candlesticks sheet in an Excel spreadsheet" class="responsive-img" width="55%"/>
+
 4. **表示形式ピッカー**を開き、**ローソク足**の表示形式を選択します。デフォルトで、表示形式のタイプは**柱状**に設定されています。
 
-   <img src="images/candlestick-chart-types.png" alt="List of chart types" class="responsive-img" width="55%"/>                                                             
+   <img src="images/candlestick-chart-types.png" alt="List of chart types" class="responsive-img" width="70%"/>
+
 5.  *Date* フィールドを **[ラベル]** にドラッグアンドドロップし、*Open*、*High*、*Low* および *Close* フィールドを対応するプレースホルダーにドラッグアンドドロップします。
-  <img src="images/candlestick-organizing-data.png" alt="Organizing data fields" width="35%"/>                                                      
+  <img src="images/candlestick-organizing-data.png" alt="Organizing data fields" width="70%"/>
 
 <a name='changing-axis-configuration'></a>
 ## 軸の構成を変更する方法
@@ -92,5 +93,5 @@ _language: ja
 
 |                                        |                                                                                                              |                                                             |
 | -------------------------------------- | ------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------- |
-| 1\. **設定メニューにアクセスする**       | <img src="images/tutorials-settings.png" alt="Navigating to Settings" width="300"/>                 | 表示形式エディターの **[設定]** セクションに移動します。 |
-| 2\. **軸を対数に変更する** | <img src="images/axis-logarithmic-candlestick.png" alt="Accessing Axis configuration" width="300"/> | **[軸]** ドロップダウンを開き、**[対数]** を選択します。      |
+| 1\. **設定メニューにアクセスする**       | <img src="images/tutorials-settings.png" alt="Settings menu in a visualization" width="300"/>                 | 表示形式エディターの **[設定]** セクションに移動します。 |
+| 2\. **軸を対数に変更する** | <img src="images/axis-logarithmic-candlestick.png" alt="Axis configuration in Settings" width="300"/> | **[軸]** ドロップダウンを開き、**[対数]** を選択します。      |

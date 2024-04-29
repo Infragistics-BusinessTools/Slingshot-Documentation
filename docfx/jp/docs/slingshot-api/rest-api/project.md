@@ -16,14 +16,14 @@
 |startDate|文字列 <DateTime> | |
 |endDate|文字列 <DateTime> | |
 |status| 文字列列挙体 ("none", "ontarget", "atrisk", "danger", "completed")| | 
-| workspace            |オブジェクト <[DocumentInfo](../generic-slingshot-resources.html#ドキュメント情報オブジェクト)> | read-only| 
-|members| 	配列 <[MemberInfo](../generic-slingshot-resources.html#メンバー情報オブジェクト)> |read-only |
-|requests| 	配列 <[MemberInfo](../generic-slingshot-resources.html#メンバー情報オブジェクト)> |read-only |
-| pendingInvites           | 配列 <[MemberInfo](../generic-slingshot-resources.html#メンバー情報オブジェクト)> | read-only |
-|pinLists| 配列 <[DocumentInfo](../generic-slingshot-resources.html#ドキュメント情報オブジェクト)>| read-only|
-|taskLists| 配列 <[DocumentInfo](../generic-slingshot-resources.html#ドキュメント情報オブジェクト)>|read-only |
-| discussionLists           | 配列 <[DocumentInfo](../generic-slingshot-resources.html#ドキュメント情報オブジェクト)>| read-only |
-| dashboardLists      | 配列 <[DocumentInfo](../generic-slingshot-resources.html#ドキュメント情報オブジェクト)> | read-only |
+| workspace            |オブジェクト <[DocumentInfo](../generic-slingshot-resources.md#ドキュメント情報オブジェクト)> | read-only| 
+|members| 	配列 <[MemberInfo](../generic-slingshot-resources.md#メンバー情報オブジェクト)> |read-only |
+|requests| 	配列 <[MemberInfo](../generic-slingshot-resources.md#メンバー情報オブジェクト)> |read-only |
+| pendingInvites           | 配列 <[MemberInfo](../generic-slingshot-resources.md#メンバー情報オブジェクト)> | read-only |
+|pinLists| 配列 <[DocumentInfo](../generic-slingshot-resources.md#ドキュメント情報オブジェクト)>| read-only|
+|taskLists| 配列 <[DocumentInfo](../generic-slingshot-resources.md#ドキュメント情報オブジェクト)>|read-only |
+| discussionLists           | 配列 <[DocumentInfo](../generic-slingshot-resources.md#ドキュメント情報オブジェクト)>| read-only |
+| dashboardLists      | 配列 <[DocumentInfo](../generic-slingshot-resources.md#ドキュメント情報オブジェクト)> | read-only |
 
 <br/>
 
@@ -96,7 +96,7 @@
 
 ## プロジェクトを作成
 
-<img src="../images/post-request.png" alt="Post request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***htt<area>ps://my.slingshotapp<area>.io/v1/projects***</span>
+<img src="../images/post-request.png" alt="Post request for a project" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/projects***</span>
 
 必須パラメーター: なし
 
@@ -109,8 +109,8 @@
 |startDate|文字列 <DateTime> | |
 |endDate|文字列 <DateTime> | |
 |status| 文字列列挙体 ("none", "ontarget", "atrisk", "danger", "completed")| | 
-| workspace            |オブジェクト <[DocumentInfo](../generic-slingshot-resources.html#ドキュメント情報オブジェクト)> |required | 
-|members| 	配列 <[MemberInfo](../generic-slingshot-resources.html#メンバー情報オブジェクト)> ||
+| workspace            |オブジェクト <[DocumentInfo](../generic-slingshot-resources.md#ドキュメント情報オブジェクト)> |required | 
+|members| 	配列 <[MemberInfo](../generic-slingshot-resources.md#メンバー情報オブジェクト)> ||
 
 可能な応答:
 
@@ -214,8 +214,8 @@
 
 ## プロジェクトを取得する
 
-<img src="../images/get.png" alt="Get request" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/>
-<span class="italic">***htt<area>ps://my.slingshotapp<area>.io/v1/projects/{id}***</span>
+<img src="../images/get.png" alt="Get request for a project" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/>
+<span class="italic">***https://my.slingshotapp.io/v1/projects/{id}***</span>
 
 必須パラメーター: プロジェクトの **id**。
 
@@ -231,7 +231,7 @@
 
 ## 現在のユーザーのすべてのプロジェクトを取得する 
 
-<img src="../images/get-all.png" alt="Get all request" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> <span class="italic">***htt<area>ps://my.slingshotapp<area>.io/v1/projects***</span>
+<img src="../images/get-all.png" alt="Get all request for projects for a current user" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> <span class="italic">***https://my.slingshotapp.io/v1/projects***</span>
 
 必須パラメーター: なし
 
@@ -239,7 +239,7 @@
 
 | コード | 説明|
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| 200 (Success) |参加しているすべてのプロジェクトを表示できます。要求されたプロジェクト (ハイパーリンク) は、[ItemsObject](../generic-slingshot-resources.html#項目オブジェクト) 配列の応答本文で返されます。 |
+| 200 (Success) |参加しているすべてのプロジェクトを表示できます。要求されたプロジェクト (ハイパーリンク) は、[ItemsObject](../generic-slingshot-resources.md#項目オブジェクト) 配列の応答本文で返されます。 |
 | 403 (Forbidden) |サーバーは要求を理解しますが、要求を承認できません。これは、たとえば、アクセスせずにオブジェクトを読み込もうとしたときに発生する可能性があります。再認証の必要はありません。 |
 | 404 (Not Found) |要求されたリソースがサーバーで見つかりません。これは、たとえば、指定されたオブジェクトが存在しないことが原因である可能性があります。 |
 
@@ -247,7 +247,7 @@
 
 ## プロジェクトを更新する  
 
-<img src="../images/patch.png" alt="Patch request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/projects/{id}***
+<img src="../images/patch.png" alt="Patch request for a project" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/projects/{id}***
 
 必須パラメーター: プロジェクトの **id**。
 
@@ -355,7 +355,7 @@
 
 ## プロジェクトを削除する
 
-<img src="../images/delete.png" alt="Delete request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/projects/{id}***
+<img src="../images/delete.png" alt="Delete request for a project" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/projects/{id}***
 
 必須パラメーター: プロジェクトの **id**。
 
@@ -371,13 +371,13 @@
 
 ## プロジェクトにメンバーを追加する
 
-<img src="../images/post-request.png" alt="Post request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/projects/{id}/members***
+<img src="../images/post-request.png" alt="Post request for adding members to a project" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/projects/{id}/members***
 
 必須パラメーター: プロジェクトの **id**。 
 
 プロジェクトへのメンバーの追加を要求すると、要求本文には次の内容が含まれます。 
 
-要求本文: [ItemsObject](../generic-slingshot-resources.html#項目オブジェクト) <[MemberInfo](../generic-slingshot-resources.html#メンバー情報オブジェクト)>
+要求本文: [ItemsObject](../generic-slingshot-resources.md#項目オブジェクト) <[MemberInfo](../generic-slingshot-resources.md#メンバー情報オブジェクト)>
 
 可能な応答:
 
@@ -493,11 +493,11 @@
 
 ## プロジェクトのメンバーのロールを更新する 
 
-<img src="../images/patch.png" alt="Patch request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/projects/{id}/members***
+<img src="../images/patch.png" alt="Patch request for updating members' roles of a project" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/projects/{id}/members***
 
 必須パラメーター: プロジェクトの **id**。
 
-要求本文: [ItemsObject](../generic-slingshot-resources.html#項目オブジェクト) <[MemberInfo](../generic-slingshot-resources.html#メンバー情報オブジェクト)>
+要求本文: [ItemsObject](../generic-slingshot-resources.md#項目オブジェクト) <[MemberInfo](../generic-slingshot-resources.md#メンバー情報オブジェクト)>
 
 可能な応答:
 
@@ -613,11 +613,11 @@
 
 ## ワークプロジェクトからメンバーを削除する 
 
-<img src="../images/delete.png" alt="Delete request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/projects/{id}/members***
+<img src="../images/delete.png" alt="Delete request for removing members from a project" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/projects/{id}/members***
 
 必須パラメーター: プロジェクトの **id**。
 
-要求本文: [ItemsObject](../generic-slingshot-resources.html#項目オブジェクト) <[MemberInfo](../generic-slingshot-resources.html#メンバー情報オブジェクト)>
+要求本文: [ItemsObject](../generic-slingshot-resources.md#項目オブジェクト) <[MemberInfo](../generic-slingshot-resources.md#メンバー情報オブジェクト)>
 
 可能な応答:
 
@@ -723,11 +723,11 @@
 
 ## プロジェクトにメンバーを追加するためのアクセス権を要求に付与する
   
-<img src="../images/patch.png" alt="Patch request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/projects/{id}/requests***
+<img src="../images/patch.png" alt="Patch request for granting requests access to add members to a project" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/projects/{id}/requests***
 
 必須パラメーター: プロジェクトの **id**。
 
-要求本文: [ItemsObject](../generic-slingshot-resources.html#項目オブジェクト) <[MemberInfo](../generic-slingshot-resources.html#メンバー情報オブジェクト)>
+要求本文: [ItemsObject](../generic-slingshot-resources.md#項目オブジェクト) <[MemberInfo](../generic-slingshot-resources.md#メンバー情報オブジェクト)>
 
 | コード | 説明|
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
@@ -835,11 +835,11 @@
 
 ## プロジェクトにメンバーを追加する要求を拒否する
 
-<img src="../images/delete.png" alt="Delete request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/projects/{id}/requests***
+<img src="../images/delete.png" alt="Delete request for denying requests to add members to a project" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/projects/{id}/requests***
 
 必須パラメーター: プロジェクトの **id**。
 
-要求本文: [ItemsObject](../generic-slingshot-resources.html#項目オブジェクト) <[MemberInfo](../generic-slingshot-resources.html#メンバー情報オブジェクト)>
+要求本文: [ItemsObject](../generic-slingshot-resources.md#項目オブジェクト) <[MemberInfo](../generic-slingshot-resources.md#メンバー情報オブジェクト)>
 
 | コード | 説明|
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |

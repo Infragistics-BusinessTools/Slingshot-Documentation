@@ -25,10 +25,10 @@ _language: ja
 
 ダッシュボード エディターに 1 つ以上のダッシュボード フィルターまたは日付フィルターが定義されている場合、フィルター名の下部にある **[接続]** をクリックするとダッシュボード フィルターまたは日付フィルターのデータを表示形式にバインドします。
 
-<img src="images/dashboard-filter-connection-option-visualization-editor.png" alt="Connecting to a dashboard filter in the visualization editor" class="responsive-img" width="85%"/>
+<img src="images/dashboard-filter-connection-option-visualization-editor.png" alt="Connecting to a dashboard filter in the Visualization Editor" class="responsive-img" width="85%"/>
 
 あるいは、[日付フィルター] ダイアログまたは [ダッシュボード フィルター] ダイアログでデータを接続することもできます。
 
 <img src="images/dashboard-filter-dialog-connect-option.png" alt="A dashboard filter dialog" class="responsive-img" width="58%"/>
 
-バインド機能の詳細については、[ダッシュボード フィルターを表示形式に接続](connecting-dashboard-filters-visualization.html)トピックを参照してください。
+バインド機能の詳細については、[ダッシュボード フィルターを表示形式に接続](connecting-dashboard-filters-visualization.md)トピックを参照してください。

@@ -16,9 +16,9 @@ Analytics で利用可能なデータ ソースの一部では、サーバー上
 
 サーバーでのデータ処理は、次のデータ ソースに対して**有効**にできるオプションです:
 
-* [MS SQL Server](supported-data-sources/microsoft-sql-server.html)
-* [MySQL](supported-data-sources/mysql.html)
-* [PostgreSQL](supported-data-sources/postgresql.html)
+* [MS SQL Server](supported-data-sources/microsoft-sql-server.md)
+* [MySQL](supported-data-sources/mysql.md)
+* [PostgreSQL](supported-data-sources/postgresql.md)
 
 ## サーバー上でデータを処理を有効にする方法は?
 
@@ -37,10 +37,10 @@ Analytics で利用可能なデータ ソースの一部では、サーバー上
 
 **[サーバー上でデータを処理]** が有効になっている場合、次の機能は表示形式エディターで**サポートされません**。
 
-* [データ ソースを 1 つの表示形式に統合](data-blending.html)
-* [Azure ML モデルの統合](ml-integration/azure-machine-learning-models.html)
+* [データ ソースを 1 つの表示形式に統合](data-blending.md)
+* [Azure ML モデルの統合](ml-integration/azure-machine-learning-models.md)
 
-表示形式エディターの[事前計算](~/docs/analytics/data-visualizations/fields/calculated-fields/overview.html#事前計算フィールド)フィールド機能に制限が適用されます。使用できない関数は、**[計算フィールドの作成]** ダイアログでグレーアウトされます。
+表示形式エディターの[事前計算](../data-visualizations/fields/calculated-fields/overview.md#事前計算フィールド)フィールド機能に制限が適用されます。使用できない関数は、**[計算フィールドの作成]** ダイアログでグレーアウトされます。
 このダイアログで、リンクをクリックして、**サーバー上でデータを処理**機能を無効にすることができます。
 
 <img src="images/unavailable-functions-message.png" alt="Disable Process Data on Server prompt in the Calculated Fields dialog" class="responsive-img" width="90%"/>

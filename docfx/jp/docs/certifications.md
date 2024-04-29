@@ -22,15 +22,15 @@ Slingshot の組織に所属している場合、リストのデータ ソース
 
 認証を使用すると、ユーザーが組織で推奨および検証されたデータを検索するのに役立ちます。**認証者**の要件は次のとおりです。 
 
-* <img src="../images/organization-icon.png" alt="組織ワークスペースアイコン" width="24px" height="24px" />組織の管理者。
+* <img src="../images/organization-icon.png" alt="組織アイコン" width="24px" height="24px" />組織の管理者。
 
 * 組織の管理者によって承認されたユーザー。 
 
 データ ソースを認証できるユーザーを確認するには以下の手順を実行します: 
 
-1. 3 つの点 <img src="../images/overflow-icon.png" alt="アナリティクスで使用されるプラス アイコン" width="24px" height="24px" /> を選択して、組織ワークスペースの設定を開きます。
+1. 3 つの点 <img src="../images/overflow-icon.png" alt="Three dots icon" width="24px" height="24px" /> を選択して、組織ワークスペースの設定を開きます。
 
-2. <img src="../images/settings-icon.png" alt="アナリティクスで使用されるプラスアイコン" width="24px" height="24px" /> **[組織の設定]** を選択します。
+2. <img src="../images/settings-icon.png" alt="アナリティクスで使用されるプラス アイコン" width="24px" height="24px" /> **[組織の設定]** を選択します。
 
 3. **[データ カタログ]** に移動します。 
 
@@ -52,7 +52,7 @@ Slingshot の組織に所属している場合、リストのデータ ソース
 
 3. **[許可の要求]** をクリック / タップします (以下のスクリーンショットを参照)。
 
-<img src="../images/not-certified-message.png" alt="The Request permission button for the certificate" class="responsive-img" width="70%" />
+<img src="../images/not-certified-message.png" alt="Request permission button for the certificate" class="responsive-img" width="70%" />
 
 1. すべての組織の管理者にメールが送信され、ユーザーがデータ ソースまたはダッシュボードを認証するための承認を求めることを通知します。 
 
