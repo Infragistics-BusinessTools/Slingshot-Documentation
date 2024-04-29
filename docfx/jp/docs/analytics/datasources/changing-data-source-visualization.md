@@ -11,12 +11,12 @@ _language: ja
 1. 右上隅のオーバーフロー メニューから **[編集]** を選択して、ダッシュボード編集モードにアクセスします。
 2. 選択した表示形式のオーバーフロー メニューで **[編集]** をクリック/タップします。または、鉛筆のアイコンをクリック/タップします。
 
- <img src="images/edit-option-visualization.png" alt="Select edit mode of a visualization" class="responsive-img" width="75%"/>
+ <img src="images/edit-option-visualization.png" alt="Select edit mode of a visualization" class="responsive-img" width="80%"/>
 
 
 3. 現在のデータ ソースが **[データ]** セクションに表示されます。変更するには、データ ソース名の横にあるオーバーフロー メニューを選択し、**[編集]** をクリックまたはタップします。
 
- <img src="images/edit-option-data-source.png" alt="Edit option of current data source" class="responsive-img" width="75%" />
+ <img src="images/edit-option-data-source.png" alt="Edit option of current data source" class="responsive-img" width="80%" />
 
 
 4. **[表示データ]** が表示され、現在のデータ ソースを示します。同じデータ ソースから別のデータ コレクションを選択するか、データ ソースの名前の横にある **[データ ソースの変更]** をクリックまたはタップし、他のデータ ソースを選択します。
@@ -28,4 +28,4 @@ _language: ja
 
 6. 表示形式エディターの **[データ]** セクションで、更新されたデータ ソースの名前が表示されます。
 
- <img src="images/different-data-source-visualization-editor.png" alt="Updated data source visualization" class="responsive-img" width="75%"/>
+ <img src="images/different-data-source-visualization-editor.png" alt="Updated data source visualization" class="responsive-img" width="80%"/>

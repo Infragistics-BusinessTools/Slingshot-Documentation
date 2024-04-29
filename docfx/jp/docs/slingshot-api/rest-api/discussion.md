@@ -11,10 +11,10 @@
 | timestamp           | double |  read-only|
 | created             | 文字列 | read-only |
 | name               | 文字列 |  min = 1, max = 100 |  
-| workspace            |オブジェクト <[DocumentInfo](../generic-slingshot-resources.html#ドキュメント情報オブジェクト)>| read-only|  
-| project    |オブジェクト <[DocumentInfo](../generic-slingshot-resources.html#ドキュメント情報オブジェクト)>| read-only| 
-| discussionList             | オブジェクト <[DocumentInfo](../generic-slingshot-resources.html#ドキュメント情報オブジェクト)> | read-only |
-| lastMessage   | オブジェクト <[ChatMessageInfo](../generic-slingshot-resources.html#チャット-メッセージ情報オブジェクト)> | read-only|
+| workspace            |オブジェクト <[DocumentInfo](../generic-slingshot-resources.md#ドキュメント情報オブジェクト)>| read-only|  
+| project    |オブジェクト <[DocumentInfo](../generic-slingshot-resources.md#ドキュメント情報オブジェクト)>| read-only| 
+| discussionList             | オブジェクト <[DocumentInfo](../generic-slingshot-resources.md#ドキュメント情報オブジェクト)> | read-only |
+| lastMessage   | オブジェクト <[ChatMessageInfo](../generic-slingshot-resources.md#チャット-メッセージ情報オブジェクト)> | read-only|
 
 <br/>
 
@@ -56,7 +56,7 @@
 |    プロパティ  | 型            | 属性           |
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
 | name               | 文字列 | required, min = 1, max = 100 |  
-| discussionList         |オブジェクト <[DocumentInfo](../generic-slingshot-resources.html#ドキュメント情報オブジェクト)> |required |  
+| discussionList         |オブジェクト <[DocumentInfo](../generic-slingshot-resources.md#ドキュメント情報オブジェクト)> |required |  
 
  必須パラメーター: なし
 

@@ -75,81 +75,81 @@ _language: ja
 
 事前計算フィールドと事後計算フィールドの両方で、Reveal で使用可能な機能のいずれかを使用できます。
 
-  - [**集計**](aggregation.html):
-    [average](aggregation.html#average)、
-    [averageif](aggregation.html#averageif)、
-    [count](aggregation.html#count)、
-    [countif](aggregation.html#countif)、
-    [max](aggregation.html#max)、
-    [maxif](aggregation.html#maxif)、
-    [min](aggregation.html#min)、
-    [minif](aggregation.html#minif)
+  - [**集計**](aggregation.md):
+    [average](aggregation.md#average)、
+    [averageif](aggregation.md#averageif)、
+    [count](aggregation.md#count)、
+    [countif](aggregation.md#countif)、
+    [max](aggregation.md#max)、
+    [maxif](aggregation.md#maxif)、
+    [min](aggregation.md#min)、
+    [minif](aggregation.md#minif)
 
-  - [**日付**](date.html):
-    [date](date.html#date-date)、
-    [datevalue](date.html#datevalue)、
-    [day](date.html#day)、
-    [formatdate](date.html#formatdate)、
-    [fquarter](date.html#fquarter)、
-    [semester](date.html#semester)、
-    [fsemester](date.html#fsemester)、
-    [fyear](date.html#fyear)、
-    [hour](date.html#hour)、
-    [millisecond](date.html#millisecond)、
-    [minute](date.html#minute)、
-    [month](date.html#month)、
-    [monthname](date.html#monthname)、
-    [monthshortname](date.html#monthshortname)、
-    [applytimezone](date.html#applytimezone)、
-    [currenttimezone](date.html#currenttimezone)、
-    [datetimefromunixts](date.html#datetimefromunixts)、
-    [now](date.html#now)、
-    [quarter](date.html#quarter)、
-    [second](date.html#second)、
-    [time](date.html#date-time)、
-    [today](date.html#today)、
-    [weekday](date.html#weekday)、
-    [weeknum](date.html#weeknum)、
-    [year](date.html#year)
+  - [**日付**](date.md):
+    [date](date.md#date-date)、
+    [datevalue](date.md#datevalue)、
+    [day](date.md#day)、
+    [formatdate](date.md#formatdate)、
+    [fquarter](date.md#fquarter)、
+    [semester](date.md#semester)、
+    [fsemester](date.md#fsemester)、
+    [fyear](date.md#fyear)、
+    [hour](date.md#hour)、
+    [millisecond](date.md#millisecond)、
+    [minute](date.md#minute)、
+    [month](date.md#month)、
+    [monthname](date.md#monthname)、
+    [monthshortname](date.md#monthshortname)、
+    [applytimezone](date.md#applytimezone)、
+    [currenttimezone](date.md#currenttimezone)、
+    [datetimefromunixts](date.md#datetimefromunixts)、
+    [now](date.md#now)、
+    [quarter](date.md#quarter)、
+    [second](date.md#second)、
+    [time](date.md#date-time)、
+    [today](date.md#today)、
+    [weekday](date.md#weekday)、
+    [weeknum](date.md#weeknum)、
+    [year](date.md#year)
 
-  - [**情報**](information.html):
-    [empty](information.html#empty)、
-    [isempty](information.html#isempty)
+  - [**情報**](information.md):
+    [empty](information.md#empty)、
+    [isempty](information.md#isempty)
 
-  - [**ロジック**](logic.html):
-    [and](logic.html#and)、
-    [false](logic.html#false)、
-    [if](logic.html#if)、
-    [not](logic.html#not)、
-    [or](logic.html#or)、
-    [true](logic.html#true)
+  - [**ロジック**](logic.md):
+    [and](logic.md#and)、
+    [false](logic.md#false)、
+    [if](logic.md#if)、
+    [not](logic.md#not)、
+    [or](logic.md#or)、
+    [true](logic.md#true)
 
-  - [**検索/行列**](lookup-reference.html):
-    [previous](lookup-reference.html#previous)、
-    [row](lookup-reference.html#row)
+  - [**検索/行列**](lookup-reference.md):
+    [previous](lookup-reference.md#previous)、
+    [row](lookup-reference.md#row)
 
-  - [**数学**](math.html):
-    [abs](math.html#abs)、
-    [exp](math.html#exp)、
-    [log](math.html#log)、
-    [log10](math.html#log10)、
-    [mod](math.html#mod)、
-    [rand](math.html#rand)、
-    [randbetween](math.html#randbetween)、
-    [sign](math.html#sign)、
-    [sqrt](math.html#sqrt)、
-    [trunc](math.html#trunc)
+  - [**数学**](math.md):
+    [abs](math.md#abs)、
+    [exp](math.md#exp)、
+    [log](math.md#log)、
+    [log10](math.md#log10)、
+    [mod](math.md#mod)、
+    [rand](math.md#rand)、
+    [randbetween](math.md#randbetween)、
+    [sign](math.md#sign)、
+    [sqrt](math.md#sqrt)、
+    [trunc](math.md#trunc)
 
-  - [**文字列**](string.html):
-    [concatenate](string.html#concatenate)、
-    [find](string.html#find)、
-    [len](string.html#len)、
-    [lower](string.html#lower)、
-    [mid](string.html#mid)、
-    [replace](string.html#replace)、
-    [sortinterval](string.html#sortinterval)、
-    [trim](string.html#trim)、
-    [upper](string.html#upper)
+  - [**文字列**](string.md):
+    [concatenate](string.md#concatenate)、
+    [find](string.md#find)、
+    [len](string.md#len)、
+    [lower](string.md#lower)、
+    [mid](string.md#mid)、
+    [replace](string.md#replace)、
+    [sortinterval](string.md#sortinterval)、
+    [trim](string.md#trim)、
+    [upper](string.md#upper)
 
 >[!NOTE]
 >IF 条件の制限: 事前計算のフィールドの集計関数に含まれる場合、IF 条件には既知の制限があります。計算式内の IF 条件を確認するためにすべてのレコードを複数回調べる必要があり、パフォーマンスが低下する問題が発生するため、サポートされていません。
@@ -157,7 +157,7 @@ _language: ja
 <a name='without-predefined-functions'></a>
 ## 定義済み関数を使用せず計算フィールドを作成
 
-定義済み関数を使用せずに計算フィールドを作成することもできます。たとえば、減算、除算、加算、乗算などの単純な数学計算用。[こちらの表](samples.html)には、定義済み関数を使用しない例があります。
+定義済み関数を使用せずに計算フィールドを作成することもできます。たとえば、減算、除算、加算、乗算などの単純な数学計算用。[こちらの表](samples.md)には、定義済み関数を使用しない例があります。
 
 ## [分析] の関数を使用する際に注意すること
   - **テキスト文字列は引用符で囲む必要があります**。

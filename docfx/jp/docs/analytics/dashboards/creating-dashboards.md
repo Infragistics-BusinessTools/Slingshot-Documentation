@@ -53,15 +53,15 @@ Analytics では [Dropbox](../datasources/supported-data-sources/dropbox.md)、[
 
 データ ソースを追加した後、**表示形式エディター**が表示されます。デフォルトでは、柱状表示形式が選択されます。
 
-<img src="images/visualization-editor-creating-dashboards.png" alt="Dashboards first visualization in the visualization editor" class="responsive-img" width="85%"/>
+<img src="images/visualization-editor-creating-dashboards.png" alt="Dashboards first visualization in the visualization editor" class="responsive-img" width="80%"/>
 
 Analytics では、情報を可覚化する方法をカスタマイズするためのいくつかのオプションがあります。上部バーの**ピボット アイコン**を選択してオプションにアクセスできます。
 
-<img src="images/creating-dashboards-chart-types.png" alt="Chart types list"  class="responsive-img" width="75%"/>
+<img src="images/creating-dashboards-chart-types.png" alt="Chart types list"  class="responsive-img" width="80%"/>
 
 表示形式にラベルと値を追加し、右側のペインでプレビューします。必要に応じて、表示形式設定を変更してフィルターを追加できます。
 
-<img src="images/visualization-editor-sample-data.png" alt="Editing visualization fields preview" class="responsive-img" width="85%"/>
+<img src="images/visualization-editor-sample-data.png" alt="Editing visualization fields preview" class="responsive-img" width="80%"/>
 
 表示形式を変更した後**ダッシュボード エディター**に移動されます。右上側に **[元に戻す]**、**[やり直し]**、および **[+ 追加]** の分割ボタンが表示されます。これらのボタンの横には、ダッシュボードのオーバーフロー メニューもあります。そこで、ダッシュボードの **[テーマ]** の変更、ダッシュボードを **[更新]**、ダッシュボードを **[貼り付け]**、**[自動レイアウト]** のオン / オフ、ダッシュボードの **[エクスポート]**、またはダッシュボードに **[名前をつけて保存]** ボタンを選択できます。
 

@@ -6,11 +6,11 @@ _language: ja
 
 # ダッシュボードをデータ ソースに接続
 
-[分析] では、ダッシュボードの作成[前](overview.html)または作成後にデータ ソースに接続できます。データ ソースへの接続は、ダッシュボード作成プロセスの一部です。ただし、すでに作成されているが、まだデータ ソースに接続されていないダッシュボードを持つ場合があります。これが発生する可能性のあるシナリオは 2 つあります - [共有しているダッシュボード](~/docs/analytics/dashboards/sharing-dashboards/share-a-dashboard.html)の場合と自分で [分析] に[アプロードしたダッシュボード](~/docs/analytics/dashboards/uploading-dashboards.html)の場合です。
+[分析] では、ダッシュボードの作成[前](overview.md)または作成後にデータ ソースに接続できます。データ ソースへの接続は、ダッシュボード作成プロセスの一部です。ただし、すでに作成されているが、まだデータ ソースに接続されていないダッシュボードを持つ場合があります。これが発生する可能性のあるシナリオは 2 つあります - [共有しているダッシュボード](../dashboards/sharing-dashboards/share-a-dashboard.md)の場合と自分で [分析] に[アプロードしたダッシュボード](../dashboards/uploading-dashboards.md)の場合です。
 
 アプリケーションにまだ追加していないデータ ソースを使用して作成されたダッシュボードは、初めて開いたときに次のようになります: 
 
-<img src="images/dashboard-own-data-sources-example.png" alt="A dashboard not connected to its data source" class="responsive-img" width="85%"/>
+<img src="images/dashboard-own-data-sources-example.png" alt="A dashboard not connected to its data source" class="responsive-img" width="80%"/>
 
 各表示形式には **[<データ ソース名> にログイン]** ボタン (**[接続] をクリックまたはタップするとアクセスできます**) があり、使用する**データ ソースに接続**できます。そのためには次の手順を実行します:
 
@@ -21,7 +21,7 @@ _language: ja
 /jp
 完全なダッシュボードが*ダッシュボードのビュー* モードで表示されます。
 
-<img src="images/final-dashboard-own-data-source-example.png" alt="Example of a connected dashboard" class="responsive-img" width="88%"/>
+<img src="images/final-dashboard-own-data-source-example.png" alt="Example of a connected dashboard" class="responsive-img" width="80%"/>
 
 >[!NOTE]
 > **[データ ソースの接続]** ダイアログに、データ ソースの資格情報のリストがある場合があります (下のスクリーンショットを参照)。これらは、他のソース アカウントへのログインに使用した資格情報、または[分析の資格情報の管理](../../analytics/datasources/managing-data-source-credentials.md)メニューで事前に追加した資格情報です。

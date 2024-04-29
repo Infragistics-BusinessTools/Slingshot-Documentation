@@ -89,4 +89,4 @@ _language: ja
 
 - **開始色** - 10 色のパレットから開始色を選択します。Analytics は選択に基づいて配色を調整します。
 
-- **リンク** - 表示形式をダッシュボードまたは URL に接続します。詳細は、「[ダッシュボード リンク](~/docs/analytics/dashboards/dashboard-linking.html)」トピックをご覧ください。
+- **リンク** - 表示形式をダッシュボードまたは URL に接続します。詳細は、「[ダッシュボード リンク](../../dashboards/dashboard-linking.md)」トピックをご覧ください。

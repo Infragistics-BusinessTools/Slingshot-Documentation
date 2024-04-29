@@ -53,4 +53,4 @@ Analytics では、ダッシュボード全体のスクリーン キャプチャ
 <img src="images/text-option-in-export-image.png" alt="Adding text in image annotation" class="responsive-img" width="75%"/>
 
 
-**Android および iOS** デバイスでの画像のエクスポートについては、[ダッシュボードをエクスポート](how-to-export-a-dashboard.html#mobile-devices)トピックを参照してください。
+**Android および iOS** デバイスでの画像のエクスポートについては、[ダッシュボードをエクスポート](how-to-export-a-dashboard.md#mobile-devices)トピックを参照してください。

@@ -4,7 +4,7 @@ Analytics は、データをダッシュボード フィルターにバインド
 
 <img src="images/date-filter-option.png" alt="Date filter option in the filter dropdown menu for a visualization" class="responsive-img" width="85%"/>
 
-日付のダッシュボード フィルターを有効にすると、[表示形式バインディング式](connecting-dashboard-filters-visualization.html)で使用できるようになります。
+日付のダッシュボード フィルターを有効にすると、[表示形式バインディング式](connecting-dashboard-filters-visualization.md)で使用できるようになります。
 
 <img src="images/date-filter-dialog.png" alt="Filter Date Range dialog with different options" class="responsive-img" width="60%"/>
 

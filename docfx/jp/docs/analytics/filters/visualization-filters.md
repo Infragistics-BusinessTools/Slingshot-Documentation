@@ -20,7 +20,7 @@ _language: ja
 
 <img src="images/location-visualization-filter.png" alt="The location of the visualization filter in dashboard view maximized" class="responsive-img" width="85%"/>
 
-[ダッシュボード フィルター](dashboard-filters.html)同様に、簡易フィルター セクションが変更されると表示形式コンテンツの動的なフィルターが有効になります。
+[ダッシュボード フィルター](dashboard-filters.md)同様に、簡易フィルター セクションが変更されると表示形式コンテンツの動的なフィルターが有効になります。
 
 ## フィルターのカスケード
 

@@ -31,4 +31,4 @@ _language: ja
 
 <img src="images/dashboard-filter-dialog-connect-option.png" alt="A dashboard filter dialog" class="responsive-img" width="58%"/>
 
-バインド機能の詳細については、[ダッシュボード フィルターを表示形式に接続](connecting-dashboard-filters-visualization.html)トピックを参照してください。
+バインド機能の詳細については、[ダッシュボード フィルターを表示形式に接続](connecting-dashboard-filters-visualization.md)トピックを参照してください。

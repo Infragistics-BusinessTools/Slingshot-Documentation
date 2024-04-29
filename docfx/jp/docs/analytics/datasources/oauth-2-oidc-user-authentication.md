@@ -6,7 +6,7 @@ _language: ja
 
 # REST、OData、およびウェブ リソースを使用した OAuth 2 / OIDC ユーザー認証
 
-[OData フィード](supported-data-sources/odata-feed.html)、[REST API](supported-data-sources/rest-api.html)、または[ウェブ リソース](supported-data-sources/web-resource.html)を使用する場合、リソースの一部が保護される場合があります。この場合、OAuth 2 / OIDC アカウントを設定して、これらのリソースへの Analytics アクセスを許可する必要があります。
+[OData フィード](supported-data-sources/odata-feed.md)、[REST API](supported-data-sources/rest-api.md)、または[ウェブ リソース](supported-data-sources/web-resource.md)を使用する場合、リソースの一部が保護される場合があります。この場合、OAuth 2 / OIDC アカウントを設定して、これらのリソースへの Analytics アクセスを許可する必要があります。
 
 ## OAuth 2 とは?
 

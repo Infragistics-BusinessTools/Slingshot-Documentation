@@ -39,7 +39,7 @@ _language: ja
 <a name='string-date-chr-order'></a>
 ## 文字列日付を時系列で順序
 
-次の表示形式を見てみましょう。ここでは、[積層型柱状チャート](~/docs/analytics/visualization-tutorials/stacked-charts.md#積層型チャートの作成)で企業の現金と売掛金の増加をプロットしています。
+次の表示形式を見てみましょう。ここでは、[積層型柱状チャート](../../../analytics/visualization-tutorials/stacked-charts.md#積層型チャートの作成)で企業の現金と売掛金の増加をプロットしています。
 
 <img src="images/sort-by-field-sales-information-sample.png" alt="Sales Info visualization while using stacked column chart" class="responsive-img" width="85%"/>
 

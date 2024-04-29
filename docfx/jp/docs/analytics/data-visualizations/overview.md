@@ -69,7 +69,7 @@ td {
     </td>
     <td>
       <img src="images/Circular-chart.png" alt="Circular Gauge" /><br/>
-      <a href="visualization-types/gauge-charts.html#circular-gauge">円型</a>
+      <a href="visualization-types/gauge-charts.md#circular-gauge">円型</a>
     </td>
     <td>
       <img src="images/Spline-Area-chart.png" alt="Spline with Area Chart icon" /><br/>
@@ -206,15 +206,15 @@ td {
   <td><b>KPI とゲージ</b></td>
   <td>
     <img src="images/bullet-graph-gauge.png" alt="Bullet Graph Gauge icon" /><br/>
-    <a href="visualization-types/gauge-charts.html#bullet-graph">ブレット グラフ</a>
+    <a href="visualization-types/gauge-charts.md#bullet-graph">ブレット グラフ</a>
   </td>
   <td>
     <img src="images/linear-gauge.png" alt="Linear Gauge icon" /><br/>
-    <a href="visualization-types/gauge-charts.html#linear-gauge">リニア</а>
+    <a href="visualization-types/gauge-charts.md#linear-gauge">リニア</а>
   </td>
   <td>
     <img src="images/text-gauge.png" alt="Text Chart icon" /><br/>
-    <a href="visualization-types/gauge-charts.html#text-gauge">テキスト</a>
+    <a href="visualization-types/gauge-charts.md#text-gauge">テキスト</a>
   </td>
   <td>
     <img src="images/kpi.png" alt="KPI Gauge" /><br/>
@@ -222,7 +222,7 @@ td {
   </td>
   <td>
     <img src="images/circular-gauge.png" alt="Circular Gauge icon" /><br/>
-    <a href="visualization-types/gauge-charts.html#circular-gauge">円型</a>
+    <a href="visualization-types/gauge-charts.md#circular-gauge">円型</a>
   </td>
   <td />
     <td />
@@ -282,111 +282,111 @@ td {
 <tr class="odd">
 <td><p><img src="images/Area-Chart.png" alt="Area Chart icon" /><br />
 </p>
-<p><a href="~/docs/analytics/visualization-tutorials/simple-charts.md">エリア</a><br />
+<p><a href="../visualization-tutorials/simple-charts.md">エリア</a><br />
 </p></td>
 <td><p><img src="images/Bar-Chart.png" alt="Bar Chart icon" /><br />
 </p>
-<p><a href="~/docs/analytics/visualization-tutorials/simple-charts.md">棒</a><br />
+<p><a href="../visualization-tutorials/simple-charts.md">棒</a><br />
 </p></td>
 <td><p><img src="images/Bullet-Graph-Gauge.png" alt="Bullet Graph Gauge icon" /><br />
 </p>
-<p><a href="~/docs/analytics/visualization-tutorials/gauge-charts.md">ブレット グラフ</a><br />
+<p><a href="../visualization-tutorials/gauge-charts.md">ブレット グラフ</a><br />
 </p></td>
 <td><p><img src="images/Candlestick-Chart.png" alt="Candlestick Chart icon" /><br />
 </p>
-<p><a href="~/docs/analytics/visualization-tutorials/candlestick-chart.md">ローソク足</a><br />
+<p><a href="../visualization-tutorials/candlestick-chart.md">ローソク足</a><br />
 </p></td>
 <td><p><img src="images/Circular-Gauge.png" alt="Circular Gauge icon" /><br />
 </p>
-<p><a href="~/docs/analytics/visualization-tutorials/gauge-charts.md">円型</a><br />
+<p><a href="../visualization-tutorials/gauge-charts.md">円型</a><br />
 </p></td>
 </tr>
 <tr class="even">
 <td><p><img src="images/Column-Chart.png" alt="Column Chart icon" /><br />
 </p>
-<p><a href="~/docs/analytics/visualization-tutorials/simple-charts.md">柱状</a><br />
+<p><a href="../visualization-tutorials/simple-charts.md">柱状</a><br />
 </p></td>
 <td><p><img src="images/Doughnut-Chart.png" alt="Doughnut Chart icon" /><br />
 </p>
-<p><a href="~/docs/analytics/visualization-tutorials/simple-charts.md">ドーナツ型</a><br />
+<p><a href="../visualization-tutorials/simple-charts.md">ドーナツ型</a><br />
 </p></td>
 <td><p><img src="images/Funnel-Chart.png" alt="Funnel Chart icon" /><br />
 </p>
-<p><a href="~/docs/analytics/visualization-tutorials/simple-charts.md">ファンネル</a><br />
+<p><a href="../visualization-tutorials/simple-charts.md">ファンネル</a><br />
 </p></td>
 <td><p><img src="images/image-view.png" alt="Image Chart icon" /><br />
 </p>
-<p><a href="~/docs/analytics/visualization-tutorials/image-chart.md">画像</a><br />
+<p><a href="../visualization-tutorials/image-chart.md">画像</a><br />
 </p></td>
 <td><p><img src="images/kpi.png" alt="KPI icon" /><br />
 </p>
-<p><a href="~/docs/analytics/visualization-tutorials/kpi-gauge.md">KPI</a><br />
+<p><a href="../visualization-tutorials/kpi-gauge.md">KPI</a><br />
 </p></td>
 </tr>
 <tr class="odd">
 <td><p><img src="images/Line-Chart.png" alt="Line Chart icon" /><br />
 </p>
-<p><a href="~/docs/analytics/visualization-tutorials/simple-charts.md">折れ線</a><br />
+<p><a href="../visualization-tutorials/simple-charts.md">折れ線</a><br />
 </p></td>
 <td><p><img src="images/Linear-Gauge.png" alt="Linear Gauge icon" /><br />
 </p>
-<p><a href="~/docs/analytics/visualization-tutorials/gauge-charts.md">リニア</a><br />
+<p><a href="../visualization-tutorials/gauge-charts.md">リニア</a><br />
 </p></td>
 <td><p><img src="images/OHLC-Chart.png" alt="OHLC Chart icon" /><br />
 </p>
-<p><a href="~/docs/analytics/visualization-tutorials/ohlc-chart.md">OHLC チャート</a><br />
+<p><a href="../visualization-tutorials/ohlc-chart.md">OHLC チャート</a><br />
 </p></td>
 <td><p><img src="images/Pie-Chart.png" alt="Pie Chart icon" /><br />
 </p>
-<p><a href="~/docs/analytics/visualization-tutorials/simple-charts.md">円</a><br />
+<p><a href="../visualization-tutorials/simple-charts.md">円</a><br />
 </p></td>
 <td><p><img src="images/radial-chart.png" alt="Radial Chart icon" /><br />
 </p>
-<p><a href="~/docs/analytics/visualization-tutorials/simple-charts.md">ラジアル</a><br />
+<p><a href="../visualization-tutorials/simple-charts.md">ラジアル</a><br />
 </p></td>
 </tr>
 <tr class="even">
 <td><p><img src="images/Sparkline-Chart.png" alt="Sparkline Chart icon" /><br />
 </p>
-<p><a href="~/docs/analytics/visualization-tutorials/sparkline-charts.md">スパークライン</a><br />
+<p><a href="../visualization-tutorials/sparkline-charts.md">スパークライン</a><br />
 </p></td>
 <td><p><img src="images/Spline-Chart.png" alt="Spline Chart icon" /><br />
 </p>
-<p><a href="~/docs/analytics/visualization-tutorials/simple-charts.md">スプライン</a><br />
+<p><a href="../visualization-tutorials/simple-charts.md">スプライン</a><br />
 </p></td>
 <td><p><img src="images/Spline-Area.png" alt="Spline Area icon" /><br />
 </p>
-<p><a href="~/docs/analytics/visualization-tutorials/simple-charts.md">スプライン エリア</a><br />
+<p><a href="../visualization-tutorials/simple-charts.md">スプライン エリア</a><br />
 </p></td>
 <td><p><img src="images/Stacked-Area-Chart.png" alt="Stacked Area Chart icon" /><br />
 </p>
-<p><a href="~/docs/analytics/visualization-tutorials/stacked-charts.md">積層型エリア</a><br />
+<p><a href="../visualization-tutorials/stacked-charts.md">積層型エリア</a><br />
 </p></td>
 <td><p><img src="images/Stacked-Bar-Chart.png" alt="Stacked Bar Chart icon" /><br />
 </p>
-<p><a href="~/docs/analytics/visualization-tutorials/stacked-charts.md">積層型棒</a><br />
+<p><a href="../visualization-tutorials/stacked-charts.md">積層型棒</a><br />
 </p></td>
 </tr>
 <tr class="odd">
 <td><p><img src="images/Stacked-Column-Chart.png" alt="Stacked Column Chart icon" /><br />
 </p>
-<p><a href="~/docs/analytics/visualization-tutorials/stacked-charts.md">積層型柱状</a><br />
+<p><a href="../visualization-tutorials/stacked-charts.md">積層型柱状</a><br />
 </p></td>
 <td><p><img src="images/Step-Area-Chart.png" alt="Step Area Chart icon" /><br />
 </p>
-<p><a href="~/docs/analytics/visualization-tutorials/simple-charts.md">ステップ エリア</a><br />
+<p><a href="../visualization-tutorials/simple-charts.md">ステップ エリア</a><br />
 </p></td>
 <td><p><img src="images/Step-Line-Chart.png" alt="Step Line Chart icon" /><br />
 </p>
-<p><a href="~/docs/analytics/visualization-tutorials/simple-charts.md">ステップ折れ線</a><br />
+<p><a href="../visualization-tutorials/simple-charts.md">ステップ折れ線</a><br />
 </p></td>
 <td><p><img src="images/Text-Gauge.png" alt="Text Gauge icon" /><br />
 </p>
-<p><a href="~/docs/analytics/visualization-tutorials/gauge-charts.md">テキスト</a><br />
+<p><a href="../visualization-tutorials/gauge-charts.md">テキスト</a><br />
 </p></td>
 <td><p><img src="images/Text-View.png" alt="Text View icon" /><br />
 </p>
-<p><a href="~/docs/analytics/visualization-tutorials/text-view.md">テキスト ビュー</a><br />
+<p><a href="../visualization-tutorials/text-view.md">テキスト ビュー</a><br />
 </p></td>
 </tr>
 </tbody>

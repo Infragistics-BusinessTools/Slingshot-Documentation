@@ -16,18 +16,18 @@ Analytics は、日付範囲をダッシュボード フィルターとして有
 
 このセクションは以下のトピックを説明します:
 
-  - **ダッシュボード**と**表示形式エディター**の両方の[ダッシュボード フィルター](dashboard-filters.html)
+  - **ダッシュボード**と**表示形式エディター**の両方の[ダッシュボード フィルター](dashboard-filters.md)
 
-  - [ダッシュボード フィルターの構成可能なプロパティ](dashboard-filters-properties.html):
+  - [ダッシュボード フィルターの構成可能なプロパティ](dashboard-filters-properties.md):
 
-      - [表示フィールド](dashboard-filters-properties.html#displayed-field)
+      - [表示フィールド](dashboard-filters-properties.md#displayed-field)
 
-      - [複数選択](dashboard-filters-properties.html#multiple-selection)
+      - [複数選択](dashboard-filters-properties.md#multiple-selection)
 
-      - [必須選択](dashboard-filters-properties.html#required-selection)
+      - [必須選択](dashboard-filters-properties.md#required-selection)
 
-      - [データ フィルター](dashboard-filters-properties.html#data-filters)
+      - [データ フィルター](dashboard-filters-properties.md#data-filters)
 
-  - [ダッシュボード フィルターと表示形式への接続](connecting-dashboard-filters-visualization.html) (表示形式バインディングとも呼ばれます)
+  - [ダッシュボード フィルターと表示形式への接続](connecting-dashboard-filters-visualization.md) (表示形式バインディングとも呼ばれます)
 
-  - [表示形式のクイック フィルター](visualization-filters.html)
+  - [表示形式のクイック フィルター](visualization-filters.md)
