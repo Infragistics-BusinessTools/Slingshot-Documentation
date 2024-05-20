@@ -70,7 +70,7 @@ For this tutorial, you will use the *Simple Series Charts* sheet in the [Slingsh
 
 1. Select the **+ Dashboard** button in the top right-hand corner of **My Analytics**.
 
-   <img src="images/dashboard-button-my-analytics.png" alt="New Dashboard button in My Analytics" class="responsive-img" width="90%"/>                                      
+   <img src="images/new-dashboard-button.png" alt="New Dashboard button in My Analytics" class="responsive-img" width="90%"/>                                      
 
 2. Select your data source (**Slingshot Tutorials Spreadsheet**) from the list of data sources. If the data source is new, you will need to first add it from the **+ Data Source** button in the top-right corner.
 
