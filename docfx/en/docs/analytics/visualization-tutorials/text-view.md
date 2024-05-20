@@ -8,7 +8,7 @@ _description: A quick tutorial on creating a Text View visualization using a sam
 In this tutorial you will learn how to create a *Text View* visualization
 using a sample spreadsheet.
 
-<img src="images/text-view-sample.png" alt="Visualization sample using Text View" class="responsive-img" width="88%"/>
+<img src="images/text-view-example.png" alt="Visualization sample using Text View" class="responsive-img" width="90%"/>
 
 Access the links below for the Text view walkthroughs.
 
@@ -34,10 +34,10 @@ For this tutorial, you will use the *Simple Series Charts* sheet in the [Slingsh
 
  1. Click/tap on the **+ Dashboard** button in the top right-hand corner in *My Analytics*.
 
-    <img src="images/my-analytics-dashboard-button.png" alt="New Dashboard button in the My Analytics" class="responsive-img" width="90%"/>                                                         
+    <img src="images/new-dashboard-button.png" alt="New Dashboard button in the My Analytics" class="responsive-img" width="90%"/>                                                         
  2. You can choose the data source you want to work with from the list of data sources. If the data source is new, you will need to add it from the **+ Data Source** button.
 
-     <img src="images/visualization-tutorials-sample.png" alt="Data Sources list" class="responsive-img" width="90%"/>                                                         
+     <img src="images/new-visualization-screen.png" alt="Data Sources list" class="responsive-img" width="90%"/>                                                         
  3. Once the data source is configured, select the **Slingshot Tutorials Spreadsheet**. Then, choose the *Simple Series Charts* sheet.  
 
      <img src="images/tutorials-simple-series-charts-spreadsheet.png" alt="Simple Series Charts Spreadsheed in the example data source " class="responsive-img" width="60%"/>                                                                                      

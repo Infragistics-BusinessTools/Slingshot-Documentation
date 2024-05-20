@@ -35,7 +35,7 @@ following cloud providers:
 
   - Google Drive
 
-  - One Drive
+  - OneDrive
 
   - Dropbox
 

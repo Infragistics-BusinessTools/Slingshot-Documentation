@@ -16,7 +16,7 @@ information about the clients. This ML model can be used in Analytics to
 build a visualization giving insight about how the clients' housing type
 relates to their credit risk:
 
-<img src="../images/credit-risk-by-housing-sample-azure-machine-learning.png" alt="Credit risk by Housing example" class="responsive-img" width="80%"/>
+<img src="images/credit-risk-by-housing-sample-azure-machine-learning.png" alt="Credit risk by Housing example" class="responsive-img" width="90%"/>
 
 ## Prerequisites
 
@@ -34,11 +34,11 @@ below:
     information related to the data your machine learning model
     predicts.
 
-2.  In the *Visualization editor*, click/tap on the **brain icon** located
+2.  In the *Visualization Editor*, click/tap on the **brain icon** located
     at the top of the *Fields* list to the left. Then choose **Azure
     Machine Learning**.
 
-    <img src="../images/azure-ml-model-brain-icon.png" alt="Brain icon location in the Visualization editor" class="responsive-img" width="80%"/>
+    <img src="images/azure-ml-models-brain-icon.png" alt="Brain icon location in the Visualization Editor" class="responsive-img" width="90%"/>
 
 <a href="ml-integration/ml-model-connect"></a>
 ## Connecting to Your Azure Machine Learning Model
@@ -50,7 +50,7 @@ following:
     order to access the Web Service exposed by the Azure Machine
     Learning Model:
 
-    <img src="../images/microsoft-azure-connection-configuration.png" alt="MS Azure configuration dialog requested values" class="responsive-img" width="80%"/>
+    <img src="images/microsoft-azure-connection-configuration.png" alt="MS Azure configuration dialog requested values" class="responsive-img" width="90%"/>
 
     To find the **Swagger Document URL** and **API key** you need to do
     the following:
@@ -70,18 +70,18 @@ following:
 2.  The dialog displayed requires you to map the data in Analytics to the
     input expected by your ML model.
 
-    <img src="../images/input-output-microsoft-azure-ml-model.png" alt="Input list in ML model connection dialog" class="responsive-img" width="80%"/>
+    <img src="images/input-output-microsoft-azure-ml-model.png" alt="Input list in ML model connection dialog" class="responsive-img" width="90%"/>
 
     In the dialog above, you have the following columns to consider:
 
     a.  **Input** - the left column displays what kind of data the model requires in order to calculate the output information (e.g. *Credit Risk*). In the right column, select the fields in your dataset (e.g. *Age in years*) that match the requested data in the left column (e.g. *Age*) for the model. Analytics automatically matches all fields in the *Input* list, sharing the same name with the model's requested data.
 
     b.  **Output** - choose the information you want calculated (predicted) by the model. The result will appear as new fields
-    in the Visualization editor, under *From Azure model*.
+    in the Visualization Editor, under *From Azure model*.
+
+      <img src="images/loaded-data-from-azure-ml-model.png" alt="Data output loaded from Azure model" class="responsive-img" width="90%"/>
 
     c.  **Parameters** - some Azure ML models require you to fill in values for the parameters they need in order to calculate the output. In this case you will see a third *Parameters* column between *Input* and *Output*.
 
-      <img src="../images/loaded-data-from-azure-ml-model.png" alt="Data output loaded from Azure model" class="responsive-img" width="80%"/>
-
 You can use the fields returned by the Azure model as regular fields in
-the Visualization editor.
+the Visualization Editor.

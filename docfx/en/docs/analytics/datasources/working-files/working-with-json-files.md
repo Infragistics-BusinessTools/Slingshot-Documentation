@@ -47,14 +47,18 @@ your JSON file:
 
     2.2.  Navigate the provider and select your JSON file.
 
-    <img src="images/add-data-file-json.png" alt="A JSON file located in a cloud data source" class="responsive-img" width="85%"/>
+    <img src="images/add-data-file-json.png" alt="A JSON file located in a cloud data source" class="responsive-img" width="90%"/>
+
+     2.3 Click/tap on **Add Data Source** in order to choose a location for it and save it. You can edit the details of the file, if needed.
+
+     <img src="images/add-datasheet-dialog.png" alt="Dialog where you can edit the details of your file" class="responsive-img" width="90%"/>
 
 3.  **Choose the data structure you want**.
 
     Once you've added the file to your list of data sources, you will be presented with a list of possible
     data structures for you to choose from.
 
-    <img src="images/json-data-list-of-tables.png" alt="List of Json File tables" class="responsive-img" width="58%"/>
+    <img src="images/json-data-list-of-tables.png" alt="List of Json File tables" class="responsive-img" width="90%"/>
 
     If the list does not include the data structure you want, use the
     [**Advanced Selection**](#advanced-selection-mode) mode where you
@@ -63,9 +67,9 @@ your JSON file:
 4.  **Click/tap on Select Data**.
 
     Once you selected the data structure, click/tap on the *Select Data*
-    button to continue to the *Visualization Editor*.
+    button to continue to the *Visualization Editor*. Here you can shape your dashboard.
 
-    <img src="images/visualization-editor-json.png" alt="Json Files Visualizations Editor" class="responsive-img" width="85%"/>
+    <img src="images/json-file-visualization-editor.png" alt="Json Files Visualizations Editor" class="responsive-img" width="90%"/>
 
 <a name='json-advanced-selection'></a>
 ## Advanced Selection Mode
@@ -80,14 +84,14 @@ with, you can build your visualization upon them. To do that, you need to:
     Click/tap on **+ Table** in order to get access to the *Advanced Selection*
     screen.
 
-    <img src="images/json-file-table-option.png" alt="Table option for advanced selection in the data source details dialog for json" class="responsive-img" width="58%"/>
+    <img src="images/json-data-list-of-tables.png" alt="Table option for advanced selection in the data source details dialog for json" class="responsive-img" width="90%"/>
 
 2.  **Navigate the JSON Tree**.
 
     Expand the nodes and select the deepest level where you want to
     select the data from.
 
-    <img src="images/advanced-selection-json-tree.png" alt="Json Files Navigate Tree" class="responsive-img" width="85%"/>
+    <img src="images/advanced-selection-json-tree.png" alt="Json Files Navigate Tree" class="responsive-img" width="90%"/>
 
 3.  **Select the tree elements and fields you want**.
 
@@ -111,5 +115,5 @@ with, you can build your visualization upon them. To do that, you need to:
 
     Once you've selected your custom data structure, click/tap on *Create Table* to continue to the *Visualization Editor*.
     
-    <img src="images/json-tree-create-table.png" alt="Json Files Format Fields" class="responsive-img"/>
+    <img src="images/json-tree-create-table.png" alt="Json Files Format Fields" class="responsive-img" width="90%"/>
 
