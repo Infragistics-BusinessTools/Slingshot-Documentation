@@ -12,7 +12,7 @@ To save time and have the content that is important to you organized, you can qu
 
 <img src="../images/bookmark-option-overflow-menu.png" alt="Bookmark option in the overflow menu of an item" class="responsive-img" width="90%"/>
 
-3.	After you have added, for example, a discussion to your bookmarks, you can find it under the **Bookmarks** section on the left side panel, next to your workspaces and groups (*Enterprise feature*).
+3.	After you have added, for example, a discussion to your bookmarks, you can find it under the **Bookmarks** section on the left side panel, next to your workspaces and groups (*[Enterprise feature](./slingshot-enterprise-subscription.md))*.
 
 <img src="../images/bookmarked-item.png" alt="Bookmarks button" class="responsive-img" width="90%"/>
 

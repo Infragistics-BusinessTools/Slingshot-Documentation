@@ -23,7 +23,7 @@ If your permissions to the file have been **revoked**, you will see the followin
 
 ## Granting Access to Data Source Files with Revoked Permissions
 
-In order to regain access to data sources files, Click/tap on **Request Access from creator** in order to notify the owner of the dashboard
+In order to regain access to data sources files, click/tap on **Request Access from creator** in order to notify the owner of the dashboard
 about your denied access. They will also receive an email notification.
 
 When **the owner** opens the notification (through the app or email message), they will see the following dialog, prompting them to update the sharing settings to the data sources:
