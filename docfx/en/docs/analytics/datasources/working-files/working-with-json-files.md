@@ -66,7 +66,7 @@ your JSON file:
 
 4.  **Click/tap on Select Data**.
 
-    Once you selected the data structure, click/tap on the *Select Data*
+    Once you selected the data structure, click/tap on the **Select Data**
     button to continue to the *Visualization Editor*. Here you can shape your dashboard.
 
     <img src="images/json-file-visualization-editor.png" alt="Json Files Visualizations Editor" class="responsive-img" width="90%"/>
@@ -113,7 +113,7 @@ with, you can build your visualization upon them. To do that, you need to:
 
 5.  **Click/tap on Create Table**.
 
-    Once you've selected your custom data structure, click/tap on *Create Table* to continue to the *Visualization Editor*.
+    Once you've selected your custom data structure, click/tap on **Create Table** to continue to the *Visualization Editor*.
     
     <img src="images/json-tree-create-table.png" alt="Json Files Format Fields" class="responsive-img" width="90%"/>
 
