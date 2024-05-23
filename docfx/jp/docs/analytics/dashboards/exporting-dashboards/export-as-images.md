@@ -27,7 +27,7 @@ Analytics では、ダッシュボード全体のスクリーン キャプチャ
 
 ダッシュボード全体の画像をエクスポートするには:
 
-1.  ダッシュボードの*ビュー モード*で、右上隅の矢印をクリック/タップして、選択した表示形式を**最大化します**。
+1.  ダッシュボードの*ビュー モード*で、右上隅の矢印をクリックまたはタップして、選択した表示形式を**最大化します**。
 
     <img src="images/export-visualization.png" alt="Using the arrow from the upper-right corner to open a visualization" class="responsive-img" width="70%"/>
 

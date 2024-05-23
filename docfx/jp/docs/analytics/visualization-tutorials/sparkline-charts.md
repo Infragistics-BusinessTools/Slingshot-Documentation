@@ -57,7 +57,7 @@ _language: ja
 
 1. **[分析]** セクションの右上隅にある **[+ ダッシュボード]** ボタンを選択します。
 
-   <img src="images/dashboard-button-my-analytics.png" alt="New Dashboard button in My Analytics" class="responsive-img" width="55%"/>  
+   <img src="images/new-dashboard-button.png" alt="New Dashboard button in My Analytics" class="responsive-img" width="90%"/>  
 
 2. データ ソースのリストからデータ ソース (**Slingshot Tutorials Spreadsheet**) を選択します。データ ソースが新しい場合は、最初に右上隅の **[+ データ ソース]** ボタンから追加する必要があります。
 

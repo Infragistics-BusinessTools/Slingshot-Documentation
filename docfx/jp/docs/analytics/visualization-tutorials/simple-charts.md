@@ -54,7 +54,7 @@ _language: ja
 
 1. **[分析]** セクションの右上隅にある **[+ ダッシュボード]** ボタンを選択します。
 
-   <img src="images/dashboard-button-my-analytics.png" alt="New Dashboard button in My Analytics" class="responsive-img" width="55%"/>
+   <img src="images/new-dashboard-button.png" alt="New Dashboard button in My Analytics" class="responsive-img" width="90%"/>
 
 2. データ ソースのリストからデータ ソース (**Slingshot Tutorials Spreadsheet**) を選択します。データ ソースが新しい場合は、最初に右上隅の **[+ データ ソース]** ボタンから追加する必要があります。
 
@@ -105,7 +105,7 @@ _language: ja
 |                                                   |                                                                                |                                                                                           |
 | ------------------------------------------------- | ------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------- |
 | 1\. **設定を変更する**                           | <img src="images/settings-tutorials.png" alt="Settings Menu" class="responsive-img"/>           | 表示形式エディターの **[設定]** セクションに移動します。                               |
-| 2\. **開始位置セクションにアクセスする**         | <img src="images/start-position-settings.png" alt="Start Position section in Settings Menu" class="responsive-img"/>               | 下矢印を選択して、[開始位置] ドロップダウンを展開します。チャートに対して、Reveal の事前定義された開始位置 （0°、90°、180°、または 270°） のいずれかを選択します。                          |
+| 2\. **開始位置セクションにアクセスする**         | <img src="images/start-position-settings.png" alt="Start Position section in Settings Menu" class="responsive-img"/>               | 下矢印を選択して、[開始位置] ドロップダウンを展開します。チャートに対して、Reveal の事前定義された開始位置 (0°、90°、180°、または 270°) のいずれかを選択します。                          |
 
 <a name='change-slice-labels'></a>
 ## ドーナツ型、ファンネルと円チャートのスライスのラベルの変更

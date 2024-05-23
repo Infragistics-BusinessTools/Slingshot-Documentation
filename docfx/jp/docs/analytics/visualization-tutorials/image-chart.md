@@ -24,20 +24,20 @@ _language: ja
 
  1. **[分析]** で、右上隅にある **[+ ダッシュボード]** を選択します。
 
-    <img src="./images/button-dashboard.png" alt="New dashboard button in My Analytics" class="responsive-img" width="65%"/> 
+    <img src="./images/new-dashboard-button.png" alt="New dashboard button in My Analytics" class="responsive-img" width="80%"/> 
 
  2. ダイアログが開き、すでに追加されているデータ ソースのリストが表示されます。Visualization Tutorial (表示形式チュートリアル) ファイルは、すでに使用している場合はデータ ソースとしてそこにあります。ファイルを追加していない場合は、**[+ データ ソース]** ⇒ **[データ ファイル]** ⇒ **[+ 新規]** ⇒ **[アップロード]** をクリックまたはタップして ⇒ ファイルを選択し、**[選択して続行]** ををクリックまたはタップしてリストに含めます。
 
-    <img src="images/select-your-data-source.png" alt="Select a data source from the data sources list" class="responsive-img" width="75%"/>
+    <img src="images/select-your-data-source-dialog.png" alt="Select and add data source from the data sources list" class="responsive-img" width="90%" height="90%"/>
 
  3. データ ソースを設定した、*Image View* シートを選択します。                                
 
-    <img src="images/select-image-view.png" alt="TImage View sheet in Excel Spreadsheet" class="responsive-img" width="57%"/>
+    <img src="images/image-view-visualization-tutorials.png" alt="Image View sheet in Excel Spreadsheet" class="responsive-img" width="57%"/>
 
  4. デフォルトで、表示形式のタイプは**柱状**に設定されています。**画像**オプションを選択します。
 
-    <img src="../images/list-of-chart-types.png" alt="Image View in the list of Chart types" class="responsive-img" width="57%"/>   
-                                                      
-5. 使用可能なフィールドのいずれかを **[URL]** にドラッグします。        
+    <img src="./images/chart-types-image.png" alt="Image View in the list of Chart types" class="responsive-img" width="90%"/>  
 
-   <img src="../images/image-chart-data-organization.png" alt="Organize data in Image View by dragging fields into URL" class="responsive-img" width="30%"/>
+5. 使用可能なフィールドのいずれかを **[URL]** にドラッグします。
+
+    <img src="./images/image-chart-data-organization.png" alt="Organize data in Image View by dragging fields into URL" class="responsive-img" width="90%"/>

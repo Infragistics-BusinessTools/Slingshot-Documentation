@@ -12,10 +12,10 @@ OneDrive データを使用するには、以下の手順を実行します:
 
 1. OneDrive を選択すると、Microsoft の**アカウントとパスワード**を入力するよう求められます。資格情報を入力したら、**[サインイン]** を選択します。
 
-  <img src="images/microsoft-account-onedrive.png" alt="One Drive Login" class="responsive-img" width="60%"/>
+  <img src="images/microsoft-account-onedrive.png" alt="OneDrive Login" class="responsive-img" width="60%"/>
 
 
-2. **[続行]** をクリックすると、**認証プロンプト**が表示されます。続行するには、**[承諾]** をクリック / タップします。
+2. **[続行]** をクリックすると、**認証プロンプト**が表示されます。続行するには、**[承諾]** をクリックまたはタップします。
 
   <img src="images/microsoft-onedrive-permissions.png" alt=" A dialog with a set of permissions for OneDrive" class="responsive-img" width="60%"/>
 

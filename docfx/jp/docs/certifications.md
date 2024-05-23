@@ -50,7 +50,7 @@ Slingshot の組織に所属している場合、リストのデータ ソース
 
 2. 任意のデータ ソースの **[認証済み]** 列でバッジを選択します。
 
-3. **[許可の要求]** をクリック / タップします (以下のスクリーンショットを参照)。
+3. **[許可の要求]** をクリックまたはタップします (以下のスクリーンショットを参照)。
 
 <img src="../images/not-certified-message.png" alt="Request permission button for the certificate" class="responsive-img" width="70%" />
 
@@ -64,7 +64,7 @@ Slingshot の組織に所属している場合、リストのデータ ソース
 
 2. **[データ ソース]** または **[ダッシュボード]** タブを選択します。
 
-3. 認定するデータ ソースまたはダッシュボードの <img src="../images/not-certified-icon.png" alt="アナリティクスで使用されるデータ ソース アイコン" width="24px" height="24px" /> バッジ アイコンをクリック/タップして、ドロップダウン メニューからバッジを選択します。 
+3. 認定するデータ ソースまたはダッシュボードの <img src="../images/not-certified-icon.png" alt="アナリティクスで使用されるデータ ソース アイコン" width="24px" height="24px" /> バッジ アイコンをクリックまたはタップして、ドロップダウン メニューからバッジを選択します。 
 
 認証は階層的です。つまり、<img src="../images/gold-badge-icon.png" alt="アナリティクスで使用される金バッジ アイコン" width="24px" height="24px" />**金**の認証者には、<img src="../images/silver-badge-icon.png" alt="アナリティクスで使用される銀バッジ アイコン" width="24px" height="24px" />*銀*と<img src="../images/bronze-badge-icon.png" alt="アナリティクスで使用される銅バッジ アイコン" width="24px" height="24px" />**銅**のバッジもドロップダウン メニューに表示されます。また、**銅**認証者には銅バッジのみが表示されます。 
 

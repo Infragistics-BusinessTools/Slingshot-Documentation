@@ -14,18 +14,18 @@ _language: ja
 
 ファイルが**削除されている**場合、共有ダッシュボードをクリックすると、Analytics は次のメッセージを表示します。
 
-<img src="images/deleted-source-file-message.png" alt="Message in Analytics: Can't access this data" class="responsive-img" width="90%"/>
+<img src="images/deleted-source-file-message.png" alt="Message in Analytics: Can't access this data" class="responsive-img" width="60%"/>
 
 ファイルへのアクセス許可が**取り消された**場合は、次のように表示されます。
 
-<img src="images/request-access-button.png" alt="configure Dropbox and request access options when access denied" class="responsive-img" width="90%"/>
+<img src="images/request-access-button.png" alt="configure Dropbox and request access options when access denied" class="responsive-img" width="60%"/>
 
 ## 権限の取り消されたデータ ソース ファイルへのアクセス許可
 
-**[作成者にアクセス許可を要求します]** ボタンをクリックして、拒否されたアクセスについてダッシュボードの管理者に通知します。メール通知も送信されます。
+データ ソース ファイルへのアクセスを回復するには、**[作成者にアクセス許可を要求する**] をクリックまたはタップして、アクセスが拒否されたことをダッシュボードの管理者に通知します。メール通知も送信されます。
 
 **管理者**が (アプリまたはメールを介して) 通知を開くと、次のダイアログが表示され、データ ソースへの共有設定を更新するように求められます。
 
-<img src="images/some-data-is-not-accessible-dialog.png" alt="Dialog where you can change the sharing settings for the data source" class="responsive-img"/>
+<!--- <img src="images/some-data-is-not-accessible-dialog.png" alt="Dialog where you can change the sharing settings for the data source" class="responsive-img"/> --->
 
-管理者が **[更新]** をクリックすると、アクセスが正常に修正されたかどうかを通知するメッセージが表示されます。
+管理者が **[更新]** をクリックまたはタップすると、アクセスが正常に修正されたかどうかを通知するメッセージが表示されます。
