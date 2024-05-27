@@ -16,7 +16,7 @@ _language: ja
 
   <img src="images/dashboard-filter-data-source-menu.png" alt="Selecting Dashboard Filter data source menu" class="responsive-img" width="80%"/>
 
-3.  ダッシュボード フィルターとして使用するデータセットを選択し、[データの選択] をクリック/タップします。
+3.  ダッシュボード フィルターとして使用するデータセットを選択し、[データの選択] をクリックまたはタップします。
 
 ## フィルター設定の概要
 
@@ -86,7 +86,7 @@ Analytics は、複数のダッシュボード フィルター値の同時選択
 
 2.  **表示フィールド**プロパティで **Employee Name** を選択します。
 
-3.  [フィールドを選択] をクリック/タップして、リストから [オフィス] を選択します。
+3.  [フィールドを選択] をクリックまたはタップして、リストから [オフィス] を選択します。
 
     <img src="images/dashboard-filters-select-data-filter-field.png" alt="Selecting a field for a data filter in the dashboard filter settings menu" class="responsive-img" width="60%"/>
 
@@ -94,7 +94,7 @@ Analytics は、複数のダッシュボード フィルター値の同時選択
 
     <img src="images/filter-types.png" alt="Dashboard Filters Filter type option" class="responsive-img" width="60%"/>
 
-5.  リストから *London, UK* を選択し、[フィルターの作成] ボタンをクリック/タップします。
+5.  リストから *London, UK* を選択し、[フィルターの作成] ボタンをクリックまたはタップします。
 
 ## Microsoft Analysis Data を使用したダッシュボード フィルター
 

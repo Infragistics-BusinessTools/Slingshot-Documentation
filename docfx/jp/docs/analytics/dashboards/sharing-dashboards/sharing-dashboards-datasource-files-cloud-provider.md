@@ -25,7 +25,7 @@ _language: ja
 
   - Google Drive
 
-  - One Drive
+  - OneDrive
 
   - Dropbox
 
@@ -43,7 +43,7 @@ _language: ja
 
 他のユーザーと共有するときに、共有可能なリンクが無効になっているクラウド ファイルを使用するダッシュボードへのアクセスを許可できます。
 
-1.  ダッシュボードの**オーバーフロー ボタン**をクリック/タップします。
+1.  ダッシュボードの**オーバーフロー ボタン**をクリックまたはタップします。
 
 2.  **[共有]** を選択します。
 
@@ -51,7 +51,7 @@ _language: ja
 
     <img src="images/grant-access-share-dashboard-dialog.png" alt="A dialog to grant access to cloud file data sources" width="40%"/>
 
-    **[アクセスの許可]** をクリック/タップして、[ダッシュボードを共有する](../sharing-dashboards/share-a-dashboard.md)ユーザーの選択に進みます。
+    **[アクセスの許可]** をクリックまたはタップして、[ダッシュボードを共有する](../sharing-dashboards/share-a-dashboard.md)ユーザーの選択に進みます。
 
 <a name='save-dashboard-workspace'></a>
 ## ワークスペース内のクラウド ファイル データ ソースを含むダッシュボードの保存

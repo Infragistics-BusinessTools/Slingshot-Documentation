@@ -16,7 +16,7 @@ _language: ja
 
     <img src="images/dashboard-upload-option.png" alt="Upload dashboard option" class="responsive-img" width="88%"/>
 
-2.  ローカル ファイルを表示するダイアログが開きます。アップロードするダッシュボードをダブル クリック/タップします。Reveal ダッシュボードのファイル拡張子は **.rdash** です。
+2.  ローカル ファイルを表示するダイアログが開きます。アップロードするダッシュボードをダブル クリックまたはタップします。Reveal ダッシュボードのファイル拡張子は **.rdash** です。
 
     >[!NOTE]
     >**ReportPlus ダッシュボードのアップロード**。[分析] では、ReportPlus で作成されたダッシュボードをアップロードして操作することもできます。ReportPlus ダッシュボードのファイル拡張子は **.rplus** です。

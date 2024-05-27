@@ -8,7 +8,7 @@ _language: ja
 
 このチュートリアルはサンプル スプレッドシートを使用し**テキスト ビュー**を作成する方法を説明します。
 
-<img src="images/text-view-sample.png" alt="Visualization sample using Text View" class="responsive-img" width="85%"/>
+<img src="images/text-view-example.png" alt="Visualization sample using Text View" class="responsive-img" width="90%"/>
 
 テキスト ビューのガイドは、以下のリンクから参照してください。
 
@@ -32,19 +32,22 @@ _language: ja
 
  1. **[分析]** の右上隅にある **[+ ダッシュボード]** ボタンをクリックまたはタップします。
 
-    <img src="images/my-analytics-dashboard-button.png" alt="New Dashboard button in the My Analytics" class="responsive-img" width="90%"/>
+    <img src="images/new-dashboard-button.png" alt="New Dashboard button in the My Analytics" class="responsive-img" width="90%"/>
+
  2. データ ソースのリストから、操作するデータ ソースを選択できます。データ ソースが新しい場合は、**[+ データ ソース]** ボタンから追加する必要があります。
 
-     <img src="images/visualization-tutorials-sample.png" alt="Data Sources list" class="responsive-img" width="90%"/>
+     <img src="images/new-visualization-screen.png" alt="Data Sources list" class="responsive-img" width="90%"/>
+
  3. データ ソースを構成したら、**Slingshot tutorials Spreadsheet** を選択します。次に、*Simple Series Charts* シートを選択します。 
 
      <img src="images/tutorials-simple-series-charts-spreadsheet.png" alt="Simple Series Charts Spreadsheed in the example data source " class="responsive-img" width="60%"/>
+
  4.  **表示形式ピッカー**を開き、**テキスト ビュー**を選択します。デフォルトで、表示形式のタイプは**柱状**に設定されています。  
- 
+
       <img src="images/text-view-chart-types.png" alt="Text View in the Chart Types list" class="responsive-img" width="70%"/>
 5. たとえば、上記のテキスト ビューには、特定の国の人口、平均余命および出生率が表示されます。「Country Name」、「Population」、「Life Expectancy」、「Fertility Rate」を [列] にドラッグアンドドロップします。
 
-     <img src="images/organizing-data-text-view.png" alt="Organize Text View data" class="responsive-img" width="70%"/>   
+     <img src="images/organizing-data-text-view.png" alt="Organize Text View data" class="responsive-img" width="70%"/>
 
 <a name='changing-selected-row'></a>
 ## 選択された行を変更する方法
