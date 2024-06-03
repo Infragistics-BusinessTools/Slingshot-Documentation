@@ -1,4 +1,4 @@
-- name: Reveal の Azure Machine Learning
+- name: Azure 機械学習モデルとの統合
   href: azure-machine-learning-models.md
-- name: Reveal の BigQuery Machine Learning
+- name: BigQuery 機械学習モデルとの統合
   href: bigquery-machine-learning-models.md

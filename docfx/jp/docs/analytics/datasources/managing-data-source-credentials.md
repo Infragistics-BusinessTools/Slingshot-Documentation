@@ -33,7 +33,7 @@ _language: ja
 
 それらを削除しない限り、資格情報を必要とするデータ ソースを構成するときに、[分析] に保存されているアカウントの資格情報が常にアカウントの一覧に表示されます。
 
-<img src="images/stored-credentials-data-sources-list.png" alt="Example of stored credentials for a data source" class="responsive-img" width="60%"/>
+<img src="images/stored-credentials-data-sources-list.png" alt="Example of stored credentials for a data source" class="responsive-img" width="80%"/>
 
 > [!NOTE] 
 >役立つヒント! 複数のデータ ソースで使用する予定のすべての資格情報をここに追加して整理するために時間をかけてください。

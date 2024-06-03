@@ -56,7 +56,7 @@ Slingshot は、分析、データ ソースとセット、表示形式、ダッ
 
 3. **[適用]** をクリックまたはタップして変更を保存します。
 
-<img src="../images/data-sources-filter-dialog.png" alt="Different filters in the data catalog" width="40%" class="responsive-img"/>
+<img src="../images/data-sources-filter-dialog.png" alt="Different filters in the data catalog" width="35%" class="responsive-img"/>
 
 ## データ カタログの構成
 
@@ -93,9 +93,9 @@ Slingshot は、分析、データ ソースとセット、表示形式、ダッ
    Slingshot ユーザーが、分析、ワークスペース、プロジェクトにある、ダッシュボードまたはデータ ソースを持っているとします。そのコンテンツを組織全体で利用できるようにするには、そのためのプロセスを開始します。
    
    A. ダッシュボードのオーバーフロー (右上) をクリックまたはタップし、**[データ & 分析のカタログに移動]** を選択します。  
-   <img src="../images/data-catalog-dashboard-overflow.png" alt="Data Catalog dashboard overflow within Slingshot" class="responsive-img" width="50%"/> 
+   <img src="../images/data-catalog-dashboard-overflow.png" alt="Data Catalog dashboard overflow within Slingshot" class="responsive-img" width="45%"/> 
    B. 組織管理者に要求を説明するメッセージを書き込みます。ダッシュボードまたはデータ ソースのコピーを元の場所に保存するかどうかも選択できます。  
-   <img src="../images/data-catalog-request.png" alt="Data Catalog dashboard request within Slingshot" class="responsive-img" width="50%"/>  
+   <img src="../images/data-catalog-request.png" alt="Data Catalog dashboard request within Slingshot" class="responsive-img" width="45%"/>  
 
 2. **データ ソースまたはダッシュボードが [レビュー待ち] に移動します。**  
    **レビュー待ち**のリストには、組織の管理者によるレビュー待ちのすべてのデータ ソースまたはダッシュボードが含まれます。

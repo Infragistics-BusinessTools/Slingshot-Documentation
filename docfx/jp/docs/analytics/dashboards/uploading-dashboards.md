@@ -14,9 +14,9 @@ _language: ja
 
 3. オーバーフロー メニューに移動し、**[アップロード]** を選択します。
 
-    <img src="images/dashboard-upload-option.png" alt="Upload dashboard option" class="responsive-img" width="88%"/>
+    <img src="images/dashboard-upload-option.png" alt="Upload dashboard option" class="responsive-img" width="80%"/>
 
-2.  ローカル ファイルを表示するダイアログが開きます。アップロードするダッシュボードをダブル クリックまたはタップします。Reveal ダッシュボードのファイル拡張子は **.rdash** です。
+2.  ローカル ファイルを表示するダイアログが開きます。アップロードするダッシュボードをダブルクリックまたはタップします。Reveal ダッシュボードのファイル拡張子は **.rdash** です。
 
     >[!NOTE]
     >**ReportPlus ダッシュボードのアップロード**。[分析] では、ReportPlus で作成されたダッシュボードをアップロードして操作することもできます。ReportPlus ダッシュボードのファイル拡張子は **.rplus** です。
