@@ -26,20 +26,21 @@ To share a dashboard created by you with individual users you need to:
 
 1.  Access the *Share dialog* - Open the overflow menu and choose **Shared With**.
 
+  <img src="images/shared-with-button.png" alt="Accessing the sharing dialog of a dashboard" class="responsive-img" width="90%"/>
 
-  <img src="images/shared-with-button.png" alt="Accessing the sharing dialog of a dashboard" class="responsive-img" width="85%"/>
-
-  Once you have shared a folder with other people, the files will appear under the **Shared with Me** section in the left panel. Alternatively they can find the files when they open **My Analytics** and click/tap on **Shared with Me** that is under **Filters**.
-
-  <img src="images/shared-with-me-section.png" alt="Finding the Shared with Me option in different sections" class="responsive-img" width="85%"/>
+  Once you have shared a folder with other people, the files will appear under the **Shared with Me** section in the left panel. Alternatively, they can find the files when they open **My Analytics** and click/tap on **Shared with Me** that is under **Filters**.
+  
+  <img src="images/shared-with-me-section.png" alt="Finding the Shared with Me option in different sections" class="responsive-img" width="90%"/>
 
 <a name='access-permissions'></a>
 
 2.  **Choose the users** you want to share the dashboard with - Enter the e-mail addresses or the names of the people you want to invite and click/tap on **Done**.
 
+<img src="images/add-users-sharing-dashboards.png" alt="Choosing with whom to share a dashboard" class="responsive-img" width="90%"/>
+
 3.  After selecting the users, click/tap on **Update**. The dashboard will be shared automatically with the selected users if they are part of your [Organization](../../../security.md). Other users will be able to see the dashboard in the **Shared with Me** section after they have accepted the invitation.
 
-  <img src="images/add-users-sharing-dashboards.png" alt="Choosing with whom to share a dashboard" class="responsive-img" width="85%"/>
+<img src="images/shared-with-update-button.png" alt="Update button in the shared with dialog" class="responsive-img" width="90%"/>
 
 **You can change the access level for users at any time when you are the owner of the dashboard** by accessing
 the *Share* menu. You will see a list of all users you have shared the
@@ -49,23 +50,22 @@ dashboard with and their access level. In order to change their access level, op
 *Share* dialog and selecting **Remove** from the drop-down menu next to any
 member's name.
 
-<img src="images/shared-with-remove-option.png" alt="Remove a member option" class="responsive-img" width="85%"/>
+<img src="images/shared-with-remove-option.png" alt="Remove a member option" class="responsive-img" width="90%"/>
 
 In general, a user can have one of the following permissions:
 
   - **Owner** permissions - the user can create, edit, share and delete.
 
-  - **Contributor** permissions - the user can create, edit, share, and delete. Keep in mind that the user cannot delete the item that was shared with them (Dashboard/Dashboard List).
+  - **Contributor** permissions - the user can create, edit, share (with the owner's approval), and delete. Keep in mind that the user cannot delete the item that was shared with them (Dashboards/Dashboard Lists).
 
-   <img src="images/request-to-share-button.png" alt="Sending a request to the owner in order to share a dashboard" width="35%" class="responsive-img"/>
+   <img src="images/request-to-share.png" alt="Sending a request to the owner in order to share a dashboard" class="responsive-img" width="90%"/>
 
   - **Viewer** permissions - the user can view a dashboard. They can also share it with another user after the approval of the owner.
 
 <a name='sharing-workspace-dashboard'></a>
 ## Sharing a Workspace's Dashboard with Other Users
 
-Any member of a workspace can share the workspace's dashboards with other users. To do this, go to the *Workspaces* tab and choose a dashboard from the *Dashboards* section. Then, follow the steps in [Sharing your Own Dashboard with Other Users](#sharing-your-own-dashboards-with-other-users). Keep in mind that the owner of the workspace needs to approve the request first in order for a member to share a dashboard with another member.
-
+Any member of a workspace can share the workspace's dashboards with other users. To do this, go to the **Workspaces** tab and choose a dashboard from the **Dashboards** section. Then, follow the steps in [Sharing your Own Dashboard with Other Users](#sharing-your-own-dashboards-with-other-users). Keep in mind that the owner of the workspace needs to approve the request first in order for a member to share a dashboard with another member.
 
 <a name='sharing-dashboard-with-workspace'></a>
 ## Sharing a Dashboard with a Whole Workspace
@@ -73,7 +73,7 @@ Any member of a workspace can share the workspace's dashboards with other users.
 You can share a dashboard you have access to with a workspace instead of individually with every workspace member.
 
  To do this, choose
-a dashboard from the *Dashboards* section in *My Analytics* or *Workspaces* tab.
+a dashboard from the **Dashboards** section in **My Analytics** or **Workspaces** tab.
 Then follow the steps in [Sharing your Own Dashboards with Other Users](#sharing-your-own-dashboards-with-other-users).
 
 >[!NOTE]

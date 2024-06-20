@@ -14,7 +14,7 @@ To configure a Snowflake data source, you first need to connect to the server by
     enter the credentials for your *Snowflake* server or select existing
     ones if applicable.
 
-     <img src="images/add-snowflake-credentials.png" alt="A dialog where you can add your credentials" class="responsive-img" width="50%"/>
+     <img src="images/add-snowflake-credentials.png" alt="A dialog where you can add your credentials" class="responsive-img" width="55%"/>
 
     - **Username**: the user account for the *Snowflake* server or the name of the domain.
 
@@ -27,10 +27,10 @@ To configure a Snowflake data source, you first need to connect to the server by
 
 1.  **Select a database** by marking the empty circle next to it:
 
-  <img src="images/snowflake-database-dialog.png" alt="Select a Snowflake database" class="responsive-img" width="55%"/>
+    <img src="images/snowflake-database-dialog.png" alt="Select a Snowflake database" class="responsive-img" width="55%"/>
 
 2.  **Select a table** from the database. Use the icon on the right, next to the empty circles, to preview the data.
 
-  <img src="images/snowflake-data-source-details.png.png" alt="Select a Snowflake table" class="responsive-img" width="55%"/>
+    <img src="images/snowflake-data-source-details.png.png" alt="Select a Snowflake table" class="responsive-img" width="55%"/>
 
 You are now directed to the *Visualization editor* where you can start building your visualizations with the data retrieved from Snowflake.
