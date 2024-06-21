@@ -4,7 +4,7 @@
 
 To configure a Snowflake data source, you first need to connect to the server by entering the following information:
 
-<img src="images/add-snowflake-server.png" alt="Configure Snowflake Server details" class="responsive-img" width="55%"/>
+<img src="images/add-snowflake-server.png" alt="Configure Snowflake Server details" class="responsive-img" width="53%"/>
 
 1.  **Account**: Your snowflake account without the region or cloud provider information. For example, it should be similar to \<account_name\> instead of *\<account_name\>.us-east-1.snowflakecomputing.com*.
 
@@ -14,7 +14,7 @@ To configure a Snowflake data source, you first need to connect to the server by
     enter the credentials for your *Snowflake* server or select existing
     ones if applicable.
 
-     <img src="images/add-snowflake-credentials.png" alt="A dialog where you can add your credentials" class="responsive-img" width="55%"/>
+     <img src="images/add-snowflake-credentials.png" alt="A dialog where you can add your credentials" class="responsive-img" width="53%"/>
 
     - **Username**: the user account for the *Snowflake* server or the name of the domain.
 

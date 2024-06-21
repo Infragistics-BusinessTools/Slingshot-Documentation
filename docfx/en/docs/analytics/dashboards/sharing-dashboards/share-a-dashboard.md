@@ -34,7 +34,7 @@ To share a dashboard created by you with individual users you need to:
 
 <a name='access-permissions'></a>
 
-2.  **Choose the users** you want to share the dashboard with - Enter the e-mail addresses or the names of the people you want to invite and click/tap on **Done**.
+2.  **Choose the users** you want to share the dashboard with - Enter the e-mail addresses or the names of the people you want to invite and click/tap on **Close**.
 
 <img src="images/add-users-sharing-dashboards.png" alt="Choosing with whom to share a dashboard" class="responsive-img" width="90%"/>
 

@@ -75,7 +75,7 @@ Analytics will load and show the databases on the server. Select a database and 
 
 Choose a database *cube* and click/tap on **Select Data** to continue to the *Visualization Editor*.
 
-<img src="images/microsoft-analysis-services-cubes.png" alt="A list of different cubes in the Data Source Details dialog" class="responsive-img" width="50%"/>
+<img src="images/microsoft-analysis-services-cubes.png" alt="A list of different cubes in the Data Source Details dialog" class="responsive-img" width="53%"/>
 
 <a name='visualization-editor'></a>
 ## Working in the Visualization Editor
@@ -92,7 +92,7 @@ In the screenshot above, you may notice that there is no "Fields" heading on the
 
     a.  **Hierarchies** - when elements in a dimension are organized by
         hierarchy, you can use the whole hierarchy or part of it,
-        starting from an element at any lower level. For example, if you have a "Geography" dimension organized in "Country → State → City" hierarchy, you are allowed to drag and use only the "State → City" part of this hierarchy.
+        starting from an element at any lower level. For example, if you have a "Geography" dimension organized in "Country ⇒ State ⇒ City" hierarchy, you are allowed to drag and use only the "State ⇒ City" part of this hierarchy.
 
     b.  **Attributes** - elements are organized in single-level
         hierarchies (e.g. a "Demographic" attribute, containing groups

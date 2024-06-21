@@ -37,7 +37,7 @@ To close regular tooltips just click or tap away.
 
 ## Hover Tooltips & Crosshairs
 
-You will find two options in the **Interactions** menu: *Hover tooltips* and *Crosshairs*. Both are only available in *Dashboard View* mode. They can't be used in *Dashboard Edit mode*.
+You will find two options in the **Interactions** menu: **Hover tooltips** and **Crosshairs**. Both are only available in *Dashboard View* mode. They can't be used in *Dashboard Edit mode*.
 
 <img src="images/interactions-option.png" alt="Accessing Slingshot's Dashboard Interactions option" class="responsive-img" width="90%"/>
 
@@ -76,8 +76,8 @@ values in your visualization.
 <a name='view-edit-mode'></a>
 ## View & Edit Modes
 
-When first opening a dashboard, you will be browsing it in **View
-mode**. This mode allows you to navigate and filter the information
+When first opening a dashboard, you will be browsing it in *View
+mode*. This mode allows you to navigate and filter the information
 displayed in it, but you won't be able to change the dashboard
 definition.
 

@@ -14,7 +14,7 @@ simply getting the data from the reports to create a visualization.
 To configure a Microsoft Reporting Services (SSRS) Data Source, you will
 need to enter the following information:
 
-<img src="./images/microsoft-reporting-services.png" alt="Set up menu for Microsoft Reporting Services data source" class="responsive-img" width="55%"/>
+<img src="./images/microsoft-reporting-services.png" alt="Set up menu for Microsoft Reporting Services data source" class="responsive-img" width="50%"/>
 
 1.  **URL**: the URL to the server.
 
@@ -64,7 +64,7 @@ Based on the visualization that you have chosen, you will see different types of
 
 Once you are ready with your visualization, click/tap on the checkmark in the top right corner to save it as a dashboard. 
 
-In this case we saved the dashboard in **My Analytics** 
+In this case, we saved the dashboard in **My Analytics** 
 ⇒ **My Dashboards** ⇒ **Accounting**.
 
 <img src="images/microsoft-reporting-services-my-analytics-dashboard.png" alt="Microsoft Reporting Services dashboard in a dashboard section in My Analytics" class="responsive-img" width="90%"/>

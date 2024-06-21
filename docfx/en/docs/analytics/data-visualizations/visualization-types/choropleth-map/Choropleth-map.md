@@ -61,19 +61,19 @@ To follow this walkthrough, download the [2016 November General Election](https:
 
 1. Connect to the cloud provider where you uploaded the spreadsheet. For more information on adding a data source in Analytics, visit the [Data Sources](~/docs/analytics/datasources/overview.md) section.
 
-2. In the visualization editor, select the *Choropleth Map* visualization:
+2. In the visualization editor, select the **Choropleth Map** visualization:
 
   <img src="images/chart-types-choropleth.png" alt="Select choropleth map visualization from the list of chart types" class="responsive-img" width="90%"/>
 
-3. In the *Choropleth Data* section, select the US States map from the *Map* drop-down menu. An outline of the United States map will be displayed on the screen.
+3. In the *Choropleth Data* section, select the **US States map** from the *Map* drop-down menu. An outline of the United States map will be displayed on the screen.
 
   <img src="images/list-available-maps.png" alt="List of available maps" class="responsive-img" width="90%"/>
 
-4. In the *Location* placeholder, drop the *State* or *State Abv* filed. Both of them contain a list of the US states' names.
+4. In the *Location* placeholder, drop the **State** or **State Abv** filed. Both of them contain a list of the US states' names.
 
-5. For *Values*, select the field containing the quantitative data you want to map. For this example, we will use the *Total Votes (%)*, containing the voting rates in every state.
+5. For *Values*, select the field containing the quantitative data you want to map. For this example, we will use the **Total Votes (%)**, containing the voting rates in every state.
 
-6. Format the *Value* field to show percentage. Select the *Total Votes (%)* under *Value* ⇒ *Formatting* ⇒ *Type* ⇒ *Percent*. Find more about formatting fields in the [Field Settings](~/docs/analytics/data-visualizations/fields/field-settings.md) topic.
+6. Format the *Value* field to show percentage. Select the **Total Votes (%)** under *Value* ⇒ *Formatting* ⇒ *Type* ⇒ *Percent*. Find more about formatting fields in the [Field Settings](~/docs/analytics/data-visualizations/fields/field-settings.md) topic.
 
 7. You can add a filter when you choose a field in the *Data Filters* placeholder. *(Optional)*
 
