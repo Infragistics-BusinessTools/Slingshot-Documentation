@@ -12,7 +12,7 @@ _description: Connecting and using PostgreSQL as a data source in Slingshot.
 To configure a PostgreSQL server data source, you will need to enter the
 following information:
 
-<img src="./images/add-postgresql-server-dialog.png" alt="Configure PostgreSQL data source dialog" class="responsive-img" width="48%"/>
+<img src="./images/add-postgresql-server-dialog.png" alt="Configure PostgreSQL data source dialog" class="responsive-img" width="53%"/>
 
 1.  [**Server**](#how-to-find-your-server-information): the computer name or IP address
     assigned to the computer on which the server is running.
@@ -66,7 +66,7 @@ returns a subset of data from a table or a set of tables instead.
 In the sample above, the **invoices** view contains a modified version
 of the data in the **Products** table in the PostgreSQL server.
 
-<img src="../images/postgresql-comparison-table-view.png" alt="Example of dashboard using PostgreSQL invoices view data" class="responsive-img"/>
+<img src="./images/postgresql-comparison-table-view.png" alt="Example of dashboard using PostgreSQL invoices view data" class="responsive-img" width="90%"/>
 
 ### Working With Functions
 
@@ -80,7 +80,7 @@ After you select a function, you will need to set up some additional parameters.
 
 In this case, the function requires you to configure the start and end date to display the Sales for period information.
 
-<img src="./images/postgresql-parameters.png" alt="Example of Sales for period function parameters for PostgreSQL" class="responsive-img" width="55%"/>
+<img src="./images/postgresql-parameters.png" alt="Example of Sales for period function parameters for PostgreSQL" class="responsive-img" width="90%"/>
 
 For more information on Functions and PostgreSQL, visit this <a href="https://www.postgresql.org/docs/9.0/sql-createfunction.html" target="_blank">documentation website</a>.
 
@@ -88,13 +88,14 @@ For more information on Functions and PostgreSQL, visit this <a href="https://ww
 
 Once your data source has been added, you will be taken to the *Visualization Editor*. Here you can build your dashboard. Note that based on the visualization that you have chosen, you will see different types of fields.
 
-<img src="./images/visualization-editor-postgresql.png" alt="Working in the Visualization Editor while using postgresql as a data source." class="responsive-img" width="80%"/>
+<img src="./images/visualization-editor-postgresql.png" alt="Working in the Visualization Editor while using postgresql as a data source." class="responsive-img" width="90%"/>
 
 When you are ready with your visualization, you can click/tap on the checkmark in the top right corner to save it as a dashboard. In the example below we saved the dashboard in **My Analytics** ⇒ **My Dashboards** ⇒ **Customer support**.
 
-<img src="./images/postgresql-my-analytics.png" alt="PostgreSQL dashboard in My Analytics" class="responsive-img" width="80%"/>
+<img src="./images/postgresql-my-analytics.png" alt="PostgreSQL dashboard in My Analytics" class="responsive-img" width="90%"/>
 
 ## Limitations for Functions in Analytics
 
 * Output parameters in functions are ignored.
+
 * Functions that return no result sets will be listed in the Data Sources list, but will fail.
