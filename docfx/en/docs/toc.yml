@@ -17,6 +17,11 @@
 - name: Tasks
   href: tasks.md
   updated: false
+  items: 
+    - name: Custom Fields
+      href: custom-fields.md
+    - name: Task Types
+      href: task-types.md
 - name: Pins
   href: pins.md
 - name: Data Catalog
