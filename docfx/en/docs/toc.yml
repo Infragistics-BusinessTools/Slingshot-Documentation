@@ -52,9 +52,6 @@
 - name: Bookmarks
   href: bookmarks.md
   new: false 
-- name: Archive
-  href: archive.md
-  new: false 
 - name: Productivity Tips
   header: true
 - name: Archives
