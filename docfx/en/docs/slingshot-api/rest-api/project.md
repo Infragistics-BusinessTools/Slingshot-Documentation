@@ -96,7 +96,7 @@ Note that users can have different roles and permissions in a project. [Here](ht
 
 ## Create a project
 
-<img src="../images/post-request.png" alt="Post request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***htt<area>ps://my.slingshotapp<area>.io/v1/projects***</span>
+<img src="../images/post-request.png" alt="Post request for a project" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***htt<area>ps://my.slingshotapp<area>.io/v1/projects***</span>
 
 Required parameters: None
 
@@ -214,8 +214,8 @@ Example of a successful request body:
 
 ## Get a project
 
-<img src="../images/get.png" alt="Get request" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/>
-<span class="italic">***htt<area>ps://my.slingshotapp<area>.io/v1/projects/{id}***</span>
+<img src="../images/get.png" alt="Get request for a project" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/>
+<span class="italic">***https://my.slingshotapp.io/v1/projects/{id}***</span>
 
 Required parameters: the **id** of the project
 
@@ -231,7 +231,7 @@ Code | Description|
 
 ## Get all projects for a current user 
 
-<img src="../images/get-all.png" alt="Get all request" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> <span class="italic">***htt<area>ps://my.slingshotapp<area>.io/v1/projects***</span>
+<img src="../images/get-all.png" alt="Get all request for projects for a current user" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> <span class="italic">***htt<area>ps://my.slingshotapp<area>.io/v1/projects***</span>
 
 Required parameters: None
 
@@ -247,7 +247,7 @@ Possible responses:
 
 ## Update a project  
 
-<img src="../images/patch.png" alt="Patch request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/projects/{id}***
+<img src="../images/patch.png" alt="Patch request for a project" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/projects/{id}***
 
 Required parameters: the **id** of the project
 
@@ -355,7 +355,7 @@ Example of a successful request body:
 
 ## Delete a project
 
-<img src="../images/delete.png" alt="Delete request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/projects/{id}***
+<img src="../images/delete.png" alt="Delete request for a project" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/projects/{id}***
 
 Required parameters: the **id** of the project
 
@@ -371,7 +371,7 @@ Possible responses:
 
 ## Add members to a project
 
-<img src="../images/post-request.png" alt="Post request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/projects/{id}/members***
+<img src="../images/post-request.png" alt="Post request for adding members to a project" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/projects/{id}/members***
 
 Required parameters: the **id** of the project 
 
@@ -493,7 +493,7 @@ Example of a successful request body:
 
 ## Update members’ roles of a project 
 
-<img src="../images/patch.png" alt="Patch request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/projects/{id}/members***
+<img src="../images/patch.png" alt="Patch request for updating members' roles of a project" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/projects/{id}/members***
 
 Required parameters: the **id** of the project
 
@@ -613,7 +613,7 @@ Example of a successful request body:
 
 ## Remove members from a project 
 
-<img src="../images/delete.png" alt="Delete request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/projects/{id}/members***
+<img src="../images/delete.png" alt="Delete request for removing members from a project" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/projects/{id}/members***
 
 Required parameters: the **id** of the project
 
@@ -723,7 +723,7 @@ Example of a successful request body:
 
 ## Grant requests access to add members to a project
   
-<img src="../images/patch.png" alt="Patch request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/projects/{id}/requests***
+<img src="../images/patch.png" alt="Patch request for granting requests access to add members to a project" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/projects/{id}/requests***
 
 Required parameters: the **id** of the project
 
@@ -835,7 +835,7 @@ Example of a successful request body:
 
 ## Deny requests to add members to a project 
 
-<img src="../images/delete.png" alt="Delete request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/projects/{id}/requests***
+<img src="../images/delete.png" alt="Delete request for denying requests to add members to a project" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/projects/{id}/requests***
 
 Required parameters: the **id** of the project
 

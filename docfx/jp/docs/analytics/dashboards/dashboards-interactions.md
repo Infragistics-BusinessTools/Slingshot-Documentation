@@ -9,23 +9,17 @@
 <a name='maximized-view'></a>
 ## 最大化されたビュー
 
-ダッシュボードが開くと、表示形式のいずれかにカーソルをホバーし、右上隅の矢印をクリック/タップすることで**最大化**できます。
+ダッシュボードが開くと、表示形式のいずれかにカーソルをホバーし、右上隅の矢印をクリックまたはタップすることで**最大化**できます。
 
 最大化されたビューは、より多くの情報の表示を可能にします。
 
-<img src="images/visualization-maximized-view.png" alt="maximized visualization view" class="responsive-img" width="85%"/>
+<img src="images/visualization-maximized-view.png" alt="Maximized visualization view for dashboards" class="responsive-img" width="85%"/>
 
 さらに、このモードでは、右上隅の**小さなチャート アイコン**をタップし、最大化されたビューを他の表示形式に切り替えることができます。エディターで使用されたデータに基づいて、さまざまな表示形式が表示されます。データで適切に機能するチャート タイプのみが提供されます。
 
-変更された表示形式を保存する場合は、編集権限を持ち、[ダッシュボード編集モード](#ビュー--編集モード)で右上隅のチェック アイコンを選択して変更を明示的に保存する必要があります。自分で作成したか、[管理者または変更の権限](~/docs/analytics/dashboards/sharing-dashboards/share-a-dashboard.md#access-permissions)で共有しているダッシュボードの編集権限があります。
+<img src="images/different-chart-options-visualization.png" alt="Chart types in visualization view mode" class="responsive-img" width="90%"/>
 
-<img src="images/different-chart-options-for-visualization.png" alt="chart change in visualization view mode" class="responsive-img" width="85%"/>
-
-さらに、表示形式メニューの右上隅にある**チャート アイコン**をクリックすると、ビューを切り替え、チャートの背後のデータを表示できます。
-
-<img src="images/grid-chart-sample.png" alt="flip to grid" class="responsive-img" width="85%"/>
-
-表示形式のデータ ビハインド表示で並べ替え (昇順または降順) を適用できます。グリッドの並べ替え詳細については、[グリッド チャート](~/docs/analytics/data-visualizations/visualization-types/grid-chart.md)トピックをご覧ください。
+変更された表示形式を保存する場合は、編集権限を持ち、[ダッシュボード編集モード](#ビュー--編集モード)で右上隅のチェック アイコンを選択して変更を明示的に保存する必要があります。自分で作成したか、[管理者または変更の権限](../../security.md)で共有しているダッシュボードの編集権限があります。
 
 元の表示形式へ戻すために、**[元の形式を表示]** リンクを選択します。
 
@@ -63,7 +57,7 @@
 
 <img src="images/tooltips-totals-example.png" alt="Tooltips total values example" class="responsive-img" width="88%"/>
 
-この機能を有効にするには、次のように、[設定] -> [ツールチップで合計を表示] に移動します:
+この機能を有効にするには、次のように、[設定] ⇒ [ツールチップで合計を表示] に移動します:
 
 <img src="images/show-totals-on-tooltip.png" alt="Show totals on tooltip option in the settings" class="responsive-img" width="88%"/>
 
@@ -74,23 +68,23 @@
 
 ダッシュボードを初めて開いた場合、**ビュー モード**でブラウズすることになります。このモードでは、表示された情報のナビゲーションやフィルタリングが可能ですが、ダッシュボード定義を変更することはできません。
 
-ダッシュボードへの変更を適用するためには、**ダッシュボードの編集モード**に切り替える必要があります。ダッシュボードの右上隅のオーバーフロー メニューから [編集] を選択します。または、鉛筆のアイコンをクリック / タップします。編集中に、**[自動レイアウト]** の適用やダッシュボードの **[テーマ]** の変更など、さまざまな変更を加えることができます。
+ダッシュボードへの変更を適用するためには、**ダッシュボードの編集モード**に切り替える必要があります。ダッシュボードの右上隅のオーバーフロー メニューから **[編集]** を選択します。または、鉛筆のアイコンをクリックまたはタップします。編集中に、**[自動レイアウト]** の適用やダッシュボードの **[テーマ]** の変更など、さまざまな変更を加えることができます。
 
 以下は、**ダッシュボード編集**モードのダッシュボードです:
 
-<img src="images/edit-a-dashboard.png" alt="dashboard opened in edit mode" class="responsive-img" width="85%"/>
+<img src="images/dashboard-edit-mode.png" alt="Dashboard opened in edit mode" class="responsive-img" width="85%"/>
 
-**編集モードを終了するには**、右上隅のチェック アイコンを選択します。これにより、**ビュー モード**に戻ります。
+**編集モード**を終了するには、右上隅のチェック アイコンを選択します。これにより、**ビュー モード**に戻ります。
 
 ## ダッシュボード フィルター
 
 ダッシュボードまたは表示形式レベルで情報をフィルターできます。
 
-  - [**ダッシュボード フィルター**](~/docs/analytics/filters/dashboard-filters.html) は、ダッシュボード編集モードを開くと使用できます (このモードにアクセスするには、ダッシュボードのオーバーフロー メニューから **[編集]** を選択します)。画面の左上隅に、現在のダッシュボード フィルターと、新しいフィルターを追加するオプションが表示されます。
+  - [**ダッシュボード フィルター**](../filters/dashboard-filters.md) は、ダッシュボード編集モードを開くと使用できます (このモードにアクセスするには、ダッシュボードのオーバーフロー メニューから **[編集]** を選択します)。画面の左上隅に、現在のダッシュボード フィルターと、新しいフィルターを追加するオプションが表示されます。
 
-  - [**表示形式フィルター**](~/docs/analytics/filters/Visualization-Filters.html) (つまり、クイック フィルター) は最大化モードで表示されます。これらは、表示形式の名前の下にある表示形式の上部セクションにあります。
+  - [**表示形式フィルター**](../filters/visualization-filters.md) (つまり、クイック フィルター) は最大化モードで表示されます。これらは、表示形式の名前の下にある表示形式の上部セクションにあります。
 
-ダッシュボードと表示形式フィルターの詳細については、[このセクション](~/docs/analytics/filters/overview.html)をご覧ください。
+ダッシュボードと表示形式フィルターの詳細については、[このセクション](../filters/overview.md)をご覧ください。
 
 ## 表示形式の自動レイアウト
 

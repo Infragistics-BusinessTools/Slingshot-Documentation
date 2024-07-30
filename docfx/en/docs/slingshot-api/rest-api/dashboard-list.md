@@ -42,7 +42,7 @@ With dashboards you can display information with the help of beautiful visualiza
 
 ## Create a dashboard list   
 
-<img src="../images/post-request.png" alt="Post request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> <span class="italic">***htt<area>ps://my.slingshotapp<area>.io/v1/dashboardlists***</span>
+<img src="../images/post-request.png" alt="Post request for a dashboard list" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> <span class="italic">***htt<area>ps://my.slingshotapp<area>.io/v1/dashboardlists***</span>
 
 Required parameters: None 
 
@@ -104,7 +104,7 @@ Example of a successful request body:
 
 ## Get a dashboard list 
 
-<img src="../images/get.png" alt="Get request" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/dashboardlists/{id}***
+<img src="../images/get.png" alt="Get request for a dashboard list" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/dashboardlists/{id}***
 
 Required parameters: the **id** of the dashboard list
 
@@ -120,7 +120,7 @@ Possible responses:
 
 ## Get all dashboard lists for a parent document
 
-<img src="../images/get-all.png" alt="Get all request" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/dashboardlists/parent/{id}***
+<img src="../images/get-all.png" alt="Get all request for dashboard lists" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/dashboardlists/parent/{id}***
 
 Required parameters: the **id** of the parent document
 
@@ -136,7 +136,7 @@ Possible responses:
 
 ## Update a dashboard list  
 
-<img src="../images/patch.png" alt="Patch request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/dashboardlists/{id}***
+<img src="../images/patch.png" alt="Patch request for a  dashboard list" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/dashboardlists/{id}***
 
 Required parameters: the **id** of the dashboard list
 
@@ -191,7 +191,7 @@ Example of a successful request body:
 
 ## Delete a dashboard list
 
-<img src="../images/delete.png" alt="Delete request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/dashboardlists/{id}***
+<img src="../images/delete.png" alt="Delete request for a dashboard list" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/dashboardlists/{id}***
 
 Required parameters: the **id** of the dashboard list
 

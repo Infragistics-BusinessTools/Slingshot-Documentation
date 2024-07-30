@@ -30,7 +30,7 @@ To add a *Facebook* data source to your list, follow the steps described below:
 
 5. In the next dialog, you will be presented with one or more Facebook Ad Accounts to choose from. Select the account that you want to analyze and click/tap on **Select and Continue**.
 
-<img src="./images/facebook-ad-accounts-list.png" alt="list with different Facebook ad accounts" width="53%" />
+<img src="./images/facebook-ad-accounts-list.png" alt="List of different Facebook ad accounts" width="53%" />
 
 6. In the last dialog that opens, you can change the Ad Account name, add an appropriate description, see if the data source is certified (available to *Enterprise* users), and edit the details. Adding appropriate descriptions helps all users navigate through long lists and find the data sources they are searching for. Select *Add Data Source* to finish the process.
 
@@ -44,7 +44,7 @@ To add a *Facebook* data source to your list, follow the steps described below:
 
 From the Data Sources list, select the Facebook Ad account you want to connect. You will see the *Data Source details* dialog, which allows you to review and set up your data (look at the screenshot below). 
 
-<img src="./images/facebook-data-source-details-dialog.png" alt="the data sources details dialog" class="responsive-img" width= "50%"/>
+<img src="./images/facebook-data-source-details-dialog.png" alt="Data sources details dialog" class="responsive-img" width= "50%"/>
 
 Here you will find the following data source details: 
 
@@ -60,11 +60,11 @@ Here you will find the following data source details:
 
 - Who (users and workspaces) has access to it 
 
-- How often the data is refreshed. To change the time period, select the dropdown menu on the right.
+- How often the data is refreshed. To change the time period, select the drop-down menu on the right.
 
 The settings under **Set up your data** help you choose what data to load in the *Visualization Editor*.
 
-- <a href="https://www.facebook.com/business/help/2198119873776795?id=768381033531365" target="_blank">*Attribution Window*</a> - You can select it in order to show data for a specific time period from the dropdown list.
+- <a href="https://www.facebook.com/business/help/2198119873776795?id=768381033531365" target="_blank">*Attribution Window*</a> - You can select it in order to show data for a specific time period from the drop-down list.
 
 - *Action Report Time* - You can choose it in order to have data reported *on impression*, *on conversion* and *mixed*.
 

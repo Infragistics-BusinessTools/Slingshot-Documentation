@@ -32,42 +32,42 @@ The functions included in the logic category are:
     <th class="tg-cly1"><span style="font-weight:bold">Syntax and Sample</span></th>
   </tr>
   <tr>
-    <td class="tg-cly1" rowspan="2"><a href="https://www.revealbi.io/help/logic.html#calc-fields-and-or">and</a>: <span class="gray-snippet-cstm">and</span> runs two logical tests. If <span style="font-weight:bold">the logical test is true, it returns 1. If one or both are false, it returns 0.</span></td>
+    <td class="tg-cly1" rowspan="2">and: <span class="gray-snippet-cstm">and</span> runs two logical tests. If <span style="font-weight:bold">the logical test is true, it returns 1. If one or both are false, it returns 0.</span></td>
     <td class="tg-cly1"><span style="font-weight:bold">Syntax</span>:  <span class="gray-snippet-cstm">and({logical1},{logical2})</span></td>
   </tr>
   <tr>
     <td class="tg-cly1"><span style="font-weight:bold">Sample</span>:  <span class="gray-snippet-cstm">and([BirthDate]&gt;date(1983, 07, 15, 04, 06, 55),[Department]="CPA")</span></td>
   </tr>
   <tr>
-    <td class="tg-cly1" rowspan="2"><a href="https://www.revealbi.io/help/logic.html#true-false"><span style="font-weight:bold">false</span></a>: <span class="gray-snippet-cstm">false</span> returns 0, the logical value of <span style="font-weight:bold">false</span>.</td>
+    <td class="tg-cly1" rowspan="2">false: <span class="gray-snippet-cstm">false</span> returns 0, the logical value of <span style="font-weight:bold">false</span>.</td>
     <td class="tg-cly1"><span style="font-weight:bold">Syntax</span>:  <span class="gray-snippet-cstm">false()</span></td>
   </tr>
   <tr>
     <td class="tg-cly1"><span style="font-weight:bold">Sample</span>:  <span class="gray-snippet-cstm">false()</span></td>
   </tr>
   <tr>
-    <td class="tg-0lax" rowspan="2"><a href="https://www.revealbi.io/help/logic.html#calc-fields-if"><span style="font-weight:bold">if</span></a>: <span class="gray-snippet-cstm">if</span> runs a logical test. If the <span style="font-weight:bold">logical test is true, it returns 1.</span> If the <span style="font-weight:bold">logical test is false, it returns 0.</span></td>
+    <td class="tg-0lax" rowspan="2">if: <span class="gray-snippet-cstm">if</span> runs a logical test. If the <span style="font-weight:bold">logical test is true, it returns 1.</span> If the <span style="font-weight:bold">logical test is false, it returns 0.</span></td>
     <td class="tg-0lax"><span style="font-weight:bold">Syntax</span>:  <span class="gray-snippet-cstm">if({logical test},{value if true},{value if false})</span></td>
   </tr>
   <tr>
     <td class="tg-0lax"><span style="font-weight:bold">Sample</span>:  <span class="gray-snippet-cstm">if([BirthDate]&lt;(1971,04,15,4,06,55),1,0)</span></td>
   </tr>
   <tr>
-    <td class="tg-0lax" rowspan="2"><a href="https://www.revealbi.io/help/logic.html#calc-fields-not">not</a>: <span class="gray-snippet-cstm">not</span> runs a logical test. If the <span style="font-weight:bold">logical test is false, it returns 1. If the logical test is true, it returns 0.</span></td>
+    <td class="tg-0lax" rowspan="2">not: <span class="gray-snippet-cstm">not</span> runs a logical test. If the <span style="font-weight:bold">logical test is false, it returns 1. If the logical test is true, it returns 0.</span></td>
     <td class="tg-0lax"><span style="font-weight:bold">Syntax</span>:  <span class="gray-snippet-cstm">not({logical})</span></td>
   </tr>
   <tr>
     <td class="tg-0lax"><span style="font-weight:bold">Sample</span>:  <span class="gray-snippet-cstm">not([OfficeId]&gt;=3)</span></td>
   </tr>
   <tr>
-    <td class="tg-0lax" rowspan="2"><a href="https://www.revealbi.io/help/logic.html#calc-fields-and-or"><span style="font-weight:bold">or</span></a>: <span class="gray-snippet-cstm">or</span> runs two logical tests (if statements). If <span style="font-weight:bold">either one of the logical tests is true, it returns 1. If both are false, it returns 0.</span></td>
+    <td class="tg-0lax" rowspan="2">or: <span class="gray-snippet-cstm">or</span> runs two logical tests (if statements). If <span style="font-weight:bold">either one of the logical tests is true, it returns 1. If both are false, it returns 0.</span></td>
     <td class="tg-0lax"><span style="font-weight:bold">Syntax</span>:  <span class="gray-snippet-cstm">or({logical1},{logical2})</span></td>
   </tr>
   <tr>
     <td class="tg-0lax"><span style="font-weight:bold">Sample</span>:  <span class="gray-snippet-cstm">or(if([Office]="London,UK",1,0),if([BirthDate]&lt;date(1992,09,15,4,06,55),1,0))</span></td>
   </tr>
   <tr>
-    <td class="tg-0lax" rowspan="2"><a href="https://www.revealbi.io/help/logic.html#true-false">true</a>: <span class="gray-snippet-cstm">true</span> returns 1, the logical value of <span style="font-weight:bold">true</span>.</td>
+    <td class="tg-0lax" rowspan="2">true: <span class="gray-snippet-cstm">true</span> returns 1, the logical value of <span style="font-weight:bold">true</span>.</td>
     <td class="tg-0lax"><span style="font-weight:bold">Syntax</span>:  <span class="gray-snippet-cstm">true()</span></td>
   </tr>
   <tr>

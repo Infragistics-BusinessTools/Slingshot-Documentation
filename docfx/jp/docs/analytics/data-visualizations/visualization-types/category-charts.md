@@ -8,7 +8,7 @@ _language: ja
 
 これらのチャートを使用して、カテゴリを定量的情報に関連付けます。
 
-<img src="images/category-charts-list.png" alt="Category charts variations" class="responsive-img" width="85%"/>
+<img src="images/category-charts-list.png" alt="Category charts list" class="responsive-img" width="60%"/>
 
 データに適している限り、表示形式オプション メニューに表示されたチャート アイコンをどれでも選択できます。Analytics はデータセットの最初の数字の列を選択し、選択したチャート タイプのデータ系列の要件と一致させようと試みます。
 

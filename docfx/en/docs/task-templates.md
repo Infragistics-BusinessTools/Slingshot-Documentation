@@ -10,20 +10,26 @@ You can create task templates in different projects, workspaces or in the **My T
 
 2.	Click/tap on **Save as Template**.
 
-    <img src="../images/save-as-template-example.png" class="responsive-img" alt="Save as template option in the dropdown menu" width="90%">
+    <img src="../images/save-as-template-example.png" class="responsive-img" alt="Save as template option in the dropdown menu of a task" width="90%">
 
 3. The following dialog will open up. Here you can choose what to keep from the task and use it for the template. When you are ready, click/tap on **Continue**.
        
-   <img src="../images/save-as-template-adjustments.png" class="responsive-img" alt="A list of sections which can be kept for the template" width="90%">  
+   <img src="../images/save-as-template-adjustments.png" class="responsive-img" alt="A list of sections that can be kept for the template" width="90%">  
 
 Before creating the template, you will have the option to:
 
 1.	Give a name to the task template in order to create it.
+
 2.	Add a description. *(optional)*
+
 3.	Toggle on/off the option to include weekends. *(optional)*
+
 4.	Choose the **Schedule Type**. Here you can set the Start Date and the Due date. *(optional)*
+
 5.	Filter tasks. You can filter tasks based on your chosen criteria. *(optional)*
+
 6.	Open the task, add subtasks to it, or delete it. From here, you can also insert a task right above or below another task. *(optional)*
+
 7.	Add a new task to use alongside the other tasks for the template. *(optional)*
 
     <img src="../images/save-as-template-dialog.png" class="responsive-img" alt="Different template options" width="90%">  
@@ -38,15 +44,15 @@ To access your personal task templates or templates that are stored in another l
 
 1.	Click/tap on the **+Task** split button in the upper right corner and then choose **Add from Template**.
 
-    <img src="../images/add-from-template-button.png" class="responsive-img" alt="A list of sections which can be kept for the template" width="90%">  
+    <img src="../images/add-from-template-button.png" class="responsive-img" alt="A list of sections that can be kept for the template" width="90%">  
 
     Alternatively, you can choose a section ⇒ open the overflow menu ⇒ choose **Add from Template**. 
        
-    <img src="../images/add-from-template-section.png" class="responsive-img" alt="Add from template option in a task section" width="90%">  
+    <img src="../images/add-from-template-section.png" class="responsive-img" alt="Add from Template option in a task section" width="90%">  
 
 2.	The following dialog will pop up:
 
-    <img src="../images/task-templates.png" class="responsive-img" alt="A dialog, containing all task templates" width="90%"> 
+    <img src="../images/task-templates.png" class="responsive-img" alt="A dialog containing all task templates" width="90%"> 
 
 In the left panel you can:
 
@@ -90,5 +96,5 @@ To edit a Task Template, you need to:
 
 >[!NOTE] Keep in mind that you have the same options for applying changes as in the **Save as Template** dialog.
 
-If you want to find more information about how you can create and use tasks, head [here](https://www.slingshotapp.io/en/help/docs/tasks).
+If you want to find more information about how you can create and use tasks, head [here](tasks.md#how-to-create-a-task).
 

@@ -17,6 +17,11 @@
 - name: Tasks
   href: tasks.md
   updated: false
+  items: 
+    - name: Custom Fields
+      href: custom-fields.md
+    - name: Task Types
+      href: task-types.md
 - name: Pins
   href: pins.md
 - name: Data Catalog
@@ -54,6 +59,9 @@
   new: false 
 - name: Productivity Tips
   header: true
+- name: Data Limits
+  href: data-limits.md
+  new: false
 - name: Open in New Window
   href: open-in-new-window.md
   new: false
@@ -167,5 +175,3 @@
   new: false
 - name: Release Notes
   href: release-notes.md
-- name: Data Limits
-  href: data-limits.md

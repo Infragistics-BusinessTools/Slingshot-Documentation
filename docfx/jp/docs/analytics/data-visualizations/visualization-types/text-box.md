@@ -10,7 +10,7 @@
 
 1.  ダッシュボードを**編集モード**で開きます。
 
-2.  青い分割ボタンの右側にある矢印をクリック / タップして、**[テキスト ボックス]** を選択します。
+2.  青い分割ボタンの右側にある矢印をクリックまたはタップして、**[テキスト ボックス]** を選択します。
 
 <img src="images/add-text-box-to-dashboard.png" alt="Adding a text box in dashboard edit mode" class="responsive-img" width="90%"/>
 
@@ -20,15 +20,15 @@
 
 概要または簡単な紹介を表示するテキスト ボックス表示形式を作成してダッシュボードを開始することもできます。テキスト ボックスの作成メニューにアクセスするには、以下の手順を実行します。
 
-1.  初期画面の右上にある [+ ダッシュボード] の分割ボタンをクリック/タップします。
+1.  初期画面の右上にある [+ ダッシュボード] の分割ボタンをクリックまたはタップします。
 
 2.  **[新しい表示形式]** ダイアログが開き、データ ソースを選択するように求められます。**[X]** をクリックまたはタップして、ダイアログを閉じます。
 
     <img src="../images/new-visualization-screen.png" alt="New visualization dialog" class="responsive-img" width="90%"/>
 
-3.  [+ 追加] の分割ボタンにある**矢印**をクリック / タップして ⇒ **[テキスト ボックス]** を選択します。
+3.  [+ 追加] の分割ボタンにある**矢印**をクリックまたはタップして ⇒ **[テキスト ボックス]** を選択します。
 
-    <img src="./images/new-dashboard-text-box.png" alt="New visualization dialog" class="responsive-img" width="90%"/>
+    <img src="./images/new-dashboard-text-box.png" alt="Text box visualization" class="responsive-img" width="90%"/> 
     
 ## テキスト ボックス表示形式の作業
 

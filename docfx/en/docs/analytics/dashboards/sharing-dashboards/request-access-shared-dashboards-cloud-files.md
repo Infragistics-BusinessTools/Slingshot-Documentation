@@ -17,18 +17,18 @@ message when you click the shared dashboard:
 
 <img src="images/deleted-source-file-message.png" alt="Message in Analytics: Can't access this data" class="responsive-img" width="90%"/>
 
-If your permissions to the file have been **revoked**, you will see:
+If your permissions to the file have been **revoked**, you will see the following:
 
 <img src="images/request-access-button.png" alt="configure Dropbox and request access options when access denied" class="responsive-img" width="90%"/>
 
 ## Granting Access to Data Source Files with Revoked Permissions
 
-Click the *Request Access* button to notify the owner of the dashboard
+In order to regain access to data sources files, click/tap on **Request Access from creator** in order to notify the owner of the dashboard
 about your denied access. They will also receive an email notification.
 
 When **the owner** opens the notification (through the app or email message), they will see the following dialog, prompting them to update the sharing settings to the data sources:
 
-<img src="images/some-data-is-not-accessible-dialog.png" alt="Dialog where you can change the sharing settings for the data source" class="responsive-img"/>
+<img src="images/some-data-is-not-accessible-dialog.png" alt="Dialog where you can change the sharing settings for the data source" class="responsive-img" width="90%"/>
 
-After the owner clicks *Update* they will see a message notifying them
+After the owner clicks/taps on **Update**, they will see a message notifying them
 whether the access has been successfully fixed.

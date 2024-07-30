@@ -13,9 +13,9 @@ By clicking/tapping the link symbol, you can open:
 
 ## Adding a Link 
 
-To configure a link, go to the **Settings** section of the *Visualizations Editor* and click/tap the *+* in **Links**. Alternatively, you can choose **Connect this visualization to another dashboard or a URL**.
+To configure a link, go to the **Settings** section of the *Visualization Editor* and click/tap on the *+* in **Links**. Alternatively, you can choose **Connect this visualization to another dashboard or a URL**.
 
-<img src="images/settings-linking-option.png" alt="Adding a link in Settings" class="responsive-img"/>
+<img src="images/settings-linking-option.png" alt="Option to add links in the settings section" class="responsive-img"/>
 
 The added link will appear as a symbol on the visualization it is configured for when the dashboard is in *View Mode*.  
 

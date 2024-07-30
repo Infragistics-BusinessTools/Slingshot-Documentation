@@ -10,7 +10,7 @@ Analytics は、カラー パレットから色を選択してダッシュボー
 
 ダッシュボードのスタイル設定を変更するには、**ダッシュボードの編集モード**に入り、オーバーフロー メニューから [テーマ] を選択します。ここでは、*Mountain Theme*、*Ocean Theme*、*Aurora Theme* から選択できます。
 
-<img src="./images/dashboard-themes.png" alt="Changing the dashboard theme" class="responsive-img" width="80%"/>
+<img src="./images/dashboard-themes.png" alt="Dashboard Theme options" class="responsive-img" width="80%"/>
 
 
 あるいはチャートに基づく表示形式に開始色を変更できます。選択されたダッシュボードのテーマによって設定オプションは異なります。

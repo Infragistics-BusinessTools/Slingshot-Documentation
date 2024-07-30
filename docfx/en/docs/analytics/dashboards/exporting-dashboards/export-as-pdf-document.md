@@ -37,7 +37,7 @@ In the *Export Dashboard* dialog you can manage the following settings:
             your workspaces having their branding (logo and color) set up are
             displayed as options. If you want to know how to
             access/change your workspace's branding settings, please read the
-            [Managing Workspaces](~/docs/analytics/workspaces/managing-your-workspace.md) topic.
+            [Managing Workspaces](../../../workspaces.md) topic.
 
         - **Custom** - select a color and upload a *logo* image of your choice.
 
@@ -47,4 +47,4 @@ In the *Export Dashboard* dialog you can manage the following settings:
 
 5.  You can **manage your document pages** by selecting a page from the list to modify its title, annotate or delete it (by removing the tick icon in the upper right corner).
 
-6.  **Annotate** the selected page by clicking/tapping the *pencil* icon. For more information about **annotation settings**, please refer to [Annotating images](export-as-images.html#annotating) in the *Exporting Dashboards as Images* topic.
+6.  **Annotate** the selected page by clicking/tapping the *pencil* icon. For more information about **annotation settings**, please refer to [Annotating images](./export-as-images.md#annotating-images) in the *Exporting Dashboards as Images* topic.

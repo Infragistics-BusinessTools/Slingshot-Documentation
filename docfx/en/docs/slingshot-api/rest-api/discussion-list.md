@@ -47,7 +47,7 @@ Discussions can be created in projects and workspaces. You can organize discussi
 
 ## Create a discussion list  
 
-<img src="../images/post-request.png" alt="Post request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> <span class="italic">***htt<area>ps://my.slingshotapp<area>.io/v1/discussionlists***</span>
+<img src="../images/post-request.png" alt="Post request for a discussion list" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> <span class="italic">***htt<area>ps://my.slingshotapp<area>.io/v1/discussionlists***</span>
 
 Required parameters: None
 
@@ -113,8 +113,8 @@ Example of a successful request body:
 
 ## Get a discussion list
 
-<img src="../images/get.png" alt="Get request" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> 
-<span class="italic">***htt<area>ps://my.slingshotapp<area>.io/v1/discussionlists/{id}***</span>
+<img src="../images/get.png" alt="Get request for a discussion list" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> 
+<span class="italic">***https://my.slingshotapp.io/v1/discussionlists/{id}***</span>
 
 Required parameters: the **id** of the discussion list
 
@@ -130,7 +130,7 @@ Required parameters: the **id** of the discussion list
 
 ## Get all discussion lists for a parent document 
 
-<img src="../images/get-all.png" alt="Get all request" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/discussionlists/parent/{id}***
+<img src="../images/get-all.png" alt="Get all request for discussion lists" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/discussionlists/parent/{id}***
 
 Required parameters: the **id** of the parent document
 
@@ -146,7 +146,7 @@ Possible responses:
 
 ## Update a discussion list
 
-<img src="../images/patch.png" alt="Patch request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/discussionlists/{id}***
+<img src="../images/patch.png" alt="Patch request for a discussion list" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/discussionlists/{id}***
 
 Required parameters: the **id** of the discussion list
 
@@ -207,7 +207,7 @@ Example of a successful request body:
 
 ## Delete a discussion list
 
-<img src="../images/delete.png" alt="Delete request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/discussionlists/{id}***
+<img src="../images/delete.png" alt="Delete request for a discussion list" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/discussionlists/{id}***
 
 Required parameters: the **id** of the discussion list
 
@@ -216,5 +216,5 @@ Possible responses:
 | Code | Description|
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
 | 204 (No Content) |The discussion list is deleted. |
-| 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication..  |
+| 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication.  |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |

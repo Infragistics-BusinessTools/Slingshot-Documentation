@@ -1,8 +1,7 @@
 # データ カタログ
 
 データ駆動型企業とは、常に意思決定の中心にデータを置き、収集したデータを活用して実用的な洞察を引き出す会社です。当然のことながら、すべての人がデータにアクセスできる必要があり、データを処理するためのツールも必要です。
-Slingshot は、分析、データ ソースとセット、表示形式、ダッシュボードの広範なカタログを提供することにより、エンタープライズ ユーザーにこれを可能にします。
-
+Slingshot は、分析、データ ソースとセット、表示形式、ダッシュボードの広範なカタログを提供することにより、[Enterprise](slingshot-enterprise-subscription.md) ユーザーにこれを可能にします。
 
 ## Slingshot のデータ カタログの内容
 
@@ -16,33 +15,48 @@ Slingshot は、分析、データ ソースとセット、表示形式、ダッ
 
 - **ダッシュボードとデータ ソース**: データ カタログは、ユーザーにダッシュボードおよびデータ ソースの広範なカタログへのアクセスを提供することを目的としています。
 
-<img src="../images/data-catalog-sample.png" alt="Data Catalog screen within Slingshot" class="responsive-img" width="90%"/>
+<!---<img src="../images/data-catalog-example.png" alt="Data Catalog screen within Slingshot" class="responsive-img" width="80%"/>--->
 
 ### 認証
+
 組織の管理者は、どのダッシュボードまたはデータ ソースが検証済みの情報を含み信頼性が高いと考えられるかを、ユーザーに示すことができます。
 
 ユーザーは認証されたダッシュボードやデータ ソースをその隣の金、銀、銅のバッジで簡単に識別できます。
 [認証の詳細については、こちらをご覧ください。](certifications.md)
 
 ### データ ソースの詳細情報 (メタデータ)
+
 組織の認証者は高度なエディターを使用して、認証済みデータ ソースにメタデータを追加または変更できます。この情報を追加することにより、認証者はデータに関する適切なドキュメントを提供できます。
 認証者はデータを非表示にしてチームの生産性を高めることもできます。非表示機能は大量のデータの処理に役立ちます。
 
 組織ユーザーは、データ フィールドに説明を追加することでデータをわかりやすくすることができます。
 [データ ソースの高度な編集の詳細については、こちらをご覧ください。](metadata-advanced-editing.md)
 
-
 ### 定義済みのリスト
+
 デフォルトでは、[レビュー待ち] と、多くの場合「ダッシュボード」または「データ ソース」と呼ばれる別のリストがありますが、組織の管理者はリスト、セクション、ダッシュボード、またはデータ ソースをドラッグして簡単に再編成および移動できます。
 
 ## データ カタログのフィルタリング
+
 フィルターを使用すると、特定の条件を満たすダッシュボードまたはデータ ソースのセットを表示できます。
 
-**[フィルター]** エディターにアクセスするには、オーバーフローの隣にあるフィルター アイコン (画面右上) をクリック/タップします。または、フィルター] セクションの [作成済み] および [共有済み] の下にある [+フィルター] ボタンをクリックまたはタップします。
+[フィルター] エディターにアクセスするには、オーバーフローの隣にあるフィルター アイコン (画面右上) をクリックまたはタップします。
 
-ダッシュボードまたはデータ ソースのフィルタリングを停止するには、フィルター アイコンをクリック / タップして、[フィルター] ダイアログを開きます。次に、下の [クリア] ボタンを選択して現在のフィルターを削除し、[適用] をクリックして変更を保存します。
+<img src="../images/data-catalog-filter-icon.png" alt="Filter icon for data sources in data catalog" width="80%" class="responsive-img"/>
 
-<img src="../images/data-sources-filters.png" alt="Different filters in the data catalog" width="35%" class="responsive-img"/>
+または、[+フィルター] ボタンをクリックまたはタップします。
+
+<img src="../images/data-catalog-filter-option.png" alt="Filter option for data soruces in data catalog" width="80%" class="responsive-img"/>
+
+ダッシュボードまたはデータ ソースのフィルタリングを停止するには、次の方法があります。
+
+1. フィルター アイコンをクリックまたはタップして、フィルター ダイアログを開きます。
+
+2. 下部にある **[クリア]** ボタンを選択して、現在のフィルターを削除します。
+
+3. **[適用]** をクリックまたはタップして変更を保存します。
+
+<img src="../images/data-sources-filter-dialog.png" alt="Different filters in the data catalog" width="35%" class="responsive-img"/>
 
 ## データ カタログの構成
 
@@ -53,8 +67,7 @@ Slingshot は、分析、データ ソースとセット、表示形式、ダッ
 
 管理者でない組織ユーザーは、データ カタログのコンテンツを削除または追加できません。管理者でない組織ユーザーは、リストやセクションを参照できますが、それらの作成や編集はできません。 
 
-<img src="../images/data-catalog-sample.png" alt="Data Catalog screen within Slingshot" class="responsive-img"/>
-
+<img src="../images/data-catalog-dashboards-example.png" alt="Data Catalog screen within Slingshot" class="responsive-img" width="80%"/>
 
 ## データ カタログの展開 
 
@@ -63,9 +76,13 @@ Slingshot は、分析、データ ソースとセット、表示形式、ダッ
 **プロセスの概要:**
 
 1. ユーザーが、データ ソースまたはダッシュボードをデータ カタログに追加するよう要求します。
+
 2. ダッシュボードまたはデータ ソースが [レビュー待ち] に移動します。
+
 3. 組織の管理者が要求をレビューします。
+
 4. 承認されると、組織の管理者はダッシュボードまたはデータ ソースをデータ カタログ内の場所に移動します。
+
 5. ダッシュボードまたはデータ ソースは、組織内のすべてのユーザーが使用できるようになります。
 
 ### 新しいコンテンツをデータ カタログに追加するプロセス
@@ -75,16 +92,17 @@ Slingshot は、分析、データ ソースとセット、表示形式、ダッ
 1. **ユーザーが、組織のデータ カタログにコンテンツを追加するよう要求します。**  
    Slingshot ユーザーが、分析、ワークスペース、プロジェクトにある、ダッシュボードまたはデータ ソースを持っているとします。そのコンテンツを組織全体で利用できるようにするには、そのためのプロセスを開始します。
    
-   1. ダッシュボードのオーバーフロー (右上) をクリック / タップし、[データ & 分析のカタログに移動] を選択します。  
-   <img src="../images/data-catalog-dashboard-overflow.png" alt="Data Catalog dashboard overflow within Slingshot" class="responsive-img"/>  
-   2. 組織管理者に要求を説明するメッセージを書き込みます。ダッシュボードまたはデータ ソースのコピーを元の場所に保存するかどうかも選択できます。  
-   <img src="../images/data-catalog-request.png" alt="Data Catalog dashboard request within Slingshot" class="responsive-img" width="30%"/>  
+   A. ダッシュボードのオーバーフロー (右上) をクリックまたはタップし、**[データ & 分析のカタログに移動]** を選択します。  
+   <img src="../images/data-catalog-dashboard-overflow.png" alt="Data Catalog dashboard overflow within Slingshot" class="responsive-img" width="45%"/> 
+   B. 組織管理者に要求を説明するメッセージを書き込みます。ダッシュボードまたはデータ ソースのコピーを元の場所に保存するかどうかも選択できます。  
+   <img src="../images/data-catalog-request.png" alt="Data Catalog dashboard request within Slingshot" class="responsive-img" width="45%"/>  
 
 2. **データ ソースまたはダッシュボードが [レビュー待ち] に移動します。**  
-   レビュー待ちのリストには、組織の管理者によるレビュー待ちのすべてのデータ ソースまたはダッシュボードが含まれます。
+   **レビュー待ち**のリストには、組織の管理者によるレビュー待ちのすべてのデータ ソースまたはダッシュボードが含まれます。
    
 3. **組織の管理者が要求をレビューします。**  
    組織の管理者はレビュー待ちのダッシュボードまたはデータ ソースを開いて確認できます。バナーが表示されるので (画面の上部)、レビューアーは要求を拒否するか、または要求を承諾してコンテンツをデータ カタログ内に移動できます。  
    <img src="../images/data-catalog-review.png" alt="Data Catalog dashboard review within Slingshot" class="responsive-img"/>  
 4. **承認されると、組織の管理者はダッシュボードまたはデータ ソースをデータ カタログ内の場所に移動します。**
+
 5. **ダッシュボードまたはデータ ソースは、組織内のすべてのユーザーが使用できるようになります。**

@@ -14,13 +14,13 @@ _language: ja
 
 フィルター オプションは、フィールドのデータ タイプに応じて表示形式フィルター エリアで表示されます。テキスト、数値、日付の 3 つのフィルター ダイアログがあります。作成されたクイック フィルターは、表示形式エディターの表示形式の上に表示されます。
 
-<img src="images/visualization-filter-visualization-editor.png" alt="List of fields in the visualization editor" class="responsive-img" width="85%"/>
+<img src="images/visualization-filter-visualization-editor.png" alt="List of fields in the Visualization Editor" class="responsive-img" width="85%"/>
 
 ダッシュボード ビュー モードで表示形式を最大化すると、表示形式のタイトルの下に表示されます。
 
 <img src="images/location-visualization-filter.png" alt="The location of the visualization filter in dashboard view maximized" class="responsive-img" width="85%"/>
 
-[ダッシュボード フィルター](dashboard-filters.html)同様に、簡易フィルター セクションが変更されると表示形式コンテンツの動的なフィルターが有効になります。
+[ダッシュボード フィルター](dashboard-filters.md)同様に、簡易フィルター セクションが変更されると表示形式コンテンツの動的なフィルターが有効になります。
 
 ## フィルターのカスケード
 

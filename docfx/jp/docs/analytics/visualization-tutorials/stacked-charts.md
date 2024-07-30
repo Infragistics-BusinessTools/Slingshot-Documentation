@@ -8,7 +8,7 @@ _language: ja
 
 このチュートリアルはサンプル スプレッドシートを使用し**積層型**チャートを作成する方法を説明します。
 
-<img src="images/different-stacked-charts-example.png" alt="Tutorials-Create-New-Dashboard" class="responsive-img" width="85%"/>  
+<img src="images/different-stacked-charts-example.png" alt="Example of different Stacked Charts types" class="responsive-img" width="85%"/>  
 
 積層型チャート ビューのガイドは、以下のリンクから参照してください。
 
@@ -46,23 +46,23 @@ _language: ja
 
  1. **[分析]** にある **[+ ダッシュボード]** ボタンを選択します。
 
-  <img src="images/myanalytics-dashboard-button.png" alt="Dashboard button in the My Analytics section" class="responsive-img"/> 
+  <img src="images/new-dashboard-button.png" alt="Dashboard button in the My Analytics section" class="responsive-img" width="90%"/> 
 
  2. データ ソースのリストからデータ ソース (**Slingshot Tutorials Spreadsheet**) を選択します。データ ソースが新しい場合は、最初に右上隅の **[+ データ ソース]** ボタンから追加する必要があります。     
 
-  <img src="images/visualization-tutorials-sample.png" alt="Tutorials Data Source in the list of already added data sources" class="responsive-img" width="58%"/>
+  <img src="images/visualization-tutorials-sample.png" alt="Slingshot Tutorials Spreadsheet added to the list of  data sources" class="responsive-img" width="70%"/>
 
  3. *Stacked Charts* シートを選択します。            
 
-  <img src="images/stacked-chart-spreadsheet-data-source-details-dialog.png" alt="Stacked Charts Spreadsheet in the tutorial data source" class="responsive-img" width="58%"/>
+  <img src="images/stacked-chart-spreadsheet-data-source-details-dialog.png" alt="Stacked Charts Spreadsheet in the tutorial data source" class="responsive-img" width="70%"/>
 
- 4. 表示形式 エディターのトップ バーで**グリッド アイコン**を選択します。デフォルトで、表示形式のタイプは*柱状*に設定されています。**[積層型]** 表示形式のいずれかを選択することで、いつでも変更できます。     
+ 4. 表示形式 エディターのトップ バーで**グリッド アイコン**を選択します。デフォルトで、表示形式のタイプは*柱状*に設定されています。**[積層型柱状]** 表示形式のいずれかを選択することで、いつでも変更できます。     
 
-  <img src="images/stacked-chart-types.png" alt="List of all the chart types used for a visualization" class="responsive-img" width="58%"/>
+  <img src="images/stacked-chart-types.png" alt="Grid icon in the list of Chart Types" class="responsive-img" width="70%"/>
 
  5. 積層型チャートでは、データ エディターの [値] プレースホルダーに 2 つ以上のフィールドをドラッグ アンド ドロップする必要があります。今の例で、「1960」、「2003」、「2008」と「2010」 を [値] へ、「Country Name」を [ラベル] へドラッグアンドドロップします。
 
-  <img src="images/stacked-charts-organizing-data.png" alt="Organizing the data from the stacked charts spreadsheet" class="responsive-img" width="35%"/>
+  <img src="images/stacked-charts-organizing-data.png" alt="Organize Stacked Charts spreadsheet data" class="responsive-img" width="70%"/>
 
 <a name='change-axis-configuration'></a>
 ## 軸の構成を変更する方法
@@ -72,16 +72,16 @@ _language: ja
 
 |                                        |                                                                                      |                                                                                                                                       |
 | -------------------------------------- | ------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------- |
-| 1\. **設定を変更する**                | <img src="images/tutorials-settings.png" alt="Settings section" class="responsive-img"/>               | 表示形式エディターの **[設定]** セクションに移動します。                                                                           |
-| 2\. **範囲の設定へアクセスする** | <img src="images/axis-bounds.png" alt="Tutorials-Axis-Bounds" class="responsive-img"/>                           | [軸範囲] に移動します。最大値または最小値 (または両方) 値を設定するかどうかに基づいて、チャートの開始値または終了値を入力します。 |                                                                               
+| 1\. **設定を変更する**                | <img src="images/tutorials-settings.png" alt="Settings menu" class="responsive-img"/>               | 表示形式エディターの **[設定]** セクションに移動します。                                                                           |
+| 2\. **範囲の設定へアクセスする** | <img src="images/axis-bounds.png" alt="Axis Bounds section in Settings Menu" class="responsive-img"/>                           | [軸範囲] に移動します。最大値または最小値 (または両方) 値を設定するかどうかに基づいて、チャートの開始値または終了値を入力します。 |                                                                               
 
 <a name='set-logarithmic-axis'></a>
 ## 軸構成を対数的としての設定
 
 |                                           |                                                                          |                                                             |
 | ----------------------------------------- | ------------------------------------------------------------------------ | ----------------------------------------------------------- |
-| 1\. **設定を変更する**                   | <img src="images/tutorials-settings.png" alt="Tutorials-Navigate-Settings" class="responsive-img"/>    | 表示形式エディターの **[設定]** セクションに移動します。 |
-| 2\. **軸のオプションへアクセスする**            | <img src="images/axis-bounds-logarithmic.png" alt="Tutorials-Axis-Bounds" class="responsive-img"/>               | 下矢印を選択して、軸ドロップダウンを展開します。次に、[対数] を選択します。|      
+| 1\. **設定を変更する**                   | <img src="images/tutorials-settings.png" alt="Settings Menu" class="responsive-img"/>   | 表示形式エディターの **[設定]** セクションに移動します。 |
+| 2\. **軸のオプションへアクセスする**            | <img src="images/axis-bounds-logarithmic.png" alt="Axis Bounds section in Settings Menu" class="responsive-img"/>               | 下矢印を選択して、軸ドロップダウンを展開します。次に、[対数] を選択します。|      
 
 <a name='enable-percentage-distribution'></a>
 ## 百分率分布を有効する方法
@@ -90,5 +90,5 @@ _language: ja
 
 |                                        |                                                                                    |                                                                                           |
 | -------------------------------------- | ---------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------- |
-| 1\. **設定を変更する**                | <img src="images/tutorials-settings.png" alt="Tutorials-Navigate-Settings" class="responsive-img"/>              | 表示形式エディターの **[設定]** セクションに移動します。                               |
-| 2\. **百分率分布を有効にする** | <img src="images/percentage-distribution.png" alt="Tutorials-Percentage-Distribution" class="responsive-img"/> | [パーセンテージの配分] ボックスをチェックして、パーセンテージの配分設定を有効にします。|
+| 1\. **設定を変更する**                | <img src="images/tutorials-settings.png" alt="Settings Menu" class="responsive-img"/>              | 表示形式エディターの **[設定]** セクションに移動します。                               |
+| 2\. **百分率分布を有効にする** | <img src="images/percentage-distribution.png" alt="Option for Percentage Distribution in the Settings Menu" class="responsive-img"/> | [パーセンテージの配分] ボックスをチェックして、パーセンテージの配分設定を有効にします。|

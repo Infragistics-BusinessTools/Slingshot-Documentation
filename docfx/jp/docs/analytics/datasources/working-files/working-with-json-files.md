@@ -38,19 +38,23 @@ JSON ファイルのデータを使用する新しい表示形式を作成する
 
     <img src="images/add-data-file-json.png" alt="A JSON file located in a cloud data source" class="responsive-img" width="85%"/>
 
+    2.3. データソースの場所を選択して保存するには、**[データ ソースの追加]** をクリックまたはタップします。必要に応じて、ファイルの詳細を編集できます。
+
+    <img src="images/add-datasheet-dialog.png" alt="Dialog where you can edit the details of your file" class="responsive-img" width="40%"/>
+
 3.  **必要なデータ構造を選択する**。
 
     ファイルをデータ ソースのリストに追加すると、選択できるデータ構造のリストが表示されます。
 
-    <img src="images/json-data-list-of-tables.png" alt="Json Files Choose Data table" class="responsive-img" width="58%"/>
+    <img src="images/json-data-list-of-tables.png" alt="List of Json File tables" class="responsive-img" width="60%"/>
 
     リストに目的のデータ構造が含まれていない場合は、[**高度な選択モード**](#高度な選択モード)を使用して、カスタムデータ構造を選択できます。
 
-4.  **[データの選択]** をクリック / タップする。
+4.  **[データの選択]** をクリックまたはタップする。
 
-    データ構造を選択し、[データの選択] ボタンをクリック / タップして、表示形式エディターを開きます。
+    データ構造を選択し、[データの選択] ボタンをクリックまたはタップして、表示形式エディターを開きます。ここでダッシュボードを変更できます。
 
-    <img src="images/visualization-editor-json.png" alt="Json Files Visualizations Editor" class="responsive-img" width="85%"/>
+    <img src="images/json-file-visualization-editor.png" alt="Json Files Visualizations Editor" class="responsive-img" width="90%"/>
 
 <a name='json-advanced-selection'></a>
 ## 高度な選択モード
@@ -59,9 +63,9 @@ JSON ファイルを使用して、さまざまなデータ構造を表すこと
 
 1.  **高度な選択モードを開く**。
 
-    **[+ テーブル]** ボタンをクリック/タップして、**[高度な選選択]** 画面にアクセスします。
+    **[+ テーブル]** ボタンをクリックまたはタップして、**[高度な選選択]** 画面にアクセスします。
 
-    <img src="images/json-file-table-option.png" alt="Table option for advanced selection in the data source details dialog for json" class="responsive-img" width="58%"/>
+    <img src="images/json-data-list-of-tables.png" alt="Table option for advanced selection in the data source details dialog for json" class="responsive-img" width="60%"/>
 
 2.  **JSON ツリーをナビゲートする**。
 
@@ -83,9 +87,9 @@ JSON ファイルを使用して、さまざまなデータ構造を表すこと
 
     <img src="images/different-format-options-json-advanced-selection.png" alt="Json Files Format Fields" class="responsive-img"/>
 
-5.  **[テーブルの作成]** をクリック / タップする。
+5.  **[テーブルの作成]** をクリックまたはタップする。
 
-    カスタム データ構造を選択後、**[テーブルの作成]** をクリック / タップして、表示形式エディターを開きます。
+    カスタム データ構造を選択後、**[テーブルの作成]** をクリックまたはタップして、表示形式エディターを開きます。
 
-    <img src="images/json-tree-create-table.png" alt="Json Files Format Fields" class="responsive-img"/>
+    <img src="images/json-tree-create-table.png" alt="Json Files Format Fields" class="responsive-img" width="90%"/>
 

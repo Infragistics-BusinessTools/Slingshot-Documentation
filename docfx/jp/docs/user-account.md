@@ -22,23 +22,29 @@ Slingshot 内のセキュリティとデータ プライバシーの詳細につ
 
 アプリケーションの動作と全体的なエクスペリエンスは、プロファイル情報と設定を調整することで大幅に変更できます。ニーズに合わせてエクスペリエンスをカスタマイズしてみてください。これを行うには、[設定] に移動します。
 
-<img src="../images/user-account-settings-drop-down-menu.png" alt="Settings location" width="30%" class="responsive-img">
+<img src="../images/user-account-settings-drop-down-menu.png" alt="Settings location in a user's account" width="30%" class="responsive-img">
 
 ここで、さまざまな設定を自由に試して、Slingshot を自分の好みに合わせてください。
+
 - ダークまたはライト テーマに変えたいですか?
+
 - ズーム レベルを下げて画面に合わせたり、拡大して単語や画像を見やすくしたりしたいですか?
+
 - ドラッグアンドドロップを使用してファイルをアップロードすることがよくあり、および、デフォルトのアップロード先を変更したいですか?
+
 - ファイル (Word や Excel ドキュメントなど) を開くときに、ネイティブ アプリを使用しますか、それともブラウザーで開きますか?
+
 - データ キャッシュをクリアしたいですか？
+
 - ログをエクスポートしたいですか？
 
-<img src="../images/users-account-settings.png" alt="User settings opened" width="60%" class="responsive-img">
+<img src="../images/users-account-settings.png" alt="Example of user settings opened" width="60%" class="responsive-img">
 
 さらに、他のユーザーと共同作業するときに自分を認識できるようになるため、**プロファイル情報**を完成させることをお勧めします。名前、役職、写真などはすべてユーザーの仮想 ID の一部であり、Slingshot の体験に付加価値をもたらします。
 
 ## アプリケーション内インタラクションを最大限に活用する
 
-Slingshot のデジタル AI アシスタントである Emily が、作業をより迅速に行うためのカスタマイズされたヒントを紹介します。ユーザー エクスペリエンスに直接影響するため、Emily からメッセージを受信する頻度や、Emily からのメッセージを受け取らない選択を選べます。
+Slingshot のデジタル AI アシスタントである Emily が、作業をより迅速に行うためのカスタマイズされたヒントを紹介します。ユーザー エクスペリエンスに直接影響するため、Emily からメッセージを受信する頻度や、Emily からのメッセージを受け取らない選択を選べます。Emily について詳しくは[こちら](./getting-started-slingshot.md)をご覧ください。
 
 通知により、ワークスペース、タスク、新しいメッセージなどへの変更に関する最新情報が得られます。特に、タスクが自分に割り当てられていること、ワークスペースから削除されていること、またはフォローしているディスカッション スレッドで誰かがメッセージを送信したことを知ることができます。
 [通知](notifications.md)の詳細については、リンクを参照してください。

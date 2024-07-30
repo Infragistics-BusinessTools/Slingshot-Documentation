@@ -30,7 +30,7 @@ The functions included in the information category are:
     <td class="tg-cly1"><span style="font-weight:bold">Sample</span>:  <span class="gray-snippet-cstm">empty()</span></td>
   </tr>
   <tr>
-    <td class="tg-cly1" rowspan="2"><a href="https://www.revealbi.io/help/information-calculated-fields#calculated-isempty"><span style="font-weight:bold">isempty</span></a>: <span class="gray-snippet-cstm">isempty</span> evaluates the specified <span class="gray-snippet-cstm">expression</span>, and <span style="font-weight:bold">checks if any row in your data source has empty values</span>.</td>
+    <td class="tg-cly1" rowspan="2">isempty: <span class="gray-snippet-cstm">isempty</span> evaluates the specified <span class="gray-snippet-cstm">expression</span>, and <span style="font-weight:bold">checks if any row in your data source has empty values</span>.</td>
     <td class="tg-cly1"><span style="font-weight:bold">Syntax</span>:  <span class="gray-snippet-cstm">isempty({value})</span></td>
   </tr>
   <tr>

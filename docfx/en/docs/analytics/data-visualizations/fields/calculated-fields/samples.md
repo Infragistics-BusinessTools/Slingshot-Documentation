@@ -9,9 +9,9 @@ This topic includes the following information:
 
   - [Basic Sample Expressions](#basic-sample-expressions)
 
-  - [Converting Unix TimeStamps to Usable Dates](#converting-unix-timestamps)
+  - [Converting Unix TimeStamps to Usable Dates](#converting-unix-timestamps-to-usable-dates)
 
-  - [YoY Analysis: Comparing Revenue Figures for a 2 Year Period](#yoy-analysis-revenue)
+  - [YoY Analysis: Comparing Revenue Figures for a 2 Year Period](#yoy-analysis-comparing-revenue-figures-for-a-2-year-period)
 
 <a name='basic-sample-expressions'></a>
 ## Basic Sample Expressions
@@ -66,7 +66,7 @@ Let's take a look at the following dashboard, which has the different
 divisions for a company and the revenue they represented during two
 different years.
 
-<img src="images/yoy-analysis-revenue-all.png" alt="YoyAnalysisRevenue\_All" class="responsive-img" width="85%"/>
+<img src="images/yoy-analysis-revenue-all.png" alt="Dashboard showing a comparision between Revenue Figures for a 2-Year Period" class="responsive-img" width="85%"/>
 
 You can compare the two figures by using the following calculated field.
 The "-1" is used to subtract the total difference for the year.

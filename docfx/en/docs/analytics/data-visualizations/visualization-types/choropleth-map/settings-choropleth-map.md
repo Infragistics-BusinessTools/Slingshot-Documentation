@@ -18,7 +18,7 @@ In the *Settings* section of the Choropleth map visualization you can configure 
   - *Color as* - here you can choose between:
 
       * *Range of Values* - use a range of seven colors as a color scheme and fill the regions depending on the data value;
-      * *Single Color* - use one color to display all regions that contain data. Regions, where information is missing, are grey.
+      * *Single Color* - use one color to display all regions that contain data. Regions, where information is missing, are gray.
 
     >[!NOTE]
     >If you have added a field in the *Map Color* placeholder, then the *Color as* in the *Settings* will change to *Color based on*. Find more about using the Map Color to create choropleth maps [here](./Choropleth-map.md#using-the-map-color-to-create-a-multi-color-choropleth-map).
@@ -37,11 +37,11 @@ When your location data is in Japanese, Analytics translates it in English to co
 
 If you use a Japanese dataset in Analytics, and your Language and Regional settings are not set to Japanese, then you need to use the *Data is written in* setting to help Analytics recognize the language of your dataset by switching to Japanese (*ja*):
 
-<img src="images/data-is-written-in-option.png" alt="Choosing Japanese from the dropdown menu of the Data is written in option" class="responsive-img" width="85%"/>
+<img src="images/data-is-written-in-option.png" alt="Choosing Japanese from the drop-down menu of the Data is written in option" class="responsive-img" width="85%"/>
 
 
 ### Language of Labels
 
-The language of labels on the choropleth map is defined by the language and regional settings configured in your OS and/or browser. So if you are running Analytics on a machine with its locale/language set to <a href="https://www.slingshotapp.io/en/help/docs/getting-started-slingshot#contact-us" target="_blank">a language Analytics supports</a>, the app will attempt to localize the labels to that language. This has nothing to do with the *Data is written in* setting.
+The language of labels on the choropleth map is defined by the language and regional settings configured in your OS and/or browser. So if you are running Analytics on a machine with its locale/language set to a [language Analytics supports](../../../../welcome-slingshot.md#supported-languages), the app will attempt to localize the labels to that language. This has nothing to do with the *Data is written in* setting.
 
 If a Japanese employee's machine, for example, is set to use their native language (Japanese), but the data given to them is in English, Analytics will still display the labels in Japanese. Then, if they share the dashboard with a German contractor, the German will see the labels in the language their machine is set to use (the German language is supported in Analytics).

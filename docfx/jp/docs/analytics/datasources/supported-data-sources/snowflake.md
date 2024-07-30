@@ -8,7 +8,7 @@ Snowflake データ ソースを構成するには、最初に次の情報を入
 
 1.  **アカウント**: 領域またはクラウド プロバイダー情報のない Snowflake アカウント。たとえば、*\<account_name\>.us-east-1.snowflakecomputing.com* ではなく、\<account_name\> のようにする必要があります。
 
-2.  **[ホスト]**: 必須ではありませんが、値が指定されていない場合は *\<28/>.snowflakecomputing.com* が使用されます。米国西部地域にいない場合、またはグローバル URL を使用する場合は、*\<account_name\>.\<region_id\>.snowflakecomputing.com* の形式でホストを指定する必要があります。
+2.  **[ホスト]**: 必須ではありませんが、値が指定されていない場合は *\<account_name\>.snowflakecomputing.com* が使用されます。米国西部地域にいない場合、またはグローバル URL を使用する場合は、*\<account_name\>.\<region_id\>.snowflakecomputing.com* の形式でホストを指定する必要があります。
 
 3.  **[資格情報]**: *資格情報*を選択した後、*Snowflake* サーバーの資格情報を入力するか、既存の資格情報 (利用可能な場合) を選択できます。
 
@@ -24,10 +24,10 @@ Snowflake データ ソースを構成するには、最初に次の情報を入
 
 1.  データベースの横にある空の円をマークして、**データベースを選択します**。
 
-  <img src="images/snowflake-database-dialog.png" alt="Select a database dialog" class="responsive-img" width="55%"/>
+  <img src="images/snowflake-database-dialog.png" alt="Select a Snowflake database" class="responsive-img" width="55%"/>
 
 2.  データベースから**テーブルを選択します**。右側の空の円の横にあるアイコンを使用して、データをプレビューします。
 
-  <img src="images/snowflake-data-source-details.png.png" alt="Select a table dialog" class="responsive-img" width="55%"/>
+  <img src="images/snowflake-data-source-details.png.png" alt="Select a Snowflake table" class="responsive-img" width="55%"/>
 
 これで、Snowflake から取得したデータを使用して表示形式の構築を開始できる**表示形式エディター**が表示されます。

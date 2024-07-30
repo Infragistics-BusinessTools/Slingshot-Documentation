@@ -22,6 +22,6 @@ You can follow these quick steps in order to share your feedback with us:
 
 - Include your system info. We would recommend that you always include this info in your feedback as that will help us get a better overview on the matter.
 
- <img src="../images/feedback-options.png" alt="Showing what the give feedback options are" width="45%" class="responsive-img"/>
+ <img src="../images/feedback-options.png" alt="Feedback options" width="45%" class="responsive-img"/>
 
 If you want to find out more about the other options under your user account and settings, click [here](https://www.slingshotapp.io/en/help/docs/user-account).

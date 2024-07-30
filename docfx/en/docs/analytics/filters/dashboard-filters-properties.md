@@ -9,7 +9,7 @@ _description: Learn how to quickly apply and use Dashboard filters properties to
 
 In order to add a new dashboard filter:
 
-1.  Go to the *Dashboard editor* and select *Add Filter* ⇒ *Add
+1.  Go to the *Dashboard Editor* and select *Add Filter* ⇒ *Add
     Dashboard Filter*.
 
 2.  The *Dashboard Filter* menu will open. By default, the selected data
@@ -49,7 +49,7 @@ even if they appear multiple times in the original dataset.
 
 You can change the displayed column in *Edit mode* by selecting the *Edit* button in the overflow menu next to the dashboard filter name.
 
-<img src="images/edit-mode-filter.png" alt="Accessing dashboard filter edit mode" class="responsive-img" width="90%"/>
+<img src="images/edit-mode-filter.png" alt="Edit dashboard filter" class="responsive-img" width="90%"/>
 
 <a name='multiple-selection'></a>
 ## Multiple Selection
@@ -64,7 +64,7 @@ In order to **enable "Multiple Selection"**, you must switch the
 dashboard to *Edit* mode ⇒ choose *Edit* from the overflow menu of a
 dashboard filter ⇒ *Selection* ⇒ tick *Multiple Selection* checkbox.
 
-<img src="images/multiple-selection-option-dashboard-filter-dialog.png" alt="Enabling dashboard filters multiple selections" class="responsive-img" width="90%"/>
+<img src="images/multiple-selection-option-dashboard-filter-dialog.png" alt="Multiple selections for dashboard filters" class="responsive-img" width="90%"/>
 
 <a name='required-selection'></a>
 ## Required Selection
@@ -80,7 +80,7 @@ In order to **enable "Required Selection"**, you must switch the
 dashboard to *Edit* mode ⇒ choose *Edit* from the overflow menu of a
 dashboard filter ⇒ *Selection* ⇒ tick *Required Selection* checkbox.
 
-<img src="images/required-selection-option-filters.png" alt="Enabling dashboard filters required selection" class="responsive-img" width="90%"/>
+<img src="images/required-selection-option-filters.png" alt="Required selection fo dashboard filters" class="responsive-img" width="90%"/>
 
 <a name='data-filters'></a>
 ## Data Filters
@@ -90,7 +90,7 @@ Dashboard Filter. This allows you to filter out null or empty values on
 a specific field ([empty values filter](~/docs/analytics/data-visualizations/fields/field-filters-rules.html#empty-values)). You can also [select specific values](~/docs/analytics/data-visualizations/fields/field-filters-rules.html#select-values), or add
 [rules](~/docs/analytics/data-visualizations/fields/field-filters-rules.html#rules) to your field in order to change the
 options depending on the field type. For more information, visit the
-[field filters and rules](field-filters-rules.md) section.
+[field filters and rules](../data-visualizations/fields/field-filters-rules.md) section.
 
 For example, if you use the *Fullname* field to filter the data in
 your *HR Dashboard*, the *Dashboard filter* will show a list of all

@@ -8,9 +8,9 @@ _language: ja
 
 同じ Analytics 表示形式の**複数のデータ ソースから値を抽出する**ために、**データ ブレンティング**が必要な場合があります。
 
-たとえば、休暇日数を部署ごとに他の従業員不就業と比較して、それらの変数の相関関係についてインサイトを得ることができます。
+たとえば、従業員 ID を使用して、各従業員の累積休暇日数と取得済み休暇日数を確認したいとします。さまざまなデータ ソースを 1 つの表示形式に組み合わせることで、それらの変数の相関関係についての洞察を得ることができます。
 
-<img src="images/data-blending-sample.png" alt="Data Blending Example Visualization" class="responsive-img" width="80%"/>
+<img src="images/data-blending-example.png" alt="Data Blending Example Visualization" class="responsive-img" width="80%"/>
 
 
 ２つの データ ソースを 1 つの表示形式に統合ため、以下の手順を実行します:
@@ -20,7 +20,7 @@ _language: ja
     **[フィールド]** セクションの **[+]** ボタンをクリックもしくはタップし、**[その他のデータ ソース フィールド]** を選択します。
 
      <img src="images/fields-from-another-data-source-option.png" alt="Data Blending Accessing dialog in the Visualization editor" class="responsive-img" width="
-     35%"/>
+     80%"/>
 
 2.  **新しいデータ ソースを選択する**。
 
@@ -30,14 +30,14 @@ _language: ja
 
     2 つのデータ セットを統合するために一致する必要がある等価条件を設定します。
 
-     <img src="images/join-condition-data-blending.png" alt="Data Blending Join Condition selection" class="responsive-img" width="55%"/>
+     <img src="images/join-condition-data-blending.png" alt="Data Blending Join Condition selection" class="responsive-img" width="80%"/>
 
 
 4.  **必要なフィールドを選択する**。
 
     結合するフィールドを指定して、表示形式でアクセスできるようにします。
 
-     <img src="images/data-blending-new-fields.png" alt="Data Blending Choose New Fields dialog" class="responsive-img" width="60%"/>
+     <img src="images/data-blending-new-fields.png" alt="Data Blending Choose New Fields dialog" class="responsive-img" width="80%"/>
 
 
 5.  **[データの結合] を選択する**。

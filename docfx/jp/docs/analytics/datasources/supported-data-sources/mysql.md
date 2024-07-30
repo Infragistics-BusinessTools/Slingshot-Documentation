@@ -6,7 +6,6 @@ _language: ja
 
 # MySQL
 
-
 >[!NOTE] 
 >**Web の制限**。*Analytics Web* アプリでは、公的にアクセス可能な MySQL アドレスにのみ接続できます。MySQL アドレスが一般公開 (プライベートまたは会社のイントラネットでホストされているなど) に制限されている場合は、*Analytics Desktop*、*iOS*、または *Android* を使用して接続できます。Analytics を実行しているデバイスは、MySQL アドレスにアクセスできる必要があります。この制限は、*Analytics Embedded* には適用されません。
 
@@ -63,9 +62,9 @@ Analytics ではすべてのテーブルから MySQL データを取得できま
 
 テーブルまたはビューを選択すると、**表示形式エディター**に移動します。ここでダッシュボードを作成できます。デフォルトでは、**柱状**表示形式が選択されます。それを選択して、別のチャート タイプを選択できます。
 
-<img src="images/mysql-visualization-editor.png" alt="Using MySQL as data to create a dashboard in the visualization editor" class="responsive-img" width="85%"/>
+<img src="images/mysql-visualization-editor.png" alt="MySQL data in the Visualization Editor" class="responsive-img" width="85%"/>
 
 表示形式エディターの準備ができたら、ダッシュボードを **[分析]** ⇒ **[ダッシュボード]** または特定のワークスペースに保存できます。 
 
-<img src="images/mysql-my-analytics.png" alt="A dashboard created from a MySQL data source in the My Analytics section" class="responsive-img" width="85%"/>
+<img src="images/mysql-my-analytics.png" alt="MySQL dashboard in a dashboard section in My Analytics" class="responsive-img" width="85%"/>
 

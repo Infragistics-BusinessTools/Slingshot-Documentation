@@ -5,7 +5,6 @@ _description: Create and use visualizations through a MySQL server data source i
 
 # MySQL
 
-
 >[!NOTE] **Limitations in Web**. In the *Analytics Web* app, you can connect only to publicly accessible MySQL addresses. If your MySQL address is restricted for the general public (private or hosted in the company's intranet, for example), you can use *Analytics Desktop*, *iOS* or *Android* to connect to it. The device where you're running Analytics needs to have access to this MySQL address. This limitation does not apply to *Analytics Embedded*.
 
 ## Connecting to MySQL
@@ -69,11 +68,11 @@ For more information on views and MySQL, visit <a href="https://dev.mysql.com/do
 
 ## Working in the Visualization Editor
 
-Once you have chosen your table or view, you will be taken to the *Visualizations Editor*. Here you can build your dashboard. By default, the *Column* visualization will be selected. You can select it in order to choose another chart type.
+Once you have chosen your table or view, you will be taken to the *Visualization Editor*. Here you can build your dashboard. By default, the *Column* visualization will be selected. You can select it in order to choose another chart type.
 
-<img src="images/mysql-visualization-editor.png" alt="Using MySQL as data to create a dashboard in the visualization editor" class="responsive-img" width="85%"/>
+<img src="images/mysql-visualization-editor.png" alt="MySQL data in the Visualization Editor" class="responsive-img" width="85%"/>
 
 When you are ready with the visualization editor, you can save the dashboard in **My Analytics** ⇒ **My Dashboards** or in a specific workspace. 
 
-<img src="images/mysql-my-analytics.png" alt="A dashboard created from a MySQL data source in the My Analytics section" class="responsive-img" width="85%"/>
+<img src="images/mysql-my-analytics.png" alt="MySQL dashboard in a dashboard section in My Analytics" class="responsive-img" width="85%"/>
 

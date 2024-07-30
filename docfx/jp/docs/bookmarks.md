@@ -7,14 +7,18 @@
 ## ブックマークを使用する方法
 
 1.	ブックマークしたいコンテンツの横にあるオーバーフロー メニューを開きます。
+
 2.	提供されたオプションから **[ブックマーク]** を選択します。 
-3.	タスクやダッシュボードをブックマークに追加すると、左側のパネルの [ワークスペース] および [グループ] の隣にある **[ブックマーク]** セクションに追加されたブックマークが表示されます。
 
-<img src="../images/bookmarks.png" alt="bookmarks button" class="responsive-img" width="35%"/>
+<img src="../images/bookmark-option-overflow-menu.png" alt="Bookmark option in the overflow menu of an item" class="responsive-img" width="90%"/>
 
-または、**[概要]** をクリックしても、ブックマークにアクセスできます。
+3.	例えば、ディスカッションをブックマークに追加すると、左側のパネルの [ワークスペース] および [グループ] の隣にある **[ブックマーク]** セクションに追加されたブックマークが表示されます。(*[Enterprise 機能](./slingshot-enterprise-subscription.md))*
 
-<img src="../images/bookmarks-my-overview.png" alt="bookmarks in my overview" class="responsive-img" width="70%" />
+<img src="../images/bookmarked-item.png" alt="Bookmarks button" class="responsive-img" width="90%"/>
+
+または、**[概要]** をクリックまたはタップしても、ブックマークにアクセスできます。
+
+<img src="../images/bookmarks-my-overview.png" alt="Bookmarks in My Overview" class="responsive-img" width="90%" />
 
 多くの項目をブックマークしている場合は、手動でドラッグアンドドロップしてリストを整理できます。
 
@@ -27,9 +31,13 @@
 以下の手順でブックマーク項目を削除できます:
 
 1.	**[ブックマーク]** セクションを開きます。
+
 2.	オーバーフロー メニューを開きます。
+
 3.	**[ブックマークの削除]** を選択します。
 
-<img src="../images/remove-bookmark-option.png" alt="How to remove a bookmark" class="responsive-img" width="35%"/>
+<img src="../images/remove-bookmark.png" alt="Remove bookmark option" class="responsive-img" width="90%"/>
 
-または、項目を開いてオーバーフロー メニューをクリックし、**[ブックマークの削除]** を選択します。 
+または、項目を開いてオーバーフロー メニューをクリックまたはタップし、**[ブックマークの削除]** を選択します。 
+
+<img src="../images/remove-bookmark-item.png" alt="Remove bookmark option in the overflow menu of a bookmarked item" class="responsive-img" width="90%"/>

@@ -10,15 +10,15 @@ fields. These fields are created by using expressions (formulas). An
 expression can be a combination of existing field(s), constant values
 and:
 
-  - [predefined functions](#predefined-functions) and/or
+  - [predefined functions](#using-the-predefined-analytics-functions) and/or
 
-  - [simple math calculations and other functions that are not predefined](#without-predefined-functions).
+  - [simple math calculations and other functions that are not predefined](#creating-calculated-fields-without-using-the-predefined-functions).
 
 There are two types of calculated fields:
 
-  - [pre-calculated](#precalculated-fields) (also called "calculated")
+  - [pre-calculated](#pre-calculated-fields) (also called "calculated")
 
-  - [post-calculated](#postcalculated-fields)
+  - [post-calculated](#post-calculated-fields)
 
 <a name='precalculated-fields'></a>
 ## Pre-Calculated Fields
@@ -26,10 +26,10 @@ There are two types of calculated fields:
 Pre-calculated fields are evaluated before executing data editor
 aggregations. This means in order to apply a certain formula, Analytics will go through every record in your field's dataset once or several times. Because of this, pre-calculation is likely to be underperforming in terms of speed when working with large datasets.
 
-To add a new pre-calculated field, click/tap the **+ button** in the
+To add a new pre-calculated field, click/tap on the **+ button** in the
 *Fields* panel and choose **Calculated Field**:
 
-<img src="images/calculated-field-option.png" alt="Pre-calculated field option" class="responsive-img" width="90%"/>
+<img src="images/calculated-field-option.png" alt="Pre-calculated field option in data editor for a dashboard" class="responsive-img" width="90%"/>
 
 The *New Calculated Field* screen will open:
 
@@ -72,7 +72,7 @@ To create a post calculated field you will need to:
 
   <img src="images/post-calculated-field-example.png" alt="Post calculated fields in the Data editor" class="responsive-img" width="90%"/>
 
-2.  Click/tap the *F(x)* button next to *Values* to open the *New
+2.  Click/tap on the *F(x)* button next to *Values* to open the *New
     Calculated Field* screen:
 
   <img src="images/post-calculated-field-new-calculated-field-dialog.png" alt="Post calculated field new calculated field screen" class="responsive-img" width="90%"/>
@@ -87,7 +87,7 @@ If you need to use other fields from your data source, that are not
 included in the *Data Editor*, you can add them by clicking/tapping on
 the *+* button next to *Values*. Since post-calculated fields are
 created only by using aggregated values, you will first need to select
-an aggregation from the dropdown list to be executed on the data field.
+an aggregation from the drop-down list to be executed on the data field.
 
 <img src="images/post-calculated-field-new-calculated-field-dialog-adding-fields.png" alt="Adding fields in the calculated field screen" class="responsive-img" width="90%"/>
 

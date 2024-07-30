@@ -11,8 +11,8 @@
 |timestamp |	倍精度浮動小数点数型 (double) | read-only| 
 | created             | 文字列 | read-only |
 | name               | 文字列 |  min = 1, max = 100 |  
-|members| 	配列 <[MemberInfo](../generic-slingshot-resources.html#メンバー情報オブジェクト)> |read-only|
-|lastMessage| オブジェクト <[ChatMessageInfo](../generic-slingshot-resources.html#チャット-メッセージ情報オブジェクト)>|read-only |
+|members| 	配列 <[MemberInfo](../generic-slingshot-resources.md#メンバー情報オブジェクト)> |read-only|
+|lastMessage| オブジェクト <[ChatMessageInfo](../generic-slingshot-resources.md#チャット-メッセージ情報オブジェクト)>|read-only |
 
 <br/>
 
@@ -49,7 +49,7 @@
 
 ## プライベート チャットを作成する 
 
-<img src="../images/post-request.png" alt="Post request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***htt<area>ps://my.slingshotapp<area>.io/v1/privatechats***</span>
+<img src="../images/post-request.png" alt="Post request for a private chat" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/privatechats***</span>
 
 必須パラメーター: なし
 
@@ -58,7 +58,7 @@
 |    プロパティ  | 型            | 属性           |
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
 | name               | 文字列 | required, min = 1, max = 100 |
-| members         | 配列 <[MemberInfo](../generic-slingshot-resources.html#メンバー情報オブジェクト)>|required | 
+| members         | 配列 <[MemberInfo](../generic-slingshot-resources.md#メンバー情報オブジェクト)>|required | 
 
 可能な応答:
 
@@ -110,7 +110,7 @@
 
 ## プライベート チャットを取得する
 
-<img src="../images/get.png" alt="Get request" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/privatechats/{id}***
+<img src="../images/get.png" alt="Get request for a private chat" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/privatechats/{id}***
 
 必須パラメーター: プライベート チャットの **id**。
 
@@ -126,7 +126,7 @@
 
 ## すべてのプライベート チャットを取得する
 
-<img src="../images/get-all.png" alt="Get all request" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> <span class="italic">***htt<area>ps://my.slingshotapp<area>.io/v1/privatechats***</span>
+<img src="../images/get-all.png" alt="Get all request for private chats" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> <span class="italic">***https://my.slingshotapp.io/v1/privatechats***</span>
 
 必須パラメーター: なし
 
@@ -142,7 +142,7 @@
 
 ## プライベート チャット メッセージを送信する 
 
-<img src="../images/patch.png" alt="Patch request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/privatechats/{id}***
+<img src="../images/patch.png" alt="Patch request for a private chat" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/privatechats/{id}***
 
 必須パラメーター: プライベート チャットの **id**。
 
@@ -205,7 +205,7 @@
 
 ## プライベート チャット メッセージを取得する
 
-<img src="../images/get.png" alt="Get request" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> ***<span class="italic">***htt<area>ps://my.slingshotapp<area>.io/v1/privatechats/{id}/messages***</span>***
+<img src="../images/get.png" alt="Get request for a private chat" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> ***<span class="italic">***https://my.slingshotapp.io/v1/privatechats/{id}/messages***</span>***
 
 必須パラメーター: プライベート チャットの **id**。
 
@@ -222,7 +222,7 @@
 <br/>
 
 ## プライベート チャット メッセージを送信する
-<img src="../images/post-sending-private-chat.png" alt="Sending private chat with post request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/privatechats/{id}/send***
+<img src="../images/post-sending-private-chat.png" alt="Send private chat with post request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/privatechats/{id}/send***
 
 必須パラメーター: プライベート チャットの **id**。 
 
@@ -245,11 +245,11 @@
 
 ## プライベート チャットにメンバーを追加する 
 
-<img src="../images/post-request.png" alt="Post request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/privatechats/{id}/members***
+<img src="../images/post-request.png" alt="Post request for adding members to a private chat" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/privatechats/{id}/members***
 
 必須パラメーター: プライベート チャットの **id**。
 
-要求本文: [ItemsObject](../generic-slingshot-resources.html#項目オブジェクト) <[MemberInfo](../generic-slingshot-resources.html#メンバー情報オブジェクト)>
+要求本文: [ItemsObject](../generic-slingshot-resources.md#項目オブジェクト) <[MemberInfo](../generic-slingshot-resources.md#メンバー情報オブジェクト)>
 
 可能な応答:
 
@@ -314,11 +314,11 @@
 
 ## プライベート チャットからメンバーを削除する
 
-<img src="../images/delete.png" alt="Delete request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/privatechats/{id}/members***
+<img src="../images/delete.png" alt="Delete request for removing members from a private chat" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/privatechats/{id}/members***
 
 必須パラメーター: プライベート チャットの **id**。
 
-要求本文: [ItemsObject](../generic-slingshot-resources.html#項目オブジェクト) <[MemberInfo](../generic-slingshot-resources.html#メンバー情報オブジェクト)>
+要求本文: [ItemsObject](../generic-slingshot-resources.md#項目オブジェクト) <[MemberInfo](../generic-slingshot-resources.md#メンバー情報オブジェクト)>
 
 可能な応答:
 

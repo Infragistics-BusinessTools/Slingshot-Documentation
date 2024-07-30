@@ -23,10 +23,10 @@ BigQuery Machine Learning にアクセスするには、以下の手順を実行
 
 1. BigQuery データ ソースに接続します。機械学習モデルの予測に必要な情報を含むデータセットを選択します。
 
-    BigQuery データ ソースの詳細については、[Google BigQuery](~/docs/analytics/datasources/supported-data-sources/google-bigquery.md) のトピックを参照してください。
+    BigQuery データ ソースの詳細については、[Google BigQuery](../../datasources/supported-data-sources/google-bigquery.md) のトピックを参照してください。
 
 
-2. 表示形式エディターで、左側のフィールド リストの上にある**脳アイコン**をクリック/タップします。
+2. 表示形式エディターで、左側のフィールド リストの上にある**脳アイコン**をクリックまたはタップします。
 
     <img src="images/brain-icon-bigquery-ml-model.png" alt="Brain icon location in the Visualization editor" class="responsive-img"/>
 

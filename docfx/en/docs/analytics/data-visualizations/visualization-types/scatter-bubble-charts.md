@@ -44,7 +44,7 @@ them included in the chart.
 
 ## Creating a Bubble Chart
 
-<img src="images/bubble-chart-visualization-editor.png" alt="An Example of a bubble chart using one color" class="responsive-img" width="90%"/>
+<img src="images/bubble-chart-visualization-editor.png" alt="Example of a bubble chart using one color" class="responsive-img" width="90%"/>
 
 To create a basic bubble chart, using only one color, you will need to:
 

@@ -32,7 +32,7 @@ _language: ja
 <a name='converting-unix-timestamps'></a>
 ## Unix 更新日時を使用可能な日付へ変換
 
-1970 年 1 月 1 日後の秒によって定義される Unix 時間 (Epoch 時間) はすべてのタイムゾーンを一度に表すために便利です。Unix 更新日時を持つデータ ソースをインポートする場合、[`date`](date.html) 数式を使用して利用可能な日付に変換できます。
+1970 年 1 月 1 日後の秒によって定義される Unix 時間 (Epoch 時間) はすべてのタイムゾーンを一度に表すために便利です。Unix 更新日時を持つデータ ソースをインポートする場合、[`date`](date.md) 数式を使用して利用可能な日付に変換できます。
 
 `((([Unix Time Stamp]/60)/60)/24)+DATE(1970,1,1)+([Timezone]/24)`
 
@@ -59,12 +59,12 @@ _language: ja
 
 以下のダッシュボードを参照します。会社の事業部および 2 年間の売上を表示します。
 
-<img src="images/yoy-analysis-revenue-all.png" alt="YoyAnalysisRevenue\_All" class="responsive-img" width="85%"/>
+<img src="images/yoy-analysis-revenue-all.png" alt="Dashboard showing a comparision between Revenue Figures for a 2-Year Period" class="responsive-img" width="85%"/>
 
 以下の計算フィールドを使用して 2 つの数値を比較できます。「-1」は年の違いを減算します。
 
 `([Revenue 2017]/[Revenue 2016])-1`
 
-数値を使用するか、[パーセンテージとして書式](~/docs/analytics/data-visualizations/fields/field-settings.html#numeric-fields)設定できます。
+数値を使用するか、[パーセンテージとして書式](../../fields/field-settings.md#数値フィールド)設定できます。
 
 <img src="images/yoy-analysis-percentage-all.png" alt="Comparing Revenue Figures in yoy analysis while using percentage" class="responsive-img" width="85%"/>

@@ -10,10 +10,10 @@ _description: Learn how to configure and use an Oracle data source in two modes.
 There are two modes you can use to connect to Oracle depending on your
 database's settings:
 
-  - [**Using SID**](#using-sid): the unique name of your Oracle database
+  - [**Using SID**](#connecting-to-oracle-using-sid): the unique name of your Oracle database
     instance.
 
-  - [**Using Service**](#using-service): the alias used when connecting
+  - [**Using Service**](#connecting-to-oracle-using-service): the alias used when connecting
     to the database instance.
 
 <a name='using-sid'></a>
@@ -27,7 +27,7 @@ information:
 
  1.  **Default name** of the data source: Your data source name will be displayed in the list of accounts in the previous dialog. By default, Analytics names it *Oracle*. You can change it to your preference.
 
-2.  [**Server**](#how-to-find-server): the computer name or IP address
+2.  [**Server**](#how-to-find-your-server-information): the computer name or IP address
     assigned to the computer on which the server is running.
 
 3.  **Port**: if applicable, the server port details. If no information
@@ -60,7 +60,7 @@ To configure Oracle using Service, you will need to enter the following informat
 
 <img src="images/add-oracle-credentials-service.png" alt="Configure Oracle Service mode details" class="responsive-img" width="80%"/>
 
-1.  [**Server**](#how-to-find-server): the computer name or IP address
+1.  [**Server**](#how-to-find-your-server-information): the computer name or IP address
     assigned to the computer on which the server is running.
 
 2.  **Port**: if applicable, the server port details. If no information

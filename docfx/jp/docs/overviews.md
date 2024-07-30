@@ -44,7 +44,7 @@ _language: ja
 
 概要では、プロジェクト マネージャーとリーダーの両方に、全体的な状態 (**進行中**、**リスク**、**危険**、**完了**)、**開始**と**期日**を示し、主要なコンテンツをメンバーに喚起することができます。
 
-<img src="../images/workspace-overview.png" alt="Showing a Workspace Overview within Slingshot" class="responsive-img"/>
+<img src="../images/workspace-overview.png" alt="Example of a Workspace Overview within Slingshot" class="responsive-img"/>
 
 ### 詳細
 

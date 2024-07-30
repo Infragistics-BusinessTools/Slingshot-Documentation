@@ -4,7 +4,6 @@ Slingshot には、**無料**、**Slingshot**、および **Slingshot Enterprise
 
 ## Slingshot Enterprise サブスクリプションを使用している間、どのようなロールを担うことができますか?
 
-
 | アクセス許可 | サブスクリプション管理者 | 組織管理者 | ユーザー          |
 | ------------------------------------ | ------------------ | ------------------ | ----------------- |
 | サブスクリプションを管理 (エンタープライズ サブスクリプションのアクティブ化および / またはキャンセル、組織へのユーザーの招待、組織からのユーザーの削除) | :white_check_mark: | :x:  | :x:  |
@@ -18,8 +17,11 @@ Slingshot には、**無料**、**Slingshot**、および **Slingshot Enterprise
 次の手順で Slingshot Enterprise サブスクリプションをアクティブ化できます:
 
 1.	*Slingshot* アカウントにログインします。
+
 2.	プロファイル設定に移動し、**[サブスクリプション]** を選択します。
+
 3.	**[アップグレード]** をクリックまたはタップすると、料金ページが表示されます。
+
 4.	**[購入]** をクリックまたはタップしてユーザー数を選択し、購入を完了します。
 
 <img src="../images/enterprise-subscription-purchase.png" alt="Information required for completing the purchase" width="70%" class="responsive-img"/>
@@ -31,6 +33,7 @@ Slingshot には、**無料**、**Slingshot**、および **Slingshot Enterprise
 **サブスクリプション管理者**は、組織の招待をユーザーに送信できます。そのためには、以下の手順を試しください:
 
 1.	カスタマー ポータルに移動し、**[サブスクリプション]** をクリックします。
+
 2.	**[ユーザーの管理]** を選択します。
 
  <img src="../images/manage-users-slingshot-enterprise-subscription.png" alt="Manage users option in the subscriptions section" width="70%" class="responsive-img"/>
@@ -59,13 +62,13 @@ Slingshot には、**無料**、**Slingshot**、および **Slingshot Enterprise
 
  サブスクリプションの管理者は、Slingshot ポータルから Slingshot Enterprise サブスクリプションをキャンセルできます。
 
- <img src="../images/cancel-subscription-option.png" alt="The option to cancel a subscription in the portal " width="65%" class="responsive-img"/>
+ <img src="../images/cancel-subscription-option.png" alt="The option to cancel a subscription in the portal" width="65%" class="responsive-img"/>
 
 ## ユーザーがアプリ内の組織から削除された場合、ユーザーのアカウントはどうなりますか?
 
  ユーザーのアカウントは非アクティブ化されますが、データは組織のために保持されます。**組織管理者**は、**[組織の編集]** ダイアログの **[自分と共有済み]** セクションから非アクティブ化されたすべてのユーザーを含むリストを管理できます。
 
-<img src="../images/deactivated-users.png" alt="List of deactivated users in the edit organization settings " class="responsive-img" width="45%"/>
+<img src="../images/deactivated-users.png" alt="List of deactivated users in the Edit Organization settings " class="responsive-img" width="45%"/>
 
 ## ユーザーは別の Slingshot Enterprise サブスクリプションに参加できますか?
 

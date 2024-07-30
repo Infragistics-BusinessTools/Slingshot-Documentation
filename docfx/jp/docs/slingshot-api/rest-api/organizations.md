@@ -12,18 +12,18 @@
 | modified             | 文字列 |read-only  |
 | created             | 文字列 |  read-only|
 | name               | 文字列 | read-only |
-| members            | 配列 <[MemberInfo](../generic-slingshot-resources.html#メンバー情報オブジェクト)> | read-only |
-| workspaces            |配列 <[DocumentInfo](../generic-slingshot-resources.html#ドキュメント情報オブジェクト)> | read-only|  
-| projects    |配列 <[DocumentInfo](../generic-slingshot-resources.html#ドキュメント情報オブジェクト)> | read-only| 
-| pinLists   |配列 <[DocumentInfo](../generic-slingshot-resources.html#ドキュメント情報オブジェクト)>  | read-only|
-| discussionLists  |配列 <[DocumentInfo](../generic-slingshot-resources.html#ドキュメント情報オブジェクト)>  | read-only|
-| dashboardLists   |配列 <[DocumentInfo](../generic-slingshot-resources.html#ドキュメント情報オブジェクト)>  | read-only|
+| members            | 配列 <[MemberInfo](../generic-slingshot-resources.md#メンバー情報オブジェクト)> | read-only |
+| workspaces            |配列 <[DocumentInfo](../generic-slingshot-resources.md#ドキュメント情報オブジェクト)> | read-only|  
+| projects    |配列 <[DocumentInfo](../generic-slingshot-resources.md#ドキュメント情報オブジェクト)> | read-only| 
+| pinLists   |配列 <[DocumentInfo](../generic-slingshot-resources.md#ドキュメント情報オブジェクト)>  | read-only|
+| discussionLists  |配列 <[DocumentInfo](../generic-slingshot-resources.md#ドキュメント情報オブジェクト)>  | read-only|
+| dashboardLists   |配列 <[DocumentInfo](../generic-slingshot-resources.md#ドキュメント情報オブジェクト)>  | read-only|
 
 <br/>
 
 ## 現在のユーザーのすべての組織を取得する 
 
-<img src="../images/get-all.png" alt="Get all request" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> <span class="italic">***htt<area>ps://my.slingshotapp<area>.io/v1/organizations***</span>
+<img src="../images/get-all.png" alt="Get all request for organizations" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> <span class="italic">***https://my.slingshotapp.io/v1/organizations***</span>
 
 必須パラメーター: なし
 

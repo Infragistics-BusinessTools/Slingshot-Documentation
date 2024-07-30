@@ -9,7 +9,7 @@ Sparkline charts are small charts plotted within a grid chart, without
 any axes, labels or other chart elements. They are meant to represent
 trends and their progression in a given date range.
 
-<img src="images/sparkline-chart-example.png" alt="Sparkline Chart sample" class="responsive-img" width="87%"/>
+<img src="images/sparkline-chart-example.png" alt="Sparkline Chart example" class="responsive-img" width="87%"/>
 
 The first column remains fixed in the Visualization Editor, allowing
 you to scroll through the different columns in your information.
@@ -38,3 +38,5 @@ will be able to modify several settings, including:
     including the last two values and the difference between them. In
     addition, you can also choose whether you want to **represent a
     positive difference in green or red**.
+  
+  - [Connect the visualization to another dashboard or a URL](../../dashboards/dashboard-linking.md)

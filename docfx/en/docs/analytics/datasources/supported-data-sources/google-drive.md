@@ -18,7 +18,7 @@ To use your Google Drive data, follow the steps below.
     
 2. An **authorization prompt** will pop up. You can select **Allow** to finish the process.
 
-   <img src="images/google-drive-permissions.png" alt="Google Drive Login" class="responsive-img" width="40%">
+   <img src="images/google-drive-permissions.png" alt="Google Drive authorization prompt" class="responsive-img" width="40%">
 
 You can now use your Google Drive data to build your visualizations and
 will not be asked for these permissions again.

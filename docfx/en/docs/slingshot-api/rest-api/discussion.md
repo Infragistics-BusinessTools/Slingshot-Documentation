@@ -47,7 +47,7 @@ Discussions can be created in projects and workspaces. As they are specific to w
 
 ## Create a discussion  
 
-<img src="../images/post-request.png" alt="Post request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> <span class="italic">***htt<area>ps://my.slingshotapp<area>.io/v1/discussion***</span>
+<img src="../images/post-request.png" alt="Post request for a discussion" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> <span class="italic">***htt<area>ps://my.slingshotapp<area>.io/v1/discussion***</span>
 
 Required parameters: None 
 
@@ -106,8 +106,8 @@ Example of a successful request body:
 
 ## Get a discussion
  
-<img src="../images/get.png" alt="Get request" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> 
-<span class="italic">***htt<area>ps://my.slingshotapp<area>.io/v1/discussions***</span>
+<img src="../images/get.png" alt="Get request for a discussion" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> 
+<span class="italic">***https://my.slingshotapp.io/v1/discussions***</span>
 
 Required parameters: the **id** of the discussion
  
@@ -123,7 +123,7 @@ Possible responses:
 
 ## Get all discussions for a parent document
 
-<img src="../images/get-all.png" alt="Get all request" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> <span class="italic">***htt<area>ps://my.slingshotapp<area>.io/v1/discussions/parent/{id}***</span>
+<img src="../images/get-all.png" alt="Get all request for discussions" class="responsive-img" width="5%" style="vertical-align:middle;margin:0px 0px"/> <span class="italic">***htt<area>ps://my.slingshotapp<area>.io/v1/discussions/parent/{id}***</span>
 
 Required parameters: the **id** of the parent discussion list
 
@@ -139,7 +139,7 @@ Possible responses:
 
 ## Get discussion messages
 
-<img src="../images/get-discussion-messages.png" alt="Delete request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/discussions/{id}/messages***
+<img src="../images/get-discussion-messages.png" alt="Delete request for a discussion" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/discussions/{id}/messages***
 
 Required parameters: the **id** of the discussion 
 
@@ -149,7 +149,7 @@ Possible responses:
 
 |Code | Description|
 -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| 200 (Success) |You can view all the messages in the discussion. The requested [Discussion](#discussion-schema) messages will be returned in the response body. |
+| 200 (Success) |You can view all the messages in the discussion. The requested [Discussion](#discussion-schema) messages will be returned to the response body. |
 | 403 (Forbidden) |The server understands the request, but the request cannot be authorized. This can happen, for example, when you try reading an object without access. No need for re-authentication.  |
 | 404 (Not Found) |The requested resource cannot be found by the server. This can be, for example, due to a specified object that doesn’t exist. |
 
@@ -157,7 +157,7 @@ Possible responses:
 
 ## Send a discussion message
 
-<img src="../images/post-send-discussion-message.png" alt="Send discussion message" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/discussions/{id}/send***
+<img src="../images/post-send-discussion-message.png" alt="Send discussion message for discussion" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/discussions/{id}/send***
 
 Required parameters: the **id** of the discussion
 
@@ -188,7 +188,7 @@ Example of a successful request body:
 
 ## Update a discussion
 
-<img src="../images/patch.png" alt="Patch request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/discussions/{id}***
+<img src="../images/patch.png" alt="Patch request for a discussion" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/discussions/{id}***
 
 Required parameters: the **id** of the discussion 
 
@@ -247,7 +247,7 @@ Example of a successful request body:
 
 ## Delete a discussion 
 
-<img src="../images/delete.png" alt="Delete request" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/discussions/{id}***
+<img src="../images/delete.png" alt="Delete request for a discussion" class="responsive-img" width="6%" style="vertical-align:middle;margin:0px 0px"/> ***https://my.slingshotapp.io/v1/discussions/{id}***
 
 Required parameters: the **id** of the specific discussion
 

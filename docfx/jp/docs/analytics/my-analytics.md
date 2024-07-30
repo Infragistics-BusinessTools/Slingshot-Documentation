@@ -13,10 +13,12 @@ Slingshot の **[分析]** セクションを使用すると、BI (ビジネス 
 データ主導の意思決定を行うために、Slingshot は次の機能を備えています:
 
 - **ダッシュボード** – ダッシュボードを作成または共有して、チームがデータを活用し、生産性を向上できるようにします。複数のデータ ソースを 1 つのダッシュボードに統合して、すべての情報を 1 か所にまとめます。
+
 - **データソース** - コンテンツ マネージャー、クラウド サービス、CRM、データベース、スプレッドシートなど、データの送信元に直接接続します。
+
 - **データ カタログ** - データ カタログのリストから、会社に関する最も信頼できる情報を見つけます。データは分類され、認証されます。
 
->[!Note] データ カタログは *[Enterprise](../slingshot-enterprise-subscription.md)* ユーザーのみが利用できます。
+>[!Note] データ カタログは Enterprise ユーザーのみが利用できます。
 
 データ ソースは表示形式を構成し、表示形式はダッシュボードを構成します。つまり、データはデータ ソースから取得され、可視化がそのデータ ソースに接続して情報を表示します。産性を向上させるために、ダッシュボードには、さまざまな関連情報を含む可視化のコレクションが含まれています。
 
@@ -24,7 +26,7 @@ Slingshot の **[分析]** セクションを使用すると、BI (ビジネス 
 
 直感的なドラッグ＆ドロップ インターフェイスを備えた Slingshot は、数分でダッシュボードを簡単に作成できます。40 以上の異なる表示形式から選択して、データを提示し、ストーリーを最良の方法で伝えます。
 
-<img src="../../images/my-analytics-dashboard-example.png" alt="Customizing a data visualization in Slingshot" class="responsive-img"/>
+<img src="../../images/my-analytics-dashboard-example.png" alt="Example of a custom data visualization in Slingshot" class="responsive-img" width="80%"/>
 
 ### カスタマイズ
 
@@ -53,16 +55,22 @@ Slingshot の **[分析]** セクションを使用すると、BI (ビジネス 
 データ ソースに直接接続して表示形式を構築するには、次の手順に従います: 
 
 1. **[+ ダッシュボード]** または **[ダッシュボードの作成]** (作業の開始セクション) の青いボタンをクリックまたはタップします。
+
+   <img src="../../images/new-dashboard-button.png" alt="New dashboard button" class="responsive-img" width="80%"/>
+
 2. 接続するデータ ソースを選択します。
+
+   <img src="../../images/my-analytics-select-data-source.png" alt="Select a data source" class="responsive-img" width="80%"/>
+
 3. 接続を構成します。これには、ファイルの場所 (スプレッドシートまたは JSON ファイル) の選択や、資格情報 (データ ストレージ、Web リソース、ソーシャル メディア コネクター、データベース) の入力が含まれる場合があります。
 
 ## データ カタログ
 
-組織のデータ カタログを使用すると、ユーザーは探している洞察を簡単にすばやく見つけることができます。この機能により、*Enterprise* ユーザーはダッシュボードとデータ ソースの広範なカタログにアクセスできます。 
+組織のデータ カタログを使用すると、ユーザーは探している洞察を簡単にすばやく見つけることができます。この機能により、*[Enterprise](../slingshot-enterprise-subscription.md)* ユーザーはダッシュボードとデータ ソースの広範なカタログにアクセスできます。 
 
 認証は、組織内で最も信頼できるデータを見つけるのに役立つため、データ カタログの重要な部分です。これは、どのダッシュボードまたはデータ ソースが信頼でき、検証済みの情報が含まれているかを知るための優れた方法です。ダッシュボードまたはデータ ソースが認証されると、その横に金、銀、または銅のバッジが表示されます。
 
-<img src="../../images/certified-data-source-example.png" alt="Certifications in Slingshot" class="responsive-img"/>
+<img src="../../images/certified-data-source-example.png" alt="Certifications in Slingshot" class="responsive-img" width="80%"/>
 
 [データ カタログの詳細については、こちらをご覧ください](../data-catalog.md)。
 
@@ -71,11 +79,11 @@ Slingshot の **[分析]** セクションを使用すると、BI (ビジネス 
 ダッシュボードとデータ ソースの複数のリストを管理できます。これらのリストは、これらのリソースを整理、管理、および共有するようにデザインされています。
 [ダッシュボード] タブと [データ ソース] タブには、セクションごとに整理できるリストがあります。セクションは、コンテンツを分割してより良くレイアウトする場合に便利です。
 
-<img src="../../images/my-analytics-dashboard-lists.png" alt="Data Catalog screen within Slingshot" class="responsive-img"/>
+<img src="../../images/my-analytics-dashboard-lists.png" alt="Data Catalog screen within Slingshot" class="responsive-img" width="80%"/>
 
 ### 定義済みのリスト
 
-デフォルトでは、*My Dashboards* および *My Data Sources* のリストから開始しますが、さらにリストを作成し、ドラッグするだけで簡単に再編成および移動することができます。 
+デフォルトでは、**ダッシュボード**および**データ ソース**のリストから開始しますが、さらにリストを作成し、ドラッグするだけで簡単に再編成および移動することができます。 
 
 ## フィルター
 
@@ -92,16 +100,26 @@ Slingshot には、特定のダッシュボードまたはデータ ソースを
 
 ### フィルターの作成
 
-フィルター エディターにアクセスするには、*フィルター* セクションの **[+ フィルター]** アイコンをクリック / タップするだけです。
+新しいフィルターを作成するには、次の操作を行います。 
+
+1. [フィルター] セクションで **[+ フィルター]** をクリックまたはタップします。
+
+   <img src="../../images/new-dashboard-filter-option.png" alt="Option to create a new dashboard filter" class="responsive-img" width="80%">
+
+2. フィルターに含める内容を選択し、[**適用**] をクリックまたはタップしてフィルターのリストに保存します。
 
 ダッシュボードまたはデータ ソースのフィルタリングを停止するには、次の方法があります。
 
 1. フィルター アイコンをクリックまたはタップして、[フィルター] ダイアログを開きます。
+
+   <img src="../../images/dashboard-filter-icon.png" alt="Different options for a dashboard filter" class="responsive-img" width="80%"/>
+
 2. 下部にある **[クリア]** ボタンを選択して、現在のフィルターを削除します。
-3. **[適用]** をクリックまたはタップして変更を保存します。
 
-<img src="../../images/dashboard-filters-example.png" alt="Data Catalog screen within Slingshot" class="responsive-img"/>
+   <img src="../../images/clear-dashboard-filter.png" alt="Clear Dashboard filter" class="responsive-img" width="30%"/>
 
-### フィルターの保存
+3. 変更を確認するには、[**適用**] をクリックまたはタップします。
 
-将来再度使用するためにフィルターを保存したい場合があります。Slingshot を使用すると、特定のフィルターを保存し、必要に応じて後で編集できます。これらのフィルターは、自分に関連するダッシュボードやデータ ソースのリストを手元に置いておくのに役立ちます。
+4. 変更を加えたフィルターを再利用する場合は、**[変更の保存]** をクリックまたはタップします。
+
+   <img src="../../images/save-changes-option-dashboard-filter.png" alt="Option to save the changes for a dashboard filter" class="responsive-img" width="80%"/>

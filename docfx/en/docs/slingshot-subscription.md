@@ -36,7 +36,7 @@ Before your account reverts to the free Slingshot version, you can choose 2 work
 
 You can click on the overflow menu next to your workspace and choose **Shared With**.
 
-<img src="../images/shared-with-button-workspaces.png" alt="Shared with option in the list of options for workspaces" width="75%" class="responsive-img"/>
+<img src="../images/shared-with-button-workspaces.png" alt="Shared With option in the list of options for workspaces" width="75%" class="responsive-img"/>
 
 A dialog will pop up where you can click/tap on the **Add** button to add members by name or email.
 

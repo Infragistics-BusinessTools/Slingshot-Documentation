@@ -8,7 +8,7 @@ To create a Slingshot API Key, you need to:
 
 1.	Log in to your **Slingshot** account.
 
-2.	Open **Settings** from the dropdown menu next to your profile.
+2.	Open **Settings** from the drop-down menu next to your profile.
 
 3.	Open **API keys**. Here you will have a list of all the API keys that you have created.
 
@@ -22,11 +22,11 @@ To create a Slingshot API Key, you need to:
 
     >[!NOTE] As the full key can be displayed only once, make sure to securely store it.
 
-    <img src="images/api-key-example.png" alt="api key" class="responsive-img" width="60%"/>
+    <img src="images/api-key-example.png" alt="API key" class="responsive-img" width="60%"/>
 
     >[!NOTE] If you select **Custom** for a component, you can choose from *Full Access*, *Read Only* or *None*. If you select *None*, that component won’t be visible.
 
-    <img src="images/create-key-custom.png" alt="custom options for a component" class="responsive-img" width="60%"/>
+    <img src="images/create-key-custom.png" alt="Custom options for a component" class="responsive-img" width="60%"/>
 
 
 

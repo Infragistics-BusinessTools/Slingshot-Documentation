@@ -24,6 +24,6 @@ When you log into your account for the first time, you will see the following:
 
 4. When you are done with the onboarding process, you will land on a project in your workspace to get you started faster.
 
- <img src="../images/completed-onboarding-example.png" alt="Result of a completed onboarding " width="85%" class="responsive-img"/> 
+ <img src="../images/completed-onboarding-example.png" alt="Example presenting a result of a completed onboarding " width="85%" class="responsive-img"/> 
 
 If you want to find more information about Slingshot and all the features that it offers, head [here](https://www.slingshotapp.io/learning-center).

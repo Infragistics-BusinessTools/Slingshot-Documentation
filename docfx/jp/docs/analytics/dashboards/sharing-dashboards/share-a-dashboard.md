@@ -26,7 +26,6 @@ _language: ja
 
 1.  **[共有] ダイアログ**にアクセスする - オーバーフロー メニューを開き、**[共有ユーザー]** を選択します。
 
-
   <img src="images/shared-with-button.png" alt="Accessing the sharing dialog of a dashboard" class="responsive-img" width="80%"/>
 
   フォルダーを他のユーザーと共有すると、ファイルは左側のパネルの **[自分と共有済み]** セクションに表示されます。または、**[分析]** を開き、**[フィルター]** の下にある **[自分と共有済み]** をクリックまたはタップしてファイルを見つけることもできます。
@@ -35,25 +34,28 @@ _language: ja
 
 <a name='access-permissions'></a>
 
-2.  ダッシュボードを共有する**ユーザーを選択** - 招待したい人のメール アドレスまたは名前を入力し、**[完了]** をクリックまたはタップします。
+2.  ダッシュボードを共有する**ユーザーを選択** - 招待したい人のメール アドレスまたは名前を入力し、**[閉じる]** をクリックまたはタップします。
 
-3.  ユーザーを選択したら、**[更新]** をクリックまたはタップします。選択したユーザーが[組織](~/docs/analytics/workspaces/overview.html#組織ワークスペース)に所属している場合、ダッシュボードは自動的に共有されます。他のユーザーは、招待を受け入れると、**[自分と共有済み]** セクションでダッシュボードを表示できるようになります。
+<img src="images/add-users-sharing-dashboards.png" alt="Choosing with whom to share a dashboard" class="responsive-img" width="80%"/>
 
-  <img src="images/add-users-sharing-dashboards.png" alt="Choosing with whom to share a dashboard" class="responsive-img" width="80%"/>
+
+3.  ユーザーを選択したら、**[更新]** をクリックまたはタップします。選択したユーザーが[組織](../../../security.md)に所属している場合、ダッシュボードは自動的に共有されます。他のユーザーは、招待を受け入れると、**[自分と共有済み]** セクションでダッシュボードを表示できるようになります。
+
+<img src="images/shared-with-update-button.png" alt="Update button in the shared with dialog" class="responsive-img" width="80%"/>
 
 **ダッシュボードの管理者は**、**[共有ユーザー]** メニューにアクセスして、**いつでもユーザーのアクセス レベルを変更できます**。ダッシュボードを共有したすべてのユーザーとそのアクセス レベルのリストが表示されます。名前の横にあるドロップダウン メニューから新しいアクセス レベルを選択して、アクセス レベルを変更できます。
 
 **ダッシュボードの管理者は**、**[次と共有...]** ダイアログにアクセスし、メンバーの名前の横にあるドロップダウン メニューから **[削除]** を選択することで、**いつでもダッシュボードの共有を解除できます**。
 
-<img src="images/shared-with-remove-option.png" alt="Remove sharing button" class="responsive-img" width="80%"/>
+<img src="images/shared-with-remove-option.png" alt="Remove a member option" class="responsive-img" width="80%"/>
 
 一般に、ユーザーは次の権限のいずれかを持つことができます:
 
   - **管理者**権限 - ユーザーは作成、編集、共有、および削除できます。
 
-  - **編集者**権限 - ユーザーは作成、編集、共有、および削除できます。ユーザーは、共有された項目 (ダッシュボード / ダッシュボード リスト) を削除できないことに注意してください。
+  - **編集者**権限 - ユーザーは作成、編集、共有 (管理者の承認を得て)、および削除できます。ユーザーは、共有された項目 (ダッシュボード / ダッシュボード リスト) を削除できないことに注意してください。
 
-   <img src="images/request-to-share-button.png" alt="Sending a request to the owner in order to share a dashboard" width="35%" class="responsive-img"/>
+   <img src="images/request-to-share.png" alt="Sending a request to the owner in order to share a dashboard" class="responsive-img" width="50%"/>
 
   - **閲覧者**権限 - ユーザーはダッシュボードを表示できます。また、管理者の承認後に別のユーザーと共有することもできます。
 
@@ -67,11 +69,11 @@ _language: ja
 
 アクセス権のあるダッシュボードは、ワークスペース メンバーごとに個別に共有するのではなく、ワークスペースと共有できます。
 
-これを行うには、**[分析]** または**ワークスペース** タブの **[ダッシュボード]** セクションからダッシュボードを選択します。次に、[自分のダッシュボードを他のユーザーと共有する](#独自のダッシュボードを他のユーザーと共有する)の手順に従います。
+これを行うには、**[分析]** または **[ワークスペース]** タブの **[ダッシュボード]** セクションからダッシュボードを選択します。次に、[自分のダッシュボードを他のユーザーと共有する](#独自のダッシュボードを他のユーザーと共有する)の手順に従います。
 
 >[!NOTE]
->ダッシュボードは、メンバーであるかどうかに関係なく、[メイン組織に属する](~/docs/analytics/workspaces/overview.html#組織ワークスペース)任意の公開ワークスペースと共有できます。自分がメンバーになっている非公開のワークスペースと共有することもできます。
+>ダッシュボードは、メンバーであるかどうかに関係なく、[メイン組織に属する](../../../security.md)任意の公開ワークスペースと共有できます。自分がメンバーになっている非公開のワークスペースと共有することもできます。
 
 ## 関連項目
 
-クラウド サービスにあるデータ ソース ファイルを使用してダッシュボードを作成した場合、ダッシュボードを共有するには、このファイルへのアクセスを許可する必要があります。詳細については、[クラウド ファイルをデータ ソースとするダッシュボードを共有する](sharing-dashboards-datasource-files-cloud-provider.html)トピックをご覧ください。
+クラウド サービスにあるデータ ソース ファイルを使用してダッシュボードを作成した場合、ダッシュボードを共有するには、このファイルへのアクセスを許可する必要があります。詳細については、[クラウド ファイルをデータ ソースとするダッシュボードを共有する](sharing-dashboards-datasource-files-cloud-provider.md)トピックをご覧ください。

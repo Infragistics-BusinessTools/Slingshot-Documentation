@@ -70,7 +70,7 @@ Analytics.
 
 3.  Click/tap on *Credentials*.
 
-Once you've clicked/tapped on **+ Credentials** you can select *OAuth 2 / OIDC Credentials* from the **Credential Type** dropdown menu:
+Once you've clicked/tapped on **+ Credentials** you can select *OAuth 2 / OIDC Credentials* from the **Credential Type** drop-down menu:
 
  <img src="images/credential-type-options.png" alt="Accessing OAuth2/OIDC Credentials menu" class="responsive-img" width="55%"/>
 
@@ -84,12 +84,12 @@ server.
 
 The following fields are mandatory:
 
-3.  **Authenticate Url**: The authenticate URL is usually in a format
+3.  **Authenticate Url**: The *authenticate URL* is usually in a format
     such as: <https://authorization-server.com/oauth2/authorize> (e.g.
     <https://login.microsoftonline.com/common/oauth2/authorize>).
 
-4.  **Token Url**: The format of the token url is similar to the one of
-    the authenticate url (e.g.
+4.  **Token URL**: The format of the token URL is similar to the one of
+    the *Authenticate URL* (e.g.
     <https://login.microsoftonline.com/common/oauth2/token>).
 
 5.  **Client ID**: The Client ID is the identifier for your app
@@ -103,12 +103,12 @@ OAuth service you might also need to provide the following:
 *  **Client Secret**: The client secret is used as additional
     protection. Its format is a random combination of symbols.
 
-* **Logout Url**: 
+* **Logout URL**: 
 
 *  **Scope**: Scope values are used to request additional levels of
     access. The values will depend on the particular service.
 
-*  **Resource**: Here you need to input the url to the service, which
+*  **Resource**: Here you need to input the URL to the service, which
     hosts the protected data (e.g.
     <https://infragisticsinc297.sharepoint.com>)
 

@@ -43,4 +43,4 @@ You can filter your data by selecting a specific data range in the calendar. You
 
 <img src="images/google-analytics-4-date-range.png" alt="Using data from Google Analytics 4 in the visualization editor" class="responsive-img" width="90%"/>
 
-If you want to find out more information about the different data sources, you can head [here](/docfx/en/docs/analytics/datasources/overview.md). 
+If you want to find out more information about the different data sources, you can head [here](../overview.md). 

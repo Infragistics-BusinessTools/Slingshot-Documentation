@@ -64,7 +64,7 @@ To view/edit the permissions on a file, go to its overflow menu and select **Fil
 
 To view/edit who can access the file, click/tap **Member Access**. In the dialog that is displayed (see below), you can see all members who can view and edit the file as well as the pending requests for access.
 
-<img src="../images/manage-members-dialog.png" alt="Members who can access dialog" class="responsive-img" />
+<img src="../images/manage-members-dialog.png" alt="Members with access" class="responsive-img" />
 
 Use the **+ Members** blue button to pre-allow access for chosen users who can view and edit the file without  asking you explicitly.
 

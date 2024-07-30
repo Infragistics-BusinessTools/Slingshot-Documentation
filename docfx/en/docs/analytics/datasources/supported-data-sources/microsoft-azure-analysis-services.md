@@ -20,17 +20,17 @@ To configure your Azure Analysis Services data source, you will need to perform 
 
 2. Provide a *URL* to your server in the **Add Azure SSAS Server** dialog:
 
-    <img src="images/add-azure-ssas-server.png" alt="Configuring an azure analysis services connection" class="responsive-img" width="50%"/>
+    <img src="images/add-azure-ssas-server.png" alt="Configure an Azure Analysis Services connection" class="responsive-img" width="55%"/>
 
     The requested **URL** is the full name of the server, which contains the database with the data models you want to connect. You can *copy the server name* from the Azure Portal. To do this, go to:
 
-    *Azure portal* > selected server > *Overview* > *Server name*
+    *Azure portal* ⇒ selected server ⇒ *Overview* ⇒ *Server name*
 
 3. Go back to Analytics and paste the server name in *URL* field. Click/tap on the **Add Server** button, which is now enabled.  
 
-4. Once you have added the server, Analytics will load and show the databases on the server. Here you will find a list of all the available semantic models in your database. Choose a model and click/tap on **Select Data** to continue to the *Visualizations Editor*.
+4. Once you have added the server, Analytics will load and show the databases on the server. Here you will find a list of all the available semantic models in your database. Choose a model and click/tap on **Select Data** to continue to the *Visualization Editor*.
 
-   <img src="images/azure-ssas-cubes.png" alt="List of cubes with all the models in them" class="responsive-img" width="60%"/>
+   <img src="images/azure-ssas-cubes.png" alt="List of Azure SSAS cubes with all the models in them" class="responsive-img" width="60%"/>
 
 ## Working in the Visualization Editor
 
@@ -40,11 +40,11 @@ To configure your Azure Analysis Services data source, you will need to perform 
 
 - *Measures* consist of numeric data.
 
-<img src="images/azure-ssas-visualization-editor.png" alt="Using azure ssas data in the visualization editor" class="responsive-img" width="75%"/>
+<img src="images/azure-ssas-visualization-editor.png" alt="Azure SSAS data in the Visualization Editor" class="responsive-img" width="90%"/>
 
 By default, the *Column* visualization will be selected. You can click/tap on it in order to choose another chart type from the drop-down menu.
 
-When you are ready with your visualization, you can save it as a dashboard by clicking/tapping on the checkmark in the top right corner. In this case we saved the dashboard in **My Analytics** > **My Dashboards** > **Accounting**.
+When you are ready with your visualization, you can save it as a dashboard by clicking/tapping on the checkmark in the top right corner. In this case we saved the dashboard in **My Analytics** ⇒ **My Dashboards** ⇒ **Accounting**.
 
-<img src="images/azure-ssas-my-analytics.png" alt="A dashboard created while using azure ssas data in the My Analytics section" class="responsive-img" width="75%"/>
+<img src="images/azure-ssas-my-analytics.png" alt="An Azure SSAS dashboard in a dashboard section in My Analytics" class="responsive-img" width="90%"/>
 

@@ -16,16 +16,16 @@ Continue reading to learn who can edit the data sources' metadata and how to do 
 
 ## Accessing the Advanced Editor
 
-You can access the Data Sources Advanced Editor by editing an existing data source in a <img src="../images/data-source-icon.png" alt="the data sources icon used in Analytics" width="24px" height="24px" /> Data Sources list or even while adding a new one.
+You can access the Data Sources Advanced Editor by editing an existing data source in a <img src="../images/data-source-icon.png" alt="Data sources icon used in Analytics" width="24px" height="24px" /> Data Sources list or even while adding a new one.
 
 Right before completing the process of adding a new data source, you can access the Advanced Editor by selecting the *Edit Details* button (see below).
 
-<img src="../images/add-datasheet-dialog.png" alt="Adding a data sheet dialog showing the advanced info editing button" class="responsive-img" width="80%" />
+<img src="../images/add-datasheet-dialog.png" alt="Advanced info editing button" class="responsive-img" width="85%" />
 
-To open the Advanced Editor for data sources that are already added in the <img src="../images/data-source-icon.png" alt="the data sources icon used in Analytics" width="24px" height="24px" /> *Data Sources* list, follow the steps below. 
+To open the Advanced Editor for data sources that are already added in the <img src="../images/data-source-icon.png" alt="Data sources icon used in Analytics" width="24px" height="24px" /> *Data Sources* list, follow the steps below. 
 
-1. Select the <img src="../images/overflow-icon.png" alt="the overflow icon used in Analytics" width="24px" height="24px" /> overflow menu next to the data source.
-2. Choose <img src="../images/pencil-icon.png" alt="the overflow icon used in Analytics" width="24px" height="24px" /> *Edit Details* from the dropdown. 
+1. Select the <img src="../images/overflow-icon.png" alt="Overflow icon used in Analytics" width="24px" height="24px" /> overflow menu next to the data source.
+2. Choose <img src="../images/pencil-icon.png" alt="Pencil icon used in Analytics" width="24px" height="24px" /> *Edit Details* from the dropdown. 
 
 You may need to provide username and password for the selected dataset before you continue to the Advanced Editor. 
 
@@ -39,17 +39,17 @@ Check the table below to find out who can use the Advanced Editor of the data so
 | **Contributor** | :x:                                                                                                                    | :white_check_mark:                                                                                                           |
 | **VIEWER** | :x:                                                                                                                    | :x:                                                                                                                          |
 
-The table shows that the owners can use the Advanced Editor to modify data sources both in the Organization and in a workspace. The viewers have no permissions to modify data sources so they can't access the Advanced Editor. 
+The table shows that the owners can use the Advanced Editor to modify data sources both in the Organization and in a workspace. The viewers have no permissions to modify data sources, so they can't access the Advanced Editor. 
 
 Need more information about user roles in Slingshot? Check [Roles & Permissions](~/docs/security#roles-and-permissions).
 
 ### Who Can Use the Advanced Editor of a Certified Data Source?
 
-The *Certified* column on the right of your data sources shows if they are certified or not. For certified data sources you will see one of the three badges: <img src="../images/gold-badge-icon.png" alt="the gold badge icon used in Analytics" width="24px" height="24px" /> gold, <img src="../images/silver-badge-icon.png" alt="the silver badge icon used in Analytics" width="24px" height="24px" /> silver or <img src="../images/bronze-badge-icon.png" alt="the bronze badge icon used in Analytics" width="24px" height="24px" /> bronze. A crossed out badge <img src="../images/not-certified-icon.png" alt="the data sources icon used in Analytics" width="24px" height="24px" /> means the data source is not certified. 
+The *Certified* column on the right of your data sources shows if they are certified or not. For certified data sources you will see one of the three badges: <img src="../images/gold-badge-icon.png" alt="Gold badge icon used in Analytics" width="24px" height="24px" /> gold, <img src="../images/silver-badge-icon.png" alt="Silver badge icon used in Analytics" width="24px" height="24px" /> silver or <img src="../images/bronze-badge-icon.png" alt="Bronze badge icon used in Analytics" width="24px" height="24px" /> bronze. A crossed out badge <img src="../images/not-certified-icon.png" alt="Data sources icon used in Analytics" width="24px" height="24px" /> means the data source is not certified. 
 
 **Only certifiers** can use the Advanced Editor and modify certified data sources. The default hierarchy of certification goes this way: gold > silver > bronze. This means that gold certifiers can modify all certified data sources, and bronze certifiers can modify only bronze certified data sources. 
 
->[!NOTE] If you don't see the *Certified* column on the right, select the plus icon <img src="../images/plus-icon.png" alt="the plus icon used in Analytics" width="24px" height="24px" /> at the top of the data sources list. Make sure the box next to *Certified* is checked.  
+>[!NOTE] If you don't see the *Certified* column on the right, select the plus icon <img src="../images/plus-icon.png" alt="Plus icon used in Analytics" width="24px" height="24px" /> at the top of the data sources list. Make sure the box next to *Certified* is checked.  
 
 ## Working with the Advanced Editor 
 
@@ -61,8 +61,7 @@ Most of the Slingshot data sources contain table data. Let's take a look at the 
 
 >[!NOTE] This screenshot is just an example containing all the elements of the Advanced editor.
 
-<img src="../images/advanced-editor-table-data.png" alt="Advanced editor of table data annotated" class="responsive-img" width="75%" />
-
+<img src="../images/advanced-editor-table-data.png" alt="Advanced editor of table data annotated" class="responsive-img" width="85%" />
 
 A. The data source's **icon** and **title**. You can rename the data source. 
 
@@ -78,12 +77,16 @@ F. The dataset's **title**. You can rename the dataset.
 
 G. The dataset's **description**. The description will appear under the dataset's name in the data source details. It will help users decide which dataset to choose for their visualizations. 
 
-H. All the available **data fields** in the selected dataset. By hovering over the <img src="../images/info-icon.png" alt="the info icon used in Analytics" width="24px" height="24px" />  info icon, you will find out about a field's name, description, records in the first five rows, and original name and description. You can modify the information about each field - read below for more details. You can reorder the fields by dragging the dotted area next to each field. 
+H. All the available **data fields** in the selected dataset. By hovering over the <img src="../images/info-icon.png" alt="Info icon used in Analytics" width="24px" height="24px" />  info icon, you will find out about a field's name, description, records in the first five rows, and original name and description. You can modify the information about each field - read below for more details. You can reorder the fields by dragging the dotted area next to each field. 
 
 I. **Preview** of the data table. The preview shows the first 15 rows of the data table. There are two tabs in the preview: 
     
 * *Catalog info* - shows a preview of the data table in its latest state;
 * *Original* - shows the original data table before any changes made with the Advanced editor. 
+
+H. The dataset's **description**. The description will appear under the dataset's name in the data source details. It will help users decide which dataset to choose for their visualizations. 
+
+I. All the available **data fields** in the selected dataset. By hovering over the <img src="../images/info-icon.png" alt="the info icon used in Analytics" width="24px" height="24px" />  info icon, you will find out about a field's name, description, records in the first five rows, and original name and description. You can modify the information about each field - read below for more details. You can reorder the fields by dragging the dotted area next to each field. 
 
 ### The Advanced Editor for Data Cubes
 
@@ -98,25 +101,23 @@ Unlike table data sources, data cubes enable data to be modeled and viewed in mu
 
 Let's take a look at a screenshot showing the advanced editor of a *Google Analytics* data source. 
 
-<img src="../images/advanced-editor-cubes-annotated.png" alt="The Advanced editor for cubes annotated" class="responsive-img" width="75%" />
+<img src="../images/advanced-editor-cubes-annotated.png" alt="Advanced editor for cubes annotated" class="responsive-img" width="85%" />
 
 A. The data source's **icon** and **title**. You can rename the data source. 
 
 B. A **description** box. If you add text here, it will appear right under the data source in the data sources list. 
 
-C. **[Certification](certifications.md)** status. The badge icon shows if the data source is certified or not. If you are a certifier, you can select the icon and change the certification status.
+C. The **data cube types** in your data source. For example, sheets, views, stored procedures, databases, entities, etc. You can switch between the objects. 
 
-D. The **data cube types** in your data source. For example, sheets, views, stored procedures, databases, entities, etc. You can switch between the objects. 
+D. A **list of data cubes** available. Select the cube to see and modify the data it contains. 
 
-E. A **list of data cubes** available. Select the cube to see and modify the data it contains. 
+E. The data cube's **title**. You can rename the data cube. 
 
-F. The data cube's **title**. You can rename the data cube. 
+F. The data cube's **description**. The description will appear under the data cube's name in the data source details. It will help users decide which data cube to choose for their visualizations. 
 
-G. The data cube's **description**. The description will appear under the data cube's name in the data source details. It will help users decide which data cube to choose for their visualizations. 
+G. Dimensions and Measures are separated in **two data columns** for easier navigation. 
 
-H. Dimensions and Measures are separated in **two data columns** for easier navigation. 
-
-I. All the available **data** in the selected data cube. You can see and modify the information of all dimensions, measures and of each element inside a dimension/measure. Hovering over the <img src="../images/info-icon.png" alt="the info icon used in Analytics" width="24px" height="24px" />  info icon, will show you the "unique name of the element", and a description of the dimension/measure. You can modify this information. You can't reorder the elements.
+H. All the available **data** in the selected data cube. You can see and modify the information of all dimensions, measures and of each element inside a dimension/measure. Hovering over the <img src="../images/info-icon.png" alt="the info icon used in Analytics" width="24px" height="24px" />  info icon, will show you the "unique name of the element", and a description of the dimension/measure. You can modify this information. You can't reorder the elements.
 
 **Data preview is not available** for cubes.
 
@@ -129,6 +130,7 @@ The hiding capability is really useful for teams that deal with huge amounts of 
 The Advanced Editor allows you to hide: 
 
 - Entire data tables and data cubes.
+
 - Individual data elements such as text and numeric fields, dimensions and measures. 
 
 If you see the eye icon next to a data element, this means you can hide it by selecting the icon. If you see the closed eye, this means the element is already hidden. 
@@ -137,7 +139,7 @@ If you see the eye icon next to a data element, this means you can hide it by se
 
 Select the <img src="../images/pencil-icon.png" alt="the pencil icon used in Analytics" width="24px" height="24px" /> pencil icon next to a data field or a dimension or measure element. This will open the field settings on the right. 
 
-<img src="../images/advanced-editor-field-settings.png" alt="The Advanced editor field settings dialog" class="responsive-img" width="75%" />
+<img src="../images/advanced-editor-field-settings.png" alt="Advanced editor field settings dialog" class="responsive-img" width="85%" />
 
 In the *Catalog info* tab, you will be able to change the name and the description of the data field. Switch to the *Original* tab to see the name and description of the field before any changes made with the Advanced Editor. 
 
@@ -147,15 +149,17 @@ Data tables, cubes and fields that contain modified information are colored in <
 
 ### Changing the Default Formatting of Numeric Data
 
-Select the <img src="../images/pencil-icon.png" alt="the pencil icon used in Analytics" width="24px" height="24px" /> pencil icon next to numeric data to quickly change the default format from *Number* to *Currency* or *Percent*. You can also modify *fraction digits* number and choose to apply the *1000 separator*.
+Select the <img src="../images/pencil-icon.png" alt="Pencil icon used in Analytics" width="24px" height="24px" /> pencil icon next to numeric data to quickly change the default format from *Number* to *Currency* or *Percent*. You can also modify *fraction digits* number and choose to apply the *1000 separator*.
 
 After changing the formatting, the data table or data cube that contain the numeric data will be colored in <span style="color:#8054DB;"><b>purple</b></span>. 
 
+<img src="../images/changed-data.png" alt="Changed data in purple" class="responsive-img" width="85%" />
+
 The icon in front of the numeric field will also change to a currency symbol or percent sign accordingly. This change will be visible in the Visualization editor as well (see below).
 
-If necessary, you can once again change the default formatting of the field when using it in the *Visualizations editor*. To do this, drag the field to the *Values* placeholder and click/tap to open the *Field Settings* dialog (see below). 
+If necessary, you can once again change the default formatting of the field when using it in the *Visualization editor*. To do this, drag the field to the *Values* placeholder and click/tap to open the *Field Settings* dialog (see below). 
 
-<img src="../images/percent-default-formatting.png" alt="The format icon changed in the Visualization Editor" class="responsive-img" width="60%" />
+<img src="../images/percent-default-formatting.png" alt="Format icon changed in the Visualization Editor" class="responsive-img" width="65%" />
 
 Select the *Override* toggle to be able to modify the formatting settings. 
 

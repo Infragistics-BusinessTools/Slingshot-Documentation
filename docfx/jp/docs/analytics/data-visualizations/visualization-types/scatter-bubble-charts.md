@@ -38,7 +38,7 @@ _language: ja
 
 ## バブル チャートを作成する方法
 
-<img src="images/bubble-chart-visualization-editor.png" alt="An Example of a bubble chart using one color" class="responsive-img" width="85%"/>
+<img src="images/bubble-chart-visualization-editor.png" alt="Example of a bubble chart using one color" class="responsive-img" width="85%"/>
 
 1 つの色だけを使用して基本的なバブル チャートを作成するには、次の操作が必要です。
 
@@ -56,7 +56,7 @@ _language: ja
 
     例から、各バブルのサイズは各 *Division* の *Treatment Costs* の合計に依存することがわかります。チャート上部の凡例は、チャートの**バブル半径**フィールドの最小値と最大値を示しています。
 
-バブルをクリックすると、各バブルの特定のデータを示す**ツールチップ**も表示されます。チャートで要素が重複している場合は、小さいバブルをクリック / タップしてツールチップを表示します。
+バブルをクリックすると、各バブルの特定のデータを示す**ツールチップ**も表示されます。チャートで要素が重複している場合は、小さいバブルをクリックまたはタップしてツールチップを表示します。
 
 ## 散布図とバブル チャートへの色分類の追加
 

@@ -4,7 +4,7 @@ Analytics は、データをダッシュボード フィルターにバインド
 
 <img src="images/date-filter-option.png" alt="Date filter option in the filter dropdown menu for a visualization" class="responsive-img" width="85%"/>
 
-日付のダッシュボード フィルターを有効にすると、[表示形式バインディング式](connecting-dashboard-filters-visualization.html)で使用できるようになります。
+日付のダッシュボード フィルターを有効にすると、[表示形式バインディング式](connecting-dashboard-filters-visualization.md)で使用できるようになります。
 
 <img src="images/date-filter-dialog.png" alt="Filter Date Range dialog with different options" class="responsive-img" width="60%"/>
 
@@ -12,4 +12,4 @@ Analytics は、データをダッシュボード フィルターにバインド
 
 Analytics では、さまざまな事前設定された日付範囲 (特に、過去 30 日、7 日、または 365 日を含む) を提供していますが、特定の日付範囲内のデータを表示するように範囲を定義することもできます。**[日付フィルター]** ドロップダウンで **[カスタム日付範囲]** を選択すると、パーソナライズされた日、月、および時代のオプションを含むカレンダーが表示されます。
 
-<img src="images/custom-date-range-date-filter.png" alt="Custom Date Range calendar displayed" class="responsive-img" width="70%"/>
+<img src="images/custom-date-range-date-filter.png" alt="Custom Date Range calendar" class="responsive-img" width="70%"/>

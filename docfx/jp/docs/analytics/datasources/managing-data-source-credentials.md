@@ -8,7 +8,7 @@ _language: ja
 
 [分析] で特定のデータ ソースを設定するとき、これらのサービスが情報にアクセスするためのアカウント資格情報を提供する必要があります。今後のアクセスのために、資格情報は暗号化されて [分析] に**自動的に保存されます**。
 
-すべての資格情報にアクセスして管理するには、**プロフィール写真** (右上隅) -> **[設定]** -> **[データ ソースの資格情報]** セクションを選択します。
+すべての資格情報にアクセスして管理するには、**プロフィール写真** (右上隅) ⇒ **[設定]** ⇒ **[データ ソースの資格情報]** セクションを選択します。
 
  <img src="images/data-source-credentials-settings.png" alt="A list of data source credentials in the settings menu" class="responsive-img" width="55%"/>
 
@@ -27,13 +27,13 @@ _language: ja
 
   - **エイリアス**: これらの資格情報を使用してアクセスするデータ ソースを示すエイリアスを選択します。データ ソースに接続すると、アカウントの一覧に表示されます。
 
-3. 完了するには、**[追加]** をクリック / タップします。**[データ ソースの資格情報]** のリストの一番下に、新しく保存した資格情報が表示されます。
+3. 完了するには、**[追加]** をクリックまたはタップします。**[データ ソースの資格情報]** のリストの一番下に、新しく保存した資格情報が表示されます。
 
 ## 保存された資格情報の使用
 
 それらを削除しない限り、資格情報を必要とするデータ ソースを構成するときに、[分析] に保存されているアカウントの資格情報が常にアカウントの一覧に表示されます。
 
-<img src="images/choose-credentials-for-data-source.png" alt="Choose Credentials for a Data Source dialog" class="responsive-img" width="60%"/>
+<img src="images/stored-credentials-data-sources-list.png" alt="Example of stored credentials for a data source" class="responsive-img" width="80%"/>
 
 > [!NOTE] 
 >役立つヒント! 複数のデータ ソースで使用する予定のすべての資格情報をここに追加して整理するために時間をかけてください。

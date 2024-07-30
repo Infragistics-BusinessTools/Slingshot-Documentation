@@ -17,90 +17,90 @@ _language: ja
 1. **[分析]** またはダッシュボードを作成するワークスペースに移動します。
 2. **[+ ダッシュボード]** の青いボタンをクリックまたはタップします。
 
-   <img src="images/data-sources-my-analytics.png" alt="Dashboard button in my analytics" class="responsive-img" width="90%"/>
+   <img src="images/data-sources-my-analytics.png" alt="Dashboard button in My Analytics" class="responsive-img" width="90%"/>
 3. **[新しい表示形式]** ダイアログに、最近使用したデータ ソースのリストが表示されます。新しい接続を作成するには、右上隅にある **[+ データ ソース]** ボタンを選択します。
 
    <img src="./images/sample-data-new-visualization-dialog.png" alt="Sample data sources" class="responsive-img" width="90%"/>
 
 データ ソース プロバイダーを選択すると、データ ソースを**設定**するように求められます。設定に関しては、選択したデータ ソースの設定に関する記事をご覧ください (以下のリストを参照)。
 
-   - [Amazon Athena](~/docs/analytics/datasources/supported-data-sources/athena.md)
+   - [Amazon Athena](../../analytics/datasources/supported-data-sources/athena.md)
 
-   - [Amazon Redshift](~/docs/analytics/datasources/supported-data-sources/redshift.md)
+   - [Amazon Redshift](../../analytics/datasources/supported-data-sources/redshift.md)
 
-   - [Box](~/docs/analytics/datasources/supported-data-sources/box.md)
+   - [Box](../../analytics/datasources/supported-data-sources/box.md)
 
-   - [Dropbox](~/docs/analytics/datasources/supported-data-sources/dropbox.md)
+   - [Dropbox](../../analytics/datasources/supported-data-sources/dropbox.md)
 
-   - [Facebook](~/docs/analytics/datasources/supported-data-sources/facebook.md)
+   - [Facebook](../../analytics/datasources/supported-data-sources/facebook.md)
 
-   - [Google Ads](~/docs/analytics/datasources/supported-data-sources/google-ads.md)
+   - [Google Ads](../../analytics/datasources/supported-data-sources/google-ads.md)
 
-   - [Google Analytics](~/docs/analytics/datasources/supported-data-sources/google-analytics.md)
+   - [Google Analytics](../../analytics/datasources/supported-data-sources/google-analytics.md)
 
-   - [Google Analytics 4](~/docs/analytics/datasources/supported-data-sources/google-analytics4.md)
+   - [Google Analytics 4](../../analytics/datasources/supported-data-sources/google-analytics4.md)
 
-   - [Google BigQuery](~/docs/analytics/datasources/supported-data-sources/google-bigquery.md)
+   - [Google BigQuery](../../analytics/datasources/supported-data-sources/google-bigquery.md)
 
-   - [Google Drive](~/docs/analytics/datasources/supported-data-sources/google-drive.md)
+   - [Google Drive](../../analytics/datasources/supported-data-sources/google-drive.md)
 
-   - [Google Search Console](~/docs/analytics/datasources/supported-data-sources/google-search-console.md)
+   - [Google Search Console](../../analytics/datasources/supported-data-sources/google-search-console.md)
 
-   - [Hubspot](~/docs/analytics/datasources/supported-data-sources/hubspot.md)
+   - [Hubspot](../../analytics/datasources/supported-data-sources/hubspot.md)
 
-   - [Instagram](~/docs/analytics/datasources/supported-data-sources/instagram.md)
+   - [Instagram](../../analytics/datasources/supported-data-sources/instagram.md)
 
-   - [LinkedIn](~/docs/analytics/datasources/supported-data-sources/linkedin.md)
+   - [LinkedIn](../../analytics/datasources/supported-data-sources/linkedin.md)
 
-   - [Marketo](~/docs/analytics/datasources/supported-data-sources/marketo.md)
+   - [Marketo](../../analytics/datasources/supported-data-sources/marketo.md)
 
-   - [Microsoft Analysis Services](~/docs/analytics/datasources/supported-data-sources/microsoft-analysis-services.md)
+   - [Microsoft Analysis Services](../../analytics/datasources/supported-data-sources/microsoft-analysis-services.md)
 
-   - [Microsoft Azure Analysis Services](~/docs/analytics/datasources/supported-data-sources/microsoft-azure-analysis-services.md)
+   - [Microsoft Azure Analysis Services](../../analytics/datasources/supported-data-sources/microsoft-azure-analysis-services.md)
 
-   - [Microsoft Azure Synapse Analytics](~/docs/analytics/datasources/supported-data-sources/microsoft-azure-synapse-analytics.md)
+   - [Microsoft Azure Synapse Analytics](../../analytics/datasources/supported-data-sources/microsoft-azure-synapse-analytics.md)
    
-   - [Microsoft Azure SQL Database](~/docs/analytics/datasources/supported-data-sources/azure-sql.md)
+   - [Microsoft Azure SQL Database](../../analytics/datasources/supported-data-sources/azure-sql.md)
 
-   - [Microsoft Dynamics CRM](~/docs/analytics/datasources/supported-data-sources/microsoft-dynamics-crm.md)
+   - [Microsoft Dynamics CRM](../../analytics/datasources/supported-data-sources/microsoft-dynamics-crm.md)
 
-   - [Microsoft Reporting Services (SSRS)](~/docs/analytics/datasources/supported-data-sources/microsoft-reporting-services.md)
+   - [Microsoft Reporting Services (SSRS)](../../analytics/datasources/supported-data-sources/microsoft-reporting-services.md)
 
-   - [Microsoft SQL Server](~/docs/analytics/datasources/supported-data-sources/microsoft-sql-server.md)
+   - [Microsoft SQL Server](../../analytics/datasources/supported-data-sources/microsoft-sql-server.md)
 
-   - [MySQL](~/docs/analytics/datasources/supported-data-sources/mysql.md)
+   - [MySQL](../../analytics/datasources/supported-data-sources/mysql.md)
 
-   - [OData フィード](~/docs/analytics/datasources/supported-data-sources/odata-feed.md)
+   - [OData フィード](../../analytics/datasources/supported-data-sources/odata-feed.md)
 
-   - [OneDrive](~/docs/analytics/datasources/supported-data-sources/onedrive.md)
+   - [OneDrive](../../analytics/datasources/supported-data-sources/onedrive.md)
 
-   - [Oracle](~/docs/analytics/datasources/supported-data-sources/oracle.md)
+   - [Oracle](../../analytics/datasources/supported-data-sources/oracle.md)
 
-   - [PostgreSQL](~/docs/analytics/datasources/supported-data-sources/postgresql.md)
+   - [PostgreSQL](../../analytics/datasources/supported-data-sources/postgresql.md)
 
-   - [Quickbooks](~/docs/analytics/datasources/supported-data-sources/quickbooks.md) 
+   - [Quickbooks](../../analytics/datasources/supported-data-sources/quickbooks.md) 
 
-   - [REST API](~/docs/analytics/datasources/supported-data-sources/rest-api.md)
+   - [REST API](../../analytics/datasources/supported-data-sources/rest-api.md)
 
-   - [Salesforce](~/docs/analytics/datasources/supported-data-sources/salesforce.md)
+   - [Salesforce](../../analytics/datasources/supported-data-sources/salesforce.md)
 
-   - [SharePoint](~/docs/analytics/datasources/supported-data-sources/sharepoint.md)
+   - [SharePoint](../../analytics/datasources/supported-data-sources/sharepoint.md)
 
-   - [Snowflake](~/docs/analytics/datasources/supported-data-sources/snowflake.md)
+   - [Snowflake](../../analytics/datasources/supported-data-sources/snowflake.md)
 
-   - [Sybase](~/docs/analytics/datasources/supported-data-sources/sybase.md)
+   - [Sybase](../../analytics/datasources/supported-data-sources/sybase.md)
 
-   - [ウェブ リソース](~/docs/analytics/datasources/supported-data-sources/web-resource.md)
+   - [ウェブ リソース](../../analytics/datasources/supported-data-sources/web-resource.md)
 
-   - [JSON ファイル](~/docs/analytics/datasources/working-files/working-with-json-files.md)
+   - [JSON ファイル](../../analytics/datasources/working-files/working-with-json-files.md)
    
-   - [スプレッドシート](~/docs/analytics/datasources/working-files/working-with-spreadsheets.md)
+   - [スプレッドシート](../../analytics/datasources/working-files/working-with-spreadsheets.md)
 
 ## データ ソースのフィルタリング
 
 データ ソースをフィルターするには、右上隅にあるフィルター ボタンをクリックします。
 
-   <img src="images/data-sources-filter-options.png" alt="A dialog with filtering options" class="responsive-img" width="90%"/>
+   <img src="images/data-sources-filter-options.png" alt="Filter options for data sources" class="responsive-img" width="90%"/>
 
 ## 関連トピック 
 

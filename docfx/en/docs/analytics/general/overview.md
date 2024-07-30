@@ -29,13 +29,13 @@ Below you will find the menus on the initial Analytics screen and what you are a
 
 6.  **+ Dashboard split button** - You can start creating a new dashboard by selecting the *+ Dashboard* split button.
 
-  Clicking/tapping the arrow of the same button opens a dropdown menu providing two options:
+  Clicking/tapping the arrow of the same button opens a drop-down menu providing two options:
 
   - *Upload* a Analytics dashboard (an .rdash file).
 
   - Create a new *Folder* in your personal space or in the workspace you are currently in.
         
-7.  **Dashboards filter** - choose from the dropdown menu which dashboards to see in the dashboard module: all, only created by you
+7.  **Dashboards filter** - choose from the drop-down menu which dashboards to see in the dashboard module: all, only created by you
 or shared with you.
 
 8.  **Notifications center** - Select the the bell icon to view any workspace or dashboard updates.

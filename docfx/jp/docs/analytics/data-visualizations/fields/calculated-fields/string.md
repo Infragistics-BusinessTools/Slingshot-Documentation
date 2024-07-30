@@ -80,7 +80,7 @@ _language: ja
     <td class="tg-0lax"><span style="font-weight:bold">サンプル 2</span>: <span class="gray-snippet-cstm">sortinterval([Wage],150000)</span></td>
   </tr>
   <tr>
-    <td class="tg-cly1"><span style="font-weight:bold">サンプル 3:</span> <span class="gray-snippet-cstm">sortinterval([Wage],50000,80000,110000,140000)</span></td>
+  <td class="tg-cly1"><span style="font-weight:bold">サンプル 3:</span> <span class="gray-snippet-cstm">sortinterval([Wage],50000,80000,110000,140000)</span></td>
   </tr>
   <tr>
     <td class="tg-cly1" rowspan="2"><span style="font-weight:bold">trim</span>: <span class="gray-snippet-cstm">trim</span> は入力した文字列と同じ文字列を返しますが、先行または後続の空白を削除し、単語間の空白のみ保持します。</td>

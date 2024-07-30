@@ -8,7 +8,7 @@ _language: ja
 
 スパークライン チャートは、軸、ラベル、またはその他のチャート要素なしでグリッド チャート内にプロットされる小さなチャートで、指定された日付範囲のトレンドとその進行を表します。
 
-<img src="images/sparkline-chart-example.png" alt="Sparkline Chart sample" class="responsive-img" width="85%"/>
+<img src="images/sparkline-chart-example.png" alt="Sparkline Chart example" class="responsive-img" width="85%"/>
 
 最初の列は表示形式エディターで固定されたままで、情報内の別の列をスクロールできます。
 
@@ -31,3 +31,5 @@ _language: ja
   - グリッド内のスパークライン チャートに含める**値の数**。
 
   - **スパークライン列に含める情報** (最後の 2 つの値やその差など)。さらに、**正の差異を緑または赤で表す**かどうかも選択できます。
+
+  - 表示形式を他のダッシュボードまたは URL に接続できます。

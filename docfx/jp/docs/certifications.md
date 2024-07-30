@@ -14,7 +14,7 @@ Slingshot の組織に所属している場合、リストのデータ ソース
 
 ワークスペースのデータ ソースまたはダッシュボードには、認証済みのものと未認証のものがあります。データ ソースまたはダッシュボードが認証されると、隣に金色、銀色、または銅色のバッジが表示されます (以下のスクリーンショットを参照)。 
 
-<img src="../images/certified-data-source.png" alt="An excel file with a gold badge located in the certified column" class="responsive-img" width="65%"/>
+<img src="../images/certified-data-source.png" alt="An excel file with a gold badge located in the certified column" class="responsive-img" width="70%"/>
 
 データ ソースまたはダッシュボードが認証されているかどうかがわからない場合は、リストの右上にあるプラス アイコン <img src="../images/plus-icon-48.png" alt="アナリティクスで使用されるプラス アイコン" width="24px" height="24px" /> を選択します。**[認証済み]** 列のボックスがチェックされていることを確認してください。  
 
@@ -22,15 +22,15 @@ Slingshot の組織に所属している場合、リストのデータ ソース
 
 認証を使用すると、ユーザーが組織で推奨および検証されたデータを検索するのに役立ちます。**認証者**の要件は次のとおりです。 
 
-* <img src="../images/organization-icon.png" alt="組織ワークスペースアイコン" width="24px" height="24px" />組織の管理者。
+* <img src="../images/organization-icon.png" alt="組織アイコン" width="24px" height="24px" />組織の管理者。
 
 * 組織の管理者によって承認されたユーザー。 
 
 データ ソースを認証できるユーザーを確認するには以下の手順を実行します: 
 
-1. 3 つの点 <img src="../images/overflow-icon.png" alt="アナリティクスで使用されるプラス アイコン" width="24px" height="24px" /> を選択して、組織ワークスペースの設定を開きます。
+1. 3 つの点 <img src="../images/overflow-icon.png" alt="Three dots icon" width="24px" height="24px" /> を選択して、組織ワークスペースの設定を開きます。
 
-2. <img src="../images/settings-icon.png" alt="アナリティクスで使用されるプラスアイコン" width="24px" height="24px" /> **[組織の設定]** を選択します。
+2. <img src="../images/settings-icon.png" alt="アナリティクスで使用されるプラス アイコン" width="24px" height="24px" /> **[組織の設定]** を選択します。
 
 3. **[データ カタログ]** に移動します。 
 
@@ -50,9 +50,9 @@ Slingshot の組織に所属している場合、リストのデータ ソース
 
 2. 任意のデータ ソースの **[認証済み]** 列でバッジを選択します。
 
-3. **[許可の要求]** をクリック / タップします (以下のスクリーンショットを参照)。
+3. **[許可の要求]** をクリックまたはタップします (以下のスクリーンショットを参照)。
 
-<img src="../images/not-certified-message.png" alt="The Request permission button for the certificate" class="responsive-img" width="65%" />
+<img src="../images/not-certified-message.png" alt="Request permission button for the certificate" class="responsive-img" width="70%" />
 
 1. すべての組織の管理者にメールが送信され、ユーザーがデータ ソースまたはダッシュボードを認証するための承認を求めることを通知します。 
 
@@ -64,7 +64,7 @@ Slingshot の組織に所属している場合、リストのデータ ソース
 
 2. **[データ ソース]** または **[ダッシュボード]** タブを選択します。
 
-3. 認定するデータ ソースまたはダッシュボードの <img src="../images/not-certified-icon.png" alt="アナリティクスで使用されるデータ ソース アイコン" width="24px" height="24px" /> バッジ アイコンをクリック/タップして、ドロップダウン メニューからバッジを選択します。 
+3. 認定するデータ ソースまたはダッシュボードの <img src="../images/not-certified-icon.png" alt="アナリティクスで使用されるデータ ソース アイコン" width="24px" height="24px" /> バッジ アイコンをクリックまたはタップして、ドロップダウン メニューからバッジを選択します。 
 
 認証は階層的です。つまり、<img src="../images/gold-badge-icon.png" alt="アナリティクスで使用される金バッジ アイコン" width="24px" height="24px" />**金**の認証者には、<img src="../images/silver-badge-icon.png" alt="アナリティクスで使用される銀バッジ アイコン" width="24px" height="24px" />*銀*と<img src="../images/bronze-badge-icon.png" alt="アナリティクスで使用される銅バッジ アイコン" width="24px" height="24px" />**銅**のバッジもドロップダウン メニューに表示されます。また、**銅**認証者には銅バッジのみが表示されます。 
 

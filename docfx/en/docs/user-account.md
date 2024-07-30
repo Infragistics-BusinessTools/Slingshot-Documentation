@@ -21,23 +21,29 @@ For more information about security and data privacy within Slingshot, go to [Se
 
 The app behavior and overall experience can be greatly modified by tweaking your profile information and settings. As a good practice, try customizing your experience to better suit your needs. To do this, navigate to Settings.
 
-<img src="../images/user-account-settings-drop-down-menu.png" alt="Settings location" width="60%" class="responsive-img">
+<img src="../images/user-account-settings-drop-down-menu.png" alt="Settings location in a user's account" width="90%" class="responsive-img">
 
 Now feel free to explore the different settings and make Slingshot feel like home:
-- Interested in a dark or light theme?
-- Want to reduce the zoom level to fit more in your screen or enlarge it to better see the words and images?
-- Are you often using drag & drop to upload files and want to change the default destination?
-- When opening files (e.g., Word and Excel documents), would you like to use a native app or open in a browser?
-- Do you want to clear the data cache?
--  Do you want to export your logs?
 
-<img src="../images/users-account-settings.png" alt="User settings opened" width="60%" class="responsive-img">
+- Interested in a dark or light theme?
+
+- Want to reduce the zoom level to fit more in your screen or enlarge it to better see the words and images?
+
+- Are you often using drag & drop to upload files and want to change the default destination?
+
+- When opening files (e.g., Word and Excel documents), would you like to use a native app or open in a browser?
+
+- Do you want to clear the data cache?
+
+- Do you want to export your logs?
+
+<img src="../images/users-account-settings.png" alt="Example of user settings opened" width="60%" class="responsive-img">
 
 In addition, it's a good idea to complete your *profile information* as it will make you recognizable when collaborating with others. Your name, photo, title, etc. are all part of your virtual identity, and they add value to the Slingshot's experience. 
 
 ## Make the most of the in-app interactions
 
-Emily, Slingshot's digital AI assistant, will show you personalized tips to help you get stuff done faster. Naturally, Emily has a direct effect on your experience, so you can choose how often she messages you or if she remains silent.
+Emily, Slingshot's digital AI assistant, will show you personalized tips to help you get stuff done faster. Naturally, Emily has a direct effect on your experience, so you can choose how often she messages you or if she remains silent. [Here](./getting-started-slingshot.md) you can find out more information about Emily.
 
 Notifications will keep you updated on any changes to workspaces, tasks, new messages, etc. You can learn, among others, that a task was assigned to you, that you are removed from a workspace, or that someone sent a message in a discussion thread you're following.
 Follow the link for more information about [Notifications](notifications.md).

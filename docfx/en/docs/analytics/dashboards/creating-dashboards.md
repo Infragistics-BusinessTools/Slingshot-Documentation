@@ -7,13 +7,13 @@ _description: A 4-step guide on how to easily create dashboards in Slingshot and
 
 The dashboard creation experience in Analytics includes:
 
-1.  [Accessing the Dashboard creation menu](#access-dashboard-creation-menu).
+1.  [Accessing the Dashboard creation menu](#access-the-dashboard-creation-menu).
 
-2.  [Adding a Data Source](#add-data-source).
+2.  [Adding a Data Source](#add-a-data-source).
 
-3.  [Changing the Visualization](#modify-visualization) *(optional*).
+3.  [Changing the Visualization](#changing-your-visualization) *(optional*).
 
-4.  [Saving the Dashboard](#save-dashboard).
+4.  [Saving the Dashboard](#save-the-dashboard).
 
 <a name='access-dashboard-creation-menu'></a>
 ## Access the Dashboard Creation Menu
@@ -36,17 +36,17 @@ the **+ Data Source** button in the top right-hand corner. A new dialog will app
 
 If your data source is a spreadsheet in a content manager, you will be able to select, for example, the specific sheet that you want to use in your visualization.
 
-<img src="images/dashboards-select-data-sheet.png" alt="select a data sheet from an excel file data source" class="responsive-img" width="62%"/>
+<img src="images/dashboards-select-data-sheet.png" alt="Select a data sheet from an excel file data source" class="responsive-img" width="62%"/>
 
 ### Available Content
 
 With Analytics, you can add many content sources, including
-[Dropbox](~/docs/analytics/datasources/supported-data-sources/Dropbox.md), [OneDrive](~/docs/analytics/datasources/supported-data-sources/OneDrive.md), [Box](~/docs/analytics/datasources/supported-data-sources/Box.md) and [Google Drive](~/docs/analytics/datasources/supported-data-sources/Google-Drive.md), which will allow you to browse any folders, files
+[Dropbox](../datasources/supported-data-sources/dropbox.md), [OneDrive](../datasources/supported-data-sources/onedrive.md), [Box](../datasources/supported-data-sources/box.md) and [Google Drive](../datasources/supported-data-sources/google-drive.md), which will allow you to browse any folders, files
 or spreadsheets available in them.
 
 <img src="images/dashboards-onedrive-available-content.png" alt="Available content in OneDrive datasource account" class="responsive-img" width="90%"/>
 
-In addition, you can also add [SharePoint](~/docs/analytics/datasources/supported-data-sources/SharePoint.md) data sources,
+In addition, you can also add [SharePoint](../datasources/supported-data-sources/sharepoint.md) data sources,
 which means the ability to access any lists or libraries.
 
 <img src="images/dashboards-sharepoint-list.png" alt="Available content in SharePoint datasource account" class="responsive-img" width="90%"/>
@@ -56,11 +56,11 @@ which means the ability to access any lists or libraries.
 
 Once your data source has been added, you will be taken to the *Visualization Editor*. By default, the Column visualization will be selected.
 
-<img src="images/visualization-editor-creating-dashboards.png" alt="dashboards first visualization in the visualization editor" class="responsive-img" width="90%"/>
+<img src="images/visualization-editor-creating-dashboards.png" alt="Dashboards first visualization in the visualization editor" class="responsive-img" width="90%"/>
 
 Analytics provides several options to customize the way your information is visualized. You can access the options by selecting the **grid icon** in the top bar.
 
-<img src="images/creating-dashboards-chart-types.png" alt="list with chart types" class="responsive-img" width="78%"/>
+<img src="images/creating-dashboards-chart-types.png" alt="Chart types list" class="responsive-img" width="78%"/>
 
 Add labels and values to your visualization and preview them in the right-hand pane. If necessary, you can change your visualization's settings or add filters to it.
 

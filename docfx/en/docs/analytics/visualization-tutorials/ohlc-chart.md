@@ -8,8 +8,7 @@ _description: A quick tutorial on creating OHLC visualizations using a sample sp
 In this tutorial, you will learn how to create a OHLC chart visualization using
 a sample spreadsheet.
 
-<img src="images/ohlc-charts-example.png" alt="Tutorials-Select-OHLC-Candlestick-Charts-Spreadsheet" class="responsive-img" width="92%"/>
-
+<img src="images/ohlc-charts-example.png" alt="Example of OHLC charts" class="responsive-img" width="92%"/>
 
 Access the links below for the OHLC chart view walkthroughs:
 
@@ -36,7 +35,7 @@ OHLC charts, therefore, require:
   - Four different fields in the *Open*, *High*, *Low* and *Close*
     categories of the data editor.
 
-<img src="images/ohlc-visualization-editor.png" alt="OHLCChartVisualizationSettings\_All" class="responsive-img" width="88%"/>
+<img src="images/ohlc-visualization-editor.png" alt="Example of OHLC Chart in the Visualization Edtiro" class="responsive-img" width="88%"/>
 
 There are also different options to add further information to your
 chart:
@@ -63,23 +62,23 @@ For this tutorial, you will use the *OHLC and Candlestick* sheet in the [Slingsh
 
 1. Select the **+ Dashboard** button in the top right-hand corner of **My Analytics**.
 
-   <img src="images/dashboard-button-my-analytics.png" alt="Tutorials-Create-New-Dashboard" class="responsive-img" width="90%"/>
+   <img src="images/dashboard-button-my-analytics.png" alt="New Dashboard button in My Analytics" class="responsive-img" width="90%"/>
 
-2. Select your data source(**Slingshot Tutorials Spreadsheet**) from the list of data sources. If the data source is new, you will need to first add it from the **+ Data Source** button in the top-right corner.
+2. Select your data source (**Slingshot Tutorials Spreadsheet**) from the list of data sources. If the data source is new, you will need to first add it from the **+ Data Source** button in the top-right corner.
 
-   <img src="images/visualization-tutorials-sample.png" alt="Tutorials-Select-Data-Source" class="responsive-img" width="90%"/>                                         
+   <img src="images/visualization-tutorials-sample.png" alt="Select Slingshot Tutorials Spreadsheet as a data source" class="responsive-img" width="90%"/>                                         
 
 3. Choose the **OHLC and Candlestick** sheet. 
 
-    <img src="images/ohlc-candlestick-spreadsheet.png" alt="Tutorials-Select-OHLC-Candlestick-Charts-Spreadsheet" class="responsive-img" width="65%"/>                       
+    <img src="images/ohlc-candlestick-spreadsheet.png" alt="Select OHLC Candlestick Charts Spreadsheet" class="responsive-img" width="65%"/>                       
 
  4. Open the *Visualization Picker* and select **OHLC**. By default, the visualization type will be set to **Column**.  
 
-    <img src="images/ohlc-chart-types.png" alt="Tutorials-Select-Change-Visualization" class="responsive-img" width="65%"/>                                
+    <img src="images/ohlc-chart-types.png" alt="Select Change Visualization" class="responsive-img" width="90%"/>                                
 
  5. Drag and drop the *Date* field into **Label** and the *Open*, *High*, *Low* and *Close* fields in their corresponding placeholder.
 
-    <img src="images/ohlc-organizing-data.png" alt="Organizing the data from the data source" class="responsive-img" width="35%"/>                              
+    <img src="images/ohlc-organizing-data.png" alt="Organize OHLC data from the data source" class="responsive-img" width="90%"/>                              
 
 <a name='changing-axis-configuration'></a>
 ## Changing your Axis Configuration
@@ -92,8 +91,8 @@ In order to access the axis configuration menu:
 
 |                                             |                                                                                      |                                                             |
 | ------------------------------------------- | ------------------------------------------------------------------------------------ | ----------------------------------------------------------- |
-| 1\. **Access the Settings Menu**            | <img src="images/tutorials-settings.png" alt="Tutorials-Navigate-Settings" class="responsive-img"/>               | Go to the **Settings** section of the Visualization Editor. |
-| 2\. **Navigate to the Axis Bounds section** | <img src="images/bounds-axis.png" alt="Tutorial-Access-Axis-Configuration" class="responsive-img"/> | The settings you will change will be the **Axis Bounds**.   |
+| 1\. **Access the Settings Menu**            | <img src="images/tutorials-settings.png" alt="Settings Menu" class="responsive-img"/>               | Go to the **Settings** section of the Visualization Editor. |
+| 2\. **Navigate to the Axis Bounds section** | <img src="images/bounds-axis.png" alt="Access Axis Bounds section" class="responsive-img"/> | The settings you will change will be the **Axis Bounds**.   |
 
 Depending on whether you want to set the minimum or maximum value (or
 both), you will need to access one of the following options:
@@ -114,5 +113,5 @@ the value you want for the chart's top limit.
 
 |                                        |                                                                                                       |                                                             |
 | -------------------------------------- | ----------------------------------------------------------------------------------------------------- | ----------------------------------------------------------- |
-| 1\. **Access the Settings Menu**       | <img src="images/tutorials-settings.png" alt="Tutorials-Navigate-Settings" class="responsive-img"/>                                | Go to the **Settings** section of the Visualization Editor. |
-| 2\. **Change the Axis to Logarithmic** | <img src="images/ohlc-candlestick-logarithmic-axis.png" alt="Tutorial-Access-OHLC-Axis-Configuration" class="responsive-img"/> | Open the **Axis** dropdown and select **Logarithmic**.      |
+| 1\. **Access the Settings Menu**       | <img src="images/tutorials-settings.png" alt="Settings Menu" class="responsive-img"/>                                | Go to the **Settings** section of the Visualization Editor. |
+| 2\. **Change the Axis to Logarithmic** | <img src="images/ohlc-candlestick-logarithmic-axis.png" alt="Access OHLC Axis Configuration" class="responsive-img"/> | Open the **Axis** dropdown and select **Logarithmic**.      |
