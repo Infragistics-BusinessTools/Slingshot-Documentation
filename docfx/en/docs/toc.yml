@@ -57,6 +57,9 @@
   new: false 
 - name: Productivity Tips
   header: true
+- name: Archives
+  href: archives.md
+  new: true
 - name: Open in New Window
   href: open-in-new-window.md
   new: false
