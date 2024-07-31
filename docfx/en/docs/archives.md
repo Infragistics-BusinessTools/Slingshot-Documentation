@@ -1,4 +1,4 @@
-# Archive
+# Archives
 
 With Archive, users with a paid subscription for Slingshot can hide different items from their view in order to keep their Slingshot organized and clean. 
 
