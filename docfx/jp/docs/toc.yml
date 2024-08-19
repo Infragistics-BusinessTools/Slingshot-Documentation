@@ -17,6 +17,11 @@
 - name: タスク
   href: tasks.md
   updated: false
+  items: 
+    - name: カスタム フィールド
+      href: custom-fields.md
+    - name: タスク タイプ
+      href: task-types.md
 - name: ピン固定
   href: pins.md
 - name: データ カタログ
@@ -54,6 +59,8 @@
   new: false
 - name: 生産性向上のヒント
   header: true
+- name: アーカイブ
+  href: archives.md
 - name: データ制限
   href: data-limits.md
   new: false
