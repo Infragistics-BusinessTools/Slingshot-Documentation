@@ -1,4 +1,4 @@
-- name: AI
+- name: Slingshot AI
   header: true
 - name: Extract Action Items
   href: extract-action-items.md

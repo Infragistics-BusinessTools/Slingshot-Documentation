@@ -1,6 +1,6 @@
 # Archives
 
-With Archive, users with a paid subscription for Slingshot can hide different items from their view in order to keep their Slingshot organized and clean. 
+With Archive, users with a paid subscription for Slingshot can hide different items from their view in order to keep their Slingshot organized and clean. Archived items can always be unarchived in order to use them again.
 
 <img src="../images/archived-items-my-overview.png" class="responsive-img" width="90%" alt="Archived items in My Overview">
 
@@ -12,11 +12,11 @@ You can archive workspaces, projects, lists, discussions, data sources and dashb
 
 ## How can I archive different items?
 
-1.	Open the overflow menu next to the item you would like to archive.
+1.	Open the overflow menu next to the item you would like to archive. In our case, we wanted to archive the *Customer Implementation and Success* workspace.
 
 2.	Click/tap on **Archive**. 
 
-    <img src="../images/workspace-archive-option.png" class="responsive-img" width="90%" alt="Archive option for a workspace">
+<img src="../images/workspace-archive-option.png" class="responsive-img" width="90%" alt="Archive option for a workspace">
 
 >[!Note] Archived workspaces cannot be edited. If you want to make changes, such as leaving a workspace as an owner, you need to unarchive it first, assign a new owner and then leave it.
 
@@ -28,11 +28,11 @@ In order to find an archived item, you can:
 
 1.	Click/tap on **Search Archive** in your profile settings in order to open the search bar. Alternatively, you can directly start typing in the name of the item in the search bar.
 
-    <img src="../images/search-archives-user-settings.png" class="responsive-img" width="90%" alt="Search Archive option in the user settings menu">
+<img src="../images/search-archives-button-user-settings.png" class="responsive-img" width="90%" alt="Search Archive option in the user settings menu">
 
-2.	Choose to include *Archive* in your search or to search only for archived items. Note that, by default, the search results will exclude archived items.
+2.	Choose to include *Archive* in your search or to search only for archived items. 
 
-    <img src="../images/search-results-archive.png" class="responsive-img" width="90%" alt="Search Archive option in the user settings menu">
+<img src="../images/search-results-archive.png" class="responsive-img" width="90%" alt="Search Archive option in the user settings menu">
 
 ## How can I unarchive different items? 
 
@@ -44,11 +44,11 @@ To unarchive an item, you can:
 
 2.	Choose to include *Archive* in your search or to search only for archived items.
 
-    <img src="../images/search-results-archive.png" class="responsive-img" width="90%" alt="Search Archive option in the user settings menu">
+<img src="../images/search-results-archive.png" class="responsive-img" width="90%" alt="Search Archive option in the user settings menu">
 
 3.	Click/tap on **Unarchive** from the overflow menu next to the item you would like to unarchive. 
 
-    <img src="../images/workspace-unarchive-option.png" class="responsive-img" width="90%" alt="Unarchive option for an archived workspace">
+<img src="../images/workspace-unarchive-option.png" class="responsive-img" width="90%" alt="Unarchive option for an archived workspace">
 
 Alternatively, you can click/tap on **Unarchive** in the banner.
 
@@ -80,10 +80,12 @@ Alternatively, you can click/tap on **Unarchive** in the banner.
 
 2.	Click/tap on **Request to Unarchive** in the banner. 
 
-    <img src="../images/unarchive-request-banner.png" class="responsive-img" width="90%" alt="Request access option in a banner">
+<img src="../images/unarchive-request-banner.png" class="responsive-img" width="90%" alt="Request access option in a banner">
 
 3. You will be presented with a dialog where you can leave a message for the owner. When you are ready, click/tap on **Send Request**.
 
-   <img src="../images/request-access.png" class="responsive-img" width="90%" alt="Request to unarchive dialog">
+<img src="../images/request-access.png" class="responsive-img" width="90%" alt="Request to unarchive dialog">
 
-4. The owner will get a notification. They can open it in order to unarchive the item.
+4. The owner will get a notification. When they open it, they will be presented with the following dialog where they can either deny the request or unarchive the item.
+
+<img src="../images/request-unarchive-dialog.png" class="responsive-img" width="90%" alt="Unarchive notification">

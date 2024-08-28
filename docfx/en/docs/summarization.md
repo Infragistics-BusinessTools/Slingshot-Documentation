@@ -1,82 +1,70 @@
 # Summarization
 
-With the Slingshot AI summarization, you can extract the most important info from a text in just a few seconds. This way you and your team members can quickly get an overview of what has been discussed. No more waste of time in reading long messages. 
+There are many AI-powered features available to you within Slingshot, one of these features is the summarization of text within discussions and chats. It allows you to quickly extract key information from the text, providing you and your team with an instant overview of discussions. 
 
->[!Note] Summarize from Here is a *Slingshot* and *Slingshot Enterprise* feature.
+The key benefits of this feature include: 
 
-## Where can I find the AI Summarization feature?
+- Time Saving – get a quick summary of any discussion or chat in seconds 
 
-You can find it when you:
+- Improved Collaborations – Ensure everyone is on the same page 
 
-1. Hover over or long press (for mobile devices) on a message in a chat, discussion, or a task.
+- Enhanced Decision-Making – Quickly access the information you need to make information decisions 
 
-2. You will see different options, such as reacting to the message with emojis, or directly replying to it. To see a list of the AI features that are available to messages, click/tap on the three-star button. 
+As with all Slingshot AI features, it is a paid feature, available under the Slingshot and Slingshot Enterprise subscriptions. For more information on upgrading your license, please visit (here)[https://www.slingshotapp.io/pricing]. 
 
-<img src="../images/ai-button-message-example.png" alt="AI button" width="90%" class="responsive-img"/> 
+## How can I use the Slingshot AI Summarization feature? 
 
-3. You will see the following list. Choose **Summarize from Here**. This means that the message you have opened will be used as a starting point for the text summarization.  
+Using the Slingshot AI Summarization feature is simple to use and helps you catch up you have missed in seconds. This feature works by summarizing the conversation downwards from a starting point message you have selected. 
 
-<img src="../images/ai-features-summarization.png" alt="Summarize from here option" width="90%" class="responsive-img"/> 
+Navigate to a discussion or chat you want to summarize.  
 
-If a conversation is too long, you will get an error message informing you that you need to pick a different starting point. 
+1. Hover over or long press (for mobile devices) on a message in a chat, discussion, or a task. 
 
-When nothing useful could be extracted from a conversation, you will be prompted to reduce the number of messages to summarize from.
+2. You will see different options, such as reacting to the message with emojis, or directly replying to it. To see a list of the Slingshot AI features that are available to conversations, click/tap on the three-star AI button.  
 
-## How can I summarize a text?
+3. You will see a list of Slingshot AI features. For this walkthrough, choose Summarize from Here. This means that the message you have opened will be used as a starting point for the text summarization. 
 
-When you click/tap on **Summarize from Here**, you will be presented with the following dialog box:
+4. From here a dialog box will pop up with the summarized text. 
 
 <img src="../images/summarize-conversation-dialog.png" alt="Example of a dialog of a summarized conversation" width="90%" class="responsive-img"/> 
 
-Here you can:
+From here, there are many more options you can do: 
 
 - **Generate** new versions of summarized text. This way you can choose a version that best describes your conversation.
 
 - **Copy to clipboard** if you want to reuse the summarization. 
 
-- Give us feedback. We value our users’ experience with the app and are always striving to improve it.
+- **Give us feedback**. We value our users’ experience with the app and are always striving to improve it.
 
-- Post the summary in the chat, discussion or task that you have opened. Everyone who can see the messages will also be able to see the summary.
-
-- Open the AI settings from the settings icon in the top right corner.
-
-Before posting the summary, you can edit the text in the message editor. 
-
-<img src="../images/summarized-text-editor.png" alt="Summarized text in the message editor" width="90%" class="responsive-img"/> 
-
-Once posted, the summarized text will appear in purple. 
+- **Post the summary** in the chat, discussion or task that you have opened. Everyone who can see the messages will also be able to see the summary. Before you post, you can also edit the text from here. Once posted, the summarized text will appear in purple.
 
 <img src="../images/summarized-text-in-chat.png" alt="Example of a summarized text in purple" width="90%" class="responsive-img"/> 
 
->[!Note] You can extract text only from non-generated messages. This means that you can create summarized messages from text messages that are not in purple (created with the help of Artificial Intelligence). 
+>[!Note] You can only use the Slingshot AI summarization feature on non-generated messages. This means that you cannot summarize messages that have already been summarized.  
 
-## How can I turn off AI Summarization?
+## Troubleshooting 
 
-If you are creating a summarization, you can:
+If a conversation is too long, you will get an error message informing you that you need to pick a different starting point.  
 
-1.	Click/tap on the **Settings** button in the upper right corner of the summarization dialog box.
+When nothing useful could be extracted from a conversation, you will be prompted to reduce the number of messages to summarize from. 
 
-<img src="../images/summarize-conversation-dialog.png" alt="Settings option in the summarization dialog box" width="90%" class="responsive-img"/> 
+## How do I disable the Slingshot AI Summarization Feature: 
 
-2.	The AI section in the user settings will open up. From there on, you can toggle **General AI Features** off. Note that this will also disable **[Action Items Extraction](extract-action-items.md)**.
+Slingshot AI is turned on by default, unless you are part of an Organization and your Org Admin has disabled it for the entire organization.  
+
+If you want to turn Slingshot AI off: 
+
+1. You can access the settings panel in two separate scenarios: 
+
+  a. Navigate to your Avatar in the top right corner.  
+
+  b. Directly from the summarized text window navigate to the settings icon in the top right corner. 
+
+2. From the Settings Panel, select **AI**. 
+
+3. Toggle the **General AI Features** off. 
 
 <img src="../images/ai-settings.png" alt="AI Settings" width="90%" class="responsive-img"/> 
-
-Alternatively, you can disable the AI features directly from your user settings when you:
-
-1.	Go to the upper right corner and select your profile image.
-
-2.	Click/tap on **Settings**.
-
-<img src="../images/user-settings.png" alt="User Settings" width="90%" class="responsive-img"/> 
-
-3.	Open the *AI* section.
-
-<img src="../images/ai-settings.png" alt="AI Settings" width="90%" class="responsive-img"/> 
-
-4.	Toggle **General AI Features** off.
-
-
 
 
 

@@ -1,102 +1,77 @@
 # Extract Action Items
 
-With the Extract Action Items AI feature, you can create tasks from messages in chats, discussions or even tasks, while using AI generated titles and descriptions. This way you can save time while creating tasks and can efficiently distribute responsibilities between different teams.
+"Extract Action Items" is a Slingshot AI-powered feature that enables you to generate tasks directly from messages in chats, discussions, or even other tasks. With AI-generated titles and descriptions, this feature streamlines the task creation process, saving you time and helping you efficiently distribute responsibilities across teams. 
 
->[!Note] Extract Action Items from Here is a [Slingshot](slingshot-subscription.md) and [Slingshot Enterprise](slingshot-enterprise-subscription.md) feature.
+As with all Slingshot AI features, it is a paid feature, available under the Slingshot and Slingshot Enterprise subscriptions. For more information on upgrading your license, please visit [here](https://www.slingshotapp.io/pricing).  
 
-## Where can I find the option to Extract Action Items?
+## How can I use the Slingshot AI Extract Action Items? 
 
-You can find it when you:
+Using the Slingshot AI Extract Action feature is simple to use and helps you create tasks easily and effortlessly from chats and discussions. This feature streamlines task creation by extracting text from a discussion or chat and generating a task, eliminating the need to follow the usual steps.  
 
-1. Hover over or long press (for mobile devices) on a message in a chat, discussion or a task.
+Navigate to the discussion or chat message that you want to create a task from. 
 
-2. You will see different options, such as reacting to the message with emojis, or directly replying to it. To see a list of the AI features that are available to messages, click/tap on the three-star button. 
+1. Hover over or long press (for mobile devices) on a message in a chat or discussion. 
 
-<img src="../images/ai-button.png" alt="AI button" width="90%" class="responsive-img"/> 
+2. You will see different options, such as reacting to the message with emojis, or directly replying to it. To see a list of the Slingshot AI features that are available to messages, click/tap on the three-star AI button.  
 
-3. You will be presented with the following options:
+3. You will see a list of Slingshot AI features. For this walkthrough, chose **Extract Action Items**. 
 
-- [Summarize from Here](summarization.md)
+4. From here a dialog box will appear. This will display a list of Suggested Action Items. 
 
-- Extract Action Items from Here
+<img src="../images/extracted-action-items-list.png" alt="List of extracted action items" width="90%" class="responsive-img"/>
 
-<img src="../images/extract-action-items-from-here-option.png" alt="Option to extract action items from a conversation" width="90%" class="responsive-img"/> 
+From here, there are many more options you can do: 
 
-## How can I create a task from an Extracted Action Item?
+- Choose which items you want to use for the creation of your tasks. Each item has a title and a description. If you decide to use them while creating the new tasks, they will automatically be added to them. This way you can save time and be more efficient with the distribution of tasks. You can always edit the items, if needed. 
 
-Once you have chosen the option to extract action items, you will see the following dialog:
+- Regenerate new versions of the extracted action items from the **Generate** button. This way you can have different options for titles and descriptions. You can choose the ones that best fit your goals. 
 
-<img src="../images/extracted-action-items-list.png" alt="List of extracted action items" width="90%" class="responsive-img"/> 
+- **Copy to clipboard** if you want to reuse the titles and descriptions of the items for creating notes or messages.  
 
-Here you can:
+- Give us feedback. The feedback from our users helps us improve Slingshot and the experience with it. 
 
-- Choose which items you want to use for the creation of your tasks. Each item has a title and a description. If you decide to use them while creating the new tasks, they will automatically be added to them. This way you can save time and be more efficient with the distribution of tasks. You can always edit the items, if needed.
+- **Edit & Create** button allows you to Edit the tasks’ default values and fields. For example, you can set the Status to be *In Progress* instead of *To Do*. You can also change the AI generated title and the description. It then creates the tasks. 
 
-- Generate new versions of the extracted action items from the **Generate** button. This way you can have different options for titles and descriptions. You can choose the ones that best fit your goals.
+- **Create** button creates tasks immediately without the option to edit them. This means that you cannot edit the title and the description that are used from the extracted action items. There is also no option to edit the default values and fields. Once you have created the tasks, you can make changes. 
 
-- **Copy to clipboard** if you want to reuse the titles and descriptions of the items  for creating notes or messages. 
+## How do I create tasks? 
 
-- Give us feedback. The feedback from our users helps us improve Slingshot and the experience with it.
+1. Click/tap on **Create as Tasks**.  
 
-- **Edit** and then **Create** the tasks or directly create them. 
-   - When you **Edit** the tasks, you can change the tasks’ default values and fields. For example, you can set the *Status* to be **In Progress** instead of **To Do**. You can also change the title and the description.
-   
-   - When you directly create tasks, you can’t make any changes to them. This means that you cannot edit the title and the description that are used from the extracted action items. There is also no option to edit the default values and [fields](custom-fields.md). Once you have created the tasks, you can make changes.
-
-If you don’t want to make any changes to the tasks, you can:
-
-1. Click/tap on **Create as Tasks**. 
-
-<img src="../images/extracted-action-items-create-button.png" alt="Extracted action items create button" width="90%" class="responsive-img"/> 
-
-2. Choose a location where you want to save them and then click/tap on **Next**. As you extract action items from a message, the default location for the tasks is the location of the message. 
-For example, we wanted to create tasks from a private chat message. This is why the default location was *My Tasks*. You can always change the location based on your goals. In the process of creating the tasks, you can also add new *Task Lists* and *Task Sections* to the location.
+2. Choose a location where you want to save the tasks and then click/tap on **Next**. The default location for the tasks is the location of the message. For example, if you extract action items from a private chat message, the default location will be My Tasks. However, you can change the default location to suit your needs. In the process of creating the tasks, you can also add new Task Lists and Task Sections to the location, as shown in the screenshot below. 
 
 <img src="../images/location-new-tasks-extracted-action-items.png" alt="Choose Location for new tasks" width="90%" class="responsive-img"/> 
 
->[!Note] You can extract actions items only from non-generated messages. [link to the Summarization article ] This means that you can create tasks from messages that are not created with the help of AI (Artificial Intelligence). 
+>[!Note] You can only use the Slingshot AI extract action items feature on non-generated messages. This means that you cannot summarize messages that have already been summarized using the Slingshot AI Summarization feature[link].   
 
-If you want to first make some changes, for example, set up the **Priority** of a task or a set of tasks, you can:
+## How do I edit tasks before creating them? 
 
-1. Click/tap on **Edit&Create**. 
+If you want to first make some changes, for example, set up the *Priority* of a task or a set of tasks, you can: 
 
-<img src="../images/extracted-action-items-edit-button.png" alt="Edit button for creating tasks from extracted action items" width="90%" class="responsive-img"/> 
+1. Click/tap on **Edit&Create**.  
 
-2. Choose a location where you want to save them and click/tap on **Next**. Note that the default location for the tasks is the location of the message you used for extracting action items. You can always change the location. You can also add additional *Task Lists* and *Task Sections* while creating the tasks.
+2. Choose a location where you want to save the tasks and then click/tap on **Next**. The default location for the tasks is the location of the message. For example, if you extract action items from a private chat message, the default location will be My Tasks. However, you can change the default location to suit your needs. In the process of creating the tasks, you can also add new Task Lists and Task Sections to the location, as shown in the screenshot below. 
 
-<img src="../images/new-tasks-location.png" alt="Choose Location for new tasks" width="90%" class="responsive-img"/> 
+<img src="../images/new-tasks-location.png" alt="Choose Location for new tasks" width="90%" class="responsive-img"/>
 
-3. When you are ready with the modifications of each task, click/tap on **Create** in each of them. If you have multiple action items, you will see a number of Action Items remaining to be created as tasks next to the **Create** button.
+3. When you are ready with the modifications of each task, click/tap on **Create** in each of them. If you have multiple action items, you will see a number of Action Items remaining to be created as tasks next to the **Create** button. 
 
 <img src="../images/action-items-number.png" alt="Number of action items" width="90%" class="responsive-img"/> 
 
-4. The tasks will appear in the location where you have saved them.
+## How do I disable the Slingshot AI Extract Action Items Feature:  
 
-<img src="../images/new-tasks-extracted-action-items-example.png" alt="Example of new tasks created from extracted action items" width="90%" class="responsive-img"/> 
+Slingshot AI is turned on by default, unless you are part of an Organization and your Org Admin has disabled it for the entire organization.   
 
-## How can I turn off the option to Extract Action Items?
+If you want to turn Slingshot AI off:  
 
-If you are in the process of creating tasks from extracted action items, you can:
+1. You can access the settings panel in two separate scenarios:  
 
-1. Click/tap on the **Settings** button in the upper right corner of the summarization dialog box.
+ a. Navigate to your Avatar in the top right corner.   
 
-<img src="../images/ai-settings-extract-action-items-dialog-box.png" alt="AI Settings button in Etract Action Items Dialog Box" width="90%" class="responsive-img"/> 
+ b. Directly from the summarized text window navigate to the settings icon in the top right corner. 
 
-2. The *AI* settings will open up. Toggle **General AI Features** off. This will disable all AI features.
+2. From the Settings Panel, select *AI*.  
 
-<img src="../images/ai-settings.png" alt="AI Settings" width="90%" class="responsive-img"/> 
-
-Alternatively, you can:
-
-1. Go to the upper right corner and select your profile image.
-
-2. Click/tap on **Settings**.
-
-<img src="../images/user-settings.png" alt="User Settings" width="90%" class="responsive-img"/> 
-
-3. Open the *AI* section.
+3.Toggle the **General AI Features** off. 
 
 <img src="../images/ai-settings.png" alt="AI Settings" width="90%" class="responsive-img"/> 
-
-4. Toggle **General AI Features** off.
-
