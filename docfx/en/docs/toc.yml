@@ -1,3 +1,9 @@
+- name: Slingshot AI
+  header: true
+- name: Extract Action Items
+  href: extract-action-items.md
+- name: Summarization
+  href: summarization.md
 - name: GETTING STARTED
   header: true
 - name: Welcome to Slingshot
@@ -67,8 +73,8 @@
 - name: Open in New Window
   href: open-in-new-window.md
   new: false
-- name: Productivity Flows
-  href: productivity-flows.md
+- name: Productivity Boost
+  href: productivity-boost.md
 - name: SETTINGS
   header: true
 - name: Feedback

@@ -33,7 +33,7 @@ Subtasks can be created from inside the task card or from the parent task's over
 
 Tasks are very important for driving the productivity of your teams and projects. Your task card has the following fields:  
 
-<img src="../images/task-fields.png" alt="Task card with all fields highlighted within Slingshot" width="80%" class="responsive-img"/>
+<img src="../images/task-fields.png" alt="Task card with all fields highlighted within Slingshot" width="900%" class="responsive-img"/>
 
 1.	**Task Title**: Set a clear title for your tasks. 
 
@@ -51,21 +51,27 @@ Tasks are very important for driving the productivity of your teams and projects
 
 8.	**Activity**: Have threaded conversations around your tasks in context.
 
+9. **Convert To**: Change the [type](./task-types.md) of the task.
+
+10. **Producitivity Boost**: Pin the task, start a chat or discussion directly from the Productivity Boost icon.
+
 If you want to add subtasks or dependencies to the task, you can scroll down in the task card.
 
-<img src="../images/task-fields-subtasks-dependencies.png" alt="Subtasks and dependencies in a task card" width="80%" class="responsive-img"/>
+<img src="../images/task-fields-subtasks-dependencies.png" alt="Subtasks and dependencies in a task card" width="90%" class="responsive-img"/>
 
 ### Task Description
 
  In the task description section, you can add additional details around your tasks with the help of different text formatting tools. You can also add URLs, as well as emojis.
 
-  <img src="../images/task-description.png" alt="Example of a task description" width="65%" class="responsive-img"/>
+  <img src="../images/task-description.png" alt="Example of a task description" width="90%" class="responsive-img"/>
 
 Note that currently these options are available only for macOS Monterey.
 
 ## Task Duplication
 
-Instead of creating a whole new set of tasks, you can save some time and be more productive by duplicating a task with the steps mentioned below. Keep in mind that only a parent task can be duplicated and will duplicate all the subtasks associated with it. 
+Instead of creating a whole new set of tasks, you can save some time and be more productive by duplicating a task with the steps mentioned below. 
+
+If you decide to duplicate a parent task, you can duplicate  all the subtasks associated with it. 
 
 1.	Open **My Tasks**.
 
@@ -73,17 +79,19 @@ Instead of creating a whole new set of tasks, you can save some time and be more
 
 3.	Choose **Duplicate**.
 
- <img src="../images/duplicate-tasks-option.png" alt="Task duplication overflow menu" width="80%" class="responsive-img"/>
+ <img src="../images/duplicate-option-tasks.png" alt="Task duplication overflow menu" width="90%" class="responsive-img"/>
 
 4.	A dialog will open, where you can choose what you want to keep when you duplicate the task. You can also change the title of the task. If you decide to keep the same assignees, you’ll be presented with the option to notify them once the task is created.
 
- <img src="../images/duplicate-a-task-filters.png" alt="Dialog with task duplication filters" width="35%" class="responsive-img"/>
+ <img src="../images/duplicate-task-filters.png" alt="Dialog with task duplication filters" width="90%" class="responsive-img"/>
 
 5.	Once you’ve saved your preferences, you will see the task field where you can make changes. 
 
+ <img src="../images/duplicate-task-example.png" alt="Example of a duplicate task and its fields" width="90%" class="responsive-img"/>
+
 6.	When you are ready, you can click on **Update**. You can find the task with the subtasks in the **My Tasks** section. 
 
- <img src="../images/duplicate-task-storage.png" alt="Example of stored duplicated tasks" width="82%" class="responsive-img"/>
+ <img src="../images/duplicate-tasks-task-section.png" alt="Example of stored duplicated tasks" width="90%" class="responsive-img"/>
 
 ## Organizing Tasks  
 
@@ -99,7 +107,7 @@ Within each of the task views you can filter the tasks in a way that best suits 
 
 View your tasks on the calendar in order to have a better overview of your teams' schedules and their progress on tasks.
 
-<img src="../images/tasks-calendar-view.png" alt="Calendar view within Slingshot" width="75%" class="responsive-img"/>
+<img src="../images/tasks-calendar-view.png" alt="Calendar view within Slingshot" width="90%" class="responsive-img"/>
 
 Use Calendar view if you want to: 
 
@@ -113,7 +121,7 @@ Use Calendar view if you want to:
 
 Project manage and update tasks faster from within your list view.  
 
-<img src="../images/Slingshot_Tasks_List_View.png" alt="Task List View within Slingshot" width="72%" class="responsive-img"/>
+<img src="../images/tasks-list-view.png" alt="Task List View within Slingshot" width="90%" class="responsive-img"/>
 
 Use List view if you want to: 
 
@@ -127,7 +135,7 @@ Use List view if you want to:
 
 View your tasks as cards within columns that represent different stages of the Status workflow. You can drag and drop your tasks between columns to change their status.
 
-<img src="../images/Slingshot_Tasks_Kanban_View.png" alt="Task Kanban View within Slingshot" width="72%" class="responsive-img"/>
+<img src="../images/tasks-canban-view.png" alt="Task Kanban View within Slingshot" width="90%" class="responsive-img"/>
 
 Use Kanban view if you want to:  
 
@@ -139,7 +147,7 @@ Use Kanban view if you want to:
 
 See a clear path for project completion and dependencies by using timeline view. Zoom in or out to see your timeline by days, weeks or months.
 
-<img src="../images/Slingshot_Tasks_Timeline_View.png" alt="Task Timeline View within Slingshot" width="72%" class="responsive-img"/>
+<img src="../images/tasks-timeline-view.png" alt="Task Timeline View within Slingshot" width="90%" class="responsive-img"/>
 
 Use Timeline view if you want to: 
 
@@ -151,11 +159,11 @@ Use Timeline view if you want to:
 
 If you want your team members in a workspace or a project to land on task list, organized in a specific way, you can:
 
-1. Open the drop-down menu of **View Settings**. 
+1. Open the oveflow menu next to the *Producitivity Boost*. 
 
-2. Set the **View Type** and the **List Settings** based on your preferences.
+2. Click/tap on **Save as Default View** to choose a default view. 
 
-<img src="../images/default-view-tasks.png" alt="Default View option in View Settings" width="85%" class="responsive-img"/>
+<img src="../images/default-view-tasks.png" alt="Default View option in View Settings" width="90%" class="responsive-img"/>
 
 You can always reset the settings to their original state when you choose **Reset to Default View**.
 
@@ -195,19 +203,23 @@ In order to create a new filter, you can:
 
 1. Click/tap on **+Filter** under *Filters*.
 
-<img class="responsive-img" src="../images/task-filter.png" width="90%" alt="New filter option">
+<img class="responsive-img" src="../images/filter-button.png" width="90%" alt="New filter option">
 
 2. Add the name of the filter and choose what to include in it.
 
-<img class="responsive-img" src="../images/filter-options-tasks.png" width="90%" alt="Different fields that can be added to a new filter">
+<img class="responsive-img" src="../images/options-filter.png" width="90%" alt="Example of a new filter in the filters list">
 
 3. Click/tap on **Save**.
+
+4. You will see the new filter in the filters list.
+
+<img class="responsive-img" src="../images/new-filter-filters-list.png" width="90%" alt="Different fields that can be added to a new filter">
 
 If you want to change the way tasks are being filtered, you can make different adjustments to your filter. For example, if you want to filter only by the status **In Progress**, you can:
 
 1. Click/tap on the overflow menu next to the chosen filter.
 
-2. Choose **Edit** from the drop-down menu.
+2. Choose **Edit**.
 
 3. Change the status to **In Progress**.
 
@@ -219,7 +231,7 @@ If you want to change the way tasks are being filtered, you can make different a
 
 You can also add more rules to the filter from the **+Rule** button.
 
-As an example, the following rules could be created to get all John Williams’ tasks, that include the word “Deadline” in their description. 
+For example, we wanted to create a filter for John Williams’ tasks that have a *Release* [field](custom-fields.md) with the year *2024* as a value. 
 
 <img src="../images/advanced-filters.png" alt="Advanced Filtering highlighted within Slingshot" class="responsive-img" width="90%"/>
 
