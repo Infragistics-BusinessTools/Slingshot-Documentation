@@ -4,7 +4,7 @@
 
 As with all Slingshot AI features, it is a paid feature, available under the Slingshot and Slingshot Enterprise subscriptions. For more information on upgrading your license, please visit [here](https://www.slingshotapp.io/pricing).  
 
-## How can I use the Slingshot AI Extract Action Items? 
+## How can I use the Slingshot AI Extract Action Items feature? 
 
 Using the Slingshot AI Extract Action feature is simple to use and helps you create tasks easily and effortlessly from chats and discussions. This feature streamlines task creation by extracting text from a discussion or chat and generating a task, eliminating the need to follow the usual steps.  
 
@@ -38,11 +38,11 @@ From here, there are many more options you can do:
 
 1. Click/tap on **Create as Tasks**.  
 
-2. Choose a location where you want to save the tasks and then click/tap on **Next**. The default location for the tasks is the location of the message. For example, if you extract action items from a private chat message, the default location will be My Tasks. However, you can change the default location to suit your needs. In the process of creating the tasks, you can also add new Task Lists and Task Sections to the location, as shown in the screenshot below. 
+2. Choose a location where you want to save the tasks and then click/tap on **Next**. The default location for the tasks is the location of the message. For example, if you extract action items from a private chat message, the default location will be *My Tasks*. However, you can change the default location to suit your needs. In the process of creating the tasks, you can also add new *Task Lists* and *Task Sections* to the location, as shown in the screenshot below. 
 
 <img src="../images/location-new-tasks-extracted-action-items.png" alt="Choose Location for new tasks" width="90%" class="responsive-img"/> 
 
->[!Note] You can only use the Slingshot AI extract action items feature on non-generated messages. This means that you cannot summarize messages that have already been summarized using the Slingshot AI Summarization feature[link].   
+>[!Note] You can only use the Slingshot AI extract action items feature on non-generated messages. This means that you cannot summarize messages that have already been summarized using the Slingshot [AI Summarization](summarization.md) feature.   
 
 ## How do I edit tasks before creating them? 
 
@@ -50,7 +50,7 @@ If you want to first make some changes, for example, set up the *Priority* of a 
 
 1. Click/tap on **Edit&Create**.  
 
-2. Choose a location where you want to save the tasks and then click/tap on **Next**. The default location for the tasks is the location of the message. For example, if you extract action items from a private chat message, the default location will be My Tasks. However, you can change the default location to suit your needs. In the process of creating the tasks, you can also add new Task Lists and Task Sections to the location, as shown in the screenshot below. 
+2. Choose a location where you want to save the tasks and then click/tap on **Next**. The default location for the tasks is the location of the message. For example, if you extract action items from a private chat message, the default location will be *My Tasks*. However, you can change the default location to suit your needs. In the process of creating the tasks, you can also add new *Task Lists* and *Task Sections* to the location, as shown in the screenshot below. 
 
 <img src="../images/new-tasks-location.png" alt="Choose Location for new tasks" width="90%" class="responsive-img"/>
 
@@ -66,12 +66,12 @@ If you want to turn Slingshot AI off: 
 
 1. You can access the settings panel in two separate scenarios:  
 
- a. Navigate to your Avatar in the top right corner.   
+  a. Navigate to your Avatar in the top right corner.   
 
- b. Directly from the summarized text window navigate to the settings icon in the top right corner. 
+  b. Directly from the summarized text window navigate to the settings icon in the top right corner. 
 
 2. From the Settings Panel, select *AI*.  
 
-3.Toggle the **General AI Features** off. 
+3. Toggle the **General AI Features** off. 
 
 <img src="../images/ai-settings.png" alt="AI Settings" width="90%" class="responsive-img"/> 

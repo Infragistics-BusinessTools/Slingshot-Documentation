@@ -53,7 +53,7 @@ Tasks are very important for driving the productivity of your teams and projects
 
 9. **Convert To**: Change the [type](./task-types.md) of the task.
 
-10. **Producitivity Boost**: Pin the task, start a chat or discussion directly from the Productivity Boost icon.
+10. **Producitivity Boost**: Pin the task, start a chat or discussion directly from the [Productivity Boost](productivity-boost.md) icon.
 
 If you want to add subtasks or dependencies to the task, you can scroll down in the task card.
 
