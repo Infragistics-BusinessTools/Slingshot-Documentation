@@ -4,13 +4,13 @@ There are many AI-powered features available to you within Slingshot, one of the
 
 The key benefits of this feature include: 
 
-- Time Saving – get a quick summary of any discussion or chat in seconds 
+- **Time Saving** – get a quick summary of any discussion or chat in seconds 
 
-- Improved Collaborations – Ensure everyone is on the same page 
+- **Improved Collaborations** – Ensure everyone is on the same page 
 
-- Enhanced Decision-Making – Quickly access the information you need to make information decisions 
+- **Enhanced Decision-Making** – Quickly access the information you need to make information decisions 
 
-As with all Slingshot AI features, it is a paid feature, available under the Slingshot and Slingshot Enterprise subscriptions. For more information on upgrading your license, please visit (here)[https://www.slingshotapp.io/pricing]. 
+As with all Slingshot AI features, it is a paid feature, available under the *Slingshot* and *Slingshot Enterprise* subscriptions. For more information on upgrading your license, please visit [here](https://www.slingshotapp.io/pricing). 
 
 ## How can I use the Slingshot AI Summarization feature? 
 
@@ -22,7 +22,7 @@ Navigate to a discussion or chat you want to summarize.
 
 2. You will see different options, such as reacting to the message with emojis, or directly replying to it. To see a list of the Slingshot AI features that are available to conversations, click/tap on the three-star AI button.  
 
-3. You will see a list of Slingshot AI features. For this walkthrough, choose Summarize from Here. This means that the message you have opened will be used as a starting point for the text summarization. 
+3. You will see a list of Slingshot AI features. For this walkthrough, choose **Summarize from Here**. This means that the message you have opened will be used as a starting point for the text summarization. 
 
 4. From here a dialog box will pop up with the summarized text. 
 
@@ -56,11 +56,11 @@ If you want to turn Slingshot AI off:
 
 1. You can access the settings panel in two separate scenarios: 
 
-  a. Navigate to your Avatar in the top right corner.  
+   a. Navigate to your Avatar in the top right corner.  
 
-  b. Directly from the summarized text window navigate to the settings icon in the top right corner. 
+   b. Directly from the summarized text window navigate to the settings icon in the top right corner. 
 
-2. From the Settings Panel, select **AI**. 
+2. From the Settings Panel, select *AI*. 
 
 3. Toggle the **General AI Features** off. 
 
