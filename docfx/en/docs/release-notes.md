@@ -1,5 +1,36 @@
 # Release Notes
 
+### 1.0.3120 (Sept - 2024)
+ 
+#### New Features
+
+- Custom Fields: Users can now create custom fields to tailor their tasks and projects according to their specific needs, enhancing flexibility in tracking and managing work.
+
+- Custom Task Types: Users can now define custom task types, enabling better organization and categorization of work across teams.
+
+- Archive: Allows users to hide completed or inactive items to keep your Slingshot instance clean and focused.
+
+- AI Summarization: Users can now automatically generate summaries from discussions, saving time on keeping you informed.
+
+- AI Action Items: Users create action items directly from discussions for quicker task creation.
+
+#### Bug Fixes and Improvements
+
+- Slingshot Productivity Boosts: Enhancements to the visibility of seamless integrations across Slingshot's features, enabling smoother transitions between tasks, discussions and pins to help teams work more efficiently and stay organized.
+
+- Onboarding Enhancements: Adjustments made to the onboarding process based on user feedback.
+
+- Improved the initial dashboard template flow to simplify where users save dashboards and data sources.
+
+- Crash Report Screen Update: A comment field has been added to the crash report screen, allowing users to provide more context and help pinpoint the root causes of crashes.
+
+- [Bug Fix] Notification Sync Issue Resolved: Fixed an issue where the notification counter would become out of sync when a user's machine reconnected to the internet.
+
+- [Bug Fix] Chat Attachment Display Fix: Resolved an issue where starting a chat with an attachment would cause the chat to appear empty until re-navigating to the chat.
+
+- [Bug Fix] Deleted Messages in Notifications: Deleted messages will now be properly removed from notifications, ensuring that old or irrelevant information is not displayed.
+
+
 ### 1.0.2988 (March - 2024)
 
 #### New Features 

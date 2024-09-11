@@ -1,5 +1,7 @@
 - name: Slingshot AI
   header: true
+- name: Slingshot AI Overview
+  href: slingshot-ai-overview.md
 - name: Extract Action Items
   href: extract-action-items.md
 - name: Summarization
@@ -28,6 +30,8 @@
       href: custom-fields.md
     - name: Task Types
       href: task-types.md
+    - name: Using Custom Fields and Task Types
+      href: using-custom-fields-and-task-types.md
 - name: Pins
   href: pins.md
 - name: Data Catalog
