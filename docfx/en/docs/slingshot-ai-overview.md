@@ -38,4 +38,4 @@ Third parties do not have access to your chats or tasks, and therefore cannot se
 
 **A:** As with all AI results, Slingshot AI features are as accurate as the models are. With the Slingshot AI features, you can regenerate the results if they are inaccurate.
 
-For more information on our full AI Data Policy please visit [LINK]
+For more information on our full AI Data Policy please [visit this link](https://www.slingshotapp.io/ai-use-policy).
