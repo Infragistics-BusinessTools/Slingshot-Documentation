@@ -1,5 +1,7 @@
 - name: Slingshot AI
   header: true
+- name: Slingshot AI Overview
+  href: slingshot-ai-overview.md
 - name: Extract Action Items
   href: extract-action-items.md
 - name: Summarization
