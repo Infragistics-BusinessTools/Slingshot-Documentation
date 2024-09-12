@@ -2,7 +2,7 @@
 
 "Extract Action Items" is a Slingshot AI-powered feature that enables you to generate tasks directly from messages in chats, discussions, or even other tasks. With AI-generated titles and descriptions, this feature streamlines the task creation process, saving you time and helping you efficiently distribute responsibilities across teams. 
 
-As with all Slingshot AI features, it is a paid feature, available under the Slingshot and Slingshot Enterprise subscriptions. For more information on upgrading your license, please visit [here](https://www.slingshotapp.io/pricing).  
+As with all Slingshot AI features, it is a paid feature, available under the *Slingshot* and *Slingshot Enterprise* subscriptions. For more information on upgrading your license, please visit [here](https://www.slingshotapp.io/pricing).  
 
 ## How can I use the Slingshot AI Extract Action Items feature? 
 
@@ -66,9 +66,9 @@ If you want to turn Slingshot AI off: 
 
 1. You can access the settings panel in two separate scenarios:  
 
-  a. Navigate to your Avatar in the top right corner.   
+    a. Navigate to your Avatar in the top right corner.   
 
-  b. Directly from the summarized text window navigate to the settings icon in the top right corner. 
+    b. Directly from the summarized text window navigate to the settings icon in the top right corner. 
 
 2. From the Settings Panel, select *AI*.  
 

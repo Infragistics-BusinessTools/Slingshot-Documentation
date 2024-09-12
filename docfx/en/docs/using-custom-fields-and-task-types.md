@@ -1,6 +1,6 @@
 # Using Custom Fields and Task Types 
 
-When you create a field for a task with a specific type[Task Types - LINK], all the other tasks from that type will be updated to reflect the changes. 
+When you create a field for a task with a [specific type](task-types.md), all the other tasks from that type will be updated to reflect the changes. 
 
 To add a custom field to a task, you can either: 
 
@@ -8,7 +8,7 @@ To add a custom field to a task, you can either:
 
 2. Choose **Manage Fields**. 
 
-<img src="../images/FieldsAndTaskTypes_1.png" class="responsive-img"/>
+<img src="../images/task-manage-fields-option.png" alt="Manage fields option for a task" class="responsive-img" width="90%" />
 
 3. Click/tap on **+ Field**. 
 
@@ -30,9 +30,7 @@ To change the task type, you can:
 
 4. You will be prompted to choose which fields to transfer to the new type. When you are ready, click/tap on **Convert To**. 
 
-<img src="../images/FieldsAndTaskTypes_2.png" class="responsive-img"/>
-
-<img src="../images/FieldsAndTaskTypes_3.png" class="responsive-img"/>
+<img src="../images/convert-to-button.png" alt="Convert to button" class="responsive-img" width="90%" />
 
 or you can: 
 
@@ -42,12 +40,12 @@ or you can:
 
 3. Choose the task type you want to add a new custom field to. 
 
-<img src="../images/FieldsAndTaskTypes_4.png" class="responsive-img"/>
+<img src="../images/task-types-list.png" alt="List of task types" class="responsive-img" width="90%" />
 
 4. From here on, you can pick a type of field and customize it. 
 
-<img src="../images/FieldsAndTaskTypes_5.png" class="responsive-img"/>
+<img src="../images/custom-field-types-list.png" alt="List of different types of custom fields" class="responsive-img" width="90%" />
 
 5. When you are ready, click/tap on **Add**. 
 
-<img src="../images/FieldsAndTaskTypes_6.png" class="responsive-img"/>
+<img src="../images/custom-field-add-button.png" alt="Custom field add button" class="responsive-img" width="90%" />
