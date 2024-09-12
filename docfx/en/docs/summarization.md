@@ -14,7 +14,7 @@ As with all Slingshot AI features, it is a paid feature, available under the *Sl
 
 ## How can I use the Slingshot AI Summarization feature? 
 
-Using the Slingshot AI Summarization feature is simple to use and helps you catch up you have missed in seconds. This feature works by summarizing the conversation downwards from a starting point message you have selected. 
+Using the Slingshot AI Summarization feature is simple to use and helps you catch up on what you have missed in seconds. This feature works by summarizing the conversation downwards from a starting point message you have selected. 
 
 Navigate to a discussion or chat you want to summarize.  
 
@@ -44,9 +44,9 @@ From here, there are many more options you can do:
 
 ## Troubleshooting 
 
-If a conversation is too long, you will get an error message informing you that you need to pick a different starting point.  
+ - If a conversation is too long, you will get an error message informing you that you need to pick a different starting point.  
 
-When nothing useful could be extracted from a conversation, you will be prompted to reduce the number of messages to summarize from. 
+ - When nothing useful could be extracted from a conversation, you will be prompted to reduce the number of messages to summarize from. 
 
 ## How do I disable the Slingshot AI Summarization Feature: 
 
