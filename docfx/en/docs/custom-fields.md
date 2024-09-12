@@ -86,7 +86,7 @@ This is why we:
 
 <img src="../images/crossed-out-value.png" alt="Example of a crossed out value of a field" class="responsive-img" width="90%" />
 
-2. Made the value *Blocked* visible in the task type, so it can show up in the options for *Status*.
+2. Made the value *Blocked* visible in the task type, so it can show up in the options for **Status**.
 
 <img src="../images/status-value-example.png" alt="Example of a Status value" class="responsive-img" width="90%" />
 
@@ -231,7 +231,7 @@ To do that, you need to:
 
    - Add the field with the new values to the Task Fields Library. 
 
-<img src="../images/subtask-fields-options.png" alt="Example of different options for a subtask field" class="responsive-img" width="90%" />
+<img src="../images/subtask-field-options.png" alt="Example of different options for a subtask field" class="responsive-img" width="90%" />
 
 4. Choose **Edit** to change the values. 
 
@@ -267,7 +267,7 @@ Based on your [user permissions](#user-permissions-for-custom-fields-library), y
 
 <img src="../images/task-fields-library-options.png" alt="Different pptions for custom fields in a task fields library" class="responsive-img" width="90%" />
 
-Any changes (edit or delete) on a field in a library, will affect the task types[Task Types] and the tasks that are currently using it. 
+Any changes (edit or delete) on a field in a library, will affect the [task types](task-types.md) and the tasks that are currently using it. 
 
 You can open your personal custom fields when you:
 

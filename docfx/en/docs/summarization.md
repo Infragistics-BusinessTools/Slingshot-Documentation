@@ -44,9 +44,9 @@ From here, there are many more options you can do:
 
 ## Troubleshooting 
 
-If a conversation is too long, you will get an error message informing you that you need to pick a different starting point.  
+ - If a conversation is too long, you will get an error message informing you that you need to pick a different starting point.  
 
-When nothing useful could be extracted from a conversation, you will be prompted to reduce the number of messages to summarize from. 
+ - When nothing useful could be extracted from a conversation, you will be prompted to reduce the number of messages to summarize from. 
 
 ## How do I disable the Slingshot AI Summarization Feature: 
 

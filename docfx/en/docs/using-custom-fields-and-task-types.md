@@ -32,9 +32,9 @@ To change the task type, you can:
 
 <img src="../images/convert-to-button.png" alt="Convert to button" class="responsive-img" width="90%" />
 
-or you can: 
+You can also change the task type when you:
 
-1. Click/tap on the + field button in the task list in the top right corner. 
+1. Click/tap on the **+** field button in the task list in the top right corner. 
 
 2. Here you can toggle on/off existing fields or create new fields in the task list. To create a custom field, click/tap on **+Add Field**. 
 
