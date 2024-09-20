@@ -1,6 +1,6 @@
 # アーカイブ
 
-Slingshot の有料サブスクリプションを持つユーザーは、Slingshot を整理してクリーンな状態に保つために、アーカイブを使用して、さまざまな項目をビューから非表示にすることができます。 
+Slingshot の有料サブスクリプションを持つユーザーは、Slingshot を整理してクリーンな状態に保つために、アーカイブを使用して、さまざまな項目をビューから非表示にすることができます。アーカイブされた項目は、いつでもアーカイブ解除して再度使用することができます。
 
 <img src="../images/archived-items-my-overview.png" class="responsive-img" width="80%" alt="Archived items in My Overview">
 
@@ -12,15 +12,15 @@ Slingshot の有料サブスクリプションを持つユーザーは、Slingsh
 
 ## 項目をアーカイブする方法
 
-1.	アーカイブしたい項目の横にあるオーバーフロー メニューを開きます。
+1.	アーカイブしたい項目の横にあるオーバーフロー メニューを開きます。この場合、*Customer Implementation and Success* ワークスペースをアーカイブしました。
 
 2.	**[アーカイブ]** をクリックまたはタップします。 
 
-    <img src="../images/workspace-archive-option.png" class="responsive-img" width="80%" alt="Archive option for a workspace">
+<img src="../images/workspace-archive-option.png" class="responsive-img" width="80%" alt="Archive option for a workspace">
 
 >[!Note] アーカイブされたワークスペースは編集できません。ワークスペースの管理者から抜けるなどの変更を行う場合は、まずアーカイブを解除し、新しい管理者を割り当ててから抜ける必要があります。
 
-<img src="../images/leave-archived-workspace.png" class="responsive-img" width="90%" alt="Leave Archived Workspace dialog" >
+<img src="../images/leave-archived-workspace.png" class="responsive-img" width="80%" alt="Leave Archived Workspace dialog" >
 
 ## アーカイブされた項目を見つける方法
 
@@ -28,11 +28,11 @@ Slingshot の有料サブスクリプションを持つユーザーは、Slingsh
 
 1.	プロフィール設定の **[アーカイブを検索]** をクリックまたはタップして検索バーを開きます。あるいは、検索バーに項目の名前を直接入力することもできます。
 
-    <img src="../images/search-archives-user-settings.png" class="responsive-img" width="80%" alt="Search Archive option in the user settings menu">
+<img src="../images/search-archives-button-user-settings.png" class="responsive-img" width="80%" alt="Search Archive option in the user settings menu">
 
-2.	検索結果に**アーカイブ**を含めるか、アーカイブされた項目のみを検索するかを選択します。デフォルトでは、アーカイブされた項目は検索結果から除外されることに注意してください。
+2.	検索結果に**アーカイブ**を含めるか、アーカイブされた項目のみを検索するかを選択します。
 
-    <img src="../images/search-results-archive.png" class="responsive-img" width="80%" alt="Search Archive option in the user settings menu">
+<img src="../images/search-results-archive.png" class="responsive-img" width="80%" alt="Search Archive option in the user settings menu">
 
 ## 項目のアーカイブを解除する方法 
 
@@ -44,11 +44,11 @@ Slingshot の有料サブスクリプションを持つユーザーは、Slingsh
 
 2.	検索結果に**アーカイブ**を含めるか、アーカイブされた項目のみを検索するかを選択します。
 
-    <img src="../images/search-results-archive.png" class="responsive-img" width="80%" alt="Search Archive option in the user settings menu">
+<img src="../images/search-results-archive.png" class="responsive-img" width="80%" alt="Search Archive option in the user settings menu">
 
 3.	アーカイブ解除したい項目の横にあるオーバーフロー メニューから **[アーカイブを解除]** をクリックまたはタップします。 
 
-    <img src="../images/workspace-unarchive-option.png" class="responsive-img" width="80%" alt="Unarchive option for an archived workspace">
+<img src="../images/workspace-unarchive-option.png" class="responsive-img" width="80%" alt="Unarchive option for an archived workspace">
 
 または、バナーの **[アーカイブを解除]** をクリックまたはタップすることもできます。
 
@@ -80,10 +80,12 @@ Slingshot の有料サブスクリプションを持つユーザーは、Slingsh
 
 2.	バナーの **[アーカイブ解除の要求]** をクリックまたはタップします。 
 
-    <img src="../images/unarchive-request-banner.png" class="responsive-img" width="80%" alt="Request access option in a banner">
+<img src="../images/unarchive-request-banner.png" class="responsive-img" width="80%" alt="Request access option in a banner">
 
 3. 管理者にメッセージを残すことができるダイアログが表示されます。準備ができたら、**[要求の再送信]** をクリックまたはタップします。
 
-   <img src="../images/request-access.png" class="responsive-img" width="80%" alt="Request to unarchive dialog">
+<img src="../images/request-access.png" class="responsive-img" width="40%" alt="Request to unarchive dialog">
 
-4. 管理者に通知が届きます。管理者はそれを開いて項目のアーカイブを解除できます。
+4. 管理者に通知が届きます。それを開くと、新しいダイアログが表示され、要求を拒否するか、項目をアーカイブ解除することができます。
+
+<!-- <img src="../images/request-unarchive-dialog.png" class="responsive-img" width="90%" alt="Unarchive notification"> -->
