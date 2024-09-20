@@ -24,7 +24,7 @@ _language: ja
 
 1.  **[チャート タイプ]** メニューで **[散布図]** の表示形式を選択します。
 
-    <img src="images/chart-types-scatter.png" alt="Location of the scatter visualization in the change visualization menu" class="responsive-img" width="45%"/>
+    <img src="images/chart-types-scatter.png" alt="Location of the scatter visualization in the change visualization menu" class="responsive-img" width="50%"/>
 
 2.  **[X 軸]** と **[Y 軸]** の数値フィールドを選択して、データ ポイントの位置を決定します。
 

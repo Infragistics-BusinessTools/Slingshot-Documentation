@@ -4,21 +4,24 @@
 
 ## タスク テンプレートを作成する方法
 
+タスク テンプレートを作成するオプションは、*Slingshot* および *Slingshot Enterprise* ユーザーが利用できることに注意してください。
+
 タスク テンプレートは、さまざまなプロジェクト、ワークスペース、または **[マイ タスク]** セクションで作成できます。タスク テンプレートを作成するオプションにアクセスするには、次のことを行う必要があります:
 
 1.	特定のタスク (以下を参照)、タスク リスト、またはタスク セクションのオーバーフロー メニューを開きます。
 
 2.	**[テンプレートとして保存する]** をクリックまたはタップします。
 
-    <img src="../images/save-as-template-example.png" class="responsive-img" alt="Save as template option in the dropdown menu of a task" width="90%">
+<img src="../images/save-as-template-button.png" class="responsive-img" alt="Save as template button for a task" width="80%">
 
-3. 次のダイアログが開きます。ここで、タスクから何を残すかを選択し、それをテンプレートに使用できます。準備ができたら続行、**[続行]** をクリックまたはタップします。
+3. 次のダイアログが開きます。ここで、テンプレートに使用するタスクのフィールド (例: 優先度) を選択できます。タスクに[カスタムフィールド](custom-fields.md)がある場合は、それを保持することもできます。準備ができたら続行、**[続行]** をクリックまたはタップします。
        
-   <img src="../images/save-as-template-adjustments.png" class="responsive-img" alt="A list of sections that can be kept for the template" width="90%">  
+<img src="../images/task-template-fields.png" class="responsive-img" alt="A list of fields that can be kept for the template" width="80%">  
 
 テンプレートを作成する前に、次のオプションがあります:
 
 1.	タスク テンプレートを作成するため、タスク テンプレートに名前を付ける。
+
 2.	説明を追加 **(オプション)**。
 
 3.	[週末を含む] オプションのオン / オフを切り替える **(オプション)**。
@@ -31,53 +34,45 @@
 
 7.	テンプレートの他のタスクと一緒に使用する新しいタスクを追加 **(オプション)**。
 
-    <img src="../images/save-as-template-dialog.png" class="responsive-img" alt="Different template options" width="90%">  
+<img src="../images/save-as-template-dialog.png" class="responsive-img" alt="Different template options" width="80%">  
 
 タスク テンプレートを作成したら、それを使用して新しいタスクまたは一連のタスクを作成できます。 
 
->[!NOTE] タスク テンプレートを作成するオプションは、*Slingshot* および *Slingshot Enterprise* ユーザーが利用できることに注意してください。
-
 ## さまざまなタスク テンプレート リストにアクセスする方法
 
-個人のタスク テンプレート、または別のワークスペースやプロジェクトなど、別の場所に保存されているテンプレートにアクセスするには:
+タスク テンプレートはライブラリに整理されます。タスク テンプレートは、ワークスペースやプロジェクト ライブラリ、またはプライベート ライブラリに保存できます。
 
-1.	右上隅の **[+ タスク]** 分割ボタンをクリックまたはタップし、**[テンプレートから追加]** を選択します。
+>[!Note] ワークスペース タスク テンプレート ライブラリを開くと、ワークスペースとそのプロジェクトの両方に保存されているテンプレートを参照できます。
 
-    <img src="../images/add-from-template-button.png" class="responsive-img" alt="A list of sections that can be kept for the template" width="90%">  
+タスク テンプレートのライブラリを開くには、次の操作を行います:
 
-    または、セクションを選択 ⇒ オーバーフロー メニューを開く ⇒ **[テンプレートから追加]** を選択します。 
-       
-    <img src="../images/add-from-template-section.png" class="responsive-img" alt="Add from Template option in a task section" width="90%">  
+1. プロジェクトまたはワークスペースの設定を開きます。
 
-2.	次のダイアログが開きます:
+2. **[タスク テンプレート ライブラリ]** をクリックまたはタップします。
 
-    <img src="../images/task-templates.png" class="responsive-img" alt="A dialog containing all task templates" width="90%">  
+<img src="../images/task-template-library-workspace-example.png" class="responsive-img" alt="Example of a Workspace Task Template Library" width="80%"> 
 
-左パネルでは、次のことができます:
+タスク リストを開いている場合は、右上隅にある **[+ タスク]** 分割ボタンをクリックまたはタップし、**[タスク テンプレート ライブラリ]** を選択できます。
 
-- すべてのタスク テンプレートを確認。
+<img src="../images/task-template-library-task-list.png" class="responsive-img" alt="Task Template Library button in a task list" width="80%">  
 
-- 最近使用したテンプレートを確認。
+プライベート タスク テンプレートを開くには、プロフィール設定に移動し、[**個人用ライブラリの管理**] をクリックまたはタップします。
 
-- **[作成済み]** または **[自分と共有済み]** でテンプレートをフィルタリング。
-
-テンプレートを名前で検索する場合は、右上隅の検索バーから検索できます。
+<img src="../images/personal-libraries.png" class="responsive-img" alt="Personal Libraries button" width="80%"> 
 
 これに加えて、各タスク テンプレートの右側にあるオーバーフロー メニューを開いて、次のアクションを実行することもできます:
 
 - テンプレートを開く。
 
-- *[コピーを作成して編集する]*。これにより、**[テンプレートとして保存]** ダイアログが表示され、テンプレートのコピーを作成する前に変更を加えることができます。
+- コピーを作成して編集する。これにより、**[テンプレートとして保存]** ダイアログが表示され、テンプレートのコピーを作成する前に変更を加えることができます。
 
 - タスク テンプレートへのリンクをコピー。
 
 - テンプレートを **[ブックマーク]** に追加するか、そこから削除。
 
-- テンプレートを共有。
-
 - テンプレートを削除。
 
-  <img src="../images/task-template-options.png" class="responsive-img" alt="Overflow menu with different options for task templates" width="90%"> 
+<!-- <img src="../images/task-template-options.png" class="responsive-img" alt="Overflow menu with different options for a task template" width="80%"> -->
 
 ## タスク テンプレートを編集する方法
 
@@ -87,13 +82,12 @@
 
 2.	右上隅にある鉛筆アイコンをクリックまたはタップします。
 
-    <img src="../images/edit-task-template-button.png" class="responsive-img" alt="Edit button for task templates" width="90%">
+<img src="../images/edit-task-template-button.png" class="responsive-img" alt="Edit button for task templates" width="80%">
 
 3.	**[タスク テンプレート]** ダイアログが開き、必要な変更を加えることができます。準備ができたら、**[完了]** をクリックまたはタップします。
 
-     <img src="../images/edit-task-template.png" class="responsive-img" alt="Task template editing options" width="90%">
+<img src="../images/edit-task-template.png" class="responsive-img" alt="Task template editing options" width="80%">
 
 >[!NOTE] 変更を適用するためのオプションは、**[テンプレートとして保存する]** ダイアログと同じであることに注意してください。
 
 タスクの作成方法と使用方法の詳細については、[こちら](tasks.md#タスクを作成する方法)をご覧ください。
-

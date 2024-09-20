@@ -30,7 +30,7 @@ Slingshot の組織に所属している場合、リストのデータ ソース
 
 1. 3 つの点 <img src="../images/overflow-icon.png" alt="Three dots icon" width="24px" height="24px" /> を選択して、組織ワークスペースの設定を開きます。
 
-2. <img src="../images/settings-icon.png" alt="アナリティクスで使用されるプラス アイコン" width="24px" height="24px" /> **[組織の設定]** を選択します。
+2. <img src="../images/settings-icon.png" alt="アナリティクスで使用されるプラス アイコン" width="24px" height="24px" /> **[組織設定]** を選択します。
 
 3. **[データ カタログ]** に移動します。 
 
