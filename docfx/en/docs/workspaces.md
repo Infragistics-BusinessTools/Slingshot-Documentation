@@ -137,7 +137,7 @@ You can delete a workspace by going to the workspace settings and clicking the o
 By default, a workspace is created with all tabs, but you can turn tabs on and off if they are not necessary.
 Slingshot allows you full flexibility in customizing these tabs for your project’s requirements.
 
-<img src="../images/edit-tabs.png" alt="Access a workspace settings within Slingshot" class="responsive-img"/>
+<img src="../images/edit-tabs.png" alt="Access a workspace tabs within Slingshot" class="responsive-img"/>
 
 If you need to turn on/off a tab, you can easily do so from the pencil icon on the tab menu.
 

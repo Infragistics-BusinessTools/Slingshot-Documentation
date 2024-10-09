@@ -11,7 +11,7 @@ While collaborating in teams or projects, people from different workspaces or ev
 
 It's a way of communication used by members of an organization, a workspace, or a project. Being organized in different threads, discussions ensure all your communication, and collaboration tools are in one place, making remote teams stay productive no matter where they are.
 
-<img src="../images/discussions-thread.png" alt="Example of a Slingshot discussion thread" class="responsive-img" width="80%"/>
+<img src="../images/discussions-thread.png" alt="Example of a Slingshot discussion thread" class="responsive-img"/>
 
 You can have multiple discussions going on at the same time while mixing in text formatting, attachments, emojis, and links. Plus you can react to conversations and even create [tasks](https://www.slingshotapp.io/en/help/docs/tasks) from messages.
 
@@ -25,7 +25,7 @@ Unlike lengthy email chains, members can follow or unfollow discussions. This is
 
 Your *[Chat](https://www.slingshotapp.io/en/help/docs/chat-faq)* is also a tool for communication, but unlike *[Discussions](https://www.slingshotapp.io/en/help/docs/discussions-faq)* it's not tied to any workspace or project. This means you can use it to chat with any Slingshot user, and even with users with personal accounts who are not part of your Organization.
 
-<img src="../images/chat-example.png" alt="An example of a chat conversation" class="responsive-img" width="65%" />
+<img src="../images/chat-example.png" alt="An example of a chat conversation" class="responsive-img"/>
 
 ## Chat from Multiple Devices
 

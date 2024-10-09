@@ -19,7 +19,7 @@ Unlike discussions, private chat is workspace and project independent. For more 
 
 To access your discussions, go to a workspace or project and select the **Discussions** navigation tab on top (see the screenshot below).
 
-<img src="../images/discussions-tab.png" alt="Discussions tab location in a workspace" class="responsive-img" width="80%"/>
+<img src="../images/discussions-tab.png" alt="Discussions tab location in a workspace" class="responsive-img"/>
 
 You can bookmark a discussion, list, or even a specific message to keep it at hand. They will appear in your bookmarks list and in **My Overview**.
 Follow the link for further details about [overviews](overviews.md).
@@ -53,40 +53,41 @@ In general, discussions are *read only* for *Viewers*.
 
 To **create a discussion**: 
 
-1. Go to the **Discussions tab**. 
+1. Go to the **Discussions** tab. 
 
 2. Select or create a list.
 
 3. Select **+ Discussion**.
 
-3. Name the discussion. Optionally, choose which members to be notified for its creation by adding their emails in *Notify*. 
+4. Name the discussion. Optionally, choose which members to be notified for its creation by adding their emails in *Notify*. 
 
-<img src="../images/create-discussion.png" alt="Create a discussion" class="responsive-img" width="80%"/>
+<img src="../images/create-discussion.png" alt="Create a discussion" class="responsive-img"/>
 
-4. Click/tap on **Create**.
+5. Click/tap on **Create**.
 
 Now your discussion is created. You can start typing your first message to give more details on the subject. It will also serve as a conversation starter.
 
 If you want to reply to your own messages or messages from other people, you can also do that by clicking/tapping on the reply arrow. It will show up when you hover over a message.
 
-<img src="../images/reply-arrow-discussion.png" alt="Reply arrow in a discussion" width="80%" class="responsive-img"/>
+<img src="../images/reply-arrow-discussion.png" alt="Reply arrow in a discussion" class="responsive-img"/>
 
 >[!NOTE] Reply threading is not supported.
 
 ## How can I share a discussion with another user?
 
 You can follow the steps below in order to share a discussion with another user:
-1. Open the overflow menu of the discussion and click/tap on **Shared With** 
 
-<img src="../images/shared-with-option.png" alt="Shared with option for adding users to a discussion" width="80%" class="responsive-img"/>
+1. Open the overflow menu of the discussion and click/tap on **Shared With**.
+
+<img src="../images/shared-with-option.png" alt="Shared with option for adding users to a discussion" class="responsive-img"/>
 
 2. You will see a dialog where you can add people.
 
-<img src="../images/people-picker-discussion.png" alt="Add users to a discussion through the people picker" width="80%" class="responsive-img"/>
+<img src="../images/people-picker-discussion.png" alt="Add users to a discussion through the people picker" class="responsive-img"/>
 
-3. Once you have selected the users, you can click on **Request To Share**. The owner of the discussion will get notified and can accept or decline the request. In case you are the owner of the discussion, you can add other users while choosing their role permissions and then click/tap on **Update**.
+3. In case you are the owner of the discussion, you can add other users while choosing their role permissions and then click/tap on **Update**. If you are not the owner of the discussion, you can add users and click on **Request To Share**. The owner of the discussion will get notified and can accept or decline the request. 
 
-<img src="../images/shared-with-dialog-owner.png" alt="Shared With dialog for owners" width="80%" class="responsive-img"/>
+<img src="../images/request-to-share-discussion.png" alt="Request to share a discussion" class="responsive-img"/>
 
 Another way of sharing a discussion with someone or with a group of people is by mentioning them (you can do that by using the *@ sign* and then typing the username or the email address of the user, or the name of the group). 
 
@@ -102,7 +103,7 @@ When an owner of a workspace (or a project) opens a discussion and mentions a gr
 
 After choosing how much of the history to provide the group with, they can click/tap on **Grant Access**.
 
-<img src="../images/discussion-history-options.png" alt="Group access dialog with different history options" width="80%" class="responsive-img"/>
+<img src="../images/discussion-history-options.png" alt="Group access dialog with different history options" class="responsive-img"/>
 
 In case a member of a group (who is not an owner of the workspace or the project) wants to mention the group, they need to first request access from the owner. When the owner grants permission to the group, the members will be able to see the discussion with its full history. 
 
@@ -124,15 +125,15 @@ When you want to make sure *you* are notified of new messages, you need to navig
 
 In order to remind yourself that you need to respond in a discussion, you can mark that discussion as *unread*. You can do this by opening the overflow menu and choosing **Mark as unread**.
 
-<img src="../images/mark-as-unread-overflow-menu.png" alt="Mark as unread button in the overflow menu" width="80%" class="responsive-img"/>
+<img src="../images/mark-as-unread-overflow-menu.png" alt="Mark as unread button in the overflow menu" class="responsive-img"/>
 
 Alternatively, you can open the discussion and then mark it as *unread*.
 
-<img src="../images/mark-as-unread-button-discussions.png" alt="Mark as unread button in an open discussion" width="80%" class="responsive-img"/>
+<img src="../images/mark-as-unread-button-discussions.png" alt="Mark as unread button in an open discussion" class="responsive-img"/>
 
  If you want to mark a discussion as read, you can open the overflow menu next to that discussion and choose **Mark as Read**. When you open a discussion, it gets also marked as *read*.
 
-<img src="../images/mark-as-read-discussion.png" alt="Mark as read button in an open discussion" width="80%" class="responsive-img"/>
+<img src="../images/mark-as-read-discussion.png" alt="Mark as read button in an open discussion" class="responsive-img"/>
 
 ## Deleting vs unfollowing a discussion
 
@@ -142,7 +143,7 @@ When you no longer care for a discussion, you can **unfollow** it. You will stop
 
 When a discussion is no longer relevant to anyone, you can **delete** it. Be careful, because deleting a discussion will make it disappear for all users. If it still contains valuable information, think twice before deleting it.
 
-To delete a discussion, navigate to it and select *Delete* in its overflow menu.
+To delete a discussion, navigate to it and select **Delete** in its overflow menu.
 
 ## Rearranging lists of discussions
 

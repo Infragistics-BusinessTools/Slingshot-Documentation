@@ -22,7 +22,7 @@ You can activate it with the following steps:
 
 5.	Once you have chosen the *Slingshot* subscription, you will be directed to the *Slingshot portal* where you can complete your purchase.
 
-<img src="../images/portal-purchase-slingshot.png" alt="A portal where you can complete your purchase" width="80%" class="responsive-img"/>
+<img src="../images/portal-purchase-slingshot.png" alt="A portal where you can complete your purchase" width="90%" class="responsive-img"/>
 
 ## How can I cancel my Slingshot subscription? 
 
@@ -36,11 +36,11 @@ Before your account reverts to the free Slingshot version, you can choose 2 work
 
 You can click on the overflow menu next to your workspace and choose **Shared With**.
 
-<img src="../images/shared-with-button-workspaces.png" alt="Shared With option in the list of options for workspaces" width="75%" class="responsive-img"/>
+<img src="../images/shared-with-button-workspaces.png" alt="Shared With option in the list of options for workspaces" width="90%" class="responsive-img"/>
 
 A dialog will pop up where you can click/tap on the **Add** button to add members by name or email.
 
-<img src="../images/adding-members-workspaces.png" alt="A dialog where you can type in the name or the email of a user who you want to add" width="55%" class="responsive-img"/>
+<img src="../images/adding-members-workspaces.png" alt="A dialog where you can type in the name or the email of a user who you want to add" width="90%" class="responsive-img"/>
 
 ## How many users can I invite to my workspaces?
 

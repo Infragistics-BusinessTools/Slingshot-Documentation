@@ -17,9 +17,9 @@ You can quickly start your search from anywhere - a workspace, tasks, My Stuff, 
 
 1. Go to the search box at the top.
  
-2. Start typing and Slingshot will start making suggestions. Press Enter / select “Search All Results” for a full list of results.
+2. Type in the name of the content/item. 
 
-3. The search results pane opens on the left.
+3. The search results pane will oprn on the left.
 
 The search results pane shows results from everywhere inside Slingshot. The results are displayed separately in five tabs:
 
@@ -39,14 +39,16 @@ The search results pane shows results from everywhere inside Slingshot. The resu
 
 Sometimes you may get too many results and need to refine your search. To help you with this, Slingshot includes a location filter on the top and a second tier of filters under each of the five tabs.
 
+You can also browse through archived items when you use the Archive filter ([Slingshot](slingshot-subscription.md) and [Slingshot Enterprise feature](slingshot-enterprise-subscription.md)).
+
 ## Filtering by location
 
 The Location filter (top of the page) is applied to all results no matter which results tab you choose. For example, you can easily search all blocked tasks in two projects located in different workspaces. To do this, just select the two projects in the location dropdown and then in the Tasks tab filter by the Blocked status.
 
-<img class="responsive-img" src="../images/search-filters.png" alt="Slingshot's search and its filters" class="responsive-img" />
+<img class="responsive-img" src="../images/location-filter.png" alt="Location filter in Search results" class="responsive-img" />
 
 ### Using More Filters
 
-These filters are specific to the selected tab and type of result. For example, when selecting the Tasks tab, you can filter results by creator, assignee, due date, etc.
+These filters are specific to the selected tab and type of result. For example, when selecting the Tasks tab, you can filter results by Creator, Assignee, Due Date, etc.
 
 Filters are only reset when you close the search results, so you can search multiple times adding and removing filters as needed.
