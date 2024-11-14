@@ -9,24 +9,27 @@ _description: Learn how to quickly apply and use Dashboard filters properties to
 
 In order to add a new dashboard filter:
 
-1.  Go to the *Dashboard Editor* and select *Add Filter* ⇒ *Add
-    Dashboard Filter*.
+1. Go to the *Dashboard Editor* and select **Add Filter**.
 
-2.  The *Dashboard Filter* menu will open. By default, the selected data
-    source will be the data source used in your first visualization. You
-    can configure or change it using the overflow menu next to the data
-    source's name.
+2. Click/tap on **Add Dashboard Filter**.
 
-  <img src="images/dashboard-filter-data-source-menu.png" alt="Selecting Dashboard Filter data source menu" class="responsive-img" width="90%"/>
+<img src="images/dashboard-filter-option.png" alt="Dashboard Filter option" class="responsive-img"/>
 
-3.  Choose which dataset to use as a dashboard filter and click/tap on
-    *Select Data*.
+2. Choose a data source. 
+
+3. The *Dashboard Filter* menu will open. Here you can switch to another data source and select dataset to use as a dashboard.
+
+  <img src="images/dashboard-filter-configuration.png" alt="Dashboard Filter confugaration" class="responsive-img"/>
+
+3. Once you have selected a field, click/tap on **Create Filter**.
+
+<img src="images/dashboard-filter-create-button.png" alt="Dashboard Filter create button" class="responsive-img"/>
 
 ## Filter Settings Overview
 
 You will be able to change the following settings for the filter:
 
-<img src="images/dashboard-filter-dialog.png" alt="Dashboard Filter settings menu" class="responsive-img" width="60%">
+<img src="images/dashboard-filter-dialog.png" alt="Dashboard Filter settings menu" class="responsive-img" width="58%">
 
 - Title. The title for the dashboard filter, which will be displayed right under the dashboard title. By default, this is the name of the field that will be used as a filter.</th>
 
@@ -47,9 +50,9 @@ The *Displayed Field/Element* setting specifies the dataset field that will be u
 the values in the *Dashboard Filters*. Listed values will not be repeated
 even if they appear multiple times in the original dataset.
 
-You can change the displayed column in *Edit mode* by selecting the *Edit* button in the overflow menu next to the dashboard filter name.
+You can change the displayed column in *Edit mode* by selecting the **Edit** button in the overflow menu next to the dashboard filter name.
 
-<img src="images/edit-mode-filter.png" alt="Edit dashboard filter" class="responsive-img" width="90%"/>
+<img src="images/edit-mode-filter.png" alt="Edit dashboard filter" class="responsive-img"/>
 
 <a name='multiple-selection'></a>
 ## Multiple Selection
@@ -58,13 +61,20 @@ Analytics supports the selection of multiple dashboard filter values
 simultaneously. This is meant to enable side by side comparison between different elements in a collection. For instance, in the *HR Dashboard* dashboard you can compare the hires and absences over time of different
 offices by enabling multiple selection.
 
-<img src="images/multiple-selection-dashboard-filters.png" alt="Filters multiple selections applied to a dashboard" class="responsive-img" width="50%"/>
+<img src="images/multiple-selection-dashboard-filters.png" alt="Filters multiple selections applied to a dashboard" class="responsive-img"/>
 
-In order to **enable "Multiple Selection"**, you must switch the
-dashboard to *Edit* mode ⇒ choose *Edit* from the overflow menu of a
-dashboard filter ⇒ *Selection* ⇒ tick *Multiple Selection* checkbox.
+In order to enable *Multiple Selection*, you need to:
 
-<img src="images/multiple-selection-option-dashboard-filter-dialog.png" alt="Multiple selections for dashboard filters" class="responsive-img" width="90%"/>
+1. Switch the dashboard to *Edit* mode.
+
+2. Choose **Edit** from the overflow menu of a
+dashboard filter.
+
+3. Click/tap on **Selection**.
+
+4. Tick **Multiple Selection** checkbox.
+
+<img src="images/multiple-selection-option-dashboard-filter-dialog.png" alt="Multiple selections for dashboard filters" class="responsive-img"/>
 
 <a name='required-selection'></a>
 ## Required Selection
@@ -76,18 +86,25 @@ the filter from the performed query. The query retrieves all data from
 the data source, and *No Selection* is displayed in the dashboard
 filters row.
 
-In order to **enable "Required Selection"**, you must switch the
-dashboard to *Edit* mode ⇒ choose *Edit* from the overflow menu of a
-dashboard filter ⇒ *Selection* ⇒ tick *Required Selection* checkbox.
+In order to enable *Required Selection*, you need to:
 
-<img src="images/required-selection-option-filters.png" alt="Required selection fo dashboard filters" class="responsive-img" width="90%"/>
+1. Switch the dashboard to *Edit* mode.
+
+2. Choose **Edit** from the overflow menu of a
+dashboard filter.
+
+3. Click/tap on **Selection**.
+
+4. Tick **Required Selection** checkbox.
+
+<img src="images/required-selection-option-filters.png" alt="Required selection fo dashboard filters" class="responsive-img"/>
 
 <a name='data-filters'></a>
 ## Data Filters
 
 You can also apply filters to the fields in the dataset displayed in the
 Dashboard Filter. This allows you to filter out null or empty values on
-a specific field ([empty values filter](~/docs/analytics/data-visualizations/fields/field-filters-rules.html#empty-values)). You can also [select specific values](~/docs/analytics/data-visualizations/fields/field-filters-rules.html#select-values), or add
+a specific field ([empty values filter](~/docs/analytics/data-visualizations/fields/field-filters-rules.html#empty-values)). You can also select [specific values](~/docs/analytics/data-visualizations/fields/field-filters-rules.html#select-values), or add
 [rules](~/docs/analytics/data-visualizations/fields/field-filters-rules.html#rules) to your field in order to change the
 options depending on the field type. For more information, visit the
 [field filters and rules](../data-visualizations/fields/field-filters-rules.md) section.
@@ -96,7 +113,7 @@ For example, if you use the *Fullname* field to filter the data in
 your *HR Dashboard*, the *Dashboard filter* will show a list of all
 employees in all offices of the company:
 
-<img src="images/data-filters-dashboard-filters-hr-dashboard.png" alt="Full name dashboard filter applied to HR Dashboard" class="responsive-img" width="45%"/>
+<img src="images/data-filters-dashboard-filters-hr-dashboard.png" alt="Fullname dashboard filter applied to HR Dashboard" class="responsive-img"/>
 
 If you want your filter list to contain only employees working in a particular office, e.g.
 *London, UK*, apply a data filter as shown below.
@@ -107,27 +124,28 @@ To apply field filters and rules to the data source used as a dashboard
 filter and have the dashboard filter show only the employees in the
 *London, UK* office (as in the example above), follow these steps:
 
-1.  Go to *Data Filters* in Dashboard Filter settings.
+1.  Go to **Data Filters** in Dashboard Filter settings.
 
-2.  Select *Employee name* for the *Displayed Field* property.
+2.  Select **Fullname** for the *Displayed Field* property.
 
-3.  Click/tap on *Select a Field* and choose *Office* from the list.
+3.  Click/tap on **Select a Field** and choose *Office* from the list.
 
-  <img src="images/dashboard-filters-select-data-filter-field.png" alt="Selecting a field for a data filter in the dashboard filter settings menu" class="responsive-img" width="90%"/>
+  <img src="images/dashboard-filters-select-data-filter-field.png" alt="Select a field for a data filter in the dashboard filter settings menu" class="responsive-img"/>
 
 4.  In the following dialog, select the filter type you want to apply
-    (choose *Select Values* for the purposes of this example):
+    (choose **Select Values** for the purposes of this example):
 
-  <img src="images/filter-types.png" alt="Dashboard Filters Filter type option" class="responsive-img" width="90%"/>
+  <img src="images/filter-types.png" alt="Dashboard Filters Filter type option" class="responsive-img"/>
 
-5.  Choose *London, UK* from the list and click/tap on the *Create Filter*
-    button.
+5.  Choose *London, UK* from the list and click/tap on the **Create Filter** button.
+
+<img src="images/filter-data-example.png" alt="Filter data example" class="responsive-img"/>
 
 ## Dashboard Filters Using Microsoft Analysis Data
 
 There are some specifics when configuring an MS Analysis dashboard filter.
 
-<img src="images/microsoft-analysis-services-dashboard-filter.png" alt="Dashboard Filter dialog when configuring an SSRS filter" class="responsive-img" width="90%"/>
+<img src="images/microsoft-analysis-services-dashboard-filter.png" alt="Dashboard Filter dialog when configuring an SSRS filter" class="responsive-img"/>
 
  1. **Displayed Element** - you can select a *Dimension*, *Hierarchy* or *Level* data field to display dashboard filter values, but not a *Measure* data field. 
 

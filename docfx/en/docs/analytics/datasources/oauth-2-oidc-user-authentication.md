@@ -18,7 +18,7 @@ this protocol enables access from one location (third-party application
 or website) called OAuth client to another location with protected data.
 
 For further information, please refer to
-[OAuth 2.0](https://oauth.net/2/)
+[OAuth 2.0](https://oauth.net/2/).
 
 ## What is OIDC?
 
@@ -35,7 +35,7 @@ For further information, please refer to [OpenID Connect](https://openid.net/con
 To use data sources with an OAuth 2 / OIDC account you will need to
 perform these 4 steps:
 
-1.  **Register the OAuth Client** (Analytics) on your resource server (this
+1.  Register the **OAuth Client** (Analytics) on your resource server (this
     is the server hosting the resource, protected with OAuth, that you
     want to use - e.g. Microsoft, Google, etc.)
 
@@ -43,9 +43,9 @@ perform these 4 steps:
     enabled to work with OAuth 2 / OIDC accounts - [OData Service](supported-data-sources/odata-feed.md), [Rest API](supported-data-sources/rest-api.md) or [Web Resource](supported-data-sources/web-resource.md).
 
 3.  Use credentials provided for the Client by the resource server to
-    **set up your OAuth 2 / OIDC account in Analytics**
+    set up your **OAuth 2 / OIDC** account in Analytics.
 
-4.  **Give Analytics permissions** to access and use your data.
+4.  Give Analytics permissions to access and use your data.
 
 ## Registering an OAuth Client
 
@@ -63,16 +63,15 @@ Analytics.
 
 ## Choosing your data source
 
-1.  Navigate to Analytics and **choose a data source** - *OData Feed*,
-    *Rest API* or *Web Resource*.
+1.  Navigate to Analytics and choose a data source - *OData Feed*, *Rest API* or *Web Resource*.
 
-2.  Provide the *URL* where the data is located.
+2. Provide the **URL** where the data is located.
 
-3.  Click/tap on *Credentials*.
+3. Click/tap on **+Credentials**.
 
-Once you've clicked/tapped on **+ Credentials** you can select *OAuth 2 / OIDC Credentials* from the **Credential Type** drop-down menu:
+4. Select **OAuth 2 / OIDC Credentials** from the *Credential Type* drop-down menu:
 
- <img src="images/credential-type-options.png" alt="Accessing OAuth2/OIDC Credentials menu" class="responsive-img" width="55%"/>
+ <img src="images/credential-type-options.png" alt="Accessing OAuth2/OIDC Credentials menu" class="responsive-img"/>
 
 ## Setting up your OAuth 2 / OIDC account in Analytics
 
@@ -80,7 +79,7 @@ In the *OAuth 2 / OIDC Account Details* screen you will need to fill in
 the credentials that are already generated for Analytics by the resource
 server.
 
-<img src="images/required-credentials-oauth2.png" alt="Required Credentials OAuth Account" class="responsive-img" width="55%"/>
+<img src="images/required-credentials-oauth2.png" alt="Required Credentials OAuth Account" class="responsive-img"/>
 
 The following fields are mandatory:
 
@@ -103,7 +102,7 @@ OAuth service you might also need to provide the following:
 *  **Client Secret**: The client secret is used as additional
     protection. Its format is a random combination of symbols.
 
-* **Logout URL**: 
+* **Logout URL**
 
 *  **Scope**: Scope values are used to request additional levels of
     access. The values will depend on the particular service.
@@ -112,7 +111,7 @@ OAuth service you might also need to provide the following:
     hosts the protected data (e.g.
     <https://infragisticsinc297.sharepoint.com>)
 
-* **Additional Parameters**: 
+* **Additional Parameters**
 
 * **Alias** of the data source: Your data source name will be displayed in the list of accounts. You can always change it.
 

@@ -5,15 +5,15 @@ _description: See how to work with dashboards saved on your device by directly u
 
 # Uploading Dashboards
 
-In Reveal, you can also work with dashboards saved on your computer/device by directly uploading them. To do that, perform the following steps:
+In Slingshot, you can also work with dashboards saved on your computer/device by directly uploading them. To do that, perform the following steps:
 
 1. Go to **My Analytics**.
 
-2. Click on **My Dashboards**.
+2. Open a dashboard section where you want to save the dashboard.
 
-3. Go to the overflow menu and choose **Upload**.
+3. Choose **Upload** from its overflow menu.
 
-    <img src="images/dashboard-upload-option.png" alt="Upload dashboard option" class="responsive-img" width="88%"/>
+    <img src="images/dashboard-upload-option.png" alt="Upload dashboard option" class="responsive-img"/>
 
 4.  A dialog showing your local files will open. Double click/tap on the
     dashboard you want to upload. Reveal dashboards' file extension is

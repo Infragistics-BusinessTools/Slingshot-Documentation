@@ -11,7 +11,7 @@ With the *My Analytics* section of Slingshot, you can bring the power of BI (bus
 
 In order to make data-driven decisions, Slingshot is on your side with the following features:
 
-- **Dashboards** – Create or share dashboards so your team can utilize data and improve productivity. Bring multiple data sources into one dashboard to ensure that you have all the information in one place.
+- **Dashboards** - Create or share dashboards so your team can utilize data and improve productivity. Bring multiple data sources into one dashboard to ensure that you have all the information in one place.
 
 - **Data Sources** - Connect directly to wherever your data comes from, including content managers, cloud services, CRMs, databases, spreadsheets, and more.
 
@@ -25,7 +25,7 @@ Data Sources make up visualizations and visualizations make up dashboards. In ot
 
 With an intuitive drag and drop interface, Slingshot makes it simple to create dashboards within minutes. Choose from more than 40 different visualizations to present your data and tell your story the best way.
 
-<img src="../../images/my-analytics-dashboard-example.png" alt="Example of a custom data visualization in Slingshot" class="responsive-img" width="95%"/>
+<img src="../../images/my-analytics-dashboard-example.png" alt="Example of a custom data visualization in Slingshot" class="responsive-img"/>
 
 ### Customize
 
@@ -36,6 +36,8 @@ You can sort, filter and aggregate your data as you wish. Each chart type provid
 ### Interact
 
 Once your dashboard is created, interact with your visualizations with the drill-up/down support. 
+
+[Read more about how you can interact with dashboards here!](.//dashboards/dashboards-interactions.md)
 
 ### Share
 
@@ -55,11 +57,11 @@ To connect right to your data source and build your visualizations, you can foll
 
 1. Click/tap on the **+ Dashboard** or **Create Dashboard** (Getting started section) blue button.
 
-   <img src="../../images/new-dashboard-button.png" alt="New dashboard button" class="responsive-img" width="95%"/>
+   <img src="../../images/new-dashboard-button.png" alt="New dashboard button" class="responsive-img"/>
 
-2. Select the data source you want to connect.
+2. Click/tap on **+ Data Source** in the top right corner to select the data source you want to connect.
 
-   <img src="../../images/my-analytics-select-data-source.png" alt="Select a data source" class="responsive-img" width="95%"/>
+   <img src="../../images/my-analytics-select-data-source.png" alt="Select a data source" class="responsive-img"/>
 
 3. Configure the connection. This might include selecting the file’s location (spreadsheet or JSON file) or enter credentials (data storages, web resources, social media connectors, databases).
 
@@ -69,7 +71,7 @@ Your organization’s data catalog makes it easier for users to quickly find the
 
 Certifications are an important part of the data catalog, as they assist you to find the most trusted data within the organization. This is an excellent way to know which dashboards or data sources are reliable and contain verified information. When a dashboard or data source is certified, you will see a gold, silver or bronze colored badge next to it.
 
-<img src="../../images/certified-data-source-example.png" alt="Certifications in Slingshot" class="responsive-img" width="95%"/>
+<img src="../../images/certified-data-source-example.png" alt="Certifications in Slingshot" class="responsive-img"/>
 
 [Read more about data catalog here!](../data-catalog.md)
 
@@ -78,7 +80,7 @@ Certifications are an important part of the data catalog, as they assist you to 
 You can manage multiple lists of dashboards and data sources, which are designed to organize, manage and share those resources.
 The Dashboards and Data Sources tabs have lists that can be further organized in sections. Sections are useful to add divisions and to better layout your content.
 
-<img src="../../images/my-analytics-dashboard-lists.png" alt="Data Catalog screen within Slingshot" class="responsive-img" width="95%"/>
+<img src="../../images/my-analytics-dashboard-lists.png" alt="Data Catalog screen within Slingshot" class="responsive-img"/>
 
 ### Out-of-the-box Lists
 
@@ -93,9 +95,9 @@ Using filters allows you to view a set of dashboards or data sources that meet c
 Slingshot includes several pre-defined filters which are very useful to quickly find specific dashboards or data sources.
 
 These filters, which can’t be edited or deleted, are:
-- **Created by Me** – Each dashboard or data source created by you within Slingshot.
+- **Created by Me** - Each dashboard or data source created by you within Slingshot.
 
-- **Shared with Me** – Each dashboard or data source that has been shared with you by another Slingshot user.
+- **Shared with Me** - Each dashboard or data source that has been shared with you by another Slingshot user.
 
 ### Creating Filters
 
@@ -103,24 +105,26 @@ In order to create a new filter, you can:
 
 1. Click/tap on **+ Filter** in the *FILTERS* section.
 
-   <img src="../../images/new-dashboard-filter-option.png" alt="Option to create a new dashboard filter" class="responsive-img" width="95%">
+   <img src="../../images/new-dashboard-filter-option.png" alt="Option to create a new dashboard filter" class="responsive-img"/>
 
 2. Choose what to include in your filter and then click/tap on **Apply** in order to save it in the list of filters.
 
-   <img src="../../images/dashboard-filter-options.gif" alt="Option to create a new dashboard filter" class="responsive-img" width="95%">
+   <img src="../../images/dashboard-filter-options.gif" alt="Option to create a new dashboard filter" class="responsive-img"/>
 
 To stop filtering dashboards or data sources, you can:
 
 1. Click/tap on the *filter* icon to open the *Filters* dialog.
 
-   <img src="../../images/dashboard-filter-icon.png" alt="Different options for a dashboard filter" class="responsive-img" width="95%"/>
+   <img src="../../images/dashboard-filter-icon.png" alt="Different options for a dashboard filter" class="responsive-img"/>
 
 2. Select the **Clear** button at the bottom to remove the current filters.
 
-   <img src="../../images/clear-dashboard-filter.png" alt="Clear Dashboard filter" class="responsive-img" width="95%"/>
+   <img src="../../images/clear-dashboard-filter.png" alt="Unselect Filters" class="responsive-img"/>
 
 3. Click/tap on **Apply** in order to see the changes.
 
+   <img src="../../images/apply-button.png" alt="Unselect Filters" class="responsive-img"/>
+
 4. If you want to re-use the filter with the changes that you have made, click/tap on **Save Changes**.
 
-   <img src="../../images/save-changes-option-dashboard-filter.png" alt="Option to save the changes for a dashboard filter" class="responsive-img" width="95%"/>
+   <img src="../../images/save-changes-option-dashboard-filter.png" alt="Option to save the changes for a dashboard filter" class="responsive-img"/>

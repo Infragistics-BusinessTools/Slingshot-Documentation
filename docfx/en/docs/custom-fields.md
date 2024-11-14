@@ -124,16 +124,17 @@ You can also remove a field directly from an opened task when you:
 
 <img src="../images/update-button-manage-fields.png" alt="Update button in a Manage Fields dialog box" class="responsive-img" width="90%" />
 
-## How Do I Use Custom Fields from the Task Fields Library?  
+## How Do I Use Custom Fields from the Task Fields Library? 
+
 When you collaborate with other users, often you will need to use specific custom fields to follow your company's policies and processes.  
 
 In every organization, workspace or a project, you can find custom fields, created by your team members. They will be stored in the *Task Fields Library*.  
 
 To use a custom field from a Task Fields Library, you need to:
 
-1. Click/tap on the + field button in the upper right corner. 
+1. Click/tap on the + field button in the upper right corner in a task list. 
 
-2. Choose **+ Add field**.
+2. Choose **+ Add Field**.
 
 <img src="../images/custom-fields-add-button.png" alt="Add button for custom fields" class="responsive-img" width="90%" />
 

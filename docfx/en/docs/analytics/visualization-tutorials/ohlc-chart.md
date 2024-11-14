@@ -8,7 +8,7 @@ _description: A quick tutorial on creating OHLC visualizations using a sample sp
 In this tutorial, you will learn how to create a OHLC chart visualization using
 a sample spreadsheet.
 
-<img src="images/ohlc-charts-example.png" alt="Example of OHLC charts" class="responsive-img" width="92%"/>
+<img src="images/ohlc-charts-example.png" alt="Example of OHLC charts" class="responsive-img"/>
 
 Access the links below for the OHLC chart view walkthroughs:
 
@@ -35,7 +35,7 @@ OHLC charts, therefore, require:
   - Four different fields in the *Open*, *High*, *Low* and *Close*
     categories of the data editor.
 
-<img src="images/ohlc-visualization-editor.png" alt="Example of OHLC Chart in the Visualization Edtiro" class="responsive-img" width="88%"/>
+<img src="images/ohlc-visualization-editor.png" alt="Example of OHLC Chart in the Visualization Editor" class="responsive-img"/>
 
 There are also different options to add further information to your
 chart:
@@ -60,25 +60,27 @@ For this tutorial, you will use the *OHLC and Candlestick* sheet in the [Slingsh
 <a name='creating-ohlc-chart'></a>
 ## Creating a OHLC Chart
 
-1. Select the **+ Dashboard** button in the top right-hand corner of **My Analytics**.
+1. Depending on where you want to save the dashboard, you can open a dashboard list in **My Analytics**, a workspace or a project. You can always move the dashboard to another location later on.
 
-   <img src="images/dashboard-button-my-analytics.png" alt="New Dashboard button in My Analytics" class="responsive-img" width="90%"/>
+2. Click/tap on the **+ Dashboard** button.
 
-2. Select your data source (**Slingshot Tutorials Spreadsheet**) from the list of data sources. If the data source is new, you will need to first add it from the **+ Data Source** button in the top-right corner.
+   <img src="images/dashboard-button-my-analytics.png" alt="New dashboard button in My Analytics" class="responsive-img"/>
 
-   <img src="images/visualization-tutorials-sample.png" alt="Select Slingshot Tutorials Spreadsheet as a data source" class="responsive-img" width="90%"/>                                         
+3. Select your data source (**Slingshot Tutorials Spreadsheet**) from the list of data sources. If the data source is new, you will need to first add it from the **+ Data Source** button in the top-right corner.
 
-3. Choose the **OHLC and Candlestick** sheet. 
+   <img src="images/visualization-tutorials-sample.png" alt="Select Slingshot Tutorials Spreadsheet as a data source" class="responsive-img"/>                                         
+
+4. Choose the **OHLC and Candlestick** sheet. 
 
     <img src="images/ohlc-candlestick-spreadsheet.png" alt="Select OHLC Candlestick Charts Spreadsheet" class="responsive-img" width="65%"/>                       
 
- 4. Open the *Visualization Picker* and select **OHLC**. By default, the visualization type will be set to **Column**.  
+ 5. Open the *Visualization Picker* and select **OHLC**. By default, the visualization type will be set to **Column**.  
 
-    <img src="images/ohlc-chart-types.png" alt="Select Change Visualization" class="responsive-img" width="90%"/>                                
+    <img src="images/ohlc-chart-types.png" alt="OHLC in a list of chart types" class="responsive-img"/>                                
 
- 5. Drag and drop the *Date* field into **Label** and the *Open*, *High*, *Low* and *Close* fields in their corresponding placeholder.
+ 6. Drag and drop the *Date* field into **Label** and the *Open*, *High*, *Low* and *Close* fields in their corresponding placeholder.
 
-    <img src="images/ohlc-organizing-data.png" alt="Organize OHLC data from the data source" class="responsive-img" width="90%"/>                              
+    <img src="images/ohlc-organized-data.png" alt="Organize OHLC data from the data source" class="responsive-img"/>                              
 
 <a name='changing-axis-configuration'></a>
 ## Changing your Axis Configuration
