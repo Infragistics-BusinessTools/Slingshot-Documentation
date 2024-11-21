@@ -1,5 +1,19 @@
 # Release Notes
 
+### 1.0.3175 (Nov - 2024)
+
+#### New Features
+
+- Improved Default Task Fields List: Users can now use *Completed By* and *Date Completed* to organize their tasks.
+
+#### Bug Fixes and Improvements
+
+- [Bug Fix] Assignee filter value would disappear in global search.
+
+- [Bug Fix] Some chat messages on Android would turn into links incorrectly.
+
+- [Bug Fix] While using the numeric custom field, a wrong value would appear in the activity area.
+
 ### 1.0.3120 (Sept - 2024)
  
 #### New Features
