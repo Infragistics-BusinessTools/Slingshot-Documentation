@@ -1,6 +1,6 @@
 ---
-title: Slingshot の表示形式 – 必要な知識 
-_description: Slingshot 分析でのデータ可視化の仕組みとカスタマイズ方法の概要です。
+title: Slingshot の表示形式 – 必要な知識
+_description: Slingshot 分析でのデータ表示形式の仕組みとカスタマイズ方法の概要です。
 _language: ja
 ---
 

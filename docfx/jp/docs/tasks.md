@@ -32,7 +32,7 @@ Slingshot でタスクを作成する方法は複数あります:
 
 ## タスク フィールド  
 
-タスクは、チームやプロジェクトの生産性を高めるために非常に重要です。タスク カードには次のフィールドがあります:
+タスクは、チームやプロジェクトの生産性を高めるために非常に重要です。[カスタム フィールド](custom-fields.md)が追加されていないタスク カードには、次のフィールドがあります:
 
 <img src="../images/task-fields.png" alt="Task card with all fields highlighted within Slingshot" width="70%" class="responsive-img"/>
 
@@ -60,6 +60,18 @@ Slingshot でタスクを作成する方法は複数あります:
 
 <img src="../images/task-fields-subtasks-dependencies.png" alt="Subtasks and dependencies in a task card" width="70%" class="responsive-img"/>
 
+### デフォルトのタスク フィールド
+
+タスクをより適切に整理するには、デフォルトのタスク フィールドを使用できます。デフォルトのタスク フィールドのリストを開くには、タスク リストの右上隅にある**プラス** ボタンをクリックまたはタップしてください。
+
+<img src="../images/default-task-fields.png" alt="Default Task fields in a task list" width="70%" class="responsive-img"/>
+
+ここでは、次のフィールドから選択できます。**完了、状態、優先度、担当者、開始日、期限、添付、依存関係、作成日、説明、完了日**、および**完了者**。
+
+### カスタム タスク フィールド
+
+カスタムフィールドを使用して、タスクを内部の業務プロセスにより適合させることができます。カスタム フィールドの詳細については、[こちら](custom-fields.md)をクリックまたはタップしてください。
+
 ### タスクの説明
 
 タスクの説明セクションでは、さまざまなテキスト書式設定ツールを使用して、タスクに関する詳細を追加できます。URL や絵文字を追加することもできます。
@@ -86,7 +98,7 @@ Slingshot でタスクを作成する方法は複数あります:
 
  <img src="../images/duplicate-task-filters.png" alt="Dialog with task duplication filters" width="80%" class="responsive-img"/>
 
-5.	設定を保存すると、タスク フィールドが表示され変更できます。
+5.	設定を保存すると、カード フィールドが表示され変更できます。
 
  <img src="../images/duplicate-task-example.png" alt="Example of a duplicate task and its fields" width="80%" class="responsive-img"/>
 
@@ -100,7 +112,7 @@ Slingshot でタスクを作成する方法は複数あります:
 
 ## タスクの表示タイプ
 
-4 つの表示タイプ (カレンダー、リスト、カンバン、タイムライン) から選択して、利便性ユーティリティを最大化するために異なるレイアウトを利用できます。表示タイプを切り替えるには、**[表示設定]** ドロップダウン メニュー (タスク リストの右上) を使用します。  
+4 つの表示タイプ (カレンダー、リスト、カンバン、タイムライン) から選択して、利便性ユーティリティを最大化するために異なるレイアウトを利用できます。**[表示タイプ]** ドロップダウン メニューを使用してビューを切り替えます。
 
 各タスク ビュー内で、チームの目標に最も適した方法でタスクをフィルタリングできます。
 
