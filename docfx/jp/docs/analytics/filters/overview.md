@@ -20,13 +20,13 @@ Analytics は、日付範囲をダッシュボード フィルターとして有
 
   - [ダッシュボード フィルターの構成可能なプロパティ](dashboard-filters-properties.md):
 
-      - [表示フィールド](dashboard-filters-properties.md#displayed-field)
+      - [表示フィールド](dashboard-filters-properties.md#表示フィールド)
 
-      - [複数選択](dashboard-filters-properties.md#multiple-selection)
+      - [複数選択](dashboard-filters-properties.md#複数選択)
 
-      - [必須選択](dashboard-filters-properties.md#required-selection)
+      - [必須選択](dashboard-filters-properties.md#必須選択)
 
-      - [データ フィルター](dashboard-filters-properties.md#data-filters)
+      - [データ フィルター](dashboard-filters-properties.md#データ-フィルター)
 
   - [ダッシュボード フィルターと表示形式への接続](connecting-dashboard-filters-visualization.md) (表示形式バインディングとも呼ばれます)
 

@@ -38,7 +38,7 @@ JSON ファイルのデータを使用する新しい表示形式を作成する
 
     <img src="images/add-data-file-json.png" alt="A JSON file located in a cloud data source" class="responsive-img" width="85%"/>
 
-    2.3. データソースの場所を選択して保存するには、**[データ ソースの追加]** をクリックまたはタップします。必要に応じて、ファイルの詳細を編集できます。
+    2.3. データ ソースの場所を選択して保存するには、**[データ ソースの追加]** をクリックまたはタップします。必要に応じて、ファイルの詳細を編集できます。
 
     <img src="images/add-datasheet-dialog.png" alt="Dialog where you can edit the details of your file" class="responsive-img" width="40%"/>
 

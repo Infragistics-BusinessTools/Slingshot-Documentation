@@ -61,7 +61,7 @@ _language: ja
 
 <img src="images/yoy-analysis-revenue-all.png" alt="Dashboard showing a comparision between Revenue Figures for a 2-Year Period" class="responsive-img" width="85%"/>
 
-以下の計算フィールドを使用して 2 つの数値を比較できます。「-1」は年の違いを減算します。
+以下の計算フィールドを使用して 2 つの数値を比較できます。「-1」 は年の違いを減算します。
 
 `([Revenue 2017]/[Revenue 2016])-1`
 
