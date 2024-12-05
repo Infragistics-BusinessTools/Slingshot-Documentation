@@ -9,18 +9,27 @@ When configuring certain data sources in Analytics, you need to provide
 your account credentials for these services to access your information.
 These credentials are encrypted and **automatically stored** by Analytics for future use.
 
-To access and manage all your credentials, select: your **profile picture** (top right corner) ⇒ **Settings** ⇒ **Data Source Credentials**.
+To access and manage all your credentials:
 
- <img src="images/data-source-credentials-settings.png" alt="A list of data source credentials in the settings menu" class="responsive-img" width="55%"/>
+1. Select your **profile picture** (top right corner).
+
+2. Click/tap on **Settings**.
+
+ <img src="images/user-settings.png" alt="User Settings" class="responsive-img"/>
+
+3. Choose **Data Source Credentials**.
+
+ <img src="images/data-source-credentials-settings.png" alt="A list of data source credentials in the settings menu" class="responsive-img"/>
 
 ## Adding New Account Credentials
 
 In the *Data Source Credentials* section, you can add and remove credentials for all your data sources accounts. To add new account credentials follow the instructions below.
 
 1. In **Data Source Credentials**, click/tap on the **+ New** blue button (upper right corner).
-2. The **Add Credentials** menu opens:
 
-  <img src="images/add-new-data-source-data-source-credentials.png" alt="Add New Account Credentials dialog" class="responsive-img" width="55%"/>
+2. The **Add Credentials** menu will opened up:
+
+  <img src="images/add-new-data-source-data-source-credentials.png" alt="Add New Account Credentials dialog" class="responsive-img"/>
 
   Here, you need to fill in the following information:
 
@@ -36,7 +45,7 @@ In the *Data Source Credentials* section, you can add and remove credentials for
 
 Unless you remove them, the accounts' credentials stored in Analytics will always appear in the list of accounts when configuring a data source requiring credentials.
 
-<img src="images/stored-credentials-data-sources-list.png" alt="Example of stored credentials for a data source" class="responsive-img" width="60%"/>
+<img src="images/stored-credentials-data-sources-list.png" alt="Example of stored credentials for a data source" class="responsive-img"/>
 
 > [!NOTE] **Useful tip!** Take your time to add and organize here all credentials that you intend to use with multiple data sources. 
 

@@ -8,17 +8,23 @@ For some data sources, with much larger data sets, sometimes involving millions 
 
 For some of the available data sources in Analytics, processing data directly on the server is the **only** approach used. These are:
 
-* [Amazon Redshift](https://www.slingshotapp.io/en/help/docs/analytics/datasources/supported-data-sources/redshift)
-* [Google BigQuery](https://www.slingshotapp.io/en/help/docs/analytics/datasources/supported-data-sources/google-bigquery)
-* [MS Azure Synapse Analytics](https://www.slingshotapp.io/en/help/docs/analytics/datasources/supported-data-sources/microsoft-azure-synapse-analytics) 
-* [Snowflake](https://www.slingshotapp.io/en/help/docs/analytics/datasources/supported-data-sources/snowflake)
-* [Amazon Athena](https://www.slingshotapp.io/en/help/docs/analytics/datasources/supported-data-sources/athena)
+- [Amazon Redshift](https://www.slingshotapp.io/en/help/docs/analytics/datasources/supported-data-sources/redshift)
+
+- [Google BigQuery](https://www.slingshotapp.io/en/help/docs/analytics/datasources/supported-data-sources/google-bigquery)
+
+- [MS Azure Synapse Analytics](https://www.slingshotapp.io/en/help/docs/analytics/datasources/supported-data-sources/microsoft-azure-synapse-analytics) 
+
+- [Snowflake](https://www.slingshotapp.io/en/help/docs/analytics/datasources/supported-data-sources/snowflake)
+
+- [Amazon Athena](https://www.slingshotapp.io/en/help/docs/analytics/datasources/supported-data-sources/athena)
 
 Processing data on server is an option you can **enable** for the following data sources:
 
-* [MS SQL Server](supported-data-sources/microsoft-sql-server.md)
-* [MySQL](supported-data-sources/mysql.md)
-* [PostgreSQL](supported-data-sources/postgresql.md)
+- [MS SQL Server](supported-data-sources/microsoft-sql-server.md)
+
+- [MySQL](supported-data-sources/mysql.md)
+
+- [PostgreSQL](supported-data-sources/postgresql.md)
 
 ## How to Enable Process Data on Server?
 
@@ -36,12 +42,13 @@ Notice that the *Process Data on Server* is enabled by default. Consider uncheck
 
 The *Process Data on Server* feature helps you build visualizations over very large datasets, where it would otherwise be unfeasible to download all the data locally. However, this feature introduces some limitations to the use of the data source it's enabled for.  
 
-The following capabilities are **not supported** in the Visualization editor when *Process Data on Server* is enabled:
+The following capabilities are **not supported** in the Visualization Еditor when *Process Data on Server* is enabled:
 
-* [Data Blending](data-blending.md)
-* [Azure ML models integration](ml-integration/azure-machine-learning-models.md)
+- [Data Blending](data-blending.md)
 
-Restrictions are placed on the [Pre-Calculated](~/docs/analytics/data-visualizations/fields/calculated-fields/overview.html#precalculated-fields) fields feature in the Visualization editor. Unavailable functions are greyed out in the *New Calculated Field* dialog.
+- [Azure ML models integration](ml-integration/azure-machine-learning-models.md)
+
+Restrictions are placed on the [Pre-Calculated](~/docs/analytics/data-visualizations/fields/calculated-fields/overview.html#precalculated-fields) fields feature in the Visualization Еditor. Unavailable functions are greyed out in the *New Calculated Field* dialog.
 In this dialog, you can click on the link to disable the *Process Data on Server* feature.
 
-<img src="images/unavailable-functions-message.png" alt="Disable Process Data on Server prompt in the Calculated Fields dialog" class="responsive-img" width="90%"/>
+<img src="images/unavailable-functions-message.png" alt="Disable Process Data on Server prompt in the Calculated Fields dialog" class="responsive-img"/>

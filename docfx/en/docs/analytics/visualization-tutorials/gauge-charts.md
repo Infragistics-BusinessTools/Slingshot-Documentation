@@ -8,7 +8,7 @@ _description: A quick tutorial on creating all types of Gauge visualizations usi
 In this tutorial, you will learn how to create *Gauge* visualizations
 using a sample spreadsheet.
 
-<img src="images/different-gauge-visualizations.png" alt="Example of different Gauge Visualizations" class="responsive-img" width="92%"/>
+<img src="images/different-gauge-visualizations.png" alt="Example of different Gauge Visualizations" class="responsive-img"/>
 
 Access the links below for the gauge view walkthroughs:
 
@@ -49,49 +49,52 @@ For this tutorial, you will use the *Gauge Views* sheet in the [Slingshot Visual
 <a name='create-linear-gauge'></a>
 ## Creating a Linear Gauge
 
+1. Depending on where you want to save the dashboard, you can open a dashboard list in **My Analytics**, a workspace or a project. You can always move the dashboard to another location later on.
 
-1. Select the **+ Dashboard** button in the top right-hand corner in the **My Analytics** section.
+2. Click/tap on the **+ Dashboard** button.
 
-   <img src="images/dashboard-button-my-analytics.png" alt="New dashboard button in My Analytics" class="responsive-img" width="90%"/>                                      
+   <img src="images/dashboard-button-my-analytics.png" alt="New dashboard button in My Analytics" class="responsive-img"/>          
 
-2. Select your data source (**Slingshot Tutorials Spreadsheet**) from the list of data sources. If the data source is new, you will need to first add it from the **+ Data Source** button in the top-right corner.
+3. Select your data source (**Slingshot Tutorials Spreadsheet**) from the list of data sources. If the data source is new, you will need to first add it from the **+ Data Source** button in the top-right corner.
 
-   <img src="images/visualization-tutorials-data-sources-list.png" alt="Selecting a data source from the list of data sources" class="responsive-img" width="90%"/>                                          
+   <img src="images/visualization-tutorials-data-sources-list.png" alt="Data source sample in a list of data sources" class="responsive-img"/>                                          
 
-3. Choose the **Gauge Views** sheet.
+4. Choose the **Gauge Views** sheet.
   
-   <img src="images/gauge-views.png" alt="Selecting Gauge Views spreadsheet" class="responsive-img" width="65%"/>
+   <img src="images/gauge-views.png" alt="Gauge Views sheet in a data source" class="responsive-img" width="65%"/>
          
-4. Open the *Visualization Picker* and select **Linear Gauge**. 
+5. Open the *Visualization Picker* and select **Linear Gauge**. 
 
-   <img src="images/gauges-chart-types.png" alt="List of chart types" class="responsive-img" width="90%"/>
+   <img src="images/gauges-chart-types.png" alt="Linear gauge in a list of chart types" class="responsive-img"/>
 
-5. This linear gauge, for example, will display *Life expectancy* per *Country*. Drag and drop the *Country Name* field to **Label** and one of the *Year* fields into **Values**.
+6. This linear gauge, for example, will display *Life Expectancy by Country*. Drag and drop the *Country Name* field to **Label** and one of the *Year* fields into **Values**.
   
-   <img src="images/organizing-data-gauge-visualization.png" alt="Linear Gauge visualization in the chart types list" class="responsive-img" width="90%"/>                         
+   <img src="images/data-linear-chart.png" alt="Data presented in a linear chart" class="responsive-img"/>                         
 
 <a name='create-circular-gauge'></a>
 ## Creating a Circular Gauge
 
-1. Select the **+ Dashboard** button in the top right-hand corner of **My Analytics**.
+1. Depending on where you want to save the dashboard, you can open a dashboard list in **My Analytics**, a workspace or a project. You can always move the dashboard to another location later on.
 
-   <img src="images/dashboard-button-my-analytics.png" alt="New dashboard button in My Analytics" class="responsive-img" width="90%"/>                                      
+2. Click/tap on the **+ Dashboard** button.
 
-2. Select your data source (**Slingshot Tutorials Spreadsheet**) from the list of data sources. If the data source is new, you will need to first add it from the **+ Data Source** button in the top-right corner.
+   <img src="images/dashboard-button-my-analytics.png" alt="New dashboard button in My Analytics" class="responsive-img"/>                                      
 
-   <img src="images/visualization-tutorials-data-sources-list.png" alt="Selecting a data source from the list of data sources" class="responsive-img" width="90%"/>                                          
+3. Select your data source (**Slingshot Tutorials Spreadsheet**) from the list of data sources. If the data source is new, you will need to first add it from the **+ Data Source** button in the top-right corner.
 
-3. Choose the **Gauge Views** sheet.
+   <img src="images/visualization-tutorials-data-sources-list.png" alt="Data source sample in a list of data sources" class="responsive-img"/>                                          
+
+4. Choose the **Gauge Views** sheet.
   
    <img src="images/gauge-views.png" alt="Selecting Gauge Views spreadsheet" class="responsive-img" width="65%"/>
          
-4. Open the *Visualization Picker* and select **Circular Gauge**.
+5. Open the *Visualization Picker* and select **Circular Gauge**.
 
-   <img src="images/gauges-chart-types.png" alt="List of chart types" class="responsive-img" width="90%"/>
+   <img src="images/gauges-chart-types.png" alt="Circular gauge in a list of chart types" class="responsive-img"/>
 
-5. This linear gauge, for example, will display *Life expectancy* per *Country*. Drag and drop the *Country Name* field to **Label** and one of the *Year* fields into **Values**.
+6. This linear gauge, for example, will display *Life Expectancy by Country*. Drag and drop the *Country Name* field to **Label** and one of the *Year* fields into **Values**.
   
-   <img src="images/organizing-data-gauge-visualization.png" alt="Gauge visualization in the chart types list" class="responsive-img" width="90%"/> 
+   <img src="images/organized-data-circular-chart.png" alt="Data presented in a circular chart" class="responsive-img"/> 
 
 <a name='aggregation-instructions'></a>
 
@@ -104,29 +107,30 @@ displayed in Values:
 | 1\. **Access Field Settings for your Value** | <img src="images/value-circular-gauge.png" alt="Add-Data-Filter-CircularGauge" class="responsive-img" width="85%"/> | Select the field in **Value** to access                                                  |
 | 2\. **Choose a different Aggregation**       | <img src="images/field-settings-aggregation-options.png" alt="CircularGauge-Aggregation" class="responsive-img" width="85%"/>         | Expand the **Aggregation** drop-down and select a different option (for example, Average). |
 
-
 <a name='create-text-gauge'></a>
 ## Creating a Text Gauge
 
-1. Select the **+ Dashboard** button in the top right-hand corner of **My Analytics**.
+1. Depending on where you want to save the dashboard, you can open a dashboard list in **My Analytics**, a workspace or a project. You can always move the dashboard to another location later on.
 
-   <img src="images/dashboard-button-my-analytics.png" alt="New dashboard button in My Analytics" class="responsive-img" width="90%"/>                                      
+2. Click/tap on the **+ Dashboard** button.
 
-2. Select your data source (**Slingshot Tutorials Spreadsheet**) from the list of data sources. If the data source is new, you will need to first add it from the **+ Data Source** button in the top-right corner.
+   <img src="images/dashboard-button-my-analytics.png" alt="New dashboard button in My Analytics" class="responsive-img"/>                                      
 
-   <img src="images/visualization-tutorials-data-sources-list.png" alt="Selecting a data source from the list of data sources" class="responsive-img" width="90%"/>                                          
+3. Select your data source (**Slingshot Tutorials Spreadsheet**) from the list of data sources. If the data source is new, you will need to first add it from the **+ Data Source** button in the top-right corner.
 
-3. Choose the **Gauge Views** sheet.
+   <img src="images/visualization-tutorials-data-sources-list.png" alt="Data source sample in a list of data sources" class="responsive-img"/>                                          
+
+4. Choose the **Gauge Views** sheet.
   
-   <img src="images/gauge-views.png" alt="Selecting Gauge Views spreadsheet" class="responsive-img" width="65%"/>
+   <img src="images/gauge-views.png" alt="Gauge Views sheet in a data source" class="responsive-img" width="65%"/>
          
-4. Open the *Visualization Picker* and select **Text Gauge**. 
+5. Open the *Visualization Picker* and select **Text Gauge**. 
 
-   <img src="images/gauges-chart-types.png" alt="List of chart types" class="responsive-img" width="90%"/>
+   <img src="images/gauges-chart-types.png" alt="Text Gauge in a list of chart types" class="responsive-img"/>
 
-5. This text gauge, for example, will display life expectancy per Country. Drag and drop one of the year fields into **Values**, and then the *Country Name* field into **Data Filters**. Then, select the specific country you want by selecting the field. 
+6. This text gauge, for example, will display *Life Expectancy by Country*. Drag and drop one of the year fields into **Values**, and then the *Country Name* field into **Data Filters**. Then, select the specific country you want by selecting the field. 
 
-   <img src="images/text-gauge-organizing-data.png" alt="Organizing the data while using text gauge visualizaiton" class="responsive-img" width="90%"/>
+   <img src="images/text-gauge-organized-data.png" alt="Data presented in a text gauge" class="responsive-img"/>
 
 The text gauge sample above utilizes
 the average aggregation. In order to learn how to change your field's
@@ -135,25 +139,27 @@ aggregation, [review these instructions](../data-visualizations/fields/calculate
 <a name='create-bullet-graph-gauge'></a>
 ## Creating a Bullet Graph
 
-1. Select the **+ Dashboard** button in the top right-hand corner of **My Analytics**.
+1. Depending on where you want to save the dashboard, you can open a dashboard list in **My Analytics**, a workspace or a project. You can always move the dashboard to another location later on.
 
-   <img src="images/dashboard-button-my-analytics.png" alt="New dashboard button in My Analytics" class="responsive-img" width="90%"/>                                      
+2. Click/tap on the **+ Dashboard** button.
 
-2. Select your data source (**Slingshot Tutorials Spreadsheet**) from the list of data sources. If the data source is new, you will need to first add it from the **+ Data Source** button in the top-right corner.
+   <img src="images/dashboard-button-my-analytics.png" alt="New dashboard button in My Analytics" class="responsive-img"/>                                      
 
-   <img src="images/visualization-tutorials-data-sources-list.png" alt="Selecting a data source from the list of data sources" class="responsive-img" width="90%"/>                                          
+3. Select your data source (**Slingshot Tutorials Spreadsheet**) from the list of data sources. If the data source is new, you will need to first add it from the **+ Data Source** button in the top-right corner.
 
-3. Choose the **Gauge Views** sheet.
+   <img src="images/visualization-tutorials-data-sources-list.png" alt="Data source sample in a list of data sources" class="responsive-img"/>                                          
+
+4. Choose the **Gauge Views** sheet.
   
    <img src="images/gauge-views.png" alt="Selecting Gauge Views spreadsheet" class="responsive-img" width="65%"/>
          
-4. Open the *Visualization Picker* and select **Bullet Graph**. 
+5. Open the *Visualization Picker* and select **Bullet Graph**. 
 
-   <img src="images/gauges-chart-types.png" alt="List of chart types" class="responsive-img" width="90%"/>
+   <img src="images/gauges-chart-types.png" alt="Bullet graph in a list of chart types" class="responsive-img"/>
 
-5. This bullet graph, for example, will display life expectancy per Country. Drag and drop the *Country Name* field to **Label**, one of the years into **Values** and another *Year* into **Target**.
+6. This bullet graph, for example, will display *Life Expectancy by Country*. Drag and drop the *Country Name* field to **Label**, one of the years into **Values** and another *Year* into **Target**.
 
-   <img src="images/bullet-graph-organizing-data.png" alt="Organizing data while using a bullet graph" class="responsive-img" width="90%"/>
+   <img src="images/bullet-graph-organized-data.png" alt="Data presneted in a bullet graph" class="responsive-img"/>
 
 <a name='adding-bounds-gauge'></a>
 ## Adding Bounds to your Gauge

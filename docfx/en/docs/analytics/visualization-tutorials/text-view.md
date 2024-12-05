@@ -8,7 +8,7 @@ _description: A quick tutorial on creating a Text View visualization using a sam
 In this tutorial you will learn how to create a *Text View* visualization
 using a sample spreadsheet.
 
-<img src="images/text-view-example.png" alt="Visualization sample using Text View" class="responsive-img" width="90%"/>
+<img src="images/text-view-example.png" alt="Visualization sample using Text View" class="responsive-img"/>
 
 Access the links below for the Text view walkthroughs.
 
@@ -32,21 +32,24 @@ For this tutorial, you will use the *Simple Series Charts* sheet in the [Slingsh
 <a name='creating-text-view'></a>
 ## Creating a Text View
 
- 1. Click/tap on the **+ Dashboard** button in the top right-hand corner in *My Analytics*.
+ 1. Depending on where you want to save the dashboard, you can open a dashboard list in **My Analytics**, a workspace or a project. You can always move the dashboard to another location later on.
 
-    <img src="images/new-dashboard-button.png" alt="New Dashboard button in the My Analytics" class="responsive-img" width="90%"/>                                                         
- 2. You can choose the data source you want to work with from the list of data sources. If the data source is new, you will need to add it from the **+ Data Source** button.
+ 2. Click/tap on the **+ Dashboard** button.
 
-     <img src="images/new-visualization-screen.png" alt="Data Sources list" class="responsive-img" width="90%"/>                                                         
- 3. Once the data source is configured, select the **Slingshot Tutorials Spreadsheet**. Then, choose the *Simple Series Charts* sheet.  
+   <img src="images/dashboard-button-my-analytics.png" alt="New dashboard button in My Analytics" class="responsive-img"/>    
+
+ 3. You can choose the data source you want to work with from the list of data sources. If the data source is new, you will need to add it from the **+ Data Source** button.
+
+     <img src="images/new-visualization-screen.png" alt="Data Sources list" class="responsive-img"/>                                                         
+ 4. Once the data source is configured, select the **Slingshot Tutorials Spreadsheet**. Then, choose the *Simple Series Charts* sheet.  
 
      <img src="images/tutorials-simple-series-charts-spreadsheet.png" alt="Simple Series Charts Spreadsheed in the example data source " class="responsive-img" width="60%"/>                                                                                      
- 4.  Open the *Visualization Picker* and select **Text View**. By default, the visualization type will be set to **Column**.   
+ 5.  Open the *Visualization Picker* and select **Text View**. By default, the visualization type will be set to **Column**.   
  
-      <img src="images/text-view-chart-types.png" alt="Text View in the Chart Types list" class="responsive-img" width="90%"/>                                                                                                
- 5. The above text view, for example, displays the Population, Life expectancy and Fertility rate for a specific country. Drag and drop *Country Name*, *Population*, *Life Expectancy* and *Fertility Rate* into **Columns**.
+      <img src="images/text-view-chart-types.png" alt="Text View in the Chart Types list" class="responsive-img"/>                                                                                                
+ 6. The above text view, for example, displays the Population, Life expectancy and Fertility rate for a specific country. Drag and drop *Country Name*, *Population*, *Life Expectancy* and *Fertility Rate* into **Columns**.
 
-     <img src="images/organizing-data-text-view.png" alt="Organize Text View data" class="responsive-img" width="90%"/>        
+     <img src="images/organizing-data-text-view.png" alt="Organize Text View data" class="responsive-img"/>        
 
 <a name='changing-selected-row'></a>
 ## Changing the Selected Row
@@ -57,10 +60,14 @@ text view display row 9 (Bosnia and Herzegovina).
 
 1. Drag and drop the *Country Name* field into **Data Filters**.  
  
-    <img src="images/select-data-filter-text-view.png" alt="Select a data filter for Text View" class="responsive-img" width="90%"/>                                                      
+    <img src="images/select-data-filter-text-view.png" alt="Select a data filter for Text View" class="responsive-img"/>                                                      
 2. Select *Filter Type* to enable the dropdown menu and then choose **Select Values**. 
  
-     <img src="images/data-filter-dialog-select-value-text-view.png" alt="Select Value option from the list of Filter Types" class="responsive-img" width="90%"/>                                                      
+     <img src="images/data-filter-dialog-select-value-text-view.png" alt="Select Value option from the list of Filter Types" class="responsive-img"/>                                                      
 3. By default, all values will be selected. Uncheck the *All* box and select only **Bosnia and Herzegovina**. Then, select **Create Filter**. 
 
-    <img src="images/data-filter-select-value-example.png" alt="Choose country from the list of Selected Values" class="responsive-img" width="90%"/> 
+    <img src="images/data-filter-select-value-example.png" alt="Choose country from the list of Selected Values" class="responsive-img"/> 
+
+4. The visualization will be updated to reflect the changes.
+
+    <img src="images/new-value-text-view-example.png" alt="Choose country from the list of Selected Values" class="responsive-img"/> 

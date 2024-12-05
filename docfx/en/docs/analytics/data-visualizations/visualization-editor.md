@@ -18,29 +18,29 @@ Visualizations are the building blocks of your dashboard. So, when you start cre
 After that, you will be prompted
 to add a new or select an existing [data source](~/docs/analytics/datasources/overview.md).
 
-<img src="images/new-visualization-screen.png" alt="Dialog with a list of data sources" width="85%" class="responsive-img"/>
+<img src="images/new-visualization-screen.png" alt="Dialog with a list of data sources" class="responsive-img"/>
 
 With the data source selected and configured, you will be navigated to the [Visualization Editor](../data-visualizations/visualization-editor.md), where you can start creating your visualization.
 
-The *Visualization editor* will help you get the most desired view using your data.
+The *Visualization Editor* will help you get the most desired view using your data.
 
 ## Accessing the Visualization Editor
 
-You can access the Visualization editor in two ways:
+You can access the Visualization Editor in two ways:
 
 ***1. In the visualization creation process***
 
-Once you have selected and configured your data source, the *Visualization editor* will open automatically.
+Once you have selected and configured your data source, the *Visualization Editor* will open automatically.
 
 ***2. In the dashboard editing process***
 
-After opening a chosen dashboard and entering *Dashboard Edit mode*, you will be able to **access the Visualization editor** by selecting **Edit** from a visualization's overflow button. Alternatively, you can click/tap on the pencil icon, next to the overflow menu.
+After opening a chosen dashboard and entering *Dashboard Edit mode*, you will be able to **access the Visualization Editor** by selecting **Edit** from a visualization's overflow button. Alternatively, you can click/tap on the pencil icon, next to the overflow menu.
 
 ## Visualization Editor Overview
 
 Below, you will find a list of all sections of the *Editor* with their capabilities.
 
-<img src="images/visualization-editor-sections.png" alt="Sections of the Visualization editor" class="responsive-img" width="85%"/>
+<img src="images/visualization-editor-sections.png" alt="Sections of the Visualization Editor" class="responsive-img"/>
 
 1. **Data Section** - this section contains two panels:
 
@@ -67,7 +67,11 @@ Among other things, you will be able to:
 
   - **Search**, **Visualize** & [**format**](~/docs/analytics/data-visualizations/fields/conditional-formatting.md) data.
 
-After you're done building the visualization, select the *check* icon to return to the
+After you're done building the visualization, you can:
+
+1. Select the **check** icon to return to the
 *Dashboard Editor*. In the Dashboard Editor, you can control the layout,
 size, and location of the visualizations in a dashboard by simply dragging
-visualizations and their borders. When you are ready formatting and styling your dashboard, click/tap on the *check* icon again to save your dashboard.  
+visualizations and their borders. 
+
+2. When you are ready formatting and styling your dashboard, click/tap on the **check** icon again to save your dashboard.  

@@ -66,13 +66,13 @@ Let's take a look at the following dashboard, which has the different
 divisions for a company and the revenue they represented during two
 different years.
 
-<img src="images/yoy-analysis-revenue-all.png" alt="Dashboard showing a comparision between Revenue Figures for a 2-Year Period" class="responsive-img" width="85%"/>
+<img src="images/yoy-analysis-revenue-all.png" alt="Dashboard showing a comparision between Revenue Figures for a 2-Year Period" class="responsive-img"/>
 
 You can compare the two figures by using the following calculated field.
 The "-1" is used to subtract the total difference for the year.
 
-`([Revenue 2017]/[Revenue 2016])-1`
+`([Revenue 2021]/[Revenue 2020])-1`
 
 You can then either keep the number, or [format it as a percentage](~/docs/analytics/data-visualizations/fields/field-settings.html#numeric-fields).
 
-<img src="images/yoy-analysis-percentage-all.png" alt="Comparing Revenue Figures in yoy analysis while using percentage" class="responsive-img" width="85%"/>
+<img src="images/yoy-analysis-percentage-all.png" alt="Comparing Revenue Figures in yoy analysis while using percentage" class="responsive-img"/>

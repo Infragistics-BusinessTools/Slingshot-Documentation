@@ -24,22 +24,24 @@ therefore, will need to:
 
 For this tutorial, you will use the *Image Chart* sheet in the [Slingshot Visualization Tutorials](https://download.infragistics.com/slingshot/samples/Slingshot_Visualization_Tutorials.xlsx).
 
- 1. In **My Analytics**, select the **+ Dashboard button** in the top right-hand corner.
+1. Depending on where you want to save the dashboard, you can open a dashboard list in **My Analytics**, a workspace or a project. You can always move the dashboard to another location later on.
 
-    <img src="./images/new-dashboard-button.png" alt="New dashboard button in My Analytics" class="responsive-img" width="90%"/> 
+2. Click/tap on the **+ Dashboard** button.
 
- 2. A dialog will open, containing a list of already added data source. The Visualization Tutorial file will be there as a data source if you have already used it. In case you haven't added the file, you can click/tap on **+Data Source** ⇒ **Data Files** ⇒ **+New** ⇒ **Upload** ⇒ Select the file ⇒ Click/tap on **Select and Continue** to include it in the list.
+   <img src="images/dashboard-button-my-analytics.png" alt="New dashboard button in My Analytics" class="responsive-img"/>   
 
-    <img src="images/select-your-data-source-dialog.png" alt="Select and add data source from the data sources list" class="responsive-img" width="90%" height="90%"/>
+ 3. A dialog will open, containing a list of already added data source. The Visualization Tutorial file will be there as a data source if you have already used it. In case you haven't added the file, you can click/tap on **+Data Source** ⇒ **Data Files** ⇒ **+New** ⇒ **Upload** ⇒ Select the file ⇒ Click/tap on **Select and Continue** to include it in the list.
 
- 3. Once the data source is configured, select the *Image View* sheet.                                
+    <img src="images/select-your-data-source-dialog.png" alt="Select and add data source from the data sources list" class="responsive-img"/>
+
+ 4. Once the data source is configured, select the *Image View* sheet.                                
 
     <img src="images/image-view-visualization-tutorials.png" alt="Image View sheet in Excel Spreadsheet" class="responsive-img" width="57%"/>
 
- 4. By default, the visualization type will be set to **Column**. Select the **Image** option.      
+ 5. By default, the visualization type will be set to **Column**. Select the **Image** option.      
 
-    <img src="./images/chart-types-image.png" alt="Image View in the list of Chart types" class="responsive-img" width="90%"/>   
+    <img src="./images/chart-types-image.png" alt="Image View in the list of Chart types" class="responsive-img"/>   
                                                       
- 5. Drag any of the available fields into **URL**.        
+ 6. Drag any of the available fields into **URL**.        
 
-    <img src="./images/image-chart-data-organization.png" alt="Organize data in Image View by dragging fields into URL" class="responsive-img" width="90%"/>                                                      
+    <img src="./images/image-chart-data-organization.png" alt="Organized data in Image View" class="responsive-img"/>                                                      
