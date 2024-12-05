@@ -18,7 +18,7 @@ For tracking purposes, we wanted to keep the default **Assignee** field for this
 
 Lastly, we also kept the **Start Date** and **Due Date** field for better management of the tasks. 
 
-<img src="../images/task-type-example.png" alt="Example of a task type" class="responsive-img" width="90%" />
+<img src="../images/example-task-type.png" alt="Example of a task type" class="responsive-img" width="90%" />
 
 ## What is a Task Types Library?
 
@@ -69,13 +69,9 @@ If you are a part of a workspace and want to see the whole list of available tas
 
 <img src="../images/workspace-settings-overflow-menu.png" alt="Workspace Settings" class="responsive-img" width="90%" />
 
-3.	Choose **Task Types Library**. Here you can see the list of task types that are being used both in the workspace and its projects.
+3.	Choose **Task Types Library**. Here you can see the list of task types that are being used both in the workspace and its projects. From the *Task Types Library*, you can edit a type, duplicate it, or remove it. You can also create a new task type from **+Type** button.
 
 <img src="../images/workspace-task-types-library.png" alt="Example of workspace Task Types Library" class="responsive-img" width="90%" />
-
-From the *Task Types Library*, you can edit a type, duplicate it, or remove it. You can also create a new task type from **+Type** button.
-
-<img src="../images/workspace-task-types-library-options.png" alt="Options for workspace task types in a library" class="responsive-img" width="90%" />
 
 Everyone who has contributor or owner permissions in a workspace can modify the library. This means that they can edit, duplicate or remove a type. They can also create new task types.
 
@@ -131,11 +127,11 @@ To do this, you need to:
 
 4.	Click/tap on **Create** to save the task.
 
-5.	You will notice that the default button for tasks in the upper right corner has changed. (as shown below)
+5.	You will notice that the default button for tasks in the upper right corner has changed (as shown below).
 
 <img src="../images/default-task-type-button.png" alt="Default task type button" class="responsive-img" width="90%" />
 
-If you have a list of tasks without any types assigned to them, you can convert them to a specific -type all at once with the following steps:
+If you have a list of tasks without any types assigned to them, you can convert them to a specific type all at once with the following steps:
 
 1.	Open the overflow menu of the task list.
 
@@ -187,7 +183,7 @@ If your task already has a type, but you want to use another type with different
 
 2.	Click/tap on **Convert To**.
 
-3.	Choose the new type. In this case we chose *Content Creation*.
+3.	Choose the new type. In this case we chose *Campaign Type*.
 
 <img src="../images/different-task-types.png" alt="Example of a list of different task types" class="responsive-img" width="90%" />
 
@@ -261,7 +257,7 @@ If you are going through a task list and notice that a task needs to be divided 
 
 6.	The subtask will appear under its parent task in the task list.
 
-<img src="../images/subtask-parent-task-task-list.png" alt="Example of a subtask with a type in a parent task" class="responsive-img" width="90%" />
+<img src="../images/subtask-parent-task.png" alt="Example of a subtask with a type in a parent task" class="responsive-img" width="90%" />
 
 If your subtasks share the same criteria, you can set a default type for them, so every new subtask will have the same type.
 

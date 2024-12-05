@@ -7,7 +7,7 @@ _description: Get familiar with Slingshot notifications and how to modify them a
 
 Notifications make sure that nothing goes missed in Slingshot and keep you on top of things that need your attention.
 
-<img class="responsive-img" src="../images/notifications-example.png" alt="Notifications panel within Slingshot" class="responsive-img" width="65%" />
+<img class="responsive-img" src="../images/notifications-example.png" alt="Notifications panel within Slingshot" class="responsive-img"/>
 
 
 ## Types of Notifications
@@ -24,13 +24,13 @@ Notifications come in the following three forms:
 
 You can easily change what you are getting notifications for in Slingshot so you only get alerted for what is most important to you. By going into your settings and then the notification tab you can edit the notification you receive. Alternatively, you can use the overflow menu in the Notifications panel.
 
-<img class="responsive-img" src="../images/notifications-settings.png" alt="Notifications panel within the Settings menu" class="responsive-img" width="65%" />
+<img class="responsive-img" src="../images/notifications-settings.png" alt="Notifications panel within the Settings menu" class="responsive-img"/>
 
 In the Notifications panel, select the pencil icon to see the details of each category or toggle on/off an entire category.
 
-Additionally, you can restore the default settings with the *Reset to default* option at the very bottom.
+Additionally, you can restore the default settings with the **Reset to default** option at the very bottom.
 
-<img class="responsive-img" src="../images/notifications-reset-button.png" alt="Reset to default button" class="responsive-img" width="54%" />
+<img class="responsive-img" src="../images/notifications-reset-button.png" alt="Reset to default button" class="responsive-img"/>
 
 ## Using the Notifications Panel
 
@@ -39,6 +39,6 @@ You can access the Notifications panel by clicking the bell icon in the top righ
 
 Within the Notifications panel, notifications are shown in groups that you can mute/unmute or mark as read/unread each group separately by using the overflow menu on the right.
 
-<img class="responsive-img" src="../images/notifications-overflow-settings.png" alt="Notifications overflow settings within Slingshot" class="responsive-img" width="25%" />
+<img class="responsive-img" src="../images/notifications-overflow-settings.png" alt="Notifications overflow settings within Slingshot" class="responsive-img"/>
 
 The Notifications panel shows all notifications by default, but you can choose to see only Unread notifications or @mentions. To do this, go to the top of the panel and select Showing: All to open the drop-down and then select another value.

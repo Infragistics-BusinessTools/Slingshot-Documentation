@@ -12,38 +12,47 @@ Pins are simple links to different types of resources, including files from clou
 
 Pinning content is one of the most common ways to share resources within Slingshot. You can pin files or analytics dashboards by selecting them from cloud storages, existing pins, content shared with you, or uploading from your device. To pin URLs, you just add the URL and a title. 
 
-<img src="../images/pin-content.png" alt="Pin option in Slingshot" class="responsive-img" width="20%"/>
+<img src="../images/pin-content.png" alt="Pin option in Slingshot" class="responsive-img"/>
 
 >[!NOTE] You can also pin dashboards to different workspaces and projects.
 
 ### Pinning from Anywhere
 
-1. Use the “+Pin” button and then select *Content* or *Analytics*. 
+1. Use the **+Pin** button. 
 
-2. Navigate to the file, which can be located in your cloud storages, existing Pins within Slingshot, Dashboards locations, or Shared with Me files.
+2. Choose the type of the resource (for example, *Discussions*) you want to pin.
 
-3. Select the file you want to pin.
+3. Navigate to the file in order to select it. Depending on the type of the item, you can browse through *Tasks, Discussions, Documents, existing Pins within Slingshot, Dashboards, Data Sources*, or *Shared with Me* files.
 
 ### Pinning by Uploading from your Device
 
-1.	Use the “+Pin” button and then select *Upload File*. 
+1.	Use the **+Pin** button.
 
-2.	After selecting the file, choose the cloud storage where you want to upload.
+2. Select **Upload File**. 
 
-3.	Finally, choose the right permissions for sharing your file.
+2.	Select the file you want to upload.
+
+3.	Choose the right permissions for sharing your file.
 
 ### Pinning from an Existing Pin
 
-1.	Open the pin’s overflow and then select **Move Pin**.
+1.	Open the pin’s overflow menu.
+
+2. Select **Add to Pins** from the *Productivity Boost*.
 
 2.	Navigate to the location where you want to add the new pin.
-3.	Select the list, section, and then click on **->Move**.
+
+3.	Select the list, section, and then click on **->Pin**.
 
 ### Pinning URLs
 
-1.	Use the “+Pin” button and then select *URL*. 
+1.	Use the **+Pin** button.
 
-2.	Type or paste the URL and add/change the title if needed.
+2. Select **URL**. 
+
+2.	Type or paste the URL and add/change the title, if needed.
+
+3. Click/tap on **Pin Web Link**.
 
 ### Pinning a Dashboard to a workspace or a project
 
@@ -51,13 +60,13 @@ Pinning content is one of the most common ways to share resources within Slingsh
 
 2. Open **Dashboards** and click/tap on the **+Dashboard** button.
 
-3. You will be presented with two options: to pin a dashboard, for example, from *My Dashboards*, or to create a dashboard. To move a dashboard to a workspace or project, click/tap on **Pin**.
+3. You will be presented with three options: to pin a dashboard, for example, from *My Dashboards*, use a dashboard template from *See All Templates*, or to create a dashboard. To move a dashboard to a workspace or project, click/tap on **Pin**.
  
-   <img src="../images/pinning-options-dashboard-workspace.png" class="responsive-img" alt="Pin a dashboard">
+   <img src="../images/pinning-options-dashboard-workspace.png" class="responsive-img"/>
 
 4. The pin dialog will open up. You can select dashboards from different *Locations*, *Filters*, etc.  
 
-   <img src="../images/pinning-dashboard-example.png" class="responsive-img" alt="Choose a dashboard to pin">
+   <img src="../images/pinning-dashboard-example.png" class="responsive-img" alt="Choose a dashboard to pin"/>
 
 5. When you are ready, click/tap on **Pin**.
 
@@ -74,6 +83,7 @@ In the Overviews tabs you have a single list of pins, which are meant to be key 
 ## Cloud Storages
 
 In Slingshot, you can add new connections to the following cloud storage providers:
+
 - Google Drive
 
 - OneDrive
@@ -110,13 +120,12 @@ In Slingshot, file types are represented using different icons. The most common 
 |![PDF file icon](../images/icon-pdf-file.png)|Adobe PDF file|![Video file icon](../images/icon-video-file.png)| Video file|
 |![Web link icon](../images/icon-web-link.png)| Web link|![Zip file icon](../images/icon-zip-file.png)| ZIP file|
 
-
 ### How to set file permissions?
 
 When you share files inside workspaces, you make these files available for the users inside the workspace. 
 File permissions are meant to give the file owner control over who can access their files. Each time you pin a file, Slingshot will ask you what type of permission you want to set. You will see a dialog that looks like this: 
 
-<img src="../images/pins-permissions.png" alt="A dialog with three file permission types" width="70%" class="responsive-img" />
+<img src="../images/pins-permissions.png" alt="A dialog with three file permission types" width="75%" class="responsive-img" />
 
 Here, you can choose between the following three permission types:
 
@@ -131,11 +140,13 @@ Here, you can choose between the following three permission types:
 Learn more about each file permissions type and how to manage members' access in [this topic](security.md). 
 
 ### Using Drag and Drop
+
 You can use drag and drop to quickly add files or links from an external source into Slingshot's lists. The files added to Slingshot are uploaded to a folder named Slingshot uploads in the cloud storage of your preference.
 
 The first time you upload a file you choose a default cloud storage to be selected automatically in the future. If needed, you can change it later in the Drag and Drop location (General Settings).
 
 ## Working with your Content
+
 You can open any file by clicking/tapping on it. MS Office files can be opened online or using a native app locally on your device.
 
 <img src="../images/pins-options.png" alt="Overflow options for a file" class="responsive-img"/>

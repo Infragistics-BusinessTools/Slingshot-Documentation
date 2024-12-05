@@ -22,7 +22,7 @@ To create a group, you need to:
 
 2. Select the **+ Add** button.
 
-<img class="responsive-img" src="../images/groups-add-button.png" alt="Add button">
+<img class="responsive-img" src="../images/groups-add-button.png" alt="Add button"/>
 
 3. Enter a name for your group and start adding members.
 

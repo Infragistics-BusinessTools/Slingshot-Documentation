@@ -6,12 +6,33 @@ Welcome! Read on to get answers to your questions about the user account and set
 
 Go to the upper right corner and select your profile image.
 
-Here you can Log Out, provide the Slingshot team with valuable Feedback, and access the general settings and profile information.
+Here you can:
+
+- Access the general settings and profile information.
+
+- Provide the Slingshot team with valuable *Feedback*.
+
+- Use the learning center.
+
+- Try out our online Slingshot courses.
+
+- Contact our support team.
+
+- See your app version.
+
+- Manage your [personal libraries](task-types.md#task-types-library-for-personal-tasks).
+
+- Search for [archived items](archives.md).
+
+- Sign out of the app.
+
+- Invite your frieds to Slingshot.
+
+<img src="../images/user-account-drop-down-menu.png" alt="Settings location in a user's account" class="responsive-img">
 
 ## Which are the different subscription plans?
 
 For information about the available plans, please go to [Pricing](https://www.slingshotapp.io/pricing).
-
 
 ## How secure is a Slingshot user account?
 
@@ -44,20 +65,20 @@ For more information go to [Security & Privacy](security.md).
 Your profile information in Slingshot includes the characteristics that make you recognizable in your collaboration space, for example your name and title. This information is important for Slingshot and for your collaborators so Emily (our AI assistant) will remind you to complete it to 100%. 
 
 To access your profile information:
-select your profile image > *Settings* > *Profile Information*
+Select your profile image ⇒ *Settings* ⇒ *Profile Information*
 
 Here you need to complete the following information about yourself: 
 
-* **Name** - this is your display name in Slingshot and the name by which others will recognize and *@mention* you. You can change your name by clicking/tapping on it. Select *Rename* when ready.
+- **Name** - this is your display name in Slingshot and the name by which others will recognize and @mention you. You can change your name by clicking/tapping on it. Select **Rename** when ready.
 
-* **Title** - this is your job title (for example, Accountant) or role in the organization (for example, CFO). 
-To add your title, click/tap on it. Select *Set* when ready.
+- **Title** - this is your job title (for example, Accountant) or role in the organization (for example, CFO). 
+To add your title, click/tap on it. Select **Set** when ready.
 
-* **Photo** - your photo will help your collaborators in Slingshot know who you are. Your profile photo is always 64x64 pixels, square images will be scaled down or up. You can upload a file from your computer, take the photo with your device's camera or choose it from your device's storage.
+- **Photo** - your photo will help your collaborators in Slingshot know who you are. Your profile photo is always 64x64 pixels, square images will be scaled down or up. You can upload a file from your computer, take the photo with your device's camera or choose it from your device's storage.
 
-* **Industry** - this is information concerning your organization. Select from the dropdown on the right or type your industry and click/tap *Ok*. 
+- **Industry** - this is information concerning your organization. Select from the dropdown on the right or type your industry and click/tap **Ok**. 
 
-* **Department** - this is the organization department where you belong. Select from the dropdown on the right or type your department and click/tap *Ok*.
+- **Department** - this is the organization department where you belong. Select from the dropdown on the right or type your department and click/tap **Ok**.
 
 When you are finished, just close the dialog. Your changes will be saved.  
 
@@ -80,13 +101,13 @@ You can choose between 13 available languages for your notifications.
 To change your notification settings go to your account settings and selecting the *Notifications* tab. 
 Alternatively, you can open the Notifications panel and select *Settings* from the overflow menu in the upper right corner (see in the screenshot below): 
 
-<img src="../images/user-settings-notifications.png" alt="Notifications Settings menu opened in Slingshot" width="75%" class="responsive-img"/>
+<img src="../images/user-settings-notifications.png" alt="Notifications Settings menu opened in Slingshot" class="responsive-img"/>
 
 ## What are the dashboard settings?
 
 Dashboards are part of your *Analytics* space in Slingshot.
 Find more about Dashboards in [Dashboards Overview](analytics/dashboards/overview.md).
-For more information about tooltips and crosshair settings, go to [Interacting with Dashboards](analytics/dashboards/dashboards-interactions.md)
+For more information about tooltips and crosshair settings, go to [Interacting with Dashboards](analytics/dashboards/dashboards-interactions.md).
 
 ## What are Data source credentials?
 
