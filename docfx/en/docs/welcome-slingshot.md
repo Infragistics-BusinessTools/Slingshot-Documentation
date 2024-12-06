@@ -57,7 +57,7 @@ Slingshot is available on any platform with a seamless experience no matter what
     <h3 class="font-weight-bold">Desktop</h3>
     <p class="px-2">Launch Slingshot from your dock</p>
     <p><a href="https://apps.apple.com/us/app/id1457353858" class="trackCTA" aria-label="Download Slingshot on Mac OS" data-xd-ga-action="Download" data-xd-ga-label="Slingshot Desktop macOS" target="_blank" rel="noopener"><img class="mb-3 lazyloaded" title="Slingshot on Mac OS App Store" src="https://wp-staging.slingshotapp.io/wp-content/uploads/2021/02/mac-app-store-badge.svg" alt="Slingshot on Mac OS App Store" width="156" height="41" data-was-processed="true" data-ll-status="loaded"><noscript><img class="mb-3" title="Slingshot on Mac OS App Store" src="https://wp-staging.slingshotapp.io/wp-content/uploads/2021/02/mac-app-store-badge.svg" alt="Slingshot on Mac OS App Store" width="156" height="41"></noscript></a><br>
-    <a href="https://dl.infragistics.com/products/Infragistics/Slingshot/Slingshot.appinstaller" class="trackCTA" aria-label="Download Slingshot on Windows" data-xd-ga-action="Download" data-xd-ga-label="Slingshot Desktop Windows">Download for Windows</a></p>
+    <a href="https://dl.infragistics.com/products/Infragistics/Slingshot/desktop/Slingshot.appinstaller" class="trackCTA" aria-label="Download Slingshot on Windows" data-xd-ga-action="Download" data-xd-ga-label="Slingshot Desktop Windows">Download for Windows</a></p>
     </div>
   </div>
   <div class="col-sm-12 col-md-4 mb-3">
