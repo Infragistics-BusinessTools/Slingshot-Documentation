@@ -20,7 +20,7 @@ The dashboard creation experience in Analytics includes:
 
 You can create a dashboard by: 
 
-1. Clicking/tapping on the **+ Dashboard** or **Create Dashboard** *(My Analytics)* blue button.
+1. Click/tap on the **+ Dashboard** button in a dashboard list, or the **Create Dashboard** blue button in the *Getting Started* section.
 
 <img src="images/create-dashboard.png" alt="Dashboard button in My Analytics" class="responsive-img"/>
 
@@ -79,13 +79,13 @@ Once you have modified the visualization, you will be taken back to the **Dashbo
 
 - Paste the dashboard.
 
-- Switch on/off **Auto Layout**.
+- Switch on/off *Auto Layout*.
 
-- **Export** the dashboard.
+- Export the dashboard.
 
-- **Save** the dashboard.
+- Save the dashboard.
 
-- Find more information about Slingshot dashboard in our Learning Center.
+- Find more information about Slingshot dashboards in our Learning Center.
 
 You can also use the overflow menu in the top right corner of the visualization to:
 
@@ -93,9 +93,9 @@ You can also use the overflow menu in the top right corner of the visualization 
 
 - Edit the visualization.
 
-- **Copy** the visualization.
+- Copy the visualization.
 
-- **Duplicate** the visualization.
+- Duplicate the visualization.
 
 - Delete the visualization.
 
@@ -127,7 +127,7 @@ Once your dashboard is ready, you can:
 
 2. Select a name for your dashboard.
 
-3. Choose a location for it. You can save the dashboard under **My Analytics** ⇒ **My Dashboards** or choose any of the workspaces or projects that you are part of.
+3. Choose a location for it. You can save the dashboard under *My Analytics* ⇒ *My Dashboards* or choose any of the workspaces or projects that you are part of.
 
 4. When you are ready, click/tap on **Save here**.
 

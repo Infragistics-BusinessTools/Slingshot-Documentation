@@ -43,9 +43,9 @@ Your choice of data for the choropleth map visualization highly depends on the i
 
 Analytics has a great variety of predefined maps available for your choropleth visualizations. The minimum information required to provide in your data set is:
 
-  - Quantitative data (values) for a given location
+  - Quantitative data (values) for a given location.
 
-  - Location names
+  - Location names.
 
 *Location names* column in your data set has to match the actual geographic units on the selected map. For example, if you choose the USA map, you need to provide a column in your data set containing state names.
 

@@ -55,7 +55,7 @@ Connect to the most popular data sources without setting anything up on the serv
 
 To connect right to your data source and build your visualizations, you can follow these steps:
 
-1. Click/tap on the **+ Dashboard** or **Create Dashboard** (Getting started section) blue button.
+1. Click/tap on the **+ Dashboard** button in a dashboard list, or the **Create Dashboard** blue button in the *Getting Started* section.
 
    <img src="../../images/new-dashboard-button.png" alt="New dashboard button" class="responsive-img"/>
 
