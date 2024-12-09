@@ -2,7 +2,7 @@
 
 When you start using a new app for the very first time, the process of getting used to it can feel a bit overwhelming. To avoid this, we implemented a new onboarding process in Slingshot.
 
-## What does The Onboarding Process consist of? 
+## What Does the Onboarding Process Consist Of? 
 
 During the onboarding process, you will be able to choose an industry, department and template in order to set up things in Slingshot.
 

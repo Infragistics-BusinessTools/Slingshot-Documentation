@@ -20,7 +20,7 @@ Notifications come in the following three forms:
 
 - **Email** - Notifications delivered to the e-mail address associated with your account.
 
-## Customizing your Notifications
+## Customizing Your Notifications
 
 You can easily change what you are getting notifications for in Slingshot so you only get alerted for what is most important to you. By going into your settings and then the notification tab you can edit the notification you receive. Alternatively, you can use the overflow menu in the Notifications panel.
 

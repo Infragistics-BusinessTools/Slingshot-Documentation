@@ -44,7 +44,6 @@ The Slingshot templates are organized based on different industries/departments.
 
 4.	You will be presented with a dialog, where you can change the title of your project and change the description by clicking/tapping on each text box. You can also set the starting date for the workspace from the drop-down menu. The starting date will also be used for configuring the task dates. When you are ready, click/tap on **Create**.
 
-
 <img src="../images/new-workspace-dialog.png" alt="Create a new workspace from a template" class="responsive-img"/>
 
 >[!Note] If you are a part of an organization, you will also see an option to make the workspace public or keep it private.

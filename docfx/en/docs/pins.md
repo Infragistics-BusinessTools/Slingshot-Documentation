@@ -24,7 +24,7 @@ Pinning content is one of the most common ways to share resources within Slingsh
 
 3. Navigate to the file in order to select it. Depending on the type of the item, you can browse through *Tasks, Discussions, Documents, existing Pins within Slingshot, Dashboards, Data Sources*, or *Shared with Me* files.
 
-### Pinning by Uploading from your Device
+### Pinning by Uploading from Your Device
 
 1.	Use the **+Pin** button.
 
@@ -42,7 +42,7 @@ Pinning content is one of the most common ways to share resources within Slingsh
 
 2.	Navigate to the location where you want to add the new pin.
 
-3.	Select the list, section, and then click on **->Pin**.
+3.	Select the *List*, *Section*, and then click/tap on **->Pin**.
 
 ### Pinning URLs
 
@@ -54,7 +54,7 @@ Pinning content is one of the most common ways to share resources within Slingsh
 
 3. Click/tap on **Pin Web Link**.
 
-### Pinning a Dashboard to a workspace or a project
+### Pinning a Dashboard to a Workspace or a Project
 
 1. Open the workspace or the project that you want to pin a dashboard to.
 
@@ -70,7 +70,7 @@ Pinning content is one of the most common ways to share resources within Slingsh
 
 5. When you are ready, click/tap on **Pin**.
 
-## Organizing your Pins
+## Organizing Your Pins
 
 The Pins tabs in workspaces and projects have lists of pins, which can be further organized in sections. You can use sections to add divisions and better layout your pins.
 
@@ -84,19 +84,19 @@ In the Overviews tabs you have a single list of pins, which are meant to be key 
 
 In Slingshot, you can add new connections to the following cloud storage providers:
 
-- Google Drive
+- [Google Drive](./analytics/datasources/supported-data-sources/google-drive.md)
 
-- OneDrive
+- [OneDrive](./analytics/datasources/supported-data-sources/onedrive.md)
 
-- Dropbox
+- [Dropbox](./analytics/datasources/supported-data-sources/dropbox.md)
 
-- Box
+- [Box](./analytics/datasources/supported-data-sources/box.md)
 
-- SharePoint
+- [SharePoint](./analytics/datasources/supported-data-sources/sharepoint.md)
 
 You can configure cloud storages for personal use or to share content with others.
 
-### Connecting to your Cloud Storages
+### Connecting to Your Cloud Storages
 
 You can add a new cloud storage from the Pin dialog or using My Cloud Storage tab.
 
@@ -120,7 +120,7 @@ In Slingshot, file types are represented using different icons. The most common 
 |![PDF file icon](../images/icon-pdf-file.png)|Adobe PDF file|![Video file icon](../images/icon-video-file.png)| Video file|
 |![Web link icon](../images/icon-web-link.png)| Web link|![Zip file icon](../images/icon-zip-file.png)| ZIP file|
 
-### How to set file permissions?
+### How to Set File Permissions?
 
 When you share files inside workspaces, you make these files available for the users inside the workspace. 
 File permissions are meant to give the file owner control over who can access their files. Each time you pin a file, Slingshot will ask you what type of permission you want to set. You will see a dialog that looks like this: 
@@ -145,7 +145,7 @@ You can use drag and drop to quickly add files or links from an external source 
 
 The first time you upload a file you choose a default cloud storage to be selected automatically in the future. If needed, you can change it later in the Drag and Drop location (General Settings).
 
-## Working with your Content
+## Working with Your Content
 
 You can open any file by clicking/tapping on it. MS Office files can be opened online or using a native app locally on your device.
 

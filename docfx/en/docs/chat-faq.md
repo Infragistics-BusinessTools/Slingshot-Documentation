@@ -3,7 +3,7 @@ title: How to Use the Private Chat Feature in Slingshot
 _description: Check out all you need to know about private discussions in Slingshot and how to chat with users within and outside your organization.
 ---
 
-# Learn more about the Private Chat
+# Learn More About the Private Chat
 
 Welcome! Read on to learn more about the private chat.
 
@@ -15,7 +15,7 @@ Each workspace and project can have its own *Discussions* tab. For more informat
 
 Unlike discussions, the private chat is workspace and project independent. This means you can chat with any Slingshot user or group of users. You can chat with users who are part of your Organization and users who are not. Learn below how to [chat with personal account users](#how-to-start-a-chat-with-users-with-personal-accounts). And, unlike discussions, your chats are *private* and can be accessed only by you and the users you are chatting with. 
 
-## How Can I Access my Chat?
+## How Can I Access My Chat?
 
 In the top bar, right next to your profile picture, you will see the **chat message icon**. Click/tap on the icon to open the chat screen. 
 
@@ -26,13 +26,13 @@ In the top bar, right next to your profile picture, you will see the **chat mess
 ## How Can I Keep the Chat Always Visible?
 
 In Slingshot, you can keep your chat hidden or opened on the right while going through your tasks, for example. 
-To switch from hidden to always opened and vice versa, select the *dock/undock* icon next to *Close* (see screenshot below).
+To switch from hidden to always opened and vice versa, select the *dock/undock* icon next to the *close* button(see screenshot below).
 
 <img class="responsive-img" src="../images/dock-undock-icon-chat.png" alt="Dock/Undock icon" class="responsive-img"/>
 
 When the chat is *docked*, you will always see it on the right. In this mode, you can see either the last chat room opened or the list of ongoing chats. 
 
-## How can I mark a chat as *unread*?
+## How Can I Mark a Chat as *Unread*?
 
 In order to remind yourself that you need to respond in a chat, you can mark that chat as *unread*. You can do this by opening the overflow menu of it and choosing **Mark as unread**.
 
@@ -58,7 +58,7 @@ To start a chat, open the chat screen. Then follow the steps below:
 
 3. Click/tap on **Chat**. 
 
->[!NOTE] If you don't see the *Start a chat* button, check whether your chat is [docked](#how-can-i-keep-the-chat-always-visible). In this case, select the **undock** icon next to *Close*.
+>[!NOTE] If you don't see the *Start a chat* button, check whether your chat is [docked](#how-can-i-keep-the-chat-always-visible). In this case, select the **undock** icon next to *Close* button.
 
 Keep in mind that you can also reply to your own messages or messages from other people by clicking/tapping on the reply arrow. It will show up when you hover over a message.
 
@@ -82,7 +82,7 @@ You can rename your group chats to better differentiate between group chats with
 
 <img class="responsive-img" src="../images/rename-group-chat.png" alt="Rename a group chat option" class="responsive-img"/>
 
-## How can I manage members in a Group Chat? 
+## How Can I Manage Members in a Group Chat? 
 
 You can manage the members of a group chat by selecting the *group* icon on top of your chat room. 
 
@@ -110,11 +110,9 @@ The following 3 options appear in the drop-down when collapsed:
 
 *Invite with No Previous History* is the default history setting for new chat participants. You can use the other two history options to welcome new chat members and quickly introduce them to the topic!
 
-When finished, select the **Add to Chat** blue button. 
-
 <a name='chat-personal-account-users'></a>
 
-## How can I start a chat with users with personal accounts?
+## How Can I Start a Chat with Users with Personal Accounts?
 
 All Slingshot users can take part in private and group chats, including the personal account users. 
 However, [personal account users](roles-permissions-faq.html#what-about-users-with-no-organization) are not part of an Organization. That's why, after selecting **+ Start a Chat**, if you have an Org, you will not see their names in the list of users. The list contains only your Organization members. You can chat with personal account users only if you add their emails manually in the search box.

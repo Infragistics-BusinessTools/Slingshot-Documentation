@@ -21,7 +21,7 @@ Discussions are organized in different lists, ensuring side conversations are un
 
 Unlike lengthy email chains, members can follow or unfollow discussions. This is tied to notifications, as you get informed when someone sends a message to a discussion you follow.
 
-## What is Slingshot's Chat? 
+## What is a Slingshot Chat? 
 
 Your *[Chat](https://www.slingshotapp.io/en/help/docs/chat-faq)* is also a tool for communication, but unlike *[Discussions](https://www.slingshotapp.io/en/help/docs/discussions-faq)* it's not tied to any workspace or project. This means you can use it to chat with any Slingshot user, and even with users with personal accounts who are not part of your Organization.
 
@@ -33,6 +33,6 @@ Slingshot delivers a seamless, almost identical experience no matter what device
 
 Chat with one or multiple members, removing or adding members on demand. When writing your messages, you can copy, edit, or delete any message. And you can also express yourself by using emoticons and reactions. Finally, your chats support basic text formatting (bold, italic, underline, and strikethrough) plus the inclusion of attachments from your cloud storage providers.
 
-## Getting notifications
+## Getting Notifications
 
 With Slingshot notifications, you can get informed when someone sent a message to you or you are mentioned "@" in a discussion thread you're following. You can check the current *[Notification](https://www.slingshotapp.io/en/help/docs/notifications)* settings for messaging and tweak them as needed.  

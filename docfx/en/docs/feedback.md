@@ -2,7 +2,7 @@
 
 We are constantly working on improving Slingshot as our goal is to reach simplicity in our data-driven world while making remote work easy and fast. As we share our users’ passion for a digital workplace, we would like to hear more from you through our feedback form.
 
-## How can I provide you with My Feedback?
+## How Can I Provide You with My Feedback?
 
 You can follow these quick steps in order to share your feedback with us:
 
