@@ -5,11 +5,11 @@ _description: Find out how to create and use Scatter and Bubble Charts visualiza
 
 # Scatter and Bubble Charts
 
-## What are Scatter Charts used for?
+## What are Scatter Charts Used for?
 
 Scatter charts are used to represent the relationship between two quantitative measures by plotting data points along the X (horizontal) and Y (vertical) axes. They are particularly useful for demonstrating patterns in large datasets.
 
-## What are Bubble Charts used for?
+## What are Bubble Charts Used for?
 
 A bubble chart is a variation of a scatter chart in which the data points are replaced with bubbles. Like scatter charts, bubble charts represent the relationship between two quantitative measures as well as a third quantitative measure represented by the size of the bubble. 
 

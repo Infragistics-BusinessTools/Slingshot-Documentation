@@ -88,7 +88,7 @@ In the *Settings* section of the Treemap visualization, you can configure the fo
 
 - **Show Title** - Choose whether to show the visualization's title.
 
-- **Show Values** - choose whether to show **labels**, displaying information about categories and values for rectangles at different levels.
+- **Show Values** - Choose whether to show **labels**, displaying information about categories and values for rectangles at different levels.
 
 - **Start Color** - Choose a start color from a 10-color palette. Analytics will use your choice to adjust a color scheme.
 

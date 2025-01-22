@@ -19,7 +19,7 @@ name and click/tap on **Edit**.
 
  <img src="images/edit-option-data-source.png" alt="Edit option of current data source" class="responsive-img"/>
 
-4. This will display the **Visualization Data**, where you will see your
+4. This will display the *Visualization Data*, where you will see your
 current data source. You can choose another collection of data from the same data source or click/tap on **Change data source** next to your data
 source's name and choose a different data source.
 

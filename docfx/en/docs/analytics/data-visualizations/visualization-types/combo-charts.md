@@ -56,4 +56,4 @@ In *Settings* you can:
   - **Switch the chart on top**. - Analytics applies opacity to the chart displayed behind, to make it
     visually more transparent.
 
-  - **[Connect this visualization to another dashboard or a URL](../../dashboards/dashboard-linking.md)**
+  - **[Connect this visualization to another dashboard or a URL](../../dashboards/dashboard-linking.md)**.

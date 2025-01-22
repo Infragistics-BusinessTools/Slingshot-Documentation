@@ -72,7 +72,7 @@ dashboard filter.
 
 3. Click/tap on **Selection**.
 
-4. Tick **Multiple Selection** checkbox.
+4. Tick the **Multiple Selection** checkbox.
 
 <img src="images/multiple-selection-option-dashboard-filter-dialog.png" alt="Multiple selections for dashboard filters" class="responsive-img"/>
 
@@ -95,7 +95,7 @@ dashboard filter.
 
 3. Click/tap on **Selection**.
 
-4. Tick **Required Selection** checkbox.
+4. Tick the **Required Selection** checkbox.
 
 <img src="images/required-selection-option-filters.png" alt="Required selection fo dashboard filters" class="responsive-img"/>
 
