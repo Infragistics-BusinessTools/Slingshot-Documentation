@@ -15,7 +15,7 @@ Each workspace has its own dedicated *Discussions* tab, which include lists of d
 
 Unlike discussions, private chat is workspace and project independent. For more details go to [Chat](chat-faq.md).
 
-## How can I access my discussions?
+## How Can I Access My Discussions?
 
 To access your discussions, go to a workspace or project and select the **Discussions** navigation tab on top (see the screenshot below).
 
@@ -25,7 +25,7 @@ You can bookmark a discussion, list, or even a specific message to keep it at ha
 Follow the link for further details about [overviews](overviews.md).
 
 <a name="discussions-access"></a>
-## Who can access discussions?
+## Who Can Access Discussions?
 
 Depending on where you stand, you will find different discussions. To guarantee the privacy of workspaces and projects, Slingshot does not allow you to access all discussions. So read on to find out who can access what! 
 
@@ -35,7 +35,7 @@ Within a project, you can have discussions that are specific for this project. E
 
 Within the *Organization*, you will find *Discussions* too. Organization discussions cannot be accessed by users with a personal account. This is the perfect place for announcements and other important organization related discussions. 
 
-## How can I discover and join discussions?
+## How Can I Discover and Join Discussions?
 
 Use the *Discussions* tab in workspaces or projects to discover interesting discussions.
 
@@ -43,7 +43,7 @@ A list of discussions is basically a section dedicated to a specific subject and
 
 >[!NOTE] Only Owners and Contributors of the workspace or project can reply to a discussion and create a new one. Viewers can only read discussions.
 
-## How can I create a new discussion?
+## How Can I Create a New Discussion?
 
 Every *Owner* or *Contributor* of a workspace or project can create a new discussion. The same goes for the discussions inside the *Organization*. 
 
@@ -73,7 +73,7 @@ If you want to reply to your own messages or messages from other people, you can
 
 >[!NOTE] Reply threading is not supported.
 
-## How can I share a discussion with another user?
+## How Can I Share a Discussion with Another User?
 
 You can follow the steps below in order to share a discussion with another user:
 
@@ -107,7 +107,7 @@ After choosing how much of the history to provide the group with, they can click
 
 In case a member of a group (who is not an owner of the workspace or the project) wants to mention the group, they need to first request access from the owner. When the owner grants permission to the group, the members will be able to see the discussion with its full history. 
 
-## How can I make sure someone is notified of new answers?
+## How Can I Make Sure Someone is Notified of New Answers?
 
 There are subjects where you need the attention of particular people. To make sure they receive notifications for each new message in a discussion, you can use the *Notify* option upon creating a new discussion. 
 
@@ -115,13 +115,13 @@ There are subjects where you need the attention of particular people. To make su
 
 If you have missed the opportunity to use the *Notify* function when creating the discussion, you can later use the @mention in a message. The mentioned users will be notified about your message, but will not receive any further notifications for new messages unless they opt to *follow* the discussion.
 
-## How can I make sure I am notified of new answers? 
+## How Can I Make Sure I am Notified of New Answers? 
 
 When you want to make sure *you* are notified of new messages, you need to navigate to a discussion, open it and change the button on top to *Following*. You will start receiving notifications in the *Notifications* center.
 
 >[!NOTE] **Auto following.** Each time you answer a discussion, you will start automatically following it. This means you will receive notifications for all new answers until you explicitly unfollow the topic. 
 
-## How can I mark a discussion as *unread*?
+## How Can I Mark a Discussion as *Unread*?
 
 In order to remind yourself that you need to respond in a discussion, you can mark that discussion as *unread*. You can do this by opening the overflow menu and choosing **Mark as unread**.
 
@@ -135,7 +135,7 @@ Alternatively, you can open the discussion and then mark it as *unread*.
 
 <img src="../images/mark-as-read-discussion.png" alt="Mark as read button in an open discussion" class="responsive-img"/>
 
-## Deleting vs unfollowing a discussion
+## Deleting vs Unfollowing a Discussion
 
 Not all discussions would be interesting to you or need your participation. To prevent your Slingshot discussions become overwhelming, you can unfollow or delete discussions. 
 
@@ -145,8 +145,6 @@ When a discussion is no longer relevant to anyone, you can **delete** it. Be car
 
 To delete a discussion, navigate to it and select **Delete** in its overflow menu.
 
-## Rearranging lists of discussions
+## Rearranging Lists of Discussions
 
 Whenever you create a new list it will be added at the end of the discussions list. There will be times when you won't be satisfied by the chronological order, for example when you accumulate several lists. Don't worry about this, because there is an easy and quick way to rearrange them. Just drag them up and down!
-
-

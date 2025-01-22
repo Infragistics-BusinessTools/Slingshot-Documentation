@@ -4,7 +4,7 @@ In our data-driven world we are constantly dealing with information. Our team me
 
 To save time and have the content that is important to you organized, you can quickly bookmark it with just a few steps.
 
-## How can I use bookmarks?
+## How can I Use Bookmarks?
 
 1.	Open the overflow menu next to the content you would like to bookmark.
 
@@ -22,11 +22,11 @@ Alternatively, you can click/tap on **My Overview** to access your bookmarks.
 
 If you have bookmarked different things, you can drag and drop them manually to organize the list the way you want it to appear.
 
-## What can I bookmark?
+## What Can I Bookmark?
 
 You can bookmark everything you want to have quick access to - from task, links, chat messages and discussions, to workspaces, projects, data sources and dashboards. Once the item that you have saved is under **Bookmarks**, you can take different actions directly from the overflow menu depending on the saved item.
 
-## How can I remove an item from the bookmarks list?
+## How Can I Remove an Item from the Bookmarks List?
 
 You can remove a bookmarked item with the following steps:
 
