@@ -55,4 +55,4 @@ Microsoft Reporting Services レポートへの接続を構成した後、デー
 
 以下の例では、ダッシュボードを **[分析]** ⇒ **[ダッシュボード]** -> **Accounting** に保存しました。
 
-<img src="images/microsoft-reporting-services-my-analytics-dashboard.png" alt="A dashboard in the My Analytics section created while using Microsoft Reporting Services" class="responsive-img" width="75%"/>
+<img src="images/microsoft-reporting-services-my-analytics-dashboard.png" alt="A dashboard in the My Analytics section created while using Microsoft Reporting Services" class="responsive-img" width="80%"/>

@@ -30,7 +30,7 @@ _language: ja
     <td class="tg-cly1"><span style="font-weight:bold">サンプル</span>:  <span class="gray-snippet-cstm">empty()</span></td>
   </tr>
   <tr>
-    <td class="tg-cly1" rowspan="2"><span style="font-weight:bold">isempty</span>: <span class="gray-snippet-cstm">isempty</span> は指定した<span class="gray-snippet-cstm">`式`</span>を評価して<span style="font-weight:bold">データ ソースの各行の値が空かどうかをチェックします</span>。</td>
+    <td class="tg-cly1" rowspan="2"><span style="font-weight:bold">isempty</span>: <span class="gray-snippet-cstm">isempty</span> は指定した <span class="gray-snippet-cstm">`expression`</span> を評価して<span style="font-weight:bold">データ ソースの各行の値が空かどうかをチェックします</span>。</td>
     <td class="tg-cly1"><span style="font-weight:bold">構文</span>:  <span class="gray-snippet-cstm">isempty({value})</span></td>
   </tr>
   <tr>
@@ -43,7 +43,7 @@ _language: ja
 
 empty とは異なり、isempty は選択したフィールドおよびデータ シートの各行を確認します。行に値がない場合、出力は 1 です。値がある場合、0 が出力されます。
 
-### Sample
+### サンプル
 
 | 関数名 | 構文             | サンプル                    |
 | ------------- | ------------------ | ------------------------- |

@@ -36,8 +36,8 @@
 
 3.	**[ブックマークの削除]** を選択します。
 
-<img src="../images/remove-bookmark.png" alt="Remove bookmark option" class="responsive-img" width="90%"/>
+<img src="../images/remove-bookmark.png" alt="Remove bookmark option" class="responsive-img" width="80%"/>
 
 または、項目を開いてオーバーフロー メニューをクリックまたはタップし、**[ブックマークの削除]** を選択します。 
 
-<img src="../images/remove-bookmark-item.png" alt="Remove bookmark option in the overflow menu of a bookmarked item" class="responsive-img" width="90%"/>
+<img src="../images/remove-bookmark-item.png" alt="Remove bookmark option in the overflow menu of a bookmarked item" class="responsive-img" width="80%"/>

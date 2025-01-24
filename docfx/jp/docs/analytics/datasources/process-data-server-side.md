@@ -8,17 +8,17 @@
 
 Analytics で利用可能なデータ ソースの一部では、サーバー上で直接データを処理するアプローチ**のみ**が使用可能です。以下があります: 
 
-* [Amazon Redshift](https://www.slingshotapp.io/ja/help/docs/analytics/datasources/supported-data-sources/redshift)
-* [Google BigQuery](https://www.slingshotapp.io/ja/help/docs/analytics/datasources/supported-data-sources/google-bigquery)
-* [MS Azure Synapse Analytics](https://www.slingshotapp.io/ja/help/docs/analytics/datasources/supported-data-sources/microsoft-azure-synapse-analytics) 
-* [Snowflake](https://www.slingshotapp.io/ja/help/docs/analytics/datasources/supported-data-sources/snowflake)
-* [Amazon Athena](https://www.slingshotapp.io/ja/help/docs/analytics/datasources/supported-data-sources/athena)
+- [Amazon Redshift](https://www.slingshotapp.io/ja/help/docs/analytics/datasources/supported-data-sources/redshift)
+- [Google BigQuery](https://www.slingshotapp.io/ja/help/docs/analytics/datasources/supported-data-sources/google-bigquery)
+- [MS Azure Synapse Analytics](https://www.slingshotapp.io/ja/help/docs/analytics/datasources/supported-data-sources/microsoft-azure-synapse-analytics) 
+- [Snowflake](https://www.slingshotapp.io/ja/help/docs/analytics/datasources/supported-data-sources/snowflake)
+- [Amazon Athena](https://www.slingshotapp.io/ja/help/docs/analytics/datasources/supported-data-sources/athena)
 
 サーバーでのデータ処理は、次のデータ ソースに対して**有効**にできるオプションです:
 
-* [MS SQL Server](supported-data-sources/microsoft-sql-server.md)
-* [MySQL](supported-data-sources/mysql.md)
-* [PostgreSQL](supported-data-sources/postgresql.md)
+- [MS SQL Server](supported-data-sources/microsoft-sql-server.md)
+- [MySQL](supported-data-sources/mysql.md)
+- [PostgreSQL](supported-data-sources/postgresql.md)
 
 ## サーバー上でデータを処理を有効にする方法は?
 
@@ -27,7 +27,7 @@ Analytics で利用可能なデータ ソースの一部では、サーバー上
 データ ソースの初期構成を行う方法の詳細については、上記の箇条書きリストで 3 つのデータ ソースのいずれかを選択し、設定方法に関する記事をご覧ください。
 接続を設定すると、**[データ ソースの詳細]** ダイアログが表示されます:
 
-<img src="images/process-data-on-server-option.png" alt=" Process data on server checkbox in the Set Up the Database dialog in PostgreSQL" class="responsive-img" width="55%"/>
+<img src="images/process-data-on-server-option.png" alt=" Process data on server checkbox in the Set Up the Database dialog in PostgreSQL" class="responsive-img" />
 
 **[サーバー上でデータを処理]** がデフォルトで有効になっていることに注意してください。データがサーバー上で処理されるときに、制限されている機能 (以下の**制限**を参照) を使用する必要がある場合は、この機能の横にあるチェックボックスをオフにすることを検討してください。
 
@@ -37,8 +37,9 @@ Analytics で利用可能なデータ ソースの一部では、サーバー上
 
 **[サーバー上でデータを処理]** が有効になっている場合、次の機能は表示形式エディターで**サポートされません**。
 
-* [データ ソースを 1 つの表示形式に統合](data-blending.md)
-* [Azure ML モデルの統合](ml-integration/azure-machine-learning-models.md)
+- [データ ソースを 1 つの表示形式に統合](data-blending.md)
+
+- [Azure ML モデルの統合](ml-integration/azure-machine-learning-models.md)
 
 表示形式エディターの[事前計算](../data-visualizations/fields/calculated-fields/overview.md#事前計算フィールド)フィールド機能に制限が適用されます。使用できない関数は、**[計算フィールドの作成]** ダイアログでグレーアウトされます。
 このダイアログで、リンクをクリックして、**サーバー上でデータを処理**機能を無効にすることができます。

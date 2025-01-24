@@ -4,7 +4,7 @@ Slingshot には、**無料**、**Slingshot**、および **Slingshot Enterprise
 
 ## Slingshot サブスクリプションのトライアル版を有効にするにはどうすればよいですか?
 
-以前に Slingshot サブスクリプションを有効にしたことがない場合は、28 日間のトライアル版を利用できます。 デスクトップまたは Web で Slingshot を使用している場合、28 日間の無料トライアルが自動的に有効になります。
+以前に Slingshot サブスクリプションを有効にしたことがない場合は、28 日間のトライアル版を利用できます。デスクトップまたは Web で Slingshot を使用している場合、28 日間の無料トライアルが自動的に有効になります。
 
 macOS、iOS、または Android で Slingshot を使用している場合は、<a href="https://www.slingshotapp.io/ja/help/docs/welcome-slingshot#slingshot-を入手する方法" target="_blank">こちら</a>にアクセスしてプラットフォームを選択し、手順に従って試用版をアクティブ化できます。
 
@@ -26,7 +26,7 @@ macOS、iOS、または Android で Slingshot を使用している場合は、<
 
 ## Slingshot のサブスクリプションをキャンセルするにはどうすればよいですか?
 
-サブスクリプションをキャンセルするには、<a href="https://customer.infragistics.com/subscriptions?theme=slingshot" target="_blank">こちら</a>にアクセスして **[Cancel Subscription] (サブスクリプションをキャンセル)** をクリックしてください。 次回の請求日までにキャンセルした場合、請求は行われません。 キャンセルすると、アカウントは、Slingshot の*無料版*に戻ります。
+サブスクリプションをキャンセルするには、<a href="https://customer.infragistics.com/subscriptions?theme=slingshot" target="_blank">こちら</a>にアクセスして **[Cancel Subscription] (サブスクリプションをキャンセル)** をクリックしてください。次回の請求日までにキャンセルした場合、請求は行われません。キャンセルすると、アカウントは、Slingshot の**無料版**に戻ります。
 
 ## アカウントが Slingshot の無料版に戻ると、ワークスペースはどうなりますか?
 
@@ -36,11 +36,11 @@ macOS、iOS、または Android で Slingshot を使用している場合は、<
 
 ワークスペースの横にあるオーバーフロー メニューをクリックして、**[共有ユーザー]** を選択します。
 
-<img src="../images/shared-with-button-workspaces.png" alt="Shared With option in the list of options for workspaces" width="75%" class="responsive-img"/>
+<img src="../images/shared-with-button-workspaces.png" alt="Shared With option in the list of options for workspaces" class="responsive-img" width="80%"/>
 
 ダイアログが表示されるので、そこで **[+ 追加]** ボタンをクリックまたはタップして、名前またはメール アドレスでメンバーを追加できます。
 
-<img src="../images/adding-members-workspaces.png" alt="A dialog where you can type in the name or the email of a user who you want to add" width="55%" class="responsive-img"/>
+<img src="../images/adding-members-workspaces.png" alt="A dialog where you can type in the name or the email of a user who you want to add" width="65%" class="responsive-img"/>
 
 ## ワークスペースに何人のユーザーを招待できますか?
 

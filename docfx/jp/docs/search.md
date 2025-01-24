@@ -10,7 +10,7 @@ _language: ja
 
 Slingshot の検索は、Slingshot 内のすべてからきちんと整理された結果を提供します。さまざまなフィルタリング オプションにより、優れた検索精度で、本当に必要なものをすばやく見つけることを確実にします。
 
-<img class="responsive-img" src="../images/search-example.png" alt="Slingshot's search bar" class="responsive-img" />
+<img class="responsive-img" src="../images/search-example.png" alt="Slingshot's search bar" class="responsive-img" width="80%"/>
 
 ## 検索方法
 
@@ -18,21 +18,21 @@ Slingshot の検索は、Slingshot 内のすべてからきちんと整理され
 
 1. 上部の検索ボックスに移動します。
  
-2. 入力を開始すると、Slingshot が提案を表示します。結果の完全なリストを表示するには、Enter キーまたは [すべての結果を検索] を選択します。
+2. コンテンツ/項目の名前を入力します。
 
-3. 左側に検索結果ペインが開きます。
+3. 検索結果ペインが左側に開きます。
 
 検索結果ペインには、Slingshot 内のあらゆる場所からの結果が表示されます。結果は、5 つのタブに個別に表示されます:
 
-- **ワークスペース** - すべてのワークスペースとプロジェクトの結果。
+- **[ワークスペース](workspaces.md)** - すべてのワークスペースとプロジェクトの結果。
 
-- **タスク** - 割り当てられたタスクおよびすべてのワークスペースとプロジェクトのタスクの結果が表示されます。 
+- **[タスク](tasks-faq.md)** - 割り当てられたタスクおよびすべてのワークスペースとプロジェクトのタスクの結果が表示されます。 
 
-- **メッセージ** - チャットおよびディスカッションのメッセージの結果を表示します。
+- **[メッセージ](communication.md)** - チャットおよびディスカッションのメッセージの結果を表示します。
 
-- **ピン固定** - 概要、ワークスペース、組織のすべてのリストの結果を表示します。
+- **[ピン固定](pins.md)** - 概要、ワークスペース、組織のすべてのリストの結果を表示します。
 
-- **分析** - 概要、ワークスペース、組織のダッシュボードとダッシュボード フォルダーの結果を表示します。
+- **[分析](../docs/analytics/my-analytics.md)** - 概要、ワークスペース、組織のダッシュボードとダッシュボード フォルダーの結果を表示します。
 
 >[!NOTE] 結果ウィンドウで、オーバーフロー メニューを開き、結果をブックマークに保存したり、他のユーザーと共有したりできます。
 
@@ -40,11 +40,13 @@ Slingshot の検索は、Slingshot 内のすべてからきちんと整理され
 
 結果が多すぎて検索を絞り込む必要がある場合があります。これを支援するために、Slingshot には、上部に場所フィルターがあり、5 つのタブのそれぞれの下にフィルターの 2 番目の層があります。
 
+アーカイブ フィルター ([Slingshot](slingshot-subscription.md) および [Slingshot Enterprise](slingshot-enterprise-subscription.md) の機能) を使用すると、アーカイブされた光もを参照することもできます。
+
 ### 場所でフィルタリング
 
 [場所] フィルター (ページの上部) は、選択した結果タブに関係なく、すべての結果に適用されます。たとえば、異なるワークスペースにある 2 つのプロジェクトでブロックされたすべてのタスクを簡単に検索できます。これを行うには、場所のドロップダウンで 2 つのプロジェクトを選択し、[タスク] タブで [ブロック中] 状態でフィルターします。
 
-<img class="responsive-img" src="../images/search-filters.png" alt="Slingshot's search and its filters" class="responsive-img" />
+<img class="responsive-img" src="../images/location-filter.png" alt="Location filter in Search results" class="responsive-img" width="80%"/>
 
 ### より多くのフィルターを使用する
 

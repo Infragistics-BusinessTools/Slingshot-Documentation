@@ -18,7 +18,7 @@ _language: ja
 
   - [エリア チャートを作成する方法](https://www.slingshotapp.io/ja/help/docs/analytics/visualization-tutorials/simple-charts#チャートの作成)
 
-  - [チャートにトレンドラインを追加する方法](https://www.slingshotapp.io/ja/help/docs/analytics/visualization-tutorials/simple-charts#チャートに近似曲線を追加する)
+  - [チャートに近似曲線を追加する方法](https://www.slingshotapp.io/ja/help/docs/analytics/visualization-tutorials/simple-charts#チャートに近似曲線を追加する)
 
   - [軸の構成を変更する方法](https://www.slingshotapp.io/ja/help/docs/analytics/visualization-tutorials/simple-charts#軸の構成の変更)
 
@@ -32,7 +32,7 @@ _language: ja
 
 チャートを使用する時、表示される情報とともに追加の情報も追加できます。これは以下の機能で追加できます。
 
-  - チャートに折れ線で表示する**チャート トレンドライン**。変数間の関係や情報全体の方向性を表す場合に役立ちます。チャートに回帰と呼ばれるいくつかのアルゴリズムを適用できます。回帰は **[チャート トレンドライン]** から選択できます。
+  - チャートに折れ線で表示する**チャートの近似曲線**。変数間の関係や情報全体の方向性を表す場合に役立ちます。チャートに回帰と呼ばれるいくつかのアルゴリズムを適用できます。回帰は **[チャートの近似曲線]** から選択できます。
 
   - **軸の構成**: 軸の構成でチャートの最大値と最小値を構成できます。デフォルトで最小値は 0 に設定され、最大値は使用されるデータによって設定されます。
 
@@ -54,11 +54,11 @@ _language: ja
 
 1. **[分析]** セクションの右上隅にある **[+ ダッシュボード]** ボタンを選択します。
 
-   <img src="images/new-dashboard-button.png" alt="New Dashboard button in My Analytics" class="responsive-img" width="90%"/>
+   <img src="images/new-dashboard-button.png" alt="New Dashboard button in My Analytics" class="responsive-img" width="80%"/>
 
-2. データ ソースのリストからデータ ソース (**Slingshot Tutorials Spreadsheet**) を選択します。データ ソースが新しい場合は、最初に右上隅の **[+ データ ソース]** ボタンから追加する必要があります。
+2. データ ソースのリストからデータ ソース (**Slingshot Visualization Tutorials**) を選択します。データ ソースが新しい場合は、最初に右上隅の **[+ データ ソース]** ボタンから追加する必要があります。
 
-   <img src="images/visualization-tutorials-sample.png" alt="Select Slingshot Tutorials Spreadsheet from the list of data sources" class="responsive-img" width="70%"/>
+   <img src="images/visualization-tutorials-sample.png" alt="Select Slingshot Visualization Tutorials from the list of data sources" class="responsive-img" width="80%"/>
 
 3. *Simple Series Charts* シートを選択します。
 
@@ -66,10 +66,10 @@ _language: ja
 
 4. **表示形式ピッカー**を開き、**カテゴリ**の下にある**チャート**表示形式のいずれかを選択します。デフォルトで、表示形式のタイプは**柱状**に設定されています。
 
-   <img src="images/chart-types-simple-series-charts.png" alt="List of chart types" class="responsive-img" width="70%"/> 
+   <img src="images/chart-types-simple-series-charts.png" alt="List of chart types" class="responsive-img" width="80%"/> 
  
 5. たとえば、上の表のチャートには、選択した国のリストの人口が表示されます。「Country Name」フィールドを [ラベル] へ、「Population」 フィールドを [値] へドラッグアンドドロップします。            
-   <img src="images/simple-series-charts-organizing-data.png" alt="Organize data from Simple Series Charts sheet" class="responsive-img" width="70%"/>                                   
+   <img src="images/simple-series-charts-organizing-data.png" alt="Organize data from Simple Series Charts sheet" class="responsive-img" width="80%"/>                                   
 
 <a name='add-trendline-chart'></a>
 ## チャートに近似曲線を追加する
@@ -79,12 +79,12 @@ _language: ja
 |                                     |                                                                        |                                                                  |
 | ----------------------------------- | ---------------------------------------------------------------------- | ---------------------------------------------------------------- |
 | 1\. **設定を変更する**             | <img src="images/settings-tutorials.png" alt="Settings Menu" class="responsive-img"/>  | 表示形式エディターの **[設定]** セクションに移動します。      |
-| 2\. **チャートの近似曲線へアクセスする** | <img src="images/chart-trendline-simple-series-charts.png" alt="Chart Trendlines option in the settings" class="responsive-img"/> | 下向き矢印を選択して [チャートの近似曲線] ドロップダウンを展開し、Slingshot の定義済み近似曲線のいずれかを選択します。 |
+| 2\. **チャートの近似曲線にアクセスする** | <img src="images/chart-trendline-simple-series-charts.png" alt="Chart Trendlines option in the settings" class="responsive-img"/> | 下向き矢印を選択して [チャートの近似曲線] ドロップダウンを展開し、Slingshot の定義済み近似曲線のいずれかを選択します。 |
 
 <a name='change-axis-configuration'></a>
 ## 軸の構成の変更
 
-[ゲージのバンド](../visualization-tutorials/gauge-charts.md#ゲージ表示形式に範囲を追加する方法)と同様に、チャート軸構成でチャートの最小と最大値を設定できます。この機能を使用して、特定のデータ含有や除外ができます。
+[ゲージの範囲](../visualization-tutorials/gauge-charts.md#ゲージ表示形式に範囲を追加する方法)と同様に、チャート軸構成でチャートの最小と最大値を設定できます。この機能を使用して、特定のデータ含有や除外ができます。
 
 |                                        |                                                                                      |                                                                                                                                       |
 | -------------------------------------- | ------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------- |

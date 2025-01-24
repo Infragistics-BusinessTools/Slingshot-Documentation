@@ -27,15 +27,15 @@ _language: ja
 
 上記の表示形式は、*Product* ごとの *New Sales* を表示します。この表示形式を構成するには、次のことを行う必要があります:
 
-1. **[新しい表示形式]** ダイアログで、**サンプル データ**を選択します。
+1. **[新しい表示形式]** ダイアログで、**[サンプル データ]** を選択します。
 
-    <img src="images/sample-data-new-visualization-dialog.png" alt="Sample Data in the list of data sources" class="responsive-img" width="90%"/>
+<img src="images/sample-data-new-visualization-dialog.png" alt="Sample Data in the list of data sources" class="responsive-img" width="90%"/>
 
-2. **表示形式エディター**で、**ツリーマップ表示形式**を選択します。
+2. チャート タイプのリストから **[ツリーマップ]** を選択します。
 
-    <img src="images/treemap-chart-types.png" alt="Tree Map visualization in the Change Visualization dialog" class="responsive-img" width="90%"/>
+<img src="images/treemap-chart-types.png" alt="Tree Map visualization in the Change Visualization dialog" class="responsive-img" width="90%"/>
 
-3. ツリーマップ データ セクションで、**[ラベル]**に *Territory* を、**[値]**に New Sales をドロップします。
+3. ツリーマップ データ セクションで、**[ラベル]**に *Territory* を、**[値]**に *New Sales* をドロップします。
 
 **[ラベル] (*Product*) にドロップされたデータ**は**色**を決定し、5 つの異なる四角形に表示形式を並べます。
 
@@ -63,7 +63,11 @@ _language: ja
 
 ### 階層レベルのドリル アップとドリル ダウン
 
-ツリーマップ表示形式をドリル アップおよびドリル ダウンして、異なる階層レベル間を移動できます。これを行うには、**大きな四角形の領域をクリックします** (含まれるタイルに関係なく)。ツールチップで、**ドリル ダウン / アップ**を選択します。
+ツリーマップ表示形式をドリル アップおよびドリル ダウンして、異なる階層レベル間を移動できます。そのためには次の手順を実行します。
+
+1. 大きな長方形の領域 (含まれるタイルに関係なく) をクリックします。 
+
+2. ツールヒントで **[ドリル ダウン/アップ]** を選択します。
 
 <img src="images/drilling-option-hierarchy-level.png" alt="Select drill down in tooltip" class="responsive-img" width="90%"/>
 
@@ -73,7 +77,7 @@ _language: ja
 
 <img src="images/treemap-totals-label.png" alt="Tooltips in the bottom of a treemap" class="responsive-img" width="90%"/>
 
-ツリーマップ表示形式の上部 (左側) にある**合計ラベル**は、すべてのレベルで変化します。*Totals* は、**[ラベル]** の各階層レベルの **[値]** フィールドの変更を反映しています (前の例の合計を比較してください)。上の例の合計ラベルには、日本での製品 B のすべての新規販売が表示されます。
+ツリーマップ表示形式の上部 (左側) にある**合計ラベル**は、すべてのレベルで変化します。*Totals* は、**[ラベル]** の各階層レベルの **[値]** フィールドの変更を反映しています (前の例の合計を比較してください)。上の例の合計ラベルには、インドでの製品 D のすべての新規販売が表示されます。
 
 **タイトルのパンくずリスト**を使用して、表示されている現在のレベルを識別します。それらをクリックまたはタップして移動することもできます (ドリル アップの代わりに)。
 

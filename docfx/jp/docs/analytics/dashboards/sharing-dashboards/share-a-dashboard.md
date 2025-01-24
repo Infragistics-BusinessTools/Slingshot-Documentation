@@ -24,45 +24,48 @@ _language: ja
 
 作成したダッシュボードを個人ユーザーと共有するには、次のことを行う必要があります。
 
-1.  **[共有] ダイアログ**にアクセスする - オーバーフロー メニューを開き、**[共有ユーザー]** を選択します。
+1. ダッシュボードのオーバーフロー メニューから **[共有ユーザー]** を選択します。
 
   <img src="images/shared-with-button.png" alt="Accessing the sharing dialog of a dashboard" class="responsive-img" width="80%"/>
 
-  フォルダーを他のユーザーと共有すると、ファイルは左側のパネルの **[自分と共有済み]** セクションに表示されます。または、**[分析]** を開き、**[フィルター]** の下にある **[自分と共有済み]** をクリックまたはタップしてファイルを見つけることもできます。
-
-  <img src="images/shared-with-me-section.png" alt="Finding the Shared with Me option in different sections" class="responsive-img" width="80%"/>
-
 <a name='access-permissions'></a>
 
-2.  ダッシュボードを共有する**ユーザーを選択** - 招待したい人のメール アドレスまたは名前を入力し、**[閉じる]** をクリックまたはタップします。
+2. メール アドレスまたは名前を入力して、ダッシュボードを共有するユーザーを選択します。準備ができたら、**[閉じる]** をクリックまたはタップします。
 
-<img src="images/add-users-sharing-dashboards.png" alt="Choosing with whom to share a dashboard" class="responsive-img" width="80%"/>
+<img src="images/add-users-sharing-dashboards.png" alt="People picker for sharing a dashboard" class="responsive-img" width="80%">
 
+3. ユーザーを選択したら、**[更新]** をクリックまたはタップします。選択したユーザーが[組織](../../../security.md)に所属している場合、ダッシュボードは自動的に共有されます。他のユーザーは、招待を受け入れると、**[自分と共有済み]** セクションでダッシュボードを表示できるようになります。
 
-3.  ユーザーを選択したら、**[更新]** をクリックまたはタップします。選択したユーザーが[組織](../../../security.md)に所属している場合、ダッシュボードは自動的に共有されます。他のユーザーは、招待を受け入れると、**[自分と共有済み]** セクションでダッシュボードを表示できるようになります。
+<img src="images/shared-with-update-button.png" alt="Update button in the shared with dialog" class="responsive-img" width="80%">
 
-<img src="images/shared-with-update-button.png" alt="Update button in the shared with dialog" class="responsive-img" width="80%"/>
+4. フォルダーを他のユーザーと共有すると、ファイルは左側のパネルの **[自分と共有済み]** セクションに表示されます。または、**[分析]** を開き、**[フィルター]** の下にある **[自分と共有済み]** をクリックまたはタップしてファイルを見つけることもできます。
+  
+<img src="images/shared-with-me-section.png" alt="Finding the Shared with Me option in different sections" class="responsive-img" width="80%">
 
 **ダッシュボードの管理者は**、**[共有ユーザー]** メニューにアクセスして、**いつでもユーザーのアクセス レベルを変更できます**。ダッシュボードを共有したすべてのユーザーとそのアクセス レベルのリストが表示されます。名前の横にあるドロップダウン メニューから新しいアクセス レベルを選択して、アクセス レベルを変更できます。
 
 **ダッシュボードの管理者は**、**[次と共有...]** ダイアログにアクセスし、メンバーの名前の横にあるドロップダウン メニューから **[削除]** を選択することで、**いつでもダッシュボードの共有を解除できます**。
 
-<img src="images/shared-with-remove-option.png" alt="Remove a member option" class="responsive-img" width="80%"/>
-
+<img src="images/shared-with-remove-option.png" alt="Remove a member option" class=
+"responsive-img" width="80%"/>
 一般に、ユーザーは次の権限のいずれかを持つことができます:
 
   - **管理者**権限 - ユーザーは作成、編集、共有、および削除できます。
 
   - **編集者**権限 - ユーザーは作成、編集、共有 (管理者の承認を得て)、および削除できます。ユーザーは、共有された項目 (ダッシュボード / ダッシュボード リスト) を削除できないことに注意してください。
 
-   <img src="images/request-to-share.png" alt="Sending a request to the owner in order to share a dashboard" class="responsive-img" width="50%"/>
-
   - **閲覧者**権限 - ユーザーはダッシュボードを表示できます。また、管理者の承認後に別のユーザーと共有することもできます。
 
 <a name='sharing-workspace-dashboard'></a>
 ## ワークスペースのダッシュボードを他のユーザーと共有する
 
-ワークスペースのメンバーは、ワークスペースのダッシュボードを他のユーザーと共有できます。これを行うには、**ワークスペース** タブに移動し、**[ダッシュボード]** セクションからダッシュボードを選択します。次に、[自分のダッシュボードを他のユーザーと共有する](#独自のダッシュボードを他のユーザーと共有する)の手順に従います。メンバーが他のメンバーとダッシュボードを共有するには、まずワークスペースの管理者がリクエストを承認する必要があることに注意してください。
+ワークスペースのメンバーは、ワークスペースのダッシュボードを他のユーザーと共有できます。そのためには次の手順を実行します。
+
+1. **[ワークスペース]** タブに移動します。
+
+2. **[ダッシュボード]** セクションからダッシュボードを選択します。 
+
+3. [自分のダッシュボードを他のユーザーと共有する](#独自のダッシュボードを他のユーザーと共有する)の手順に従います。メンバーが他のメンバーとダッシュボードを共有するには、まずワークスペースの管理者がリクエストを承認する必要があることに注意してください。
 
 <a name='sharing-dashboard-with-workspace'></a>
 ## ワークスペース全体とダッシュボードを共有する

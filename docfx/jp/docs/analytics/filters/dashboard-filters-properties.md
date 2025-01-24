@@ -10,13 +10,21 @@ _language: ja
 
 新しいダッシュボード フィルターを追加するには:
 
-1.  ダッシュボード エディターに移動し、[フィルターの追加] ⇒ [ダッシュボード フィルターの追加] を選択します。
+1. **ダッシュボード エディター**に移動し、**[フィルターの追加]** を選択します。
 
-2.  [ダッシュボード フィルター] メニューが開きます。デフォルトで、選択されたデータ ソースは、初めての表示形式で使用されるデータ ソースになります。変更するには、データ ソース名の横にあるオーバーフロー ボタンを選択します。
+2. **[ダッシュボード フィルターの追加]** をクリックまたはタップします。
 
-  <img src="images/dashboard-filter-data-source-menu.png" alt="Selecting Dashboard Filter data source menu" class="responsive-img" width="80%"/>
+<img src="images/dashboard-filter-option.png" alt="Dashboard Filter option" class="responsive-img" width="80%">
 
-3.  ダッシュボード フィルターとして使用するデータセットを選択し、[データの選択] をクリックまたはタップします。
+2. データ ソースを選択します。 
+
+3. **ダッシュボード フィルター** メニューが開きます。ここで、別のデータ ソースに切り替えて、ダッシュボードとして使用するデータセットを選択できます。
+
+  <img src="images/dashboard-filter-configuration.png" alt="Dashboard Filter confugaration" class="responsive-img" width="80%">
+
+3. フィールドを選択したら、**[フィルターの作成]** をクリックまたはタップします。
+
+<img src="images/dashboard-filter-create-button.png" alt="Dashboard Filter create button" class="responsive-img" width="80%">
 
 ## フィルター設定の概要
 
@@ -44,37 +52,52 @@ _language: ja
 
 ダッシュボード フィルター名の隣りのオーバーフロー メニューで [編集] ボタンをクリックして、編集モードで表示列を変更できます。
 
-<img src="images/edit-mode-filter.png" alt="Edit dashboard filter" class="responsive-img"/>
+<img src="images/edit-mode-filter.png" alt="Edit dashboard filter" class="responsive-img" width="80%">
 
 <a name='multiple-selection'></a>
 ## 複数選択
 
 Analytics は、複数のダッシュボード フィルター値の同時選択をサポートしています。これにより、コレクション内で要素を並べて比較できます。たとえば、[HR ダッシュボード] で複数の選択を有効にすることで、さまざまなオフィスの雇用や欠勤を比較することができます。
 
-<img src="images/multiple-selection-dashboard-filters.png" alt="Filters multiple selections applied to a dashboard" class="responsive-img" width="45%"/>
+<img src="images/multiple-selection-dashboard-filters.png" alt="Filters multiple selections applied to a dashboard" class="responsive-img" width="80%"/>
 
-**[複数選択] を有効する**には、ダッシュボードを編集モードに替える必要があります。⇒ ダッシュボード フィルターのオーバーフロー ニューから [編集] を選択 ⇒ [選択] ⇒ [複数選択] チェックボックスをオンにします。
+**複数選択**を有効にするには、次の操作を実行する必要があります:
 
-<img src="images/multiple-selection-option-dashboard-filter-dialog.png" alt="Multiple selections for dashboard filters" class="responsive-img" width="60%"/>
+1. ダッシュボードを**編集**モードに切り替えます。
+
+2. ダッシュボード フィルターのオーバーフロー メニューから **[編集]** を選択します。
+
+3. **[選択]** をクリックまたはタップします。
+
+4. **[複数選択]** チェックボックスをオンにします。
+
+<img src="images/multiple-selection-option-dashboard-filter-dialog.png" alt="Multiple selections for dashboard filters" class="responsive-img" width="80%"/>
 
 <a name='required-selection'></a>
 ## 必須選択
 
-ダッシュボード フィルターで選択オプションを必須または無効にできます。
-デフォルトでは、選択は不要です。選択オプションで、ユーザーがすべてのダッシュボード フィルター値を解除することができ、実行したクエリからフィルターを削除します。クエリはデータ ソースのすべてのデータを取得し、ダッシュボード フィルター行に「選択なし」と表示されます。
+ダッシュボード フィルターで選択オプションを必須または無効にできます。デフォルトでは、選択は不要です。選択オプションで、ユーザーがすべてのダッシュボード フィルター値を解除することができ、実行したクエリからフィルターを削除します。クエリはデータ ソースのすべてのデータを取得し、ダッシュボード フィルター行に「選択なし」と表示されます。
 
-**[必須選択] を有効する**には、ダッシュボードを編集モードに替える必要があります。⇒ ダッシュボード フィルターのオーバーフロー ニューから [編集] を選択 ⇒ [選択] ⇒ [必須選択] チェックボックスをオンにします。
+**須選択**を有効にするには、次の操作を実行する必要があります:
 
-<img src="images/required-selection-option-filters.png" alt="Required selection fo dashboard filters" class="responsive-img" width="60%"/>
+1. ダッシュボードを**編集**モードに切り替えます。
+
+2. ダッシュボード フィルターのオーバーフロー メニューから **[編集]** を選択します。
+
+3. **[選択]** をクリックまたはタップします。
+
+4. **[必須選択]** チェックボックスをオンにします。
+
+<img src="images/required-selection-option-filters.png" alt="Required selection fo dashboard filters" class="responsive-img" width="80%"/>
 
 <a name='data-filters'></a>
 ## データ フィルター
 
-ダッシュボード フィルターに表示されるデータセットのフィールドにフィルターを適用することもできます。これにより、特定のフィールドの null または空の値をフィルター アウトできます ([空の値のフィルター](../../analytics/data-visualizations/fields/field-filters-rules.md#空値をフィルター))。[特定の値を選択する](../../analytics/data-visualizations/fields/field-filters-rules.md#値の選択)か、フィールド タイプに応じてオプションを変更するためにフィールドに[ルール](../../analytics/data-visualizations/fields/field-filters-rules.md#日付フィールドのルール)を追加することもできます。詳細は、「[フィールド フィルターとルール](../../analytics/data-visualizations/fields/field-filters-rules.md)」トピックをご覧ください。
+ダッシュボード フィルターに表示されるデータセットのフィールドにフィルターを適用することもできます。これにより、特定のフィールドの null または空の値をフィルター アウトできます ([空の値のフィルター](../../analytics/data-visualizations/fields/field-filters-rules.md#空値をフィルター))。[特定の値](../../analytics/data-visualizations/fields/field-filters-rules.md#値の選択)を選択するか、フィールド タイプに応じてオプションを変更するためにフィールドに[ルール](../../analytics/data-visualizations/fields/field-filters-rules.md#日付フィールドのルール)を追加することもできます。詳細は、「[フィールド フィルターとルール](../../analytics/data-visualizations/fields/field-filters-rules.md)」トピックをご覧ください。
 
 たとえば、**Fullname** フィールドを使用して **HR ダッシュボード**のデータをフィルタリングする場合、**ダッシュボード フィルター**は会社のすべてのオフィスの従業員リストを表示します。
 
-<img src="images/data-filters-dashboard-filters-hr-dashboard.png" alt="Full name dashboard filter applied to HR Dashboard" class="responsive-img" width="45%"/>
+<img src="images/data-filters-dashboard-filters-hr-dashboard.png" alt="Fullname dashboard filter applied to HR Dashboard" class="responsive-img" width="80%"/>
 
 ここでは、特定のオフィスで働いている従業員だけをフィルターとして使用する場合は、**データ フィルター** プロパティを適用でる、たとえば、*London, UK*。それにより、ダッシュボード フィルターには、ロンドンオフィスで働く従業員のリストが表示されます。
 
@@ -84,17 +107,19 @@ Analytics は、複数のダッシュボード フィルター値の同時選択
 
 1.  ダッシュボード フィルター設定の**データ フィルター**に移動します。
 
-2.  **表示フィールド**プロパティで **Employee Name** を選択します。
+2.  **表示フィールド**プロパティで **Fullname** を選択します。
 
-3.  [フィールドを選択] をクリックまたはタップして、リストから [オフィス] を選択します。
+3.  [フィールドの選択] をクリックまたはタップして、リストから Office を選択します。
 
-    <img src="images/dashboard-filters-select-data-filter-field.png" alt="Selecting a field for a data filter in the dashboard filter settings menu" class="responsive-img" width="60%"/>
+  <img src="images/dashboard-filters-select-data-filter-field.png" alt="Select a field for a data filter in the dashboard filter settings menu" class="responsive-img" width="80%">
 
 4.  次のダイアログで、適用するフィルター タイプを選択します (この例では、**[値の選択]** を選択します)。
 
-    <img src="images/filter-types.png" alt="Dashboard Filters Filter type option" class="responsive-img" width="60%"/>
+  <img src="images/filter-types.png" alt="Dashboard Filters Filter type option" class="responsive-img" width="80%">
 
 5.  リストから *London, UK* を選択し、[フィルターの作成] ボタンをクリックまたはタップします。
+
+<img src="images/filter-data-example.png" alt="Filter data example" class="responsive-img" width="80%">
 
 ## Microsoft Analysis Data を使用したダッシュボード フィルター
 

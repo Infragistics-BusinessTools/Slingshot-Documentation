@@ -22,15 +22,15 @@ _language: ja
 
 散布図を作成するには:
 
-1.  **[チャート タイプ]** メニューで **[散布図]** の表示形式を選択します。
+1.  チャート タイプのリストから **[散布]** 表示形式を選択します。
 
-    <img src="images/chart-types-scatter.png" alt="Location of the scatter visualization in the change visualization menu" class="responsive-img" width="50%"/>
+<img src="images/scatter-chart-type.png" alt="Location of the scatter visualization in the change visualization menu" class="responsive-img" width="85%"/>
 
 2.  **[X 軸]** と **[Y 軸]** の数値フィールドを選択して、データ ポイントの位置を決定します。
 
 3.  **[ラベル]** のカテゴリ値を選択します。
 
-すべてのデータ ポイントには独自の**ツールチップ**があり、クリックすると表示されます。
+すべてのデータ ポイントには独自の[ツールチップ](../../dashboards/dashboards-interactions.md#ツールチップのホバーと十字線)があり、クリックすると表示されます。
 
 <img src="images/tooltips-scatter-chart.png" alt="Tooltip shown for a particular data point in the scatter chart" class="responsive-img" width="85%"/>
 
@@ -64,7 +64,7 @@ _language: ja
 
 <img src="images/bubble-chart-with-colors.png" alt="Example of adding colors to the basic bubble chart" class="responsive-img" width="85%"/>
 
-上記の例では、*Date* フィールドがカラーボックスに適用されています。色分類を追加すると、部門の数値情報が *2017*、*2018*、*2019* のいずれを参照しているかに応じて、バブルに異なる色が割り当てられます。
+上記の例では、**Date** フィールドが **[カラー]** ボックスに適用されています。色分類を追加すると、部門の数値情報が *2021*、*2022*、*2023*、*2024* のいずれを参照しているかに応じて、バブルに異なる色が割り当てられます。
 
 これにより、バブル チャートの表示形式でより多くのバブルが表示されるようになりました。
 
@@ -87,3 +87,5 @@ _language: ja
   - **チャートの [最小値] および [最大値] を設定できる**。
 
     デフォルトで [最小値] は 0 に設定され、[最大値] は使用されるデータによって設定されます。
+
+  - [この表示形式を別のダッシュボードまたは URL に接続します。](../../dashboards/dashboard-linking.md)

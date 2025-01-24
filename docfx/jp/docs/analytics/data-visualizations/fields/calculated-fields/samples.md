@@ -59,12 +59,12 @@ _language: ja
 
 以下のダッシュボードを参照します。会社の事業部および 2 年間の売上を表示します。
 
-<img src="images/yoy-analysis-revenue-all.png" alt="Dashboard showing a comparision between Revenue Figures for a 2-Year Period" class="responsive-img" width="85%"/>
+<img src="images/yoy-analysis-revenue-all.png" alt="Dashboard showing a comparision between Revenue Figures for a 2-Year Period" class="responsive-img" width="80%"/>
 
 以下の計算フィールドを使用して 2 つの数値を比較できます。「-1」 は年の違いを減算します。
 
-`([Revenue 2017]/[Revenue 2016])-1`
+`([Revenue 2023]/[Revenue 2022])-1`
 
 数値を使用するか、[パーセンテージとして書式](../../fields/field-settings.md#数値フィールド)設定できます。
 
-<img src="images/yoy-analysis-percentage-all.png" alt="Comparing Revenue Figures in yoy analysis while using percentage" class="responsive-img" width="85%"/>
+<img src="images/yoy-analysis-percentage-all.png" alt="Comparing Revenue Figures in yoy analysis while using percentage" class="responsive-img" width="80%"/>

@@ -15,7 +15,7 @@ Slingshot は、分析、データ ソースとセット、表示形式、ダッ
 
 - **ダッシュボードとデータ ソース**: データ カタログは、ユーザーにダッシュボードおよびデータ ソースの広範なカタログへのアクセスを提供することを目的としています。
 
-<!---<img src="../images/data-catalog-example.png" alt="Data Catalog screen within Slingshot" class="responsive-img" width="80%"/>--->
+<!-- <img src="../images/data-catalog-example.png" alt="Data Catalog screen within Slingshot" class="responsive-img" width="80%"/> -->
 
 ### 認証
 
@@ -56,7 +56,7 @@ Slingshot は、分析、データ ソースとセット、表示形式、ダッ
 
 3. **[適用]** をクリックまたはタップして変更を保存します。
 
-<img src="../images/data-sources-filter-dialog.png" alt="Different filters in the data catalog" width="35%" class="responsive-img"/>
+<img src="../images/data-sources-filter-dialog.png" alt="Different filters in the data catalog" class="responsive-img"/>
 
 ## データ カタログの構成
 
@@ -93,16 +93,20 @@ Slingshot は、分析、データ ソースとセット、表示形式、ダッ
    Slingshot ユーザーが、分析、ワークスペース、プロジェクトにある、ダッシュボードまたはデータ ソースを持っているとします。そのコンテンツを組織全体で利用できるようにするには、そのためのプロセスを開始します。
    
    A. ダッシュボードのオーバーフロー (右上) をクリックまたはタップし、**[データ & 分析のカタログに移動]** を選択します。  
-   <img src="../images/data-catalog-dashboard-overflow.png" alt="Data Catalog dashboard overflow within Slingshot" class="responsive-img" width="45%"/> 
-   B. 組織管理者に要求を説明するメッセージを書き込みます。ダッシュボードまたはデータ ソースのコピーを元の場所に保存するかどうかも選択できます。  
-   <img src="../images/data-catalog-request.png" alt="Data Catalog dashboard request within Slingshot" class="responsive-img" width="45%"/>  
+   <img src="../images/data-catalog-dashboard-overflow.png" alt="Data Catalog dashboard overflow within Slingshot" class="responsive-img" />
+
+   B. 組織管理者に要求を説明するメッセージを書き込みます。ダッシュボードまたはデータ ソースのコピーを元の場所に保存するかどうかも選択できます。
+
+   <img src="../images/data-catalog-request.png" alt="Data Catalog dashboard request within Slingshot" class="responsive-img" />  
 
 2. **データ ソースまたはダッシュボードが [レビュー待ち] に移動します。**  
    **レビュー待ち**のリストには、組織の管理者によるレビュー待ちのすべてのデータ ソースまたはダッシュボードが含まれます。
    
 3. **組織の管理者が要求をレビューします。**  
-   組織の管理者はレビュー待ちのダッシュボードまたはデータ ソースを開いて確認できます。バナーが表示されるので (画面の上部)、レビューアーは要求を拒否するか、または要求を承諾してコンテンツをデータ カタログ内に移動できます。  
-   <img src="../images/data-catalog-review.png" alt="Data Catalog dashboard review within Slingshot" class="responsive-img"/>  
+   組織の管理者はレビュー待ちのダッシュボードまたはデータ ソースを開いて確認できます。バナーが表示されるので (画面の上部)、レビューアーは要求を拒否するか、または要求を承諾してコンテンツをデータ カタログ内に移動できます。
+
+   <!-- <img src="../images/data-catalog-review.png" alt="Data Catalog dashboard review within Slingshot" class="responsive-img"/> -->
+
 4. **承認されると、組織の管理者はダッシュボードまたはデータ ソースをデータ カタログ内の場所に移動します。**
 
 5. **ダッシュボードまたはデータ ソースは、組織内のすべてのユーザーが使用できるようになります。**

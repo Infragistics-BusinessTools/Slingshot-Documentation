@@ -10,46 +10,44 @@ _language: ja
 
 通常のチャートには、X 軸と Y 軸が 1 つづつ必要です。複合チャートには 2 つの Y 軸があり、同じチャートに 2 種類のデータ ポイントを表示できます。
 
-<img src="images/combo-chart-example.png" alt="Combo chart sample within Slingshot" class="responsive-img" width="85%"/>
+たとえば、以下に示すように、複合チャートでは、*Territory* に基づいて *Budget vs Spend* を表示できます。
 
-たとえば、上記のように、複合チャートは国の総人口および若い人口を表示して、それらの間の関係を示すことができます。
+<img src="images/combo-chart-example.png" alt="Combo chart sample within Slingshot" class="responsive-img" width="80%"/>
 
-<img src="images/combo-charts-selection.png" alt="Selecting the Combo Chart visualization in Slingshot" class="responsive-img" width="75%"/>
+複合表示形式を作成する手順:
 
-データ ソースと複合の表示形式を選択した後、デフォルトでは、柱状チャートと折れ線チャートを組み合わせて開始します。最初の画像のように、両方のチャートの [ラベル] と [値] を構成する必要があります。
+1. データ ソースを選択します。
+
+2. チャート タイプのリストから **[複合]** チャートを選択します。
+
+<img src="images/combo-chart-selection.png" alt="Combo Chart in a Chart Types list" class="responsive-img" width="80%"/>
+
+3. 両方のチャートのラベルと値を設定します。
+
+<img src="images/combo-chart-configurated-label-values.png" alt="Example of a Combo Chart visulization with configurated Label and Values" class="responsive-img" width="80%"/>
 
 ## 複合チャートの設定
 
-<img src="images/combo-chart-settings.gif" alt="Combo Charts configuration settings in Slingshot" class="responsive-img" width="85%"/>
+<!-- <img src="images/combo-chart-settings.gif" alt="Combo Charts configuration settings in Slingshot" class="responsive-img" width="85%"/> -->
 
 [設定] では:
 
-  - **スタイルを選択できます**。
+  - **スタイルを選択できます** - タイトルまたは凡例を有効にするか、開始色を選択できます。
 
-    タイトルまたは凡例を有効にするか、開始色を選択できます。
+  - **軸を非表示または表示できます**。
 
-  - **自動的なラベル回転を有効にできます**
+  - **自動的なラベル回転を有効にできます**。
 
-  - **ズーム レベルを調整できます**
+  - **ズーム レベルを調整できます**。
 
-  - **一方または両方のチャートの表示形式タイプを変更できます**。
+  - **一方または両方のチャートの表示形式タイプを変更できます** - 7 つの使用可能なタイプ (柱状、積層型柱状、エリア、折れ線、ステップ エリア、ステップ折れ線、スプライン エリア) から選択できます。
 
-    7 つの使用可能なタイプ (柱状、積層型柱状、エリア、折れ線、ステップ エリア、ステップ折れ線、スプライン エリア) から選択できます。
+  - **リニア スケールまたは対数を選択できます** - 対数の場合、値のスケールは通常のリニア スケールを使用する代わりに大きさを使用するリニア スケール以外で計算されます。
 
-  - **リニア スケールまたは対数を選択できます**。
+  - **チャートの最小値および最大値を設定できます** - デフォルトで最小は 0 に設定され、最大値は使用されるデータによって設定されます。
 
-    対数の場合、値のスケールは通常のリニア スケールを使用する代わりに大きさを使用するリニア スケール以外で計算されます。
+  - **両方のチャートの左軸を共有することを選択できます** - デフォルトでは、左軸と右軸が使用されます。
 
-  - **チャートの最小値および最大値を設定できます**。
-
-    デフォルトで最小は 0 に設定され、最大値は使用されるデータによって設定されます。
-
-  - **両方のチャートの左軸を共有することを選択できます**。
-
-    デフォルトでは、左軸と右軸が使用されます。
-
-  - **上のチャートを切り替えることができます**。
-
-    Analytics は、背面に表示されるチャートに不透明度を適用し、より透明にします。
+  - **上のチャートを切り替えることができます** - Analytics は、背面に表示されるチャートに不透明度を適用し、より透明にします。
 
   - **[この表示形式を別のダッシュボードまたは URL に接続できます。](../../dashboards/dashboard-linking.md)**

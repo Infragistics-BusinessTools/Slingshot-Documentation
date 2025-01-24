@@ -56,7 +56,7 @@
 
 <img src="../images/task-template-library-task-list.png" class="responsive-img" alt="Task Template Library button in a task list" width="80%">  
 
-プライベート タスク テンプレートを開くには、プロフィール設定に移動し、[**個人用ライブラリの管理**] をクリックまたはタップします。
+プライベート タスク テンプレートを開くには、プロフィール設定に移動し、**[個人用ライブラリの管理]** をクリックまたはタップします。
 
 <img src="../images/personal-libraries.png" class="responsive-img" alt="Personal Libraries button" width="80%"> 
 

@@ -30,38 +30,45 @@ _language: ja
 <a name='creating-text-view'></a>
 ## テキスト ビューを作成する方法
 
- 1. **[分析]** の右上隅にある **[+ ダッシュボード]** ボタンをクリックまたはタップします。
+ 1. ダッシュボードを保存する場所に応じて、**分析**、ワークスペース、またはプロジェクトでダッシュボード リストを開くことができます。ダッシュボードは後からいつでも別の場所に移動できます。
 
-    <img src="images/new-dashboard-button.png" alt="New Dashboard button in the My Analytics" class="responsive-img" width="90%"/>
+ 2. **[+ ダッシュボード]** ボタンをクリックまたはタップします。
 
- 2. データ ソースのリストから、操作するデータ ソースを選択できます。データ ソースが新しい場合は、**[+ データ ソース]** ボタンから追加する必要があります。
+  <img src="images/dashboard-button-my-analytics.png" alt="New dashboard button in My Analytics" class="responsive-img" width="80%"/>
 
-     <img src="images/new-visualization-screen.png" alt="Data Sources list" class="responsive-img" width="90%"/>
+ 3. データ ソースのリストから、操作するデータ ソースを選択できます。データ ソースが新しい場合は、**[+ データ ソース]** ボタンから追加する必要があります。
 
- 3. データ ソースを構成したら、**Slingshot tutorials Spreadsheet** を選択します。次に、*Simple Series Charts* シートを選択します。 
+  <img src="images/new-visualization-screen.png" alt="Data Sources list" class="responsive-img" width="80%"/>
 
-     <img src="images/tutorials-simple-series-charts-spreadsheet.png" alt="Simple Series Charts Spreadsheed in the example data source " class="responsive-img" width="60%"/>
+ 4. データ ソースを構成したら、**Slingshot Visualization Tutorials** を選択します。次に、*Simple Series Charts* シートを選択します。 
 
- 4.  **表示形式ピッカー**を開き、**テキスト ビュー**を選択します。デフォルトで、表示形式のタイプは**柱状**に設定されています。  
+  <img src="images/tutorials-simple-series-charts-spreadsheet.png" alt="Simple Series Charts Spreadsheed in the example data source " class="responsive-img" width="65%"/>
 
-      <img src="images/text-view-chart-types.png" alt="Text View in the Chart Types list" class="responsive-img" width="70%"/>
-5. たとえば、上記のテキスト ビューには、特定の国の人口、平均余命および出生率が表示されます。「Country Name」、「Population」、「Life Expectancy」、「Fertility Rate」を [列] にドラッグアンドドロップします。
+ 5.  **表示形式ピッカー**を開き、**テキスト ビュー**を選択します。デフォルトで、表示形式のタイプは**柱状**に設定されています。  
 
-     <img src="images/organizing-data-text-view.png" alt="Organize Text View data" class="responsive-img" width="70%"/>
+  <img src="images/text-view-chart-types.png" alt="Text View in the Chart Types list" class="responsive-img" width="80%"/>
+
+ 6. たとえば、上記のテキスト ビューには、特定の国の人口、平均余命および出生率が表示されます。*Country Name*、*Population*、*Life Expectancy*、*Fertility Rate* を **[列]** にドラッグアンドドロップします。
+
+  <img src="images/organizing-data-text-view.png" alt="Organize Text View data" class="responsive-img" width="80%"/>
 
 <a name='changing-selected-row'></a>
 ## 選択された行を変更する方法
 
 デフォルトで、テキスト ビューはシートの最初の行を表示されます。これを変更するためにフィルターを適用できます。たとえば、テキスト ビューに行 9 (ボスニア・ヘルツェゴビナ) を表示させます。
 
-1.「Country Name」フィールドを **[データ フィルター]** にドラッグ アンド ドロップします。   
+1.*Country Name* フィールドを **[データ フィルター]** にドラッグ アンド ドロップします。   
 
-  <img src="images/select-data-filter-text-view.png" alt="Select a data filter for Text View" class="responsive-img" width="70%"/>
+  <img src="images/select-data-filter-text-view.png" alt="Select a data filter for Text View" class="responsive-img" width="80%"/>
 
 2. [フィルター タイプ] を選択してドロップダウン メニューを有効にし、**[値の選択]** を選択します。
 
-     <img src="images/data-filter-dialog-select-value-text-view.png" alt="Select Value option from the list of Filter Types" class="responsive-img" width="70%"/>  
+  <img src="images/data-filter-dialog-select-value-text-view.png" alt="Select Value option from the list of Filter Types" class="responsive-img" width="80%"/>  
 
 3. デフォルトでは、すべての値が選択済です。**[すべて]** ボックスのチェックを外し、**Bosnia and Herzegovina** のみを選択します。次に、**[フィルターの作成]** を選択します。 
 
-    <img src="images/data-filter-select-value-example.png" alt="Choose country from the list of Selected Values" class="responsive-img" width="70%"/> 
+  <img src="images/data-filter-select-value-example.png" alt="Choose country from the list of Selected Values" class="responsive-img" width="80%"/>
+
+4. 変更を反映するために表示形式が更新されます。
+
+  <img src="images/new-value-text-view-example.png" alt="Choose country from the list of Selected Values" class="responsive-img" width="80%"/>

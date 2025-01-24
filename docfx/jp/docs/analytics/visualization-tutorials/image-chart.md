@@ -22,22 +22,24 @@ _language: ja
 
 このチュートリアルでは、[Slingshot Visualization Tutorials](https://download.infragistics.com/slingshot/samples/Slingshot_Visualization_Tutorials.xlsx) の *Image Chart* シートを使用します。
 
- 1. **[分析]** で、右上隅にある **[+ ダッシュボード]** を選択します。
+ 1. ダッシュボードを保存する場所に応じて、**分析**、ワークスペース、またはプロジェクトでダッシュボード リストを開くことができます。ダッシュボードは後からいつでも別の場所に移動できます。
 
-    <img src="./images/new-dashboard-button.png" alt="New dashboard button in My Analytics" class="responsive-img" width="80%"/> 
+ 2. **[+ ダッシュボード]** ボタンをクリックまたはタップします。
 
- 2. ダイアログが開き、すでに追加されているデータ ソースのリストが表示されます。Visualization Tutorial (表示形式チュートリアル) ファイルは、すでに使用している場合はデータ ソースとしてそこにあります。ファイルを追加していない場合は、**[+ データ ソース]** ⇒ **[データ ファイル]** ⇒ **[+ 新規]** ⇒ **[アップロード]** をクリックまたはタップして ⇒ ファイルを選択し、**[選択して続行]** ををクリックまたはタップしてリストに含めます。
+   <img src="images/dashboard-button-my-analytics.png" alt="New dashboard button in My Analytics" class="responsive-img" width="80%"/> 
 
-    <img src="images/select-your-data-source-dialog.png" alt="Select and add data source from the data sources list" class="responsive-img" width="90%" height="90%"/>
+ 3. ダイアログが開き、すでに追加されているデータ ソースのリストが表示されます。Visualization Tutorial (表示形式チュートリアル) ファイルは、すでに使用している場合はデータ ソースとしてそこにあります。ファイルを追加していない場合は、**[+ データ ソース]** ⇒ **[データ ファイル]** ⇒ **[+ 新規]** ⇒ **[アップロード]** をクリックまたはタップして ⇒ ファイルを選択し、**[選択して続行]** ををクリックまたはタップしてリストに含めます。
 
- 3. データ ソースを設定した、*Image View* シートを選択します。                                
+   <img src="images/select-your-data-source-dialog.png" alt="Select and add data source from the data sources list" class="responsive-img" width="80%"/> 
 
-    <img src="images/image-view-visualization-tutorials.png" alt="Image View sheet in Excel Spreadsheet" class="responsive-img" width="57%"/>
+ 4. データ ソースを設定したら、*Image View* シートを選択します。
 
- 4. デフォルトで、表示形式のタイプは**柱状**に設定されています。**画像**オプションを選択します。
+   <img src="images/image-view-visualization-tutorials.png" alt="Image View sheet in Excel Spreadsheet" class="responsive-img" width="60%"/>
 
-    <img src="./images/chart-types-image.png" alt="Image View in the list of Chart types" class="responsive-img" width="90%"/>  
+ 5. デフォルトで、表示形式のタイプは**柱状**に設定されています。**画像**オプションを選択します。
 
-5. 使用可能なフィールドのいずれかを **[URL]** にドラッグします。
+   <img src="./images/chart-types-image.png" alt="Image View in the list of Chart types" class="responsive-img" width="80%"/>  
 
-    <img src="./images/image-chart-data-organization.png" alt="Organize data in Image View by dragging fields into URL" class="responsive-img" width="90%"/>
+6. 使用可能なフィールドのいずれかを **[URL]** にドラッグします。
+
+<img src="./images/image-chart-data-organization.png" alt="Organized data in Image View" class="responsive-img" width="80%"/>

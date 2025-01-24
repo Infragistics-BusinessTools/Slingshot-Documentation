@@ -81,7 +81,7 @@ td {
     </td>
     <td>
       <img src="images/Candlestick-chart.png" alt="Candlestick Chart icon" /><br/>
-      <a href="visualization-types/financial-charts.md">ロウソク足</a>
+      <a href="visualization-types/financial-charts.md">ローソク足</a>
     </td>
     <td>
       <img src="images/time-series-chart.png" alt="Time Series Chart icon" /><br/>
@@ -166,7 +166,7 @@ td {
     </td>
     <td>
       <img src="images/candlestick-Chart.png" alt="Candlestick Chart icon" /><br/>
-      <a href="visualization-types/financial-charts.md">ロウソク足</a>
+      <a href="visualization-types/financial-charts.md">ローソク足</a>
     </td>
     <td>
       <img src="images/radial-Chart.png" alt="Radial Chart icon" /><br/>
