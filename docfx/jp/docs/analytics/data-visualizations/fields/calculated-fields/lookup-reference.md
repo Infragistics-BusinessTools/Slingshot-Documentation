@@ -1,10 +1,10 @@
 ---
-title: ルックアップおよび参照計算フィールドを使用する方法
-_description: ルックアップおよび参照計算フィールドを使用してダッシュボードの詳細情報を取得する方法を説明します。
+title: 検索/行列計算フィールドを使用する方法
+_description: 検索/行列計算フィールドを使用してダッシュボードの詳細情報を取得する方法を説明します。
 _language: ja
 ---
 
-# Lookup & 参照計算フィールド
+# 検索/行列計算フィールド
 
 
 検索/行列フィールドは、現在のスプレッドシートとダッシュボードで動作し、セル、行、ダッシュボード変数へのテキスト参照を返します。
@@ -28,7 +28,7 @@ _language: ja
     <th class="tg-cly1"><span style="font-weight:bold">構文とサンプル</span></th>
   </tr>
   <tr>
-    <td class="tg-cly1" rowspan="2"><a href="#calc-fields-previous">previous</a>: <span class="gray-snippet-cstm">previous</span> は、<span class="gray-snippet-cstm">式</span>として選択したフィールドの値で結果を取得できます。</td>
+    <td class="tg-cly1" rowspan="2"><a href="#calc-fields-previous">previous</a>: <span class="gray-snippet-cstm">previous</span> は、<span class="gray-snippet-cstm">expression</span> として選択したフィールドの値で結果を取得できます。</td>
     <td class="tg-cly1"><span style="font-weight:bold">構文</span>: <span class="gray-snippet-cstm">previous({expression},{first value})</span></td>
   </tr>
   <tr>
@@ -46,15 +46,15 @@ _language: ja
 <a name='calc-fields-previous'></a>
 ## Previous
 
-previous の計算フィールドでは、`式`で選択したフィールドの値で結果を取得できます。引数を 2 つ設定します。
+previous の計算フィールドでは、`expression` で選択したフィールドの値で結果を取得できます。引数を 2 つ設定します。
 
-  - `式`: データ ソースのフィールドの 1 つ。
+  - `expression`: データ ソースのフィールドの 1 つ。
 
-  - `最初の値`: デフォルトで空の最初の行の値。
+  - `first value`: デフォルトで空の最初の行の値。
 
 ### サンプル
 
-以下は、HR Dataset 2016.xlsx「Employees」シートを抽出したものです。
+以下は、HR Dataset 2016.xlsx の 「Employees」 シートを抽出したものです。
 
 | EMPLOYEEID | FULLNAME          | DEPARTMENT  | OFFICE                    | WAGE     |
 | ---------- | ----------------- | ----------- | ------------------------- | -------- |

@@ -27,7 +27,7 @@ _language: ja
 
 フィールドのバインでは、ダッシュボード フィルターのデータセット スキーマ、および表示形式のスキーマ間の結合関係を構成することができます。使用する [ダッシュボード フィルター] を選択して**接続します**。
 
-<img src="images/editor-view-dashboard-filter.png" alt="Field binding menu" class="responsive-img" width="60%"/>
+<img src="images/editor-view-dashboard-filter.png" alt="Field binding menu" class="responsive-img" />
 
 上記のダイアログで以下を構成する必要があります。
 
@@ -38,7 +38,7 @@ _language: ja
       - **等しい**: フィールド値とダッシュボード フィルター選択の両方が等しい必要があります。
 
       - **含む**: 文字列フィールドで使用されることを意図し、フィールドの値にダッシュボード フィルター選択が含まれている場合に有効になる一致を返します。
-たとえば、表示形式 = `FRANCE` 含む フィルター = `FRA` 。
+たとえば、表示形式 = `FRANCE` 含む フィルター = `FRA`。
 
       - **範囲**: 日付範囲ダッシュボード フィルターでのみ使用します。
 
@@ -50,7 +50,7 @@ _language: ja
 
 ダッシュボード フィルターをパラメーターに接続するには、[フィールド バインド](#フィールドのバインド)の手順に従います。データ ソース パラメーターは、[フィルター接続の編集] ダイアログの表示形式ドロップダウン リストの下部にあります。
 
-<img src="images/data-source-parameters-dashboard-filter.png" alt="Parameters binding list" class="responsive-img" width="37%"/>
+<img src="images/data-source-parameters-dashboard-filter.png" alt="Parameters binding list" class="responsive-img" />
 
 >[!NOTE]
 >日付フィルター: ダッシュボード フィルターのみをパラメーターにバインドできます。パラメーターへの日付フィルターのバインドはサポートされていません。

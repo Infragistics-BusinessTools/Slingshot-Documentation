@@ -6,9 +6,9 @@ _language: ja
 
 # グリッド チャート
 
-## 表示形式エディターでグリッド チャートを操作する 
+## 表示形式エディターでグリッド チャートを操作する
 
-グリッド チャートは、データを表示するための １つの視覚化オプションであり、情報を行列で表示します。グリッド ヘッダーを選択してグリッド内の**列の幅を変更する**ことができます。それによってグリッド内の列を強調表示し、列ヘッダーのサイズ変更ハンドルをドラッグします。列幅を変更するには右または左へスライドさせます。
+グリッド チャートは、データを表示するための １つの表示形式オプションであり、情報を行列で表示します。グリッド ヘッダーを選択してグリッド内の**列の幅を変更する**ことができます。それによってグリッド内の列を強調表示し、列ヘッダーのサイズ変更ハンドルをドラッグします。列幅を変更するには右または左へスライドさせます。
 
 <img src="images/grid-chart-example.png" alt="Resizing a column's width in a grid chart" class="responsive-img" width="85%"/>
 
@@ -25,12 +25,12 @@ _language: ja
 
 **ダッシュボード ビュー モード**でグリッド チャートの列の並べ替え (昇順や降順) を変更できます。列名の横にある矢印ボタンを選択して変更できます。
 
-<img src="images/grid-chart-sorting.png" alt="Grid Chart Sorting Columns Options" class="responsive-img" width="50%"/>
+<img src="images/grid-chart-sorting.png" alt="Grid Chart Sorting Columns Options" class="responsive-img" />
 
 複数の並べ替え条件を適用できます。次に、既存の列ヘッダーの横に小さな番号が表示されます。矢印の方向は、昇順または降順のどちらの並べ替えを適用したかを判断するのに役立ちます。
 
-<img src="images/grid-chart-sorting-number-options.png" alt="Sorting View All Numbers" class="responsive-img" width="50%"/>
+<img src="images/grid-chart-sorting-number-options.png" alt="Sorting View All Numbers" class="responsive-img" />
 
 並べ替えオプションは、[すべてクリア] または [なし] で削除できます。他に削除されていない並べ替えオプションがある場合、順序は列ヘッダーの横の番号によって決定されます。
 
-<img src="images/grid-chart-none-sorting-option.png" alt="Sorting View Mode Remove" class="responsive-img" width="50%"/>
+<img src="images/grid-chart-none-sorting-option.png" alt="Sorting View Mode Remove" class="responsive-img" />

@@ -10,7 +10,7 @@
 
 2. **[製品のフィードバック]** をタップ/クリックします。
 
- <img src="../images/give-feedback-button.png" alt="Feedback button in the user account settings" class="responsive-img" width="35%"/>
+ <img src="../images/give-feedback-button.png" alt="Feedback button in the user account settings" class="responsive-img" width="80%"/>
 
 3. ウィンドウがポップアップし、次のことができます:
 
@@ -22,6 +22,6 @@
 
 - システム情報を含めることができます。常にこの情報をフィードバックに含めることをお勧めします。これにより、問題の概要をより適切に把握することができます。
 
- <img src="../images/feedback-options.png" alt="Feedback options" width="45%" class="responsive-img"/>
+ <img src="../images/feedback-options.png" alt="Feedback options" class="responsive-img" width="80%"/>
 
 ユーザー アカウントおよび設定にあるその他のオプションの詳細については、[こちら](https://www.slingshotapp.io/ja/help/docs/user-account)をクリックしてください。

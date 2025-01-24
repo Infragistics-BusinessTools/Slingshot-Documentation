@@ -19,7 +19,7 @@ _language: ja
 
 ダッシュボード フィルター リストからデータセットを削除するには、ダッシュボード フィルターの横にあるオーバーフロー ボタンを選択し、**[削除]** を選択します。
 
-<img src="images/delete-filter-option.png" alt="Removing a dashboard filter with the delete option" class="responsive-img"/>
+<img src="images/delete-filter-option.png" alt="Removing a dashboard filter with the delete option" class="responsive-img" width="85%"/>
 
 ## ダッシュボード フィルターと表示形式エディター
 

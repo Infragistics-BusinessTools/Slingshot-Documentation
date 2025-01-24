@@ -8,9 +8,17 @@ _language: ja
 
 [分析] で特定のデータ ソースを設定するとき、これらのサービスが情報にアクセスするためのアカウント資格情報を提供する必要があります。今後のアクセスのために、資格情報は暗号化されて [分析] に**自動的に保存されます**。
 
-すべての資格情報にアクセスして管理するには、**プロフィール写真** (右上隅) ⇒ **[設定]** ⇒ **[データ ソースの資格情報]** セクションを選択します。
+すべての資格情報にアクセスして管理するには:
 
- <img src="images/data-source-credentials-settings.png" alt="A list of data source credentials in the settings menu" class="responsive-img" width="55%"/>
+1. **プロフィール写真** (右上隅) を選択します。
+
+2. **[設定]** をクリックまたはタップします。
+
+ <img src="images/user-settings.png" alt="User Settings" class="responsive-img" />
+
+3. **[データ ソースの資格情報]** を選択します。
+
+ <img src="images/data-source-credentials-settings.png" alt="A list of data source credentials in the settings menu" class="responsive-img" />
 
 ## 新しいアカウント資格情報の追加
 
@@ -19,7 +27,7 @@ _language: ja
 1. **[データ ソースの資格情報]** で、**[+ 新規]** 青いボタン (右上隅) をクリックまたはタップします。 
 2. **[資格情報の追加]** メニューが開きます。
 
-  <img src="images/add-new-data-source-data-source-credentials.png" alt="Add New Account Credentials dialog" class="responsive-img" width="55%"/>
+  <img src="images/add-new-data-source-data-source-credentials.png" alt="Add New Account Credentials dialog" class="responsive-img" />
 
   - **ユーザー名 / ドメイン**: サービスのユーザー名またはドメイン名。
 
@@ -33,7 +41,7 @@ _language: ja
 
 それらを削除しない限り、資格情報を必要とするデータ ソースを構成するときに、[分析] に保存されているアカウントの資格情報が常にアカウントの一覧に表示されます。
 
-<img src="images/stored-credentials-data-sources-list.png" alt="Example of stored credentials for a data source" class="responsive-img" width="80%"/>
+<img src="images/stored-credentials-data-sources-list.png" alt="Example of stored credentials for a data source" class="responsive-img" width="85%"/>
 
 > [!NOTE] 
 >役立つヒント! 複数のデータ ソースで使用する予定のすべての資格情報をここに追加して整理するために時間をかけてください。

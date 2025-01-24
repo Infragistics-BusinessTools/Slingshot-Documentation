@@ -26,7 +26,7 @@
 </p></td>
 <td><p><img src="images/candlestick-chart-icon.png" alt="Candlestick Chart icon" /><br />
 </p>
-<p><a href="candlestick-chart.md">ロウソク足</a><br />
+<p><a href="candlestick-chart.md">ローソク足</a><br />
 </p></td>
 <td><p><img src="images/circular-gauge-icon.png" alt="Circular Gauge icon" /><br />
 </p>

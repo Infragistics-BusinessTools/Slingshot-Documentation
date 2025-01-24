@@ -8,11 +8,11 @@
 
 アカウントに初めてログインすると、以下のダイアログが表示されます。
 
-1. 業界を選択できるダイアログ。オプションに表示されない場合は、**[その他]** をクリックして手動で追加できます。
+1. 業界を選択できるダイアログ。オプションに表示されない場合は、**[その他]** を選択して手動で追加できます。
 
  <img src="../images/industry-onboarding.png" alt="Dialog with list of industries" width="80%" class="responsive-img"/>
 
-2. 次のダイアログで部署を選択できます。リストにない場合は、**[その他]** をクリックして手動で追加できます。
+2. 次のダイアログで部署を選択できます。リストにない場合は、**[その他]** を選択して手動で追加できます。
 
  <img src="../images/onboarding-departments.png" alt="Dialog with a list of departments" width="80%" class="responsive-img"/>
 

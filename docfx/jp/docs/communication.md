@@ -12,7 +12,7 @@ _language: ja
 
 組織、ワークスペース、またはプロジェクトのメンバーが使用するコミュニケーション方法です。ディスカッションはさまざまなスレッドで構成されているため、すべてのコミュニケーションやコラボレーション ツールを 1 か所にまとめることができるため、離れた場所にいても生産性を維持できます。
 
-<img src="../images/discussions-thread.png" alt="Example of a Slingshot discussion thread" class="responsive-img" width="70%"/>
+<img src="../images/discussions-thread.png" alt="Example of a Slingshot discussion thread" class="responsive-img" width="80%"/>
 
 テキストの書式設定、添付ファイル、絵文字、リンクを組み合わせて複数のディスカッションを同時に行うことができます。さらに、会話に反応し、メッセージからタスクを作成することもできます。
 
@@ -26,7 +26,7 @@ _language: ja
 
 [**チャット**](https://www.slingshotapp.io/ja/help/docs/chat-faq)もコミュニケーションのツールですが、[**ディスカッション**](https://www.slingshotapp.io/ja/help/docs/discussions-faq)とは異なり、ワークスペースやプロジェクトとは関係ありません。つまり、Slingshot を使用して任意の Slingshot ユーザーとチャットできます。また、組織のメンバーではない個人アカウントを持つユーザーとチャットすることもできます。
 
-<img src="../images/chat-example.png" alt="An example of a chat conversation" class="responsive-img" width="65%" />
+<img src="../images/chat-example.png" alt="An example of a chat conversation" class="responsive-img" width="70%" />
 
 ## 複数のデバイスからのチャット
 

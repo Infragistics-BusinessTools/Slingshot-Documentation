@@ -1,6 +1,6 @@
 ---
 title: Slingshot でスパークライン チャートの表示形式を作成する方法
-_description: サンプルス プレッドシートを使用してスパークライン チャートの表示形式を作成する方法を説明します。
+_description: サンプル スプレッドシートを使用してスパークライン チャートの表示形式を作成する方法を説明します。
 _language: ja
 ---
 
@@ -59,21 +59,21 @@ _language: ja
 
    <img src="images/new-dashboard-button.png" alt="New Dashboard button in My Analytics" class="responsive-img" width="90%"/>  
 
-2. データ ソースのリストからデータ ソース (**Slingshot Tutorials Spreadsheet**) を選択します。データ ソースが新しい場合は、最初に右上隅の **[+ データ ソース]** ボタンから追加する必要があります。
+2. データ ソースのリストからデータ ソース (**Slingshot Visualization Tutorials**) を選択します。データ ソースが新しい場合は、最初に右上隅の **[+ データ ソース]** ボタンから追加する必要があります。
 
-   <img src="images/visualization-tutorials-sample.png" alt="Select Slingshot Tutorials Spreadsheet as a data source" class="responsive-img" width="70%"/>                                         
+   <img src="images/visualization-tutorials-sample.png" alt="Select Slingshot Visualization Tutorials as a data source" class="responsive-img" width="80%"/>                                         
 
 3. *Sparkline Charts* シートを選択します。
 
-   <img src="images/sparkline-charts-spreadsheet.png" alt="Select Sparkline Charts Spreadsheet.png" class="responsive-img" width="70%"/>
+   <img src="images/sparkline-charts-spreadsheet.png" alt="Select Sparkline Charts Spreadsheet.png" class="responsive-img" width="65%"/>
 
 4. **表示形式ピッカー**を開き、**スパークライン チャート**を選択します。デフォルトで、表示形式のタイプは**柱状**に設定されています。
 
-    <img src="images/chart-types-sparkline.png" alt="Tutorials-Charts-Select-Sparkline-Chart" class="responsive-img" width="70%"/>
+    <img src="images/chart-types-sparkline.png" alt="Tutorials-Charts-Select-Sparkline-Chart" class="responsive-img" width="80%"/>
 
 5. *Date* フィールドを **[日付]** に、*Offer* を **[値]** に、*Stocks* を **[カテゴリ]** にドラッグ アンド ドロップします。
 
-   <img src="images/sparkline-charts-organizing-data.png" alt="Organize SparklineChart Data" class="responsive-img" width="70%"/>
+   <img src="images/sparkline-charts-organizing-data.png" alt="Organize SparklineChart Data" class="responsive-img" width="80%"/>
 
 <a name='change-chart-type-sparkline'></a>
 ## スパークラインのチャート タイプを変更する方法
@@ -82,7 +82,7 @@ _language: ja
 
 |                                  |                                                                                        |                                                                     |
 | -------------------------------- | -------------------------------------------------------------------------------------- | ------------------------------------------------------------------- |
-| 1\. **設定メニューへアクセスする** | <img src="images/sparkline-charts-settings.png" alt="Settings Menu" class="responsive-img"/>                 | 表示形式エディターの **[設定]** セクションに移動します。         |
+| 1\. **設定メニューにアクセスする** | <img src="images/sparkline-charts-settings.png" alt="Settings Menu" class="responsive-img"/>                 | 表示形式エディターの **[設定]** セクションに移動します。         |
 | 2\. **チャート タイプを変更する**    | <img src="images/area-sparkline-chart.png" alt="Different chart types for Sparkline" class="responsive-img"/> | デフォルトで、チャート タイプは [折れ線] に設定されています。[エリア] に設定します。 |
 
 <a name='change-date-aggregation'></a>
@@ -92,7 +92,7 @@ _language: ja
 
 |                                  |                                                                                                      |                                                                                                                                                      |
 | -------------------------------- | ---------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1\. **設定メニューへアクセスする** | <img src="images/sparkline-charts-settings.png" alt="Settings Menu" class="responsive-img"/>                              | 表示形式エディターの **[設定]** セクションに移動します。                                                                                          |
+| 1\. **設定メニューにアクセスする** | <img src="images/sparkline-charts-settings.png" alt="Settings Menu" class="responsive-img"/>                              | 表示形式エディターの **[設定]** セクションに移動します。                                                                                          |
 | 2\. **集計を変更する**   | <img src="images/sparkline-chart-date-aggregation.png" alt="Option to Change the Date Aggregation for Sparkline chart" class="responsive-img"/>  | デフォルトで、[表示: 過去] 設定は **[月]** に設定されます。[月] の横のドロップダウンを選択し、[年] または [日] に変更します。|
 
 日付の集計の隣にある数値を変更して、表示するデータを増減できます。
@@ -104,5 +104,5 @@ _language: ja
 
 |                                      |                                                                                    |                                                                                                                                                          |
 | ------------------------------------ | ---------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1\. **設定メニューへアクセスする**     | <img src="images/sparkline-charts-settings.png" alt="Settings Menu" class="responsive-img" width="100%"/>             | 表示形式エディターの **[設定]** セクションに移動します。                                                                                              |
+| 1\. **設定メニューにアクセスする**     | <img src="images/sparkline-charts-settings.png" alt="Settings Menu" class="responsive-img" width="100%"/>             | 表示形式エディターの **[設定]** セクションに移動します。                                                                                              |
 | 2\. **表示列を変更する** | <img src="images/sparkline-chart-columns-options.png" alt="Different options for the columns in a Sparkline Chart" class="responsive-img" width="100%"/> | どちらもスパークラインに表示しない場合は、**[最後の 2 つの値の列を表示] または [差異のある列を表示] ボックスをオフにします**。|

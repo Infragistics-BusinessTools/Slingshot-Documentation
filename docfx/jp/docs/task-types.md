@@ -18,7 +18,7 @@
 
 最後に、タスクの管理をより効率的にするために **「開始日」** と **「期日」** フィールドも保持しました。 
 
-<img src="../images/task-type-example.png" alt="Example of a task type" class="responsive-img" width="80%" />
+<img src="../images/example-task-type.png" alt="Example of a task type" class="responsive-img" width="80%" />
 
 ## タスク タイプ ライブラリとは何ですか?
 
@@ -38,7 +38,7 @@
 
 3.	**[タスク タイプ ライブラリ]** を開くと、組織内のすべてのタスク タイプのリストが表示されます。
 
-<img src="../images/task-types-library-organization.png" alt="Example of a Task Types Library for an organization" class="responsive-img" width="80%" />
+<img src="../images/task-types-library-organization.png" alt="Example of a Task Types Library for an organization" class="responsive-img" width="65%" />
 
 >[!Note] 組織内のタスク タイプを削除できるのは、管理者権限を持つユーザーのみです。
 
@@ -69,11 +69,9 @@
 
 <img src="../images/workspace-settings-overflow-menu.png" alt="Workspace Settings" class="responsive-img" width="80%" />
 
-3.	**[タスク タイプ ライブラリ]** を選択します。ワークスペースやそのプロジェクトで使用されているタスク タイプのリストが表示されます。
+3.	**[タスク タイプ ライブラリ]** を選択します。ワークスペースやそのプロジェクトで使用されているタスク タイプのリストが表示されます。ここからタイプを編集、複製、削除することができます。**[+ タイプ]** ボタンから新しいタスク タイプを作成することもできます。
 
-<img src="../images/workspace-task-types-library.png" alt="Example of workspace Task Types Library" class="responsive-img" width="80%" />
-
-ここからタイプを編集、複製、削除することができます。**[+ タイプ]** ボタンから新しいタスク タイプを作成することもできます。
+<img src="../images/workspace-task-types-library.png" alt="Example of workspace Task Types Library" class="responsive-img" width="65%" />
 
 ワークスペース内で編集者または管理者の権限を持つすべてのユーザーがライブラリを変更できます。つまり、タイプを編集、複製、または削除できます。新しいタスク タイプを作成することもできます。
 
@@ -97,7 +95,7 @@
 
 <img src="../images/task-types-library-button-action.png" alt="Task Types Library option" class="responsive-img" width="80%" />
 
-4.	**[+タイプ]** をクリックまたはタップします。
+4.	**[+ タイプ]** をクリックまたはタップします。
 
 <img src="../images/new-task-type-button.png" alt="Button Action option" class="responsive-img" width="80%" />
 
@@ -165,7 +163,7 @@
 
 すでにタスクを作成している場合、またはタスクを作成中の場合は、次の場合にタイプを選択できます。
 
-1.	タスクリストの右上にある **[+ タスク]** ボタンをクリックまたはタップします。
+1.	タスク リストの右上にある **[+ タスク]** ボタンをクリックまたはタップします。
 
 2.	タスクの左上にあるアイコンから **[変換先]** を選択します。
 
@@ -185,7 +183,7 @@
 
 2.	**[変換先]** をクリックまたはタップします。
 
-3.	新しいタイプを選択します。この場合、*「Content Creation」* を選択しました。
+3.	新しいタイプを選択します。この場合、*Campaign Type* を選択しました。
 
 <img src="../images/different-task-types.png" alt="Example of a list of different task types" class="responsive-img" width="80%" />
 
@@ -205,7 +203,7 @@
 
 1.	タスクを開きます。
 
-2.	右上隅のタスク タイプをクリックまたはタップしてタイプを選択します。この場合は、*「Content Creation」* を選択しました。
+2.	右上隅のタスク タイプをクリックまたはタップしてタイプを選択します。この場合は、*Content Creation* を選択しました。
 
 <img src="../images/convert-to-new-task-type.png" alt="Option to convert to a new task type" class="responsive-img" width="80%" />
 
@@ -259,7 +257,7 @@
 
 6.	サブタスクはタスク リスト内の親タスクの下に表示されます。
 
-<img src="../images/subtask-parent-task-task-list.png" alt="Example of a subtask with a type in a parent task" class="responsive-img" width="80%" />
+<img src="../images/subtask-parent-task.png" alt="Example of a subtask with a type in a parent task" class="responsive-img" width="80%" />
 
 サブタスクが同じ基準を共有する場合は、サブタスクにデフォルトのタイプを設定して、すべての新しいサブタスクが同じタイプになるようにすることができます。
 
