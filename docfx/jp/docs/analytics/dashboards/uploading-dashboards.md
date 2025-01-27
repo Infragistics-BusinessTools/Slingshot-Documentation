@@ -14,7 +14,7 @@ Slingshot では、直接アップロードしてコンピューター/デバイ
 
 3. オーバーフロー メニューから **[アップロード]** を選択します。
 
-    <img src="images/dashboard-upload-option.png" alt="Upload dashboard option" class="responsive-img" width="80%"/>
+<img src="images/dashboard-upload-option.png" alt="Upload dashboard option" class="responsive-img" width="85%"/>
 
 2.  ローカル ファイルを表示するダイアログが開きます。アップロードするダッシュボードをダブルクリックまたはタップします。Reveal ダッシュボードのファイル拡張子は **.rdash** です。
 

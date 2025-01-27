@@ -45,12 +45,12 @@ Analytics では、ダッシュボード全体のスクリーン キャプチャ
 
 注釈メニューの上部ツールバーには、形状の追加やフリースタイルの注釈など、多くのオプションがあります。
 
-<img src="images/export-image-toolbar.png" alt=" Toolbar with different shapes options" class="responsive-img" width="80%"/>
+<img src="images/export-image-toolbar.png" alt=" Toolbar with different shapes options" class="responsive-img" width="85%"/>
 
 
 テキストのオプションでは画像の上にテキストを追加できます。背景色、フォントの太さ、フォント サイズ、フォント カラーなど、テキストをカスタマイズするオプションを提供します。
 
-<img src="images/text-option-in-export-image.png" alt="Adding text in image annotation" class="responsive-img" width="80%"/>
+<img src="images/text-option-in-export-image.png" alt="Adding text in image annotation" class="responsive-img" width="85%"/>
 
 
-**Android および iOS** デバイスでの画像のエクスポートについては、[ダッシュボードをエクスポート](how-to-export-a-dashboard.md#mobile-devices)トピックを参照してください。
+**Android および iOS** デバイスでの画像のエクスポートについては、[ダッシュボードをエクスポート](how-to-export-a-dashboard.md#モバイル-デバイスでの画像とダッシュボードのエクスポート)トピックを参照してください。

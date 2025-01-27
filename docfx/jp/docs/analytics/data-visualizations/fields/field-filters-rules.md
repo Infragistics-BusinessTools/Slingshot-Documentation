@@ -8,21 +8,21 @@ _language: ja
 
 データセットのフィールドにもフィルターとルールを適用できます。そのためには、データ エディターの下部にある **[データ フィルター]** プレースホルダーにフィールドを追加する必要があります。次に、ドロップダウン メニューからフィールドを選択して、**データ フィルター** ウィンドウにアクセスします。
 
-<img src="images/data-filter-visualization-editor.png" alt="Adding data filter fields list" class="responsive-img" width="70%"/>
+<img src="images/data-filter-visualization-editor.png" alt="Adding data filter fields list" class="responsive-img" width="80%"/>
 
 <a name='empty-values'></a>
 ## 空値をフィルター
 
 分析は特定の列で空値のフィルター構成の設定を有効にすることによって、特定の列に null、または空の値を持つデータ セット内の行をフィルタリングする機能を提供します。
 
-<img src="images/data-filter-filter-empty-values-option.png" alt="Filter Empty Values in the list of filter types" class="responsive-img" width="40%"/>
+<img src="images/data-filter-filter-empty-values-option.png" alt="Filter Empty Values in the list of filter types" class="responsive-img" />
 
 <a name='select-values'></a>
 ## 値の選択
 
 このタイプのフィルターは、特定のフィールドに表示する値セットの定義をサポートします。これを有効にするには、フィールドを **[データ フィルター]** プレースホルダーにドラッグアンドドロップします。
 
-<img src="images/data-filter-select-values.png" alt="Select Values option in the list of filter types" class="responsive-img" width="40%"/>
+<img src="images/data-filter-select-values.png" alt="Select Values option in the list of filter types" class="responsive-img" />
 
 **[フィールド設定]** ダイアログに、**[値の選択]** オプションが表示されます。列に使用可能な値のリストを表示し、データセット内に残したい項目のみを選択できます。フィルターによって除外された値を持つ行は表示形式に表示されません。
 

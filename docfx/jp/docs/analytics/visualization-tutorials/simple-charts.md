@@ -54,22 +54,22 @@ _language: ja
 
 1. **[分析]** セクションの右上隅にある **[+ ダッシュボード]** ボタンを選択します。
 
-   <img src="images/new-dashboard-button.png" alt="New Dashboard button in My Analytics" class="responsive-img" width="80%"/>
+<img src="images/new-dashboard-button.png" alt="New Dashboard button in My Analytics" class="responsive-img" width="85%"/>
 
 2. データ ソースのリストからデータ ソース (**Slingshot Visualization Tutorials**) を選択します。データ ソースが新しい場合は、最初に右上隅の **[+ データ ソース]** ボタンから追加する必要があります。
 
-   <img src="images/visualization-tutorials-sample.png" alt="Select Slingshot Visualization Tutorials from the list of data sources" class="responsive-img" width="80%"/>
+<img src="images/visualization-tutorials-sample.png" alt="Select Slingshot Visualization Tutorials from the list of data sources" class="responsive-img" width="85%"/>
 
 3. *Simple Series Charts* シートを選択します。
 
-   <img src="images/simple-series-charts-spreadsheet.png" alt="Selecting Simple Series Chart sheet" class="responsive-img" width="55%"/>
+<img src="images/simple-series-charts-spreadsheet.png" alt="Selecting Simple Series Chart sheet" class="responsive-img" width="55%"/>
 
 4. **表示形式ピッカー**を開き、**カテゴリ**の下にある**チャート**表示形式のいずれかを選択します。デフォルトで、表示形式のタイプは**柱状**に設定されています。
 
-   <img src="images/chart-types-simple-series-charts.png" alt="List of chart types" class="responsive-img" width="80%"/> 
+<img src="images/chart-types-simple-series-charts.png" alt="List of chart types" class="responsive-img" width="85%"/> 
  
 5. たとえば、上の表のチャートには、選択した国のリストの人口が表示されます。「Country Name」フィールドを [ラベル] へ、「Population」 フィールドを [値] へドラッグアンドドロップします。            
-   <img src="images/simple-series-charts-organizing-data.png" alt="Organize data from Simple Series Charts sheet" class="responsive-img" width="80%"/>                                   
+<img src="images/simple-series-charts-organizing-data.png" alt="Organize data from Simple Series Charts sheet" class="responsive-img" width="85%"/>                                   
 
 <a name='add-trendline-chart'></a>
 ## チャートに近似曲線を追加する

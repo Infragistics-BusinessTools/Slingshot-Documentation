@@ -2,11 +2,11 @@
 
 Analytics は、データをダッシュボード フィルターにバインドする際のさまざまな日付範囲の設定をサポートしています。これにより、時間ベースの分析シナリオ、単一日付範囲の変更、ダッシュボード全体のフィルタリングが可能になります。ダッシュボード フィルター セクションで日付範囲を有効にするには、**[フィルターの追加]** メニューで **[日付フィルターを追加]** を選択します。
 
-<img src="images/date-filter-option.png" alt="Date filter option in the filter drop-down menu for a visualization" class="responsive-img" width="80%"/>
+<img src="images/date-filter-option.png" alt="Date filter option in the filter drop-down menu for a visualization" class="responsive-img" width="85%"/>
 
 日付のダッシュボード フィルターを有効にすると、[表示形式バインディング式](connecting-dashboard-filters-visualization.md)で使用できるようになります。
 
-<img src="images/date-filter-dialog.png" alt="Filter Date Range dialog with a list of visualizations" class="responsive-img" width="80%"/>
+<img src="images/date-filter-dialog.png" alt="Filter Date Range dialog with a list of visualizations" class="responsive-img" width="85%"/>
 
 ## カスタム日付範囲の使用
 

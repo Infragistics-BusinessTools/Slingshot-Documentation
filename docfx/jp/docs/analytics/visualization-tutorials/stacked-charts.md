@@ -8,7 +8,7 @@ _language: ja
 
 このチュートリアルはサンプル スプレッドシートを使用し**積層型**チャートを作成する方法を説明します。
 
-<img src="images/different-stacked-charts-example.png" alt="Example of different Stacked Charts types" class="responsive-img" width="80%"/>  
+<img src="images/different-stacked-charts-example.png" alt="Example of different Stacked Charts types" class="responsive-img" width="85%"/>  
 
 積層型チャート ビューのガイドは、以下のリンクから参照してください。
 
@@ -46,11 +46,11 @@ _language: ja
 
  1. **[分析]** にある **[+ ダッシュボード]** ボタンを選択します。
 
-  <img src="images/new-dashboard-button.png" alt="Dashboard button in the My Analytics section" class="responsive-img" width="80%"/> 
+<img src="images/new-dashboard-button.png" alt="Dashboard button in the My Analytics section" class="responsive-img" width="85%"/> 
 
- 2. データ ソースのリストからデータ ソース (**Slingshot Visualization Tutorials**) を選択します。データ ソースが新しい場合は、最初に右上隅の **[+ データ ソース]** ボタンから追加する必要があります。     
+ 2. データ ソースのリストからデータ ソース (**Slingshot Visualization Tutorials**) を選択します。データ ソースが新しい場合は、最初に右上隅の **[+ データ ソース]** ボタンから追加する必要があります。
 
-  <img src="images/visualization-tutorials-sample.png" alt="Slingshot Visualization Tutorials added to the list of  data sources" class="responsive-img" width="80%"/>
+<img src="images/visualization-tutorials-sample.png" alt="Slingshot Visualization Tutorials added to the list of  data sources" class="responsive-img" width="85%"/>
 
  3. *Stacked Charts* シートを選択します。
 
@@ -58,11 +58,11 @@ _language: ja
 
  4. 表示形式 エディターのトップ バーで**グリッド アイコン**を選択します。デフォルトで、表示形式のタイプは**柱状**に設定されています。**積層型**表示形式のいずれかを選択することで、いつでも変更できます。     
 
-  <img src="images/stacked-chart-types.png" alt="Grid icon in the list of Chart Types" class="responsive-img" width="80%"/>
+<img src="images/stacked-chart-types.png" alt="Grid icon in the list of Chart Types" class="responsive-img" width="85%"/>
 
  5. 積層型チャートでは、データ エディターの [値] プレースホルダーに 2 つ以上のフィールドをドラッグ アンド ドロップする必要があります。今の例で、「1960」、「2003」、「2008」と「2010」 を [値] へ、「Country Name」を [ラベル] へドラッグアンドドロップします。
 
-  <img src="images/stacked-charts-organizing-data.png" alt="Organize Stacked Charts spreadsheet data" class="responsive-img" width="80%"/>
+<img src="images/stacked-charts-organizing-data.png" alt="Organize Stacked Charts spreadsheet data" class="responsive-img" width="85%"/>
 
 <a name='change-axis-configuration'></a>
 ## 軸の構成を変更する方法

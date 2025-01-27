@@ -26,28 +26,28 @@ _language: ja
 
 1. ダッシュボードのオーバーフロー メニューから **[共有ユーザー]** を選択します。
 
-  <img src="images/shared-with-button.png" alt="Accessing the sharing dialog of a dashboard" class="responsive-img" width="80%"/>
+  <img src="images/shared-with-button.png" alt="Accessing the sharing dialog of a dashboard" class="responsive-img" width="85%"/>
 
 <a name='access-permissions'></a>
 
 2. メール アドレスまたは名前を入力して、ダッシュボードを共有するユーザーを選択します。準備ができたら、**[閉じる]** をクリックまたはタップします。
 
-<img src="images/add-users-sharing-dashboards.png" alt="People picker for sharing a dashboard" class="responsive-img" width="80%">
+<img src="images/add-users-sharing-dashboards.png" alt="People picker for sharing a dashboard" class="responsive-img" width="85%">
 
 3. ユーザーを選択したら、**[更新]** をクリックまたはタップします。選択したユーザーが[組織](../../../security.md)に所属している場合、ダッシュボードは自動的に共有されます。他のユーザーは、招待を受け入れると、**[自分と共有済み]** セクションでダッシュボードを表示できるようになります。
 
-<img src="images/shared-with-update-button.png" alt="Update button in the shared with dialog" class="responsive-img" width="80%">
+<img src="images/shared-with-update-button.png" alt="Update button in the shared with dialog" class="responsive-img" width="85%">
 
 4. フォルダーを他のユーザーと共有すると、ファイルは左側のパネルの **[自分と共有済み]** セクションに表示されます。または、**[分析]** を開き、**[フィルター]** の下にある **[自分と共有済み]** をクリックまたはタップしてファイルを見つけることもできます。
   
-<img src="images/shared-with-me-section.png" alt="Finding the Shared with Me option in different sections" class="responsive-img" width="80%">
+<img src="images/shared-with-me-section.png" alt="Finding the Shared with Me option in different sections" class="responsive-img" width="85%">
 
 **ダッシュボードの管理者は**、**[共有ユーザー]** メニューにアクセスして、**いつでもユーザーのアクセス レベルを変更できます**。ダッシュボードを共有したすべてのユーザーとそのアクセス レベルのリストが表示されます。名前の横にあるドロップダウン メニューから新しいアクセス レベルを選択して、アクセス レベルを変更できます。
 
 **ダッシュボードの管理者は**、**[次と共有...]** ダイアログにアクセスし、メンバーの名前の横にあるドロップダウン メニューから **[削除]** を選択することで、**いつでもダッシュボードの共有を解除できます**。
 
 <img src="images/shared-with-remove-option.png" alt="Remove a member option" class=
-"responsive-img" width="80%"/>
+"responsive-img" width="85%"/>
 一般に、ユーザーは次の権限のいずれかを持つことができます:
 
   - **管理者**権限 - ユーザーは作成、編集、共有、および削除できます。

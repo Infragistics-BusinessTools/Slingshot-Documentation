@@ -7,8 +7,8 @@
 >[!Note] 
 >この機能は、デスクトップ、Mac、iPad、および iPhone でサポートされていることに注意してください。
 
-<img src="../images/open-in-new-window-button.png" alt="The Open in New Window button in the overflow menu" class="responsive-img" width="80%"/>
+<img src="../images/open-in-new-window-button.png" alt="The Open in New Window button in the overflow menu" class="responsive-img" width="85%"/>
 
 以下の例では、タスクを新しいウィンドウで開き、ウィンドウのサイズを変更します。ワークスペースを整理するために、項目の新しいウィンドウのサイズをいつでも変更できます。
 
-<img src="../images/opened-task-new-window.png" alt="A task opened in a new window" class="responsive-img" width="80%"/>
+<img src="../images/opened-task-new-window.png" alt="A task opened in a new window" class="responsive-img" width="85%"/>

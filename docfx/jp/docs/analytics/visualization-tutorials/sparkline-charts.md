@@ -8,9 +8,9 @@ _language: ja
 
 このチュートリアルは、サンプル スプレッドシートを使用してスパークライン チャートの表示形式を作成する方法を説明します。
 
-<img src="images/simple-sparkline-chart.png" alt="Simple Sparkline Chart example" class="responsive-img" width="80%"/>
-<img src="images/sparkline-area-chart.png" alt="Sparkline Area Chart example" class="responsive-img" width="80%"/>
-<img src="images/sparkline-with-day-aggregation.png" alt="Sparkline with Day Aggregation example" class="responsive-img" width="80%">
+<img src="images/simple-sparkline-chart.png" alt="Simple Sparkline Chart example" class="responsive-img" width="85%"/>
+<img src="images/sparkline-area-chart.png" alt="Sparkline Area Chart example" class="responsive-img" width="85%"/>
+<img src="images/sparkline-with-day-aggregation.png" alt="Sparkline with Day Aggregation example" class="responsive-img" width="85%">
 <img src="images/sparkline-with-less-columns-and-area-chart.png" alt="Sparkline with less columns and area chart example" class="responsive-img" width="70%"/>
 
 スパークライン チャート ビューのガイドは、以下のリンクから参照してください。
@@ -57,23 +57,23 @@ _language: ja
 
 1. **[分析]** セクションの右上隅にある **[+ ダッシュボード]** ボタンを選択します。
 
-   <img src="images/new-dashboard-button.png" alt="New Dashboard button in My Analytics" class="responsive-img" width="90%"/>  
+<img src="images/new-dashboard-button.png" alt="New Dashboard button in My Analytics" class="responsive-img" width="90%"/>  
 
 2. データ ソースのリストからデータ ソース (**Slingshot Visualization Tutorials**) を選択します。データ ソースが新しい場合は、最初に右上隅の **[+ データ ソース]** ボタンから追加する必要があります。
 
-   <img src="images/visualization-tutorials-sample.png" alt="Select Slingshot Visualization Tutorials as a data source" class="responsive-img" width="80%"/>                                         
+<img src="images/visualization-tutorials-sample.png" alt="Select Slingshot Visualization Tutorials as a data source" class="responsive-img" width="85%"/>
 
 3. *Sparkline Charts* シートを選択します。
 
-   <img src="images/sparkline-charts-spreadsheet.png" alt="Select Sparkline Charts Spreadsheet.png" class="responsive-img" width="65%"/>
+<img src="images/sparkline-charts-spreadsheet.png" alt="Select Sparkline Charts Spreadsheet.png" class="responsive-img" width="60%"/>
 
 4. **表示形式ピッカー**を開き、**スパークライン チャート**を選択します。デフォルトで、表示形式のタイプは**柱状**に設定されています。
 
-    <img src="images/chart-types-sparkline.png" alt="Tutorials-Charts-Select-Sparkline-Chart" class="responsive-img" width="80%"/>
+ <img src="images/chart-types-sparkline.png" alt="Tutorials-Charts-Select-Sparkline-Chart" class="responsive-img" width="85%"/>
 
 5. *Date* フィールドを **[日付]** に、*Offer* を **[値]** に、*Stocks* を **[カテゴリ]** にドラッグ アンド ドロップします。
 
-   <img src="images/sparkline-charts-organizing-data.png" alt="Organize SparklineChart Data" class="responsive-img" width="80%"/>
+<img src="images/sparkline-charts-organizing-data.png" alt="Organize SparklineChart Data" class="responsive-img" width="85%"/>
 
 <a name='change-chart-type-sparkline'></a>
 ## スパークラインのチャート タイプを変更する方法

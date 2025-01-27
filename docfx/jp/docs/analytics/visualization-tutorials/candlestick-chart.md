@@ -49,11 +49,11 @@ _language: ja
 
 1. **[分析]** セクションの右上隅にある **[+ ダッシュボード]** ボタンを選択します。
 
-   <img src="images/dashboard-button-my-analytics.png" alt="Dashboard button for creating a new dashboard" class="responsive-img" width="80%"/>
+   <img src="images/dashboard-button-my-analytics.png" alt="Dashboard button for creating a new dashboard" class="responsive-img" width="85%"/>
 
 2. データ ソースのリストからデータ ソース (**Slingshot Visualization Tutorials**) を選択します。データ ソースが新しい場合は、最初に右上隅の **[+ データ ソース]** ボタンから追加する必要があります。
 
-    <img src="images/visualization-tutorials-data-sources-list.png" alt="Selecting the data source from the list of data sources" class="responsive-img" width="80%"/>
+    <img src="images/visualization-tutorials-data-sources-list.png" alt="Selecting the data source from the list of data sources" class="responsive-img" width="85%"/>
 
  3. **OHLC and Candlestick** シートを選択します。
 
@@ -61,10 +61,10 @@ _language: ja
 
 4. **表示形式ピッカー**を開き、**ローソク足**の表示形式を選択します。デフォルトで、表示形式のタイプは**柱状**に設定されています。
 
-   <img src="images/candlestick-chart-types.png" alt="List of chart types" class="responsive-img" width="70%"/>
+   <img src="images/candlestick-chart-types.png" alt="List of chart types" class="responsive-img" width="85%"/>
 
 5.  *Date* フィールドを **[ラベル]** にドラッグアンドドロップし、*Open*、*High*、*Low* および *Close* フィールドを対応するプレースホルダーにドラッグアンドドロップします。
-  <img src="images/candlestick-organizing-data.png" alt="Organizing data fields" width="70%"/>
+  <img src="images/candlestick-organizing-data.png" alt="Organizing data fields" width="85%"/>
 
 <a name='changing-axis-configuration'></a>
 ## 軸の構成を変更する方法

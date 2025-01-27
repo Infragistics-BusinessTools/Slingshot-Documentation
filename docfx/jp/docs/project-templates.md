@@ -8,19 +8,19 @@
 
 1.	ワークスペース内のプロジェクトのリストを開きます。
 
-<img src="../images/projects-list.png" alt="List of the all projects in a workspace" class="responsive-img" width="80%" />
+<img src="../images/projects-list.png" alt="List of the all projects in a workspace" class="responsive-img" width="85%" />
 
 2.	**[+ プロジェクト]** ボタンをクリックまたはタップします。
 
-<img src="../images/new-project-button.png" alt="New project button" class="responsive-img" width="80%" />
+<img src="../images/new-project-button.png" alt="New project button" class="responsive-img" width="85%" />
 
 3.	**[すべてのテンプレートを見る]** を選択します。
 
-<img src="../images/see-all-project-templates-button.png" alt="See all templates button" class="responsive-img" width="80%" />
+<img src="../images/see-all-project-templates-button.png" alt="See all templates button" class="responsive-img" width="85%" />
 
 4.	次のダイアログが開きます:
 
-<img src="../images/project-templates-dialog.png" alt="Lists of project templates" class="responsive-img" width="80%" />
+<img src="../images/project-templates-dialog.png" alt="Lists of project templates" class="responsive-img" width="85%" />
 
 左側のパネルでは、次の操作を行うことができます:
 
@@ -40,11 +40,11 @@ Slingshot のテンプレートは、さまざまな業界/部署に基づいて
 
 3.	プロジェクトの外観のプレビューが表示されます。この場合、**Project Management** テンプレートを選択します。こちらには、テンプレートの内容と作成者についての簡単な説明が表示されます。左矢印/右矢印を使用して、各コンポーネント (この場合は**タスク**と**ディスカッション**) のサムネイルを表示することもできます。これにより、プロジェクトがどのように見えるかについてより適切な概要が得られます。準備ができたら、**[テンプレートを使用]** をクリックまたはタップします。
 
-<img src="../images/project-template-preview.png" alt="Preview of a project template" class="responsive-img" width="80%" />
+<img src="../images/project-template-preview.png" alt="Preview of a project template" class="responsive-img" width="85%" />
 
 4.	ダイアログが表示され、各テキスト ボックスをクリックまたはタップしてプロジェクトのタイトルを変更したり、説明を変更したりできます。ドロップダウン メニューからプロジェクトの開始日を設定することもできます。開始日はタスクの日付の構成にも使用されます。変更の準備ができたら、**[作成]** をクリックまたはタップします。
 
-<img src="../images/new-project-slingshot-template.png" alt="Create a new project from a template" class="responsive-img" width="80%" />
+<img src="../images/new-project-slingshot-template.png" alt="Create a new project from a template" class="responsive-img" width="85%" />
 
 ## カスタム プロジェクト テンプレートを作成する方法
 
@@ -56,11 +56,11 @@ Slingshot のテンプレートは、さまざまな業界/部署に基づいて
 
 2.	**[テンプレートとして保存する]** をクリックまたはタップします。
 
-<img src="../images/save-as-template-option-project.png" alt="Save as template option for a project" class="responsive-img" width="80%" />
+<img src="../images/save-as-template-option-project.png" alt="Save as template option for a project" class="responsive-img" width="85%" />
 
 3. 次のダイアログが開きます。実行できること:
 
-<img src="../images/project-template-content.png" alt="Save as template dialog for a project" class="responsive-img" width="80%" />
+<img src="../images/project-template-content.png" alt="Save as template dialog for a project" class="responsive-img" width="85%" />
 
   - テンプレートのタイトルと説明を変更。
   
@@ -76,23 +76,23 @@ Slingshot のテンプレートは、さまざまな業界/部署に基づいて
 
     - スケジュール タイプを設定。
 
-    <img src="../images/project-tasks-content.png" alt="Workspace template tasks options" class="responsive-img" width="80%" />
+<img src="../images/project-tasks-content.png" alt="Workspace template tasks options" class="responsive-img" width="85%" />
 
 タスクの構造のみを保持することにした場合、タスクとそのフィールドは表示されなくなります。
 
 下にスクロールすると、ダッシュボード、ピン固定、ディスカッションなどの追加コンテンツから何を保持するかを選択することもできます。
 
-<img src="../images/project-template-other-content.png" alt="Workspace template tasks options" class="responsive-img" width="80%"/>
+<img src="../images/project-template-other-content.png" alt="Workspace template tasks options" class="responsive-img" width="85%"/>
 
 テンプレートに使用するためにプロジェクトから何を保持するかを選択できます。準備ができたら、**[保存]** をクリックまたはタップします。
 
 4.	テンプレートを作成したら、ワークスペースでプロジェクトのリストを開き、**[すべてのテンプレートを見る]** をクリックまたはタップします。
 
-<img src="../images/project-see-all-templates.png" alt="See all project templates option" class="responsive-img" width="80%" />
+<img src="../images/project-see-all-templates.png" alt="See all project templates option" class="responsive-img" width="85%" />
 
 5. テンプレートは、**[場所]** の下のワークスペースに保存されます。
 
-<img src="../images/project-template-location-example.png" alt="Example of a stored template in a location" class="responsive-img" width="80%" />
+<img src="../images/project-template-location-example.png" alt="Example of a stored template in a location" class="responsive-img" width="85%" />
 
 これに加えて、作成したプロジェクト テンプレートの右側にあるオーバーフロー メニューを開いて、次のアクションを実行することもできます:
 
@@ -104,6 +104,6 @@ Slingshot のテンプレートは、さまざまな業界/部署に基づいて
 
 -	テンプレートを削除。
 
-<img src="../images/custom-project-template-options.png" alt="Example of a stored template in a location" class="responsive-img" width="50%" />
+<img src="../images/custom-project-template-options.png" alt="Example of a stored template in a location" class="responsive-img" />
 
 プロジェクトの作成方法と使用方法の詳細については、[こちら](./workspaces.md#プロジェクトの作成)をご覧ください。
