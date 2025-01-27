@@ -12,7 +12,7 @@ _language: ja
 
 たとえば、以下に示すように、複合チャートでは、*Territory* に基づいて *Budget vs Spend* を表示できます。
 
-<img src="images/combo-chart-example.png" alt="Combo chart sample within Slingshot" class="responsive-img" width="80%"/>
+<img src="images/combo-chart-example.png" alt="Combo chart sample within Slingshot" class="responsive-img" width="85%"/>
 
 複合表示形式を作成する手順:
 
@@ -20,11 +20,11 @@ _language: ja
 
 2. チャート タイプのリストから **[複合]** チャートを選択します。
 
-<img src="images/combo-chart-selection.png" alt="Combo Chart in a Chart Types list" class="responsive-img" width="80%"/>
+<img src="images/combo-chart-selection.png" alt="Combo Chart in a Chart Types list" class="responsive-img" width="85%"/>
 
 3. 両方のチャートのラベルと値を設定します。
 
-<img src="images/combo-chart-configurated-label-values.png" alt="Example of a Combo Chart visulization with configurated Label and Values" class="responsive-img" width="80%"/>
+<img src="images/combo-chart-configurated-label-values.png" alt="Example of a Combo Chart visulization with configurated Label and Values" class="responsive-img" width="85%"/>
 
 ## 複合チャートの設定
 

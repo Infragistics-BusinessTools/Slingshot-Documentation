@@ -54,23 +54,23 @@
 
 2. 表示されるドロップダウンから、既存のフィールドのオン/オフを切り替えたり、タスク リストに新しいフィールドを作成したりできます。カスタム フィールドを作成するには、**[+ フィールドを追加]** をクリックまたはタップします。
 
-<img src="../images/add-new-field-task-list.png" alt="New field button in a task list" class="responsive-img" width="80%" />
+<img src="../images/add-new-field-task-list.png" alt="New field button in a task list" class="responsive-img" width="85%" />
 
 3. ここから、内部フローに最適な[フィールドのタイプ](#カスタム-フィールドのタイプは何ですか)を選択できます。
 
-<img src="../images/field-types-list.png" alt="List of different types of custom fields" class="responsive-img" width="80%" />
+<img src="../images/field-types-list.png" alt="List of different types of custom fields" class="responsive-img" width="85%" />
 
 4. 選択したフィールドに基づいて、さまざまなオプションが表示されます。  
 
 たとえば、*Marketing* ワークスペースでタスクを分類する方法が必要でした。そのため、**[ラベル]** フィールドを選択しました。ここでは、**メール**や**ソーシャル メディア**など、フィールドにさまざまな値を設定できました。
 
-<img src="../images/custom-field-creation.png" alt="Example of the proccess of creating a custom field" class="responsive-img" width="80%" />
+<img src="../images/custom-field-creation.png" alt="Example of the proccess of creating a custom field" class="responsive-img" width="85%" />
 
 5. 変更の準備ができたら、**[追加]** をクリックまたはタップします。 
 
 6. 新しいフィールドは、タスク リストのフィールドのリストで見つかります。
 
-<img src="../images/new-custom-field-task-list.png" alt="Example of a new custom field in a task list" class="responsive-img" width="80%" />
+<img src="../images/new-custom-field-task-list.png" alt="Example of a new custom field in a task list" class="responsive-img" width="85%" />
 
 ## 既存のカスタム フィールドを編集する方法 
 
@@ -84,15 +84,15 @@
 
 1. *「Campaign Type (キャンペーン タイプ)」* というタスク タイプの状態から *「On Hold」* という値が削除されました。値が取り消されました。
 
-<img src="../images/crossed-out-value.png" alt="Example of a crossed out value of a field" class="responsive-img" width="80%" />
+<img src="../images/crossed-out-value.png" alt="Example of a crossed out value of a field" class="responsive-img" width="85%" />
 
 2. タスク タイプで値 *「Blocked」* が表示されるようにし、**[状態]** のオプションに表示されるようになりました。
 
-<img src="../images/status-value-example.png" alt="Example of a Status value" class="responsive-img" width="80%" />
+<img src="../images/status-value-example.png" alt="Example of a Status value" class="responsive-img" width="85%" />
 
 3. タスク リストから直接タスクの状態を変更しました。 
 
-<img src="../images/new-status-value.png" alt="Example of a new Status value in a list of values" class="responsive-img" width="80%" />
+<img src="../images/new-status-value.png" alt="Example of a new Status value in a list of values" class="responsive-img" width="85%" />
 
 ## 既存のカスタムフィールドを削除する方法  
 
@@ -100,11 +100,11 @@
 
 1. 削除したいフィールドのオーバーフロー メニューを開きます。 
 
-<img src="../images/remove-option-field.png" alt="Remove option for a field" class="responsive-img" width="80%" />
+<img src="../images/remove-option-field.png" alt="Remove option for a field" class="responsive-img" width="85%" />
 
 2. **[フィールドの削除]** をクリックまたはタップします。フィールドは、現在使用されているすべてのタスクおよびタスク タイプから削除されます。このアクションは元に戻すことができないため、次の警告が表示されます。 
 
-<img src="../images/remove-field-warning.png" alt="Warning for removing a field" class="responsive-img" width="80%" />
+<img src="../images/remove-field-warning.png" alt="Warning for removing a field" class="responsive-img" width="85%" />
 
 3. 変更を適用するには、**[削除]** をクリックまたはタップします。 
 
@@ -114,15 +114,15 @@
 
 2. **[フィールドを管理]** をクリックまたはタップします。 
 
-<img src="../images/manage-fields-task-option.png" alt="Manage fields option for a task" class="responsive-img" width="80%" />
+<img src="../images/manage-fields-task-option.png" alt="Manage fields option for a task" class="responsive-img" width="85%" />
 
 3. フィールドのオーバーフロー メニューを開いて **[削除]** をクリックまたはタップすると、次のダイアログ ボックスが表示され、フィールドを削除できます。 
 
-<img src="../images/task-types-fields-example.png" alt="List of different fields in a task with a type" class="responsive-img" width="80%" />
+<img src="../images/task-types-fields-example.png" alt="List of different fields in a task with a type" class="responsive-img" width="85%" />
 
 4. 調整の準備ができたら、**[更新]** をクリックまたはタップします。
 
-<img src="../images/update-button-manage-fields.png" alt="Update button in a Manage Fields dialog box" class="responsive-img" width="80%" />
+<img src="../images/update-button-manage-fields.png" alt="Update button in a Manage Fields dialog box" class="responsive-img" width="85%" />
 
 ## タスク フィールド ライブラリのカスタム フィールドを使用する方法
 
@@ -136,23 +136,23 @@
 
 2. **[+ フィールドを追加]** を選択します。
 
-<img src="../images/custom-fields-add-button.png" alt="Add button for custom fields" class="responsive-img" width="80%" />
+<img src="../images/custom-fields-add-button.png" alt="Add button for custom fields" class="responsive-img" width="85%" />
 
 3. **[タスク フィールド ライブラリ]** をクリックまたはタップします。
 
-<img src="../images/custom-fields-task-fields-library.png" alt="Task Fields LIbrary in a list of different types of custom fields" class="responsive-img" width="80%" />
+<img src="../images/custom-fields-task-fields-library.png" alt="Task Fields LIbrary in a list of different types of custom fields" class="responsive-img" width="85%" />
 
 4. 特定の場所 (ワークスペース、プロジェクト、または組織) に保存されているカスタム フィールドのリストが表示されます。目標に最も適したものを選択します。 
 
-<img src="../images/custom-fields-library.png" alt="List of custom fields in a library" class="responsive-img" width="80%" />
+<img src="../images/custom-fields-library.png" alt="List of custom fields in a library" class="responsive-img" width="85%" />
 
 5. **[使用]** をクリックまたはタップします。
 
-<img src="../images/custom-field-use-button.png" alt="Use button for a custom field" class="responsive-img" width="80%" />
+<img src="../images/custom-field-use-button.png" alt="Use button for a custom field" class="responsive-img" width="85%" />
 
 6. タスク リストにフィールドが表示されます。 
 
-<img src="../images/custom-field-task-list.png" alt="Example of a custom field in a task list" class="responsive-img" width="80%" />
+<img src="../images/custom-field-task-list.png" alt="Example of a custom field in a task list" class="responsive-img" width="85%" />
 
 ## サブタスクにカスタム フィールドを適用する方法  
 
@@ -164,13 +164,13 @@
 
 2. **[フィールドを管理]** を選択します。 
 
-<!-- <img src="../images/manage-fields-subtask.png" alt="Manage fields option for a subtask" class="responsive-img" width="80%" /> -->
+<!-- <img src="../images/manage-fields-subtask.png" alt="Manage fields option for a subtask" class="responsive-img" width="85%" /> -->
 
 3. フィールドを追加または削除できる **[サブタスク フィールド]** ダイアログが表示されます。フィールドを追加するには、**[+ フィールド]** をクリックまたはタップします。 
 
 4. さまざまなタイプのフィールドのリストが表示されます。ビジネス ニーズに最も適したものを選択します。この場合では、**「チャンネル」** という名前のラベル フィールドを追加しました。
 
-<img src="../images/field-types-subtask.png" alt="List of field types for a subtask" class="responsive-img" width="80%" />
+<img src="../images/field-types-subtask.png" alt="List of field types for a subtask" class="responsive-img" width="85%" />
 
 5. 準備ができたら、**[完了]** をクリックまたはタップし、**[更新]** をクリックして変更を保存します。
 
@@ -182,15 +182,15 @@
 
 2. **[サブタスク]** セクションまで下にスクロールし、**[サブタスク フィールド]** をクリックまたはタップします。 
 
-<img src="../images/subtask-fields-subtasks-section.png" alt="Subtask fields button in the subtasks section" class="responsive-img" width="80%" />
+<img src="../images/subtask-fields-subtasks-section.png" alt="Subtask fields button in the subtasks section" class="responsive-img" width="85%" />
 
 3. **[+ フィールド]** をクリックまたはタップします。さまざまなタイプのフィールドのリストが表示されます。目標に最も適したものを選択します。親タスクのフィールドを使用することもできます。使用可能な親フィールドが *[メイン タスク フィールド]* の下に表示されます。 
 
-<img src="../images/subtask-fields.png" alt="List of different types of fields for a subtask" class="responsive-img" width="80%" />
+<img src="../images/subtask-fields.png" alt="List of different types of fields for a subtask" class="responsive-img" width="85%" />
 
 4. 準備ができたら、**[完了]** をクリックまたはタップし、**[更新]** をクリックしてフィールドを追加します。 
 
-<img src="../images/subtask-fields-done-button.png" alt="Subtask fields done button" class="responsive-img" width="80%" />
+<img src="../images/subtask-fields-done-button.png" alt="Subtask fields done button" class="responsive-img" width="85%" />
 
 >[!Note] 特定の[タスク タイプ](task-types.md)を持つサブタスクにフィールドを追加または削除すると、これらの変更はそのタイプとそのタスクに影響します。  
 
@@ -206,7 +206,7 @@
 
 4. **[メイン タスク フィールド]** の下にある **「リリース」** フィールドを選択します。  
 
-<img src="../images/subtask-main-task-fields.png" alt="List of parent task fields for a subtask" class="responsive-img" width="80%" />
+<img src="../images/subtask-main-task-fields.png" alt="List of parent task fields for a subtask" class="responsive-img" width="85%" />
 
 5. **[完了]**、**[更新]** の順にクリックまたはタップします。
 
@@ -232,7 +232,7 @@
 
    - 新しい値を持つフィールドをタスク フィールド ライブラリに追加します。 
 
-<img src="../images/subtask-field-options.png" alt="Example of different options for a subtask field" class="responsive-img" width="80%" />
+<img src="../images/subtask-field-options.png" alt="Example of different options for a subtask field" class="responsive-img" width="85%" />
 
 4. 値を変更するには、**[編集]** を選択します。 
 
@@ -240,7 +240,7 @@
 
 6. タスク リストでタスクの更新された**状態**を確認できます。
 
-<img src="../images/updated-field-subtask.png" alt="Example of an updated subtask field" class="responsive-img" width="80%" />
+<img src="../images/updated-field-subtask.png" alt="Example of an updated subtask field" class="responsive-img" width="85%" />
 
 ## タスク フィールド ライブラリ 
 
@@ -276,11 +276,11 @@
 
 2. **[個人用ライブラリの管理]** を選択します。 
 
-<img src="../images/manage-personal-libraries.png" alt="Manage personal libraries option in user settings" class="responsive-img" width="80%" />
+<img src="../images/manage-personal-libraries.png" alt="Manage personal libraries option in user settings" class="responsive-img" width="85%" />
 
 3. ここでは、個人のタスク フィールド、[タスク タイプ](task-types.md)、[タスク テンプレート](task-templates.md)がすべて見つかります。
 
-<img src="../images/personal-task-fields-library.png" alt="Example of a personal task fields library" class="responsive-img" width="80%" />
+<img src="../images/personal-task-fields-library.png" alt="Example of a personal task fields library" class="responsive-img" width="85%" />
 
 ## カスタム タスク フィールドの使用に関するヒント 
 

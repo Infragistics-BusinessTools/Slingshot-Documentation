@@ -8,7 +8,7 @@ _language: ja
 
 Google アカウントでログインしている場合は、Google ドライブがデータ ソースに自動的に追加されます。
 
-<!-- <img src="images/google-drive-list-data-files.png" alt="Google Drive account in your data sources list" class="responsive-img" width="80%"> -->
+<!-- <img src="images/google-drive-list-data-files.png" alt="Google Drive account in your data sources list" class="responsive-img" width="85%"> -->
 
 Google ドライブのデータを使用するには、以下の手順に従ってください。
 

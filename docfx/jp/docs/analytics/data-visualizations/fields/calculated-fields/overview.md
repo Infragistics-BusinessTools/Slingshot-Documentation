@@ -29,11 +29,11 @@ _language: ja
 
 2. **[計算フィールド]** を選択します。
 
-<img src="images/calculated-field-option.png" alt="Pre-calculated field option in data editor for a dashboard" class="responsive-img" width="80%"/>
+<img src="images/calculated-field-option.png" alt="Pre-calculated field option in data editor for a dashboard" class="responsive-img" width="85%"/>
 
 3. [計算フィールドの作成] 画面が開きます。
 
-<img src="images/new-calculated-field-dialog.png" alt="New calculated field dialog" class="responsive-img" width="80%"/>
+<img src="images/new-calculated-field-dialog.png" alt="New calculated field dialog" class="responsive-img" width="85%"/>
 
 4. 以下の手順を実行します。
 
@@ -43,7 +43,7 @@ _language: ja
 
 5. 新しい計算フィールドは、**フィールド** リストに表示されます。ここから、表示形式に使用できます。
 
-<img src="images/new-calculated-field-visualization-example.png" alt="New calculated field shown in the column placeholder and in the visualization" class="responsive-img" width="80%"/>
+<img src="images/new-calculated-field-visualization-example.png" alt="New calculated field shown in the column placeholder and in the visualization" class="responsive-img" width="85%"/>
 
 上記の例では、集計がデータ フィールドに適用されていないグリッドの表示形式で新しい計算フィールドが使用されます。事前計算フィールドは、ピボット グリッドでも使用できます。この場合、計算は事前計算フィールドで集計されたレコードに適用されます。
 
@@ -56,11 +56,11 @@ _language: ja
 
 1.  データ エディターでデータ ソースからフィールドを追加して、表示形式 (またはピボット テーブル) を作成します。
 
-  <img src="images/data-editor-example.png" alt="Example of Data Editor" class="responsive-img" width="80%"/>
+  <img src="images/data-editor-example.png" alt="Example of Data Editor" class="responsive-img" width="85%"/>
 
 2.  [値] の横にある [F(x)] ボタンをクリックまたはタップして、[計算フィールドの作成] 画面を開きます。
 
-  <img src="images/post-calculated-field-new-calculated-field-dialog.png" alt="Post calculated field new calculated field screen" class="responsive-img" width="80%"/>
+  <img src="images/post-calculated-field-new-calculated-field-dialog.png" alt="Post calculated field new calculated field screen" class="responsive-img" width="85%"/>
 
 3.  事後計算のフィールドの [計算フィールドの作成] 画面
 計算フィールドに名前を付け、集計値に数式を適用します。
@@ -68,7 +68,7 @@ _language: ja
 
 データ エディターに含まれていないデータ ソースの他のフィールドを使用する場合は、[値] の横の [+] ボタンをクリックまたはタップして追加できます。事後計算フィールドは集計値のみで作成されるため、最初にデータ フィールドで実行する集計をドロップダウン リストから選択する必要があります。
 
-<img src="images/new-calculated-field-dialog-new-fields-option.png" alt="Adding fields in the calculated field screen" class="responsive-img" width="80%"/>
+<img src="images/new-calculated-field-dialog-new-fields-option.png" alt="Adding fields in the calculated field screen" class="responsive-img" width="85%"/>
 
 手順 1 をスキップして、最初に事後計算フィールドを作成するか、表示形式で事後計算フィールドのみを使用することもできます。
 

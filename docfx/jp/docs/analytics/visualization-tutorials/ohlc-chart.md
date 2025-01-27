@@ -51,23 +51,23 @@ OHLC チャートとローソク足チャートは各財務データの始値、
 
  2. **[+ ダッシュボード]** ボタンをクリックまたはタップします。
 
-  <img src="images/dashboard-button-my-analytics.png" alt="New dashboard button in My Analytics" class="responsive-img" width="80%"/>
+<img src="images/dashboard-button-my-analytics.png" alt="New dashboard button in My Analytics" class="responsive-img" width="85%"/>
 
  3. データ ソースのリストからデータ ソース (**Slingshot Visualization Tutorials**) を選択します。データ ソースが新しい場合は、最初に右上隅の **[+ データ ソース]** ボタンから追加する必要があります。
 
-  <img src="images/visualization-tutorials-sample.png" alt="Select Slingshot Visualization Tutorials as a data source" class="responsive-img" width="80%"/>
+<img src="images/visualization-tutorials-sample.png" alt="Select Slingshot Visualization Tutorials as a data source" class="responsive-img" width="85%"/>
 
  4. *OHLC and Candlestick* シートを選択します。
 
-  <img src="images/ohlc-candlestick-spreadsheet.png" alt="Select OHLC Candlestick Charts Spreadsheet" class="responsive-img" width="55%"/>
+<img src="images/ohlc-candlestick-spreadsheet.png" alt="Select OHLC Candlestick Charts Spreadsheet" class="responsive-img" width="55%"/>
 
  5. **表示形式ピッカー**を開き、**OHLC** を選択します。デフォルトで、表示形式のタイプは**柱状**に設定されています。  
 
-  <img src="images/ohlc-chart-types.png" alt="OHLC in a list of chart types" class="responsive-img" width="80%"/>
+<img src="images/ohlc-chart-types.png" alt="OHLC in a list of chart types" class="responsive-img" width="85%"/>
 
  6. **Date** フィールドを **[ラベル]** にドラッグアンドドロップし、*Open*、*High*、*Low* および *Close* フィールドを対応するプレースホルダーにドラッグアンドドロップします。
 
-  <img src="images/ohlc-organized-data.png" alt="Organize OHLC data from the data source" class="responsive-img" width="80%"/>
+<img src="images/ohlc-organized-data.png" alt="Organize OHLC data from the data source" class="responsive-img" width="85%"/>
 
 <a name='changing-axis-configuration'></a>
 ## 軸の構成の変更
@@ -78,8 +78,8 @@ OHLC チャートとローソク足チャートは各財務データの始値、
 
 |                                             |                                                                                      |                                                             |
 | ------------------------------------------- | ------------------------------------------------------------------------------------ | ----------------------------------------------------------- |
-| 1\. **設定メニューにアクセスする**            | <img src="images/tutorials-settings.png" alt="Settings Menu" class="responsive-img" width="80%"/>               | 表示形式エディターの **[設定]** セクションに移動します。 |
-| 2\. **軸範囲セクションに移動する** | <img src="images/bounds-axis.png" alt="Access Axis Bounds section" class="responsive-img" width="80%"/> | 変更する設定は**軸範囲**です。   |
+| 1\. **設定メニューにアクセスする**            | <img src="images/tutorials-settings.png" alt="Settings Menu" class="responsive-img" width="85%"/>               | 表示形式エディターの **[設定]** セクションに移動します。 |
+| 2\. **軸範囲セクションに移動する** | <img src="images/bounds-axis.png" alt="Access Axis Bounds section" class="responsive-img" width="85%"/> | 変更する設定は**軸範囲**です。   |
 
 最大値または最小値 (または両方) のどれを設定するかに基づいて、以下のオプションの 1 つへアクセスする必要があります。
 
@@ -96,5 +96,5 @@ OHLC チャートとローソク足チャートは各財務データの始値、
 
 |                                        |                                                                                                       |                                                             |
 | -------------------------------------- | ----------------------------------------------------------------------------------------------------- | ----------------------------------------------------------- |
-| 1\. **設定メニューにアクセスする**       | <img src="images/tutorials-settings.png" alt="Settings Menu" class="responsive-img" width="80%"/>                                | 表示形式エディターの **[設定]** セクションに移動します。 |
-| 2\. **軸を対数に変更する** | <img src="images/ohlc-candlestick-logarithmic-axis.png" alt="Access OHLC Axis Configuration" class="responsive-img" width="80%"/> | **[軸]** ドロップダウンを開き、**[対数]** を選択します。      |
+| 1\. **設定メニューにアクセスする**       | <img src="images/tutorials-settings.png" alt="Settings Menu" class="responsive-img" width="85%"/>                                | 表示形式エディターの **[設定]** セクションに移動します。 |
+| 2\. **軸を対数に変更する** | <img src="images/ohlc-candlestick-logarithmic-axis.png" alt="Access OHLC Axis Configuration" class="responsive-img" width="85%"/> | **[軸]** ドロップダウンを開き、**[対数]** を選択します。      |

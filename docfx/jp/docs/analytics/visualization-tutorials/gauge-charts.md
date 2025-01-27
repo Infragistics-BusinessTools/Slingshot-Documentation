@@ -47,11 +47,11 @@ _language: ja
 
 2. **[+ ダッシュボード]** ボタンをクリックまたはタップします。
 
-   <img src="images/dashboard-button-my-analytics.png" alt="New dashboard button in My Analytics" class="responsive-img" width="80%"/>
+<img src="images/dashboard-button-my-analytics.png" alt="New dashboard button in My Analytics" class="responsive-img" width="85%"/>
 
 3. データ ソースのリストからデータ ソース (**Slingshot Visualization Tutorials**) を選択します。データ ソースが新しい場合は、最初に右上隅の **[+ データ ソース]** ボタンから追加する必要があります。
 
-   <img src="images/visualization-tutorials-data-sources-list.png" alt="Data source sample in a list of data sources" class="responsive-img" width="80%"/>
+<img src="images/visualization-tutorials-data-sources-list.png" alt="Data source sample in a list of data sources" class="responsive-img" width="85%"/>
 
 4. **Gauge Views** シートを選択します。
   
@@ -59,11 +59,11 @@ _language: ja
 
 5. **表示形式ピッカー**を開き、**リニア ゲージ**を選択します。 
 
-   <img src="images/gauges-chart-types.png" alt="Linear gauge in a list of chart types" class="responsive-img" width="80%"/>
+<img src="images/gauges-chart-types.png" alt="Linear gauge in a list of chart types" class="responsive-img" width="85%"/>
 
 6. たとえば、このリニア ゲージは *Life Expectancy by Country* を表します。*Country Name* フィールドを **[ラベル]** へ、*Year* フィールドの 1 つを **[値]** へドラッグアンドドロップします。
   
-   <img src="images/data-linear-chart.png" alt="Data presented in a linear chart" class="responsive-img" width="80%"/>
+<img src="images/data-linear-chart.png" alt="Data presented in a linear chart" class="responsive-img" width="85%"/>
 
 <a name='create-circular-gauge'></a>
 ## 円型ゲージを作成する方法
@@ -72,22 +72,22 @@ _language: ja
 
 2. **[+ ダッシュボード]** ボタンをクリックまたはタップします。
 
-   <img src="images/dashboard-button-my-analytics.png" alt="New dashboard button in My Analytics" class="responsive-img" width="80%"/>
+<img src="images/dashboard-button-my-analytics.png" alt="New dashboard button in My Analytics" class="responsive-img" width="85%"/>
 
 3. データ ソースのリストからデータ ソース (**Slingshot Visualization Tutorials**) を選択します。データ ソースが新しい場合は、最初に右上隅の **[+ データ ソース]** ボタンから追加する必要があります。
 
-   <img src="images/visualization-tutorials-data-sources-list.png" alt="Data source sample in a list of data sources" class="responsive-img" width="80%"/>
+<img src="images/visualization-tutorials-data-sources-list.png" alt="Data source sample in a list of data sources" class="responsive-img" width="85%"/>
 
 4. **Gauge Views** シートを選択します。
    <img src="images/gauge-views.png" alt="Selecting Gauge Views spreadsheet" class="responsive-img" width="65%"/>
 
 5. **表示形式ピッカー**を開き、**円形ゲージ**を選択します。
 
-   <img src="images/gauges-chart-types.png" alt="Circular gauge in a list of chart types" class="responsive-img" width="80%"/>
+<img src="images/gauges-chart-types.png" alt="Circular gauge in a list of chart types" class="responsive-img" width="85%"/>
 
 6. たとえば、この円形ゲージは *Life Expectancy by Country* を表します。*Country Name* フィールドを **[ラベル]** へ、*Year* フィールドの 1 つを **[値]** へドラッグアンドドロップします。
   
-   <img src="images/organized-data-circular-chart.png" alt="Data presented in a circular chart" class="responsive-img" width="80%"/> 
+<img src="images/organized-data-circular-chart.png" alt="Data presented in a circular chart" class="responsive-img" width="85%"/> 
 
 <a name='aggregation-instructions'></a>
 
@@ -105,11 +105,11 @@ _language: ja
 
 2. **[+ ダッシュボード]** ボタンをクリックまたはタップします。
 
-   <img src="images/dashboard-button-my-analytics.png" alt="New dashboard button in My Analytics" class="responsive-img" width="80%"/>                                      
+<img src="images/dashboard-button-my-analytics.png" alt="New dashboard button in My Analytics" class="responsive-img" width="85%"/>
 
 3. データ ソースのリストからデータ ソース (**Slingshot Visualization Tutorials**) を選択します。データ ソースが新しい場合は、最初に右上隅の **[+ データ ソース]** ボタンから追加する必要があります。
 
-   <img src="images/visualization-tutorials-data-sources-list.png" alt="Data source sample in a list of data sources" class="responsive-img" width="80%"/>
+<img src="images/visualization-tutorials-data-sources-list.png" alt="Data source sample in a list of data sources" class="responsive-img" width="85%"/>
 
 4. **Gauge Views** シートを選択します。
 
@@ -117,11 +117,11 @@ _language: ja
 
 5. **表示形式ピッカー**を開き、**テキスト ゲージ**を選択します。 
 
-   <img src="images/gauges-chart-types.png" alt="Text Gauge in a list of chart types" class="responsive-img" width="80%"/>
+<img src="images/gauges-chart-types.png" alt="Text Gauge in a list of chart types" class="responsive-img" width="85%"/>
 
 6. たとえば、このテキスト ゲージは *Life Expectancy by Country* を表します。 年フィールドの 1 つを **[値]** にドラッグアンドドロップし、*Country Name* フィールドを **[データ フィルター]** へドラッグアンドドロップします。 次に、フィールドを選択して、必要な特定の国を選択します。 
 
-   <img src="images/text-gauge-organized-data.png" alt="Data presented in a text gauge" class="responsive-img" width="80%"/>
+<img src="images/text-gauge-organized-data.png" alt="Data presented in a text gauge" class="responsive-img" width="85%"/>
 
 上記の [テキスト ゲージのサンプル] は平均値の集計を使用します。フィールドの集計を変更するために、[この手順](../data-visualizations/fields/calculated-fields/aggregation.md)をご参照ください。
 
@@ -132,23 +132,23 @@ _language: ja
 
 2. **[+ ダッシュボード]** ボタンをクリックまたはタップします。
 
-   <img src="images/dashboard-button-my-analytics.png" alt="New dashboard button in My Analytics" class="responsive-img" width="80%"/>
+<img src="images/dashboard-button-my-analytics.png" alt="New dashboard button in My Analytics" class="responsive-img" width="85%"/>
 
 3. データ ソースのリストからデータ ソース (**Slingshot Visualization Tutorials**) を選択します。データ ソースが新しい場合は、最初に右上隅の **[+ データ ソース]** ボタンから追加する必要があります。
 
-   <img src="images/visualization-tutorials-data-sources-list.png" alt="Data source sample in a list of data sources" class="responsive-img" width="80%"/>
+<img src="images/visualization-tutorials-data-sources-list.png" alt="Data source sample in a list of data sources" class="responsive-img" width="85%"/>
 
 4. **Gauge Views** シートを選択します。
-  
-   <img src="images/gauge-views.png" alt="Selecting Gauge Views spreadsheet" class="responsive-img" width="65%"/>
+
+<img src="images/gauge-views.png" alt="Selecting Gauge Views spreadsheet" class="responsive-img" width="65%"/>
          
 5. **表示形式ピッカー**を開き、**ブレット グラフ**を選択します。 
 
-   <img src="images/gauges-chart-types.png" alt="Bullet graph in a list of chart types" class="responsive-img" width="80%"/>
+<img src="images/gauges-chart-types.png" alt="Bullet graph in a list of chart types" class="responsive-img" width="85%"/>
 
 6. 例えば、このブレット グラフ は *Life Expectancy by Country* を表します。*Country Name* フィールドを **[ラベル]** へ、年フィールドの 1 つを **[値]** へ、別の年フィールドを **[ターゲット]** へドラッグアンドドロップします。
 
-   <img src="images/bullet-graph-organized-data.png" alt="Data presneted in a bullet graph" class="responsive-img" width="80%"/>
+<img src="images/bullet-graph-organized-data.png" alt="Data presneted in a bullet graph" class="responsive-img" width="85%"/>
 
 <a name='adding-bounds-gauge'></a>
 ## ゲージの化でしきい値を追加する方法
@@ -157,8 +157,8 @@ _language: ja
 
 |                                                |                                                                        |                                                                                                                                       |
 | ---------------------------------------------- | ---------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
-| 1\. **設定を変更する**                        | <img src="images/tutorials-settings.png" alt="Settings Menu" class="responsive-img" width="80%"/> | 表示形式エディターの **[設定]** セクションに移動します。                                                                           |
-| 2\. **制限のデフォルトの選択を変更する** | <img src="images/limit-options.png" alt="Tutorials-Limits-Bounds" class="responsive-img" width="80%"/>         | 最大値または最小値 (または両方) 値を設定するかどうかに基づいて、チャートの開始値または終了値を入力します。|
+| 1\. **設定を変更する**                        | <img src="images/tutorials-settings.png" alt="Settings Menu" class="responsive-img" width="85%"/> | 表示形式エディターの **[設定]** セクションに移動します。                                                                           |
+| 2\. **制限のデフォルトの選択を変更する** | <img src="images/limit-options.png" alt="Tutorials-Limits-Bounds" class="responsive-img" width="85%"/>         | 最大値または最小値 (または両方) 値を設定するかどうかに基づいて、チャートの開始値または終了値を入力します。|
 
 <a name='modify-bands'></a>
 ## バンドの色の変更
@@ -167,5 +167,5 @@ _language: ja
 
 |                                    |                                                                        |                                                                          |
 | ---------------------------------- | ---------------------------------------------------------------------- | ------------------------------------------------------------------------ |
-| 1\. **設定を変更する**            | <img src="images/tutorials-settings.png" alt="Settings Menu" class="responsive-img" width="80%"/> | 表示形式エディターの **[設定]** セクションに移動します。              |
-| 2\. **色のドロップダウンを表示する** | <img src="images/band-color-options.png" alt="Tutorials-Colors-Drop-down" class="responsive-img" width="80%"/>     | 色を変更する範囲のドロップダウンを展開します。バンドの色として、Slingshot の 3 つの事前定義された色のいずれかを選択します。|
+| 1\. **設定を変更する**            | <img src="images/tutorials-settings.png" alt="Settings Menu" class="responsive-img" width="85%"/> | 表示形式エディターの **[設定]** セクションに移動します。              |
+| 2\. **色のドロップダウンを表示する** | <img src="images/band-color-options.png" alt="Tutorials-Colors-Drop-down" class="responsive-img" width="85%"/>     | 色を変更する範囲のドロップダウンを展開します。バンドの色として、Slingshot の 3 つの事前定義された色のいずれかを選択します。|

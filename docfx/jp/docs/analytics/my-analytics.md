@@ -26,7 +26,7 @@ Slingshot の **[分析]** セクションを使用すると、BI (ビジネス 
 
 直感的なドラッグ＆ドロップ インターフェイスを備えた Slingshot は、数分でダッシュボードを簡単に作成できます。40 以上の異なる表示形式から選択して、データを提示し、ストーリーを最良の方法で伝えます。
 
-<img src="../../images/my-analytics-dashboard-example.png" alt="Example of a custom data visualization in Slingshot" class="responsive-img" width="80%"/>
+<img src="../../images/my-analytics-dashboard-example.png" alt="Example of a custom data visualization in Slingshot" class="responsive-img" width="85%"/>
 
 ### カスタマイズ
 
@@ -58,11 +58,11 @@ Slingshot の **[分析]** セクションを使用すると、BI (ビジネス 
 
 1. ダッシュボード リストの **[+ ダッシュボード]** ボタンをクリックまたはタップするか、**[はじめに]** セクションの **[ダッシュボードの作成]** 青いボタンをクリックまたはタップします。
 
-   <img src="../../images/new-dashboard-button.png" alt="New dashboard button" class="responsive-img" width="80%"/>
+<img src="../../images/new-dashboard-button.png" alt="New dashboard button" class="responsive-img" width="85%"/>
 
 2. 右上隅の **[+ データ ソース]** をクリックまたはタップして、接続するデータ ソースを選択します。
 
-   <img src="../../images/my-analytics-select-data-source.png" alt="Select a data source" class="responsive-img" width="80%"/>
+<img src="../../images/my-analytics-select-data-source.png" alt="Select a data source" class="responsive-img" width="85%"/>
 
 3. 接続を構成します。これには、ファイルの場所 (スプレッドシートまたは JSON ファイル) の選択や、資格情報 (データ ストレージ、Web リソース、ソーシャル メディア コネクター、データベース) の入力が含まれる場合があります。
 
@@ -72,7 +72,7 @@ Slingshot の **[分析]** セクションを使用すると、BI (ビジネス 
 
 認証は、組織内で最も信頼できるデータを見つけるのに役立つため、データ カタログの重要な部分です。これは、どのダッシュボードまたはデータ ソースが信頼でき、検証済みの情報が含まれているかを知るための優れた方法です。ダッシュボードまたはデータ ソースが認証されると、その横に金、銀、または銅のバッジが表示されます。
 
-<img src="../../images/certified-data-source-example.png" alt="Certifications in Slingshot" class="responsive-img" width="80%"/>
+<img src="../../images/certified-data-source-example.png" alt="Certifications in Slingshot" class="responsive-img" width="85%"/>
 
 [データ カタログの詳細については、こちらをご覧ください](../data-catalog.md)。
 
@@ -81,7 +81,7 @@ Slingshot の **[分析]** セクションを使用すると、BI (ビジネス 
 ダッシュボードとデータ ソースの複数のリストを管理できます。これらのリストは、これらのリソースを整理、管理、および共有するようにデザインされています。
 [ダッシュボード] タブと [データ ソース] タブには、セクションごとに整理できるリストがあります。セクションは、コンテンツを分割してより良くレイアウトする場合に便利です。
 
-<img src="../../images/my-analytics-dashboard-lists.png" alt="Data Catalog screen within Slingshot" class="responsive-img" width="80%"/>
+<img src="../../images/my-analytics-dashboard-lists.png" alt="Data Catalog screen within Slingshot" class="responsive-img" width="85%"/>
 
 ### 定義済みのリスト
 
@@ -106,7 +106,7 @@ Slingshot には、特定のダッシュボードまたはデータ ソースを
 
 1. [フィルター] セクションで **[+ フィルター]** をクリックまたはタップします。
 
-   <img src="../../images/new-dashboard-filter-option.png" alt="Option to create a new dashboard filter" class="responsive-img" width="80%">
+<img src="../../images/new-dashboard-filter-option.png" alt="Option to create a new dashboard filter" class="responsive-img" width="85%">
 
 2. フィルターに含める内容を選択し、**[適用]** をクリックまたはタップしてフィルターのリストに保存します。
 
@@ -114,16 +114,16 @@ Slingshot には、特定のダッシュボードまたはデータ ソースを
 
 1. フィルター アイコンをクリックまたはタップして、[フィルター] ダイアログを開きます。
 
-   <img src="../../images/dashboard-filter-icon.png" alt="Different options for a dashboard filter" class="responsive-img" width="80%"/>
+<img src="../../images/dashboard-filter-icon.png" alt="Different options for a dashboard filter" class="responsive-img" width="85%"/>
 
 2. 下部にある **[クリア]** ボタンを選択して、現在のフィルターを削除します。
 
-   <img src="../../images/clear-dashboard-filter.png" alt="Unselect Filters" class="responsive-img" />
+<img src="../../images/clear-dashboard-filter.png" alt="Unselect Filters" class="responsive-img" />
 
 3. 変更を確認するには、**[適用]** をクリックまたはタップします。
 
-   <img src="../../images/apply-button.png" alt="Unselect Filters" class="responsive-img" width="80%"/>
+<img src="../../images/apply-button.png" alt="Unselect Filters" class="responsive-img" width="85%"/>
 
 4. 変更を加えたフィルターを再利用する場合は、**[変更の保存]** をクリックまたはタップします。
 
-   <img src="../../images/save-changes-option-dashboard-filter.png" alt="Option to save the changes for a dashboard filter" class="responsive-img" width="80%"/>
+<img src="../../images/save-changes-option-dashboard-filter.png" alt="Option to save the changes for a dashboard filter" class="responsive-img" width="85%"/>

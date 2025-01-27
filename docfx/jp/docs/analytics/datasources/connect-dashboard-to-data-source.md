@@ -10,7 +10,7 @@ _language: ja
 
 アプリケーションにまだ追加していないデータ ソースを使用して作成されたダッシュボードは、初めて開いたときに次のようになります: 
 
-<img src="images/dashboard-own-data-sources-example.png" alt="A dashboard not connected to its data source" class="responsive-img" width="80%"/>
+<img src="images/dashboard-own-data-sources-example.png" alt="A dashboard not connected to its data source" class="responsive-img" width="85%"/>
 
 各表示形式には **[<データ ソース名> にログイン]** ボタン (**[接続] をクリックまたはタップするとアクセスできます**) があり、使用する**データ ソースに接続**できます。ダッシュボードを表示するには、次の手順が必要です。 
 
@@ -22,12 +22,12 @@ _language: ja
 
 4. 完全なダッシュボードが**ダッシュボード ビュー** モードで表示されます。
 
-<img src="images/final-dashboard-own-data-source-example.png" alt="Example of a connected dashboard" class="responsive-img" width="80%"/>
+<img src="images/final-dashboard-own-data-source-example.png" alt="Example of a connected dashboard" class="responsive-img" width="85%"/>
 
 >[!NOTE]
 > **[データ ソースの接続]** ダイアログに、データ ソースの資格情報のリストがある場合があります (下のスクリーンショットを参照)。これらは、他のソース アカウントへのログインに使用した資格情報、または[分析の資格情報の管理](../../analytics/datasources/managing-data-source-credentials.md)メニューで事前に追加した資格情報です。
 
-<img src="images/connect-data-source-dialog.png" alt="A list of ready credentials in the Connect Data Source dialog" class="responsive-img" width="50%"/>
+<img src="images/connect-data-source-dialog.png" alt="A list of ready credentials in the Connect Data Source dialog" class="responsive-img" />
 
 別のデータ ソースで作成された表示形式がダッシュボードにある場合でも、それらを表示するには、そのデータ ソースに接続する必要があります。
 

@@ -22,7 +22,7 @@ Slingshot 内のセキュリティとデータ プライバシーの詳細につ
 
 アプリケーションの動作と全体的なエクスペリエンスは、プロファイル情報と設定を調整することで大幅に変更できます。ニーズに合わせてエクスペリエンスをカスタマイズしてみてください。これを行うには、[設定] に移動します。
 
-<img src="../images/user-account-settings-drop-down-menu.png" alt="Settings location in a user's account" class="responsive-img" width="80%"/>
+<img src="../images/user-account-settings-drop-down-menu.png" alt="Settings location in a user's account" class="responsive-img" width="85%"/>
 
 ここで、さまざまな設定を自由に試して、Slingshot を自分の好みに合わせてください。
 
@@ -38,7 +38,7 @@ Slingshot 内のセキュリティとデータ プライバシーの詳細につ
 
 - ログをエクスポートしたいですか？
 
-<img src="../images/users-account-settings.png" alt="Example of user settings opened" class="responsive-img" width="80%"/>
+<img src="../images/users-account-settings.png" alt="Example of user settings opened" class="responsive-img" width="85%"/>
 
 さらに、他のユーザーと共同作業するときに自分を認識できるようになるため、**プロファイル情報**を完成させることをお勧めします。名前、役職、写真などはすべてユーザーの仮想 ID の一部であり、Slingshot の体験に付加価値をもたらします。
 

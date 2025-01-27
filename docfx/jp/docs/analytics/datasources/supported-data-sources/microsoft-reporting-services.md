@@ -34,11 +34,11 @@ Microsoft Reporting Services レポートへの接続を構成した後、デー
 
   - **[PDF として読み込み]** - レポートを PDF 文書として表示形式エディターに埋め込みます。表示形式エディター内で PDF をスクロール、ズーム、ダウンロード、または印刷できます。
 
-  <img src="images/microsoft-reporting-services-pdf.png" alt="Microsoft reporting services in pdf format in the Visualization Editor" class="responsive-img" width="84%"/>
+  <img src="images/microsoft-reporting-services-pdf.png" alt="Microsoft reporting services in pdf format in the Visualization Editor" class="responsive-img" width="85%"/>
 
   - **[データの読み込み]** - レポートのデータは標準形式で読み込まれ、表示形式を作成するためのフィールドを提供します。
 
-  <img src="images/visualization-editor-microsoft-reporting-services.png" alt="Microsoft reporting services data in the Visualization editor" class="responsive-img" width="84%"/>
+  <img src="images/visualization-editor-microsoft-reporting-services.png" alt="Microsoft reporting services data in the Visualization editor" class="responsive-img" width="85%"/>
 
 >[!NOTE]
 >表示形式エディターでデータ ソースを編集: 読み込み後は変更できないため、レポート形式 (PDF または data) を選択してください。データ ソースを*編集する*場合、レポートのパラメーターの構成のみ変更できます。
@@ -47,12 +47,12 @@ Microsoft Reporting Services レポートへの接続を構成した後、デー
 
 デフォルトでは、**柱状**表示形式が選択されます。それを選択して、別のチャート タイプを選択できます。
 
-<img src="images/chart-types-microsoft-reporting-services.png" alt="List of chart types for Microsoft Reporting Services in the Visualization Editor" class="responsive-img" width="68%"/>
+<img src="images/chart-types-microsoft-reporting-services.png" alt="List of chart types for Microsoft Reporting Services in the Visualization Editor" class="responsive-img" width="85%"/>
 
 選択した表示形式に基づいて、さまざまなタイプのフィールドが表示されます。
 
 表示形式の準備ができたら、右上隅のチェックマークをクリックまたはタップして、ダッシュボードとして保存できます。
 
-以下の例では、ダッシュボードを **[分析]** ⇒ **[ダッシュボード]** -> **Accounting** に保存しました。
+以下の例では、ダッシュボードを **[分析]** ⇒ **[ダッシュボード]** ⇒ **Accounting** に保存しました。
 
-<img src="images/microsoft-reporting-services-my-analytics-dashboard.png" alt="A dashboard in the My Analytics section created while using Microsoft Reporting Services" class="responsive-img" width="80%"/>
+<img src="images/microsoft-reporting-services-my-analytics-dashboard.png" alt="A dashboard in the My Analytics section created while using Microsoft Reporting Services" class="responsive-img" width="85%"/>

@@ -8,7 +8,7 @@
 
 2. **[フィールドを管理]** を選択します。 
 
-<img src="../images/task-manage-fields-option.png" alt="Manage fields option for a task" class="responsive-img" width="80%" />
+<img src="../images/task-manage-fields-option.png" alt="Manage fields option for a task" class="responsive-img" width="85%" />
 
 3. **[+フィールド]** をクリックまたはタップします。 
 
@@ -30,7 +30,7 @@
 
 4. 新しいタイプに転送するフィールドを選択するように求められます。準備ができたら、**[変換先]** をクリックまたはタップします。 
 
-<img src="../images/convert-to-button.png" alt="Convert to button" class="responsive-img" width="80%" />
+<img src="../images/convert-to-button.png" alt="Convert to button" class="responsive-img" width="85%" />
 
 以下の手順でタスク タイプを変更することもできます。
 
@@ -40,12 +40,12 @@
 
 3. 新しいカスタム フィールドを追加するタスク タイプを選択します。 
 
-<img src="../images/task-types-list.png" alt="List of task types" class="responsive-img" width="80%" />
+<img src="../images/task-types-list.png" alt="List of task types" class="responsive-img" width="85%" />
 
 4. ここから、フィールドのタイプを選択してカスタマイズできます。 
 
-<img src="../images/custom-field-types-list.png" alt="List of different types of custom fields" class="responsive-img" width="80%" />
+<img src="../images/custom-field-types-list.png" alt="List of different types of custom fields" class="responsive-img" width="85%" />
 
 5. 準備ができたら、**[追加]** をクリックまたはタップします。 
 
-<img src="../images/custom-field-add-button.png" alt="Custom field add button" class="responsive-img" width="80%" />
+<img src="../images/custom-field-add-button.png" alt="Custom field add button" class="responsive-img" width="85%" />

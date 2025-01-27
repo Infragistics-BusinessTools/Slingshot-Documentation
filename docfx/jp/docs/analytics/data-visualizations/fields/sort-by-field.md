@@ -41,7 +41,7 @@ _language: ja
 
 次の表示形式を見てみましょう。ここでは、[積層型柱状チャート](../../../analytics/visualization-tutorials/stacked-charts.md#積層型チャートの作成)で企業の現金と売掛金の増加をプロットしています。
 
-<img src="images/visualization-example.png" alt="Sales Info visualization while using stacked column chart" class="responsive-img" width="80%"/>
+<img src="images/visualization-example.png" alt="Sales Info visualization while using stacked column chart" class="responsive-img" width="85%"/>
 
 値は、**Month Name** (文字列フィールド) で並べ替えされています。ただし、月はデフォルトでアルファベット順に並べ替えされているため、結果の表示形式は分析には適しません。
 
@@ -49,8 +49,8 @@ _language: ja
 
 1. データ エディターのラベル プレースホルダーで **Month Name** フィールドを選択し、目的の並べ替えを選択します。
 
-<img src="images/field-settings-sort-by.png" alt="Sort by option with a list of different fields in the field settings dialog" class="responsive-img" width="80%"/>
+<img src="images/field-settings-sort-by.png" alt="Sort by option with a list of different fields in the field settings dialog" class="responsive-img" width="85%"/>
 
 2. **[フィールドの更新]** をクリックまたはタップします。情報は時系列順に並べ替えられます。
 
-<img src="images/financial-metrics-example.png" alt="Visualization of data sorted by chronological order" class="responsive-img" width="80%"/>
+<img src="images/financial-metrics-example.png" alt="Visualization of data sorted by chronological order" class="responsive-img" width="85%"/>

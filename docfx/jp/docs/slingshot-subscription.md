@@ -36,7 +36,7 @@ macOS、iOS、または Android で Slingshot を使用している場合は、<
 
 ワークスペースの横にあるオーバーフロー メニューをクリックして、**[共有ユーザー]** を選択します。
 
-<img src="../images/shared-with-button-workspaces.png" alt="Shared With option in the list of options for workspaces" class="responsive-img" width="80%"/>
+<img src="../images/shared-with-button-workspaces.png" alt="Shared With option in the list of options for workspaces" class="responsive-img" width="85%"/>
 
 ダイアログが表示されるので、そこで **[+ 追加]** ボタンをクリックまたはタップして、名前またはメール アドレスでメンバーを追加できます。
 

@@ -10,7 +10,7 @@ _language: ja
 
 Slingshot の検索は、Slingshot 内のすべてからきちんと整理された結果を提供します。さまざまなフィルタリング オプションにより、優れた検索精度で、本当に必要なものをすばやく見つけることを確実にします。
 
-<img class="responsive-img" src="../images/search-example.png" alt="Slingshot's search bar" class="responsive-img" width="80%"/>
+<img class="responsive-img" src="../images/search-example.png" alt="Slingshot's search bar" class="responsive-img" width="85%"/>
 
 ## 検索方法
 
@@ -46,7 +46,7 @@ Slingshot の検索は、Slingshot 内のすべてからきちんと整理され
 
 [場所] フィルター (ページの上部) は、選択した結果タブに関係なく、すべての結果に適用されます。たとえば、異なるワークスペースにある 2 つのプロジェクトでブロックされたすべてのタスクを簡単に検索できます。これを行うには、場所のドロップダウンで 2 つのプロジェクトを選択し、[タスク] タブで [ブロック中] 状態でフィルターします。
 
-<img class="responsive-img" src="../images/location-filter.png" alt="Location filter in Search results" class="responsive-img" width="80%"/>
+<img class="responsive-img" src="../images/location-filter.png" alt="Location filter in Search results" class="responsive-img" width="85%"/>
 
 ### より多くのフィルターを使用する
 

@@ -15,7 +15,7 @@ Slingshot は、分析、データ ソースとセット、表示形式、ダッ
 
 - **ダッシュボードとデータ ソース**: データ カタログは、ユーザーにダッシュボードおよびデータ ソースの広範なカタログへのアクセスを提供することを目的としています。
 
-<!-- <img src="../images/data-catalog-example.png" alt="Data Catalog screen within Slingshot" class="responsive-img" width="80%"/> -->
+<!-- <img src="../images/data-catalog-example.png" alt="Data Catalog screen within Slingshot" class="responsive-img" width="85%"/> -->
 
 ### 認証
 
@@ -42,11 +42,11 @@ Slingshot は、分析、データ ソースとセット、表示形式、ダッ
 
 [フィルター] エディターにアクセスするには、オーバーフローの隣にあるフィルター アイコン (画面右上) をクリックまたはタップします。
 
-<img src="../images/data-catalog-filter-icon.png" alt="Filter icon for data sources in data catalog" width="80%" class="responsive-img"/>
+<img src="../images/data-catalog-filter-icon.png" alt="Filter icon for data sources in data catalog" width="85%" class="responsive-img"/>
 
 または、[+フィルター] ボタンをクリックまたはタップします。
 
-<img src="../images/data-catalog-filter-option.png" alt="Filter option for data soruces in data catalog" width="80%" class="responsive-img"/>
+<img src="../images/data-catalog-filter-option.png" alt="Filter option for data soruces in data catalog" width="85%" class="responsive-img"/>
 
 ダッシュボードまたはデータ ソースのフィルタリングを停止するには、次の方法があります。
 
@@ -67,7 +67,7 @@ Slingshot は、分析、データ ソースとセット、表示形式、ダッ
 
 管理者でない組織ユーザーは、データ カタログのコンテンツを削除または追加できません。管理者でない組織ユーザーは、リストやセクションを参照できますが、それらの作成や編集はできません。 
 
-<img src="../images/data-catalog-dashboards-example.png" alt="Data Catalog screen within Slingshot" class="responsive-img" width="80%"/>
+<img src="../images/data-catalog-dashboards-example.png" alt="Data Catalog screen within Slingshot" class="responsive-img" width="85%"/>
 
 ## データ カタログの展開 
 

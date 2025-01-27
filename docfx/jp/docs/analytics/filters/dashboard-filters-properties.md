@@ -14,17 +14,17 @@ _language: ja
 
 2. **[ダッシュボード フィルターの追加]** をクリックまたはタップします。
 
-<img src="images/dashboard-filter-option.png" alt="Dashboard Filter option" class="responsive-img" width="80%">
+<img src="images/dashboard-filter-option.png" alt="Dashboard Filter option" class="responsive-img" width="85%">
 
 2. データ ソースを選択します。 
 
 3. **ダッシュボード フィルター** メニューが開きます。ここで、別のデータ ソースに切り替えて、ダッシュボードとして使用するデータセットを選択できます。
 
-  <img src="images/dashboard-filter-configuration.png" alt="Dashboard Filter confugaration" class="responsive-img" width="80%">
+  <img src="images/dashboard-filter-configuration.png" alt="Dashboard Filter confugaration" class="responsive-img" width="85%">
 
 3. フィールドを選択したら、**[フィルターの作成]** をクリックまたはタップします。
 
-<img src="images/dashboard-filter-create-button.png" alt="Dashboard Filter create button" class="responsive-img" width="80%">
+<img src="images/dashboard-filter-create-button.png" alt="Dashboard Filter create button" class="responsive-img" width="85%">
 
 ## フィルター設定の概要
 
@@ -52,14 +52,14 @@ _language: ja
 
 ダッシュボード フィルター名の隣りのオーバーフロー メニューで [編集] ボタンをクリックして、編集モードで表示列を変更できます。
 
-<img src="images/edit-mode-filter.png" alt="Edit dashboard filter" class="responsive-img" width="80%">
+<img src="images/edit-mode-filter.png" alt="Edit dashboard filter" class="responsive-img" width="85%">
 
 <a name='multiple-selection'></a>
 ## 複数選択
 
 Analytics は、複数のダッシュボード フィルター値の同時選択をサポートしています。これにより、コレクション内で要素を並べて比較できます。たとえば、[HR ダッシュボード] で複数の選択を有効にすることで、さまざまなオフィスの雇用や欠勤を比較することができます。
 
-<img src="images/multiple-selection-dashboard-filters.png" alt="Filters multiple selections applied to a dashboard" class="responsive-img" width="80%"/>
+<img src="images/multiple-selection-dashboard-filters.png" alt="Filters multiple selections applied to a dashboard" class="responsive-img" width="85%"/>
 
 **複数選択**を有効にするには、次の操作を実行する必要があります:
 
@@ -71,7 +71,7 @@ Analytics は、複数のダッシュボード フィルター値の同時選択
 
 4. **[複数選択]** チェックボックスをオンにします。
 
-<img src="images/multiple-selection-option-dashboard-filter-dialog.png" alt="Multiple selections for dashboard filters" class="responsive-img" width="80%"/>
+<img src="images/multiple-selection-option-dashboard-filter-dialog.png" alt="Multiple selections for dashboard filters" class="responsive-img" width="85%"/>
 
 <a name='required-selection'></a>
 ## 必須選択
@@ -88,7 +88,7 @@ Analytics は、複数のダッシュボード フィルター値の同時選択
 
 4. **[必須選択]** チェックボックスをオンにします。
 
-<img src="images/required-selection-option-filters.png" alt="Required selection fo dashboard filters" class="responsive-img" width="80%"/>
+<img src="images/required-selection-option-filters.png" alt="Required selection fo dashboard filters" class="responsive-img" width="85%"/>
 
 <a name='data-filters'></a>
 ## データ フィルター
@@ -97,7 +97,7 @@ Analytics は、複数のダッシュボード フィルター値の同時選択
 
 たとえば、**Fullname** フィールドを使用して **HR ダッシュボード**のデータをフィルタリングする場合、**ダッシュボード フィルター**は会社のすべてのオフィスの従業員リストを表示します。
 
-<img src="images/data-filters-dashboard-filters-hr-dashboard.png" alt="Fullname dashboard filter applied to HR Dashboard" class="responsive-img" width="80%"/>
+<img src="images/data-filters-dashboard-filters-hr-dashboard.png" alt="Fullname dashboard filter applied to HR Dashboard" class="responsive-img" width="85%"/>
 
 ここでは、特定のオフィスで働いている従業員だけをフィルターとして使用する場合は、**データ フィルター** プロパティを適用でる、たとえば、*London, UK*。それにより、ダッシュボード フィルターには、ロンドンオフィスで働く従業員のリストが表示されます。
 
@@ -111,15 +111,15 @@ Analytics は、複数のダッシュボード フィルター値の同時選択
 
 3.  [フィールドの選択] をクリックまたはタップして、リストから Office を選択します。
 
-  <img src="images/dashboard-filters-select-data-filter-field.png" alt="Select a field for a data filter in the dashboard filter settings menu" class="responsive-img" width="80%">
+  <img src="images/dashboard-filters-select-data-filter-field.png" alt="Select a field for a data filter in the dashboard filter settings menu" class="responsive-img" width="85%">
 
 4.  次のダイアログで、適用するフィルター タイプを選択します (この例では、**[値の選択]** を選択します)。
 
-  <img src="images/filter-types.png" alt="Dashboard Filters Filter type option" class="responsive-img" width="80%">
+  <img src="images/filter-types.png" alt="Dashboard Filters Filter type option" class="responsive-img" width="85%">
 
 5.  リストから *London, UK* を選択し、[フィルターの作成] ボタンをクリックまたはタップします。
 
-<img src="images/filter-data-example.png" alt="Filter data example" class="responsive-img" width="80%">
+<img src="images/filter-data-example.png" alt="Filter data example" class="responsive-img" width="85%">
 
 ## Microsoft Analysis Data を使用したダッシュボード フィルター
 
