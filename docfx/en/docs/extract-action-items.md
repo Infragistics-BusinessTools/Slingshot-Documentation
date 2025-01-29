@@ -18,7 +18,7 @@ Navigate to the discussion or chat message that you want to create a task from.
 
 4. From here a dialog box will appear. This will display a list of Suggested Action Items. 
 
-<img src="../images/extracted-action-items-list.png" alt="List of extracted action items" width="90%" class="responsive-img"/>
+<img src="../images/extracted-action-items-list.png" alt="List of extracted action items" class="responsive-img"/>
 
 From here, there are many more options you can do: 
 
@@ -40,7 +40,7 @@ From here, there are many more options you can do:
 
 2. Choose a location where you want to save the tasks and then click/tap on **Next**. The default location for the tasks is the location of the message. For example, if you extract action items from a private chat message, the default location will be *My Tasks*. However, you can change the default location to suit your needs. In the process of creating the tasks, you can also add new *Task Lists* and *Task Sections* to the location, as shown in the screenshot below. 
 
-<img src="../images/location-new-tasks-extracted-action-items.png" alt="Choose Location for new tasks" width="90%" class="responsive-img"/> 
+<img src="../images/location-new-tasks-extracted-action-items.png" alt="Choose Location for new tasks" class="responsive-img"/> 
 
 >[!Note] You can only use the Slingshot AI extract action items feature on non-generated messages. This means that you cannot summarize messages that have already been summarized using the Slingshot [AI Summarization](summarization.md) feature.   
 
@@ -52,11 +52,11 @@ If you want to first make some changes, for example, set up the *Priority* of a 
 
 2. Choose a location where you want to save the tasks and then click/tap on **Next**. The default location for the tasks is the location of the message. For example, if you extract action items from a private chat message, the default location will be *My Tasks*. However, you can change the default location to suit your needs. In the process of creating the tasks, you can also add new *Task Lists* and *Task Sections* to the location, as shown in the screenshot below. 
 
-<img src="../images/new-tasks-location.png" alt="Choose Location for new tasks" width="90%" class="responsive-img"/>
+<img src="../images/new-tasks-location.png" alt="Choose Location for new tasks" class="responsive-img"/>
 
 3. When you are ready with the modifications of each task, click/tap on **Create** in each of them. If you have multiple action items, you will see a number of Action Items remaining to be created as tasks next to the **Create** button. 
 
-<img src="../images/action-items-number.png" alt="Number of action items" width="90%" class="responsive-img"/> 
+<img src="../images/action-items-number.png" alt="Number of action items" class="responsive-img"/> 
 
 ## How do I disable the Slingshot AI Extract Action Items Feature:  
 
@@ -74,4 +74,4 @@ If you want to turn Slingshot AI off: 
 
 3. Toggle the **General AI Features** off. 
 
-<img src="../images/ai-settings.png" alt="AI Settings" width="90%" class="responsive-img"/> 
+<img src="../images/ai-settings.png" alt="AI Settings" class="responsive-img"/> 

@@ -85,9 +85,9 @@ Instead of creating a whole new set of tasks, you can save some time and be more
 
 If you decide to duplicate a parent task, you can duplicate  all the subtasks associated with it. 
 
-1.	Open **My Tasks**.
+1.	Open the task list where the parent task is located.
 
-2.	Click on the overflow menu. 
+2.	Click on the overflow menu of the task. 
 
 3.	Choose **Duplicate**.
 
@@ -101,7 +101,7 @@ If you decide to duplicate a parent task, you can duplicate  all the subtasks as
 
  <img src="../images/duplicate-task-example.png" alt="Example of a duplicate task and its fields" class="responsive-img"/>
 
-6.	When you are ready, you can click on **Update**. You can find the task with the subtasks in the **My Tasks** section. 
+6.	When you are ready, you can click on **Update**. You can find the task with the subtasks in the specific location that you have saved it. 
 
  <img src="../images/duplicate-tasks-task-section.png" alt="Example of stored duplicated tasks" class="responsive-img"/>
 
@@ -171,7 +171,7 @@ Use Timeline view if you want to:
 
 If you want your team members in a workspace or a project to land on task list, organized in a specific way, you can:
 
-1. Open the oveflow menu next to the *Producitivity Boost*. 
+1. Open the oveflow menu next to the *Productivity Boost*. 
 
 2. Click/tap on **Save as Default View** to choose a default view. 
 
