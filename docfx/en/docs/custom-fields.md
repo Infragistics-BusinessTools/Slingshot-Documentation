@@ -22,15 +22,20 @@ The main advantages of custom fields include:
 
 ## What are the Types of Custom Fields? 
 
-| _**Type**_ | _**Description**_ | _**Use Case**_ |
+| ***Type*** | ***Description*** | ***Use Case*** |
 | ---- | ----------- | -------- |
-| _**Text**_ | It can be used in tasks where users want to add brief additional information. There is a limit of 255 characters. | Your customer support team needs a field for escalations. You can create a text field called **Escalations** so your team members can provide information, such as if the case was already escalated or needs to be escalated to another team. |
-| _**Long Text**_ | It can be used in tasks where users need to provide as much info as possible. | You are a team manager of a customer support team, responsible for handling users' inquiries via email. You want to add a **Summary** field to your teams' tasks. That way, your team members can include detailed information about each support case. |
-| _**People**_ |  It can be used for scenarios where users want to keep an eye on the progress of a task without being assigned to it. | You are a Team Lead who wants to keep an eye on tasks regarding the web design of your product. You also want to include the QA team, so they can see when the new design has been implemented and is ready for testing. You can assign the tasks to the designer's team and include the QA team and yourself in the people field. |
-| _**Dropdown**_ | It can be used in tasks where users need to choose one option from a list of different options. | You are in charge of creating training materials and need to specify for which job level they are: entry-level, mid-level or senior level. You can create a dropdown field called **Job Level** and add the options. |
-| _**Labels**_ | It can be used in tasks where users want to categorize tasks based on specific criteria. | You have tasks for different marketing channels. You can set up a **Channel** field, with values such as *Email* and *Social Media*. This way your team members can categorize the tasks. |
-| **Number** | It can be used in tasks where users want to include numeric data in their tasks. | You are a campaign manager who wants to keep an eye on the spending on a campaign. You can add an **Expenses** field with a specific currency value. |
-| **Date** | It can be used in tasks where users want to add dates that are significant to the progress of a task. These dates can be different from the *Start Date* and the *Due Date*. | You are a technical writer who wants to keep an eye on the product release dates. With the date field, you can see when the release date is, so you can organize the documentation in time. |
+| ***Text*** | It can be used in tasks where users want to add brief additional information. There is a limit of 255 characters. | Your customer support team needs a field for escalations. You can create a text field called **Escalations** so your team members can provide information, such as if the case was already escalated or needs to be escalated to another team. |
+| ***Long Text***| It can be used in tasks where users need to provide as much info as possible. | You are a team manager of a customer support team, responsible for handling users' inquiries via email. You want to add a **Summary** field to your teams' tasks. That way, your team members can include detailed information about each support case. |
+| ***People*** |  It can be used for scenarios where users want to keep an eye on the progress of a task without being assigned to it. | You are a Team Lead who wants to keep an eye on tasks regarding the web design of your product. You also want to include the QA team, so they can see when the new design has been implemented and is ready for testing. You can assign the tasks to the designer's team and include the QA team and yourself in the people field. |
+| ***Dropdown*** | It can be used in tasks where users need to choose one option from a list of different options. | You are in charge of creating training materials and need to specify for which job level they are: entry-level, mid-level or senior level. You can create a dropdown field called **Job Level** and add the options. |
+| ***Labels*** | It can be used in tasks where users want to categorize tasks based on specific criteria. | You have tasks for different marketing channels. You can set up a **Channel** field, with values such as *Email* and *Social Media*. This way your team members can categorize the tasks. |
+| ***Number*** | It can be used in tasks where users want to include numeric data in their tasks. | You are a campaign manager who wants to keep an eye on the spending on a campaign. You can add an **Expenses** field with a specific currency value. |
+|***Manual Progress***| It can be used by users for tracking the progress of tasks. The manual progress field has a percentage value between 0 and 100. It can be adjusted by typing in a number or by using the field slider.| You are a Team Manager who is responsible for multiple projects in your company. To have a quick overview on the progress of the teams' tasks, you can add a manual progress custom field to different task lists.|
+|***Checkbox***| It can be used in tasks where users want to select/deselect options.| You are a campaign manager who needs to track the progress of a campaign through different stages. To do that, you can add an **Approved** custom field to your tasks. That way your team can make informed decisions.|
+|***Phone Number***|It can be used in tasks where users want to include phone numbers.| You are part of a human resources team and need to conduct an interview regarding an open job position. You can save candidates' phone numbers in order to contact them later during the recruitment process.|
+| ***Date*** | It can be used in tasks where users want to add dates that are significant to the progress of a task. These dates can be different from the *Start Date* and the *Due Date*. | You are a technical writer who wants to keep an eye on the product release dates. With the date field, you can see when the release date is, so you can organize the documentation in time. |
+|***Email***|It can be used in tasks where users need to save email addresses.| You are a customer support representative who needs to reach out to a customer regarding their feature request. You can add their email address to your task in order to update them on the matter.|
+|***Files***|It can be used in tasks where users need to add information by attaching files and documents. Similarly to the *Attachments* field in a task, users can add tasks, discussions, documents, dashbords, data sources, URLs, or upload files from their device. The difference is that you can customize the *Files* field by giving it a name and a description.| You are an accountant who wants to organize your customers' invoices. To do that, you can create an **Invoice** file field for your tasks.|
 
 ## What is the Custom Task Fields Library? 
 
@@ -40,11 +45,11 @@ To have a better overview of all the custom fields that you can use, we decided 
 
 ### User permissions for Custom Fields Library  
 
-| _**Level**_ | _**Description**_ |
+| ***Level*** | ***Description*** |
 | ----- | ----------- |
 | *Organization* | Only owners of an organization can delete custom fields from the library. Users with contributor permissions can edit an already existing field or create a new one. |
 | *Workspace* | Everyone, who is a contributor or an owner in a workspace can make changes in the library. This means that they can edit and delete fields, as well as create new fields. |
-| *Project* | Everyone who is an owner in a project can make changes in the library. This means that they can edit and delete fields, as well as create new fields.    | 
+| *Project* | Everyone who is an owner in a project can make changes in the library. This means that they can edit and delete fields, as well as create new fields. | 
 
 ## How Do I Create a Custom Field? 
 
@@ -54,23 +59,23 @@ To create a custom field, you need to:
 
 2. From the drop down that appears, you can toggle on/off existing fields or create new fields in the task list. To create a custom field, click/tap on **+Add Field**.
 
-<img src="../images/add-new-field-task-list.png" alt="New field button in a task list" class="responsive-img" width="90%" />
+<img src="../images/add-new-field-task-list.png" alt="New field button in a task list" class="responsive-img"/>
 
 3. From here you can pick the [type of field](#what-are-the-types-of-custom-fields) that best fits your internal flows.
 
-<img src="../images/field-types-list.png" alt="List of different types of custom fields" class="responsive-img" width="90%" />
+<img src="../images/field-types-list.png" alt="List of different types of custom fields" class="responsive-img"/>
 
 4. Based on the field that you have chosen you will be presented with different options.  
 
 For example, we wanted to have a way to categorize our tasks in our *Marketing* workspace. This is why we chose the **Labels** field. Here we were able to set up different values for the field, such as *Email* and *Social Media*.
 
-<img src="../images/custom-field-creation.png" alt="Example of the proccess of creating a custom field" class="responsive-img" width="90%" />
+<img src="../images/custom-field-creation.png" alt="Example of the proccess of creating a custom field" class="responsive-img"/>
 
 5. When you are ready with the changes, click/tap on **Add**. 
 
 6. You can find the new field in the list of fields in your task list.
 
-<img src="../images/new-custom-field-task-list.png" alt="Example of a new custom field in a task list" class="responsive-img" width="90%" />
+<img src="../images/new-custom-field-task-list.png" alt="Example of a new custom field in a task list" class="responsive-img"/>
 
 ## How Do I Edit an Existing Custom Field? 
 
@@ -84,15 +89,15 @@ This is why we:
 
 1. Removed the value *On Hold* from the status of the task type named *Campaign Type*. The value got crossed out.
 
-<img src="../images/crossed-out-value.png" alt="Example of a crossed out value of a field" class="responsive-img" width="90%" />
+<img src="../images/crossed-out-value.png" alt="Example of a crossed out value of a field" class="responsive-img"/>
 
 2. Made the value *Blocked* visible in the task type, so it can show up in the options for **Status**.
 
-<img src="../images/status-value-example.png" alt="Example of a Status value" class="responsive-img" width="90%" />
+<img src="../images/status-value-example.png" alt="Example of a Status value" class="responsive-img"/>
 
 3. Changed the status of a task directly from the task list. 
 
-<img src="../images/new-status-value.png" alt="Example of a new Status value in a list of values" class="responsive-img" width="90%" />
+<img src="../images/new-status-value.png" alt="Example of a new Status value in a list of values" class="responsive-img"/>
 
 ## How Do I Delete an Existing Custom Field?  
 
@@ -100,11 +105,11 @@ To delete a custom field:
 
 1. Open the overflow menu of that field you want to remove. 
 
-<img src="../images/remove-option-field.png" alt="Remove option for a field" class="responsive-img" width="90%" />
+<img src="../images/remove-option-field.png" alt="Remove option for a field" class="responsive-img"/>
 
 2. Click/tap on **Remove Field**. The field will be removed from any tasks and task types that it is currently used in. As this action cannot be undone, you will get the following warning: 
 
-<img src="../images/remove-field-warning.png" alt="Warning for removing a field" class="responsive-img" width="90%" />
+<img src="../images/remove-field-warning.png" alt="Warning for removing a field" class="responsive-img"/>
 
 3. To apply the changes, click/tap on **Remove**. 
 
@@ -114,15 +119,15 @@ You can also remove a field directly from an opened task when you:
 
 2. Click/tap on **Manage Fields**. 
 
-<img src="../images/manage-fields-task-option.png" alt="Manage fields option for a task" class="responsive-img" width="90%" />
+<img src="../images/manage-fields-task-option.png" alt="Manage fields option for a task" class="responsive-img"/>
 
 3. You will be presented with the following dialog box where you can remove fields when you open the overflow menu of a field and click/tap on **Remove**. 
 
-<img src="../images/task-types-fields-example.png" alt="List of different fields in a task with a type" class="responsive-img" width="90%" />
+<img src="../images/task-types-fields-remove-option.png" alt="List of different fields in a task with a type" class="responsive-img"/>
 
 4. When you are ready with the adjustments, click/tap on **Update**.
 
-<img src="../images/update-button-manage-fields.png" alt="Update button in a Manage Fields dialog box" class="responsive-img" width="90%" />
+<img src="../images/update-button-manage-fields.png" alt="Update button in a Manage Fields dialog box" class="responsive-img"/>
 
 ## How Do I Use Custom Fields from the Task Fields Library? 
 
@@ -136,23 +141,23 @@ To use a custom field from a Task Fields Library, you need to:
 
 2. Choose **+ Add Field**.
 
-<img src="../images/custom-fields-add-button.png" alt="Add button for custom fields" class="responsive-img" width="90%" />
+<img src="../images/custom-fields-add-button.png" alt="Add button for custom fields" class="responsive-img"/>
 
 3. Click/tap on **Task Fields Library**.
 
-<img src="../images/custom-fields-task-fields-library.png" alt="Task Fields LIbrary in a list of different types of custom fields" class="responsive-img" width="90%" />
+<img src="../images/custom-fields-task-fields-library.png" alt="Task Fields LIbrary in a list of different types of custom fields" class="responsive-img"/>
 
 4. You will see a list of custom fields saved in a specific location (workspace, project, or organization). Pick the one that best fits your goals. 
 
-<img src="../images/custom-fields-library.png" alt="List of custom fields in a library" class="responsive-img" width="90%" />
+<img src="../images/custom-fields-library.png" alt="List of custom fields in a library" class="responsive-img"/>
 
 5. Click/tap on **Use**.
 
-<img src="../images/custom-field-use-button.png" alt="Use button for a custom field" class="responsive-img" width="90%" />
+<img src="../images/custom-field-use-button.png" alt="Use button for a custom field" class="responsive-img"/>
 
 6. You will see the field in the task list. 
 
-<img src="../images/custom-field-task-list.png" alt="Example of a custom field in a task list" class="responsive-img" width="90%" />
+<img src="../images/custom-field-task-list.png" alt="Example of a custom field in a task list" class="responsive-img"/>
 
 ## Applying Custom Fields to Subtasks  
 
@@ -164,17 +169,17 @@ If you have opened a task list and want to add a custom field to subtasks of a t
 
 2. Choose **Manage Fields**. 
 
-<img src="../images/manage-fields-subtask.png" alt="Manage fields option for a subtask" class="responsive-img" width="90%" />
+<img src="../images/manage-fields-subtask.png" alt="Manage fields option for a subtask" class="responsive-img"/>
 
 3. You will see the *Subtask Fields* dialog where you can add or remove fields. To add a field, click/tap on **+Field**. 
 
 4. You will be presented with a list of different types of fields. Choose the one that best fits your business needs. In our case we added a label field named *Channel*.
 
-<img src="../images/field-types-subtask.png" alt="List of field types for a subtask" class="responsive-img" width="90%" />
+<img src="../images/field-types-subtask.png" alt="List of field types for a subtask" class="responsive-img"/>
 
 5. When you are ready, click/tap on **Done** and then on **Update** to save the changes.
 
-<img src="../images/new-custom-field-subtask.png" alt="Example of a new custom field for a subtask" class="responsive-img" width="90%" />
+<img src="../images/new-custom-field-subtask.png" alt="Example of a new custom field for a subtask" class="responsive-img"/>
 
 If you have opened a parent task, you can add custom fields to a subtask without a task type when you:
 
@@ -182,15 +187,15 @@ If you have opened a parent task, you can add custom fields to a subtask without
 
 2. Scroll down to the *Subtasks* section and click/tap on **Subtask Fields**. 
 
-<img src="../images/subtask-fields-subtasks-section.png" alt="Subtask fields button in the subtasks section" class="responsive-img" width="90%" />
+<img src="../images/subtask-fields-subtasks-section.png" alt="Subtask fields button in the subtasks section" class="responsive-img"/>
 
 3. Click/tap on **+Field**. The list of different types of fields will show up. Choose the one that fits best your goals. You can also use a field from the parent task. The available parent fields will appear under *Main Task Fields*. 
 
-<img src="../images/subtask-fields.png" alt="List of different types of fields for a subtask" class="responsive-img" width="90%" />
+<img src="../images/subtask-fields.png" alt="List of different types of fields for a subtask" class="responsive-img"/>
 
 4. When you are ready, click/tap on **Done** and then **Update** to add the field. 
 
-<img src="../images/subtask-fields-done-button.png" alt="Subtask fields done button" class="responsive-img" width="90%" />
+<img src="../images/subtask-fields-done-button.png" alt="Subtask fields done button" class="responsive-img"/>
 
 >[!Note] If you add or remove fields from subtasks that have a specific [task type](task-types.md), these changes will affect the type and its tasks.  
 
@@ -206,7 +211,7 @@ For example, we had a parent task with a date field called *Release*. As we need
 
 4. Choose the *Release* field that is under *Main Task Fields*.  
 
-<img src="../images/subtask-main-task-fields.png" alt="List of parent task fields for a subtask" class="responsive-img" width="90%" />
+<img src="../images/subtask-main-task-fields.png" alt="List of parent task fields for a subtask" class="responsive-img"/>
 
 5. Click/tap on **Done** and then **Update**.
 
@@ -232,7 +237,7 @@ To do that, you need to:
 
    - Add the field with the new values to the Task Fields Library. 
 
-<img src="../images/subtask-field-options.png" alt="Example of different options for a subtask field" class="responsive-img" width="90%" />
+<img src="../images/subtask-field-options.png" alt="Example of different options for a subtask field" class="responsive-img"/>
 
 4. Choose **Edit** to change the values. 
 
@@ -240,7 +245,7 @@ To do that, you need to:
 
 6. You can see the updated **Status** of the task in the task list.
 
-<img src="../images/updated-field-subtask.png" alt="Example of an updated subtask field" class="responsive-img" width="90%" />
+<img src="../images/updated-field-subtask.png" alt="Example of an updated subtask field" class="responsive-img"/>
 
 ## Task Fields Library 
 
@@ -256,7 +261,7 @@ To open the Task Fields Library of a workspace, a project or an organization, yo
 
 3. You will see a list of all the fields that are saved in that location.
 
-<img src="../images/custom-fields-list-library.png" alt="List of custom fields in a library" class="responsive-img" width="90%" />
+<img src="../images/custom-fields-list-library.png" alt="List of custom fields in a library" class="responsive-img"/>
 
 Based on your [user permissions](#user-permissions-for-custom-fields-library), you can make the following changes in a library: 
 
@@ -266,7 +271,7 @@ Based on your [user permissions](#user-permissions-for-custom-fields-library), y
 
 - Delete a field. 
 
-<img src="../images/task-fields-library-options.png" alt="Different pptions for custom fields in a task fields library" class="responsive-img" width="90%" />
+<img src="../images/task-fields-library-options.png" alt="Different pptions for custom fields in a task fields library" class="responsive-img"/>
 
 Any changes (edit or delete) on a field in a library, will affect the [task types](task-types.md) and the tasks that are currently using it. 
 
@@ -276,11 +281,11 @@ You can open your personal custom fields when you:
 
 2. Choose **Manage Personal Libraries**. 
 
-<img src="../images/manage-personal-libraries.png" alt="Manage personal libraries option in user settings" class="responsive-img" width="90%" />
+<img src="../images/manage-personal-libraries.png" alt="Manage personal libraries option in user settings" class="responsive-img"/>
 
 3. Here you will find all your personal task fields, [task types](task-types.md) and [task templates](task-templates.md).
 
-<img src="../images/personal-task-fields-library.png" alt="Example of a personal task fields library" class="responsive-img" width="90%" />
+<img src="../images/personal-task-fields-library.png" alt="Example of a personal task fields library" class="responsive-img"/>
 
 ## Tips for using Custom Task Fields 
 

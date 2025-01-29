@@ -1,5 +1,19 @@
 # Release Notes
 
+### 1.0.3207 (Jan - 2025)
+
+#### New Features
+
+- New types of Custom Fields: *Manual Progress, Checkbox, Phone Number, Email*,*and Files*
+
+- Clickable breadcrumb for tasks: Users can now go to the location of a task from within the task screen.
+
+#### Bug Fixes and Improvements
+
+- [Bug Fix] The Slingshot app would crash when the app was minimized on MacOS. 
+
+- [Bug Fix] The *Completed* task list column would appear empty in the *Projects* tab when the project used custom *Status* field.
+
 ### 1.0.3175 (Nov - 2024)
 
 #### New Features
