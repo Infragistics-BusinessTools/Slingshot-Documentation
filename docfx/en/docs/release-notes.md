@@ -4,7 +4,7 @@
 
 #### New Features
 
-- New types of Custom Fields: *Manual Progress, Checkbox, Phone Number, Email*,*and Files*
+- New types of Custom Fields: *Manual Progress, Checkbox, Phone Number, Email*, *and Files*
 
 - Clickable breadcrumb for tasks: Users can now go to the location of a task from within the task screen.
 
