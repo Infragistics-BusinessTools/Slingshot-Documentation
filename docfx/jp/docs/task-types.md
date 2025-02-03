@@ -8,7 +8,7 @@
 
 例えば、カスタマーサポートチーム向けにカスタムのタスクタイプを作成し、チームのワークスペースで異なるケースについてのタスクを作成できるようにしました。これにより、他のチーム メンバーが必要なときにサポートに参加できます。
 
-**「サポート」** と名付けました。さらに視認性を向上させるために、**「チャット」** や **「メール」** といった必須のラベルをいくつか追加し、各ケースがどのチャンネルから来たのかを確認できるようにしました。 
+**「サポート」** と名付けました。さらに視認性を向上させるために、**「チャット」** や **「メール」** といった必須のラベルをいくつか追加し、各ケースがどのチャネルから来たのかを確認できるようにしました。 
 
 **「状態」** も追加しました。 
 
@@ -117,7 +117,7 @@
 
 1.	**[+ タスク]** をクリックまたはタップします。
 
-2.	最近使用したタスク タイプから選択するか、ワークスペースまたはそのプロジェクトの*タスク タイプ ライブラリ*を開いて、タスク タイプのリストからタイプを選択できます。
+2.	最近使用したタスク タイプから選択するか、ワークスペースまたはそのプロジェクトの**タスク タイプ ライブラリ**を開いて、タスク タイプのリストからタイプを選択できます。
 
 <img src="../images/task-types-library-task-types-list.png" alt="Task Types Library in a list of task types" class="responsive-img" width="85%" />
 
@@ -177,7 +177,7 @@
 
 タスクにすでにタイプがあるが、異なるフィールドを持つ別のタイプを使用したい場合は、以下の手順を実行できます。
 
-1.	タスクのオーバーフロー メニューを開きます。以下の例では、*「Campaign」* という名前のタスクのタイプを変更しました。
+1.	タスクのオーバーフロー メニューを開きます。以下の例では、*Campaign* という名前のタスクのタイプを変更しました。
 
 <img src="../images/overflow-menu-task.png" alt="Example of all option in the overflow menu of a task" class="responsive-img" width="85%" />
 
@@ -221,7 +221,7 @@
 
 すでにタスクを開いている場合は、以下の手順を実行できます。
 
-1.	*[サブタスク]* まで下にスクロールし、**[+ タスクの追加]** をクリックまたはタップします。
+1.	**[サブタスク]** まで下にスクロールし、**[+ タスクの追加]** をクリックまたはタップします。
 
 <img src="../images/add-task-subtasks-section.png" alt="Add tasks button in the subtasks section" class="responsive-img" width="85%" />
 
@@ -265,7 +265,7 @@
 
 1.	親タスクのオーバーフロー メニューを開きます。
 
-2.	**[フィールドを管理]** をクリックまたはタップします。
+2.	**[フィールドの管理]** をクリックまたはタップします。
 
 <img src="../images/parent-task-manage-fields-option.png" alt="Manage fields option for a parent task" class="responsive-img" width="85%" />
 
@@ -279,7 +279,7 @@
 
 <img src="../images/subtasks-section-task-types.png" alt="List of Task Types for subtasks" class="responsive-img" width="85%" />
 
-6.	デフォルトのタスク タイプを選択すると、*[サブタスク]* の下に表示されます。変更を保存するには、**[更新]** をクリックまたはタップします。
+6.	デフォルトのタスク タイプを選択すると、**[サブタスク]** の下に表示されます。変更を保存するには、**[更新]** をクリックまたはタップします。
 
 <img src="../images/update-button-default-type-subtasks.png" alt="Update button for saving a default type for subtasks" class="responsive-img" width="85%" />
 

@@ -34,7 +34,7 @@ Slingshot でタスクを作成する方法は複数あります:
 
 タスクは、チームやプロジェクトの生産性を高めるために非常に重要です。[カスタム フィールド](custom-fields.md)が追加されていないタスク カードには、次のフィールドがあります:
 
-<img src="../images/task-fields.png" alt="Task card with all fields highlighted within Slingshot" width="70%" class="responsive-img"/>
+<img src="../images/task-fields.png" alt="Task card with all fields highlighted within Slingshot" width="85%" class="responsive-img"/>
 
 1.	**タスクの名前**: タスクに明確なタイトルを設定します。
 
@@ -58,13 +58,13 @@ Slingshot でタスクを作成する方法は複数あります:
 
 タスクにサブタスクまたは依存関係を追加する場合は、タスク カードを下にスクロールします。
 
-<img src="../images/task-fields-subtasks-dependencies.png" alt="Subtasks and dependencies in a task card" width="70%" class="responsive-img"/>
+<img src="../images/task-fields-subtasks-dependencies.png" alt="Subtasks and dependencies in a task card" width="85%" class="responsive-img"/>
 
 ### デフォルトのタスク フィールド
 
 タスクをより適切に整理するには、デフォルトのタスク フィールドを使用できます。デフォルトのタスク フィールドのリストを開くには、タスク リストの右上隅にある**プラス** ボタンをクリックまたはタップしてください。
 
-<img src="../images/default-task-fields.png" alt="Default Task fields in a task list" width="70%" class="responsive-img"/>
+<img src="../images/default-task-fields.png" alt="Default Task fields in a task list" width="85%" class="responsive-img"/>
 
 ここでは、次のフィールドから選択できます。**完了、状態、優先度、担当者、開始日、期限、添付、依存関係、作成日、説明、完了日**、および**完了者**。
 
@@ -76,7 +76,7 @@ Slingshot でタスクを作成する方法は複数あります:
 
 タスクの説明セクションでは、さまざまなテキスト書式設定ツールを使用して、タスクに関する詳細を追加できます。URL や絵文字を追加することもできます。
 
-  <img src="../images/task-description.png" alt="Example of a task description" width="70%" class="responsive-img"/>
+  <img src="../images/task-description.png" alt="Example of a task description" width="85%" class="responsive-img"/>
 
 現在、これらのオプションは macOS Monterey でのみ使用できることに注意してください。
 
@@ -86,9 +86,9 @@ Slingshot でタスクを作成する方法は複数あります:
 
 親タスクを複製する場合は、それに関連付けられているすべてのサブタスクを複製できます。
 
-1.	**[マイ タスク]** を開きます。
+1.	親タスクが配置されているタスク リストを開きます。
 
-2.	オーバーフロー メニューをクリックします。 
+2.	タスクのオーバーフロー メニューをクリックします。 
 
 3.	**[複製]** を選択します。
 
@@ -102,9 +102,9 @@ Slingshot でタスクを作成する方法は複数あります:
 
  <img src="../images/duplicate-task-example.png" alt="Example of a duplicate task and its fields" width="85%" class="responsive-img"/>
 
-6.	準備ができたら、**[更新]** をクリックします。タスクは、**[マイ タスク]** セクションのサブタスクにあります。
+6.	準備ができたら、**[更新]** をクリックします。タスクとサブタスクは、保存した特定の場所で見つけることができます。
 
- <img src="../images/duplicate-tasks-task-section.png" alt="Example of stored duplicated tasks" width="85%" class="responsive-img"/>
+ <!-- <img src="../images/duplicate-tasks-task-section.png" alt="Example of stored duplicated tasks" width="85%" class="responsive-img"/> -->
 
 ## タスクの整理  
 
