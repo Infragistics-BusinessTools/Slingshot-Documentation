@@ -1,8 +1,8 @@
-# Learn more about your User Account & Settings
+# Learn More About Your User Account & Settings
 
 Welcome! Read on to get answers to your questions about the user account and settings.
 
-## How can I access my user account?
+## How Can I Access My User Account?
 
 Go to the upper right corner and select your profile image.
 
@@ -12,9 +12,7 @@ Here you can:
 
 - Provide the Slingshot team with valuable *Feedback*.
 
-- Use the learning center.
-
-- Try out our online Slingshot courses.
+- Use the Learning Center. If you are using the free version of Slingshot, you will see the Help Center as well as the Slingshot Academy seperately instead of everything grouped under Learning Center.
 
 - Contact our support team.
 
@@ -30,39 +28,38 @@ Here you can:
 
 <img src="../images/user-account-drop-down-menu.png" alt="Settings location in a user's account" class="responsive-img">
 
-## Which are the different subscription plans?
+## Which are the Different Subscription Plans?
 
 For information about the available plans, please go to [Pricing](https://www.slingshotapp.io/pricing).
 
-## How secure is a Slingshot user account?
+## How Secure is a Slingshot User Account?
 
 As a Slingshot user you own different types of content, like the files you upload, the messages you write and the dashboards you create. All those are part of your Slingshot account and are associated to you as a user. With that said, you do have full control over the content you own.
 For more information about security and data privacy within Slingshot, go to [Security & Privacy](security.md).
 
-## How are Slingshot user accounts related to Microsoft or Google accounts?
+## How are Slingshot User Accounts Related to Microsoft or Google Accounts?
 
 Slingshot is built upon Microsoft and Google security for data access and administration, including 2-factor authentication.
 In addition, Slingshot is GDPR compliant and allows you to export and delete your own data if requested.
 For more information about data privacy, go to [Security & Privacy](security.md).
 
-## Can I delete my user account?
+## Can I Delete My User Account?
 
 Yes, you can. To meet global data privacy laws, including the General Data Protection Regulation (GDPR) Slingshot gives the users the ability to have all their profile information deleted.
 For more information go to [Security & Privacy](security.md).
 
-## Can I reactivate my user account after it was deleted?
+## Can I Reactivate My User Account After It Was Deleted?
 
 Yes, you can. For more information go to [Security & Privacy](security.md).
 
-
-## Can I export my user account's profile information?
+## Can I Export My User Account's Profile Information?
 
 Yes you can. Your user account is a virtual representation of a user, including a set of credentials, profile information, settings and content owned by you.
 For more information go to [Security & Privacy](security.md).
 
-## Why should I complete my profile information in Slingshot?
+## Why Should I Complete My Profile Information in Slingshot?
 
-Your profile information in Slingshot includes the characteristics that make you recognizable in your collaboration space, for example your name and title. This information is important for Slingshot and for your collaborators so Emily (our AI assistant) will remind you to complete it to 100%. 
+Your profile information in Slingshot includes the characteristics that make you recognizable in your collaboration space, for example your name and title. This information is important for Slingshot and for your collaborators so the Slingshot AI will remind you to complete it to 100%. 
 
 To access your profile information:
 Select your profile image ⇒ *Settings* ⇒ *Profile Information*
@@ -82,7 +79,7 @@ To add your title, click/tap on it. Select **Set** when ready.
 
 When you are finished, just close the dialog. Your changes will be saved.  
 
-## How can I change my language?
+## How Can I Change My Language?
 
 Slingshot will detect and apply the language and regional settings configured in the different platforms, including:
 
@@ -94,7 +91,7 @@ Slingshot will detect and apply the language and regional settings configured in
 
 The available languages are English, German, Spanish, French, Italian, Japanese, Korean, Malay, Dutch, Portuguese, Russian, Chinese (Traditional and Simplified).
 
-## How can I change the notifications language?
+## How Can I Change the Notifications' Language?
 
 You can choose between 13 available languages for your notifications. 
 
@@ -103,13 +100,13 @@ Alternatively, you can open the Notifications panel and select *Settings* from t
 
 <img src="../images/user-settings-notifications.png" alt="Notifications Settings menu opened in Slingshot" class="responsive-img"/>
 
-## What are the dashboard settings?
+## What are the Dashboard Settings?
 
 Dashboards are part of your *Analytics* space in Slingshot.
 Find more about Dashboards in [Dashboards Overview](analytics/dashboards/overview.md).
 For more information about tooltips and crosshair settings, go to [Interacting with Dashboards](analytics/dashboards/dashboards-interactions.md).
 
-## What are Data source credentials?
+## What are Data Source Credentials?
 
-In Analytics, when you connect to a data source for the first time, your credentials (user name, password and domain) are stored in this *Data Source Credentials*. Because of this, you can reuse them in the future.
+In Analytics, when you connect to a data source for the first time, your credentials (username, password and domain) are stored in this *Data Source Credentials*. Because of this, you can reuse them in the future.
 For more information about data sources, go to [Data Sources Overview](analytics/datasources/overview.md). 
