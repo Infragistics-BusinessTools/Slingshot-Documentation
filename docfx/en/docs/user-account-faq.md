@@ -12,7 +12,7 @@ Here you can:
 
 - Provide the Slingshot team with valuable *Feedback*.
 
-- Use the Learning Center. If you are using the free version of Slingshot, you will see the Help Center as well as the Slingshot Academy seperately instead of everything grouped under Learning Center.
+- Use the Learning Center. If you are using the free version of Slingshot, you will see the Help Center as well as the Slingshot Academy separately, instead of everything being grouped under the Learning Center.
 
 - Contact our support team.
 
