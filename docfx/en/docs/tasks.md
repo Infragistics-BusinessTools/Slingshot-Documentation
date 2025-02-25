@@ -247,3 +247,15 @@ For example, we wanted to create a filter for John Williams’ tasks that have a
 
 <img src="../images/advanced-filters.png" alt="Advanced Filtering highlighted within Slingshot" class="responsive-img"/>
 
+### Dynamic Me Filter
+
+With the *Dynamic Me* filter, each user can see the tasks only relavant to them. Instead of adding every user one by one, you can create a *Dynamic Me* filter. This way, the user, as a current viewer, can see only the tasks that are related to them. 
+
+For example, you, as a Team Lead, want to have a filter that is used by the entire team to filter out their current tasks for a specific release. You can create a *Release* task filter with an *Assignee* set to **Dynamic Me**. When team members view this filter, they will see their tasks for that specific release. 
+
+<img src="../images/dynamic-me-filter.png" alt="Dynamic Me filter" class="responsive-img"/>
+
+You can use *Dynamic Me* for the following field values: *Assignee*, *Created By*, *Completed By*, as well as the *People* [custom field](custom-fields.md).
+
+>[!Note]
+>You can also create a Dynamic Me Filter for [Dashboards](./analytics/dashboards/creating-dashboards.md) and [Data Sources](./analytics/datasources/overview.md). You can choose *Dynamic Me* when you filter by *Created By* and *Modified By*.
