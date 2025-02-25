@@ -28,6 +28,10 @@
   items: 
     - name: Custom Fields
       href: custom-fields.md
+      items:
+       - name: Types of Custom Fields
+         href: custom-fields-types.md
+         new: false
     - name: Task Types
       href: task-types.md
     - name: Using Custom Fields and Task Types
