@@ -249,9 +249,9 @@ For example, we wanted to create a filter for John Williams’ tasks that have a
 
 ### Dynamic Me Filter
 
-With the *Dynamic Me* filter, each user can see the tasks only relavant to them. Instead of adding every user one by one, you can create a *Dynamic Me* filter. This way, the user, as a current viewer, can see only the tasks that are related to them. 
+With the *Dynamic Me* filter, each user can see the tasks only relevant to them as the filter will adjust to the user viewing it.
 
-For example, you, as a Team Lead, want to have a filter that is used by the entire team to filter out their current tasks for a specific release. You can create a *Release* task filter with an *Assignee* set to **Dynamic Me**. When team members view this filter, they will see their tasks for that specific release. 
+For example, you, as a Team Lead, want to have a filter that is used by the entire team to filter out their current tasks for a specific release. You can create a *Release* task filter with an *Assignee* set to **Dynamic Me**. When a team member views this filter, they will see only their tasks for that specific release. 
 
 <img src="../images/dynamic-me-filter.png" alt="Dynamic Me filter" class="responsive-img"/>
 

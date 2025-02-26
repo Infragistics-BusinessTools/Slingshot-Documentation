@@ -22,7 +22,7 @@ The main advantages of custom fields include:
 
 ## What are the Types of Custom Fields? 
 
-As the list of types of custom fields grows, we have collected all the information regarding each custom field [here](custom-fields-types.md).
+As the list of custom field types grows, we have collected all the information regarding each custom field [here](custom-fields-types.md).
 
 ## What is the Custom Task Fields Library? 
 
