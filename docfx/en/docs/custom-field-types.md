@@ -6,7 +6,7 @@ We are constantly expanding the list of custom fields. Below you will find all t
 
 | ***Type*** | ***Description*** | ***Use Case*** |
 | ---- | ----------- | -------- |
-| ***Text*** | It can be used in tasks where users want to add brief additional information. There is a limit of 255 characters. | Your customer support team needs a field for escalations. You can create a text field called **Escalations** so your team members can provide information, such as if the case was already escalated or needs to be escalated to another team. |
+| ***Text*** | It can be used in tasks where users want to add additional brief information. There is a limit of 255 characters. | Your customer support team needs a field for escalations. You can create a text field called **Escalations** so your team members can provide information, such as if the case was already escalated or needs to be escalated to another team. |
 | ***Long Text***| It can be used in tasks where users need to provide as much information as possible. | You are a team manager of a customer support team, responsible for handling users' inquiries via email. You want to add a **Summary** field to your teams' tasks. That way, your team members can include detailed information about each support case. |
 | ***People*** |  It can be used for scenarios where users want to keep an eye on the progress of a task without being assigned to it. | You are a Team Lead who wants to keep an eye on tasks regarding the web design of your product. You also want to include the QA team, so they can see when the new design has been implemented and is ready for testing. You can assign the tasks to the designer's team and include the QA team and yourself in the people field. |
 | ***Dropdown*** | It can be used in tasks where users need to choose one option from a list of different options. | You are in charge of creating training materials and need to specify for which job level they are: entry-level, mid-level or senior level. You can create a dropdown field called **Job Level** and add the options. |
@@ -17,11 +17,13 @@ We are constantly expanding the list of custom fields. Below you will find all t
 | ***Phone Number***| It can be used in tasks where users want to include phone numbers.| You are part of a human resources team and need to conduct an interview regarding an open job position. You can save candidates' phone numbers in order to contact them later during the recruitment process.|
 | ***Date*** | It can be used in tasks where users want to add dates that are significant to the progress of a task. These dates can be different from the *Start Date* and the *Due Date*. | You are a technical writer who wants to keep an eye on the product release dates. With the date field, you can see when the release date is, so you can organize the documentation in time. |
 | ***Email***| It can be used in tasks where users need to save email addresses.| You are a customer support representative who needs to reach out to a customer regarding their feature request. You can add their email address to your task in order to update them on the matter.|
-| ***Files***| It can be used in tasks where users need to add information by attaching files and documents. Similarly to the *Attachments* field in a task, users can add tasks, discussions, documents, dashbords, data sources, URLs, or upload files from their device. The difference is that you can customize the *Files* field by giving it a name and a description.| You are an accountant who wants to organize your customers' invoices. To do that, you can create an **Invoice** file field for your tasks.|
+| ***Files***| It can be used in tasks where users need to add information by attaching files and documents. Similarly to the *Attachments* field in a task, users can add tasks, discussions, documents, dashboards, data sources, URLs, or upload files from their device. The difference is that you can customize the *Files* field by giving it a name and a description.| You are an accountant who wants to organize your customers' invoices. To do that, you can create an **Invoice** file field for your tasks.|
 | ***Rating***| It can be used in tasks where users want to rate tasks on a scale of stars. The default rating is from 1 to 5. Users can edit the number of stars to have a scale of 3, 4 or 5 stars.| You are a Team Lead who needs a way to visualize the impact of each new feature your team is working on. To do that, you can create a field called **Impact** and rate each task according to the company's internal processes.| 
 | ***Time Tracking***| It can be used by users for tracking the time spent on completing a task. Users can save time logs and use them to analyze time data across projects and teams. For more information about the Time Tracking custom field please read [below](#time-tracking-custom-field).| You are a freelance designer who works on projects for different clients. You can add the time tracking field to your tasks and use its data to generate accurate invoices for your clients.|
 
 ## Time Tracking Custom Field
+
+>[!NOTE] The time tracking custom field is available to Slingshot and Slingshot Enterprise users.
 
 With the Time Tracking custom field, you can manage the workload of your team members and increase their productivity by identifying the tasks that may require additional resources in order to meet deadlines.
 
@@ -75,7 +77,7 @@ If you don't want to manually add the information to the Time Tracking field, yo
 
 >[!NOTE] If you stop the timer after less than a minute, you can choose to save the time entry log or to dismiss it. If you choose to save it, the time will be rounded up to one minute.
 
-You can track only one task at a time. When you try to start tracking another task, you will get the following warning where you can choose to whether accept to track another task or to continue tracking the current one:
+You can track only one task at a time. When you try to start tracking another task, you will get the following warning where you can choose to accept to track another task or to continue tracking the current one:
 
 <img class="responsive-img" src="../images/time-tracking-warning.png" alt="Time tracking warning">
 
@@ -103,7 +105,7 @@ With the Estimated Time subfield, you can create a baseline for measuring the ac
 
 ### Remaining Time
 
-With Remaing Time subfield, you can see how long it is left until a task is completed. Slingshot automatically calculates the difference between the Estimated Time and the Time Tracking data. The Time Remaining field will show a negative red value if the time in the Time Tracking field exceeds the Estimated Time. You can always change the Estimated Time which will recalculate the Remaining Time.
+With Remaining Time subfield, you can see how long it is left until a task is completed. Slingshot automatically calculates the difference between the Estimated Time and the Time Tracking data. The Time Remaining field will show a negative red value if the time in the Time Tracking field exceeds the Estimated Time. You can always change the Estimated Time which will recalculate the Remaining Time.
 
 <img class="responsive-img" src="../images/remaining-time-example.png" alt="Remaining time example">
 
