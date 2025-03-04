@@ -28,6 +28,10 @@
   items: 
     - name: カスタム フィールド
       href: custom-fields.md
+      items:
+       - name: カスタム フィールド タイプ
+         href: custom-field-types.md
+         new: false
     - name: タスク タイプ
       href: task-types.md
     - name: カスタム フィールドとタスク タイプの使用
