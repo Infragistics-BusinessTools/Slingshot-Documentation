@@ -1,5 +1,13 @@
 # Release Notes
 
+### 1.0.3238 (Mar - 2025)
+
+#### New Features
+
+- New types of Custom Fields: *Rating*, and *Time Tracking* with its subfields *Estimated Time*, *Remaining Time* and *Time Progress*
+
+- Dynamic Me filter: Users can create a *Dynamic Me* filter and see the tasks relevant only to them as the filter will adjust to the user who is viewing it.
+
 ### 1.0.3207 (Jan - 2025)
 
 #### New Features
