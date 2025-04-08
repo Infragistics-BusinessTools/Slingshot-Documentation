@@ -1,6 +1,13 @@
 # Release Notes
 
-### 1.0.3238 (Mar - 2025)
+### 1.0.3258 (April 2025)
+
+#### Bug Fixes and Improvements
+
+- [Bug Fix] Japanese text would not wrap properly in a few scenarios.
+- [Bug Fix] The *Today* option in a date picker would not update the selected date properly.
+
+### 1.0.3238 (March 2025)
 
 #### New Features
 
@@ -8,7 +15,7 @@
 
 - Dynamic Me filter: Users can create a *Dynamic Me* filter and see the tasks relevant only to them as the filter will adjust to the user who is viewing it.
 
-### 1.0.3207 (Jan - 2025)
+### 1.0.3207 (January 2025)
 
 #### New Features
 
@@ -22,7 +29,7 @@
 
 - [Bug Fix] The *Completed* task list column would appear empty in the *Projects* tab when the project used custom *Status* field.
 
-### 1.0.3175 (Nov - 2024)
+### 1.0.3175 (November 2024)
 
 #### New Features
 
@@ -36,7 +43,7 @@
 
 - [Bug Fix] While using the numeric custom field, a wrong value would appear in the activity area.
 
-### 1.0.3120 (Sept - 2024)
+### 1.0.3120 (September 2024)
  
 #### New Features
 
@@ -66,7 +73,7 @@
 
 - [Bug Fix] Notification Sync Issue: Notification counter would get out of sync when a user's device reconnects to the internet.
 
-### 1.0.2988 (March - 2024)
+### 1.0.2988 (March 2024)
 
 #### New Features 
 
@@ -94,7 +101,7 @@
  
 - [Bug Fix] When using a dashboard template, the wrong Data source icon would appear.
  
-### 1.0.2892 (October - 2023)
+### 1.0.2892 (October 2023)
 
 #### New Features 
 
@@ -106,7 +113,7 @@
 
 - Redesigned *Task* Dialog
 
-### 1.0.2839 (July - 2023)
+### 1.0.2839 (July 2023)
 
 #### New Features 
 
@@ -118,7 +125,7 @@
 
 - Task Templates: Users can now see all their templates under the *All* section in the *Task Templates* dialog and search for them by name. 
 
-### 1.0.2793 (April - 2023)
+### 1.0.2793 (April 2023)
 
 #### New Features 
 
@@ -128,7 +135,7 @@
 
 - Task Templates: Blocks of tasks that can be saved as templates for future re-use
 
-### 1.0.2720 (Feb - 2023)
+### 1.0.2720 (February 2023)
 
 #### New Features 
 
@@ -146,7 +153,7 @@
 
 - Slingshot's API
 
-### 1.0.2555 (iOS and macOS) / 1.0.2556 (Android) / 1.0.2560 (Desktop and Web) (Aug - 2022)
+### 1.0.2555 (iOS and macOS) / 1.0.2556 (Android) / 1.0.2560 (Desktop and Web) (August 2022)
 
 #### New Features
 
@@ -156,7 +163,7 @@
 
 - Multi-window support: An option to open an item in a new window
 
-### 1.0.2459 (June - 2022)
+### 1.0.2459 (June 2022)
 
 #### New Features
 
@@ -180,7 +187,7 @@
 
 - [Improvement] When you try uploading a file with invalid characters, a warning will show up.
 
-### 1.0.2360 (March - 2022)
+### 1.0.2360 (March 2022)
 
 #### Slingshot Release
 
