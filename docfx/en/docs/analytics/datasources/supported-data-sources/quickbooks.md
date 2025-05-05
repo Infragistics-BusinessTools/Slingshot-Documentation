@@ -11,6 +11,7 @@ Upon connecting Quickbooks, you will see the following login prompt:
 
 Enter your login credentials, or select *Sign in with Google* and click *Sign In*.
 
+>
 >[!Note] If you have Identity Confirmation activations enabled, you will see a prompt to enter the *verification code* sent to you.
 
 ## Setting Up Your Data
@@ -33,8 +34,8 @@ Once your data source has been added, you will be taken to the *Visualization Ed
 
 Based on the visualization that you have chosen, you will see different types of fields.
 
-<img src="images/quickbooks-visualization-editor.png" alt="Quickbook data in the Visualization Editor" class="responsive-img" width="85%"/>
+<img src="images/quickbooks-visualization-editor.png" alt="Quickbook data in the Visualization Editor" class="responsive-img"/>
 
 When you are ready with your visualization, you can click/tap on the checkmark in the top right corner to save it as a dashboard. In this case we saved the dashboard in **My Analytics** ⇒ **My Dashboards** ⇒ **Accounting**.
 
-<img src="images/quickbooks-my-analytics.png" alt="Quickbooks dashboard in My Analytics" class="responsive-img" width="85%"/>
+<img src="images/quickbooks-my-analytics.png" alt="Quickbooks dashboard in My Analytics" class="responsive-img"/>
