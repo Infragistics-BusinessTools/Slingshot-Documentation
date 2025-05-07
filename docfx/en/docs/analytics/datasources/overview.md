@@ -14,7 +14,7 @@ To retrieve information from a data source and use it for your visualizations, y
 
 To connect to a data source, perform the steps below:
 
-1. Go to **My Analytics** or a workspace where you want to create a dashboard. 
+1. Go to **My Analytics**, your organization, a workspace, or a project where you want to create a dashboard. 
 
 2. Click/tap on the **+ Dashboard** blue button.
 

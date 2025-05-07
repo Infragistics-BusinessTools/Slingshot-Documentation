@@ -39,7 +39,7 @@ To use your files from your Google Drive account, you need to click/tap on **Ope
 Once you have chosen your file, you can use your Google Drive data to build your [visualizations](../../dashboards/creating-dashboards.md).
 
 >[!NOTE] 
->When you click/tap on **Delete** from the overflow menu of a Google Drive file in Slingshot, the file will be stored in your Gooogle Drive *Trash* folder until you delete the file from there as well.
+>When you click/tap on **Delete** from the overflow menu of a Google Drive file in Slingshot, the file is moved to your Google Drive *Trash* folder until you delete the file from there as well.
 
 ## Supported Files
 

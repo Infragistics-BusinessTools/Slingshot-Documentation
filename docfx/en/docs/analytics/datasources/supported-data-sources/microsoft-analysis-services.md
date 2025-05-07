@@ -122,7 +122,7 @@ To enable it, select a dimension in *Rows* or *Columns*. Enable
 **Sorting** for the field by choosing *Ascending* or *Descending* to have
 the *Sort by Caption* option show up:
 
-<img src="./images/sort-by-option.png" alt="Sort by Caption option" class="responsive-img"/>
+<img src="../images/sort-by-caption-ssas.png" alt="Sort by Caption option" class="responsive-img"/>
 
 ## Settings 
 
@@ -142,7 +142,7 @@ Depending on the [chart type](../../data-visualizations/overview.md#choosing-the
 
 - [Connect the visualization to another dashboard or a URL](../../dashboards/dashboard-linking.md)
 
-When you are ready with the Visualization Editor, you can save the dashboard in **My Analytics** ⇒ **My Dashboards**, a project or in a specific workspace. 
+When you are ready with the Visualization Editor, you can save the dashboard in **My Analytics** ⇒ **My Dashboards**, organization, a project or in a specific workspace. 
 
 <img src="./images/my-analytics-microsoft-analysis-services-dashboard.png" alt="Dasboard with an information from the Microsoft Analysis Services data source in My Analytics" class="responsive-img"/>
 
