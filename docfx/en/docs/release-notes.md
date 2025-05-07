@@ -193,4 +193,5 @@
 
 - The first release of Slingshot is out!
 
->[!NOTE] To check your Slingshot version, select your profile in the top right corner of the screen and click/tap on the **About** icon.
+>[!NOTE] 
+>To check your Slingshot version, select your profile in the top right corner of the screen and click/tap on the **About** button.

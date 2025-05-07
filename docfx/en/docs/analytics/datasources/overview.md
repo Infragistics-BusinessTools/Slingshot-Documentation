@@ -14,13 +14,15 @@ To retrieve information from a data source and use it for your visualizations, y
 
 To connect to a data source, perform the steps below:
 
-1. Go to **My Analytics** or a workspace where you want to  create a dashboard. 
+1. Go to **My Analytics**, your organization, a workspace, or a project where you want to create a dashboard. 
+
 2. Click/tap on the **+ Dashboard** blue button.
 
-   <img src="images/data-sources-my-analytics.png" alt="Dashboard button in My Analytics" class="responsive-img" width="90%"/>
+   <img src="images/data-sources-my-analytics.png" alt="Dashboard button in My Analytics" class="responsive-img"/>
+
 3. In the *New Visualization* dialog, you will see a list of recently used data sources. To create a new connection, select the **+ Data Source** button in the upper right corner.
 
-   <img src="./images/sample-data-new-visualization-dialog.png" alt="Sample data sources" class="responsive-img" width="90%"/>
+   <img src="./images/sample-data-new-visualization-dialog.png" alt="Sample data sources" class="responsive-img"/>
 
 After selecting a data source provider, you will be prompted to **configure** it. Not sure how to do this? Find out in the article about the chosen data source (see the list below).
 
@@ -100,7 +102,7 @@ After selecting a data source provider, you will be prompted to **configure** it
 
 To filter your data sources, you can click on the filter button in the upper right corner.
 
-   <img src="images/data-sources-filter-options.png" alt="Filter options for data sources" class="responsive-img" width="90%"/>
+   <img src="images/data-sources-filter-options.png" alt="Filter options for data sources" class="responsive-img"/>
 
 ## Related Topics
 
@@ -108,4 +110,4 @@ To filter your data sources, you can click on the filter button in the upper rig
 
 - You started creating a visualization, but changed your mind about the data source? Read how to connect to a different data source while you are in the Visualization Editor in [Changing the Data Source for a Visualization](changing-data-source-visualization.md).
 
-- You want to use data from more than one data source for your visualization? Read the [Combining Data Sources in one Visualization](data-blending.md)
+- You want to use data from more than one data source for your visualization? Read the [Combining Data Sources in one Visualization](data-blending.md).
