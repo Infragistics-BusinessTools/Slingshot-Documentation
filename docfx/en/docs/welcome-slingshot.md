@@ -94,8 +94,8 @@ ul.horizontal:after {
 
 <div>
 <ul class="horizontal">
-<li>Chinese(simplified)</li>
-<li>Chinese(traditional)</li>
+<li>Chinese (Simplified)</li>
+<li>Chinese (Traditional)</li>
 <li>Dutch</li>
 <li>English</li>
 <li>French</li>

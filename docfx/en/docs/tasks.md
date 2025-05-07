@@ -199,11 +199,13 @@ Using filters allows you to view a set of tasks that meet certain criteria. Ther
 
 ### Out-of-the-box Filters
 
-Slingshot includes several pre-defined filters which are very useful to quickly find specific tasks.
+Slingshot includes several pre-defined filters which are very useful to quickly find specific tasks. These filters can’t be edited or deleted.
 
-These filters, which can’t be edited or deleted, are:
+Under **My Tasks**, you can use the **Weekly Priorities** and **Overdue** filters.
 
-- **My Tasks** – Each task assigned to you within the current Workspace. 
+When you open tasks, that are included in a project or a workspace, you will see:
+
+- **My Tasks** – Each task assigned to you within the current workspace or project. 
 
 - **Due this Week** – Each task with Due Date set for the current week. 
 
