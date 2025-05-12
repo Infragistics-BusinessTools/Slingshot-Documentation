@@ -6,7 +6,7 @@
 
 - [Bug Fix] Dashboard visualization descriptions would appear difficult to read.
 
-- Improved user’s experience when adding a user to a chat
+- Improved users' experience when adding a user to a chat
 
 ### 1.0.3258 (April 2025)
 

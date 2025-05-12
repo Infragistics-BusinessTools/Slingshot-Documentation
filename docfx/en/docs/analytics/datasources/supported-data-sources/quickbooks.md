@@ -7,7 +7,7 @@ _description: Connecting and using Quickbooks as a data source in Slingshot.
 
 Upon connecting QuickBooks, you will see the following login prompt:
 
-<img src="images/enter-quickbooks-credentials.png" alt="QuickBooks login prompt" class="responsive-img"/>
+<img src="images/enter-quickbooks-credentials.png" alt="QuickBooks login prompt" class="responsive-img" width="40%"/>
 
 Enter your email, user ID, or phone number and click/tap on **Sign In**.
 
@@ -18,7 +18,7 @@ Enter your email, user ID, or phone number and click/tap on **Sign In**.
 
 After logging in, you can set up your QuickBooks data in the following dialog:
 
-<img src="images/quickbooks-data-source-details-dialog.png" alt="Sett up your QuickBooks" class="responsive-img" width="50%"/>
+<img src="images/quickbooks-data-source-details-dialog.png" alt="Set up your QuickBooks" class="responsive-img" width="55%"/>
 
 Here you can choose the QuickBooks entities you need from:
 
@@ -34,8 +34,8 @@ Once your data source has been added, you will be taken to the *Visualization Ed
 
 Based on the visualization that you have chosen, you will see different types of fields.
 
-<img src="images/quickbooks-visualization-editor.png" alt="Quickbook data in the Visualization Editor" class="responsive-img"/>
+<img src="images/quickbooks-visualization-editor.png" alt="QuickBooks data in the Visualization Editor" class="responsive-img" width="90%"/>
 
 When you are ready with your visualization, you can click/tap on the checkmark in the top right corner to save it as a dashboard. In this case we saved the dashboard in **My Analytics** ⇒ **My Dashboards** ⇒ **Accounting**.
 
-<img src="images/quickbooks-my-analytics.png" alt="QuickBooks dashboard in My Analytics" class="responsive-img"/>
+<img src="images/quickbooks-my-analytics.png" alt="QuickBooks dashboard in My Analytics" class="responsive-img" width="90%"/>
