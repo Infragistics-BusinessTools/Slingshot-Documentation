@@ -33,7 +33,7 @@ Once your data source has been added, you will be taken to the *Visualization Ed
 
 Based on the visualization that you have chosen, you will see different types of fields.
 
-<img src="images/quickbooks-visualization-editor.png" alt="QuickBook data in the Visualization Editor" class="responsive-img"/>
+<img src="images/quickbooks-visualization-editor.png" alt="Quickbook data in the Visualization Editor" class="responsive-img"/>
 
 When you are ready with your visualization, you can click/tap on the checkmark in the top right corner to save it as a dashboard. In this case we saved the dashboard in **My Analytics** ⇒ **My Dashboards** ⇒ **Accounting**.
 
