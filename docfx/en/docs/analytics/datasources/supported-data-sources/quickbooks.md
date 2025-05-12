@@ -37,4 +37,4 @@ Based on the visualization that you have chosen, you will see different types of
 
 When you are ready with your visualization, you can click/tap on the checkmark in the top right corner to save it as a dashboard. In this case we saved the dashboard in **My Analytics** ⇒ **My Dashboards** ⇒ **Accounting**.
 
-<img src="images/quickbooks-my-analytics.png" alt="Quickbooks dashboard in My Analytics" class="responsive-img"/>
+<img src="images/quickbooks-my-analytics.png" alt="QuickBooks dashboard in My Analytics" class="responsive-img"/>
