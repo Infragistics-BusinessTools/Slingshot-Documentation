@@ -26,7 +26,7 @@ In the top bar, right next to your profile picture, you will see the **chat mess
 ## How Can I Keep the Chat Always Visible?
 
 In Slingshot, you can keep your chat hidden or opened on the right while going through your tasks, for example. 
-To switch from hidden to always opened and vice versa, select the *dock/undock* icon next to the *close* button(see screenshot below).
+To switch from hidden to always opened and vice versa, select the *dock/undock* icon next to the *close* button (see screenshot below).
 
 <img class="responsive-img" src="../images/dock-undock-icon-chat.png" alt="Dock/Undock icon" class="responsive-img"/>
 
@@ -58,7 +58,8 @@ To start a chat, open the chat screen. Then follow the steps below:
 
 3. Click/tap on **Chat**. 
 
->[!NOTE] If you don't see the *Start a chat* button, check whether your chat is [docked](#how-can-i-keep-the-chat-always-visible). In this case, select the **undock** icon next to *Close* button.
+>[!NOTE] 
+> If you don't see the *Start a chat* button, check whether your chat is [docked](#how-can-i-keep-the-chat-always-visible). In this case, select the **undock** icon next to *Close* button.
 
 Keep in mind that you can also reply to your own messages or messages from other people by clicking/tapping on the reply arrow. It will show up when you hover over a message.
 
@@ -94,13 +95,11 @@ Next to your name you will find the *leave* icon. You can leave a chat anytime.
 
 ## Can I Make the History of a Group Chat Available for New Members?
 
-When you are adding members to an ongoing group chat, you may want them to have access to part or the whole history of the chat. 
-
 When adding members, you will notice a **History** setting at the bottom of the users list (see the screenshot below). 
 
-<img class="responsive-img" src="../images/chat-history-options.png" alt="Choose chat history to show new members">
+<img class="responsive-img" src="../images/chat-history-options.png" alt="Choose chat history to show to new members">
 
-The following 3 options appear in the drop-down when collapsed: 
+You can choose one of the following three options from the drop-down menu depending on the type of access you want to grant the users: 
 
 - Don't share any history
 
@@ -108,7 +107,7 @@ The following 3 options appear in the drop-down when collapsed:
 
 - Share today's history
 
-*Invite with No Previous History* is the default history setting for new chat participants. You can use the other two history options to welcome new chat members and quickly introduce them to the topic!
+Once you have chosen the one that best fits your business goals, you can click/tap on **Add to Chat** to include the users.
 
 <a name='chat-personal-account-users'></a>
 

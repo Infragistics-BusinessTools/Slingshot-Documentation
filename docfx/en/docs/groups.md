@@ -30,7 +30,9 @@ To create a group, you need to:
 
 <img class="responsive-img" src="../images/create-group.png" alt="New group dialog" class="responsive-img"/>
 
->[!Note] Keep in mind that the *Groups* feature is available only to *Slingshot Enterprise* users.
+
+>[!Note]
+> Keep in mind that the *Groups* feature is available only to *[Slingshot Enterprise](slingshot-enterprise-subscription.md)* users.
 
 ## Group Members and Permissions
 
