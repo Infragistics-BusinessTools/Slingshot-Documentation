@@ -97,7 +97,7 @@ Slingshot was built on top of Microsoft and Google making it the perfect tool to
 
 3.	You will automatically be added to your associated organization.  
 
-## Contact us 
+## Contact Us 
 
 If you have questions or need help with your Slingshot account, you can reach out to our team. In order to do that, you need to:
 

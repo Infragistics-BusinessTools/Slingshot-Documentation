@@ -11,7 +11,7 @@ Slingshot is the only digital workplace that connects everyone you work with to 
 
 So, how can Slingshot do all that for you? Take a look below...
 
-## Slingshot highlights
+## Slingshot Highlights
 
 ##### *Create calm and efficiency across teams, departments, and external clients by making it easier to find and access information*.
 
@@ -36,7 +36,7 @@ When deadlines, conversations, and data are transparent for everyone to see, acc
 
 <img src="../images/welcome-task-timeline.png" alt="Example of tasks' timeline" class="responsive-img"/>
 
-## How can I get Slingshot?
+## How Can I Get Slingshot?
 
 Slingshot is available on any platform with a seamless experience no matter what device you are on – without sacrificing features. Get Slingshot on the Web, macOS, Windows, iOS and Android today.  
 

@@ -91,7 +91,7 @@ You can follow the steps below in order to share a discussion with another user:
 
 Another way of sharing a discussion with someone or with a group of people is by mentioning them (you can do that by using the *@ sign* and then typing the username or the email address of the user, or the name of the group). 
 
-If they are not part of the workspace or the project, they won't be able to see the discussion until the owner(of the workspace or the project) grants them access. 
+If they are not part of the workspace or the project, they won't be able to see the discussion until the owner (of the workspace or the project) grants them access. 
 
 When an owner of a workspace (or a project) opens a discussion and mentions a group, they will be provided with the following options for the discussion history: 
 
@@ -101,7 +101,7 @@ When an owner of a workspace (or a project) opens a discussion and mentions a gr
 
 - Share today's history
 
-After choosing how much of the history to provide the group with, they can click/tap on **Grant Access**.
+After choosing how much of the history to provide a user or a group, they can click/tap on **Grant Access**.
 
 <img src="../images/discussion-history-options.png" alt="Group access dialog with different history options" class="responsive-img"/>
 
@@ -111,7 +111,8 @@ In case a member of a group (who is not an owner of the workspace or the project
 
 There are subjects where you need the attention of particular people. To make sure they receive notifications for each new message in a discussion, you can use the *Notify* option upon creating a new discussion. 
 
->[!NOTE] **Notifying limitations.** You can only notify users who are part of the workspace or project. 
+>[!NOTE] 
+> **Notifying limitations.** You can only notify users who are part of the workspace or project. 
 
 If you have missed the opportunity to use the *Notify* function when creating the discussion, you can later use the @mention in a message. The mentioned users will be notified about your message, but will not receive any further notifications for new messages unless they opt to *follow* the discussion.
 
@@ -119,7 +120,8 @@ If you have missed the opportunity to use the *Notify* function when creating th
 
 When you want to make sure *you* are notified of new messages, you need to navigate to a discussion, open it and change the button on top to *Following*. You will start receiving notifications in the *Notifications* center.
 
->[!NOTE] **Auto following.** Each time you answer a discussion, you will start automatically following it. This means you will receive notifications for all new answers until you explicitly unfollow the topic. 
+>[!NOTE] 
+> **Auto following.** Each time you answer a discussion, you will start automatically following it. This means you will receive notifications for all new answers until you explicitly unfollow the topic. 
 
 ## How Can I Mark a Discussion as *Unread*?
 

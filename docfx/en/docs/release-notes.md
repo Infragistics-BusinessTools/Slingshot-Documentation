@@ -1,10 +1,19 @@
 # Release Notes
 
+### 1.0.3300 (May 2025)
+
+#### Bug Fixes and Improvements
+
+- [Bug Fix] Dashboard visualization descriptions would appear difficult to read.
+
+- Improved user’s experience when adding a user to a chat
+
 ### 1.0.3258 (April 2025)
 
 #### Bug Fixes and Improvements
 
 - [Bug Fix] Japanese text would not wrap properly in a few scenarios.
+
 - [Bug Fix] The *Today* option in a date picker would not update the selected date properly.
 
 ### 1.0.3238 (March 2025)
@@ -193,4 +202,5 @@
 
 - The first release of Slingshot is out!
 
->[!NOTE] To check your Slingshot version, select your profile in the top right corner of the screen and click/tap on the **About** icon.
+>[!NOTE] 
+> To check your Slingshot version, select your profile in the top right corner of the screen and click/tap on the **About** icon.

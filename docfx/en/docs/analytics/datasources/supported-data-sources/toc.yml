@@ -52,7 +52,7 @@
   href: oracle.md
 - name: PostgreSQL
   href: postgresql.md
-- name: Quickbooks
+- name: QuickBooks
   href: quickbooks.md
 - name: REST API
   href: rest-api.md
