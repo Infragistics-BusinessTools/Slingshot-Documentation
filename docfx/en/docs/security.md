@@ -74,7 +74,7 @@ When you pin a file, you need to choose one of following permission types:
 
 While pinning a file, you can change the default file permissions in the *Pin* dialog.
 
-After the pin is created, you can easily edit the file permissions, when you open the file's overflow menu and select **File Permissions**.
+After the pin is created, you can easily edit the file permissions when you open the file's overflow menu and select **File Permissions**.
 
 <img class="responsive-img" src="../images/file-permissions-option.png" alt="File permissions" class="responsive-img"/>
 

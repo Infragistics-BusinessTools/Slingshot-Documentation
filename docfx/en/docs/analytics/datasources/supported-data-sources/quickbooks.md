@@ -3,34 +3,34 @@ title: How to configure and use a Quickbooks data source
 _description: Connecting and using Quickbooks as a data source in Slingshot.
 ---
 
-# Quickbooks
+# QuickBooks
 
-Upon connecting Quickbooks, you will see the following login prompt:
+Upon connecting QuickBooks, you will see the following login prompt:
 
-<img src="images/enter-quickbooks-credentials.png" alt="Quickbooks login prompt" class="responsive-img" width="32%"/>
+<img src="images/enter-quickbooks-credentials.png" alt="QuickBooks login prompt" class="responsive-img"/>
 
-Enter your login credentials, or select *Sign in with Google* and click *Sign In*.
+Enter your email, user ID, or phone number and click/tap on **Sign In**.
 
 >
 >[!Note] If you have Identity Confirmation activations enabled, you will see a prompt to enter the *verification code* sent to you.
 
 ## Setting Up Your Data
 
-After logging in, you can set up your Quickbooks data in the following dialog:
+After logging in, you can set up your QuickBooks data in the following dialog:
 
-<img src="images/quickbooks-data-source-details-dialog.png" alt="Sett up your Quickbooks" class="responsive-img" width="50%"/>
+<img src="images/quickbooks-data-source-details-dialog.png" alt="Sett up your QuickBooks" class="responsive-img" width="50%"/>
 
-Here you can choose the Quickbooks entities you need from:
+Here you can choose the QuickBooks entities you need from:
 
 - *Common Entities* - this category allows quick selection between the most used entities among our users;
 
-- *All Entities*- this category displays the full list of entities contained in your Quickbooks account. You can use the provided search to find quickly the entity you need.
+- *All Entities*- this category displays the full list of entities contained in your QuickBooks account. You can use the provided search to find quickly the entity you need.
 
 ## Working in the Visualization Editor
 
 Once your data source has been added, you will be taken to the *Visualization Editor*. By default, the *Column* visualization will be selected. You can select it in order to choose another chart type. 
 
-<img src="images/quickbooks-charts-list.png" alt="List of chart types for Quickbooks" class="responsive-img" width="70%"/>
+<img src="images/quickbooks-charts-list.png" alt="List of chart types for QuickBooks" class="responsive-img" width="80%"/>
 
 Based on the visualization that you have chosen, you will see different types of fields.
 
@@ -38,4 +38,4 @@ Based on the visualization that you have chosen, you will see different types of
 
 When you are ready with your visualization, you can click/tap on the checkmark in the top right corner to save it as a dashboard. In this case we saved the dashboard in **My Analytics** ⇒ **My Dashboards** ⇒ **Accounting**.
 
-<img src="images/quickbooks-my-analytics.png" alt="Quickbooks dashboard in My Analytics" class="responsive-img"/>
+<img src="images/quickbooks-my-analytics.png" alt="QuickBooks dashboard in My Analytics" class="responsive-img"/>
