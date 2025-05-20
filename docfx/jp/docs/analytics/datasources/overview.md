@@ -14,10 +14,12 @@ _language: ja
 
 データ ソースに接続するには、以下の手順を実行します:
 
-1. **[分析]** またはダッシュボードを作成するワークスペースに移動します。
+1. ダッシュボードを作成する **[分析]**、組織、ワークスペース、またはプロジェクトに移動します。
+
 2. **[+ ダッシュボード]** の青いボタンをクリックまたはタップします。
 
    <img src="images/data-sources-my-analytics.png" alt="Dashboard button in My Analytics" class="responsive-img" width="90%"/>
+
 3. **[新しい表示形式]** ダイアログに、最近使用したデータ ソースのリストが表示されます。新しい接続を作成するには、右上隅にある **[+ データ ソース]** ボタンを選択します。
 
    <img src="./images/sample-data-new-visualization-dialog.png" alt="Sample data sources" class="responsive-img" width="90%"/>

@@ -38,13 +38,13 @@ Slingshot 内のセキュリティとデータ プライバシーの詳細につ
 
 - ログをエクスポートしたいですか？
 
-<img src="../images/users-account-settings.png" alt="Example of user settings opened" class="responsive-img" width="85%"/>
+<img src="../images/users-account-settings.png" alt="Example of user settings opened" class="responsive-img" width="65%"/>
 
 さらに、他のユーザーと共同作業するときに自分を認識できるようになるため、**プロファイル情報**を完成させることをお勧めします。名前、役職、写真などはすべてユーザーの仮想 ID の一部であり、Slingshot の体験に付加価値をもたらします。
 
 ## アプリケーション内インタラクションを最大限に活用する
 
-Slingshot のデジタル AI アシスタントが、作業をより迅速に行うためのカスタマイズされたヒントを紹介します。ユーザー エクスペリエンスに直接影響するため、Slingshot AI からメッセージを受信する頻度や、Slingshot AI からのメッセージを受け取らない選択を選べます。Slingshot AI について詳しくは[こちら](./getting-started-slingshot.md)をご覧ください。
+Slingshot AI を使用すると、作業をより迅速に進めるためのパーソナライズされたヒントを受け取ることができます。これはユーザー体験に直接影響するため、メッセージの受信頻度を自分で選択できます。[こちら](getting-started-slingshot.md)で、どのようなヒントのタイプを受け取ることができるかについての詳しい情報を確認できます。
 
 通知により、ワークスペース、タスク、新しいメッセージなどへの変更に関する最新情報が得られます。特に、タスクが自分に割り当てられていること、ワークスペースから削除されていること、またはフォローしているディスカッション スレッドで誰かがメッセージを送信したことを知ることができます。
 [通知](notifications.md)の詳細については、リンクを参照してください。
