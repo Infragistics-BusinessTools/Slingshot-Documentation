@@ -35,7 +35,7 @@ Google ドライブ アカウントのファイルを使用するには、**[フ
 
 - アップロード - ファイルをドラッグするか、デバイスから選択してアップロードできます。
 
-<img src="images/google-drive-files-example.png" alt="Google Drive authorization prompt" class="responsive-img">
+<img src="images/google-drive-files-example.png" alt="Google Drive authorization prompt" class="responsive-img" width="85%">
 
 ファイルを選択したら、Google ドライブのデータを使用して[表示形式](../../dashboards/creating-dashboards.md)を作成できます。
 
