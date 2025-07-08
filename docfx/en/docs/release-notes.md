@@ -1,5 +1,21 @@
 # Release Notes
 
+### 1.0.3326 (All platforms except Desktop) / 1.0.3329 (Desktop) (July 2025)
+
+#### New Features
+
+- Task Column Expansion: Double-click on a header separator in a task view resizes column's width for optimal fit.
+
+#### Bug Fixes and Improvements
+
+- [Bug Fix] Offset dates in task templates would show as incorrect in a scenario.
+
+- [Bug Fix] Users who commented on a task wouldn't get future notifications on that task.
+
+- [Bug Fix] Users who used OneDrive wouldn't see all their files when there were many files in a folder.
+
+- [Bug Fix] Users who used OneDrive wouldn't be able to sort files by date. 
+
 ### 1.0.3300 (May 2025)
 
 #### Bug Fixes and Improvements
