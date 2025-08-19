@@ -7,9 +7,9 @@ _description: Get familiar with managing tasks to make the most out of your team
 
 When it comes to running a successful project – task management is at the heart of that. You need everything organized in one place to manage tasks throughout the full lifecycle of the project. Setting deadlines, dependencies, and priorities are all essential to ensure projects stay on track and get completed on time.   
 
-There is a task tab available within your workspaces and projects, listing all the tasks assigned to everyone in those workspaces and projects. You can view your own tasks assigned to you within the **My Tasks** section.
+There is a *Tasks* tab available within your workspaces and projects, listing all the tasks assigned to everyone in those workspaces and projects. You can view your own tasks assigned to you in the **My Open Tasks** section within **My Tasks**.
 
-<img src="../images/my-tasks.png" alt="Assigned tasks in My Tasks section" class="responsive-img"/>
+<img src="../images/my-open-tasks.png" alt="Assigned tasks in My Tasks section" class="responsive-img"/>
 
 ## What are Tasks?  
 
@@ -83,27 +83,25 @@ Note that currently these options are available only for macOS Monterey.
 
 Instead of creating a whole new set of tasks, you can save some time and be more productive by duplicating a task with the steps mentioned below. 
 
-If you decide to duplicate a parent task, you can duplicate  all the subtasks associated with it. 
+1.	Click on the overflow menu of the task. 
 
-1.	Open the task list where the parent task is located.
-
-2.	Click on the overflow menu of the task. 
-
-3.	Choose **Duplicate**.
+2.	Choose **Duplicate**.
 
  <img src="../images/duplicate-option-tasks.png" alt="Task duplication overflow menu" class="responsive-img"/>
 
-4.	A dialog will open, where you can choose what you want to keep when you duplicate the task. You can also change the title of the task. If you decide to keep the same assignees, you’ll be presented with the option to notify them once the task is created.
+3.	A dialog will open, where you can choose what you want to keep when you duplicate the task. You can also change the title of the task. If you decide to keep the same assignees, you’ll be presented with the option to notify them once the task is created.
 
  <img src="../images/duplicate-task-filters.png" alt="Dialog with task duplication filters" class="responsive-img"/>
 
-5.	Once you’ve saved your preferences, you will see the task card where you can make changes. 
+4.	Once you’ve saved your preferences, you will see the task card where you can make changes. 
 
  <img src="../images/duplicate-task-example.png" alt="Example of a duplicate task and its fields" class="responsive-img"/>
 
-6.	When you are ready, you can click on **Update**. You can find the task with the subtasks in the specific location that you have saved it. 
+5.	When you are ready, you can click on **Update**. You can find the task in the specific location that you have saved it. 
 
  <img src="../images/duplicate-tasks-task-section.png" alt="Example of stored duplicated tasks" class="responsive-img"/>
+
+ >[!NOTE] If you decide to duplicate a parent task, you can duplicate  all the subtasks associated with it. They will show up in the same location as the parent task.
 
 ## Organizing Tasks  
 
@@ -205,7 +203,7 @@ Under **My Tasks**, you can use the **Weekly Priorities** and **Overdue** filter
 
 When you open tasks, that are included in a project or a workspace, you will see:
 
-- **My Tasks** – Each task assigned to you within the current workspace or project. 
+- **My Open Tasks** – Each task assigned to you within the current workspace or project. 
 
 - **Due this Week** – Each task with Due Date set for the current week. 
 
