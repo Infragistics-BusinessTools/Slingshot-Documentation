@@ -167,17 +167,71 @@ Use Timeline view if you want to:
 
 ### Default Task Views
 
-If you want your team members in a workspace or a project to land on task list, organized in a specific way, you can:
+For better organization of tasks, you can set up a global default view for each task list. Global default views can also have their own default views. To find out more about these features, please read below.
 
-1. Open the oveflow menu next to the *Productivity Boost*. 
+#### Global Default View
 
-2. Click/tap on **Save as Default View** to choose a default view. 
+Only an *owner* of a workspace or a project can set up a global default view. You can also set up a global default view for each of your own task lists under **My Tasks**.
 
-<img src="../images/default-view-tasks.png" alt="Default View option in View Settings" class="responsive-img"/>
+To save a specific global default task view for a task list, you can:
 
-You can always reset the settings to their original state when you choose **Reset to Default View**.
+1. Open the oveflow menu next to the *Productivity Boost* button. 
 
->[!NOTE] Only an **owner** of a workspace or a project can set a default task view. 
+2. Click/tap on **Save Current View As...**.
+
+<img src="../images/save-current-view-option.png" alt="Save Current View As option" class="responsive-img"/>
+
+3. Click/tap on **Global Default**.
+
+<img src="../images/global-default-option.png" alt="Save Current View As option" class="responsive-img"/>
+
+>[!NOTE] There can only be one global default view for each task list.
+
+You can always change the global default view. To do that, you can:
+
+1. Select another task view from the list.
+
+<img src="../images/task-list-views.png" alt="Task list views" class="responsive-img"/>
+
+2. Open the oveflow menu next to the *Productivity Boost* button. 
+
+3. Choose **Save Current View As...**.
+
+<img src="../images/save-current-view-option-new-view.png" alt="Save Current View As option for a new task list view" class="responsive-img"/>
+
+4. Click/tap on **Global Default**.
+
+<img src="../images/global-default-view-option.png" alt="Global default view option" class="responsive-img"/>
+
+5. The new *Global Default* view will be the default view for the task list.
+
+#### Default View for Global View Type
+
+Besides setting up a global default view for a task list, you can additionally set up a default view for the global view type.
+
+For example, you can set up the global default view to Kanban. Then, you can group your tasks by priority and not by status. To save the change, you will need to:
+
+1. Open the oveflow menu next to the *Productivity Boost* button. 
+
+2. Choose **Save Current View As...**.
+
+3. Click/tap on **Default for This View Type**.
+
+<img src="../images/default-view-type-global-view.png" alt="Default view type for default global view" class="responsive-img"/>
+
+4. The changes will be saved for the Kanban view type for the specific task list.
+
+>[!NOTE] You can also save default settings for a specific task view even if that task view is not a default global view.
+
+You can always reset the settings to their original state for a task view when you:
+
+1. Open the oveflow menu next to the *Productivity Boost* button. 
+
+2. Click/tap on **Reset Current View**. 
+
+<img src="../images/reset-current-view.png" alt="Rest current view option for task views" class="responsive-img"/>
+
+>[!NOTE] You can also set up a default view for a task view that doesn't have a default global view type.
 
 ### Task Dependencies
 
@@ -243,7 +297,11 @@ If you want to change the way tasks are being filtered, you can make different a
 
 You can also add more rules to the filter from the **+Rule** button.
 
-For example, we wanted to create a filter for John Williams’ tasks that have a *Release* [field](custom-fields.md) with the year *2024* as a value. 
+For example, we wanted to create a filter that has John Williams’ release tasks for this month. To do that we:
+
+1. Choose the Release [field](custom-fields.md) from the filter options.
+
+2. Added John Williams as assignee.
 
 <img src="../images/advanced-filters.png" alt="Advanced Filtering highlighted within Slingshot" class="responsive-img"/>
 
