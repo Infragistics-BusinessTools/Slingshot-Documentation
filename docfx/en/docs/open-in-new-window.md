@@ -8,6 +8,6 @@ To open an item in a new window, you can open the overflow menu next to that ite
 
 <img src="../images/open-in-new-window.png" alt="Open in New Window button in the overflow menu" class="responsive-img"/>
 
-In the example below we opened a dashboard list in a new window and changed the size of the window. Keep in mind that you can always change the size of the new window of an item in order to organize your workplace.
+In the example below we opened a dashboard list in a new window and changed the size of the window. Keep in mind that you can always change the size of the new window of an item in order to organize your digital workplace.
 
 <img src="../images/dashboard-list-new-window.png" alt="Dashboard list opened in a new window" class="responsive-img"/>

@@ -107,7 +107,7 @@ In order to create a new filter, you can:
 
    <img src="../../images/new-dashboard-filter-option.png" alt="Option to create a new dashboard filter" class="responsive-img"/>
 
-2. Choose what to include in your filter, click/tap on **Done** and then **Apply** in order to save it in the list of filters.
+2. Choose what to include in your filter, click/tap on **Done** and then **Save** in order to save it in the list of filters.
 
    <img src="../../images/dashboard-filter-options.gif" alt="Option to create a new dashboard filter" class="responsive-img"/>
 
@@ -123,12 +123,14 @@ Alternatively, you can:
 
    <img src="../../images/create-filter.png" alt="Create filter button" class="responsive-img"/>
 
-You can edit a filter when you:
+You can also edit a filter. To do that, you can:
 
 1. Open the overflow menu of the filter.
 
 2. Choose **Edit**.
 
-3. You will be presented with the same filter options as the ones shown above above. Choose what to include or excluse from your filter.
+<img src="../../images/edit-option-filter-example.png" alt="Certifications in Slingshot" class="responsive-img"/>
 
-4. Click/tap on **Save** to keep the changes.
+3. You will be presented with the same filter settings as the ones shown above. Choose what to include or excluse from your filter.
+
+4. Click/tap on **Save** to update the filter.

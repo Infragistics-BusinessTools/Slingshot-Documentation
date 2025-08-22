@@ -1,10 +1,10 @@
 # Release Notes
 
-### 1.0.3300 (May 2025)
+### 1.0.3300 (August 2025)
 
 #### New Features
 
-- Global Default Task View: Users can now save default views for each task view type (List, Kanban, Timeline, and Calendar).
+- Default Views for Task View Types: Users can now save default views for each task view type (List, Kanban, Timeline, and Calendar).
 
 #### Bug Fixes and Improvements
 
