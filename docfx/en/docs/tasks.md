@@ -7,7 +7,7 @@ _description: Get familiar with managing tasks to make the most out of your team
 
 When it comes to running a successful project – task management is at the heart of that. You need everything organized in one place to manage tasks throughout the full lifecycle of the project. Setting deadlines, dependencies, and priorities are all essential to ensure projects stay on track and get completed on time.   
 
-There is a *Tasks* tab available within your workspaces and projects, listing all the tasks assigned to everyone in those workspaces and projects. You can view your own tasks assigned to you in the **My Open Tasks** section within **My Tasks**.
+There is a *Tasks* tab available within your workspaces and projects, listing all the tasks assigned to everyone in those workspaces and projects. You can view your own tasks assigned to you in the **My Open Tasks** section within *My Tasks*.
 
 <img src="../images/my-open-tasks.png" alt="Assigned tasks in My Tasks section" class="responsive-img"/>
 
@@ -165,11 +165,9 @@ Use Timeline view if you want to:
 
 - Frame tasks in time in a graphical way. 
 
-### Default Task Views
+### Global Default View
 
-For better organization of tasks, you can set up a global default view for each task list. Global default views can also have their own default views. To find out more about these features, please read below.
-
-#### Global Default View
+The global default view is the view all users see when they first open a task list. 
 
 Only an *owner* of a workspace or a project can set up a global default view. You can also set up a global default view for each of your own task lists under **My Tasks**.
 
@@ -187,29 +185,13 @@ To save a specific global default task view for a task list, you can:
 
 >[!NOTE] There can only be one global default view for each task list.
 
-You can always change the global default view. To do that, you can:
+You can always change the global default view by selecting another task view from the list and then giving the steps mentioned above a go.
 
-1. Select another task view from the list.
+### Default Settings for Global Default View 
 
-<img src="../images/task-list-views.png" alt="Task list views" class="responsive-img"/>
+Besides setting up a global default view for a task list, you can additionally save default settings for the global view.
 
-2. Open the oveflow menu next to the *Productivity Boost* button. 
-
-3. Choose **Save Current View As...**.
-
-<img src="../images/save-current-view-option-new-view.png" alt="Save Current View As option for a new task list view" class="responsive-img"/>
-
-4. Click/tap on **Global Default**.
-
-<img src="../images/global-default-view-option.png" alt="Global default view option" class="responsive-img"/>
-
-5. The new *Global Default* view will be the default view for the task list.
-
-#### Default View for Global View Type
-
-Besides setting up a global default view for a task list, you can additionally set up a default view for the global view type.
-
-For example, you can set up the global default view to Kanban. Then, you can group your tasks by priority and not by status. To save the change, you will need to:
+For example, you can set up the global default view to be Kanban. Then, instead of grouping your tasks by status, you can group them by priority. To save the changes, you will need to:
 
 1. Open the oveflow menu next to the *Productivity Boost* button. 
 
@@ -217,13 +199,11 @@ For example, you can set up the global default view to Kanban. Then, you can gro
 
 3. Click/tap on **Default for This View Type**.
 
-<img src="../images/default-view-type-global-view.png" alt="Default view type for default global view" class="responsive-img"/>
+<img src="../images/default-settings-global-view.png" alt="Default settings for default global view" class="responsive-img"/>
 
-4. The changes will be saved for the Kanban view type for the specific task list.
+4. The changes will be saved for the Kanban view type for that specific task list.
 
->[!NOTE] You can also save default settings for a specific task view even if that task view is not a default global view.
-
-You can always reset the settings to their original state for a task view when you:
+You can always reset the settings of a task view to their original state when you:
 
 1. Open the oveflow menu next to the *Productivity Boost* button. 
 
@@ -231,7 +211,11 @@ You can always reset the settings to their original state for a task view when y
 
 <img src="../images/reset-current-view.png" alt="Rest current view option for task views" class="responsive-img"/>
 
->[!NOTE] You can also set up a default view for a task view that doesn't have a default global view type.
+### Default Settings for Task View Types
+
+You can also set up default settings for a task view that is not the default global view.
+
+To achieve this, you can select a task view and give the [steps](#default-settings-for-global-default-view) mentioned above a go.
 
 ### Task Dependencies
 
