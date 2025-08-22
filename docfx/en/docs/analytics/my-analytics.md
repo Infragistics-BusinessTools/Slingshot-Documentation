@@ -107,24 +107,30 @@ In order to create a new filter, you can:
 
    <img src="../../images/new-dashboard-filter-option.png" alt="Option to create a new dashboard filter" class="responsive-img"/>
 
-2. Choose what to include in your filter and then click/tap on **Apply** in order to save it in the list of filters.
+2. Choose what to include in your filter, click/tap on **Done** and then **Save** in order to save it in the list of filters.
 
    <img src="../../images/dashboard-filter-options.gif" alt="Option to create a new dashboard filter" class="responsive-img"/>
 
-To stop filtering dashboards or data sources, you can:
+Alternatively, you can:
 
-1. Click/tap on the *filter* icon to open the *Filters* dialog.
+1. Click/tap on the *Filter* icon in the upper right corner.
 
-   <img src="../../images/dashboard-filter-icon.png" alt="Different options for a dashboard filter" class="responsive-img"/>
+2. Choose what to include in your filter, click/tap on **Done** and then **Apply** to save the changes.
 
-2. Select the **Clear** button at the bottom to remove the current filters.
+3. Click/tap on **Save as Filter** to name the filter.
 
-   <img src="../../images/clear-dashboard-filter.png" alt="Unselect Filters" class="responsive-img"/>
+4. Click/tap on **Create** to save the filter.
 
-3. Click/tap on **Apply** in order to see the changes.
+   <img src="../../images/create-filter.png" alt="Create filter button" class="responsive-img"/>
 
-   <img src="../../images/apply-button.png" alt="Unselect Filters" class="responsive-img"/>
+You can also edit a filter. To do that, you can:
 
-4. If you want to re-use the filter with the changes that you have made, click/tap on **Save Changes**.
+1. Open the overflow menu of the filter.
 
-   <img src="../../images/save-changes-option-dashboard-filter.png" alt="Option to save the changes for a dashboard filter" class="responsive-img"/>
+2. Choose **Edit**.
+
+<img src="../../images/edit-option-filter-example.png" alt="Certifications in Slingshot" class="responsive-img"/>
+
+3. You will be presented with the same filter settings as the ones shown above. Choose what to include or excluse from your filter.
+
+4. Click/tap on **Save** to update the filter.

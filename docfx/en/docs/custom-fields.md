@@ -92,13 +92,13 @@ To delete a custom field:
 
 1. Open the overflow menu of that field you want to remove. 
 
+2. Click/tap on **Remove Field**. The field will be removed from any tasks and task types that it is currently used in. If you have added it to the [Task Fields Library](#task-fields-library), the field will still be available for use.
+
 <img src="../images/remove-option-field.png" alt="Remove option for a field" class="responsive-img"/>
 
-2. Click/tap on **Remove Field**. The field will be removed from any tasks and task types that it is currently used in. As this action cannot be undone, you will get the following warning: 
+3. As this action cannot be undone, you will get a warning (as shown below). To apply the changes, click/tap on **Remove**. 
 
 <img src="../images/remove-field-warning.png" alt="Warning for removing a field" class="responsive-img"/>
-
-3. To apply the changes, click/tap on **Remove**. 
 
 You can also remove a field directly from an opened task when you: 
 
@@ -216,15 +216,11 @@ To do that, you need to:
 
    - Edit the field. 
 
-   - Reset to the Default values for the field. 
-
    - Use the field values from the parent task.  
 
    - Pick a field from the [Task Fields Library](#task-fields-library). 
 
-   - Add the field with the new values to the Task Fields Library. 
-
-<img src="../images/subtask-field-options.png" alt="Example of different options for a subtask field" class="responsive-img"/>
+<img src="../images/subtask-status-field-options.png" alt="Example of different options for a subtask field" class="responsive-img"/>
 
 4. Choose **Edit** to change the values. 
 
@@ -233,6 +229,10 @@ To do that, you need to:
 6. You can see the updated **Status** of the task in the task list.
 
 <img src="../images/updated-field-subtask.png" alt="Example of an updated subtask field" class="responsive-img"/>
+
+>[!Note] Once your subtasks have a different value name from the parent task, you will also be presented with two more options: Reset to Default and Add to Library. 
+
+<img src="../images/subtask-field-options.png" alt="Example of different options for a subtask field" class="responsive-img"/>
 
 ## Task Fields Library 
 

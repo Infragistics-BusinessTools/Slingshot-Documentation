@@ -1,5 +1,21 @@
 # Release Notes
 
+### 1.0.3300 (August 2025)
+
+#### New Features
+
+- Default Views for Task View Types: Users can now save default views for each task view type (List, Kanban, Timeline, and Calendar).
+
+#### Bug Fixes and Improvements
+
+- [Bug Fix] Active projects wouldn't be highlighted in the main sidebar.
+
+- [Bug Fix] Mentions would cause a crash in a specific scenario.
+
+- Dashboard filters redesign
+
+- Task Column Expansion Enhancements: Default width of dropdown columns is now the width of the largest item.
+
 ### 1.0.3326 (All platforms except Desktop) / 1.0.3329 (Desktop) (July 2025)
 
 #### New Features

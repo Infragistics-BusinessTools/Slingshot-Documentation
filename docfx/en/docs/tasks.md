@@ -7,9 +7,9 @@ _description: Get familiar with managing tasks to make the most out of your team
 
 When it comes to running a successful project – task management is at the heart of that. You need everything organized in one place to manage tasks throughout the full lifecycle of the project. Setting deadlines, dependencies, and priorities are all essential to ensure projects stay on track and get completed on time.   
 
-There is a task tab available within your workspaces and projects, listing all the tasks assigned to everyone in those workspaces and projects. You can view your own tasks assigned to you within the **My Tasks** section.
+There is a *Tasks* tab available within your workspaces and projects, listing all the tasks assigned to everyone in those workspaces and projects. You can view your own tasks assigned to you in the **My Open Tasks** section within *My Tasks*.
 
-<img src="../images/my-tasks.png" alt="Assigned tasks in My Tasks section" class="responsive-img"/>
+<img src="../images/my-open-tasks.png" alt="Assigned tasks in My Tasks section" class="responsive-img"/>
 
 ## What are Tasks?  
 
@@ -83,27 +83,25 @@ Note that currently these options are available only for macOS Monterey.
 
 Instead of creating a whole new set of tasks, you can save some time and be more productive by duplicating a task with the steps mentioned below. 
 
-If you decide to duplicate a parent task, you can duplicate  all the subtasks associated with it. 
+1.	Click on the overflow menu of the task. 
 
-1.	Open the task list where the parent task is located.
-
-2.	Click on the overflow menu of the task. 
-
-3.	Choose **Duplicate**.
+2.	Choose **Duplicate**.
 
  <img src="../images/duplicate-option-tasks.png" alt="Task duplication overflow menu" class="responsive-img"/>
 
-4.	A dialog will open, where you can choose what you want to keep when you duplicate the task. You can also change the title of the task. If you decide to keep the same assignees, you’ll be presented with the option to notify them once the task is created.
+3.	A dialog will open, where you can choose what you want to keep when you duplicate the task. You can also change the title of the task. If you decide to keep the same assignees, you’ll be presented with the option to notify them once the task is created.
 
  <img src="../images/duplicate-task-filters.png" alt="Dialog with task duplication filters" class="responsive-img"/>
 
-5.	Once you’ve saved your preferences, you will see the task card where you can make changes. 
+4.	Once you’ve saved your preferences, you will see the task card where you can make changes. 
 
  <img src="../images/duplicate-task-example.png" alt="Example of a duplicate task and its fields" class="responsive-img"/>
 
-6.	When you are ready, you can click on **Update**. You can find the task with the subtasks in the specific location that you have saved it. 
+5.	When you are ready, you can click on **Update**. You can find the task in the specific location that you have saved it. 
 
  <img src="../images/duplicate-tasks-task-section.png" alt="Example of stored duplicated tasks" class="responsive-img"/>
+
+ >[!NOTE] If you decide to duplicate a parent task, you can duplicate  all the subtasks associated with it. They will show up in the same location as the parent task.
 
 ## Organizing Tasks  
 
@@ -167,19 +165,57 @@ Use Timeline view if you want to:
 
 - Frame tasks in time in a graphical way. 
 
-### Default Task Views
+### Global Default View
 
-If you want your team members in a workspace or a project to land on task list, organized in a specific way, you can:
+The global default view is the view all users see when they first open a task list. 
 
-1. Open the oveflow menu next to the *Productivity Boost*. 
+Only an *owner* of a workspace or a project can set up a global default view. You can also set up a global default view for each of your own task lists under **My Tasks**.
 
-2. Click/tap on **Save as Default View** to choose a default view. 
+To save a specific global default task view for a task list, you can:
 
-<img src="../images/default-view-tasks.png" alt="Default View option in View Settings" class="responsive-img"/>
+1. Open the oveflow menu next to the *Productivity Boost* button. 
 
-You can always reset the settings to their original state when you choose **Reset to Default View**.
+2. Click/tap on **Save Current View As...**.
 
->[!NOTE] Only an **owner** of a workspace or a project can set a default task view. 
+<img src="../images/save-current-view-option.png" alt="Save Current View As option" class="responsive-img"/>
+
+3. Click/tap on **Global Default**.
+
+<img src="../images/global-default-option.png" alt="Save Current View As option" class="responsive-img"/>
+
+>[!NOTE] There can only be one global default view for each task list.
+
+You can always change the global default view by selecting another task view from the list and then giving the steps mentioned above a go.
+
+### Default Settings for Global Default View 
+
+Besides setting up a global default view for a task list, you can additionally save default settings for the global view.
+
+For example, you can set up the global default view to be Kanban. Then, instead of grouping your tasks by status, you can group them by priority. To save the changes, you will need to:
+
+1. Open the oveflow menu next to the *Productivity Boost* button. 
+
+2. Choose **Save Current View As...**.
+
+3. Click/tap on **Default for This View Type**.
+
+<img src="../images/default-settings-global-view.png" alt="Default settings for default global view" class="responsive-img"/>
+
+4. The changes will be saved for the Kanban view type for that specific task list.
+
+You can always reset the settings of a task view to their original state when you:
+
+1. Open the oveflow menu next to the *Productivity Boost* button. 
+
+2. Click/tap on **Reset Current View**. 
+
+<img src="../images/reset-current-view.png" alt="Rest current view option for task views" class="responsive-img"/>
+
+### Default Settings for Task View Types
+
+You can also set up default settings for a task view that is not the default global view.
+
+To achieve this, you can select a task view and give the [steps](#default-settings-for-global-default-view) mentioned above a go.
 
 ### Task Dependencies
 
@@ -205,7 +241,7 @@ Under **My Tasks**, you can use the **Weekly Priorities** and **Overdue** filter
 
 When you open tasks, that are included in a project or a workspace, you will see:
 
-- **My Tasks** – Each task assigned to you within the current workspace or project. 
+- **My Open Tasks** – Each task assigned to you within the current workspace or project. 
 
 - **Due this Week** – Each task with Due Date set for the current week. 
 
@@ -245,7 +281,11 @@ If you want to change the way tasks are being filtered, you can make different a
 
 You can also add more rules to the filter from the **+Rule** button.
 
-For example, we wanted to create a filter for John Williams’ tasks that have a *Release* [field](custom-fields.md) with the year *2024* as a value. 
+For example, we wanted to create a filter that has John Williams’ release tasks for this month. To do that we:
+
+1. Choose the Release [field](custom-fields.md) from the filter options.
+
+2. Added John Williams as assignee.
 
 <img src="../images/advanced-filters.png" alt="Advanced Filtering highlighted within Slingshot" class="responsive-img"/>
 
