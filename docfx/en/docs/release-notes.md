@@ -1,6 +1,6 @@
 # Release Notes
 
-### 1.0.3300 (August 2025)
+### 1.0.3346 (August 2025)
 
 #### New Features
 
