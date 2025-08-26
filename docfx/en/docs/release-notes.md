@@ -14,6 +14,10 @@
 
 - Dashboard filters redesign
 
+- Improved Project view to be consistent with other views
+
+- Support for Out-of-the-box templates to target multiple departments
+
 - Task Column Expansion Enhancements: Default width of dropdown columns is now the width of the largest item.
 
 ### 1.0.3326 (All platforms except Desktop) / 1.0.3329 (Desktop) (July 2025)
