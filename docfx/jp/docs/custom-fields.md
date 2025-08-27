@@ -1,8 +1,8 @@
 # カスタム フィールド
 
-## カスタムフィールドとは何ですか? 
+## カスタム フィールドとは何ですか? 
 
-カスタム フィールドは、ユーザーが特定のニーズに合わせてワークフローをカスタマイズできるようにする、タスク管理ツールの強力な機能です。標準フィールド (期限、担当者、優先度など) とは異なり、カスタムフィールドを使用すると、プロジェクトに関連する独自のデータ ポイントを作成できます。予算の追跡、プロジェクトのステージの追加、特定の指標の監視が必要な場合でも、カスタム フィールドを使うことで、チームのプロセスに合わせた情報の収集と整理が可能になります。このカスタマイズにより、重要な詳細がワークフロー内で見える化され、行動に移せるようになるため、タスク管理の効率が向上します。 
+カスタム フィールドは、ユーザーが特定のニーズに合わせてワークフローをカスタマイズできるようにする、タスク管理ツールの強力な機能です。標準フィールド (期限、担当者、優先度など) とは異なり、カスタム フィールドを使用すると、プロジェクトに関連する独自のデータ ポイントを作成できます。予算の追跡、プロジェクトのステージの追加、特定の指標の監視が必要な場合でも、カスタム フィールドを使うことで、チームのプロセスに合わせた情報の収集と整理が可能になります。このカスタマイズにより、重要な詳細がワークフロー内で見える化され、行動に移せるようになるため、タスク管理の効率が向上します。 
 
 カスタム フィールドの主な利点は以下のとおりです。 
 
@@ -22,11 +22,11 @@
 
 ## カスタム フィールドのタイプは何ですか? 
 
-カスタムフィールドタイプのリストが増えるにつれて、各カスタム フィールドに関するすべての情報を[こちら](custom-field-types.md)に集めました。
+カスタム フィールドタイプのリストが増えるにつれて、各カスタム フィールドに関するすべての情報を[こちら](custom-field-types.md)に集めました。
 
 ## カスタム タスク フィールド ライブラリとは何ですか? 
 
-使用できるすべてのカスタムフィールドをより把握しやすくするため、これらをライブラリに整理することにしました。各ワークスペース、プロジェクト、または組織には、独自のタスク フィールド ライブラリがあります。また、個人のタスクで使用したカスタム フィールド ライブラリも作成できます。  
+使用できるすべてのカスタム フィールドをより把握しやすくするため、これらをライブラリに整理することにしました。各ワークスペース、プロジェクト、または組織には、独自のタスク フィールド ライブラリがあります。また、個人のタスクで使用したカスタム フィールド ライブラリも作成できます。  
 
 >[!Note] プロジェクトとその親ワークスペースに参加している場合、カスタム フィールドはワークスペース タスク フィールド ライブラリに保存されます。  
 
@@ -54,7 +54,7 @@
 
 4. 選択したフィールドに基づいて、さまざまなオプションが表示されます。  
 
-たとえば、*Marketing* ワークスペースでタスクを分類する方法が必要でした。そのため、**[ラベル]** フィールドを選択しました。ここでは、**メール**や**ソーシャル メディア**など、フィールドにさまざまな値を設定できました。
+たとえば、*Marketing* ワークスペースでタスクを分類する方法が必要でした。そのため、**ラベル** フィールドを選択しました。ここでは、**メール**や**ソーシャル メディア**など、フィールドにさまざまな値を設定できました。
 
 <img src="../images/custom-field-creation.png" alt="Example of the proccess of creating a custom field" class="responsive-img" width="85%" />
 
@@ -70,15 +70,15 @@
 
 値が削除されたタスクでは、元の名前が取り消し線で消された値になります。これにより、チーム メンバーはタスク リストから何が削除されたかを直接確認できます。 
 
-たとえば、私たちのチームでは、タスクの状態を表示するために *「On Hold (保留中)」* を使用しました。フローにいくつか変更を加えた後、デフォルトの状態値として *「On Hold (保留中)」* ではなく *「Blocked (ブロック中)」* を使用することを決定しました。  
+たとえば、私たちのチームでは、タスクの状態を表示するために *「保留中」* を使用しました。フローにいくつか変更を加えた後、デフォルトの状態値として *「保留中」* ではなく *「ブロック中」* を使用することを決定しました。  
 
 そのため:
 
-1. *「Campaign Type (キャンペーン タイプ)」* というタスク タイプの状態から *「On Hold」* という値が削除されました。値が取り消されました。
+1. *「Campaign (キャンペーン)」* というタスク タイプの状態から **「保留中」** という値が削除されました。値が取り消されました。
 
 <img src="../images/crossed-out-value.png" alt="Example of a crossed out value of a field" class="responsive-img" width="85%" />
 
-2. タスク タイプで値 *「Blocked」* が表示されるようにし、**[状態]** のオプションに表示されるようになりました。
+2. タスク タイプで値 *「ブロック中」* が表示されるようにし、**[状態]** のオプションに表示されるようになりました。
 
 <img src="../images/status-value-example.png" alt="Example of a Status value" class="responsive-img" width="85%" />
 
@@ -86,19 +86,19 @@
 
 <img src="../images/new-status-value.png" alt="Example of a new Status value in a list of values" class="responsive-img" width="85%" />
 
-## 既存のカスタムフィールドを削除する方法  
+## 既存のカスタム フィールドを削除する方法  
 
 カスタム フィールドを削除するには: 
 
 1. 削除したいフィールドのオーバーフロー メニューを開きます。 
 
+2. **[フィールドの削除]** をクリックまたはタップします。フィールドは現在使用されているタスクやタスク タイプから削除されます。ただし、そのフィールドを[タスク フィールド ライブラリ](#タスク-フィールド-ライブラリ)に追加している場合は、引き続き利用可能です。
+
 <img src="../images/remove-option-field.png" alt="Remove option for a field" class="responsive-img" width="85%" />
 
-2. **[フィールドの削除]** をクリックまたはタップします。フィールドは、現在使用されているすべてのタスクおよびタスク タイプから削除されます。このアクションは元に戻すことができないため、次の警告が表示されます。 
+3. この操作は元に戻せないため、以下のような警告が表示されます。変更を適用するには、**[削除]** をクリックまたはタップします。
 
 <img src="../images/remove-field-warning.png" alt="Warning for removing a field" class="responsive-img" width="85%" />
-
-3. 変更を適用するには、**[削除]** をクリックまたはタップします。 
 
 次の場合には、開いているタスクからフィールドを直接削除することもできます。 
 
@@ -160,13 +160,13 @@
 
 3. フィールドを追加または削除できる **[サブタスク フィールド]** ダイアログが表示されます。フィールドを追加するには、**[+ フィールド]** をクリックまたはタップします。 
 
-4. さまざまなタイプのフィールドのリストが表示されます。ビジネス ニーズに最も適したものを選択します。この場合では、**「チャネル」** という名前のラベル フィールドを追加しました。
+4. さまざまなタイプのフィールドのリストが表示されます。ビジネス ニーズに最も適したものを選択します。この場合では、**「リリース」** という名前のラベル フィールドを追加しました。
 
 <img src="../images/field-types-subtask.png" alt="List of field types for a subtask" class="responsive-img" width="85%" />
 
 5. 準備ができたら、**[完了]** をクリックまたはタップし、**[更新]** をクリックして変更を保存します。
 
-<img src="../images/new-custom-field-subtask.png" alt="Example of a new custom field for a subtask" class="responsive-img" width="40%" />
+<img src="../images/new-custom-field-subtask.png" alt="Example of a new custom field for a subtask" class="responsive-img" width="85%" />
 
 親タスクを開いている場合は、次の場合にタスク タイプなしでサブタスクにカスタム フィールドを追加できます。
 
@@ -176,7 +176,7 @@
 
 <img src="../images/subtask-fields-subtasks-section.png" alt="Subtask fields button in the subtasks section" class="responsive-img" width="85%" />
 
-3. **[+ フィールド]** をクリックまたはタップします。さまざまなタイプのフィールドのリストが表示されます。目標に最も適したものを選択します。親タスクのフィールドを使用することもできます。使用可能な親フィールドが *[メイン タスク フィールド]* の下に表示されます。 
+3. **[+ フィールド]** をクリックまたはタップします。さまざまなタイプのフィールドのリストが表示されます。目標に最も適したものを選択します。親タスクのフィールドを使用することもできます。使用可能な親フィールドが **[メイン タスク フィールド]** の下に表示されます。 
 
 <img src="../images/subtask-fields.png" alt="List of different types of fields for a subtask" class="responsive-img" width="85%" />
 
@@ -204,7 +204,7 @@
 
 >[!Note] サブタスクとその親タスクでは、状態と優先度のフィールドの値が異なる場合があります。 
 
-たとえば、**[状態]** フィールドに **「TO DO」** という名前の値を設定する代わりに、その値に **「Not Started (未開始)」** などの別の名前を付けることができます。値の色を変更したり、特定のサブタスクに適用されない他の値を非表示にしたりすることもできます。  
+たとえば、**[状態]** フィールドに **「TODO」** という名前の値を設定する代わりに、その値に **「未開始」** などの別の名前を付けることができます。値の色を変更したり、特定のサブタスクに適用されない他の値を非表示にしたりすることもできます。  
 
 そのためには、次の手順を実行します:
 
@@ -216,15 +216,11 @@
 
    - フィールドを編集します。 
 
-   - フィールドのデフォルト値にリセットします。 
-
    - 親タスクのフィールド値を使用します。  
 
    - [タスク フィールド ライブラリ](#タスク-フィールド-ライブラリ)からフィールドを選択します。 
 
-   - 新しい値を持つフィールドをタスク フィールド ライブラリに追加します。 
-
-<img src="../images/subtask-field-options.png" alt="Example of different options for a subtask field" class="responsive-img" width="85%" />
+<img src="../images/subtask-status-field-options.png" alt="Example of different options for a subtask field" class="responsive-img" width="85%" />
 
 4. 値を変更するには、**[編集]** を選択します。 
 
@@ -233,6 +229,10 @@
 6. タスク リストでタスクの更新された**状態**を確認できます。
 
 <img src="../images/updated-field-subtask.png" alt="Example of an updated subtask field" class="responsive-img" width="85%" />
+
+>[!Note] サブタスクの値名が親タスクと異なる場合、追加で次の 2 つのオプションも表示されます: [デフォルトにリセット] と [ライブラリに追加]。
+
+<img src="../images/subtask-field-options.png" alt="Example of different options for a subtask field" class="responsive-img" width="85%" />
 
 ## タスク フィールド ライブラリ 
 
@@ -248,7 +248,7 @@
 
 3. その場所に保存されているすべてのフィールドのリストが表示されます。
 
-<img src="../images/custom-fields-list-library.png" alt="List of custom fields in a library" class="responsive-img" width="60%" />
+<img src="../images/custom-fields-list-library.png" alt="List of custom fields in a library" class="responsive-img" width="85%" />
 
 [ユーザー権限](#カスタム-フィールド-ライブラリのユーザー権限)に基づいて、ライブラリで次の変更を行うことができます: 
 
@@ -258,7 +258,7 @@
 
 - フィールドを削除します。 
 
-<img src="../images/task-fields-library-options.png" alt="Different pptions for custom fields in a task fields library" class="responsive-img" width="60%" />
+<img src="../images/task-fields-library-options.png" alt="Different pptions for custom fields in a task fields library" class="responsive-img" width="85%" />
 
 ライブラリ内のフィールドに対する変更 (編集または削除) は、[タスク タイプ](task-types.md)と現在それを使用しているタスクに影響します。 
 
@@ -268,7 +268,7 @@
 
 2. **[個人用ライブラリの管理]** を選択します。 
 
-<img src="../images/manage-personal-libraries.png" alt="Manage personal libraries option in user settings" class="responsive-img" width="85%" />
+<img src="../images/manage-personal-libraries.png" alt="Manage personal libraries option in user settings" class="responsive-img" />
 
 3. ここでは、個人のタスク フィールド、[タスク タイプ](task-types.md)、[タスク テンプレート](task-templates.md)がすべて見つかります。
 
@@ -278,11 +278,11 @@
 
 カスタム フィールドのリストが継続的に増えていくため、次のことをお勧めします: 
 
-- 異なるカスタムフィールドに同じ名前を使用しないようにする。 
+- 異なるカスタム フィールドに同じ名前を使用しないようにする。 
 
 - フィールド名は明確で説明的にする。 
 
-- カスタムフィールドの名前付けスタイルを一貫させる。 
+- カスタム フィールドの名前付けスタイルを一貫させる。 
 
 - 冗長性を最小限に抑えるため、既存のフィールドを再利用する (該当する場合)。 
 
