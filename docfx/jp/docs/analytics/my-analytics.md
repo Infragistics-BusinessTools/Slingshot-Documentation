@@ -108,22 +108,30 @@ Slingshot には、特定のダッシュボードまたはデータ ソースを
 
 <img src="../../images/new-dashboard-filter-option.png" alt="Option to create a new dashboard filter" class="responsive-img" width="85%">
 
-2. フィルターに含める内容を選択し、**[適用]** をクリックまたはタップしてフィルターのリストに保存します。
+2. フィルターに含める内容を選択し、**[完了]** をクリックまたはタップした後に **[保存]** をクリックまたはタップすると、フィルターのリストに保存されます。
 
-ダッシュボードまたはデータ ソースのフィルタリングを停止するには、次の方法があります。
+<img src="../../images/dashboard-filter-options.png" alt="Option to create a new dashboard filter" class="responsive-img" width="85%">
 
-1. フィルター アイコンをクリックまたはタップして、[フィルター] ダイアログを開きます。
+別の方法としては以下の手順も利用できます:
 
-<img src="../../images/dashboard-filter-icon.png" alt="Different options for a dashboard filter" class="responsive-img" width="85%"/>
+1. 右上隅にあるフィルター アイコンをクリックまたはタップします。
 
-2. 下部にある **[クリア]** ボタンを選択して、現在のフィルターを削除します。
+2. フィルターに含める内容を選択し、**[完了]** をクリックまたはタップしてから **[適用]** をクリックまたはタップし、変更を保存します。
 
-<img src="../../images/clear-dashboard-filter.png" alt="Unselect Filters" class="responsive-img" />
+3. **[フィルターとして保存]** をクリックまたはタップして、フィルターに名前を付けます。
 
-3. 変更を確認するには、**[適用]** をクリックまたはタップします。
+4. **[作成]** をクリックまたはタップしてフィルターを保存します。
 
-<img src="../../images/apply-button.png" alt="Unselect Filters" class="responsive-img" width="85%"/>
+<img src="../../images/create-filter.png" alt="Create filter button" class="responsive-img" width="85%">
 
-4. 変更を加えたフィルターを再利用する場合は、**[変更の保存]** をクリックまたはタップします。
+フィルターを編集することもできます。その場合は以下の手順を実行します:
 
-<img src="../../images/save-changes-option-dashboard-filter.png" alt="Option to save the changes for a dashboard filter" class="responsive-img" width="85%"/>
+1. フィルターのオーバーフロー メニューを開きます。
+
+2. **[編集]** を選択します。
+
+<img src="../../images/edit-option-filter-example.png" alt="Certifications in Slingshot" class="responsive-img" width="85%">
+
+3. 上記と同じフィルター設定画面が表示されます。フィルターに含める内容や除外する内容を選択します。
+
+4. **[保存]** をクリックまたはタップしてフィルターを更新します。

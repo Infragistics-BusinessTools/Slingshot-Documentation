@@ -14,7 +14,7 @@
 
 <img src="../images/save-as-template-button.png" class="responsive-img" alt="Save as template button for a task" width="85%">
 
-3. 次のダイアログが開きます。ここで、テンプレートに使用するタスクのフィールド (例: 優先度) を選択できます。タスクに[カスタムフィールド](custom-fields.md)がある場合は、それを保持することもできます。準備ができたら続行、**[続行]** をクリックまたはタップします。
+3. 次のダイアログが開きます。ここで、テンプレートに使用するタスクのフィールド (例: 優先度) を選択できます。タスクに[カスタム フィールド](custom-fields.md)がある場合は、それを保持することもできます。準備ができたら続行、**[続行]** をクリックまたはタップします。
        
 <img src="../images/task-template-fields.png" class="responsive-img" alt="A list of fields that can be kept for the template" width="85%">  
 
