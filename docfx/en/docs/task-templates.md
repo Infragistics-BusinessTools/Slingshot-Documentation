@@ -64,8 +64,6 @@ Besides this, you can also open the overflow menu on the right side of each task
 
 - Open the template.
 
-- Create a *Copy* of the template and *Edit* it. This will lead you to the **Save as Template** dialog where you can make changes before creating a template copy.
-
 - Copy the link to the task template.
 
 - Add the template to **Bookmarks** or remove it from there.

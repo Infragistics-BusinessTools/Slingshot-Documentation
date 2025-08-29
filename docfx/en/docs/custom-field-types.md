@@ -31,7 +31,7 @@ You can find the Time Tracking custom field when you:
 
 1. Click/tap on the + field button in the task list in the top right corner.
 
-2. From the drop down that appears,  click/tap on **+Add Field**.
+2. From the drop down that appears, click/tap on **+Add Field**. If you have different task types, choose the one you want to add the custom field to.
 
 3. Choose **Time Tracking**.
 
