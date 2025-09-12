@@ -18,7 +18,7 @@ You can create task templates in different projects, workspaces or in the **My T
        
 <img src="../images/task-template-fields.png" class="responsive-img" alt="A list of fields that can be kept for the template">  
 
-Before creating the template, you will have the option to:
+Before creating the template, you can:
 
 1.	Give a name to the task template in order to create it.
 
@@ -42,19 +42,19 @@ Once you have created a task template, you can use it in order to create a new t
 
 Task Templates are organized in libraries. You can save task templates in workspaces and projects libraries, or your private library.
 
->[!Note]When you open a Workspace Task Template Library, you can browse through the templates that are stored both in the workspace and its projects.
+>[!Note]When you open a Workspace Task Templates Library, you can browse through the templates that are stored both in the workspace and its projects.
 
-To open a Task Template Library, you can:
+To open a Task Templates Library, you can:
 
 1. Open a project or a workspace's settings.
 
-2. Click/tap on **Task Template Library**.
+2. Click/tap on **Task Templates Library**.
 
-<img src="../images/task-template-library-workspace-example.png" class="responsive-img" alt="Example of a Workspace Task Template Library"> 
+<img src="../images/task-template-library-workspace-example.png" class="responsive-img" alt="Example of a Workspace Task Templates Library"> 
 
-If you have opened a task list, you can click/tap on the **+Task** split button in the upper right corner and then choose **Task Template Library**.
+If you have opened a task list, you can click/tap on the **+Task** split button in the upper right corner and then choose **Task Templates Library**.
 
-<img src="../images/task-template-library-task-list.png" class="responsive-img" alt="Task Template Library button in a task list">  
+<img src="../images/task-template-library-task-list.png" class="responsive-img" alt="Task Templates Library button in a task list">  
 
 To open you private task templates, you can go to your profile settings and click/tap on **Manage Personal Libraries**.
 
@@ -86,6 +86,7 @@ To edit a Task Template, you need to:
 
 <img src="../images/edit-task-template.png" class="responsive-img" alt="Task template editing options">
 
+>
 >[!NOTE] Keep in mind that you have the same options for applying changes as in the **Save as Template** dialog.
 
 If you want to find more information about how you can create and use tasks, head [here](tasks.md#how-to-create-a-task).
