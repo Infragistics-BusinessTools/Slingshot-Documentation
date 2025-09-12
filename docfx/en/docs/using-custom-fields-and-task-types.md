@@ -2,7 +2,7 @@
 
 When you create a field for a task with a [specific type](task-types.md), all the other tasks from that type will be updated to reflect the changes. 
 
-To add a custom field to a task, you can either: 
+To add a custom field to a task, you can: 
 
 1. Open the overflow menu of the task. 
 
@@ -12,9 +12,27 @@ To add a custom field to a task, you can either:
 
 3. Click/tap on **+ Field**. 
 
-4. You will see a list of different types of custom fields. Choose the one that best fits your goals. In our case we wanted to create a field for our releases. 
+4. You will see a list of different types of custom fields. Choose the one that best fits your goals. 
 
 5. When you are ready, click/tap on **Done** and then **Update** to add the field. 
+
+Alternatively, you can:
+
+1. Click/tap on the **+** field button in the task list in the top right corner. 
+
+2. Here you can toggle on/off existing fields or create new fields in the task list. To create a custom field, click/tap on **+Add Field**. 
+
+3. Choose the task type you want to add a new custom field to. 
+
+<img src="../images/task-types-list.png" alt="List of task types" class="responsive-img"/>
+
+4. From here on, you can pick a type of field and customize it. 
+
+<img src="../images/custom-field-types-list.png" alt="List of different types of custom fields" class="responsive-img"/>
+
+5. When you are ready, click/tap on **Add** to save the field in the task type. 
+
+<img src="../images/custom-field-add-button.png" alt="Custom field add button" class="responsive-img"/>
 
 ## Changing the type of a task 
 
@@ -32,20 +50,3 @@ To change the task type, you can:
 
 <img src="../images/convert-to-button.png" alt="Convert to button" class="responsive-img"/>
 
-You can also change the task type when you:
-
-1. Click/tap on the **+** field button in the task list in the top right corner. 
-
-2. Here you can toggle on/off existing fields or create new fields in the task list. To create a custom field, click/tap on **+Add Field**. 
-
-3. Choose the task type you want to add a new custom field to. 
-
-<img src="../images/task-types-list.png" alt="List of task types" class="responsive-img"/>
-
-4. From here on, you can pick a type of field and customize it. 
-
-<img src="../images/custom-field-types-list.png" alt="List of different types of custom fields" class="responsive-img"/>
-
-5. When you are ready, click/tap on **Add**. 
-
-<img src="../images/custom-field-add-button.png" alt="Custom field add button" class="responsive-img"/>

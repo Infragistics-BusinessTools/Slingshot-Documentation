@@ -134,13 +134,13 @@ If you have a list of tasks without any types assigned to them, you can convert 
 
 1.	Open the overflow menu of the task list.
 
-2.	Click/tap on **Convert List** to.
+2.	Click/tap on **Convert List To** to.
+
+<img src="../images/convert-to-task-list.png" alt="Convert List To option for task lists" class="responsive-img"/>
 
 3.	Choose the task type that best suits your goals.
 
 4.	The tasks will convert to the chosen task type. With this action, you are also setting up the default task type for the task list.
-
-<img src="../images/default-task-type-tasks.png" alt="Default task type for a task list" class="responsive-img"/>
 
 If a task list already has a default task type, but you think another type fits better your team’s requirements, you can change the type with **Button Action**.
 
@@ -176,13 +176,13 @@ If you have already created a task or are in the process of creating one, you ca
 
 If your task already has a type, but you want to use another type with different fields, you can:
 
-1.	Open the overflow menu of the task. In the example below, we wanted to change the type of a task named *Feedback*.
+1.	Open the overflow menu of the task. In the example below, we wanted to change the type of a task named *SEO 2025: How to Stay Ahead of Competition*.
 
 <img src="../images/overflow-menu-task.png" alt="Example of all option in the overflow menu of a task" class="responsive-img"/>
 
 2.	Click/tap on **Convert To**.
 
-3.	Choose the new type. In this case we chose *Campaign Type*.
+3.	Choose the new type. In this case we chose *Content Creation*.
 
 <img src="../images/different-task-types.png" alt="Example of a list of different task types" class="responsive-img"/>
 
@@ -224,7 +224,7 @@ If you have already opened a task, you can:
 
 <img src="../images/add-task-subtasks-section.png" alt="Add tasks button in the subtasks section" class="responsive-img"/>
 
-2.	In the subtask dialog, you can add a title for it as well as choose which task type to use.  Every task type will have different task fields. Choose the type that best fits your goals. In this case we chose *Campaign Type*.
+2.	In the subtask dialog, you can add a title for it as well as choose which task type to use.  Every task type will have different task fields. Choose the type that best fits your goals. In this case we chose *Campaign*.
 
 <img src="../images/subtask-convert-to.png" alt="Option to change the type of a subtask" class="responsive-img"/>
 
