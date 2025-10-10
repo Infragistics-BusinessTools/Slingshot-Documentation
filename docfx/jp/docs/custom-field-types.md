@@ -31,11 +31,11 @@
 
 1. 右上隅のタスク リストで [+] フィールド ボタンをクリックまたはタップします。
 
-2. 表示されるドロップダウンから、**[+ フィールドの追加]** をクリックまたはタップします。
+2. 表示されるドロップダウンから、**[+ フィールドの追加]** をクリックまたはタップします。異なるタスク タイプがある場合は、カスタム フィールドを追加したいものを選択します。
 
 3. **[時間追跡]** を選択します。
 
-<img class="responsive-img" src="../images/time-tracking-custom-field.png" alt="Time tracking field in a list of custom fields">
+<img class="responsive-img" src="../images/time-tracking-custom-field.png" alt="Time tracking field in a list of custom fields" width="85%"> 
 
 4. 次のダイアログが表示され、次の操作を実行できます。
 
@@ -49,7 +49,7 @@
 
 - 必須としてフィールドをマークします。
 
-<img class="responsive-img" src="../images/time-tracking-create-field-dialog.png" alt="Time tracking field in a list of custom fields">
+<img class="responsive-img" src="../images/time-tracking-create-field-dialog.png" alt="Time tracking field in a list of custom fields" width="85%"> 
 
 時間追跡フィールドのみを使用する場合は、**[予定時間の表示]** サブフィールドをオフに切り替えることができます。デフォルトではこのオプションがオンに設定されています。
 
@@ -69,17 +69,17 @@
 
 - 時間ログのリストを開きます。編集または削除できます。異なる人が同じタスクに取り組む場合は、個別に追加する必要があります。追加すると、タスクに費やされた合計時間が自動的に計算されます。
 
-<img class="responsive-img" src="../images/time-tracking-settings.png" alt="Time tracking settings">
+<img class="responsive-img" src="../images/time-tracking-settings.png" alt="Time tracking settings" width="85%"> 
 
 時間追跡フィールドに情報を手動で追加したくない場合は、タスクの横にある開始ボタンをクリックまたはタップします。これにより、右上隅のアバターの横に表示されるタイマーが開始されます。モバイル デバイスで Slingshot を使用している場合は、アバターを直接クリックまたはタップしてタイマーを開始または一時停止できます。
 
-<img class="responsive-img" src="../images/time-tracking-timer.png" alt="Time tracking timer">
+<img class="responsive-img" src="../images/time-tracking-timer.png" alt="Time tracking timer" width="85%"> 
 
 >[!NOTE] 1 分未満でタイマーを停止する場合は、時間入力ログを保存するか、閉じるかを選択できます。保存することを選択した場合、時間は 1 分に切り上げられます。
 
 同時に追跡できるタスクは 1 つだけです。別のタスクの追跡を開始しようとすると、次の警告が表示され、別のタスクの追跡を受け入れるか、現在のタスクの追跡を継続するかを選択できます。
 
-<img class="responsive-img" src="../images/time-tracking-warning.png" alt="Time tracking warning">
+<img class="responsive-img" src="../images/time-tracking-warning.png" alt="Time tracking warning" width="85%"> 
 
 タイマーの実行中は、異なる人が同時に同じタスクに取り組むことができます。各タイマーを停止したら、タスクに費やした時間をタスク ログに追加できます。
 
@@ -93,7 +93,7 @@
 
 - 追跡中のすべてのタスクをクリアします。これにより、時間追跡ボタンも削除されます。 
 
-<img class="responsive-img" src="../images/time-tracking-timer-options.png" alt="Time tracking timer options">
+<img class="responsive-img" src="../images/time-tracking-timer-options.png" alt="Time tracking timer options" width="85%"> 
 
 >[!NOTE] タスクが完了としてマークされている場合でも、タイマーはタスクに費やされた時間をマークし続けます。
 
@@ -101,16 +101,16 @@
 
 「予定時間」 サブフィールドを使用すると、タスクに費やされた実際の時間を測定するための基準を作成できます。タスクの完了に必要と思われる時間を手動で追加できます。 
 
-<img class="responsive-img" src="../images/estimated-time-example.png" alt="Estimated time example">
+<img class="responsive-img" src="../images/estimated-time-example.png" alt="Estimated time example" width="85%"> 
 
 ### 残り時間
 
 「残り時間」 サブフィールドを使用すると、タスクが完了するまでに残っている時間を確認できます。Slingshot は、予定時間と時間追跡データの差を自動的に計算します。「時間追跡」 フィールドの時間が予定時間を超えると、「残り時間」 フィールドに負の赤色の値が表示されます。いつでも予定時間を変更して残り時間を再計算することができます。
 
-<img class="responsive-img" src="../images/remaining-time-example.png" alt="Remaining time example">
+<img class="responsive-img" src="../images/remaining-time-example.png" alt="Remaining time example" width="85%"> 
 
 ### 時間経過
 
 「時間経過」 サブフィールドを使用すると、タスクの完了率を確認できます。パーセンテージは **「予定時間」** フィールドと **「時間追跡」** フィールドのデータに基づいて自動的に更新されます。
 
-<img class="responsive-img" src="../images/time-progress-example.png" alt="Time progress example">
+<img class="responsive-img" src="../images/time-progress-example.png" alt="Time progress example" width="85%"> 

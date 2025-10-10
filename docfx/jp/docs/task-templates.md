@@ -18,7 +18,7 @@
        
 <img src="../images/task-template-fields.png" class="responsive-img" alt="A list of fields that can be kept for the template" width="85%">  
 
-テンプレートを作成する前に、次のオプションがあります:
+テンプレートを作成する前に、次のことができます:
 
 1.	タスク テンプレートを作成するため、タスク テンプレートに名前を付ける。
 
@@ -50,7 +50,7 @@
 
 2. **[タスク テンプレート ライブラリ]** をクリックまたはタップします。
 
-<img src="../images/task-template-library-workspace-example.png" class="responsive-img" alt="Example of a Workspace Task Template Library" width="85%"> 
+<img src="../images/task-template-library-workspace-example.png" class="responsive-img" alt="Example of a Workspace Task Templates Library" width="85%"> 
 
 タスク リストを開いている場合は、右上隅にある **[+ タスク]** 分割ボタンをクリックまたはタップし、**[タスク テンプレート ライブラリ]** を選択できます。
 
@@ -63,8 +63,6 @@
 これに加えて、各タスク テンプレートの右側にあるオーバーフロー メニューを開いて、次のアクションを実行することもできます:
 
 - テンプレートを開く。
-
-- コピーを作成して編集する。これにより、**[テンプレートとして保存]** ダイアログが表示され、テンプレートのコピーを作成する前に変更を加えることができます。
 
 - タスク テンプレートへのリンクをコピー。
 
@@ -88,6 +86,7 @@
 
 <img src="../images/edit-task-template.png" class="responsive-img" alt="Task template editing options" width="85%">
 
->[!NOTE] 変更を適用するためのオプションは、**[テンプレートとして保存する]** ダイアログと同じであることに注意してください。
+>[!NOTE]
+>変更を適用するためのオプションは、**[テンプレートとして保存する]** ダイアログと同じであることに注意してください。
 
 タスクの作成方法と使用方法の詳細については、[こちら](tasks.md#タスクを作成する方法)をご覧ください。
