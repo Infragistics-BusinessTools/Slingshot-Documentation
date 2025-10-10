@@ -54,7 +54,7 @@
 
 3.	ここで、個人タスク タイプ、タスク テンプレート、タスク フィールドのリストがすべて見つかります。
 
-<img src="../images/personal-task-types-library.png" alt="Example of a personal Task Types Library" class="responsive-img" width="85%" />
+<img src="../images/personal-task-types-library.png" alt="Example of a personal Task Types Library" class="responsive-img" width="65%" />
 
 タスク タイプを個人用ライブラリに保存すると、自分だけが利用できます。
 
@@ -71,7 +71,7 @@
 
 3.	**[タスク タイプ ライブラリ]** を選択します。ワークスペースやそのプロジェクトで使用されているタスク タイプのリストが表示されます。ここからタイプを編集、複製、削除することができます。**[+ タイプ]** ボタンから新しいタスク タイプを作成することもできます。
 
-<img src="../images/workspace-task-types-library.png" alt="Example of workspace Task Types Library" class="responsive-img" width="65%" />
+<img src="../images/workspace-task-types-library.png" alt="Example of workspace Task Types Library" class="responsive-img" width="85%" />
 
 ワークスペース内で編集者または管理者の権限を持つすべてのユーザーがライブラリを変更できます。つまり、タイプを編集、複製、または削除できます。新しいタスク タイプを作成することもできます。
 
@@ -137,11 +137,11 @@
 
 2.	**[リストの変換]** をクリックまたはタップします。
 
+<img src="../images/convert-to-task-list.png" alt="Convert List To option for task lists" class="responsive-img" />
+
 3.	目標に最も適したタスク タイプを選択します。
 
 4.	タスクは選択したタスク タイプに変換されます。この操作により、タスク リストのデフォルト タスク タイプも設定します。
-
-<img src="../images/default-task-type-tasks.png" alt="Default task type for a task list" class="responsive-img" width="85%" />
 
 既にデフォルトのタスク タイプが設定されているタスク リストがある場合でも、**[ボタン操作]** でチームのニーズに合った別のタイプに変更できます。
 
@@ -151,7 +151,7 @@
 
 2.	**[ボタン操作]** をクリックまたはタップします。
 
-<img src="../images/button-action-task-list.png" alt="Button Action for a task list" class="responsive-img" width="85%" />
+<img src="../images/button-action-task-list.png" alt="Button Action for a task list" class="responsive-img" width="85%"/>
 
 3.	目標に最も適したタスク タイプを選択します。
 
@@ -177,13 +177,13 @@
 
 タスクにすでにタイプがあるが、異なるフィールドを持つ別のタイプを使用したい場合は、以下の手順を実行できます。
 
-1.	タスクのオーバーフロー メニューを開きます。以下の例では、*Campaign* という名前のタスクのタイプを変更しました。
+1.	タスクのオーバーフロー メニューを開きます。以下の例では、*SEO 2025: How to Stay Ahead of Competition* という名前のタスクのタイプを変更しました。
 
 <img src="../images/overflow-menu-task.png" alt="Example of all option in the overflow menu of a task" class="responsive-img" width="85%" />
 
 2.	**[変換先]** をクリックまたはタップします。
 
-3.	新しいタイプを選択します。この場合、*Campaign Type* を選択しました。
+3.	新しいタイプを選択します。この場合、*Content Creation* を選択しました。
 
 <img src="../images/different-task-types.png" alt="Example of a list of different task types" class="responsive-img" width="85%" />
 
@@ -225,13 +225,13 @@
 
 <img src="../images/add-task-subtasks-section.png" alt="Add tasks button in the subtasks section" class="responsive-img" width="85%" />
 
-2.	サブタスク ダイアログでは、サブタスクのタイトルを追加したり、使用するタスク タイプを選択したりできます。  タスク タイプごとにタスク フィールドが異なります。目標に最も適したものを選択します。この場合、*「Campaign Type」* を選択しました。
+2.	サブタスク ダイアログでは、サブタスクのタイトルを追加したり、使用するタスク タイプを選択したりできます。タスク タイプごとにタスク フィールドが異なります。目標に最も適したものを選択します。この場合、*「Campaign」* を選択しました。
 
-<img src="../images/subtask-convert-to.png" alt="Option to change the type of a subtask" class="responsive-img" width="85%" />
+<img src="../images/subtask-convert-to.png" alt="Option to change the type of a subtask" class="responsive-img" width="65%" />
 
 3.	準備ができたら、**[作成]** をクリックまたはタップします。
 
-<img src="../images/subtask-create-button.png" alt="Subtask Create button" class="responsive-img" width="85%" />
+<img src="../images/subtask-create-button.png" alt="Subtask Create button" class="responsive-img" width="65%" />
 
 4.	タスク リストの親タスクの下にサブタスクが表示されます。
 
@@ -267,7 +267,7 @@
 
 2.	**[フィールドの管理]** をクリックまたはタップします。
 
-<img src="../images/parent-task-manage-fields-option.png" alt="Manage fields option for a parent task" class="responsive-img" width="85%" />
+<!-- <img src="../images/parent-task-manage-fields-option.png" alt="Manage fields option for a parent task" class="responsive-img" width="85%" /> -->
 
 3.	**[サブタスク フィールド]** のオーバーフロー メニューを開きます。
 
@@ -322,15 +322,15 @@
 
 3.	**[タスク タイプ ライブラリ]** を選択します。
 
-<img src="../images/task-types-library.png" alt="Example of a Task Types Library" class="responsive-img" width="60%" />
+<img src="../images/task-types-library.png" alt="Example of a Task Types Library" class="responsive-img" width="85%" />
 
 4.	タイプのオーバーフロー メニューから **[削除]** をクリックまたはタップします。
 
-<img src="../images/remove-option-task-type.png" alt="Remove option for a task type" class="responsive-img" width="60%" />
+<img src="../images/remove-option-task-type.png" alt="Remove option for a task type" class="responsive-img" width="85%" />
 
 5.	特定のタスク タイプを削除すると、それを編集したり、新しいタスクに使用したりできなくなることを通知する警告が再度表示されます。このタイプを使用している古いタスクは影響を受けません。それでもタスク タイプを削除する場合は、**[削除]** をクリックまたはタップします。
 
-<img src="../images/remove-task-type-warning.png" alt="A warning while removing a task type" class="responsive-img" width="60%" />
+<img src="../images/remove-task-type-warning.png" alt="A warning while removing a task type" class="responsive-img" width="85%" />
 
 
 

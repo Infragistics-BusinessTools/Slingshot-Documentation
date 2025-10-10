@@ -2,7 +2,7 @@
 
 [特定のタイプ](task-types.md)のタスクのフィールドを作成すると、そのタイプの他のすべてのタスクが更新され、変更が反映されます。 
 
-タスクにカスタム フィールドを追加するには、以下のいずれかの方法を実行します。 
+タスクにカスタム フィールドを追加するには、次の手順を実行します:
 
 1. タスクのオーバーフロー メニューを開きます。 
 
@@ -12,9 +12,27 @@
 
 3. **[+フィールド]** をクリックまたはタップします。 
 
-4. さまざまなタイプのカスタム フィールドのリストが表示されます。目標に最も適したものを選択します。この場合、リリース用のフィールドを作成しました。 
+4. さまざまなタイプのカスタム フィールドのリストが表示されます。目標に最も適したものを選択します。
 
 5. 準備ができたら、**[完了]** をクリックまたはタップし、**[更新]** をクリックしてフィールドを追加します。 
+
+別の方法としては以下の手順も利用できます:
+
+1. 右上隅のタスク リストで **[+]** フィールド ボタンをクリックまたはタップします。
+
+2. ここでは、タスク リスト内の既存のフィールドのオン/オフを切り替えたり、新しいフィールドを作成したりできます。カスタム フィールドを作成するには、**[+ フィールドの追加]** をクリックまたはタップします。
+
+3. 新しいカスタム フィールドを追加するタスク タイプを選択します。
+
+<img src="../images/task-types-list.png" alt="List of task types" class="responsive-img" width="85%" />
+
+4. ここから、フィールドのタイプを選択してカスタマイズできます。
+
+<img src="../images/custom-field-types-list.png" alt="List of different types of custom fields" class="responsive-img" width="85%" />
+
+5. 準備ができたら、**[追加]** をクリックまたはタップして、タスク タイプにフィールドを保存します。
+
+<img src="../images/custom-field-add-button.png" alt="Custom field add button" class="responsive-img" width="85%" />
 
 ## タスク タイプの変更 
 
@@ -31,21 +49,3 @@
 4. 新しいタイプに転送するフィールドを選択するように求められます。準備ができたら、**[変換先]** をクリックまたはタップします。 
 
 <img src="../images/convert-to-button.png" alt="Convert to button" class="responsive-img" width="85%" />
-
-以下の手順でタスク タイプを変更することもできます。
-
-1. 右上隅のタスク リストで **[+]** フィールド ボタンをクリックまたはタップします。 
-
-2. ここでは、タスク リスト内の既存のフィールドのオン/オフを切り替えたり、新しいフィールドを作成したりできます。カスタム フィールドを作成するには、**[+ フィールドの追加]** をクリックまたはタップします。 
-
-3. 新しいカスタム フィールドを追加するタスク タイプを選択します。 
-
-<img src="../images/task-types-list.png" alt="List of task types" class="responsive-img" width="85%" />
-
-4. ここから、フィールドのタイプを選択してカスタマイズできます。 
-
-<img src="../images/custom-field-types-list.png" alt="List of different types of custom fields" class="responsive-img" width="85%" />
-
-5. 準備ができたら、**[追加]** をクリックまたはタップします。 
-
-<img src="../images/custom-field-add-button.png" alt="Custom field add button" class="responsive-img" width="85%" />
