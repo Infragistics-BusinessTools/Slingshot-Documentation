@@ -1,6 +1,6 @@
 # Salesforce Marketing Cloud
 
-With the Salesforce Marketing Cloud data source connector in Slingshot, you can create dashboards to track the success of your marketing campaigns. Get an insightful data about how well you are connecting with your customers.
+With the Salesforce Marketing Cloud data source connector in Slingshot, you can create dashboards to track the success of your marketing campaigns. Get insightful data about how well you are connecting with your customers.
 
 ## Prerequisites 
 
@@ -12,65 +12,73 @@ To do that, you need to:
 
 2. Open **Settings/Setup**. 
 
-<img src="images/salesforce-marketing-cloud-setup.png" alt="Salesforce Marketing Cloud access setup" class="responsive-img"/>
+<img src="images/salesforce-marketing-cloud-setup.png" alt="Salesforce Marketing Cloud access setup" class="responsive-img" width="38%"/>
 
 3. Go to **Platform Tools > Apps > Installed Packages**.
 
-<img src="images/salesforce-marketing-cloud-platform-tool-options.png" alt="Platform Tool options is Salesforce Marketing Cloud" class="responsive-img"/>
+<img src="images/salesforce-marketing-cloud-platform-tool-options.png" alt="Platform Tool options is Salesforce Marketing Cloud" class="responsive-img" width="38%"/>
 
 4. **Create** a new package. 
 
-5. Choose **API Integration** from the component types list. 
+Once you have created a new package, you need to: 
 
-<img src="images/salesforce-marketing-cloud-api-integration.png" alt="API Integration component type in Salesforce Marketing Cloud" class="responsive-img"/>
+1. Choose **API Integration** from the list of component types. 
 
-6. Choose **Web App** from the list of integration types.
+<img src="images/salesforce-marketing-cloud-api-integration.png" alt="API Integration component type in Salesforce Marketing Cloud" class="responsive-img" width="78%"/>
 
-<img src="images/salesforce-marketing-cloud-integration-types-list.png" alt="Integration types in Salesforce Marketing Cloud" class="responsive-img"/>
+2. Choose **Web App** from the list of integration types.
 
-7. You will see a dialog where you can set up the following properties: 
+<img src="images/salesforce-marketing-cloud-integration-types-list.png" alt="Integration types in Salesforce Marketing Cloud" class="responsive-img" width="78%"/>
+
+3. You will see a dialog where you can set up the following properties: 
 
 - *Redirect URIs*: Here you can register https://my.slingshotapp.io/callback/generic_oauth as a redirect URI. 
 
 - *Scope*: Here you can select all the **Read** scopes you need to perform reviews.
 
-<img src="images/salesforce-marketing-cloud-web-app-properties.png" alt="Web app properties settings" class="responsive-img"/>
+<img src="images/salesforce-marketing-cloud-web-app-properties.png" alt="Web app properties settings" class="responsive-img" width="45%"/>
 
-8. Click/tap on **Save** to store the properties. 
+4. Click/tap on **Save** to store the properties. 
 
-9. You will see your **Client ID** and **Client Secret**. Copy and store them securely as you won’t be able to view the secret again. 
+5. You will see your **Client ID** and **Client Secret**. Copy and store them securely as you won’t be able to view the secret again. 
 
-10. Open the **Access** tab. 
+16. Open the **Access** tab. 
 
 <img src="images/salesforce-marketing-cloud-access-tab.png" alt="Salesforce Marketing Cloud access tab" class="responsive-img"/>
 
-11. Add users in order to give them permissions to the package. 
+7. Add users in order to give them permissions to the package. 
 
-12. Once you have created the component, you can use the values to connect your account to Slingshot. 
+8. Once you have created the component, you can use the values to connect your account to Slingshot. 
 
 <img src="images/salesforce-marketing-cloud-values.png" alt="Salesforce Marketing Cloud values" class="responsive-img"/>
 
->[!Note] You can find your tenant ID in the Authentication Base URI. For example, in this URI "https://abcdef.auth.marketingcloudapis.com" the Tenant ID is abcdef. 
+>[!Note] 
+> You can find your tenant ID in the Authentication Base URI. For example, in this URI "https://abcdef.auth.marketingcloudapis.com" the Tenant ID is abcdef. 
 
 ## Connecting to Salesforce Marketing Cloud
 
->[!Note] Only Salesforce Marketing Cloud users with viewing permissions can add a data source account in Slingshot.
-
- <a href="https://help.salesforce.com/s/articleView?id=mktg.mc_overview_roles.htm&type=5" target="blank" rel="noopener">Here</a> you can find more information about the different roles in Salesforce Marketing Cloud.
+>[!Note]
+> Only Salesforce Marketing Cloud users with viewing permissions can add a data source account in Slingshot. <a href="https://help.salesforce.com/s/articleView?id=mktg.mc_overview_roles.htm&type=5" target="blank" rel="noopener">Here</a> you can find more information about the different roles in Salesforce Marketing Cloud.
 
 To connect to Salesforce Marketing Cloud, you need to:
 
 1.	Click/tap on the  **+ Dashboard** button in a dashboard list.
 
-2.	Click on the **+Data Source** button.
+2. Choose **Blank Dashboard**. 
 
-3.	Select **Salesforce Marketing Cloud** from the *Data Sources* list.
+<img src="./images/blank-dashboard.png" alt="Blank dashboard"/>
 
-4.	You will be prompted to enter the following information:
+3.	Click on the **+Data Source** button in the upper right corner.
 
--	Tenant Subdomain: This is your ID for your Salesforce Marketing Cloud account. 
+4.	Select **Salesforce Marketing Cloud** from the *Data Sources* list.
 
--	Credentials:
+<img src="./images/salesforce-marketing-cloud-data-source-list.png" alt="Salesforce Marketing Cloud in the data sources list"/>
+
+5.	You will be prompted to enter the following information:
+
+-	*Tenant Subdomain*: This is your ID for your Salesforce Marketing Cloud account. 
+
+-	*Credentials*:
 
      -	Authenticate URL: This is the web address that users need to use in order to authenticate themselves.
 
@@ -100,7 +108,7 @@ Once you have connected to the Salesforce Marketing Cloud data source, you can:
 
 <img src="images/salesforce-marketing-cloud-accounts-list.png" alt="Salesforce Marketing Cloud accounts list" class="responsive-img"/>
 
-2.	Add the **Data Source**. Before adding the data source, you can change the Account name, add an appropriate description, see if the data source is certified (available to Enterprise users), and edit the details. Adding appropriate descriptions helps all users navigate through long lists and find the data sources they are searching for.
+2.	Add the **Data Source**. Before adding the data source, you can change the Account name, add an appropriate description, see if the data source is certified (available to *Enterprise* users), and edit the details. Adding appropriate descriptions helps all users navigate through long lists and find the data sources they are searching for.
 
 <img src="images/salesforce-marketing-cloud-data-source-dialog.png" alt="Salesforce Marketing Cloud data source dialog" class="responsive-img"/>
 
