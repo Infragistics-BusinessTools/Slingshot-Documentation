@@ -58,7 +58,9 @@
   href: rest-api.md
 - name: Salesforce
   href: salesforce.md
-- name: SharePoint オンライン
+- name: Salesforce Marketing Cloud
+  href: salesforce-marketing-cloud.md
+- name: SharePoint
   href: sharepoint.md
 - name: Snowflake
   href: snowflake.md
