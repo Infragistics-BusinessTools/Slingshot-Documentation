@@ -1,6 +1,6 @@
 # Workspace Templates 
 
-With Workspace Templates, you can quickly create workspaces for your teams - with just a few clicks. 
+With Workspace Templates, you can quickly create workspaces for your teams – with just a few clicks. 
 
 ## How can I access different Workspace Templates lists?
 
@@ -78,14 +78,13 @@ In order to create a custom workspace template, you need to:
 
     - Set the Schedule Type.
 
-<img src="../images/workspace-template-tasks-options.png" alt="Workspace template tasks options" class="responsive-img"/>
+<img src="../images/workspace-template-content.png" alt="Workspace template content" class="responsive-img"/>
 
 If you decide to keep only the structure of the tasks, you won't be able to see the tasks and their fields.
 
-When you scroll down, you can also choose what to keep from the additional content, such as dashboards, pins, or discussions.
+When you scroll down, you can also choose what to keep from the additional content, such as overviews, dashboards, pins, and more.
 
-<img src="../images/workspace-template-other-content.png" alt="Workspace template tasks options" class="responsive-img"/>
-
+<img src="../images/workspace-template-other-content-section.png" alt="Workspace template other content section" class="responsive-img"/>
 
 Choose what to keep from the workspace in order to use it for the template. When you are ready, click/tap on **Save**.
 
