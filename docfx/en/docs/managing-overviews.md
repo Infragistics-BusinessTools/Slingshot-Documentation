@@ -2,7 +2,9 @@
 
 As different teams have different goals and responsibilities, they need a way to browse thorough essential information quickly and efficiently. This is where overviews come in handy. 
 
-Each workspace and project comes with a default Slingshot overview that can be changed. Your personal overviews in *My Overviews* can also be customized to best fit your goals.
+Each workspace and project comes with a default Slingshot overview that can be changed. 
+
+Your personal overviews in *My Overviews* can also be customized to best fit your goals.
 
 >[!Note] Overviews cannot be shared via link.
 
@@ -10,15 +12,17 @@ There are two types of widgets that you can use to organize an overview:
 
 -	Custom widgets: You can create a task, workspace or a project widget from scratch.
 
--	Out-of-the-box widgets: You can use Slingshot’s predefined widgets that are divided into categories. 
+-	Out-of-the-box widgets: You can use Slingshot’s predefined widgets that are divided into 6 categories for easy access. 
 
 ## Managing an Overview
 
->[!Note] Only users with owner permissions can make changes to workspace and project overviews.
+>[!Note] 
+>Only users with *Owner* permissions can make changes to workspace and project overviews.
 
 Depending on what your teams need a quick access to, you can add, edit, duplicate or remove a widget from an overview. 
 
->[!Note] Overviews update automatically every 30 minutes. You can click/tap on the Refresh button to manually update them.
+>[!Note] 
+>Overviews update automatically every 30 minutes. You can click/tap on the **Refresh** button to manually update them.
 
 ## Adding a widget
 
@@ -28,7 +32,7 @@ To add a widget to an overview, you can:
 
 2.	Click/tap on the pencil icon in the top right corner.
 
-<img src="../images/overview-edit-button.png" alt="Edit widget buttton" class="responsive-img"/>
+<img src="../images/overview-edit-button.png" alt="Edit overview buttton" class="responsive-img"/>
 
 3.	Click/tap on **+ Widget**.
 
@@ -44,13 +48,15 @@ To add a widget to an overview, you can:
 
 <img src="../images/overview-update-button.png" alt="Overview update buttton" class="responsive-img"/>
 
+>[!Note] You can organize the layout of an overview by dragging the widgets or resizing them.
+
 ## Editing a widget
 
 >[!Note] Depending on the type of a widget you want to edit, you will be presented with different settings.
 
 To edit a widget, you need to:
 
-1.	Open **My Overviews**, a workspace or a project.
+1.	Open an overview from the *Overviews* list in **My Overviews**, a workspace, or a project.
 
 2.	Click/tap on the overflow menu of a widget.
 
@@ -66,13 +72,17 @@ To edit a widget, you need to:
 
 Alternatively, you can:
 
-1.	Open the overflow menu of a widget.
+1.	Open an overview from the *Overviews* list in **My Overviews**, a workspace, or a project.
 
-2.	Click/tap on **Edit**. (screenshot)
+2.	Open the overflow menu of a widget.
 
-3.	Make the necessary changes.
+3.	Click/tap on **Edit**.
 
-4.	Click/tap on the checkmark icon in order to save the changes.
+<img src="../images/widget-overflow-menu-edit-option-maximized-view.png" alt="Edit widget in maximized overview view" class="responsive-img"/>
+
+4.	Make the necessary changes.
+
+5.	Click/tap on the checkmark icon in order to save the changes.
 
 >[!Note] *Pins, Pin from Dashboards, Bookmarks*, and *Unread Mentions* cannot be edited.
 
@@ -80,13 +90,13 @@ Alternatively, you can:
 
 To duplicate a widget, you can follow the steps mentioned above and choose **Duplicate** instead of **Edit**:
 
-1.	Open **My Overviews**, a workspace or a project.
+1.	Open an overview from the *Overviews* list in **My Overviews**, a workspace, or a project.
 
 2.	Click/tap on the overflow menu of a widget.
 
 3.	Choose **Duplicate**.
 
-<img src="../images/widget-overflow-menu-duplicate-option.png" alt="Edit option in the overflow menu of a widget" class="responsive-img"/>
+<img src="../images/widget-overflow-menu-duplicate-option.png" alt="Duplicate option in the overflow menu of a widget" class="responsive-img"/>
 
 4.	Once you have duplicated a widget, you can edit it (if needed).
 
@@ -96,7 +106,7 @@ To duplicate a widget, you can follow the steps mentioned above and choose **Dup
 
 ## Removing a widget
 
-The steps for removing a widget are the same as the ones mentioned above. Instead of duplicating a widget, you need to choose **Delete** instead of **Edit**. 
+The steps for removing a widget are the same as the ones mentioned above. Here,instead of selecting **Duplicate**, you need to select **Remove**. 
 
 <img src="../images/widget-overflow-menu-delete-option.png" alt="Delete option in the overflow menu of a widget" class="responsive-img"/>
 

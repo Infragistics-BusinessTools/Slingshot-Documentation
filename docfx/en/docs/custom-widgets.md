@@ -6,11 +6,11 @@ With custom widgets, you can create widgets from scratch, without applied filter
 
 There are three types of custom widgets:
 
--	**Tasks**: You can create task widgets in workspaces, projects and *My Overviews*.
+-	**Tasks**: You can create task widgets for overviews in workspaces, projects and *My Overviews*.
 
--	**Projects**: You can create project widgets only in workspaces and *My Overviews*.
+-	**Projects**: You can create project widgets only for overviews in workspaces and *My Overviews*.
 
--	**Workspaces**: You can create workspace widgets only in *My Overviews*.
+-	**Workspaces**: You can create workspace widgets only for overviews in *My Overviews*.
 
 ## Task widget 
 
@@ -31,7 +31,7 @@ When you create a custom task widget, you can:
 <img src="../images/custom-task-widget-edit-mode.png" alt="Example of a custom task widget in edit mode" class="responsive-img"/>
 
 >[!Note]
-> When you are creating a task widget in *My Overviews* or a workspace, you can also filter by a *Location*.
+> When you create a task widget in *My Overviews* or a workspace, you can also filter by a *Location*.
 
 ## Project widget
 
@@ -49,11 +49,11 @@ When you create a project widget, you will be able to:
 
 -	Add a filter.
 
--	Sort By a *Title*, *Status*, *Start Date*, *End Date*, or *None*.
+-	Sort tasks by *Title*, *Status*, *Start Date*, *End Date*, or *None*.
 
--	Choose how many fields to show once the widget is added to the overview.
+-	Choose how many fields to show once the widget has been added to the overview.
 
-<img src="../images/custom-project-widget-edit-mode.png" alt="Example of a custom project in edit mode" class="responsive-img"/>
+<img src="../images/custom-project-widget-edit-mode.png" alt="Example of a custom project widget in edit mode" class="responsive-img"/>
 
 >[!Note]
 > By default, the visualization type is set to *List*. You can always switch the type of visualization with another one.
@@ -69,18 +69,18 @@ When you create a custom workspace widget, you will be able to configure the sam
 
 ## Managing a custom widget
 
-If you have owner permissions, you can create, edit, duplicate, or remove a widget. 
+If you have owner permissions to a project or a workspace, you can create, edit, duplicate, or remove a widget. 
 
-As *My Overviews* is only accessible to you, you can always make changes to the widgets.
+As the *My Overviews* section is accessible only to you, you can always make changes to the widgets.
 
 To create a custom widget, you can:
 
-1.	Open *My Overviews*, an overview of a workspace or a project.
+1.	Open an overview in the *My Overviews* section, an overview of a workspace or a project.
 
 2.	Click/tap on the pencil button in the upper right corner to edit the overview.
 
-<img src="../images/custom-widget-edit-button.png" alt="
-Edit widget button" class="responsive-img"/>
+<img src="../images/overview-edit-button.png" alt="
+Edit overview button" class="responsive-img"/>
 
 3.	Click/tap on **+Widget**.
 
@@ -102,12 +102,12 @@ Edit widget button" class="responsive-img"/>
 
 To see the settings of a widget, you need to:
 
-1.	Open *My Overviews*, or an overview of a workspace or a project.
+1.	Open an overview in the *My Overviews* section, an overview of a workspace or a project.
 
 2.	Click/tap on the pencil button on the upper right corner.
 
-<img src="../images/custom-widget-edit-button.png" alt="Edit widget button" class="responsive-img"/>
+<img src="../images/overview-edit-button.png" alt="Edit overview button" class="responsive-img"/>
 
-3.	Open the overflow menu of the widget you have in mind.
+3.	Open the overflow menu of the widget you have in mind to see its settings.
 
 <img src="../images/custom-widget-overflow-menu.png" alt="Overflow menu of a custom widget" class="responsive-img"/>

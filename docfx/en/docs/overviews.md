@@ -22,7 +22,7 @@ All those questions can be answered using overviews.
 With Overviews, you can have a quick glance at the most important information around your work. This way you can make informed decisions, track the overall progress, and streamline your workflows.
 
 >[!Note] 
->If you are using the Free version of Slingshot, you will be able to edit only the out-of-the-box Overview in **My Overviews*, in a workspace or a project but you can’t create a new one. With the [Slingshot](slingshot-subscription.md) or [Slingshot Enterprise](slingshot-enterprise-subscription.md) subscription, you can create multiple Overviews and edit them.
+>If you are using the Free version of Slingshot, you will be able to edit only the out-of-the-box Overview in **My Overviews**, in a workspace or a project but you can’t create a new one. With the [Slingshot](slingshot-subscription.md) or [Slingshot Enterprise](slingshot-enterprise-subscription.md) subscription, you can create multiple Overviews and edit them.
 
 ## Overview Types
 
@@ -34,7 +34,7 @@ Each workspace and project can have Overviews. Every user can also have their ow
 
 ## My Overviews
 
-Your personal list of Overviews is located on the top left corner of the screen in My Overviews. Here you can organize yourself and visualize your own work in a summarized way. You can customize your Overviews to best fit your goals.
+Your personal list of Overviews is located on the top left corner of the screen in *My Overviews*. Here you can organize yourself and visualize your own work in a summarized way. You can customize your Overviews to best fit your goals.
 
 <img src="../images/my-overviews-personal-overview.png" alt="Example of a personal overview in My Overviews" class="responsive-img"/>
 
@@ -46,33 +46,33 @@ Your workspaces and projects are located on the left side panel. When running pr
 
 Overviews can give both Project Managers and Leaders an overall status of a workspace or project and make key content top of mind to members.
 
->[!Note] Workspace and Project Overviews each have a default overview that can be changed. Only users with owner permissions can make changes to the overview.
+>[!Note] Workspace and Project Overviews each have a default overview that can be changed. Only users with owner permissions can make changes to Overviews.
 
 ## Widget Library
 
-To customize an overview, you can use the Widget Library. Here you can find tailored widgets that can help you shape your personal overview, the overview of a workspace, or a workspace. The widgets are divided into the following categories:
+To customize an overview, you can use the **Widget Library**. Here you can find tailored widgets that can help you shape your personal overview, the overview of a workspace, or a project. The widgets are divided into the following categories:
 
--	All Widgets: Here you can find a list of all the default widgets available to use as well as the option to create a custom widget.
+-	**All Widgets**: Here you can find a list of all the out-of-the-box widgets available to use as well as the option to create custom widgets.
 
--	Task Management: Tasks by Status, Open Tasks, In Progress Tasks, Overdue Tasks, Blocked Tasks, Tasks Completed Over Time
+-	**Task Management**: Tasks by Status, Open Tasks, In Progress Tasks, Overdue Tasks, Blocked Tasks, Tasks Completed Over Time
 
--	Pins & Content: Pins, Bookmarks
+-	**Pins & Content**: Pins, Bookmarks
 
--	Dashboards & Analytics: Pin from Dashboard, My Favorite Dashboards, Dashboards
+-	**Dashboards & Analytics**: Pin from Dashboard, My Favorite Dashboards, Dashboards
 
--	Project and Workspaces: Project Timeline, Incomplete Tasks by Project
+-	**Project and Workspaces**: Projects Timeline, Open Tasks by Project
 
--	Informational: Member Tasks Summary, Member Tasks by Status, Text Widget
+-	**Informational**: Member Tasks Summary, Member Tasks by Status, Text Widget
 
--	Discussions & Collab: Unread Mentions
+-	**Discussions & Collab**: Unread Mentions
 
 <img src="../images/widget-library-categories.png" alt="List of categories in the widget library" class="responsive-img"/>
 
-You can find more information about each default widget [here](overviews-out-of-the-box-widgets.md).
+You can find more information about each out-of-the-box widget [here](overviews-out-of-the-box-widgets.md).
 
 To open the Widget Library, you need to:
 
-1.	Open **My Overviews**, a workspace or a project.
+1.	Open an overview in the *My Overviews* section, an overview of a workspace or a project.
 
 2.	Click/tap on the pencil icon in the top right corner.
 

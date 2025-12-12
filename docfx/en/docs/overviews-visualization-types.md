@@ -38,10 +38,10 @@ For example, if you want to see how many tasks you have in a workspace, categori
 <img src="../images/task-widget-pie-visualization.png" alt="Task widget with a pie visualization" class="responsive-img"/>
 
 >[!Note]
-> If you use the *Incomplete Tasks By Project* widget, you can also filter the tasks by **End Date**, **Start Date**, **Status** and **Title**.
+> If you use the *Open Tasks By Project* widget, you can also filter the tasks by **End Date**, **Start Date**, **Status** and **Title**.
 
 >[!Note]
-> When you choose a widget from the *Task Management* category in *My Overview*, you can also add a **Value** while using a Pie visualization. (screenshot)
+> When you choose a widget from the *Task Management* category in *My Overview*, you can also add a **Value** while using a Pie visualization. 
 
 ## Doughnut
 
@@ -89,7 +89,7 @@ For example, you want to see the tasks you have completed over a specific time p
 
 3.	Select the **Line** visualization. 
 
-4.	Set the **Filter** value to **Dynamic Me**. (screenshot)
+4.	Set the **Filter** value to **Dynamic Me**.
 
 5.	Open the dropdown menu of **X Axis** and select **Date Completed**.
 
@@ -105,7 +105,7 @@ For example, you want to see the tasks you have completed over a specific time p
 > You can set up **Time Frame** and **Date Grouping** only while using the **Tasks Completed Over Time** widget. The rest of the task widgets in the *Task Management* category don’t have these elements.
 
 >[!Note]
->When you use the **Incomplete Tasks By Project** widget, you can also set up a **Task Filter**.
+>When you use the **Open Tasks By Project** widget, you can also set up a **Task Filter**.
 
 ## Bar
 
@@ -170,29 +170,29 @@ For example, you want to see detailed information about how many tasks in your w
 
 You can use the Timeline visualization to display data in a chronological order.
 
-For example, you want to see detailed and organized information about all the open tasks per assignee in your project. To do that, you can:
+For example, you want to see detailed information on all of your blocked tasks in each project that you are a part of. To do that, you can:
 
 1.	Select **My Blocked Tasks** from the list of widgets.
 
-2.	Open **Locations** and choose the project you have in mind.
+2.	Open **Locations**. Here you can mark the projects you want to extract the data from.
 
 3.	Select the **Timeline** visualization.
 
-4.	Create two filters: One for **Assignee** with **Dynamic Me** value and one for **Status** with a **Blocked** value. 
+4.	Create two filters: One is for the **Assignees** with **Me** value, and the other one is for tasks with a **Blocked** status. 
 
-5.	Open **Group By** to select a value. In this example, we chose **Section**. 
+5.	Open Group By to select a value. In this example, we chose **Section**. 
 
-6.	Select a timeframe. In our case, we chose **Weeks**.
+6.	Select a value for the **Sort By** element. In our example, we chose **Priority**.
 
-7.	Select a color. In our example, we chose **Status**.
+7.	Select a timeframe. In our case, we chose **Weeks**.
 
-8.	Enable the **Legends**. (optional)
+8.	Select a color. In our example, we chose **Status**.
 
-9.	Enable the **Weekends**. (optional)
+9.	Enable the **Legends**. (optional)
 
-10.	Select a value for the **Sort By** element. (optional) (screenshot)
+10.	Enable the *Weekends**. (optional)
 
-<img src="../images/task-widget-column-visualization.png" alt="Task widget using column visualization" class="responsive-img"/>
+<img src="../images/task-widget-timeline-visualization.png" alt="Task widget in timeline visualization" class="responsive-img"/>
 
 >[!Note]
 > The options to **Group By** and **Sort By** are available for the widgets that are in the *Task Management* category as well as for custom tasks. 
@@ -230,11 +230,11 @@ For example, you want to see the tasks that are in progress in a workspace. To d
 
 ## Project Widgets
 
-The Projects category includes the following widgets: Project Timeline and Open Tasks by Project. Each of them uses all nine visualizations except the Number visualization.
+The Projects category includes the following widgets: Projects Timeline and Open Tasks by Project. Each of them uses all nine visualizations except the Number visualization.
 
 If you want to have a breakdown of all the projects started this month as well as their statuses:
 
-1.	Select **Project Timeline** from the list of widgets.
+1.	Select **Projects Timeline** from the list of widgets.
 
 2.	Open **Locations** and choose the projects you have in mind.
 
@@ -246,7 +246,7 @@ If you want to have a breakdown of all the projects started this month as well a
 
 6.	Enable the **Legend**. 
 
-<img src="../images/project-timeline-example.png" alt="Example of a Project Timeline widget" class="responsive-img"/>
+<img src="../images/project-timeline-example.png" alt="Example of a Projects Timeline widget" class="responsive-img"/>
 
 If you want to see a list of all the open tasks in a specific project, you can:
 
@@ -299,7 +299,7 @@ If you want to just add filters to the dashboards, you can use the **Filter** so
 
 3.	Choose a **Location**.
 
-4.	Create a **Last Modified** filter with a value **This Week**. (screenshot)
+4.	Create a **Last Modified** filter with a value **This Week**. 
 
 <img src="../images/dashboard-visualizations.png" alt="List of available visualizations for dashboards" class="responsive-img"/>
 
@@ -358,8 +358,6 @@ There are three types of custom widgets:
 •	Projects: When you create custom projects, you can choose between all the visualization types mentioned above except **Number**. You can include custom projects in workspace overviews as well as in the overviews in *My Overviews*.
 
 •	Workspaces: When you create custom workspace, you can choose also between all visualization types mentioned above except **Number**. You can include custom workspaces in the overviews in *My Overviews*.
-
-
 
 >[!Note]
 >Custom Projects and Workspaces don’t have an option to configure **Color** while using the *Timeline* or the *Calendar* visualization.
