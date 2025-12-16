@@ -13,7 +13,7 @@ A workspace in Slingshot can be defined as a digital workplace where groups of p
 
 In order to run a high performing team, you need to have everything in one app for a seamless workflow. Below are all the amazing features that you have within your Slingshot workspace:
 
-- **Overviews**: Each workspace can have multiple overviews which contain details of the workspace. You can customize an overview such as status, dates, and key content that is pinned there. At a quick glance you can see any mentions you have missed, and the status of all tasks broken down by member for that workspace and all projects within it. The Overview is designed to give you a high-level view on the current state of that project or initiative – making it easier to identify roadblocks before they become a problem. [Check out the Overviews](overviews.md) topic for more information.  
+- **Overviews**: Overviews are designed to give you a high-level view on the current state of a workspace and/or its projects, making it easier to identify roadblocks before they become a problem. [Check out the Overviews](overviews.md) topic for more information.  
 
 - **Projects**: Projects allow you to further breakdown and organize key initiatives, projects, and processes for a group of people. You can get a quick glimpse of all projects and their status from this tab. This is a great view for team leaders trying to see everything happening at once. 
 
