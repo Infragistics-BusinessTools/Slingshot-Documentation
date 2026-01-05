@@ -16,6 +16,8 @@
   updated: false
 - name: FEATURES
   header: true
+- name: Organizations
+  href: organizations.md
 - name: Workspaces
   href: workspaces.md
   updated: false

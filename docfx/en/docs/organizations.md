@@ -46,11 +46,11 @@ If you have already logged into your Slingshot account, you can:
 
 There are three roles in the Slingshot Enterprise subscription: *Subscription Admin, Organization Admin* and *User*. To find more information about each role, please take a look at the table below.
 
-| Permissions                                                          | Subscription Admin             | Organization Admin            | User             |
-| -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
-| Manage the subscription (activate and/or cancel the Enterprise subscription, invite users to the organization, remove users from the organization)|:white_check_mark: | :x:                | :x:                |
-|Enable features within the application| :x:|:white_check_mark:|:x:|
-|Use the Slingshot app (Organization Admins will need to create new accounts in order to use the app)|:x:|:white_check_mark:|:white_check_mark:|
+| Permissions  | Subscription Admin             | Organization Admin            | User             |
+| ------------   | ---------------- | ------------------ | ------------------ |
+| Manage the subscription (activate and/or cancel the Enterprise subscription, invite users to the organization, remove users from the organization)| :white_check_mark: | :x:                | :x:                |
+|Enable features within the application| :x: |    :white_check_mark: | :x: |
+|Use the Slingshot app (Organization Admins will need to create new accounts in order to use the app)| :x: | :white_check_mark: | :white_check_mark: |
 
 ## Adding users to an Organization
 
@@ -60,16 +60,16 @@ If your company already has a Slingshot Enterprise subscription and you want to 
 
 2.	Choose **Manage users**.
 
-<img src="../images/slingshot-enterprise-subscription-manage-users-button.png" alt="Manage users button" class="responsive-img"/>
+<img src="../images/slingshot-enterprise-subscription-manage-users-button.png" alt="Manage users button" class="responsive-img" width="80%"/>
 
 3.	A dialog will appear where they can click on the **Add users** button to invite you.
 
-<img src="../images/add-users-button.png" alt="Add users button" class="responsive-img"/>
+<img src="../images/add-users-button.png" alt="Add users button" class="responsive-img" width="80%"/>
 
 4. You can open the Slingshot app to accept the invitation. You will be asked to sign out and sign back in again. Once you have signed in again, you will see the organization’s workspace and will be able to use the enterprise subscription features.
 
 >[!Note] 
->Organization members don’t have a [Data Privacy](data-privacy-faq.md) section in their settings menu. This means that users cannot delete their accounts or export the data themselves.
+>Organization members don’t have a *Data Privacy* section in their settings menu. This means that users cannot delete their accounts or export the data themselves.
 
 The subscription admin is responsible for the accounts in the organization. They can delete an account as well as export its data on your behalf.
 
@@ -113,7 +113,7 @@ There are two types of permissions in an organization:
 
 -	*Owner*: Create, edit, share or delete organization assets (discussions, pins, dashboards, data catalogs, and data sources).
 
--	*Contributor*: Create, edit and share organization assets.
+-	*Contributor*: Create, edit and share organization assets (discussions, pins, dashboards, data catalogs, and data sources).
 
 ## Additional Information
 
