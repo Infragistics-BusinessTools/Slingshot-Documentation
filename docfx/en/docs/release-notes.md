@@ -1,5 +1,23 @@
 # Release Notes
 
+### 1.0.3439 (iOS/macOS), 1.0.3441 (Android), 1.0.3454 (Desktop/Web) (January 2026)
+
+#### New Features
+
+- Flagged Notifications: Users can now flag notifications in order to prioritize information and better organize their work. 
+
+- New Data Sources: Databricks and Facebook Organic
+
+#### Bug Fixes and Improvements
+
+- [Bug Fix] A crash would occur when viewing properties of certain dashboards.
+
+- [Bug Fix] Selected workspace/project would scroll out of view in a selection dialog.
+
+- [Bug Fix] The login screen during re-authentication of the OneDrive provider would remain open after the authentication was completed.
+
+- [Bug Fix] The typing indicator on macOS would go missing in a scenario.
+
 ### 1.0.3346 (August 2025)
 
 #### New Features
@@ -20,7 +38,7 @@
 
 - Task Column Expansion Enhancements: Default width of dropdown columns is now the width of the largest item.
 
-### 1.0.3326 (All platforms except Desktop) / 1.0.3329 (Desktop) (July 2025)
+### 1.0.3326 (All platforms except Desktop), 1.0.3329 (Desktop) (July 2025)
 
 #### New Features
 
@@ -198,7 +216,7 @@
 
 - Slingshot's API
 
-### 1.0.2555 (iOS and macOS) / 1.0.2556 (Android) / 1.0.2560 (Desktop and Web) (August 2022)
+### 1.0.2555 (iOS/macOS), 1.0.2556 (Android), 1.0.2560 (Desktop/Web) (August 2022)
 
 #### New Features
 
