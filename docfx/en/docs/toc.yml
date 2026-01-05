@@ -22,12 +22,13 @@
 - name: Overviews
   href: overviews.md
   items:
-    - name: Custom Widgets
-      href: custom-widgets.md
     - name: Managing Overviews
       href: managing-overviews.md
-    - name: Out-of-the-box Widgets
-      href: out-of-the-box-widgets.md
+      items:
+      - name: Custom Widgets
+        href: custom-widgets.md
+      - name: Out-of-the-box Widgets
+        href: out-of-the-box-widgets.md
     - name: Visualization Types
       href: visualization-types.md
   new: false

@@ -10,9 +10,9 @@ Your personal overviews in *My Overviews* can also be customized to best fit you
 
 There are two types of widgets that you can use to organize an overview: 
 
--	Custom widgets: You can create a task, workspace or a project widget from scratch.
+-	[Custom widgets](custom-fields.md): You can create a task, workspace or a project widget from scratch.
 
--	Out-of-the-box widgets: You can use Slingshot’s predefined widgets that are divided into 6 categories for easy access. 
+-	[Out-of-the-box widgets](out-of-the-box-widgets.md): You can use Slingshot’s predefined widgets that are divided into 6 categories for easy access. 
 
 ## Managing an Overview
 
