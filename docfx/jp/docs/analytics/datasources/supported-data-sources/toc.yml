@@ -4,10 +4,14 @@
   href: redshift.md
 - name: Box
   href: box.md
+- name: Databricks
+  href: databricks.md
 - name: Dropbox
   href: dropbox.md
-- name: Facebook
-  href: facebook.md
+- name: Facebook Ads
+  href: facebook-ads.md
+- name: Facebook Organic
+  href: facebook-organic.md
 - name: Google Ads
   href: google-ads.md
 - name: Google アナリティクス

@@ -16,6 +16,8 @@
   updated: false
 - name: 機能
   header: true
+- name: 組織
+  href: organizations.md
 - name: ワークスペース
   href: workspaces.md
   updated: false
