@@ -22,7 +22,7 @@ When you create a custom task widget, you can:
 
 -	Save the widget in the overview.
 
--	Choose a [visualization type](overviews-visualization-types.md): Depending on which visualization type you choose, you will see different options to configure the widget. By default, the visualization type is set to *Column*.
+-	Choose a [visualization type](visualization-types.md): Depending on which visualization type you choose, you will see different options to configure the widget. By default, the visualization type is set to *Column*.
 
 -	Add a filter.
 
@@ -45,7 +45,7 @@ When you create a project widget, you will be able to:
 
 -	Filter by location.
 
--	Choose a [visualization type](overviews-visualization-types.md) : Depending on which visualization type you choose, you will see different options to configure the widget.
+-	Choose a [visualization type](visualization-types.md) : Depending on which visualization type you choose, you will see different options to configure the widget.
 
 -	Add a filter.
 
@@ -108,6 +108,6 @@ To see the settings of a widget, you need to:
 
 <img src="../images/overview-edit-button.png" alt="Edit overview button" class="responsive-img"/>
 
-3.	Open the overflow menu of the widget you have in mind to see its settings.
+3.	Open the overflow menu of the custom widget you have in mind to see its settings.
 
 <img src="../images/custom-widget-overflow-menu.png" alt="Overflow menu of a custom widget" class="responsive-img"/>

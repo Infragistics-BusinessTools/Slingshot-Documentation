@@ -4,7 +4,7 @@ As different teams have different goals and responsibilities, they need a way to
 
 Each workspace and project comes with a default Slingshot overview that can be changed. 
 
-Your personal overviews in *My Overviews* can also be customized to best fit your goals.
+Your personal overview in *My Overviews* can also be customized to best fit your goals.
 
 >[!Note] Overviews cannot be shared via link.
 
@@ -58,9 +58,9 @@ To edit a widget, you need to:
 
 1.	Open an overview from the *Overviews* list in **My Overviews**, a workspace, or a project.
 
-2.	Click/tap on the overflow menu of a widget.
+2.	Click/tap on the pencil icon in the top right corner to edit the overview.
 
-3.	Choose **Edit**.
+3.	Choose **Edit** from the overflow menu of the widget.
 
 <img src="../images/widget-overflow-menu-edit-option.png" alt="Edit option in the overflow menu of a widget" class="responsive-img"/>
 
@@ -74,9 +74,9 @@ Alternatively, you can:
 
 1.	Open an overview from the *Overviews* list in **My Overviews**, a workspace, or a project.
 
-2.	Open the overflow menu of a widget.
+2.	Click/tap on the overflow menu of the widget.
 
-3.	Click/tap on **Edit**.
+3.	Choose **Edit**.
 
 <img src="../images/widget-overflow-menu-edit-option-maximized-view.png" alt="Edit widget in maximized overview view" class="responsive-img"/>
 
@@ -98,11 +98,12 @@ To duplicate a widget, you can follow the steps mentioned above and choose **Dup
 
 <img src="../images/widget-overflow-menu-duplicate-option.png" alt="Duplicate option in the overflow menu of a widget" class="responsive-img"/>
 
-4.	Once you have duplicated a widget, you can edit it (if needed).
+4.	Once you have duplicated a widget, you can edit it.
 
 5.	Click/tap on the checkmark in the upper right corner to update the overview.
 
->[!Note] Pins, Pin from Dashboards, Bookmarks, Unread Mentions, and My Favorite Dashboards cannot be duplicated.
+>[!Note]
+> *Pins, *Pin from Dashboards*, *Bookmarks, *Unread Mentions*, and *My Favorite Dashboards* cannot be duplicated.
 
 ## Removing a widget
 

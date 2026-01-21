@@ -44,4 +44,4 @@ Depending on where you want to use the widgets, you will see different categorie
 |Text |You want to share onboarding information with your team. You can use the *Text* widget to explain the onboarding process in great details.|
 |Unread Mentions|You are part of different projects and workspaces, so you need a way to track all the discussions and tasks you have been mentioned in. You can use the *Unread Mentions* widget to prevent messages from getting lost in endless threads.|
 
-Each of the widgets mentioned above can be configured in a way that best fits your business goals. To find out more about how you can use the widgets with the help of different visualizations, please head [here](overviews-visualization-types.md).
+Each of the widgets mentioned above can be configured in a way that best fits your business goals. To find out more about how you can use the widgets with the help of different visualizations, please head [here](visualization-types.md).

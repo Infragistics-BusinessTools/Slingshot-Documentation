@@ -30,7 +30,7 @@ Each workspace and project can have Overviews. Every user can also have their ow
 
 -	**My Overviews**: You can visualize your own work and organize yourself.
 
--	**Workspace or Project Overview**: You can have a quick snapshot of a workspace or a project, presenting you with the current status of everyone’s work by displaying summarized information.
+-	**Workspace or Project Overview**: You can have a quick snapshot of a workspace or a project, highlighting the most important information for you and your team.
 
 ## My Overviews
 
@@ -44,13 +44,14 @@ Your workspaces and projects are located on the left side panel. When running pr
 
 <img src="../images/workspace-overview.png" alt="Example of a workspace overview" class="responsive-img"/>
 
-Overviews can give both Project Managers and Leaders an overall status of a workspace or project and make key content top of mind to members.
+Overviews can give both Project Managers and Leaders an overall status of a workspace or project and make key content top of mind for members.
 
->[!Note] Workspace and Project Overviews each have a default overview that can be changed. Only users with owner permissions can make changes to Overviews.
+>[!Note]
+> Workspace and Project Overviews each have a default overview that can be changed. Only users with *owner* permissions can make changes to Overviews.
 
 ## Widget Library
 
-To customize an overview, you can use the **Widget Library**. Here you can find tailored widgets that can help you shape your personal overview, the overview of a workspace, or a project. The widgets are divided into the following categories:
+To customize an overview, you can use the **Widget Library**. Here you can find tailored widgets that you can use to shape your personal overview, the overview of a workspace, or a project. The widgets are divided into the following categories:
 
 -	**All Widgets**: Here you can find a list of all the out-of-the-box widgets available to use as well as the option to create custom widgets.
 
@@ -68,7 +69,7 @@ To customize an overview, you can use the **Widget Library**. Here you can find 
 
 <img src="../images/widget-library-categories.png" alt="List of categories in the widget library" class="responsive-img"/>
 
-You can find more information about each out-of-the-box widget [here](overviews-out-of-the-box-widgets.md).
+You can find more information about each out-of-the-box widget [here](out-of-the-box-widgets.md).
 
 To open the Widget Library, you need to:
 
@@ -86,7 +87,7 @@ To open the Widget Library, you need to:
 
 <img src="../images/widget-library.png" alt="Widget Library" class="responsive-img"/>
 
-5.	Once the widget library is opened, you can use the search bar to search for a widget by its name or choose a widget from a category.
+5.	Once the widget library is opened, you can choose a widget from a category or use the search bar to search for a widget by its name.
 
 <img src="../images/widget-library-categories.png" alt="List of categories in the widget library" class="responsive-img"/>
 

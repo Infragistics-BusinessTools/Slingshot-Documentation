@@ -4,7 +4,7 @@ There are many AI-powered features available to you within Slingshot, one of the
 
 The key benefits of this feature include: 
 
-- **Time Saving** – get a quick summary of any discussion or chat in seconds 
+- **Time Saving** – Get a quick summary of any discussion or chat in seconds 
 
 - **Improved Collaborations** – Ensure everyone is on the same page 
 
