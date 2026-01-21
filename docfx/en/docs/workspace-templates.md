@@ -1,6 +1,6 @@
 # Workspace Templates 
 
-With Workspace Templates, you can quickly create workspaces for your teams - with just a few clicks. 
+With Workspace Templates, you can quickly create workspaces for your teams – with just a few clicks. 
 
 ## How can I access different Workspace Templates lists?
 
@@ -70,7 +70,8 @@ In order to create a custom workspace template, you need to:
 
 - Choose a thumbnail. This way you can quickly browse through different templates and get an overview of what a specific template includes.
 
-- Keep  all the tasks or only the tasks structure. If you decide to keep the tasks, you can:
+- Keep  all the tasks or only the tasks structure. If you decide to keep only the structure of the tasks, you won't be able to see the tasks and their fields. In case you decide to keep the tasks, you can:
+
 
     - Save the [field](custom-fields.md) values.
 
@@ -78,18 +79,15 @@ In order to create a custom workspace template, you need to:
 
     - Set the Schedule Type.
 
-<img src="../images/workspace-template-tasks-options.png" alt="Workspace template tasks options" class="responsive-img"/>
+<img src="../images/workspace-template-content.png" alt="Workspace template content" class="responsive-img"/>
 
-If you decide to keep only the structure of the tasks, you won't be able to see the tasks and their fields.
+4. When you scroll down, you can also choose what to keep from the additional content, such as overviews, dashboards, pins, and more.
 
-When you scroll down, you can also choose what to keep from the additional content, such as dashboards, pins, or discussions.
+<img src="../images/workspace-template-other-content-section.png" alt="Workspace template other content section" class="responsive-img"/>
 
-<img src="../images/workspace-template-other-content.png" alt="Workspace template tasks options" class="responsive-img"/>
+5. Choose what to keep from the workspace in order to use it for the template. When you are ready, click/tap on **Save**.
 
-
-Choose what to keep from the workspace in order to use it for the template. When you are ready, click/tap on **Save**.
-
-4.	Once you have created the template, you can find it in the *Workspace Templates lists* under **Locations**. There you can find a list of all the templates that you have created. If you are part of an organization, you can also  browse through the templates stored in it.
+6.	Once you have created the template, you can find it in the *Workspace Templates lists* under **Locations**. There you can find a list of all the templates that you have created. If you are part of an organization, you can also  browse through the templates stored in it.
 
 <img src="../images/custom-workspace-template-location.png" alt="Personal workspace templates under Location" class="responsive-img"/>
 

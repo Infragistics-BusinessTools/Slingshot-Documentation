@@ -6,7 +6,7 @@ With Dashboard Templates, you and your team members can create dashboards faster
 
 In order to access the dashboard templates lists, you need to:
 
-1.	Click/tap on the **+Dashboard** button that is under *My Analytics*.
+1. Click/tap on the **+ Dashboard** button in a dashboard list, or the **Create Dashboard** blue button in the Getting Started section.
 
 2.	Click/tap on **See All Templates**.
 

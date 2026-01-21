@@ -5,7 +5,7 @@ _description: Ensure fluency in collaboration by getting familiar with Slingshot
 
 # Workspaces
 
-A workspace in Slingshot can be defined as a digital workplace where groups of people - within or outside your organization - gather to work on a common objective. Workspaces allow you to collaborate, prioritize work, share content and knowledge and even gleam insights from data in a transparent way.
+A workspace in Slingshot can be defined as a digital workplace where groups of people – within or outside your organization – gather to work on a common objective. Workspaces allow you to collaborate, prioritize work, share content and knowledge and even gleam insights from data in a transparent way.
 
 <img src="../images/example-workspace-overview.png" alt="Example of a Workspace Overview within Slingshot" class="responsive-img"/>
 
@@ -13,7 +13,7 @@ A workspace in Slingshot can be defined as a digital workplace where groups of p
 
 In order to run a high performing team, you need to have everything in one app for a seamless workflow. Below are all the amazing features that you have within your Slingshot workspace:
 
-- **Overviews**: Each workspace has an overview which contains details of the workspace such as status, dates, and key content that is pinned there. At a quick glance you can see any mentions you have missed, and the status of all tasks broken down by member for that workspace and all projects within it. The Overview is designed to give you a high-level view on the current state of that project or initiative – making it easier to identify roadblocks before they become a problem. [Check out the Overviews](overviews.md) topic for more information.  
+- **Overviews**: Overviews are designed to give you a high-level view on the current state of a workspace and/or its projects, making it easier to identify roadblocks before they become a problem. [Check out the Overviews](overviews.md) topic for more information.  
 
 - **Projects**: Projects allow you to further breakdown and organize key initiatives, projects, and processes for a group of people. You can get a quick glimpse of all projects and their status from this tab. This is a great view for team leaders trying to see everything happening at once. 
 
@@ -74,6 +74,8 @@ You can also manage your members and their roles from within the workspace setti
 
 Accessing the *Settings* of the workspace can be done via the overflow menu next to the workspace name.
 
+Alternatively, you can click open the overflow menu in the upper right corner.
+
 <img src="../images/workspace-settings.png" alt="Workspace settings within Slingshot" class="responsive-img"/>
 
 ## Working with Workspaces and Projects
@@ -85,6 +87,8 @@ When a workspace or project is shared with you, it will automatically appear in 
 Creating a new workspace in Slingshot can be done in just a few easy steps!
 
 1.	To create a new workspace, click/tap on the **+ Add** button in the left navigation at the top of your workspace list. You can then create a workspace from scratch or use one of the [Slingshot workspace templates](workspace-templates.md).
+
+<img src="../images/new-workspace.png" alt="New workspace button" class="responsive-img"/>
 
 2. Enter the information for your workspace, turn off any tabs that don’t fit the workspace use case, then click/tap on the **Create** button. Keep in mind that you can also set up the privacy of your workspace if you are part of an organization. 
 
