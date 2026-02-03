@@ -1,0 +1,26 @@
+name: Documentation Request
+description: Request new or updated documentation
+title: "[Docs]: "
+labels: ["docs"]
+body:
+  - type: input
+    id: feature
+    attributes:
+      label: Feature or Topic
+      description: What needs documentation?
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: User Problem
+      description: What is the user trying to accomplish?
+    validations:
+      required: true
+
+  - type: textarea
+    id: details
+    attributes:
+      label: Additional Details
+      description: Links, screenshots, or notes
