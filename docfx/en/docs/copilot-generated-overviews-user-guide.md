@@ -1,5 +1,5 @@
 ---
-title: Overviews User Guide - Complete Feature Documentation
+title: Overviews User Guide
 _description: Comprehensive guide to using Overviews in Slingshot for multi-repo analysis, team collaboration, and data visualization.
 ---
 
@@ -259,7 +259,7 @@ Stay connected with your team:
 6. Click the checkmark in the top right to update the overview
 
 > [!NOTE]
-> Pins, Pin from Dashboards, Bookmarks, and Unread Mentions widgets cannot be edited.
+> Pins, Pin from Dashboards, Bookmarks, Unread Mentions, and My Favorite Dashboards widgets cannot be edited.
 
 ### Duplicating a Widget
 
