@@ -48,6 +48,8 @@
   href: microsoft-sql-server.md
 - name: MySQL
   href: mysql.md
+- name: NetSuite
+  href: netsuite.md
 - name: OData Feed
   href: odata-feed.md
 - name: OneDrive
