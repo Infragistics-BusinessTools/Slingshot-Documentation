@@ -24,6 +24,16 @@
 - name: 概要
   href: overviews.md
   new: false
+  items:
+    - name: 概要の管理
+      href: managing-overviews.md
+      items:
+      - name: カスタム ウィジェット
+        href: custom-widgets.md
+      - name: 定義済みのウィジェット
+        href: out-of-the-box-widgets.md
+    - name: 表示形式タイプ
+      href: visualization-types.md
 - name: タスク
   href: tasks.md
   updated: false

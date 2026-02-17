@@ -12,7 +12,7 @@
 
 2.	**[すべてのテンプレートを見る]** をクリックまたはタップします。
 
-<!-- <img src="../images/see-all-workspace-templates-button.png" alt="See all workspaces templates button" class="responsive-img" width="85%" /> -->
+<img src="../images/see-all-workspace-templates-button.png" alt="See all workspaces templates button" class="responsive-img" width="85%" /> 
 
 3.	次のダイアログが開きます:
 
@@ -49,7 +49,7 @@ Slingshot のテンプレートは、さまざまな業界/部署に基づいて
 
 >[!Note] 組織に所属している場合は、ワークスペースを公開するか非公開にするかを選択するオプションも表示されます。
 
-## カスタム ワークスペース テンプレートを作成する方法 
+## カスタム ワークスペース テンプレートを作成する方法
 
 >[!Note] カスタム ワークスペース テンプレートを作成するオプションは、Slingshot および Slingshot Enterprise ユーザーが利用できます。
 
@@ -71,7 +71,7 @@ Slingshot のテンプレートは、さまざまな業界/部署に基づいて
 
 - サムネイルを選択。こうすることで、さまざまなテンプレートをすばやく参照し、特定のテンプレートに含まれる内容の概要を把握できます。
 
-- すべてのタスクを保持するか、タスク構造のみを保持。タスクを保持することにした場合は、次のことができます:
+- すべてのタスクを保持するか、タスク構造のみを保持。タスクの構造のみを保持することにした場合、タスクとそのフィールドは表示されなくなります。タスクを保持することにした場合は、次のことができます。
 
     - [フィールド](custom-fields.md)の値を保存。
 
@@ -79,18 +79,15 @@ Slingshot のテンプレートは、さまざまな業界/部署に基づいて
 
     - スケジュール タイプを設定。
 
-<img src="../images/workspace-template-tasks-options.png" alt="Workspace template tasks options" class="responsive-img" width="85%" />
+<img src="../images/workspace-template-content.png" alt="Workspace template content" class="responsive-img" width="85%" />
 
-タスクの構造のみを保持することにした場合、タスクとそのフィールドは表示されなくなります。
+4. 下にスクロールすると、概要、ダッシュボード、ピン固定などの追加コンテンツから保持するものを選択することもできます。
 
-下にスクロールすると、ダッシュボード、ピン固定、ディスカッションなどの追加コンテンツから何を保持するかを選択することもできます。
+<img src="../images/workspace-template-other-content-section.png" alt="Workspace template other content section" class="responsive-img" width="85%" />
 
-<img src="../images/workspace-template-other-content.png" alt="Workspace template tasks options" class="responsive-img" width="85%"/>
+5. テンプレートに使用するためにワークスペースから何を保持するかを選択できます。準備ができたら、**[保存]** をクリックまたはタップします。
 
-
-テンプレートに使用するためにワークスペースから何を保持するかを選択できます。準備ができたら、**[保存]** をクリックまたはタップします。
-
-4.	テンプレートを作成すると、**[場所]** の**ワークスペース テンプレート リスト**で見つけることができます。そこには、作成したすべてのテンプレートのリストが表示されます。組織に所属している場合は、組織内に保存されているテンプレートを参照することもできます。
+6. テンプレートを作成すると、**[場所]** の**ワークスペース テンプレート リスト**で見つけることができます。そこには、作成したすべてのテンプレートのリストが表示されます。組織に所属している場合は、組織内に保存されているテンプレートを参照することもできます。
 
 <img src="../images/custom-workspace-template-location.png" alt="Personal workspace templates under Location" class="responsive-img" width="85%" />
 
@@ -104,7 +101,7 @@ Slingshot のテンプレートは、さまざまな業界/部署に基づいて
 
 - テンプレートを削除。
 
-<img src="../images/custom-workspace-template-options.png" alt="Personal workspace templates under Location" class="responsive-img" />
+<img src="../images/custom-workspace-template-options.png" alt="Personal workspace templates under Location" class="responsive-img" width="85%" />
 
 ワークスペースの作成方法と使用方法の詳細については、[こちら](./workspaces.md#ワークスペースの作成)をご覧ください。
 
