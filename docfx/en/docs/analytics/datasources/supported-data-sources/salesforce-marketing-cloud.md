@@ -32,7 +32,7 @@ Once you have created a new package, you need to:
 
 3. You will see a dialog where you can set up the following properties: 
 
-- *Redirect URIs*: Here you can register https://my.slingshotapp.io/callback/generic_oauth as a redirect URI. 
+- *Redirect URLs*: Here you can register https://my.slingshotapp.io/callback/generic_oauth as a redirect URL. 
 
 - *Scope*: Here you can select all the **Read** scopes you need to perform reviews.
 
@@ -80,15 +80,15 @@ To connect to Salesforce Marketing Cloud, you need to:
 
 -	*Credentials*:
 
-     -	Authenticate URL: This is the web address that users need to use in order to authenticate themselves.
+     -	Authenticate Url: This is the web address that users need to use in order to authenticate themselves.
 
-	 - Token URL: The format of the token URL is similar to the one of the Authenticate URL.
+	 - Token Url: The format of the token Url is similar to the one of the Authenticate URI.
 
 	 - Client ID: This is the identifier for your app. Its format is a random combination of symbols.
 
 	 - Client Secret (Optional): It is used as an additional protection. Its format is a random combination of symbols.
 
-	 - Logout URL (Optional): This is the URL used for logging out a user’s authenticated session.
+	 - Logout Url (Optional): This is the Url used for logging out a user’s authenticated session.
 
 	 - Scope (Optional): These are values that are used to request additional levels of access.
 
@@ -134,4 +134,4 @@ The Salesforce Marketing Cloud data is organized in two main categories:
 
 >[!Note] By default, you will see the *Column* chart. You can select it in order to choose another chart type. 
 
-When you are ready with the visualization editor, you can save the dashboard in *My Analytics* ⇒ *My Dashboards*, a specific workspace or a project.
+When you are ready with the visualization editor, you can save the dashboard in *My Analytics* ⇒ *My Dashboards*, your organization, a specific workspace or a project.

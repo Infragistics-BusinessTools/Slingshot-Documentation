@@ -5,106 +5,143 @@ _description: Connecting and using NetSuite data source as a data source in Slin
 
 # NetSuite
 
+With the NetSuite data source connector in Slingshot, you can create dashboards to visualize and analyze your business operations and financial performance in real time. Track key metrics, streamline reporting, and gain actionable insights from your NetSuite data.
+
+## Prerequisites 
+
+### Role permissions 
+
+Each NetSuite role should have the appropriate permissions to ensure a successful connection:
+
+- Reports(): Required for SuiteAnalytics Workbook
+
+- Setup(): Required for Logging in using OAuth 2.0 Access Tokens, REST Web Services, and Custom Fields
+
+>[!Note] 
+>Tables require addiotional permissions. For example, to access the *Account* table you need to have **Lists()** permissions.
+
+### OAuth 2.0
+
+In order to connect to NetSuite in Slingshot, you need to first set up OAuth 2.0 in NetSuite (if you haven’t already).  
+
+To do that, you need to: 
+
+1. Login to <a href="https://system.netsuite.com/pages/customerlogin.jsp?" target="blank" rel="noopener">NetSuite</a>.
+
+2. Go to **Setup** > **Integration** > **Manage Integrations**.
+
+3. **Create** a new integration record. While creating the new integration you can enter a name for your application as well as give it a description. 
+
+4. On the Authentication subtab, you will need to configure the following settings:
+
+- **OAuth 2.0**: From the options provided, choose **Authorization Code Grant**.
+
+ - **Scopes**: From the provided options, choose **RESTlets** and **REST Web Services**.
+
+- **User Credentials**: Here enable the **User Credentials**.
+
+<img src="images/netsuite-authentication-settings.png" alt="NetSuite authentication settings" class="responsive-img"/>
+
+5. Once you have configured the settings, you will need to register https://my.slingshotapp.io/callback/generic_oauth as the Redirect URL. 
+
+6. You will see your **Client ID** and **Client Secret**. Copy and store them securely. If they get lost, you will need to reset them.
+
+For more information about how to setup a OAuth 2.0 in NetSuite, you can read <a href="https://docs.oracle.com/en/cloud/saas/netsuite/ns-online-help/section_157771733782.html#procedure_157838925981" target="blank" rel="noopener">this</a> article.
+
 ## Connecting to NetSuite
 
-To configure a NetSuite data source, you will need to enter the following information:
+To configure a NetSuite data source, you will need to:
 
-<img src="images/netsuite-connection-dialog.png" alt="Configure NetSuite data source connection" class="responsive-img"/>
+1.	Click/tap on the **+ Dashboard** button in a dashboard list.
 
-1. **Default name** of the data source: Your data source name will be displayed in the list of accounts in the previous dialog. By default, Analytics names it *NetSuite*. You can change it to your preference.
+2. Choose **Blank Dashboard**. 
 
-2. **Account ID**: Your NetSuite account identifier. This can be found in your NetSuite URL (for example, if your NetSuite URL is `https://1234567.app.netsuite.com`, your Account ID is `1234567`).
+<img src="./images/blank-dashboard.png" alt="Blank dashboard"/>
 
-3. **Credentials**: After selecting *Credentials*, you will need to authenticate using OAuth 2.0:
+3.	Click on the **+Data Source** button in the upper right corner.
 
-   - Click/tap **Connect to NetSuite** to start the OAuth authentication flow
-   - You will be redirected to NetSuite's login page
-   - Enter your NetSuite username and password
-   - Authorize Slingshot to access your NetSuite data
-   - You will be redirected back to Slingshot upon successful authentication
+4.	Select **NetSuite** from the *Data Sources* list.
 
-   > [!NOTE] 
-   > **OAuth Setup Required**: Before connecting, ensure that OAuth 2.0 is properly configured in your NetSuite account. You will need to create an integration record in NetSuite under *Setup > Integration > Manage Integrations*.
+<img src="images/netsuite-data-sources-list.png" alt="NetSuite in the data sources list" class="responsive-img"/>
 
-Once ready, select **Load and Continue**.
+5.	You will be prompted to enter the following information:
+
+1. **Account ID**: Your NetSuite account identifier. This can be found in your NetSuite URL (for example, if your NetSuite URL is `https://1234567.app.netsuite.com`, your Account ID is `1234567`).
+
+2. **Credentials**: After selecting *Credentials*, you will need to authenticate using OAuth 2.0:
+
+   - Authenticate Url (prefilled): This is the web address that users need to use in order to authenticate themselves.
+
+   - Token Url (prefilled): The format of the token Url is similar to the one of the Authenticate URI.
+
+   - Client ID (required): This is the identifier for your app. Its format is a random combination of symbols.
+   
+   - Client Secret (required): It is used as an additional protection. Its format is a random combination of symbols.
+   
+   - Logout Url (Optional): This is the Url used for logging out a user’s authenticated session.
+   
+   - Scope (Optional): These are values that are used to request additional levels of access.
+   
+   - Resource (Optional): Here you need to input the URL to the service, which hosts the protected data.
+   
+   - Additional Parameters (Optional): These are extra fields you can include for your authentication process.
+   
+   - Alias of the data source: This is the data source name that will be displayed in the list of accounts. You can always change it.
+
+<img src="images/netsuite-credentials.png" alt="NetSuite credentials dialog" class="responsive-img"/>
+
+3. When you are ready, click/tap on **Add**.
+
+4. You will be redirected to the *NetSuite* page where you can enter your login details.
+
+5. You will be prompted to give permissions to the Slingshot app. Click/tap on **Continue** to connect your NetSuite account to Slingshot.
 
 ## Setting up Your Data
 
 After connecting to NetSuite, you can:
 
-1. **Browse available tables**: NetSuite provides access to various data tables including Customers, Items, Transactions, and more.
+1.	Add an account.
 
-<img src="images/netsuite-tables-list.png" alt="List of NetSuite tables" class="responsive-img"/>
+2.	Add the **Data Source**. Before adding the data source, you can change the Account name, add a description, see if the data source is certified (available to *[Enterprise](../../../slingshot-enterprise-subscription.md)* users), and edit the details. Adding appropriate descriptions helps all users navigate through long lists and find the data sources they are searching for.
 
-2. **Select a table**: Choose the table that contains the data you want to analyze.
+3. **Select a table**: Choose the table that contains the data you want to analyze.
 
-3. **Use SuiteQL**: For advanced users, you can create custom SuiteQL queries to access specific data combinations.
+<img src="images/netsuite-tables-list.png" alt="List of NetSuite tables" class="responsive-img" width="55%"/>
 
 ## Working with the Visualization Editor
 
-You will now see the **Visualization Editor**. You can start building your visualization with the data retrieved from NetSuite.
+Once you have chosen a table, you will be taken to the <a href="https://www.slingshotapp.io/en/help/docs/analytics/data-visualizations/visualization-editor" target="blank" rel="noopener">Visualization Editor</a>. Here you can build a dashboard while using the fields within the table.
 
-<img src="images/netsuite-visualization-editor.png" alt="NetSuite data in visualization editor" class="responsive-img"/>
+<img src="images/netsuite-visualization-editor.png" alt="NetSuite data in Visualization Editor" class="responsive-img"/>
 
-## NetSuite-Specific Considerations
+>[!Note] By default, you will see the *Column* chart. You can select it in order to choose another chart type. 
 
-### Required Permissions
-
-Ensure your NetSuite user has the following permissions:
-- **SuiteAnalytics Connect** - For data access
-- **REST Web Services** - For API access  
-- **Login using Access Tokens** - For OAuth authentication
-
-### OAuth Configuration in NetSuite
-
-Before connecting Slingshot to NetSuite, you need to configure OAuth in your NetSuite account:
-
-1. Navigate to **Setup > Integration > Manage Integrations**
-2. Create a **New** integration record
-3. Configure the following settings:
-   - **Name**: Slingshot Integration
-   - **State**: Enabled
-   - **Callback URL**: Use the callback URL provided by Slingshot
-   - **Scope**: `restlets rest_webservices`
-
-### Available Data
-
-NetSuite connector provides access to:
-- **Standard Records**: Customers, Vendors, Items, Employees
-- **Transaction Records**: Sales Orders, Invoices, Purchase Orders
-- **Financial Data**: Account balances, General Ledger transactions
-- **Custom Records**: Any custom record types defined in your NetSuite account
-- **Saved Searches**: Pre-configured NetSuite searches and reports
-
-### Performance Tips
-
-- **Use Filters**: Apply date ranges and other filters to limit data retrieval
-- **Select Specific Fields**: Choose only the fields you need for better performance
-- **Consider Saved Searches**: Use NetSuite saved searches for complex data requirements
-- **Schedule Refreshes**: Set appropriate data refresh intervals based on your needs
-
-## Troubleshooting
+When you are ready with the Visualization Editor, you can save the dashboard in *My Analytics* ⇒ *My Dashboards*, your organization, a specific workspace or a project.
 
 ### Common Connection Issues
 
 **Problem**: "Account ID cannot be null or empty"
-**Solution**: Verify that your NetSuite Account ID is correctly entered. Check your NetSuite URL to confirm the account identifier.
+
+**Solution**: 
+
+Verify that your NetSuite Account ID is correctly entered. Check your NetSuite URL to confirm the account identifier.
 
 **Problem**: OAuth authentication fails
+
 **Solution**: 
+
 - Ensure the integration record is enabled in NetSuite
+
 - Verify that the callback URL is correctly configured
+
 - Check that your NetSuite user has the required permissions
 
 **Problem**: Cannot access expected data
+
 **Solution**:
+
 - Verify your NetSuite role has access to the required records
+
 - Check that the relevant NetSuite features are enabled
+
 - Ensure proper record-level permissions are configured
-
-### Getting Help
-
-For additional support:
-- Review NetSuite's SuiteCloud documentation for integration setup
-- Check your NetSuite system logs for detailed error information
-- Contact your NetSuite administrator for permission and configuration issues
