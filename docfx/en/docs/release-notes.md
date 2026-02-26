@@ -1,5 +1,23 @@
 # Release Notes
 
+### 1.0.3516 (February 2026)
+
+#### New Features
+
+- New Data Source: NetSuite
+
+- Slingshot AI Data Analytics: Users can now use AI-powered Data Analytics to gain deeper insights from their data, avoiding the complexity of traditional analytics.
+
+#### Improvements and Bug Fixes
+
+- Improved People Picker search results for better matching
+
+- [Bug Fix] Double dashboard editors would appear when closing the editor. 
+
+- [Bug Fix] Hitting the space bar while typing in a *Shared with Me* filter would close the filter dialog.
+
+- [Bug Fix] *Last Modified* sorting in the *Task Fields Library* would not work correctly.
+
 ### 1.0.3439 (iOS/macOS), 1.0.3441 (Android), 1.0.3454 (Desktop/Web) (January 2026)
 
 #### New Features
@@ -8,7 +26,7 @@
 
 - New Data Sources: Databricks and Facebook Organic
 
-#### Bug Fixes and Improvements
+#### Improvements and Bug Fixes
 
 - [Bug Fix] A crash would occur when viewing properties of certain dashboards.
 
@@ -24,11 +42,7 @@
 
 - Default Views for Task View Types: Users can now save default views for each task view type (List, Kanban, Timeline, and Calendar).
 
-#### Bug Fixes and Improvements
-
-- [Bug Fix] Active projects wouldn't be highlighted in the main sidebar.
-
-- [Bug Fix] Mentions would cause a crash in a specific scenario.
+#### Improvements and Bug Fixes
 
 - Dashboard filters redesign
 
@@ -38,13 +52,17 @@
 
 - Task Column Expansion Enhancements: Default width of dropdown columns is now the width of the largest item.
 
+- [Bug Fix] Active projects wouldn't be highlighted in the main sidebar.
+
+- [Bug Fix] Mentions would cause a crash in a specific scenario.
+
 ### 1.0.3326 (All platforms except Desktop), 1.0.3329 (Desktop) (July 2025)
 
 #### New Features
 
 - Task Column Expansion: Double-click on a header separator in a task view resizes column's width for optimal fit.
 
-#### Bug Fixes and Improvements
+#### Improvements and Bug Fixes
 
 - [Bug Fix] Offset dates in task templates would show as incorrect in a scenario.
 
@@ -56,15 +74,15 @@
 
 ### 1.0.3300 (May 2025)
 
-#### Bug Fixes and Improvements
-
-- [Bug Fix] Dashboard visualization descriptions would appear difficult to read.
+#### Improvements and Bug Fixes
 
 - Improved users' experience when adding a user to a chat
 
+- [Bug Fix] Dashboard visualization descriptions would appear difficult to read.
+
 ### 1.0.3258 (April 2025)
 
-#### Bug Fixes and Improvements
+#### Improvements and Bug Fixes
 
 - [Bug Fix] Japanese text would not wrap properly in a few scenarios.
 
@@ -86,7 +104,7 @@
 
 - Clickable breadcrumb for tasks: Users can now go to the location of a task from within the task screen.
 
-#### Bug Fixes and Improvements
+#### Improvements and Bug Fixes
 
 - [Bug Fix] The Slingshot app would crash when the app was minimized on MacOS. 
 
@@ -98,7 +116,7 @@
 
 - Improved Default Task Fields List: Users can now use *Completed By* and *Date Completed* to organize their tasks.
 
-#### Bug Fixes and Improvements
+#### Improvements and Bug Fixes
 
 - [Bug Fix] Assignee filter value would disappear in global search.
 
@@ -120,7 +138,7 @@
 
 - Custom Task Types: Users can now define custom task types, enabling better organization and categorization of work across teams.
 
-#### Bug Fixes and Improvements
+#### Improvements and Bug Fixes
 
 - Crash Report Screen Update: A comment field has been added to the crash report screen, allowing users to provide more context and help pinpoint the root causes of crashes.
 
@@ -142,7 +160,7 @@
 
 - Slingshot Academy: Master Slingshot with our online courses.
 
-#### Bug Fixes and Improvements
+#### Improvements and Bug Fixes
 
 - Improved People Picker
 
@@ -238,7 +256,9 @@
 
 - x64 version of Windows desktop version
 
-#### Bug Fixes and Improvements
+#### Improvements and Bug Fixes
+
+- When you try uploading a file with invalid characters, a warning will show up.
 
 - [Bug Fix] A blur appeared on the text input when you tried sending a message.
 
@@ -247,8 +267,6 @@
 - [Bug Fix] Large images would lead to the desktop app to crash.
 
 - [Bug Fix] The desktop app crashed when you tried maximizing it on a large screen.
-
-- [Improvement] When you try uploading a file with invalid characters, a warning will show up.
 
 ### 1.0.2360 (March 2022)
 
