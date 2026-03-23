@@ -72,6 +72,8 @@ After selecting a data source provider, you will be prompted to **configure** it
 
    - [MySQL](~/docs/analytics/datasources/supported-data-sources/mysql.md)
 
+   - [NetSuite](~/docs/analytics/datasources/supported-data-sources/netsuite.md)
+
    - [OData Feed](~/docs/analytics/datasources/supported-data-sources/odata-feed.md)
 
    - [OneDrive](~/docs/analytics/datasources/supported-data-sources/onedrive.md)
