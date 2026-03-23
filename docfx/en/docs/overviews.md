@@ -15,79 +15,54 @@ When working in multiple workspaces and projects, you will frequently find yours
 
 -	Where can I get documents or other resources about the workspace?
 
--	How can I track statistics in order to make data-driven decisions?
-
-All those questions can be answered using overviews. 
-
-With Overviews, you can have a quick glance at the most important information around your work. This way you can make informed decisions, track the overall progress, and streamline your workflows.
-
->[!Note] 
->If you are using the Free version of Slingshot, you will be able to edit only the out-of-the-box Overview in **My Overviews**, in a workspace or a project but you can’t create a new one. With the [Slingshot](slingshot-subscription.md) or [Slingshot Enterprise](slingshot-enterprise-subscription.md) subscription, you can create multiple Overviews and edit them.
+All those questions can be answered using workspace and project overviews. 
 
 ## Overview Types
 
-Each workspace and project can have Overviews. Every user can also have their own Overviews visible only to them. 
+With Overviews you can have a quick glance at the most important information around work. There are two types of overviews:
 
--	**My Overviews**: You can visualize your own work and organize yourself.
+- **My Overview** – Your personal overview (top left of the screen) is where you can visualize your own work and organize yourself.
 
--	**Workspace or Project Overview**: You can have a quick snapshot of a workspace or a project, highlighting the most important information for you and your team.
+- **Workspace or Project Overviews**– They provide you with a quick snapshot of a workspace or project, presenting you with the current status of everyone’s work by displaying summarized information.
 
 ## My Overviews
 
-Your personal list of Overviews is located on the top left corner of the screen in *My Overviews*. Here you can organize yourself and visualize your own work in a summarized way. You can customize your Overviews to best fit your goals.
+Your personal overview is located on the top left of the screen. In *My Overview* you can organize yourself and visualize your own work in a summarized way. Here you can find:
 
-<img src="../images/my-overviews-personal-overview.png" alt="Example of a personal overview in My Overviews" class="responsive-img"/>
+- **Bookmarks** – Keep your most important items in Slingshot at your fingertips. You can add bookmarks to workspaces, tasks, chats and also content. Bookmarked lists get you access to all their pinned documents and web links.
+
+- **Upcoming Tasks** – Help prioritize your day with your tasks that you can filter by *Today, Tomorrow, This Week, This Month*, and *Overdue*.
+
+- **Your Mentions** – @mentions directed at you from anywhere in Slingshot.
+
+<img src="../images/my-overview.png" alt="Example of a personal overview" class="responsive-img"/>
 
 ## Workspace and Project Overviews
 
-Your workspaces and projects are located on the left side panel. When running projects and teams, you need to get the big picture to act quickly and proactively. Having a quick glance at the most important information around your work is a game changer and will push you towards high-performing team’s ground.
+When running projects and teams, you need to get the big picture to act quickly and proactively. Having a quick glance at the most important information around your work is a game changer and will push you towards high-performing team’s ground.
+
+The Overview can give both Project Managers and Leaders an overall status (*On Target, At Risk, Danger, Completed*), *Start Date* and *Due Date*, and make key content top of mind to members.
 
 <img src="../images/workspace-overview.png" alt="Example of a workspace overview" class="responsive-img"/>
 
-Overviews can give both Project Managers and Leaders an overall status of a workspace or project and make key content top of mind for members.
+## Details
 
->[!Note]
-> Workspace and Project Overviews each have a default overview that can be changed. Only users with *owner* permissions can make changes to Overviews.
+Starting on the left of the screen, you can find general details about the workspace or project, including:
 
-## Widget Library
+- **Members of the project/workspace** – Here you can quickly access and manage all members and pending invitations to join the project or workspace.
 
-To customize an overview, you can use the **Widget Library**. Here you can find tailored widgets that you can use to shape your personal overview, the overview of a workspace, or a project. The widgets are divided into the following categories:
+  - **Status** – A workspace owner can change the overall status at any time, switching between *On Target, At Risk, Danger,* and *Completed*.
 
--	**All Widgets**: Here you can find a list of all the out-of-the-box widgets available to use as well as the option to create custom widgets.
+- **A short description** – Give your workspaces or projects a short description, so new team and current team members can know its purpose.
 
--	**Task Management**: Tasks by Status, Open Tasks, In Progress Tasks, Overdue Tasks, Blocked Tasks, Tasks Completed Over Time
+- **Start Date and Due Date** – If the workspace revolves around a project, visibility over the dates is very important for all the project’s stakeholders.
 
--	**Pins & Content**: Pins, Bookmarks
+- **Pins** – Pin key resources (images, files, URLs, analytics) that you need the team to keep top of mind.
 
--	**Dashboards & Analytics**: Pin from Dashboard, My Favorite Dashboards, Dashboards
+## Your Mentions
 
--	**Project and Workspaces**: Projects Timeline, Open Tasks by Project
+Here you can access @mentions directed at you from teammates within tasks and discussions in the workspace or project. It’s a great way to ensure visibility while also preventing messages from getting lost in endless threads.
 
--	**Informational**: Member Tasks Summary, Member Tasks by Status, Text Widget
+## Task Status
 
--	**Discussions & Collab**: Unread Mentions
-
-<img src="../images/widget-library-categories.png" alt="List of categories in the widget library" class="responsive-img"/>
-
-You can find more information about each out-of-the-box widget [here](out-of-the-box-widgets.md).
-
-To open the Widget Library, you need to:
-
-1.	Open an overview in the *My Overviews* section, an overview of a workspace or a project.
-
-2.	Click/tap on the pencil icon in the top right corner.
-
-<img src="../images/overview-edit-button.png" alt="Edit overview" class="responsive-img"/>
-
-3.	Click/tap on **+ Widget**.
-
-<img src="../images/new-widget-button.png" alt="New widget button" class="responsive-img"/>
-
-4.	You will be presented with a list of all the widgets that you can use. If you want to see them organized in categories, you can click/tap on **Widget Library**.
-
-<img src="../images/widget-library.png" alt="Widget Library" class="responsive-img"/>
-
-5.	Once the widget library is opened, you can choose a widget from a category or use the search bar to search for a widget by its name.
-
-<img src="../images/widget-library-categories.png" alt="List of categories in the widget library" class="responsive-img"/>
-
+Under the *Task Status*, you can find a list of all members in a current project or workspace and their progress on different tasks. Keep in mind that every workspace include all tasks from that specific workspace as well as all its projects.

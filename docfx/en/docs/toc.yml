@@ -2,6 +2,8 @@
   header: true
 - name: Slingshot AI Overview
   href: slingshot-ai-overview.md
+- name: Slingshot AI Data Analytics
+  href: data-analytics.md
 - name: Extract Action Items
   href: extract-action-items.md
 - name: Summarization
@@ -23,16 +25,6 @@
   updated: false
 - name: Overviews
   href: overviews.md
-  items:
-    - name: Managing Overviews
-      href: managing-overviews.md
-      items:
-      - name: Custom Widgets
-        href: custom-widgets.md
-      - name: Out-of-the-box Widgets
-        href: out-of-the-box-widgets.md
-    - name: Visualization Types
-      href: visualization-types.md
   new: false
 - name: Tasks
   href: tasks.md
