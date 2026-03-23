@@ -1,5 +1,11 @@
 # Release Notes
 
+### 1.0.3532 (February 2026)
+
+#### New Features
+
+- Overviews: Users can now use Overviews to monitor their work, track progress, and access critical information at a glance.
+
 ### 1.0.3516 (February 2026)
 
 #### New Features
