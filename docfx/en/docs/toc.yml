@@ -26,6 +26,13 @@
 - name: Overviews
   href: overviews.md
   new: false
+  items:
+    - name: Managing Overviews
+      href: managing-overviews.md
+    - name: Custom Widgets
+      href: custom-widgets.md
+    - name: Visualization Types
+      href: visualization-types.md
 - name: Tasks
   href: tasks.md
   updated: false
