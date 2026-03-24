@@ -25,7 +25,7 @@ There are multiple ways to create a task in Slingshot:
 
 - If you want to insert a task right above or below another, you can do so from that task overflow menu.
 
-- You can also **import tasks from a CSV file** to quickly bring in existing task data from spreadsheets or other tools. Learn more in [Importing Tasks from a CSV File](csv_taskimport.md).
+- You can also **import tasks from a CSV file** to quickly bring in existing task data from spreadsheets or other tools. Learn more in [Importing Tasks from a CSV File](csv-task-import.md).
 
 Subtasks can be created from inside the task card or from the parent task's overflow menu.
 
