@@ -148,7 +148,7 @@ The following task fields can be populated through CSV import:
 | **Labels** | Optional. |
 | **Email** | Optional. Supports multiple emails separated by commas within a single cell. |
 | **Phone** | Optional. |
-| **People** | Optional. Supports multiple entries separated by commas. Unmatched names create invite-by-email members. |
+| **People** | Optional. Supports multiple entries separated by commas. |
 | **Custom Fields** | _Text_, _Numeric_, _Date_, _Checkbox_, _Rating_, _Dropdown_, _Long Text_, _Manual Progress_ fields are all supported. |
 | **Parent Task Name** | Optional. Establishes parent-child relationships (see above). |
 
