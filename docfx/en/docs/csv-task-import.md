@@ -7,7 +7,7 @@ _description: Learn how to import tasks from a CSV file into Slingshot task list
 
 With CSV task import, you can quickly move tasks from spreadsheets, other project management tools, or any source that exports to CSV directly into your Slingshot task lists. Slingshot automatically detects your column types and maps them to task fields, so you spend less time on setup and more time getting work done.
 
->[!Note]
+> [!NOTE]
 >CSV import is available to **workspace owners** only. If you don't see the **Import** option, check with your workspace owner.
 
 ## How to Import Tasks
@@ -19,7 +19,7 @@ There are two ways to begin a CSV import:
 - **From a task list** — Click/tap on the overflow menu of the task list and choose **Import**. This creates a new section called "Import" where your tasks will be added.
 - **From a section** — Click/tap on the overflow menu of a specific section and choose **Import**. Your tasks will be added directly to that section.
 
->[!Note]
+> [!NOTE]
 >If you import from the task list menu multiple times, each import creates a new section with an incremented name (e.g., "Import", "Import 2", "Import 3").
 
 ### Step 2: Upload Your File
@@ -57,7 +57,7 @@ Slingshot automatically analyzes your data and maps each CSV column to the best 
 
 If a column doesn't match any existing field in your task list, Slingshot suggests creating a new custom field based on the data it finds. These suggested fields are only added to your task list when you confirm the import — nothing changes until you're ready.
 
->[!IMPORTANT]
+> [!IMPORTANT]
 >**Slingshot Tip**: If a column contains no data, Slingshot defaults it to **Text**, but you can manually change it to any supported field type using the column header dropdown.
 
 #### Adjusting Column Mappings
@@ -72,7 +72,7 @@ You can change any column's mapping by clicking/tapping its header and selecting
 
 The mapping grid includes a **task type selector** at the top. If your workspace uses multiple task types, you can switch between them to change which fields are available for mapping.
 
->[!IMPORTANT]
+> [!IMPORTANT]
 >Changing the task type resets all your column mappings. Your CSV data is preserved — only the field assignments are cleared so you can remap them to the new task type's fields.
 
 ### Step 4: Resolve Any Mismatches
@@ -90,7 +90,7 @@ Any new options you create here are only saved when you confirm the import. If y
 
 Once you're satisfied with your mappings, click/tap **Apply Mapping** to start the import.
 
->[!Note]
+> [!NOTE]
 >The **Apply Mapping** button is disabled until at least one column is mapped to the **Title** field. Every task needs a title, and the Title column must have a value in every row — columns with blank cells won't be available for Title.
 
 If there are any unresolved dropdown or label mismatches, Slingshot walks you through the value mapping dialogs one at a time before proceeding.
@@ -104,7 +104,7 @@ When the import finishes:
 - **All tasks imported successfully** — You'll see a summary with the total number of tasks created and a **Take me there** button to navigate directly to your task list.
 - **Some tasks had errors** — The summary shows how many tasks succeeded along with the details for any rows that couldn't be imported.
 
->[!Note]
+> [!NOTE]
 >Only one import can run at a time. If you try to start a new import while one is already in progress, Slingshot will let you know.
 
 ## Creating Subtasks During Import
@@ -118,7 +118,7 @@ To create subtasks during import:
 3. Make sure the parent task appears **above** the child task in your CSV file.
 4. Leave the **Parent Task Name** column empty for top-level tasks.
 
->[!Note]
+> [!NOTE]
 >Only one level of subtask nesting is supported — a subtask cannot itself be a parent of another subtask.
 
 **Example CSV:**
@@ -152,7 +152,7 @@ The following task fields can be populated through CSV import:
 | **Custom Fields** | _Text_, _Numeric_, _Date_, _Checkbox_, _Rating_, _Dropdown_, _Long Text_, _Manual Progress_ fields are all supported. |
 | **Parent Task Name** | Optional. Establishes parent-child relationships (see above). |
 
->[!Note]
+> [!NOTE]
 >Some fields cannot be populated through CSV import, including _Attachments_, _Time Tracking_, _Recurring_, _Created On_, and _Completed On_.
 
 ## Tips for a Smooth Import
