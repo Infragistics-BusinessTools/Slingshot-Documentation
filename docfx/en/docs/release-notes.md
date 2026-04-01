@@ -12,8 +12,6 @@
 
 - CSV Task Import: Switching to Slingshot just got a whole lot easier. Import tasks directly from a CSV file, and create custom task fields on the fly during import. You can migrate from another tool without missing a beat.
 
-&nbsp;
-
 #### Bug Fixes & Improvements
 
 - The task entry screen is now larger, giving you more room to work.
