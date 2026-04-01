@@ -1,5 +1,25 @@
 # Release Notes
 
+### April 2026
+
+#### New Features
+
+- Microsoft Teams Calling: Start a Teams call directly from any private chat. No need to switch apps anymore!
+
+- Elasticsearch Data Source: Elasticsearch is now available as a data source, giving you direct access to query and visualize your Elasticsearch data alongside everything else in Slingshot.
+
+- Refreshed UI: We've updated the look and feel across the app with a cleaner, more modern design.
+
+- CSV Task Import: Switching to Slingshot just got a whole lot easier. Import tasks directly from a CSV file, and create custom task fields on the fly during import. You can migrate from another tool without missing a beat.
+
+#### Bug Fixes & Improvements
+
+- The task entry screen is now larger, giving you more room to work.
+
+- Dropdown and label field items now support up to 50 characters.
+
+- [Bug Fix] Fixed an issue where zooming on an image in preview would cause it to disappear.
+
 ### 1.0.3532 (February 2026)
 
 #### New Features
