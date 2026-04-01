@@ -146,10 +146,7 @@ The following task fields can be populated through CSV import:
 | **Start Date** | Optional. |
 | **Assignee** | Optional. Supports multiple assignees separated by commas within a single cell. Names or emails are matched against workspace members. |
 | **Labels** | Optional. |
-| **Email** | Optional. Supports multiple emails separated by commas within a single cell. |
-| **Phone** | Optional. |
-| **People** | Optional. Supports multiple entries separated by commas. |
-| **Custom Fields** | _Text_, _Numeric_, _Date_, _Checkbox_, _Rating_, _Dropdown_, _Long Text_, _Manual Progress_ fields are all supported. |
+| **Custom Fields** | _Text_, _Number_, _Date_, _Checkbox_, _Rating_, _Dropdown_, _Long Text_, _Manual Progress_, _Email_, _Phone Number_, and _People_ fields are all supported. These apply only when you have created custom fields of those types on the task list. |
 | **Parent Task Name** | Optional. Establishes parent-child relationships (see above). |
 
 > [!NOTE]
@@ -161,5 +158,5 @@ The following task fields can be populated through CSV import:
 - **Keep titles filled in** — The _Title_ column cannot have any blank cells. Fill in any gaps before importing.
 - **Use consistent dropdown values** — If you're importing into an existing dropdown field, match the option names in your CSV to avoid extra mapping steps.
 - **Check your date formats** — Standard date formats are recognized automatically.
-- **Use commas for multiple values** — For _Assignee_, _People_, and _Email_ fields, you can include multiple values in a single cell by separating them with commas (e.g., "alice@example.com, bob@example.com").
+- **Use commas for multiple values** — For _Assignee_ and multi-value custom fields such as _People_ and _Email_, you can include multiple values in a single cell by separating them with commas (e.g., "alice@example.com, bob@example.com").
 - **Split date ranges** — Date ranges aren't supported as a single field. Use separate _Start Date_ and _End Date_ columns instead.
