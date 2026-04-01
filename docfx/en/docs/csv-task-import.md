@@ -160,3 +160,33 @@ The following task fields can be populated through CSV import:
 - **Check your date formats** — Standard date formats are recognized automatically.
 - **Use commas for multiple values** — For _Assignee_ and multi-value custom fields such as _People_ and _Email_, you can include multiple values in a single cell by separating them with commas (e.g., "alice@example.com, bob@example.com").
 - **Split date ranges** — Date ranges aren't supported as a single field. Use separate _Start Date_ and _End Date_ columns instead.
+
+## Importing from Other Tools
+
+Already have tasks in another project management tool? You can export them as CSV and bring them into Slingshot. Below are step-by-step guides for the most common tools.
+
+### Importing from ClickUp
+
+ClickUp lets you export your tasks to CSV. To prepare your export for Slingshot:
+
+1. **Export from ClickUp** — In ClickUp, export your tasks to CSV. When prompted, select **ISO format** for dates to ensure they are recognized correctly during import.
+2. **Prepare subtasks** — ClickUp exports subtask relationships as a list of Subtask IDs on each parent task, which Slingshot doesn't read directly. To convert these into a format Slingshot understands:
+   - Open the exported CSV in Excel or Google Sheets.
+   - Add a new column called **Parent Task Name**.
+   - In the first data row of the new column, enter the following formula (then copy it down for all rows):
+     ```
+     =IFERROR(INDEX($C:$C, MATCH("*"&TRIM(CLEAN(B2))&"*", $F:$F, 0)), "")
+     ```
+     Adjust the column letters to match your file:
+     - **B** = the _Task ID_ column
+     - **C** = the _Task Name_ column
+     - **F** = the _Subtask IDs_ column
+   - Save the file as CSV.
+3. **Import into Slingshot** — Follow the standard import steps above. When reviewing the mapping grid, make sure the **Parent Task Name** column is mapped to the **Parent Task Name** field type.
+
+### Importing from Asana
+
+Asana exports include subtask relationships out of the box, making the process straightforward:
+
+1. **Export from Asana** — In Asana, export your project to CSV. Subtasks are automatically exported with a **Parent task** column that contains the name of each subtask's parent.
+2. **Import into Slingshot** — Follow the standard import steps above. When reviewing the mapping grid, map the **Parent task** column to the **Parent Task Name** field type. Slingshot will automatically create the parent-child relationships.
