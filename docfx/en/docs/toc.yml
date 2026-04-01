@@ -16,6 +16,9 @@
 - name: Getting Started with Slingshot
   href: getting-started-slingshot.md
   updated: false
+- name: Importing Tasks from a CSV File
+  href: csv_taskimport.md
+  new: true
 - name: FEATURES
   header: true
 - name: Organizations
