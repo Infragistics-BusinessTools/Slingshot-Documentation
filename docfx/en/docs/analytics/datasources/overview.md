@@ -34,6 +34,8 @@ After selecting a data source provider, you will be prompted to **configure** it
 
    - [Dropbox](~/docs/analytics/datasources/supported-data-sources/dropbox.md)
 
+   - [Elasticsearch](~/docs/analytics/datasources/supported-data-sources/elasticsearch.md)
+
    - [Facebook](~/docs/analytics/datasources/supported-data-sources/facebook.md)
 
    - [Google Ads](~/docs/analytics/datasources/supported-data-sources/google-ads.md)

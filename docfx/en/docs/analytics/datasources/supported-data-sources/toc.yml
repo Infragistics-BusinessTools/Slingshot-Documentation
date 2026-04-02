@@ -8,6 +8,8 @@
   href: databricks.md
 - name: Dropbox
   href: dropbox.md
+- name: Elasticsearch
+  href: elasticsearch.md
 - name: Facebook Ads
   href: facebook-ads.md
 - name: Facebook Organic
