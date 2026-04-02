@@ -9,7 +9,7 @@ _description: Connect to Elasticsearch and use it as a data source for your visu
 
 To configure an Elasticsearch data source, you will need to enter the following information:
 
-1.  **Hostname**: the URL of your Elasticsearch server or cluster (for example, *https://my-cluster.es.example.com*).
+1.  **Hostname**: the hostname or IP address of your Elasticsearch server or cluster (for example, *my-cluster.es.example.com*).
 
 2.  **Port**: if applicable, the server port details. If no information
     is entered, Analytics will connect to the port in the hint text (9200)
