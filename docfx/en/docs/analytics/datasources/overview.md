@@ -56,6 +56,8 @@ After selecting a data source provider, you will be prompted to **configure** it
 
    - [LinkedIn](~/docs/analytics/datasources/supported-data-sources/linkedin.md)
 
+   - [MariaDB](~/docs/analytics/datasources/supported-data-sources/mariadb.md)
+
    - [Marketo](~/docs/analytics/datasources/supported-data-sources/marketo.md)
 
    - [Microsoft Analysis Services](../../analytics/datasources/supported-data-sources/microsoft-analysis-services.md)
