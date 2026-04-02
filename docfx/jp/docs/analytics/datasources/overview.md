@@ -72,6 +72,8 @@ _language: ja
 
    - [MySQL](../../analytics/datasources/supported-data-sources/mysql.md)
 
+   - [MariaDB](../../analytics/datasources/supported-data-sources/mariadb.md)
+
    - [OData フィード](../../analytics/datasources/supported-data-sources/odata-feed.md)
 
    - [OneDrive](../../analytics/datasources/supported-data-sources/onedrive.md)
@@ -93,6 +95,8 @@ _language: ja
    - [Sybase](../../analytics/datasources/supported-data-sources/sybase.md)
 
    - [ウェブ リソース](../../analytics/datasources/supported-data-sources/web-resource.md)
+
+   - [YouTube](../../analytics/datasources/supported-data-sources/youtube.md)
 
    - [JSON ファイル](../../analytics/datasources/working-files/working-with-json-files.md)
    

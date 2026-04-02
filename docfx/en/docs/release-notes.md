@@ -8,6 +8,8 @@
 
 - Elasticsearch Data Source: Elasticsearch is now available as a data source, giving you direct access to query and visualize your Elasticsearch data alongside everything else in Slingshot.
 
+- New Data Sources: [MariaDB](~/docs/analytics/datasources/supported-data-sources/mariadb.md) and [YouTube](~/docs/analytics/datasources/supported-data-sources/youtube.md)
+
 - Refreshed UI: We've updated the look and feel across the app with a cleaner, more modern design.
 
 - CSV Task Import: Switching to Slingshot just got a whole lot easier. Import tasks directly from a CSV file, and create custom task fields on the fly during import. You can migrate from another tool without missing a beat.

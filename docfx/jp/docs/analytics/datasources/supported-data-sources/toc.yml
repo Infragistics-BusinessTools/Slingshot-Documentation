@@ -46,6 +46,8 @@
   href: microsoft-reporting-services.md
 - name: Microsoft SQL Server
   href: microsoft-sql-server.md
+- name: MariaDB
+  href: mariadb.md
 - name: MySQL
   href: mysql.md
 - name: OData フィード
@@ -72,3 +74,5 @@
   href: sybase.md
 - name: ウェブ リソース
   href: web-resource.md
+- name: YouTube
+  href: youtube.md

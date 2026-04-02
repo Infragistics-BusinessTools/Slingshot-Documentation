@@ -74,6 +74,8 @@ After selecting a data source provider, you will be prompted to **configure** it
 
    - [MySQL](~/docs/analytics/datasources/supported-data-sources/mysql.md)
 
+   - [MariaDB](~/docs/analytics/datasources/supported-data-sources/mariadb.md)
+
    - [NetSuite](~/docs/analytics/datasources/supported-data-sources/netsuite.md)
 
    - [OData Feed](~/docs/analytics/datasources/supported-data-sources/odata-feed.md)
@@ -97,6 +99,8 @@ After selecting a data source provider, you will be prompted to **configure** it
    - [Sybase](~/docs/analytics/datasources/supported-data-sources/sybase.md)
 
    - [Web Resource](~/docs/analytics/datasources/supported-data-sources/web-resource.md)
+
+   - [YouTube](~/docs/analytics/datasources/supported-data-sources/youtube.md)
 
    - [JSON files](~/docs/analytics/datasources/working-files/working-with-json-files.md)
    
