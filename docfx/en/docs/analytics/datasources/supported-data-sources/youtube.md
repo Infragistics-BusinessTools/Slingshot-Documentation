@@ -19,11 +19,11 @@ Before you try using the *YouTube* data source in Analytics, make sure that:
 
 To add a *YouTube* data source to your list, follow the steps described below:
 
-1. Click on the **+Dashboard** button under the **My Analytics** section.
+1. Find **My Analytics** section, go to **Dashboards** and click **+Create Dashboard**.
 
 2. Click on the **+Data Source** button.
 
-3. Select **YouTube** as your data source. You can find it under **Social Media** in the data sources list.
+3. Select **YouTube Analytics** as your data source. You can find it under **Social Media** in the data sources list.
 
 4. You will see Google's login screen. Enter your login credentials and click *Sign In*.
 
