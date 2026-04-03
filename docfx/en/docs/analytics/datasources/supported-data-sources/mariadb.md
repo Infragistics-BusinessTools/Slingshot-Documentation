@@ -5,12 +5,12 @@ _description: Create and use visualizations through a MariaDB server data source
 
 # MariaDB
 
->[!NOTE] **Limitations in Web**. In the *Analytics Web* app, you can connect only to publicly accessible MariaDB addresses. If your MariaDB address is restricted for the general public (private or hosted in the company's intranet, for example), you can use *Analytics Desktop*, *iOS* or *Android* to connect to it. The device where you're running Analytics needs to have access to this MariaDB address. This limitation does not apply to *Analytics Embedded*.
+> [!NOTE]
+> **Limitations in Web**. In the *Analytics Web* app, you can connect only to publicly accessible MariaDB addresses. If your MariaDB address is restricted for the general public (private or hosted in the company's intranet, for example), you can use *Analytics Desktop*, *iOS* or *Android* to connect to it. The device where you're running Analytics needs to have access to this MariaDB address. This limitation does not apply to *Analytics Embedded*.
 
 ## Connecting to MariaDB
 
-To configure a MariaDB server data source, you will need to enter the
-following information:
+Enter the following information to configure a MariaDB server data source:
 
 1. [**Server**](#how-to-find-your-server-information): the computer name or IP address
     assigned to the computer on which the server is running.
