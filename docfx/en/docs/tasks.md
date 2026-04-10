@@ -27,6 +27,8 @@ There are multiple ways to create a task in Slingshot:
 
 - You can also **import tasks from a CSV file** to quickly bring in existing task data from spreadsheets or other tools. Learn more in [Importing Tasks from a CSV File](csv-task-import.md).
 
+- You can set a task to **repeat automatically** on a schedule. Learn more in [Recurring Tasks](recurring-tasks.md).
+
 Subtasks can be created from inside the task card or from the parent task's overflow menu.
 
 >[!IMPORTANT] **Slingshot Tip**: You can also create tasks directly from a chat, pin or dashboard in Slingshot. Check out more productivity flows from within Slingshot to enhance your productivity.
