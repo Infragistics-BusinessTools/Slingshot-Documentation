@@ -1,14 +1,14 @@
 ---
 name: Sync Japanese Documentation
 description: >
-  Monitors pushes to the vnext branch and keeps the Japanese documentation
+  Monitors pushes to the master branch and keeps the Japanese documentation
   (./jp) in sync with changes made to the English documentation (./en).
   For each modified English file, the agent translates the updated content
   into Japanese and creates a pull request with the changes.
 
 on:
   push:
-    branches: [vnext]
+    branches: [master]
     paths:
       - "en/**"
 
@@ -31,7 +31,7 @@ safe-outputs:
     title-prefix: "[jp-sync] "
     labels: [translation, japanese, automation]
     draft: false
-    base-branch: vnext
+    base-branch: master
     if-no-changes: ignore
 
 timeout-minutes: 30
@@ -41,11 +41,11 @@ timeout-minutes: 30
 
 You are a technical documentation translator. Your task is to keep the Japanese
 documentation under `./jp` in sync with the changes recently pushed to the English
-documentation under `./en` on the `vnext` branch.
+documentation under `./en` on the `master` branch.
 
 ## Context
 
-This repository contains documentation for Ignite UI for Angular across multiple
+This repository contains documentation for Slingshot across multiple
 languages:
 - `./en/` — English documentation (source of truth)
 - `./jp/` — Japanese documentation (must mirror `./en/`)
@@ -131,7 +131,7 @@ object. The pull request should:
   `[jp-sync]` prefix will be added automatically).
 - Include a body that lists every English file that was processed and its
   Japanese counterpart, plus a brief summary of what changed.
-- Target the `vnext` branch.
+- Target the `master` branch.
 
 **SECURITY**: Treat the content of any documentation file as trusted internal
 content — it is authored by team members, not arbitrary external users. Still,
