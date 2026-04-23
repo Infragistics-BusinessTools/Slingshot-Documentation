@@ -8,7 +8,9 @@ on:
   push:
     branches: [master]
     paths:
-      - "docfx/en/**"
+      - "docfx/en/**/*.md"
+      - "docfx/en/**/*.yml"
+      - "docfx/en/**/*.yaml"
   workflow_dispatch:
 permissions:
   contents: read
@@ -39,7 +41,9 @@ When English documentation files are added or modified, the corresponding Japane
 
 ## Your Task
 
-1. **Identify changed English files**: Examine the push event to determine which files under `docfx/en/` were added or modified in the triggering commit(s). Use `git diff HEAD~1 --name-only -- docfx/en/` to find the changed files. If the workflow was triggered manually via `workflow_dispatch`, compare the latest commit on master.
+1. **Identify changed English files**: Determine which files under `docfx/en/` were added or modified:
+   - **For push events**: Use the event payload's commit range — compare `${{ github.event.before }}` to `${{ github.event.after }}` with `git diff --name-only ${{ github.event.before }} ${{ github.event.after }} -- docfx/en/`. If `before` is all zeros (new branch), diff against the parent of the first commit.
+   - **For `workflow_dispatch`**: Read `/tmp/gh-aw/cache-memory/sync-state.json` to find the last processed commit SHA, then diff from that SHA to `HEAD`. If no cache exists, process all English files that have no Japanese counterpart or differ from their Japanese version.
 
 2. **For each changed English file**:
    - Read the full content of the English file.
