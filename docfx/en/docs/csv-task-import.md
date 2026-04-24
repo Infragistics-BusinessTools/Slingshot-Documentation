@@ -109,21 +109,21 @@ When the import finishes:
 
 ## Creating Subtasks During Import
 
-You can set up parent-child relationships between tasks by including a **Parent Task Name** column in your CSV.
+You can set up parent-child relationships between tasks by including a **Parent Task Title** column in your CSV.
 
 To create subtasks during import:
 
-1. Map one of your CSV columns to the **Parent Task Name** field type.
+1. Map one of your CSV columns to the **Parent Task Title** field type.
 2. In each row, enter the **exact title** of the parent task in this column.
 3. Make sure the parent task appears **above** the child task in your CSV file.
-4. Leave the **Parent Task Name** column empty for top-level tasks.
+4. Leave the **Parent Task Title** column empty for top-level tasks.
 
 > [!NOTE]
 >Only one level of subtask nesting is supported — a subtask cannot itself be a parent of another subtask.
 
 **Example CSV:**
 
-| Title | Status | Parent Task Name |
+| Title | Status | Parent Task Title |
 |---|---|---|
 | Design Homepage | In Progress | |
 | Create wireframes | To Do | Design Homepage |
@@ -147,7 +147,7 @@ The following task fields can be populated through CSV import:
 | **Assignee** | Optional. Supports multiple assignees separated by commas within a single cell. Names or emails are matched against workspace members. |
 | **Labels** | Optional. |
 | **Custom Fields** | _Text_, _Number_, _Date_, _Checkbox_, _Rating_, _Dropdown_, _Long Text_, _Manual Progress_, _Email_, _Phone Number_, and _People_ fields are all supported. These apply only when you have created custom fields of those types on the task list. |
-| **Parent Task Name** | Optional. Establishes parent-child relationships (see above). |
+| **Parent Task Title** | Optional. Establishes parent-child relationships (see above). |
 
 > [!NOTE]
 >Some fields cannot be populated through CSV import, including _Attachments_, _Time Tracking_, _Recurring_, _Created On_, and _Completed On_.
@@ -172,7 +172,7 @@ ClickUp lets you export your tasks to CSV. To prepare your export for Slingshot:
 1. **Export from ClickUp** — In ClickUp, export your tasks to CSV. When prompted, select **ISO format** for dates to ensure they are recognized correctly during import.
 2. **Prepare subtasks** — ClickUp exports subtask relationships as a list of Subtask IDs on each parent task, which Slingshot doesn't read directly. To convert these into a format Slingshot understands:
    - Open the exported CSV in Excel or Google Sheets.
-   - Add a new column called **Parent Task Name**.
+   - Add a new column called **Parent Task Title**.
    - In the first data row of the new column, enter the following formula (then copy it down for all rows):
      ```
      =IFERROR(INDEX($C:$C, MATCH("*"&TRIM(CLEAN(B2))&"*", $F:$F, 0)), "")
@@ -182,11 +182,11 @@ ClickUp lets you export your tasks to CSV. To prepare your export for Slingshot:
      - **C** = the _Task Name_ column
      - **F** = the _Subtask IDs_ column
    - Save the file as CSV.
-3. **Import into Slingshot** — Follow the standard import steps above. When reviewing the mapping grid, make sure the **Parent Task Name** column is mapped to the **Parent Task Name** field type.
+3. **Import into Slingshot** — Follow the standard import steps above. When reviewing the mapping grid, make sure the **Parent Task Title** column is mapped to the **Parent Task Title** field type.
 
 ### Importing from Asana
 
 Asana exports include subtask relationships out of the box, making the process straightforward:
 
 1. **Export from Asana** — In Asana, export your project to CSV. Subtasks are automatically exported with a **Parent task** column that contains the name of each subtask's parent.
-2. **Import into Slingshot** — Follow the standard import steps above. When reviewing the mapping grid, map the **Parent task** column to the **Parent Task Name** field type. Slingshot will automatically create the parent-child relationships.
+2. **Import into Slingshot** — Follow the standard import steps above. When reviewing the mapping grid, map the **Parent task** column to the **Parent Task Title** field type. Slingshot will automatically create the parent-child relationships.
