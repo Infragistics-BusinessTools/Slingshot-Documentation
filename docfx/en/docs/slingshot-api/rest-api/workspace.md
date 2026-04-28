@@ -17,8 +17,6 @@ Note that users can have different roles and permissions in a workspace. [Here](
 |endDate|string <DateTime> | |
 |status| string enum ("none", "ontarget", "atrisk", "danger", "completed")| |
 |organization| object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)>| read-only|  
-
-> **V2 API note** — V2 uses prefixed workspace status IDs: `none` → `status_none`, `ontarget` → `status_on_target`, `atrisk` → `status_at_risk`, `danger` → `status_in_danger`, `completed` → `status_completed`. The V2 response also includes a `statusName` field with the user-facing label ("On Target", "At Risk", etc.).
 |members| 	array <[MemberInfo](../generic-slingshot-resources#member-info-object)> | read-only|
 |requests| 	array <[MemberInfo](../generic-slingshot-resources#member-info-object)> | read-only|
 | pendingInvites           | array <[MemberInfo](../generic-slingshot-resources#member-info-object)> |  read-only|

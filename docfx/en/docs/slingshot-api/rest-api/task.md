@@ -16,8 +16,6 @@ You can use tasks in order to better organize your work. For better visibility, 
 | status              | string ("open", "progress", "review", "blocked", "completed") |  | 
 | priority             | string ("none", "low", "medium", "high") |  |   
 | assignees               | array <[AssigneeInfo](https://www.slingshotapp.io/en/help/docs/slingshot-api/generic-slingshot-resources#assignee-info-object)>  |read-only |
-
-> **V2 API note** — V2 uses prefixed status IDs: `open` → `status_open`, `progress` → `status_in_progress`, `review` → `status_review`, `blocked` → `status_blocked`, `completed` → `status_completed`. The V2 response also includes a `statusName` field with the user-facing label ("To Do", "In Progress", etc.).
 | user               | object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | read-only |
 | workspace              | object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | read-only|
 | project             | object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> | read-only |
@@ -87,8 +85,6 @@ When you request to create a task, the request body will have the following cont
 | taskSection   |object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)>  |required, one-of | 
 | parentTask   |object <[DocumentInfo](../generic-slingshot-resources.html#document-info-object)> |required, one-of | 
 | assignees               | array <[AssigneeInfo](https://www.slingshotapp.io/en/help/docs/slingshot-api/generic-slingshot-resources#assignee-info-object)>  ||
-
-> **V2 API note** — V2 accepts the prefixed status IDs: `status_open`, `status_in_progress`, `status_review`, `status_blocked`, `status_completed`.
 
 >[!NOTE]  To create a task, you need to provide the **id** and **name** of the parent task section under the **taskSection** property. Alternatively, if you want to create a subtask, you need to first provide the **id** and **name** of the parent task under the **parentTask** property. Only one can be provided as both taskSection and parentTask properties being present in the request will result in an error.
 
@@ -207,8 +203,6 @@ When you request to update a task, the request body will have the following cont
 | dueDate               | string <DateTime>  |  |  
 | status              | string ("open", "progress", "review", "blocked", "completed") |  | 
 | priority             | string ("none", "low", "medium","high") |  |   
-
-> **V2 API note** — V2 accepts the prefixed status IDs: `status_open`, `status_in_progress`, `status_review`, `status_blocked`, `status_completed`.
 
 Possible responses:
 

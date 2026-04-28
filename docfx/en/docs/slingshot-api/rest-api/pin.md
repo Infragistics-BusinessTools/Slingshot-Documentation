@@ -15,8 +15,6 @@ Pins are simple links to different types of resources that you can share or acce
 | documentType   |string enum(see below)  |read-only | 
 | url |string | |
 
-> **V2 API note** — V2 extends the `pinType` enum with two additional values: `file` (uploaded files attached to a workspace) and `dashboard` (analytics dashboards). V1 clients only see `document` and `url`; V2 clients should handle the full set.
-
 ### Document Types
 
 |    Resource | Document Type           | 

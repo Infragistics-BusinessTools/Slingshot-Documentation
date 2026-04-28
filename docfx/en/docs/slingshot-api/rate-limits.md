@@ -12,7 +12,7 @@ In order for the API to run smoothly, a rate limiter is put into place. There is
             "message": "The rate limit of 150 requests per 60 seconds has been exceeded. Please wait and try again."
         }
     ],
-    "type": "https://slingshot.infragistics.com/apiv2/problems/request-validation-failed-error",
+    "type": "https://slingshot.infragistics.com/apiv1/problems/request-validation-failed-error",
     "title": "Request validation failed.",
     "status": 429,
     "detail": "The request has failed validation. Please see the 'errors' property for a list of errors that caused the request to fail.",

@@ -23,30 +23,30 @@ In the table below, you will find the permissions of each role in the workspace.
 | Permissions                                                          | Owner              | Member             | Viewer             |
 | -------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
 | Can create and delete **workspaces**                                 | :white_check_mark: | :x:                | :x:                |
-| Can create **projects** under a workspace                            | :white_check_mark: | :white_check_mark: | :x:                |
+| Can create **sub-workspaces** under a workspace                      | :white_check_mark: | :white_check_mark: | :x:                |
 | Can change **workspace information**                                 | :white_check_mark: | :x:                | :x:                |
 | Can manage members of the **workspace**                              | :white_check_mark: | :x:                | :x:                |
 | Can create, modify, delete **tasks**                                 | :white_check_mark: | :white_check_mark: | :x:                |
 | Can create, modify, delete **task filters**                          | :white_check_mark: | :white_check_mark: | :x:                |
-| Can create, modify, delete **discussions**                           | :white_check_mark: | :white_check_mark: | :x:                |
-| Can send **discussion messages**                                     | :white_check_mark: | :white_check_mark: | :x:                |
-| Can create, modify, delete **pin lists**                             | :white_check_mark: | :white_check_mark: | :x:                |
-| Can pin/unpin content to **pin lists**                               | :white_check_mark: | :white_check_mark: | :x:                |
+| Can create, modify, delete **discussions** and **topics**            | :white_check_mark: | :white_check_mark: | :x:                |
+| Can send messages in **topics**                                      | :white_check_mark: | :white_check_mark: | :x:                |
+| Can create, modify, delete **boards**                                | :white_check_mark: | :white_check_mark: | :x:                |
+| Can pin/unpin content to **boards**                                  | :white_check_mark: | :white_check_mark: | :x:                |
 | Can view **Analytics dashboards**                                    | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 | Can create, modify, and share **Analytics dashboards**               | :white_check_mark: | :white_check_mark: | :x:                |
 | Can export **Analytics dashboards**                                  | :white_check_mark: | :white_check_mark: | :white_check_mark: |
-| Can **bookmark** tasks, discussions, content, analytics              | :white_check_mark: | :white_check_mark: | :white_check_mark: |
-| Can **copy a link** to a task, discussion, content, analytics        | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| Can **bookmark** tasks, discussions, topics, content, analytics      | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| Can **copy a link** to a task, discussion, topic, content, analytics | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 
 The Slingshot user who creates a workspace is automatically assigned as its **owner**. A workspace can have more than one owner. However, if you are the only owner of a workspace, you cannot leave it without assigning another member as an owner. 
 
-**Owners** have full access to manage a workspace. This includes changing its main **information** - *name*, *description*, *privacy*, *status* and even deleting it. It also means owners have the right to **manage members** of the workspace - invite, remove and change their roles. They can create, edit and delete all content inside the workspace - tasks, filters, discussions, pin lists, and Analytics dashboards.
+**Owners** have full access to manage a workspace. This includes changing its main **information** - *name*, *description*, *privacy*, *status* and even deleting it. It also means owners have the right to **manage members** of the workspace - invite, remove and change their roles. They can create, edit and delete all content inside the workspace - tasks, filters, discussions, topics, boards, and Analytics dashboards.
 
-**Members** are more limited than owners but they are allowed to create projects under the workspace. They can also create, edit and delete tasks, filters, discussions, pin lists, and Analytics dashboards. When [joining](workspaces-faq.html#how-can-i-discover-and-join-other-workspaces) a public workspace by yourself and not by invitation, you are assigned the member role by default.
+**Members** are more limited than owners but they are allowed to create sub-workspaces under the workspace. They can also create, edit and delete tasks, filters, discussions, topics, boards, and Analytics dashboards. When [joining](workspaces-faq.html#how-can-i-discover-and-join-other-workspaces) a public workspace by yourself and not by invitation, you are assigned the member role by default.
 
 **Viewers** are limited to view, bookmark and share content. To be a viewer in a workspace, you have to be invited with the viewer role.
 
->[!NOTE] Your permissions in a project are not affected by your role in the parent workspace. This means that even if you are an owner in the parent workspace, you can't have permissions exceeding your role in the project. For example, if you are an owner in the parent workspace and a viewer in the project, you cannot create or delete anything in the project.
+>[!NOTE] Your permissions in the sub-workspaces are not affected by your role in the parent workspace. This means that even if you are an owner in the parent workspace, you can't have permissions exceeding your role in the sub-workspace. For example, if you are an owner in the parent workspace and a viewer in the sub-workspace, you cannot create or delete anything in the sub-workspace.
 
 
 ## What about roles in the Organization? 
@@ -65,13 +65,13 @@ The roles in the Slingshot Organization are the same as in other workspaces - ow
 | ---------------------------------------------------------------------- | ------------------ | ------------------ | ------------------ |
 | Can edit the **Org information**                                       | :white_check_mark: | :x:                | :x:                |
 | Can **manage members** of the Org                                      | :white_check_mark: | :x:                | :x:                |
-| Can **create** discussions, content, and pin lists                     | :white_check_mark: | :white_check_mark: | :x:                |
-| Can **modify** discussions, content, and pin lists                     | :white_check_mark: | :white_check_mark: | :x:                |
+| Can **create** discussions, topics, content, and boards                | :white_check_mark: | :white_check_mark: | :x:                |
+| Can **modify** discussions, topics, content, and boards                | :white_check_mark: | :white_check_mark: | :x:                |
 | Can create and modify **dashboards**                                   | :white_check_mark: | :x:                | :x:                |
-| Can **delete** discussions, content, pin lists, and dashboards         | :white_check_mark: | :x:                | :x:                |
-| Can **view** discussions, content, pin lists, and dashboards           | :white_check_mark: | :white_check_mark: | :white_check_mark: |
-| Can **bookmark** discussions, content, pin lists, analytics            | :white_check_mark: | :white_check_mark: | :white_check_mark: |
-| Can **copy a link** to discussions, content, pin lists, analytics      | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| Can **delete** discussions, topics, content, boards, and dashboards    | :white_check_mark: | :x:                | :x:                |
+| Can **view** discussions, topics, content, boards, and dashboards      | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| Can **bookmark** discussions, topics, content, boards, analytics       | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| Can **copy a link** to discussions, topics, content, boards, analytics | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 
 Learn more about the Organization in the [Workspaces](workspaces-faq.html#organization-vs-workspace) topic.
 
@@ -85,11 +85,11 @@ Having an Organization in Slingshot makes you a user with an Organization accoun
 Personal account users can be assigned the same roles in the workspaces - owner, member and viewer. These roles have equal permissions for both Org users and users with a personal account. 
 ## How do permissions around cloud storages work?
 
-The content that is relevant to you might be stored in different cloud storages. Slingshot lets you create connections to those cloud storages to access that content, share it, and organize it in pin lists. Those connections can be private or shared and they are meant to be used in different scenarios.
+The content that is relevant to you might be stored in different cloud storages. Slingshot lets you create connections to those cloud storages to access that content, share it, and organize it in boards. Those connections can be private or shared and they are meant to be used in different scenarios.
 
 In *My Stuff* > *Content*, you will find you *private cloud storage** connections. _Only you_ have access to these private connections and you can create/delete them whenever you want. That being said, you are able to **share private content with others** if you want.
 
-When you pin content from a private cloud storage to a workspace pin list, that specific content becomes available for the whole workspace. But it does not mean that workspace members can access the rest of the private cloud storage contents.
+When you pin content from a private cloud storage to a workspace board, that specific content becomes available for the whole workspace. But it does not mean that workspace members can access the rest of the private cloud storage contents.
 
 _All the members of a workspace_ have access to **workspace cloud storage** connections and they can create/delete them whenever they want.
 
