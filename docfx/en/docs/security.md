@@ -43,15 +43,15 @@ In the table below, you will find the permissions of each role in the workspace.
 | Can manage members of the **workspace**                              | :white_check_mark: | :x:                | :x:                |
 | Can create, modify, delete **tasks**                                 | :white_check_mark: | :white_check_mark: | :x:                |
 | Can create, modify, delete **task filters**                          | :white_check_mark: | :white_check_mark: | :x:                |
-| Can create, modify, delete **discussions** and **topics**            | :white_check_mark: | :white_check_mark: | :x:                |
-| Can send messages in **topics**                                      | :white_check_mark: | :white_check_mark: | :x:                |
-| Can create, modify, delete **boards**                                | :white_check_mark: | :white_check_mark: | :x:                |
-| Can pin/unpin content to **boards**                                  | :white_check_mark: | :white_check_mark: | :x:                |
+| Can create, modify, delete **discussions**                           | :white_check_mark: | :white_check_mark: | :x:                |
+| Can send **discussion messages**                                     | :white_check_mark: | :white_check_mark: | :x:                |
+| Can create, modify, delete **pin lists**                             | :white_check_mark: | :white_check_mark: | :x:                |
+| Can pin/unpin content to **pin lists**                               | :white_check_mark: | :white_check_mark: | :x:                |
 | Can view **Analytics dashboards**                                    | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 | Can create, modify, and share **Analytics dashboards**               | :white_check_mark: | :white_check_mark: | :x:                |
 | Can export **Analytics dashboards**                                  | :white_check_mark: | :white_check_mark: | :white_check_mark: |
-| Can **bookmark** tasks, discussions, topics, content, analytics      | :white_check_mark: | :white_check_mark: | :white_check_mark: |
-| Can **copy a link** to a task, discussion, topic, content, analytics | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| Can **bookmark** tasks, discussions, content, analytics              | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| Can **copy a link** to a task, discussion, content, analytics        | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 
 ### File Permissions
 
