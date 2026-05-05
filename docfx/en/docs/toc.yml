@@ -23,6 +23,9 @@
 - name: Workspaces
   href: workspaces.md
   updated: false
+- name: Create From Anywhere
+  href: create-from-anywhere.md
+  new: true
 - name: Overviews
   href: overviews.md
   new: false
