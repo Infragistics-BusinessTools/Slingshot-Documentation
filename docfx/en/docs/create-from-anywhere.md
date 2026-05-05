@@ -13,13 +13,13 @@ Slingshot lets you create new content without interrupting your workflow. No mat
 
 The **Create** button is located in the top left of the Slingshot navigation panel. It gives you instant access to create any type of content from any screen in the app.
 
-When you use the Create button, the new item is created in the context of your current location. For example, if you are inside a workspace, a new project or discussion is created within that workspace.
+When you use the **Create** button, the new item is created in the context of your current location. For example, if you are inside a workspace, a new project or discussion is created within that workspace.
 
 ---
 
 ## Why It Matters
 
-Switching between screens to create new content breaks your focus and slows you down. The Create button removes that friction by letting you act immediately — wherever you are in Slingshot.
+Switching between screens to create new content breaks your focus and slows you down. The **Create** button removes that friction by letting you act immediately — wherever you are in Slingshot.
 
 - Start a task the moment you think of it
 - Launch a new project without navigating away
@@ -29,14 +29,14 @@ Switching between screens to create new content breaks your focus and slows you 
 
 ## What You Can Create
 
-Using the Create button, you can create the following:
+Using the **Create** button, you can create the following:
 
-* **Task** – Add a new task to your current project or workspace.
-* **Project** – Start a new project inside your current workspace.
-* **Workspace** – Create a new workspace for a team or initiative.
-* **Discussion** – Open a new discussion thread in your current location.
-* **Overview** – Add an overview to your current workspace or project.
-* **Dashboard** – Create a new analytics dashboard in your current context.
+- **Task** – Add a new task to your current project or workspace.
+- **Project** – Start a new project inside your current workspace.
+- **Workspace** – Create a new workspace for a team or initiative.
+- **Discussion** – Open a new discussion thread in your current location.
+- **Overview** – Add an overview to your current workspace or project.
+- **Dashboard** – Create a new analytics dashboard in your current context.
 
 ---
 
@@ -57,7 +57,7 @@ The new item appears in your current location automatically.
 
 ## Example
 
-A project manager is reviewing tasks inside a workspace when they realize a new project is needed for an upcoming initiative. Instead of navigating away, they click **Create** from the top left, select **Project**, fill in the name and details, and click **Create**. The new project appears immediately inside the current workspace.
+A project manager is reviewing tasks inside a workspace when they realize a new project is needed for an upcoming initiative. Instead of navigating away, they click **Create** from the top left and select **Project**. They fill in the name and details, then click **Create**. The new project appears immediately inside the current workspace.
 
 ---
 
