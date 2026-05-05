@@ -4,9 +4,9 @@
 
 #### New Features
 
-- ClickHouse Data Source — Connect Slingshot directly to ClickHouse to query and visualize your data alongside your existing sources.
+- ClickHouse Data Source: Connect Slingshot directly to ClickHouse to query and visualize your data alongside your existing sources.
 
-- Create from Anywhere — A new entry point in the top-left of the app lets you create tasks, dashboards, workspaces, and more without navigating away from what you're doing.
+- Create from Anywhere: A new entry point in the top-left of the app lets you create tasks, dashboards, workspaces, and more without navigating away from what you're doing.
 
 #### Improvements and Bug Fixes
 
