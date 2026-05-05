@@ -16,7 +16,7 @@
 
 - [Bug Fix] Smoothed out mouse wheel scroll behavior on web so scrolling feels more natural and predictable.
 
-- [Bug Fix] Fixed an issue where importing tasks would not auto-map to Status in some scenarios.
+- [Bug Fix] Fixed an issue where importing tasks would not auto-map to *Status* in some scenarios.
 
 - [Bug Fix] Fixed an issue in the people picker where Slingshot users weren't prioritized correctly in the results.
 
