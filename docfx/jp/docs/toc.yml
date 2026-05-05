@@ -21,6 +21,9 @@
 - name: ワークスペース
   href: workspaces.md
   updated: false
+- name: どこからでも作成
+  href: create-from-anywhere.md
+  new: true
 - name: 概要
   href: overviews.md
   new: false
