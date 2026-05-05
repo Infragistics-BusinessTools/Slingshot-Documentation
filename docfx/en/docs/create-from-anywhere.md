@@ -57,7 +57,14 @@ The new item appears in your current location automatically.
 
 ## Example
 
-A project manager is reviewing tasks inside a workspace when they realize a new project is needed for an upcoming initiative. Instead of navigating away, they click **Create** from the top left and select **Project**. They fill in the name and details, then click **Create**. The new project appears immediately inside the current workspace.
+A project manager is reviewing tasks inside a workspace and realizes a new project is needed for an upcoming initiative.
+
+1. Click **Create** in the top left.
+2. Select **Project**.
+3. Enter the project name and details.
+4. Click **Create**.
+
+The new project appears immediately inside the current workspace.
 
 ---
 
