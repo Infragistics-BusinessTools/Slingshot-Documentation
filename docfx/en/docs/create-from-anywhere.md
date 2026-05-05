@@ -51,7 +51,7 @@ Using the Create button, you can create the following:
 The new item appears in your current location automatically.
 
 > [!NOTE]
-> The location where the new item is created depends on where you are in the app when you click **Create**. If you are inside a workspace, the item is created there. If you are in a personal area like My Tasks, you will be prompted to choose a destination.
+> The location where the new item is created depends on where you are in the app when you click **Create**. If you are inside a workspace, the item is created there. If you are in a personal area like *My Tasks*, you will be prompted to choose a destination.
 
 ---
 
