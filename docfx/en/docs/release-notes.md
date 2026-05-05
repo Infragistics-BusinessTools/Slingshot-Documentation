@@ -1,5 +1,25 @@
 # Release Notes
 
+### 1.0.3577 (May 2026)
+
+#### New Features
+
+- ClickHouse Data Source: Connect Slingshot directly to ClickHouse to query and visualize your data alongside your existing sources.
+
+- Create from Anywhere: A new entry point in the top-left of the app lets you create tasks, dashboards, workspaces, and more without navigating away from what you're doing.
+
+#### Improvements and Bug Fixes
+
+- Task views now have a show/hide toggle for subtasks, so you can focus on top-level work when you need to.
+
+- Refreshed tooltips on visualizations for clearer, more consistent guidance.
+
+- [Bug Fix] Smoothed out mouse wheel scroll behavior on web so scrolling feels more natural and predictable.
+
+- [Bug Fix] Fixed an issue where importing tasks would not auto-map to *Status* in some scenarios.
+
+- [Bug Fix] Fixed an issue in the people picker where Slingshot users weren't prioritized correctly in the results.
+
 ### 1.0.3555 (April 2026)
 
 #### New Features
