@@ -46,7 +46,7 @@ Visualization Editor.
 ### Working with Containers
 
 Each Azure CosmosDb **container** maps to a table in Slingshot. When you select
-a container, Slingshot samples up to **100 documents** to automatically infer the
+a container, Slingshot infers the
 column schema:
 
 - **Scalar fields** (strings, numbers, booleans, dates) are exposed as columns.
@@ -71,23 +71,6 @@ consider adding it to a few documents so it is included in the sample.
 Once your container is loaded, you can use the full range of Slingshot
 visualizations — charts, grids, gauges, maps, and more — with your CosmosDb
 data.
-
-The following **calculated field functions** are supported when working with
-Azure CosmosDb data:
-
-**String:** TRIM, UPPER, LOWER, LEN, FIND, MID, REPLACE, CONCATENATE
-
-**Date/Time:** DATE, DAY, MONTH, YEAR, HOUR, MINUTE, SECOND, MILLISECOND,
-WEEKDAY, DATETRUNC, DATEDIFF, DATEADD
-
-**Math:** ABS, EXP, LOG, LOG10, SIGN, SQRT, TRUNC, MOD, RAND, RANDBETWEEN
-
-**Logic:** IF, NOT, TRUE, FALSE
-
-**Information:** ISEMPTY, ISNULL
-
-**Aggregation:** COUNT, SUM, AVG, MIN, MAX *(see Limitations below for
-unsupported aggregations)*
 
 ---
 
