@@ -65,7 +65,7 @@ Azure CosmosDb データで利用できる **計算フィールド関数** は�
 
 **情報:** ISEMPTY, ISNULL
 
-**集計:** COUNT, SUM, AVG, MIN, MAX（サポート対象外の集計については「制限事項」を参照）
+**集計:** COUNT, SUM, AVG, MIN, MAX（サポート対象外の集計については[制限事項](#制限事項)を参照）
 
 ---
 
