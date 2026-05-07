@@ -18,7 +18,9 @@ To configure a ClickHouse data source, you will need to enter the following info
 
 2. **Port**: if applicable, the server port details. If no information is entered, Analytics will connect to the port in the hint text (8123) by default.
 
-3. **Credentials**: after selecting *Credentials*, you will be able to enter the credentials for your ClickHouse server or select existing ones if applicable.
+3. **Protocol**: please enter the protocol setting (http/https).
+
+4. **Credentials**: after selecting *Credentials*, you will be able to enter the credentials for your ClickHouse server or select existing ones if applicable.
 
    - **Username**: the user account for the ClickHouse server.
 
