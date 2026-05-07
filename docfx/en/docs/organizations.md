@@ -1,3 +1,8 @@
+---
+title: What is an Organization in Slingshot – Overview
+_description: Learn how Organizations in Slingshot provide a company-wide digital workspace for collaboration, discussions, pins, dashboards, and data sources.
+---
+
 # Organizations 
 
 An Organization in Slingshot is a digital workspace where you and your colleagues can quickly and efficiently find information, uploaded by your company. You can easily collaborate with everyone from your company and have everything in one place.

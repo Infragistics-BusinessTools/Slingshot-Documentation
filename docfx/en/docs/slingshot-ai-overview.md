@@ -1,3 +1,8 @@
+---
+title: Slingshot AI-Powered Features Overview
+_description: Discover Slingshot's AI-powered features including AI Summarization and Extract Action Items to save time and boost your team's productivity.
+---
+
 # Slingshot AI-Powered Features 
 
 All of the Slingshot AI features anticipates user needs and streamlines complex processes. Features such as [Slingshot AI Summarization](summarization.md) and [Extract Action Items](extract-action-items.md) are designed to elevate your experience and boost productivity. 

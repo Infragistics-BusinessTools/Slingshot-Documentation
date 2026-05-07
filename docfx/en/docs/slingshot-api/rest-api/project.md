@@ -1,3 +1,8 @@
+---
+title: Slingshot API – Project Object Reference
+_description: Full schema reference for the Slingshot Project API object. Learn about project properties, roles, and how projects are organized within workspaces.
+---
+
 # Project
 
 In case you want to have a better overview of different initiatives and processes, bound to a group of people, you can create a project. You can create multiple projects. 

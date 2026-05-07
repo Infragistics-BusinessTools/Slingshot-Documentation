@@ -1,3 +1,8 @@
+---
+title: Slingshot Data Catalog – Enterprise Data Management
+_description: Explore Slingshot's Data Catalog for Enterprise users. Access certified dashboards, data sources, and metadata to drive better data-driven decisions.
+---
+
 # Data Catalog
 
 A data-driven company is one that always puts data at the center of any decision, taking advantage of gathered data and driving actionable insights from it. Naturally it requires data to be accessible to everyone while also to provide the tools to better process it.

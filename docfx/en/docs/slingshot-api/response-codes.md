@@ -1,3 +1,8 @@
+---
+title: Slingshot API Response Codes
+_description: Learn about Slingshot API HTTP response codes. Understand success and error status codes returned by the API and how to handle failures in JSON format.
+---
+
 # Response Codes
 
 When you submit an API request, an [HTTPS](https://developer.mozilla.org/en-US/docs/Glossary/HTTPS) (Hypertext Transfer Protocol Secure) response with a status code will be returned. 

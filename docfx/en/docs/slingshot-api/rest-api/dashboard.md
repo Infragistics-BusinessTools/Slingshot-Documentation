@@ -1,3 +1,8 @@
+---
+title: Slingshot API – Dashboard Object Reference
+_description: Full schema reference for the Slingshot Dashboard API object. Learn about dashboard properties, types, and how to organize them with sections and lists.
+---
+
 # Dashboard
 
 With dashboards you can display information with the help of beautiful visualizations. They can be used, for example, to show the performance of a business. You can organize them in sections and lists.

@@ -1,3 +1,8 @@
+---
+title: Slingshot API – Task Object Reference
+_description: Full schema reference for the Slingshot Task API object. Learn about task properties, types, and how to organize tasks with lists and sections.
+---
+
 # Task
 
 You can use tasks in order to better organize your work. For better visibility, you can organize them in different lists and sections. 

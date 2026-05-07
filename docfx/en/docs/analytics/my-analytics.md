@@ -37,7 +37,7 @@ You can sort, filter and aggregate your data as you wish. Each chart type provid
 
 Once your dashboard is created, interact with your visualizations with the drill-up/down support. 
 
-[Read more about how you can interact with dashboards here!](.//dashboards/dashboards-interactions.md)
+[Read more about how you can interact with dashboards here!](./dashboards/dashboards-interactions.md)
 
 ### Share
 

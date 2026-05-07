@@ -1,3 +1,8 @@
+---
+title: Slingshot API Rate Limits
+_description: Understand Slingshot API rate limits. The API currently allows 150 requests per minute. Learn how to handle rate limit errors in your integration.
+---
+
 # Rate Limits
 
 In order for the API to run smoothly, a rate limiter is put into place. There is a rate limit of 150 requests per minute. In case you have exceeded the limit, the following error will show up: 
