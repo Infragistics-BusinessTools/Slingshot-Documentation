@@ -146,7 +146,7 @@ td {
     <td />
     <td />
   <tr>
-    <td><b>Data Trend Analysis<b/></td>
+    <td><b>Data Trend Analysis</b></td>
     <td>
       <img src="images/line-chart.png" alt="Line Chart icon" /><br/>
       <a href="visualization-types/category-charts.md">Line</a>
