@@ -1,3 +1,8 @@
+---
+title: Slingshot API レスポンス コード
+_description: Slingshot API の HTTP レスポンス コードについて学びましょう。API が返す成功およびエラー ステータス コードと、JSON 形式でエラーを処理する方法を理解します。
+---
+
 # 200 (Success)
 
 API リクエストを送信すると、ステータス コードを含む  [HTTPS](https://developer.mozilla.org/ja/docs/Glossary/HTTPS) (Hypertext Transfer Protocol Secure) レスポンスが返されます。

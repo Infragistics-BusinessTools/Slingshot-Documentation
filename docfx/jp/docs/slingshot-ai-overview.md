@@ -1,3 +1,8 @@
+---
+title: Slingshot AI 搭載機能の概要
+_description: AI 要約やアクション アイテムの抽出など、Slingshot の AI 搭載機能を活用して時間を節約し、チームの生産性を向上させましょう。
+---
+
 # Slingshot AI 搭載機能 
 
 Slingshot AI のすべての機能は、ユーザーのニーズを予測し、複雑なプロセスを合理化します。[Slingshot AI 要約](summarization.md)や[アクション項目の抽出](extract-action-items.md)などの機能は、ユーザー エクスペリエンスを向上させ、生産性を高めるために設計されています。 

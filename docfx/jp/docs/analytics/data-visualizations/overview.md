@@ -147,7 +147,7 @@ td {
     <td />
     <td />
   <tr>
-    <td><b>データ トレンド分析<b/></td>
+    <td><b>データ トレンド分析</b></td>
     <td>
       <img src="images/line-chart.png" alt="Line Chart icon" /><br/>
       <a href="visualization-types/category-charts.md">折れ線</a>

@@ -1,3 +1,8 @@
+---
+title: Slingshot API 概要 – REST API ドキュメント
+_description: Slingshot REST API を使用して Slingshot データにアクセスし、統合する方法を学びましょう。UTF-8 エンコーディングで JSON レスポンスを返す HTTP リクエストをサポートします。
+---
+
 # 概要
 
 タスク リストなど、別のアプリから Slingshot データにアクセスするには、Slingshot とそのアプリの間の接続を確立する必要があります。この接続は、Slingshot の API を使用して構築できます。

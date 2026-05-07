@@ -38,7 +38,7 @@ Slingshot の **[分析]** セクションを使用すると、BI (ビジネス 
 
 ダッシュボードが作成されたら、ドリルアップ / ダウン サポートを使用して可視化を操作します。
 
-[ダッシュボードを操作する方法の詳細については、こちらをご覧ください。](.//dashboards/dashboards-interactions.md)
+[ダッシュボードを操作する方法の詳細については、こちらをご覧ください。](./dashboards/dashboards-interactions.md)
 
 ### 共有
 

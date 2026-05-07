@@ -1,3 +1,8 @@
+---
+title: Slingshot API 認証 – API キーの作成方法
+_description: Slingshot アプリで API キーを作成して Slingshot API に認証し、プログラムでデータに安全にアクセスする方法を学びましょう。
+---
+
 # 認証
  
 API 経由で Slingshot のデータにアクセスするには、まず自分自身を認証する必要があります。そのために、Slingshot API キーを作成できます。これは Slingshot アプリで行うことができます。 
