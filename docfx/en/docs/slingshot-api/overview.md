@@ -1,3 +1,8 @@
+---
+title: Slingshot API Overview – REST API Documentation
+_description: Learn how to use the Slingshot REST API to access and integrate your Slingshot data. Supports HTTP requests with JSON responses in UTF-8 encoding.
+---
+
 # Overview
 
 In order to access your Slingshot data from another app, for example, a tasks list, a connection between Slingshot and that app has to be established. This connection can be built with the help of the Slingshot API.

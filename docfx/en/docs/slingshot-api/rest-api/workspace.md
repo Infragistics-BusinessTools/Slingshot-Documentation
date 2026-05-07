@@ -1,3 +1,8 @@
+---
+title: Slingshot API – Workspace Object Reference
+_description: Full schema reference for the Slingshot Workspace API object. Learn about workspace properties, roles, and how workspaces relate to projects and users.
+---
+
 # Workspace
 
 Workspaces can be viewed as digital workplaces. With workspaces you can collaborate with other users, prioritize work and share different types of content – all in one place. You can create multiple workspaces. One workspace can have many projects.

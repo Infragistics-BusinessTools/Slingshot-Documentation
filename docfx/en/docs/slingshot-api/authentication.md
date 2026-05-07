@@ -1,3 +1,8 @@
+---
+title: Slingshot API Authentication – How to Create an API Key
+_description: Learn how to authenticate with the Slingshot API by creating an API key in the Slingshot app to securely access your data programmatically.
+---
+
 # Authentication
  
 In order to access your data in Slingshot via the API, you need to first authenticate yourself. To do that, you can create a Slingshot API key. This can be done in the Slingshot app. 

@@ -1,3 +1,8 @@
+---
+title: What is a Visualization in Slingshot Analytics?
+_description: Learn what visualizations are in Slingshot Analytics, how they work, and how to create and edit them to display your business data effectively.
+---
+
 # What is a Visualization?
 
 Visualizations are individual pieces of information. Any dashboard is

@@ -1,3 +1,8 @@
+---
+title: How to Use Pins in Slingshot
+_description: Organize and share resources with Pins in Slingshot. Link files from cloud storage, URLs, and dashboards into lists for quick team access.
+---
+
 # Pins
 
 Pins are key elements within Slingshot, that allow you to access and share relevant resources for yourself or your team. Resources that might be stored in different cloud storages or spread around the web, they can all be organized in Slingshot lists.

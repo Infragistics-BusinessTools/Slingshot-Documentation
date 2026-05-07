@@ -1,3 +1,8 @@
+---
+title: Slingshot API – User Object Reference
+_description: Full schema reference for the Slingshot User API object. Learn about user properties including credentials, profile information, settings, and content.
+---
+
 # User
 
 In the object model, the *users* objects represent accounts in Slingshot. Every user can find their own information, such as credentials, profile information, settings and content, in their account. 

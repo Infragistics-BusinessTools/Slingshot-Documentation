@@ -1,3 +1,8 @@
+---
+title: How to Use Bookmarks in Slingshot
+_description: Save and organize important content in Slingshot using bookmarks. Quickly access dashboards, discussions, and files from the Bookmarks section.
+---
+
 # Bookmarks
 
 In our data-driven world we are constantly dealing with information. Our team members and friends share with us different types of content – from URLs and images to dashboards and data sources. It can get hard keeping track on all the information.
