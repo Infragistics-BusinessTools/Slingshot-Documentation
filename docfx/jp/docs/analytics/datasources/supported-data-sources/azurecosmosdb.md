@@ -20,7 +20,7 @@ Azure CosmosDb データ ソースを構成するには、以下の情報を入�
 |-------|-------------|
 | **Account Endpoint** *(必須)* | CosmosDb アカウントの URI（例: `https://myaccount.documents.azure.com:443/`）。Azure portal の **Keys** → **URI** で確認できます。 |
 | **Application Region** | *(任意)* 読み取りおよび書き込み操作で優先する Azure リージョン（例: `East US`）。空欄の場合はアカウントの既定リージョンを使用します。 |
-| **Connection Mode** | SDK が CosmosDb サービスと通信する方法です。次のいずれかを選択します。**Gateway** *(既定)* — CosmosDb ゲートウェイ経由で HTTPS 通信を使用し、多くのネットワーク環境で利用できます。**Direct** — CosmosDb レプリカへ直接 TCP 接続するため、低遅延かつ高スループットですが、ネットワークで外向き TCP 通信が制限されていない必要があります。 |
+| **Connection Mode** | SDK が CosmosDb サービスと通信する方法です。次のいずれかを選択します。<br>**Gateway** *(既定)* — CosmosDb ゲートウェイ経由で HTTPS 通信を使用し、多くのネットワーク環境で利用できます。<br>**Direct** — CosmosDb レプリカへ直接 TCP 接続するため、低遅延かつ高スループットですが、ネットワークで外向き TCP 通信が制限されていない必要があります。 |
 | **Accept Any Server Certificate** | 自己署名 TLS 証明書を使用する開発またはテスト環境でのみ **オン** にします。**本番環境では有効化しないでください。** |
 
 接続情報の入力後、**Credentials** ピッカーを選択して既存のアカウント キー資格情報を割り当てるか、新規作成します。Azure CosmosDb は認証にプライマリまたはセカンダリの **Account Key** を使用します。キーは Azure portal の **Keys** → **Primary Key** でコピーできます。
@@ -65,7 +65,7 @@ Azure CosmosDb データで利用できる **計算フィールド関数** は�
 
 **情報:** ISEMPTY, ISNULL
 
-**集計:** COUNT, SUM, AVG, MIN, MAX（サポート対象外の集計については制限事項を参照）
+**集計:** COUNT, SUM, AVG, MIN, MAX *（サポート対象外の集計については制限事項を参照）*
 
 ---
 
