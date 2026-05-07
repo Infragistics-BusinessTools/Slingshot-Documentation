@@ -7,15 +7,11 @@ _description: Learn how to create tasks, projects, workspaces, discussions, over
 
 Slingshot lets you create new content without interrupting your workflow. No matter where you are in the app, you can start a task, project, workspace, discussion, overview, or dashboard in just a few clicks.
 
----
-
 ## What Is This?
 
 The **Create** button is located in the top left of the Slingshot navigation panel. It gives you instant access to create any type of content from any screen in the app.
 
 When you use the **Create** button, the new item is created in the context of your current location. For example, if you are inside a workspace, a new project or discussion is created within that workspace.
-
----
 
 ## Why It Matters
 
@@ -24,8 +20,6 @@ Switching between screens to create new content breaks your focus and slows you 
 - Start a task the moment you think of it
 - Launch a new project without navigating away
 - Create a discussion or dashboard in the right workspace automatically
-
----
 
 ## What You Can Create
 
@@ -37,8 +31,6 @@ Using the **Create** button, you can create the following:
 - **Discussion** – Open a new discussion thread in your current location.
 - **Overview** – Add an overview to your current workspace or project.
 - **Dashboard** – Create a new analytics dashboard in your current context.
-
----
 
 ## How to Use It
 
@@ -53,8 +45,6 @@ The new item appears in your current location automatically.
 > [!NOTE]
 > The location where the new item is created depends on where you are in the app when you click **Create**. If you are inside a workspace, the item is created there. If you are in a personal area like *My Tasks*, you will be prompted to choose a destination.
 
----
-
 ## Example
 
 A project manager is reviewing tasks inside a workspace and realizes a new project is needed for an upcoming initiative.
@@ -66,8 +56,6 @@ A project manager is reviewing tasks inside a workspace and realizes a new proje
 
 The new project appears immediately inside the current workspace.
 
----
-
 ## Tips and Best Practices
 
 > [!TIP]
@@ -75,8 +63,6 @@ The new project appears immediately inside the current workspace.
 
 > [!TIP]
 > Use the **Create** button to quickly capture tasks or discussions as ideas come up — without losing your place in the app.
-
----
 
 ## Related Articles
 
