@@ -6,6 +6,8 @@
   href: box.md
 - name: ClickHouse
   href: clickhouse.md
+- name: Azure CosmosDb
+  href: azurecosmosdb.md
 - name: Databricks
   href: databricks.md
 - name: Dropbox
