@@ -6,6 +6,7 @@
   href: box.md
 - name: ClickHouse
   href: clickhouse.md
+  new: true
 - name: Azure CosmosDb
   href: azurecosmosdb.md
 - name: Databricks
