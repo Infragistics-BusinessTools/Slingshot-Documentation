@@ -14,8 +14,6 @@ Slingshot connects to Azure CosmosDb using the **Core (SQL) API** and
 automatically infers a flat schema from your containers so you can build
 visualizations without writing any queries.
 
----
-
 ## Connecting to Azure CosmosDb
 
 To configure an Azure CosmosDb data source, you will need to enter the following
@@ -34,8 +32,6 @@ uses a primary or secondary **Account Key** for authentication, which you can
 copy from the Azure portal under **Keys** → **Primary Key**.
 
 Once ready, select **Add** and then **Add Server**.
-
----
 
 ## Setting Up Your Data
 
@@ -64,15 +60,11 @@ Because the schema is inferred from a sample, containers with highly variable
 document structures may not expose all possible fields. If a field is missing,
 consider adding it to a few documents so it is included in the sample.
 
----
-
 ## Working in the Visualization Editor
 
 Once your container is loaded, you can use the full range of Slingshot
 visualizations — charts, grids, gauges, maps, and more — with your CosmosDb
 data.
-
----
 
 ## Limitations
 
@@ -100,8 +92,6 @@ when using Azure CosmosDb as a data source:
 - **Core (SQL) API only** — Slingshot connects via the CosmosDb Core (SQL) API.
   Other CosmosDb APIs (MongoDB, Cassandra, Gremlin, Table) are not supported
   through this connector.
-
----
 
 ## Related Articles
 
