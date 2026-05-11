@@ -1,35 +1,35 @@
 ---
-title: How to configure an Azure CosmosDb data source
-_description: Connecting and using Azure CosmosDb as a data source in Slingshot.
+title: How to configure an Azure Cosmos DB data source
+_description: Connecting and using Azure Cosmos DB as a data source in Slingshot.
 ---
 
-# Azure CosmosDb
+# Azure Cosmos DB
 
-Azure CosmosDb is a fully managed, globally distributed NoSQL database service
+Azure Cosmos DB is a fully managed, globally distributed NoSQL database service
 provided by Microsoft Azure. It stores data as JSON documents organized into
 *containers* within a *database*, and exposes a SQL-like API (Core SQL / API for
 NoSQL) that allows querying documents using familiar SELECT statements.
 
-Slingshot connects to Azure CosmosDb using the **Core (SQL) API** and
+Slingshot connects to Azure Cosmos DB using the **Core (SQL) API** and
 automatically infers a flat schema from your containers so you can build
 visualizations without writing any queries.
 
 ---
 
-## Connecting to Azure CosmosDb
+## Connecting to Azure Cosmos DB
 
-To configure an Azure CosmosDb data source, you will need to enter the following
+To configure an Azure Cosmos DB data source, you will need to enter the following
 information:
 
 | Field | Description |
 |-------|-------------|
-| **Account Endpoint** *(required)* | The URI of your CosmosDb account, e.g. `https://myaccount.documents.azure.com:443/`. You can find this in the Azure portal under **Keys** → **URI**. |
+| **Account Endpoint** *(required)* | The URI of your Cosmos DB account, e.g. `https://myaccount.documents.azure.com:443/`. You can find this in the Azure portal under **Keys** → **URI**. |
 | **Application Region** | *(Optional)* The preferred Azure region for read and write operations (e.g. `East US`). Leave blank to use your account's default region. |
-| **Connection Mode** | How the SDK communicates with the CosmosDb service. Choose one of: **Gateway** *(default)* — uses HTTPS through the CosmosDb gateway, compatible with most network environments; or **Direct** — uses direct TCP connections to CosmosDb replicas for lower latency and higher throughput, but requires that outbound TCP traffic is not restricted by your network. |
+| **Connection Mode** | How the SDK communicates with the Cosmos DB service. Choose one of: **Gateway** *(default)* — uses HTTPS through the Cosmos DB gateway, compatible with most network environments; or **Direct** — uses direct TCP connections to Cosmos DB replicas for lower latency and higher throughput, but requires that outbound TCP traffic is not restricted by your network. |
 | **Accept Any Server Certificate** | Toggle **on** only in development or testing environments that use self-signed TLS certificates. **Do not enable this in production.** |
 
 After filling in the connection details, select the **Credentials** picker to
-attach an existing account key credential or create a new one. Azure CosmosDb
+attach an existing account key credential or create a new one. Azure Cosmos DB
 uses a primary or secondary **Account Key** for authentication, which you can
 copy from the Azure portal under **Keys** → **Primary Key**.
 
@@ -45,7 +45,7 @@ Visualization Editor.
 
 ### Working with Containers
 
-Each Azure CosmosDb **container** maps to a table in Slingshot. When you select
+Each Azure Cosmos DB **container** maps to a table in Slingshot. When you select
 a container, Slingshot infers the
 column schema:
 
@@ -53,7 +53,7 @@ column schema:
 - **Nested objects** are flattened using dot notation — for example, a document
   field `address.city` becomes the column `address.city`.
 - **Array fields** are excluded from the schema and are not available as columns.
-- **CosmosDb system properties** (`_rid`, `_self`, `_etag`, `_attachments`,
+- **Cosmos DB system properties** (`_rid`, `_self`, `_etag`, `_attachments`,
   `_ts`) are excluded automatically.
 - Fields whose names contain **special characters** (`.` or `$`) are excluded.
 - Fields that are `null` in all sampled documents are inferred as `String` type.
@@ -69,7 +69,7 @@ consider adding it to a few documents so it is included in the sample.
 ## Working in the Visualization Editor
 
 Once your container is loaded, you can use the full range of Slingshot
-visualizations — charts, grids, gauges, maps, and more — with your CosmosDb
+visualizations — charts, grids, gauges, maps, and more — with your Cosmos DB
 data.
 
 ---
@@ -77,15 +77,15 @@ data.
 ## Limitations
 
 The following behaviors and features are **not supported** or behave differently
-when using Azure CosmosDb as a data source:
+when using Azure Cosmos DB as a data source:
 
 - **Array fields** — document properties that are arrays are excluded from the
   schema and cannot be used in visualizations.
-- **Variance and Standard Deviation aggregations** — the CosmosDb SQL API does
+- **Variance and Standard Deviation aggregations** — the Cosmos DB SQL API does
   not natively support `VAR` or `STDEV`; these aggregation functions are
   unavailable.
 - **NULL checks** — IS NULL / IS NOT NULL predicates are not supported by the
-  CosmosDb SQL API and are excluded from generated queries.
+  Cosmos DB SQL API and are excluded from generated queries.
 - **ORDER BY on expressions** — sorting on calculated expressions (rather than
   plain column references) is not supported.
 - **Self-signed certificates in production** — the *Accept Any Server
@@ -95,10 +95,10 @@ when using Azure CosmosDb as a data source:
   documents. Fields that do not appear in the sample will not be available as
   columns.
 - **Direct connection mode and network restrictions** — Direct mode requires
-  outbound TCP connectivity to CosmosDb replica ports. If your network restricts
+  outbound TCP connectivity to Cosmos DB replica ports. If your network restricts
   this traffic, use Gateway mode instead.
-- **Core (SQL) API only** — Slingshot connects via the CosmosDb Core (SQL) API.
-  Other CosmosDb APIs (MongoDB, Cassandra, Gremlin, Table) are not supported
+- **Core (SQL) API only** — Slingshot connects via the Cosmos DB Core (SQL) API.
+  Other Cosmos DB APIs (MongoDB, Cassandra, Gremlin, Table) are not supported
   through this connector.
 
 ---
