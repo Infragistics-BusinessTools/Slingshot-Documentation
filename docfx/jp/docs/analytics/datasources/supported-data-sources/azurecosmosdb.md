@@ -1,106 +1,74 @@
 ---
-title: How to configure an Azure Cosmos DB data source
-_description: Connecting and using Azure Cosmos DB as a data source in Slingshot.
+title: Azure Cosmos DB データソースの設定方法
+_description: Slingshot で Azure Cosmos DB をデータソースとして接続・使用する方法。
 ---
 
 # Azure Cosmos DB
 
-Azure Cosmos DB is a fully managed, globally distributed NoSQL database service
-provided by Microsoft Azure. It stores data as JSON documents organized into
-*containers* within a *database*, and exposes a SQL-like API (Core SQL / API for
-NoSQL) that allows querying documents using familiar SELECT statements.
+Azure Cosmos DB は、Microsoft Azure が提供するフルマネージドのグローバル分散型 NoSQL データベースサービスです。データは *データベース* 内の *コンテナー* に JSON ドキュメントとして格納され、使い慣れた SELECT 文を使ってドキュメントをクエリできる SQL ライクな API (Core SQL / API for NoSQL) を公開しています。
 
-Slingshot connects to Azure Cosmos DB using the **Core (SQL) API** and
-automatically infers a flat schema from your containers so you can build
-visualizations without writing any queries.
+Slingshot は **Core (SQL) API** を使用して Azure Cosmos DB に接続し、コンテナーからフラットなスキーマを自動的に推論するため、クエリを記述することなくビジュアライゼーションを作成できます。
 
 ---
 
-## Connecting to Azure Cosmos DB
+## Azure Cosmos DB への接続
 
-To configure an Azure Cosmos DB data source, you will need to enter the following
-information:
+Azure Cosmos DB データソースを設定するには、以下の情報を入力する必要があります。
 
-| Field | Description |
+| フィールド | 説明 |
 |-------|-------------|
-| **Account Endpoint** *(required)* | The URI of your Cosmos DB account, e.g. `https://myaccount.documents.azure.com:443/`. You can find this in the Azure portal under **Keys** → **URI**. |
-| **Application Region** | *(Optional)* The preferred Azure region for read and write operations (e.g. `East US`). Leave blank to use your account's default region. |
-| **Connection Mode** | How the SDK communicates with the Cosmos DB service. Choose one of: **Gateway** *(default)* — uses HTTPS through the Cosmos DB gateway, compatible with most network environments; or **Direct** — uses direct TCP connections to Cosmos DB replicas for lower latency and higher throughput, but requires that outbound TCP traffic is not restricted by your network. |
-| **Accept Any Server Certificate** | Toggle **on** only in development or testing environments that use self-signed TLS certificates. **Do not enable this in production.** |
+| **アカウントエンドポイント** *(必須)* | Cosmos DB アカウントの URI。例: `https://myaccount.documents.azure.com:443/`。Azure ポータルの **[キー]** → **[URI]** で確認できます。 |
+| **アプリケーションリージョン** | *(省略可)* 読み取りおよび書き込み操作に使用する優先 Azure リージョン (例: `East US`)。空白のままにするとアカウントの既定リージョンが使用されます。 |
+| **接続モード** | SDK が Cosmos DB サービスと通信する方法。以下のいずれかを選択してください: **ゲートウェイ** *(既定)* — Cosmos DB ゲートウェイを経由する HTTPS を使用し、ほとんどのネットワーク環境に対応; または **ダイレクト** — Cosmos DB レプリカへの直接 TCP 接続を使用し、低遅延・高スループットを実現しますが、ネットワークでアウトバウンド TCP トラフィックが制限されていない必要があります。 |
+| **サーバー証明書を信頼する** | 自己署名 TLS 証明書を使用する開発環境またはテスト環境でのみ **オン** に切り替えてください。**本番環境では有効にしないでください。** |
 
-After filling in the connection details, select the **Credentials** picker to
-attach an existing account key credential or create a new one. Azure Cosmos DB
-uses a primary or secondary **Account Key** for authentication, which you can
-copy from the Azure portal under **Keys** → **Primary Key**.
+接続情報を入力したら、**[資格情報]** ピッカーを選択して、既存のアカウントキー資格情報を関連付けるか、新規作成します。Azure Cosmos DB では認証に **アカウントキー** (プライマリまたはセカンダリ) を使用します。Azure ポータルの **[キー]** → **[プライマリキー]** からコピーできます。
 
-Once ready, select **Add** and then **Add Server**.
+準備ができたら、**[追加]** を選択し、次に **[サーバーを追加]** を選択します。
 
 ---
 
-## Setting Up Your Data
+## データの設定
 
-After connecting, Slingshot displays the containers available in the selected
-database. Select a container to open it as a data set and proceed to the
-Visualization Editor.
+接続後、Slingshot は選択したデータベース内で利用可能なコンテナーを表示します。コンテナーを選択するとデータセットとして開かれ、ビジュアライゼーションエディターに進むことができます。
 
-### Working with Containers
+### コンテナーの操作
 
-Each Azure Cosmos DB **container** maps to a table in Slingshot. When you select
-a container, Slingshot infers the
-column schema:
+各 Azure Cosmos DB **コンテナー** は Slingshot のテーブルに対応します。コンテナーを選択すると、Slingshot が列スキーマを推論します。
 
-- **Scalar fields** (strings, numbers, booleans, dates) are exposed as columns.
-- **Nested objects** are flattened using dot notation — for example, a document
-  field `address.city` becomes the column `address.city`.
-- **Array fields** are excluded from the schema and are not available as columns.
-- **Cosmos DB system properties** (`_rid`, `_self`, `_etag`, `_attachments`,
-  `_ts`) are excluded automatically.
-- Fields whose names contain **special characters** (`.` or `$`) are excluded.
-- Fields that are `null` in all sampled documents are inferred as `String` type.
-- If a field contains **mixed types** across documents, it is inferred as
-  `String`.
+- **スカラーフィールド** (文字列、数値、ブール値、日付) は列として公開されます。
+- **ネストされたオブジェクト** はドット表記でフラット化されます。たとえば、ドキュメントフィールド `address.city` は列 `address.city` になります。
+- **配列フィールド** はスキーマから除外され、列として使用できません。
+- **Cosmos DB システムプロパティ** (`_rid`、`_self`、`_etag`、`_attachments`、`_ts`) は自動的に除外されます。
+- **特殊文字** (`.` または `$`) を含む名前のフィールドは除外されます。
+- サンプリングされたすべてのドキュメントで `null` のフィールドは `String` 型として推論されます。
+- ドキュメント間で **混在した型** を持つフィールドは `String` として推論されます。
 
-Because the schema is inferred from a sample, containers with highly variable
-document structures may not expose all possible fields. If a field is missing,
-consider adding it to a few documents so it is included in the sample.
+スキーマはサンプルから推論されるため、ドキュメント構造が大きく異なるコンテナーでは、すべての可能なフィールドが公開されない場合があります。フィールドが見つからない場合は、いくつかのドキュメントにそのフィールドを追加してサンプルに含まれるようにすることを検討してください。
 
 ---
 
-## Working in the Visualization Editor
+## ビジュアライゼーションエディターでの操作
 
-Once your container is loaded, you can use the full range of Slingshot
-visualizations — charts, grids, gauges, maps, and more — with your Cosmos DB
-data.
+コンテナーが読み込まれると、Cosmos DB のデータを使って Slingshot の豊富なビジュアライゼーション (チャート、グリッド、ゲージ、マップなど) をすべて利用できます。
 
 ---
 
-## Limitations
+## 制限事項
 
-The following behaviors and features are **not supported** or behave differently
-when using Azure Cosmos DB as a data source:
+Azure Cosmos DB をデータソースとして使用する場合、以下の動作や機能は**サポートされていない**か、動作が異なります。
 
-- **Array fields** — document properties that are arrays are excluded from the
-  schema and cannot be used in visualizations.
-- **Variance and Standard Deviation aggregations** — the Cosmos DB SQL API does
-  not natively support `VAR` or `STDEV`; these aggregation functions are
-  unavailable.
-- **Self-signed certificates in production** — the *Accept Any Server
-  Certificate* option bypasses TLS validation and should never be used outside
-  of local development or test environments.
-- **Schema completeness** — the schema is inferred from a sample of up to 100
-  documents. Fields that do not appear in the sample will not be available as
-  columns.
-- **Direct connection mode and network restrictions** — Direct mode requires
-  outbound TCP connectivity to Cosmos DB replica ports. If your network restricts
-  this traffic, use Gateway mode instead.
-- **Core (SQL) API only** — Slingshot connects via the Cosmos DB Core (SQL) API.
-  Other Cosmos DB APIs (MongoDB, Cassandra, Gremlin, Table) are not supported
-  through this connector.
+- **配列フィールド** — 配列であるドキュメントプロパティはスキーマから除外され、ビジュアライゼーションでは使用できません。
+- **分散・標準偏差の集計** — Cosmos DB SQL API は `VAR` や `STDEV` をネイティブにサポートしていないため、これらの集計関数は使用できません。
+- **本番環境での自己署名証明書** — *[サーバー証明書を信頼する]* オプションは TLS 検証をバイパスするため、ローカル開発またはテスト環境以外では絶対に使用しないでください。
+- **スキーマの完全性** — スキーマは最大 100 件のドキュメントのサンプルから推論されます。サンプルに含まれないフィールドは列として使用できません。
+- **ダイレクト接続モードとネットワーク制限** — ダイレクトモードは Cosmos DB レプリカポートへのアウトバウンド TCP 接続が必要です。ネットワークでこのトラフィックが制限されている場合は、ゲートウェイモードを使用してください。
+- **Core (SQL) API のみ** — Slingshot は Cosmos DB Core (SQL) API を介して接続します。他の Cosmos DB API (MongoDB、Cassandra、Gremlin、Table) はこのコネクターではサポートされていません。
 
 ---
 
-## Related Articles
+## 関連記事
 
-- [Data Sources Overview](~/docs/analytics/datasources/overview.md)
-- [Managing Your Data Source Credentials](~/docs/analytics/datasources/managing-data-source-credentials.md)
-- [Combining Data Sources in One Visualization](~/docs/analytics/datasources/data-blending.md)
+- [データソースの概要](~/docs/analytics/datasources/overview.md)
+- [データソース資格情報の管理](~/docs/analytics/datasources/managing-data-source-credentials.md)
+- [1 つのビジュアライゼーションでのデータソースの組み合わせ](~/docs/analytics/datasources/data-blending.md)
