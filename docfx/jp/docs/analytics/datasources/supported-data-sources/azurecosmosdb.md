@@ -84,10 +84,6 @@ when using Azure Cosmos DB as a data source:
 - **Variance and Standard Deviation aggregations** — the Cosmos DB SQL API does
   not natively support `VAR` or `STDEV`; these aggregation functions are
   unavailable.
-- **NULL checks** — IS NULL / IS NOT NULL predicates are not supported by the
-  Cosmos DB SQL API and are excluded from generated queries.
-- **ORDER BY on expressions** — sorting on calculated expressions (rather than
-  plain column references) is not supported.
 - **Self-signed certificates in production** — the *Accept Any Server
   Certificate* option bypasses TLS validation and should never be used outside
   of local development or test environments.
