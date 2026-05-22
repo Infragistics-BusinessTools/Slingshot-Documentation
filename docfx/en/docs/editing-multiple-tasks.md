@@ -5,7 +5,7 @@ _description: Learn how to edit fields across multiple tasks at once in Slingsho
 
 # Editing Multiple Tasks
 
-When you select multiple tasks at once, you can quickly update the same fields across all of them — change a _Status_, reassign owners, shift _Due Dates_, or clear a value from every selected task — all in a single step. Slingshot only shows the fields that all your selected tasks share, so you never have to wonder whether a change will land everywhere.
+When you select multiple tasks at once, you can quickly update the same fields across all of them — change a _Status_, update _Members_, shift _Due Dates_, or clear a value from every selected task — all in a single step. Slingshot only shows the fields that all your selected tasks share, so you never have to wonder whether a change will land everywhere.
 
 ## How to Edit Multiple Tasks
 
