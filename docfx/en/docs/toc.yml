@@ -87,7 +87,10 @@
   updated:  false
 - name: Bookmarks
   href: bookmarks.md
-  new: false 
+  new: false
+- name: Editing Multiple Tasks
+  href: editing-multiple-tasks.md
+  new: true
 - name: Productivity Tips
   header: true
 - name: Archives
