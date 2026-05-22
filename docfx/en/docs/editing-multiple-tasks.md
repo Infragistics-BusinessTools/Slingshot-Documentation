@@ -11,10 +11,10 @@ When you select multiple tasks at once, you can quickly update the same fields a
 
 ### Step 1: Select the Tasks
 
-There are two ways to start a multi-selection:
+There are two ways to start multi-select mode:
 
 - **From a task list** — Hover over any task row and click the checkbox that appears on the left. A floating action popup opens at the bottom of the screen.
-- **From a Kanban board** — Click the multi-select button in the board toolbar to turn on selection mode, then click each task card you want to include. You can also select entire sections by clicking the section header checkbox.
+- **From a Kanban board** — Click the multi-select button in the board toolbar to turn on multi-select mode, then click each task card you want to include. You can also select entire sections by clicking the section header checkbox.
 
 You can keep adding to your selection as you scroll, switch sections, or change views — your selection stays intact until you exit multi-select mode.
 
