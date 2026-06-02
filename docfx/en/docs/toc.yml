@@ -50,6 +50,9 @@
       href: task-types.md
     - name: Using Custom Fields and Task Types
       href: using-custom-fields-and-task-types.md
+    - name: Moving Multiple Tasks
+      href: moving-multiple-tasks.md
+      new: true
 - name: CSV Task Import
   href: csv-task-import.md
   new: false
