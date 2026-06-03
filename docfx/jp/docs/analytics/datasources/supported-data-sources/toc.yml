@@ -14,8 +14,6 @@
   href: dropbox.md
 - name: Facebook Ads
   href: facebook-ads.md
-- name: TikTok Ads
-  href: tiktokads.md
 - name: Facebook Organic
   href: facebook-organic.md
 - name: Google Ads
@@ -76,5 +74,8 @@
   href: snowflake.md
 - name: Sybase
   href: sybase.md
+- name: TikTok Ads
+  href: tiktokads.md
+  new: true
 - name: ウェブ リソース
   href: web-resource.md
