@@ -2,16 +2,6 @@
 
 The *TikTok Ads* data source connector in *Analytics* allows you to bring your TikTok marketing data to Slingshot. Use your *Ad account* data to create insightful dashboards and measure your business' social media performance.
 
-## Prerequisites
-
-Before you try using the *TikTok Ads* data source in Analytics, make sure that:
-
-- You use a <a href="https://ads.tiktok.com/help/" target="_blank">TikTok Ads Manager</a> account.
-
-- In <a href="https://ads.tiktok.com/help/article/how-to-set-up-a-tiktok-ads-manager-account" target="_blank">*Ads Manager*</a>, you have configured an *Ad account* for the profile you want to connect.
-
-- The *Ad account* for the profile you want to connect is active. If you are not sure, check your account status in TikTok Ads Manager.
-
 ## Adding a New TikTok Data Source Ad Account
 
 If you have already added your TikTok Ads data source to the *Data Sources* list, you can skip this part and continue with [Setting Up Your Data](#setting-up-your-data).
