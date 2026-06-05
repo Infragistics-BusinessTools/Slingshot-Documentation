@@ -81,6 +81,9 @@
   href: snowflake.md
 - name: Sybase
   href: sybase.md
+- name: TikTok Ads
+  href: tiktokads.md
+  new: true
 - name: Web Resource
   href: web-resource.md
 - name: YouTube
