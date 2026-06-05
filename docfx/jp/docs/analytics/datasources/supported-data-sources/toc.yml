@@ -12,6 +12,8 @@
   href: databricks.md
 - name: Dropbox
   href: dropbox.md
+- name: Elasticsearch
+  href: elasticsearch.md
 - name: Facebook Ads
   href: facebook-ads.md
 - name: Facebook Organic
@@ -34,6 +36,8 @@
   href: instagram.md
 - name: LinkedIn
   href: linkedin.md
+- name: MariaDB
+  href: mariadb.md
 - name: Marketo
   href: marketo.md
 - name: Microsoft Analysis Services
@@ -52,6 +56,8 @@
   href: microsoft-sql-server.md
 - name: MySQL
   href: mysql.md
+- name: NetSuite
+  href: netsuite.md
 - name: OData フィード
   href: odata-feed.md
 - name: OneDrive
@@ -79,3 +85,5 @@
   new: true
 - name: ウェブ リソース
   href: web-resource.md
+- name: YouTube
+  href: youtube.md
