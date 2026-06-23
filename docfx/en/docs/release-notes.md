@@ -1,6 +1,6 @@
 # Release Notes
 
-### (June 24, 2026)
+### 1.0.3607 (June 24, 2026)
 
 #### New Features
 
