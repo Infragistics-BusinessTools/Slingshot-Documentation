@@ -1,5 +1,35 @@
 # Release Notes
 
+### 1.0.3607 (June 24, 2026)
+
+#### New Features
+
+- Task Multi-Select Edit & Move: Select multiple tasks to bulk-edit their fields or move them to another list in a single action.
+
+- Write with AI: Generate or rewrite text with AI right inside any rich text editor — task descriptions, chat, discussions, and more.
+
+#### Improvements and Bug Fixes
+
+- Improved notification reliability.
+
+- Added notification metrics for system health monitoring and diagnostics.
+
+### 1.0.3592 (June 4, 2026)
+
+#### New Features
+
+- Recurring Tasks: Set tasks to repeat on a flexible schedule: daily, weekly, monthly, yearly, or a set number of days after completion.
+
+- New Data Connectors: Connect to TikTok Ads, YouTube Analytics, and Azure Cosmos DB.
+
+#### Improvements and Bug Fixes
+
+- Default task statuses are now reorderable.
+
+- Default tasks now always show an icon in task views, matching custom task types.
+
+- Various notification fixes and enhancements to improve stability.
+
 ### 1.0.3577 (May 2026)
 
 #### New Features
