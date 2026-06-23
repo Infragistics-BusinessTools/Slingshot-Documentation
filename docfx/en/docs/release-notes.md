@@ -14,7 +14,7 @@
 
 - Added notification metrics for system health monitoring and diagnostics.
 
-### (June 4, 2026)
+### 1.0.3592 (June 4, 2026)
 
 #### New Features
 
