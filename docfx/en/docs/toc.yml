@@ -146,6 +146,11 @@
   href: slingshot-api.md
 - name: Slingshot MCP Server
   href: slingshot-mcp.md
+  items:
+    - name: Connect with Claude Code
+      href: mcp-claude-code.md
+    - name: Connect with ChatGPT
+      href: mcp-chatgpt.md
 - name: RELEASE INFORMATION
   header: true
   new: false
