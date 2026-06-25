@@ -1,61 +1,45 @@
 ---
-title: Connect Slingshot MCP with Claude Code
-_description: Connect the Slingshot MCP Server to Claude Code so you can manage tasks, projects, and workspaces directly from your terminal using natural language.
+title: Connect Slingshot MCP with Claude
+_description: Connect the Slingshot MCP Server to Claude so you can manage tasks, projects, and workspaces using natural language.
 ---
 
-# Connect Slingshot MCP with Claude Code
+# Connect Slingshot MCP with Claude
 
-This guide walks you through connecting the Slingshot MCP Server to [Claude Code](https://www.claude.com/product/claude-code), Anthropic's AI coding tool. Once connected, you can use natural language in Claude Code to create and update tasks, search your workspace, and more — without leaving your terminal.
+This guide walks you through connecting the Slingshot MCP Server to Claude. Once connected, you can use natural language to create and update tasks, search your workspace, generate status updates, and more — directly in Claude.
 
 ## Prerequisites
 
-- Claude Code installed and running
+- A Claude account (claude.ai)
 - A Slingshot account
-- The Slingshot MCP Server URL: `https://mcp.slingshotapp.io/mcp`
 
 ## How to Connect
 
-There are two ways to add the Slingshot MCP Server to Claude Code.
+**1. Go to Connectors**
 
-### Option 1: Using the CLI (Recommended)
+Navigate to [https://claude.ai/customize/connectors](https://claude.ai/customize/connectors).
 
-Run the following command in your terminal:
+**2. Add a Connector**
 
-```bash
-claude mcp add --transport http slingshot https://mcp.slingshotapp.io/mcp
-```
+Click the **+** icon in the top-right corner to open the **Add custom connector** dialog.
 
-Claude Code will prompt you to sign in to Slingshot via OAuth the first time a Slingshot tool is used.
+**3. Enter the Slingshot MCP Details**
 
-### Option 2: Editing the Config File
+Fill in the following:
 
-Open your Claude Code user config file at `~/.claude.json` and add the Slingshot server under `mcpServers`:
+- **Name:** Slingshot
+- **URL:** `https://mcp.slingshotapp.io/mcp`
 
-```json
-{
-  "mcpServers": {
-    "slingshot": {
-      "type": "http",
-      "url": "https://mcp.slingshotapp.io/mcp"
-    }
-  }
-}
-```
+Click **Add**.
 
-Save the file and restart Claude Code.
+**4. Connect Your Account**
 
->[!NOTE]
->To scope the MCP server to a single project instead of your user account, add the same config to a `.mcp.json` file in the root of your project directory.
+Click **Connect** when prompted and sign in to Slingshot using your credentials to complete the OAuth flow.
+
+Once authorized, the connector will show your tool permissions — Slingshot exposes read-only and write tools that Claude can use on your behalf.
 
 ## Verify the Connection
 
-Once connected, run the following in Claude Code to confirm Slingshot is available:
-
-```bash
-claude mcp list
-```
-
-You should see `slingshot` listed. Then try a prompt like:
+Start a new conversation in Claude and try a prompt like:
 
 > *"List my Slingshot tasks due this week."*
 
@@ -63,10 +47,9 @@ If Slingshot responds with your data, the connection is working.
 
 ## Troubleshooting
 
-- **Server not listed after adding?** Restart Claude Code and run `claude mcp list` again.
-- **Authentication error?** Run `claude mcp remove slingshot`, then re-add it and complete the OAuth sign-in flow when prompted.
-- **Permission error?** Make sure your Slingshot account has access to the workspaces or projects you're querying.
-- **Connection refused?** Verify the MCP server URL is correct: `https://mcp.slingshotapp.io/mcp`.
+- **Connector not appearing?** Refresh the page at [https://claude.ai/customize/connectors](https://claude.ai/customize/connectors) and try adding it again.
+- **Authorization failed?** Disconnect the connector and reconnect to re-trigger the OAuth sign-in flow.
+- **Permission error?** Verify your Slingshot account has access to the workspaces or projects you're querying.
 
 ## Related Topics
 
