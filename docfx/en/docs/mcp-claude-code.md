@@ -7,9 +7,12 @@ _description: Connect the Slingshot MCP Server to Claude so you can manage tasks
 
 This guide walks you through connecting the Slingshot MCP Server to Claude. Once connected, you can use natural language to create and update tasks, search your workspace, generate status updates, and more — directly in Claude.
 
+>[!NOTE]
+>Connecting custom MCP connectors in Claude requires a **Claude Pro** (paid) account or higher. This feature is not available on the free plan.
+
 ## Prerequisites
 
-- A Claude account (claude.ai)
+- A Claude Pro account or higher (claude.ai)
 - A Slingshot account
 
 ## How to Connect
@@ -47,6 +50,7 @@ If Slingshot responds with your data, the connection is working.
 
 ## Troubleshooting
 
+- **Add connector option not available?** Confirm your Claude account is on a Pro plan or higher — this feature is not available on the free plan.
 - **Connector not appearing?** Refresh the page at [https://claude.ai/customize/connectors](https://claude.ai/customize/connectors) and try adding it again.
 - **Authorization failed?** Disconnect the connector and reconnect to re-trigger the OAuth sign-in flow.
 - **Permission error?** Verify your Slingshot account has access to the workspaces or projects you're querying.
