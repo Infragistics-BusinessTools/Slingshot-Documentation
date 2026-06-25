@@ -144,6 +144,8 @@
   header: true
 - name: Slingshot API
   href: slingshot-api.md
+- name: Slingshot MCP Server
+  href: slingshot-mcp.md
 - name: RELEASE INFORMATION
   header: true
   new: false
