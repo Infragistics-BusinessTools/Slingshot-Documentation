@@ -53,6 +53,9 @@
     - name: Editing Multiple Tasks
       href: editing-multiple-tasks.md
       new: true
+    - name: Moving Multiple Tasks
+      href: moving-multiple-tasks.md
+      new: true
 - name: CSV Task Import
   href: csv-task-import.md
   new: false
