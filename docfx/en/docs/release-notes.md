@@ -12,8 +12,6 @@
 
 - Improved notification reliability.
 
-- Added notification metrics for system health monitoring and diagnostics.
-
 ### 1.0.3592 (June 4, 2026)
 
 #### New Features
