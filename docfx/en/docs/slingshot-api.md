@@ -18,10 +18,7 @@ With the Slingshot API you can:
 
 ## Who Can Use the API?
 
-The Slingshot API is available to users on eligible plans. API access requires a valid API token, which you can generate from your account settings.
-
->[!NOTE]
->API access availability depends on your Slingshot subscription plan. Check your plan details or contact your administrator to confirm access.
+The Slingshot API is available to all users on any Slingshot plan. API access requires a valid API token, which you can generate from your account settings.
 
 ## Getting Started
 
