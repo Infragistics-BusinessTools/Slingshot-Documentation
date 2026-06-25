@@ -50,6 +50,9 @@
       href: task-types.md
     - name: Using Custom Fields and Task Types
       href: using-custom-fields-and-task-types.md
+    - name: Editing Multiple Tasks
+      href: editing-multiple-tasks.md
+      new: true
 - name: CSV Task Import
   href: csv-task-import.md
   new: false
@@ -87,7 +90,7 @@
   updated:  false
 - name: Bookmarks
   href: bookmarks.md
-  new: false 
+  new: false
 - name: Productivity Tips
   header: true
 - name: Archives
