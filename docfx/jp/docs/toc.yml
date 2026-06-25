@@ -48,6 +48,9 @@
       href: task-types.md
     - name: カスタム フィールドとタスク タイプの使用
       href: using-custom-fields-and-task-types.md
+     - name: 複数タスクの編集
+       href: editing-multiple-tasks.md
+       new: true
 - name: ピン固定
   href: pins.md
 - name: データ カタログ
