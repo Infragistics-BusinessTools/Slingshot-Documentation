@@ -135,7 +135,7 @@
 - name: Dashboard Templates
   href: dashboard-templates.md
 - name: Project Templates
-  href: project-templates.md
+  href: project-projects.md
 - name: Task Templates
   href: task-templates.md
 - name: Workspace Templates
@@ -143,7 +143,7 @@
 - name: DEVELOPER
   header: true
 - name: Slingshot API
-  href: slingshot-api.md
+  href: slingshot-api/
 - name: Slingshot MCP Server
   href: slingshot-mcp.md
   items:
