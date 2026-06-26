@@ -25,7 +25,6 @@
   updated: false
 - name: Create From Anywhere
   href: create-from-anywhere.md
-  new: true
 - name: Overviews
   href: overviews.md
   new: false
@@ -52,10 +51,8 @@
       href: using-custom-fields-and-task-types.md
     - name: Editing Multiple Tasks
       href: editing-multiple-tasks.md
-      new: true
     - name: Moving Multiple Tasks
       href: moving-multiple-tasks.md
-      new: true
 - name: CSV Task Import
   href: csv-task-import.md
   new: false
@@ -143,7 +140,7 @@
 - name: DEVELOPER
   header: true
 - name: Slingshot API
-  href: slingshot-api.md
+  href: slingshot-api/
 - name: Slingshot MCP Server
   href: slingshot-mcp.md
   items:
