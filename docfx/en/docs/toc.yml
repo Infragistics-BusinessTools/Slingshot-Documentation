@@ -25,7 +25,6 @@
   updated: false
 - name: Create From Anywhere
   href: create-from-anywhere.md
-  new: true
 - name: Overviews
   href: overviews.md
   new: false
@@ -52,10 +51,8 @@
       href: using-custom-fields-and-task-types.md
     - name: Editing Multiple Tasks
       href: editing-multiple-tasks.md
-      new: true
     - name: Moving Multiple Tasks
       href: moving-multiple-tasks.md
-      new: true
 - name: CSV Task Import
   href: csv-task-import.md
   new: false

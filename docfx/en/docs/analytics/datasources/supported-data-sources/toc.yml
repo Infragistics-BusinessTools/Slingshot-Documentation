@@ -6,7 +6,6 @@
   href: box.md
 - name: ClickHouse
   href: clickhouse.md
-  new: true
 - name: Azure CosmosDb
   href: azurecosmosdb.md
 - name: Databricks
@@ -83,7 +82,6 @@
   href: sybase.md
 - name: TikTok Ads
   href: tiktokads.md
-  new: true
 - name: Web Resource
   href: web-resource.md
 - name: YouTube
