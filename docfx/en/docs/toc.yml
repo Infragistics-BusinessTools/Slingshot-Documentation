@@ -140,7 +140,7 @@
 - name: DEVELOPER
   header: true
 - name: Slingshot API
-  href: 'https://my.slingshotapp.io/v2/docs/#description/quickstart'
+  href: slingshot-api-overview.md
 - name: Slingshot MCP Server
   href: slingshot-mcp.md
   items:
