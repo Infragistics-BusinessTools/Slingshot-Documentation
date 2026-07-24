@@ -129,6 +129,17 @@
   href: task-templates.md
 - name: ワークスペース テンプレート
   href: workspace-templates.md
+- name: 開発者
+  header: true
+- name: Slingshot API
+  href: 'https://my.slingshotapp.io/v2/docs/#description/quickstart'
+- name: Slingshot MCP サーバー
+  href: slingshot-mcp.md
+  items:
+    - name: Claude との接続
+      href: mcp-claude-code.md
+    - name: ChatGPT との接続
+      href: mcp-chatgpt.md
 - name: リリース情報
   header: true
   new: false
