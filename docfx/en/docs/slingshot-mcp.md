@@ -5,9 +5,9 @@ _description: Connect your AI assistant to Slingshot using the Model Context Pro
 
 # Slingshot MCP Server
 
-The Slingshot MCP Server lets you connect your AI assistant directly to Slingshot using the **Model Context Protocol (MCP)** — a standardized framework that allows AI tools to read and interact with your Slingshot data using natural language.
+The Slingshot MCP Server lets you connect your AI assistant directly to Slingshot using the **Model Context Protocol (MCP)**, a standardized framework that allows AI tools to read and interact with your Slingshot data using natural language.
 
-Once connected, you can ask your AI assistant to create tasks, update projects, search your workspace, and more — without leaving your AI tool.
+Once connected, you can ask your AI assistant to create tasks, update projects, search your workspace, and more, without leaving your AI tool.
 
 ## What Can You Do?
 
@@ -25,25 +25,6 @@ With the Slingshot MCP Server, you can use your AI assistant to:
 https://mcp.slingshotapp.io/mcp
 ```
 
-## Connecting Your AI Assistant
-
-To connect an AI assistant to Slingshot, add the following to your MCP client configuration:
-
-```json
-{
-  "mcpServers": {
-    "slingshot": {
-      "url": "https://mcp.slingshotapp.io/mcp"
-    }
-  }
-}
-```
-
-Most AI tools that support MCP have a settings or configuration file where you can add this entry. Refer to your AI tool's documentation for the exact location.
-
->[!NOTE]
->Authentication is handled via OAuth. You will be prompted to sign in to your Slingshot account when connecting for the first time.
-
 ## Supported AI Clients
 
 The Slingshot MCP Server works with any AI tool that supports the MCP standard, including:
@@ -55,6 +36,48 @@ The Slingshot MCP Server works with any AI tool that supports the MCP standard, 
 - Windsurf
 - ChatGPT
 - Microsoft Copilot Studio
+
+## Connecting Your AI Assistant
+
+Authentication is handled via OAuth. You'll be prompted to sign in to your Slingshot account the first time you connect.
+
+### Claude Desktop / Claude.ai
+
+Requires a Claude Pro account or higher. Custom connectors aren't available on the free plan.
+
+Go to **Settings → Connectors → Add custom connector**, and paste the server URL: `https://mcp.slingshotapp.io/mcp`
+
+### Claude Code
+
+Run:
+
+```
+claude mcp add --transport http slingshot https://mcp.slingshotapp.io/mcp
+```
+
+### ChatGPT
+
+Requires a ChatGPT Plus or Pro subscription. Developer Mode and custom connectors aren't available on the free plan.
+
+In **Settings**, enable **Developer Mode**, then add Slingshot as a connector using the server URL.
+
+### Cursor / VS Code / Windsurf
+
+Add this to your MCP configuration file:
+
+```json
+{
+  "mcpServers": {
+    "slingshot": {
+      "url": "https://mcp.slingshotapp.io/mcp"
+    }
+  }
+}
+```
+
+### Other MCP-compatible tools
+
+Refer to the tool's documentation for where to add the server URL.
 
 ## Getting Started
 
