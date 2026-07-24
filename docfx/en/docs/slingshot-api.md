@@ -24,4 +24,4 @@ The Slingshot API is available to all users on any Slingshot plan. API access re
 
 Full API documentation, including endpoint reference, authentication guides, and code examples, is available in the Slingshot API Reference:
 
-**[Slingshot API Reference v2 →](https://my.slingshotapp.io/v2/docs)**
+**[Slingshot API Reference v2 →](https://my.slingshotapp.io/v2/docs/#description/quickstart)**
