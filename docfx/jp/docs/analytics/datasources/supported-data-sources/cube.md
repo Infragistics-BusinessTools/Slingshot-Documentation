@@ -6,7 +6,6 @@ _language: ja
 
 # Cube
 
->[!NOTE]
 **前提条件** 次のものを用意してください:
 - `https://your-cube-host/cubejs-api/v1` などの、アクセス可能な Cube REST API エンドポイント
 - Reveal ユーザーがクエリできる、少なくとも 1 つの公開済み Cube モデル
