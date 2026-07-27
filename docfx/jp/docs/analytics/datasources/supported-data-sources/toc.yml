@@ -8,6 +8,9 @@
   href: clickhouse.md
 - name: Azure CosmosDb
   href: azurecosmosdb.md
+- name: Cube
+  href: cube.md
+  new: true
 - name: Databricks
   href: databricks.md
 - name: Dropbox
