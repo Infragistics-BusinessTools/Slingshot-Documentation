@@ -5,7 +5,7 @@ _description: Connecting and using Reddit Ads as a data source in Slingshot.
 
 # Reddit Ads
 
-The *Reddit Ads* data source connector in *Analytics* allows you to bring your Reddit advertising data to Slingshot. Use your *Ad account* data to create insightful dashboards and measure your business' advertising performance on Reddit.
+The *Reddit Ads* data source connector allows you to bring your Reddit advertising data to Slingshot. Use your *Ad account* data to create insightful dashboards and measure your business' advertising performance on Reddit.
 
 ## Prerequisites
 
