@@ -1,0 +1,23 @@
+{
+  "skill_name": "data-source-docs",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Based on the existing PostgreSQL and Databricks topics, add a new DuckDB data-source topic to the Slingshot docs. Keep the connector toc.yml and the datasources overview list in sync, document only the capabilities DuckDB actually supports, and create the Japanese localization too.",
+      "expected_output": "Creates the English DuckDB topic under docfx/en/docs/analytics/datasources/supported-data-sources/, adds the toc.yml entry (with new: true) and the overview.md link, creates the Japanese page plus its toc/overview entries, and validates with the DocFX build.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Document a new ClickHouse-style connector in the Slingshot documentation. Use the closest existing relational connector pages as templates, add the English topic, add the Japanese localized topic, mirror screenshots if needed, and make sure the DocFX build is clean.",
+      "expected_output": "Chooses the correct relational template(s), uses DocFX conventions (frontmatter, >[!NOTE] callouts, responsive-img <img> tags), edits the expected English and Japanese files, verifies whether a kr tree exists before touching it, mirrors images when referenced, and catches locale-specific link/xref problems during validation.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "I already added a new connector page under supported-data-sources. Finish the documentation workflow: update the connector toc.yml, the datasources overview list, any shared reference page only if the connector's capabilities require it, and create the Japanese localized page in the same repo style.",
+      "expected_output": "Completes the surrounding work without rewriting unrelated pages, updates shared references only when justified, adds a Japanese page that matches nearby localized connector topics, and keeps the nav and overview list coherent.",
+      "files": []
+    }
+  ]
+}
