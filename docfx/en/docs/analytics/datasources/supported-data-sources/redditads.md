@@ -44,9 +44,7 @@ You will see your new Reddit Ad account connection added to your recently used D
 
 ## Setting Up Your Data
 
-From the *Data Sources* list, select the Reddit Ad account you want to connect. You will see the *Data Source details* dialog, which allows you to review and set up your data (look at the screenshot below).
-
-<img src="./images/reddit-ads-data-source-details-dialog.png" alt="Reddit Ad account details" class="responsive-img" width="90%"/>
+From the *Data Sources* list, select the Reddit Ad account you want to connect. You will see the *Data Source details* dialog, which allows you to review and set up your data.
 
 Here you will find the following data source details:
 
@@ -69,8 +67,6 @@ When ready, click/tap on **Select Data** to continue to the *Visualization Edito
 ## Working in the Visualization Editor
 
 Once your data source has been added, you will be taken to the *Visualization Editor*.
-
-<img src="./images/visualization-editor-reddit.png" alt="Using data from the Reddit Ads account in the Visualization Editor" class="responsive-img" width="90%"/>
 
 By default, the *Column* visualization will be selected. You can click/tap on it in order to choose another chart type from the drop-down menu.
 

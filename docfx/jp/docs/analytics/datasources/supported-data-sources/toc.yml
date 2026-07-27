@@ -63,7 +63,7 @@
 - name: QuickBooks
   href: quickbooks.md
 - name: Reddit Ads
-  href: reddit-ads.md
+  href: redditads.md
   new: true
 - name: REST API
   href: rest-api.md

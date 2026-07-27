@@ -46,9 +46,7 @@ Reddit Ads データ ソースをリストに追加するには、以下の手�
 <a name="setting-up-your-data"></a>
 ## データの設定
 
-**[データ ソース]** リストから、接続する Reddit 広告アカウントを選択します。[データ ソースの詳細] ダイアログが表示され、データを確認して設定できます (下のスクリーンショットを参照)。
-
-<img src="./images/reddit-ads-data-source-details-dialog.png" alt="Reddit Ad account details" class="responsive-img" width="90%"/>
+**[データ ソース]** リストから、接続する Reddit 広告アカウントを選択します。[データ ソースの詳細] ダイアログが表示され、データを確認して設定できます。
 
 ここに、次のデータ ソースの詳細があります:
 
@@ -71,8 +69,6 @@ Reddit Ads データ ソースをリストに追加するには、以下の手�
 ## 表示形式エディターでの作業
 
 データ ソースを追加すると、*表示形式エディター*が表示されます。
-
-<img src="./images/visualization-editor-reddit.png" alt="Using data from the Reddit Ads account in the Visualization Editor" class="responsive-img" width="90%"/>
 
 デフォルトでは、*柱状*の表示形式が選択されています。それをクリックまたはタップすると、ドロップダウン メニューから別のグラフの種類を選択できます。
 

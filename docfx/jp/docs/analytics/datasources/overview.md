@@ -82,7 +82,7 @@ _language: ja
 
    - [Quickbooks](../../analytics/datasources/supported-data-sources/quickbooks.md) 
 
-   - [Reddit Ads](../../analytics/datasources/supported-data-sources/reddit-ads.md)
+   - [Reddit Ads](../../analytics/datasources/supported-data-sources/redditads.md)
 
    - [REST API](../../analytics/datasources/supported-data-sources/rest-api.md)
 
