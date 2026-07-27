@@ -32,6 +32,8 @@ _language: ja
 
    - [Box](../../analytics/datasources/supported-data-sources/box.md)
 
+   - [Cube](../../analytics/datasources/supported-data-sources/cube.md)
+
    - [Dropbox](../../analytics/datasources/supported-data-sources/dropbox.md)
 
    - [Facebook](../../analytics/datasources/supported-data-sources/facebook.md)

@@ -32,6 +32,8 @@ After selecting a data source provider, you will be prompted to **configure** it
 
    - [Box](~/docs/analytics/datasources/supported-data-sources/box.md)
 
+   - [Cube](~/docs/analytics/datasources/supported-data-sources/cube.md)
+
    - [Dropbox](~/docs/analytics/datasources/supported-data-sources/dropbox.md)
 
    - [Elasticsearch](~/docs/analytics/datasources/supported-data-sources/elasticsearch.md)
