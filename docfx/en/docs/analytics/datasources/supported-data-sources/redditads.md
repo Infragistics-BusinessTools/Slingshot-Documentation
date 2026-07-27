@@ -12,9 +12,7 @@ The *Reddit Ads* data source connector allows you to bring your Reddit advertisi
 Before you try using the *Reddit Ads* data source in Analytics, make sure that:
 
 - You have a <a href="https://ads.reddit.com/" target="_blank" rel="noopener">Reddit Ads</a> account.
-
 - You have at least one *Ad account* that you have access to and that has campaign data to analyze.
-
 - Your Reddit account has permission to view the reporting data for the *Ad account* you want to connect.
 
 ## Adding a New Reddit Ads Data Source Account
