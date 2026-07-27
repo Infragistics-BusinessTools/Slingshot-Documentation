@@ -6,7 +6,10 @@ _description: Connecting and using Cube as a data source in Slingshot.
 # Cube
 
 >[!NOTE]
->**Limitations in Web**. In the *Analytics Web* app, you can connect only to publicly accessible Cube addresses. If your Cube deployment is restricted for the general public (private or hosted in the company's intranet, for example), you can use *Analytics Desktop*, *iOS* or *Android* to connect to it. The device where you're running Analytics needs to have access to this Cube address. This limitation does not apply to *Analytics Embedded*.
+**Prerequisites** Make sure you have the following:
+- A reachable Cube REST API endpoint, such as `https://your-cube-host/cubejs-api/v1`
+- At least one published cube model that Reveal users can query
+- A bearer token strategy, such as JWT, if your Cube deployment requires authentication
 
 Cube is a headless business intelligence platform that exposes your data models through a REST API. Connect to Cube as a data source in Slingshot to build dashboards on top of the measures and dimensions defined in your Cube data model.
 
