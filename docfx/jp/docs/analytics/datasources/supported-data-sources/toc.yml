@@ -68,6 +68,9 @@
   href: postgresql.md
 - name: QuickBooks
   href: quickbooks.md
+- name: Reddit Ads
+  href: redditads.md
+  new: true
 - name: REST API
   href: rest-api.md
 - name: Salesforce
