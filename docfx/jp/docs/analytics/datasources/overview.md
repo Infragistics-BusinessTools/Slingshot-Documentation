@@ -56,6 +56,8 @@ _language: ja
 
    - [Marketo](../../analytics/datasources/supported-data-sources/marketo.md)
 
+   - [MotherDuck](../../analytics/datasources/supported-data-sources/motherduck.md)
+
    - [Microsoft Analysis Services](../../analytics/datasources/supported-data-sources/microsoft-analysis-services.md)
 
    - [Microsoft Azure Analysis Services](../../analytics/datasources/supported-data-sources/microsoft-azure-analysis-services.md)

@@ -36,6 +36,9 @@
   href: linkedin.md
 - name: Marketo
   href: marketo.md
+- name: MotherDuck
+  href: motherduck.md
+  new: true
 - name: Microsoft Analysis Services
   href: microsoft-analysis-services.md
 - name: Microsoft Azure Analysis Services

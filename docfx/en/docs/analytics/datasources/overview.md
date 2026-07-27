@@ -60,6 +60,8 @@ After selecting a data source provider, you will be prompted to **configure** it
 
    - [Marketo](~/docs/analytics/datasources/supported-data-sources/marketo.md)
 
+   - [MotherDuck](~/docs/analytics/datasources/supported-data-sources/motherduck.md)
+
    - [Microsoft Analysis Services](../../analytics/datasources/supported-data-sources/microsoft-analysis-services.md)
 
    - [Microsoft Azure Analysis Services](~/docs/analytics/datasources/supported-data-sources/microsoft-azure-analysis-services.md)
