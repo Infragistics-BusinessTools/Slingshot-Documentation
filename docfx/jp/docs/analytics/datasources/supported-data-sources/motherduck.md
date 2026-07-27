@@ -17,7 +17,7 @@ MotherDuck データ ソースを設定するには、以下の情報が必要�
 
 1. **[資格情報]**: [資格情報] を選択した後、MotherDuck ワークスペースの資格情報を入力するか、既存の資格情報 (適用可能な場合) を選択できます
 
-<img src="../images/motherduck-credentials.png" alt="Mother Duck credentials"/>
+<img src="images/motherduck-credentials.png" alt="MotherDuck credentials" class="responsive-img" width="50%"/>
 
    - **トークン**: MotherDuck 認証トークン。MotherDuck アカウント設定から生成できます。
 
