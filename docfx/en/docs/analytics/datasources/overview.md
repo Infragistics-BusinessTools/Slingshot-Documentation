@@ -88,6 +88,8 @@ After selecting a data source provider, you will be prompted to **configure** it
 
    - [Quickbooks](~/docs/analytics/datasources/supported-data-sources/quickbooks.md)
 
+   - [Reddit Ads](~/docs/analytics/datasources/supported-data-sources/reddit-ads.md)
+
    - [REST API](~/docs/analytics/datasources/supported-data-sources/rest-api.md)
 
    - [Salesforce](~/docs/analytics/datasources/supported-data-sources/salesforce.md)
