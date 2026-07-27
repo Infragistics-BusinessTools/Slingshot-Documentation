@@ -47,17 +47,11 @@ From the *Data Sources* list, select the Reddit Ad account you want to connect. 
 Here you will find the following data source details:
 
 - Type and Name
-
 - Description
-
 - [Certification](../../../certifications.md)
-
 - Who added the data source and when
-
 - Who last modified it and when
-
 - Who (users and workspaces) has access to it
-
 - How often the data is refreshed. To change the time period, select the drop-down menu on the right.
 
 When ready, click/tap on **Select Data** to continue to the *Visualization Editor*.
