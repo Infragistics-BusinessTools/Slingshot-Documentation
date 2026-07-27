@@ -111,18 +111,14 @@ Japanese localization is part of the standard path for this repository.
 
 DocFX link/anchor problems are easy to miss, especially per-locale. After editing, build the docs.
 
-```bash
-npm install   # first time; also restores the docfx dotnet tool via postinstall
-npm run build
-```
+    npm install   # first time; also restores the docfx dotnet tool via postinstall
+    npm run build
 
 To preview a specific locale (watches for changes):
 
-```bash
-yarn start --lang=en
-```
+    npm run start -- --lang=en
 
-(`--lang=jp` / `--lang=kr` for the localized sites.)
+(`--lang=jp` for Japanese; use `--lang=kr` only if a `docfx/kr/...` tree exists. If you use Yarn, `yarn start --lang=<...>` also works.)
 
 If the build reports a broken link, anchor, or xref:
 
