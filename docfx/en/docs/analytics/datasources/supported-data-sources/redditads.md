@@ -25,7 +25,7 @@ To add a *Reddit Ads* data source to your list, follow the steps described below
 
 2.	Click on the **+Data Source** button.
 
-3.	Select *Reddit Ads* that is under **Social Media** in the **Data Sources** list.
+3.	Select *Reddit Ads* that is under **Marketing, Sales, and CRMs** in the **Data Sources** list.
 
 4. You will be prompted to log in with your *Reddit* account and authorize *Analytics* to access your advertising data.
 
