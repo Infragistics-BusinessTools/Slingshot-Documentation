@@ -5,7 +5,6 @@ _description: Connecting and using Cube as a data source in Slingshot.
 
 # Cube
 
->[!NOTE]
 **Prerequisites** Make sure you have the following:
 - A reachable Cube REST API endpoint, such as `https://your-cube-host/cubejs-api/v1`
 - At least one published cube model that Reveal users can query
