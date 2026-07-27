@@ -6,8 +6,11 @@ _language: ja
 
 # Cube
 
->[!NOTE] 
->**Web の制限**。*Analytics Web* アプリでは、公的にアクセス可能な Cube アドレスにのみ接続できます。Cube デプロイが一般公開 (プライベートまたは会社のイントラネットでホストされているなど) に制限されている場合は、*Analytics Desktop*、*iOS*、または *Android* を使用して接続できます。Analytics を実行しているデバイスは、Cube アドレスにアクセスできる必要があります。この制限は、*Analytics Embedded* には適用されません。
+>[!NOTE]
+**前提条件** 次のものを用意してください:
+- `https://your-cube-host/cubejs-api/v1` などの、アクセス可能な Cube REST API エンドポイント
+- Reveal ユーザーがクエリできる、少なくとも 1 つの公開済み Cube モデル
+- Cube デプロイで認証が必要な場合は、JWT などのベアラー トークン戦略
 
 Cube は、REST API を通じてデータ モデルを公開するヘッドレス ビジネス インテリジェンス プラットフォームです。Cube を Slingshot のデータ ソースとして接続することで、Cube データ モデルで定義されたメジャーとディメンションを基にダッシュボードを構築できます。
 
