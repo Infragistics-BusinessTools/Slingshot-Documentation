@@ -36,6 +36,8 @@ _language: ja
 
    - [Dropbox](../../analytics/datasources/supported-data-sources/dropbox.md)
 
+   - [Elasticsearch](../../analytics/datasources/supported-data-sources/elasticsearch.md)
+
    - [Facebook](../../analytics/datasources/supported-data-sources/facebook.md)
 
    - [Google Ads](../../analytics/datasources/supported-data-sources/google-ads.md)
@@ -56,6 +58,8 @@ _language: ja
 
    - [LinkedIn](../../analytics/datasources/supported-data-sources/linkedin.md)
 
+   - [MariaDB](../../analytics/datasources/supported-data-sources/mariadb.md)
+
    - [Marketo](../../analytics/datasources/supported-data-sources/marketo.md)
 
    - [MotherDuck](../../analytics/datasources/supported-data-sources/motherduck.md)
@@ -75,6 +79,8 @@ _language: ja
    - [Microsoft SQL Server](../../analytics/datasources/supported-data-sources/microsoft-sql-server.md)
 
    - [MySQL](../../analytics/datasources/supported-data-sources/mysql.md)
+
+   - [NetSuite](../../analytics/datasources/supported-data-sources/netsuite.md)
 
    - [OData フィード](../../analytics/datasources/supported-data-sources/odata-feed.md)
 
