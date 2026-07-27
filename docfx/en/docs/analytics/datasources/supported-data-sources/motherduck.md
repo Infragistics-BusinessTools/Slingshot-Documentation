@@ -16,7 +16,7 @@ To configure a MotherDuck data source, you will need to enter the following info
 
 1. **Credentials**: after selecting *Credentials*, you will be able to enter the credentials for your MotherDuck workspace or select existing ones if applicable:
 
-<img src="../images/motherduck-credentials.png" alt="Mother Duck credentials"/>
+<img src="images/motherduck-credentials.png" alt="MotherDuck credentials" class="responsive-img" width="50%"/>
 
    - **Token**: your MotherDuck authentication token. You can generate this from your MotherDuck account settings.
 
