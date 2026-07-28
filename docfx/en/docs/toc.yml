@@ -123,6 +123,9 @@
 - name: Notifications
   href: notifications.md
   updated:  false
+- name: Slingshot Support
+  href: support.md
+  new: true
 - name: Subscriptions
   header: true
 - name: Slingshot Enterprise Subscription
