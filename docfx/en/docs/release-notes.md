@@ -1,5 +1,13 @@
 # Release Notes
 
+### 1.0.3622 (July 2026)
+
+#### New Features
+
+- New Data Connectors: Connect to Reddit Ads, MotherDuck, and Cube to query and visualize your data alongside your existing sources.
+
+- Formula Field: Create a custom field that calculates its value automatically based on other fields in your tasks.
+
 ### 1.0.3607 (June 24, 2026)
 
 #### New Features
