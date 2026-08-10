@@ -86,5 +86,8 @@
 - name: TikTok Ads
   href: tiktokads.md
   new: true
+- name: TikTok Organic
+  href: tiktok-organic.md
+  new: true
 - name: ウェブ リソース
   href: web-resource.md
