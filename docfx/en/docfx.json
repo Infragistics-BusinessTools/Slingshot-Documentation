@@ -7,7 +7,7 @@
                 "toc.yml",
                 "*.md"
             ],
-            "exclude": ["obj/**", "_site/**"]
+            "exclude": ["obj/**", "_site/**", "docs/slingshot-api/**"]
         }],
         "resource": [{
             "files": ["images/**", "docs/**/images/**"],
@@ -61,9 +61,6 @@
                     "priority": 0.7
                 },
                 "**/user-account-faq.md": {
-                    "priority": 0.7
-                },
-                "**/workspaces-faq.md": {
                     "priority": 0.7
              }
          }
