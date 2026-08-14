@@ -62,8 +62,11 @@
                 },
                 "**/user-account-faq.md": {
                     "priority": 0.7
-             }
-         }
-     }
+               },
+               "**/workspaces-faq.md": {
+                   "priority": 0.7
+            }
+        }
+    }
   }
 }
