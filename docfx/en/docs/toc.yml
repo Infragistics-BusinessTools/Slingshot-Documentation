@@ -53,6 +53,12 @@
       href: editing-multiple-tasks.md
     - name: Moving Multiple Tasks
       href: moving-multiple-tasks.md
+    - name: Converting Multiple Tasks
+      href: converting-multiple-tasks.md
+      new: true
+    - name: Deleting Multiple Tasks
+      href: deleting-multiple-tasks.md
+      new: true
     - name: Recurring Tasks
       href: recurring-tasks.md
 - name: CSV Task Import
