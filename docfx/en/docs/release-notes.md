@@ -4,7 +4,7 @@
 
 #### New Features
 
-- Recurring Tasks: Repeating tasks now reset instead of duplicating, recurrence is supported on subtasks, and notifications are batched.
+- Recurring Tasks Updates: Repeating tasks now reset instead of duplicating, recurrence is supported on subtasks, and notifications are batched.
 
 - Bulk Delete and Convert To: Multi-select tasks and delete them in one move, or convert them to a new type in one action. No more one-at-a-time cleanup, and restructuring a list just got fast.
 
