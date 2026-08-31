@@ -2,6 +2,8 @@
   header: true
 - name: Slingshot AI の概要
   href: slingshot-ai-overview.md
+- name: Slingshot AI データ分析
+  href: data-analytics.md
 - name: アクション アイテムの抽出
   href: extract-action-items.md
 - name: 要約
@@ -21,6 +23,8 @@
 - name: ワークスペース
   href: workspaces.md
   updated: false
+- name: どこからでも作成
+  href: create-from-anywhere.md
 - name: 概要
   href: overviews.md
   new: false
@@ -48,6 +52,21 @@
       href: task-types.md
     - name: カスタム フィールドとタスク タイプの使用
       href: using-custom-fields-and-task-types.md
+    - name: 複数タスクの編集
+      href: editing-multiple-tasks.md
+    - name: 複数タスクの移動
+      href: moving-multiple-tasks.md
+    - name: 複数タスクの変換
+      href: converting-multiple-tasks.md
+      new: true
+    - name: 複数タスクの削除
+      href: deleting-multiple-tasks.md
+      new: true
+    - name: 定期タスク
+      href: recurring-tasks.md
+- name: CSV タスクのインポート
+  href: csv-task-import.md
+  new: false
 - name: ピン固定
   href: pins.md
 - name: データ カタログ
@@ -113,6 +132,8 @@
 - name: 通知
   href: notifications.md
   updated:  false
+- name: Slingshot サポート
+  href: support.md
 - name: サブスクリプション
   header: true
 - name: Slingshot Enterprise サブスクリプション
@@ -129,6 +150,12 @@
   href: task-templates.md
 - name: ワークスペース テンプレート
   href: workspace-templates.md
+- name: 開発者
+  header: true
+- name: Slingshot API
+  href: slingshot-api-overview.md
+- name: Slingshot MCP サーバー
+  href: slingshot-mcp.md
 - name: リリース情報
   header: true
   new: false
