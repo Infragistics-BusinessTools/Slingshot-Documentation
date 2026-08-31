@@ -99,9 +99,6 @@
 - name: Bookmarks
   href: bookmarks.md
   new: false
-- name: Zoom Integration
-  href: zoom-integration.md
-  new: true
 - name: Productivity Tips
   header: true
 - name: Archives
@@ -134,7 +131,6 @@
   updated:  false
 - name: Slingshot Support
   href: support.md
-  new: true
 - name: Subscriptions
   header: true
 - name: Slingshot Enterprise Subscription
