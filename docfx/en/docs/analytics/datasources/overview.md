@@ -104,6 +104,8 @@ After selecting a data source provider, you will be prompted to **configure** it
 
    - [Sybase](~/docs/analytics/datasources/supported-data-sources/sybase.md)
 
+   - [TikTok Organic](~/docs/analytics/datasources/supported-data-sources/tiktok-organic.md)
+
    - [Web Resource](~/docs/analytics/datasources/supported-data-sources/web-resource.md)
 
    - [JSON files](~/docs/analytics/datasources/working-files/working-with-json-files.md)

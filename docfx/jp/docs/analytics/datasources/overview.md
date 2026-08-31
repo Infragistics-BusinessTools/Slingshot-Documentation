@@ -98,6 +98,8 @@ _language: ja
 
    - [Sybase](../../analytics/datasources/supported-data-sources/sybase.md)
 
+   - [TikTok Organic](../../analytics/datasources/supported-data-sources/tiktok-organic.md)
+
    - [ウェブ リソース](../../analytics/datasources/supported-data-sources/web-resource.md)
 
    - [JSON ファイル](../../analytics/datasources/working-files/working-with-json-files.md)
