@@ -7,7 +7,7 @@
                 "toc.yml",
                 "*.md"
             ],
-            "exclude": ["obj/**", "_site/**"]
+            "exclude": ["obj/**", "_site/**", "docs/slingshot-api/**"]
         }],
         "resource": [{
             "files": ["images/**", "docs/**/images/**"],

@@ -53,6 +53,12 @@
       href: editing-multiple-tasks.md
     - name: Moving Multiple Tasks
       href: moving-multiple-tasks.md
+    - name: Converting Multiple Tasks
+      href: converting-multiple-tasks.md
+      new: true
+    - name: Deleting Multiple Tasks
+      href: deleting-multiple-tasks.md
+      new: true
     - name: Recurring Tasks
       href: recurring-tasks.md
 - name: CSV Task Import
@@ -93,9 +99,6 @@
 - name: Bookmarks
   href: bookmarks.md
   new: false
-- name: Zoom Integration
-  href: zoom-integration.md
-  new: true
 - name: Productivity Tips
   header: true
 - name: Archives
@@ -128,7 +131,6 @@
   updated:  false
 - name: Slingshot Support
   href: support.md
-  new: true
 - name: Subscriptions
   header: true
 - name: Slingshot Enterprise Subscription

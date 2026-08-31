@@ -1,5 +1,23 @@
 # Release Notes
 
+### 1.0.3652 (August 28, 2026)
+
+#### New Features
+
+- Recurring Tasks Updates: Repeating tasks now reset instead of duplicating, recurrence is supported on subtasks, and notifications are batched.
+
+- Bulk Delete and Convert To: Multi-select tasks and delete them in one move, or convert them to a new type in one action. No more one-at-a-time cleanup, and restructuring a list just got fast.
+
+- AI Summary Field: Use the AI Summary field on any task and get a summary of everything happening inside it, fast.
+
+- Stacked Overview: Stacked bar and column charts are now available on Overviews, so you can read and analyze your data at a glance with even more insight.
+
+- New Data Connectors: Pull Microsoft Ads spend and performance into Slingshot dashboards with one sign-in, and add organic TikTok performance alongside the TikTok Ads connector that shipped in June.
+
+#### Improvements and Bug Fixes
+
+- Public API: A round of fixes and hardening across the Public API, including support for discussions and formula fields.
+
 ### 1.0.3622 (July 28, 2026)
 
 #### New Features

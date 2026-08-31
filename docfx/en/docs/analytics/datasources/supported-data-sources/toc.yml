@@ -10,7 +10,6 @@
   href: azurecosmosdb.md
 - name: Cube
   href: cube.md
-  new: true
 - name: Databricks
   href: databricks.md
 - name: Dropbox
@@ -45,7 +44,6 @@
   href: marketo.md
 - name: MotherDuck
   href: motherduck.md
-  new: true
 - name: Microsoft Analysis Services
   href: microsoft-analysis-services.md
 - name: Microsoft Azure Analysis Services 
@@ -76,7 +74,6 @@
   href: quickbooks.md
 - name: Reddit Ads
   href: redditads.md
-  new: true
 - name: REST API
   href: rest-api.md
 - name: Salesforce
