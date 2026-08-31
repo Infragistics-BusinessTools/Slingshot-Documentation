@@ -22,7 +22,7 @@ With the Slingshot MCP Server, you can use your AI assistant to:
 ## MCP Server URL
 
 ```
-https://mcp.slingshotapp.io/mcp
+https://my.slingshotapp.io/mcp
 ```
 
 ## Supported AI Clients
@@ -45,14 +45,14 @@ Authentication is handled via OAuth. You'll be prompted to sign in to your Sling
 
 Requires a Claude Pro account or higher. Custom connectors aren't available on the free plan.
 
-Go to **Settings → Connectors → Add custom connector**, and paste the server URL: `https://mcp.slingshotapp.io/mcp`
+Go to **Settings → Connectors → Add custom connector**, and paste the server URL: `https://my.slingshotapp.io/mcp`
 
 ### Claude Code
 
 Run:
 
 ```
-claude mcp add --transport http slingshot https://mcp.slingshotapp.io/mcp
+claude mcp add --transport http slingshot https://my.slingshotapp.io/mcp
 ```
 
 ### ChatGPT
@@ -69,7 +69,7 @@ Add this to your MCP configuration file:
 {
   "mcpServers": {
     "slingshot": {
-      "url": "https://mcp.slingshotapp.io/mcp"
+      "url": "https://my.slingshotapp.io/mcp"
     }
   }
 }
