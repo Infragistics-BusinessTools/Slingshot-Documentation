@@ -48,6 +48,12 @@
       href: task-types.md
     - name: カスタム フィールドとタスク タイプの使用
       href: using-custom-fields-and-task-types.md
+    - name: 複数のタスクのタイプを変換する
+      href: converting-multiple-tasks.md
+      new: true
+    - name: 複数のタスクを削除する
+      href: deleting-multiple-tasks.md
+      new: true
 - name: ピン固定
   href: pins.md
 - name: データ カタログ
