@@ -1,3 +1,9 @@
+---
+title: TikTok Organic データ ソース コネクター
+_description: Slingshot の TikTok Organic に接続して、オーガニック ソーシャル メディアのパフォーマンス データを分析します。
+_language: ja
+---
+
 # TikTok Organic
 
 Slingshot の TikTok Organic データ ソース コネクターを使用すると、TikTok のオーガニック (非広告) パフォーマンス データに基づいて表示形式を作成できます。
