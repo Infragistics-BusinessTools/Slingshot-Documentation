@@ -70,6 +70,8 @@ _language: ja
 
    - [Microsoft Dynamics CRM](../../analytics/datasources/supported-data-sources/microsoft-dynamics-crm.md)
 
+   - [Microsoft Ads](../../analytics/datasources/supported-data-sources/microsoft-ads.md)
+
    - [Microsoft Reporting Services (SSRS)](../../analytics/datasources/supported-data-sources/microsoft-reporting-services.md)
 
    - [Microsoft SQL Server](../../analytics/datasources/supported-data-sources/microsoft-sql-server.md)
