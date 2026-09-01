@@ -14,7 +14,6 @@ _language: ja
 
 - <a href="https://ads.microsoft.com/" target="_blank" rel="noopener">Microsoft Ads</a> アカウントを持っていること。
 - アクセスできるデータを含む**広告アカウント**が少なくとも 1 つあること。
-- 接続する**広告アカウント**のレポート データを表示する権限が Microsoft アカウントにあること。
 
 ## 新しい Microsoft Ads データ ソース アカウントの追加
 
