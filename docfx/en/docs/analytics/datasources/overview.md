@@ -74,6 +74,8 @@ After selecting a data source provider, you will be prompted to **configure** it
 
    - [Microsoft Dynamics CRM](~/docs/analytics/datasources/supported-data-sources/microsoft-dynamics-crm.md)
 
+   - [Microsoft Ads](~/docs/analytics/datasources/supported-data-sources/microsoft-ads.md)
+
    - [Microsoft Reporting Services (SSRS)](~/docs/analytics/datasources/supported-data-sources/microsoft-reporting-services.md)
 
    - [Microsoft SQL Server](~/docs/analytics/datasources/supported-data-sources/microsoft-sql-server.md)
