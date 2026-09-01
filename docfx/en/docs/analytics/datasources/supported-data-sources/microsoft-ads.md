@@ -13,7 +13,6 @@ Before you use the *Microsoft Ads* data source in Analytics, make sure that:
 
 - You have a <a href="https://ads.microsoft.com/" target="_blank" rel="noopener">Microsoft Ads</a> account.
 - You have at least one *Ad account* with data that you can access.
-- Your Microsoft account has permission to view reporting data for the *Ad account* you want to connect.
 
 ## Adding a New Microsoft Ads Data Source Account
 
