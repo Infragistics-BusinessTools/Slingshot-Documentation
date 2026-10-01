@@ -99,6 +99,9 @@
 - name: Bookmarks
   href: bookmarks.md
   new: false
+- name: Goals
+  href: goals.md
+  new: true
 - name: Productivity Tips
   header: true
 - name: Archives
