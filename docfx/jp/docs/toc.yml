@@ -86,6 +86,9 @@
 - name: ブックマーク
   href: bookmarks.md
   new: false
+- name: 目標
+  href: goals.md
+  new: true
 - name: 生産性向上のヒント
   header: true
 - name: アーカイブ
