@@ -102,6 +102,9 @@
 - name: Goals
   href: goals.md
   new: true
+- name: Automations
+  href: automations.md
+  new: true
 - name: Productivity Tips
   header: true
 - name: Archives
