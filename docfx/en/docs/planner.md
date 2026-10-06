@@ -9,9 +9,6 @@ With Planner, you can see your Microsoft Outlook events right inside Slingshot, 
 
 Planner is personal. The events you see belong to your connected account, not to a workspace, so other members never see your calendar.
 
-> [!NOTE]
-> Some Planner capabilities, such as meeting recaps, are being rolled out gradually and may not be available on every account yet.
-
 ## Opening Planner
 
 Click/tap on **Planner** in the side rail. Planner opens in **Week** view, scrolled to just before the current time.
