@@ -60,7 +60,7 @@ Events take the color of the calendar they belong to, matching the colors you se
 
 - **All-day events** appear in the band at the top of each day. All-day events marked as busy or out of office shade the whole day.
 - **Recurring events** show a repeat icon.
-- **Past events** appear faded, and **cancelled events** are faded even more.
+- **Past events** appear faded, and **canceled events** are faded even more.
 - The colored stripe on the edge of each event reflects how you appear: busy, free, or out of office.
 
 Hover over an event to see its title and time.
