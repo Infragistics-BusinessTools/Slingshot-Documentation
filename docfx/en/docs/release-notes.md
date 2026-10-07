@@ -1,5 +1,19 @@
 # Release Notes
 
+### 1.0.3668 (October 2026)
+
+#### New Features
+
+- Goals: Set goals for your team and track progress toward them right where the work happens, so everyone can see how their tasks move the needle.
+
+- Automations: Put repetitive work on autopilot. Create rules that act on your tasks automatically, and trigger automations from your calendar events.
+
+- Planner: Connect your Microsoft Outlook calendar to see your meetings alongside your work. For Teams meetings, use the transcript to generate a summary and turn it into action items in a few clicks.
+
+- API and MCP Support: The Slingshot Public API and MCP server now cover Dashboards and Chat, and add WebSocket support so your integrations get real-time updates.
+
+- Interactive Chart Filtering: Click/tap on any part of a chart to filter the data by that value, then dig deeper without leaving the visualization.
+
 ### 1.0.3652 (August 28, 2026)
 
 #### New Features
