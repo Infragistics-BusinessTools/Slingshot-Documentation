@@ -11,7 +11,7 @@ Planner is personal. The events you see belong to your connected account, not to
 
 ## Opening Planner
 
-Click/tap on **Planner** in the side rail. Planner opens in **Week** view, scrolled to just before the current time.
+Click/tap on **Planner** in the side rail. By default, Planner opens in **Week** view, scrolled to just before the current time. If you've previously selected another view, Planner restores that view.
 
 ### Changing the View
 
