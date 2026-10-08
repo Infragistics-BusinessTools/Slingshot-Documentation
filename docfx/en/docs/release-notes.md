@@ -12,7 +12,7 @@
 
 - API and MCP Support: The Slingshot Public API and MCP server now cover Dashboards and Chat, and add WebSocket support so your integrations get real-time updates.
 
-- Interactive Chart Filtering: Click/tap on any part of a chart to filter the data by that value, then dig deeper without leaving the visualization.
+- Interactive Chart Filtering: Select a data point in a chart to filter the data by that value and explore the visualization without leaving it.
 
 ### 1.0.3652 (August 28, 2026)
 
