@@ -8,7 +8,7 @@
 
 - Automations: Create rules that act on your tasks automatically. For Microsoft Teams meetings on your connected Microsoft calendar, trigger automations when a meeting transcript becomes available.
 
-- Planner: Connect your Microsoft Outlook calendar to see your meetings alongside your work. For Teams meetings, use the transcript to generate a summary and turn it into action items in a few clicks.
+- Planner: Connect your Microsoft Outlook calendar to see your meetings alongside your work. For Teams meetings, use the transcript to generate a summary and create action items.
 
 - API and MCP Support: The Slingshot Public API and MCP server now cover Dashboards and Chat, and add WebSocket support so your integrations get real-time updates.
 
