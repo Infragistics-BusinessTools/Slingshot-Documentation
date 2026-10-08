@@ -6,7 +6,7 @@
 
 - Goals: Set and track personal, workspace, or organization goals. Monitor progress with manual check-ins or live dashboard data.
 
-- Automations: Put repetitive work on autopilot. Create rules that act on your tasks automatically, and trigger automations from your calendar events.
+- Automations: Create rules that act on your tasks automatically. For Microsoft Teams meetings on your connected Microsoft calendar, trigger automations when a meeting transcript becomes available.
 
 - Planner: Connect your Microsoft Outlook calendar to see your meetings alongside your work. For Teams meetings, use the transcript to generate a summary and turn it into action items in a few clicks.
 
