@@ -4,7 +4,7 @@
 
 #### New Features
 
-- Goals: Set goals for your team and track progress toward them right where the work happens, so everyone can see how their tasks move the needle.
+- Goals: Set and track personal, workspace, or organization goals. Monitor progress with manual check-ins or live dashboard data.
 
 - Automations: Put repetitive work on autopilot. Create rules that act on your tasks automatically, and trigger automations from your calendar events.
 
