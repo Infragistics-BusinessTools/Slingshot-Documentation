@@ -22,6 +22,14 @@ steps:
 - checkout: self
   clean: true
   submodules: true
+
+- task: NodeTool@0
+  inputs:
+    versionSpec: '20'
+  displayName: Install Node.js
+
+- script: node -v && npm -v
+  displayName: Show Node version
   
 - task: DeleteFiles@1
   inputs:
