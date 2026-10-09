@@ -83,8 +83,6 @@ The details panel shows the full description and the attendee list, grouped into
 > [!IMPORTANT]
 > **Slingshot Tip**: Keep the details panel open and click/tap on other events in the calendar. The panel updates to show each one, so you can review your day quickly.
 
-You can also right-click an event to **Copy link** or **Open in new window**.
-
 ## Meeting Recaps and Action Items
 
 For finished Microsoft Teams meetings, the details panel includes a **Recap** tab that uses the meeting transcript to help you follow up.
