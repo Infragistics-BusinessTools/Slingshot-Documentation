@@ -105,6 +105,9 @@
 - name: Automations
   href: automations.md
   new: true
+- name: Planner
+  href: planner.md
+  new: true
 - name: Productivity Tips
   header: true
 - name: Archives
