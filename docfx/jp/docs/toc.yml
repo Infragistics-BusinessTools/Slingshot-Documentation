@@ -23,7 +23,7 @@
   updated: false
 - name: どこからでも作成
   href: create-from-anywhere.md
-  new: true
+  new: false
 - name: 概要
   href: overviews.md
   new: false

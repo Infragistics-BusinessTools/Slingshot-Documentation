@@ -84,9 +84,9 @@
   href: sybase.md
 - name: TikTok Ads
   href: tiktokads.md
-  new: true
+  new: false
 - name: TikTok Organic
   href: tiktok-organic.md
-  new: true
+  new: false
 - name: ウェブ リソース
   href: web-resource.md
