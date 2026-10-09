@@ -1,5 +1,19 @@
 # Release Notes
 
+### 1.0.3668 (October 2026)
+
+#### New Features
+
+- Goals: Set and track personal, workspace, or organization goals. Monitor progress with manual check-ins or live dashboard data.
+
+- Automations: Create rules that act on your tasks automatically. For Microsoft Teams meetings on your connected Microsoft calendar, trigger automations when a meeting transcript becomes available.
+
+- Planner: Connect your Microsoft Outlook calendar to see your meetings alongside your work. For Teams meetings, use the transcript to generate a summary and create action items.
+
+- API and MCP Support: The Slingshot Public API and MCP server now cover Dashboards and Chat, and add WebSocket support so your integrations get real-time updates.
+
+- Interactive Chart Filtering: Select a data point in a chart to filter the data by that value and explore the visualization without leaving it.
+
 ### 1.0.3652 (August 28, 2026)
 
 #### New Features
