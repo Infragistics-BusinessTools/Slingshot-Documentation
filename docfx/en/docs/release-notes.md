@@ -1,5 +1,21 @@
 # Release Notes
 
+### 1.0.3684 (November 2026)
+
+#### New Features
+
+- New Slingshot Design: A refreshed Home, navigation, and themes. Sign in to see today's meetings, today's tasks, and what needs your attention before you open anything else. For now, you can switch back to the previous design in Settings.
+
+- Planner Outlook Sync: Create, edit, and cancel Outlook meetings right from Planner, including recurring meetings, and see each invitee's availability as you add them. Changes show up in Outlook for everyone invited.
+
+- Move to Your Work Account: Started Slingshot on a personal account? Send your workspaces and task lists to your company's Slingshot account, with their tasks, task types, and fields, so you don't have to rebuild them.
+
+- Goals Widget: Customize the Goals widget on Home and on dashboards. Filter or hand-pick the goals it shows, display them as a list or as cards with progress bars, and group them by cycle, owner, or status.
+
+- Zoom Meetings: Start a Zoom call from any private chat, alongside Microsoft Teams. Slingshot creates the meeting and posts the join link in the conversation.
+
+- API and MCP Support: The Slingshot Public API and MCP server now cover goals, goal check-ins, automations, calendar events, meetings, and transcripts.
+
 ### 1.0.3668 (October 2026)
 
 #### New Features

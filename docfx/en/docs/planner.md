@@ -1,11 +1,11 @@
 ---
 title: Planner
-_description: Use Planner in Slingshot to see your Microsoft Outlook events next to your work, join online meetings in one click, and turn Teams meeting transcripts into summaries and action items.
+_description: Use Planner in Slingshot to see your Microsoft Outlook events next to your work, create and edit Outlook meetings, join online meetings in one click, and turn Teams meeting transcripts into summaries and action items.
 ---
 
 # Planner
 
-With Planner, you can see your Microsoft Outlook events right inside Slingshot, alongside the work you're planning. Join online meetings with one click, review meeting details and attendees, and turn Teams meeting transcripts into summaries and action items.
+With Planner, you can see your Microsoft Outlook events right inside Slingshot, alongside the work you're planning. Create, edit, and cancel Outlook meetings without switching apps, join online meetings with one click, review meeting details and attendees, and turn Teams meeting transcripts into summaries and action items.
 
 Planner is personal. The events you see belong to your connected account, not to a workspace, so other members never see your calendar.
 
@@ -85,6 +85,55 @@ The details panel shows the full description and the attendee list, grouped into
 
 You can also right-click an event to **Copy link** or **Open in new window**.
 
+## Creating and Editing Meetings
+
+You can create, edit, and cancel Outlook meetings from Planner. Every change is saved to Outlook, so everyone you invite sees it there.
+
+> [!NOTE]
+> Creating and editing meetings works with Microsoft Outlook calendars. You can edit or cancel only the meetings you organized. The first time you save a meeting, Slingshot may ask you to allow it to edit your calendar.
+
+### Creating a Meeting
+
+1. Click/tap on **+ Event** on the Planner toolbar. You can also double-click an empty time slot on the calendar to start a meeting at that time.
+2. If you've connected more than one calendar, choose the calendar the meeting goes on.
+3. Enter a title.
+4. Click/tap on **Add Invitee** and pick teammates, or type any email address to invite someone outside Slingshot.
+5. Set the date and the start and end times, or check **All Day**.
+6. Optionally, add a location and a description, and turn on **Teams meeting** to add a Microsoft Teams link.
+7. Click/tap on **Save**.
+
+The meeting is created in Outlook, and invitations go out to everyone you invited.
+
+#### Seeing Who's Available
+
+As you add invitees, each person shows their availability for the time you picked: **Available**, **Busy**, **Tentative**, **Out of office**, or **Unknown**. When you change the time, their availability updates. Availability isn't shown for all-day meetings or meetings longer than 24 hours.
+
+#### Repeating Meetings
+
+Use **Repeat** to make the meeting repeat **Weekly**, **Bi-Weekly**, **Monthly**, or **Yearly**. For weekly meetings, choose the days of the week. Then set an **Until** date for when the series ends.
+
+### Editing a Meeting
+
+1. Open the meeting's details.
+2. Click/tap on **Update Meeting**, then choose **Edit meeting**.
+   For a recurring meeting, choose **Edit**, then **This event** to change only that occurrence, or **All events** to change the whole series.
+3. Make your changes, then click/tap on **Save**.
+
+When you add or remove invitees, Outlook sends them an update. If you leave the form with unsaved changes, Slingshot asks whether to save them first.
+
+> [!NOTE]
+> If someone changed the meeting in Outlook after you opened it, Slingshot asks you to close and reopen the meeting to get the latest version before saving.
+
+### Canceling a Meeting
+
+1. Open the meeting's details.
+2. Click/tap on **Update Meeting**, then choose **Cancel Meeting**.
+   For a recurring meeting, choose **Cancel**, then **This event** or **All events**.
+3. If the meeting has attendees, you can add a note that's included in the cancellation.
+4. Click/tap on **Send**.
+
+Everyone invited is notified that the meeting is canceled.
+
 ## Meeting Recaps and Action Items
 
 For finished Microsoft Teams meetings, the details panel includes a **Recap** tab that uses the meeting transcript to help you follow up.
@@ -110,6 +159,7 @@ Action items are shared with everyone in your organization who attended the meet
 
 ## Tips
 
+- **Double-click an empty slot** on the calendar to start a meeting at that time.
 - **Pick your view once**: Slingshot remembers your view and calendar selection everywhere you sign in.
 - **Use Work Week** to focus on business days.
 - **Add the Upcoming Events widget** to a personal Overview to see the next 30 days of events at a glance.

@@ -12,13 +12,14 @@ The Slingshot API lets you programmatically access and manage your Slingshot dat
 With the Slingshot API you can:
 
 - Read and update tasks, projects, and workspaces from external systems.
+- Read and write goals, goal check-ins, automations, calendar events, meetings, and transcripts.
 - Create automations that react to changes in your tools and reflect them in Slingshot.
 - Export data for reporting or sync it with third-party platforms.
 - Build custom apps and integrations tailored to your team's workflow.
 
 ## Who Can Use the API?
 
-The Slingshot API is available to all users on any Slingshot plan. API access requires a valid API token, which you can generate from your account settings.
+The Slingshot API is available to all users on any Slingshot plan. API access requires a valid API key, which you can create under **Settings** → **API Keys**.
 
 ## Getting Started
 

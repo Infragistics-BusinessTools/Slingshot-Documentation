@@ -231,14 +231,37 @@ Open a goal's overflow menu for more actions:
 
 You can also drag and drop goals to reorder them, or to move them into and out of a Strategy.
 
-## Goals on Overviews
+## Goals on Home and Overviews
 
-Keep your most important goals in front of your team by adding them to an overview. There are two goal widgets, found in the widget library under _Dashboards and Analytics_:
+Keep your most important goals in front of you and your team. There are two goal widgets, found in the widget library under _Dashboards and Analytics_:
 
 - **Goal**: track a single goal's progress, with its trend or key results when there's room.
-- **Goals**: pin several goals, objectives, and key results to see their progress at a glance.
+- **Goals**: show several goals, objectives, and key results with their progress at a glance.
+
+Your Home screen also includes a **My Goals** widget. By default, it lists all of your open goals: every goal you can see that isn't **Completed** or **Not Achieved**.
 
 You can also choose **Add to Overview** from a goal's overflow menu. Only overview owners can add widgets to an overview.
+
+### Customizing the Goals Widget
+
+You can choose which goals the Goals widget shows and how it shows them, on Home and on dashboards. Open the widget's menu, choose **Edit**, and set:
+
+| Setting | Options |
+|---|---|
+| **Visualization** | **List** or **Cards**. Cards show each goal with a progress bar. |
+| **Goals Source** | **Filter**: show the goals that match the filters you set, such as status or owner. **Hand-Picked**: choose specific goals with **Pick Goals**. |
+| **Group By** | **None**, **Cycle**, **Owner**, or **Status**. Available when the source is **Filter**. |
+| **Sort** | Sort the goals by one of their fields. |
+| **Fields** | Choose which columns the list shows. Available for **List**. |
+
+Each goal shows its progress, its status (**On Track**, **At Risk**, **Off Track**, or **Completed**), its owner, and the time left in its cycle.
+
+When you pick goals by hand, the picker opens on **All** so you can find a goal by name, followed by your personal goals and your workspaces.
+
+With **Filter** as the source, the goals come from where the widget lives: a workspace dashboard shows goals from the workspace and its projects, a project dashboard shows that project's goals, and Home shows every goal you can see.
+
+> [!NOTE]
+> Goals widgets added to dashboards before this update keep the goals you pinned to them.
 
 ## Goals with Slingshot AI
 
