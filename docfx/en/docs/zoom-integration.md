@@ -65,9 +65,9 @@ If you use Zoom again from a private chat later, Slingshot simply asks you to si
 
 ## Troubleshooting
 
-- **"Failed to generate online meeting."** The meeting could not be created. Try again in a few moments; if it keeps failing, remove the Zoom app under **Settings** → **Apps** and reconnect by using **Use Zoom** from a private chat.
+- **"Failed to generate online meeting."** The meeting couldn't be created. Wait a few moments and try again. If it keeps failing, remove the Zoom app under **Settings** → **Apps**, then reconnect by choosing **Use Zoom** from a private chat.
 
-- **You are asked to sign in to Zoom again.** Your Zoom session expired. Sign in and click/tap **Allow** to reconnect; your chats and previous meeting links are unaffected.
+- **You're asked to sign in to Zoom again.** Your Zoom session expired. Sign in and click/tap on **Allow** to reconnect. Your chats and earlier meeting links aren't affected.
 
 - **The browser window doesn't open when connecting.** Check that your browser allows pop-ups for Slingshot, then try **Use Zoom** again.
 
