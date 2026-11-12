@@ -128,6 +128,10 @@ Once your contribution to a project is completed or if priorities shift, you can
 
 This can be achieved by navigating to  the overflow icon next to the workspace name, and selecting **Leave Workspace**. You will not receive notifications for this workspace anymore, and you will no longer be able to access any of the content such as tasks or discussions.
 
+### Moving a Workspace to Your Work Account
+
+If you built a workspace on a personal account and your company now uses Slingshot, you can copy it into your work account. [Learn how to move to your work account](move-to-work-account.md).
+
 ### Deleting a Workspace
 
 There will be situations where the objective of the workspace is achieved, it is no longer needed or you are reorganizing. When this occurs, you can delete the workspace. Only a member with [Owner](#workspace-and-project-permissions) level permissions can delete a workspace.

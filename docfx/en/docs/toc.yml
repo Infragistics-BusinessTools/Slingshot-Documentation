@@ -23,6 +23,10 @@
 - name: Workspaces
   href: workspaces.md
   updated: false
+  items:
+    - name: Move to Your Work Account
+      href: move-to-work-account.md
+      new: true
 - name: Create From Anywhere
   href: create-from-anywhere.md
 - name: Overviews
@@ -84,6 +88,9 @@
     - name: Chat
       href: chat-faq.md
       updated:  false
+    - name: Zoom Integration
+      href: zoom-integration.md
+      new: true
 - name: Groups
   href: groups.md
   new: false
@@ -102,12 +109,14 @@
 - name: Goals
   href: goals.md
   new: true
+  updated: true
 - name: Automations
   href: automations.md
   new: true
 - name: Planner
   href: planner.md
   new: true
+  updated: true
 - name: Productivity Tips
   header: true
 - name: Archives

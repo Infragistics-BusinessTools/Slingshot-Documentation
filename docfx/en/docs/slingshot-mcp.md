@@ -17,6 +17,9 @@ With the Slingshot MCP Server, you can use your AI assistant to:
 - Search across your workspaces and projects for quick answers.
 - Summarize project status and generate progress updates.
 - Move tasks between projects and lists.
+- Find, create, and update goals, and add goal check-ins.
+- Create and manage automations.
+- Create, update, and cancel calendar events, and read your meetings and their transcripts.
 - Automate repetitive workflows by describing what you want in plain language.
 
 ## MCP Server URL
