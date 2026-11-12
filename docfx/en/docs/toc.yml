@@ -112,7 +112,6 @@
   updated: true
 - name: Automations
   href: automations.md
-  new: true
 - name: Planner
   href: planner.md
   new: true
