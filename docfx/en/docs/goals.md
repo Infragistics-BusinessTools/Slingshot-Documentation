@@ -244,7 +244,7 @@ You can also choose **Add to Overview** from a goal's overflow menu. Only overvi
 
 ### Customizing the Goals Widget
 
-You can choose which goals the Goals widget shows and how it shows them, on Home and on dashboards. Open the widget's menu, choose **Edit**, and set:
+You can choose which goals the Goals widget shows and how it shows them, on Home and on overviews. Open the widget's menu, choose **Edit**, and set:
 
 | Setting | Options |
 |---|---|
@@ -254,14 +254,14 @@ You can choose which goals the Goals widget shows and how it shows them, on Home
 | **Sort** | Sort the goals by one of their fields. |
 | **Fields** | Choose which columns the list shows. Available for **List**. |
 
-Each goal shows its progress, its status (**On Track**, **At Risk**, **Off Track**, or **Completed**), its owner, and the time left in its cycle.
+Each goal shows its progress, its status (**Not Started**, **On Track**, **At Risk**, **Off Track**, **Completed**, or **Not Achieved**), its owner, and the time left in its cycle.
 
 When you pick goals by hand, the picker opens on **All** so you can find a goal by name, followed by your personal goals and your workspaces.
 
-With **Filter** as the source, the goals come from where the widget lives: a workspace dashboard shows goals from the workspace and its projects, a project dashboard shows that project's goals, and Home shows every goal you can see.
+With **Filter** as the source, the goals come from where the widget lives: a workspace overview shows that workspace's goals, and Home shows every goal you can see.
 
 > [!NOTE]
-> Goals widgets added to dashboards before this update keep the goals you pinned to them.
+> Goals widgets added to overviews before this update keep the goals you pinned to them.
 
 ## Goals with Slingshot AI
 

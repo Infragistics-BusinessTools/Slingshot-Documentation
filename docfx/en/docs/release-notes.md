@@ -10,7 +10,7 @@
 
 - Move to Your Work Account: Started Slingshot on a personal account? Send your workspaces and task lists to your company's Slingshot account, with their tasks, task types, and fields, so you don't have to rebuild them.
 
-- Goals Widget: Customize the Goals widget on Home and on dashboards. Filter or hand-pick the goals it shows, display them as a list or as cards with progress bars, and group them by cycle, owner, or status.
+- Goals Widget: Customize the Goals widget on Home and on overviews. Filter or hand-pick the goals it shows, display them as a list or as cards with progress bars, and group them by cycle, owner, or status.
 
 - Zoom Meetings: Start a Zoom call from any private chat, alongside Microsoft Teams. Slingshot creates the meeting and posts the join link in the conversation.
 
