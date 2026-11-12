@@ -9,7 +9,7 @@ With the Zoom integration, you can start a Zoom call without leaving Slingshot. 
 
 ## Adding the Zoom App
 
-You don't need to set anything up in advance — Slingshot connects your Zoom account the first time you use it.
+You don't need to set anything up in advance. Slingshot connects your Zoom account the first time you use it.
 
 1. Open a private chat with a teammate.
 
@@ -24,7 +24,7 @@ You don't need to set anything up in advance — Slingshot connects your Zoom ac
 6. You are returned to Slingshot, and your Zoom account is now connected.
 
 > [!NOTE]
-> The integration works with any Zoom account — a paid Zoom plan is not required. Your Zoom meetings keep the settings and limits of your own Zoom plan.
+> The integration works with any Zoom account, and a paid Zoom plan is not required. Your Zoom meetings keep the settings and limits of your own Zoom plan.
 
 If something goes wrong while connecting, see [Troubleshooting](#troubleshooting) below.
 
@@ -38,10 +38,10 @@ Once your Zoom account is connected, starting a call takes seconds:
 
 3. Everyone in the chat can click/tap **Join Call** to open the Zoom meeting.
 
-You won't be asked to sign in to Zoom again — Slingshot remembers your connected account. You can see which Zoom account is connected at any time under **Settings** → **Apps**, where the Zoom entry shows the account's name and email address.
+You won't be asked to sign in to Zoom again, because Slingshot remembers your connected account. You can see which Zoom account is connected at any time under **Settings** → **Apps**, where the Zoom entry shows the account's name and email address.
 
 > [!NOTE]
-> **Slingshot Tip**: The meeting link is a regular Zoom link — participants who are not Slingshot users can join too if you share the link with them.
+> **Slingshot Tip**: The meeting link is a regular Zoom link, so participants who are not Slingshot users can join too if you share the link with them.
 
 ### What Slingshot stores
 
@@ -57,7 +57,7 @@ You can disconnect your Zoom account from Slingshot at any time:
 
 3. Confirm the removal.
 
-When you remove the integration, Slingshot deletes the stored Zoom credentials and your Zoom account details immediately. Meeting links that were already posted in chats keep working, because the meetings belong to your Zoom account — you can manage or delete them from your Zoom portal at any time.
+When you remove the integration, Slingshot deletes the stored Zoom credentials and your Zoom account details immediately. Meeting links that were already posted in chats keep working, because the meetings belong to your Zoom account. You can manage or delete them from your Zoom portal at any time.
 
 To also remove Slingshot from the Zoom side, sign in to the [Zoom App Marketplace](https://marketplace.zoom.us/), open **Manage** → **Added Apps**, find **Slingshot**, and click/tap **Remove**.
 
@@ -65,10 +65,10 @@ If you use Zoom again from a private chat later, Slingshot simply asks you to si
 
 ## Troubleshooting
 
-- **"Failed to generate online meeting."** — The meeting could not be created. Try again in a few moments; if it keeps failing, remove the Zoom app under **Settings** → **Apps** and reconnect by using **Use Zoom** from a private chat.
+- **"Failed to generate online meeting."** The meeting could not be created. Try again in a few moments; if it keeps failing, remove the Zoom app under **Settings** → **Apps** and reconnect by using **Use Zoom** from a private chat.
 
-- **You are asked to sign in to Zoom again.** — Your Zoom session expired. Sign in and click/tap **Allow** to reconnect; your chats and previous meeting links are unaffected.
+- **You are asked to sign in to Zoom again.** Your Zoom session expired. Sign in and click/tap **Allow** to reconnect; your chats and previous meeting links are unaffected.
 
-- **The browser window doesn't open when connecting.** — Check that your browser allows pop-ups for Slingshot, then try **Use Zoom** again.
+- **The browser window doesn't open when connecting.** Check that your browser allows pop-ups for Slingshot, then try **Use Zoom** again.
 
-For anything else, reach out to us through the in-app feedback option — see [Feedback](feedback.md).
+For anything else, reach out to us through the in-app feedback option. See [Feedback](feedback.md).

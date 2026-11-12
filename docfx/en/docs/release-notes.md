@@ -62,7 +62,7 @@
 
 - Task Multi-Select Edit & Move: Select multiple tasks to bulk-edit their fields or move them to another list in a single action.
 
-- Write with AI: Generate or rewrite text with AI right inside any rich text editor — task descriptions, chat, discussions, and more.
+- Write with AI: Generate or rewrite text with AI right inside any rich text editor, such as task descriptions, chat, discussions, and more.
 
 #### Improvements and Bug Fixes
 
