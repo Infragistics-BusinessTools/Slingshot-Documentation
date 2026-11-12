@@ -21,6 +21,10 @@
 - name: ワークスペース
   href: workspaces.md
   updated: false
+  items:
+    - name: 仕事用アカウントに移行
+      href: move-to-work-account.md
+      new: true
 - name: どこからでも作成
   href: create-from-anywhere.md
   new: false
@@ -71,6 +75,9 @@
     - name: チャット
       href: chat-faq.md
       updated:  false
+    - name: Zoom Integration
+      href: zoom-integration.md
+      new: true
 - name: グループ
   href: groups.md
   new: false
@@ -86,6 +93,17 @@
 - name: ブックマーク
   href: bookmarks.md
   new: false
+- name: 目標
+  href: goals.md
+  new: true
+  updated: true
+- name: 自動化
+  href: automations.md
+  new: true
+- name: Planner
+  href: planner.md
+  new: true
+  updated: true
 - name: 生産性向上のヒント
   header: true
 - name: アーカイブ
